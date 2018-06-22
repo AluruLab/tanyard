@@ -1,0 +1,48 @@
+Investigation Title	Transcription profiling of wild type and transgenic msi1-tap1 plants at two time points at the age of 8 days	
+Comment[Submitted Name]	Hennig Arabidopsis msi1-tap1	
+Experimental Design	individual_genetic_characteristics_design	transcription profiling by array	
+Experimental Design Term Source REF		EFO	
+Comment[ArrayExpressReleaseDate]	2006-12-10	
+Comment[AEMIAMESCORE]	4	
+Comment[ArrayExpressAccession]	E-MEXP-513	
+Comment[MAGETAB TimeStamp_Version]	2010-08-11 14:42:28 Last Changed Rev: 13058	
+Experimental Factor Name	genotype	time	
+Experimental Factor Type	genotype	time	
+Experimental Factor Term Source REF	
+Person Last Name	Hennig	
+Person First Name	Lars	
+Person Mid Initials	
+Person Email	lhennig@ethz.ch	
+Person Phone	41 44 632 2244	
+Person Fax	
+Person Address	
+Person Affiliation	Institute of Plant Sciences, ETH Zurich	
+Person Roles	submitter	
+Person Roles Term Source REF		
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2006-12-10	
+PubMed ID	16554362	
+Publication DOI	16554362	
+Publication Author List	Bouveret R, Schonrock N, Gruissem W, Hennig L.	
+Publication Title	Regulation of flowering time by Arabidopsis MSI1	
+Publication Status	journal_article	
+Publication Status Term Source REF	
+Experiment Description	Wild type and transgenic msi1-tap1 plants were grown and gene expression was compared at two time points at the age of 8 days.	
+Protocol Name	P-MEXP-16146	P-MEXP-16111	P-MEXP-16147	P-AFFY-2	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6	P-MEXP-16148	
+Protocol Type	grow	nucleic_acid_extraction	pool	labeling	hybridization	feature_extraction	bioassay_data_transformation	
+Protocol Description	Seedlings of Arabidopsis thaliana (L.) Heynh. (accession Columbia) were grown on MS medium for 8 days in growth chambers at 21 C under long day photoperiods (16 h light, 8 h darkness). The entire experiment was performed twice providing independent biological replicates. Samples were compared at 4 h and 21 h from the beginning of the light period.	RNA was extracted using TRIzol (Invitrogen) according to manufacturers protocol followed by a clean-up on Quiagen RNeasy columns.	Seedlings were pooled from 3 individual plates for each replicate.	Title: Affymetrix in vitro transcription. Description: 	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	GCRMA as included in the R package.	
+Protocol Parameters	max temperature;min temperature;stop time;start time;	Amplification;Extracted product;	
+Protocol Hardware	
+Protocol Software					MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact	
+Protocol Term Source REF					mo		The MGED Ontology	
+SDRF File	E-MEXP-513.sdrf.txt	
+Term Source Name	mo		ncbitax	tair_dev:1.27	ArrayExpress	EFO	mo	The MGED Ontology	
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php		http://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html	http://www.arabidopsis.org/info/ontologies/	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version				1.27					

@@ -1,0 +1,51 @@
+Investigation Title	Transcription profiling of Arabidopsis exposed to red light illumination with and without lincomycin							
+Comment[Submitted Name]	red illumination w/o lincomycin							
+Experimental Design	unknown_experiment_design_type	transcription profiling by array						
+Experimental Design Term Source REF		EFO						
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis treated with lincomycin and exposed to red light							
+Comment[AEMIAMESCORE]	3							
+Comment[ArrayExpressReleaseDate]	2008-06-14							
+Comment[SecondaryAccession]	GSE5759							
+Comment[ArrayExpressAccession]	E-GEOD-5759							
+Comment[MAGETAB TimeStamp_Version]	2010-08-06 17:36:07 Last Changed Rev: 13058							
+Experimental Factor Name	COMPOUND	GROWTH CONDITION						
+Experimental Factor Type	compound	growth_condition						
+Experimental Factor Term Source REF								
+Person Last Name	Hong							
+Person First Name	Fangxin							
+Person Mid Initials								
+Person Email	fhong@salk.edu							
+Person Phone								
+Person Fax								
+Person Address	Plant Biology Laboratory, The Salk Institute for Biological Studies, 10010 N. Torrey Pines Road., La Jolla, 92037, USA							
+Person Affiliation	The Salk Institute for Biological Studies							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Quality Control Type								
+Quality Control Term Source REF								
+Replicate Type								
+Replicate Term Source REF								
+Normalization Type								
+Normalization Term Source REF								
+Date of Experiment								
+Public Release Date	2008-06-14							
+PubMed ID								
+Publication DOI								
+Publication Author List								
+Publication Title								
+Publication Status								
+Publication Status Term Source REF								
+Experiment Description	To identify putative regulatory elements enriched in the promoters of target genes of the PGE-dependent retrograde signaling pathway, we analyzed 500 bp regions of sequence upstream of genes whose expression was down-regulated by lincomycin. We treated dark-grown Arabidopsis seedlings with lincomycin, sampled them before or after a short illumination and examined the genomic response using Affymetrix ATH1 oligonucleotide microarrays. Differentially regulated genes were ranked based on descending degree of significance (p-value) and the top 50 genes affected by lincomycin in dark grown seedlings and top 50 genes affected by the antibiotic after illumination were selected for further analysis. Experiment Overall Design: 2*2 factorial design, two variables are (1) with/without lincomycin treatment (2) with/without red  illumination. There are 2 replicates for each condition.							
+Protocol Name	P-G5759-2	P-G5759-5	P-G5759-1	P-G5759-6	P-G5759-4	P-G5759-3	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6
+Protocol Type	specified_biomaterial_action	specified_biomaterial_action	grow	grow	nucleic_acid_extraction	labeling	hybridization	feature_extraction
+Protocol Description	Seeds were surface sterilized and plated on 1/2 Murashige Skoog (MS) medium containing 1% sucrose  without 220 Â&#956;g/ml lincomycin.	Seeds were surface sterilized and plated on 1/2 Murashige Skoog (MS) medium containing 1% sucrose  with 220 Â&#956;g/ml lincomycin.	Seedlings were grown at 21C, in darkness and tissue was collected before a 30 min red light treatment	Seedlings were grown at 21C, in darkness and tissue was collected after a 30 min red light treatment	RNA was extracted with the RNeasy kit (Qiagen; Hilden, Germany)	Affymetrix protocol	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 
+Protocol Parameters								
+Protocol Hardware								
+Protocol Software							MicroArraySuite 5.0	MicroArraySuite 5.0
+Protocol Contact								
+Protocol Term Source REF							mo	
+SDRF File	E-GEOD-5759.sdrf.txt							
+Term Source Name	NCBI Taxonomy		The MGED Ontology	ArrayExpress	EFO	mo		
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php		
+Term Source Version								

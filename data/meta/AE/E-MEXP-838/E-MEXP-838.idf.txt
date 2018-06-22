@@ -1,0 +1,50 @@
+Investigation Title	Transcription profiling of wild type and serrate-1 mutant Arabidopsis seedlings to investigate regulation of miRNA levels									
+Comment[Submitted Name]	SERRATE a new player on the plant miRNA scene									
+Experimental Design	strain_or_line_design	transcription profiling by array								
+Experimental Design Term Source REF	mo	EFO								
+Comment[ArrayExpressReleaseDate]	2006-09-18									
+Comment[AEMIAMESCORE]	5									
+Comment[ArrayExpressAccession]	E-MEXP-838									
+Comment[AEExperimentType]	transcription profiling by array									
+Comment[AEExperimentDisplayName]	Transcription profiling by array of serrate-1 mutant Arabidopsis seedlings 									
+Comment[MAGETAB TimeStamp_Version]	2010-10-25 15:15:09 Last Changed Rev: 14857									
+Experimental Factor Name	genotype									
+Experimental Factor Type	genotype									
+Experimental Factor Term Source REF										
+Person Last Name	hadfield									
+Person First Name	james									
+Person Mid Initials										
+Person Email	james.hadfield@bbsrc.ac.uk									
+Person Phone	1603450830									
+Person Fax										
+Person Address	colney lane									
+Person Affiliation	genome laboratory									
+Person Roles	submitter									
+Person Roles Term Source REF										
+Quality Control Type	biological_replicate									
+Quality Control Term Source REF	The MGED Ontology									
+Replicate Type										
+Replicate Term Source REF										
+Normalization Type										
+Normalization Term Source REF										
+Date of Experiment										
+Public Release Date	2006-09-18									
+PubMed ID	16977334									
+Publication DOI	10.1038/sj.embor.7400806									
+Publication Author List	Lobbes D, Rallapalli G, Schmidt DD, Martin C, Clarke J									
+Publication Title	SERRATE: a new player on the plant microRNA scene									
+Publication Status	published									
+Publication Status Term Source REF										
+Experiment Description	microRNAs function as sequence-specific guides to regulate genes by post-transcriptional gene silencing. Many miRNAs are involved in the control plant development by regulating the accumulation of transcripts encoding transcription factors. This causes pleiotropic developmental phenotypes of mutants defective in miRNA accumulation, such as dcl1, hen1, hyl1 and ago1. The serrate-1 (se-1) mutant of Arabidopsis also exhibits a highly pleiotropic phenotype which overlaps with phenotypes of mutants defective in miRNA accumulation. It has been proposed that SE functions specifically in miRNA-mediated repression of the leaf polarity genes PHABULOSA and PHAVOLUTA. Microarray analysis of transcript levels in se-1 compared to wild-type however revealed upregulation of many genes known to be targets of miRNA regulation. We show that SE is a general regulator of miRNA levels probably controlling processing of pri-miRNA to miRNA.									
+Protocol Name	P-MEXP-25407	P-MEXP-25409	P-MEXP-8187	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6	Affymetrix:Protocol:ExpressionStat				
+Protocol Type	grow	nucleic_acid_extraction	labeling	hybridization	feature_extraction	bioassay_data_transformation				
+Protocol Description	Arabidopsis thaliana seedlings (ecotype Col-4) were surface sterilised and sown on GM medium (= MS medium without sucrose) containing Gamborgs Vitamin Solution (Sigma). Seedlings were grown under long-day conditions (16 hr light, 8 hr dark) at 20°C for 10 days. All samples from 10-day-old seedlings and all aerial parts (leaves, cotyledons and hypocotyls) were used for total RNA isolation.	Total RNA was extracted from 10-day-old wild-type and se-1 mutant seedlings using TRI Reagent (Sigma) following the instructions of the manufacturer. Total RNA samples were further cleaned using RNAeasy mini-columns (Qiagen).	Starting total RNA quality was assessed by running 1ul of each RNA sample on Agilent RNA6000nano LabChips (Agilent Technology 2100 Bioanalyzer Version A.01.20 SI211). Total RNA quantity was assessed by running 1ul of each RNA sample on a NanoDrop ND-1000 UV-Vis Spectrophotometer (Nanodrop Technologies). First strand cDNA synthesis was performed according to the Affymetrix Manual II, using 5ug of total RNA. Second strand cDNA synthesis was performed with minor modifications to the Affymetrix Manual II. Brieflly, cDNA termini were not blunt ended and the reaction was not terminated using EDTA. Instead Double-stranded cDNA products were immediately purified following the ÂPhase Lock Gel Cleanup of Double-Stranded cDNA protocol (Affymetrix Manual II). cDNA was resuspended in 22ul of RNAse free water. cRNA preparation was performed with minor modifications to the Affymetrix Manual II.  Briefly, 11ul of cDNA was used as a template to produce biotinylated cRNA using half the recommended volumes of the ENZO BioArray High Yield RNA Transcript Labeling Kit. Labelled cRNAs were purified following the ÂQiagen RNeasy Cleanup and Quantification of Biotin-Labeled cRNAÂ protocol (Affymetrix Manual II). cRNA quality was assessed by on Agilent RNA6000nano LabChips (Agilent Technology 2100 Bioanalyzer Version A.01.20 SI211). cRNA quantity was assessed by running 1ul of each cRNA sample on a NanoDrop ND-1000 UV-Vis Spectrophotometer (Nanodrop Technologies).	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description:				
+Protocol Parameters	start time;stop time;min temperature;max temperature;	Amplification;Extracted product;	Label used;Amplification;Amount of nucleic acid labeled;							
+Protocol Hardware										
+Protocol Software				MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 5.0				
+Protocol Contact										
+Protocol Term Source REF				mo		The MGED Ontology				
+SDRF File	E-MEXP-838.sdrf.txt									
+Term Source Name	mo		tair_dev:1.27	ncbitax	NCI_thesaurus	The MGED Ontology	ArrayExpress	The MGED Ontology	mo	EFO
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php		http://www.arabidopsis.org/info/ontologies/	http://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html	ncithesaurus.obo.alt	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/
+Term Source Version			1.27							

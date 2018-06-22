@@ -1,0 +1,28 @@
+Comment[ArrayExpressAccession]	E-GEOD-51692
+MAGE-TAB Version	1.1					
+Public Release Date	2014-10-10
+Investigation Title	Iron-deficiency-induced changes in wild type and IRP1overexpressed transgenic Arabidopsis plants					
+Comment[Submitted Name]	Iron-deficiency-induced changes in wild type and IRP1overexpressed transgenic Arabidopsis plants
+Experiment Description	a novel orphan peptide, IRON-REGULATED PROTEIN1 (IRP1) that is rapidly induced by Fe deficiency and improves growth on Fe-deplete media. In Arabidopsis, ectopic expression of IRP1 affected the activity of several genes involved in Fe acquisition and homeostasis, causing a dramatic increase of Fe in leaves and enhanced seed Fe loading. Heterologous expression of IRP1 in tomato plants resulted in increased Fe levels in fruits. Integration of AtIRP1 into the genome of crop plants may represent a novel strategy for Fe biofortification. wild type Col-0 and transgenic overexpressor IRP1-OE plants were grown under normal conditions or subjected to and iron-starvation for 3 days. Roots and shoots were collected with 3 biological replicates.					
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl				
+Person Last Name	Schmidt	Li	Lan	Schmidt		
+Person First Name	Wolfgang	Wenfeng	Ping	Wolfgang		
+Person Email	wosh@gate.sinica.edu.tw					
+Person Affiliation	Academia Sinica					
+Person Phone	+886-2-2787-1162					
+Person Address	Institute of Plant and Microbial Biology, Academia Sinica, No. 128, Sec 2, Academia Rd, Nankang, Taipei, Taiwan					
+Person Roles	submitter					
+Protocol Name	P-GSE51692-1	P-GSE51692-4	P-GSE51692-5	P-GSE51692-2	P-GSE51692-3	P-GSE51692-6
+Protocol Description	The results were quantified and analyzed by use of Genespring ver10. ID_REF =  VALUE = GeneSpring normalized signal (Entities where at least 100 percent of samples in any 1 out of 6 conditions have values within cut-off)	Ten microgram of total RNA was used for cDNA synthesis, labeled by in vitro transcription, followed by fragmentation according to the manufacturer's suggestion (GeneChip Expression Analysis Technical Manual rev5, Affymetrix	Ten microgram labeled samples were hybridized to the ATH1 Genome Array at 45℃ for 16.5 h. Washing and staining involved Fluidic Station-450 and the ATH1 Genome	10-day old seedlings were transferred to ES (+Fe) and ES without addition of FeEDTA (–Fe) medium and grown for 3 days, respectively. Tissues were harvested and immediately frozen in liquid nitrogen transfer.	Total RNA was extracted with Qiagen RNeasy mini kit	Array was scanned with the Affymetrix GeneChip Scanner 7G
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	GENOTYPE	ORGANISM PART				
+Experimental Factor Type	genotype	organism part				
+Comment[SecondaryAccession]	GSE51692					
+Comment[GEOReleaseDate]	2014-10-10					
+Comment[ArrayExpressSubmissionDate]	2013-10-25					
+Comment[GEOLastUpdateDate]	2014-10-10					
+Comment[AEExperimentType]	transcription profiling by array					
+Comment[AdditionalFile:Data1]	GSE51692_IRP1_all_entities_root.txt					
+Comment[AdditionalFile:Data2]	GSE51692_IRP1_all_entities_shoot.txt					
+SDRF File	E-GEOD-51692.sdrf.txt

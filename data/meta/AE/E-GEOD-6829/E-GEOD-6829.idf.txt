@@ -1,0 +1,51 @@
+Investigation Title	Transcription profiling of Arabidopsis wild type and WRKY T-DNA knockout mutants challenged with Pseudomonas syringae				
+Comment[Submitted Name]	Group II-A WRKY transcription factors and early leaf senescence				
+Experimental Design	unknown_experiment_design_type	transcription profiling by array			
+Experimental Design Term Source REF		EFO			
+Comment[AEExperimentType]	transcription profiling by array				
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for WRKY after treatment with Pseudomonas syringae				
+Comment[ArrayExpressReleaseDate]	2008-06-15				
+Comment[SecondaryAccession]	GSE6829				
+Comment[AEMIAMESCORE]	3				
+Comment[ArrayExpressAccession]	E-GEOD-6829				
+Comment[MAGETAB TimeStamp_Version]	2010-08-07 16:08:04 Last Changed Rev: 13058				
+Experimental Factor Name	GENOTYPE	TREATMENT			
+Experimental Factor Type	genotype	treatment			
+Experimental Factor Term Source REF					
+Person Last Name	(NASC)				
+Person First Name	Nottingham Arabidopsis Stock Centre				
+Person Mid Initials					
+Person Email	affy@arabidopsis.info				
+Person Phone					
+Person Fax					
+Person Address	School of Biosciences, University of Nottingham, Nottingham Arabidopsis Stock Centre (NASC), Sutton Bonington Campus, Loughborough, LE12 5RD, United Kingdom				
+Person Affiliation	Nottingham Arabidopsis Stock Centre (NASC)				
+Person Roles	submitter				
+Person Roles Term Source REF					
+Quality Control Type					
+Quality Control Term Source REF					
+Replicate Type					
+Replicate Term Source REF					
+Normalization Type					
+Normalization Term Source REF					
+Date of Experiment					
+Public Release Date	2008-06-15				
+PubMed ID					
+Publication DOI					
+Publication Author List					
+Publication Title					
+Publication Status					
+Publication Status Term Source REF					
+Experiment Description	In our laboratory we are interested in studying the functions of WRKY zinc finger type transcription factors. There are 74 members of this gene family in Arabidopsis. WRKY factors are key regulators of distinct plant defense responses and are involved in certain developmental programs e.g. trichome development and plant leaf senescence. We would like to determine the functions of a small sub-group (group II-a) of WRKY factors in response to bacterial infection. Our aim is to compare and contrast the gene expression profiles of 3-week-old wild type and WRKY T-DNA knockout mutants grown in a growth chamber under long day growth conditions and subsequently challenged for 6 hours with the virulent bacterial pathogen /Pseudomonas syringae/ DC3000. Experimenter name: Bekir Uelker; Experimenter phone: 49-221-5062-310; Experimenter fax: 49-221-5062-353; Experimenter department: Somsissich Lab; Experimenter institute: Max-Planck-Institute for Plant Breeding Research; Experimenter address: Department of Plant Microbe Interactions; Experimenter address: Carl-von-Linne-Weg 10; Experimenter address: Cologne; Experimenter zip/postal_code: 50829; Experimenter country: Germany Experiment Overall Design: 7 samples were used in this experiment				
+Protocol Name	P-G6829-2	P-G6829-1	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6	
+Protocol Type	nucleic_acid_extraction	labeling	hybridization	feature_extraction	
+Protocol Description	standard NASC extraction protocol	standard NASC labeling protocol	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	
+Protocol Parameters					
+Protocol Hardware					
+Protocol Software			MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact					
+Protocol Term Source REF			mo		
+SDRF File	E-GEOD-6829.sdrf.txt				
+Term Source Name	NCBI Taxonomy	The MGED Ontology	ArrayExpress	EFO	mo
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version					

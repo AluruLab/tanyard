@@ -1,0 +1,48 @@
+Comment[ArrayExpressAccession]	E-MTAB-3090
+MAGE-TAB Version	1.1			
+Investigation Title	Differential gene expression in mutants of Arabidopsis FAX1 compared to wild type			
+Comment[Submitted Name]	Differential gene expression in mutants of Arabidopsis FAX1 compared to wild type
+Experiment Description	DNA microarray analysis (Affymetrix ATH1 GeneChip) on mutant lines of the gene At-FAX1 (At3g57280) in Arabidopsis thaliana was performed as described in Li et al. (2015). In total we analyzed the following comparisons: (A) flowers: fax1 knockout (n = 5) versus wild type (n = 5); (B) flowers: FAX1 over-expressors (n = 8, 4-times each line ox#2, ox#4) versus wild type (n = 5); (C) stems: fax1 knockout (n = 4) versus wild type (n = 4).  Additional files containing processed data are provided (see  http://www.ebi.ac.uk/arrayexpress/files/E-MTAB-3090).			
+Experimental Design	strain or line design			
+Experimental Design Term Source REF	EFO			
+Experimental Design Term Accession Number	EFO_0001754			
+Experimental Factor Name	organism part	genotype		
+Experimental Factor Type	organism part	genotype		
+Experimental Factor Term Source REF		EFO		
+Experimental Factor Term Accession Number		EFO_0000513		
+Person Last Name	Philippar			
+Person First Name	Dr. Katrin			
+Person Mid Initials				
+Person Email	philippar@lmu.de			
+Person Phone				
+Person Fax				
+Person Address	Biozentrum der LMU München Department Biologie I Großhadernerstr. 2-4 D-82152 Planegg-Martinsried Germany			
+Person Affiliation	Biochemie und Physiologie der Pflanzen, Department Biologie I - Botanik,  Ludwig-Maximilians-Universität München, Planegg-Martinsried, Germany			
+Person Roles	experiment performer;investigator;submitter			
+Date of Experiment	2014-11-14			
+Public Release Date	2015-02-09			
+PubMed ID				
+Publication DOI	10.1371/journal.pbio.1002053			
+Publication Author List	Li, N., Gügel, I, Giavalisco, P., Zeisler, V., Schreiber, L., Soll, J., and Philippar, K			
+Publication Title	FAX1, a novel membrane protein mediating plastid fatty acid export			
+Publication Status	published			
+Publication Status Term Source REF	EFO			
+Publication Status Term Accession Number	EFO_0001794			
+Protocol Name	P-MTAB-42166	P-MTAB-42167	P-MTAB-42168	P-MTAB-42169
+Protocol Type	normalization data transformation protocol	sample collection protocol	nucleic acid labeling protocol	nucleic acid hybridization to array protocol
+Protocol Term Source REF	EFO	EFO	EFO	EFO
+Protocol Term Accession Number	EFO_0003816	EFO_0005518	EFO_0003813	EFO_0003815
+Protocol Description	DNA microarray analysis (Affymetrix ATH1 GeneChip) on mutant lines of the gene At-FAX1 (At3g57280) in Arabidopsis thaliana was performed as described in Li et al. (2015). Raw signal intensity values (CEL files) were computed from the scanned array images using the Affymetrix GeneChip Command Console 3.0. For quality check and normalization, the raw intensity values were processed with Robin software (Lohse et al., 2010) default settings as described (Duy et al., 2011). Specifically, for background correction, the robust multiarray average normalization method (Irizarry et al., 2003) was performed across all arrays (between-array method). Statistical analysis of differential gene expression of mutant versus wild-type samples was carried out using the linear model-based approach developed by (Smyth, 2004). In total we analyzed the following comparisons: (A) flowers: fax1 knockout (n = 5) versus wild type (n = 5); (B) flowers: FAX1 over-expressors (n = 8, 4-times each line ox#2, ox#4) versus wild type (n = 5); (C) stems: fax1 knockout (n = 4) versus wild type (n = 4). The obtained P values were corrected for multiple testing using the nestedF procedure, applying a significance threshold of 0.05 in combination with the Benjamini and Hochberg false-discovery rate control (Benjamini and Hochberg, 1995).  References Benjamini Y, Hochberg Y (1995) Controlling the false discovery rate: a practical and powerful approach to multiple testing. J R Stat Soc B 57: 289-300. Duy D, Stübe R, Wanner G, Philippar K (2011) The Chloroplast Permease PIC1 Regulates Plant Growth and Development by Directing Homeostasis and Transport of Iron. Plant Physiol 155: 1709-1722. Irizarry RA, Hobbs B, Collin F, Beazer-Barclay YD, Antonellis KJ, et al. (2003) Exploration, normalization, and summaries of high density oligonucleotide array probe level data. Biostatistics 4: 249-264. Li, N, Gügel, I, Giavalisco, P, Zeisler, V, Schreiber, L, Soll, J, Philippar, K (2015). FAX1, a novel membrane protein mediating plastid fatty acid export. PLOS Biology, tentatively accepted. Lohse M, Nunes-Nesi A, Kruger P, Nagel A, Hannemann J, et al. (2010) Robin: an intuitive wizard application for R-based expression microarray quality assessment and analysis. Plant Physiol 153: 642-651. Smyth GK (2004) Linear models and empirical bayes methods for assessing differential expression in microarray experiments. Stat Appl Genet Mol Biol 3: Article 3.	For DNA microarray analysis, we used mutant lines of the gene At-FAX1 (At3g57280) in Arabidopsis thaliana (Li et al., 2015). Tissue from flowers (stage 10-15 according to Smyth et al. [1990]) and from the 2nd to 4th internode of primary inflorescent stalks for each harvest was pooled from more than 10 individual 7-week-old plants and used for preparation of RNA samples by the Plant RNeasy Extraction kit (Qiagen). RNA (200 ng) of four to five independently harvested samples (n = 4-5) from wild type (Col-0 and WT2, segregated from heterozygous fax1-2), fax1 knockout (fax1-1 and fax1-2 lines) as well as FAX1 over-expressors (ox#2 and ox#4 lines) was processed and hybridized to Affymetrix GeneChip Arabidopsis ATH1 Genome Arrays using the Affymetrix 3’-IVT Express and Hybridisation Wash and Stain kits (Affymetrix, High Wycombe, UK) according to the manufacturer`s instructions.   References Li, N, Gügel, I, Giavalisco, P, Zeisler, V, Schreiber, L, Soll, J, Philippar, K (2015). FAX1, a novel membrane protein mediating plastid fatty acid export. PLOS Biology, tentatively accepted. Smyth DR, Bowman JL, Meyerowitz EM (1990) Early Flower Development in Arabidopsis. Plant Cell 2: 755-767.	RNA (200 ng) was processed and biotin-labeled using the Affymetrix 3’-IVT Express kit (Affymetrix, High Wycombe, UK) according to the manufacturer`s instructions.	Hybridization to Affymetrix GeneChip Arabidopsis ATH1 Genome Arrays was performed using the Affymetrix Hybridisation Wash and Stain kits (Affymetrix, High Wycombe, UK) according to the manufacturer`s instructions.
+Protocol Hardware				
+Protocol Software				
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/		
+Term Source Version				
+Comment[AdditionalFile:txt]	A1_fax1ko_flower_up.txt			
+Comment[AdditionalFile:txt]	A2_fax1ko_flower_down.txt			
+Comment[AdditionalFile:txt]	B1_FAX1ox_flower_up.txt			
+Comment[AdditionalFile:txt]	B2_FAX1ox_flower_down.txt			
+Comment[AdditionalFile:txt]	C1_fax1-ko_stem_up.txt			
+Comment[AdditionalFile:txt]	C2_fax1-ko_stem_down.txt			
+Comment[AEExperimentType]	transcription profiling by array			
+SDRF File	E-MTAB-3090.sdrf.txt

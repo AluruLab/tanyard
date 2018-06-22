@@ -1,0 +1,49 @@
+Investigation Title	Transcription profiling of ethylene induced hyponastic growth in Arabidopsis thaliana													
+Comment[Submitted Name]	Ethylene induced hyponastic growth in Arabidopsis thaliana													
+Experimental Design	growth_condition_design	transcription profiling by array												
+Experimental Design Term Source REF	mo	EFO												
+Comment[ArrayExpressReleaseDate]														
+Comment[AEMIAMESCORE]	3													
+Comment[ArrayExpressAccession]	E-NASC-2													
+Comment[MAGETAB TimeStamp_Version]	2010-10-14 01:49:21 Last Changed Rev: 14677													
+Experimental Factor Name	growth condition													
+Experimental Factor Type	growth condition													
+Experimental Factor Term Source REF														
+Person Last Name	unknown	Millenaar												
+Person First Name	unknown	Frank												
+Person Mid Initials														
+Person Email		m.vanzanten@uu.nl												
+Person Phone	+44 (0)115 951 3091													
+Person Fax	+44 (0)115 951 3297													
+Person Address	Plant Science Division, School of Biosciences, University of Nottingham, Sutton Bonnington Campus, Loughborough LE12 5RD, UK	Plant Ecophysiology University of Utrecht Sorbonnelaan 16 Utrecht 3584 CA Netherlands 												
+Person Affiliation		University of Utrecht												
+Person Roles		investigator;biosource_provider;submitter												
+Person Roles Term Source REF		mo												
+Quality Control Type														
+Quality Control Term Source REF														
+Replicate Type														
+Replicate Term Source REF														
+Normalization Type														
+Normalization Term Source REF														
+Date of Experiment														
+Public Release Date	2003-08-22													
+Publication Title	Ethylene-induced hyponastic growth in Arabidopsis thaliana is controlled by ERECTA.													
+Publication Author List	van Zanten M, Basten Snoek L, van Eck-Stouten E, Proveniers MC, Torii KU, Voesenek LA, Peeters AJ, Millenaar FF													
+PubMed ID	19796369													
+Publication DOI	10.1111/j.1365-313X.2009.04035.x													
+Publication Status														
+Publication Status Term Source REF														
+Experiment Description	Ethylene induced hyponastic growth in Arabidopsis thaliana F.F. Millenaar L.A.C.J. Voesenek and A.J.M. Peeters  Our aim is to identify genes involved in the ethylene induced hyponastic growth. Upon submergence some plant species like Rumex palustris changes its leaf angle (hyponastic growth) and shows enhanced petiole elongation to reach the water surface. In Rumex palustris the hyponastic growth is initiated by an increased concentration of ethylene due to physical entrapment and ongoing ethylene biosynthesis. A proteomics, genomics and genetical approach to improve our understanding of above described flooding-induced responses are not feasible in Rumex palustris since genomic information about this species is limited. However it is possible to use the model plant Arabidopsis thaliana as a tool in flooding research. Natural accessions (Be0 Col Cvi Kas Ler Nd Rld Shah and Ws) show considerable genetic variation in hyponastic growth upon exposure to ethylene Col exhibiting the largest effect (maximum rate after 3 hours) and Ler no effect whatsoever. Using a computer controlled digital camera the hyponastic growth is measured in great detail. Next to ethylene addition also a transfer to low light causes hyponastic growth. This seems to be an ethylene independent pathway because etr1 and ctr1 showed hyponastic growth after transfer to low light. Ethylene and low light showed additive effects in Col. It is likely that ethylene induces more changes in gene expression than only the ones involved in hyponastic growth. By subtracting changes in the Ler expression profile from changes in the Col expression profile we expect to find why Col and Ler respond differently on ethylene by finding specific ethylene induced genes that are involved in hyponastic growth. The expression profile of Col following transfer to low light will be substracted from Col following ethylene addition to distinguish between genes that are involved in hyponastic growth but are not specific for ethylene induced hyponastic growth. There are strong indications in Rumex palustris that other hormones i.e. auxin ABAand GA are involved in the ethylene induced hyponastic growth. Currently mutants in ethylene auxin and ABA biosynthesis and/or signal transduction are screened for hyponastic growth. Preliminary results showed that also in Arabidopsis these other hormones are involved in ethylene induced hyponastic growth. Beside the mutant approach we also started a proteomics and a PCR based differential screen approach. Together with the proposed transcriptome analysis we hope to find new genes involved in ethylene induced hyponastic growth.													
+Protocol Name	NASCGrowProt:121	NASCGrowProt:408	NASCGrowProt:120	NASCGrowProt:406	NASCSampleTreatmentProt:123	NASCSampleTreatmentProt:122	NASCGrowProt:407	NASCGrowProt:409	NASCGrowProt:119	NASCExtractProtocol:3	NASCLabelProtocol:1	Affymetrix:Protocol:Hybridization-EukGE-WS2v4	Affymetrix:Protocol:Percentile	Affymetrix:Protocol:ExpressionStat
+Protocol Type	growth condition	growth condition	growth condition	growth condition	treatment	treatment	growth condition	growth condition	growth condition	nucleic_acid_extraction	labeling	hybridization	feature_extraction	bioassay_data_transformation
+Protocol Description					3 hours in 5 ppm ethylene 	3 hours in 5 ppm ethylene 				Protocol: Seedlings harvested and snap-frozen in liquid nitrogen and RNA extracted as described in the Qiagen RNAeasy kit. 	RNA samples were quality controlled using the Agilent 2100 Bioanalyzer. 100 pmol T7-(dT)24 primer (5'-GGCCAGTGAATTGTAATACGACTCACTATAGGGAGGCGG-(dT)24-3')  was hybridized with the Total RNA ( 8 - 12ug) at 70ÃÂ°C for 10 minutes.  First strand cDNA was synthesized by reverse transcription using 400 units SuperScript II Reverse Transcriptase in a reaction containing 50 mM Tris-HCl (pH 8.3), 75 mM KCl, 3 mM MgCl2, 10 mM dithiothreitol (DTT) and 0.5 mM dNTPs at 42C for 1 hour.  The reaction was then put on ice for 2 mins, followed by second strand cDNA synthesis.  130ul of the second strand reaction mix was added to the 20ul  first strand synthesis reaction. The second strand reaction mix  contained 40 units E. coli DNA polymerase I, 10 units E. coli DNA ligase, 2 units  E. coli RNase H and 0.2 mM dNTPs in a buffer containing 20 mMTris-HCl (pH 6.9), 90 mM KCl, 4.6 mM MgCl2, 10mM (NH4)SO4 and 0.15 mM ÃÂ-NAD+. The reaction was incubated at 16 C for 2 hours.  10 units T4 DNA Polymerase was added and the reaction incubated for a further 5 minutes at 16 C, then the reaction was terminated using EDTA.  The double-stranded cDNA was cleaned up using the cDNA Cleanup Spin Column supplied in the Affymetrix GeneChip Sample Cleanup Module.  The double-stranded cDNA was used as a template for in Vitro transcription of biotin-labeled cRNA using the ENZO BioArray RNA Transcript Labeling Kit supplied by Affymetrix.  The Transcript Labeling kit produces large amounts of hybridizable biotin-labeled RNA targets by in Vitro transcription from bacteriophage T7 RNA polymerase promoters.  The reaction mixture containing Biotin-Labeled ribonucleotides (ATP, GTP, CTP, UTP with Bio-UTP and Bio-CTP), DTT, RNase inhibitor mix and T7 RNA polymerase was incubated at 37 C for 5 hrs, gently mixing every 30 minutes during the incubation. This produced an average of 40ug biotin-labeled cRNA . The biotin-labeled cRNA  was cleaned up using the cRNA Cleanup Spin Column supplied in the Affymetrix GeneChip Sample Cleanup Module.  The quantity and quality of the cRNA was measured using the Agilent 2100 Bioanalyzer. The total amount of cRNA was calculated, the starting quantity of RNA subtracted to give the quantity of adjusted cRNA.  The cRNA was fragmented by metal-induced hydrolysis to break down full-length cRNA to 35-200 base fragments.  15ug of adjusted cRNA was used to prepare 300ul of hybridization cocktail of which 200ul was hybridized with the GeneChip.	Title: Fluidics Station Protocol. Description: 	Title: Affymetrix CEL Analysis (Percentile). Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 
+Protocol Parameters	Humidity;Temperature;location;Atmosphere;Stratification;Nutrients;Water;Lighting;Medium;	Lighting;Medium;Humidity;Temperature;Stratification;Nutrients;Water;location;Atmosphere;	Atmosphere;location;Stratification;Water;Nutrients;Medium;Lighting;Temperature;Humidity;	Lighting;Medium;Nutrients;Water;Stratification;location;Atmosphere;Humidity;Temperature;			Lighting;Temperature;Nutrients;Medium;Stratification;Water;location;Humidity;Atmosphere;	Lighting;Temperature;Humidity;Atmosphere;Stratification;Water;Nutrients;Medium;location;	location;Atmosphere;Humidity;Temperature;Lighting;Medium;Nutrients;Water;Stratification;					
+Protocol Hardware														
+Protocol Software												MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 5.0
+Protocol Contact														
+Protocol Term Source REF														The MGED Ontology
+SDRF File	E-NASC-2.sdrf.txt													
+Term Source Name	tair_anat:1.2		ncbitax	ArrayExpress	mo	EFO	The MGED Ontology							
+Term Source File	http://www.arabidopsis.org/info/ontologies/		http://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php							
+Term Source Version	1.2													
+Comment[AEExperimentType]	transcription profiling by array													

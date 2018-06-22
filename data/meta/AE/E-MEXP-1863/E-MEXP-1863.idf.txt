@@ -1,0 +1,50 @@
+Investigation Title	Transcription profiling of Arabidopsis wild type and abi1td mutant plants stressed by ozone or drought to better understand ABA signalling								
+Comment[Submitted Name]	AgniezskaO3								
+Experimental Design	time_series_design	stimulus_or_stress_design	individual_genetic_characteristics_design	in_vivo_design	co-expression_design	transcription profiling by array			
+Experimental Design Term Source REF	The MGED Ontology	The MGED Ontology			The MGED Ontology	EFO			
+Comment[AEMIAMESCORE]	4								
+Comment[SecondaryAccession]									
+Comment[ArrayExpressReleaseDate]	2009-08-27								
+Comment[ArrayExpressAccession]	E-MEXP-1863								
+Comment[MAGETAB TimeStamp_Version]	2010-08-10 00:24:28 Last Changed Rev: 13058								
+Experimental Factor Name	genotype	environmental stress	time						
+Experimental Factor Type	genotype	environmental stress	time						
+Experimental Factor Term Source REF									
+Person Last Name	Zeef								
+Person First Name	Leo								
+Person Mid Initials									
+Person Email	leo.zeef@man.ac.uk								
+Person Phone	0161 2750646								
+Person Fax									
+Person Address	Kilburn Building, Oxford Road, Manchester, Lancashire, M13 9PL, United Kingdom								
+Person Affiliation									
+Person Roles	submitter								
+Person Roles Term Source REF	The MGED Ontology								
+Quality Control Type									
+Quality Control Term Source REF									
+Replicate Type									
+Replicate Term Source REF									
+Normalization Type									
+Normalization Term Source REF									
+Date of Experiment									
+Public Release Date	2009-08-27								
+PubMed ID	19705149								
+Publication DOI	19705149								
+Publication Author List	Ludwikow A, Kierzek D, Gallois P, Zeef L, Sadowski J								
+Publication Title	Gene expression profiling of ozone-treated Arabidopsis abi1td insertional mutant: protein phosphatase 2C ABI1 modulates biosynthesis ratio of ABA and ethylene								
+Publication Status	published								
+Publication Status Term Source REF	The MGED Ontology								
+Experiment Description	Ozone at an elevated level is an important environmental stress factor that limits plant growth and development. To test how O3-induced ROS signalling interacts with the ABA pathway we present a global characterization of O3-responsive genes in the abi1td mutant. To understand better ABA signalling and the interactions between stress-response pathways we also performed a microarray analysis of drought-treated abi1td and WT plants. Since ABA signalling is well known to mediate defined responses based on the WT and different mutants analysis in drought stress conditions, the comparison of the O3 and drought stress response in abi1td enabled the identification of new processes depending on ABA-related pathways in O3-treated plants. Altogether, our findings indicate that ABI1 plays the role of a general signal transducer linking diferrent hormone signalling pathways to O3 stress tolerance.<br><br><br><br>Key words: ROS signalling; ABA signalling; ozone stress; drought stress; environmental stress; gene knockout;								
+Protocol Name	P-MTAB-2068	P-MTAB-2069	P-MTAB-2067	P-MTAB-2070	P-AFFY-2	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6	P-MTAB-2071	
+Protocol Type	specified_biomaterial_action	nucleic_acid_extraction	grow	pool	labeling	hybridization	feature_extraction	bioassay_data_transformation	
+Protocol Description	Leaf tissues from were harvested directly into liquid nitrogen  then stored at -80oC until RNA extraction.	Total RNA was extracted in triplicate from five plants using an RNeasy Plant Mini Kit (Qiagen) according to manufacturers instructions. Then, 3 corresponding extractions were pooled and 15 µg of total RNA from the pooled samples was used for a single microarray hybridization experiment using ATH1 Genome Array (Affymetrix). cRNA synthesis, labelling, hybridization, and scanning were performed according to the standard Affymetrix protocol Synthesise cDNA with Superscript Double-Stranded cDNA Synthesis kit (Invitrogen, UK). Synthesise cRNA using the BioArray High Yield RNA transcript Labeling kit (Enzo Life Sciences Inc., NY) and apply to microarray. The experiment was performed using independent pools of plants i.e. biological replicates.<br>(Parameters: Extracted product = total_RNA, Amplification = none)	Arabidopsis thaliana (Columbia-0 N1093; abi1td SALK_076309) were sterilized with bleach, chilled for 4 d, transferred to a growth chamber and grown on compost 3-5 plants per pot. Plants were watered daily; once a week plants were irrigated with mineral nutrient solution. Environmental conditions in the chamber included a 16-h photoperiod from 6.00 am to 10.00 pm, ~300 ?mol m-2 s-1 photon flux density, 75% relative humidity, the circulating air flow path and a temperature of 21 0C. O3 stress was performed by exposure of 4-week-old plants to 350 ppb of O3 dose from 9.00 am to 6.00 pm for 1 d. O3 was produced from O2 with an electrical discharge. O3 concentration was determined by an ASIN GDC31 O3 sensor (ASECO). Leaf tissues from WT and the abi1td mutant were harvested directly into liquid nitrogen after 3 and 6 h of O3 treatment. The control plants were maintained in O3-free conditions. Drought stress was applied to well watered 3-week-old plants by withholding water for 5 days until plant samples reached of 52,5±7,5% relative water content RWC: (fresh weightdry weight)/(turgid weightdry weight) x100. Control plants received water regularly. In each pot, leaves from one plant were harvested for RWC analysis. Control and stress-treated plant material were collected simultaneously to avoid any long-term differences in stress response.<br>(Parameters: time unit = seconds, temperature unit = C)	Total RNA was extracted in triplicate from five plants using an RNeasy Plant Mini Kit (Qiagen) according to manufacturers instructions. Then, 3 corresponding extractions were pooled (i.e. from 15 plants) and 15 µg of total RNA from the pooled samples was used for a single microarray hybridization experiment using ATH1 Genome Array (Affymetrix). cRNA synthesis, labelling, hybridization, and scanning were performed according to the standard Affymetrix protocol Synthesise cDNA with Superscript Double-Stranded cDNA Synthesis kit (Invitrogen, UK). Synthesise cRNA using the BioArray High Yield RNA transcript Labeling kit (Enzo Life Sciences Inc., NY) and apply to microarray. The experiment was performed using independent pools of plants i.e. biological replicates.	Title: Affymetrix in vitro transcription. Description: 	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	Background correction,quantile normalization, and gene expression analysis were performed using RMA (Bolstad, B.M., Irizarry R. A., Astrand, M., and Speed, T.P. (2003)A Comparison of Normalization Methods for High Density Oligonucleotide Array Data Based on Bias and Variance. Bioinformatics 19(2):185-193).	
+Protocol Parameters									
+Protocol Hardware									
+Protocol Software						MicroArraySuite 5.0	MicroArraySuite 5.0		
+Protocol Contact									
+Protocol Term Source REF				The MGED Ontology		mo		The MGED Ontology	
+SDRF File	E-MEXP-1863.sdrf.txt								
+Term Source Name		The MGED Ontology	NCBI Taxonomy	po	ArrayExpress	NCI_thesaurus	The MGED Ontology	EFO	mo
+Term Source File		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://www.plantontology.org	http://www.ebi.ac.uk/arrayexpress	ncithesaurus.obo.alt	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version									
+Comment[AEExperimentType]	transcription profiling by array								

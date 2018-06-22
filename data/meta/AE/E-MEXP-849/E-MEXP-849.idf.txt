@@ -1,0 +1,50 @@
+Investigation Title	Transcription profiling of Arabidopsis seed and flowers to identify DELLA regulated transcripts												
+Comment[Submitted Name]	IMCB - Arabidopsis - DELLA-regulated transcriptomes in seed and flower												
+Experimental Design	cellular_process_design	development_or_differentiation_design	transcript_identification_design	organism_part_comparison_design	transcription profiling by array								
+Experimental Design Term Source REF		mo:1.3.1.1		mo	EFO								
+Comment[AEExperimentType]	transcription profiling by array												
+Comment[AEExperimentDisplayName]	Transcription profiling of Arabidopsis seed and flowers of ga1-3 mutant 												
+Comment[ArrayExpressReleaseDate]	2006-10-01												
+Comment[AEMIAMESCORE]	3												
+Comment[ArrayExpressAccession]	E-MEXP-849												
+Comment[MAGETAB TimeStamp_Version]	2010-10-15 02:47:01 Last Changed Rev: 14677												
+Experimental Factor Name	genotype	organism part											
+Experimental Factor Type	genotype	organism part											
+Experimental Factor Term Source REF													
+Person Last Name	Cheng	Peng	Wu	Soo	Cao								
+Person First Name	Hui	Jinrong	Wei	Hui Meng	Dongni								
+Person Mid Initials													
+Person Email			wwu@imcb.nus.edu.sg										
+Person Phone			65-65869722										
+Person Fax													
+Person Address			61 Biopolis Drive (Proteos)										
+Person Affiliation	Institute of Molecular and Cell Biology	Institute of Molecular and Cell Biology	Functional Genomics	Institute of Molecular and Cell Biology	Institute of Molecular and Cell Biology								
+Person Roles			submitter										
+Person Roles Term Source REF			The MGED Ontology										
+Quality Control Type													
+Quality Control Term Source REF													
+Replicate Type													
+Replicate Term Source REF													
+Normalization Type													
+Normalization Term Source REF													
+Date of Experiment													
+Public Release Date	2006-10-01												
+PubMed ID	16920880												
+Publication DOI	10.1104/pp.106.082289												
+Publication Author List	Cao D, Cheng H, Wu W, Soo HM, Peng J												
+Publication Title	Gibberellin mobilizes distinct DELLA-dependent transcriptomes to regulate seed germination and floral development in Arabidopsis												
+Publication Status	published												
+Publication Status Term Source REF													
+Experiment Description	Gibberellin mobilizes distinct DELLA-dependent transcriptomes to regulate seed germination and floral development in Arabidopsis												
+Protocol Name	P-MEXP-32161	P-MEXP-32107	P-MEXP-32163	P-MEXP-32162	P-MEXP-32165	P-MEXP-32164	P-MEXP-32166	P-MEXP-32167	P-MEXP-32169	P-MEXP-32168	Affymetrix:Protocol:Hybridization-EukGE-WS2v4	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6
+Protocol Type	grow	grow	specified_biomaterial_action	specified_biomaterial_action	pool	pool	nucleic_acid_extraction	nucleic_acid_extraction	labeling	labeling	hybridization	hybridization	feature_extraction
+Protocol Description	Seeds were placed on 3 layers of filter paper soaked in sterile water.	Plant grows at 22C under long day condition. 38-day(ga1-3), 28-day(wide type), and 22-day(penta) flower buds were collected for RNA extraction.	Seeds were grounded in liquid nitrogen and RNA samples were extracted by RNAqueos Kit(Ambion).	RNA were extracted follow tri reagent protocol and further purified by using Qiagen RNAeasy mini kit.	no pooling	No pooling.	extracted by RNAqueous from Ambion	RNA were extracted using tri reagent and further purified by qiagen mini RNAeasy kit.	follow Affymetrix standard protocol	Affymetrix standard protocol	Title: Fluidics Station Protocol. Description: 	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 
+Protocol Parameters	stop time;min temperature;start time;	min temperature;max temperature;start time;stop time;					Amplification;Extracted product;	Amplification;Extracted product;	Amount of nucleic acid labeled;Amplification;Label used;	Amplification;Label used;Amount of nucleic acid labeled;			
+Protocol Hardware													
+Protocol Software											MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 5.0
+Protocol Contact													
+Protocol Term Source REF			mo	mo								mo	
+SDRF File	E-MEXP-849.sdrf.txt												
+Term Source Name	Plant Ontology		mo	ncbitax	The MGED Ontology	ArrayExpress	mo:1.3.1.1	mo	EFO	The MGED Ontology			
+Term Source File	http://www.plantontology.org/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php			
+Term Source Version							1.3.1.1						

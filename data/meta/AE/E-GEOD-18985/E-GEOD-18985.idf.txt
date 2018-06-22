@@ -1,0 +1,58 @@
+Comment[ArrayExpressAccession]	E-GEOD-18985					
+Public Release Date	2009-11-17					
+Investigation Title	Identification of early gibberellin (GA) responsive genes in Arabidopsis hypocotyls					
+Comment[Submitted Name]	Identification of early gibberellin (GA) responsive genes in Arabidopsis hypocotyls					
+Experiment Description	The aim of the experiment was to identify early gibberellin (GA) responsive genes in the roots of an Arabidopsis GA deficient mutant.The GA deficient mutant used in this study is a transgenic line overexpressing the PcGA2ox1 gene. This mutant has an identical phenotype to ga1-3, but it does not require exogenous GA treatment for germination.Seeds were germinated on 1xMS + 1% (w/v) sucrose plates containing 0.7% gelrite, and grown under continous light. The plates were orientated vertically.After six days growth the plates were treated with or without 5uM GA4 for 0, 30, 60 and 180 minutes.Approximately 400 hypocotyls were harvested per timepoint using a razorblade and after excision the hypocotyls were frozen in liquid nitrogen giving a total of 7 experimental samples (1: untreated, 2: 30 mins GA4, 3: 30 mins untreated, 4: 60 mins GA4, 5: 60 mins untreated, 6: 180 mins GA4, 7: 180 mins untreated. Three biological replicates were performed giving a total of 21 root samples. Total RNA was isolated from the roots using the QIAGEN RNeasy method.  Keywords: Expression profiling by array 21 samples were used in this experiment					
+Date of Experiment						
+Term Source Name	EFO					
+Term Source Version						
+Term Source File	http://www.ebi.ac.uk/efo					
+Person Last Name	Nottingham Arabidopsis Stock Centre (NASC)	Gronlund				
+Person First Name		Anne				
+Person Mid Initials						
+Person Email	affy@arabidopsis.info					
+Person Affiliation	Nottingham Arabidopsis Stock Centre (NASC)					
+Person Phone	+44 (0)115 951 3237					
+Person Fax	+44 (0)115 951 3297					
+Person Address	School of Biosciences, University of Nottingham, Nottingham Arabidopsis Stock Centre (NASC), Sutton Bonington Campus, Loughborough, United Kingdom					
+Person Roles	submitter					
+Person Roles Term Source REF						
+Person Roles Term Accession Number						
+Normalization Type						
+Normalization Term Accession Number						
+Normalization Term Source REF						
+Replicate Type						
+Replicate Term Accession Number						
+Replicate Term Source REF						
+Experimental Design	time series design	growth condition design				
+Experimental Design Term Accession Number						
+Experimental Design Term Source REF						
+Quality Control Type						
+Quality Control Term Accession Number						
+Quality Control Term Source REF						
+Protocol Name	P-GSE18985-1	P-GSE18985-5	P-GSE18985-4	P-GSE18985-2	P-GSE18985-3	P-GSE18985-6
+Protocol Description	ID_REF = <br>VALUE = MAS5 normalized signal intensity<br>ABS_CALL = present, marginal, absent calls<br>DETECTION P-VALUE = p-value	Scanned according to guidelines set out by Affymetrix, Santa Clara, CA.	Biotin Labelled cRNA using &quot;Affymetrix GeneChip Hybridization, Wash and Stain Kit&quot;, according to guidelines set out by Affymetrix, Santa Clara, CA	Qiagen RNeasy kit protocol	Labelled using protocol described in Affymetrix manual &quot;3' IVT Express Kit User Manual&quot;	Raw data from the microarrays was normalized at probe-level using MAS5 algorithm. The detection calls (present, marginal, absent) for each probe set was obtained using the GCOS system
+Protocol Software						
+Protocol Hardware						
+Protocol Contact						
+Protocol Type	bioassay_data_transformation	image_aquisition	hybridization	nucleic_acid_extraction	labeling	feature_extraction
+Protocol Term Source REF						
+Protocol Term Accession Number						
+Experimental Factor Name	growth condition	time				
+Experimental Factor Type	growth condition	time				
+Experimental Factor Term Source REF						
+Experimental Factor Term Accession Number						
+Publication Title						
+Publication Author List						
+PubMed ID						
+Publication DOI						
+Publication Status						
+Publication Status Term Source REF						
+Publication Status Term Accession Number						
+Comment[SecondaryAccession]	GSE18985					
+Comment[GEOLastUpdateDate]	2011-03-01					
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis expressing PcGA2ox1 after treatment with gibberellin					
+Comment[AEExperimentType]	transcription profiling by array					
+Comment[GEOReleaseDate]	2009-11-18					
+Comment[ArrayExpressSubmissionDate]	2009-11-12					
+SDRF File	E-GEOD-18985.sdrf.txt					

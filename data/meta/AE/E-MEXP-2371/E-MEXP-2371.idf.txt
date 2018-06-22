@@ -1,0 +1,51 @@
+Investigation Title	Transcription profiling of Arabidopsis thaliana wild type vs gene WRKY18/40 knock out to investigate differential expression of genes							
+Comment[Submitted Name]	Powdery Mildew							
+Experimental Design	genetic_modification_design	in_vivo_design	co-expression_design	transcription profiling by array	transcription profiling by array			
+Experimental Design Term Source REF	The MGED Ontology		The MGED Ontology	EFO	EFO			
+Comment[SecondaryAccession]								
+Comment[ArrayExpressReleaseDate]	2010-09-01							
+Comment[AEMIAMESCORE]	5							
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis thaliana WRKY18/40 double knock out infected with Golovinomyces orontii							
+Comment[ArrayExpressAccession]	E-MEXP-2371							
+Comment[MAGETAB TimeStamp_Version]	2010-08-10 12:25:55 Last Changed Rev: 13058							
+Experimental Factor Name	genotype	infect	time					
+Experimental Factor Type	genotype	infect	time					
+Experimental Factor Term Source REF								
+Person Last Name	Pandey							
+Person First Name	Shree							
+Person Mid Initials	P							
+Person Email	shreeppandey@gmail.com							
+Person Phone	6172533745							
+Person Fax								
+Person Address	Biology, 77 Mass Ave 68-659, cambridge, MA, 02139, USA							
+Person Affiliation	MIT							
+Person Roles	submitter							
+Person Roles Term Source REF	The MGED Ontology							
+Quality Control Type								
+Quality Control Term Source REF								
+Replicate Type								
+Replicate Term Source REF								
+Normalization Type								
+Normalization Term Source REF								
+Date of Experiment								
+Public Release Date	2010-09-01							
+PubMed ID	21143673							
+Publication DOI	10.1111/j.1365-313X.2010.04387.x							
+Publication Author List	Pandey SP, Roccaro M, Schon M, Logemann E, Somssich IE							
+Publication Title	Transcriptional reprogramming regulated by WRKY18 and WRKY40 facilitates powdery mildew infection of Arabidopsis							
+Publication Status								
+Publication Status Term Source REF								
+Experiment Description	Differential expression of genes between Arabidopsis WRKY18/40 knock out and wild type plants, after 8 h post inoculation of powdery mildew pathogen.							
+Protocol Name	P-MTAB-5486	P-AFFY-2	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6	Affymetrix:Protocol:MAS4:ExpressionCall			
+Protocol Type	nucleic_acid_extraction	labeling	hybridization	feature_extraction	bioassay_data_transformation			
+Protocol Description	Total RNA was extracted using TRI reagent following the instructions of the manufacturer (Ambion)<br>(Parameters: Extracted product = total_RNA, Amplification = none)	Title: Affymetrix in vitro transcription. Description: 	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	Title: Affymetrix CHP Analysis (ExpressionCall). Description: 			
+Protocol Parameters								
+Protocol Hardware								
+Protocol Software			MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 4.0			
+Protocol Contact								
+Protocol Term Source REF			mo		mo			
+SDRF File	E-MEXP-2371.sdrf.txt							
+Term Source Name	The MGED Ontology	NCBI Taxonomy	po	NCI_thesaurus	ArrayExpress	The MGED Ontology	EFO	mo
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://www.plantontology.org	ncithesaurus.obo.alt	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version								

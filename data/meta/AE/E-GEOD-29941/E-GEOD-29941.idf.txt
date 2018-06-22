@@ -1,0 +1,58 @@
+Comment[ArrayExpressAccession]	E-GEOD-29941							
+Public Release Date	2011-10-22							
+Investigation Title	Microarray data from pre-germinated seeds and hypoxia-treated seedlings of Arabidopsis prt6-1 and ate1 ate2 mutants of the N-end rule pathway of targeted proteolysis pathway							
+Comment[Submitted Name]	Microarray data from pre-germinated seeds and hypoxia-treated seedlings of Arabidopsis prt6-1 and ate1 ate2 mutants of the N-end rule pathway of targeted proteolysis pathway							
+Experiment Description	This study analyzes transcriptome profiles in pre-germinated seeds and hypoxia-treated seedlings of Arabidopsis thaliana wild type (Col-0) and homozygous mutants (prt6-1 and ate1 ate2). This dataset includes CEL files, RMA signal values and MAS5 P/M/A calls. For pre-germinated seeds, seeds imbibed for 24 h were used for total RNA extraction. For hypoxia treatment, 7-d-old seedlings were incubated in a hypoxia chamber for 2 h and the entire seedling was subjected to RNA extraction. Quantitative profiling of cellular mRNAs was accomplished with the Affymetrix ATH1 platform. Changes in the transcriptome during early seed germination stage and in response to hypoxia in seedlings were evaluated. The data led to identification of mRNAs with abundance regulated by PRT6 and ATE1 / ATE2, which are essential components for the N-end rule pathway of targeted proteolysis (NERP). A combination of genetic, biochemical and molecular analyses reveal that NERP coordinates the stability of key ethylene responsive factor (ERF) family transcription factors, which regulate expression of core hypoxia response genes and tolerance to low oxygen stress. This indicates that the NERP functions as a homeostatic sensor of low oxygen in plants. Pre-germinated seeds; 2 genotypes (Col-0 and prt6-1) x 3 independent biological replicate experiments: Hypoxia treated seedlings; 3 genotypes (Col-0, prt6-1, and ate1 ate2) x 2 treatments (2h aerobic and 2h hypoxia) x 2 independent biological replicate experiments.							
+Date of Experiment								
+Term Source Name	EFO							
+Term Source Version								
+Term Source File	http://www.ebi.ac.uk/efo/efo.owl							
+Person Last Name	Fukao	Lee	Isa	Holdsworth	Bailey-Serres			
+Person First Name	Takeshi	Seung	Nurulhikma	Michael	Julia			
+Person Mid Initials		C	M					
+Person Email	fukao@ucr.edu							
+Person Affiliation	University of California, Riverside							
+Person Phone								
+Person Fax								
+Person Address	University of California, Riverside, Department of Botany and Plant Sciences, Riverside, CA, USA							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Person Roles Term Accession Number								
+Normalization Type								
+Normalization Term Accession Number								
+Normalization Term Source REF								
+Replicate Type								
+Replicate Term Accession Number								
+Replicate Term Source REF								
+Experimental Design								
+Experimental Design Term Accession Number								
+Experimental Design Term Source REF								
+Quality Control Type								
+Quality Control Term Accession Number								
+Quality Control Term Source REF								
+Protocol Name	P-GSE29941-1	P-GSE29941-6	P-GSE29941-3	P-GSE29941-8	P-GSE29941-7	P-GSE29941-2	P-GSE29941-4	P-GSE29941-5
+Protocol Description	ID_REF = <br>VALUE = log2 RMA signal<br>ABS_CALL = Detection calls	Hybridization of 12 μg of biotin-labelled cRNA to each Arabidopsis ATH1 Genome Array (GeneChip System®, Affymetrix) chips were performed at 45 °C for 16 h, in the Affymetrix GeneChip Workstation (hybridization oven 640, Fluidics Station 450), using 10 µg of Biotin-labeled aRNA, according to the manufacturer's protocol.	Seeds used for this analysis  were after-ripened seeds obtained from plants grown at the same time within the same tray within the same controlled environment chambers to minimize differences in pre-harvest history. For pre-germinated seeds samples, seeds were surface sterilized for 5 min in 5% (v/v) bleach and then washed twice in distilled water. The seeds were then plated on square plates containing 0.5×Murashige and Skoog (MS, Sigma-Aldrich) salt mixture in 1% (w/v) bacto-agar and stratified at 4˚C for 48 h. Plates were incubated vertically at 22°C in 150 μmol m−2 s−1 constant light for 24 h and then whole seeds were sampled for total RNA extraction. For hypoxia-treated seedling samples, seeds were surface sterilized with 95 % (v/v) ethanol for 5 min, followed by 10 min submergence in bleach solution (20 % (v/v) bleach and 0.1 % (v/v) Tween-20), and finally rinsed three times with sterile water. Seeds were stored at 4°C for 3 days, and then plated on solid MS plates (0.43 % (w/v) Murashigi Skoog (MS) salts (Sigma, St. Louis, MO), 0.4 % (w/v) phytage, pH 5.75l (Sigma), 1 % (w/v) sucrose, pH 5.7), and placed at a vertical orientation in a growth chamber (Percival Scientific, Inc., http://www.percival-scientific.com/; model CU36L5C8) under long day conditions (16 h light at ~80 µmol photons m-2 s-1/ 8 h darkness) at 23 °C for 7 days.	CEL files from the Affymetrix Chips were processed by use of the R program (http://cran.at.r-project.org/) and Bioconductor packages (http://www.bioconductor.org/). The Robust Multi-chip Average (RMA) normalization was performed using the default settings of the corresponding R function. Present, Marginal or Absent (P/M/A) calls were computed with the affy package.	GeneChips were scanned using the Affymetrix GeneChip Scanner 3000 7G .	Hypoxia treatment commenced at the end of the 16 h light cycle under 6.5 µmol s–1 m–2 light, in open or sealed chambers. For hypoxia, 99.995% argon gas was bubbled through water and into the chamber for 2 h. Control plants were exposed to the same light and temperature conditions but maintained in air. Whole seedlings were frozen under liquid nitrogen within 3 min of release from treatment and stored at -80 oC until use.	Total RNA was extracted by using QIAGEN RNeasy Plant Mini kit according to the manufacture's protocol. RNase-Free DNase treatment was conducted during the column purification process.	Biotin-labelled cRNA was synthesized from 500 ng total RNA with the Affymetrix 3’ IVT Express Labelling kit (Santa Clara, CA).
+Protocol Software								
+Protocol Hardware								
+Protocol Contact								
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Protocol Term Source REF								
+Protocol Term Accession Number								
+Experimental Factor Name	GROWTH CONDITION	GENOTYPE	DEVELOPMENTAL STAGE					
+Experimental Factor Type	growth_condition	genotype	developmental_stage					
+Experimental Factor Term Source REF								
+Experimental Factor Term Accession Number								
+Publication Title	Homeostatic response to hypoxia is regulated by the N-end rule pathway in plants.							
+Publication Author List	Gibbs DJ, Lee SC, Md Isa N, Gramuglia S, Fukao T, Bassel GW, Correia CS, Corbineau F, Theodoulou FL, Bailey-Serres J, Holdsworth MJ							
+PubMed ID	22020279							
+Publication DOI	10.1038/nature10534							
+Publication Status	published							
+Publication Status Term Source REF	EFO							
+Publication Status Term Accession Number	EFO_0001796							
+Comment[SecondaryAccession]	GSE29941							
+Comment[GEOLastUpdateDate]	2011-11-11							
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis after growth in hypoxic conditions							
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[GEOReleaseDate]	2011-10-21							
+Comment[ArrayExpressSubmissionDate]	2011-06-12							
+SDRF File	E-GEOD-29941.sdrf.txt							

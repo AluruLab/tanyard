@@ -1,0 +1,52 @@
+Comment[ArrayExpressAccession]	E-GEOD-11532
+Investigation Title	Octopus transcriptome (affy_phloem_ath1)
+Comment[Submitted Name]	Octopus transcriptome (affy_phloem_ath1)
+Publication Title	
+Publication Author List	
+Publication DOI	
+PubMed ID	
+Experimental Design	transcription profiling by array
+Experimental Design Term Source REF	EFO
+Public Release Date	2010-04-05
+Experiment Description	affy_phloem_ath1 - affy_phloem_ath1 - Transcriptome map of a mutant (versus WT and overexpressor) impaired in phloem differentiation and vascular patterning-Transcriptome map of a mutant (versus WT and overexpressor) impaired in phloem differentiation and vascular patterning. 6 arrays - ATH1												
+Date of Experiment													
+Term Source Name	EFO
+Term Source Version													
+Term Source File													
+Person Last Name	balzergue	Balzergue	Palauqui	Martin-Magniette									
+Person First Name	sandrine	Sandrine	Jean-christophe	Marie-Laure									
+Person Mid Initials				L									
+Person Email													
+Person Affiliation	INRA												
+Person Phone													
+Person Fax													
+Person Address	INRA, 2 rue gaston crémieux, evry, France												
+Person Roles	submitter												
+Person Roles Term Source REF													
+Person Roles Term Accession Number													
+Normalization Type													
+Normalization Term Accession Number													
+Normalization Term Source REF													
+Replicate Type													
+Replicate Term Accession Number													
+Replicate Term Source REF													
+Quality Control Type													
+Quality Control Term Accession Number													
+Quality Control Term Source REF													
+Protocol Name	P-GSE11532-1	P-GSE11532-6	P-GSE11532-3	P-GSE11532-8	P-GSE11532-7	P-GSE11532-2	P-GSE11532-13	P-GSE11532-10	P-GSE11532-9	P-GSE11532-4	P-GSE11532-11	P-GSE11532-12	P-GSE11532-5
+Protocol Description	ID_REF = ID number<br>VALUE = Normalized data by GCRMA	labelled extract quantity: 15ug	whole plant - MS/2, 70 per cent hygrometry, 20 celsius	The data were normalized with the gcrma algorithm (Irizarry et al., 2003), available in the Bioconductor package (Gentleman and Carey, 2002).	GCOS, Biotin:pmt voltage 570nm,650V,laser power 1	no treatment	35SDYG25_2:15ug.	DYG25_1:15ug.	WS_2:15ug.	WS_1:15ug.	DYG25_2:15ug.	35SDYG25_1:15ug.	labelling Biotin direct, amplification=yes, RNAa 20 ug.
+Protocol Software													
+Protocol Hardware													
+Protocol Contact													
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	nucleic_acid_extraction	nucleic_acid_extraction	nucleic_acid_extraction	nucleic_acid_extraction	nucleic_acid_extraction	labeling
+Protocol Term Source REF													
+Protocol Term Accession Number													
+Experimental Factor Name	YES - HARVEST DATE												
+Experimental Factor Type	yes - harvest date												
+Experimental Factor Term Source REF													
+Experimental Factor Term Accession Number													
+Comment[SecondaryAccession]	GSE11532												
+Comment[GEOLastUpdateDate]	2009-05-18
+Comment[GEOReleaseDate]	2010-04-04
+Comment[ArrayExpressSubmissionDate]	2008-05-21
+SDRF File	E-GEOD-11532.sdrf.txt

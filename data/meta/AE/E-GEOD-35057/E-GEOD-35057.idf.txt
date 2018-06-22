@@ -1,0 +1,57 @@
+Comment[ArrayExpressAccession]	E-GEOD-35057							
+Public Release Date	2012-05-02							
+Investigation Title	Phytochrome Interacting Factor 4 and 5 regulate different set of genes in high and low red/far-red light							
+Comment[Submitted Name]	Phytochrome Interacting Factor 4 and 5 regulate different set of genes in high and low red/far-red light							
+Experiment Description	As sessile organisms plants developed a veriety of adaptive responses to the ever changing environment. One of these responses is the shade avoidance syndrome which is composed of different responses like elongation growth, hyponastic leafs or early flowering to shade (low R/FR). Phytochrcome Interacting Factor 4 and 5 are bHLH transcription factors reported to activate gene expression upon perception of low R/FR. Using this miroarray experiment we identified new genes regulated by PIF4 and PIF5 in response to shade and investigated their genome wide role. Here pif4pif5 double mutant, pif5 single mutant and PIF5 overexpressing line were compared to Col-0 wild type A. thaliana plants when grown under 12:12 DL circles for 14 days in high R/FR and either kept in high R/FR or transferred to low R/FR for additional 2 hours							
+Date of Experiment								
+Term Source Name	EFO							
+Term Source Version								
+Term Source File	http://www.ebi.ac.uk/efo/efo.owl							
+Person Last Name	Kohnen	Hornitschek	Lorrain	Kohnen	Pradervand	Xenarios	Fankhauser	
+Person First Name	Markus	Patricia	Severrine	Markus	Sylvain	Ioannis	Christian	
+Person Mid Initials	Volker			M				
+Person Email	Markus.Kohnen@unil.ch							
+Person Affiliation	Université de Lausanne							
+Person Phone								
+Person Fax								
+Person Address	Center for Integrative Genomics (CIG), Université de Lausanne, Genopode Building, Lausanne, Vaud, Switzerland							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Person Roles Term Accession Number								
+Normalization Type								
+Normalization Term Accession Number								
+Normalization Term Source REF								
+Replicate Type								
+Replicate Term Accession Number								
+Replicate Term Source REF								
+Experimental Design								
+Experimental Design Term Accession Number								
+Experimental Design Term Source REF								
+Quality Control Type								
+Quality Control Term Accession Number								
+Quality Control Term Source REF								
+Protocol Name	P-GSE35057-1	P-GSE35057-6	P-GSE35057-3	P-GSE35057-8	P-GSE35057-7	P-GSE35057-2	P-GSE35057-4	P-GSE35057-5
+Protocol Description	ID_REF = <br>VALUE = log2 RMA signal	Arabidopsis ATH1 Genome Array (Affymetrix, Santa Clara, CA, USA) were hybridized with 11 microgramme of labeled, amplified cRNA , washed, stained and scanned according to the protocol described in Affymetrix GeneChipﾮ Expression Analysis Manual (Fluidics protocol EukGeWS2v5_450)	Fifty seeds were plated on half MS and kept in the dark and cold for 3 days. Seedlings were grown under high R/FR conditions in 12:12 LD circles for 14 days.	Normalized expression signals were calculated from Affymetrix CEL files using RMA (Irizarry et al., 2003).	Scanning was done on an Affymetrix GeneChip Scanner 7G	After 1h high R/FR treatment in the morning plants were transferred to low R/FR (supplemental FR) or kept in high R/FR for additional 2h.	Seedlings were flash-frozen in liquid nitrogen, ground using a tissulyser (Qiagen) 2 times 30s, 30Hz without extraction buffer. RNAs were extracted using the Nucleo Spin for plant RNA kit (Machery-Nagel) following the manufacturer recommendations.	300ng of total RNA were amplified and labeled using the Message Amp II-biotin Enhanced reagents (Ambion; catalog #AM1791). Labeling, hybridization and scanning of the samples were performed as described by Affymetrix (www.affymetrix.com).
+Protocol Software								
+Protocol Hardware								
+Protocol Contact								
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Protocol Term Source REF								
+Protocol Term Accession Number								
+Experimental Factor Name	treatment	genotype						
+Experimental Factor Type	treatment	genotype						
+Experimental Factor Term Source REF								
+Experimental Factor Term Accession Number								
+Publication Title								
+Publication Author List								
+PubMed ID								
+Publication DOI								
+Publication Status								
+Publication Status Term Source REF								
+Publication Status Term Accession Number								
+Comment[SecondaryAccession]	GSE35057							
+Comment[GEOLastUpdateDate]	2012-05-02							
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[GEOReleaseDate]	2012-05-01							
+Comment[ArrayExpressSubmissionDate]	2012-01-12							
+SDRF File	E-GEOD-35057.sdrf.txt							

@@ -1,0 +1,52 @@
+Investigation Title	Recruitment of GSH into the nucleus during cell proliferation								
+Comment[Submitted Name]	Recruitment of GSH into the nucleus during cell proliferation								
+Experimental Design	transcription profiling by array								
+Experimental Design Term Source REF	EFO								
+Comment[AEExperimentType]	transcription profiling by array								
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis cells with glutathione localised to the nucleus or to the cytoplasm								
+Comment[SecondaryAccession]	GSE20454								
+Comment[ArrayExpressReleaseDate]	2010-02-27								
+Comment[AEMIAMESCORE]	5								
+Comment[ArrayExpressAccession]	E-GEOD-20454								
+Comment[MAGETAB TimeStamp_Version]	2010-08-04 04:49:43 Last Changed Rev: 13058								
+Experimental Factor Name	GSH LOCALIZATION	TREATMENT PROTOCOL	TIME POST-INOCULATION						
+Experimental Factor Type	cellular_component	protocol_type	time						
+Experimental Factor Term Source REF									
+Person Last Name	Foyer	Diaz-Vivancos							
+Person First Name	Christine	Pedro							
+Person Mid Initials	H								
+Person Email		pdv@cebas.csic.es							
+Person Phone									
+Person Fax									
+Person Address		Faculty of Biological Sciences , University of Leeds , University of Leeds , Leeds, UK							
+Person Affiliation		University of Leeds							
+Person Roles		submitter							
+Person Roles Term Source REF		The MGED Ontology							
+Quality Control Type									
+Quality Control Term Source REF									
+Replicate Type									
+Replicate Term Source REF									
+Normalization Type									
+Normalization Term Source REF									
+Date of Experiment									
+Public Release Date	2010-02-27								
+PubMed ID	21105929								
+Publication DOI	10.1111/j.1365-313X.2010.04371.x								
+Publication Author List	Vivancos PD, Dong Y, Ziegler K, Markovic J, Pallardó FV, Pellny TK, Verrier PJ, Foyer CH.								
+Publication Title	Recruitment of glutathione into the nucleus during cell proliferation adjusts whole-cell redox homeostasis in Arabidopsis thaliana and lowers the oxidative defence shield								
+Publication Status	published								
+Publication Status Term Source REF	EFO								
+Publication Status Term Accession Number	EFO_0001796								
+Experiment Description	The essential thiol antioxidant, glutathione (GSH) is recruited into the nucleus of mammalian cells early in cell proliferation, suggesting a key role of the nuclear thiol pool in cell cycle regulation. However, the functions of nuclear GSH (GSHn) and its integration with the cytoplasmic GSH (GSHc) pools in whole cell redox homeostasis and signaling are unknown. Here we show that GSH is recruited into the nucleus early in cell proliferation in Arabidopsis thaliana, confirming the requirement for localization of GSH in the nucleus as a universal feature of cell cycle regulation. GSH accumulation in the nucleus was triggered by treatments that synchronize cells at G1/S as identified by flow cytometry and marker transcripts. Significant decreases in transcripts associated with oxidative signaling and stress tolerance occurred when GSH was localized in the nucleus. Increases in GSH1 and GSH2 transcripts accompanied the large increase in total cellular GSH observed during cell proliferation, but only GSH2 was differentially expressed in cells with high GSHn relative to those with an even intracellular distribution of GSH. Of the 7 Bcl-2 associated (BAG) genes in A. thaliana, only the nuclear-localized BAG 6 was differentially expressed in cells with high GSHn compared to GSHc. We conclude that GSHn is associated with decreased oxidative signaling and stress responses and that whole cell redox homeostasis is restored as the cell cycle progresses by enhanced GSH synthesis and accumulation in the cytoplasm. Arabidopsis cells were harvested at points during cell proliferation where GSH was localized either in the nucleus (GSHn) or where GSH was distributed throughout the cytoplasm (GSHc) for RNA extraction and hybridization on Affymetrix microarrays. We selected three stages where the GSH was into the nucleus and three stages where the GSH was distributed throughout the cells.								
+Protocol Name	P-GSE20454-4	P-GSE20454-2	P-GSE20454-3	P-GSE20454-5	P-GSE20454-6	P-GSE20454-7	P-GSE20454-8	P-GSE20454-9	P-GSE20454-1
+Protocol Type	nucleic_acid_extraction	specified_biomaterial_action	grow	labeling	hybridization	image_aquisition	feature_extraction	feature_extraction	bioassay_data_transformation
+Protocol Description	Total RNA was extracted from frozen cell pellet using RNeasy Plant Mini Kit (Qiagen) according to manufacturerâs protocol.	The logarithmic growth phase of the cultures was prolonged by either diluting the cultures or replenishing the media (media change). Samples were harvested at the indicated stages and cell pellets were snap frozen in liquid nitrogen and stored at â80Â°C.	The growth of A. thaliana cultures was performed as described by Pellny et al., (2009).	Double-stranded cDNA was generated from each of the eighteen total-RNA samples and transcribed to obtain biotin-labeled cRNA.	The target cRNAs were fragmented, combined with hybridization and spike controls, then hybridized to the Genechip Arabidopsis ATH1 Genome Array (Affymetrix, Inc., Santa Clara, CA) for 16 h. Following hybridization, the arrays were washed and stained with streptavidin phycoerythrin conjugate using an automated GeneChipÂ® Fluidics Station 450	GeneChips were scanned with a GeneChipÂ® Scanner 3000 7G using a 570 nm excitation wavelength laser. Microarray quality controls were assessed using GeneChipÂ® Operating Software (Affymetrix)..	Raw intensity values from the scanned Arabidopsis ATH1 Genome Arrays were analyzed using the Robust Multichip Average method (RMA).	A significance test was undertaken by calculating a null hypothesis through a permuted modified t-statistic across the replicates for each array comparison. The log2 means of the normalized intensity values of the biological replicates were compared as ratios, where a log2 ratio of Â±1.0 and a p-value of < 0.01 was selected as worthy of further study.	ID_REF = <br>VALUE = RMA-normalized signal intensity
+Protocol Parameters									
+Protocol Hardware									
+Protocol Software									
+Protocol Contact									
+Protocol Term Source REF							The MGED Ontology	The MGED Ontology	The MGED Ontology
+SDRF File	E-GEOD-20454.sdrf.txt								
+Term Source Name	NCBI Taxonomy		The MGED Ontology	ArrayExpress	EFO	The MGED Ontology			
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php			
+Term Source Version									

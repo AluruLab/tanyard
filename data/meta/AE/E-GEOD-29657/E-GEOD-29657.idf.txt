@@ -1,0 +1,58 @@
+Comment[ArrayExpressAccession]	E-GEOD-29657							
+Public Release Date	2012-07-10							
+Investigation Title	Translational control: a new dimension in the regulation of Arabidopsis photomorphogenesis							
+Comment[Submitted Name]	Translational control: a new dimension in the regulation of Arabidopsis photomorphogenesis							
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis seedlings treated with white light							
+Experiment Description	The environmental “light” plays a vital role in regulating the plant growth and development. Transcriptomic profilings were widely used to examine how light regulates the changes of mRNA populations at a genome-wide scale. However, it remains unclear if translational regulation represents a new dimension of gene expression regulation in response to the light signal. Through a transcriptomic comparison of steady-state and polysome-bound mRNAs, we revealed an increased translational efficiency in de-etiolating Arabidopsis seedlings. Over 3,500 genes are subjected to translational regulation whereas only about 770 genes have increased mRNA abundances in response to the light signal. This result suggests a stronger impact of translational control over transcriptomic changes during photomorphogenesis. Genes encoding ribosomal protein are preferentially regulated at the translational level, possibly contributing to the enhancement of translation efficiency as observed. We also uncovered mRNAs regulated at the translational level share characteristics of longer half-lives and shorter cDNA length. The presence of a cis-element, TAGGGTTT, in the 5’untranslated region of a transcript renders its translational regulation by light signals. Taken together, our study revealed a previously neglected aspect of gene expression regulation during Arabidopsis photomorphogenesis. The identities and molecular signatures associated with mRNAs regulated at the translational level also offer new directions to perform mechanistic studies of light-trigged translational enhancement in Arabidopsis. Three biological replicates for 4-d-old etiolated seedlings with or without 0. 5 h or 4 h of white-light treatment.							
+Date of Experiment								
+Term Source Name	EFO							
+Term Source Version								
+Term Source File	http://www.ebi.ac.uk/efo/efo.owl							
+Person Last Name	Liu	Liu	Wu					
+Person First Name	Ming-Jung	Ming-Jung	Shu-Hsing					
+Person Mid Initials								
+Person Email	littlemo@gate.sinica.edu.tw							
+Person Affiliation	Academia sinica							
+Person Phone								
+Person Fax								
+Person Address	Academia sinica, 128 Sec. 2, Academia Rd, Nankang, Taipei, Taiwan							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Person Roles Term Accession Number								
+Normalization Type								
+Normalization Term Accession Number								
+Normalization Term Source REF								
+Replicate Type								
+Replicate Term Accession Number								
+Replicate Term Source REF								
+Experimental Design								
+Experimental Design Term Accession Number								
+Experimental Design Term Source REF								
+Quality Control Type								
+Quality Control Term Accession Number								
+Quality Control Term Source REF								
+Protocol Name	P-GSE29657-1	P-GSE29657-6	P-GSE29657-3	P-GSE29657-8	P-GSE29657-7	P-GSE29657-2	P-GSE29657-4	P-GSE29657-5
+Protocol Description	ID_REF = <br>VALUE = MAS5.0 signal intensity<br>ABS_CALL = <br>DETECTION P-VALUE = 	Following fragmentation, 10 ug of cRNA were hybridized for 16.5 hr at 45C on GeneChip Arabidopsis ATH1 Genome Array. GeneChips were washed and stained in the Affymetrix Fluidics Station 450.	Seeds were surface sterilized and plated on 1/2 MS (0.8% agar, pH 5.7) plates.	The data were analyzed with Microarray Suite version 5.0 (MAS 5.0) using Affymetrix default analysis settings and global scaling as normalization method. The trimmed mean target intensity of each array was arbitrarily set to 500.	GeneChips were scanned using Affymetrix GeneChip Scanner 3000 7G	Seedlings were grown under the dark with or without white-light (70~80 μmole m-2 sec-1) treatment.	Total RNA was isolated as described previously [(Chang et al, Plant J 54, 205 (2008)]. Polysome RNA was isolated through a sucrose gradient and purified with phenol/chloroform extraction, LiCl precipitation and dissolved in RNase-free H2O.	Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 10 ug total RNA (Expression Analysis Technical Manual, 701021 Rev. 5, Affymetrix).
+Protocol Software								
+Protocol Hardware								
+Protocol Contact								
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Protocol Term Source REF								
+Protocol Term Accession Number								
+Experimental Factor Name	treatment	time	RNA					
+Experimental Factor Type	treatment	time	RNA					
+Experimental Factor Term Source REF								
+Experimental Factor Term Accession Number								
+Publication Title	Widespread translational control contributes to the regulation of Arabidopsis photomorphogenesis.							
+Publication Author List	Liu MJ, Wu SH, Chen HM, Wu SH							
+PubMed ID	22252389							
+Publication DOI	10.1038/msb.2011.97							
+Publication Status								
+Publication Status Term Source REF								
+Publication Status Term Accession Number								
+Comment[SecondaryAccession]	GSE29657							
+Comment[GEOLastUpdateDate]	2012-07-10							
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[GEOReleaseDate]	2012-07-09							
+Comment[ArrayExpressSubmissionDate]	2011-05-31							
+SDRF File	E-GEOD-29657.sdrf.txt							

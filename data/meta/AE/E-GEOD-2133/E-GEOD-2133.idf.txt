@@ -1,0 +1,50 @@
+Investigation Title	Transcription profiling of Arabidopsis plants grown under anoxia and treated with sucrose	
+Comment[Submitted Name]	Effects of anoxia and sucrose on seedling growth	
+Experimental Design	co-expression_design	growth_condition_design	transcription profiling by array	
+Experimental Design Term Source REF	mo	mo	EFO	
+Comment[ArrayExpressReleaseDate]	2007-07-10	
+Comment[SecondaryAccession]	GSE2133	
+Comment[AEMIAMESCORE]	4	
+Comment[SecondaryAccession]	GDS1448	
+Comment[ArrayExpressAccession]	E-GEOD-2133	
+Comment[MAGETAB TimeStamp_Version]	2010-08-04 06:08:34 Last Changed Rev: 13058	
+Experimental Factor Name	Nutrients	GrowthCondition	
+Experimental Factor Type	nutrients	growth_condition	
+Experimental Factor Term Source REF	
+Person Last Name	Perata	
+Person First Name	Pierdomenico	
+Person Mid Initials	
+Person Email	p.perata@sssup.it	
+Person Phone	
+Person Fax	
+Person Address	Plant Physiology,Crop Physiology Center,Sant'Anna School of Advanced Studies,Via Mariscoglio 34,Pisa,56124,Italy	
+Person Affiliation	Sant'Anna School of Advanced Studies	
+Person Roles	submitter	
+Person Roles Term Source REF	The MGED Ontology	
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2007-07-10	
+PubMed ID	15734908	
+Publication DOI	15734908	
+Publication Author List	Elena Loreti,Alessandra Poggi,Giacomo Novi,Amedeo Alpi,Pierdomenico Perata	
+Publication Title	A genome-wide analysis of the effects of sucrose on gene expression in Arabidopsis seedlings under anoxia.	
+Publication Status	journal_article	
+Publication Status Term Source REF	The MGED Ontology	
+Experiment Description	Arabidopsis thaliana ecotype Columbia glabra were grown for 4 days in the dark without added sucrose. Samples were subsequently kept for 6h either [1] under aerobic conditions, [2] under anoxia in absence of sucrose or [3] under anoxia in presence of sucrose.	
+Protocol Name	P-G2133-1	P-G2133-3	P-G2133-2	
+Protocol Type	grow	grow	grow	
+Protocol Description	Arabidopsis thaliana ecotype Columbia glabra were grown for 4 days in the dark at 23Â&deg;C in multiwell plates containing half-strenght murashige skoog medium without added sucrose. Sample was subsequently kept for 6h under the same conditions (aerobic)  RNA was extracted using a Ambion RNaqueous kit. Targets were produced using standard Affymetrix procedures from about 10ug of total RNA.  Each independent experiment consisted of four replicated seedlings cultures, pooled after RNA extraction. Keywords = Arabidopsis, aerobic, seedling, dark grown	Arabidopsis thaliana ecotype Columbia glabra were grown for 4 days in the dark at 23Â&deg;C in multiwell plates containing half-strenght murashige skoog medium without added sucrose. Sample was subsequently kept for 6h under anoxia in the presence of 90mM sucrose.  RNA was extracted using a Ambion RNaqueous kit. Targets were produced using standard Affymetrix procedures from about 10ug of total RNA.  Each independent experiment consisted of four replicated seedlings cultures, pooled after RNA extraction. Keywords = Arabidopsis, anoxic, sucrose, seedling, dark grown	Arabidopsis thaliana ecotype Columbia glabra were grown for 4 days in the dark at 23Â&deg;C in multiwell plates containing half-strenght murashige skoog medium without added sucrose. Sample was subsequently kept for 6h under anoxia.  RNA was extracted using a Ambion RNaqueous kit. Targets were produced using standard Affymetrix procedures from about 10ug of total RNA.  Each independent experiment consisted of four replicated seedlings cultures, pooled after RNA extraction. Keywords = Arabidopsis, anoxic, seedling, dark grown	
+Protocol Parameters	
+Protocol Hardware	
+Protocol Software	
+Protocol Contact	
+Protocol Term Source REF	
+SDRF File	E-GEOD-2133.sdrf.txt	
+Term Source Name	NCBI Taxonomy	The MGED Ontology	ArrayExpress	mo	EFO	The MGED Ontology	
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version							

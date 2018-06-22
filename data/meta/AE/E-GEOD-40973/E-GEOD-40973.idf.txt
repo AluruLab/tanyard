@@ -1,0 +1,27 @@
+Comment[ArrayExpressAccession]	E-GEOD-40973
+MAGE-TAB Version	1.1						
+Public Release Date	2014-04-30
+Investigation Title	Expression profiling of uninfected and Golovinomyces orontii infected Arabidopsis thaliana wild type Col-0 and del1-1 mutant						
+Comment[Submitted Name]	Expression profiling of uninfected and Golovinomyces orontii infected Arabidopsis thaliana wild type Col-0 and del1-1 mutant
+Experiment Description	In plants, the activation of immunity is often inversely correlated with growth. Mechanisms that plant growth in the context of pathogen challenge and immunity are unclear. Investigating Arabidopsis infection with the powdery mildew fungus, we find that the Arabidopsis atypical E2F DEL1, a transcriptional repressor known to promote cell proliferation, represses accumulation of the hormone salicylic acid (SA), an established regulator of plant immunity. DEL1 deficient plants are more resistant to pathogens and slightly smaller than wild type. The resistance and size phenotypes of DEL1 deficient plants are due to the induction of SA and activation of immunity in the absence of pathogen challenge. Moreover, Enhanced Disease Susceptibility 5 (EDS5), a SA transporter required for elevated SA and immunity, is a direct repressed target of DEL1. Together, these findings indicate that DEL1 control of SA levels contributes to regulating the balance between growth and immunity in developing leaves. Mature, fully expanded leaves of 41/2-week-old Col-0 and del1-1 plants were harvested at 5 days after G. orontii infection and from uninfected control plants for RNA extraction and hybridization on Affymetrix microarrays.						
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Wildermuth	Chandran	Wildermuth				
+Person First Name	Mary	Divya	Mary				
+Person Mid Initials	C		C				
+Person Email	mwildermuth@berkeley.edu						
+Person Affiliation	University of California Berkeley						
+Person Phone	510-643-4861						
+Person Address	Plant and Microbial Biology, University of California Berkeley, 221 Koshland Hall MC3102, Berkeley, CA, USA						
+Person Roles	submitter						
+Protocol Name	P-GSE40973-1	P-GSE40973-5	P-GSE40973-6	P-GSE40973-2	P-GSE40973-3	P-GSE40973-4	P-GSE40973-7
+Protocol Description	Log2 (expression values) were extracted using robust multi-array analysis (RMA) using Partek Genomics Suite software (Partek, Inc). ID_REF =  VALUE = RMA normalized log2 expression	Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 2 ug total RNA.	Microarray hybridizations to Affymetrix Arabidopsis ATH1 GeneChips were performed according to the protocol given in the Affymetrix GeneChip Expression Analysis Technical Manual 702646 Rev. 8.	At four weeks, a subset of boxes was infected with a moderate innoculum of G.orontii using a settling tower. Moderate innoculum is 2 half G.orontii.-infected leaves with conidia 10-14 dpi. Infected plants were placed in a separate Percival growth chamber under the same conditions as the pathogen-free Percival. Infections were performed at 1 pm to standardize experiments and minimize circadian effects. Samples were harvested at 5 dpi. Uninfected 5 d samples were also collected. For each sample, three fully expanded mature leaves were harvested per plant and immediately frozen in liquid nitrogen. Two independent experiments were performed with triplicate samples collected within each experiment. Two biological replicates were processed.	Arabidopsis seeds were stratified in 0.1% agarose for 3-5 days and planted in boxes containing Metromix 200 soil. Seeds of wild type and mutant were equally distributed in each box using a template, with 6 plants each per box. The flats (6 boxes per flat) were covered with plastic trays for 1 week and then uncovered. Flats were watered from below and fertilized at 3 weeks. Plants were grown in Percival AR66L growth chambers at 22°C, 70% RH, 12 h photoperiod with photosynthetically active radiation=150 µE m-2 s-1. Seeds for del1-1 were obtained from Vlieghe et al. 2005, Current Biology, 15:59â€“63.	Total RNA was extracted using the RNeasy plant mini kit from Qiagen according to the manufacturer's instructions. RNA quality was determined by the A260/A280 ratio and by its profile on an Agilent 2100 Bioanalyzer.	GeneChips were scanned using the AffymetrixGeneChip® Scanner 3000 7G at the Univeristy of California, Berkeley, functional genomics lab.
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	GENOTYPE	INFECTED					
+Experimental Factor Type	genotype	infected					
+Comment[SecondaryAccession]	GSE40973						
+Comment[GEOReleaseDate]	2014-04-30						
+Comment[ArrayExpressSubmissionDate]	2012-09-18						
+Comment[GEOLastUpdateDate]	2014-04-30						
+Comment[AEExperimentType]	transcription profiling by array						
+SDRF File	E-GEOD-40973.sdrf.txt

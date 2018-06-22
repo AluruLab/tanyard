@@ -1,0 +1,28 @@
+Comment[ArrayExpressAccession]	E-GEOD-18153
+Investigation Title	Transcription profiling of Arabidopsis after deuterium oxide treatment
+Comment[Submitted Name]	Effect of deuterium oxide on Arabidopsis gene expression
+Publication Title
+Publication Author List
+Publication DOI
+PubMed ID
+Experimental Design	unknown_experiment_design_type	transcription profiling by array
+Experimental Design Term Source REF		EFO
+Person Last Name	Gray
+Person First Name	William
+Person Email	grayx051@tc.umn.edu
+Person Address	Plant Biology, University of Minnesota, 1445 Gortner Ave, St. Paul, 55108, United States
+Person Affiliation	University of Minnesota
+Person Roles	submitter
+Public Release Date	2009-09-25
+Comment[ArrayExpressSubmissionDate]	2009-09-17
+Comment[GEOReleaseDate]	2009-09-18
+Comment[SecondaryAccession]	GSE18153
+Experiment Description	2H2O has a long history as a protein or amino acid labeling techinique, and such labeling systems have proven effective for many different types of studies. A disadvantage of a 2H2O labeling system is that plant growth is inhibited as the percentage of deuterium in the medium increases. However the molecular effects of 2H2O on plant growth has not previoulsly been investigated. To assist with the experimental design of proteomic 2H2O labeling studies, we used microarrays to determine the global effects of 2H2O on gene expression and to indentify genes which genes are effected by 2H2O treatment. Experiment Overall Design: RNA was prepared from Arabidopsis seedlings grown for seven days on either H2O control media or 30% 2H2O to examine the long-term effects of 2H2O treatment,and from seedlings shifted from H2O media to either 2H2O or H2O for 4 h to examine short-term effects on gene expression, and seedlings shifted from 2H2O to H2O for 4 h to examine recovery effects on gene expression.
+Protocol Name	P-G18153-3	P-G18153-2	P-G18153-1	P-G18153-4	P-G18153-5
+Protocol Type	labeling	specified_biomaterial_action	grow	bioassay_data_transformation	nucleic_acid_extraction
+Protocol Description	Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 6 ug total RNA (Expression Analysis Technical Manual, Affymetrix).	Seedlings were collected and frozen in liquid nitrogen immediately.  Seedlings were ground to powder under liquid nitrogen just before total RNA isolation.	Seedlings were germinated on semi-solid ATS media with or without 30% 2H2O and grown under continuous light at 22±2℃.	The data were analyzed with RMA using Affymetrix default analysis settings and global scaling as normalization method.	Total RNA was extracted using the RNeasy plant mini kit (Qiagen), following the manufacturer’s instructions.
+Protocol Parameters					
+Protocol Software					
+SDRF File	E-GEOD-18153.sdrf.txt
+Term Source Name	EFO
+Term Source File	http://efo.svn.sourceforge.net/viewvc/efo/trunk/src/efoinowl/efo.owl

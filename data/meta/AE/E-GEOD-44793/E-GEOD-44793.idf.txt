@@ -1,0 +1,30 @@
+Comment[ArrayExpressAccession]	E-GEOD-44793						
+MAGE-TAB Version	1.1						
+Public Release Date	2013-11-14						
+Investigation Title	DNA-damaging agent and immune inducer synergistically induced defence gene expression in Arabidopsis						
+Comment[Submitted Name]	DNA-damaging agent and immune inducer synergistically induced defence gene expression in Arabidopsis						
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis seedlings grown after DNA-damaging agent bleomycin (BLM) and/or immune inducer 2, 6-dichloroisonicotinic acid (INA) treatment to identify synergistically induced defence genes						
+Experiment Description	We used microarrays to identify differentially expressed genes after DNA-damaging agent bleomycin (BLM) and/or immune inducer 2, 6-dichloroisonicotinic acid (INA) treatment. We focused on those genes that were synergistically induced by co-treatment (BLM+INA). Arabidopsis seedlings were treated with 4 μg/ml BLM and/or low INA (10 μM). There are 4 treatments: control (CK), INA, BLM and BLM+INA. Each treatments have three biological replicates. There are 12 samples in total.						
+Term Source Name	ArrayExpress	EFO					
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Yan	Yan	Wang	Dong			
+Person First Name	Shunping	Shunping	Wei	Xinnian			
+Person Email	hillson78@gmail.com						
+Person Affiliation	Duke University						
+Person Address	Duke University, 127 Science Dr., Durham, North Carolina, USA						
+Person Roles	submitter						
+Protocol Name	P-GSE44793-1	P-GSE44793-5	P-GSE44793-6	P-GSE44793-2	P-GSE44793-3	P-GSE44793-4	P-GSE44793-7
+Protocol Description	The data were normalized with RMA algorithm using Gene-Spring GX default analysis settings ID_REF =  VALUE = RMA signal intensity	RNA probes were labelled using MessageAmp Premier RNA Amplification Kit (Ambion).	Following fragmentation, 10 ug of cRNA were hybridized on Affymetrix ATH1 GeneChip (Santa Clara, CA, U.S.A).	Seedlings were treated with 4 μg/ml BLM and/or low INA (10 μM)	Arabidopsis seedlings were grown on MS plates at 21-24�C, 16-hour day length, 60% relative humidity.	Total RNA was isolated using RNeasy Mini Kit (Qiagen)	GeneChips were scanned using the Axon Genepix Scanner (Genepix 4000B).
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	stimulus						
+Experimental Factor Type	stimulus						
+Publication Title	Salicylic Acid Activates DNA Damage Responses to Potentiate Plant Immunity.						
+Publication Author List	Yan S, Wang W, Marqu�s J, Mohan R, Saleh A, Durrant WE, Song J, Dong X						
+PubMed ID	24207055						
+Publication DOI	10.1016/j.molcel.2013.09.019						
+Comment[SecondaryAccession]	GSE44793						
+Comment[GEOReleaseDate]	2013-11-14						
+Comment[ArrayExpressSubmissionDate]	2013-03-01						
+Comment[GEOLastUpdateDate]	2013-11-14						
+Comment[AEExperimentType]	transcription profiling by array						
+SDRF File	E-GEOD-44793.sdrf.txt						

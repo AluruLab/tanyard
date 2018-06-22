@@ -1,0 +1,49 @@
+Investigation Title	Genome-Wide Analysis Revealed the Complex Regulatory Network of Brassinosteroid Effects in Photomorphogenesis	
+Comment[Submitted Name]	Genome-Wide Analysis Revealed the Complex Regulatory Network of Brassinosteroid Effects in Photomorphogenesis	
+Experimental Design	transcription profiling by array	
+Experimental Design Term Source REF	EFO	
+Comment[AEMIAMESCORE]	4	
+Comment[SecondaryAccession]	GSE14788	
+Comment[ArrayExpressReleaseDate]	2010-02-22	
+Comment[ArrayExpressAccession]	E-GEOD-14788	
+Comment[MAGETAB TimeStamp_Version]	2010-08-01 18:46:46 Last Changed Rev: 13058	
+Experimental Factor Name	TREATMENT	AGE	
+Experimental Factor Type	treatment	age	
+Experimental Factor Term Source REF	
+Person Last Name	Xue	Li	Zhou	Xue	Yang	Song	
+Person First Name	Hong-wei	Li	Xiao-Yi	Liang-Jiao	Xi	Li	
+Person Mid Initials	
+Person Email		li.li@gmx.de	
+Person Phone	
+Person Fax	
+Person Address		University Heidelberg,  Theodor-Kutzer-Ufer, Mannheim, 68167, Germany				SIPPE, FengLin Road, Shang Hai, China	
+Person Affiliation		University Heidelberg				SIPPE	
+Person Roles		submitter				submitter	
+Person Roles Term Source REF		The MGED Ontology				The MGED Ontology	
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2010-02-22	
+PubMed ID	
+Publication DOI	
+Publication Author List	
+Publication Title	
+Publication Status	
+Publication Status Term Source REF	
+Experiment Description	Light and brassinosteroids (BRs) have been proved to be crucial in regulating plant growth and development, however, the mechanism of how they synergistically function is still largely unknown. To explore the underlying mechanisms in photomorphogenesis, genome-wide analyses were carried out through examining the gene expressions of the dark-grown WT or BR biosynthesis-defective mutant det2 seedlings in presence of light stimuli, or exogenous Brassinolide (BL). Results showed that BR deficiency stimulates, while BL treatment suppresses, the expressions of light responsive genes and photomorphogenesis, revealing the negative effects of BR in photomorphogenesis. This is consistent with that genes involved in cell wall modification and cellular metabolism were specifically modulated by BL during dark-light transition, and altered expressions of genes related to energy utilization. Further analysis revealed that hormone biosynthesis and signaling related genes, especially those of auxin, were altered under BL treatment or light stimuli, indicating that BR may modulate photomorphogenesis through synergetic regulation with other hormones. Additionally, suppressed ubiquitin-cycle pathway during light-dark transition hinted the presence of a complicated network among light, hormone and protein degradation. The study provides the direct evidence of BR effects in photomorphogenesis and identified the genes involved in BR and light signaling pathway, which will help to elucidate the molecular mechanism of plant photomorphogenesis. In order to study how BR involves in photomorphogenesis, dark-grown wild-type or BR- deficient mutant det2 seedlings were treated with BL or light, gene expression pattern analysis confirmed that BR deficiency specifically induces, while BL treatment suppresses, the expression of photosynthesis and light responsive genes. Interplay of BR and other hormones play important roles in dark-light transition and photomorphogenesis.  CEL files for the wildtype samples are lost. 14 samples were analysised and including repeats.	
+Protocol Name	P-GSE14788-2	P-GSE14788-9	P-GSE14788-3	P-GSE14788-7	P-GSE14788-4	P-GSE14788-8	P-GSE14788-5	P-GSE14788-6	P-GSE14788-1	
+Protocol Type	nucleic_acid_extraction	nucleic_acid_extraction	labeling	labeling	hybridization	hybridization	image_aquisition	feature_extraction	bioassay_data_transformation	
+Protocol Description	Triazol	triazol	Standard Affymetrix Protocol	Standand Affymetrix protocol	Standard Affymetrix Protocol	Standand Affymetrix protocol	Affy GeneChip Scanner 3000.	The data normalized using MAS5.0 methods were analyzed parallel in order to improve the stability of Statistical Analysis (Smyth, 2004). Genes with absent for the detection value in the baseline data and decrease (or increase) for the change value were excluded from the list, only those regulated in both repeats were selected for further analysis. And linear statistical model in Limma package (Smyth et al., 2005) from Bioconductor was used to identify significant differently expressed genes between two groups.	ID_REF = <br>VALUE = VALUE<br>ABS_CALL = ABS_CALL<br>DETECTION P_VALUE = DETECTION P_VALUE	
+Protocol Parameters	
+Protocol Hardware	
+Protocol Software	
+Protocol Contact	
+Protocol Term Source REF								The MGED Ontology	The MGED Ontology	
+SDRF File	E-GEOD-14788.sdrf.txt	
+Term Source Name	NCBI Taxonomy	The MGED Ontology	ArrayExpress	EFO	The MGED Ontology	
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version						

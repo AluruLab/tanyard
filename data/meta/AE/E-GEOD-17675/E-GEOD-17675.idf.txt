@@ -1,0 +1,51 @@
+Investigation Title	Transcription profiling of Arabidopsis ppi2 mutants					
+Comment[Submitted Name]	Expression data from Arabidopsis ppi2 mutants					
+Experimental Design	unknown_experiment_design_type	transcription profiling by array				
+Experimental Design Term Source REF		EFO				
+Comment[AEExperimentType]	transcription profiling by array					
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for ppi2					
+Comment[SecondaryAccession]	GSE17675					
+Comment[ArrayExpressReleaseDate]	2009-08-22					
+Comment[AEMIAMESCORE]	3					
+Comment[ArrayExpressAccession]	E-GEOD-17675					
+Comment[MAGETAB TimeStamp_Version]	2010-08-03 12:10:40 Last Changed Rev: 13058					
+Experimental Factor Name	GENOTYPE	AGE				
+Experimental Factor Type	genotype	age				
+Experimental Factor Term Source REF						
+Person Last Name	Sookjin					
+Person First Name	Lee					
+Person Mid Initials						
+Person Email	lsj03@postech.ac.kr					
+Person Phone						
+Person Fax						
+Person Address	CSB, POSTECH, inhwan Hwang, san 31, POSTECH, hyojadong, namgu, pohang, 790-840, korea					
+Person Affiliation	inhwan Hwang					
+Person Roles	submitter					
+Person Roles Term Source REF	The MGED Ontology					
+Quality Control Type						
+Quality Control Term Source REF						
+Replicate Type						
+Replicate Term Source REF						
+Normalization Type						
+Normalization Term Source REF						
+Date of Experiment						
+Public Release Date	2009-08-22					
+PubMed ID						
+Publication DOI						
+Publication Author List						
+Publication Title						
+Publication Status						
+Publication Status Term Source REF						
+Experiment Description	Arabidopsis ppi2 plants have a T-DNA insertion in atToc159 and thus display a severe defect in protein import into chloroplasts. These mutants have an albino phenotype and also are seedling lethal. We used microarrays to detail the induced genes in ppi2 plants compard to wild type plants. Experiment Overall Design: Arabidopsis plants, wild-type and ppi2 plants, were grown for 10 or 20 days, respectively, and total RNA was used for analysis.					
+Protocol Name	P-G17675-2	P-G17675-1	P-G17675-5	P-G17675-3	P-AFFY-6	P-G17675-4
+Protocol Type	specified_biomaterial_action	grow	nucleic_acid_extraction	labeling	feature_extraction	bioassay_data_transformation
+Protocol Description	No special treatment was given.	plants were grown on MSagar plates for xx days with 16h/8h light/dark cycle at 70% relative humidity at 20C in a growth chamber.	Trizol extraction of total RNA was performed according to the manufacturer's instructions.	Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 3 ug total RNA (Expression Analysis Technical Manual Rev. 3, 2005, Affymetrix).	Title: Affymetrix CEL analysis. Description: 	The data were analyzed with Microarray Suite version 5.0 (MAS 5.0) using Affymetrix default analysis settings and global scaling as normalization method. The normalized data were log-transformed with base 2. The trimmed mean target intensity of each array was arbitrarily set to 100.
+Protocol Parameters						
+Protocol Hardware						
+Protocol Software					MicroArraySuite 5.0	
+Protocol Contact						
+Protocol Term Source REF						The MGED Ontology
+SDRF File	E-GEOD-17675.sdrf.txt					
+Term Source Name	NCBI Taxonomy		The MGED Ontology	ArrayExpress	EFO	The MGED Ontology
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version						

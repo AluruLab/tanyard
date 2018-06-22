@@ -1,0 +1,51 @@
+Investigation Title	Transcription profiling of Arabidopsis development -AtGenExpress data set															
+Comment[Submitted Name]	AtGenExpress: Expression Atlas of Arabidopsis Development															
+Experimental Design	transcription profiling by array															
+Experimental Design Term Source REF	EFO															
+Comment[AEExperimentType]	transcription profiling by array															
+Comment[AEExperimentDisplayName]	Transcription profiling by array of organism parts from different strains of Arabidopsis															
+Comment[ArrayExpressReleaseDate]																
+Comment[AEMIAMESCORE]	5															
+Comment[ArrayExpressAccession]	E-TABM-17															
+Comment[MAGETAB TimeStamp_Version]	2010-08-12 19:54:46 Last Changed Rev: 13058															
+Experimental Factor Name	time	organism part	ecotype													
+Experimental Factor Type	time	organism_part	ecotype													
+Experimental Factor Term Source REF																
+Person Last Name	Schmid	Vingron	Scholkopf	Pape	Demar	Lohmann	Davison	Weigel	Henz							
+Person First Name	M	M	B	J	M	U	S	D	R							
+Person Mid Initials				U.		J.	T.		S.							
+Person Email								weigel@weigelworld.org								
+Person Phone																
+Person Fax																
+Person Address																
+Person Affiliation								Max Planck Institute for Developmental Biology								
+Person Roles								submitter								
+Person Roles Term Source REF																
+Quality Control Type																
+Quality Control Term Source REF																
+Replicate Type																
+Replicate Term Source REF																
+Normalization Type																
+Normalization Term Source REF																
+Date of Experiment																
+Public Release Date	2005-05-01																
+PubMed ID	15806101															
+Publication DOI	10.1038/ng1543 															
+Publication Author List	Schmid M.; Davison T.S.; Henz S.R.; Pape U.J.; Demar M.; Vingron M.; Scholkopf B.; Weigel D.; Lohmann J.U.															
+Publication Title	A gene expression map of Arabidopsis thaliana development															
+Publication Status	published															
+Publication Status Term Source REF	EFO															
+Publication Status Term Accession Number	EFO_0001796															
+Experiment Description	This experiment is the result of normalizing the data previously submitted to ArrayExpress with the accession number E-AFMX-9.															
+Protocol Name	P-TABM-42	P-TABM-51	P-TABM-52	Affymetrix:Protocol:Hybridization-EukGE-WS2v4_450	P-TABM-54	P-TABM-53	P-TABM-50									
+Protocol Type	grow	nucleic_acid_extraction	labeling	hybridization	feature_extraction	image_acquisition	bioassay_data_transformation									
+Protocol Description	Plants were grown in constant humidity and temperature conditions.	Total RNA was extracted and amplified during labelling process (ftp://ftp.arabidopsis.org/home/tair/Protocols/AtGenExpress_probe_s_102E57.pdf)	cRNA was labelled with biotin using Affymetrix Enzo Kit, in-vitro transcription method (ftp://ftp.arabidopsis.org/home/tair/Protocols/AtGenExpress_probe_s_102E57.pdf).	Title: Affymetrix EukGE-WS2v4_450 Hybridization. Description: 		Slides were scanned using GeneChip Scanner 3000 and GCOS software.	Raw data was normalized with RMA and mean and standard deviation over the repeats were calculated.									
+Protocol Parameters	growth temperature;growth humidity;				Cell margin;Outlier high;Outlier low;Percentile;	scanner;										
+Protocol Hardware						Affymetrix GeneChip Scanner 3000										
+Protocol Software					Affymetrix GCOS software	Affymetrix GeneChip Operating Software										
+Protocol Contact																
+Protocol Term Source REF				mo			The MGED Ontology									
+SDRF File	E-TABM-17.sdrf.txt															
+Term Source Name		mo	nasc	ncbitax	tair_dev:1.27	po_development_and_growth_ontology1.1	Plant Ontology	tair_anat:1.14	tair_anat:1.2	po_structure_ontology1.1	tair	The MGED Ontology	ArrayExpress	EFO	mo	The MGED Ontology
+Term Source File		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://arabidopsis.info/catalogue.html	http://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html	http://www.arabidopsis.org/info/ontologies/		http://www.plantontology.org/	http://www.arabidopsis.org/info/ontologies/	http://www.arabidopsis.org/info/ontologies/		http://arabidopsis.org	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version					1.27			1.14	1.2							

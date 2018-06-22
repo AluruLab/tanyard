@@ -1,0 +1,36 @@
+Comment[ArrayExpressAccession]	E-MEXP-3122							
+Investigation Title	Expression in response to Sclerotinia infection in wild type and coi1 mutant Arabidopsis							
+Comment[Submitted Name]	Expression in response to Sclerotinia infection in wild type and coi1 mutant Arabidopsis							
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for coi1 after infection with Sclerotinia sclerotiorum							
+Comment[MIAMExpressLogin]	HenrikStotz							
+Comment[MIAMExpressSubmissionID]	7329							
+Experiment Description	Effect of the jasmonate receptor COI1 on gene expression in response to Sclerotinia sclerotiorum infection							
+Experimental Design	co-expression_design	time_series_design	disease_state_design	replicate_design				
+Comment[AEExperimentType]	transcription profiling by array							
+Experimental Factor Name	infect	genotype	time					
+Experimental Factor Type	infect	genotype	time					
+Person Last Name	Stotz							
+Person First Name	Henrik							
+Person Email	henrik.stotz@uni-wuerzburg.de							
+Person Phone	0931-31-81007							
+Person Affiliation	"Julius-von-Sachs Institut, Uni Wuerzburg"							
+Person Address	"Pharmazeutische Biologie, Julius-von-Sachs Platz 2, Wuerzburg, Bayern, 97082, Germany"							
+Person Roles	submitter							
+Person Roles Term Source REF	MGED Ontology							
+Quality Control Type	spike_quality_control	biological_replicate						
+Public Release Date	2011-05-15							
+Comment[ArrayExpressSubmissionDate]	19/02/11 13:25							
+Pubmed ID	21418358							
+Publication DOI	10.1111/j.1365-313X.2011.04578.x							
+Publication Author List	"Stotz HU, Sawada Y, Shimada Y, Hirai MY, Sasaki E, Krischke M, Brown PD, Saito K, Kamiya Y."							
+Publication Title	"Defense against Sclerotinia sclerotiorum in Arabidopsis depends on camalexin, indole glucosinolates, and side chain modification of aliphatic glucosinolate-derived isothiocyanates"							
+Publication Status	published							
+Publication Status Term Source REF	EFO							
+Publication Status Term Accession Number	EFO_0001796							
+Protocol Name	P-MTAB-19273	P-MTAB-19270	P-MTAB-19271	P-MTAB-19272	P-AFFY-2	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6	Affymetrix:Protocol:MAS4:ExpressionCall
+Protocol Description	Two leaves per plant were mock-inoculated or challenged with Sclerotinia sclerotiorum.  Separate plants were harvested for the 24 h and 48 h post-inoculation time points and challenged leaves were frozen in liquid nitrogen.  Twelve leaves were pooled from separate plants per sample.	Sclerotinia sclerotiorum strain 1980 was grown on minimal medium [Guo and Stotz (2007) Mol. Plant-Microbe Interact. 20: 1384•_Ð1395].  A randomized complete block design was used to grow wild-type and mutant plants in two 72-well flats.  Rosette leaves of 4 to 6-week old A. thaliana plants were inoculated by placing an agar plug (1.6 mm in diameter) containing actively growing hyphal tips on the adaxial leaf surface.  	"Total RNA was extracted with phenol-SDS and precipidated with LiCl [Sambrook et al. (1989). Molecular Cloning: A Laboratory Manual, 2nd edition. Cold Spring Harbor Laboratory Press, Cold Spring Harbor, NY, U.S.A.).  RNA was quantified using a Nanodrop ND-1000 UV-Vis Spectrophotometer.  RNA purity was checked using an Agilent Bioanalyzer 2100.  Labeled target cRNA was prepared from 3 •_µg total RNA samples as described in the Affymetrix GeneChip•_¨ Expression Analysis Technical Manual (701021 Rev. 5) protocols with an IVT incubation time of 16 hours.   (Parameters: Extracted product = total_RNA, Amplification = RNA polymerases)"	"Plants were grown in soil mix (Sunshine SB40 or 1:2 vermiculite:potting soil) under short day conditions with a 10 h light/14 h dark cycle at 22C under fluorescent light at 250-300 umol m•_Ð2 s•_Ð1.  Plants were fertilized every other week with a 1,000-fold diluted fertilizer stock (Hyponex Japan, Osaka). (Parameters: start time = 24, stop time = 48, time unit = hours, min temperature = 20, temperature unit = C, media = Soil)"				
+Protocol Type	pool	specified_biomaterial_action	nucleic_acid_extraction	grow	labelling	hybridization	image_acquistion	bioassay_data_transformation
+Protocol Term Source REF	MGED Ontology	MGED Ontology	MGED Ontology	MGED Ontology				
+Term Source Name	MGED Ontology	ArrayExpress	EFO					
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo					
+SDRF File	E-MEXP-3122.sdrf.txt							

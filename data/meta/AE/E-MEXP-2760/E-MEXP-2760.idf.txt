@@ -1,0 +1,34 @@
+Comment[ArrayExpressAccession]	E-MEXP-2760						
+Investigation Title	Heat stress UNR						
+Comment[Submitted Name]	Heat stress UNR						
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis thaliana Multiprotein Bridging Factor 1c knock out plants following heat stress						
+Comment[MIAMExpressLogin]	nsuzuki						
+Comment[MIAMExpressSubmissionID]	6741						
+Experiment Description	To identify transcripts that are regulated by putative transcriptional co-activators, WT (Col) and KO of heat responsive transcriptional co-activator (Multiprotein Bridging Factor 1c) in Arabidopsis were subjeted to heat stress. These plants were compared to find transcripts that are regulated by the transcriptional co-activator during heat stress.						
+Experimental Design	reference_design	in_vivo_design	stimulus_or_stress_design	replicate_design	transcript_identification_design	co-expression_design	time_series_design
+Comment[AEExperimentType]	transcription profiling by array						
+Experimental Factor Name	genotype	time					
+Experimental Factor Type	genotype	time					
+Person Last Name	Suzuki						
+Person First Name	Nobuhiro						
+Person Email	nsjoinlu@gmail.com						
+Person Phone	775-784-4071						
+Person Affiliation	University of Nevada, Reno						
+Person Address	Biochemistry, MS200 1664 N. Virginia, Reno, NV, 89557, USA						
+Person Roles	submitter						
+Person Roles Term Source REF	MGED Ontology						
+Quality Control Type							
+Public Release Date	2011-06-09						
+Comment[ArrayExpressSubmissionDate]	2010-06-14 10:15						
+Pubmed ID	21457365						
+Publication DOI	10.1111/j.1365-313X.2011.04550.x						
+Publication Title	Identification of the MBF1 heat-response regulon of Arabidopsis thaliana						
+Publication Author List	Suzuki N, Sejima H, Tam R, Schlauch K, Mittler R						
+Publication Status	published						
+Protocol Name	P-MTAB-14520	P-MTAB-18780					
+Protocol Description	Eleven-day-old Arabidopsis plants were subjected to 40C heat stress and sampled at 0, 20 and 60min.	Total RNA was extracted from 50-150mg of Arabidopsis tissues using Trizol reagent (Invitrogen).<br>(Parameters: Extracted product = total_RNA, Amplification = none)					
+Protocol Type	specified_biomaterial_action	nucleic_acid_extraction					
+Protocol Term Source REF	MGED Ontology	MGED Ontology					
+Term Source Name	MGED Ontology	ArrayExpress					
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress					
+SDRF File	E-MEXP-2760.sdrf.txt						

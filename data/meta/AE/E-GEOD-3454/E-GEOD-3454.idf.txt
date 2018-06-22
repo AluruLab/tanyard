@@ -1,0 +1,57 @@
+Comment[ArrayExpressAccession]	E-GEOD-3454
+Public Release Date	2005-11-14					
+Investigation Title	Transcriptome analysis of ROP10 GTPase-mediated abscisic acid (ABA) signaling in Arabidopsis					
+Comment[Submitted Name]	Transcriptome analysis of ROP10 GTPase-mediated abscisic acid (ABA) signaling in Arabidopsis
+Experiment Description	In this study, we have identified genes that are respectively activated and repressed by the low concentration of ABA and show that ROP10 gates a specific subset of genes that are responsive only to a low ABA concentration. Keywords: Whole seedlings of wild-type (Ws) and the mutant (rop10-1) treated with or without ABA 12 Arabidopsis ATH1 chips were purchased from Affymetrix. Total RNA was extracted and purified from 1µM ABA-treated or non-treated Ws and rop10-1. Each genotype/treatment has three biological replicates. Probe labeling, array hybridization and scanning were done by the University of California-Irvine DNA Microarray Facility.					
+Date of Experiment						
+Term Source Name	EFO
+Term Source Version						
+Term Source File	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Zheng	Zheng	Xin	Zhao		
+Person First Name	Zhi-Liang	Zhi-Liang	Zeyu	Yihong		
+Person Mid Initials						
+Person Email	geo@ncbi.nlm.nih.gov					
+Person Affiliation	Lehman College of City University of New York					
+Person Phone						
+Person Fax						
+Person Address	Biological Sciences, Lehman College of City University of New York, 250 Bedford Park Blvd W, Bronx, NY, USA					
+Person Roles	submitter					
+Person Roles Term Source REF						
+Person Roles Term Accession Number						
+Normalization Type						
+Normalization Term Accession Number						
+Normalization Term Source REF						
+Replicate Type						
+Replicate Term Accession Number						
+Replicate Term Source REF						
+Experimental Design						
+Experimental Design Term Accession Number						
+Experimental Design Term Source REF						
+Quality Control Type						
+Quality Control Term Accession Number						
+Quality Control Term Source REF						
+Protocol Name	P-GSE3454-1	P-GSE3454-5	P-GSE3454-4	P-GSE3454-2	P-GSE3454-3	P-GSE3454-6
+Protocol Description	ID_REF = <br>VALUE = GCOS 1.1.1 software-calculated Signal intensity<br>ABS_CALL = the call in an absolute analysis that indicates if the transcript was present (P), absent (A), marginal (M), or no call (NC)<br>DETECTION P-VALUE = 'detection p-value', p-value that indicates the significance level of the detection call	standard Affymetrix procedures	standard Affymetrix procedures	Approximately 100 mg of 7-day old seedlings were frozen and ground in liquid nitrogen. Total RNA was extracted using an TRIzol kit (Invitrogen) and purified by RNeasy kit (Qiagen).	Approximately 10 µg of total RNA was processed to produce biotinylated cRNA targets.	Affymetrix GCOS 1.1.1 software
+Protocol Software						
+Protocol Hardware						
+Protocol Contact						
+Protocol Type	bioassay_data_transformation	image_aquisition	hybridization	nucleic_acid_extraction	labeling	feature_extraction
+Protocol Term Source REF						
+Protocol Term Accession Number						
+Experimental Factor Name						
+Experimental Factor Type						
+Experimental Factor Term Source REF						
+Experimental Factor Term Accession Number						
+Publication Title						
+Publication Author List						
+PubMed ID	16258012					
+Publication DOI						
+Publication Status						
+Publication Status Term Source REF						
+Publication Status Term Accession Number						
+Comment[SecondaryAccession]	GSE3454					
+Comment[GEOLastUpdateDate]	2011-07-10
+Comment[AEExperimentType]	transcription profiling by array					
+Comment[GEOReleaseDate]	2005-11-14
+Comment[ArrayExpressSubmissionDate]	2005-10-13
+SDRF File	E-GEOD-3454.sdrf.txt

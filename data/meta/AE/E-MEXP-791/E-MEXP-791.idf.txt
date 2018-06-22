@@ -1,0 +1,48 @@
+Investigation Title	Transcription profiling of Arabidopsis leaves, roots and whole plants grown in high or low phosphate conditions for different lengths of time	
+Comment[Submitted Name]	Affymetrix ATH1-Arabidopsis thaliana-phosphate starvation-LBDP	
+Experimental Design	growth_condition_design	transcription profiling by array	
+Experimental Design Term Source REF	mo	EFO	
+Comment[ArrayExpressReleaseDate]	2006-09-01	
+Comment[AEMIAMESCORE]	5	
+Comment[ArrayExpressAccession]	E-MEXP-791	
+Comment[MAGETAB TimeStamp_Version]	2010-08-11 16:20:55 Last Changed Rev: 13058	
+Experimental Factor Name	amount of phosphate in medium	treatment time	organism part	
+Experimental Factor Type	nutrients	time	organism_part	
+Experimental Factor Term Source REF	
+Person Last Name	jain	jouhet	block	bligny	ortet	herrerra-estrella	raghothama	somerville	nussaume	thibaud	misson	
+Person First Name	ajay	juliette	maryse	richard	philippe	luis	kashchandra	Shauna	laurent	marie-christine	julie	
+Person Mid Initials	
+Person Email										mcthibaud@cea.fr	
+Person Phone										(33) 442 257 816	
+Person Fax	
+Person Address										cadarache	
+Person Affiliation	purdue university	cnrs	cnrs	cnrs	cea	cinvestav	purdue university	Stanford University	cea	DEVM	cea	
+Person Roles										submitter	
+Person Roles Term Source REF											
+Quality Control Type	biological_replicate	
+Quality Control Term Source REF	The MGED Ontology	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2006-09-01	
+PubMed ID	16085708	
+Publication DOI	16085708	
+Publication Author List	Julie Misson; Marie-Christine Thibaud; Laurent Nussaume; Kashchandra Raghothama; Ajay Jain; Juliette Jouhet; Maryse Block; Richard Bligny; Philippe Ortet; Luis Herrerra-Estrella; Shauna Somerville	
+Publication Title	A genome wide transcriptional analysis using Arabidopsis thaliana Affymetrix gene chips determined plant responses  to phosphate deprivation	
+Publication Status	journal_article	
+Publication Status Term Source REF	
+Experiment Description	The effects of phosphate starvation in Arabidopsis thaliana (L.) plants were compared in plants grown in liquid MS medium transferred in low or high Pi and in plants grown vertically in petri dishes during 10 days. In the transfer experiments, 2 treatments were analysed for evaluating the short-(3, 6 and 12 h pooled) and medium-(1 and 2 d pooled) term effects of Pi deficiency on the gene expression. Since some Arabidopsis genes are regulated by diurnal rhythm and circadian clocks, plantlets were harvested separately at the beginning and at the end of the photoperiod and pooled. In the long term experiment, leaves and roots were sampled separately after 10 days. Triplicates were analysed for each experiment.	
+Protocol Name	P-MEXP-12144	P-MEXP-11820	P-MEXP-12146	P-MEXP-12140	P-MEXP-12139	P-MEXP-12143	P-MEXP-12141	P-MEXP-12145	P-MEXP-11749	P-MEXP-11782	P-MEXP-12148	P-MEXP-12288	Affymetrix:Protocol:Hybridization-EukGE-WS2v4	P-AFFY-6	Affymetrix:Protocol:ExpressionStat	
+Protocol Type	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	grow	grow	nucleic_acid_extraction	labeling	hybridization	feature_extraction	bioassay_data_transformation	
+Protocol Description	Medium term transfer : plantlets were grown in MS medium, then after rinsing were transferred for 1 and 2 days (pooled) in a medium without phosphate.	Short term transfer : plantlets were grown in MS medium, then after rinsing were transferred for 3, 6 and 12h (pooled) in high phosphate (1mM).	Roots of long term experiment : plantlets were grown vertically during 10 days in solid MS medium, supplemented with low phosphate (0.005 mM). Roots were harvested separately.	Leaves of long term experiment : plantlets were grown vertically during 10 days in solid MS medium, supplemented with high phosphate (0.5 mM). Leaves were harvested separately.	Medium term transfer : plantlets were grown in MS medium, then after rinsing were transferred for 1 and 2 days (pooled) in high phosphate (1mM).	Short term transfer : plantlets were grown in MS medium, then after rinsing were transferred for 3, 6 and 12h (pooled) in a medium without phosphate.	Roots of long term experiment : plantlets were grown vertically during 10 days in solid MS medium, supplemented with high phosphate (0.5 mM). Roots were harvested separately.	Leaves of long term experiment : plantlets were grown vertically during 10 days in solid MS medium, supplemented with low phosphate (0.005 mM). Leaves were harvested separately.	Plant Material and Growth Conditions: Arabidopsis thaliana (L.) plants (col ecotype) were raised in liquid culture and transferred in a medium with or without Pi for evaluating the short-(3, 6 and 12 h pooled) and medium-(1 and 2 d pooled) term effects of Pi deficiency on the gene expression. 	Plant material and growth conditions: For studying long-term effects of Pi deficiency, surface-sterilized seeds of Arabidopsis thaliana (WS ecotype) were sown in square (12 x12 cm) Petri dishes on MS/10 medium (with 0.5 % sucrose, 0.8 % agar) and supplemented with either 500 ?M (P+) or 5 ?M (P-) Pi and plants were grown vertically in a growth chamber (14h light / 10h dark, 22°/18°C, 150?mol.s-1.m-2). Since some Arabidopsis genes are regulated by diurnal rhythm and circadian clocks, the roots and the leaves were harvested separately at the beginning and at the end of the photoperiod and pooled. Samples were rinsed with distilled water, blot-dried and frozen in liquid nitrogen. 	RNA Extraction and cRNA Preparation: Total RNA from shoot and root (long-term) and from the whole plant (short- and medium-term) was isolated by hot phenol-chloroforme and lithium chloride precipitation. cRNA was prepared following the manufacturers instructions (http://www.affymetrix.com/support/technical/manual/expression_manual.affx).	Refer to the Affymetrix Expression Analysis Technical Manual, chapter 3, "Synthesis of biotin-labeled cRNA (IVT) and chapter 4, "Control of cRNA preparation".	Title: Fluidics Station Protocol. Description: 	Title: Affymetrix CEL analysis. Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 	
+Protocol Parameters									media;		Amplification;Extracted product;	Label used;Amount of nucleic acid labeled;Amplification;	
+Protocol Hardware	
+Protocol Software													MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact	
+Protocol Term Source REF	mo	mo	mo	mo	mo	mo	mo	mo							The MGED Ontology	
+SDRF File	E-MEXP-791.sdrf.txt	
+Term Source Name	NCI_thesaurus	Plant Ontology	po		tair_dev:1.27	ncbitax	The MGED Ontology	ArrayExpress	The MGED Ontology	mo	EFO	
+Term Source File	ncithesaurus.obo.alt	http://www.plantontology.org/	http://www.plantontology.org		http://www.arabidopsis.org/info/ontologies/	http://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	
+Term Source Version					1.27							

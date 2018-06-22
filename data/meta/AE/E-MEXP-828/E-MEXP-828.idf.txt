@@ -1,0 +1,51 @@
+Investigation Title	Transcription profiling of Arabidopsis roots from plants grown in nutrient solutions with various concentrations of nitrate and sucrose									
+Comment[Submitted Name]	Coruzzi - Arabidopsis - CN treatments									
+Experimental Design	compound_treatment_design	transcription profiling by array								
+Experimental Design Term Source REF	mo	EFO								
+Comment[AEExperimentType]	transcription profiling by array									
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis grown in nutrient solutions with various concentrations of nitrate and sucrose									
+Comment[ArrayExpressReleaseDate]	2006-11-30									
+Comment[AEMIAMESCORE]	5									
+Comment[ArrayExpressAccession]	E-MEXP-828									
+Comment[MAGETAB TimeStamp_Version]	2011-01-23 11:05:54 Last Changed Rev: 14857									
+Experimental Factor Name	TREATMENT									
+Experimental Factor Type	treatment									
+Experimental Factor Term Source REF										
+Person Last Name	Shasha	Lejay	Coruzzi	Dean	Gutierrez	Chiaromonte				
+Person First Name	Dennis	Laurence	Gloria	Alexis	Rodrigo	Francesca				
+Person Mid Initials	E		M		A					
+Person Email					rodrigo.gutierrez@gmail.com					
+Person Phone					212-998-3962					
+Person Fax										
+Person Address					100 Washington Square East. 1009 Main Building					
+Person Affiliation	New York University	New York University	New York University	New York University	New York University, Biology	New York University				
+Person Roles					submitter					
+Person Roles Term Source REF										
+Quality Control Type	biological_replicate									
+Quality Control Term Source REF	The MGED Ontology									
+Replicate Type										
+Replicate Term Source REF										
+Normalization Type										
+Normalization Term Source REF										
+Date of Experiment										
+Public Release Date	2006-11-30									
+PubMed ID	17217541									
+Publication DOI	10.1186/gb-2007-8-1-r7									
+Publication Author List	Rodrigo Gutierrez; Laurence Lejay; Alexis Dean; Francesca Chiaromonte; Dennis Shasha; Gloria Coruzzi									
+Publication Title	Qualitative network models and genome-wide expression data define carbon/nitrogen-responsive molecular machines in Arabidopsis									
+Publication Status	published									
+Publication Status Term Source REF	EFO									
+Publication Status Term Accession Number	EFO_0001796									
+Experiment Description	We used Arabidopsis thaliana Col-0 for all experiments. The plants were grown hydroponically on nutrient solution as described previously [Plant J 1999, 18(5):509-519]. Briefly, plants were grown on sand, placed in custom-designed styrofoam rafts, in a growth chamber (EGC, Chagrin Falls, OH, USA) at 22°C with 60 mmol photons m-2s-1 light intensity and 8 h/16 h light/dark cycles. The seeds were initially germinated in tap water. After one week, the water was replaced with a complete nutrient solution [Plant J 1999, 18(5):509-519]. All the experiments were performed with 6 week old plants. Nutrient solutions were renewed weekly and on the day before the experiments. For treatments, individual rafts were transferred to containers with 300mL of nutrient solution supplemented with various concentrations of nitrate (as a mix of 2/1 KNO3/Ca(NO3)2) and/or sucrose. The N-free nutrient solutions contained 0.25 mM K2SO4 and 0.25 mM CaCl2 instead of KNO3 and Ca(NO3)2. Plants were transferred to treatments media at the beginning of the light period and were harvested 8h afterwards. Roots and leaves were harvested separately and quickly frozen in liquid N2.									
+Protocol Name	P-MEXP-30022	P-MEXP-30020	P-MEXP-30021	P-MEXP-30023	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6	Affymetrix:Protocol:ExpressionStat			
+Protocol Type	specified_biomaterial_action	grow	nucleic_acid_extraction	labeling	hybridization	feature_extraction	bioassay_data_transformation			
+Protocol Description	All the experiments were performed with 6 week old plants. Nutrient solutions were renewed weekly and on the day before the experiments. For treatments, individual rafts were transferred to containers with 300mL of nutrient solution supplemented with various concentrations of nitrate (as a mix of 2/1 KNO3/Ca(NO3)2) and/or sucrose. The N-free nutrient solutions contained 0.25 mM K2SO4 and 0.25 mM CaCl2 instead of KNO3 and Ca(NO3)2. Plants were transferred to treatments media at the beginning of the light period and were harvested 8h afterwards. Roots and leaves were harvested separately and quickly frozen in liquid N2. All experiments were carried out in duplicate with the exception of the no sucrose/no nitrate treatment which was performed four times.	We used Arabidopsis thaliana Col-0 for all experiments. The plants were grown hydroponically on nutrient solution as described previously [Plant J 1999, 18(5):509-519]. Briefly, plants were grown on sand, placed in custom-designed styrofoam rafts, in a growth chamber (EGC, Chagrin Falls, OH, USA) at 22°C with 60 mmol photons m-2s-1 light intensity and 8 h/16 h light/dark cycles. The seeds were initially germinated in tap water. After one week, the water was replaced with a complete nutrient solution [Plant J 1999, 18(5):509-519]. All the experiments were performed with 6 week old plants. Nutrient solutions were renewed weekly and on the day before the experiments. For treatments, individual rafts were transferred to containers with 300mL of nutrient solution supplemented with various concentrations of nitrate (as a mix of 2/1 KNO3/Ca(NO3)2) and/or sucrose. The N-free nutrient solutions contained 0.25 mM K2SO4 and 0.25 mM CaCl2 instead of KNO3 and Ca(NO3)2. Plants were transferred to treatments media at the beginning of the light period and were harvested 8h afterwards. Roots and leaves were harvested separately and quickly frozen in liquid N2. 	Total RNA extraction was performed as described previously [Plant Mol Biol 1992, 19:563 - 572]. 	Total RNA extraction was performed as described previously [Plant Mol Biol 1992, 19:563 - 572]. cDNA was synthesized from 8µg total RNA using T7-Oligo(dT) promoter primer and reagents recommended by Affymetrix (Santa Clara, CA, USA). Biotin-labeled cRNA was synthesized using the Enzo BioArray HighYield RNA Transcript Labeling Kit (Enzo, NY). The concentration and quality of the cRNA was evaluated by A260/280nm reading and 1% agarose gel electrophoresis. We used 15µg of labeled cRNA to hybridize the Arabidopsis ATH1 Affymetrix gene chip for 16 h at 42°C. Washing, staining and scanning were performed as recommended by Affymetrix. 	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 			
+Protocol Parameters		start time;stop time;min temperature;	Extracted product;Amplification;	Amount of nucleic acid labeled;Label used;Amplification;						
+Protocol Hardware										
+Protocol Software					MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 5.0			
+Protocol Contact										
+Protocol Term Source REF	mo				mo					
+SDRF File	E-MEXP-828.sdrf.txt									
+Term Source Name	mo		po_structure_ontology1.1	atcc	ncbitax	The MGED Ontology	ArrayExpress	The MGED Ontology	mo	EFO
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php			http://www.atcc.org/	http://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/
+Term Source Version										

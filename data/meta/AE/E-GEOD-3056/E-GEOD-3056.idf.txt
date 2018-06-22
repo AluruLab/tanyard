@@ -1,0 +1,52 @@
+Investigation Title	Transcription profiling of Arabidopsis stigma tissue - pollination study				
+Comment[Submitted Name]	Arabidopsis Pollination Study				
+Experimental Design	unknown_experiment_design_type	transcription profiling by array			
+Experimental Design Term Source REF		EFO			
+Comment[AEExperimentType]	transcription profiling by array				
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis pistils, ovaries and whole seedlings				
+Comment[AEMIAMESCORE]	4				
+Comment[ArrayExpressReleaseDate]	2008-06-12				
+Comment[SecondaryAccession]	GSE3056				
+Comment[ArrayExpressAccession]	E-GEOD-3056				
+Comment[MAGETAB TimeStamp_Version]	2010-08-04 19:15:05 Last Changed Rev: 13058				
+Experimental Factor Name	ORGANISM PART				
+Experimental Factor Type	organism_part				
+Experimental Factor Term Source REF					
+Person Last Name	Preuss				
+Person First Name	Daphne				
+Person Mid Initials					
+Person Email	dpreuss@midway.uchicago.edu,rob.swanson@valpo.edu,tclark@ittc.ku.edu				
+Person Phone					
+Person Fax					
+Person Address	Molecular Genetics and Cell Biology, The University of Chicago, 1103 E. 57th Street , Chicago, 66037, USA				
+Person Affiliation	The University of Chicago				
+Person Roles	submitter				
+Person Roles Term Source REF	The MGED Ontology				
+Quality Control Type					
+Quality Control Term Source REF					
+Replicate Type					
+Replicate Term Source REF					
+Normalization Type					
+Normalization Term Source REF					
+Date of Experiment					
+Public Release Date	2008-06-12				
+PubMed ID					
+Publication DOI	10.1007/s00497-005-0009-x				
+Publication Author List	R. Swanson, T. Clark and D. Preuss				
+Publication Title	Expression profiling of Arabidopsis stigma tissue identifies stigma-specific genes 				
+Publication Status	published				
+Publication Status Term Source REF	EFO				
+Publication Status Term Accession Number	EFO_0001796				
+Experiment Description	Microarray experiments were used to build a profile of candidate stigma genes that facilitate early pollination events.  Of over 24,000 genes probed, we identified 11,403 genes expressed in stigma tissue, 317 of these that are stigma specific (not expressed in control tissues). To appear in Sexual Plant Reproduction, Swanson, Clark, and Preuss, "Expression Profiling of Arabidopsis Stigma Tissue Identifies Stigma-Specific Genes." Experiment Overall Design: Expression profiles of stigma, ovary and seedling tissues were studied and contrasted. Four samples each of seedling and ovary were used; and three stigma samples.				
+Protocol Name	P-G3056-1	P-G3056-2	Affymetrix:Protocol:Hybridization-EukGE-WS2v4	P-AFFY-6	Affymetrix:Protocol:ExpressionStat
+Protocol Type	grow	grow	hybridization	feature_extraction	bioassay_data_transformation
+Protocol Description	Ovary tissues were isolated from pistils after emasculating stage 8 buds (Bowman, 1994) of Landsberg erecta (Ler) flowers. After one day of growth, pistils were harvested. Stigma was seperated from ovaries using superfine tip scissors and flash frozen in liquid nitrogen until  RNA harvesting.	Seedling tissue was collected by growing Ler seedlings on Murashige and Skoog media plates for 10 days, and whole seedlings were harvested for RNA.	Title: Fluidics Station Protocol. Description: 	Title: Affymetrix CEL analysis. Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 
+Protocol Parameters					
+Protocol Hardware					
+Protocol Software			MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 5.0
+Protocol Contact					
+Protocol Term Source REF					The MGED Ontology
+SDRF File	E-GEOD-3056.sdrf.txt				
+Term Source Name	NCBI Taxonomy	The MGED Ontology	ArrayExpress	EFO	The MGED Ontology
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version					

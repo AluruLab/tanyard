@@ -1,0 +1,51 @@
+Investigation Title	Transcription profiling of Arabidopsis treated with sugars (glucose, mannose) and abcissic acid							
+Comment[Submitted Name]	Arabidopsis Sugar ABA responsive gene expression							
+Experimental Design	growth condition design	time series design						
+Experimental Design Term Source REF								
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis after treatment with glucose, mannose and abcissic acid							
+Comment[ArrayExpressReleaseDate]	2005-10-01							
+Comment[AEMIAMESCORE]	5							
+Comment[ArrayExpressAccession]	E-MEXP-475							
+Comment[MAGETAB TimeStamp_Version]	2010-08-11 14:50:14 Last Changed Rev: 13058							
+Experimental Factor Name	growth condition	time						
+Experimental Factor Type	growth condition	time						
+Experimental Factor Term Source REF								
+Person Last Name	hadfield	Li	Lee	Smith	Sorefan	Walsh	Bevan	Crawley
+Person First Name	james	Yunhai	Kee	Caroline	Karim	Sean	Michael	Gavin
+Person Mid Initials			k					
+Person Email	james.hadfield@bbsrc.ac.uk							
+Person Phone	+44 1603450830							
+Person Fax								
+Person Address	colney lane							
+Person Affiliation	genome laboratory	John Innes Center	University of East Anglia	John Innes Center	John Innes Center	John Innes Center	John Innes Center	University of East Anglia
+Person Roles	submitter							
+Person Roles Term Source REF								
+Quality Control Type								
+Quality Control Term Source REF								
+Replicate Type								
+Replicate Term Source REF								
+Normalization Type								
+Normalization Term Source REF								
+Date of Experiment								
+Public Release Date	2005-10-01							
+PubMed ID	16424108							
+Publication DOI	10.1101/gr.4237406							
+Publication Author List	Li Y, Lee KK, Walsh S, Smith C, Hadingham S, Sorefan K, Cawley G, Bevan MW.							
+Publication Title	Establishing glucose- and ABA-regulated transcription networks in Arabidopsis by microarray analysis and promoter classification using a Relevance Vector Machine							
+Publication Status	published							
+Publication Status Term Source REF	EFO							
+Publication Status Term Accession Number	EFO_0001796							
+Experiment Description	The aim of the experiment is to determine sugar and ABA responsive gene expression in Arabidopsis.							
+Protocol Name	P-MEXP-10342	P-MEXP-10341	P-MEXP-10346	P-MEXP-8187	Affymetrix:Protocol:Hybridization-EukGE-WS2v4	Affymetrix:Protocol:Hybridization-FlexGE-WS2v4	P-AFFY-6	Affymetrix:Protocol:ExpressionStat
+Protocol Type	specified_biomaterial_action	grow	nucleic_acid_extraction	labeling	hybridization	Hybridization	feature_extraction	bioassay_data_transformation
+Protocol Description	Seedlings were treated with 3% glucose, 3% mannitol, 3% glucose + 10ÂÃM ABA or 3% mannitol + 10ÂÃM ABA, and sampled at 0, 2, 4 or 6 hours after treatment. Three independent sets of cultures grown in 3% glucose and 3% mannitol were sampled for RNA isolation.	Arabidopsis thaliana seedlings (ecotype Columbia-0) were grown in liquid culture for 7 days on MS medium containing 0.5% glucose in constant light. After 7days growth, the medium was replaced with glucose-free medium for 24 hrs.	Total RNA was extracted from the treated Arabidopsis seedlings using an RNeasy Plant Mini Kit (Qiagen, West Sussex, UK) according to the kit manual. 	Starting total RNA quality was assessed by running 1ul of each RNA sample on Agilent RNA6000nano LabChipsÂ® (Agilent Technology 2100 Bioanalyzer Version A.01.20 SI211). Total RNA quantity was assessed by running 1ul of each RNA sample on a NanoDropÂ® ND-1000 UV-Vis Spectrophotometer (Nanodrop Technologies). First strand cDNA synthesis was performed according to the Affymetrix Manual II, using 5ug of total RNA. Second strand cDNA synthesis was performed with minor modifications to the Affymetrix Manual II. Brieflly, cDNA termini were not blunt ended and the reaction was not terminated using EDTA. Instead Double-stranded cDNA products were immediately purified following the ÂPhase Lock Gel Cleanup of Double-Stranded cDNAÂ protocol (Affymetrix Manual II). cDNA was resuspended in 22ul of RNAse free water. cRNA preparation was performed with minor modifications to the Affymetrix Manual II.  Briefly, 11ul of cDNA was used as a template to produce biotinylated cRNA using half the recommended volumes of the ENZO BioArray High Yield RNA Transcript Labeling Kit. Labelled cRNAs were purified following the ÂQiagen RNeasy Cleanup and Quantification of Biotin-Labeled cRNAÂ protocol (Affymetrix Manual II). cRNA quality was assessed by on Agilent RNA6000nano LabChipsÂ® (Agilent Technology 2100 Bioanalyzer Version A.01.20 SI211). cRNA quantity was assessed by running 1ul of each cRNA sample on a NanoDropÂ® ND-1000 UV-Vis Spectrophotometer (Nanodrop Technologies).	Title: Fluidics Station Protocol. Description: 	Title: Fluidics Station Protocol. Description: 	Title: Affymetrix CEL analysis. Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 
+Protocol Parameters								
+Protocol Hardware								
+Protocol Software					MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 5.0
+Protocol Contact								
+Protocol Term Source REF								
+SDRF File	E-MEXP-475.sdrf.txt							
+Term Source Name	EFO							
+Term Source File	http://www.ebi.ac.uk/efo/							
+Term Source Version								

@@ -1,0 +1,52 @@
+Investigation Title	Transcription profiling of Arabidopsis roots to investigate early phosphate-deficiency induced signal changes					
+Comment[Submitted Name]	Early phosphate-deficiency induced signal changes in Arabidopsis roots					
+Experimental Design	unknown_experiment_design_type	transcription profiling by array				
+Experimental Design Term Source REF		EFO				
+Comment[AEExperimentType]	transcription profiling by array					
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for per1 after phosphate deprivation					
+Comment[SecondaryAccession]	GSE15649					
+Comment[ArrayExpressReleaseDate]	2009-04-18					
+Comment[AEMIAMESCORE]	3					
+Comment[ArrayExpressAccession]	E-GEOD-15649					
+Comment[MAGETAB TimeStamp_Version]	2010-08-02 13:50:40 Last Changed Rev: 13058					
+Experimental Factor Name	GENOTYPE	GROWTH CONDITION				
+Experimental Factor Type	genotype	growth_condition				
+Experimental Factor Term Source REF						
+Person Last Name	Schmidt					
+Person First Name	Wolfgang					
+Person Mid Initials						
+Person Email	wolfgang.schmidt@meduniwien.ac.at					
+Person Phone	-65348					
+Person Fax						
+Person Address	Währinger Gürtel 18-20, Vienna, Austria, 1090, Austria					
+Person Affiliation	Medical University of Vienna					
+Person Roles	submitter					
+Person Roles Term Source REF	The MGED Ontology					
+Quality Control Type						
+Quality Control Term Source REF						
+Replicate Type						
+Replicate Term Source REF						
+Normalization Type						
+Normalization Term Source REF						
+Date of Experiment						
+Public Release Date	2009-04-18					
+PubMed ID	19969521					
+Publication DOI	10.1093/mp/ssp086					
+Publication Author List	Li WF, Perry PJ, Prafulla NN, Schmidt W.					
+Publication Title	Ubiquitin-specific protease 14 (UBP14) is involved in root responses to phosphate deficiency in Arabidopsis.					
+Publication Status	published					
+Publication Status Term Source REF	EFO					
+Publication Status Term Accession Number	EFO_0001796					
+Experiment Description	A mutant previously isolated from a screen of EMS-mutagenized Arabidopsis lines, per1, showed normal root hair development under control conditions but displayed an inhibited root hair elongation phenotype upon Pi deficiency. Additionally, the per1 mutant exhibited a pleiotropic phenotype under control conditions, resembling Pi-deficient plants in several aspects. Under Pi deficiency, the accumulation of Pi and iron was increased in the mutant when compared to the wild-type. Inhibition of root hair elongation upon growth on low Pi media was reverted by treatment with the Pi analog phosphite, suggesting that the mutant phenotype is not the result of a defect in Pi sensing. Reciprocal grafting experiments revealed that the mutant rootstock is sufficient to cause the phenotype. Transcriptional profiling of per1 and wild-type plants subjected to short-term Pi starvation revealed genes that may be important for the signaling of Pi deficiency. We conclude that UBP14 function is crucial for adapting root development to the prevailing local availability of phosphate. Experiment Overall Design: Col-0 and per1 mutant plants were grown under control conditions or subjected to phosphate starvation for 10 h					
+Protocol Name	P-G15649-1	P-G15649-2	P-G15649-4	P-G15649-3	P-AFFY-6	
+Protocol Type	grow	specified_biomaterial_action	nucleic_acid_extraction	labeling	feature_extraction	
+Protocol Description	Plants were grown on agar medium	Plats were grown for on control media for 10 days and then transferred to either control or phosphate-free media for 10 h.	Total RNA was extracted with Qiagen RNeasy mini kit.	Ten microgram of total RNA was used for cDNA synthesis, labeled by in vitro transcription, followed by fragmentation according to the manufacturer's suggestion (GeneChip Expression Analysis Technical Manual rev5, Affymetrix)	Title: Affymetrix CEL analysis. Description: 	
+Protocol Parameters						
+Protocol Hardware						
+Protocol Software					MicroArraySuite 5.0	
+Protocol Contact						
+Protocol Term Source REF						
+SDRF File	E-GEOD-15649.sdrf.txt					
+Term Source Name	NCBI Taxonomy		The MGED Ontology	ArrayExpress	EFO	The MGED Ontology
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version						

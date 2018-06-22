@@ -1,0 +1,31 @@
+Comment[ArrayExpressAccession]	E-GEOD-46050					
+MAGE-TAB Version	1.1					
+Public Release Date	2014-04-07					
+Comment[AEExperimentDsiplayName]	Transcription profiling by array of unopened flower buds in Arabidopsis ddm1 mutants with high levels of transposable element activitiy against wild-type controls					
+Investigation Title	Gene expression in Arabidopsis ddm1 mutants with high levels of Transposable Element activity					
+Comment[Submitted Name]	Gene expression in Arabidopsis ddm1 mutants with high levels of Transposable Element activity					
+Experiment Description	"Background: Transposable elements are known to influence the regulation of some genes. We aimed to determine which genes show altered gene expression when transposable elements are epigenetically activated. Results: We find over 2000 genes with altered steady-state expression levels in ddm1 mutants. Some of these genes are influenced by neighboring transposable element fragments, while other genes are targeted by transposable element derived 21 nucleotide siRNAs. Conclusion: The regulation of the genic portion of the Arabidopsis genome is heavily influenced by the epigenetic regulation of transposable elements. The regulation of genes by transposable elements can occur through multiple mechanisms. Three biological replicates for two genotypes"					
+Term Source Name	ArrayExpress	EFO				
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl				
+Person Last Name	Slotkin	Slotkin	Panda			
+Person First Name	Richard	R	Kaushik			
+Person Mid Initials	Keith	K				
+Person Email	slotkin.2@osu.edu					
+Person Affiliation	The Ohio State University					
+Person Address	"Molecular Genetics, The Ohio State University, 318 West 12th Ave., Columbus, OH, USA"					
+Person Roles	submitter					
+Protocol Name	P-GSE46050-1	P-GSE46050-4	P-GSE46050-5	P-GSE46050-2	P-GSE46050-3	P-GSE46050-6
+Protocol Description	The data were analyzed with the GeneSpring GX Software Suite using GC-RMA normalization ID_REF =  VALUE = LOG2 GC-RMA normalized values	"Total RNA were assessed for quality with Agilent 2100 Bioanalyzer and Nanodrop 8000 spectrophotometer. Hybridization targets were prepared with MessageAmp Premier RNA Amplification Kit (Applied Biosystems/Ambion, Austin, TX) from total RNA."	Hybridization was performed to ATH1 arrays in Affymetrix GeneChip(r) hybridization oven 645 and washed in Affymetrix GeneChip(r) Fluidics Station 450 according to standard Affymetrix GeneChip Hybridization and Wash protocols.	Plants were grown on soil in long day (18 hour) light at 23C. Total RNA was extracted from unopened flower buds using Trizol reagent. Total RNA was further purified using a Qiagen MinElute RNA cleanup kit.	Arrays were scanned with Affymetrix GeneChip(r) Scanner 7G according to standard Affymetrix protocols.
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	genotype					
+Experimental Factor Type	genotype					
+Publication Title	Genome-wide identification of genes regulated in trans by transposable element small interfering RNAs.					
+Publication Author List	"McCue AD, Nuthikattu S, Slotkin RK"					
+PubMed ID	23863322					
+Publication DOI	10.4161/rna.25555					
+Comment[SecondaryAccession]	GSE46050					
+Comment[GEOReleaseDate]	2014-04-07					
+Comment[ArrayExpressSubmissionDate]	2013-04-15					
+Comment[GEOLastUpdateDate]	2014-04-07					
+Comment[AEExperimentType]	transcription profiling by array					
+SDRF File	E-GEOD-46050.sdrf.txt					

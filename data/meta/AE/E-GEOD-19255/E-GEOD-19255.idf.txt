@@ -1,0 +1,58 @@
+Comment[ArrayExpressAccession]	E-GEOD-19255						
+Public Release Date	2009-12-03						
+Investigation Title	Microarray analysis of fdh1-3(avrB)						
+Comment[Submitted Name]	Microarray analysis of fdh1-3(avrB)						
+Experiment Description	To track gene expression profile in atgsnor1-3 mutant in response to Pst(avrB). 16 samples were used in this experiment.						
+Date of Experiment							
+Term Source Name	EFO						
+Term Source Version							
+Term Source File	http://www.ebi.ac.uk/efo						
+Person Last Name	Nottingham Arabidopsis Stock Centre (NASC)	Yun					
+Person First Name		Byung-Wook					
+Person Mid Initials							
+Person Email	affy@arabidopsis.info						
+Person Affiliation	Nottingham Arabidopsis Stock Centre (NASC)						
+Person Phone	+44 (0)115 951 3237						
+Person Fax	+44 (0)115 951 3297						
+Person Address	School of Biosciences, University of Nottingham, Nottingham Arabidopsis Stock Centre (NASC), Sutton Bonington Campus, Loughborough, United Kingdom						
+Person Roles	submitter						
+Person Roles Term Source REF							
+Person Roles Term Accession Number							
+Normalization Type							
+Normalization Term Accession Number							
+Normalization Term Source REF							
+Replicate Type							
+Replicate Term Accession Number							
+Replicate Term Source REF							
+Experimental Design							
+Experimental Design Term Accession Number							
+Experimental Design Term Source REF							
+Quality Control Type							
+Quality Control Term Accession Number							
+Quality Control Term Source REF							
+Protocol Name	P-GSE19255-1	P-GSE19255-6	P-GSE19255-5	P-GSE19255-3	P-GSE19255-2	P-GSE19255-4	P-GSE19255-7
+Protocol Description	ID_REF = <br>VALUE = MAS5.0 signal intensity<br>ABS_CALL = the call in an absolute analysis that indicates if the transcript was present (P), absent (A), or marginal (M)<br>DETECTION P-VALUE = p-value that indicates the significance level of the detection call	Scanned according to guidelines set out by Affymetrix, Santa Clara, CA.	Biotin Labelled cRNA using &quot;Affymetrix GeneChip Hybridization, Wash and Stain Kit&quot;, according to guidelines set out by Affymetrix, Santa Clara, CA	Qiagen RNAeasy kit protocol	The seeds were germinated on commercial compost. The plants were grown in a growth room with a temperature of 20C and a relative humidity of 65%. The photoperiod was 18 h of light and 6 h of dark	Labelled using protocol described in manual &quot;Affymetrix GeneChip Expression Analysis Technical Manual&quot;, One-Cycle target labelling	Raw data from the microarrays was normalized at probe-level using MAS5 algorithm. The detection calls (present, marginal, absent) for each probe set was obtained using the GCOS system
+Protocol Software							
+Protocol Hardware							
+Protocol Contact							
+Protocol Type	bioassay_data_transformation	image_aquisition	hybridization	nucleic_acid_extraction	grow	labeling	feature_extraction
+Protocol Term Source REF							
+Protocol Term Accession Number							
+Experimental Factor Name	INFECTION	GENOTYPE					
+Experimental Factor Type	infect	genotype					
+Experimental Factor Term Source REF							
+Experimental Factor Term Accession Number							
+Publication Title							
+Publication Author List							
+PubMed ID							
+Publication DOI							
+Publication Status							
+Publication Status Term Source REF							
+Publication Status Term Accession Number							
+Comment[SecondaryAccession]	GSE19255						
+Comment[GEOLastUpdateDate]	2011-03-01						
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for sid2 or atgsnor1 after infection with Pseudomonas syringae pv. tomato avrB						
+Comment[AEExperimentType]	transcription profiling by array						
+Comment[GEOReleaseDate]	2009-12-04						
+Comment[ArrayExpressSubmissionDate]	2009-12-02						
+SDRF File	E-GEOD-19255.sdrf.txt						

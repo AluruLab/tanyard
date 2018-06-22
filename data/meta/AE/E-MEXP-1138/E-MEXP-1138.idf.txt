@@ -1,0 +1,49 @@
+Investigation Title	Transcription profiling of mature pollen grains from wild type and AtMIKC* MADS-box gene knock-out Arabidopsis plants	
+Comment[AdditionalFile:XLS]	E-MEXP-1138.hybs.xls
+Comment[Submitted Name]	MADS-Complexes Regulate Transcriptome Dynamics During Pollen Maturation	
+Experimental Design	in_vivo_design	co-expression_design	genetic_modification_design	transcription profiling by array	
+Experimental Design Term Source REF		mo	mo	EFO	
+Comment[ArrayExpressReleaseDate]	2007-12-04	
+Comment[AEMIAMESCORE]	5	
+Comment[ArrayExpressAccession]	E-MEXP-1138	
+Comment[MAGETAB TimeStamp_Version]	2010-08-09 20:19:08 Last Changed Rev: 13058	
+Experimental Factor Name	genotype	
+Experimental Factor Type	genotype	
+Experimental Factor Term Source REF	
+Person Last Name	Verelst	
+Person First Name	Wim	
+Person Mid Initials	
+Person Email	verelst@mpiz-koeln.mpg.de	
+Person Phone	+49-221-5062-122	
+Person Fax	+49-221-5062-113	
+Person Address	Carl-von-Linné-Weg 10	
+Person Affiliation	Molecular Plant Genetics	
+Person Roles	submitter	
+Person Roles Term Source REF	The MGED Ontology	
+Quality Control Type	biological_replicate	
+Quality Control Term Source REF	The MGED Ontology	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2007-12-04	
+PubMed ID	18034896	
+Publication DOI	18034896	
+Publication Author List	Verelst W, Twell D, de Folter S, Immink R, Saedler H, M.nster T	
+Publication Title	MADS-complexes regulate transcriptome dynamics during pollen maturation	
+Publication Status	journal_article	
+Publication Status Term Source REF	The MGED Ontology	
+Experiment Description	Effects of loss-of-function of AtMIKC* MADS-box genes on the mature Arabidopsis pollen transcriptome.	
+Protocol Name	P-MEXP-64246	P-MEXP-64247	P-MEXP-64259	P-AFFY-2	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6	Affymetrix:Protocol:MAS4:ExpressionCall	Affymetrix:Protocol:ExpressionStat	
+Protocol Type	grow	specified_biomaterial_action	nucleic_acid_extraction	labeling	hybridization	feature_extraction	bioassay_data_transformation	bioassay_data_transformation	
+Protocol Description	Arabidopsis thaliana Col-0 plants were grown under standard greenhouse conditions, with temperature controlled at 22ºC and 16 hours of light at around 120 &#956;mol m-2 s-1.	At a fixed time in the morning mature pollen grains were harvested from open flowers by shaking in 0.3 M mannitol, as described by Honys and Twell (Genome Biol, 2003). For total RNA isolation with the RNeasy kit (Qiagen) pollen was ground with quartz sand, and RNA was stored at -80°C.	Mature pollen grains were ground with quartz sand, and total RNA was isolated with the RNeasy kit (Qiagen).	Title: Affymetrix in vitro transcription. Description: 	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	Title: Affymetrix CHP Analysis (ExpressionCall). Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 	
+Protocol Parameters	start time;min temperature;		Extracted product;Amplification;	
+Protocol Hardware	
+Protocol Software					MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 4.0	MicroArraySuite 5.0	
+Protocol Contact	
+Protocol Term Source REF					mo		mo	The MGED Ontology	
+SDRF File	E-MEXP-1138.sdrf.txt	
+Term Source Name	mo		The MGED Ontology	NCBI Taxonomy	NCI_thesaurus	ArrayExpress	The MGED Ontology	mo	EFO	
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ncbi.nlm.nih.gov/Taxonomy/	ncithesaurus.obo.alt	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	
+Term Source Version										

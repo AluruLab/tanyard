@@ -1,0 +1,52 @@
+Investigation Title	Transcription profiling of Arabidopsis thaliana wild type Col-0) and Atpdr2 mutant roots.							
+Comment[Submitted Name]	Pleiotropic effect of gene mutation							
+Experimental Design	gene_mutation_design	co-expression_design	transcription profiling by array					
+Experimental Design Term Source REF		The MGED Ontology	EFO					
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for Atpdr2							
+Comment[ArrayExpressReleaseDate]	2009-10-20							
+Comment[SecondaryAccession]								
+Comment[AEMIAMESCORE]	5							
+Comment[ArrayExpressAccession]	E-TABM-821							
+Comment[MAGETAB TimeStamp_Version]	2010-08-13 12:02:54 Last Changed Rev: 13058							
+Experimental Factor Name	GENOTYPE							
+Experimental Factor Type	genotype							
+Experimental Factor Term Source REF								
+Person Last Name	Vivanco							
+Person First Name	Dayakar Badri/Jorge							
+Person Mid Initials								
+Person Email	dayakar@lamar.colostate.edu							
+Person Phone								
+Person Fax								
+Person Address								
+Person Affiliation	Colorado State university							
+Person Roles	submitter							
+Person Roles Term Source REF	The MGED Ontology							
+Quality Control Type	dye_swap_quality_control							
+Quality Control Term Source REF	The MGED Ontology							
+Replicate Type								
+Replicate Term Source REF								
+Normalization Type								
+Normalization Term Source REF								
+Date of Experiment								
+Public Release Date	2009-10-20							
+PubMed ID	19854857							
+Publication DOI	10.1104/pp.109.147462							
+Publication Author List	Badri, Dayakar V.; Quintana, Naira; El Kassis, Elie G.; Kim, Hye Kyong; Choi, Young Hae; Sugiyama, Akifumi; Verpoorte, Robert; Martinoia, Enrico; Manter, Daniel K.; Vivanco, Jorge M.							
+Publication Title	An ABC Transporter Mutation Alters Root Exudation of Phytochemicals That Provoke an Overhaul of Natural Soil Microbiota							
+Publication Status	published							
+Publication Status Term Source REF	EFO							
+Publication Status Term Accession Number	EFO_0001796							
+Experiment Description	To determine the pleiotropic effect of the ABC transporter gene (Atpdr2) mutation, we performed the microarray analyses on the root tissues of Arabidopsis thaliana wild type (Col-0) and Atpdr2 mutant.							
+Protocol Name	P-TABM-4361	P-TABM-4360	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6	Affymetrix:Protocol:ExpressionStat			
+Protocol Type	grow	nucleic_acid_extraction	hybridization	feature_extraction	bioassay_data_transformation			
+Protocol Description	Arabidopsis seeds were surface-sterilized with bleach for one minute followed by five rinses in sterile distilled water and plated on Murashige and Skoog (MS) ( Murashige & Skoog, 1962) salts supplemented with 3% sucrose and 0.8% Bacto agar in Petri dishes.  Plates were incubated in a growth chamber (Percival Scientific, IO, USA) at 25ï¾&deg;C, with a photoperiod of 16h light/8h dark for germination.  To collect root exudates, seven-day-old seedlings were transferred to 6-well culture plates (VWR Scientific), each well containing 5 ml of liquid MS (MS basal salts supplemented with 1% sucrose), incubated on an orbital shaker at 90 rpm and illuminated under cool white fluorescent light (45 ï¾&#956;mol m-2 s-1) with a photoperiod of 16h light/8h dark at 25ï¾&deg;C. According to previously-published methods (Loyola-Vargas et al., 2007; Badri et al., 2008) when plants were 18 days old, they were washed with sterile water to remove the surface-adhering exudates and transferred to new 6-well plates containing 5 ml MS liquid media and incubated on an orbital shaker at 90 rpm and illuminated under cool white fluorescent light (45 ï¾&#956;mol m-2 s-1) with a photoperiod of 16h light/8h dark at 25ï¾&deg;C. The root tissue was collected from 20 day old seedlings.	Total RNA extration from root tissues were done by using Trizol regant	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 			
+Protocol Parameters								
+Protocol Hardware								
+Protocol Software			MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 5.0			
+Protocol Contact								
+Protocol Term Source REF			mo					
+SDRF File	E-TABM-821.sdrf.txt							
+Term Source Name	Plant Ontology	NCBI Taxonomy	The MGED Ontology		ArrayExpress	The MGED Ontology	EFO	mo
+Term Source File	http://www.plantontology.org/	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php		http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version								

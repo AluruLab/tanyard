@@ -1,0 +1,28 @@
+Comment[ArrayExpressAccession]	E-MTAB-1362
+Investigation Title	Dawn anticipation																							
+Comment[Submitted Name]	Dawn anticipation
+Experiment Description	To investigate the role of TIC in the morning perception process, we performed a transcriptome analysis of the wild type and time for coffee mutant (tic-2) at dawn. An additional file is included. In this file, the expression values for the replicates are condensed in a single data point obtaining one mean and standard deviation of the expression values per genotype. The protocol for this file is: log2 fold change followed by a False Discovery Rate with a p-value equal or below 0.05.																							
+Experimental Design	individual_genetic_characteristics_design	replicate_design	co-expression_design																					
+Comment[AEExperimentType]	transcription profiling by array																							
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis thaliana wild type and time for coffee mutant (tic-2) at dawn to investigate the role of TIC in the morning perception process																							
+Experimental Factor Name	GENOTYPE																							
+Experimental Factor Type	genotype																							
+Quality Control Type	biological replicate																							
+Public Release Date	2013-11-09																							
+Person Last Name	Sanchez-Villarreal																							
+Person First Name	alfredosvwm@yahoo.com.mx																							
+Person Mid Initials																								
+Person Email	alfredosvwm@yahoo.com.mx																							
+Person Phone	49 221 5062 267																							
+Person Address	Carl-von-Linne-Weg 10, 50829 Koln																							
+Person Affiliation	Former PhD student at MPIZ Cologne, Germany																							
+Person Roles	submitter																							
+PubMed ID																								
+Publication Author List	Alfredo Sanchez-Villarreal, Toshihiro Obata, Zhaojun Ding, Jieun Shin, Takayuki Shindo, Shen-Xiu Du, Nora Bujdoso, Ulla Neumann, Elmon Schmelzer, Ronan Sulpice, Adriano Nunes-Nesi, Mark Stitt, Alisdair R. Fernie Seth J. Davis																							
+Publication Title	TIME FOR COFFEE is an Essential Component Maintaining Metabolic Homeostasis in Arabidopsis thaliana																							
+Publication Status	in preparation																							
+Protocol Name	P-MTAB-30406	P-MTAB-30407	P-MTAB-30408	P-MTAB-30409	P-MTAB-30410	P-MTAB-30412
+Protocol Type	grow	specified_biomaterial_action	nucleic_acid_extraction	labeling	bioassay_data_transformation	hybridization protocol																		
+Protocol Description	Samples were grown on MS3 media 3% sucrose for 7 days, prior to the dawn of the 8th day, they were collected. Col-0 wild type and tic-2 mutant, a T-DNA insertion, were used. 12:12 photoperiod, samplig took place 10 minutes before dawn of the 8th day. 2 biological replicates per genotype were performed.	Sample collection 10 minutes before dawn on the 8th day of growth	Total RNA extraction	cDNA using the MessageAmp II-Biotin Enhanced kit from Ambion	GC-RMA algorithm and a Cyber-T statistical test for pair comparisons	Hybridization with Affymetrix protocol EukGe-WS2v4 by using the GeneChip Fluidics Station 450																		
+Comment[AdditionalFile:XLSX]	GC-RMA-CyberT_tic-2_dawn_exp.xlsx																							
+SDRF File	E-MTAB-1362.sdrf.txt

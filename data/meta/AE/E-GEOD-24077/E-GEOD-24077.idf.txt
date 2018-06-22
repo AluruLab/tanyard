@@ -1,0 +1,58 @@
+Comment[ArrayExpressAccession]	E-GEOD-24077							
+Public Release Date	2010-11-12							
+Investigation Title	Molecular characterization of the submergence response of Arabidopsis thaliana ecotype Columbia							
+Comment[Submitted Name]	Molecular characterization of the submergence response of Arabidopsis thaliana ecotype Columbia							
+Experiment Description	This study profiles transcriptomic changes of Arabidopsis thaliana Col-0 in response to submergence. This dataset includes CEL files, RMA signal values and MAS5 P/M/A calls from total mRNA populations of plants at 9 to 10 leaf rosette stage. Biological replicates of root and shoot tissues were harvested after 7 h and 24 h of submergence in darkness along with corresponding non-submerged dark controls. To characterize the dark response, non-submerged light controls plants were harvested at the 0 h time point. Quantitative profiling of cellular mRNAs was accomplished with the Affymetrix ATH1 platform. Changes in the transcriptome in response to submergence and early darkness were evaluated, and the data led to identification of genes co-regulated at the conditional and organ-specific level. 20 samples, 5 conditions (7 h submergence in darkness, 7 h darkness, 24 h submergence in darkness, 24 h darkness, 0 h light control), 2 RNA pools (rosette leaf and root tissues), 2 independent biological replicate experiments							
+Date of Experiment								
+Term Source Name	EFO							
+Term Source Version								
+Term Source File	http://www.ebi.ac.uk/efo/efo.owl							
+Person Last Name	Lee	Lee	Mustroph	Sasidaharan	Vanashisht	Voesenek	Bailey-Serres	
+Person First Name	Seung Cho	Seung	Angelika	Rashmi	Divya	L.A.C.J.	Julia	
+Person Mid Initials		C						
+Person Email	slee064@ucr.edu							
+Person Affiliation	University of California Riverside							
+Person Phone								
+Person Fax								
+Person Address	Botany & Plant Sciences, University of California Riverside, 2150 Batchelor Hall, Riverside, CA, USA							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Person Roles Term Accession Number								
+Normalization Type								
+Normalization Term Accession Number								
+Normalization Term Source REF								
+Replicate Type								
+Replicate Term Accession Number								
+Replicate Term Source REF								
+Experimental Design								
+Experimental Design Term Accession Number								
+Experimental Design Term Source REF								
+Quality Control Type								
+Quality Control Term Accession Number								
+Quality Control Term Source REF								
+Protocol Name	P-GSE24077-1	P-GSE24077-6	P-GSE24077-3	P-GSE24077-8	P-GSE24077-7	P-GSE24077-2	P-GSE24077-4	P-GSE24077-5
+Protocol Description	ID_REF = <br>VALUE = RMA signal intensity<br>ABS_CALL = 	12 μg labeled cRNA was hybridized against Arabidopsis ATH1 Genome Array (Affymetrix) at 45 °C for 16 h, on a rotating platform.	Arabidopsis thaliana seeds were sown in pots containing soil and perlite in a 1:2 volume mixture supplemented with 0.14 mg MgOCaO (17%; Vitasol BV, Stolwijk, The Netherlands) and 0.14 mg Osmocote (Scotts Europe, Heerlen, The Netherlands) per pot. The seeds were cold treated at 4 °C in the dark for 4 d and then grown for 8 d in a chamber at 20°C, 70% (v/v) relative humidity, with a 9 h photoperiod (200 μmol m-2s-1 photosynthetic active radiation). Individual seedlings were transplanted to a pot and fertilized with a nutrient solution (2.6 mM KNO3, 2.0 mM Ca [NO3]2, 0.6 mM KH2PO4, 0.9 mM MgSO4, 6.6 μM MnSO4, 2.8 μM ZnSO4, 0.5 μM CuSO4, 66 μM H3BO3, 0.8 μM Na2MoO4 and 134 μM Fe-EDTA, pH 5.8). Each pot was covered with a thin mesh fabric secured with a rubber band to limit loss of soil upon submergence. Pots were watered from the bottom every day at the beginning of the photoperiod.	CEL files from the Affymetrix Chips were processed by use of the R program (http://cran.at.r-project.org/) and Bioconductor packages (http://www.bioconductor.org/). The Robust Multi-chip Average (RMA) normalization was performed using the default settings of the corresponding R function. Present, Marginal or Absent (P/M/A) calls were computed with the affy package.	GeneChips were scanned by use of the Affymetrix GeneChip Workstation Scanner 3000.	Plants were grown in individual pots in soil for 8 d in a chamber at 20 °C, 70% (v/v) relative humidity, with a 9 h photoperiod (200 μmol m-2s-1 photosynthetic active radiation). Plants of uniform size with 9 to 10 leaves were selected the day prior to treatments Two h into the light period, pots were completely submerged in water-filled tanks that had been been left standing for 24 h at 20 oC. Submergence was in complete darkness. Control plants were maintained in the growth chamber (light control, watered every day) or in the dark in the same chamber used for the submergence treatments (dark control, watered every other day).	Total RNA was extracted from frozen pulverized plant tissue using the RNeasy Plant Mini Kit (Qiagen), quantified by detection of A260/A280 ND with NanoDrop ND-1000 UV-Vis spectrophotometer. The quality of the RNA was evaluated using the Agilent 2100 Bioanalyzer with the RNA 6000 Nano reagent kit.	Biotin-labeled cRNA was synthesized from 500 ng total RNA with the Affymetrix 3’ IVT Express Labeling kit.
+Protocol Software								
+Protocol Hardware								
+Protocol Contact								
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Protocol Term Source REF								
+Protocol Term Accession Number								
+Experimental Factor Name	ORGANISM PART	GROWTH CONDITION	TREATMENT TIME					
+Experimental Factor Type	organism_part	growth_condition	time					
+Experimental Factor Term Source REF								
+Experimental Factor Term Accession Number								
+Publication Title	Molecular characterization of the submergence response of the Arabidopsis thaliana ecotype Columbia.							
+Publication Author List	Lee SC, Mustroph A, Sasidharan R, Vashisht D, Pedersen O, Oosumi T, Voesenek LA, Bailey-Serres J.							
+PubMed ID	21231933							
+Publication DOI	10.1111/j.1469-8137.2010.03590.x							
+Publication Status	published							
+Publication Status Term Source REF	EFO							
+Publication Status Term Accession Number	EFO_0001796							
+Comment[SecondaryAccession]	GSE24077							
+Comment[GEOLastUpdateDate]	2010-11-12							
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis after growth while submerged in darkness							
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[GEOReleaseDate]	2010-11-12							
+Comment[ArrayExpressSubmissionDate]	2010-09-09							
+SDRF File	E-GEOD-24077.sdrf.txt							

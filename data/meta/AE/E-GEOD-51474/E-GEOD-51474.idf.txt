@@ -1,0 +1,33 @@
+Comment[ArrayExpressAccession]	E-GEOD-51474						
+MAGE-TAB Version	1.1						
+Public Release Date	2014-01-01						
+Investigation Title	rpl24b/WT polysome loading and transcript levels (Arabidopsis thaliana)						
+Comment[Submitted Name]	rpl24b/WT polysome loading and transcript levels (Arabidopsis thaliana)						
+Comment[AEExperimentDisplayName]	Transcription profiling by array of a ribosomal protein mutant of Arabidopsis						
+Experiment Description	To understand the contribution of the RPL24B protein, a component of the large 60S ribosomal subunit, to the translation of specific mRNAs, we compared the ribosome occupancy of mRNAs in wild type Arabidopsis and the rpl24b/stv1-1 T-DNA insertion mutant. RNA was fractionated using sucrose gradients into polysomal and nonpolysomal RNAs. We also determined overall total transcript levels.  We used Affymetrix ATH1 microarrays. Each plant sample was analyzed for the mRNA abundance in total mRNA, polysomal mRNA, and nonpolysomal mRNA. Three biological replicates were collected. The rpl24b mutant was compared with wild type.						
+Term Source Name	ArrayExpress	EFO					
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	von Arnim	Kim	von Arnim				
+Person First Name	Albrecht	Byunghoon	Albrecht				
+Person Mid Initials	G						
+Person Email	vonarnim@utk.edu						
+Person Affiliation	The University of Tennessee						
+Person Phone	1-865-974-6206						
+Person Address	Biochemistry, Cellular and Molecular Biology, The University of Tennessee, M407 Walters Life Science Building, Knoxville, TN, USA						
+Person Roles	submitter						
+Protocol Name	P-GSE51474-1	P-GSE51474-5	P-GSE51474-6	P-GSE51474-2	P-GSE51474-3	P-GSE51474-4	P-GSE51474-7
+Protocol Description	Raw signal intensities for each probe set were extracted from CEL files using RMA using R/Bioconductor (http://www.r-project.org/, version 2.13.2, released on 09/30/2011), and the affy package. MAS5.0 was used to assign P(resent) calls indicating reliable gene detection. ID_REF =  VALUE = Data are raw RMA signal intensities. These intensities are log(2) transformed values of the original hybridization signals.	Biotinylated cRNA were prepared according to the standard Affymetrix protocol.	Following fragmentation, cRNA were hybridized to Arabidopsis ATH1 Genome Arrays.	The rpl24b mutant allele stv1-1 (Nishimura et al. Plant Cell 17: 2940-2953 (2005) in the Wassiliweskijia (Ws) ecotype was grown alongside wild type Arabidopsis thaliana. Three biological replicates were grown at different times.	Seedlings were grown on agar plates containing full strength Murashige and Skoog salts, pH 5.7, and 1% sucrose for 10-12 days in a 16h light 8h dark cycle at 22oC. Fluorescent light intensity was 80micromole/m2/sec.	Aerial parts of seedlings were harvested 6h into the light period. Trizol extraction of total RNA was performed according to the manufacturer's instructions. Polysomal and nonpolysomal/monosomal RNAs were isolated using sucrose density gradients according to Kim et al. Genome Biology 8:R60 (2007).	Standard protocol and instrumentation
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	genotype	RNA					
+Experimental Factor Type	genotype	RNA					
+Comment[SecondaryAccession]	GSE51474						
+Comment[GEOReleaseDate]	2014-01-01						
+Comment[ArrayExpressSubmissionDate]	2013-10-21						
+Comment[GEOLastUpdateDate]	2014-01-02						
+Comment[AEExperimentType]	transcription profiling by array						
+Comment[AdditionalFile:Data1]	GSE51474_translation_state.txt						
+SDRF File	E-GEOD-51474.sdrf.txt						
+Publication Title	The global translation profile in a ribosomal protein mutant resembles that of an eIF3 mutant.						
+Publication Author List	Tiruneh BS, Kim BH, Gallie DR, Roy B, von Arnim AG						
+PubMed ID	24377433						
+Publication DOI	10.1186/1741-7007-11-123						

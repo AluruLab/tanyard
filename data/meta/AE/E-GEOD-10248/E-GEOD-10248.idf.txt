@@ -1,0 +1,52 @@
+Investigation Title	Transcription profiling of Arabidopsis pvip1 pvip2 seedlings					
+Comment[Submitted Name]	Gene expression analysis of Arabidopsis pvip1 pvip2 seedlings					
+Experimental Design	unknown_experiment_design_type	transcription profiling by array				
+Experimental Design Term Source REF		EFO				
+Comment[AEExperimentType]	transcription profiling by array					
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for pvip1 and pvip2					
+Comment[AEMIAMESCORE]	4					
+Comment[ArrayExpressReleaseDate]	2008-10-26					
+Comment[SecondaryAccession]	GSE10248					
+Comment[ArrayExpressAccession]	E-GEOD-10248					
+Comment[MAGETAB TimeStamp_Version]	2010-07-29 17:59:02 Last Changed Rev: 13058					
+Experimental Factor Name	genotype					
+Experimental Factor Type	genotype					
+Experimental Factor Term Source REF						
+Person Last Name	Dreos					
+Person First Name	Rene					
+Person Mid Initials						
+Person Email	rene.dreos@bbsrc.ac.uk					
+Person Phone						
+Person Fax						
+Person Address	Computational and Systems Biology, The John Innes Centre, Colney, Norwich, NR4 7UH , UK					
+Person Affiliation	The John Innes Centre					
+Person Roles	submitter					
+Person Roles Term Source REF	The MGED Ontology					
+Quality Control Type						
+Quality Control Term Source REF						
+Replicate Type						
+Replicate Term Source REF						
+Normalization Type						
+Normalization Term Source REF						
+Date of Experiment						
+Public Release Date	2008-10-26					
+PubMed ID	19392692					
+Publication DOI	10.1111/j.1365-313X.2009.03874.x					
+Publication Author List	Thomas CL, Schmidt D, Bayer EM, Dreos R, Maule AJ.					
+Publication Title	Arabidopsis plant homeodomain finger proteins operate downstream of auxin accumulation in specifying the vasculature and primary root meristem.					
+Publication Status	published					
+Publication Status Term Source REF	EFO					
+Publication Status Term Accession Number	EFO_0001796					
+Experiment Description	Early establishment of the apical-basal axis is prerequesite for correct embryonic development in Arabidopsis. The hypophysis is derived from the basal cell of the early embryo and is indispensible for root development; it gives rise to the root quiescent center and the central columella. Arabidopsis pvip1 pvip2 mutants show defects in embryonic root development and give rise to rootless seedlings. We used microarrays to study the gene regulation of rootless mutant embryos in comparison with wild type. Experiment Overall Design: Arabidopsis pvip1 pvip2 mutant and Col-0 wild type seedlings (10 days after germination) were compared using Affymetrix ATH1 arrays. Roots of wild type seedlings were removed and the vestigial hypocotyl of mutants was cut to control for wounding effects.					
+Protocol Name	P-G10248-1	P-G10248-2	P-G10248-4	P-G10248-3	Affymetrix:Protocol:Hybridization-FS450_0004	P-AFFY-6
+Protocol Type	grow	specified_biomaterial_action	nucleic_acid_extraction	labeling	hybridization	feature_extraction
+Protocol Description	Arabidopsis pvip1 pvip2 mutants and corresponding Col-0 wild type seed were germinated on MS agar plates and cultivated at 21degreeC (16h light).	10 days after germination seedlings were harvested; roots of wild type seedlings were removed; vestigial hypocotyl of mutants was cut to control for wounding effects.	TRI reagent (Sigma) extraction of total RNA was performed according to the manufacturer instructions; further clean-up of RNA was performed with RNeasy Plant Mini columns (Qiagen) according to manufacturerâs instructions.	Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 5 ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).		Title: Affymetrix CEL analysis. Description: 
+Protocol Parameters						
+Protocol Hardware						
+Protocol Software						MicroArraySuite 5.0
+Protocol Contact						
+Protocol Term Source REF						
+Term Source Name	NCBI Taxonomy		The MGED Ontology	ArrayExpress	EFO	The MGED Ontology
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version						
+SDRF File	E-GEOD-10248.sdrf.txt					

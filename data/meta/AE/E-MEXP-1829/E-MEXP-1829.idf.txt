@@ -1,0 +1,29 @@
+Comment[ArrayExpressAccession]	E-MEXP-1829
+Investigation Title	Transcription profiling of wild type and transgenic msi1-cs plants																												
+Comment[Submitted Name]	Transcription profiling of wild type and transgenic msi1-cs plants
+Comment[AEExperimentDisplayName]	Transcription profiling of wild type and transgenic msi1-cs plants																												
+Comment[MIAMExpressLogin]	lars.hennig																												
+Comment[MIAMExpressSubmissionID]	5077																												
+Experiment Description	Wild type and transgenic msi1-cs plants were grown and gene expression was compared at two time points at the age of 23 days.																												
+Experimental Design	co-expression_design	genetic_modification_design	replicate_design																										
+Experimental Factor Name	GENOTYPE																												
+Experimental Factor Type	genotype																												
+Person Last Name	Hennig																												
+Person First Name	Lars																												
+Person Email	lhennig@ethz.ch																												
+Person Phone	  41 44 632 2244																												
+Person Affiliation	ETH Zurich																												
+Person Address	, Zurich, ETH Center, LFW E17, 8092, Switzerland																												
+Person Roles	submitter																												
+Person Roles Term Source REF	MGED Ontology																												
+Quality Control Type	biological_replicate																												
+Public Release Date	2009-01-10																												
+Comment[ArrayExpressSubmissionDate]	2008-01-10 13:53																												
+Publication Status	not yet submitted																												
+Protocol Name	P-MTAB-18772	P-MTAB-1876	P-MTAB-1877
+Protocol Description	GCRMA as inlcuded in the R package	RNA was extracted using TRIzol (Invitrogen) according to manufacturers protocol followed by a clean-up on Quiagen RNeasy columns.<br>(Parameters: Extracted product = total_RNA, Amplification = none)	Plants were grown in growth chambers at 70% humidity and daily cycles of 16 h light and 8 h darkness at 21°C.<br>(Parameters: time unit = seconds, min temperature = 21, max temperature = C, temperature unit = soil)																										
+Protocol Type	bioassay_data_transformation	nucleic_acid_extraction	grow																										
+Protocol Term Source REF	MGED Ontology	MGED Ontology	MGED Ontology																										
+Term Source Name	MGED Ontology	ArrayExpress
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress																											
+SDRF File	E-MEXP-1829.sdrf.txt

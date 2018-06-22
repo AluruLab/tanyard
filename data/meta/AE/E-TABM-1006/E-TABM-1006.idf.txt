@@ -1,0 +1,51 @@
+Investigation Title	BRU1_2008					
+Comment[Submitted Name]	BRU1_2008					
+Experimental Design	reference_design	genetic_modification_design	replicate_design	transcription profiling by array		
+Experimental Design Term Source REF	The MGED Ontology	The MGED Ontology	The MGED Ontology	EFO		
+Comment[AEExperimentType]	transcription profiling by array					
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for bru1					
+Comment[ArrayExpressReleaseDate]	2011-05-26					
+Comment[SecondaryAccession]						
+Comment[AEMIAMESCORE]	4					
+Comment[ArrayExpressAccession]	E-TABM-1006					
+Comment[MAGETAB TimeStamp_Version]	2010-10-15 09:21:08 Last Changed Rev: 14677					
+Experimental Factor Name	genotype					
+Experimental Factor Type	genotype					
+Experimental Factor Term Source REF						
+Person Last Name	Hennig					
+Person First Name	Lars					
+Person Mid Initials						
+Person Email	lhennig@ethz.ch					
+Person Phone						
+Person Fax						
+Person Address						
+Person Affiliation	ETH Zurich					
+Person Roles	submitter					
+Person Roles Term Source REF	The MGED Ontology					
+Quality Control Type	biological_replicate					
+Quality Control Term Source REF	The MGED Ontology					
+Replicate Type						
+Replicate Term Source REF						
+Normalization Type						
+Normalization Term Source REF						
+Date of Experiment						
+Public Release Date	2011-05-26					
+PubMed ID	21705754					
+Publication DOI	10.1534/genetics.111.130062					
+Publication Author List	"Ohno Y, Narangajavana J, Yamamoto A, Hattori T, Kagaya Y, Paszkowski J, Gruissem W, Hennig L, Takeda S."					
+Publication Title	Ectopic gene expression and organogenesis in Arabidopsis mutants missing BRU1 required for genome maintenance.					
+Publication Status	published					
+Publication Status Term Source REF	EFO					
+Experiment Description	transcriptomic analysis in rosette leaves of bru1-2 and WT(Col) plants (24-day-old)					
+Protocol Name	P-TABM-4739	P-MTAB-3962	P-TABM-4741	P-TABM-4740	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6
+Protocol Type	grow	nucleic_acid_extraction	pool	labeling	hybridization	feature_extraction
+Protocol Description	Plants were grown in growth chambers at 70% humidity and daily cycles of 16 h light and 8 h darkness at the specified temperature.	"Total RNA was prepared from frozen tissue using Trizol and purified with RNeasy columns (Quiagen, Hilden, Germany).<br>(Parameters: Extracted product = total_RNA, Amplification = none)"	plant material of the specified number of plants was pooled per replicate	"One-Cycle cDNA Synthesis Kit (Affymetrix, P/N 900431, Santa Clara, CA)"	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 
+Protocol Parameters						
+Protocol Hardware						
+Protocol Software					MicroArraySuite 5.0	MicroArraySuite 5.0
+Protocol Contact						
+Protocol Term Source REF			The MGED Ontology		The MGED Ontology	
+SDRF File	E-TABM-1006.sdrf.txt					
+Term Source Name	The MGED Ontology	EFO				
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/				
+Term Source Version						

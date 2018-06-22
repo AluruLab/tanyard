@@ -1,0 +1,51 @@
+Investigation Title	Transcription profiling of Arabidopsis after comparative ABA-treatment of Col-O vector control and transgenic plants					
+Comment[Submitted Name]	Comparative ABA-treatment of Col-O vector control and transgenic plants					
+Experimental Design	unknown_experiment_design_type	transcription profiling by array				
+Experimental Design Term Source REF		EFO				
+Comment[AEExperimentType]	transcription profiling by array					
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis overexpressing ERD15 after treatment with abscisic acid					
+Comment[ArrayExpressReleaseDate]	2008-06-13					
+Comment[SecondaryAccession]	GSE5521					
+Comment[AEMIAMESCORE]	4					
+Comment[ArrayExpressAccession]	E-GEOD-5521					
+Comment[MAGETAB TimeStamp_Version]	2010-08-06 16:25:47 Last Changed Rev: 13058					
+Experimental Factor Name	GENOTYPE	COMPOUND				
+Experimental Factor Type	genotype	compound				
+Experimental Factor Term Source REF						
+Person Last Name	(NASC)					
+Person First Name	Nottingham Arabidopsis Stock Centre					
+Person Mid Initials						
+Person Email	affy@arabidopsis.info					
+Person Phone						
+Person Fax						
+Person Address	School of Biosciences, University of Nottingham, Nottingham Arabidopsis Stock Centre (NASC), Sutton Bonington Campus, Loughborough, LE12 5RD, United Kingdom					
+Person Affiliation	Nottingham Arabidopsis Stock Centre (NASC)					
+Person Roles	submitter					
+Person Roles Term Source REF						
+Quality Control Type						
+Quality Control Term Source REF						
+Replicate Type						
+Replicate Term Source REF						
+Normalization Type						
+Normalization Term Source REF						
+Date of Experiment						
+Public Release Date	2008-06-13					
+PubMed ID						
+Publication DOI						
+Publication Author List						
+Publication Title						
+Publication Status						
+Publication Status Term Source REF						
+Experiment Description	The aim of this experiment is to understand the impact of overexpression of ERD15 on the transcriptome of Arabidopsis thaliana. ERD15 was isolated from a screen for genes rapidly induced after pathogen treatment from Arabidopsis. This gene was originally found as early responsive to drought (Kiyosue et al., 1994, Plant Physiol 106, 1707). ABA is central phytohormone in drought response, but increasing information is pointing to its significant role in pathogen responses as well. We are interested to see the effect of this hormone on plants overexpressing ERD15 compared to control plants. The samples (rosette leaves)will be harvested from 3-week old soil grown plants 90 min after spraying with 100 micromolar ABA. Comparison will be made with non-treated plant samples. Experimenter name = Elina Helenius; Experimenter phone = +358 9 191 59085; Experimenter fax = +358 9 191 59079; Experimenter institute = University of Helsinki; Experimenter address = Viikinkaari 5 D; Experimenter address = P.O.Box 56; Experimenter address = Helsinki; Experimenter zip/postal_code = 00014; Experimenter country = Finland Experiment Overall Design: 4 samples were used in this experiment					
+Protocol Name	P-G5521-2	P-G5521-3	P-G5521-4	P-G5521-1	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6
+Protocol Type	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	hybridization	feature_extraction
+Protocol Description	ABA-treated: The plants were sprayed with 100 microM ABA (diluted in distilled water, stock solution of ABA in 70%EtOH, so the final concentration of EtHO is 0,07%). The samples were collected after 90 min. Rosette leaves from three plants were pooled.	oex-non-treated: The plants were sprayed with distilled water containing 0,07% EtOH (=control for ABA treatment). The samples were collected after 90 min. Rosette leaves from three plants were pooled.	oex-ABA-treated: The plants were sprayed with 100 microM ABA (diluted in distilled water, stock solution of ABA in 70%EtOH, so the final concentration of EtOH is 0,07%). The samples were collected after 90 min. Rosette leaves from three plants were pooled.	The plants were sprayed with distilled water containing 0,07% EtOH (=control for ABA treatment). The samples were collected after 90 min	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 
+Protocol Parameters						
+Protocol Hardware						
+Protocol Software					MicroArraySuite 5.0	MicroArraySuite 5.0
+Protocol Contact						
+Protocol Term Source REF					mo	
+SDRF File	E-GEOD-5521.sdrf.txt					
+Term Source Name	NCBI Taxonomy	The MGED Ontology	ArrayExpress	EFO	mo	
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version						

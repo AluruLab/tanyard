@@ -1,0 +1,30 @@
+Comment[ArrayExpressAccession]	E-GEOD-49590					
+MAGE-TAB Version	1.1					
+Public Release Date	2014-03-07					
+Investigation Title	Expression data from 10 day old Arabidopsis thaliana seedlings					
+Comment[Submitted Name]	Expression data from 10 day old Arabidopsis thaliana seedlings					
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis RNAi knock-down plants of SPT4-1 and SPT4-2					
+Experiment Description	Microarrays were used to detail the global programme of gene expression comparing wild-type and RNAi knock-down plants of SPT4-1 and SPT4-2 Arabidosis seeds were stratified for 2 days and grown for 10 days on solid (0.8% Agar) MS in an plant incubator in a 16 hours day, 8 hours night rythm.  Only the aerial part was harvested 2h after turning on the light.					
+Term Source Name	ArrayExpress	EFO				
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl				
+Person Last Name	Grasser	Durr	Mohle			
+Person First Name	Klaus	J	C			
+Person Email	Klaus.Grasser@biologie.uni-regensburg.de					
+Person Affiliation	University of Regensburg					
+Person Address	University of Regensburg, Universtitätsstr. 51, Regensburg, Germany					
+Person Roles	submitter					
+Protocol Name	P-GSE49590-1	P-GSE49590-4	P-GSE49590-5	P-GSE49590-2	P-GSE49590-3	P-GSE49590-6
+Protocol Description	The data were analyzed with Affimetrix Expression Console Software using Affymetrix default analysis settings and global scaling as normalization method. ID_REF =  VALUE = RMA signal intensity	Biotinylated cRNA were prepared according to the standard Affymetrix protocol (Expression Analysis Technical Manual, 2001, Affymetrix).	Following fragmentation, cRNA was hybridized for 16 hr at 45C on GeneChip Arabidopsis ATH1 Genome Array. GeneChips were washed and stained in the Affymetrix Fluidics Station 450.	seeds were stratified for 2 days and grown for 10 days on solid (0.8% Agar) MS in an plant incubator only the aerial part was harvested	RNeasy Mini Plant kit supplied with RNase-Free DNase set (Qiagen)	GeneChips were scanned using the Affimetrix Genechip Scanner 3000
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	genotype					
+Experimental Factor Type	genotype					
+Publication Title	The transcript elongation factor SPT4/SPT5 is involved in auxin-related gene expression in Arabidopsis.					
+Publication Author List	Durr J, Lolas IB, Sorensen BB, Schubert V, Houben A, Melzer M, Deutzmann R, Grasser M, Grasser KD					
+PubMed ID	24497194					
+Publication DOI	10.1093/nar/gku096					
+Comment[SecondaryAccession]	GSE49590					
+Comment[GEOReleaseDate]	2014-03-07					
+Comment[ArrayExpressSubmissionDate]	2013-08-06					
+Comment[GEOLastUpdateDate]	2014-03-10					
+Comment[AEExperimentType]	transcription profiling by array					
+SDRF File	E-GEOD-49590.sdrf.txt					

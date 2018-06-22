@@ -1,0 +1,49 @@
+Investigation Title	Transcription profiling by array of Arabidopsis roots from wild type and stip-2 knockout seedlings	
+Comment[Submitted Name]	stip-2 root	
+Experimental Design	transcript_identification_design	individual_genetic_characteristics_design	co-expression_design	transcription profiling by array	
+Experimental Design Term Source REF			The MGED Ontology	EFO	
+Comment[SecondaryAccession]		
+Comment[ArrayExpressReleaseDate]	2011-06-28	
+Comment[AEMIAMESCORE]	4	
+Comment[ArrayExpressAccession]	E-MEXP-2784	
+Comment[MAGETAB TimeStamp_Version]	2010-08-10 14:16:01 Last Changed Rev: 13058	
+Experimental Factor Name	GENOTYPE	
+Experimental Factor Type	genotype	
+Experimental Factor Term Source REF	
+Person Last Name	Wu	
+Person First Name	Xuelin	
+Person Mid Initials	
+Person Email	xuelinwu@usc.edu	
+Person Phone	001-213-740-2165	
+Person Fax	
+Person Address	Molecular and computational Biology, 1050 Childs Way, RRI 201, Los Angeles, California, 90089-2910, USA	
+Person Affiliation	University of Southern California	
+Person Roles	submitter	
+Person Roles Term Source REF	The MGED Ontology	
+Quality Control Type	biological_replicate	
+Quality Control Term Source REF	The MGED Ontology	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2011-06-28	
+PubMed ID	
+Publication DOI	
+Publication Author List	
+Publication Title	
+Publication Status	
+Publication Status Term Source REF	
+Experiment Description	3-day wt vs. stip-2 root expression profiling	
+Protocol Name	P-MTAB-15768	P-MTAB-15769	P-AFFY-2	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6	Affymetrix:Protocol:MAS4:ExpressionCall	
+Protocol Type	grow	nucleic_acid_extraction	labeling	hybridization	feature_extraction	bioassay_data_transformation	
+Protocol Description	seedling were grown on MS media at 22C, with 16 hours of light and 8 hours of dark.<br>(Parameters: time unit = seconds, min temperature = 22, temperature unit = C, media = MS)		Title: Affymetrix in vitro transcription. Description: 	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	Title: Affymetrix CHP Analysis (ExpressionCall). Description: 	
+Protocol Parameters	
+Protocol Hardware	
+Protocol Software				MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 4.0	
+Protocol Contact	
+Protocol Term Source REF	The MGED Ontology	The MGED Ontology		mo		mo	
+SDRF File	E-MEXP-2784.sdrf.txt	
+Term Source Name	The MGED Ontology		NCBI Taxonomy	tair_dev:1.27	ArrayExpress	The MGED Ontology	EFO	mo	
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php		http://www.ncbi.nlm.nih.gov/Taxonomy/	http://www.arabidopsis.org/info/ontologies/	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version				1.27					

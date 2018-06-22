@@ -1,0 +1,51 @@
+Investigation Title	CPEB_Arabidopsis_Complex I mutant2						
+Comment[Submitted Name]	CPEB_Arabidopsis_Complex I mutant2						
+Experimental Design	genetic_modification_design	co-expression_design	replicate_design	transcription profiling by array			
+Experimental Design Term Source REF	The MGED Ontology	The MGED Ontology	The MGED Ontology	EFO			
+Comment[AEExperimentType]	transcription profiling by array						
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis ndufa1 mutants						
+Comment[AEMIAMESCORE]	5						
+Comment[SecondaryAccession]							
+Comment[ArrayExpressReleaseDate]	2009-05-15						
+Comment[ArrayExpressAccession]	E-MEXP-2178						
+Comment[MAGETAB TimeStamp_Version]	2010-08-10 11:21:58 Last Changed Rev: 13058						
+Experimental Factor Name	genotype						
+Experimental Factor Type	genotype						
+Experimental Factor Term Source REF							
+Person Last Name	meyer						
+Person First Name	etienne						
+Person Mid Initials	h						
+Person Email	meyere@cyllene.uwa.edu.au						
+Person Phone	61864884411						
+Person Fax							
+Person Address	"centre of excellence in plant energy biology, M316, 35 Stirling Highway, Crawley, WA, 6009, Australia"						
+Person Affiliation	University of Western Australia						
+Person Roles	submitter						
+Person Roles Term Source REF	The MGED Ontology						
+Quality Control Type							
+Quality Control Term Source REF							
+Replicate Type							
+Replicate Term Source REF							
+Normalization Type							
+Normalization Term Source REF							
+Date of Experiment							
+Public Release Date	2009-05-15						
+PubMed ID	19675153						
+Publication DOI	10.1104/pp.109.141770						
+Publication Author List	"Meyer EH, Tomaz T, Carroll AJ, Estavillo G, Delannoy E, Tanz SK, Small ID, Pogson BJ, Millar AH."						
+Publication Title	Remodeled respiration in ndufs4 with low phosphorylation efficiency suppresses Arabidopsis germination and growth and alters control of metabolism at night.						
+Publication Status	published						
+Publication Status Term Source REF	EFO						
+Experiment Description	Effect on the transcriptome of an insertion in the gene At3g08610 encoding a subunit of mitochondrial complex I						
+Protocol Name	P-MTAB-4212	P-MTAB-4211	P-MTAB-4210	P-AFFY-2	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6	Affymetrix:Protocol:ExpressionStat
+Protocol Type	specified_biomaterial_action	grow	nucleic_acid_extraction	labeling	hybridization	feature_extraction	bioassay_data_transformation
+Protocol Description	Leaves (ca. 80 mg) were harvested and directly frozen in liquid nitrogen	"Seeds were sown directly on soil and pots were placed in medium day conditions (12h light 150 uA.cm-2, 22 C, 60% humidity, 12h dark 18 C, 60% humidity).<br>(Parameters: time unit = seconds, temperature unit = C)"	"Total RNA were extracted with the RNeasy PLant Mini Kit (Qiagen). Genomic DNA were removed using the DNAse I (RNAse free) from Ambion (Applied Biosystem) and the RNA were purified with the RNeasy Mini Kit (Qiagen). Complete removal of both mitochondrial and nuclear DNA was checked by PCR on diluted RNA and RNA quality was assessed on the 2100 Bioanalyzer (Agilent) prior to reverse transcription with random primers (Superscript III, Invitrogen). <br>(Parameters: Extracted product = total_RNA, Amplification = PCR)"	Title: Affymetrix in vitro transcription. Description: 	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 
+Protocol Parameters							
+Protocol Hardware							
+Protocol Software					MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 5.0
+Protocol Contact							
+Protocol Term Source REF					The MGED Ontology		The MGED Ontology
+SDRF File	E-MEXP-2178.sdrf.txt						
+Term Source Name	The MGED Ontology	EFO					
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/					
+Term Source Version							

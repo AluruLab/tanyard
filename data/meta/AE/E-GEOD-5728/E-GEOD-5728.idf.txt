@@ -1,0 +1,51 @@
+Investigation Title	Transcription profiling of Arabidopsis ecotypes response calcium tolerance				
+Comment[Submitted Name]	Environmental Genomics of calcicole-calcifuge physiology				
+Experimental Design	unknown_experiment_design_type	transcription profiling by array			
+Experimental Design Term Source REF		EFO			
+Comment[AEExperimentType]	transcription profiling by array				
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis Col-4 and Cal-0 ecotypes				
+Comment[ArrayExpressReleaseDate]	2008-06-14				
+Comment[SecondaryAccession]	GSE5728				
+Comment[AEMIAMESCORE]	4				
+Comment[ArrayExpressAccession]	E-GEOD-5728				
+Comment[MAGETAB TimeStamp_Version]	2010-08-06 17:27:54 Last Changed Rev: 13058				
+Experimental Factor Name	ecotype				
+Experimental Factor Type	ecotype				
+Experimental Factor Term Source REF					
+Person Last Name	(NASC)				
+Person First Name	Nottingham Arabidopsis Stock Centre				
+Person Mid Initials					
+Person Email	affy@arabidopsis.info				
+Person Phone					
+Person Fax					
+Person Address	School of Biosciences, University of Nottingham, Nottingham Arabidopsis Stock Centre (NASC), Sutton Bonington Campus, Loughborough, LE12 5RD, United Kingdom				
+Person Affiliation	Nottingham Arabidopsis Stock Centre (NASC)				
+Person Roles	submitter				
+Person Roles Term Source REF					
+Quality Control Type					
+Quality Control Term Source REF					
+Replicate Type					
+Replicate Term Source REF					
+Normalization Type					
+Normalization Term Source REF					
+Date of Experiment					
+Public Release Date	2008-06-14				
+PubMed ID					
+Publication DOI					
+Publication Author List					
+Publication Title					
+Publication Status					
+Publication Status Term Source REF					
+Experiment Description	Aim; To identify genes which are differentially expressed between calcicoles and non- calcicoles. Background; Grasslands on the calcareous soils of chalk and other limestones are among the most species-rich plant communities in Europe (Rodwell 1991 et seq.). They have experienced huge losses and remain vulnerable to such impacts as neglect of traditional management, agricultural improvement and global changes in climate, nitrogen depositions and ozone levels. Our understanding of the physiological characteristics of calcicoles and calcifuges remains limited. A detailed understanding of the genetic basis of the mechanisms that enable calcicoles to thrive on calcareous soils is essential to enable us to predict how these plant communities and their constituent species will be affected by environmental change and how the biodiversity of these ecosystems can be sustained.At Lancaster we have been studying calcicole-calcifuge physiology, with particular reference to Ca2+-tolerance, for over fifteen years. Recently, our research has focused on the regulation of apoplastic Ca2+ in Arabidospsis thaliana.  We have compared the response of two ecotypes of A. thaliana, the non-calcicole ecotype Columbia (Col-4) and the calcicole ecotype Cal-0, which is a genetically uniform line from an original population collected by Ratcliffe from a rocky limestone slope in 1954, to rhizospheric Ca2+. Our results show that Cal-0, exhibits a markedly higher tolerance to growth on high rhizospheric Ca2+ compared to Col-4.Our hypothesis is that adaptation to a calcareous environment will be reflected in altered gene expression. To test this hypothesis we will grow Col-4 and Cal-0 at low (1 mM) and high (12.5 mM) rhizospheric Ca2+ and compare the patterns of gene expression by microarray analysis. In the first instance, to eliminate any differences in gene expression between the Cal-0 and Col-4 ecotypes, we will compare RNA that will be extracted using the Qiagen RNEasy kits, from plants grown at 16 hour day lengths and will be harvested after 30 days of growth on sand watered with 0.5 X Long Ashton solution containing 1 mM CaCl2. Experimenter name = Bev Abram; Experimenter phone = 01524 65201ext93524; Experimenter fax = 01524 843854; Experimenter address = Biological Sciences; Experimenter address = Lancaster University; Experimenter address = Bailrigg; Experimenter address = Lancaster; Experimenter zip/postal_code = LA1 4YQ; Experimenter country = UK Experiment Overall Design: 8 samples were used in this experiment				
+Protocol Name	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6			
+Protocol Type	hybridization	feature_extraction			
+Protocol Description	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 			
+Protocol Parameters					
+Protocol Hardware					
+Protocol Software	MicroArraySuite 5.0	MicroArraySuite 5.0			
+Protocol Contact					
+Protocol Term Source REF	mo				
+SDRF File	E-GEOD-5728.sdrf.txt				
+Term Source Name	NCBI Taxonomy	The MGED Ontology	ArrayExpress	EFO	mo
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version					

@@ -1,0 +1,30 @@
+Comment[ArrayExpressAccession]	E-GEOD-56155						
+MAGE-TAB Version	1.1						
+Public Release Date	2014-09-22						
+Investigation Title	The Arabidopsis Mediator CDK8 module genes CCT and GCT are global regulators of developmental phase transitions.						
+Comment[Submitted Name]	The Arabidopsis Mediator CDK8 module genes CCT and GCT are global regulators of developmental phase transitions.						
+Experiment Description	Temporal coordination of developmental programs is necessary for normal ontogeny, but the mechanism by which this is accomplished is poorly understood.  We have previously shown that two components of the Mediator CDK8 module, CENTER CITY (CCT/MED12) and GRAND CENTRAL (GCT/MED13), are required for timing of pattern formation during embryogenesis in Arabidopsis. Here, we performed global gene expression analyses of wild-type, cct-1, and gct-2 seedlings (above-ground portions only) to help analyze their post-embryonic phenotypes.  Our results suggest that MED12 and MED13 act as global regulators of developmental timing by fine-tuning expression of temporal regulatory genes. Seeds of wild-type Col-0, cct-1, and gct-2 were sown in Fafard #2 soil.  Seedlings (above-ground portions only) were harvested when the first two leaf primordia were 1 mm in length, which was at day 7 for wild-type seedlings and day 9 for the two mutants. 75-100 seedlings were used for each of three biological replicates.						
+Term Source Name	ArrayExpress	EFO					
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Willmann	Willmann	Gillmor	Poethig			
+Person First Name	Matthew	Matthew	C	R			
+Person Mid Initials	R	R	S	S			
+Person Email	willmann@sas.upenn.edu						
+Person Affiliation	University of Pennsylvania						
+Person Address	Biology, University of Pennsylvania, 433 S. University Ave., Philadelphia, PA, USA						
+Person Roles	submitter						
+Protocol Name	P-GSE56155-1	P-GSE56155-5	P-GSE56155-6	P-GSE56155-2	P-GSE56155-3	P-GSE56155-4	P-GSE56155-7
+Protocol Description	The data were gcRMA-normalized in R using the gcrma package and filtered to remove all probesets that did not have a MAS5.0 present call in at least three of the arrays. ID_REF =  VALUE = gcRMA expression values	Biotin-labeled cDNA targets were made from 50 ng starting RNA that was reverse-transcribed and amplified using the OvationTM RNA Amplification SystemV2 and fragmented and labeled using the FL-OvationTM cDNA Biotin Module V2 (NuGEN Technologies, San Carlos, CA) per the manufacturer’s instructions.	Affymetrix ATH1 GeneChips were hybridized with 3.75 ug of biotin-labeled cDNA at a concentration of 17 ng/ul in the hybridization coctail. Hybridization was carried out for 16-18 hours at 45oC. Washing and staining were done using a GeneChip Fluidics Station 450.	Above-ground portions of seedlings were collected using forceps and immediately placed in conical tubes in liquid nitrogen, one tube per replicate. To minimize the effect of collection time, small batches of seedlings were collected for a given tube before moving onto the next one, cycling between all nine tubes until the desired total number of seedlings was achieved in each tube.	Seeds of wild-type Col-0, cct-1, and gct-2 were sown in Fafard #2 soil. The flats were placed at 4oC for three days before being put in a Conviron growth chamber at a constant 23oC under a one-to-one ratio of T8 Sylvania Octron 4100K Ecologic and GroLite WS fluorescent lamps (Interlectric) at ~125 μmol m-2 s-1. Plants were grown under long day conditions—16 hr light (100-125 μmol m-2 s-1):8 hr dark. Above-ground portions of seedlings were harvested when the first two leaf primordia were 1 mm in length, which was at day 7 for wild-type seedlings and day 9 for the two mutants. Only seedlings that produced cotyledons and leaf primordia were used. 75-100 seedlings were used per biological replicate.	The seedlings were ground in liquid nitrogen and then Trizol (Invitrogen, Carlsbad, CA) with a mortar and pestle. After extraction with chloroform (1/5th volume of the Trizol), per the manufacturer’s instructions, the aqueous phase was combined with � volume of 100% ethanol, mixed and passed over an RNeasy Mini (Qiagen, Valencia, CA) column. The RNA was further purified according to the RNeasy Mini directions, including an on-column DNA digestion with Qiagen’s RNase-Free DNase Set. The final RNA was eluted in the provided RNase-free water, and 1 ul of RNasin was added to increase stability.	The GeneChips were scanned using a 7G Affymetrix GeneChip Scanner.
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	genotype						
+Experimental Factor Type	genotype						
+Comment[SecondaryAccession]	GSE56155						
+Comment[GEOReleaseDate]	2014-09-22						
+Comment[ArrayExpressSubmissionDate]	2014-03-24						
+Comment[GEOLastUpdateDate]	2014-09-24						
+Comment[AEExperimentType]	transcription profiling by array						
+SDRF File	E-GEOD-56155.sdrf.txt						
+Publication Title	The Arabidopsis Mediator CDK8 module genes CCT (MED12) and GCT (MED13) are global regulators of developmental phase transitions.						
+Publication Author List	Gillmor CS, Silva-Ortega CO, Willmann MR, Buendía-Monreal M, Poethig RS.						
+PubMed ID	25377553						
+Publication DOI	10.1242/dev.111229						

@@ -1,0 +1,57 @@
+Comment[ArrayExpressAccession]	E-GEOD-36887
+Public Release Date	2012-03-27							
+Investigation Title	Impact of albino chemical on Arabidopsis seedlings							
+Comment[Submitted Name]	Impact of albino chemical on Arabidopsis seedlings
+Experiment Description	Analysis of wild type genome expression profile altered by albino chemicals. Results uncovered a several groups of genes that were significant responsive to these chemicals which may contribute to the albino phenotype. WT (Col-0) sown on 0.5x MS agar medium and stratified in the dark at 4 Â°C for 3 days and then germinated in the light condition (16 h light/8 h dark) for 5 days at 22 Â°C, and then transfer to the 0.5x MS solution one day for adapt the treatment condition. In the DAG 6 (day after germination), final concentration 50 Î¼M chemicals (7606596 and 5929745) were supplemented into the medium for chemical treatment. Approximately 2,000 seedlings were used to collect tissues before the chemicals treatment as the time zero samples. Seedlings were collected after the chemical treatment for 3 hours and 12 hours. Total RNA extracted from the collected samples was applied in each microarray experiment with Arabidopsis ATH1 GeneChip (Affymetrix). Qiagen RNAeasy mini kit (Qiagen) was used for RNA preparation. cDNA labeling, array hybridization, and scanning followed by standard Affymetrix expression array protocol. Two independent sets of microarray analyses were performed in this assay.							
+Date of Experiment								
+Term Source Name	EFO
+Term Source Version								
+Term Source File	http://www.ebi.ac.uk/efo/efo.owl							
+Person Last Name	WANG	Lin	Wang					
+Person First Name	Kevin Long-Chi	Lee-Chung	Long-Chi					
+Person Mid Initials								
+Person Email	lwang@gate.sinica.edu.tw							
+Person Affiliation	Academia Sinica							
+Person Phone	+886227871181							
+Person Fax	+886227827954							
+Person Address	Institute of Plant and Microbial Biology, Academia Sinica, 128 Section 2, Academia Road, Taipei, Taiwan							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Person Roles Term Accession Number								
+Normalization Type								
+Normalization Term Accession Number								
+Normalization Term Source REF								
+Replicate Type								
+Replicate Term Accession Number								
+Replicate Term Source REF								
+Experimental Design								
+Experimental Design Term Accession Number								
+Experimental Design Term Source REF								
+Quality Control Type								
+Quality Control Term Accession Number								
+Quality Control Term Source REF								
+Protocol Name	P-GSE36887-1	P-GSE36887-6	P-GSE36887-3	P-GSE36887-8	P-GSE36887-7	P-GSE36887-2	P-GSE36887-4	P-GSE36887-5
+Protocol Description	ID_REF = <br>VALUE = Signal<br>ABS_CALL = indicating whether the transcript was present (P), absent (A), or marginal (M)<br>DETECTION P-VALUE = 	Following fragmentation, 10 ug of cRNA were hybridized for 16.5 hr at 45C on GeneChip ATH1 Genome Array. GeneChips were washed and stained in the Affymetrix Fluidics Station 450.	WT (Col-0) sown on 0.5x MS agar medium and stratified in the dark at 4 °C for 3 days and then germinated in the light condition (16 h light/8 h dark) for 5 days at 22 °C, and then transfer to the 0.5x MS solution one day for adapt the treatment condition.	MAS5.0 signal intensity	The data were analyzed with Microarray Suite version 5.0 (MAS 5.0) using Affymetrix default analysis settings and global scaling as normalization method. The trimmed mean target intensity of each array was arbitrarily set to 500.	In DAG 6, final concentration 50 uM chemicals were added into the medium solution for chemical treatment. Seedlings collected before the chemicals added into the medium considered as the control sample. After chemicals added into the solution medium, samples were collected after designated time peroid (3 hour and 12 hour).	Qiagen RNAeasy mini kit (Qiagen) was used for RNA preparation	Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 10 ug total RNA (Expression Analysis Technical Manual, 701021 Rev. 5, Affymetrix).
+Protocol Software								
+Protocol Hardware								
+Protocol Contact								
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Protocol Term Source REF								
+Protocol Term Accession Number								
+Experimental Factor Name	TIME	COMPOUND						
+Experimental Factor Type	time	compound						
+Experimental Factor Term Source REF								
+Experimental Factor Term Accession Number								
+Publication Title								
+Publication Author List								
+PubMed ID								
+Publication DOI								
+Publication Status								
+Publication Status Term Source REF								
+Publication Status Term Accession Number								
+Comment[SecondaryAccession]	GSE36887							
+Comment[GEOLastUpdateDate]	2012-03-28
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[GEOReleaseDate]	2012-03-26
+Comment[ArrayExpressSubmissionDate]	2012-03-27
+SDRF File	E-GEOD-36887.sdrf.txt

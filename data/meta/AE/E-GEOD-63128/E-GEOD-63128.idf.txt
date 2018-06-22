@@ -1,0 +1,25 @@
+Comment[ArrayExpressAccession]	E-GEOD-63128
+MAGE-TAB Version	1.1						
+Public Release Date	2015-05-27
+Investigation Title	Gene expression of Arabidopsis leaves under heat stress and during recovery						
+Comment[Submitted Name]	Gene expression of Arabidopsis leaves under heat stress and during recovery
+Experiment Description	To understand plant adaptation to heat stress, gene expression profiles of Arabidopsis leaves under heat stress, during recovery and control condition were obtained using microarray. Microarray data listed responsible candidate genes for glycerolipid metabolism. Arabidopsis thaliana ecotype Columbia (Col-0) seeds were surface-sterilised and sown on an agar-solidified Murashige and Skoog medium. Plants were grown at 22ºC under a 16-h-light/8-h-dark cycle. Vegetative plants were subjected to high temperature for a day, then continued to be grown under normal condition for a day.						
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Higashi	Higashi	Okazaki	Myouga	Shinozaki	Saito	
+Person First Name	Yasuhiro	Yasuhiro	Yozo	Fumiyoshi	Kazuo	Kazuki	
+Person Email	geo@ncbi.nlm.nih.gov						
+Person Affiliation	RIKEN						
+Person Address	Center for Sustainable Resource Science, RIKEN, 1-7-22 Suehiro, Tsurumi, Yokohama, Japan						
+Person Roles	submitter						
+Protocol Name	P-GSE63128-1	P-GSE63128-5	P-GSE63128-6	P-GSE63128-2	P-GSE63128-3	P-GSE63128-4	P-GSE63128-7
+Protocol Description	The obtained data was summarized by the method of MAS5, and normalized as baseline to median of all samples using GeneSpring version 12 (Agilent Technologies). ID_REF =  VALUE = Raw signal values	Standard Affymetrix procedures	Standard Affymetrix procedures	Eighteen-day-old Arabidosis plants were subjected to heat stress at 38 degree C for a day (heat08hr, heat24hr), then continued to be grown at 22 degree C for a day (recovery08hr, recovery24hr).	Arabidosis wild-type ecotype Columbia plants were grown on agar plates at 22 degree C under a 16-h-light/8-h-dark cycle.	RNeasy plant mini kit (Qiagen)	Standard Affymetrix procedures
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	sample group	age					
+Experimental Factor Type	sample group	age					
+Comment[SecondaryAccession]	GSE63128						
+Comment[GEOReleaseDate]	2015-05-27						
+Comment[ArrayExpressSubmissionDate]	2014-11-10						
+Comment[GEOLastUpdateDate]	2015-05-27						
+Comment[AEExperimentType]	transcription profiling by array						
+SDRF File	E-GEOD-63128.sdrf.txt

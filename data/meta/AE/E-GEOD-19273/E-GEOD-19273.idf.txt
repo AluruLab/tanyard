@@ -1,0 +1,58 @@
+Comment[ArrayExpressAccession]	E-GEOD-19273					
+Public Release Date	2009-12-09					
+Investigation Title	Biological function of Pip3					
+Comment[Submitted Name]	Biological function of Pip3					
+Experiment Description	Ralstonia solanacearum is the causal agent of bacterial wilt. Arabidopsis thaliana monogenic resistance to the strain GMI1000 is conferred by the RRS1-R gene, present in the resistant ecotype ND-1 and absent in the susceptible ecotype Col-0. The corresponding protein is recognized by the avirulence protein PopP2 of R. solanacearum. In order to identify the plant proteins involved in the PopP2/RRS1-R perception complex, the screening of a root cDNA library in yeast was performed using PopP2 as bait. One interactor found was called Pip3, and we would like to better understand its biological function. Thereby we choose to compare two RNAi lines with their wild type Nd-1 background, and one KO line with its wild type Col-0 background. Also, two overexpressor lines will be compared with their wilt type Nd-1 background and two with their Col-0 background. 27 samples were used in this experiment.					
+Date of Experiment						
+Term Source Name	EFO					
+Term Source Version						
+Term Source File	http://www.ebi.ac.uk/efo					
+Person Last Name	Nottingham Arabidopsis Stock Centre (NASC)	Marco				
+Person First Name		Yves				
+Person Mid Initials						
+Person Email	affy@arabidopsis.info					
+Person Affiliation	Nottingham Arabidopsis Stock Centre (NASC)					
+Person Phone	+44 (0)115 951 3237					
+Person Fax	+44 (0)115 951 3297					
+Person Address	School of Biosciences, University of Nottingham, Nottingham Arabidopsis Stock Centre (NASC), Sutton Bonington Campus, Loughborough, United Kingdom					
+Person Roles	submitter					
+Person Roles Term Source REF						
+Person Roles Term Accession Number						
+Normalization Type						
+Normalization Term Accession Number						
+Normalization Term Source REF						
+Replicate Type						
+Replicate Term Accession Number						
+Replicate Term Source REF						
+Experimental Design						
+Experimental Design Term Accession Number						
+Experimental Design Term Source REF						
+Quality Control Type						
+Quality Control Term Accession Number						
+Quality Control Term Source REF						
+Protocol Name	P-GSE19273-1	P-GSE19273-5	P-GSE19273-4	P-GSE19273-2	P-GSE19273-3	P-GSE19273-6
+Protocol Description	ID_REF = <br>VALUE = MAS5.0 signal intensity<br>ABS_CALL = the call in an absolute analysis that indicates if the transcript was present (P), absent (A), or marginal (M)<br>DETECTION P-VALUE = p-value that indicates the significance level of the detection call	Scanned according to guidelines set out by Affymetrix, Santa Clara, CA.	Biotin Labelled cRNA using &quot;Affymetrix GeneChip Hybridization, Wash and Stain Kit&quot;, according to guidelines set out by Affymetrix, Santa Clara, CA	Qiagen RNAeasy kit protocol	Labelled using protocol described in manual &quot;Affymetrix GeneChip Expression Analysis Technical Manual&quot;, One-Cycle target labelling	Raw data from the microarrays was normalized at probe-level using MAS5 algorithm. The detection calls (present, marginal, absent) for each probe set was obtained using the GCOS system
+Protocol Software						
+Protocol Hardware						
+Protocol Contact						
+Protocol Type	bioassay_data_transformation	image_acquisition	hybridization	nucleic_acid_extraction	labelling	feature_extraction
+Protocol Term Source REF						
+Protocol Term Accession Number						
+Experimental Factor Name	genotype	ecotype				
+Experimental Factor Type	genotype	ecotype				
+Experimental Factor Term Source REF						
+Experimental Factor Term Accession Number						
+Publication Title						
+Publication Author List						
+PubMed ID						
+Publication DOI						
+Publication Status						
+Publication Status Term Source REF						
+Publication Status Term Accession Number						
+Comment[SecondaryAccession]	GSE19273					
+Comment[GEOLastUpdateDate]	2011-03-01					
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for At2g19270					
+Comment[AEExperimentType]	transcription profiling by array					
+Comment[GEOReleaseDate]	2009-12-10					
+Comment[ArrayExpressSubmissionDate]	2009-12-02					
+SDRF File	E-GEOD-19273.sdrf.txt					

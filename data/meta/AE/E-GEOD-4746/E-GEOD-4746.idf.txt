@@ -1,0 +1,50 @@
+Investigation Title	Transcription profiling of response of Arabidopsis seedlings to chitooctaose treatment	
+Comment[Submitted Name]	Expression data from Arabidopsis 14-day-old  seedlings	
+Experimental Design	compound_treatment_design	co-expression_design	transcription profiling by array	
+Experimental Design Term Source REF	mo	mo	EFO	
+Comment[ArrayExpressReleaseDate]	2007-10-04	
+Comment[SecondaryAccession]	GSE4746	
+Comment[AEMIAMESCORE]	4	
+Comment[SecondaryAccession]	GDS2101	
+Comment[ArrayExpressAccession]	E-GEOD-4746	
+Comment[MAGETAB TimeStamp_Version]	2010-08-05 17:02:07 Last Changed Rev: 13058	
+Experimental Factor Name	Dose	Compound	
+Experimental Factor Type	dose	compound	
+Experimental Factor Term Source REF	
+Person Last Name	Stacey	
+Person First Name	Gary	
+Person Mid Initials	
+Person Email	staceyg@missouri.edu	
+Person Phone	
+Person Fax	
+Person Address	Plant Sciences, University of Missouri-Columbia, 1201 Rollins Road, Columbia, 65211, USA	
+Person Affiliation	University of Missouri-Columbia	
+Person Roles	submitter	
+Person Roles Term Source REF	The MGED Ontology	
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2007-10-04	
+PubMed ID	
+Publication DOI	
+Publication Author List	
+Publication Title	
+Publication Status	
+Publication Status Term Source REF	
+Experiment Description	Chitin, a polymer of N-acetyl-glucosamne, is a component of the cell walls of many plant fungal pathogens. During the infection process, the released chitin fragments (such as chitooctaose) from fungal cell walls by plant enzymes can trigger plant defense response and gene activation. The current work studies the regulation of Arabidopsis genes by the purified chitin fragment chitooctaose. We used the Affymetric Arabidopsis whole gene arrays to study the gene expression caused by chitin (chitooctaose). Experiment Overall Design: Arabidopsis seedlings grown hydroponically for 14 days were treated with the purified chitin fragment chitooctaose at a final concentration of 1 um for 3 minutes. The controls were similarli treated with an equivalent amount of ddH2O. Three biological replicates were obtained.	
+Protocol Name	P-G4746-1	P-G4746-2	P-G4746-7	P-G4746-3	P-G4746-4	P-G4746-5	P-G4746-6	
+Protocol Type	specified_biomaterial_action	specified_biomaterial_action	grow	nucleic_acid_extraction	labeling	hybridization	feature_extraction	
+Protocol Description	2-week-old seedlings were treated with 20 ul ddH2O for 30 minutes, with gentle shaking.	2-week-old seedlings were treated with 20 ul 0.5 mM chitooctaose (with a final concentration of 1 uM) for 30 minutes, with gentle shaking.	Seedlings (~ 30 seeds at the beginning) were grown hydroponically in a 50-ml falcon tube containing 10 ml of liquid medium (1X Murashige and  skoog basal salt mixture + 2% dextrose, pH 5.8). The tube was incubated with gentle shaking in a growth chamber  with the following settings: constant light at 125 umol m-2 s-1 at a temperature of 23 C.	Trizol extraction of total RNA was performed according to the manufacturer's instructions.	Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 7 ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).	Following fragmentation, 20 ug of cRNA were hybridized for 16 hr at 45C on Affymetrix GeneChip Arabidopsis Genome Array ATH1. GeneChips were washed and stained in the Affymetrix Fluidics Station 400.	GeneChips were scanned using the Hewlett-Packard GeneArray Scanner G2500A.	
+Protocol Parameters	
+Protocol Hardware	
+Protocol Software	
+Protocol Contact	
+Protocol Term Source REF							The MGED Ontology	
+SDRF File	E-GEOD-4746.sdrf.txt	
+Term Source Name	The MGED Ontology		NCBI Taxonomy	mo	ArrayExpress	NCI_thesaurus	mo	EFO	The MGED Ontology	
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php		http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	ncithesaurus.obo.alt	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version										

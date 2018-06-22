@@ -1,0 +1,58 @@
+Comment[ArrayExpressAccession]	E-GEOD-23617										
+Public Release Date	2010-11-21										
+Investigation Title	The impact of BRCA2A and SSN2 on plant defense genes										
+Comment[Submitted Name]	The impact of BRCA2A and SSN2 on plant defense genes										
+Experiment Description	BRCA2A: We used microarrays to identify differentially expressed genes. We focused on those genes that were dramatically salicylic acid-induced (>2-fold) and BRCA2A-dependent in npr1 sni1 double mutants. SSN2: We used microarrays to identify differentially expressed genes. We focused on those genes that were dramatically salicylic acid-induced (P<0.05) and SSN2-dependent in npr1 sni1 double mutants. BRCA2A: 3-week old npr1 sni1 and npr1 sni1 brca2a mutants were treated with salicylic acid for 16 hours. Replicates are derived from three independent biological experiments. SSN2: 3-week old npr1 sni1 ssn2 mutants were treated with salicylic acid for 16 hours. Replicates are derived from two (SA treated) or three (water treated) independent biological experiments.										
+Date of Experiment											
+Term Source Name	EFO										
+Term Source Version											
+Term Source File	http://www.ebi.ac.uk/efo/efo.owl										
+Person Last Name	wang	Wang									
+Person First Name	shui	Shui									
+Person Mid Initials											
+Person Email	shuiwang@duke.edu										
+Person Affiliation	Duke University										
+Person Phone	9196138175										
+Person Fax											
+Person Address	"Biology, Duke University, 124 Science Dr, Durham, NC, USA"										
+Person Roles	submitter										
+Person Roles Term Source REF											
+Person Roles Term Accession Number											
+Normalization Type											
+Normalization Term Accession Number											
+Normalization Term Source REF											
+Replicate Type											
+Replicate Term Accession Number											
+Replicate Term Source REF											
+Experimental Design											
+Experimental Design Term Accession Number											
+Experimental Design Term Source REF											
+Quality Control Type											
+Quality Control Term Accession Number											
+Quality Control Term Source REF											
+Protocol Name	P-GSE23617-1	P-GSE23617-6	P-GSE23617-3	P-GSE23617-11	P-GSE23617-8	P-GSE23617-10	P-GSE23617-7	P-GSE23617-9	P-GSE23617-2	P-GSE23617-4	P-GSE23617-5
+Protocol Description	ID_REF = <br>VALUE = normalized data	"Following fragmentation, 10 ug of cRNA were hybridized on Affymetrix ATH1 GeneChip (Santa Clara, CA, U.S.A)."	"Arabidopsis seedlings were grown at 21-24°C, 16-hour day length, 60% relative humidity"	"The GSE23617_SSN2_raw_data.txt data refer to the linear data which has been summarized using a summarization algorithm (RMA16, PLIER 16 and Iterative PLIER 16). All summarization algorithms also do variance stabilization by adding 16.The normalized data are generated after the log transformation and baseline transformation step."	"The GSE23617_BRCA2A_raw_data.txt refer to the linear data which has been summarized using a summarization algorithm (RMA16, PLIER 16 and Iterative PLIER 16). All summarization algorithms also do variance stabilization by adding 16. The normalized data are generated after the log transformation and baseline transformation step."	GeneChips were scanned using the Axon Genepix Scanner (Genepix 4000B).	GeneChips were scanned according to Affymetrix protocol.	3-week old npr1 sni1 brca2a mutants were treated with 0.5 mM salicylic acid for 16 hours.  Replicates are derived from two (SA treated) or three (water treated) independent biological experiments.	3-week old npr1 sni1 and npr1 sni1 brca2a mutants were treated with 0.5 mM salicylic acid for 16 hours. Replicates are derived from three independent biological experiments.	Total RNA was isolated from the frozen material using Qiagen Rneasy Plant Mini kit	RNA probes were labelled using the Ambion MessageAmp Premier.
+Protocol Software											
+Protocol Hardware											
+Protocol Contact											
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	feature_extraction	image_aquisition	image_aquisition	specified_biomaterial_action	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Protocol Term Source REF											
+Protocol Term Accession Number											
+Experimental Factor Name	growth condition	genotype									
+Experimental Factor Type	growth condition	genotype									
+Experimental Factor Term Source REF											
+Experimental Factor Term Accession Number											
+Publication Title	Arabidopsis BRCA2 and RAD51 proteins are specifically involved in defense gene transcription during plant immune responses.										
+Publication Author List	"Wang S, Durrant WE, Song J, Spivey NW, Dong X."										
+PubMed ID	21149701										
+Publication DOI	10.1073/pnas.1005978107 										
+Publication Status	published										
+Publication Status Term Source REF	EFO										
+Publication Status Term Accession Number	EFO_0001796										
+Comment[SecondaryAccession]	GSE23617										
+Comment[GEOLastUpdateDate]	2010-11-28										
+Comment[AEExperimentDisplayName]	"Transcription profiling by array of Arabidopsis mutant for npr1, sni1, ssn2 and/or brca2a after treatment with salicylic acid"										
+Comment[AEExperimentType]	transcription profiling by array										
+Comment[GEOReleaseDate]	2010-11-21										
+Comment[ArrayExpressSubmissionDate]	2010-08-12										
+SDRF File	E-GEOD-23617.sdrf.txt										

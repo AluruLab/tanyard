@@ -1,0 +1,58 @@
+Comment[ArrayExpressAccession]	E-GEOD-27549
+Public Release Date	2012-03-12						
+Investigation Title	Genomic dna hybridizations of 10 Spring annual accessions of Arabidopsis thaliana						
+Comment[Submitted Name]	Genomic dna hybridizations of 10 Spring annual accessions of Arabidopsis thaliana
+Experiment Description	These data provide a basis for the detection of sequence based polymorphisms between 10 Spring annual accessions of Arabidopsis thaliana.  The experimental data provides an initial characterization of differences among the accessions, as well as a means for improving gene expression studies with the filtering of SFP from arrays studies. Recent studies have documented remarkable genetic variation among Arabidopsis thaliana accessions collected from diverse habitats and across its geographical range.  Of particular interest are accessions with putatively locally adapted phenotypes – i.e., accessions with attributes that are likely adaptive under the climatic or habitat conditions of their sites of origin.  These genotypes are especially valuable as they may provide insight into the genetic basis of adaptive evolution as well as allow the discovery of genes of ecological importance. The gene expression studies were conducted under two levels of soil moisture and accompanied by physiological measurements to characterize early responses to soil moisture deficit. Each accession has 3 replicates, single channel on the ATH1 array.  Samples were processed in two balanced batches (bioprime random labeling, hybridization,scanning).  A total of 30 arrays						
+Date of Experiment							
+Term Source Name	EFO
+Term Source Version							
+Term Source File	http://www.ebi.ac.uk/efo/efo.owl						
+Person Last Name	Des Marais	Desmarais	Juenger				
+Person First Name	David	David	Thomas				
+Person Mid Initials	Lee	L	E				
+Person Email	geo@ncbi.nlm.nih.gov						
+Person Affiliation	The University of Texas at Austin						
+Person Phone							
+Person Fax							
+Person Address	Integrative Biology, The University of Texas at Austin, 1 University Station C0930, Austin, TX, USA						
+Person Roles	submitter						
+Person Roles Term Source REF							
+Person Roles Term Accession Number							
+Normalization Type							
+Normalization Term Accession Number							
+Normalization Term Source REF							
+Replicate Type							
+Replicate Term Accession Number							
+Replicate Term Source REF							
+Experimental Design							
+Experimental Design Term Accession Number							
+Experimental Design Term Source REF							
+Quality Control Type							
+Quality Control Term Accession Number							
+Quality Control Term Source REF							
+Protocol Name	P-GSE27549-6	P-GSE27549-5	P-GSE27549-1	P-GSE27549-3	P-GSE27549-2	P-GSE27549-4	P-GSE27549-7
+Protocol Description	Affymetrix GeneChip Scanner 3000, GCOS v1.3	standard Affymetrix protocol	no treatment	Qiagen Dneasy Plant Mini prep	standard Arabidopsis growth conditions in a Percival growth chamber - 16L/8D, 21 degrees day, 18 degrees night	Biotin labeling, Invitrogen Bioprime kit, following Borevitz 2005	Microarray Suite 5, data processed with JMP Genomics, R statistics RMA background correction, log2 transformation, quantile normalized individual probe data are provided in the supplementary file on the Series record. Analysis of individual probe-level data was performed in order to remove probes from the array that hybridized differently between accessions for related gene expression analysis.
+Protocol Software							
+Protocol Hardware							
+Protocol Contact							
+Protocol Type	image_aquisition	hybridization	specified_biomaterial_action	nucleic_acid_extraction	grow	labeling	feature_extraction
+Protocol Term Source REF							
+Protocol Term Accession Number							
+Experimental Factor Name	ECOTYPE	ACCESSION					
+Experimental Factor Type	ecotype	accession					
+Experimental Factor Term Source REF							
+Experimental Factor Term Accession Number							
+Publication Title	Physiological genomics of response to soil drying in diverse Arabidopsis accessions.						
+Publication Author List	Des Marais DL, McKay JK, Richards JH, Sen S, Wayne T, Juenger TE						
+PubMed ID	22408074						
+Publication DOI	10.1105/tpc.112.096180						
+Publication Status							
+Publication Status Term Source REF							
+Publication Status Term Accession Number							
+Comment[SecondaryAccession]	GSE27549						
+Comment[AdditionalFile:Data1]	GSE27549_spring_gDNA_data.txt						
+Comment[GEOLastUpdateDate]	2012-03-23
+Comment[AEExperimentType]	other						
+Comment[GEOReleaseDate]	2012-03-12
+Comment[ArrayExpressSubmissionDate]	2011-02-27
+SDRF File	E-GEOD-27549.sdrf.txt

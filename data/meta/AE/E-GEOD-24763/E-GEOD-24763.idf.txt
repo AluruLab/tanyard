@@ -1,0 +1,58 @@
+Comment[ArrayExpressAccession]	E-GEOD-24763							
+Public Release Date	2011-08-31							
+Investigation Title	Expression data from NPA treated stems of Arabidopsis thaliana.							
+Comment[Submitted Name]	Expression data from NPA treated stems of Arabidopsis thaliana.							
+Experiment Description	In-vivo induced establishment and activity of the interfascicular cambium in Arabidopsis thaliana stems under NPA treatments. We used microarrays to detail the global programme of gene expression underlying the establishment and activity of the interfascicular cambium. 3 mm stem pieces were collected after being in treated with NPA for a week in order to stop the polar auxin transport and induce secondary growth. Collected samples were used for RNA extraction and hybridization on Affymetrix microarrays. We aimed to obtain genes responsible for auxin-indueced cambium establishment and activity.							
+Date of Experiment								
+Term Source Name	EFO							
+Term Source Version								
+Term Source File	http://www.ebi.ac.uk/efo/efo.owl							
+Person Last Name	Agusti	Agusti	Greb					
+Person First Name	Javier	Javier	Thomas					
+Person Mid Initials								
+Person Email	javier.agusti@gmi.oeaw.ac.at							
+Person Affiliation	Gregor Mendel Institute							
+Person Phone	+43-(0)1-79044-9871							
+Person Fax								
+Person Address	"Gregor Mendel Institute, Dr. Bohr-Gasse 3, Wien, Austria"							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Person Roles Term Accession Number								
+Normalization Type								
+Normalization Term Accession Number								
+Normalization Term Source REF								
+Replicate Type								
+Replicate Term Accession Number								
+Replicate Term Source REF								
+Experimental Design	transcription profiling by array							
+Experimental Design Term Accession Number								
+Experimental Design Term Source REF								
+Quality Control Type								
+Quality Control Term Accession Number								
+Quality Control Term Source REF								
+Protocol Name	P-GSE24763-1	P-GSE24763-6	P-GSE24763-3	P-GSE24763-8	P-GSE24763-7	P-GSE24763-2	P-GSE24763-4	P-GSE24763-5
+Protocol Description	ID_REF = <br>VALUE = RMA signal intensity	"Following fragmentation, the aRNAs were hybridized for 16 hr at 45C on GeneChip ATH1 array. GeneChips were washed and stained in the Affymetrix Fluidics Station 400."	Plants were grown for 3 weeks on short days (8 hours light 16 hours dark)under standard conditions and then switched to lond days (16 hours light 8 hours dark)	The data were analyzed using the RMA method using limma and affy libraries in bioconductor (R2.9.0) statiscal package (R).	GeneChips were scanned using the Affymetrix GeneChip Scanner 3000.	"Stem fragments of 3 mm in length located 2.5 cm apically from the base were treated with NPA for 7 days, excised with a scalpel and collected for liquid nitrogen freezing."	Total RNA extraction was performed using the RNeasy Plus Micro Kit (QIAGEN) following the manufacturer´s instructions.	"Biotinylated aRNA were prepared according to the standard Affymetrix protocol (Expression Analysis Technical Manual, 2001, Affymetrix)."
+Protocol Software								
+Protocol Hardware								
+Protocol Contact								
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Protocol Term Source REF								
+Protocol Term Accession Number								
+Experimental Factor Name	compound	dose						
+Experimental Factor Type	compound	dose						
+Experimental Factor Term Source REF								
+Experimental Factor Term Accession Number								
+Publication Title	WOX4 imparts auxin responsiveness to cambium cells in Arabidopsis.							
+Publication Author List	"Suer S, Agusti J, Sanchez P, Schwarz M, Greb T."							
+PubMed ID	21926336							
+Publication DOI	10.1105/tpc.111.087874							
+Publication Status	published							
+Publication Status Term Source REF	EFO							
+Publication Status Term Accession Number	EFO_0001796							
+Comment[SecondaryAccession]	GSE24763							
+Comment[GEOLastUpdateDate]	2011-09-01							
+Comment[AEExperimentDisplayName]	Expression data from NPA treated stems of Arabidopsis thaliana.							
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[GEOReleaseDate]	2011-08-30							
+Comment[ArrayExpressSubmissionDate]	2010-10-17							
+SDRF File	E-GEOD-24763.sdrf.txt							

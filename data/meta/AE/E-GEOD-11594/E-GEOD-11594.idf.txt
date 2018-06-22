@@ -1,0 +1,52 @@
+Investigation Title	Transcription profiling by array of Arabidopsis seedlings mutant for pif1						
+Comment[Submitted Name]	"Expression data from dark grown Arabidopsis Wild type (Wt, col-o) and pif1-2 (At2g20810, Salk_072677) mutant seedlings"						
+Experimental Design	genetic modification design	transcription profiling by array					
+Experimental Design Term Source REF		EFO					
+Comment[AEExperimentType]	transcription profiling by array						
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis seedlings mutant for pif1						
+Comment[ArrayExpressReleaseDate]	2008-06-18						
+Comment[SecondaryAccession]	GSE11594						
+Comment[AEMIAMESCORE]	3						
+Comment[ArrayExpressAccession]	E-GEOD-11594						
+Comment[MAGETAB TimeStamp_Version]	2010-07-22 04:21:06 Last Changed Rev: 13058						
+Experimental Factor Name	genotype						
+Experimental Factor Type	genotype						
+Experimental Factor Term Source REF							
+Person Last Name	Huq						
+Person First Name	Enamul						
+Person Mid Initials							
+Person Email	huq@mail.utexas.edu						
+Person Phone							
+Person Fax							
+Person Address	"Huq lab, Molecular Cell & Developmental Biology, The University of Texas at Austin, BIO21B, 205 W 24th St, , Austin, 78712, USA"						
+Person Affiliation	The University of Texas at Austin						
+Person Roles	submitter						
+Person Roles Term Source REF	The MGED Ontology						
+Quality Control Type							
+Quality Control Term Source REF							
+Replicate Type							
+Replicate Term Source REF							
+Normalization Type							
+Normalization Term Source REF							
+Date of Experiment							
+Public Release Date	2008-06-18						
+PubMed ID	18591656						
+Publication DOI	10.1073/pnas.0803611105						
+Publication Author List	"Moon J, Zhu L, Shen H, Huq E."						
+Publication Title	PIF1 directly and indirectly regulates chlorophyll biosynthesis to optimize the greening process in Arabidopsis.						
+Publication Status	published						
+Publication Status Term Source REF	EFO						
+Publication Status Term Accession Number	EFO_0001796						
+Experiment Description	"Arabidopsis bHLH transcription factor PIF1 has been shown function as a negative regulator of Chlorophyll biosynthesis. Pif1-2 mutant accumulate more protochlorophylide during prolonged dark growth condations, therefore the comparation between Wt and pif1-2 mutant will help us find the PIF1 target genes in Chlorophyll biosynthesis pathway at genome wide level under the dark grown conditions. We used microarrays to detail the global gene expression under the regulation of PIF1. Experiment Overall Design: 4 days dark grown Wt and pif1-2 seedlings were collected for isolation RNA. Standard Affymetrix protocal and 25K Affymetrix chip (ATH1) were used for Microarry hybridition."						
+Protocol Name	P-G11594-1	P-G11594-2	P-G11594-4	P-G11594-3	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6	
+Protocol Type	grow	specified_biomaterial_action	nucleic_acid_extraction	labeling	hybridization	feature_extraction	
+Protocol Description	"After 4 days cold treatment, Arabidopsis seeds which plated on MS medium, were given 1 hour light for germination induction then grown at 21Â&deg;C for 4 days in the darkness."	Dark grown seedlings.	"Pine tree method (tepperman et al, 2001) isolate total RNA, purified with Qiagen RNeasy spin column."	"Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 20 Â&#956;g total RNA (Expression Analysis Technical Manual, 2001, Affymetrix)."	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	
+Protocol Parameters							
+Protocol Hardware							
+Protocol Software					MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact							
+Protocol Term Source REF					mo		
+SDRF File	E-GEOD-11594.sdrf.txt						
+Term Source Name	NCBI Taxonomy		The MGED Ontology	ArrayExpress	EFO	The MGED Ontology	mo
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version							

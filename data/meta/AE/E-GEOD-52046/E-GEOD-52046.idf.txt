@@ -1,0 +1,31 @@
+Comment[ArrayExpressAccession]	E-GEOD-52046				
+MAGE-TAB Version	1.1				
+Public Release Date	2014-09-30				
+Investigation Title	Expression data from Col-0 and sp1,spx2 under phosphate starvation stress and recovery after resupplying phosphate				
+Comment[Submitted Name]	Expression data from Col-0 and sp1,spx2 under phosphate starvation stress and recovery after resupplying phosphate				
+Experiment Description	We performed a transcriptomic analysis of Pi-starvation and recovery after resupplying Pi in Arabidopsis thaliana (Columbia-0) wild type plants and double mutant spx1,spx2. Results show that SPX1 is a Pi-dependent inhibitor of the transcription factor PHR1, a central regulatory protein in the control of transcriptional responses to Pi starvation. The analysis was performed in wild-type and double spx1,spx2 double mutant plants grown for seven days in complete (+Pi) and Pi-lacking (-Pi) Johnson solid media. Then, plants were transferred to complete medium for 4 hours to analyze the effect of resupplying plants with Pi.				
+Term Source Name	ArrayExpress	EFO			
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl			
+Person Last Name	Rojo	Puga	Franco-Zorrilla	Paz-Ares	
+Person First Name	Enrique	Maria	Jose	Javier	
+Person Mid Initials		I	M		
+Person Email	erojo@cnb.csic.es				
+Person Affiliation	Centro Nacinal de Biotecnologia-CSIC				
+Person Address	Plant Molecular Genetics, Centro Nacinal de Biotecnologia-CSIC, Darwin, 3, Madrid, Madrid, Spain				
+Person Roles	submitter				
+Protocol Name	P-GSE52046-1	P-GSE52046-3	P-GSE52046-4	P-GSE52046-2	P-GSE52046-5
+Protocol Description	Analysis was performed using the affylmaGUI R package (Wettenhall et al, 2006). Robust Muti-array Analysis (RMA) algorithm was used for background correction, normalization and expression levels summarization (Irizarry et al., 2003). ID_REF =  VALUE = RMA Log2 Signal intensity	Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 3 ug total RNA	Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45C on GeneChip ATH1 Array. GeneChips were washed and stained in the Affymetrix Fluidics Station 450.	Trizol extraction of total RNA and cleanup with RNeasy (Qiagen), according to the manufacturers's instructions.	Each microarray was scanned at 2.5 ﾵm resolution in a GeneChip Scanner 3000 7G System (Affymetrix)
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	genotype	growth condition			
+Experimental Factor Type	genotype	growth condition			
+Comment[SecondaryAccession]	GSE52046				
+Comment[GEOReleaseDate]	2014-09-30				
+Comment[ArrayExpressSubmissionDate]	2013-11-04				
+Comment[GEOLastUpdateDate]	2014-09-30				
+Comment[AEExperimentType]	transcription profiling by array				
+Publication DOI	10.1073/pnas.1404654111				
+PubMed ID	25271326				
+Publication Title	SPX1 is a phosphate-dependent inhibitor of Phosphate Starvation Response 1 in Arabidopsis				
+Publication Author List	Puga MI, Mateos I, Charukesi R, Wang Z, Franco-Zorrilla JM, de Lorenzo L, Irigoyen ML, Masiero S, Bustos R, Rodríguez J, Leyva A, Rubio V, Sommer H, Paz-Ares J				
+Publication Status	Published				
+SDRF File	E-GEOD-52046.sdrf.txt				

@@ -1,0 +1,58 @@
+Comment[ArrayExpressAccession]	E-GEOD-18978							
+Public Release Date	2009-11-17							
+Investigation Title	Arabidopsis thaliana mutant leaves treated with Pseudomonas syringae ES4326							
+Comment[Submitted Name]	Arabidopsis thaliana mutant leaves treated with Pseudomonas syringae ES4326							
+Experiment Description	In order to better understand the transcriptional networks triggered by pathogen inoculation, we monitored gene expression in leaves of mutant Arabidopsis plants, inoculated with Pseudomonas syringae ES4326 and wild type Col-0 plants grown in parallel.  Individual leaves were injected in the morning using a needle-less syringe with 10E5 cfu cm-2 PsmES4326 (suspended in 5 mM MgSO4).  For the wild type, leaves were also mock treated with 5 mM MgSO4.  Leaves were harvested 24 hours later.  Plants were grown in pots with BM-2 soil (Berger Peat Moss Ltd, Quebec, Canada) at a density of 9 plants per pot and kept at 22 degrees Celsius with 75% humidity and a 12 hour day length.  Keywords: Expression profiling by array 24 samples were used in this experiment							
+Date of Experiment								
+Term Source Name	EFO							
+Term Source Version								
+Term Source File	http://bar.ebi.ac.uk:8080/trac/browser/branches/curator/ExperimentalFactorOntology/ExFactorInOWL/currentrelease/eforelease/efo.owl							
+Person Last Name	Nottingham Arabidopsis Stock Centre (NASC)	Mitra						
+Person First Name		Raka						
+Person Mid Initials								
+Person Email	affy@arabidopsis.info							
+Person Affiliation	Nottingham Arabidopsis Stock Centre (NASC)							
+Person Phone	+44 (0)115 951 3237							
+Person Fax	+44 (0)115 951 3297							
+Person Address	School of Biosciences, University of Nottingham, Nottingham Arabidopsis Stock Centre (NASC), Sutton Bonington Campus, Loughborough, United Kingdom							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Person Roles Term Accession Number								
+Normalization Type								
+Normalization Term Accession Number								
+Normalization Term Source REF								
+Replicate Type								
+Replicate Term Accession Number								
+Replicate Term Source REF								
+Experimental Design								
+Experimental Design Term Accession Number								
+Experimental Design Term Source REF								
+Quality Control Type								
+Quality Control Term Accession Number								
+Quality Control Term Source REF								
+Protocol Name	P-GSE18978-1	P-GSE18978-6	P-GSE18978-5	P-GSE18978-3	P-GSE18978-8	P-GSE18978-2	P-GSE18978-4	P-GSE18978-7
+Protocol Description	ID_REF = <br>VALUE = MAS5 normalized signal intensity<br>ABS_CALL = present, marginal, absent calls<br>DETECTION P-VALUE = p-value	Scanned according to guidelines set out by Affymetrix, Santa Clara, CA.	Biotin Labelled cRNA using &quot;Affymetrix GeneChip Hybridization, Wash and Stain Kit&quot;, according to guidelines set out by Affymetrix, Santa Clara, CA	Qiagen RNeasy kit protocol	Plants grown in BM-2 soil at 22 degrees celsius with 75% humidity and 12hr day length	Seeds were planted in BM-2 soil (Berger's) at a density of 9 plants/pot. Flats of 8 pots/flat were placed in a growth chamber and grown at 22 degrees celsius, 75% humidity for a 12 hour day length	Labelled using protocol described in Affymetrix manual &quot;3' IVT Express Kit User Manual&quot;	Raw data from the microarrays was normalized at probe-level using MAS5 algorithm. The detection calls (present, marginal, absent) for each probe set was obtained using the GCOS system
+Protocol Software								
+Protocol Hardware								
+Protocol Contact								
+Protocol Type	bioassay_data_transformation	image_acquisition	hybridization	nucleic_acid_extraction	grow	grow	labelling	feature_extraction
+Protocol Term Source REF								
+Protocol Term Accession Number								
+Experimental Factor Name	genotype	growth condition						
+Experimental Factor Type	genotype	growth condition						
+Experimental Factor Term Source REF								
+Experimental Factor Term Accession Number								
+Publication Title								
+Publication Author List								
+PubMed ID								
+Publication DOI								
+Publication Status								
+Publication Status Term Source REF								
+Publication Status Term Accession Number								
+Comment[SecondaryAccession]	GSE18978							
+Comment[GEOLastUpdateDate]	2011-03-01							
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for sid2, pad4, pad2, nor1, ein2 or coi1 after infection with Pseudomonas syringae ES4326							
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[GEOReleaseDate]	2009-11-18							
+Comment[ArrayExpressSubmissionDate]	2009-11-12							
+SDRF File	E-GEOD-18978.sdrf.txt							

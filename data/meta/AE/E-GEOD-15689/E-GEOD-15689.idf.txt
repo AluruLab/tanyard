@@ -1,0 +1,44 @@
+Comment[ArrayExpressAccession]	E-GEOD-15689																											
+Public Release Date	2009-04-18																											
+Investigation Title	"A complementary role for ELF3 and TFL1 in the regulation of flowering time by ambient temperature, in Arabidopsis thaliana."																											
+Comment[Submitted Name]	"A complementary role for ELF3 and TFL1 in the regulation of flowering time by ambient temperature, in Arabidopsis thaliana."																											
+Experiment Description	"Plants regulate their time to flowering by gathering information from the environment. Photoperiod and temperature are among the most important environmental variables. Suboptimal, but not near-freezing, temperatures regulate flowering through the thermosensory pathway, which overlaps with the autonomous pathway. Here we show that ambient temperature regulates flowering by two genetically distinguishable pathways, one that requires TFL1 and another that requires ELF3. The delay in flowering time observed at lower temperatures was partially suppressed in single elf3 and tfl1 mutants, whereas double elf3 tfl1 mutants were insensitive to temperature. tfl1 mutations abolished the temperature response in cryptochrome mutants that are deficient in photoperiod perception, but not in phyB mutants that have a constitutive photoperiodic response. Contrary to tfl1, elf3 mutations were able to suppress the temperature response in phyB mutants, but not in cryptochrome mutants. The gene expression profile revealed that the tfl1 and elf3 effects are due to the activation of different sets of genes and identified CCA1 and SOC1/AGL20 as being important cross talk points. Finally, genome-wide gene expression analysis strongly suggests a general and complementary role for ELF3 and TFL1 in temperature signalling. Three genotypes, WT (Columbia), elf3-7 and tfl1-1 mutants. Three biological replicates for each condition (genotype X temperature combination). RNA prepared independently for each sample. "																											
+Date of Experiment																												
+Term Source Name	EFO																											
+Term Source Version																												
+Term Source File	http://bar.ebi.ac.uk:8080/trac/browser/branches/curator/ExperimentalFactorOntology/ExFactorInOWL/currentrelease/eforelease/efo.owl																											
+Person Last Name	Cerdan	Strasser	Alvarez	Califano	Cerdan																							
+Person First Name	Pablo	Bárbara	Mariano	Andrea	Pablo																							
+Person Mid Initials	Diego		J		D																							
+Person Email	geo@ncbi.nlm.nih.gov																											
+Person Affiliation	Fundacion Instituto Leloir																											
+Person Phone																												
+Person Fax																												
+Person Address	"Fundacion Instituto Leloir, Av. Patricias Argentinas 435, Ciudad de Buenos Aires, Argentina"																											
+Person Roles	submitter																											
+Protocol Name	P-GSE15689-17	P-GSE15689-16	P-GSE15689-7	P-GSE15689-12	P-GSE15689-2	P-GSE15689-8	P-GSE15689-3	P-GSE15689-14	P-GSE15689-6	P-GSE15689-13	P-GSE15689-9	P-GSE15689-5	P-GSE15689-11	P-GSE15689-10	P-GSE15689-4	P-GSE15689-1	P-GSE15689-15	P-GSE15689-25	P-GSE15689-24	P-GSE15689-27	P-GSE15689-22	P-GSE15689-19	P-GSE15689-21	P-GSE15689-18	P-GSE15689-28	P-GSE15689-20	P-GSE15689-23	P-GSE15689-26
+Protocol Description	ID_REF = <br>VALUE = tfl1-1-23ºC-RepC	ID_REF = <br>VALUE = tfl1-1-23ºC-RepB	ID_REF = <br>VALUE = tfl1-1-16ºC-RepB	ID_REF = <br>VALUE = elf3-7-16ºC-RepA	ID_REF = <br>VALUE = WT-16ºC-RepB	ID_REF = <br>VALUE = tfl1-1-16ºC-RepC	ID_REF = <br>VALUE = WT-16ºC-RepC	ID_REF = <br>VALUE = elf3-7-23ºC-RepC	ID_REF = <br>VALUE = tfl1-1-16ºC-RepA	ID_REF = <br>VALUE = elf3-7-23ºC-RepA	ID_REF = <br>VALUE = WT Col-23ºC-RepA	ID_REF = <br>VALUE = elf3-7-16ºC-RepC	ID_REF = <br>VALUE = WT-23ºC-RepC	ID_REF = <br>VALUE = WT Col-23ºC-RepB	ID_REF = <br>VALUE = elf3-7-16ºC-RepB	ID_REF = <br>VALUE = WT-16ºC-RepA	ID_REF = <br>VALUE = tfl1-1-23ºC-RepA	Affymetrix	Affymetrix	Qiagen RNAeasy Kit	Qiagen RNAeasy kit	"Plating: MS Salts, 1.2 % Agar"	"Growth conditions: 10 days at 16ºC, under continuous cool-white fluorescent light, 80 micromoles/sec m2"	Seed sterilization: clorine vapour O/N	"Growth conditions: 10 days at 23ºC, under continuous cool-white fluorescent light, 80 micromoles/sec m2"	Stratification: 3 days at 4ºC	Affymetrix	RMA
+Protocol Software																												
+Protocol Hardware																												
+Protocol Contact																												
+Protocol Type	bioassay_data_transformation	bioassay_data_transformation	bioassay_data_transformation	bioassay_data_transformation	bioassay_data_transformation	bioassay_data_transformation	bioassay_data_transformation	bioassay_data_transformation	bioassay_data_transformation	bioassay_data_transformation	bioassay_data_transformation	bioassay_data_transformation	bioassay_data_transformation	bioassay_data_transformation	bioassay_data_transformation	bioassay_data_transformation	bioassay_data_transformation	image_aquisition	hybridization	nucleic_acid_extraction	nucleic_acid_extraction	grow	grow	grow	grow	grow	labeling	feature_extraction
+Protocol Term Source REF																												
+Protocol Term Accession Number																												
+Experimental Factor Name	temperature	genotype																										
+Experimental Factor Type	temperature	genotype																										
+Experimental Factor Term Source REF																												
+Experimental Factor Term Accession Number																												
+Publication Title	A complementary role for ELF3 and TFL1 in the regulation of flowering time by ambient temperature.																											
+Publication Author List	"Strasser B, Alvarez MJ, Califano A, Cerdán PD"																											
+PubMed ID	19187043																											
+Publication DOI	10.1111/j.1365-313X.2009.03811.x																											
+Publication Status	published																											
+Publication Status Term Source REF	EFO																											
+Publication Status Term Accession Number	EFO_0001796																											
+Comment[SecondaryAccession]	GSE15689																											
+Comment[GEOLastUpdateDate]	2011-03-01																											
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for tfl1 or elf2 after growth at different temperatures																											
+Comment[AEExperimentType]	transcription profiling by array																											
+Comment[GEOReleaseDate]	2009-04-17																											
+Comment[ArrayExpressSubmissionDate]	2009-04-14																											
+SDRF File	E-GEOD-15689.sdrf.txt																											

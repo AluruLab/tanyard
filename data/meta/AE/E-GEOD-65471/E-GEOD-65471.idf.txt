@@ -1,0 +1,27 @@
+Comment[ArrayExpressAccession]	E-GEOD-65471
+MAGE-TAB Version	1.1								
+Public Release Date	2016-01-14
+Investigation Title	DELAY OF GERMINATION 1 plays a role in Arabidopsis seed maturation								
+Comment[Submitted Name]	DELAY OF GERMINATION 1 plays a role in Arabidopsis seed maturation
+Experiment Description	We analysed the transcriptome of dry seeds (the end product of seed maturation) of three genotypes with different DOG1 expression levels. These included the WT Ler (low DOG1 expression), the near isogenic line NILDOG1-Cvi (strong DOG1 expression) and the non-dormant dog1-1 mutant (absence of DOG1 expression). NILDOG1-Cvi is the Ler WT containing an introgression of the Cvi accession on chromosome 5, which includes the DOG1 gene (Bentsink et al., 2006). The dog1-1 mutant is in the NILDOG1-Cvi genetic background. The aim was to obtain a global overview of the effect of different levels of DOG1 expression during seed maturation on the dry seed transcriptome. Gene expression in dry seeds of three genotypes was compared: Ler, NILDOG1 and the dog1-1 mutant. For each genotype, three replicates were used.								
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl							
+Person Last Name	Bentsink	Dekkers	He	Hanson	Willems	Cueff	Rajjou	Hilhorst	Bentsink
+Person First Name	LeÃ³nie	Bas	Hanzi	Johannes	Leo	Gwendal	LoÃ¯c	Henk	LeÃ³nie
+Person Mid Initials		J						W	
+Person Email	leonie.bentsink@wur.nl								
+Person Affiliation	Wageningen University								
+Person Phone	+31317481325								
+Person Address	Wageningen University, Droevendaalsesteeg 1, Wageningen, Netherlands								
+Person Roles	submitter								
+Protocol Name	P-GSE65471-1	P-GSE65471-5	P-GSE65471-6	P-GSE65471-2	P-GSE65471-3	P-GSE65471-4	P-GSE65471-7		
+Protocol Description	The GeneChip data were analyzed using the R statistical programming environment and Bioconductor packages. The data were normalized using the RMA algorithm. The P values were adjusted for multiple testing with the Benjamini and Hochberg method to control for false positives. ID_REF =  VALUE = RMA log2 signal	RNA was processed and cRNA synthesized according to the 3â GeneChips OneCycle kit.	The GeneChip (#900720) HWS kit was used for hybridisation, washing and staining of the cartridges.	RNA was extracted from freshly harvested, dry seeds of three biological replicates of each genotype.	For the transcriptome analyses, Ler, NILDOG1 and the dog1-1 were grown in a randomized complete block design with three replicates. Each replicate consisted of a bulk of eight plants. The precise growth conditions used were described by (El-Lithy et al., Genetics, 2006).	Total RNA was prepared from dry seeds using RNAqueous columns with Plant RNA isolation aid (Ambion) according to the manufacturerâs protocol. The RNA was further purified through precipitations with isopropanol and a high-salt precipitation solution containing 0.24 M sodium citrate and 0.16 M sodium chloride and subsequently with 2 M lithium chloride. RNA was qualitatively assessed and quantified using an Agilent 2100 Bioanalyzer with the RNA 6000 Nano LabChip kit (Agilent) and NanoDrop1000 spectrometry (NanoDrop Technologies).	Scanning of the arrays was performed using the Affymetrix 3000G scanner.		
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol		
+Experimental Factor Name	dog1 expression level	genotype							
+Experimental Factor Type	dog1 expression level	genotype							
+Comment[SecondaryAccession]	GSE65471								
+Comment[GEOReleaseDate]	2016-01-14								
+Comment[ArrayExpressSubmissionDate]	2015-01-30								
+Comment[GEOLastUpdateDate]	2016-01-14								
+Comment[AEExperimentType]	transcription profiling by array								
+SDRF File	E-GEOD-65471.sdrf.txt

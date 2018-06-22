@@ -1,0 +1,48 @@
+Investigation Title	Transcription profiling of Arabidopsis stem, leaf and hypocotyl tissue undergoing varying amounts of secondary cell wall synthesis	
+Comment[Submitted Name]	DavidStemAT	
+Experimental Design	development_or_differentiation_design	co-expression_design	organism_part_comparison_design	transcription profiling by array	
+Experimental Design Term Source REF	mo:1.3.1.1	mo	mo	EFO	
+Comment[ArrayExpressReleaseDate]	2006-01-01	
+Comment[AEMIAMESCORE]	4	
+Comment[ArrayExpressAccession]	E-MEXP-265	
+Comment[MAGETAB TimeStamp_Version]	2011-07-29 18:29:17 Last Changed Rev: 14857	
+Experimental Factor Name	developmental_stage	organism_part	
+Experimental Factor Type	developmental_stage	organism_part	
+Experimental Factor Term Source REF	
+Person Last Name	Turner	Zeef	Brown	
+Person First Name	Simon	Leo	David	
+Person Mid Initials	R		M	
+Person Email		leo.zeef@man.ac.uk	
+Person Phone		0161 2750646	
+Person Fax	
+Person Address		Kilburn Building, Oxford Road	
+Person Affiliation	Manchester University	Computer Science	Manchester University	
+Person Roles		submitter	
+Person Roles Term Source REF		mo	
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2006-01-01	
+PubMed ID	15980264	
+Publication DOI	15980264	
+Publication Author List	Brown DM, Zeef LA, Ellis J, Goodacre R, Turner SR	
+Publication Title	Identification of novel genes in Arabidopsis involved in secondary cell wall formation using expression profiling and reverse genetics	
+Publication Status	journal_article	
+Publication Status Term Source REF	mo	
+Experiment Description	The aim of this experiment was to understand secondary cell wall formation as it is a major constituent of wood and plant fibres. To identify potential novel genes involved in this process, data has been generated from Arabidopsis stem, leaf and hypocotyl tissue undergoing varying amounts of secondary cell wall synthesis.	
+Protocol Name	P-MEXP-7314	P-MEXP-7310	P-MEXP-7307	P-MEXP-7308	P-MEXP-7305	P-MEXP-7309	P-MEXP-7306	P-MEXP-7311	P-MEXP-7312	P-MEXP-6065	Affymetrix:Protocol:Hybridization-EukGE-WS2v4[]	P-AFFY-6	P-MEXP-2796	
+Protocol Type	grow	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	pool	nucleic_acid_extraction	labeling	hybridization	feature_extraction	bioassay_data_transformation	
+Protocol Description	Arabidopsis (Lansberg-0 wt) plants were germinated and grown on plates containing 0.8-1.0% agar (w/v) and MS media with B5 vitamins for 11 daysprior to transferring 9 plants to a 4 inch pot containing compost with vermiculite and perlite (10:1:1). They were then grown in continuous light at 22oC in controlled environment cabinets (Percival, Ohio, USA) at a light intensity of 120-150 µE m-2. Material for the study of stem development was grown until the inflorescence stem contained 2  3 expanded siliques (18 days on soil). The siliques and flowers were removed prior to the stems being divided into 4 sections of equal length. Hypocotyls and leaves were harvested at the same developmental stage as stems. 	The siliques and flowers of the inflorescence stem were removed prior to the stem being divided into 4 sections of equal length. The tip section was immediately frozen in liquid nitrogen and then stored at -80oC until RNAextraction.	The siliques and flowers of the inflorescence stem were removed prior to the stem being divided into 4 sections of equal length. The base section was immediately frozen in liquid nitrogen and then stored at -80oC until RNAextraction.	The siliques and flowers of the inflorescence stem were removed prior to the stem being divided into 4 sections of equal length. The lower middle section was immediately frozen in liquid nitrogen and then stored at -80oC until RNAextraction.	Whole plants were removed from the soil and hypocotyls cut from the plant. Root material surrounding the hypocotyl was removed, the hypocotyl was washed with distilled water, dried and then immediately frozen in liquid nitrogen. The material was stored at -80oC until RNA extraction.	The siliques and flowers of the inflorescence stem were removed prior to the stem being divided into 4 sections of equal length. The upper middle section was immediately frozen in liquid nitrogen and then stored at -80oC until RNAextraction.	The third true leaf was harvested and immediately frozen in liquid nitrogen and then stored at -80oC until RNA extraction.	Material from 9 plants was pooled. Total RNA extracted and purified with an RNeasy Plant Mini Kit (Qiagen, Hilden, Germany) according to manufacturers instructions. Resuspend in 50ul of array quality water. Synthesise cDNA with Superscript Double-Stranded cDNA Synthesis kit (Invitrogen, UK). Synthesise cRNA using the BioArray High Yield RNA transcript Labeling kit (Enzo Life Sciences Inc., NY) and apply to microarray. The experiment was performed in triplicate for each plant section using three independent pools of 9 plants i.e. biological replicates.	Material from 9 plants was pooled. Total RNA extracted and purified with an RNeasy Plant Mini Kit (Qiagen, Hilden, Germany) according to manufacturers instructions. Resuspend in 50ul of array quality water. Synthesise cDNA with Superscript Double-Stranded cDNA Synthesis kit (Invitrogen, UK). Synthesise cRNA using the BioArray High Yield RNA transcript Labeling kit (Enzo Life Sciences Inc., NY) and applied to microarray.	1. Synthesise cDNA with Superscript Double-Stranded cDNA Synthesis kit (Invitrogen, UK).<br> 2. Synthesise cRNA using the BioArray High Yield RNA transcript Labeling kit (Enzo Life Sciences Inc., NY). 	Title: Affymetrix EukGE-WS2v4 Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	Expression analysis was performed using RMAExpress (02 release) using the background correction and quantile normalisation options (Bolstad, B.M., Irizarry R. A., Astrand, M., and Speed, T.P. (2003), A Comparison of Normalization Methods for High Density Oligonucleotide Array Data Based on Bias and Variance. Bioinformatics 19(2):185-193). In addition, scaling normalisation (target signal 100) using Affymetrix MAS 5.1 was done for the .CHP files submitted to this database.	
+Protocol Parameters	start time;								Extracted product;Amplification;	Label used;Amplification;Amount of nucleic acid labeled;	
+Protocol Hardware	
+Protocol Software											MicroArraySuite 5.0	MicroArraySuite 5.0	RMAExpress 2.0	
+Protocol Contact	
+Protocol Term Source REF								mo	mo		mo	
+SDRF File	E-MEXP-265.sdrf.txt	
+Term Source Name	mo		po	ncbitax	ArrayExpress	mo:1.3.1.1	mo	EFO	
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php		http://www.plantontology.org	http://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	
+Term Source Version						1.3.1.1			

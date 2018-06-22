@@ -1,0 +1,28 @@
+Comment[ArrayExpressAccession]	E-GEOD-33505
+MAGE-TAB Version	1.1						
+Public Release Date	2013-09-24
+Investigation Title	Expression data from volatile treated and insect damaged Arabidopsis thaliana						
+Comment[Submitted Name]	Expression data from volatile treated and insect damaged Arabidopsis thaliana
+Experiment Description	Plant volatiles can mediate plant-plant communication in the sense that plants attacked by herbivores can signal their unattacked neighbors of danger by emitting HIPVs. We call this the priming effect. Since the plant defense response is a systematic process involving numerous pathways and genes,to characterize the priming process, a time course study using a genome-wide microarray may provide more accurate information about the priming process. Furthermore, to what extent do the priming process and direct defense share similar gene expression profiles or pathways are also not clear. We used microarray to detect the priming effect of plant volatiles to healthy Arabidopsis thaliana, and the effect of direct leafminer feeding to Arabidopsis thalianas. A system using Lima bean plants, from which HIPVs can be effectively induced by leafminer feeding, as emitters and Arabidopsis thaliana as receivers is used to track the priming process between neighbor plants. The Arabisopsis thaliana seedlings were treated by volatiles from leafminer fed lima bean for 24h or 48h for RNA extraction and hybridization on Affymetrix microarrays. The Arabisopsis thaliana seedlings fed by leafminer directly were also collected The for RNA extraction and hybridization on Affymetrix micorarrays. We want to explore the response of Arabidopsis thaliana to priming volatiles during a 24h-48h time course. We also want to compare the effect of priming and direct leafminer feeding.						
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Zhang	Kang	Zhang	We			
+Person First Name	Sufang	Le	Sufang	Jianing			
+Person Email	wavingsnow@ustc.edu						
+Person Affiliation	Research Institute of Forest Ecology, Environment and Protection, Chinese Academy of Forestry						
+Person Phone	86-10-62888896						
+Person Address	Research Institute of Forest Ecology, Environment and Protection, Chinese Academy of Forestry, No.2 Dong Xiao Fu, Wan Shou Shan, Haidian District, Beijing, China						
+Person Roles	submitter						
+Protocol Name	P-GSE33505-1	P-GSE33505-5	P-GSE33505-6	P-GSE33505-2	P-GSE33505-3	P-GSE33505-4	P-GSE33505-7
+Protocol Description	The data were analyzed with Microarray Suite version 5.0 (MAS 5.0) using Affymetrix default analysis settings and global scaling as normalization method. The trimmed mean target intensity of each array was arbitrarily set to 100. ID_REF =  VALUE = MAS5.0 ABS_CALL = indicating whether the transcript was present (P), absent (A), or marginal (M) DETECTION P-VALUE = 	Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 6 ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).	Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45C on GeneChip Drosophila Genome Array. GeneChips were washed and stained in the Affymetrix Fluidics Station 400.	A. thaliana plants were frozen in liquid nitrogen. Each sample contained tissues from at least 8 plants	The seeds were surface-sterilized for 15 min in 10% bleach, washed five times with sterile water, and plated on half-strength Murashige and Skoog medium. Plants were stratified at 4C for 2 days in darkness and then transferred to an environmental chamber set at 22C with a 16-h-light/8-h-dark cycle (light intensity 120 mmol m-2 s-1). After 2 to 3 weeks, seedlings were also potted in a mixed potting medium of peat and vermiculite (1:2), and placed in a growth room at 22C with a 16-h-light/8-h-dark cycle (light intensity 120 mmol m-2 s-1).	Total RNAs were isolated using the RNeasy Plant Mini Kit (Qiagen, Valencia, CA, USA) according to the manufacturer's instructions.	GeneChips were scanned using the Hewlett-Packard GeneArray Scanner G2500A.
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Publication Title	Transcriptional analysis of Arabidopsis thaliana response to lima bean volatiles.						
+Publication Author List	Zhang S, Wei J, Kang L						
+PubMed ID	22558246						
+Publication DOI	10.1371/journal.pone.0035867						
+Comment[SecondaryAccession]	GSE33505						
+Comment[GEOReleaseDate]	2013-09-24						
+Comment[ArrayExpressSubmissionDate]	2011-11-07						
+Comment[GEOLastUpdateDate]	2013-09-24						
+Comment[AEExperimentType]	transcription profiling by array						
+SDRF File	E-GEOD-33505.sdrf.txt

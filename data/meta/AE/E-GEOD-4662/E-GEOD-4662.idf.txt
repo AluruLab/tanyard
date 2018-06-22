@@ -1,0 +1,50 @@
+Investigation Title	Transcription profiling of Arabidopsis wild type and sta1-1 mutant plants	
+Comment[Submitted Name]	STA1, a stress-upregulated nuclear protein, is required for pre-mRNA splicing, mRNA turnover and stress tolerance	
+Experimental Design	individual_genetic_characteristics_design	co-expression_design	transcription profiling by array	
+Experimental Design Term Source REF		mo	EFO	
+Comment[ArrayExpressReleaseDate]	2007-10-04	
+Comment[SecondaryAccession]	GSE4662	
+Comment[AEMIAMESCORE]	4	
+Comment[SecondaryAccession]	GDS2102	
+Comment[ArrayExpressAccession]	E-GEOD-4662	
+Comment[MAGETAB TimeStamp_Version]	2011-01-22 19:55:52 Last Changed Rev: 14857	
+Experimental Factor Name	Genotype	
+Experimental Factor Type	genotype	
+Experimental Factor Term Source REF	
+Person Last Name	Zhu	
+Person First Name	Jian-Kang	
+Person Mid Initials	
+Person Email	jian-kang.zhu@ucr.edu	
+Person Phone	
+Person Fax	
+Person Address	Botany and Plant Sciences,University of California,2150 Batchelor Hall,Riverside,92521,USA	
+Person Affiliation	University of California	
+Person Roles	submitter	
+Person Roles Term Source REF		
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2007-10-04	
+PubMed ID	16751345	
+Publication DOI	16751345	
+Publication Author List	Byeong-ha Lee, Avnish Kapoor, Jianhua Zhu, Jian-Kang Zhu	
+Publication Title	STABILIZED1, a stress-upregulated nuclear protein, is required for pre-mRNA splicing, mRNA turnover, and stress tolerance in Arabidopsis.	
+Publication Status	journal_article	
+Publication Status Term Source REF	The MGED Ontology	
+Experiment Description	In plants, many gene transcripts are very unstable, which is important for the tight control of their temporal and spatial expression patterns.  To identify cellular factors controlling the stability of unstable mRNAs in plants, we used luciferase imaging in Arabidopsis to isolate a recessive mutant, stabilized 1 (sta1), with enhanced stability of the normally unstable luciferase transcript. The sta1 mutation also causes the stabilization of some endogenous gene transcripts and has a range of developmental and stress response phenotypes. STA1 encodes a nuclear protein similar to the human U5 snRNP-associated 102-kDa protein and to the yeast pre-mRNA splicing factor Prp1p and Prp6p. STA1 expression is up-regulated by cold stress, and the sta1 mutant is defective in the splicing of the cold-induced COR15A gene.  Our results show that STA1 is a pre-mRNA splicing factor required for not only splicing but also the turnover of unstable transcripts and that it has an important role in plant responses to abiotic stresses. Experiment Overall Design: Five replicates for WT (Control) and two replicates for sta1 (mutant) were compared.	
+Protocol Name	P-G4662-8	P-G4662-4	P-AFFY-2	Affymetrix:Protocol:Hybridization-EukGE-WS2v4	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6	
+Protocol Type	grow	nucleic_acid_extraction	labeling	hybridization	hybridization	feature_extraction	
+Protocol Description	The wild-type and mutant seeds were plated on MS agar plates supplemented with 3% sucrose.  Seedlings were grown at 22C with 16h light and 8h dark cycles for 2 weeks before being harvested.	RNeasy Plant Mini Kit, Qiagen	Title: Affymetrix in vitro transcription. Description: 	Title: Fluidics Station Protocol. Description: 	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	
+Protocol Parameters	
+Protocol Hardware	
+Protocol Software				MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact	
+Protocol Term Source REF					mo	
+SDRF File	E-GEOD-4662.sdrf.txt	
+Term Source Name	EFO	mo		The MGED Ontology	ArrayExpress	mo	EFO	The MGED Ontology	
+Term Source File	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version									

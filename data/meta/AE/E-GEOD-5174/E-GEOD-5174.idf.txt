@@ -1,0 +1,49 @@
+Investigation Title	Transcription profiling of Arabidopsis Col-0, ein2-5 and ein5-1 ETHYLENE-INSENSITIVE5 encodes a 5 to 3 exoribonuclease required for posttranscriptional regulation	
+Comment[Submitted Name]	ETHYLENE-INSENSITIVE5 encodes a 5' to 3' exoribonuclease required for posttranscriptional regulation	
+Experimental Design	unknown_experiment_design_type	transcription profiling by array	
+Experimental Design Term Source REF		EFO	
+Comment[ArrayExpressReleaseDate]	2008-06-13	
+Comment[SecondaryAccession]	GSE5174	
+Comment[AEMIAMESCORE]	2	
+Comment[ArrayExpressAccession]	E-GEOD-5174	
+Comment[MAGETAB TimeStamp_Version]	2010-08-05 19:20:15 Last Changed Rev: 13058	
+Experimental Factor Name	
+Experimental Factor Type	
+Experimental Factor Term Source REF	
+Person Last Name	Ecker	
+Person First Name	Joseph	
+Person Mid Initials	R.	
+Person Email	ecker@salk.edu	
+Person Phone	
+Person Fax	
+Person Address	Joseph R. Ecker, Genomic Analysis Laboratory, The Salk Institute, 10010 N. Torrey Pines Road, La Jolla, 92037, USA	
+Person Affiliation	The Salk Institute	
+Person Roles	submitter	
+Person Roles Term Source REF	The MGED Ontology	
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2008-06-13	
+PubMed ID	16920797	
+Publication DOI	16920797	
+Publication Author List	Gabriela Olmedo, Hongwei Guo, Brian D Gregory, Saeid D Nourizadeh, Laura Aguilar-Henonin, Hongjiang Li, Fengying An, Plinio Guzman, Joseph R Ecker	
+Publication Title	ETHYLENE-INSENSITIVE5 encodes a 5'-->3' exoribonuclease required for regulation of the EIN3-targeting F-box proteins EBF1/2.	
+Publication Status	journal_article	
+Publication Status Term Source REF	The MGED Ontology	
+Experiment Description	Ethylene is a gaseous plant growth regulator that controls a multitude of developmental and stress responses. Recently, the levels of Arabidopsis EIN3 protein, a key transcription factor mediating ethylene-regulated gene expression, have been demonstrated to increase in response to the presence of ethylene gas. Furthermore, in the absence ethylene, EIN3 is quickly degraded through a ubiquitin/proteasome pathway mediated by two F box proteins, EBF1 and EBF2 (1-3). Here, we report the identification of ETHYLENE INSENSITIVE5 as the 5â?3â exoribonuclease XRN4. Specifically, we demonstrate that EIN5 is a component of the ethylene signal transduction cascade acting downstream of CTR1 that is required for ethylene-mediated gene expression changes. Furthermore, we find that the ethylene insensitivity of ein5 mutant plants is a consequence of the over-accumulation of EBF1 and EBF2 mRNAs resulting in the under-accumulation of EIN3 even in the presence of ethylene gas. Together, our results suggest that the role of EIN5 in ethylene perception is to antagonize the negative feedback regulation on EIN3 by promoting EBF1 and EBF2 mRNA decay, which consequently allows the accumulation of EIN3 protein to trigger the ethylene response. Experiment Overall Design: Cold-treated seeds in MS plates were placed in chambers at 24oC in the dark with hydrocarbon-free airflow for three days, after which some of the chambers were connected to ethylene gas at 10 ppm while the others remained on air treatment. Four hours later the seedlings of each plate were quickly collected and frozen in liquid nitrogen.  Total RNA was prepared from both air-treated and ethylene-treated etiolated seedlings of Arabidopsis Col-0, ein2-5 and ein5-1 using the RNeasy Plant Mini Kit (Qiagen, Valencia, CA). Biotinylated target RNA was prepared from 16 ?g of total RNA using the procedure described by the manufacturer (Affymetrix, Santa Clara, CA). Briefly, a primer encoding a T7 RNA polymerase promoter fused to (dT)24 (Genset Oligos, La Jolla, CA) was used to prime double-stranded cDNA synthesis using the SuperScript Choice System (Life Technologies). The resulting cDNA was transcribed in vitro using the BioArray High-Yield RNA Tran-script Labeling Kit (Enzo Biochem, New York, NY) in the presence of biotinylated UTP and CTP to produce biotinylated target complementary RNA (cRNA). The labeled target cRNA was purified, fragmented, and hybridized to Arabidopsis microoarrays (Affymetrix whole genome tiling, and ATH1 gene expression arrays) according to protocols provided by the manufacturer in a hybridization oven model 640 (Affymetrix, Santa Clara, CA). The arrays were washed and stained with streptavidin-phycoerythrin using a GeneChip Fluidics Station model 400 and then scanned with a Gene Array Scanner (Hewlett-Packard, Palo Alto, CA). Scanned images were processed and quantified using GeneChip Suite 3.2. Genespring software (Silicon Genetics, Redwood City, CA) was used to manage and filter the array data. Each measurement was divided by the 50.0th percentile of all measurements in that sample.  The percentile was calculated with all normalized measurements above 10.  For samples where the bottom tenth percentile was less than the negative of the 50.0th percentile, it was used as a background, and subtracted from all the other genes first. Experiments were carried out in duplicate and hybridized to two sets of expression chips.  Expression values were analyzed using GeneSpringâ¢ software version 4.2 (Silicon  Genetics, Redwood, California).	
+Protocol Name	P-G5174-4	P-G5174-5	P-G5174-2	P-G5174-6	P-G5174-1	P-G5174-3	
+Protocol Type	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	grow	nucleic_acid_extraction	
+Protocol Description	untreated	ethylene	Strain;ein2 colmbia, Tissue; seedling, Age; 3days, Growth; on agar plate under continuous dark condition in hydrocarbon-free air	Ethylene	Strain;ein2 colmbia, Tissue; seedling, Age; 3days, Growth; on agar plate under continuous dark condition in hydrocarbon-free air	total RNA was isolated from mature leaves using RNAeasy kit following instructions from the manufacturer (QIAGEN)	
+Protocol Parameters	
+Protocol Hardware	
+Protocol Software	
+Protocol Contact	
+Protocol Term Source REF	
+SDRF File	E-GEOD-5174.sdrf.txt	
+Term Source Name	NCBI Taxonomy		The MGED Ontology	ArrayExpress	EFO	The MGED Ontology	
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version							

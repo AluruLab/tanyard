@@ -1,0 +1,57 @@
+Comment[ArrayExpressAccession]	E-GEOD-33978
+Public Release Date	2012-05-31						
+Investigation Title	Expression data of seeds imbibed at 22˚C or 4˚C for 24hr of Arabidopsis thaliana						
+Comment[Submitted Name]	Expression data of seeds imbibed at 22˚C or 4˚C for 24hr of Arabidopsis thaliana
+Experiment Description	Keeping imbibed seeds at low temperatures for a certain period, so called seed vernalization (SV) treatment, promotes seed germination and subsequent flowering in various plants. Vernalization-promoting flowering requires GSH. However, the expression patterns analyzed by GeneChip arrays showed that increased GSH biosynthesis partially mimics SV treatment in Arabidopsis thaliana. SV treatment (keeping imbibed seeds at 4°C for 24 h) induced a specific pattern of gene expression and promoted subsequent flowering in wild-type plants. A similar pattern was observed at 22°C in transgenic plants (35S-GSH1 plants) overexpressing the γ-glutamylcysteine synthetase gene GSH1, coding an enzyme limiting GSH biosynthesis, under the control of the cauliflower mosaic virus 35S promoter. This pattern was strengthened at 4°C but flowering was less responsive to SV treatment. There was a difference in the transcript behaviour of the flowering repressor FLC between wild-type and 35S-GSH1 plants.  Unlike other genes responsive to SV treatment, SV-dependent decrease in FLC in wild-type plants was reversed in 35S-GSH1 plants. SV treatment increased GSSG level in wild-type seeds, whereas GSSG level was high in 35S-GSH1 plants, even at a non-vernalizing temperature.  Taking into consideration that low temperatures stimulate GSH biosynthesis and bring about oxidative stress, GSSG is considered to trigger low temperature response, but enhanced GSH synthesis was not enough for mimicking SV treatment. To complete it, it essentially required the cellular redox retransition from the oxidized to the reduced state that is observed after the seed vernalization treatment. Four samples (Col-0 and 35S-GSH1 seeds imbibed at 22˚C or 4˚C). Two replicates for each samples.						
+Date of Experiment							
+Term Source Name	EFO
+Term Source Version							
+Term Source File	http://www.ebi.ac.uk/efo/efo.owl						
+Person Last Name	Hatano-Iwasaki	Hatano-Iwasaki	Ogawa				
+Person First Name	Aya	Aya	Ken'ichi				
+Person Mid Initials							
+Person Email	geo@ncbi.nlm.nih.gov						
+Person Affiliation	Okayama Prefectural Technology Center for  Agriculture, Forestry and Fisheries, Research Institute for Biological Sciences						
+Person Phone							
+Person Fax							
+Person Address	Okayama Prefectural Technology Center for  Agriculture, Forestry and Fisheries, Research Institute for Biological Sciences, 7549-1 Yoshikawa, Kibichuo-cho, Kaga-gun, Okayama, Japan						
+Person Roles	submitter						
+Person Roles Term Source REF							
+Person Roles Term Accession Number							
+Normalization Type							
+Normalization Term Accession Number							
+Normalization Term Source REF							
+Replicate Type							
+Replicate Term Accession Number							
+Replicate Term Source REF							
+Experimental Design							
+Experimental Design Term Accession Number							
+Experimental Design Term Source REF							
+Quality Control Type							
+Quality Control Term Accession Number							
+Quality Control Term Source REF							
+Protocol Name	P-GSE33978-1	P-GSE33978-6	P-GSE33978-5	P-GSE33978-2	P-GSE33978-3	P-GSE33978-4	P-GSE33978-7
+Protocol Description	ID_REF = <br>VALUE = GCOS-calculated signal intensity	GeneChips were scanned using the Affymetrix GeneArray Scanner.	Following fragmentation, 20 ug of cRNA were hybridized for 16 hr at 45C on Arabidopsis ATH1 Genome Array. GeneChips were washed and stained in the Affymetrix Fluidics Station 450.	Seeds were imbibed at 22˚C or 4˚C for 24 hour.	Total RNA extraction from seeds was performed using a CTAB-based method according to Mukai Y, Yamamoto N (1997) DNA and RNA isolation method of woody plants. In: PCR Experimental Protocols for Plant (eds. Shimamoto K, Sasaki T), pp. 57-62. Shujunsha Co. Ltd, Tokyo.	Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 8 ug total RNA (Affymetrix_Genechip_Expression Analysis Technical Manual; http://www.affymetrix.com).	The data were analyzed with Affymetrix GeneChip Operating Software (GCOS) 1.4 using default analysis settings
+Protocol Software							
+Protocol Hardware							
+Protocol Contact							
+Protocol Type	bioassay_data_transformation	image_aquisition	hybridization	specified_biomaterial_action	nucleic_acid_extraction	labeling	feature_extraction
+Protocol Term Source REF							
+Protocol Term Accession Number							
+Experimental Factor Name	VARIATION						
+Experimental Factor Type	variation						
+Experimental Factor Term Source REF							
+Experimental Factor Term Accession Number							
+Publication Title							
+Publication Author List							
+PubMed ID							
+Publication DOI							
+Publication Status							
+Publication Status Term Source REF							
+Publication Status Term Accession Number							
+Comment[SecondaryAccession]	GSE33978						
+Comment[GEOLastUpdateDate]	2012-06-06
+Comment[AEExperimentType]	transcription profiling by array						
+Comment[GEOReleaseDate]	2012-05-30
+Comment[ArrayExpressSubmissionDate]	2011-11-28
+SDRF File	E-GEOD-33978.sdrf.txt

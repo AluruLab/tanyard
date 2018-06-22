@@ -1,0 +1,25 @@
+Comment[ArrayExpressAccession]	E-GEOD-37536
+MAGE-TAB Version	1.1							
+Public Release Date	2013-01-01
+Investigation Title	Genome wide identification of ORE1 early target genes							
+Comment[Submitted Name]	Genome wide identification of ORE1 early target genes
+Experiment Description	Global transcriptome patterns were performed using ORE1-IOE-2h (2h after Estradiol and Mock treatment) as well as transiently (6h) overexpressed Arabidopsis mesophyll cell protoplasts To identify genes more rapidly responding to elevated ORE1 expression we here repeated the previous experiment (Balazadeh et al., 2010), but shortened the EST induction time to 2 h (ORE1-IOE-2h dataset). Furthermore, to exclude potential misinterpretation due to EST treatment we also included an experiment where we transiently expressed a 35S::ORE1 construct in Arabidopsis mesophyll cell protoplasts and extracted RNA 6 h after the transfection (35S::ORE1-6h dataset);							
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl						
+Person Last Name	Balazadeh	Balazadeh	Matallana-Ramirez	Dr√∂ge-Laser				
+Person First Name	Salma	Salma	Lilian	Wolfgang				
+Person Email	balazadeh@mpimp-golm.mpg.de							
+Person Affiliation	MPIMP							
+Person Address	Stitt, MPIMP, Am Muehlenberg 1, Postdam, Germany							
+Person Roles	submitter							
+Protocol Name	P-GSE37536-1	P-GSE37536-6	P-GSE37536-3	P-GSE37536-8	P-GSE37536-7	P-GSE37536-2	P-GSE37536-4	P-GSE37536-5
+Protocol Description	ID_REF =  VALUE = rma normalized	Labelling, hybridisation, washing, staining, and scanning procedures were performed by an Affymetrix authorized service provider (ATLAS Biolabs, Berlin, Germany) as described in the Affymetrix technical manual	IOE: Seeds were surface-sterilized for 1 min in 70% ethanol and then in sterilisation solution (20% sodium hypochlorite) for 30 min. After sterilization, the seeds were sown on half-strength MS medium (Murashige and Skoog, 1962), supplemented with 1% (w/v) sucrose and solidified with 0.7% (w/v) phytoagar and appropriate antibiotics. After imbibition, the seeds were stratified at 4∞C for 3 days. The seeds were germinated at 22∞C under a 16-h day (140 µmol m-2 s-1) / 8-h night regime. The two-week-old Arabidopsis seedlings were carefully removed from plates subjected to Est/Mocktreatments. Plants used for protoplast preparation: Col-0 seeds were directly sown on soil and plants were grown under long day (16 h light / 8 h dark) conditions.	Raw data (CEL files) obtained from RNA hybridisation experiments were normalized with the affyPLM package from the Bioconductor software project (Gentleman et al., 2004) using the GCRMA that uses GC content of probes in normalization with RMA (Robust Multiple array Average) and gives one value for each probe set instead of keeping probe level information (Wu et al., 2004). The transcriptional changes were determined by subtracting the normalized signal intensity of the control samples from that of induced samples.	Labelling, hybridisation, washing, staining, and scanning procedures were performed by an Affymetrix authorized service provider (ATLAS Biolabs, Berlin, Germany) as described in the Affymetrix technical manual	After two weeks, seedlings were transferred to MS liquid medium while shaking. Œ≤-estradiol (Sigma-Aldrich) was added to the medium to a final concentration of 10 ŒºM. Subsequently, seedlings were harvested at 2h after estradiol addition.	RNeasy Plant Mini Kit	Labelling, hybridisation, washing, staining, and scanning procedures were performed by an Affymetrix authorized service provider (ATLAS Biolabs, Berlin, Germany) as described in the Affymetrix technical manual
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Experimental Factor Name	TREATMENT	GENOTYPE	AGE	ORGANISM PART				
+Experimental Factor Type	treatment	genotype	age	organism part				
+Comment[SecondaryAccession]	GSE37536							
+Comment[GEOReleaseDate]	2013-01-01							
+Comment[ArrayExpressSubmissionDate]	2012-04-23							
+Comment[GEOLastUpdateDate]	2013-01-02							
+Comment[AEExperimentType]	transcription profiling by array							
+SDRF File	E-GEOD-37536.sdrf.txt

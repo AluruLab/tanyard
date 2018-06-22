@@ -1,0 +1,52 @@
+Investigation Title	Albrecht_SCO3					
+Comment[Submitted Name]	Albrecht_SCO3					
+Experimental Design	genetic_modification_design	co-expression_design	array_platform_variation_design	transcription profiling by array		
+Experimental Design Term Source REF	The MGED Ontology	The MGED Ontology		EFO		
+Comment[AEExperimentType]	transcription profiling by array					
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for sco3					
+Comment[SecondaryAccession]						
+Comment[ArrayExpressReleaseDate]	2010-10-30					
+Comment[AEMIAMESCORE]	5					
+Comment[ArrayExpressAccession]	E-MEXP-2927					
+Comment[MAGETAB TimeStamp_Version]	2010-09-30 19:27:54 Last Changed Rev: 13833					
+Experimental Factor Name	genotype					
+Experimental Factor Type	genotype					
+Experimental Factor Term Source REF						
+Person Last Name	Albrecht					
+Person First Name	Veronica					
+Person Mid Initials						
+Person Email	veronica.albrecht@anu.edu.au					
+Person Phone	+61 2 6125 2663					
+Person Fax	+61 2 6125 0313					
+Person Address	"Research School of Biology, Linneaus Way Blg 41, Canberra, ACT, 0200, Australia"					
+Person Affiliation	Australian National University					
+Person Roles	submitter					
+Person Roles Term Source REF	The MGED Ontology					
+Quality Control Type	biological_replicate					
+Quality Control Term Source REF	The MGED Ontology					
+Replicate Type						
+Replicate Term Source REF						
+Normalization Type						
+Normalization Term Source REF						
+Date of Experiment						
+Public Release Date	2010-10-30					
+PubMed ID	20978221					
+Publication DOI	10.1105/tpc.110.074781					
+Publication Author List	"Albrecht V, Simková K, Carrie C, Delannoy E, Giraud E, Whelan J, Small ID, Apel K, Badger MR, Pogson BJ"					
+Publication Title	The cytoskeleton and the peroxisomal-targeted SNOWY COTYLEDON 3 protein are required for chloroplast development in Arabidopsis					
+Publication Status	published					
+Publication Status Term Source REF	EFO					
+Publication Status Term Accession Number	EFO_0001796					
+Experiment Description	4 days old seedlings grown on MS without sucrose under continuous light of sco3-1 and Col have been used to extract RNA. Microarray analysis has been performed with three independent biological replicates<br>					
+Protocol Name	P-MTAB-17218	P-MTAB-17217	P-AFFY-12	P-AFFY-13	P-AFFY-6	Affymetrix:Protocol:MAS4:ExpressionCall
+Protocol Type	grow	nucleic_acid_extraction	labeling	hybridization	feature_extraction	bioassay_data_transformation
+Protocol Description	"surface sterilized seeds were plated on MS media without sucrose and grown for 4 days at 21 C under continuous light before harvested for RNA extraction<br>(Parameters: start time = 4, time unit = seconds, min temperature = 21, temperature unit = C, media = MS)"	"Total RNA was extracted and then further processed for Affymetrix microarray analysis<br>(Parameters: Extracted product = total_RNA, Amplification = none)"	URL: http://www.affymetrix.com/support/technical/manual.affx   <br>Affy_whole_transcript_labelling.pdf   <br>This document describes Affymetrix recommended labeling protocols for use with GeneChip Exon Arrays.	URL: http://www.affymetrix.com/support/technical/manual.affx   <br>Affy_whole_transcript_labelling.pdf   <br>This document describes Affymetrix recommended hybridization protocols for use with GeneChip Exon Arrays.		
+Protocol Parameters						
+Protocol Hardware						
+Protocol Software					MicroArraySuite 5.0	MicroArraySuite 4.0
+Protocol Contact						
+Protocol Term Source REF	The MGED Ontology	The MGED Ontology	The MGED Ontology	The MGED Ontology		The MGED Ontology
+SDRF File	E-MEXP-2927.sdrf.txt					
+Term Source Name	The MGED Ontology	EFO				
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/				
+Term Source Version						

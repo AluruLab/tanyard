@@ -1,0 +1,23 @@
+Comment[ArrayExpressAccession]	E-GEOD-45677
+MAGE-TAB Version	1.1							
+Public Release Date	2013-04-02
+Investigation Title	Effect of GSH gene expression peofile of Arabidopsis thaliana							
+Comment[Submitted Name]	Effect of GSH gene expression peofile of Arabidopsis thaliana
+Experiment Description	GSH, being a versatile molecule, is actively involved in various bilogical processe of plant system. Our previous studies identifies an active role of GSH in plant defense signaling network. Here, we used microarray under GSH treated condition to obtain a global expression profiling under this altered GSH conditions. We used microarrays to detail the global programme of gene expression underlying cellularisation and identified distinct classes of up-regulated genes during this process. A.thaliana, much accalimed model system of plant biology and being fully sequenced, we used this system to explore the specific relation of GSH with metabolic processes, phisiological conditions, etc.							
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl						
+Person Last Name	Chattopadhyay	Sinha	Dutta	Kumar	Chattopadhyay			
+Person First Name	Sharmila	Ragini	Riddhi	Deepak	Sharmila			
+Person Email	sharmila@iicb.res.in							
+Person Affiliation	CSIR-Indian Institute of Chemical Biology, Kolkata							
+Person Address	CSIR-Indian Institute of Chemical Biology, Kolkata, 4, Raja S.C. Mullick Road,, Kolkata, West Bengal, India							
+Person Roles	submitter							
+Protocol Name	P-GSE45677-1	P-GSE45677-6	P-GSE45677-3	P-GSE45677-8	P-GSE45677-7	P-GSE45677-2	P-GSE45677-4	P-GSE45677-5
+Protocol Description	ID_REF =  VALUE = Log2 RMA signal intensity	Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45C on GeneChip Drosophila Genome Array. GeneChips were washed and stained in the Affymetrix Fluidics Station 450.	A. thaliana seedlings were grown for 15 days after germination and then used for experiment	The data were analyzed with Expression Console and Gene springGX 12.1 using Affymetrix default analysis settings and RMA as normalization method used. The probes of intensities less than the 20.0 percentile in the raw data were excluded.	GeneChips were scanned using the Hewlett-Packard GeneArray Scanner 3000 7G.	A. thaliana seedlings were grown for 15 days after germination and then treated with GSH for 72 hrs befor used for array experiment	Trizol extraction of total RNA was performed according to the manufacturer's instructions.	Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 6 ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Comment[SecondaryAccession]	GSE45677							
+Comment[GEOReleaseDate]	2013-04-02							
+Comment[ArrayExpressSubmissionDate]	2013-04-01							
+Comment[GEOLastUpdateDate]	2013-04-03							
+Comment[AEExperimentType]	transcription profiling by array							
+SDRF File	E-GEOD-45677.sdrf.txt

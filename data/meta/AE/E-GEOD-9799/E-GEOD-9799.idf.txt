@@ -1,0 +1,52 @@
+Investigation Title	Transcription profiling of C. kokaiensis CL, INT, and CH flowers on an Arabidopsis array						
+Comment[Submitted Name]	Camparision of gene expression among CL, INT, and CH flowers of C. kokaiensis in ATH1						
+Experimental Design	unknown_experiment_design_type	transcription profiling by array					
+Experimental Design Term Source REF		EFO					
+Comment[AEExperimentType]	transcription profiling by array						
+Comment[AEExperimentDisplayName]	Transcription profiling by array of chasmogamous, cleistogamous and intermediate flowers from Cardamine kokaiensis						
+Comment[ArrayExpressReleaseDate]	2008-06-18						
+Comment[SecondaryAccession]	GSE9799						
+Comment[AEMIAMESCORE]	4						
+Comment[ArrayExpressAccession]	E-GEOD-9799						
+Comment[MAGETAB TimeStamp_Version]	2010-08-09 16:04:38 Last Changed Rev: 13058						
+Experimental Factor Name	PHENOTYPE	ORGANISM PART					
+Experimental Factor Type	phenotype	organism_part					
+Experimental Factor Term Source REF							
+Person Last Name	Morinaga						
+Person First Name	Shin-Ichi						
+Person Mid Initials							
+Person Email	smoriscb@mbox.nc.kyushu-u.ac.jp						
+Person Phone							
+Person Fax							
+Person Address	Ecological Science, Department of Biology, Kyushu University, 6-10-1, Hakozaki, Fukuoka, 812-8581, Japan						
+Person Affiliation	Kyushu University						
+Person Roles	submitter						
+Person Roles Term Source REF	The MGED Ontology						
+Quality Control Type							
+Quality Control Term Source REF							
+Replicate Type							
+Replicate Term Source REF							
+Normalization Type							
+Normalization Term Source REF							
+Date of Experiment							
+Public Release Date	2008-06-18						
+PubMed ID							
+Publication DOI	10.1111/j.1365-2745.2008.01392.x						
+Publication Author List	Shin-Ichi Morinaga, Atsushi J. Nagano, Saori Miyazaki, Minoru Kubo, Taku Demura, Hiroo Fukuda, Satoki Sakai, Mitsuyasu Hasebe						
+Publication Title	Ecogenomics of cleistogamous and chasmogamous flowering: genome-wide gene expression patterns from cross-species microarray analysis in Cardamine kokaiensis (Brassicaceae)						
+Publication Status	published						
+Publication Status Term Source REF	EFO						
+Publication Status Term Accession Number	EFO_0001796						
+Experiment Description	The annual cleistogamous herb Cardamine kokaiensis is an endemic plant along the Kokai River in Japan. We examined the differences in gene expression patterns among cleistogamous (CL), intermediate (INT), and chasmogamous (CH) flower by cross-species microarray analysis using an Arabidopsis thaliana Affymetrix high-density oligonucleotide microarray (GeneChip ATH1). We then discuss the molecular basis of the evolution of cleistogamy. Our results help to clarify the molecular basis of the evolution of plant mating systems that depend on environmental conditions. CITATION: Ecogenomics of cleistogamous and chasmogamous flowering: genome-wide gene expression patterns from cross-species microarray analysis in Cardamine kokaiensis (Brassicaceae); Journal of Ecology 2008; Shin-Ichi Morinaga, Atsushi J. Nagano, Saori Miyazaki, Minoru Kubo, Taku Demura, Hiroo Fukuda, Satoki Sakai, Mitsuyasu Hasebe Experiment Overall Design: gDNA hybridyzation data was used to calibration of cross-species microarray using Affymetrix ATH1. CH, INT, and CL flowers of C. kokaiensis were induced the chilling treatment before germination for 14 days or after germination for 14 or 28 days, respectively. We performed two biological replications per flower. Data analysis was conducted according to Hammond et al. (2005) that described the methods of calibration by gDNA hybridization.						
+Protocol Name	P-G9799-4	P-G9799-2	P-G9799-3	P-G9799-1	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6	Affymetrix:Protocol:ExpressionStat
+Protocol Type	nucleic_acid_extraction	nucleic_acid_extraction	labeling	labeling	hybridization	feature_extraction	bioassay_data_transformation
+Protocol Description	A primordium of a first inflorescence with primordia of the first to eighth flowers was collected from each plant when the first flower primordium was visible. We collected 160 inflorescence primordia and placed them in the same microtube. The total RNA of sample was extracted using Isogen (Nippon Gene, Japan). The quality and quantity of total RNA were checked using an RNA Nano Labchip and 2100 Bioanalyzer (Agilent Technologies, USA).	Total genomic DNA was extracted from 100mg of C. kokaiensis leaf tissue no chilling treatment using a DNeasy Plant mini kit (QIAGEN Ltd, Crawley, UK).	According to the manufacturer's instructions (http://www.affymetrix.com/support/technical/manual/expression_manual.affx).	Genomic DNA (1ug) was labeled by 500 ng using the BioPrime DNA Labeling System (Invitrogen, Paisley, UK) according to Hammond et al. (2005). The Total labeled DNA from 1ug purified Nucleotide Removal kit (QIAGEN Ltd).	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 
+Protocol Parameters							
+Protocol Hardware							
+Protocol Software					MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 5.0
+Protocol Contact							
+Protocol Term Source REF					mo		
+SDRF File	E-GEOD-9799.sdrf.txt						
+Term Source Name	The MGED Ontology	ArrayExpress	EFO	The MGED Ontology	mo		
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://mged.sourceforge.net/ontologies/MGEDontology.php		
+Term Source Version							

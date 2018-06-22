@@ -1,0 +1,58 @@
+Comment[ArrayExpressAccession]	E-GEOD-21705							
+Public Release Date	2010-08-01							
+Investigation Title	Differentiating Arabidopsis shoots from leaves by combined YABBY activities							
+Comment[Submitted Name]	Differentiating Arabidopsis shoots from leaves by combined YABBY activities							
+Experiment Description	In seed plants, leaves are born on radial shoots but unlike shoots they are determinate dorsiventral organs made of flat lamina. YABBY genes are found only in seed plants and in all cases studied, are expressed primarily in lateral organs and in a polar manner. Despite their simple expression, Arabidopsis plants lacking all YABBY gene activities have a wide range of morphological defects in all lateral organs as well as the shoot apical meristem. Here we show that leaves lacking all YABBY activities are initiated as dorsiventral appendages but fail to properly activate lamina programs. In particular, the activation of most CIN-TCPs does not commence, SAM-specific programs are reactivated, and a marginal leaf domain is not established. Altered distribution of auxin signalling and the auxin efflux carrier PIN1, highly reduced venation, initiation of multiple cotyledons, and gradual loss of the SAM accompany these defects. We suggest that YABBY functions were recruited to mould modified shoot systems into flat plant appendages by translating organ polarity into lamina specific programs that include marginal auxin flow and activation a maturation schedule directing determinate growth. Four repeats of wild type 14 DAS plants were used to compare to fil,y3 and fil,y3,y5 mutants of similar age (two repeats of each)							
+Date of Experiment								
+Term Source Name	EFO							
+Term Source Version								
+Term Source File	http://efo.svn.sourceforge.net/viewvc/efo/trunk/src/efoinowl/efo.owl							
+Person Last Name	Efroni	Sarojam	Sappl	Goldshmidt	Efroni	Floyd	Eshed	Bowman
+Person First Name	Idan	Rajani	Pia	Alexander	Idan	Sandra	Yuval	John
+Person Mid Initials	D.		G			K		L
+Person Email	idane@weizmann.ac.il							
+Person Affiliation	Weizmann Institute							
+Person Phone								
+Person Fax								
+Person Address	Weizmann Institute, Weizmann, Rehovot, Israel							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Person Roles Term Accession Number								
+Normalization Type								
+Normalization Term Accession Number								
+Normalization Term Source REF								
+Replicate Type								
+Replicate Term Accession Number								
+Replicate Term Source REF								
+Experimental Design								
+Experimental Design Term Accession Number								
+Experimental Design Term Source REF								
+Quality Control Type								
+Quality Control Term Accession Number								
+Quality Control Term Source REF								
+Protocol Name	P-GSE21705-1	P-GSE21705-6	P-GSE21705-5	P-GSE21705-3	P-GSE21705-2	P-GSE21705-4	P-GSE21705-7	
+Protocol Description	ID_REF = <br>VALUE = log2 GC-RMA signal	Arrays were scanned using Affymetrix GeneChip Scanner 3000 7G using standard affymetrix protocol.	Standard affymetrix protocol	Total RNA (10-7 μg) was extracted with the RNeasy RNA isolation kit (Qiagen)	Plants were grown for 14 days under short days conditions	Standard affymetrix protocol	Signal values were obtained and normalized with the GC-RMA protocol using R 2.7.2 and Bioconductor 2.2. Genes with expression value lower than log2(10) were removed.	
+Protocol Software								
+Protocol Hardware								
+Protocol Contact								
+Protocol Type	bioassay_data_transformation	image_aquisition	hybridization	nucleic_acid_extraction	grow	labeling	feature_extraction	
+Protocol Term Source REF								
+Protocol Term Accession Number								
+Experimental Factor Name	GENOTYPE							
+Experimental Factor Type	genotype							
+Experimental Factor Term Source REF								
+Experimental Factor Term Accession Number								
+Publication Title	Differentiating Arabidopsis shoots from leaves by combined YABBY activities.							
+Publication Author List	Sarojam R, Sappl PG, Goldshmidt A, Efroni I, Floyd SK, Eshed Y, Bowman JL							
+PubMed ID	20628155							
+Publication DOI	10.1105/tpc.110.075853							
+Publication Status	published							
+Publication Status Term Source REF	EFO							
+Publication Status Term Accession Number	EFO_0001796							
+Comment[SecondaryAccession]	GSE21705							
+Comment[GEOLastUpdateDate]	2010-11-01							
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for fil, yab3 and yab5 or fil and yab3							
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[GEOReleaseDate]	2010-07-31							
+Comment[ArrayExpressSubmissionDate]	2010-05-05							
+SDRF File	E-GEOD-21705.sdrf.txt							

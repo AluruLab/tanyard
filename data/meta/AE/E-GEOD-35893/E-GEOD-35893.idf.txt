@@ -1,0 +1,57 @@
+Comment[ArrayExpressAccession]	E-GEOD-35893							
+Public Release Date	2012-07-11							
+Investigation Title	Transcript profiling of Arabidopsis msh1 mutants							
+Comment[Submitted Name]	Transcript profiling of Arabidopsis msh1 mutants							
+Experiment Description	The Arabidopsis msh1 mutant show various growth phenotype. We use microarray analysis to characterize gene expression pattern for two of the phenotypes - variegation and stunted growth. Wild type and msh1 RNAi variegated and stunted tissues were collected for RNA extration and hybridization on Affymetrix.							
+Date of Experiment								
+Term Source Name	EFO							
+Term Source Version								
+Term Source File	http://www.ebi.ac.uk/efo/efo.owl							
+Person Last Name	Xu	Xu	Mackenzie					
+Person First Name	Ying-Zhi	Ying-Zhi	Sally					
+Person Mid Initials			A					
+Person Email	ying-zhi2@unl.edu							
+Person Affiliation	University of Nebraska							
+Person Phone	402-472-6998							
+Person Fax								
+Person Address	Center for Plant Science Innovation, University of Nebraska, 1901 Vine St., Lincoln, NE, USA							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Person Roles Term Accession Number								
+Normalization Type								
+Normalization Term Accession Number								
+Normalization Term Source REF								
+Replicate Type								
+Replicate Term Accession Number								
+Replicate Term Source REF								
+Experimental Design								
+Experimental Design Term Accession Number								
+Experimental Design Term Source REF								
+Quality Control Type								
+Quality Control Term Accession Number								
+Quality Control Term Source REF								
+Protocol Name	P-GSE35893-1	P-GSE35893-6	P-GSE35893-3	P-GSE35893-8	P-GSE35893-7	P-GSE35893-2	P-GSE35893-4	P-GSE35893-5
+Protocol Description	ID_REF = <br>VALUE = Bioconductor RMA normalized value	RNA was hybridized to individual Affymetrix GeneChip oligonucleotide ATH1 array using manufacturers instructions	green house grown at 12/12 day and night cycle.	Expression data from Affymetrix genechips were normalized using the Robust Multichip Average (RMA) method using bioconductor’s affy package in the R language	According to Affymetrix instructions	8 weeks old plants	total RNA was extracted from each plant using TRIzol (Invitrogen) extraction procedure followed by purification on RNeasy columns (Qiagen).	Biotinylated cRNA were prepared according to the standard Affymetrix protocol
+Protocol Software								
+Protocol Hardware								
+Protocol Contact								
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Protocol Term Source REF								
+Protocol Term Accession Number								
+Experimental Factor Name	RNA interference							
+Experimental Factor Type	RNA interference							
+Experimental Factor Term Source REF								
+Experimental Factor Term Accession Number								
+Publication Title	The Chloroplast Triggers Developmental Reprogramming When MUTS HOMOLOG1 Is Suppressed in Plants.							
+Publication Author List	Xu YZ, Santamaria Rde L, Virdi KS, Arrieta-Montiel MP, Razvi F, Li S, Ren G, Yu B, Alexander D, Guo L, Feng X, Dweikat IM, Clemente TE, Mackenzie SA							
+PubMed ID	22496509							
+Publication DOI	10.1104/pp.112.196055							
+Publication Status								
+Publication Status Term Source REF								
+Publication Status Term Accession Number								
+Comment[SecondaryAccession]	GSE35893							
+Comment[GEOLastUpdateDate]	2012-07-11							
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[GEOReleaseDate]	2012-07-10							
+Comment[ArrayExpressSubmissionDate]	2012-02-16							
+SDRF File	E-GEOD-35893.sdrf.txt							

@@ -1,0 +1,52 @@
+Investigation Title	Transcription profiling of Arabidopsis to identify of circadian-regulated genes					
+Comment[Submitted Name]	Identification of circadian-regulated genes of Arabidopsis thaliana.					
+Experimental Design	unknown_experiment_design_type	transcription profiling by array				
+Experimental Design Term Source REF		EFO				
+Comment[AEExperimentType]	transcription profiling by array					
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis after growth in constant white light					
+Comment[AEMIAMESCORE]	4					
+Comment[ArrayExpressReleaseDate]	2008-06-17					
+Comment[SecondaryAccession]	GSE8365					
+Comment[ArrayExpressAccession]	E-GEOD-8365					
+Comment[MAGETAB TimeStamp_Version]	2010-08-08 00:56:53 Last Changed Rev: 13058					
+Experimental Factor Name	TIME IN WHITE LIGHT					
+Experimental Factor Type	time					
+Experimental Factor Term Source REF						
+Person Last Name	Covington					
+Person First Name	Michael					
+Person Mid Initials	F.					
+Person Email	mfcovington@ucdavis.edu					
+Person Phone						
+Person Fax						
+Person Address	Harmer Lab, Plant Biology, University of California-Davis, One Shields Avenue, LS 1002, Davis, 95616, USA					
+Person Affiliation	University of California-Davis					
+Person Roles	submitter					
+Person Roles Term Source REF						
+Quality Control Type						
+Quality Control Term Source REF						
+Replicate Type						
+Replicate Term Source REF						
+Normalization Type						
+Normalization Term Source REF						
+Date of Experiment						
+Public Release Date	2008-06-17					
+PubMed ID	17683202					
+Publication DOI	10.1371/journal.pbio.0050222					
+Publication Author List	Michael F Covington, Stacey L Harmer					
+Publication Title	The circadian clock regulates auxin signaling and responses in Arabidopsis.					
+Publication Status	published					
+Publication Status Term Source REF	EFO					
+Publication Status Term Accession Number	EFO_0001796					
+Experiment Description	Most higher organisms, including plants and animals, have developed a time-keeping mechanism that allows them to anticipate daily fluctuations of environmental parameters such as light and temperature.  This circadian clock efficiently coordinates plant growth and metabolism with respect to time-of-day by producing self-sustained rhythms of gene expression with an approximately 24-hour period.  The importance of these rhythms has in fact been demonstrated in both phytoplankton and higher plants: organisms that have an internal clock period matched to the external environment possess a competitive advantage over those that do not. We used microarrays to identify circadian-regulated genes of Arabidopsis thaliana to elucidate how the clock provides an adaptive advantage by  understanding how the clock regulates outputs and determining which pathways and processes may be under circadian control. Experiment Overall Design: Groups of Arabidopsis seedlings were grown in light/dark cycles for 7 d before, transferred to constant light, and after 24 h in constant light 12 samples were harvested at 4-h intervals over the next 44 h for RNA extraction and hybridization on Affymetrix microarrays.					
+Protocol Name	P-G8365-1	P-G8365-2	P-G8365-4	P-G8365-3	Affymetrix:Protocol:Hybridization-EukGE-WS2	P-AFFY-6
+Protocol Type	grow	specified_biomaterial_action	nucleic_acid_extraction	labeling		feature_extraction
+Protocol Description	Seeds sown on  filter paper on media (1x MS, 3% sucrose, 0.8% agar); stratified at 4C for 4 d; grown for 7 d at 22C in 12-h  light (cool white fluorescence tubes, ~120 Â&#956;mol m-2 s-1)/12-h dark cycles before being released into free-running conditions of constant white light, 22C; sample collection initiated at subjective dawn of day 9	Samples were collected at 4-h intervals (by freezing in liquid nitrogen) while growing in constant light conditions	Qiagen's RNeasy Plant Mini Kit was used for extraction of total RNA according to the manufacturer's instructions.	Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 5 Â&#956;g total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).		Title: Affymetrix CEL analysis. Description: 
+Protocol Parameters						
+Protocol Hardware						
+Protocol Software						MicroArraySuite 5.0
+Protocol Contact						
+Protocol Term Source REF						
+SDRF File	E-GEOD-8365.sdrf.txt					
+Term Source Name	NCBI Taxonomy		The MGED Ontology	ArrayExpress	EFO	The MGED Ontology
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version						

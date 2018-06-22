@@ -1,0 +1,46 @@
+Investigation Title	Transcription profiling of Arabidopsis response to high irradiance reveals a critical role for CRY1									
+Comment[Submitted Name]	Genome-wide gene expression analysis reveals a critical role for CRY1 in the Response of Arabidopsis to High Irradiance									
+Experimental Design	unknown_experiment_design_type	transcription profiling by array								
+Experimental Design Term Source REF		EFO								
+Comment[AEExperimentType]	transcription profiling by array									
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for cry1 or hy5 after growth in high light or blue light 									
+Comment[ArrayExpressReleaseDate]	2008-06-15									
+Comment[SecondaryAccession]	GSE7743									
+Comment[AEMIAMESCORE]	4									
+Comment[ArrayExpressAccession]	E-GEOD-7743									
+Comment[MAGETAB TimeStamp_Version]	2010-08-07 21:21:54 Last Changed Rev: 13058									
+Experimental Factor Name	growth condition	genotype								
+Experimental Factor Type	growth condition	genotype								
+Experimental Factor Term Source REF										
+Person Last Name	Kleine									
+Person First Name	Tatjana									
+Person Mid Initials										
+Person Email	tatjana.kleine@lrz.uni-muenchen.de									
+Person Phone										
+Person Fax										
+Person Address	"Åsa Strand, Department of Plant Physiology, UPSC, Umeå University, Umeå, 90187, Sweden"									
+Person Affiliation	UPSC									
+Person Roles	submitter									
+Person Roles Term Source REF										
+Date of Experiment										
+Public Release Date	2008-06-15									
+PubMed ID	17478635									
+Publication DOI	10.1104/pp.107.098293 									
+Publication Author List	"Tatjana Kleine, Peter Kindgren, Catherine Benedict, Luke Hendrickson, Åsa Strand"									
+Publication Title	Genome-wide gene expression analysis reveals a critical role for CRYPTOCHROME1 in the response of Arabidopsis to high irradiance.									
+Publication Status	published									
+Publication Status Term Source REF	EFO									
+Publication Status Term Accession Number	EFO_0001796									
+Experiment Description	"Exposure to high irradiance results in dramatic changes in nuclear gene expression in plants. However, little is known about the mechanisms by which changes in irradiance are sensed and how the information is transduced to the nucleus to initiate the genetic response. To investigate whether the photoreceptors are involved in the response to high irradiance, we analyzed expression of ELIP1, ELIP2, APX2 and LHCB2.4 in the phyA, phyB, cry1 and cry2 photoreceptor mutants and hy5 and hyh transcription factor mutants. Following exposure to high intensity white light for 3 h (HL, 1000 micro mol quanta m-2 s-1) expression of ELIP1/2 and APX2 was strongly induced and LHCB2.4 expression repressed in wild type. The cry1 and hy5 mutants showed specific mis-regulation of ELIP1/2 and we show that the induction of ELIP1/2 expression is mediated via CRY1 in a blue light intensity-dependent manner. Furthermore, using the Affymetrix Arabidopsis 24K Gene-Chip we showed that 77 of the HL responsive genes are regulated via CRY1, and 26 of those genes were also HY5 dependent. As a consequence of the mis-regulation of these genes the cry1 mutant displayed a high irradiance-sensitive phenotype with significant photoinactivation of PSII, indicated by reduced Fv/Fm. Thus, we describe a novel function of CRY1 in mediating plant responses to high irradiances that is essential to the induction of photoprotective mechanisms. This indicates that high irradiance can be sensed in a chloroplast-independent manner by a cytosolic/nucleic component. Experiment Overall Design: All samples were done in biological triplicates (named A, B, C): Arabidopsis Col-O: growth conditions (7 d continuous white light; 100 micro mol quanta m-2 s-1, 22 Â°C), growth conditions followed by high light (3 hours 1000 micro mol quanta m-2 s-1, 22 Â°C)  and growth conditions followed by blue light (3 hours; HQI-T 400 W lamps were filtered through color filter #74, 400-540 nm, absorption maximum: 470 nm (Night Blue; Rosco International)) Experiment Overall Design: cryptochrome 1 (cry1) mutant: growth conditions and growth conditions followed by 3 hours high light Experiment Overall Design: long hypocotyl 5 (hy5) mutant: growth conditions and growth conditions followed by 3 hours high light"									
+Protocol Name	P-G7743-6	P-G7743-5	P-G7743-2	P-G7743-1	P-G7743-4	P-G7743-7	P-G7743-3	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6	Affymetrix:Protocol:ExpressionStat
+Protocol Type	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	grow	nucleic_acid_extraction	nucleic_acid_extraction	labeling	hybridization	feature_extraction	bioassay_data_transformation
+Protocol Description	"For high light treatment seedlings were transferred for 3 h to 1000 micro mol quanta m-2 s-1 (metal halide HQI-T 400 W daylight light bulbs, Osram)."	"For high light treatment seedlingswere transferred for 3 h 1000 micro mol quanta m-2 s-1 (metal halide HQI-T 400 W daylight light bulbs, Osram)."	"For blue light exposure HQI-T 400 W lamps were filtered through color filter #74, 400-540 nm, absorption maximum: 470 nm (Night Blue; Rosco International). Air temperature was 22Â&deg;C. Seedlings (at least 10) were harvested after 3 hours and directly frozen in liquid nitrogen."	"Arabidopsis thaliana seeds were sterilized (75 % ethanol, 0.01 % Triton X-100) for 15 min and washed three times with 95 % ethanol before spreading onto 0.27 % phytoagar plates containing 1x Murashige and Skoog basal salt mixture including vitamins (Duchefa) and 2 % sucrose. The plates were stratified two days in darkness at 4Â&deg;C and then placed 7 d into continuous white light (100 micro mol quanta m-2 s-1, 22 Â&deg;C)."	For total RNA isolation the RNeasy Plant Mini Kit (QIAGEN) was used according to the manufacturerâs instructions. The concentration of total RNA was determined with a Nanodrop ND-1000 spectrophotometer; quality of RNA was checked by agarose gel electrophoresis	For total RNA isolation the RNeasy Plant Mini Kit (QIAGEN) was used according to the manufacturerâs instructions. The concentration of total RNA was determined with a Nanodrop ND-1000 spectrophotometer; RNA quality was checked by agarose gel electrophoresis.	"5 Î¼g of total RNA was used in a reverse transcription reaction (Ambion MessageAmp kit) to generate first-strand cDNA. After second-strand synthesis, double-stranded cDNA was used in an in vitro transcription reaction to generate biotinylated cRNA. The quality of purified and fragmented cRNA was assessed by spectrophotometry and agarose gel electrophoresis."	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 
+Protocol Parameters										
+Protocol Hardware										
+Protocol Software								MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 5.0
+Protocol Contact										
+Protocol Term Source REF								mo		
+SDRF File	E-GEOD-7743.sdrf.txt									
+Term Source Name	NCBI Taxonomy		The MGED Ontology	ArrayExpress	EFO	The MGED Ontology	mo			
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://mged.sourceforge.net/ontologies/MGEDontology.php			
+Term Source Version										

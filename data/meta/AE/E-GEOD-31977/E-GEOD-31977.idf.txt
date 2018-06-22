@@ -1,0 +1,57 @@
+Comment[ArrayExpressAccession]	E-GEOD-31977							
+Public Release Date	2011-11-26							
+Investigation Title	Transcriptome profiling identified genes and pathways associated with arsenic toxicity and tolerance in Arabidopsis							
+Comment[Submitted Name]	Transcriptome profiling identified genes and pathways associated with arsenic toxicity and tolerance in Arabidopsis							
+Experiment Description	Transcriptional profiling of arsenic-induced toxicity and tolerance in Arabidopsis plants of different ecotypes Arsenic (As) is a toxic metalloid found ubiquitously in the environment and has widely been known as an acute poison and carcinogen.  As toxicity is a major factor leading to root growth inhibition in plants.  However, the molecular mechanisms of plants in response to As has not been extensively characterized.  In this study, Arabidopsis ecotypes that are As-tolerant (Col-0) and -sensitive (Ws-2) were used to conduct a transcriptome analysis of the response to As (V).  To begin elucidating the molecular basis of As toxicity and tolerance in Arabidopsis, seedlings of Col-0 and Ws-2 were subjected to As treatment.   The root elongation rate of Col-0 was significantly higher than that of Ws-2 when exposed to As.  The tolerant ecotype (Col-0) demonstrated lower accumulation of As when compared to the responses observed in the sensitive Ws-2.  Subsequently, the effect of As exposure on genome-wide gene expression was examined in the two ecotypes.  Comparative analysis of microarray data identified groups of genes with common and specific responses to As between Col-0 and Ws-2.  The genes related to heat responses and oxidative stresses belonged to common responses, indicating conserved stress-associated changes across two ecotypes.  The majority of specific responsive genes were those encoding heat shock proteins, heat shock factors, ubiquitin and transporters.  The data suggested that metal transport and maintenance of protein structure may be important mechanisms for toxicity and tolerance to As.  This study presents comprehensive surveys of global transcriptional regulation and identifies stress- and tolerance-associated genes in response to As. Comparison of Arabidopsis ecotype Col-0 and Ws-2 in response to As with the Affymetrix GeneChip were performed by the Affymetrix Gene Expression Service Lab (http://ipmb.sinica.edu.tw/affy/), supported by Academia Sinica, Taiwan							
+Date of Experiment								
+Term Source Name	EFO							
+Term Source Version								
+Term Source File	http://www.ebi.ac.uk/efo/efo.owl							
+Person Last Name	Fu	Fu	Chen	Zeng	Lin	Huang	Huang	
+Person First Name	Shih-Feng	Shih-Feng	Po-Yu	Guan-Ru	Chung-Yi	Tsai-Lien	Hao-Jen	
+Person Mid Initials								
+Person Email	sffuplant@cc.ncue.edu.tw							
+Person Affiliation	National Changhua University of Education							
+Person Phone	+886-4-7232105-3412							
+Person Fax								
+Person Address	Biology, National Changhua University of Education, No.1 Jin-De Road, Changhua, Changhua, Taiwan							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Person Roles Term Accession Number								
+Normalization Type								
+Normalization Term Accession Number								
+Normalization Term Source REF								
+Replicate Type								
+Replicate Term Accession Number								
+Replicate Term Source REF								
+Experimental Design								
+Experimental Design Term Accession Number								
+Experimental Design Term Source REF								
+Quality Control Type								
+Quality Control Term Accession Number								
+Quality Control Term Source REF								
+Protocol Name	P-GSE31977-1	P-GSE31977-6	P-GSE31977-3	P-GSE31977-8	P-GSE31977-7	P-GSE31977-2	P-GSE31977-4	P-GSE31977-5
+Protocol Description	ID_REF = <br>VALUE = Normalized value by GC-RMA algorithm	Following fragmentation, 10 ug of cRNA were hybridized for 16.5 hr at 45C on GeneChip Affymetrix Arabidopsis ATH1 Genome Array. GeneChips were washed and stained in the Affymetrix Fluidics Station 450.	4-day-old seedlings in quarter-strength MS	The data were analyzed with Microarray Suite version 5.0 (MAS 5.0) using Affymetrix default analysis settings and global scaling as normalization method. The trimmed mean target intensity of each array was arbitrarily set to 100.	GeneChips were scanned using Affymetrix GeneChip Scanner 3000 7G	Either with or without As (V) treatment (100 and 200 uM) for 1.5 and 3 hr	Total RNA were extracted using QIAGEN RNeasy kit follwed by DNAse treatment. The RNA samples were further purified and concentrated by RNeasy MinElute Cleanup.	Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 10 ug total RNA (Expression Analysis Technical Manual, 701021 Rev. 5, Affymetrix).
+Protocol Software								
+Protocol Hardware								
+Protocol Contact								
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_acquisition	specified_biomaterial_action	nucleic_acid_extraction	labelling
+Protocol Term Source REF								
+Protocol Term Accession Number								
+Experimental Factor Name	ecotype	compound	dose					
+Experimental Factor Type	ecotype	compound	dose					
+Experimental Factor Term Source REF								
+Experimental Factor Term Accession Number								
+Publication Title	Transcriptome profiling of genes and pathways associated with arsenic toxicity and tolerance in Arabidopsis							
+Publication Author List	Fu SF, Chen PY, Nguyen QT, Huang LY, Zeng GR, Huang TL, Lin CY, Huang HJ							
+PubMed ID	24734953							
+Publication DOI	10.1186/1471-2229-14-94							
+Publication Status								
+Publication Status Term Source REF								
+Publication Status Term Accession Number								
+Comment[SecondaryAccession]	GSE31977							
+Comment[GEOLastUpdateDate]	2011-11-27							
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[GEOReleaseDate]	2011-11-26							
+Comment[ArrayExpressSubmissionDate]	2011-09-07							
+SDRF File	E-GEOD-31977.sdrf.txt							

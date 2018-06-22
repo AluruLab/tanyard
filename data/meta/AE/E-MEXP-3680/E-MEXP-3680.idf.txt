@@ -1,0 +1,34 @@
+Comment[ArrayExpressAccession]	E-MEXP-3680						
+Investigation Title	Transcription profiling by array of Arabidopsis thaliana stems to investigate the transcriptome of myb103 mutants to better understand the mechanism underlying MYB103 action						
+Comment[Submitted Name]	Transcription profiling by array of Arabidopsis thaliana stems to investigate the transcriptome of myb103 mutants to better understand the mechanism underlying MYB103 action						
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis thaliana stems to investigate the transcriptome of myb103 mutants to better understand the mechanism underlying MYB103 action						
+Comment[MIAMExpressLogin]	davidohman						
+Comment[MIAMExpressSubmissionID]	8351						
+Experiment Description	Two null mutants of MYB103 were found to have decreased expression of FERULATE-5-HYDROXYLASE and reduced syringyl lignin in the basal inflorescence stem. The aim with this microarray experiment was to investigate the transcriptome of these myb103 mutants to better understand the mechanism underlying MYB103 action.						
+Experimental Design	co-expression_design	genetic_modification_design	replicate_design				
+Comment[AEExperimentType]	transcription profiling by array						
+Experimental Factor Name	genotype						
+Experimental Factor Type	genotype						
+Person Last Name	Ohman						
+Person First Name	David						
+Person Email	David.Ohman@slu.se						
+Person Phone	46907868458						
+Person Affiliation	SLU						
+Person Address	Forest Genetics and Plant Physiology, Linnaeus Vag 6, Umea, Vasterbottens lan, 90183, Sweden						
+Person Roles	submitter						
+Person Roles Term Source REF	MGED Ontology						
+Quality Control Type							
+Public Release Date	2012-09-01						
+Comment[ArrayExpressSubmissionDate]	2012-07-19 09:41						
+Pubmed ID	22967312						
+Publication DOI	10.1111/tpj.12018						
+Publication Title	MYB103 is required for FERULATE-5-HYDROXYLASE expression and syringyl lignin biosynthesis in Arabidopsis stems						
+Publication Author List	Öhman D, Demedts B, Kumar M, Gerber L, Gorzsás A, Goeminne G, Hedenström M, Ellis B, Boerjan W, Sundberg B						
+Publication Status	Published						
+Protocol Name	P-MTAB-27556	P-MTAB-27557	P-MTAB-27558	P-MTAB-27559	P-MTAB-27560	P-MTAB-27561	P-MTAB-27562
+Protocol Description	Two Arabidopsis T-DNA KO mutant lines (myb103-1 and myb103-2, respectively) were compared against WT (Col-0).	GeneChip IVT Labeling Kit (http://media.affymetrix.com/support/downloads/manuals/expression_analysis_technical_manual.pdf)(Parameters: Amplification = RNA polymerases, Mass unit = Micro gram)	GeneChip Hybridization, Wash and Stain Kit (http://media.affymetrix.com/support/downloads/manuals/expression_analysis_technical_manual.pdf)(Parameters: Chamber type = Affymetrix- GeneChip Hyb Oven 640, Quantity of label target used = 0, Mass unit = Micro gram, Tiny time unit = seconds, Volume unit = Nano litre, temperature = 45)	GeneChip Expression Wash, Stain and Scan User Manual, P/N 702731 (https://www.affymetrix.com/user/login.jsp?toURL=/support/file_download.affx?onloadforward=/support/downloads/manuals/wash_stain_scan_cartridge_arrays_manual.pdf)(Parameters: Scanning hardware = 418 [Affymetrix], Scanning software = MAS/GCOS/GREX [Affymetrix])	For each genotype, 18 plants in total were randomly pooled into 3 biological replicates, each consisting of 6 individual plants.	Seeds were sown and plants routinely grown in soil (16 h light, 24C/19C; 150 uE/m2 per s; 70% humidity). In all experiments, the different genotypes were carefully randomized according to position during growth.(Parameters: time unit = seconds, temperature unit = C)	Basal 1-9 cm stem segments of 25 cm high plants were frozen and homogenized. Total RNA (see above) was purified and concentrated with RNeasy MinElute Cleanup Kit #74204 (Qiagen, http://www.qiagen.com). RNA quality and quantity were checked with the Agilent 2100 Bioanalyzer (http://www.agilent.com) and NanoDrop (http://www.nanodrop.com), respectively, and 4 ug per sample was submitted to ATLAS Biolabs (http://www.atlas-biolabs.com) for whole-transcriptome analysis (ATLAS Biolabs Affymetrix 3' Expression Full Service) using the Affymetrix GeneChip Arabidopsis ATH1 Genome Arrays (http://www.affymetrix.com).(Parameters: Extracted product = total_RNA, Amplification = none)
+Protocol Type	specified_biomaterial_action	labeling	hybridization	image_acquisition	pool	grow	nucleic_acid_extraction
+Protocol Term Source REF	MGED Ontology	MGED Ontology	MGED Ontology	MGED Ontology	MGED Ontology	MGED Ontology	MGED Ontology
+Term Source Name	MGED Ontology	ArrayExpress					
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress					
+SDRF File	E-MEXP-3680.sdrf.txt						

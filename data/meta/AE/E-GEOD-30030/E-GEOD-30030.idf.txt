@@ -1,0 +1,57 @@
+Comment[ArrayExpressAccession]	E-GEOD-30030						
+Public Release Date	2012-01-03						
+Investigation Title	Gene expression in pif3 mutant under dark and in wt under Red 1h and Red 18h						
+Comment[Submitted Name]	Gene expression in pif3 mutant under dark and in wt under Red 1h and Red 18h						
+Experiment Description	PIF3 plays a role as repressor of photomorphogenesis in darkness. To identify PIF3-regulated genes that might be implementing this action, we have performed whole-genome expression analysis in the pif3 mutant. Seeds were surface-sterilized and plated on GM medium without sucrose, stratified at 4ºC in the dark for 4 days, exposed to white light for 3 hours to induce germination, and placed in a growth chamber at 21ºC in darkness for 4 days (D0h) and 4 days and 1 hour (D1h). For Rc treatments seedlings were moved to Rc growth chambers at 21ºC  for 1 (R1h) and 18 (R18h) hours.						
+Date of Experiment							
+Term Source Name	EFO						
+Term Source Version							
+Term Source File	http://www.ebi.ac.uk/efo/efo.owl						
+Person Last Name	Monte	Sentandreu	Tepperman	Quail	Monte		
+Person First Name	Elena	M	J	P	E		
+Person Mid Initials			M	H			
+Person Email	elena.monte@cid.csic.es						
+Person Affiliation	CRAG						
+Person Phone							
+Person Fax							
+Person Address	CRAG, Campus UAB-Edifici CRAG, Bellaterra- Cerdanyola del Valles, Barcelona, Spain						
+Person Roles	submitter						
+Person Roles Term Source REF							
+Person Roles Term Accession Number							
+Normalization Type							
+Normalization Term Accession Number							
+Normalization Term Source REF							
+Replicate Type							
+Replicate Term Accession Number							
+Replicate Term Source REF							
+Experimental Design							
+Experimental Design Term Accession Number							
+Experimental Design Term Source REF							
+Quality Control Type							
+Quality Control Term Accession Number							
+Quality Control Term Source REF							
+Protocol Name	P-GSE30030-1	P-GSE30030-6	P-GSE30030-5	P-GSE30030-3	P-GSE30030-2	P-GSE30030-4	P-GSE30030-7
+Protocol Description	ID_REF = <br>VALUE = rosetta normalized signal intensity	GeneChips were scanned using an Agilent Scanner.	Following fragmentation, 15 ug of cRNA were hybridized for 16 hr at 45C on ATH1 array. GeneChips were washed and stained in the Affymetrix Fluidics Station 400.	Total RNA was prepared using the method of Chang et al.1993 (Plant Mol. Biol. Rep. 11: 113) followed by further purification using RNeasy columns (Qiagen, Valencia,CA).	Seeds were surface-sterilized and plated on GM medium without sucrose, stratified at 4C in the dark for 4 days, exposed to white light for 3 hours to induce germination, and placed in a growth chamber at 21C in darkness for 4 days (D0h) and 4 days and 1 hour (D1h). For Rc treatments seedlings were moved to Rc growth chambers at 21C for 1 (R1h) and 18 (R18h) hours.	Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 5 ug total RNA.	The dara were analyzed with Rosetta Resolver platform performing a Benjamini Hochberg FDR error-corrected analysis of variance (ANOVA) followed by a Ratio Error Model as described in Weng et al. 2006 (Bioinformatics 22: 1111) The matrix table consists of sequence (probe set) intensity values following normalisation with the Rosetta Affymetrix Error Model Normalisation Method, as described in Weng et al (2006), Bioinformatics 22, pp1111-1121, and as implemented in the Rosetta Resolver system, version 7.2.
+Protocol Software							
+Protocol Hardware							
+Protocol Contact							
+Protocol Type	bioassay_data_transformation	image_aquisition	hybridization	nucleic_acid_extraction	grow	labeling	feature_extraction
+Protocol Term Source REF							
+Protocol Term Accession Number							
+Experimental Factor Name	genotype	growth condition					
+Experimental Factor Type	genotype	growth condition					
+Experimental Factor Term Source REF							
+Experimental Factor Term Accession Number							
+Publication Title	Functional profiling identifies genes involved in organ-specific branches of the PIF3 regulatory network in Arabidopsis.						
+Publication Author List	Sentandreu M, Martín G, González-Schain N, Leivar P, Soy J, Tepperman JM, Quail PH, Monte E						
+PubMed ID	22108407						
+Publication DOI	10.1105/tpc.111.088161						
+Publication Status							
+Publication Status Term Source REF							
+Publication Status Term Accession Number							
+Comment[SecondaryAccession]	GSE30030						
+Comment[GEOLastUpdateDate]	2012-03-23						
+Comment[AEExperimentType]	transcription profiling by array						
+Comment[GEOReleaseDate]	2012-01-03						
+Comment[ArrayExpressSubmissionDate]	2011-06-15						
+SDRF File	E-GEOD-30030.sdrf.txt						

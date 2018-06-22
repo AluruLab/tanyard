@@ -1,0 +1,49 @@
+Investigation Title	Transcription profiling of Arabidopsis wild type Col-0 and hsf407 double knock out plants after heat stress	
+Comment[Submitted Name]	Heat-induced HsfB1 and HsfB2b are involved in the regulation of Pdf1.2 gene expression in Arabidopsis	
+Experimental Design	stimulus_or_stress_design	in_vivo_design	co-expression_design	transcription profiling by array	
+Experimental Design Term Source REF	The MGED Ontology		The MGED Ontology	EFO	
+Comment[SecondaryAccession]		
+Comment[ArrayExpressReleaseDate]	2008-12-31	
+Comment[AEMIAMESCORE]	5	
+Comment[ArrayExpressAccession]	E-MEXP-1725	
+Comment[MAGETAB TimeStamp_Version]	2010-08-09 23:33:05 Last Changed Rev: 13058	
+Experimental Factor Name	GENOTYPE	TEMPERATURE	
+Experimental Factor Type	genotype	temperature	
+Experimental Factor Term Source REF	
+Person Last Name	Busch	
+Person First Name	Wolfgang	
+Person Mid Initials	
+Person Email	wolfgang.busch@mpg.tuebingen.de	
+Person Phone	+4970712972076	
+Person Fax	
+Person Address	Auf der Morgenstelle 28, Tuebingen, BW, 72076, Germany	
+Person Affiliation	Tuebingen University	
+Person Roles	submitter	
+Person Roles Term Source REF	The MGED Ontology	
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2008-12-31	
+PubMed ID	
+Publication DOI	
+Publication Author List	Kumar, Mukesh; Busch, Wolfgang; Birke, Hannah; Kemmerling, Birgit; Nurnberger, Thorsten; Schoffl, Friedrich	
+Publication Title	Heat Shock Factors HsfB1 and HsfB2b Are Involved in the Regulation of Pdf1.2 Expression and Pathogen Resistance in Arabidopsis	
+Publication Status	
+Publication Status Term Source REF	
+Experiment Description	Effect of heat stress on wildtype COL-0 Arabidopsis and hsf4-7 double knock out plants.	
+Protocol Name	P-MTAB-1762	P-MTAB-1764	P-MTAB-1761	P-MTAB-1765	P-AFFY-2	Affymetrix:Protocol:Hybridization-EukGE-WS2v4[]	P-AFFY-6	P-MTAB-1763	
+Protocol Type	specified_biomaterial_action	specified_biomaterial_action	nucleic_acid_extraction	grow	labeling	hybridization	feature_extraction	bioassay_data_transformation	
+Protocol Description	Fully expanded leaves from 5 week old plants were collected and pooled. Pools were incubated at 37°C in prewarmed SIB Buffer for 2h.<br><br>Then placed in a shaking water bath with 40 oscillations per minute. After treatment, excess of SIB buffer was rinsed off with sterile water; seeds were then blotted dry with filter paper and immediately frozen in liquid nitrogen.	Fully expanded leaves from 5 week old plants were collected and pooled. Pools were incubated at 22°C in prewarmed SIB Buffer for 2h.<br><br>Then placed in a shaking water bath with 40 oscillations per minute. After treatment, excess of SIB buffer was rinsed off with sterile water; seeds were then blotted dry with filter paper and immediately frozen in liquid nitrogen.	Frozen leaf tissues (-80°) were crushed by using mortar and pistil; and RNA was extracted with the Plant RNeasy Mini Kit (Qiagen, Hilden, Germany).<br>(Parameters: Extracted product = total_RNA, Amplification = none)	Signal Salk institute (http://signal.salk.edu/tdnaprimers.2.html).<br><br>Seeds were spread on soil or MS media and kept in the dark at 4-8°C to achieve a uniform germination. 10 DAG (days after germination) seedlings were singled out in individual pots and grown in soil with a light/dark cycle of 16/8 h at 22°C, 60% Relative Humidity (RH) and a light intensity of 5000 lumen m-2. All experiments were carried out with 5 week old plants.<br><br><br>(Parameters: start time = 5, time unit = weeks, min temperature = 22, temperature unit = C, media = Soil)	Title: Affymetrix in vitro transcription. Description: 	Title: Affymetrix EukGE-WS2v4 Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	The R package gcrma was used to normalize all data from the .cel files. This was done by using the implemented justGCRMA() command.	
+Protocol Parameters	
+Protocol Hardware	
+Protocol Software						MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact	
+Protocol Term Source REF						mo		The MGED Ontology	
+SDRF File	E-MEXP-1725.sdrf.txt	
+Term Source Name	The MGED Ontology		NCBI Taxonomy	tair_dev:1.27	ArrayExpress	The MGED Ontology	EFO	mo	
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php		http://www.ncbi.nlm.nih.gov/Taxonomy/	http://www.arabidopsis.org/info/ontologies/	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version				1.27					

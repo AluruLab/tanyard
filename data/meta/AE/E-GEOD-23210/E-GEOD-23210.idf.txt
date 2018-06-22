@@ -1,0 +1,58 @@
+Comment[ArrayExpressAccession]	E-GEOD-23210						
+Public Release Date	2012-01-01						
+Investigation Title	Expression data in single and double knockouts of AtNHX5 and AtNHX6 in Arabidopsis						
+Comment[Submitted Name]	Expression data in single and double knockouts of AtNHX5 and AtNHX6 in Arabidopsis						
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis AtNHX5 and AtNHX6 single and double knock out mutants						
+Experiment Description	"We generated single and double knockouts of AtNHX5 and AtNHX6 in order to invesigate possible functions in Arabidopsis. nhx5/nhx6 exhibited severe growth retardation related to cell size and proliferation, as well as endosomal trafficking perutrbations. The results implicate endosomal NHX antiporters in novel cellular functions. In order to investigate further the possible functions of AtNHX5 and AtNHX6, we compared the transcrptional profiles of single and double AtNHX5 and AtNHX6 knockouts. We looked for changes in gene expression might help us to elucidate the molecular events associated with the apparent requirement of AtNHX5 and AtNHX6 for normal growth and development. Rosette leaves from 4 weeks old plants grown on soil under normal conditons and 8h L / 16 D were collected for RNA extraction and hybridization on Affymetrix microarray chips."						
+Date of Experiment							
+Term Source Name	EFO						
+Term Source Version							
+Term Source File	http://www.ebi.ac.uk/efo/efo.owl						
+Person Last Name	bassil	Blumwald	Bassil				
+Person First Name	elias	Eduardo	Elias				
+Person Mid Initials							
+Person Email	esbassil@ucdavis.edu						
+Person Affiliation	university of california						
+Person Phone							
+Person Fax							
+Person Address	"plant sciences, university of california, 1 shields ave, davis, CA, USA"						
+Person Roles	submitter						
+Person Roles Term Source REF							
+Person Roles Term Accession Number							
+Normalization Type							
+Normalization Term Accession Number							
+Normalization Term Source REF							
+Replicate Type							
+Replicate Term Accession Number							
+Replicate Term Source REF							
+Experimental Design	genetic modifcation design						
+Experimental Design Term Accession Number							
+Experimental Design Term Source REF							
+Quality Control Type							
+Quality Control Term Accession Number							
+Quality Control Term Source REF							
+Protocol Name	P-GSE23210-1	P-GSE23210-6	P-GSE23210-5	P-GSE23210-3	P-GSE23210-2	P-GSE23210-4	P-GSE23210-7
+Protocol Description	ID_REF = <br>VALUE = Log2 normalized signal intensity	GeneChips were scanned using the Hewlett-Packard GeneArray Scanner G2500A.	"Following fragmentation, 10 ug of aRNA were hybridized for 16 hr at 45C on GeneChip Arabidopsis Genome Array. GeneChips were washed and stained in the Affymetrix Fluidics Station 400."	Qiagen extraction of total RNA was performed according to the manufacturer's instructions.	Plants were grown in Metromix300 soil in 18-pot trays in a growth chamber with 8h L/16h D and fertilized weekly beginning week 2.	"Biotinylated aRNA were prepared according to the standard Affymetrix protocol from 6 ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix)."	The data were normalized using JMPGenomics (ver 3.0) with STD normalization and background correction feature.
+Protocol Software							
+Protocol Hardware							
+Protocol Contact							
+Protocol Type	bioassay_data_transformation	image_aquisition	hybridization	nucleic_acid_extraction	grow	labeling	feature_extraction
+Protocol Term Source REF							
+Protocol Term Accession Number							
+Experimental Factor Name	genotype						
+Experimental Factor Type	genotype						
+Experimental Factor Term Source REF							
+Experimental Factor Term Accession Number							
+Publication Title	The Arabidopsis intracellular Na+/H+ antiporters NHX5 and NHX6 are endosome associated and necessary for plant growth and development.						
+Publication Author List	"Bassil E, Ohto MA, Esumi T, Tajima H, Zhu Z, Cagnac O, Belmonte M, Peleg Z, Yamaguchi T, Blumwald E."						
+PubMed ID	21278129						
+Publication DOI							
+Publication Status							
+Publication Status Term Source REF							
+Publication Status Term Accession Number							
+Comment[SecondaryAccession]	GSE23210						
+Comment[GEOLastUpdateDate]	2012-01-01						
+Comment[AEExperimentType]	transcription profiling by array						
+Comment[GEOReleaseDate]	2012-01-01						
+Comment[ArrayExpressSubmissionDate]	2010-07-26						
+SDRF File	E-GEOD-23210.sdrf.txt						

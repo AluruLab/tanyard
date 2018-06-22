@@ -1,0 +1,58 @@
+Comment[ArrayExpressAccession]	E-GEOD-29814							
+Public Release Date	2011-11-08							
+Investigation Title	Molecular profiling of stomatal lineage cell states							
+Comment[Submitted Name]	Molecular profiling of stomatal lineage cell states							
+Comment[AEExperimentDisplayName]	"Transcription profiling by array of Arabidopsis speechless, scrm-D and scrm-D;mute mutant seedlings"							
+Experiment Description	"We initiated a study to investigate the transcriptional profiles associated with cell states of the stomatal lineage. A stem-cell like precursor of stomata, a meristemoid. reiterates asymmetric divisions and renews itself before differentiating into guard cells. The transient and asynchronous nature of the meristemoid has made it difficult to study its molecular characteristics. Through combinatorial use of genetic resources that either arrest or constitutively drive stomatal cell-state progressions due to loss- or gain-of-function mutations in the key transcription factor genes, SPEECHLESS, MUTE, and SCRM, we obtained seedlings highly enriched in pavement cells, meristemoids, or stomata. Here we present transcriptome and genome-wide trends in gene regulation associated with each cell state and identify molecular signatures associated with meristemoids. 12 samples are included in this study. Three biological replicates of 5-dag seedlings of speechless, scrm-D and scrm-D;mute were compared wild type seedlings for changes in gene expression."							
+Date of Experiment								
+Term Source Name	EFO							
+Term Source Version								
+Term Source File	http://www.ebi.ac.uk/efo/efo.owl							
+Person Last Name	Torii	Pillitteri	Peterson	Horst	Torii			
+Person First Name	Keiko	Lynn	Kylee	Robin	Keiko			
+Person Mid Initials	U	J	M	J	U			
+Person Email	ktorii@u.washington.edu							
+Person Affiliation	University of Washington							
+Person Phone								
+Person Fax								
+Person Address	"Department of Biology, University of Washington, Box 351800, Seattle, WA, USA"							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Person Roles Term Accession Number								
+Normalization Type								
+Normalization Term Accession Number								
+Normalization Term Source REF								
+Replicate Type								
+Replicate Term Accession Number								
+Replicate Term Source REF								
+Experimental Design	transcription profiling by array							
+Experimental Design Term Accession Number								
+Experimental Design Term Source REF								
+Quality Control Type								
+Quality Control Term Accession Number								
+Quality Control Term Source REF								
+Protocol Name	P-GSE29814-1	P-GSE29814-6	P-GSE29814-3	P-GSE29814-8	P-GSE29814-7	P-GSE29814-2	P-GSE29814-4	P-GSE29814-5
+Protocol Description	ID_REF = <br>VALUE = log2 RMA signal intensity	"Biotin-labeled RNA was fragmented and added to standard cocktail of salts, blocking agents and bacterial RNA spikes. The cocktail was hybridized with the ATH1 Genechip at 45 degrees Celsius for 16 hours. After hybridization, the chip was stained with the biotin binding agent, streptavidin-phycoerythrin. Staining signal amplification was amplified using an anti-Streptavidin antibody (goat) and biotinylated goat IgG antibody."	"Arabidopsis seeds were surface sterilized, stratified for 2 d at 4deg C and plated onto MS plates. Seedlings were grown for 5 days at 21 deg C and a 18 h light 6 h dark light cycle."	Data were analyzed with the limma package embedded in the Robin software using RMA normalization. P-values were corrected using Benjamini Hochberg multiple testing correction.	"Arrays were scanned using the Affy 3000 7G scanner, and data extracted from the scan using Affymetrix GeneChip Expression Console with standard settings. Images processed using GeneChip Operating Software (GCOS) (Affymetrix)."	Whole seedlings were harvested at 1 pm 5 days post germination and immediately shock frozen in liquid nitrogen.	Total RNA was extracted using the Qiagen RNeasy kit according to the manufacturers protocol	cDNA was produced from RNA samples using  an oligo-dT primer. cDNA served as a template to produce amplified amounts of biotin-labeled antisense mRNA using in vitro transcription.
+Protocol Software								
+Protocol Hardware								
+Protocol Contact								
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Protocol Term Source REF								
+Protocol Term Accession Number								
+Experimental Factor Name	genotype							
+Experimental Factor Type	genotype							
+Experimental Factor Term Source REF								
+Experimental Factor Term Accession Number								
+Publication Title	Molecular profiling of stomatal meristemoids reveals new component of asymmetric cell division and commonalities among stem cell populations in Arabidopsis.							
+Publication Author List	"Pillitteri LJ, Peterson KM, Horst RJ, Torii KU."							
+PubMed ID	21963668							
+Publication DOI	10.1105/tpc.111.088583 							
+Publication Status	published							
+Publication Status Term Source REF	EFO							
+Publication Status Term Accession Number	EFO_0001796							
+Comment[SecondaryAccession]	GSE29814							
+Comment[GEOLastUpdateDate]	2011-11-10							
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[GEOReleaseDate]	2011-11-08							
+Comment[ArrayExpressSubmissionDate]	2011-06-07							
+SDRF File	E-GEOD-29814.sdrf.txt							

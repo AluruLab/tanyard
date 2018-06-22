@@ -1,0 +1,31 @@
+Comment[ArrayExpressAccession]	E-GEOD-44342						
+MAGE-TAB Version	1.1						
+Public Release Date	2014-02-07						
+Investigation Title	Effect of PCO1 overexpression [normoxia]						
+Comment[Submitted Name]	Effect of PCO1 overexpression [normoxia]						
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis rosettes from plants overexpressing Plant Cysteine Oxidase (PCO1) against wild type controls 						
+Experiment Description	The effect of the overexpression of Plant Cysteine Oxidase (PCO1) on the transcriptome of Arabidopsis rosettes was investigated. For this purpose, 4-week old rosette of wild-type and 35S:FLAG:CDO1 plants were compared. Samples were composed of a pool of 5 plants. In total, 6 samples were analyzes, subdivided in 2 thesis with 3 replicates each. 35S:PCO1 plants were compared to wild-type plants.						
+Term Source Name	ArrayExpress	EFO					
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Licausi	Weits	van Dongen	Licausi			
+Person First Name	Francesco	Daniël	Joost	Francesco			
+Person Mid Initials		A					
+Person Email	f.licausi@sssup.it						
+Person Affiliation	Scuola Superiore Sant'Anna						
+Person Address	Scuola Superiore Sant'Anna, Via Mariscolgio 34, Pisa, Italy						
+Person Roles	submitter						
+Publication Author List	Weits DA, Giuntoli B, Kosmacz M, Parlanti S, Hubberten HM, Riegler H, Hoefgen R, Perata P, van Dongen JT, Licausi F						
+Publication Title	Plant cysteine oxidases control the oxygen-dependent branch of the N-end-rule pathway.						
+PubMed ID	24599061						
+Publication DOI	10.1038/ncomms4425						
+Protocol Name	P-GSE44342-1	P-GSE44342-5	P-GSE44342-6	P-GSE44342-2	P-GSE44342-3	P-GSE44342-4	P-GSE44342-7
+Protocol Description	RMA algorithm using RobinA software (PMID:22684630) ID_REF =  VALUE = log2 RMA signal	Affymetrix standard labeling protocol	Affymetrix standard hybridization protocol	Plants were harvested at 10am in the morning, 2h after the start of the day.	Seeds were sown in 6-cm diameter pots containing moisted Arabidopsis soil. The seeds were stratified at 4 degrees C in the dark for 2 days and then the pots were moved in a growth chamber at short photoperiodic conditions (8h light 16 h darkness) with 18 degrees in the night and 22 degrees C in the day.	Total RNA was extracted from whole 5-week old plants using the RNeasy kit (Qiagen). RNA quality was assessed by agarose gel electrophoresis and spectrophotometry. RNA was processed for use on Affymetrix Arabidopsis Genome GeneChip arrays.	Affymetrix standard scan protocol
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	genotype						
+Experimental Factor Type	genotype						
+Comment[SecondaryAccession]	GSE44342						
+Comment[GEOReleaseDate]	2014-02-07						
+Comment[ArrayExpressSubmissionDate]	2013-02-15						
+Comment[GEOLastUpdateDate]	2014-02-07						
+Comment[AEExperimentType]	transcription profiling by array						
+SDRF File	E-GEOD-44342.sdrf.txt						

@@ -1,0 +1,57 @@
+Comment[ArrayExpressAccession]	E-GEOD-21684
+Public Release Date	2011-03-31
+Investigation Title	Arabidopsis seedlings collected during hypocotyl elongation and hypocotyl stasis						
+Comment[Submitted Name]	Arabidopsis seedlings collected during hypocotyl elongation and hypocotyl stasis
+Experiment Description	The hypocotyl of Arabidopsis seedlings shows rhythmic periods of elongation.  The patterns of elongation are controlled by a combination of internal factors, such as the circadian clock, and external factors such as light.  In a previous study we had found that two transcription factors, PIF4 and PIF5 are important integrators of clock and light signals for the control of elongation.  Here we use microarrays to find genes that are correlated with elongation and that are controlled by PIF4 and/or PIF5. Arabidopsis seedlings grown under short day conditions for three days were transferred to SD/3 conditions (160 min light: 320 min dark cycles) from the dawn of the fourth day.  Seedlings were then collected during periods of hypocotyl elongation and stasis for three days.  There are two types of replication: temporal and independent experiments. For temporal replication, samples collected at the same time of day on subsequent days were used as replicates.  In addition, replicate samples were collected in two independent time courses for most time points. Col and CCA1OX samples from the first time course for time points 280, 1240, 1720, 2680, 3160, and 4120 were originally deposited under GEO Series GSE6906; they have been re-analyzed for this study.  Each sample consists of multiple pooled seedlings.						
+Date of Experiment							
+Term Source Name	EFO
+Term Source Version							
+Term Source File	http://bar.ebi.ac.uk:8080/trac/browser/branches/curator/ExperimentalFactorOntology/ExFactorInOWL/currentrelease/eforelease/efo.owl						
+Person Last Name	Maloof	Nozue	Harmer	Maloof			
+Person First Name	Julin	Kazunari	Stacey	Julin			
+Person Mid Initials	N		L	N			
+Person Email	jnmaloof@ucdavis.edu						
+Person Affiliation	University of California, Davis						
+Person Phone	(530) 752-8077						
+Person Fax	(530) 752-5410						
+Person Address	Plant Biology, University of California, Davis, One Shields Ave, Davis, CA, USA						
+Person Roles	submitter						
+Person Roles Term Source REF							
+Person Roles Term Accession Number							
+Normalization Type							
+Normalization Term Accession Number							
+Normalization Term Source REF							
+Replicate Type							
+Replicate Term Accession Number							
+Replicate Term Source REF							
+Experimental Design							
+Experimental Design Term Accession Number							
+Experimental Design Term Source REF							
+Quality Control Type							
+Quality Control Term Accession Number							
+Quality Control Term Source REF							
+Protocol Name	P-GSE21684-1	P-GSE21684-6	P-GSE21684-5	P-GSE21684-3	P-GSE21684-2	P-GSE21684-4	P-GSE21684-7
+Protocol Description	ID_REF = <br>VALUE = log2 RMA signal intensity	Scanning was performed on a GCS3000 scanner	Hybridization was performed according to the EukGE-WS2v4_450 protocol	total RNA was extracted using Qiagen RNeasy Plant Mini kit and manufactuer's instructions	Plants were grown on 1X MSMO media supplemented with 3% sucrose	Biotinolyated cRNA was obtained using the protocol described by Schmid, M. et al. Nat. Genet. 37, 501-506 (2005)	Data was normalized using the rma function of the affy package in R/Bioconductor
+Protocol Software							
+Protocol Hardware							
+Protocol Contact							
+Protocol Type	bioassay_data_transformation	image_aquisition	hybridization	nucleic_acid_extraction	grow	labeling	feature_extraction
+Protocol Term Source REF							
+Protocol Term Accession Number							
+Experimental Factor Name	DAYS AFTER GERMINATION	GROWTH	MINUTES AFTER DAWN DAY 4	LIGHT	GENOTYPE		
+Experimental Factor Type	days after germination	growth	minutes after dawn day 4	light	genotype		
+Experimental Factor Term Source REF							
+Experimental Factor Term Accession Number							
+Publication Title							
+Publication Author List							
+PubMed ID							
+Publication DOI							
+Publication Status							
+Publication Status Term Source REF							
+Publication Status Term Accession Number							
+Comment[SecondaryAccession]	GSE21684						
+Comment[GEOLastUpdateDate]	2011-03-31
+Comment[AEExperimentType]	transcription profiling by array						
+Comment[GEOReleaseDate]	2011-03-30
+Comment[ArrayExpressSubmissionDate]	2010-05-04
+SDRF File	E-GEOD-21684.sdrf.txt

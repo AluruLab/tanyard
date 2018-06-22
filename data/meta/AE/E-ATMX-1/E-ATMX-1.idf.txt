@@ -1,0 +1,48 @@
+Investigation Title	Transcription profiling of Arabidopsis wild type seeds grown under sulfur-deficient conditions	
+Comment[Submitted Name]	Chiba-U Arabidopsis sulfur-starved developing seeds	
+Experimental Design	growth_condition_design	transcription profiling by array	
+Experimental Design Term Source REF	mo	EFO	
+Comment[ArrayExpressReleaseDate]	2007-06-01	
+Comment[AEMIAMESCORE]	4	
+Comment[ArrayExpressAccession]	E-ATMX-1	
+Comment[MAGETAB TimeStamp_Version]	2010-07-29 14:31:38 Last Changed Rev: 13058	
+Experimental Factor Name	growth_condition	
+Experimental Factor Type	growth_condition	
+Experimental Factor Term Source REF	
+Person Last Name	Higashi	
+Person First Name	Yasuhiro	
+Person Mid Initials	
+Person Email	higashiy@graduate.chiba-u.jp	
+Person Phone	+81-43-290-2906	
+Person Fax	+81-43-290-2905	
+Person Address	Yayoi-cho 1-33, Inage-ku	
+Person Affiliation	Graduate School of Pharmaceutical Sciences	
+Person Roles	submitter	
+Person Roles Term Source REF		
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2007-06-01	
+PubMed ID	
+Publication DOI	
+Publication Author List	
+Publication Title	
+Publication Status	
+Publication Status Term Source REF	
+Experiment Description	Comparison of Arabidopsis wild-type developing seeds grown under sulfur-deficient condition vs Arabidopsis wild-type developing seeds grown under control condition. 	
+Protocol Name	P-CAGE-24517	P-CAGE-24527	P-CAGE-24526	P-CAGE-24520	P-CAGE-24529	Affymetrix:Protocol:Hybridization-EukGE-WS2v4_450	P-AFFY-6	P-CAGE-24558	
+Protocol Type	grow	specified_biomaterial_action	specified_biomaterial_action	nucleic_acid_extraction	labeling	hybridization	feature_extraction	bioassay_data_transformation	
+Protocol Description	For two-weeks, on an agar-solidified MGRL medium containing 1.5 mM (control) or 30 uM (sulfur-deficient) sulfate as MgSO4 in a growth chamber controlled at 22 C and 16 h light cycles).  After two weeks growth, transfer the plants to rockwool bricks (Nittobo, Tokyo, Japan) in a greenhouse controlled at 22 C.  - Day cycle (sunlight and 16 h of lamps per day)  - Irrigated twice a week with a liquid medium, keeping the ratio of nutrition at 1.5 mM sulfate/ 7 mM nitrate (control) or 30 uM sulfate/ 7 mM nitrate (sulfur-deficient) in the plant pods.  	For two-weeks, on an agar-solidified MGRL medium containing  30 uM (sulfur-deficient) sulfate as MgSO4 in a growth chamber controlled at 22 C and 16 h light cycles.  After two weeks growth, transfer the plants to rockwool bricks (Nittobo, Tokyo, Japan) in a greenhouse controlled at 22 C.  Day cycle (sunlight and 16 h of lamps per day)  Irrigated twice a week with a liquid medium, keeping the ratio of nutrition at 30 uM sulfate/ 7 mM nitrate (sulfur-deficient) in the plant pods.  Harvest developing siliques at 10 and 11 day after flowering in the morning. Frozen by liquid nitrogen. Harvesting date is only once for each plant.  	For two-weeks, on an agar-solidified MGRL medium containing 1.5 mM (control) sulfate as MgSO4 in a growth chamber controlled at 22 C and 16 h light cycles.  After two weeks growth, transfer the plants to rockwool bricks (Nittobo, Tokyo, Japan) in a greenhouse controlled at 22 C.  Day cycle (sunlight and 16 h of lamps per day)  Irrigated twice a week with a liquid medium, keeping the ratio of nutrition at 1.5 mM sulfate/ 7 mM nitrate (control) in the plant pods.  Harvest developing siliques at 10 and 11 day after flowering in the morning. Frozen by liquid nitrogen. Harvesting date is only once for each plant.  	After the removal of seed pods in liquid nitrogen, extraction of total RNA was performed according to the seed sample information of AtGenExpress (http://www.genomforschung.uni-bielefeld.de/GF-research/AtGenExpress-SeedsSiliques.html) which is modified protocol of Ruuska and Ohlrogge (BioTechniques, 31, 752-758 (2001)).  	Labeled target cRNA was prepared according to the GeneChip Expression Analysis Technical Manual (701025 Rev. 3) of Arabidopsis Genome ATH1 DNA array (Affymetrix, Santa Clara, CA, USA).  - Double-stranded cDNA was prepared from 12 ug of total RNA.  - Double strand cDNA synthesis using SuperScript Choice System (Invitrogen, Carlsbad, CA, USA)  - Synthesis of biotin-labeled cRNA through in vitro transcription using BioArray HighYield RNA Transcript Kit (Enzo, New York, NY, USA) - Purification labeled cRNA with RNeasy column (Qiagen, Hilden, Germany) - Fragmentation of labeled cRNA. 94 C, 35 min in Fragmentation Buffer (Affymetrix).  	Title: Affymetrix EukGE-WS2v4_450 Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	GeneSpring 7.0 (Silicon Genetics, Redwood City, CA, USA)  The minus values of difference between back-ground to signal were converted to 0.01 signal value. Perform per chip normalization with the median of all measurements on the chip. To reduce false positives, genes with present or marginal values in the absolute call of the baseline data in all array sets were selected for the analysis.	
+Protocol Parameters	night humidity;media;light hours;night temperature;light intensity;day humidity;day temperature;light source;			Extracted product;Amplification;	Amount of nucleic acid labeled;Used Label;Amplification;	
+Protocol Hardware	
+Protocol Software							MicroArraySuite 5.0	
+Protocol Contact	
+Protocol Term Source REF		mo	mo			mo		The MGED Ontology	
+SDRF File	E-ATMX-1.sdrf.txt	
+Term Source Name	Plant Ontology		ncbitax	ArrayExpress	mo	EFO	The MGED Ontology	
+Term Source File	http://www.plantontology.org/		http://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version								

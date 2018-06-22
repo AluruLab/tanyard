@@ -1,0 +1,26 @@
+Comment[ArrayExpressAccession]	E-GEOD-70843						
+MAGE-TAB Version	1.1						
+Public Release Date	2015-07-14						
+Investigation Title	Genome-wide expression analysis of bri1-5 and its suppressors brs1-1D, bak1-1D, bri1-1D						
+Comment[Submitted Name]	Genome-wide expression analysis of bri1-5 and its suppressors brs1-1D, bak1-1D, bri1-1D						
+Experiment Description	bri1-5 is a weak mutant of Brassinosteroid Insensitive 1 (BRI1). Suppressors by activation tagging bri1-1D, brs1-1D and bak1-1D can recover bri1-5 phenotype. We use microarray to investigate which pathways or functional categories have been transcriptionally regulated by bri1-1D, brs1-1D and bak1-1D. Whole seedlings from wild-type (WS2), bri1-5, bri1-5/brs1-1D, bri1-5/bak1-1D, bri1-5/bri1-1D. Three biological replicates for each genotype.						
+Term Source Name	ArrayExpress	EFO					
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Shi	Shi	Zhang	Gou	Li		
+Person First Name	Tao	Tao	Dongzhi	Xiaoping	Jia		
+Person Email	taoshi323@gmail.com						
+Person Affiliation	Lanzhou University						
+Person Phone	8613971073990						
+Person Address	School of Life Sciences, Lanzhou University, 222 South Tianshui Road, Lanzhou, Gansu, China						
+Person Roles	submitter						
+Protocol Name	P-GSE70843-1	P-GSE70843-5	P-GSE70843-6	P-GSE70843-2	P-GSE70843-3	P-GSE70843-4	P-GSE70843-7
+Protocol Description	The data were analyzed with EXPANDAR 6.0 and gc-RMA normalization method. ID_REF =  VALUE = log2 (gc-RMA)	Biotinylated cRNA were prepared according to the standard Affymetrix protocol	20 ug of biotin labeled cRNA were hybridized with Arabidopsis ATH1 genome array, according to the Affymetrix manufacturer's instruction.	The 5-days light-grown seedlings were frozen in liquid nitrogen	Seedlings were grown on solid MS medium with 1% sucrose in the light for 5 days.	Total RNA was extracted with RNeasy (QIAGEN)	Scanning of Arrays by Agilent GeneArray Scanner.
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	genotype						
+Experimental Factor Type	genotype						
+Comment[SecondaryAccession]	GSE70843						
+Comment[GEOReleaseDate]	2015-07-14						
+Comment[ArrayExpressSubmissionDate]	2015-07-13						
+Comment[GEOLastUpdateDate]	2015-07-15						
+Comment[AEExperimentType]	transcription profiling by array						
+SDRF File	E-GEOD-70843.sdrf.txt						

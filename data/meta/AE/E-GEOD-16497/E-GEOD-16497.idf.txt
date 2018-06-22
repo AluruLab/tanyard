@@ -1,0 +1,52 @@
+Investigation Title	Arabidopsis thaliana gene expression changes upon treatment with green peach aphid saliva					
+Comment[Submitted Name]	Arabidopsis thaliana gene expression changes upon treatment with green peach aphid saliva					
+Experimental Design	unknown_experiment_design_type	transcription profiling by array				
+Experimental Design Term Source REF		EFO				
+Comment[AEExperimentType]	transcription profiling by array					
+Comment[AEExperimentDisplayName]	Arabidopsis thaliana gene expression changes upon treatment with green peach aphid saliva					
+Comment[AEMIAMESCORE]	4					
+Comment[SecondaryAccession]	GSE16497					
+Comment[ArrayExpressReleaseDate]	2009-06-23					
+Comment[ArrayExpressAccession]	E-GEOD-16497					
+Comment[MAGETAB TimeStamp_Version]	2010-08-02 18:02:54 Last Changed Rev: 13058					
+Experimental Factor Name	treatment					
+Experimental Factor Type	treatment					
+Experimental Factor Term Source REF						
+Person Last Name	Jander					
+Person First Name	Georg					
+Person Mid Initials						
+Person Email	gj32@cornell.edu					
+Person Phone						
+Person Fax						
+Person Address	"Boyce Thompson Institute for Plant Research, 1 Tower Rd, Ithaca, 14853, USA"					
+Person Affiliation	Boyce Thompson Institute for Plant Research					
+Person Roles	submitter					
+Person Roles Term Source REF	The MGED Ontology					
+Quality Control Type						
+Quality Control Term Source REF						
+Replicate Type						
+Replicate Term Source REF						
+Normalization Type						
+Normalization Term Source REF						
+Date of Experiment						
+Public Release Date	2009-06-23					
+PubMed ID	19558622					
+Publication DOI	10.1111/j.1365-3040.2009.02019.x					
+Publication Author List	"De Vos M, Jander G"					
+Publication Title	Myzus persicae (green peach aphid) salivary components induce defence responses in Arabidopsis thaliana					
+Publication Status	published					
+Publication Status Term Source REF	EFO					
+Publication Status Term Accession Number	EFO_0001796					
+Experiment Description	"Myzus persicae (green peach aphid) feeding on Arabidopsis thaliana induces a defense response, quantified as reduced aphid progeny production, in infested leaves but not in other parts of the plant. Similarly, infiltration of aphid saliva into Arabidopsis leaves causes only a local increase in aphid resistance. Further characterization of the defense-eliciting salivary components indicates that Arabidopsis recognizes a proteinaceous elicitor with a size between 3 to 10 kD. Genetic analysis using well-characterized Arabidopsis mutant shows that saliva-induced resistance against M. persicae is independent of the known defense signaling pathways involving salicylic acid, jasmonate, and ethylene. Among 78 Arabidopsis genes that were induced by aphid saliva infiltration, 52 had been identified previously as aphid-induced, but few are responsive to the well-known plant defense signaling molecules salicylic acid and jasmonate. Quantitative PCR analysis confirms expression of saliva-induced genes. In particular, expression of a set of O-methyltransferases, which may be involved in the synthesis of aphid-repellent glucosinolates, was significantly up-regulated by both M. persicae feeding and treatment with aphid saliva. However, this did not correlate with increased production of 4-methoxyindol-3-ylmethylglucosinolate, suggesting that aphid salivary components trigger an Arabidopsis defense response that is independent of this aphid-deterrent glucosinolate. Experiment Overall Design: 3 biological replicates (control and treatment). Total number of samples: 6."					
+Protocol Name	P-G16497-2	P-G16497-1	P-G16497-4	P-G16497-3	P-AFFY-6	
+Protocol Type	specified_biomaterial_action	grow	nucleic_acid_extraction	labeling	feature_extraction	
+Protocol Description	"Fifty aphids were allowed to feed from 50 Î¼L artificial diet containing sucrose and amino acids (Kim & Jander, 2007) between two layers of Parafilm (Alcan Packaging). After 24 h, artificial diet from 20 aphids and control (0 aphids) diet cups was collected and infiltrated into leaves of intact Arabidopsis plants using a 1-mL syringe without the needle. Plants for control diet and aphid saliva containing diet were grown in the same pot to allow for a paired comparison. Eighteen leaves (3 leaves from 6 plants) treated with control and aphid saliva containing diet were harvested and immediately frozen in liquid nitrogen. This experiment was repeated 3 times to function as independent biological replicates."	"Plants: Seeds of wild-type Arabidopsis (Arabidopsis thaliana) land race Columbia-0 (Col-0) were obtained from the Arabidopsis Biological Resource Center. Seeds were kept in 0.1% Phytagar (Invitrogen, Carlsbad, CA) for 24 h at 4Â°C prior to planting on Cornell mix (Landry, Chapple & Last, 1995) with Osmocoat fertilizer (Scotts). Plants were grown in Conviron growth chambers in 20x40 cm nursery flats at a photosynthetic photon flux density of 200 mmol/m2s and a 16h photoperiod. The temperature in the chambers was 23Â°C and the relative humidity was 50%. Unless stated differently, plants were grown for 3 weeks and used in experiments before flowering. Aphids: All experiments were conducted with a tobacco-adapted red lineage of M. persicae. Aphids were raised on cabbage (Brassica oleracea var. Wisconsin Golden Acre; Seedway) with a 16h day (150 mmol/m2s at 24Â°C) and an 8h night (19Â°C) at 50% relative humidity."	"RNA was extracted using the Qiagen Plant RNeasy kit (Qiagen, Valencia, CA, USA). RNA quality and quantity was assessed with an Agilent BioAnalyser 2100 (Agilent, Santa Clara, CA, USA)."	"Samples were processed by the Cornell Microarray facility. Whole genome gene expression profiling was done using Affymetrix ATH1 GeneChips. Briefly, plant mRNA was converted into cRNA, labeled and hybridized to the ATH1 GeneChips."	Title: Affymetrix CEL analysis. Description: 	
+Protocol Parameters						
+Protocol Hardware						
+Protocol Software					MicroArraySuite 5.0	
+Protocol Contact						
+Protocol Term Source REF						
+SDRF File	E-GEOD-16497.sdrf.txt					
+Term Source Name	NCBI Taxonomy		The MGED Ontology	ArrayExpress	EFO	The MGED Ontology
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version						

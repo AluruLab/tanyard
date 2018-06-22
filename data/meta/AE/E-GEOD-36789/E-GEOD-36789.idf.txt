@@ -1,0 +1,30 @@
+Comment[ArrayExpressAccession]	E-GEOD-36789									
+MAGE-TAB Version	1.1									
+Public Release Date	2012-09-19									
+Investigation Title	Transcriptome Profiling of Roots and leaves Under High Osmotic Stress in Arabidopsis									
+Comment[Submitted Name]	Transcriptome Profiling of Roots and leaves Under High Osmotic Stress in Arabidopsis									
+Experiment Description	The functions of miRNAs and their target mRNAs in Arabidopsis development have been widely documented, however, roles of stress responsive miRNAs and their targets are not as well understood. Using small RNA deep sequencing and ATH1 microarrays to profile mRNAs, we identified IAR3 (IAA-Ala Resistant 3) as a novel target of miR167a. 2 organs X 3 treatments X 3 replicates  This submission represnts ATH1 microarrays component of study.									
+Term Source Name	ArrayExpress	EFO								
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl								
+Person Last Name	Liu	Kinoshita	Wang	Kasahara	Liu	MacPherson	Machida	Kamiya	Hannahm	Chua
+Person First Name	Jun	Natsuko	Huan	Hiroyuki	Jun	Cameron	Yasunori	Yuji	Matthew	Nam-Hai
+Person Mid Initials									A	
+Person Email	jliu@rockefeller.edu									
+Person Affiliation	The Rockefeller University									
+Person Address	Laboratory of Plant Molecular Biology, The Rockefeller University, 1230 York Avenue, New York, NY, USA									
+Person Roles	submitter									
+Protocol Name	P-GSE36789-1	P-GSE36789-6	P-GSE36789-3	P-GSE36789-8	P-GSE36789-7	P-GSE36789-2	P-GSE36789-4	P-GSE36789-5		
+Protocol Description	ID_REF =  VALUE = normalized data	Probe synthesis, hybridization and scanning of all arrays were carried out at the Genomics Resource Center in the Rockefeller University following the manufacturer’s manual (Affymetrix).	Arabidopsis thaliana ecotype Columbia-0 was used as Wild-type.For hydroponic culture, WT seeds after a 3-day cold treatment at 4degreeC were sowed on rock wool (Grodan Inc.) pre-soaked in MGRL media. In short, plants were grown at 22degreeC with a 150 μmol m-2 S-1 fluorescence rate and under 12 hour / 12 hour light dark cycle in MGRL hydroponic medium.	Background correction was performed as described by Irizarry et al. (2003). Quantile normalization was performed as described by Bolstad et al (2003). Finally, probes were summarized into single gene expression (probe-set) values on a per chip basis using the medianpolish algorithm (Tukey, 1977).	Probe synthesis, hybridization and scanning of all arrays were carried out at the Genomics Resource Center in the Rockefeller University following the manufacturer’s manual (Affymetrix).	Thirty-day-old plants were then subjected to high osmotic stress by adding 0.3M mannitol to the basal MGRL medium for 3 hr in the light. Recovery plants were transfer back to the MGRL medium for 1 day after stress treatment and sampled.	Each array probe for Arabidopsis Genechip ATH1 was synthesized from 1 μg total RNA extracted by RNA easy extraction kit (Qiagen). Eighteen individual Genechip probes with three biological replicates for CL (Col Leaf), CR (Col Root), OL (Osmotic stressed Leaf), OR (Osmotic stressed Root), RL (Recovery Leaf), and RR (Recovery Root).	Probe synthesis, hybridization and scanning of all arrays were carried out at the Genomics Resource Center in the Rockefeller University following the manufacturer’s manual (Affymetrix).		
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_acquisition	specified_biomaterial_action	nucleic_acid_extraction	labelling		
+Experimental Factor Name	organism part	growth condition								
+Experimental Factor Type	organism part	growth condition								
+Publication Title	IAA-Ala Resistant3, an Evolutionarily Conserved Target of miR167, Mediates Arabidopsis Root Architecture Changes during High Osmotic Stress.									
+Publication Author List	Kinoshita N, Wang H, Kasahara H, Liu J, Macpherson C, Machida Y, Kamiya Y, Hannah MA, Chua NH									
+PubMed ID	22960911									
+Publication DOI	10.1105/tpc.112.097006									
+Comment[SecondaryAccession]	GSE36789									
+Comment[GEOReleaseDate]	2012-09-19									
+Comment[ArrayExpressSubmissionDate]	2012-03-26									
+Comment[GEOLastUpdateDate]	2012-09-19									
+Comment[AEExperimentType]	transcription profiling by array									
+SDRF File	E-GEOD-36789.sdrf.txt									

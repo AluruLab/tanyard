@@ -1,0 +1,29 @@
+Comment[ArrayExpressAccession]	E-GEOD-62180						
+MAGE-TAB Version	1.1						
+Public Release Date	2014-10-09						
+Investigation Title	Expression data from Arabidopsis rosette leaves						
+Comment[Submitted Name]	Expression data from Arabidopsis rosette leaves						
+Experiment Description	The focus of this study was to identify changes in host gene expression induced by the transcription-dependent function of the viral AC2 protein, and induced by the interaction of AC2/C2 with SnRK1.2 (AtAKIN11). We used microarrays to identify changes in host gene expression induced by the transcription-dependent function of the geminivirus-encoded AC2 protein, and induced by the interaction of AC2 with a host serine-threonine kinase, SnRK1. Distinct classes of genes were up- and down regulated during this process. For experiment 1, Arabidopsis rosette leaves were infused with Agrobacterium capable of expressing full-length Cabbage leaf curl virus (CaLCuV) AC2 protein, a truncated version of AC2 lacking the C-terminal 29 amino acids (AC2del), or an empty vector control (530). In experiment 2, Arabidopsis rosette leaves were infused with Agrobacterium capable of expressing full-length Spinach curly top virus C2 protein, a truncated version of C2 lacking the C-terminal 29 amino acids (C2del), antisense (as) SnRK1.2 (AsAKIN11), or an empty vector control (530). Infused Arabidopsis rosette leaves were selected at 1, 2 or 3 days post-infusion for RNA extraction and hybridization on Affymetrix microarrays. We sought to obtain homogeneous populations of plants at each time point in order to increase the temporal resolution of expression profiles. To that end, we isolated total RNA from four individual plants, for three independent sets of plants infused with the different constructs. This resulted in three independent samples per treatment per time point.						
+Term Source Name	ArrayExpress	EFO					
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Sunter	Sunter	Ruan				
+Person First Name	Garry	Garry	Jianhua				
+Person Email	garry.sunter@utsa.edu						
+Person Affiliation	The University of Texas at San Antonio						
+Person Address	Biology, The University of Texas at San Antonio, One UTSA Circle, San Antonio, TX, USA						
+Person Roles	submitter						
+Protocol Name	P-GSE62180-1	P-GSE62180-5	P-GSE62180-6	P-GSE62180-2	P-GSE62180-3	P-GSE62180-4	P-GSE62180-7
+Protocol Description	The data were analyzed with pre-processed and normalized using the Robust Multi-array Average (RMA) procedure in MATLAB Bioinformatics Toolbox. ID_REF =  VALUE = signal intensity	Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 10 ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).	Following fragmentation, 15 ug of cRNA were hybridized for 16 hr at 45C on Affymetrix ATH1 GeneChips (Affymetrix P/N 510690). GeneChips were washed and stained in the Affymetrix Fluidics Station 400.	Arabidopsis rosette leaves were harvested and ground in liquid nitrogen prior to addition of Plant rNA Reagent (Invitrogen Corporation, Carlsbad, CA).	Arabidopsis Col-0 plants were sprinkled with water prior to infiltration and whole plants submerged in the Agrobacterium culture ensuring all rosette leaves were submerged in the solution. Vacuum was drawn for 20-30 min at a pressure of approximately 0.05 Bar. Plants were removed from the beaker, replanted into moist soil, covered and placed in a growth chamber under long day conditions (16 h light and 8 h dark) and incubated at 21degreeC.	Plant RNA Reagent extraction of total RNA was performed according to the manufacturer's instructions.	GeneChips were scanned using the Agilent GeneArray Scanner.
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	treatment	time					
+Experimental Factor Type	treatment	time					
+Comment[SecondaryAccession]	GSE62180						
+Comment[GEOReleaseDate]	2014-10-09						
+Comment[ArrayExpressSubmissionDate]	2014-10-08						
+Comment[GEOLastUpdateDate]	2014-10-09						
+Comment[AEExperimentType]	transcription profiling by array						
+Publication Title	Altered expression of Arabidopsis genes in response to a multifunctional geminivirus pathogenicity protein						
+Publication Author List	Liu L, Chung HY, Lacatus G, Baliji S, Ruan J, Sunter G						
+Publication DOI	10.1186/s12870-014-0302-7						
+Pubmed ID	25403083						
+SDRF File	E-GEOD-62180.sdrf.txt						

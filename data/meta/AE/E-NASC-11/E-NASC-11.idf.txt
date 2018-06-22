@@ -1,0 +1,48 @@
+Investigation Title	Transcription profiling of interaction of two known influences on stomatal numbers in Arabidopsis, light and CO2, on one specific ecotype, Col-0	
+Comment[Submitted Name]	Bird: Characterisation of the genetic basis of changes in stomatal numbers at elevated atmospheric carbon dioxide concentrations	
+Experimental Design	growth_condition_design	transcription profiling by array	
+Experimental Design Term Source REF	mo	EFO	
+Comment[ArrayExpressReleaseDate]		
+Comment[AEMIAMESCORE]	3	
+Comment[ArrayExpressAccession]	E-NASC-11	
+Comment[MAGETAB TimeStamp_Version]	2010-08-11 19:00:40 Last Changed Rev: 13058	
+Experimental Factor Name	light	atmosphere	
+Experimental Factor Type	light	atmosphere	
+Experimental Factor Term Source REF	
+Person Last Name	Bird	unknown	
+Person First Name	Susannah	unknown	
+Person Mid Initials	
+Person Email	f.i.woodward@sheffield.ac.uk	
+Person Phone	(0114) 222 4649	+44 (0)115 951 3091	
+Person Fax		+44 (0)115 951 3297	
+Person Address	Animal and Plant Science Department Alfred Denny Building Western Bank Sheffield  S10 2TN UK 	Plant Science Division, School of Biosciences, University of Nottingham, Sutton Bonnington Campus, Loughborough LE12 5RD, UK	
+Person Affiliation	Animal and Plant Science Department	
+Person Roles	investigator;biosource_provider;submitter	
+Person Roles Term Source REF	mo	
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	
+PubMed ID	
+Publication DOI	
+Publication Author List	
+Publication Title	
+Publication Status	
+Publication Status Term Source REF	
+Experiment Description	Atmospheric CO2 concentrations can determine the number of stomata that form on plant leaves (Woodward & Kelly 1995 New Phyt 131: 311-327). The majority of species exhibit reduced stomatal densities at elevated CO2. However, not all plant species react in the same way to elevated CO2 levels and there is a spectrum of effects:  Some species increase stomatal densities, some decrease stomatal densities, and some are unaffected.  In addition to which, other environmental factors influence the number of stomata that a plant form.  Light intensity has also been shown to affect stomatal numbers in various Arabidopsis ecotypes (Schluter et al. 2003 J Exp Bot 54 (383): 867-874; Lake et al. 2002 J Exp Bot 53 (367): 183-193), by increasing stomatal numbers with increasing light levels.  There are many changes in gene expression under elevated CO2 conditions, so pinpointing specific genes involved in the stomatal response to CO2 is difficult.  In addition, if there is crosstalk between the various signalling pathways affecting ultimate stomatal numbers this complicates further the task of finding genes specifically involved the stomatal response to CO2.  Therefore we propose to look at the interaction of two known influences on stomatal numbers, light and CO2, on one specific ecotype, Col-0.  We aim to test the hypothesis that light signals interact the CO2 signals that affect stomatal development.  Arabidopsis thaliana Columbia-0 ecotype has previously been shown to decrease stomatal numbers in response to a doubling of ambient CO2 concentrations.  Col-0 has also been shown to increase stomatal numbers in response to high light intensities.  Therefore we propose to grow A. thaliana Col-0 at three light intensities (50 mmol m-2 s-1, 150 mmol m-2 s-1 and 250 mmol m-2 s-1), in both ambient and elevated (double ambient) atmospheric CO2 concentrations.  By looking in more detail at how gene expression differs between plants grown at ambient and elevated CO2 at the same light intensities, and also how gene expression differs between plants grown at the same CO2 concentration but different light intensities, we aim to identify those genes involved in the stomatal developmental response to CO2 and whether genes involved in the light response can also be isolated.	
+Protocol Name	NASCGrowProt:366	NASCGrowProt:367	NASCGrowProt:364	NASCGrowProt:365	NASCGrowProt:362	NASCGrowProt:363	NASCExtractProtocol:1	NASCLabelProtocol:1	Affymetrix:Protocol:Hybridization-EukGE-WS2v4	Affymetrix:Protocol:Percentile	Affymetrix:Protocol:ExpressionStat	
+Protocol Type							nucleic_acid_extraction	labeling	hybridization	feature_extraction	bioassay_data_transformation	
+Protocol Description							Protocol: Qiagen RNAeasy kit protocol 	RNA samples were quality controlled using the Agilent 2100 Bioanalyzer. 100 pmol T7-(dT)24 primer (5'-GGCCAGTGAATTGTAATACGACTCACTATAGGGAGGCGG-(dT)24-3')  was hybridized with the Total RNA ( 8 - 12ug) at 70ÃÂ°C for 10 minutes.  First strand cDNA was synthesized by reverse transcription using 400 units SuperScript II Reverse Transcriptase in a reaction containing 50 mM Tris-HCl (pH 8.3), 75 mM KCl, 3 mM MgCl2, 10 mM dithiothreitol (DTT) and 0.5 mM dNTPs at 42C for 1 hour.  The reaction was then put on ice for 2 mins, followed by second strand cDNA synthesis.  130ul of the second strand reaction mix was added to the 20ul  first strand synthesis reaction. The second strand reaction mix  contained 40 units E. coli DNA polymerase I, 10 units E. coli DNA ligase, 2 units  E. coli RNase H and 0.2 mM dNTPs in a buffer containing 20 mMTris-HCl (pH 6.9), 90 mM KCl, 4.6 mM MgCl2, 10mM (NH4)SO4 and 0.15 mM ÃÂ-NAD+. The reaction was incubated at 16 C for 2 hours.  10 units T4 DNA Polymerase was added and the reaction incubated for a further 5 minutes at 16 C, then the reaction was terminated using EDTA.  The double-stranded cDNA was cleaned up using the cDNA Cleanup Spin Column supplied in the Affymetrix GeneChip Sample Cleanup Module.  The double-stranded cDNA was used as a template for in Vitro transcription of biotin-labeled cRNA using the ENZO BioArray RNA Transcript Labeling Kit supplied by Affymetrix.  The Transcript Labeling kit produces large amounts of hybridizable biotin-labeled RNA targets by in Vitro transcription from bacteriophage T7 RNA polymerase promoters.  The reaction mixture containing Biotin-Labeled ribonucleotides (ATP, GTP, CTP, UTP with Bio-UTP and Bio-CTP), DTT, RNase inhibitor mix and T7 RNA polymerase was incubated at 37 C for 5 hrs, gently mixing every 30 minutes during the incubation. This produced an average of 40ug biotin-labeled cRNA . The biotin-labeled cRNA  was cleaned up using the cRNA Cleanup Spin Column supplied in the Affymetrix GeneChip Sample Cleanup Module.  The quantity and quality of the cRNA was measured using the Agilent 2100 Bioanalyzer. The total amount of cRNA was calculated, the starting quantity of RNA subtracted to give the quantity of adjusted cRNA.  The cRNA was fragmented by metal-induced hydrolysis to break down full-length cRNA to 35-200 base fragments.  15ug of adjusted cRNA was used to prepare 300ul of hybridization cocktail of which 200ul was hybridized with the GeneChip.	Title: Fluidics Station Protocol. Description: 	Title: Affymetrix CEL Analysis (Percentile). Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 	
+Protocol Parameters	Lighting;Temperature;Treatment;Medium;Water;Nutrients;Stratification;location;Humidity;Atmosphere;	Medium;Treatment;Temperature;Lighting;Stratification;Nutrients;Water;Atmosphere;Humidity;location;	Stratification;Water;Nutrients;Treatment;Medium;Lighting;Temperature;Humidity;Atmosphere;location;	Temperature;Lighting;Medium;Treatment;Nutrients;Water;Stratification;location;Atmosphere;Humidity;	Stratification;Water;Medium;Lighting;Nutrients;Treatment;Atmosphere;location;Temperature;Humidity;	Stratification;Nutrients;Water;Medium;Treatment;Temperature;Lighting;Atmosphere;Humidity;location;	
+Protocol Hardware	
+Protocol Software									MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact	
+Protocol Term Source REF											The MGED Ontology	
+SDRF File	E-NASC-11.sdrf.txt	
+Term Source Name	nasc	ncbitax	ArrayExpress	mo	EFO	The MGED Ontology	
+Term Source File	http://arabidopsis.info/catalogue.html	http://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version							

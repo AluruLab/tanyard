@@ -1,0 +1,28 @@
+Comment[ArrayExpressAccession]	E-GEOD-61408
+MAGE-TAB Version	1.1						
+Public Release Date	2015-01-15
+Investigation Title	Auxin Induced Endodermal to QC Transdifferentiation Time Series and Downsteam of JKD Analysis						
+Comment[Submitted Name]	Auxin Induced Endodermal to QC Transdifferentiation Time Series and Downsteam of JKD Analysis
+Experiment Description	First series collects endodermal cells using the SCR::GFP promoter after treatment with auxin Second series includes comparative samples of jkd vs. wild type plants for specific tissues; QC and meristem In first series, plants are grown under normal conditions, then transferred to auxin analog 2,4-D and endodermis is collected at time points 0hrs, 24hrs, 48hrs, 72hrs, 96 hrs.						
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Birnbaum	Birnbaum	Yuan				
+Person First Name	Kenneth	Ken	Shuai				
+Person Mid Initials	David						
+Person Email	ken.birnbaum@nyu.edu						
+Person Affiliation	New York University						
+Person Phone	212-998-8257						
+Person Address	Biology, New York University, 12 Waverly Place, New York, NY, USA						
+Person Roles	submitter						
+Protocol Name	P-GSE61408-1	P-GSE61408-5	P-GSE61408-6	P-GSE61408-2	P-GSE61408-3	P-GSE61408-4	P-GSE61408-7
+Protocol Description	Data were normalized using the MAS 5.0 method with a scaling factor of 250. Analysis included only transcripts determined to be present (average expression of >=50 at any time point, as determined by empirical analysis). ID_REF =  VALUE = scaling factor=250; minimal present expression >=50	RNA quality and quantity was assessed using the Bioanalyzer (Agilent Technologies) and amplified and labeled using the WT-Ovation Pico RNA Amplification System and FL-Ovation cDNA Biotin Module V2, respectively (Nugen Technologies).	Labeled cDNA was hybridized, washed, and stained on an ATH-121501 Arabidopsis microarray using a Hybridization Control Kit, GeneChipHybridization, Wash, and Stain Kit, GeneChip Fluidics Station 450	For auxin treatments, two days after germination, plants were transferred to 1uM 2,4-D medium and treated for 0 to 4 days. Root tips were harvested by cutting at 250 μM from the distal tip under the dissecting microscope using superfine scissors. Root tips were released in protoplast solution immediately after cutting and GFP positive cells were sorted.	For transdifferentiation time series’,plants were grown for twos day post germination seedlings before treatments began. All plants were grown on square plates. For meristem and QC profiles based on pWOX5:GFP in wild type and jkd backgrounds, we collected roots three days after germination and sorted GFP positive cells following protocols in Nawy et al. (2005).	Protoplasts were sorted directly into RNA extraction buffer, and RNA was extracted using the RNeasy Micro Kit with DNase treatment according to the instructions of the manufacturer (Qiagen).	Standard scanning conditions were used on the GeneChip Scanner (Affymetrix).
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	age	organism part					
+Experimental Factor Type	age	organism part					
+Comment[SecondaryAccession]	GSE61408						
+Comment[GEOReleaseDate]	2015-01-15						
+Comment[ArrayExpressSubmissionDate]	2014-09-15						
+Comment[GEOLastUpdateDate]	2015-01-16						
+Comment[AEExperimentType]	transcription profiling by array						
+Comment[AdditionalFile:Data1]	GSE61408_normalized_data_matrix.txt						
+SDRF File	E-GEOD-61408.sdrf.txt

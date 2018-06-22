@@ -1,0 +1,52 @@
+Investigation Title	Transcription profiling by array of Arabidopsis wild type and RETINOBLASTOMA-RELATED (RBR) RNAi plants (early timepoints)							
+Comment[Submitted Name]	RBR2009							
+Experimental Design	time_series_design	cellular_modification_design	co-expression_design	all_pairs	transcription profiling by array			
+Experimental Design Term Source REF	The MGED Ontology		The MGED Ontology		EFO			
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis with RNAi-mediated knockdown of RBR after treatment with beta estradiol							
+Comment[ArrayExpressReleaseDate]	2010-12-14							
+Comment[SecondaryAccession]								
+Comment[AEMIAMESCORE]	4							
+Comment[ArrayExpressAccession]	E-TABM-918							
+Comment[MAGETAB TimeStamp_Version]	2010-10-14 08:51:58 Last Changed Rev: 14677							
+Experimental Factor Name	GENOTYPE	TREATMENT						
+Experimental Factor Type	genotype	treatment						
+Experimental Factor Term Source REF								
+Person Last Name	Hennig							
+Person First Name	Lars							
+Person Mid Initials								
+Person Email	lhennig@ethz.ch							
+Person Phone								
+Person Fax								
+Person Address								
+Person Affiliation	ETH Zurich							
+Person Roles	submitter							
+Person Roles Term Source REF	The MGED Ontology							
+Quality Control Type	biological_replicate							
+Quality Control Term Source REF	The MGED Ontology							
+Replicate Type								
+Replicate Term Source REF								
+Normalization Type								
+Normalization Term Source REF								
+Date of Experiment								
+Public Release Date	2010-12-14							
+PubMed ID	20525851							
+Publication DOI	10.1105/tpc.110.074591 							
+Publication Author List	Borghi L, Gutzat R, Fütterer J, Laizet Y, Hennig L, Gruissem W.							
+Publication Title	Arabidopsis RETINOBLASTOMA-RELATED (RBR) is required for stem cell maintenance, cell differentiation and lateral organ production							
+Publication Status	published							
+Publication Status Term Source REF	EFO							
+Publication Status Term Accession Number	EFO_0001796							
+Experiment Description	RNA was labeled and hybridized to ATH1 arrays.							
+Protocol Name	P-TABM-4746	P-TABM-4743	P-TABM-4745	P-TABM-4742	P-TABM-4744	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6	
+Protocol Type	specified_biomaterial_action	grow	pool	nucleic_acid_extraction	labeling	hybridization	feature_extraction	
+Protocol Description	Plants were sprayed with 5uM beta-estradiol in water.	Plants were grown in growth chambers at 70% humidity and daily cycles of 16 h light and 8 h darkness at the specified temperature.	plant material of the specified number of plants was pooled per replicate	Total RNA was using TRIzol reagent (Invitrogen, Carlsbad, CA) following the manufacturer's instruction. The quality of the isolated RNA was determined with a NanoDrop ND 1000 (NanoDrop Technologies, Delaware, USA) and a Bioanalyzer 2100 (Agilent, Waldbronn, Germany). Only samples with a 260 nm/280 nm ratio between 1.82.1 and a 28S/18S ratio within 1.52 were processed further.	One-Cycle cDNA Synthesis Kit (Affymetrix, P/N 900431, Santa Clara, CA)	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	
+Protocol Parameters		growth_temperature;						
+Protocol Hardware								
+Protocol Software						MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact								
+Protocol Term Source REF						mo		
+SDRF File	E-TABM-918.sdrf.txt							
+Term Source Name	NCBI Taxonomy		po	The MGED Ontology	ArrayExpress	The MGED Ontology	EFO	mo
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://www.plantontology.org	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version								

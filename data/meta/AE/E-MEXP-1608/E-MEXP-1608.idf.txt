@@ -1,0 +1,51 @@
+Investigation Title	Transcription profiling by array of Arabidopsis hy1 mutants treated with the germination stimulant GR24							
+Comment[AdditionalFile:XLS]	E-MEXP-1608.hybs.xls							
+Comment[Submitted Name]	McCourt - Arabidopsis - hy1 mutant							
+Experimental Design	dose_response_design	replicate_design	compound_treatment_design	co-expression_design	transcription profiling by array			
+Experimental Design Term Source REF		mo	mo	mo	EFO			
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[SecondaryAccession]								
+Comment[ArrayExpressReleaseDate]	2008-10-21							
+Comment[AEMIAMESCORE]	4							
+Comment[ArrayExpressAccession]	E-MEXP-1608							
+Comment[MAGETAB TimeStamp_Version]	2010-08-09 22:53:39 Last Changed Rev: 13058							
+Experimental Factor Name	genotype	compound	dose					
+Experimental Factor Type	genotype	compound	dose					
+Experimental Factor Term Source REF								
+Person Last Name	Vidaurre							
+Person First Name	Danielle							
+Person Mid Initials								
+Person Email	danielle.vidaurre@utoronto.ca							
+Person Phone	416-978-0837							
+Person Fax								
+Person Address	25 Willcocks St, Toronto, Ontario, M5S 3B2, Canada							
+Person Affiliation	University of Toronto							
+Person Roles	submitter							
+Person Roles Term Source REF	The MGED Ontology							
+Quality Control Type	biological_replicate							
+Quality Control Term Source REF	The MGED Ontology							
+Replicate Type								
+Replicate Term Source REF								
+Normalization Type								
+Normalization Term Source REF								
+Date of Experiment								
+Public Release Date	2008-10-21							
+PubMed ID								
+Publication DOI								
+Publication Author List								
+Publication Title	A role for strigolactones in germination and early seedling development in Arabidopsis							
+Publication Status								
+Publication Status Term Source REF								
+Experiment Description	Effect of the germination stimulant GR24 on hy1 mutants							
+Protocol Name	P-MTAB-598	P-MTAB-597	P-AFFY-2	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6	P-MTAB-599		
+Protocol Type	grow	nucleic_acid_extraction	labeling	hybridization	feature_extraction	bioassay_data_transformation		
+Protocol Description	5 day-old hy1 and its wild type (Ler ecotype)were grown on 0.5x MS 1% gelangum media containing 10 uM GR24 or DMSO (control).  Three biological replicates were performed for each condition.<br>(Parameters: start time = 5, time unit = days, min temperature = 25, temperature unit = C, media = 0.5x MS)	For 5 day-old seedlings, total RNA was extracted by the phenol/SDS method (Sambrook et al., 2001).<br>(Parameters: Extracted product = total_RNA, Amplification = none)	Title: Affymetrix in vitro transcription. Description: 	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	Advanced data analysis was performed in Genespring 7.3.1.  A per-chip normalization was performed using the 50th percentile of all measurements in order to adjust total signal intensity in each chip. Experimental filtering was performed for presence or marginal in all gene chips.  For each experimental condition, 3 biological replicates were performed.  RMA normalized values expressed as log base2.		
+Protocol Parameters								
+Protocol Hardware								
+Protocol Software				MicroArraySuite 5.0	MicroArraySuite 5.0			
+Protocol Contact								
+Protocol Term Source REF				mo		The MGED Ontology		
+SDRF File	E-MEXP-1608.sdrf.txt							
+Term Source Name		The MGED Ontology	NCBI Taxonomy	tair_dev:1.27	ArrayExpress	The MGED Ontology	mo	EFO
+Term Source File		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://www.arabidopsis.org/info/ontologies/	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/
+Term Source Version				1.27				

@@ -1,0 +1,27 @@
+Comment[ArrayExpressAccession]	E-GEOD-43311					
+MAGE-TAB Version	1.1					
+Public Release Date	2014-06-01					
+Investigation Title	Gene expression in hemera mutants in red light condition					
+Comment[Submitted Name]	Gene expression in hemera mutants in red light condition					
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis hemera null (hmr-5) and weak-allele (hmr-22) photomorphogenetic mutants against wild-type controls grown under red light					
+Experiment Description	The hemera (hmr) mutant was identified as the first photomorphogenetic mutant with the combination of long hypocotyl and albino phenotypes in the light. Phytochrome-Interacting bHLH transcription Factors (PIFs), which are repressors of photomorphogenesis accumulate in darkness and are degraded in the light in a phytochrome-dependent manner. Two PIFs, PIF1 and PIF3 accumulated in the light in hmr mutants. In order to determine the gene expression of PIF-dependent genes in hmr mutants in the light, we have performed whole-genome expression analysis on two hmr mutants: a null allele, hmr-5; and a weak allele, hmr-22. Wild-type (Col-0) and hmr mutant seeds were surface-sterilized and plated on half-strength Murashige and Skoog (MS) growth medium without sucrose. The seeds were stratified in the dark at 4ºC for 4d. Seedlings were grown in constant red light (Rc, 10μmol/m2/s) at 21°C for 4d.					
+Term Source Name	ArrayExpress	EFO				
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl				
+Person Last Name	Li	Li	Chen			
+Person First Name	Meina	Meina	Meng			
+Person Email	meng.chen@duke.edu					
+Person Affiliation	Duke University					
+Person Phone	919-684-8442					
+Person Address	Biology, Duke University, 125 science drive, durham, North Caroline, USA					
+Person Roles	submitter					
+Protocol Name	P-GSE43311-1	P-GSE43311-4	P-GSE43311-5	P-GSE43311-2	P-GSE43311-3	P-GSE43311-6
+Protocol Description	GeneSpring GX 12.1 to RMA normalize and correct background on all the data ID_REF =  VALUE = normalized data	standard Affymetrix procedures	standard Affymetrix procedures	Wild-type (Col-0) and hmr mutant seeds were surface-sterilized and plated on half-strength Murashige and Skoog (MS) growth medium without sucrose. The seeds were stratified in the dark at 4�C for 4 d. Seedlings were grown in constant red light (Rc, 10μmol/m2/s) at 21�C for 4 d.	Total RNA was extracted using SpectrumTM Plant Total RNA Kit (Sigma)	standard Affymetrix procedures
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	genotype					
+Experimental Factor Type	genotype					
+Comment[SecondaryAccession]	GSE43311					
+Comment[GEOReleaseDate]	2014-06-01					
+Comment[ArrayExpressSubmissionDate]	2013-01-07					
+Comment[GEOLastUpdateDate]	2014-06-01					
+Comment[AEExperimentType]	transcription profiling by array					
+SDRF File	E-GEOD-43311.sdrf.txt					

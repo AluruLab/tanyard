@@ -1,0 +1,49 @@
+Investigation Title	Transcription profiling of Arabidopsis thaliana female gametophyte	
+Comment[Submitted Name]	Arabidopsis thaliana female gametophyte	
+Experimental Design	cell_type_comparison_design	co-expression_design	replicate_design	transcription profiling by array	
+Experimental Design Term Source REF	The MGED Ontology	The MGED Ontology	The MGED Ontology	EFO	
+Comment[SecondaryAccession]		
+Comment[ArrayExpressReleaseDate]	2010-03-01	
+Comment[AEMIAMESCORE]	4	
+Comment[ArrayExpressAccession]	E-MEXP-2227	
+Comment[MAGETAB TimeStamp_Version]	2010-08-10 11:35:51 Last Changed Rev: 13058	
+Experimental Factor Name	CELL_TYPE	
+Experimental Factor Type	cell_type	
+Experimental Factor Term Source REF	
+Person Last Name	Wuest	
+Person First Name	Samuel	
+Person Mid Initials	E	
+Person Email	wuests@tcd.ie	
+Person Phone	35318962444	
+Person Fax	
+Person Address	Smurfit Inst. of Genetics, Trinity College Dublin, Dublin, Dublin, 2, Ireland	
+Person Affiliation	Trinity College Dublin	
+Person Roles	submitter	
+Person Roles Term Source REF	The MGED Ontology	
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2010-03-01	
+PubMed ID	
+Publication DOI	
+Publication Author List	
+Publication Title	
+Publication Status	
+Publication Status Term Source REF	
+Experiment Description	mature female gametophyte (Arabidopsis thaliana) transcriptional profiling (single cell types)	
+Protocol Name	P-MTAB-4552	P-MTAB-4553	P-MTAB-4554	P-MTAB-4550	Affymetrix:Protocol:Hybridization-EukGE-WS2v4[]	P-AFFY-6	
+Protocol Type	specified_biomaterial_action	grow	nucleic_acid_extraction	labeling	hybridization	feature_extraction	
+Protocol Description	Arabidopsis thaliana flowers were emasculated and harvested 48-72 hrs thereafter. The tissue was fixed in an EtOH:Acetic Acid 3:1 solution under vacuum for 2 x 10 min and at 4°C. Then the material was left in the fixative overnight at 4°C. The tissue was embedded into Paraplast X-tra Embedding Media (Sigma-Aldrich) using a manual or automated protocol:<br><br><br><br>In the manual embedding procedure, the fixed tissue was dehydrated in a graded series of EtOH (Romil Ltd, Cambridge, UK) (70%, 80%, 90%, each step 1 hour at 4°C; 96% EtOH overnight at 4°C) and a Xylol (Fluka) gradient was applied to the tissue (25%, 50%, 75%, 100% Xylol in EtOH, each step 1 hour at RT; 100% Xylol overnight). Within the next three days, the Xylol was slowly substituted by Paraplast X-tra Embedding Media at 54°C.<br><br>In the automated procedure, the fixed tissue was embedded using the automated embedding system Leica ASP200 with the following parameters: 1h 70 % EtOH / 3x 1h 90 % EtOH / 3x 1h 100 % EtOH / 2x 1 h 100 % Xylol / 1x 1h 15 min 100 % Xylol, all steps at room temperature; then 2x 1h Paraplast X-tra and 1x 3h Paraplast X-tra at 56 °C. <br><br>Flowers were poured into paraffin-blocks, cooled and further kept at 4°C until use. <br><br>For microdissection, the embedded flowers were sectioned on the Leica microtome RM2145 to 8 ?m thickness and mounted onto RNase-free membrane slides (MMI Molecular Machines & Industries AG, Glattbrugg, Switzerland) with the use of RNAse free miliQ water. Slides were dried overnight on a heating table at 42°C and processed on the following day. <br><br>Microdissection was performed with the SL ?Cut (MMI AG, Switzerland) instrument which makes use of a solid state UV-A laser (wavelength approx. 350 nm) to cut the tissue. Each slide was deparaffinized before processing in 100% Xylol at room temperature for 2 x 10 minutes. Slides were air-dried for 10 minutes and immediately used for laser microdissection. Eggs, synergids and central cells were harvested separately using MMI isolation caps®. For each cell type, an average of 120 cells per cap were isolated.	Seeds of Arabidopsis thaliana (L.) Heynh., accession Landsberg erecta, were sterilized in 1.25% Na-hypochlorite and subsequently in 70% EtOH, then stratified at 4 °C for 48 hours on MS plates: 1x Murashige and Skoog salts, 3% [w/v] Sucrose, and 0.8% [w/v] agar. Seedlings were grown at 20 °C and at 14-h-light/10-h-dark cycles. After one to two weeks, seedlings were transplanted to soil (ED73, Universal Erde, Germany) and further on grown at 16-h-light/8-h-dark cycles at 22°C and 60% humidity. <br>(Parameters: time unit = seconds, temperature unit = C)	For total RNA isolation from LCM material, caps were covered with 10 ?l of Extraction buffer from the PicoPure RNA isolation kit (Arcturus Engineering, Mountain View, USA), incubated at 42°C for 30 min. and then frozen at 80°C until use. Extracts from different caps were pooled on-column. Total RNA was isolated using the PicoPure RNA isolation kit according to the manufacturers instructions. The recommended DNaseI-treatment was performed on-column using the RNAse-free DNase set (Qiagen, Hilden, Germany). <br>(Parameters: Extracted product = total_RNA, Amplification = none)	Amplifications of mRNA from microdissected tissue were performed using the linear amplification kit RiboAmp HS (Arcturus Engineering). Two rounds of amplification were performed according to the manufacturers instructions, but for the 2nd in-vitro transcription the RiboAmp IVT-master mix was replaced by the Affymetrix labelling kit-nucleotide mix (Affymetrix, Santa Clara, USA). <br>(Parameters: Amplification = RNA polymerases, Mass unit = Micro gram)	Title: Affymetrix EukGE-WS2v4 Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	
+Protocol Parameters	
+Protocol Hardware	
+Protocol Software					MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact	
+Protocol Term Source REF					mo	
+SDRF File	E-MEXP-2227.sdrf.txt	
+Term Source Name	NCBI Taxonomy		The MGED Ontology	ArrayExpress	The MGED Ontology	EFO	mo	
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version								

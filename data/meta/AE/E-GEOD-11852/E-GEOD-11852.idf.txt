@@ -1,0 +1,52 @@
+Investigation Title	Transcription profiling of Arabidopsis wt and pkl mutant germinating seeds treated with uniconazole							
+Comment[Submitted Name]	Effect of uniconazole on wt and pkl mutant germinating seeds							
+Experimental Design	unknown_experiment_design_type	transcription profiling by array						
+Experimental Design Term Source REF		EFO						
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for pickle after treatment with uniconazole							
+Comment[AEMIAMESCORE]	3							
+Comment[ArrayExpressReleaseDate]	2008-10-21							
+Comment[SecondaryAccession]	GSE11852							
+Comment[ArrayExpressAccession]	E-GEOD-11852							
+Comment[MAGETAB TimeStamp_Version]	2010-07-22 06:18:18 Last Changed Rev: 13058							
+Experimental Factor Name	compound	genotype						
+Experimental Factor Type	compound	genotype						
+Experimental Factor Term Source REF								
+Person Last Name	Ogas							
+Person First Name	Joe							
+Person Mid Initials								
+Person Email	ogas@purdue.edu							
+Person Phone								
+Person Fax								
+Person Address	"Biochemistry, Purdue University, 175 S. University St., West Lafayette, 47907-2063, USA"							
+Person Affiliation	Purdue University							
+Person Roles	submitter							
+Person Roles Term Source REF	The MGED Ontology							
+Quality Control Type								
+Quality Control Term Source REF								
+Replicate Type								
+Replicate Term Source REF								
+Normalization Type								
+Normalization Term Source REF								
+Date of Experiment								
+Public Release Date	2008-10-21							
+PubMed ID	18539592							
+Publication DOI	10.1074/jbc.M802129200 							
+Publication Author List	"Heng Zhang, Stanley Dean Rider, James T Henderson, Matthew Fountain, King Chuang, Vasundhara Kandachar, Alexis Simons, Howard J Edenberg, Jeanne Romero-Severson, William M Muir, Joe Ogas"							
+Publication Title	The CHD3 Remodeler PICKLE Promotes Trimethylation of Histone H3 Lysine 27.							
+Publication Status	published							
+Publication Status Term Source REF	EFO							
+Publication Status Term Accession Number	EFO_0001796							
+Experiment Description	"Relative expression data from germinating seeds of Columbia (wt), the pkl mutant (pkl), Columbia plus uniconazole-P (Uwt) and the pkl-mutant plus uniconazole-P (Upkl).  Experiment Overall Design: Each experimental condition (wt, pkl, Uwt and Upkl) has six biological replicates for a total of 24 chips."							
+Protocol Name	P-G11852-5	P-G11852-2	P-G11852-6	P-G11852-1	P-G11852-4	P-G11852-3	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6
+Protocol Type	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	grow	nucleic_acid_extraction	labeling	hybridization	feature_extraction
+Protocol Description	Treated with 10 nM uniconazole and 0.01% methanol (solvent) present in Murashige and Skoog Basal Medium with Gamborg's Vitamins solidified with agar.	Treated with 0.01% methanol (solvent) present in Murashige and Skoog Basal Medium with Gamborg's Vitamins solidified with agar.	Treated with 10 nM uniconazole in 0.01% methanol (solvent) present in Murashige and Skoog Basal Medium with Gamborg's Vitamins solidified with agar.	Seeds were germinated in a CU36L5 incubator under 24h illumination.	Hot Phenol with LiCl precipitation followed by RNeasy clean up (Qiagen).	Affymetrix protocol	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 
+Protocol Parameters								
+Protocol Hardware								
+Protocol Software							MicroArraySuite 5.0	MicroArraySuite 5.0
+Protocol Contact								
+Protocol Term Source REF							mo	
+SDRF File	E-GEOD-11852.sdrf.txt							
+Term Source Name	NCBI Taxonomy		The MGED Ontology	ArrayExpress	EFO	The MGED Ontology	mo	
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version								

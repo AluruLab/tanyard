@@ -1,0 +1,49 @@
+Investigation Title	Transcription profiling of Arabidopsis thaliana wild type and ARR7 plants to identify cytokine response genes at two different time points						
+Comment[Submitted Name]	JungmookKim-Arabidopsis-ARR7ox						
+Experimental Design	time_series_design	is_expressed_design	stimulus_or_stress_design				
+Experimental Design Term Source REF	mo	mo	mo				
+Comment[AEExperimentType]	transcription profiling by array						
+Comment[ArrayExpressReleaseDate]	2006-11-01						
+Comment[AEMIAMESCORE]	5						
+Comment[ArrayExpressAccession]	E-ATMX-3						
+Comment[MAGETAB TimeStamp_Version]	2010-07-29 14:49:39 Last Changed Rev: 13058						
+Experimental Factor Name	compound	time	dose				
+Experimental Factor Type	compound	time	dose				
+Experimental Factor Term Source REF							
+Person Last Name	Lee						
+Person First Name	Dong Ju						
+Person Mid Initials							
+Person Email	leedongju@gmail.com						
+Person Phone	082-62-530-2042						
+Person Fax							
+Person Address	300 Yongbong-dong						
+Person Affiliation	Agricultural Plant Stress Research Center						
+Person Roles	submitter						
+Person Roles Term Source REF	The MGED Ontology						
+Quality Control Type							
+Quality Control Term Source REF							
+Replicate Type							
+Replicate Term Source REF							
+Normalization Type							
+Normalization Term Source REF							
+Date of Experiment							
+Public Release Date	2006-11-01						
+PubMed ID	17061125						
+Publication DOI	17061125						
+Publication Author List	Dong Ju Lee; Jin-Young Park; Su-Jin Ku; Young-Min Ha; Sunmi Kim; Myung Duk Kim; Man-Ho Oh; Jungmook Kim						
+Publication Title	Genome-Wide Expression Profiling of ARABIDOPSIS RESPONSE REGULATOR 7 (ARR7) Overexpression in Cytokinin Response						
+Publication Status	journal_article						
+Publication Status Term Source REF							
+Experiment Description	to identify regulated genes in response to cytokinin in wild-type and 35S:ARR7 plants using the Affymetrix ATH1 full genome array. 						
+Protocol Name	P-CAGE-24643	P-CAGE-24642	P-CAGE-24644	P-AFFY-2	Affymetrix:Protocol:Hybridization-EukGE-WS2v4	P-AFFY-6	Affymetrix:Protocol:ExpressionStat
+Protocol Type	specified_biomaterial_action	grow	nucleic_acid_extraction	labeling	hybridization	feature_extraction	bioassay_data_transformation
+Protocol Description	"wild-type (Col-0) and 35S:ARR7 seedlings were grown for 7 d in MS plates, treated with 5 uM BA or mock-treated for 30 min or 2 h."	"Arabidopsis thaliana was grown on germination agar plates containing 0.5x Murashige Skoog (MS) media with vitamins, 1.5% sucrose, 2.5 mM Mes, pH 5.7, and 0.8% agar at 23ºC at 16-h photoperiod"	Total RNA was isolated with an RNeasy plant mini kit (Qiagen). Five micrograms of RNA were used to make biotin-labeled cRNA products	Title: Affymetrix in vitro transcription. Description: 	Title: Fluidics Station Protocol. Description: 	Title: Affymetrix CEL analysis. Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 
+Protocol Parameters		light source;media;day temperature;light intensity;night humidity;light hours;day humidity;night temperature;	Amplification;Extracted product;				
+Protocol Hardware							
+Protocol Software					MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 5.0
+Protocol Contact							
+Protocol Term Source REF	mo						The MGED Ontology
+SDRF File	E-ATMX-3.sdrf.txt						
+Term Source Name	abrc_stock		ncbitax	ArrayExpress	mo	EFO	The MGED Ontology
+Term Source File	http://www.arabidopsis.org/servlets/Search?action=new_search&type=germplasm		http://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version							

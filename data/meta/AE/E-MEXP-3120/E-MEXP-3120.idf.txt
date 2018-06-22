@@ -1,0 +1,34 @@
+Comment[ArrayExpressAccession]	E-MEXP-3120				
+Investigation Title	zhang-arabidopsis-met1 vs ws				
+Comment[Submitted Name]	zhang-arabidopsis-met1 vs ws				
+Comment[AEExperimentDisplayName]	Transcription profiling by array of arabidopsis wild type and met1 mutant calli cultured on shoot induction medium for 0, 4 and 6 hours				
+Comment[MIAMExpressLogin]	xszhang				
+Comment[MIAMExpressSubmissionID]	7334				
+Experiment Description	Comparison of met1 mutant  with control				
+Experimental Design	in_vitro_design	co-expression_design	time_series_design	development_or_differentiation_design	replicate_design
+Comment[AEExperimentType]	transcription profiling by array				
+Experimental Factor Name	time	genotype			
+Experimental Factor Type	time	genotype			
+Person Last Name	Zhang				
+Person First Name	XS				
+Person Email	zhangxs@sdau.edu.cn				
+Person Phone	-8249870				
+Person Affiliation	Shandong Agricultural University				
+Person Address	State Key Laboratory of Crop Biology, Daizong Road No.61,Taian,Shandong,China, Taian, shandong, 271018, China				
+Person Roles	submitter				
+Person Roles Term Source REF	MGED Ontology				
+Quality Control Type	biological_replicate				
+Public Release Date	2012-02-19				
+Comment[ArrayExpressSubmissionDate]	2011-02-19 04:21				
+Publication Title	DNA methylation and histone modifications regulate de novo shoot regeneration in Arabidopsis by modulating WUSCHEL expression and auxin signaling				
+Publication Author List	Li W, Liu H, Cheng ZJ, Su YH, Han HN, Zhang Y, Zhang XS				
+Pubmed ID	21876682				
+Publication DOI	10.1371/journal.pgen.1002243				
+Publication Status	published				
+Protocol Name	P-MTAB-19339	P-MTAB-19340	P-MTAB-19341		
+Protocol Description	The Arabidopsis thaliana (Wassilewskija ecotype) plants were cultured in 1/2 MS medium without hormones at 22C in 16 h/8 h light/dark cycle.(Parameters: time unit = seconds, temperature unit = C)	RNA of six plant samples was prepared from each of the following tissue types: the wild-type calli cultured on SIM for 0 day (W0), 4 days (W4), and 6 days (W6); the met1 mutant calli cultured on SIM for 0 day (T0), 4 days (T4), and 6 days (T6), Three biological replicates of each plant tissue type were carried out and evaluated. Total RNA was isolated with Trizol reagent (Invitrogen) according to the manufacturer's protocol. (Parameters: Extracted product = total_RNA, Amplification = none)	Pistils were excised from sterile Arabidopsis plants and transferred onto callus-inducing medium (CIM, MS medium with 0.5 mg/L 2, 4-dichlorophenoxyacetic acid (2, 4-D) and 1.0 mg/L 6-benzylaminopurine (6-BA)). The explants were incubated for 20 days on CIM to induce callus production, and calli were then transferred onto shoot induction medium (SIM, MS medium with 0.01 mg/L indole-3-acetic acid (IAA) and 2 mg/L zeatin (ZT))		
+Protocol Type	grow	nucleic_acid_extraction	specified_biomaterial_action		
+Protocol Term Source REF	MGED Ontology	MGED Ontology	MGED Ontology		
+Term Source Name	MGED Ontology	ArrayExpress			
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress			
+SDRF File	E-MEXP-3120.sdrf.txt				

@@ -1,0 +1,51 @@
+Investigation Title	Transcription profiling of Arabidopsis acn1-2 and Col-7 lines to investigate the links between organic acid and carbohydrate regulation of gene expression.						
+Comment[Submitted Name]	Investigating the links between organic acid and carbohydrate regulation of gene expression.						
+Experimental Design	unknown_experiment_design_type	transcription profiling by array					
+Experimental Design Term Source REF		EFO					
+Comment[AEExperimentType]	transcription profiling by array						
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for acn1						
+Comment[AEMIAMESCORE]	4						
+Comment[ArrayExpressReleaseDate]	2008-06-14						
+Comment[SecondaryAccession]	GSE6158						
+Comment[ArrayExpressAccession]	E-GEOD-6158						
+Comment[MAGETAB TimeStamp_Version]	2010-08-06 19:18:38 Last Changed Rev: 13058						
+Experimental Factor Name	genotype						
+Experimental Factor Type	genotype						
+Experimental Factor Term Source REF							
+Person Last Name	(NASC)						
+Person First Name	Nottingham Arabidopsis Stock Centre						
+Person Mid Initials							
+Person Email	affy@arabidopsis.info						
+Person Phone							
+Person Fax							
+Person Address	School of Biosciences, University of Nottingham, Nottingham Arabidopsis Stock Centre (NASC), Sutton Bonington Campus, Loughborough, LE12 5RD, United Kingdom						
+Person Affiliation	Nottingham Arabidopsis Stock Centre (NASC)						
+Person Roles	submitter						
+Person Roles Term Source REF							
+Quality Control Type							
+Quality Control Term Source REF							
+Replicate Type							
+Replicate Term Source REF							
+Normalization Type							
+Normalization Term Source REF							
+Date of Experiment							
+Public Release Date	2008-06-14						
+PubMed ID							
+Publication DOI							
+Publication Author List							
+Publication Title							
+Publication Status							
+Publication Status Term Source REF							
+Experiment Description	Arabidopsis acetate non-utilizing mutants were isolated based on fluoroacetate resistant germination. Interestingly, a number of these mutants exhibited altered developmental characteristics in response to exogenous sucrose supply, such as bleaching of the cotyledons.  A preliminary microarray experiment has already been conducted on one of the mutants, acn1-2.  The gene expression analysis was done using 3 day-old seedlings of acn1-2 and the parent, Col-7, which were germinated on agar plates with and without exogenous sucrose.  A cross-comparison of acn1-2 and Col-7 revealed that the expression of a number of carbohydrate responsive genes was altered in the mutant.  The request for further microarray analysis is to confirm this result. Experiment Overall Design: Number of plants pooled:3 x 1000 seedlings						
+Protocol Name	P-G6158-1	P-G6158-4	P-G6158-5	P-G6158-3	P-G6158-2	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6
+Protocol Type	grow	grow	grow	nucleic_acid_extraction	labeling	hybridization	feature_extraction
+Protocol Description	unknown; Parameter location = Growth Room; Parameter Atmosphere = Normal; Parameter Humidity = Not controlled; Parameter Temperature = 20C; Parameter Lighting = Continual; Parameter Medium = agar  1/2-strength MS salts  pH 5.7; Parameter Treatment = None; Parameter Stratification = 4C  4 days in dark; Parameter Growth Stage = 0.70; Performer: Karen,,Greville	unknown; Parameter location = Growth Room; Parameter Atmosphere = Normal; Parameter Humidity = Not controlled; Parameter Temperature = 20C; Parameter Lighting = Continual; Parameter Medium = agar, 1/2-strength MS salts  pH 5.7; Parameter Treatment = None; Parameter Stratification = 4C, 4 days in dark; Performer: Karen,,Greville	unknown; Parameter location = Growth Room; Parameter Atmosphere = Normal; Parameter Humidity = Not controlled; Parameter Temperature = 20C; Parameter Lighting = Continual; Parameter Medium = agar  1/2-strength MS salts  pH 5.7; Parameter Treatment = 100 mM sucrose; Parameter Stratification = 4C  4 days in dark; Performer: Karen,,Greville	Cold Phenol Extraction; Protocol:  ; Protocol Type = nucleic_acid_extraction; Performer: Karen,,Greville 0.70 ; Performer: Karen,,Greville	Preparation of biotin-labeled cRNA; RNA samples were quality controlled using the Agilent 2100 Bioanalyzer. 100 pmol T7-(dT)24 primer (5'-GGCCAGTGAATTGTAATACGACTCACTATAGGGAGGCGG-(dT)24-3')  was hybridized with the Total RNA ( 8 - 12ug) at 70Â&deg;C for 10 minutes. First strand cDNA was synthesized by reverse transcription using 400 units SuperScript II Reverse Transcriptase in a reaction containing 50 mM Tris-HCl (pH 8.3), 75 mM KCl, 3 mM MgCl2, 10 mM dithiothreitol (DTT) and 0.5 mM dNTPs at 42C for 1 hour.  The reaction was then put on ice for 2 mins, followed by second strand cDNA synthesis.  130ul of the second strand reaction mix was added to the 20ul  first strand synthesis reaction. The second strand reaction mix  contained 40 units E. coli DNA polymerase I, 10 units E. coli DNA ligase, 2 units  E. coli RNase H and 0.2 mM dNTPs in a buffer containing 20 mMTris-HCl (pH 6.9), 90 mM KCl, 4.6 mM MgCl2, 10mM (NH4)SO4 and 0.15 mM Ã-NAD+. The reaction was incubated at 16 C for 2 hours.  10 units T4 DNA Polymerase was added and the reaction incubated for a further 5 minutes at 16 C, then the reaction was terminated using EDTA.  The double-stranded cDNA was cleaned up using the cDNA Cleanup Spin Column supplied in the Affymetrix GeneChip Sample Cleanup Module.  The double-stranded cDNA was used as a template for in Vitro transcription of biotin-labeled cRNA using the ENZO BioArray RNA Transcript Labeling Kit supplied by Affymetrix.  The Transcript Labeling kit produces large amounts of hybridizable biotin-labeled RNA targets by in Vitro transcription from bacteriophage T7 RNA polymerase promoters.  The reaction mixture containing Biotin-Labeled ribonucleotides (ATP, GTP, CTP, UTP with Bio-UTP and Bio-CTP), DTT, RNase inhibitor mix and T7 RNA polymerase was incubated at 37 C for 5 hrs, gently mixing every 30 minutes during the incubation. This produced an average of 40ug biotin-labeled cRNA . The biotin-labeled cRNA  was cleaned up using the cRNA Cleanup Spin Column supplied in the Affymetrix GeneChip Sample Cleanup Module.  The quantity and quality of the cRNA was measured using the Agilent 2100 Bioanalyzer. The total amount of cRNA was calculated, the starting quantity of RNA subtracted to give the quantity of adjusted cRNA.  The cRNA was fragmented by metal-induced hydrolysis to break down full-length cRNA to 35-200 base fragments.  15ug of adjusted cRNA was used to prepare 300ul of hybridization cocktail of which 200ul was hybridized with the GeneChip.   ; Protocol Type = labeling; Performers: John,Y,Okyere, Janet,,Higgins	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 
+Protocol Parameters							
+Protocol Hardware							
+Protocol Software						MicroArraySuite 5.0	MicroArraySuite 5.0
+Protocol Contact							
+Protocol Term Source REF							
+SDRF File	E-GEOD-6158.sdrf.txt						
+Term Source Name	EFO						
+Term Source File	http://www.ebi.ac.uk/efo/						
+Term Source Version							

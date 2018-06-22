@@ -1,0 +1,58 @@
+Comment[ArrayExpressAccession]	E-GEOD-20955							
+Public Release Date	2010-12-09							
+Investigation Title	Expression data from Arabidopsis thaliana PHR1 primary targets genes under phosphate starvation stress							
+Comment[Submitted Name]	Expression data from Arabidopsis thaliana PHR1 primary targets genes under phosphate starvation stress							
+Experiment Description	We performed a transcriptomic analysis of Pi starvation responses in Arabidopsis thaliana (Columbia-0) phr1 mutant plants expressing PHR1 in presence of cicloheximide, that inhibit protein translation, thus preventing any effect of PHR1 on the expression of indirect targets. Results show the primary target genes of PHR1 in the responses to Pi starvation. The analysis was performed in phr1 plants and phr1 plants overexpressing a fusion GR:PHR1 (OXGR:PHR1) whose activity is postranslationally controlled by dexamethasone (DEX), that allows studying gene expression upon PHR1 activation and the concomitant inhibition of translation with cycloheximide (CHX), thus preventing any effect of PHR1 on the expression of indirect targets. To perform this study, phr1 and OXGR:PHR1 phr1 plants were grown for seven days in complete Johnson liquid media (+Pi), 2 days in Pi-lacking media (-Pi) and then supplemented with 5 µM DEX and 10 µM CHX for 6 hours before harvesting. Three independent biological samples of total RNA from shoot and root were hybridized separately.							
+Date of Experiment								
+Term Source Name	EFO							
+Term Source Version								
+Term Source File	http://efo.svn.sourceforge.net/viewvc/efo/trunk/src/efoinowl/efo.owl							
+Person Last Name	Bustos	Bustos	Castrillo	Paz-Ares				
+Person First Name	Regla	Regla	Gabriel	Javier				
+Person Mid Initials								
+Person Email	geo@ncbi.nlm.nih.gov							
+Person Affiliation	CNB-CSIC							
+Person Phone								
+Person Fax								
+Person Address	CNB-CSIC, Darwin 3, Campus de Cantoblanco, Madrid, Spain							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Person Roles Term Accession Number								
+Normalization Type								
+Normalization Term Accession Number								
+Normalization Term Source REF								
+Replicate Type								
+Replicate Term Accession Number								
+Replicate Term Source REF								
+Experimental Design								
+Experimental Design Term Accession Number								
+Experimental Design Term Source REF								
+Quality Control Type								
+Quality Control Term Accession Number								
+Quality Control Term Source REF								
+Protocol Name	P-GSE20955-1	P-GSE20955-6	P-GSE20955-3	P-GSE20955-8	P-GSE20955-7	P-GSE20955-2	P-GSE20955-4	P-GSE20955-5
+Protocol Description	ID_REF = <br>VALUE = RMA log Signal intensity	10µg of fragmented cRNA were hybridized to the Arabidopsis ATH1 Genome array (Affymetrix, SantaClara, CA), containing 22500 transcript variants from 24000 well -characterized Arabidopsis thaliana genes. Each sample was added to a hybridization solution containing 100mM2-(N-morpholino) ethanesulfonic acid, 1M Na+,and 20mM of EDTA in the presence of 0.01% of Tween-20 to a final cRNA concentration of 0.05µg/ml. Hybridization was performed for 16 h at 45ºC . Each microarray was washed and stained with streptavidin-phycoerythrin in a Fluidics station 450 (Affymetrix)	Plants were grown for 7 days in liquid Johnson medium containing 2% sucrose and 2mM phosphate (KH2PO4), 2 days in phosphate-lacking medium (-Pi) and then supplemented with 5 µM dexamethasone (DEX) and 10 µM cycloheximide (CHX) for 6 hours before harvesting.	Analysis was performed using the affylmaGUI R package (Wettenhall et al, 2006). Robust Muti-array Analysis (RMA) algorithm was used for background correction, normalization and expression levels summarization (Irizarry et al., 2003).	Each microarray was scanned at 2.5 µm resolution in a GeneChip® Scanner 3000 7G System (Affymetrix)	5 µM dexamethasone (DEX) and 10 µM cycloheximide (CHX) for 6 hours in phosphate-lacking Johnson liquid medium.	The RNA from complete plants was isolated using RNeasy plant mini kit from Quiagen	Each RNA preparation was tested for degradation using the Agilent 2100 Bioanalyzer (Agilent technologies, Palo Alto, CA). cDNA was synthesized from 4 µg of total RNA using One-cycle target labeling and control reagents(Affymetrix, Santa Clara, CA) to produce biotin-labeled cRNA. The cRNA preparations (15 µg) were fragmented at 94ºC for 35 min into 35-200 bases in length.
+Protocol Software								
+Protocol Hardware								
+Protocol Contact								
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Protocol Term Source REF								
+Protocol Term Accession Number								
+Experimental Factor Name	GENOTYPE							
+Experimental Factor Type	genotype							
+Experimental Factor Term Source REF								
+Experimental Factor Term Accession Number								
+Publication Title	A central regulatory system largely controls transcriptional activation and repression responses to phosphate starvation in Arabidopsis.							
+Publication Author List	Bustos R, Castrillo G, Linhares F, Puga MI, Rubio V, Pérez-Pérez J, Solano R, Leyva A, Paz-Ares J							
+PubMed ID	20838596							
+Publication DOI	10.1371/journal.pgen.1001102							
+Publication Status	published							
+Publication Status Term Source REF	EFO							
+Publication Status Term Accession Number	EFO_0001796							
+Comment[SecondaryAccession]	GSE20955							
+Comment[GEOLastUpdateDate]	2010-12-09							
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for phr1 expressing PHR1 under the control of the rat glucocorticoid receptor after phosphate starvation							
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[GEOReleaseDate]	2010-12-09							
+Comment[ArrayExpressSubmissionDate]	2010-03-18							
+SDRF File	E-GEOD-20955.sdrf.txt							

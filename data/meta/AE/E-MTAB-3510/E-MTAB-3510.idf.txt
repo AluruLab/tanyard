@@ -1,0 +1,35 @@
+Comment[ArrayExpressAccession]	E-MTAB-3510
+MAGE-TAB Version	1.1
+Investigation Title	Transcription profiling by array of A. thaliana columbia stems after treatment of hypoxia to investigate genome-wide gene expression analysis
+Comment[Submitted Name]	Transcription profiling by array of A. thaliana columbia stems after treatment of hypoxia to investigate genome-wide gene expression analysis
+Experiment Description	The experiment was designed to enable comparison between Arabidopsis stems treated hypoxia and Arabidopsis stems treated normoxia.
+Experimental Design	stimulus or stress design
+Experimental Design Term Source REF	EFO
+Experimental Design Term Accession Number	EFO_0001762
+Experimental Factor Name	environmental history
+Experimental Factor Type	environmental history
+Experimental Factor Term Source REF	EFO
+Experimental Factor Term Accession Number	EFO_0004444
+Person Last Name	Kim
+Person First Name	Hyojin
+Person Mid Initials	
+Person Email	hyok174@gmail.com
+Person Phone	
+Person Fax	
+Person Address	
+Person Affiliation	
+Person Roles	submitter
+Date of Experiment	2013-02-28
+Public Release Date	2015-12-31
+Protocol Name	P-MTAB-44354	P-MTAB-44355	P-MTAB-44356	P-MTAB-44357	P-MTAB-44358	P-MTAB-44359
+Protocol Type	growth protocol	nucleic acid extraction protocol	treatment protocol	treatment protocol	nucleic acid labeling protocol	nucleic acid hybridization to array protocol
+Protocol Term Source REF	EFO	EFO	EFO	EFO	EFO	EFO
+Protocol Term Accession Number	EFO_0003789	EFO_0002944	EFO_0003969	EFO_0003969	EFO_0003813	EFO_0003815
+Protocol Description	All Arabidopsis thaliana plants (ecotype Columbia-0) were grown in pots on a soil mixture (3:2:1 mixture of peat moss-enriched soil:vermiculite:perlite). Seeds were cold-treated for 3d at 4dgree in the dark before being transferred to a controlled growth room under long-day conditions (16-/8-h light/dark cycle) at 23 dgree and relative 50% humidity.	Total RNAs were isolated from Arabidopsis stems using a Rneasy plant mini kit (Qiagen no.74904) according to the instructions of the manufacturer.	Four-week-old Arabidopsis plants were incubated in a dark growth chamber with 0.1% oxygen (with 99.9% nitrogen) concentrations for 4 hours. Oxygen concentration in a dark growth chamber were regularly controlled to ensure p;recise regulation of the actual oxygen concentration around the aerial parts of Arabidopsis. Total RNAs were isolated from stems of four-week-old Arabidopsis.	Four-week-old Arabidopsis plants were incubated in a dark growth chamber with 21% oxygen concentrations for 4 hours. Oxygen concentration in a dark growth chamber were regularly controlled to ensure p;recise regulation of the actual oxygen concentration around the aerial parts of Arabidopsis. Total RNAs were isolated from stems of four-week-old Arabidopsis.	Affymetrix:Protocol:Hybridization-Unknown	Labeling of samples was carried out according to the manufacturer’s standard protocol from Affymetrix.
+Protocol Hardware						
+Protocol Software						
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/
+Term Source Version		
+Comment[AEExperimentType]	transcription profiling by array
+SDRF File	E-MTAB-3510.sdrf.txt

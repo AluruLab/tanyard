@@ -1,0 +1,35 @@
+Comment[ArrayExpressAccession]	E-MEXP-3994		
+Investigation Title	RALF induced transcriptome		
+Comment[Submitted Name]	RALF induced transcriptome		
+Comment[AEExperimentDisplayName]	RALF induced transcriptome		
+Comment[MIAMExpressLogin]	Bree		
+Comment[MIAMExpressSubmissionID]	8921		
+Experiment Description	Arabidopsis seedlings were treated with a peptide hormone, RALF (1 uM) for 30 min. Transcriptome responses were examined.		
+Experimental Design	replicate design	co-expression_design	compound treatment design
+Comment[AEExperimentType]	transcription profiling by array		
+Experimental Factor Name	compound	dose	
+Experimental Factor Type	compound	dose	
+Person Last Name	Haruta		
+Person First Name	Miyoshi		
+Person Email	haruta@wisc.edu		
+Person Phone	608-262-1779		
+Person Affiliation	University of Wisconsin-Madison		
+Person Address	Biotechnology Center, 425 Henry Mall, Madison, WI, 53706, USA		
+Person Roles	submitter		
+Person Roles Term Source REF	EFO		
+Quality Control Type	biological replicate		
+Comment[QualityControlDescription]	Biological replicates were performed with three control or RALF treatments.		
+Public Release Date	2013-11-30		
+Comment[ArrayExpressSubmissionDate]	2013-10-11 18:37:49		
+PubmedID	24458638		
+Publication DOI	10.1126/science.1244454		
+Publication Title	A peptide hormone and its receptor protein kinase regulate plant cell expansion		
+Publication Author List	Haruta M, Sabat G, Stecker K, Minkoff BB, Sussman MR		
+Publication Status	published		
+Protocol Name	P-MTAB-35245	P-MTAB-35246	P-MTAB-35247
+Protocol Description	Seedlings were submerged in 1/2MS liquid media for 16 hr and treated water (mock) or 1 uM RALF peptide for 30 min.	QIAGEN RNeasy Plant Kit was used to extract total RNA. (Parameters: Extracted product = total_RNA, Amplification = none)	Arabidopsis (Col Wildtype) seedlings were grown on vertically positioned plates at 22C for five days. (Parameters: start time = 5, time unit = days, temperature unit = C, media = 1/2MS media)
+Protocol Type	treatment protocol	nucleic acid extraction protocol	growth protocol
+Protocol Term Source REF	EFO	EFO	EFO
+Term Source Name	EFO	ArrayExpress	
+Term Source File	http://www.ebi.ac.uk/efo/	http://www.ebi.ac.uk/arrayexpress	
+SDRF File	E-MEXP-3994.sdrf.txt		

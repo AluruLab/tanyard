@@ -1,0 +1,52 @@
+Investigation Title	Transcription profiling of Arabidopsis ATR vs wild type					
+Comment[Submitted Name]	ATR1_like_Clade_OE_and_miR					
+Experimental Design	unknown_experiment_design_type	transcription profiling by array				
+Experimental Design Term Source REF		EFO				
+Comment[AEExperimentType]	transcription profiling by array					
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis with overexpression and down-regulation of atr1-like loci					
+Comment[AEMIAMESCORE]	4					
+Comment[ArrayExpressReleaseDate]	2008-06-15					
+Comment[SecondaryAccession]	GSE7570					
+Comment[ArrayExpressAccession]	E-GEOD-7570					
+Comment[MAGETAB TimeStamp_Version]	2010-10-16 17:22:31 Last Changed Rev: 14677					
+Experimental Factor Name	GENOTYPE					
+Experimental Factor Type	genotype					
+Experimental Factor Term Source REF						
+Person Last Name	Blum					
+Person First Name	Eyal					
+Person Mid Initials						
+Person Email	blumeyal@agri.huji.ac.il					
+Person Phone						
+Person Fax						
+Person Address	Asaph Aharoni, Plant, Weizmann Institute of Science,  P.O. Box 26, Rehovot , 76100, Israel					
+Person Affiliation	Weizmann Institute of Science					
+Person Roles	submitter					
+Person Roles Term Source REF	The MGED Ontology					
+Quality Control Type						
+Quality Control Term Source REF						
+Replicate Type						
+Replicate Term Source REF						
+Normalization Type						
+Normalization Term Source REF						
+Date of Experiment						
+Public Release Date	2008-06-15					
+PubMed ID	18829985					
+Publication DOI	10.1104/pp.108.124784					
+Publication Author List	Malitsky S, Blum E, Less H, Venger I, Elbaz M, Morin S, Eshed Y, Aharoni A.					
+Publication Title	The transcript and metabolite networks affected by the two clades of Arabidopsis glucosinolate biosynthesis regulators					
+Publication Status	published					
+Publication Status Term Source REF	EFO					
+Publication Status Term Accession Number	EFO_0001796					
+Experiment Description	check the effect of over expression and down regulation of this clade of TFs Experiment Overall Design: each line have two replicate					
+Protocol Name	P-G7570-1	P-G7570-3	P-G7570-4	P-G7570-2	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6
+Protocol Type	grow	nucleic_acid_extraction	nucleic_acid_extraction	labeling	hybridization	feature_extraction
+Protocol Description	Arabidopsis seedlings were grown in short day conditions (10h L/14h D, 20Â&deg;C). These conditions were applied in order to prevent the plant from entering the reproductive stage. Using micro scissors, plants were collected from 14 days old whose cotyledons and hypocotyls were removed.	Total RNA (15 Î¼g) was extracted with the RNeasy RNA isolation kit (Qiagen).	Total RNA (15 Î¼g) was extracted with the RNeasy RNA isolation kit (Qiagen). Labeled cRNA was prepared and hybridized to Affymetrix ATH1 GeneChips, according to the manufacturer's guidelines (Affymetrix, Santa Clara, CA).	Labeled cRNA was prepared and hybridized to Affymetrix ATH1 GeneChips, according to the manufacturer's guidelines (Affymetrix, Santa Clara, CA)	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 
+Protocol Parameters						
+Protocol Hardware						
+Protocol Software					MicroArraySuite 5.0	MicroArraySuite 5.0
+Protocol Contact						
+Protocol Term Source REF					mo	
+SDRF File	E-GEOD-7570.sdrf.txt					
+Term Source Name	NCBI Taxonomy	The MGED Ontology	ArrayExpress	EFO	The MGED Ontology	mo
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version						

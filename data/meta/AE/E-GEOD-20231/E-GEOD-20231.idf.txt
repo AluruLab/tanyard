@@ -1,0 +1,51 @@
+Investigation Title	Transcript profiling of auxin/cytokinin crosstalk in the Arabidopsis primary root apex						
+Comment[Submitted Name]	Transcript profiling of auxin/cytokinin crosstalk in the Arabidopsis primary root apex						
+Experimental Design	transcription profiling by array						
+Experimental Design Term Source REF	EFO						
+Comment[AEExperimentType]	transcription profiling by array						
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis primary root tips after treatment with 17-beta-estradiol or trans-zeatin						
+Comment[SecondaryAccession]	GSE20231						
+Comment[ArrayExpressReleaseDate]	2010-04-28						
+Comment[AEMIAMESCORE]	4						
+Comment[ArrayExpressAccession]	E-GEOD-20231						
+Comment[MAGETAB TimeStamp_Version]	2010-08-04 03:58:03 Last Changed Rev: 13058						
+Experimental Factor Name	COMPOUND	TREATMENT TIME					
+Experimental Factor Type	compound	time					
+Experimental Factor Term Source REF							
+Person Last Name	(NASC)	Ljung					
+Person First Name	Nottingham Arabidopsis Stock Centre	Karin					
+Person Mid Initials							
+Person Email	affy@arabidopsis.info						
+Person Phone							
+Person Fax							
+Person Address	School of Biosciences, University of Nottingham, Nottingham Arabidopsis Stock Centre (NASC), Sutton Bonington Campus, Loughborough, LE12 5RD, United Kingdom						
+Person Affiliation	Nottingham Arabidopsis Stock Centre (NASC)						
+Person Roles	submitter						
+Person Roles Term Source REF	The MGED Ontology						
+Quality Control Type							
+Quality Control Term Source REF							
+Replicate Type							
+Replicate Term Source REF							
+Normalization Type							
+Normalization Term Source REF							
+Date of Experiment							
+Public Release Date	2010-04-28						
+PubMed ID							
+Publication DOI							
+Publication Author List							
+Publication Title							
+Publication Status							
+Publication Status Term Source REF							
+Experiment Description	AtIPT8/pga22 seedlings (gain-of-function mutant in Ws background; Sun et al. 2003, Plant Physiology 131, pp167-176) were grown on vertical plates for 7 days in LD. The seedlings were then incubated directly on the plate with medium containing 5 uM 17-beta-estradiol (for induction of the IPT8 gene) or 5 uM trans-zeatin for 12 and 24 h. 5 mm primary root tips were harvested from the seedlings and pooled for microarray analysis. Total RNA was isolated from the samples with the RNeasy Plant Mini Kit from Qiagen. 14 samples were used in this experiment.						
+Protocol Name	P-GSE20231-3	P-GSE20231-2	P-GSE20231-4	P-GSE20231-5	P-GSE20231-6	P-GSE20231-7	P-GSE20231-1
+Protocol Type	nucleic_acid_extraction	specified_biomaterial_action	labeling	hybridization	image_aquisition	feature_extraction	bioassay_data_transformation
+Protocol Description	Qiagen RNAeasy kit protocol	The seedlings were treated directly on the agar plates with liquid medium (control) or liquid medium containing 5uM 17-beta-estradiol or 5uM trans-zeatin for 12 and 24 h.	Labelled using protocol described in manual "Affymetrix GeneChip Expression Analysis Technical Manual", One-Cycle target labelling	Biotin Labelled cRNA using "Affymetrix GeneChip Hybridization, Wash and Stain Kit", according to guidelines set out by Affymetrix, Santa Clara, CA	Scanned according to guidelines set out by Affymetrix, Santa Clara, CA.	Raw data from the microarrays was normalized at probe-level using MAS5 algorithm. The detection calls (present, marginal, absent) for each probe set was obtained using the GCOS system	ID_REF = <br>VALUE = MAS5.0-calculated signal intensity<br>ABS_CALL = the call in an absolute analysis that indicates if the transcript was present (P), absent (A), or marginal (M)<br>DETECTION P-VALUE = p-value that indicates the significance level of the detection call
+Protocol Parameters							
+Protocol Hardware							
+Protocol Software							
+Protocol Contact							
+Protocol Term Source REF						The MGED Ontology	The MGED Ontology
+SDRF File	E-GEOD-20231.sdrf.txt						
+Term Source Name	NCBI Taxonomy		The MGED Ontology	ArrayExpress	EFO	The MGED Ontology	
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version							

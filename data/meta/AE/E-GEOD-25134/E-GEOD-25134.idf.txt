@@ -1,0 +1,58 @@
+Comment[ArrayExpressAccession]	E-GEOD-25134							
+Public Release Date	2010-12-31							
+Investigation Title	"Expression data from dark-grown BR double mutant bzr1-1D;bri1-116, single mutant bri1-116, and wildtype"							
+Comment[Submitted Name]	"Expression data from dark-grown BR double mutant bzr1-1D;bri1-116, single mutant bri1-116, and wildtype"							
+Experiment Description	"Molecular genetic analyses support a central role of BZR1 in Brassinosteroid (BR) regulation of plant development. The dominant bzr1-1D mutation, which stabilizes the BZR1 protein, completely suppresses the de-etiolated phenotype of the null bri1-116 mutant grown in the dark. Using microarray analysis, we identified genes differentially expressed in bri1-116 compared to wild type and genes differentially expressed in the bzr1-1D;bri1-116 double mutant compared to the bri1-116 single mutant.  Consistent with the phenotypic suppression of bri1-116 by bzr1-1D, about 80% of the genes affected in bri1-116 were affected oppositely  by bzr1-1D BZR1 regulated genes were generated from comparing genes differentially expressed by bzr1-1D;bri1-116 and bri1-116.  Genes affected by BRI1 were generated from comparing differentially expressed genes of bri1-116 and Col control. ANOVA was used to find genes whose expression was different between bzr1-1D;bri1-116 and bri1-116 or between bri1-116 and Col samples [see Supplementary file below]."							
+Date of Experiment								
+Term Source Name	EFO							
+Term Source Version								
+Term Source File	http://efo.svn.sourceforge.net/viewvc/efo/trunk/src/efoinowl/efo.owl							
+Person Last Name	Sun	Wang						
+Person First Name	Yu	Zhiyong						
+Person Mid Initials								
+Person Email	yusun05@gmail.com							
+Person Affiliation	Carnegie Institution of Washington							
+Person Phone								
+Person Fax								
+Person Address	"plant biology, Carnegie Institution of Washington, 260 panama street, Stanford, CA, USA"							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Person Roles Term Accession Number								
+Normalization Type								
+Normalization Term Accession Number								
+Normalization Term Source REF								
+Replicate Type								
+Replicate Term Accession Number								
+Replicate Term Source REF								
+Experimental Design	genetic modification design	transcription profiling by array						
+Experimental Design Term Accession Number								
+Experimental Design Term Source REF								
+Quality Control Type								
+Quality Control Term Accession Number								
+Quality Control Term Source REF								
+Protocol Name	P-GSE25134-1	P-GSE25134-6	P-GSE25134-3	P-GSE25134-8	P-GSE25134-7	P-GSE25134-2	P-GSE25134-4	P-GSE25134-5
+Protocol Description	ID_REF = <br>VALUE = value	"20 μg of labeled and fragmented cRNA were hybridized with Arabidopsis ATH1 genome array, according to the manufacturer’s instruction (Affymetrix)."	"Homozygote bzr1-1D;bri1-116, segregating bri1-116, and wild type Col were grown on solid ½ MS medium with 1% sucrose in the dark for 108 hours."	"Microarray data were analyzed using Genespring software (version 7, Silicon Genetics). Data that were flagged as absent using mismatch probes were removed from the analysis.  GC_RMA signal intensities were generated.  However, note that MAS5.0 signal intensities are presented in the table below."	Arrays were scanned using Agilent GeneArray Scanner.	The seedlings were frozen in liquid nitrogen in complete darkness and then the homozygote seedlings of bri1-116 were picked individually from the heterozygous population.	"Total RNA was extracted by Plant RNA Purification Reagent (Invitrogen), treated with RNase-free DNase I (Qiagen), and cleaned up using RNeasy Plant Mini column (Qiagen) according to the manufacturer's instructions."	Biotinylated cRNA were preparedfrom 10ug of total RNA according to the Eukaryotic Target Protocol (Affymetrix).
+Protocol Software								
+Protocol Hardware								
+Protocol Contact								
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Protocol Term Source REF								
+Protocol Term Accession Number								
+Experimental Factor Name	genotype							
+Experimental Factor Type	genotype							
+Experimental Factor Term Source REF								
+Experimental Factor Term Accession Number								
+Publication Title	Integration of brassinosteroid signal transduction with the transcription network for plant growth regulation in Arabidopsis.							
+Publication Author List	"Sun Y, Fan XY, Cao DM, Tang W, He K, Zhu JY, He JX, Bai MY, Zhu S, Oh E, Patil S, Kim TW, Ji H, Wong WH, Rhee SY, Wang ZY."							
+PubMed ID	21074725							
+Publication DOI	10.1016/j.devcel.2010.10.010							
+Publication Status	published							
+Publication Status Term Source REF	EFO							
+Publication Status Term Accession Number	EFO_0001796							
+Comment[SecondaryAccession]	GSE25134							
+Comment[GEOLastUpdateDate]	2010-12-31							
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for bzr1 and bri1 or bri1 only							
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[GEOReleaseDate]	2010-12-31							
+Comment[ArrayExpressSubmissionDate]	2010-11-04							
+SDRF File	E-GEOD-25134.sdrf.txt							

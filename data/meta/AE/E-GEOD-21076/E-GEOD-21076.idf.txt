@@ -1,0 +1,49 @@
+Investigation Title	Arabidopsis thaliana/Hyaloperonospora arabidopsidis compatible interaction transcriptome	
+Comment[Submitted Name]	Arabidopsis thaliana/Hyaloperonospora arabidopsidis compatible interaction transcriptome	
+Experimental Design	transcription profiling by array	
+Experimental Design Term Source REF	EFO	
+Comment[SecondaryAccession]	GSE21076	
+Comment[ArrayExpressReleaseDate]	2010-04-07	
+Comment[AEMIAMESCORE]	3	
+Comment[ArrayExpressAccession]	E-GEOD-21076	
+Comment[MAGETAB TimeStamp_Version]	2010-08-04 05:45:37 Last Changed Rev: 13058	
+Experimental Factor Name	INFECTION	
+Experimental Factor Type	infect	
+Experimental Factor Term Source REF	
+Person Last Name	Agnes	Keller	Allasia	Attard	
+Person First Name	Attard	H	V	A	
+Person Mid Initials	
+Person Email	attard@sophia.inra.fr	
+Person Phone	
+Person Fax	
+Person Address	INRA, 400 route des chappes, SOPHIA ANTIPOLIS, FRANCE	
+Person Affiliation	INRA	
+Person Roles	submitter	
+Person Roles Term Source REF	The MGED Ontology	
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2010-04-07	
+PubMed ID	
+Publication DOI	
+Publication Author List	
+Publication Title	
+Publication Status	
+Publication Status Term Source REF	
+Experiment Description	We used Arabidopsis full-genome microarrays to characterize plant transcript accumulations at different stages of infection with the biotrophic oomycete downy mildew pathogen, Hyaloperonospora arabidopsidis : initiation  (< 1 dpi) and maintenance of infection (> 4 dpi). In two independent experiments, cotyledons from the ecotype Wassilewskija (WS) were inoculated with water, or with Hyaloperonospora arabidopsidis to establish a compatible interaction. Affymetrix  ATH1 microarrays were used to profile Arabidopsis transcript accumulations at the initiation (mixed samples at 8 and 24 hours post inoculation, hpi; early stage) and maintenance (mixed samples at 4 and 6 days post inoculation; late stage) of the compatible interaction.	
+Protocol Name	P-GSE21076-2	P-GSE21076-3	P-GSE21076-8	P-GSE21076-4	P-GSE21076-5	P-GSE21076-1	
+Protocol Type	grow	nucleic_acid_extraction	specified_biomaterial_action	labeling	hybridization	bioassay_data_transformation	
+Protocol Description	Seeds from A. thaliana ecotype Wassilewskija (WS) were sown on a soil/sand mixture, stratified for 3 days at 4 Â°C, and then grown under a 12 h photoperiod in a growth chamber at 20 Â°C.	In two independent experiments, cotyledons from the ecotype Wassilewskija (WS) were inoculated with water, or with H. arabidopsidis to establish a compatible interaction. Total RNA was extracted using the NucleoSpin Plant RNA preparation kit according to the manufacturerâs instructions (Macherey-Nagel, Hoerd, France). Equal amounts of RNA extracted at 8 h and 24 h after inoculation were mixed to produce the âearlyâ interaction samples. Equal amounts of RNA from cotyledons at 4 d and 6 d after inoculation were mixed to produce the âlateâ interaction samples.	For infection, 10-day-old plants were spray-inoculated to saturation with a spore suspension of 40,000 spores/ml (strain  Emwa1)	Hybridized probes were labeled with streptavidin-phycoerythrin conjugate and anti streptavidine antibody,	RNA samples from the âearlyâ and âlateâ compatible interaction, and from the water-treated control (5 Âµg each) were submitted to hybridizations on Affymetrix ATH1 GeneChips	ID_REF = <br>VALUE = MAS5.0 signal intensity	
+Protocol Parameters	
+Protocol Hardware	
+Protocol Software	
+Protocol Contact	
+Protocol Term Source REF						The MGED Ontology	
+SDRF File	E-GEOD-21076.sdrf.txt	
+Term Source Name	NCBI Taxonomy		The MGED Ontology	ArrayExpress	EFO	The MGED Ontology	
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version							

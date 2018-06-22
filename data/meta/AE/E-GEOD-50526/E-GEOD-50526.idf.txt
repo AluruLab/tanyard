@@ -1,0 +1,30 @@
+Comment[ArrayExpressAccession]	E-GEOD-50526						
+MAGE-TAB Version	1.1						
+Public Release Date	2013-09-03						
+Investigation Title	Responses of Arabidopsis immune signaling mutants to Alternaria brassicicola infection						
+Comment[Submitted Name]	Responses of Arabidopsis immune signaling mutants to Alternaria brassicicola infection						
+Experiment Description	A major part of plant immune response is mediated by signaling pathways controlled by three hormnes,  jasmonate, ethylene, and salicylate. The involvement of each of these hormone signaling pathways in Arabidopsis thaliana was investigated in response to infection of a necrotrophic fungal pathogen, A. brassicicola. Arabideopsis mutants deficient in these hormone signaling pathways were compared to wild type. Expression profiles were obtained from leaves of wild-type (Col-0), dde2-2, ein2-1, and sid2-2 plants at 9 and 24 hours after A. brassicicola inoculation. In addition, expression profiles were obtained from wild-type at 9 and 24 hours after mock inoculation. The replicates were made from three independent experiments (i.e., biological replicates). Please note that 'Col-0 at 24 hpi with A. brassicicola, biological rep 3' was excluded from data processing because the data did not pass a QC based on affyPML of Bioconducter.						
+Term Source Name	ArrayExpress	EFO					
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Glazebrook	Botanga	Glazebrook				
+Person First Name	Jane	Chris	Jane				
+Person Email	jglazebr@umn.edu						
+Person Affiliation	University of Minnesota						
+Person Phone	6126245194						
+Person Address	Plant Biology, University of Minnesota, 1500 Gortner Avenue, Saint Paul, MN, USA						
+Person Roles	submitter						
+Protocol Name	P-GSE50526-1	P-GSE50526-5	P-GSE50526-6	P-GSE50526-2	P-GSE50526-3	P-GSE50526-4	P-GSE50526-7
+Protocol Description	Col-0.24R3 (Col-0 at 24 hpi with A. brassicicola, biological rep 3) was removed from data processing because the data did not pass a QC based on affyPML of Bioconducter. The data from the remaining .CEL files were processed using gcrma of Bioconductor (v.2.32.0), using the default parameters. ID_REF =  VALUE = GC-RMA	Biotinylated cRNA were prepared according to the standard Affymetrix protocol.	Biotin Labelled cRNA using Affymetrix GeneChip Hybridization, Wash and Stain Kit, according to guidelines set out by Affymetrix, Santa Clara, CA	10 ul droplet of the spore suspension was placed on adaxial side of each leaf. The inoculated plants were placed in relative humidity of 100% for the course of the experiment. Inoculation was performed at 10 am.	Arabidopsis plants were grown at 22ﾰC with relative humidity of 75% with a 12h-light/12h-dark cycle (dawn at 8 am and dusk at 8 pm). The 3rd to 5th true leaves of 3-week old plants were used. The A. brassicicola strain ATCC96836 was grown on 1/2 x potato dextrose agar for 7 days before spores were suspended in water. The density of spore suspension was adjusted to 1xE5 spores/ml, based on the counting with a hemocytometer.	Qiagen RNeasy kit protocol	Scanned according to guidelines set out by Affymetrix, Santa Clara, CA.
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	sampling time point	infect	genotype				
+Experimental Factor Type	sampling time point	infect	genotype				
+Comment[SecondaryAccession]	GSE50526						
+Comment[GEOReleaseDate]	2013-09-03						
+Comment[ArrayExpressSubmissionDate]	2013-09-02						
+Comment[GEOLastUpdateDate]	2013-09-03						
+Comment[AEExperimentType]	transcription profiling by array						
+SDRF File	E-GEOD-50526.sdrf.txt						
+Publication Title	Arabidopsis PECTIN METHYLESTERASEs contribute to immunity against Pseudomonas syringae.	Mechanisms underlying robustness and tunability in a plant immune signaling network.					
+Publication Author List	Bethke G, Grundman RE, Sreekanta S, Truman W, Katagiri F, Glazebrook J.	Kim Y, Tsuda K, Igarashi D, Hillmer RA, Sakakibara H, Myers CL, Katagiri F					
+PubMed ID	24367018	24439900					
+Publication DOI	10.1104/pp.113.227637	10.1016/j.chom.2013.12.002					

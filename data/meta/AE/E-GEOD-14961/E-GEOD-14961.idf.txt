@@ -1,0 +1,51 @@
+Investigation Title	Transcription profiling of Arabidopsis Seedlings treated with Salicylic Acid					
+Comment[Submitted Name]	Expression data from Arabidopsis Seedlings treated with Salicylic Acid					
+Experimental Design	unknown_experiment_design_type	transcription profiling by array				
+Experimental Design Term Source REF		EFO				
+Comment[AEExperimentType]	transcription profiling by array					
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis after treatment with salicylic acid					
+Comment[SecondaryAccession]	GSE14961					
+Comment[ArrayExpressReleaseDate]	2009-02-28					
+Comment[AEMIAMESCORE]	4					
+Comment[ArrayExpressAccession]	E-GEOD-14961					
+Comment[MAGETAB TimeStamp_Version]	2010-08-01 20:22:08 Last Changed Rev: 13058					
+Experimental Factor Name	COMPOUND					
+Experimental Factor Type	compound					
+Experimental Factor Term Source REF						
+Person Last Name	Sawant					
+Person First Name	Samir					
+Person Mid Initials						
+Person Email	deept_mbi@yahoo.co.in					
+Person Phone						
+Person Fax						
+Person Address	Plant Molecular Biology and Genetic Engeneering Division , Centre of Plant Molecular Biology, National Botanical Research Institute, Rana Pratap Marg, Lucknow, 226 001, India					
+Person Affiliation	National Botanical Research Institute					
+Person Roles	submitter					
+Person Roles Term Source REF	The MGED Ontology					
+Quality Control Type						
+Quality Control Term Source REF						
+Replicate Type						
+Replicate Term Source REF						
+Normalization Type						
+Normalization Term Source REF						
+Date of Experiment						
+Public Release Date	2009-02-28					
+PubMed ID						
+Publication DOI						
+Publication Author List						
+Publication Title						
+Publication Status						
+Publication Status Term Source REF						
+Experiment Description	Disease resistance is associated with a plant defense response that involves an integrated set of signal transduction pathways. Gene Expression studies were performed using Arabidopsis wild type seedlings treated with and without salicylic acid (SA). In this study we examined pathogenesis related genes are upregulated. We used Affymetrix GeneChip to study the genome wide gene expression with and without induction of defense by treatment with SA Experiment Overall Design: Arabidopsis seedlings Col-0 were grown for 9 days in controlled environment rooms at 22Â°C temperature and a photoperiod of 16 h light 100 Âµm m2 s_1 cool-white fluorescent illumination. After 9 days seedlings were transferred into water as a mock treatment and with the defense related signaling molecules salicylic acid (SA) for one day. The concentration of SA (Sigma, St. Louis) was 2mM and pH 6.5. RNA extracted from SA and mock treated seedling and hybridize with Affymetrix GeneChip to examine the change in plant defence gene expression due to induction of SA.					
+Protocol Name	P-G14961-2	P-G14961-1	P-G14961-4	P-G14961-3	P-AFFY-6	
+Protocol Type	specified_biomaterial_action	grow	nucleic_acid_extraction	labeling	feature_extraction	
+Protocol Description	Arabidopsis seedlings Col-0 were grown for 9 days and then transferred into water as a mock treatment and with the defense related signaling molecules salicylic acid (SA) for one day	Arabidopsis seedlings Col-0 were grown for 9 days in controlled environment rooms at 22Â°C temperature and a photoperiod of 16 h light 100 Âµm m2 s_1 cool-white fluorescent illumination	Total RNA was performed according to the Sigma RNA isolation kit (STRN250)	Biotinylated cRNA were prepared according to the standard Affymetrix protocol.	Title: Affymetrix CEL analysis. Description: 	
+Protocol Parameters						
+Protocol Hardware						
+Protocol Software					MicroArraySuite 5.0	
+Protocol Contact						
+Protocol Term Source REF						
+SDRF File	E-GEOD-14961.sdrf.txt					
+Term Source Name	NCBI Taxonomy		The MGED Ontology	ArrayExpress	EFO	The MGED Ontology
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version						

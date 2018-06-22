@@ -1,0 +1,37 @@
+Comment[ArrayExpressAccession]	E-MTAB-5607			
+MAGE-TAB Version	1.1			
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis roots treated with nematode aqueous diffusate (NemaWater)			
+Investigation Title	NemaWater treatment			
+Comment[Submitted Name]	NemaWater treatment			
+Experiment Description	This experiment analyzes the changes in expression of ten days old Arabidopsis roots upon NemaWater treatment.			
+Experimental Factor Name	stimulus			
+Experimental Factor Type	stimulus			
+Experimental Factor Term Source REF				
+Experimental Factor Term Accession Number				
+Person Last Name	Siddique			
+Person First Name	Shahid			
+Person Mid Initials				
+Person Email	siddique@uni-bonn.de			
+Person Phone				
+Person Fax				
+Person Address				
+Person Affiliation				
+Person Roles	submitter			
+Public Release Date	2017-03-22			
+Protocol Name	P-MTAB-54752	P-MTAB-54753	P-MTAB-54754	P-MTAB-54755
+Protocol Type	treatment protocol	nucleic acid extraction protocol	nucleic acid labeling protocol	nucleic acid hybridization to array protocol
+Protocol Term Source REF	EFO	EFO	EFO	EFO
+Protocol Term Accession Number	EFO_0003969	EFO_0002944	EFO_0003813	EFO_0003815
+Protocol Description	Approximately 40,000 sterile J2s of H. schachtii were incubated in 2 ml dd H2O for 24 hours at room temperature with continuous shaking. Afterwards, the nematode-water mixture was briefly centrifuged at 800 rpm for 2 minutes. The supernatant was removed to a new Eppendorf tube and was labelled as NemaWater. All steps of NemaWater production were performed under sterile conditions. Twelve-day-old Arabidopsis plants grown in Knop medium, as described above, were removed from agar plates and incubated in NemaWater for one hour each. Whole roots from 10 plants were cut and frozen in liquid nitrogen. Arabidopsis roots treated only with dd H2O were used as a control. 	RNA was extracted using a Nucleospin RNA extraction kit (Macherey-Nagel, Durren, Germany) according to the manufacturerâs instructions. The quality and quantity of RNA was analysed using an Agilent Bioanalyzer (Agilent Technologies, Santa Clara, CA, USA) and a Nanodrop (Thermo Fisher Scientific, Waltham, MA, USA) respectively. 	The cDNA synthesis was performed with NuGENâs Applause 3âAmp System (NuGEN, San Carlos, CA, USA) according to the manufacturersâ instructions. NuGENâs Encore Biotin Module (NuGEN) was used to fragment cDNA. 	Hybridization, washing and scanning were performed according to the Affymetrix 30 GeneChip Expression Analysis Technical Manual (Affymetrix, Santa Clara, CA, USA). Three chips each were hybridized with control and infected samples, with each microarray representing an independent biological replicate. The primary data analysis was performed with the Affymetrix Expression Console v1 software using the MAS5 algorithm.
+Protocol Hardware				
+Protocol Software				
+Term Source Name	ArrayExpress	EFO		
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/		
+Term Source Version				
+Comment[AEExperimentType]	transcription profiling by array			
+SDRF File	E-MTAB-5607.sdrf.txt			
+Publication Title	Arabidopsis leucine-rich repeat receptor–like kinase NILR1 is required for induction of innate immunity to parasitic nematodes			
+Publication Author List	Badou Mendy, Mary Wanjiku Wang’ombe, Zoran S. Radakovic, Julia Holbein, Muhammad Ilyas, Divykriti Chopra, Nick Holton, Cyril Zipfel, Florian M. W. Grundler , Shahid Siddique			
+Publication DOI	10.1371/journal.ppat.1006284			
+PubMed ID	28406987			
+Comment[RelatedExperiment]	E-MTAB-5610			

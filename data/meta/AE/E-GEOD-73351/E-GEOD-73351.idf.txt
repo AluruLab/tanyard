@@ -1,0 +1,27 @@
+Comment[ArrayExpressAccession]	E-GEOD-73351
+MAGE-TAB Version	1.1											
+Public Release Date	2015-09-23
+Investigation Title	The Arabidopsis thaliana map65-3 and ugt76b1 mutant transcriptomes upon the compatible interaction with Hyaloperonospora arabidopsidis											
+Comment[Submitted Name]	The Arabidopsis thaliana map65-3 and ugt76b1 mutant transcriptomes upon the compatible interaction with Hyaloperonospora arabidopsidis
+Experiment Description	We used Arabidopsis full-genome microarrays to characterize plant transcript accumulations in map65-3 and ugt76b1 mutants, 3 days after water treatment and inoculation with the biotrophic oomycete downy mildew pathogen, Hyaloperonospora arabidopsidis (Hpa) In two independent experiments, cotyledons from the wild-type Wassilewskija (WS) ecotype, and from the map65-3 and ugt76b1 mutants were treated with water, or inoculated with the Hpa isolate Emwa1 to establish a compatible interaction. Affymetrix ATH1 microarrays were used to profile Arabidopsis transcript accumulations at 3 days after onset of treatment. Data from the water-treated and Hpa-infected wild-type were previously deposited as GSM914964, GSM914965, GSM914966, and GSM914967. The wild-type data, and the data from the map65-3 and ugt76b1 mutant presented here were established in the same set of experiments and analyses, which also involved the previously deposited pskr1-5 mutant (GSM914968, GSM914969, GSM914970, and GSM914971).											
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl										
+Person Last Name	Keller	Allasia	Quentin	Baurés	Favery	Keller						
+Person First Name	Harald	Valérie	Michael	Isabelle	Bruno	Harald						
+Person Email	keller@sophia.inra.fr											
+Person Affiliation	INRA											
+Person Phone	33-492386594											
+Person Fax	33-492386587											
+Person Address	UMR-ISA, INRA, 400 route des Chappes, Sophia Antipolis, France											
+Person Roles	submitter											
+Protocol Name	P-GSE73351-1	P-GSE73351-10	P-GSE73351-5	P-GSE73351-11	P-GSE73351-6	P-GSE73351-2	P-GSE73351-8	P-GSE73351-3	P-GSE73351-9	P-GSE73351-4	P-GSE73351-12	P-GSE73351-7
+Protocol Description	Background adjustment, quantile normalization, and summarization of raw data were performed with the Affymetrix Power Tools APT1.14.4 software package. ID_REF =  VALUE = RMA log2 Signal intensity	Operated by the NASC's International Affymetrix Service	standard Affymetrix protocol	Operated by the NASC's International Affymetrix Service	standard Affymetrix protocol	For infection, 10-day-old plants were spray-inoculated to saturation with a spore suspension of 40,000 spores/ml (strain Emwa1)	A. thaliana seeds were sown on a soil/sand mixture, stratified for 3 days at 4 °C, and then grown under a 12 h photoperiod in a growth chamber at 20 °C.	Seeds from A. thaliana ecotype Wassilewskija (WS) were sown on a soil/sand mixture, stratified for 3 days at 4 °C, and then grown under a 12 h photoperiod in a growth chamber at 20 °C.	In two independent experiments for each line, cotyledons were treated with water, or inoculated with Hpa to establish a compatible interaction. Total RNA was extracted from about 100 mg of these tissues according to a procedure described (Laroche-Raynal et al., Plant Science Letters 35, 139-146,1984).	In two independent experiments, cotyledons from the ecotype Wassilewskija (Ws-4) wild-type or pskr1-5 mutant plants were treated with water, or inoculated with H. arabidopsidis to establish a compatible interaction. Total RNA was extracted from about 100 mg of these tissues according to a procedure described (Laroche-Raynal et al., Plant Science Letters 35, 139-146,1984).	Operated by the NASC's International Affymetrix Service	standard Affymetrix protocol
+Protocol Type	normalization data transformation protocol	labelling protocol	labelling protocol	hybridization protocol	hybridization protocol	sample treatment protocol	growth protocol	growth protocol	nucleic acid extraction protocol	nucleic acid extraction protocol	array scanning protocol	array scanning protocol
+Experimental Factor Name	time	genotype	infection									
+Experimental Factor Type	time	genotype	infection									
+Comment[SecondaryAccession]	GSE73351											
+Comment[GEOReleaseDate]	2015-09-23											
+Comment[ArrayExpressSubmissionDate]	2015-09-23											
+Comment[GEOLastUpdateDate]	2015-09-23											
+Comment[AEExperimentType]	transcription profiling by array											
+SDRF File	E-GEOD-73351.sdrf.txt

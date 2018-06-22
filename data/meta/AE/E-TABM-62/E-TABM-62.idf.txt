@@ -1,0 +1,48 @@
+Investigation Title	Transcription profiling of 148 Arabidopsis recombinant inbred lines treated with Silwet solution to develop genetic markers and derive high-density haplotypes 	
+Comment[Submitted Name]	High-density haplotyping with microarray-based expression and single feature polymorphism markers in Arabidopsis	
+Experimental Design	compound_treatment_design	strain_or_line_design	transcription profiling by array	
+Experimental Design Term Source REF	mo	mo	EFO	
+Comment[ArrayExpressReleaseDate]	2007-01-10	
+Comment[AEMIAMESCORE]	5	
+Comment[ArrayExpressAccession]	E-TABM-62	
+Comment[MAGETAB TimeStamp_Version]	2011-06-29 07:38:59 Last Changed Rev: 14857	
+Experimental Factor Name	StrainOrLine	Time	compound	
+Experimental Factor Type	strain_or_line	time	compound_treatment_design	
+Experimental Factor Term Source REF	
+Person Last Name	West	Michelmore	Doerge	Kliebenstein	St Clair	St. Clair	van Leeuwen	Kozik	
+Person First Name	Marilyn	Richard	R	Daniel	Dina	Dina	Hans	Alexander	
+Person Mid Initials	A.L.	W.	W.	J.	A.	
+Person Email						dastclair@ucdavis.edu	
+Person Phone	
+Person Fax	
+Person Address	
+Person Affiliation						UC Davis Plant Sciences,	
+Person Roles						submitter	
+Person Roles Term Source REF							
+Quality Control Type	spike_quality_control	biological_replicate	peer_review_quality_control	
+Quality Control Term Source REF		The MGED Ontology	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2007-01-10	
+PubMed ID	16702412	
+Publication DOI	16702412	
+Publication Author List	Marilyn A.L. West; Hans van Leeuwen; Alexander Kozik; Daniel J. Kliebenstein; R. W. Doerge; Dina A. St.Clair; Richard W. Michelmore	
+Publication Title	High-density haplotyping with microarray-based expression and single feature polymorphism markers in Arabidopsis	
+Publication Status	journal_article	
+Publication Status Term Source REF	
+Experiment Description	The study of natural genetic variation for plant disease resistance responses is a complementary approach to utilizing mutants to elucidate genetic pathways.  While some key genes involved in pathways controlling disease resistance, and signaling intermediates such as salicylic acid (SA) and jasmonic acid (JA), have been identified through mutational analyses, the use of genetic variation in natural populations permits the identification of change-of-function alleles, which likely act in a quantitative manner.  Whole genome microarrays, such as Affymetrix GeneChips, allow for molecular characterization of the disease response at a genomics level and characterization of differences in gene expression due to natural variation.  Differences in the level of gene expression, or expression level polymorphisms (ELPs), can be mapped in a segregating population to identify regulatory quantitative trait loci (expression QTLs, e-QTLs) affecting host resistance responses.  We surveyed recombinant inbred lines (RILs) from a population derived from a cross of inbred Arabidopsis accessions Bayreuth-0 (Bay-0) and Shahdara (Sha) in order to map e-QTLs controlling ELPs.  We treated vegetatively grown plants with either SA or a control solution (Silwet), and harvested the plants 28 hours after chemical treatment.  We present Affymetrix GeneChip microarray expression data for 2 biological replications of the control (Silwet) samples for 148 RILs, plus replicated Bay-0 and Sha control samples grown at the same time as the RILs.  These GeneChips were used to develop genetic markers and derive high-density haplotypes for the RILs	
+Protocol Name	P-TABM-hans18	P-TABM-103	P-TABM-hans19	Affymetrix:Protocol:Hybridization-EukGE-WS2v4_450	P-TABM-hans12	Affymetrix:Protocol:Hybridization-FlexGE-WS2v4_450	P-AFFY-6	P-TABM-1196	Affymetrix:Protocol:ExpressionStat	
+Protocol Type	grow	nucleic_acid_extraction	labeling	hybridization	hybridization		feature_extraction	bioassay_data_transformation	bioassay_data_transformation	
+Protocol Description	Seeds of  Arabidopsis thaliana accessions Bay-0; Sha; and Bay-0 x Sha RILs originally developed by O. Loudet (http://www.inra.fr/qtlat); were obtained from ABRC through TAIR (www.arabidopsis.org).   Due to limitations in growth chamber space;  two biologi	RNA was extracted from the bulked plants using TRIzol as per the manufacturers protocol (Invitrogen, Carlsbad, CA, USA), followed by purification on RNeasy columns (Qiagen, Valencia, CA, USA).	cDNA and labeled cRNA were prepared according to the manufacturers guidelines in the GeneChip Expression Analysis Technical Manual 701021 rev5 (Affymetrix; Santa Clara; CA; USA). The cDNA synthesis was initiated with 5 micrograms total RNA; one-cycle cDNA synthesis and cRNA labeling were performed with kits purchased from Affymetrix.	Title: Affymetrix EukGE-WS2v4_450 Hybridization. Description: 	The labeled cRNA was hybridized to Affymetrix ATH1 GeneChips according to the manufacturers guidelines in the GeneChip Expression Analysis Technical Manual 701021 rev5 (Affymetrix, Santa Clara, CA, USA).  Wash protocol EukGE-WS2 v4_450 was used.		Title: Affymetrix CEL analysis. Description: 	Quantile normalization was performed via the "quantile" option for normalization in the "expresso" function of Bioconductor.	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 	
+Protocol Parameters	
+Protocol Hardware	
+Protocol Software							MicroArraySuite 5.0		MicroArraySuite 5.0	
+Protocol Contact	
+Protocol Term Source REF				mo	
+SDRF File	E-TABM-62.sdrf.txt	
+Term Source Name	ncbitax		The MGED Ontology	ArrayExpress	The MGED Ontology	mo	EFO	
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	
+Term Source Version								

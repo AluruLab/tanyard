@@ -1,0 +1,69 @@
+MAGE-TAB Version	1.1
+Investigation Title	Comparison of the root transcriptome from plants grown on different growing substrates (hydroponics and soil).
+
+Experimental Design	growth condition design
+Experimental Design Term Source REF	EFO
+Experimental Design Term Accession Number	EFO_0001759
+
+Experimental Factor Name	growth condition
+Experimental Factor Type	growth condition
+Experimental Factor Term Source REF	EFO
+Experimental Factor Term Accession Number	EFO_0000523
+
+Person Last Name	Tocquin	PÃ©rilleux	BouchÃ©
+Person First Name	Pierre	Claire	FrÃ©dÃ©ric
+Person Mid Initials			
+Person Email	ptocquin@ulg.ac.be	cperilleux@ulg.ac.be	bouche.fred@gmail.com
+Person Phone			
+Person Fax			
+Person Affiliation	Laboratory of Plant Physiology - PhytoSYSTEMS Department of Life Sciences - Faculty of Sciences University of LiÃ¨ge	Laboratory of Plant Physiology - PhytoSYSTEMS Department of Life Sciences - Faculty of Sciences University of LiÃ¨ge	Laboratory of Plant Physiology - PhytoSYSTEMS Department of Life Sciences - Faculty of Sciences University of LieÌge Belgium
+Person Address	Laboratory of Plant Physiology Sart Tilman Campus Â· Quartier VallÃ©e 1 4, Chemin de la VallÃ©e, 4000 LiÃ¨ge Belgium	Laboratory of Plant Physiology Sart Tilman Campus Â· Quartier VallÃ©e 1 4, Chemin de la VallÃ©e, 4000 LiÃ¨ge Belgium	Laboratory of Plant Physiology Sart Tilman Campus Â· Quartier ValleÌe 1 4, Chemin de la ValleÌe, 4000 LieÌge Belgium
+Person Roles	investigator	investigator	submitter
+Person Roles Term Source REF			
+Person Roles Term Accession Number			
+
+Quality Control Type
+Quality Control Term Source REF
+Quality Control Term Accession Number
+
+Replicate Type
+Replicate Term Source REF
+Replicate Term Accession Number
+
+Normalization Type
+Normalization Term Source REF
+Normalization Term Accession Number
+
+Date of Experiment	2011-07-05
+Public Release Date	2016-06-30
+
+PubMed ID
+Publication DOI
+Publication Author List
+Publication Title
+Publication Status
+Publication Status Term Source REF
+Publication Status Term Accession Number
+
+Experiment Description	In order to decipher the molecular alterations caused by the growing medium, we harvested the roots of plants grown in hydroponics and on soil for 6 weeks under 10-hour short days.  The temperature was 20Â°C (day and night), the relative humidity was 70 %, and the light was provided by cool-white fluorescent tubes at 100 Î¼E.mâ2.sâ1 during the  first 10 days, 60 Î¼E.mâ2.sâ1 later. The soil was composed of a mixture of peat compost and sand (3:1 v/v), which was watered daily with tap water. Plants were transferred to 1-liter containers (six plants/container) 18 days after sowing. Plants grown in hydroponics were sown on agar-containing (6.7 g.lâ1; Kalys, France) seed-holders placed on 2-liter black containers and accessories (http://www.araponics.com). The hydroponic solution, changed every two weeks, was prepared as described in Tocquin et al. (2003). During the first three weeks of growth, the number of plants per 2-liter tank was 35 and 18 afterwards. Harvesting was performed 8 hours after the beginning of the light period (16h30), and the roots from 35 to 45 individuals were pooled. Three independent biological replicates were performed for plants grown on both media.
+
+Protocol Name	P-MTAB-47871	P-MTAB-47872	P-MTAB-47873	P-MTAB-47874	P-MTAB-47875	P-MTAB-47869	P-MTAB-47870
+Protocol Type	nucleic acid extraction protocol	nucleic acid labeling protocol	nucleic acid hybridization to array protocol	array scanning and feature extraction protocol	normalization data transformation protocol	sample collection protocol	growth protocol
+Protocol Term Source REF	EFO	EFO	EFO	EFO	EFO	EFO	EFO
+Protocol Term Accession Number	EFO_0002944	EFO_0003813	EFO_0003815	EFO_0003814	EFO_0003816	EFO_0005518	EFO_0003789
+Protocol Description	Tissues were ground in liquid nitrogen, and RNA was extracted with TRizol according to manufacturerâs instructions (www.lifetechnologies.com).  The quality of the RNA samples was assessed using the Experion(tm) automated electrophoresis system (www.bio-rad.com).	The RNA samples were labeled using 3â IVT Expressed kit according to the manufacturerâs instructions (Affymetrix, www.affymetrix.com).	15 Âµg of fragmented cRNA was used in a 300-Âµl hybridization mixture containing added hybridization controls. 200 Âµl was hybridized on arrays for 16 h at 45Â°C. Standard post-hybridization wash and double-stain protocols (EukGE-WS2v5_450) were used on an Affymetrix GeneChip Fluidics Station 450. ATH1 GeneChip hybridizations, were performed by the GIGA Genomics facility (GIGA, University of LiÃ¨ge, Belgium)	Three biological replicates obtained from independent experiments were hybridized on ATH1 Genome arrays (Affymetrix).The array scanning were performed by the GIGA Genomics facility (GIGA, University of LiÃ¨ge, Belgium), using a GeneChipÂ® Scanner 3000 7G (Affymetrix).	Bioinformatic analyses were performed using R programming language (R Core Team). We analysed raw microarray (â.CELâ  les) data using the limma package (Ritchie et al., 2015). Data were GCRMA-normalized, and probesets were  filtered for an absolute expression level of at least 100 in â¥ 33.3 % of the arrays. We  fitted the data to a linear model using the ebayes() function and corrected the p-value for multiple testing using Benjamini and Hochbergâs method (Benjamini and Hochberg, 1995). We considered genes as being differentially expressed when the adjusted p-value was â¤ 0.001 and fold change â¥ 2.	Root samples were collected on 6-week old plants grown in hydroponics and on soil. Harvesting was performed 8 hours after the beginning of the light period (16h30), and the roots from 35 to 45 individuals were pooled. Plants grown in soil were brushed to remove soil particles. Roots were stored at â80Â°C until used.	The temperature was 20Â°C (day and night), the relative humidity was 70 %, and the light was provided by cool-white fluorescent tubes at 100 Î¼E.mâ2.sâ1 during the  first 10 days, 60 Î¼E.mâ2.sâ1 later. The soil was composed of a mixture of peat compost and sand (3:1 v/v), which was watered daily with tap water. Plants were transferred to 1-liter containers (six plants/container) 18 days after sowing. Plants grown in hydroponics were sown on agar-containing (6.7 g.lâ1; Kalys, France) seed-holders placed on 2-liter black containers and accessories (http://www.araponics.com).  The hydroponic solution, changed every two weeks, was prepared as described in Tocquin et al. (2003). During the  first three weeks of growth, the number of plants per 2-liter tank was 35 and 18 afterwards.
+Protocol Parameters							
+Protocol Hardware							
+Protocol Software							
+Protocol Contact							
+
+Term Source Name	EFO	ArrayExpress
+Term Source File	http://www.ebi.ac.uk/efo/	http://www.ebi.ac.uk/arrayexpress/
+Term Source Version	2.38
+
+SDRF File	E-MTAB-4129.sdrf.txt
+Comment [Submitted Name]	Comparison of the root transcriptome from plants grown on different growing substrates (hydroponics and soil).
+Comment [AEMIAMEScore]	5
+Comment [AEExperimentType]	transcription profiling by array
+Comment[ArrayExpressAccession]	E-MTAB-4129
+Comment [AEExperimentDisplayName]	Transcription profiling by array of the root transcriptome from Arabidopsis thaliana plants grown on different growing substrates (hydroponics and soil).

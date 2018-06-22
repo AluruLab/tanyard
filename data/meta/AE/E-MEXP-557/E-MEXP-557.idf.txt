@@ -1,0 +1,48 @@
+Investigation Title	Transcription profiling of Arabidopsis wild type, cop1-4, hy5-1 mutant seedlings exposed to polychromatic radiation	
+Comment[Submitted Name]	Ulm Arabidopsis hy5-1 cop1-4 UV-B	
+Experimental Design	stimulus_or_stress_design	strain_or_line_design	transcription profiling by array	
+Experimental Design Term Source REF	mo	mo	EFO	
+Comment[ArrayExpressReleaseDate]	2006-08-16	
+Comment[AEMIAMESCORE]	5	
+Comment[ArrayExpressAccession]	E-MEXP-557	
+Comment[MAGETAB TimeStamp_Version]	2010-08-11 15:10:35 Last Changed Rev: 13058	
+Experimental Factor Name	strain	UV-B wavelength	genotype	
+Experimental Factor Type	strain_or_line	light	genotype	
+Experimental Factor Term Source REF	
+Person Last Name	Schäfer	Nagy	Ulm	Adam	Oravecz	Mate	Baumann	Oakeley	Brzezinska	Molinier	
+Person First Name	Eberhard	Ferenc	Roman	Eva	Attila	Zoltan	Alexander	Edward	Agnieszka	Jean	
+Person Mid Initials								J	
+Person Email			roman.ulm@biologie.uni-freiburg.de	
+Person Phone			+49-761-203-2932	
+Person Fax			+49-761-203-2612	
+Person Address			Schänzlestrasse 1	
+Person Affiliation	University of Freiburg	Biological Research Center, Szeged	Department of Botany	Biological Research Center, Szeged	University of Freiburg	Agricultural Biotechnological Center, Gödöllö	University of Freiburg	FMI, Basel	University of Freiburg	FMI, Basel	
+Person Roles			submitter	
+Person Roles Term Source REF				
+Quality Control Type	biological_replicate	
+Quality Control Term Source REF	The MGED Ontology	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2006-08-16	
+PubMed ID	16829591	
+Publication DOI	16829591	
+Publication Author List	Attila Oravecz; Alexander Baumann; Zoltan Mate; Agnieszka Brzezinska; Jean Molinier; Edward Oakeley; Eva Adam; Eberhard Schäfer; Ferenc Nagy; Roman Ulm	
+Publication Title	CONSTITUTIVELY PHOTOMORPHOGENIC1 Is Required for the UV-B Response in Arabidopsis.	
+Publication Status	journal_article	
+Publication Status Term Source REF	
+Experiment Description	Seven-day-old white-light-grown wild-type, cop1-4 or hy5-1 mutant Arabidopsis seedlings were exposed for fifteen minutes to polychromatic radiation with decreasing short-wave cut-off in the UV range (WG305 = +UV-B, WG327 = -UV-B) and samples were taken 1 h after the onset of irradiation.	
+Protocol Name	P-MEXP-9939	P-MEXP-9942	P-MEXP-9941	P-MEXP-9943	P-MEXP-9944	Affymetrix:Protocol:Hybridization-EukGE-WS2v4	P-AFFY-6	Affymetrix:Protocol:ExpressionStat	
+Protocol Type	grow	specified_biomaterial_action	nucleic_acid_extraction	pool	labeling	hybridization	feature_extraction	bioassay_data_transformation	
+Protocol Description	Arabidopsis seeds were surface-sterilized with sodium-hypochlorite, plated on Murashige and Skoog medium (MS, Duchefa) containing 1% sucrose and 0.8% agar. Seeds were stratified for at least two days at 4°C and germinated aseptically at 25°C in a standard growth chamber (MLR-350, Sanyo Electric Co., Ltd.) with a 12 h/12 h light/dark cycle. 	Seven-day-old seedlings were irradiated at midday in a UV-B light field consisting of six Philips TL 40W/12 broadband UV fluorescent tubes (Ümax = 310 nm, half-bandwidth = 40 nm, fluence rate = 7 W/m2) filtered through 3-mm transmission cut-off filters of the WG series with half-maximal transmission at the indicated wavelength (WG305 and WG327; Schott, Germany). Spectral energy distributions of UV-B sources were measured with an OL 754 UV-visible spectroradiometer (Optronic Laboratories, Orlando, FL), and are described in Ulm et al. 2004. After 15 minutes irradiation of the seedlings, plates were immediately returned to the standard growth chamber for 45 minutes. 	Arabidopsis total RNA was isolated with the Plant RNeasy Kit (Qiagen, Chatsworth, CA), according to the manufacturers instructions.	Whole plant tissue of at least 50 Arabidopsis seedlings was harvested, snap-frozen in liquid nitrogen and stored at -80°C until further processing.	Ten-µg aliquot of total RNA was reverse-transcribed using the Affymetrix cDNA synthesis kit as per manufacturers instructions (Affymetrix, Santa Clara, CA). The oligonucleotide used for priming was 5-ggccagtgaattgtaatacgactcactatagggaggcgg-(t)24-3 (Genset Oligo, France) as recommended by Affymetrix. Double-stranded cDNA was purified by phenol:chloroform extraction and the aqueous phase was removed by centrifugation through Phase-lock Gel (Eppendorf). The cDNA was then in vitro transcribed in the presence of biotinylated UTP to give labelled cRNA using the Affymetrix IVT kit. The cRNA was purified using RNAeasy clean-up columns (Qiagen). To improve the recovery from the columns, the elution water was spun into the matrix at 27 g and then left to stand for one minute prior to the standard 8000 g centrifugation recommended by Qiagen. The cRNA was fragmented by heating in fragmentation buffer (40mM Tris-acetate pH8.1, 100mM KOAc, 30mM MgOAc) as recommended by Affymetrix. The Affymetrix eukaryotic hybridization controls were added to the sample prior to hybridization as per manufacturers instructions.	Title: Fluidics Station Protocol. Description: 	Title: Affymetrix CEL analysis. Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 	
+Protocol Parameters			Amplification;Extracted product;		Amplification;Label used;Amount of nucleic acid labeled;	
+Protocol Hardware	
+Protocol Software						MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact	
+Protocol Term Source REF		mo						The MGED Ontology	
+SDRF File	E-MEXP-557.sdrf.txt	
+Term Source Name	mo		ncbitax	tair_dev:1.27	nasc	The MGED Ontology	ArrayExpress	The MGED Ontology	mo	EFO	
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php		http://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html	http://www.arabidopsis.org/info/ontologies/	http://arabidopsis.info/catalogue.html	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	
+Term Source Version				1.27							

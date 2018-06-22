@@ -1,0 +1,34 @@
+Comment[ArrayExpressAccession]	E-GEOD-15105				
+Investigation Title	Transcription profiluing of Arabidopsis - probing gene misregulation in bodyguard, lacerata and fiddlehead mutants				
+Comment[Submitted Name]	Probing gene misregulation in bodyguard, lacerata and fiddlehead mutants				
+Publication Title	Dissection of the complex phenotype in cuticular mutants of Arabidopsis reveals a role of SERRATE as a mediator.				
+Publication Author List	Voisin D, Nawrath C, Kurdyukov S, Franke RB, Reina-Pinto JJ, Efremova N, Will I, Schreiber L, Yephremov A.				
+Publication DOI	10.1371/journal.pgen.1000703				
+PubMed ID	19876373				
+Publication Status	published				
+Publication Status Term Source REF	EFO				
+Publication Status Term Accession Number	EFO_0001796				
+Experimental Design	transcription profiling by array				
+Experimental Design Term Source REF	EFO				
+Person Last Name	Voisin				
+Person First Name	Derry				
+Person Email	voisin@mpiz-koeln.mpg.de				
+Person Address	Yephremov, Saedler, Max Planck Institute for Breeding Research, Carl-von-Linne weg 10, Cologne, 50829, Germany				
+Person Affiliation	Max Planck Institute for Breeding Research				
+Person Roles	submitter				
+Public Release Date	2009-10-10				
+Comment[ArrayExpressSubmissionDate]	2009-03-04				
+Comment[GEOReleaseDate]	2009-10-01				
+Comment[SecondaryAccession]	GSE15105				
+Experiment Description	Although bodyguard (bdg), lacerata (lcr) and fiddlehead (fdh) mutations affect three unrelated genes, they trigger similar effects, i.e. ectopic organ fusion, increase of cuticle permeability. After performing cutin and wax analyses on these Arabidopsis thaliana mutants, which did not coincide with the putative enzyme functions, we hypothesised that these mutations trigger a complex response which may be visible at the transcriptional level. This analysis revealed that major changes in gene regulation are taking place in bodyguard (bdg), lacerata (lcr) and fiddlehead (fdh) mutants, massively affecting genes associated with lipid, cell wall and intracellular homeostasis but also with pathogen resistance. Experiment Overall Design: Plants carrying a stable allele of the bodyguard (bdg), lacerata (lcr) and fiddlehead (fdh) mutations, respectively, were grown on soil in parallel to wild type Columbia plants and under controlled growth conditions. Trays were periodically shifted to avoid any position effect and, to increase representativeness of the samples, each sample contains leaf tissue from 15 plants.				
+Protocol Name	P-G15105-1	P-G15105-4	P-G15105-2	P-G15105-5	P-G15105-3
+Protocol Type	growth protocol	normalization data transformation protocol	treatment protocol	nucleic acid extraction protocol	nucleic acid labeling protocol
+Protocol Description	Plants were grown on soil for 5,5 weeks and a half, under Short day 8 h day/ 16h night; 20°C/18°C into a growth chamber	The data were preprocessed using the Bioconductor packages affy and GC-RMA (fullmodel; with default settings).	The samples were harvested in the morning; each sample was harvested on a liquid nitrogen/ice bath and then deep-frozen in liquid nitrogen. Each sample contained tissue from 15 typical plants. A harvest round comprised a WT, a bdg, a fdh and a lcr sample; three rounds of harvesting were made sequentially. When all samples were gathered, they were transferred to a -80°C freezer until extraction.	Total RNA was purified using the RNeasy Plant Mini Kit (QIAGEN) + DNase1 (QIAGEN) according to the manufacturer instructions. At the end, total RNA was eluted into 80 µl of RNase free water. Quality and concentration were evaluated on a 1,5% agarose gel by loading 0,5µl of each sample. Sample were kept frozen at -80°C until shipment.	cRNA were prepared by in vitro translation and labelled with biotin starting from 5µg of total RNA and according to the Affymetrix Manual (Expression Analysis Technical Manual; P/N 702232 Rev. 2/ 2005-2006)
+Protocol Term Source REF	EFO	EFO	EFO	EFO	EFO
+SDRF File	E-GEOD-15105.sdrf.txt				
+Term Source Name	EFO				
+Term Source File	http://efo.svn.sourceforge.net/viewvc/efo/trunk/src/efoinowl/efo.owl				
+Experimental Factor Name	genotype				
+Experimental Factor Type	genotype				
+Comment[AEExperimentType]	transcription profiling by array				
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for bodyguard (bdg), lacerata (lcr) and fiddlehead (fdh) against wild-type controls				

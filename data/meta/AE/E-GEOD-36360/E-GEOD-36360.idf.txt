@@ -1,0 +1,29 @@
+Comment[ArrayExpressAccession]	E-GEOD-36360
+MAGE-TAB Version	1.1						
+Public Release Date	2012-09-20
+Investigation Title	The effect of over-expression of PRR5-VP in Arabidopsis seedlings						
+Comment[Submitted Name]	The effect of over-expression of PRR5-VP in Arabidopsis seedlings
+Experiment Description	PRR5 transcription factor acts in the circadian clock system. To elucidate regulated genes by PRR5, Chimeric protein PRR5-VP, which activates direct target genes of PRR5, was over-expressed in Col-0. Microarray analsysis was performed using these plants with Affymetrix ATH1 genechip. PRR5-VP expressing plants and its parental plants (accession Col-0, described as Wild) were grown under 12 hr light / 12 hr dark conditions, and harvested at ZT6(6 hr after light on), ZT12, and ZT18						
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Nakamichi	Sakakibara	Nakamichi				
+Person First Name	Norihito	Hitoshi	Norihito				
+Person Email	nnakamichi@psc.riken.jp						
+Person Affiliation	RIKEN						
+Person Phone	+81-52-789-4090						
+Person Fax	+81-52-789-4091						
+Person Address	Plant Science Center, RIKEN, Suehiro1-7-22, Tsurumi, Yokohama, Japan						
+Person Roles	submitter						
+Protocol Name	P-GSE36360-1	P-GSE36360-6	P-GSE36360-5	P-GSE36360-3	P-GSE36360-2	P-GSE36360-4	P-GSE36360-7
+Protocol Description	ID_REF =  VALUE = RMA normalized signal intensity	Standard Affymetrix procedures	Standard Affymetrix procedures	Total RNA was isolated by RNeasy (Qiagen, Hilden, Germany) and the RNase-free DNase Set (Qiagen).	Plants were grown on MS madium containing 2% sucrose and 0.3% gellan gum, under 12 h light / 12 h dark conditions for 18 days	Total RNA was processed to produce biotinylated cRNA targets according to Affymetrix instructions.	Summarization was performed by RMA using the original CEL files. The expression estimates of CHP file is calculated using the Affymetrix Statistical Algorithm for absolute analysis.
+Protocol Type	bioassay_data_transformation	image_aquisition	hybridization	nucleic_acid_extraction	grow	labeling	feature_extraction
+Experimental Factor Name	VARIATION						
+Experimental Factor Type	variation						
+Comment[SecondaryAccession]	GSE36360						
+Comment[GEOReleaseDate]	2012-09-20						
+Comment[ArrayExpressSubmissionDate]	2012-03-08						
+Comment[GEOLastUpdateDate]	2012-09-28						
+Comment[AEExperimentType]	transcription profiling by array						
+Comment[AdditionalFile:Data1]	GSE36360_data_dfw2_rankprod.txt						
+Comment[AdditionalFile:Data2]	GSE36360_data_rma_2.txt						
+SDRF File	E-GEOD-36360.sdrf.txt

@@ -1,0 +1,51 @@
+Investigation Title	Transcription profiling of EDS1- and SA-dependent genes in nudt7-1							
+Comment[Submitted Name]	Transcription profiling of EDS1- and SA-dependent genes in nudt7-1							
+Experimental Design	individual_genetic_characteristics_design	co-expression_design	replicate_design	transcription profiling by array	transcription profiling by array			
+Experimental Design Term Source REF		The MGED Ontology	The MGED Ontology	EFO	EFO			
+Comment[AEExperimentDisplayName]	Transcription profiling of EDS1- and SA-dependent genes in Arabidopsis nudt7-1							
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[SecondaryAccession]								
+Comment[ArrayExpressReleaseDate]	2010-02-08							
+Comment[AEMIAMESCORE]	5							
+Comment[ArrayExpressAccession]	E-MEXP-2405							
+Comment[MAGETAB TimeStamp_Version]	2010-08-10 12:46:56 Last Changed Rev: 13058							
+Experimental Factor Name	genotype							
+Experimental Factor Type	genotype							
+Experimental Factor Term Source REF								
+Person Last Name	Straus							
+Person First Name	Marco							
+Person Mid Initials								
+Person Email	straus@mpiz-koeln.mpg.de							
+Person Phone	:492215062337							
+Person Fax								
+Person Address	"Plant-Microbe Interactions, Carl-von-Linne Weg 10, Koeln, NRW, 50829, Germany"							
+Person Affiliation	Max-Planck-Institue for Plant Breeding Research							
+Person Roles	submitter							
+Person Roles Term Source REF	The MGED Ontology							
+Quality Control Type								
+Quality Control Term Source REF								
+Replicate Type								
+Replicate Term Source REF								
+Normalization Type								
+Normalization Term Source REF								
+Date of Experiment								
+Public Release Date	2010-02-08							
+PubMed ID	20163553							
+Publication DOI								
+Publication Author List	"Straus MR, Rietz S, Ver Loren van Themaat E, Bartsch M, Parker JE."							
+Publication Title	Salicylic acid antagonism of EDS1-driven cell death is important for immune and oxidative stress responses in Arabidopsis.							
+Publication Status								
+Publication Status Term Source REF								
+Experiment Description	"nudt7-1 mutant plant exhibit stunted growth, enhanced basal resistance, elevated SA levels and spontaneous leaf cell death that is restricted to single cells but does not spread. All of these phenotypes depend on EDS1, a key regulator of plant innate immunity. Moreover, SA depletion in nudt7-1 results in EDS1-dependent cell death exacerbation and strong growth retardation. In this this experiment, we used 4-week-old soil-grown plants to seek for EDS1- and SA-regulated genes in nudt7-1 to identify novel components of the EDS1- and SA-signalling pathways."							
+Protocol Name	P-MTAB-5563	P-MTAB-5562	P-AFFY-2	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6	Affymetrix:Protocol:ExpressionStat		
+Protocol Type	nucleic_acid_extraction	grow	labeling	hybridization	feature_extraction	bioassay_data_transformation		
+Protocol Description	"Total RNA was extracted using TRI Reagent (Sigma) according to the manufacturers recommendations. Extracted RNA was sent to Integrated Functional Genomic service unit (University of Muenster, Germany) for further processing.<br>(Parameters: Extracted product = total_RNA, Amplification = none)"	"Plants were grown for 28 days in controlled environment chambers (10h light period at 150-200µE m-2 s-1, 22 C. 65% humidity) on soil. For each replicate, leaf material was harvested at the same time of day.<br>(Parameters: start time = 28, time unit = days, min temperature = 22, temperature unit = C, media = Soil)"	Title: Affymetrix in vitro transcription. Description: 	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 		
+Protocol Parameters								
+Protocol Hardware								
+Protocol Software				MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 5.0		
+Protocol Contact								
+Protocol Term Source REF				mo		The MGED Ontology		
+SDRF File	E-MEXP-2405.sdrf.txt							
+Term Source Name	NCBI Taxonomy		The MGED Ontology	po	ArrayExpress	The MGED Ontology	EFO	mo
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.plantontology.org	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version								

@@ -1,0 +1,58 @@
+Comment[ArrayExpressAccession]	E-GEOD-19252						
+Public Release Date	2009-12-03						
+Investigation Title	Identification of AtATM-dependent X-ray inducible transcript						
+Comment[Submitted Name]	Identification of AtATM-dependent X-ray inducible transcript						
+Experiment Description	ATM plays an important role in the response of plants to forms of DNA damage that cause DNA double-strand breaks. Arabidopsis ATM has been shown to be important for the transcriptional induction of several DNA repair genes including AtRAD51 (Garcia et al 2003 Plant Cell 15, 119-132). In our experiment we compare the transcript profiles of wild type and mutant plants exposed to 10Gy X-rays (dose rate ~0.8 Gy/min). Plants will be grown on 0.5*MS + 1%sucrose at 22degC under short (9h) day conditions and treated after 5h light. We will irradiate wild type (Col-0) and atatm-3 mutant (N589805) seedlings at growth stage 1.06 and harvest tissue 1h post irradiation. RNA will be isolated using the SV RNA isolation kit (Promega). Comparison of the transcript profiles will then allow AtATM-dependent X-ray inducible transcripts to be identified. 6 samples (3 wild type, 3 mutant) were used in this experiment.						
+Date of Experiment							
+Term Source Name	EFO						
+Term Source Version							
+Term Source File	http://bar.ebi.ac.uk:8080/trac/browser/branches/curator/ExperimentalFactorOntology/ExFactorInOWL/currentrelease/eforelease/efo.owl						
+Person Last Name	Nottingham Arabidopsis Stock Centre (NASC)	West					
+Person First Name		Chris					
+Person Mid Initials							
+Person Email	affy@arabidopsis.info						
+Person Affiliation	Nottingham Arabidopsis Stock Centre (NASC)						
+Person Phone	+44 (0)115 951 3237						
+Person Fax	+44 (0)115 951 3297						
+Person Address	School of Biosciences, University of Nottingham, Nottingham Arabidopsis Stock Centre (NASC), Sutton Bonington Campus, Loughborough, United Kingdom						
+Person Roles	submitter						
+Person Roles Term Source REF							
+Person Roles Term Accession Number							
+Normalization Type							
+Normalization Term Accession Number							
+Normalization Term Source REF							
+Replicate Type							
+Replicate Term Accession Number							
+Replicate Term Source REF							
+Experimental Design	genetic modification design						
+Experimental Design Term Accession Number							
+Experimental Design Term Source REF	EFO						
+Quality Control Type							
+Quality Control Term Accession Number							
+Quality Control Term Source REF							
+Protocol Name	P-GSE19252-1	P-GSE19252-6	P-GSE19252-5	P-GSE19252-3	P-GSE19252-2	P-GSE19252-4	P-GSE19252-7
+Protocol Description	ID_REF = <br>VALUE = MAS5.0 signal intensity<br>ABS_CALL = the call in an absolute analysis that indicates if the transcript was present (P), absent (A), or marginal (M)<br>DETECTION P-VALUE = p-value that indicates the significance level of the detection call	Scanned according to guidelines set out by Affymetrix, Santa Clara, CA.	Biotin Labelled cRNA using &quot;Affymetrix GeneChip Hybridization, Wash and Stain Kit&quot;, according to guidelines set out by Affymetrix, Santa Clara, CA	As per manufacturer's instructions	Overnight 4C in dark 10 minutes soaking in sterilisation solution (10 % (v/v) house hold bleach, 1 % (v/v) Triton X-100) followed by 5 repeat rinses of sd H2O. Seedlings grown on 0.5 x MS media containing 1 % phytoagar and 1 % sucrose in a growth room with the following conditions: 9/15 hrs light/dark, 22°C, 65 Ã‚ÂµEm-2s-1 Growth Room Phytagar Standard media autoclave Murashige and Skoog basal salt mixture.	Labelled using protocol described in manual &quot;Affymetrix GeneChip Expression Analysis Technical Manual&quot;, One-Cycle target labelling	Raw data from the microarrays was normalized at probe-level using MAS5 algorithm. The detection calls (present, marginal, absent) for each probe set was obtained using the GCOS system
+Protocol Software							
+Protocol Hardware							
+Protocol Contact							
+Protocol Type	bioassay_data_transformation	image_aquisition	hybridization	nucleic_acid_extraction	grow	labeling	feature_extraction
+Protocol Term Source REF							
+Protocol Term Accession Number							
+Experimental Factor Name	genotype						
+Experimental Factor Type	genotype						
+Experimental Factor Term Source REF							
+Experimental Factor Term Accession Number							
+Publication Title							
+Publication Author List							
+PubMed ID							
+Publication DOI							
+Publication Status							
+Publication Status Term Source REF							
+Publication Status Term Accession Number							
+Comment[SecondaryAccession]	GSE19252						
+Comment[GEOLastUpdateDate]	2011-03-01						
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for AtATM						
+Comment[AEExperimentType]	transcription profiling by array						
+Comment[GEOReleaseDate]	2009-12-04						
+Comment[ArrayExpressSubmissionDate]	2009-12-02						
+SDRF File	E-GEOD-19252.sdrf.txt						

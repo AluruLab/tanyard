@@ -1,0 +1,58 @@
+Comment[ArrayExpressAccession]	E-GEOD-23555					
+Public Release Date	2011-07-31					
+Investigation Title	Identification of Direct Targets of SND1 and VND7					
+Comment[Submitted Name]	Identification of Direct Targets of SND1 and VND7					
+Experiment Description	This study was to find genes directly regulated by SND1 and VND7. SND1XVE- or VND7XVE-expressing cells were treated with cycloheximide alone (control) or with cycloheximide plus estradiol (experimental) to identify genes directly activated by SND1 or VND7.					
+Date of Experiment						
+Term Source Name	EFO					
+Term Source Version						
+Term Source File	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Ye	Ye				
+Person First Name	Zheng-Hua	Zheng-Hua				
+Person Mid Initials						
+Person Email	geo@ncbi.nlm.nih.gov					
+Person Affiliation	University of Georgia					
+Person Phone						
+Person Fax						
+Person Address	Plant Biology, University of Georgia, 2502 Miller Plant Sciences, Athens, GA, USA					
+Person Roles	submitter					
+Person Roles Term Source REF						
+Person Roles Term Accession Number						
+Normalization Type						
+Normalization Term Accession Number						
+Normalization Term Source REF						
+Replicate Type						
+Replicate Term Accession Number						
+Replicate Term Source REF						
+Experimental Design						
+Experimental Design Term Accession Number						
+Experimental Design Term Source REF						
+Quality Control Type						
+Quality Control Term Accession Number						
+Quality Control Term Source REF						
+Protocol Name	P-GSE23555-1	P-GSE23555-5	P-GSE23555-4	P-GSE23555-2	P-GSE23555-3	P-GSE23555-6
+Protocol Description	ID_REF = <br>VALUE = MAS5 Detection signal<br>ABS_CALL = =Indication of whether the transcript is present (P), absent (A), or marginal (M)<br>DETECTION P-VALUE = 	GeneChips were scanned using the GeneArray Scanner 3000.	Standard Affymetrix GeneChip Technology.	Total RNA was isolated using the QIAGEN Plant RNA isolation kit. 	Affymetrix One-Cycle Eukaryotic Target Labeling kit.	Expression values are calculated based on the difference of the PM signal and MM signal at each of the probe pairs using the Affymetrix GeneChip Operating System (GCOS). This software employs statistical algorithms to calculate qualitative and quantitative expression values for each transcript. It also generates a statistical p-value, which suggests the level of confidence in each of the qualitative measurements.
+Protocol Software						
+Protocol Hardware						
+Protocol Contact						
+Protocol Type	bioassay_data_transformation	image_aquisition	hybridization	nucleic_acid_extraction	labeling	feature_extraction
+Protocol Term Source REF						
+Protocol Term Accession Number						
+Experimental Factor Name	TREATMENT	GENOTYPE				
+Experimental Factor Type	treatment	genotype				
+Experimental Factor Term Source REF						
+Experimental Factor Term Accession Number						
+Publication Title						
+Publication Author List						
+PubMed ID						
+Publication DOI						
+Publication Status						
+Publication Status Term Source REF						
+Publication Status Term Accession Number						
+Comment[SecondaryAccession]	GSE23555					
+Comment[GEOLastUpdateDate]	2011-07-31					
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis expressing SND1XVE or VND7XVE after treatment with cylcohexamide and estradiol					
+Comment[AEExperimentType]	transcription profiling by array					
+Comment[GEOReleaseDate]	2011-07-30					
+Comment[ArrayExpressSubmissionDate]	2010-08-09					
+SDRF File	E-GEOD-23555.sdrf.txt					

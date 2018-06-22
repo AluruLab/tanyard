@@ -1,0 +1,51 @@
+Investigation Title	Transcription profiling of Arabidopsis in vitro tracheary element transdifferentiation of Col-0 suspension cells.							
+Comment[Submitted Name]	In vitro tracheary element transdifferentiation of Col-0 suspension cells.							
+Experimental Design	unknown_experiment_design_type	transcription profiling by array						
+Experimental Design Term Source REF		EFO						
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis Col-0 suspension cells after growth in media to induce xylem vessel formation							
+Comment[ArrayExpressReleaseDate]	2008-06-14							
+Comment[SecondaryAccession]	GSE5748							
+Comment[AEMIAMESCORE]	3							
+Comment[ArrayExpressAccession]	E-GEOD-5748							
+Comment[MAGETAB TimeStamp_Version]	2010-08-06 17:37:47 Last Changed Rev: 13058							
+Experimental Factor Name	SAMPLING TIME POINT	GROWTH CONDITION						
+Experimental Factor Type	sampling_time_point	growth_condition						
+Experimental Factor Term Source REF								
+Person Last Name	(NASC)							
+Person First Name	Nottingham Arabidopsis Stock Centre							
+Person Mid Initials								
+Person Email	affy@arabidopsis.info							
+Person Phone								
+Person Fax								
+Person Address	School of Biosciences, University of Nottingham, Nottingham Arabidopsis Stock Centre (NASC), Sutton Bonington Campus, Loughborough, LE12 5RD, United Kingdom							
+Person Affiliation	Nottingham Arabidopsis Stock Centre (NASC)							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Quality Control Type								
+Quality Control Term Source REF								
+Replicate Type								
+Replicate Term Source REF								
+Normalization Type								
+Normalization Term Source REF								
+Date of Experiment								
+Public Release Date	2008-06-14							
+PubMed ID								
+Publication DOI								
+Publication Author List								
+Publication Title								
+Publication Status								
+Publication Status Term Source REF								
+Experiment Description	This experiment was annotated by TAIR (http://arabidopsis.org). Col-0 suspension cells provided by Dr. C. Koncz and Dr. M. Umeda. 15 ml of Arabidopsis Col-0 suspension cells (Mathur et al. 1998) was transferred to 35 ml of a fresh modified Murashige and Skoog (MS) medium supplemented with 1 ug /ml 2,4-dichlorphenoxyacetic acid and 3% sucrose every 7 day, and cultured on a rotary shaker at 120 rpm in the dark at 22 C for subculture. For xylem vessel element induction, a 7.5 ml aliquot of 7-day-old subcultured cells was transferred into 42.5 ml of fresh medium that included 1 uM brassinolide and 10 mM H3BO3, and cultured as described above. The frequency of xylem vessel element formation was calculated as the proportion of xylem vessel elements to the number of living cells and the vessel elements. Experimenter name = Hiroo Fukuda; Experimenter phone = +81-3-5841-4463; Experimenter fax = +81-3-5841-4462; Experimenter department = H Fukuda Laboratory; Experimenter institute = University of Tokyo; Experimenter address = Department of Biological Science; Experimenter address = 2nd Buil. Experimenter address = Hongo 7-3-1, Bunkyo-ku; Experimenter zip/postal_code = Tokyo 113-0033; Experimenter country = Tokyo Experiment Overall Design: 12 samples were used in this experiment							
+Protocol Name	P-G5748-1	P-G5748-6	P-G5748-2	P-G5748-4	P-G5748-3	P-G5748-5	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6
+Protocol Type	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	hybridization	feature_extraction
+Protocol Description	no treatment	For in vitro tracheary element (xylem vessel element) transdifferentiation, a 7.5 ml aliquot of 7-day-old subcultured cells was transferred into 42.5 ml of fresh medium that included 1 uM brassinolide and 10 mM H3BO3. Cells were collected by centrigugation after 10 days of culture.	For in vitro tracheary element (xylem vessel element) transdifferentiation, a 7.5 ml aliquot of 7-day-old subcultured cells was transferred into 42.5 ml of fresh medium that included 1 uM brassinolide and 10 mM H3BO3. Cells were collected by centrigugation after 2 days of culture.	For in vitro tracheary element (xylem vessel element) transdifferentiation, a 7.5 ml aliquot of 7-day-old subcultured cells was transferred into 42.5 ml of fresh medium that included 1 uM brassinolide and 10 mM H3BO3. Cells were collected by centrigugation after 6 days of culture.	For in vitro tracheary element (xylem vessel element) transdifferentiation, a 7.5 ml aliquot of 7-day-old subcultured cells was transferred into 42.5 ml of fresh medium that included 1 uM brassinolide and 10 mM H3BO3. Cells were collected by centrigugation after 4 days of culture.	For in vitro tracheary element (xylem vessel element) transdifferentiation, a 7.5 ml aliquot of 7-day-old subcultured cells was transferred into 42.5 ml of fresh medium that included 1 uM brassinolide and 10 mM H3BO3. Cells were collected by centrigugation after 8 days of culture.	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 
+Protocol Parameters								
+Protocol Hardware								
+Protocol Software							MicroArraySuite 5.0	MicroArraySuite 5.0
+Protocol Contact								
+Protocol Term Source REF							mo	
+SDRF File	E-GEOD-5748.sdrf.txt							
+Term Source Name	NCBI Taxonomy	The MGED Ontology	ArrayExpress	EFO	mo			
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php			
+Term Source Version								

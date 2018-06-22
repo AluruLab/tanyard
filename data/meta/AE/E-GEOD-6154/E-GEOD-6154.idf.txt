@@ -1,0 +1,51 @@
+Investigation Title	Transcription profiling of Arabidopsis AtrbohB null mutant in response to heat to examine the molecular basis of respiratory burst-mediated thermotolerance in Arabidopsis							
+Comment[Submitted Name]	Molecular basis of respiratory burst-mediated thermotolerance in Arabidopsis							
+Experimental Design	unknown_experiment_design_type	transcription profiling by array						
+Experimental Design Term Source REF		EFO						
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for AtrbohB after exposure to different temperatures							
+Comment[ArrayExpressReleaseDate]	2008-06-14							
+Comment[SecondaryAccession]	GSE6154							
+Comment[AEMIAMESCORE]	4							
+Comment[ArrayExpressAccession]	E-GEOD-6154							
+Comment[MAGETAB TimeStamp_Version]	2010-08-06 19:07:29 Last Changed Rev: 13058							
+Experimental Factor Name	TEMPERATURE	GENOTYPE						
+Experimental Factor Type	temperature	genotype						
+Experimental Factor Term Source REF								
+Person Last Name	(NASC)							
+Person First Name	Nottingham Arabidopsis Stock Centre							
+Person Mid Initials								
+Person Email	affy@arabidopsis.info							
+Person Phone								
+Person Fax								
+Person Address	School of Biosciences, University of Nottingham, Nottingham Arabidopsis Stock Centre (NASC), Sutton Bonington Campus, Loughborough, LE12 5RD, United Kingdom							
+Person Affiliation	Nottingham Arabidopsis Stock Centre (NASC)							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Quality Control Type								
+Quality Control Term Source REF								
+Replicate Type								
+Replicate Term Source REF								
+Normalization Type								
+Normalization Term Source REF								
+Date of Experiment								
+Public Release Date	2008-06-14							
+PubMed ID								
+Publication DOI								
+Publication Author List								
+Publication Title								
+Publication Status								
+Publication Status Term Source REF								
+Experiment Description	We have been determining signalling components essential for heat tolerance in Arabidopsis thaliana (Larkindale, J., and Knight, M.R. (2002). Protection against heat stress-induced oxidative damage in Arabidopsis involves calcium, abscisic acid, ethylene, and salicylic acid. Plant Physiol 128, 682-695).  We have most recently found that a heat-induced respiratory burst is necessary for tolerance to high temperatures in Arabidopsis (Larkindale, Torres, Jones and Knight, unpublished).  We have observed that one of the Arabidopsis respiratory burst homologues, AtrbohB, is necessary for the generation of this AOS burst in response to heat, and consequently we have also found that an AtrbohB null mutant shows reduced tolerance to heating (Larkindale, Torres, Jones and Knight, unpublished).  This mutant also shows reduced expression of genes from the HSP90 family (Evans, Larkindale and Knight, unpublished).This application is for transcriptomic analysis of the AtrbohB null mutant in response to heat, in order to understand which genes are activated as a result of heat-induced respiratory bursts in Arabidopsis and also which genes are necessary for physiological thermotolerance in Arabidopsis.  The experiment will involve 6 samples (chips), 3 from wild type Columbia and 3 from the AtrbohB null mutant.  Seedlings will be treated at 20, 30 and 40 degrees centigrade for 1 hour, RNA extracted and submitted to microarray analysis.  One hour treatment has been shown to display clear differences in HSP90 expression and physiological damage, and the temperatures chosen because 30 degrees is a temperature at which acquired thermotolerance can be initiated (thus genes involved in this process can be monitored) and 40 degrees is a temperature at which we observe physiological damage, and gives good discrimination between mutant and wild type. Experiment Overall Design: Number of plants pooled:90 per sample							
+Protocol Name	P-G6154-5	P-G6154-2	P-G6154-6	P-G6154-1	P-G6154-4	P-G6154-3	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6
+Protocol Type	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	grow	nucleic_acid_extraction	labeling	hybridization	feature_extraction
+Protocol Description	Seedlings were floated on distilled water at 30 degrees centigrade, then blotted on tissue and frozen in liquid nitrogen. ; Performer: Nicky,,Evans	Seedlings were floated on distilled water at 20 degrees centigrade, then blotted on tissue and frozen in liquid nitrogen. ; Performer: Nicky,,Evans	Seedlings were floated on distilled water at 40 degrees centigrade, then blotted on tissue and frozen in liquid nitrogen. ; Performer: Nicky,,Evans	unknown; Parameter Location = Growth Room; Parameter Lighting = 16 hour days; Parameter Medium = MS; Performer: Nicky,,Evans	Qiagen / Trizol; Protocol: Qiagen RNAeasy kit protocol ; Protocol Type = nucleic_acid_extraction; Performer: Nicky,,Evans	Preparation of biotin-labeled cRNA; RNA samples were quality controlled using the Agilent 2100 Bioanalyzer. 100 pmol T7-(dT)24 primer (5'-GGCCAGTGAATTGTAATACGACTCACTATAGGGAGGCGG-(dT)24-3')  was hybridized with the Total RNA ( 8 - 12ug) at 70Â&deg;C for 10 minutes. First strand cDNA was synthesized by reverse transcription using 400 units SuperScript II Reverse Transcriptase in a reaction containing 50 mM Tris-HCl (pH 8.3), 75 mM KCl, 3 mM MgCl2, 10 mM dithiothreitol (DTT) and 0.5 mM dNTPs at 42C for 1 hour.  The reaction was then put on ice for 2 mins, followed by second strand cDNA synthesis.  130ul of the second strand reaction mix was added to the 20ul  first strand synthesis reaction. The second strand reaction mix  contained 40 units E. coli DNA polymerase I, 10 units E. coli DNA ligase, 2 units  E. coli RNase H and 0.2 mM dNTPs in a buffer containing 20 mMTris-HCl (pH 6.9), 90 mM KCl, 4.6 mM MgCl2, 10mM (NH4)SO4 and 0.15 mM Ã-NAD+. The reaction was incubated at 16 C for 2 hours.  10 units T4 DNA Polymerase was added and the reaction incubated for a further 5 minutes at 16 C, then the reaction was terminated using EDTA.  The double-stranded cDNA was cleaned up using the cDNA Cleanup Spin Column supplied in the Affymetrix GeneChip Sample Cleanup Module.  The double-stranded cDNA was used as a template for in Vitro transcription of biotin-labeled cRNA using the ENZO BioArray RNA Transcript Labeling Kit supplied by Affymetrix.  The Transcript Labeling kit produces large amounts of hybridizable biotin-labeled RNA targets by in Vitro transcription from bacteriophage T7 RNA polymerase promoters.  The reaction mixture containing Biotin-Labeled ribonucleotides (ATP, GTP, CTP, UTP with Bio-UTP and Bio-CTP), DTT, RNase inhibitor mix and T7 RNA polymerase was incubated at 37 C for 5 hrs, gently mixing every 30 minutes during the incubation. This produced an average of 40ug biotin-labeled cRNA . The biotin-labeled cRNA  was cleaned up using the cRNA Cleanup Spin Column supplied in the Affymetrix GeneChip Sample Cleanup Module.  The quantity and quality of the cRNA was measured using the Agilent 2100 Bioanalyzer. The total amount of cRNA was calculated, the starting quantity of RNA subtracted to give the quantity of adjusted cRNA.  The cRNA was fragmented by metal-induced hydrolysis to break down full-length cRNA to 35-200 base fragments.  15ug of adjusted cRNA was used to prepare 300ul of hybridization cocktail of which 200ul was hybridized with the GeneChip.   ; Protocol Type = labeling; Performers: John,Y,Okyere, Janet,,Higgins	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 
+Protocol Parameters								
+Protocol Hardware								
+Protocol Software							MicroArraySuite 5.0	MicroArraySuite 5.0
+Protocol Contact								
+Protocol Term Source REF							mo	
+SDRF File	E-GEOD-6154.sdrf.txt							
+Term Source Name	NCBI Taxonomy		The MGED Ontology	ArrayExpress	EFO	mo		
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php		
+Term Source Version								

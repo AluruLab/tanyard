@@ -1,0 +1,29 @@
+Comment[ArrayExpressAccession]	E-GEOD-43819						
+MAGE-TAB Version	1.1						
+Public Release Date	2013-06-30						
+Investigation Title	Expression data from WT, sid2-1						
+Comment[Submitted Name]	Expression data from WT, sid2-1						
+Experiment Description	Salicylic acid (SA) levels increase in Arabidopsis upon exposure to low temperature for more than a week.  This cold-induced SA biosynthesis was found to proceed through the isochorismate synthase (ICS) pathway. The sid2-1 mutant is deficient in ICS1 and does not make SA at low temperature. We used microarray analysis to examine the genes differentially regulated by low temperature that were dependent on SA We used the sid2-1 mutant and a WT control at 22⁰C and after 3 weeks at 4⁰C. All samples were in triplicate.						
+Term Source Name	ArrayExpress	EFO					
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Park	Kim	Park	Gilmour	Thomashow		
+Person First Name	Sunchung	Yongsig	Sunchung	Sarah	Michael		
+Person Email	parksu16@msu.edu						
+Person Affiliation	Michigan State University						
+Person Address	Plant Research Lab, Michigan State University, 612 Wilson Road, Rm310, East Lansing, MI, USA						
+Person Roles	submitter						
+Protocol Name	P-GSE43819-1	P-GSE43819-5	P-GSE43819-6	P-GSE43819-2	P-GSE43819-3	P-GSE43819-4	P-GSE43819-7
+Protocol Description	The data were analyzed with LIMMA package of Bioconductor using GC-RMA normalization procedure. ID_REF =  VALUE = GCRMA-normalized log2 expression signal	RNA was amplified and biotinylated using a MessageAmp kit (Ambion) according to the manufacturer's protocol	Hybridization and washing were carried out according to the Gene Chip manufacturer's protocol (Affymetrix)	Plants were treated for 3 weeks at 4⁰C under a 12 h photoperiod and harvested at ZT4	Plants were grown in soil at 22⁰C under a 12 h photoperiod in a growth chamber for approx 23 d	RNA was extracted using the RNeasy plant mini kit (Qiagen)	Scan protocols were carried out according to the Gene Chip manufacturer's protocol (Affymetrix)
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	genotype	temperature					
+Experimental Factor Type	genotype	temperature					
+Comment[SecondaryAccession]	GSE43819						
+Comment[GEOReleaseDate]	2013-06-30						
+Comment[ArrayExpressSubmissionDate]	2013-01-28						
+Comment[GEOLastUpdateDate]	2013-06-30						
+Comment[AEExperimentType]	transcription profiling by array						
+SDRF File	E-GEOD-43819.sdrf.txt						
+Publication Title	Roles of CAMTA transcription factors and salicylic acid in configuring the low-temperature transcriptome and freezing tolerance of Arabidopsis.						
+Publication Author List	Kim Y, Park S, Gilmour SJ, Thomashow MF						
+PubMed ID	23581962						
+Publication DOI	10.1111/tpj.12205						

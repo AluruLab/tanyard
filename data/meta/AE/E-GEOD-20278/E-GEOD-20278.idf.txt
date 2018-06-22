@@ -1,0 +1,57 @@
+Comment[ArrayExpressAccession]	E-GEOD-20278							
+Public Release Date	2011-03-11							
+Investigation Title	The effect of TuMV on translation initiation in Arabidopsis							
+Comment[Submitted Name]	The effect of TuMV on translation initiation in Arabidopsis							
+Experiment Description	Arabidopsis ecotype Col-0 expressing RPL18 fused to His & Flag epitopes (RPL18-HF) under 35S control was used to discern the effects of Turnip mosaic virus (TuMV) infection on host translation initiation.  Plants were grown in LC-1 soil in 12 hour days and infected by TuMV-GFP or mock-inoculated just prior to sending up bolts.  Samples were taken from rosette leaves 10 days after inoculation.  Only tissue fluorescing GFP was selected from the virus-infected samples.  Similar tissue was sampled from mock-infected leaves.  FLAG antibody was used to isolate RPL18-HF. The RNA co-immunoprecipitated with RPL18-HF is fully translation-initiated. This translation-initiated RNA, also referred to as polysomal RNA, was isolated and compared to total RNA under both mock and TuMV-infected states to find TuMV-induced changes in host translation initiation.   ****[PLEXdb(http://www.plexdb.org) has submitted this series at GEO on behalf of the original contributor,  Jackson Moeller.  The equivalent experiment is AT42 at PLEXdb.] pathogen infection: TuMV inoculated - RNA fraction: polysomal RNA(3-replications);  pathogen infection: TuMV inoculated - RNA fraction: total RNA(3-replications);  pathogen infection: mock inoculated - RNA fraction: polysomal RNA(3-replications);  pathogen infection: mock inoculated - RNA fraction: total RNA(3-replications)							
+Date of Experiment								
+Term Source Name	EFO							
+Term Source Version								
+Term Source File	http://www.ebi.ac.uk/efo/efo.owl							
+Person Last Name	PLEXdb Curator	Moeller						
+Person First Name	Sudhansu	Jackson						
+Person Mid Initials								
+Person Email	geo@ncbi.nlm.nih.gov							
+Person Affiliation	Iowa State University							
+Person Phone								
+Person Fax								
+Person Address	Virtual Reality Application Center, Iowa State University, 1023  Crop Genomes Informatics Lab (Iowa State University), Ames, IA, USA							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Person Roles Term Accession Number								
+Normalization Type								
+Normalization Term Accession Number								
+Normalization Term Source REF								
+Replicate Type								
+Replicate Term Accession Number								
+Replicate Term Source REF								
+Experimental Design								
+Experimental Design Term Accession Number								
+Experimental Design Term Source REF								
+Quality Control Type								
+Quality Control Term Accession Number								
+Quality Control Term Source REF								
+Protocol Name	P-GSE20278-1	P-GSE20278-6	P-GSE20278-5	P-GSE20278-8	P-GSE20278-3	P-GSE20278-2	P-GSE20278-4	P-GSE20278-7
+Protocol Description	ID_REF = Affymetrix probe set id<br>VALUE = MAS5-calculated Signal intensity<br>ABS_CALL = the call in an absolute analysis that indicates if the transcript was present (P), absent (A), marginal (M), or no call (NC)<br>DETECTION P-VALUE = 'detection p-value', p-value that indicates the significance level of the detection call	Affy- Array Scanning	Affymetrix GeneChip Hyb	Hot Phenol/Guanidine Thiocyanate and RNeasy Clean up	Isolation of polysomal mRNA by ribosomal immunopurification	Growth Description:  Plants are grown in 12 hr days in a growth chamber, 4 plants per round pot, 10 pots per flat.  Just before the plant sends bolts, they are inoculated.	Affymetrix one-cycle target labeling	The MAS5.0 Normalization is performed using the justMAS function in the simpleaffy package of Bioconductor (www.bioconductor.org). The target value is 500 for all cases. The code was developed using R2.4.1, Bioconductor 1.9, and simpleaffy 2.8.0. The CDF files were downloaded from the Bioconductor website at http://www.bioconductor.org/packages/release/AffymetrixChip.html. The normalization scripts are available from the PLEXdb team by request.
+Protocol Software								
+Protocol Hardware								
+Protocol Contact								
+Protocol Type	bioassay_data_transformation	image_aquisition	hybridization	nucleic_acid_extraction	nucleic_acid_extraction	grow	labeling	feature_extraction
+Protocol Term Source REF								
+Protocol Term Accession Number								
+Experimental Factor Name	infect	RNA						
+Experimental Factor Type	infect	RNA						
+Experimental Factor Term Source REF								
+Experimental Factor Term Accession Number								
+Publication Title								
+Publication Author List								
+PubMed ID								
+Publication DOI								
+Publication Status								
+Publication Status Term Source REF								
+Publication Status Term Accession Number								
+Comment[SecondaryAccession]	GSE20278							
+Comment[GEOLastUpdateDate]	2011-03-12							
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[GEOReleaseDate]	2011-03-11							
+Comment[ArrayExpressSubmissionDate]	2010-02-11							
+SDRF File	E-GEOD-20278.sdrf.txt							

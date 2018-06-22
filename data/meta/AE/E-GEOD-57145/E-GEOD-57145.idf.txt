@@ -1,0 +1,33 @@
+Comment[ArrayExpressAccession]	E-GEOD-57145						
+MAGE-TAB Version	1.1						
+Public Release Date	2014-05-15						
+Investigation Title	Micro-array analysis of WT and AtISWI in callus formation						
+Comment[Submitted Name]	Micro-array analysis of WT and AtISWI in callus formation						
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis leaf explants cultured in CIM from chr11-1, chr17-1 double mutant at 0 and 8 days after culture						
+Experiment Description	Plant regeneration could be achieved via formation of a pluripotent cell mass termed callus, nature of which is a group of fast-dividing root primordium cells. However, mechanisms that strictly control the stem cell fate transition in regeneration of callus remain elusive. Here we show that the Arabidopsis ISWI type chromatin remodelers specifically promote the second-step cell fate transition from root founder cells to root primordium cells in the leaf-to-callus transition. Leaf explants cultured in CIM from Col-0 or chr11-1 chr17-1 at time 0 and 8 days after culture (8 DAC) were used for RNA preparation. Microarray was performed using the AffymetrixGeneChip system. Three independent experiments were performed.						
+Term Source Name	ArrayExpress	EFO					
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	XU	Xu	Liu				
+Person First Name	Lin	Lin	Shujing				
+Person Email	xulin01@sibs.ac.cn						
+Person Affiliation	Institute of Plant Physiology and Ecology, Shanghai Institutes for Biological Sciences						
+Person Phone	86-21-54924101						
+Person Address	Chinese Academy of Sciences, Institute of Plant Physiology and Ecology, Shanghai Institutes for Biological Sciences, 300 Fenglin Road, Shanghai, China						
+Person Roles	submitter						
+Protocol Name	P-GSE57145-1	P-GSE57145-5	P-GSE57145-6	P-GSE57145-2	P-GSE57145-3	P-GSE57145-4	P-GSE57145-7
+Protocol Description	RMA data were obtained by using Partek GS 6.4. ID_REF =  VALUE = RMA signal	In Vitro Transcription to Synthesize Biotin-Modified aRNA with IVT Labeling Master Mix generates multiple copies of biotin-modified aRNA from the double-stranded cDNA templates; this is the amplification step.aRNA Purification removes unincorporated NTPs, salts, enzymes, and inorganic phosphate to improve the stability of the biotin-modified aRNA.	Fragmentation of the labeled aRNA prepares the target for hybridization to GeneChip 3’ expression arrays with GeneChip hybridization oven 640.	Leaf explants were cultured on callus-inducing medium (CIM).	16 h light, 8 h dark, 22 degreeC for seedlings; 24 h dark, 22 degreeC for callus	Extract and purify the total RNA by the Qiagen RNeasy Mini Kit.Reverse Transcription to Synthesize First-Strand cDNA is primed with T7 oligo(dT) primer to synthesize cDNA containing a T7 promoter sequence.Second-Strand cDNA Synthesis converts the single-stranded cDNA into a double-stranded DNA (dsDNA) template for transcription. The reaction employs DNA polymerase and RNase H to simultaneously degrade the RNA and synthesize second strand cDNA.	Wash and stain the arrays with GeneChip fluidics station 450, Scan the arrays with the GeneArray scanner 3000 by the GeneChip Operating Software (GCOS) or Command Console (AGCC) Software.
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	genotype	time					
+Experimental Factor Type	genotype	time					
+Comment[SecondaryAccession]	GSE57145						
+Comment[GEOReleaseDate]	2014-05-15						
+Comment[ArrayExpressSubmissionDate]	2014-04-28						
+Comment[GEOLastUpdateDate]	2014-05-16						
+Comment[AEExperimentType]	transcription profiling by array						
+Comment[AdditionalFile:Data1]	GSE57145_ANOVA_result_Col.txt						
+Comment[AdditionalFile:Data2]	GSE57145_ANOVA_result_chr11_17.txt						
+Comment[AdditionalFile:Data3]	GSE57145_Fold-Change_8D_v_0D_greater_than_2_less_than_negative2_Col0.txt						
+Comment[AdditionalFile:Data4]	GSE57145_Fold-Change_iswi_8D_v_0D_greater_than_2_less_than_negative2_chr11_chr17.txt						
+Comment[AdditionalFile:Data5]	GSE57145_rma_data_chr11_17.txt						
+Comment[AdditionalFile:Data6]	GSE57145_rma_data_col.txt						
+SDRF File	E-GEOD-57145.sdrf.txt						

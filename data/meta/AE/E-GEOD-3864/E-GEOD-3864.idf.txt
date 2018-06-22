@@ -1,0 +1,50 @@
+Investigation Title	Transcription profiling of Arabidopsis AtFBP7 mutant and wild type seedings	
+Comment[Submitted Name]	AtFBP7 mutant analysis	
+Experimental Design	individual_genetic_characteristics_design	co-expression_design	transcription profiling by array	
+Experimental Design Term Source REF		mo	EFO	
+Comment[ArrayExpressReleaseDate]	2007-06-27	
+Comment[SecondaryAccession]	GSE3864	
+Comment[AEMIAMESCORE]	4	
+Comment[SecondaryAccession]	GDS1743	
+Comment[ArrayExpressAccession]	E-GEOD-3864	
+Comment[MAGETAB TimeStamp_Version]	2010-08-05 11:52:03 Last Changed Rev: 13058	
+Experimental Factor Name	Genotype	
+Experimental Factor Type	genotype	
+Experimental Factor Term Source REF	
+Person Last Name	Schwechheimer	
+Person First Name	Claus	
+Person Mid Initials	
+Person Email	claus.schwechheimer@zmbp.uni-tuebingen.de	
+Person Phone	
+Person Fax	
+Person Address	Developmental Genetics,Centre for Plant Molecular Biology,Auf der Morgenstelle 5,Tuebingen,72076,Germany	
+Person Affiliation	Centre for Plant Molecular Biology	
+Person Roles	submitter	
+Person Roles Term Source REF	The MGED Ontology	
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2007-06-27	
+PubMed ID	17240087	
+Publication DOI	17240087	
+Publication Author List	Luz Irina A Calderon-Villalobos,Carola Nill,Katia Marrocco,Thomas Kretsch,Claus Schwechheimer	
+Publication Title	The evolutionarily conserved Arabidopsis thaliana F-box protein AtFBP7 is required for efficient translation during temperature stress.	
+Publication Status	journal_article	
+Publication Status Term Source REF	The MGED Ontology	
+Experiment Description	Transcript profiling analysis of AtFBP7 mutant seedlings compared to wild type using Arabidopsis ATH1 GeneChip array.	
+Protocol Name	P-G3864-1	P-G3864-2	P-G3864-3	
+Protocol Type	nucleic_acid_extraction	nucleic_acid_extraction	labeling	
+Protocol Description	Approximately 80 mg from 5 day old light grown No-0 wild type seedlings were collected and ground to a fine powder under liquid Nitrogen. Samples were lysed in separate groups in RLT buffer (Qiagen).Total RNA was extracted from the tissue lysate using an RNeasy kit (Qiagen).	Approximately 80 mg from 5 day old light grown AtFBP7 mutant seedlings in Nossen background  AtFBP7  were collected and ground to a fine powder under liquid Nitrogen. Samples were lysed in separate groups in RLT buffer (Qiagen).Total RNA was extracted from the tissue lysate using an RNeasy kit (Qiagen).	Approximately 6 Â&#956;g of total RNA was processed to produce biotinylated cRNA targets.	
+Protocol Parameters	
+Protocol Hardware	
+Protocol Software	
+Protocol Contact	
+Protocol Term Source REF	
+SDRF File	E-GEOD-3864.sdrf.txt	
+Term Source Name	The MGED Ontology	NCBI Taxonomy	mo		tair_dev:1.27	ArrayExpress	mo	EFO	The MGED Ontology	
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php		http://www.arabidopsis.org/info/ontologies/	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version					1.27					

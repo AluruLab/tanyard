@@ -1,0 +1,52 @@
+Investigation Title	Response of Arabidopsis cell culture to phytoprostane A1					
+Comment[Submitted Name]	Response of Arabidopsis cell culture to phytoprostane A1					
+Experimental Design	unknown_experiment_design_type	transcription profiling by array				
+Experimental Design Term Source REF		EFO				
+Comment[AEExperimentType]	transcription profiling by array					
+Comment[AEExperimentDisplayName]	Response of Arabidopsis cell culture to phytoprostane A1					
+Comment[ArrayExpressReleaseDate]	2008-06-18					
+Comment[SecondaryAccession]	GSE10719					
+Comment[AEMIAMESCORE]	4					
+Comment[ArrayExpressAccession]	E-GEOD-10719					
+Comment[MAGETAB TimeStamp_Version]	2010-07-29 21:29:48 Last Changed Rev: 13058					
+Experimental Factor Name	compound	dose				
+Experimental Factor Type	compound	dose				
+Experimental Factor Term Source REF						
+Person Last Name	Berger					
+Person First Name	Susanne					
+Person Mid Initials						
+Person Email	berger@biozentrum.uni-wuerzburg.de					
+Person Phone						
+Person Fax						
+Person Address	"Pharmaceutical Biology, Julius-von-Sachs-Institute, Julius-von-Sachs-Platz 2, wuerzburg, 97082, Germany"					
+Person Affiliation	Julius-von-Sachs-Institute					
+Person Roles	submitter					
+Person Roles Term Source REF	The MGED Ontology					
+Quality Control Type						
+Quality Control Term Source REF						
+Replicate Type						
+Replicate Term Source REF						
+Normalization Type						
+Normalization Term Source REF						
+Date of Experiment						
+Public Release Date	2008-06-18					
+PubMed ID	18334669					
+Publication DOI	10.1105/tpc.107.054809					
+Publication Author List	"Stefan Mueller, Beate Hilbert, Katharina Dueckershoff, Thomas Roitsch, Markus Krischke, Martin J Mueller, Susanne Berger"					
+Publication Title	General detoxification and stress responses are mediated by oxidized lipids through TGA transcription factors in Arabidopsis.					
+Publication Status	published					
+Publication Status Term Source REF	EFO					
+Publication Status Term Accession Number	EFO_0001796					
+Experiment Description	"12-Oxo-phytodienoic acid (OPDA) and several phytoprostanes are structurally related cyclopentenone oxylipins that can be formed via the enzymatic jasmonate pathway and a non-enzymatic, free radical-catalyzed pathway, respectively. To elucidate the biological activities of phytoprostanes in comparison to OPDA as well as the metabolism we performed genome-wide expression analysis. Experiment Overall Design: In order to get a comprehensive view of the biological activity of non-enzymatically formed reactive oxylipins the regulation of gene expression in Arabidopsis thaliana was analyzed using the ATH1 chip representing 22500 genes. A mixotrophic cell culture of Arabidopsis was treated with 75 ÂµM phytoprostane A1 or with 0.5% methanol in water (Control) and harvested after 4 h. Three independent replicates of each treatment were analyzed and the fold change of normalized signals from PPA1-treated cell culture versus control cell culture was calculated."					
+Protocol Name	P-G10719-2	P-G10719-1	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6	Affymetrix:Protocol:ExpressionStat	
+Protocol Type	nucleic_acid_extraction	labeling	hybridization	feature_extraction	bioassay_data_transformation	
+Protocol Description	For microarray analysis total RNA was extracted using the RNeasy plant mini kit (Qiagen) according to the manufacturerâs protocol.	"1 Â&#956;g of total RNA was linearly amplified and biotinylated using the One-Cycle Target Labeling Kit (Affymetrix, Santa Clara, CA) according to the manufacturerâs instructions. Labelling and hybridization were conducted by the microarray facility of the Universitaetsklinikum Tuebingen, Germany."	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 	
+Protocol Parameters						
+Protocol Hardware						
+Protocol Software			MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact						
+Protocol Term Source REF			mo		The MGED Ontology	
+SDRF File	E-GEOD-10719.sdrf.txt					
+Term Source Name	NCBI Taxonomy	The MGED Ontology	ArrayExpress	EFO	The MGED Ontology	mo
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version						

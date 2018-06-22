@@ -1,0 +1,49 @@
+Investigation Title	Transcription profiling of Arabidopsis SOL2 mutant root apex	
+Comment[Submitted Name]	SOL2 mutation affect gene expresstion at root apex	
+Experimental Design	unknown_experiment_design_type	transcription profiling by array	
+Experimental Design Term Source REF		EFO	
+Comment[ArrayExpressReleaseDate]	2008-10-20	
+Comment[SecondaryAccession]	GSE11119	
+Comment[AEMIAMESCORE]	3	
+Comment[ArrayExpressAccession]	E-GEOD-11119	
+Comment[MAGETAB TimeStamp_Version]	2010-07-22 01:44:48 Last Changed Rev: 13058	
+Experimental Factor Name	
+Experimental Factor Type	
+Experimental Factor Term Source REF	
+Person Last Name	Iwamoto	
+Person First Name	Kuninori	
+Person Mid Initials	
+Person Email	
+Person Phone	
+Person Fax	
+Person Address	University of Tokyo, Hongo 7-3-1, Bunkyo-ku, 113-0033, Japan	
+Person Affiliation	University of Tokyo	
+Person Roles	submitter	
+Person Roles Term Source REF	The MGED Ontology	
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2008-10-20	
+PubMed ID	
+Publication DOI	
+Publication Author List	
+Publication Title	
+Publication Status	
+Publication Status Term Source REF	
+Experiment Description	Analysis of sol2 mutant. SOL2 protein is a receptor-like kinase; involved in CLE peptide signalling pathway. Results provide insignt into; the role of SOL2 in CLE signalling. Experiment Overall Design: GeneChip analyses were performed twice for comparison of gene expression in sol2 mutant and wild type plants.	
+Protocol Name	P-G11119-5	P-G11119-1	P-G11119-2	P-G11119-4	P-G11119-3	
+Protocol Type	grow	grow	specified_biomaterial_action	nucleic_acid_extraction	labeling	
+Protocol Description	Seeds were sterilised with sodium hypochlorite 5 min, rinsed 4 times with sterile water, plated on MS media, and incubated at 23Â&deg;C under the continuous light conditions for 4 days.	Seeds were sterilised with sodium hypochlorite 5 min, 4 rinses sterile water,  plated on MS media, and incubated at 23Â&deg;C under the continuous light conditions for 4 days.	Seeds were sterilised with sodium hypochlorite 5 min, 4 rinses sterile water,  plated on MS media, and incubated at 23Â&deg;C under the continuous light conditions for 4 days.	Total RNA was extracted with TRIzol (Invitrogen) and purified with RNeasy Micro Kit (QIAGEN).	Biotinylated cRNA was prepared from total RNA with GeneChip One-Cycle Target Labeling and Control Reagents (Affymetrix).	
+Protocol Parameters	
+Protocol Hardware	
+Protocol Software	
+Protocol Contact	
+Protocol Term Source REF	
+SDRF File	E-GEOD-11119.sdrf.txt	
+Term Source Name	NCBI Taxonomy	The MGED Ontology	ArrayExpress	EFO	The MGED Ontology	
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version						

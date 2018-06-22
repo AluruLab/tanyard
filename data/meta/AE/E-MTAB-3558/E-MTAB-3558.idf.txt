@@ -1,0 +1,69 @@
+MAGE-TAB Version	1.1
+Investigation Title	Transcript profiling of swp73b-1 Arabidopsis thaliana
+
+Experimental Design	development or differentiation design
+Experimental Design Term Source REF	EFO
+Experimental Design Term Accession Number	EFO_0001746
+
+Experimental Factor Name	genotype
+Experimental Factor Type	genotype
+Experimental Factor Term Source REF	EFO
+Experimental Factor Term Accession Number	EFO_0000651
+
+Person Last Name	Sarnowska	Sacharowski	Sarnowski
+Person First Name	Elżbieta	Sebastian	Tomasz
+Person Mid Initials	A.	P.	J.
+Person Email		sebastian.sacharowski@gmail.com	tsarn@ibb.waw.pl
+Person Phone			
+Person Fax			
+Person Affiliation	Marie Curie Memorial Cancer Center	Institute of Biochemistry and Biophysics PAS, Dept. of Protein Biosynthesis	1Institute of Biochemistry and Biophysics PAS, Dept. of Protein Biosynthesis
+Person Address	Roentgena 5, 02-781 Warsaw, Poland	Pawinskiego 5A, 02-106 Warsaw, Poland	Pawinskiego 5A, 02-106 Warsaw, Poland
+Person Roles	experiment performer	experiment performer	submitter
+Person Roles Term Source REF			
+Person Roles Term Accession Number			
+
+Quality Control Type
+Quality Control Term Source REF
+Quality Control Term Accession Number
+
+Replicate Type
+Replicate Term Source REF
+Replicate Term Accession Number
+
+Normalization Type
+Normalization Term Source REF
+Normalization Term Accession Number
+
+Date of Experiment	2014-01-09
+Public Release Date	2015-05-12
+
+PubMed ID	26106148
+Publication DOI	10.1105/tpc.15.00233
+Publication Author List	Sacharowski SP , Gratkowska DM , Sarnowska EA , Kondrak P , Jancewicz I , Porri A , Bucior E , Rolicka AT , Franzen R , Kowalczyk J , Pawlikowska K , Huettel B , Torti S , Schmelzer E , Coupland G , Jerzmanowski A , Koncz C , Sarnowski TJ
+Publication Title	SWP73 Subunits of Arabidopsis SWI/SNF Chromatin Remodeling Complexes Play Distinct Roles in Leaf and Flower Development
+Publication Status	
+Publication Status Term Source REF	
+Publication Status Term Accession Number	
+
+Experiment Description	SWP73 subunits of SWI/SNF chromatin remodeling complexes (CRCs) are involved in key developmental pathways in Arabidopsis. We found, using microarray that inactivation of SWP73B caused altered expression of genes belonging to various regulatory pathways, including leaf and flower development. On the basis of this experiment and our other data we concluded that SWP73B modulates major developmental pathways.
+
+Protocol Name	P-MTAB-44673	P-MTAB-44674	P-MTAB-44675	P-MTAB-44676	P-MTAB-44677	P-MTAB-44678
+Protocol Type	sample collection protocol	growth protocol	nucleic acid extraction protocol	nucleic acid labeling protocol	nucleic acid hybridization to array protocol	normalization data transformation protocol
+Protocol Term Source REF	EFO	EFO	EFO	EFO	EFO	EFO
+Protocol Term Accession Number	EFO_0005518	EFO_0003789	EFO_0002944	EFO_0003813	EFO_0003815	EFO_0003816
+Protocol Description	Plants were frozen in LN immediately after harvesting and ground into a fine powder.	Plants were grown under long-day (LD) or short-day (SD) conditions (16h light/8h dark or 8h light/16h dark, respectively) at 22/19°C, 70% humidity.	RNA was extracted using RNeasy plant kit (Qiagen) and 150ng of total RNA were used to further analysis.	Nucleic acids were labeled by biotin-labeling with the IVT labeling kit (GeneChip 3'IVT Express; Affymetrix)	The labeled nucleic acids were hybridised to array for 16h as recommended by the supplier (Gene expression analysis manual; Affymetrix).	The data normalisation (RMA- summarisation method) was done using GeneSpring GX software according to guided workflow.
+Protocol Parameters						
+Protocol Hardware						
+Protocol Software						
+Protocol Contact						
+
+Term Source Name	EFO	ArrayExpress
+Term Source File	http://www.ebi.ac.uk/efo/efo.owl	http://www.ebi.ac.uk/arrayexpress/
+Term Source Version	2.38
+
+SDRF File	E-MTAB-3558.sdrf.txt
+Comment [Submitted Name]	Transcript profiling of swp73b-1 Arabidopsis thaliana
+Comment [AEMIAMEScore]	5
+Comment [AEExperimentType]	transcription profiling by array
+Comment[ArrayExpressAccession]	E-MTAB-3558
+Comment [AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis swp73b-1 mutant

@@ -1,0 +1,30 @@
+Comment[ArrayExpressAccession]	E-GEOD-46741									
+MAGE-TAB Version	1.1									
+Public Release Date	2013-08-02									
+Investigation Title	Arabidopsis circadian regulatory networks									
+Comment[Submitted Name]	Arabidopsis circadian regulatory networks									
+Experiment Description	This SuperSeries is composed of the SubSeries listed below. Refer to individual Series									
+Term Source Name	ArrayExpress	EFO								
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl								
+Person Last Name	Yanovsky									
+Person First Name	Marcelo									
+Person Email	myanovsky@leloir.org.ar									
+Person Affiliation	Fundaci—n Instituto Leloir. IIBBA- CONICET									
+Person Address	Fundaci—n Instituto Leloir. IIBBA- CONICET, Av. Patricias Argentinas 435, Buenos Aires, Ciudad Autonoma de Buenos Aires, Argentina									
+Person Roles	submitter									
+Protocol Name	P-GSE46741-1	P-GSE46741-8	P-GSE46741-9	P-GSE46741-5	P-GSE46741-2	P-GSE46741-7	P-GSE46741-4	P-GSE46741-6	P-GSE46741-3	P-GSE46741-10
+Protocol Description	The data were analyzed with Microarray Suite version 5.0 (MAS 5.0) using Affymetrix default analysis settings and global scaling as normalization method. The trimmed mean target intensity of each array was arbitrarily set to 100. ID_REF =  VALUE = MAS5.0 signal intensity DETECTION P-VALUE = 	Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 5 ug total RNA (Analysis Technical Manual, 2005, Affymetrix).	Following fragmentation, 15 ug of cRNA were hybridized for 16 hr at 45C on Arabidopsis Genome ATH1 Array were washed and stained in the Affymetrix Fluidics Station 450.	1hr white light pulse during middle of the night (CT=6) or middle of the subjective day (CT=18). Control samples were collected without light pulse treatment.	Plants were either grown under continuous light and havested after 9 days under that condition, or grown under long day cycles (16 h light/ 8 h dark) and harvested every 4 hours starting 2 hours after lights on on the 9th day in that condition.	Total RNA extraction was performed using RNaeasy Mini kit system according to the manufacturer's instructions.	Total RNA was extracted with RNeasy Plant Mini Kit (QIAGEN) following the manufacturerâ€™s protocols. To estimate the concentration and quality of samples, NanoDrop 2000c (Thermo Scientific) and Agilent 2100 Bioanalyzer (Agilent Technologies) with Agilent RNA 6000 NanoKit were employed, respectively. Libraries were prepared following the TruSeqâ„¢ RNA Sample Preparation Guide (Illumina). 3 µg of total RNA were polyA-purified, fragmented and first-strand cDNA synthesized by reverse transcriptase (SuperScript II-Invitrogen) and random hexamers. This was followed by RNA degradation and second strand cDNA synthesis. End repair process and adittion of a single â€˜Aâ€™ nucleotide to the 3â€™ ends allowed ligation of multiple indexing adapters. Then, an enrichment step of 12 cycles of PCR was performed. Library validation included quality control and quantification.	15 days old plant were grown in 12/12 white light/dark cycles and then were transfered to countinuos dark free running conditions.	Seeds were sown onto MS and grown at 22ºC in continuous light or long day conditions, depending on the experiment.	GeneChips were scanned using the Affymetrix Scanner 3000 7G
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	sample treatment protocol	nucleic acid library construction protocol	nucleic acid library construction protocol	growth protocol	growth protocol	array scanning protocol
+Experimental Factor Name	growth condition	time	genotype							
+Experimental Factor Type	growth condition	time	genotype							
+Publication Title	LNK genes integrate light and clock signaling networks at the core of the Arabidopsis oscillator.									
+Publication Author List	Rugnone ML, Faig—n Soverna A, Sanchez SE, Schlaen RG, Hernando CE, Seymour DK, Mancini E, Chernomoretz A, Weigel D, M‡s P, Yanovsky MJ									
+PubMed ID	23818596									
+Publication DOI	10.1073/pnas.1302170110									
+Comment[SecondaryAccession]	GSE46741									
+Comment[GEOReleaseDate]	2013-08-02									
+Comment[ArrayExpressSubmissionDate]	2013-05-08									
+Comment[GEOLastUpdateDate]	2013-08-02									
+Comment[AEExperimentType]	RNA-seq of coding RNA									
+Comment[AEExperimentType]	transcription profiling by array									
+SDRF File	E-GEOD-46741.hyb.sdrf.txt	E-GEOD-46741.seq.sdrf.txt								

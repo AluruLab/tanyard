@@ -1,0 +1,39 @@
+Comment[ArrayExpressAccession]	E-GEOD-25489							
+Public Release Date	2011-03-26							
+Investigation Title	"Analysis of the gene expression changes in wild type, tga2tga3tga5tga6, and sid2-2 Arabidopsis thaliana plants after treatment with the safeners mefenpyr and isoxadifen"							
+Comment[Submitted Name]	"Gene expression changes in wild type, tga2tga3tga5tga6, and sid2-2 plants after treatment with the safeners mefenpyr and isoxadifen"							
+Experiment Description	"Comparison of gene expression changes in safener- or BF-treated wild type (Col0) or mutants (tga2tga3tga5tga6, sid2-2) of the salicylic acid signaling pathway. Measurements of three biological samples were prepared for each genotype."							
+Date of Experiment								
+Term Source Name	EFO							
+Term Source Version								
+Term Source File	http://bar.ebi.ac.uk:8080/trac/browser/branches/curator/ExperimentalFactorOntology/ExFactorInOWL/currentrelease/eforelease/efo.owl							
+Person Last Name	Behringer	Schaller	Bartsch					
+Person First Name	Carina	Andreas	Klaus					
+Person Mid Initials								
+Person Email	carina-behringer@t-online.de							
+Person Affiliation	TU Munchen							
+Person Phone								
+Person Fax								
+Person Address	"Institute of plant systems biology, TU Munchen, Emil-Ramann-Str. 4, Freising, Germany"							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Person Roles Term Accession Number								
+Protocol Name	P-GSE25489-1	P-GSE25489-6	P-GSE25489-3	P-GSE25489-8	P-GSE25489-7	P-GSE25489-2	P-GSE25489-4	P-GSE25489-5
+Protocol Description	ID_REF = <br>VALUE = RMA-normalized signal	"Arrays were hybridized at 45°C with 19 µg of the labelled and fragmented cRNAs, and washed and developed in a GeneChip Fluidics Station 450/250 (Affimetrix)."	"Arabidopsis thaliana plants were grown on soil for 4 weeks under long day conditions (16h light, 23°C 40% humidity, 8 h dark 17°C, 50% humidity)."	"The Genedata Expressionist software package (Genedata, Basel, Switzerland) was used for data analysis. Raw chip data (CEL files) were loaded into the Genedata Expressionist Refiner module. Data were condensed and expression levels for individual chips were calculated after background correction and normalization using the RMA algorithm (Irizarry et al., 2003). All chips were normalized to a median expression value of 200 with a quality criteria p-value set at 0.04."	"Arrays were scanned using an Affymetrix scanner, and CEL files were generated using Affymetrix GCOS software."	"Arabidopsis thaliana plants grown in 12 cm pots were treated with 875 µL/pot of a formulation containing safeners (5 mM mefenpyr and 7.2 mM isoxadifen) in 1 ml of 0.2 % agrotin (Bayer AG; Leverkusen, Germany) supplemented with 25 µL emulsifier (5 % phenylsulfonate CA 70 (Clariant; Muttenz, Switzerland), 7 % Emulsogen EL360 (Clariant), 40 % Isophoron (Dow Chemical Co.; Midland, MI). Mock treatments contained an equal volume of the solvent (DMSO) used for safeners stock solutions. The formulation was applied using an airbrush pistol (Grafo model T1, Fisher Airbrush und Künstlerbedarf; Naumburg-Meyhen, Germany). The effective concentrations of safeners responded to a field application rate of 1500 g/ha, respectively."	Total RNA was extracted using the Qiagen RNeasy midi kit following the manufacturer’s (Qiagen) instructions.	"Labelled cRNA was prepared and hybridized to Affymetrix ATH1 GeneChips following the manufacturer’s guidelines (Affymetrix, Santa Clara, CA). Briefly, a Microarray cDNA Synthesis Kit (Roche Diagnostics) was used for oligo-dT-primed cDNA synthesis from 10 µg of total RNA. Biotinylated cRNA was obtained with the BioArray High Yield RNA Transcript Labeling Kit (Enzo Life Science Inc., Farmingdale)."
+Protocol Software								
+Protocol Hardware								
+Protocol Contact								
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Protocol Term Source REF								
+Protocol Term Accession Number								
+Experimental Factor Name	growth condition	genotype						
+Experimental Factor Type	growth condition	genotype						
+Experimental Factor Term Source REF								
+Experimental Factor Term Accession Number								
+Comment[SecondaryAccession]	GSE25489							
+Comment[GEOLastUpdateDate]	2011-04-10							
+Comment[AEExperimentDisplayName]	"Transcription profiling by array of Arabidopsis mutant for sid2 or tga2, tga3, tga5 and tga6 after treatment with mefenpyr and isoxadifen"							
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[GEOReleaseDate]	2011-03-27							
+Comment[ArrayExpressSubmissionDate]	2010-11-18							
+SDRF File	E-GEOD-25489.sdrf.txt							

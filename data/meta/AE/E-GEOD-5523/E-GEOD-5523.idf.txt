@@ -1,0 +1,51 @@
+Investigation Title	Transcription profiling of Arabidopsis calcicole and normal ecotype grown with high and low calcium vs a natural ecotype Elland to investigate the environmental genomics of calcicole-calcifuge physiology				
+Comment[Submitted Name]	Environmental Genomics of Calcicole-calcifuge physiology				
+Experimental Design	unknown_experiment_design_type	transcription profiling by array			
+Experimental Design Term Source REF		EFO			
+Comment[AEExperimentType]	transcription profiling by array				
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis calcicole and calcifuge ecotypes after growth in high and low calcium conditions				
+Comment[AEMIAMESCORE]	3				
+Comment[ArrayExpressReleaseDate]	2008-06-13				
+Comment[SecondaryAccession]	GSE5523				
+Comment[ArrayExpressAccession]	E-GEOD-5523				
+Comment[MAGETAB TimeStamp_Version]	2010-08-06 16:31:43 Last Changed Rev: 13058				
+Experimental Factor Name	ECOTYPE	COMPOUND			
+Experimental Factor Type	ecotype	compound			
+Experimental Factor Term Source REF					
+Person Last Name	(NASC)				
+Person First Name	Nottingham Arabidopsis Stock Centre				
+Person Mid Initials					
+Person Email	affy@arabidopsis.info				
+Person Phone					
+Person Fax					
+Person Address	School of Biosciences, University of Nottingham, Nottingham Arabidopsis Stock Centre (NASC), Sutton Bonington Campus, Loughborough, LE12 5RD, United Kingdom				
+Person Affiliation	Nottingham Arabidopsis Stock Centre (NASC)				
+Person Roles	submitter				
+Person Roles Term Source REF					
+Quality Control Type					
+Quality Control Term Source REF					
+Replicate Type					
+Replicate Term Source REF					
+Normalization Type					
+Normalization Term Source REF					
+Date of Experiment					
+Public Release Date	2008-06-13				
+PubMed ID					
+Publication DOI					
+Publication Author List					
+Publication Title					
+Publication Status					
+Publication Status Term Source REF					
+Experiment Description	The purpose of this set of arrays is to provide a third replicate to use in data analysis addition to the 2 previous replicates for all samples already generated on this project. Our hypothesis is that adaptation to a calcareous environment will be reflected in altered gene expression including genes encoding transporters, ion channels, transcription factors, etc. To test this hypothesis we grew a laboratory non-calcicole (Col-4) and a laboratory calcicole (Cal-0) ecotypes of A. thaliana at low (1 mM) and high (12.5 mM) rhizospheric Ca2+ and compare the patterns of gene expression by microarray analysis. We then collected from the wild, a putative calcicole ecotype (Elland)and a putative non-calcicole (Penicuik) and grew both at low (1 mM) and high (12.5 mM) rhizospheric Ca2+ and compared expression profiles to the laboratory ecotypes. Experimenter name = Bev Abram; Experimenter phone = 01524 592931; Experimenter address = Dept Biological Sciences; Experimenter address = Lancaster University; Experimenter address = Bailrigg; Experimenter address = Lancaster; Experimenter zip/postal_code = LA1 4YQ; Experimenter country = UK Experiment Overall Design: 8 samples were used in this experiment				
+Protocol Name	P-G5523-1	P-G5523-2	P-G5523-3	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6
+Protocol Type	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	hybridization	feature_extraction
+Protocol Description	1 mM CaCl2	1mM CaCl2	12.5 mM CaCl2	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 
+Protocol Parameters					
+Protocol Hardware					
+Protocol Software				MicroArraySuite 5.0	MicroArraySuite 5.0
+Protocol Contact					
+Protocol Term Source REF				mo	
+SDRF File	E-GEOD-5523.sdrf.txt				
+Term Source Name	NCBI Taxonomy	The MGED Ontology	ArrayExpress	EFO	mo
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version					

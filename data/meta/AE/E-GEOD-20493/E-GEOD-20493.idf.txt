@@ -1,0 +1,52 @@
+Investigation Title	Transcriptional profiling of an Fd-GOGAT1/GLU1 mutant in Arabidopsis thaliana						
+Comment[Submitted Name]	Transcriptional profiling of an Fd-GOGAT1/GLU1 mutant in Arabidopsis thaliana						
+Experimental Design	transcription profiling by array						
+Experimental Design Term Source REF	EFO						
+Comment[AEExperimentType]	transcription profiling by array						
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for Fd-GOGAT1/GLU1						
+Comment[SecondaryAccession]	GSE20493						
+Comment[ArrayExpressReleaseDate]	2010-06-08						
+Comment[AEMIAMESCORE]	4						
+Comment[ArrayExpressAccession]	E-GEOD-20493						
+Comment[MAGETAB TimeStamp_Version]	2010-08-04 04:51:55 Last Changed Rev: 13058						
+Experimental Factor Name	organism part	genotype					
+Experimental Factor Type	organism part	genotype					
+Experimental Factor Term Source REF							
+Person Last Name	Tran	Winge	JÃ¸rstad	Bones	Sparstad	Christensen	Kissen
+Person First Name	Diem	Per	Tommy	Atle	Torfinn	Tone	Ralph
+Person Mid Initials	H		S	M			
+Person Email		per.winge@bio.ntnu.no					
+Person Phone		+47 73596229					
+Person Fax							
+Person Address		Department of Biology, Norwegian University of Science and Technology, HÃ¸gskoleringen 5e, Trondheim, Norway					
+Person Affiliation		Norwegian University of Science and Technology					
+Person Roles		submitter					
+Person Roles Term Source REF		The MGED Ontology					
+Quality Control Type							
+Quality Control Term Source REF							
+Replicate Type							
+Replicate Term Source REF							
+Normalization Type							
+Normalization Term Source REF							
+Date of Experiment							
+Public Release Date	2010-06-08						
+PubMed ID	20307264						
+Publication DOI	10.1186/1471-2164-11-190						
+Publication Author List	Kissen R, Winge P, Tran DH, JÃ¸rstad TS, StÃ¸rseth TR, Christensen T, Bones AM						
+Publication Title	Transcriptional profiling of an Fd-GOGAT1/GLU1 mutant in Arabidopsis thaliana reveals a multiple stress response and extensive reprogramming of the transcriptome.						
+Publication Status	published						
+Publication Status Term Source REF	EFO						
+Publication Status Term Accession Number	EFO_0001796						
+Experiment Description	Transcriptional profiling of an Fd-GOGAT1/GLU1 mutant in Arabidopsis thaliana reveals a multiple stress response and extensive reprogramming of the transcriptome Glutamate plays a central position in the synthesis of a variety of organic molecules in plants and is synthesised from nitrate through a series of enzymatic reactions. Glutamate synthases catalyse the last step in this pathway and two types are present in plants: NADH- or ferredoxin-dependent. Here we report a genome wide microarray analysis of the transcriptional reprogramming that occurs in leaves and roots of the A. thaliana mutant glu1-2 knocked-down in the expression of Fd-GOGAT1 (GLU1; At5g04140), one of the two genes of A. thaliana encoding ferredoxin-dependent glutamate synthase. Rosette leaves and roots from the glu1-2 mutant, which is a T-DNA knockout of a ferredoxin dependent glutamate synthase in Arabidopsis (locus ID: At5g04140), were analyzed on Affymetrix microarrays. As a reference control, leaves and roots from Col(0) plants were used. The glu1-2 mutant is derived from a Col(0) accession. Four independent biological replicas from leaves and roots were used in the analysis (from both glu1-2 and Col(0) reference). In total 16 hybridizations were done.						
+Protocol Name	P-GSE20493-2	P-GSE20493-3	P-GSE20493-4	P-GSE20493-5	P-GSE20493-6	P-GSE20493-7	P-GSE20493-1
+Protocol Type	grow	nucleic_acid_extraction	labeling	hybridization	image_aquisition	feature_extraction	bioassay_data_transformation
+Protocol Description	Wild-type Col-0 and mutant glu1-2 seeds were surface sterilised and sown on solid in vitro cultivation medium consisting of 1x Murashige and Skoog basal salt mixture, 3% sucrose, 0.75% phytoagar (w/v), pH5.7. This medium contains 1650 mg ammonium nitrate/L. Seeds were stratified for 3 days at 4degreeC before being transferred to a controlled growth chamber under a 16 hour photoperiod (light intensity: 75 µmol.m-2.sec-1) at 21-23degreeC. Leaves and roots of 18 day old in vitro grown plantlets were harvested separately and immediately flash-frozen in liquid N2. Harvesting of tissue was performed two hours after onset of the 16 hour light period. The harvested tissue was stored at -80degreeC until further processing.	Total RNA was extracted from plant tissue (300 mg roots, 500 mg leaves) using the RNeasy Midi kit (Qiagen, Hilden, Germany) following the suppliers instructions. Total RNA was concentrated using Microcon YM30 columns (Amicon). RNasin (Promega , Madison, USA) was added to the RNA to the final concentration of 1 U/µl. RNA quality was assessed by standard denaturing agarose gel electrophoresis and RNA concentration was measured with a NanoDrop ND-1000 (Nanodrop, Delaware, USA).	To prepare the samples for microarray experiments the âGeneChip Expression Analysisâ procedure of Affymetrix (Santa Clara, USA) was followed. Briefly, 10 µg total RNA was processed through a one-cycle cDNA synthesis procedure, the resulting double-stranded cDNA was cleaned up and submitted to the synthesis of biotin-labelled cRNA. This biotin-labelled cRNA was then cleaned up, quantified and fragmented.	15 µg of labeled cRNA was used for each hybridization. After 16 hours of hybridization at 45degreeC the arrays were processed through the washing and staining procedures according to the manufacturer instructions (Affymetrics).	The GeneChips were scanned using the GeneChip Scanner 3000 (Affymetrix)	The microarray data were preprocessed using the Robust Multichip Average (RMA) package (Irizarry RA et al. Exploration, normalization, and summaries of high density oligonucleotide array probe level data. Biostatistics 2003, 4:249-264.) using R. The data were normalized using quantile normalization, and expression measures were produced by fitting the RMA robust linear model.	ID_REF = <br>VALUE = RMA signal intensity
+Protocol Parameters							
+Protocol Hardware							
+Protocol Software							
+Protocol Contact							
+Protocol Term Source REF						The MGED Ontology	The MGED Ontology
+SDRF File	E-GEOD-20493.sdrf.txt						
+Term Source Name	NCBI Taxonomy	The MGED Ontology	ArrayExpress	EFO	The MGED Ontology		
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php		
+Term Source Version							

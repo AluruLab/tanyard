@@ -1,0 +1,36 @@
+Comment[ArrayExpressAccession]	E-MEXP-3048				
+Investigation Title	Transfer of 5d old Col-0 and WEE1 KO seedlings to control medium for 0h-5h-24h				
+Comment[Submitted Name]	Transfer of 5d old Col-0 and WEE1 KO seedlings to control medium for 0h-5h-24h				
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for wee1 after treatment with hydroxyurea				
+Comment[MIAMExpressLogin]	tooncools				
+Comment[MIAMExpressSubmissionID]	7212				
+Experiment Description	Col-0 and WEE1KO (wee1-1 and wee1-2) were germinated on control medium on a nylon mesh and transferred 5 days after germination to control medium. Samples were harvested at three different time points after transfer: 0 h, 5 h, and 24 h. All sampling points were performed in four independent experiments for Col-0, two independent experiments for wee1-1 and two independent experiments for wee1-2. For each time point in each experiment ﾱ50 root tips were collected and frozen in liquid nitrogen. RNA was extracted from root tissue with TriZol reagent (Invitrogen) and purified with RNneasy kit (Qiagen). The RNA of two independent experiments for Col-0 and WEE1KO were subsequently pooled and used for microarray analysis.				
+Experimental Design	in_vitro_design	quality_control_testing_design	co-expression_design	time_series_design	growth_condition_design
+Comment[AEExperimentType]	transcription profiling by array				
+Experimental Factor Name	GENOTYPE	TIME			
+Experimental Factor Type	genotype	time			
+Person Last Name	Cools				
+Person First Name	Toon				
+Person Email	tocoo@psb.ugent.be				
+Person Phone	3293313966				
+Person Affiliation	VIB-Ugent				
+Person Address	PSB, Technologiepark 927, Zwijnaarde, Oost-Vlaanderen, 9052, Belgium				
+Person Roles	submitter				
+Person Roles Term Source REF	MGED Ontology				
+Quality Control Type	biological_replicate				
+Public Release Date	2011-07-24				
+Comment[ArrayExpressSubmissionDate]	2011-01-04 01:53				
+Pubmed ID	21498679				
+Publication DOI	10.1105/tpc.110.082768				
+Publication Author List	Cools T, Iantcheva A, Weimer AK, Boens S, Takahashi N, Maes S, Van den Daele H, Van Isterdael G, Schnittger A, De Veylder L.				
+Publication Title	The Arabidopsis thaliana checkpoint kinase WEE1 protects against premature vascular differentiation during replication stress				
+Publication Status	published				
+Publication Status Term Source REF	EFO				
+Publication Status Term Accession Number	EFO_0001796				
+Protocol Name	P-MTAB-18454	P-MTAB-18455	P-MTAB-18456	P-MTAB-18457	
+Protocol Description	Signal values were normalized using the gcRMA method with Bioconductor package in R. All of the resulting FGEM file is represented in a log2-scale.	Plants were grown for 7 days (2 days of germination, 5 days of growth) vertically under continuous light conditions at 21ﾰC with 1x Murashige and Skoog medium (4.302 g/L), 10 g/L sucrose, 0.1 g/L myo-inositol, 0.5 g/L MES, 100 uL thiamine hydrochloride (10 mg/mL), 100 uL pyridoxine (5 mg/mL), 100 uL nicotinic acid (5 mg/mL), pH 5.7 adjusted with 1 M KOH, 10 g/L agar. Seeds were put out on a nylon mesh (20 um pore size) (Prosep). (Parameters: start time = 5, time unit = days, min temperature = 21, temperature unit = C)	Membranes were transferred to 1xMS control medium for the designated amount of time (0h, 5h, 24h)	Root tips were cut and preserved at -70ﾰC. After grinding of the samples, RNA was extracted with Trizol reagent and purified with RNeasy kit (Qiagen). (Parameters: Extracted product = total_RNA, Amplification = none)	
+Protocol Type	bioassay_data_transformation	grow	specified_biomaterial_action	nucleic_acid_extraction	
+Protocol Term Source REF	MGED Ontology	MGED Ontology	MGED Ontology	MGED Ontology	
+Term Source Name	MGED Ontology	ArrayExpress	EFO		
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo		
+SDRF File	E-MEXP-3048.sdrf.txt				

@@ -1,0 +1,31 @@
+Comment[ArrayExpressAccession]	E-MTAB-2297				
+MAGE-TAB Version	1.1				
+Investigation Title	pft1 glucose responses				
+Comment[Submitted Name]	pft1 glucose responses				
+Experiment Description	Determining the role of the Mediator subunit MED25/PFT1 in coordinating the expression of glucose responsive genes in Arabidopsis thaliana				
+Experimental Design	growth condition design	replicate design	co-expression_design		
+Comment[AEExperimentType]	transcription profiling by array				
+Experimental Factor Name	genotype	growth condition	time		
+Experimental Factor Type	genotype	growth condition	time		
+Quality Control Type					
+Quality Control Term Source REF					
+Public Release Date	2014-03-01				
+Person Last Name	Bevan				
+Person First Name	Michael				
+Person Mid Initials	W				
+Person Email	michael.bevan@jic.ac.uk				
+Person Phone	01603 450520				
+Person Address	John Innes Centre, Norwich NR4 7UH, UK				
+Person Affiliation	John Innes Centre				
+Person Roles	submitter				
+PubMed ID					
+Publication Author List					
+Publication Title					
+Publication Status					
+Protocol Name	P-MTAB-37443	P-MTAB-37444	P-MTAB-37445	P-MTAB-37446	P-MTAB-37447
+Protocol Type	growth protocol	treatment protocol	nucleic acid extraction protocol	nucleic acid labeling protocol	normalization data transformation protocol
+Protocol Description	seeds were surface sterilized and sown in vitro on Murashige and Skoog (MS) medium containing 0.9% agar and different glucose concentrations. Seeds were then stratified for 3 days at 4degreeC and then grown in continuous light at 22degreeC. For dark development experiments, seeds were grown on MS medium containing 1% glucose, exposed to light for 8h and then grown vertically in complete darkness for 2 weeks. 	For glucose treatment experiments, seedlings were grown on MS medium containing 0.5% glucose for 7 days and transferred in MS liquid medium without glucose. After 24 hours, the medium was changed to MS medium containing 3% glucose and seedlings were collected 6 hours later. 	Total RNA was extracted and DNase treated using the RNeasy Plant mini kit (QIAGEN). 	Enzo BIoArray High Yield Transcript Labelling Kit	GeneSpring
+Protocol Term Source REF	EFO	EFO	EFO	EFO	EFO
+Term Source Name	EFO	ArrayExpress			
+Term Source File	http://www.ebi.ac.uk/efo	http://www.ebi.ac.uk/arrayexpress			
+SDRF File	E-MTAB-2297.sdrf.txt				

@@ -1,0 +1,28 @@
+Comment[ArrayExpressAccession]	E-GEOD-73841
+MAGE-TAB Version	1.1												
+Public Release Date	2016-03-01
+Investigation Title	The purine metabolite allantoin can activate the jasmonate signaling pathway in a MYC2-regulated and ABA-dependent manner												
+Comment[Submitted Name]	The purine metabolite allantoin can activate the jasmonate signaling pathway in a MYC2-regulated and ABA-dependent manner
+Experiment Description	Allantoin is a metabolic intermediate of purine catabolism that often accumulates in stressed plants. Recently, using Arabidopsis knockout mutants (aln) of ALLANTOINASE, we showed that this purine metabolite activates ABA production, thereby stimulating stress-related gene expression and enhancing seedling tolerance to abiotic stress. A detailed re-examination of the microarray data of an aln mutant (aln-1) not only confirmed increased expression of ABA-inducible genes, but also revealed altered expression of genes involved in jasmonic acid (JA) responses, likely under the control of MYC2, a master switch in the JA signaling pathway. Consistent with the transcriptome profiles, the aln-1 mutant displayed increased JA levels and enhanced responses to mechanical wounding and exogenous JA. Moreover, aln mutants demonstrated modestly increased susceptibility to hemibiotrophic and necrotrophic pathogens, probably reflecting the antagonistic action of MYC2 on the defense against these bacteria. Exogenously administered allantoin elicited the expression of JA-responsive genes including MYC2 in wild-type plants, supporting that allantoin might be responsible for the observed JA-related aln phenotypes. However, the effect of exogenous allantoin was suppressed by mutations deficient in bioactive JA (jar1-1), insensitive to JA (myc2-3) and deficient in ABA (aba2-1 and bglu18). The suppressive effect of jar1-1 and bglu18 mutations was further confirmed in the aln-1 background (jar1-1/aln-1 and bglu18/aln-1). These results indicate that allantoin can activate the MYC2-regulated JA signaling pathway through ABA production. Overall, this study provides evidence for the possible connection of purine catabolism with stress hormone homeostasis and signaling, and highlights the importance of allantoin in these interactions. Evidence has been presented only recently for the involvement of purine catabolism in stress protection of plants and the mechanism behind this remains obscure. Here we show that in Arabidopsis, the intermediary metabolite allantoin can activate the MYC2-regulated jasmonate signaling pathway via the mechanism involving ABA, providing the link between the metabolism and two interactive signaling pathways of stress hormones that play critical roles in plant adaptation to environmental adversity. Two replicates of the mutant were compared with controls. This series is a re-analysis of GSE44922.												
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl											
+Person Last Name	Konishi	Takagi	Ishiga	Egusa	Watanabe	Konishi	Akiyoshi	Matsuura	Mori	Hirayama	Kaminaka	Shimada	Sakamoto
+Person First Name	Tomokazu	Hiroshi	Yasuhiro	Mayumi	Shunsuke	Tomokazu	Nobuhiro	Takakazu	Izumi	Takashi	Hironori	Hiroshi	Atsushi
+Person Mid Initials									C				
+Person Email	konishi@akita-pu.ac.jp												
+Person Affiliation	Akita Prefectural University												
+Person Phone	+81-18-872-1603												
+Person Address	Bioresource Sciences, Akita Prefectural University, Shimoshinjyo Nishi, Akita, Akita, Japan												
+Person Roles	submitter												
+Protocol Name	P-GSE73841-1	P-GSE73841-5	P-GSE73841-6	P-GSE73841-2	P-GSE73841-3	P-GSE73841-4	P-GSE73841-7						
+Protocol Description	The perfect match data were normalized by using the SuperNORM data service (Skylight Biotech Inc., Akita, Japan) according to a three-parameter lognormal distribution model. ID_REF =  VALUE = parametric: z-score of logarithms	Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 250 nanograms of total RNA using GeneChip 3' IVT Express Kit (Affymetrix).	Following fragmentation, 15 micrograms of cRNA were hybridized for 16 h at 45C on ATH1 microarrays (Affymetrix) in the Affymetrix GeneChip hybridization oven. GeneChips were washed and stained in the Affymetrix Fluidics Station 450.	Aerial parts of the seedlings were harvested 2 weeks after germination.	Seeds were germinated and the seedlings were grown aseptically on solid 1/2MS media plus 1% sucrose at 22C under long-day (16 h light / 8 h darkness) photoperiodic conditions.	Guanidinium thiocyanate extraction of total RNA followed by spin column purification was performed using NucleoSpin RNA II (Macherey-Nagel).	GeneChips were scanned using the Affymetrix GeneChip Scanner 3000 7G.						
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol						
+Experimental Factor Name	genotype												
+Experimental Factor Type	genotype												
+Comment[SecondaryAccession]	GSE73841												
+Comment[GEOReleaseDate]	2016-03-01												
+Comment[ArrayExpressSubmissionDate]	2015-10-08												
+Comment[GEOLastUpdateDate]	2016-03-04												
+Comment[AEExperimentType]	transcription profiling by array												
+Comment[AdditionalFile:Data1]	GSE73841_normalized_data_with_pvalues.txt												
+SDRF File	E-GEOD-73841.sdrf.txt

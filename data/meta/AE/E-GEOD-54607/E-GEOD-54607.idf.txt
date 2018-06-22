@@ -1,0 +1,25 @@
+Comment[ArrayExpressAccession]	E-GEOD-54607						
+MAGE-TAB Version	1.1						
+Public Release Date	2014-09-30						
+Investigation Title	Transcription profiling by array of Arabidopsis 35S::KLU shoots compared to wild type shoots						
+Comment[Submitted Name]	Transcriptome changes in 35S::KLU						
+Experiment Description	"Transcriptome changes in 35S::KLU shoots at stage 1.03 compared to wild-type (WT) Col-0 shoots 35S::KLU and WT seedlings were grown on 1/2 MS medium, and 5 seedlings of each were harvested at stage 1.03. Samples were obtained from three independent experiments, and both genotypes were grown on the same plate. Samples were frozen in liquid nitrogen and ground with a Retsch machine and 3-mm metal balls. RNA was extracted with TriZol (Invitrogen) and further purified with the RNeasy Mini Kit (Qiagen). DNA digestion was done on columns with RNase-free DNase I (Roche). One µg of pure RNA samples were hybridized to Affymetrix ATH1 arrays at the VIB Microarray Facility (Leuven, Belgium)."						
+Term Source Name	ArrayExpress	EFO					
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Claeys	Claeys	Inzé				
+Person First Name	Hannes	Hannes	Dirk				
+Person Email	hacla@psb.vib-ugent.be						
+Person Affiliation	VIB-UGent						
+Person Address	"Plant Systems Biology, VIB-UGent, Technologiepark 927, Gent, Belgium"						
+Person Roles	submitter						
+Protocol Name	P-GSE54607-1	P-GSE54607-5	P-GSE54607-6	P-GSE54607-2	P-GSE54607-3	P-GSE54607-4	P-GSE54607-7
+Protocol Description	"Data was processed with Robust Multichip Average (RMA) (background correction, normalization, and summarization) as implemented in BioConductor (Irizarry et al., 2003a; Irizarry et al., 2003b; Gentleman et al., 2004). Absolute expression values log2 transformed in the RMA procedure ID_REF =  VALUE = log2 RMA"	Standard Affymetrix protocol	Standard Affymetrix protocol	None	Plants were grown on 1/2 MS medium under 16 h light (80 um/m2/s)/8 h dark cycle at 21 degrees C	"RNeasy plant mini kit (Qiagen), according to manufacturer protocol"	Standard Affymetrix protocol
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	genotype						
+Experimental Factor Type	genotype						
+Comment[SecondaryAccession]	GSE54607						
+Comment[GEOReleaseDate]	2014-09-30						
+Comment[ArrayExpressSubmissionDate]	2014-01-31						
+Comment[GEOLastUpdateDate]	2014-09-30						
+Comment[AEExperimentType]	transcription profiling by array						
+SDRF File	E-GEOD-54607.sdrf.txt						

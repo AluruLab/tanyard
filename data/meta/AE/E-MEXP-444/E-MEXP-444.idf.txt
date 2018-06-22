@@ -1,0 +1,48 @@
+Investigation Title	Transcription profiling of Arabidopsis wild type and hfr1/sics1 knock-out mutant seedlings exposed to low R/FR light	
+Comment[Submitted Name]	Ruberti - A.thaliana Shade Avoidance Response wt and hfr1-sics1	
+Experimental Design	genetic_modification_design	transcription profiling by array	
+Experimental Design Term Source REF	mo	EFO	
+Comment[ArrayExpressReleaseDate]	2006-03-01	
+Comment[AEMIAMESCORE]	5	
+Comment[ArrayExpressAccession]	E-MEXP-444	
+Comment[MAGETAB TimeStamp_Version]	2011-06-28 21:02:39 Last Changed Rev: 14857	
+Experimental Factor Name	time	light	
+Experimental Factor Type	time	light	
+Experimental Factor Term Source REF	
+Person Last Name	Sessa	Ciolfi	Possenti	Becker	Ruberti	Carabelli	Morelli	Mittempergher	Sassi	
+Person First Name	Giovanna	Andrea	Marco	Jorg	Ida	Monica	Giorgio	Francesca	Massimiliano	
+Person Mid Initials	
+Person Email					ida.ruberti@uniroma1.it	
+Person Phone					+390649912211	
+Person Fax					+390649912500	
+Person Address					P.le Aldo Moro 5	
+Person Affiliation	CNR	CNR	INRAN	IGC	Institute of Molecular Biology and Pathology	CNR	INRAN	CNR	CNR	
+Person Roles					submitter	
+Person Roles Term Source REF						
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2006-03-01	
+PubMed ID	16322556	
+Publication DOI	16322556	
+Publication Author List	Sessa, Giovanna; Carabelli, Monica; Sassi, Massimiliano; Ciolfi, Andrea; Possenti, Marco; Mittempergher, Francesca; Becker, Jorg; Morelli, Giorgio; Ruberti, Ida	
+Publication Title	A dynamic balance between gene activation and repression regulates the shade avoidance response in Arabidopsis	
+Publication Status	journal_article	
+Publication Status Term Source REF	
+Experiment Description	Aim of the experiment is the identification of genes differentially regulated in hfr1/sics1 seedlings relative to wild type after prolonged exposure to low R/FR. To this end, gene expression changes were analysed in Arabidopsis wild-type and hfr1/sics1 knock-out mutant seedlings exposed to low R/FR light. The experiment was designed to enable comparison between the different genotypes exposed or not exposed to low R/FR light.	
+Protocol Name	P-MEXP-9651	P-MEXP-9609	P-MEXP-9615	P-MEXP-9618	Affymetrix:Protocol:Hybridization-EukGE-WS2v4	P-AFFY-6	Affymetrix:Protocol:ExpressionStat	
+Protocol Type	specified_biomaterial_action	grow	nucleic_acid_extraction	labeling	hybridization	feature_extraction	bioassay_data_transformation	
+Protocol Description	Arabidopsis seedlings were exposed to high R/FR light and then to low R/FR light for a period of time. Light outputs in high R/FR were: 670 nm (Red) 96 mmoles m-2s-1; 735 nm (Far Red) 21 mmoles m-2s-1; 470 nm (Blue) 15 mmoles m-2s-1. Light outputs in low R/FR were: 670 nm, 12 mmoles m-2s-1; 735 nm, 105 mmoles m-2s-1; 470 nm, 15 mmoles m-2s-1. 7-day-old wild-type and hfr1/sics1 (hfr1-4/sics1-1 and hfr1-5/sics1-2) seedlings were either maintained in high R/FR or transferred to low R/FR for 1 day, and then harvested.	Seedlings were grown in a growth chamber (E30-LED, Percival Scientific Inc., USA), at 21°C temperature, 75% humidity, 16 h light/8 h dark cycles.	Total RNA was isolated using the RNeasy Plant Mini Kit (Qiagen, Germany). Each sample consists of a pool of 200 individuals. Two sets of samples were collected from independent experiments.	7 µg of total RNA was used in a reverse transcription reaction (SuperScript II; Invitrogen, Paisley, UK) to generate first-strand cDNA. After second-strand synthesis, double-strand cDNA was used in an in vitro transcription (IVT) reaction to generate biotinylated cRNA (ENZO BioArray HighYield RNA Transcript Labeling Kit; ENZO Diagnostics, Farmingdale, NY). Size distribution of the cRNA and fragmented cRNA, respectively, was assessed using an Agilent 2100 Bioanalyzer with a RNA 6000 Nano Assay.	Title: Fluidics Station Protocol. Description: 	Title: Affymetrix CEL analysis. Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 	
+Protocol Parameters		start time;min temperature;	Amplification;Extracted product;	Amplification;Label used;Amount of nucleic acid labeled;	
+Protocol Hardware	
+Protocol Software					MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact	
+Protocol Term Source REF	mo	
+SDRF File	E-MEXP-444.sdrf.txt	
+Term Source Name	mo		ncbitax	tair_dev:1.27	The MGED Ontology	tair	ArrayExpress	mo	EFO	
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php		http://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html	http://www.arabidopsis.org/info/ontologies/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://arabidopsis.org	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	
+Term Source Version				1.27						

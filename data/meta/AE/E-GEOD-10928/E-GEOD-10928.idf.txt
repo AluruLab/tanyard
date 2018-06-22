@@ -1,0 +1,52 @@
+Investigation Title	Transcription profiling of Arabidopsis wild type vs. vip3 mutant					
+Comment[Submitted Name]	Arabidopsis wild-type vs. vip3					
+Experimental Design	unknown_experiment_design_type	transcription profiling by array				
+Experimental Design Term Source REF		EFO				
+Comment[AEExperimentType]	transcription profiling by array					
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for vip3					
+Comment[AEMIAMESCORE]	4					
+Comment[ArrayExpressReleaseDate]	2008-10-25					
+Comment[SecondaryAccession]	GSE10928					
+Comment[ArrayExpressAccession]	E-GEOD-10928					
+Comment[MAGETAB TimeStamp_Version]	2010-07-29 23:02:16 Last Changed Rev: 13058					
+Experimental Factor Name	GENOTYPE					
+Experimental Factor Type	genotype					
+Experimental Factor Term Source REF						
+Person Last Name	Oh					
+Person First Name	Sookyung					
+Person Mid Initials						
+Person Email	ohsookyu@msu.edu					
+Person Phone						
+Person Fax						
+Person Address	Steve van Nocker,Horticulture,Michigan State University, ,East Lansing,48824,USA					
+Person Affiliation	Michigan State University					
+Person Roles	submitter					
+Person Roles Term Source REF	The MGED Ontology					
+Quality Control Type						
+Quality Control Term Source REF						
+Replicate Type						
+Replicate Term Source REF						
+Normalization Type						
+Normalization Term Source REF						
+Date of Experiment						
+Public Release Date	2008-10-25					
+PubMed ID	18725930					
+Publication DOI	10.1371/journal.pgen.1000077					
+Publication Author List	Oh S, Park S, van Nocker S.					
+Publication Title	Genic and global functions for Paf1C in chromatin modification and gene expression in Arabidopsis.					
+Publication Status	published					
+Publication Status Term Source REF	EFO					
+Publication Status Term Accession Number	EFO_0001796					
+Experiment Description	Comparison of wild-type and vip3.  The Arabidopsis thaliana VERNALIZATION INDEPENDENCE (VIP) gene class has multiple functions in development, including repression of flowering through activation of MADS box gene FLC. Among VIP genes, VIP genes encode yeast Paf1 complex homolog which is required for histone modification, transcriptional elongation.   To identify genes regulated by VIP3, we performed Affymetrix Arabidopsis gene chip analysis and compared gene transcription profiles from wild-type and vip3 mutant plants. We found more than 200 genes misregulated in vip3 mutant plants compring to wild-type plant.  Experiment Overall Design: Plants were grown on soil. Total aerial tissues were harvestedfrom 14 day old seedling. Each of two replicates for each genotypes was composed of three independently derived samples. Each sample included more than 100 plants. Total RNA was isolated using Qiagen RNAeasy columns (Qiagen, Valencia, CA). Synthesis of cDNA employed the SuperScript double-stranded cDNA sysnthesis kit (Affymetrix). Synthesis of biotinylated cDNA utilized the BioArray high yield RNA transcript labeling kit (Affymetrix). Hybridization and scanning of microarrays was performed at the Research Techonology Support Facility at Michigan State University. Microarray data were analyzed using the statistical algorithms within the Affymetrix Microarray Suite (MAS) 5.0 software.					
+Protocol Name	P-G10928-2	P-G10928-1	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6		
+Protocol Type	nucleic_acid_extraction	labeling	hybridization	feature_extraction		
+Protocol Description	Total RNA was isolated using Qiagen RNAeasy columns (Qiagen, Valencia, CA)	Affymetrix GeneChip Expression Analysis Technical Manual	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 		
+Protocol Parameters						
+Protocol Hardware						
+Protocol Software			MicroArraySuite 5.0	MicroArraySuite 5.0		
+Protocol Contact						
+Protocol Term Source REF			mo			
+SDRF File	E-GEOD-10928.sdrf.txt					
+Term Source Name	NCBI Taxonomy	The MGED Ontology	ArrayExpress	EFO	The MGED Ontology	mo
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version						

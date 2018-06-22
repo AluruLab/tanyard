@@ -1,0 +1,27 @@
+Comment[ArrayExpressAccession]	E-GEOD-35580						
+MAGE-TAB Version	1.1						
+Public Release Date	2013-08-06						
+Investigation Title	Cell type-specific auxin responses in the Arabidopsis thaliana root						
+Comment[Submitted Name]	Cell type-specific auxin responses in the Arabidopsis thaliana root						
+Comment[AEExperimentDisplayName]	Transcription profiling by array of four distinct tissues of Arabidopsis root and whole root treated with (auxin) indole-3-acetic acid against mock-treated controls						
+Experiment Description	We performed an analysis of transcriptomic responses to auxin within four distinct tissues of the Arabidopsis thaliana root. This high-resolution dataset shows how different cell types are predisposed to react to auxin with discrete transcriptional responses. The sensitivity provided by the analysis lies in the ability to detect cell-type specific responses diluted in organ-level analyses. This dataset provides a novel resource to examine how auxin, a widespread signal in plant development, influences differentiation and patterning in the plant through tissue-specific transcriptional regulation. To analyze the effect of auxin in separate spatial domains of the root, early transcriptional changes in response to auxin treatment were assayed by means of fluorescence activated cell sorting (FACS) and microarray analysis in four tissues of the Arabidopsis root (wild type Col-0). The samples covered inner and outer as well as proximal and distal cell populations; including the stele (reporter line pWOL::GFP), xylem-pole (xp) pericycle (enhancer trap line E3754), epidermis/lateral root cap (reporter line pWER::GFP) and columella (enhancer trap line PET111). One-week-old seedlings of the individual lines were treated with auxin (two hours, 5µM indole-3-acetic acid [IAA]) or mock treated, after which roots were harvested and cells were dissociated by cell wall digestion (1 hour; including 5uM IAA) . GFP-positive cells were sorted and used for microarray transcriptome analysis (as in Bargmann and Birnbaum, Plant Phys. 2010). For comparison, transcriptional responses to auxin were also assayed in intact (undigested) roots.						
+Term Source Name	ArrayExpress	EFO	EO				
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl	http://purl.obolibrary.org/obo/EO_0007359				
+Person Last Name	Bargmann	Bargmann	Birnbaum				
+Person First Name	Bastiaan	Bastiaan	Kenneth				
+Person Mid Initials	Otto Robert	O	D				
+Person Email	geo@ncbi.nlm.nih.gov						
+Person Affiliation	UCSD						
+Person Address	UCSD, 9500 Gilman Dr, La Jolla, CA, USA						
+Person Roles	submitter						
+Protocol Name	P-GSE35580-1	P-GSE35580-5	P-GSE35580-6	P-GSE35580-2	P-GSE35580-3	P-GSE35580-4	P-GSE35580-7
+Protocol Description	Data was MAS5.0 normalized using FlexArray software ID_REF =  VALUE = MAS5.0 normalized data (scaling factor 250)	RNA was quantified with a Bioanalyzer (Agilent Technologies) and reverse-transcribed, amplified and labeled with WT-Ovation Pico RNA Amplification System and FL-Ovation cDNA Biotin Module V2 (NuGEN).	The labeled cDNA was hybridized, washed and stained on an ATH-121501 Arabidopsis full genome microarray using a Hybridization Control Kit, a GeneChip Hybridization, Wash, and Stain Kit, a GeneChip Fluidics Station 450 and a GeneChip Scanner (Affymetrix).	One-week-old seedlings were treated with 5 �M indole-3-acetic acid (IAA; Sigma-Aldrich) or mock-treated with solvent alone for the indicated amount of time. A 10 mM IAA stock was dissolved in ethanol and stored at -20� C.	Seed from Arabidopsis plant lines (summarized in supplementary methods Table SM1) was sterilized by 5 min incubation with 96% ethanol followed by 20 min incubation with 50% household bleach and rinsing with sterile water and vernalized for 2 days at 4� C in the dark. Seedlings were grown hydroponically, on nylon mesh in phytatrays (Sigma) with growth medium (2.2 g/l Murashige and Skoog Salts [Sigma-Aldrich], 1% [w/v] sucrose, 0.5 g/l MES hydrate [Sigma-Aldrich], pH 5.7 with KOH), or plated on square petri dishes (Fisher Scientific) with growth medium plus 1% (w/v) agar (as in (Bargmann and Birnbaum, 2010)). Phytatrays and plates were placed in an Advanced Intellus environmental controller (Percival) set to 35 �mol/m2*sec-1 and 22� C with an 18h-light/6h-dark regime.	RNA was extracted using an RNeasy Micro Kit with RNase-free DNase Set according to the manufacturer’s instructions (QIAGEN).	Chips were scanned using an Affymetrix GeneChip scanner
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	compound	organism part	dose				
+Experimental Factor Type	compound	organism part	dose				
+Comment[SecondaryAccession]	GSE35580						
+Comment[GEOReleaseDate]	2013-08-06						
+Comment[ArrayExpressSubmissionDate]	2012-02-06						
+Comment[GEOLastUpdateDate]	2013-08-08						
+Comment[AEExperimentType]	transcription profiling by array						
+SDRF File	E-GEOD-35580.sdrf.txt						

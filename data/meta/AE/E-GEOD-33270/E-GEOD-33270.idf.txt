@@ -1,0 +1,31 @@
+Comment[ArrayExpressAccession]	E-GEOD-33270
+MAGE-TAB Version	1.1						
+Public Release Date	2014-10-14
+Investigation Title	Expression data from Arabidopsis thaliana WT (Ler), ebs and shl-2 mutants grown in short day conditions						
+Comment[Submitted Name]	Expression data from Arabidopsis thaliana WT (Ler), ebs and shl-2 mutants grown in SD conditions
+Experiment Description	We performed a tranascriptomic analysis of Ler, ebs and shl-2 plants in order to reveal targets whose transcription is regulated by EBS and SHL. The analysis was performed in WT plants (Ler), as well as mutants plants in which the expression of EBS and SHL was previously shown to be null, namely ebs and shl-2 mutant. To perform this study, plants were grown for 18 days under short days (SD) conditions (8h light, 16h darkness) in MS solid media. Three independent biological samples were hybridized separately.						
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Mouriz-Villar	Lopez-Gonzalez	Mouriz	Jarillo	Pineiro		
+Person First Name	Alfonso	Leticia	Alfonso	Jose	Manuel		
+Person Mid Initials				A			
+Person Email	mouriz@gmail.com						
+Person Affiliation	INIA						
+Person Phone	+34913364580						
+Person Address	Biotechnology, INIA, Campus de Montegancedo, Pozuelo de Alarcon, Madrid, Spain						
+Person Roles	submitter						
+Protocol Name	P-GSE33270-1	P-GSE33270-5	P-GSE33270-6	P-GSE33270-2	P-GSE33270-3	P-GSE33270-4	P-GSE33270-7
+Protocol Description	GeneChip intensities were background-corrected, normalized and sumarized by RMA method, using the ‚ÄúAffy‚Äù package from Bioconductor. ID_REF =  VALUE = Log2 RMA signal	Biotinylated cRNA was prepared according to the standard Affymetrix protocol from 500 ng total RNA (GeneChip 3' IVT Express Kit).	Following fragmentation, 10 µg of biotinylated cRNA were hybridized to Affymetrix chips (GENECHIP MODEL). Each sample was added to a hybridization solution containing 100mM 2-(N-morpholino)ethanesulfonic acid, 1 M Na+, and 20mM of EDTA in the presence of 0.01% of Tween-20 to a final cRNA concentration of 0.05 µg/ml. Hybridization was performed for 16 h at 45∫C . Each microarray was washed and stained with streptavidin-phycoerythrin in a Fluidics station 450 (Affymetrix).	No further treatment was applied to the samples before harvesting.	Plants were grown for 18 days in solid MS medium and in SD conditions.	The RNA from complete plants was isolated using EZNA Plant RNA kit from OMEGA bio-tek. RNA was quantified and the RNA quality was assessed with a 2100 Bioanalyzer from Agilent Technologies	GeneChips were scanned using the Affymetrix GeneChip Scanner 3000 7G
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	genotype						
+Experimental Factor Type	genotype						
+Publication Title	Chromatin-Dependent Repression of the Arabidopsis Floral Integrator Genes Involves Plant Specific PHD-Containing Proteins.						
+Publication Author List	LÔøΩpez-GonzÔøΩlez L, Mouriz A, Narro-Diego L, Bustos R, MartÔøΩnez-Zapater JM, Jarillo JA, PiÔøΩeiro M						
+PubMed ID	25281686						
+Publication DOI	10.1105/tpc.114.130781						
+Comment[SecondaryAccession]	GSE33270						
+Comment[GEOReleaseDate]	2014-10-14						
+Comment[ArrayExpressSubmissionDate]	2011-10-26						
+Comment[GEOLastUpdateDate]	2014-10-15						
+Comment[AEExperimentType]	transcription profiling by array						
+SDRF File	E-GEOD-33270.sdrf.txt

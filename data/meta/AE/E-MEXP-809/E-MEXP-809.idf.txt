@@ -1,0 +1,48 @@
+Investigation Title	Transcription profiling of wild type and BOLITA over-expressing Arabidopisis leaves	
+Comment[Submitted Name]	Bolita A. thaliana leaf mutant	
+Experimental Design	genetic_modification_design	transcription profiling by array	
+Experimental Design Term Source REF	mo	EFO	
+Comment[ArrayExpressReleaseDate]	2006-08-04	
+Comment[AEMIAMESCORE]	5	
+Comment[ArrayExpressAccession]	E-MEXP-809	
+Comment[MAGETAB TimeStamp_Version]	2010-08-11 15:51:36 Last Changed Rev: 13058	
+Experimental Factor Name	genotype	
+Experimental Factor Type	genotype	
+Experimental Factor Term Source REF	
+Person Last Name	de Folter	Andy	Bergervoet	Karaba	Marsch Martinez	Greco	Dixit	Becker	
+Person First Name	Stefan	Pereira	Jan	Aarati	Nayelli	Raffaella	Shital	Jorg	
+Person Mid Initials			H			C	
+Person Email					nayelli@planet.nl	
+Person Phone					-	
+Person Fax	
+Person Address					Droevendaalsesteeg 1	
+Person Affiliation	Wageningen-UR, NL	Wageningen-UR, NL	Wageningen-UR, NL	Wageningen-UR, NL	Plant Research International	Milano University	Wageningen-UR, NL	Instituto Gulbenkian de Ciencia, Oeiras Portugal	
+Person Roles					submitter	
+Person Roles Term Source REF						
+Quality Control Type	biological_replicate	
+Quality Control Term Source REF	The MGED Ontology	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2006-08-04	
+PubMed ID	17096212	
+Publication DOI	17096212	
+Publication Author List	Nayelli Marsch Martinez; Raffaella Greco; Jorg Becker; Shital Dixit; Jan Bergervoet; Aarati Karaba; Stefan de Folter; Pereira Andy	
+Publication Title	BOLITA, an Arabidopsis AP2/ERF-like transcription factor that affects cell expansion and proliferation/differentiation pathways	
+Publication Status	journal_article	
+Publication Status Term Source REF	
+Experiment Description	Comparison of BOLITA mutant leaves (gain-of-function mutant) vs. wild type leaves, grown in the same conditions.  The BOLITA (BOL) gene (At1g24590), an AP2/ERF transcription factor, was characterized with the help of an activation tag mutant and overexpression lines in Arabidopsis and tobacco. The leaf size of plants overexpressing BOL was smaller than wild type plants due to a reduction in both cell size and cell number. Moreover, severe overexpressors showed ectopic callus formation in roots. Accordingly, global gene expression analysis using the overexpression mutant reflected the alterations in cell proliferation, differentiation and growth through expression changes in RBR, CYCD, and TCP genes, as well as genes involved in cell expansion (i.e. expansins and the actin remodeling factor ADF5). Furthermore, the expression of hormone signaling (i.e. auxin and cytokinin), biosynthesis (i.e. ethylene and jasmonic acid) and regulatory genes was found to be perturbed in bol-D mutant leaves. The gene is expressed at the shoot apical meristem, and more intensely at leaf primordia. It is also expressed at very young leaves, and flower buds. The gene is closely related to DORNROSCHEN.	
+Protocol Name	P-MEXP-9497	P-MEXP-9495	P-AFFY-2	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6	Affymetrix:Protocol:ExpressionStat	
+Protocol Type	grow	nucleic_acid_extraction	labeling	hybridization	feature_extraction	bioassay_data_transformation	
+Protocol Description	Plants were grown in soil in a temperature controlled greenhouse at 22°C, with more than 12 hours of light. The youngest leaves larger than 2 mm. emerging from the rosette of greenhouse grown plants (4 weeks old) were used. The samples were collected in the middle of the day at the end of the winter in The Netherlands (March 15th). For the biological replicates, three to four mutant or two wild type leaves from different plants were pooled for one sample, and the same amount from different plants for the second sample. 	Total RNA was extracted according to the instructions of the RNeasy plant mini kit (Qiagen, Hilden, Germany)	Title: Affymetrix in vitro transcription. Description: 	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 	
+Protocol Parameters	start time;max temperature;stop time;	Amplification;Extracted product;	
+Protocol Hardware	
+Protocol Software				MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact	
+Protocol Term Source REF				mo		The MGED Ontology	
+SDRF File	E-MEXP-809.sdrf.txt	
+Term Source Name	mo		po	ncbitax	The MGED Ontology	ArrayExpress	The MGED Ontology	mo	EFO	
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php		http://www.plantontology.org	http://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	
+Term Source Version										

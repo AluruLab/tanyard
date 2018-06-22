@@ -1,0 +1,57 @@
+Comment[ArrayExpressAccession]	E-GEOD-36479
+Public Release Date	2012-04-06							
+Investigation Title	Microarray analysis of gene expression of the Arabidopsis leaf and callus							
+Comment[Submitted Name]	Microarray analysis of gene expression of the Arabidopsis leaf and callus
+Experiment Description	Callus formation is usually a necessary step in regenerating a new plant from detached plant tissues, and the nature of the callus is similar to that of the root meristem. In this study, we intended to address the molecular basis that directs different plant tissues to form the root-meristem-like callus. We found that leaves, but not roots, of the Polycomb group (PcG) double mutant curly leaf-50 swinger-1 lost the ability to form a callus. Using ChIP-chip analysis, we identified genes that are changed markedly in the histone H3 lysine 27 trimethylation (H3K27me3) levels during callus formation from leaf explants. Among these genes, a number of leaf-regulatory genes were repressed through PcG-mediated H3K27me3. Conversely, certain auxin pathway genes and many root-regulatory genes were derepressed through H3K27 demethylation. Our data indicate that genome-wide H3K27me3 reprogramming, through the PcG-mediated H3K27me3 and the H3K27 demethylation pathways, is critical in directing cell fate transition. This submission represents the gene expression component of the study Leaves from 20-day-old seedlings of wild-type Col-0 and 20-DAC calli were used for RNA preparation.							
+Date of Experiment								
+Term Source Name	EFO
+Term Source Version								
+Term Source File	http://www.ebi.ac.uk/efo/efo.owl							
+Person Last Name	XU	Xu	He					
+Person First Name	Lin	Lin	Chongsheng					
+Person Mid Initials								
+Person Email	xulin01@sibs.ac.cn							
+Person Affiliation	Shanghai Institute of Plant Physiology and Ecology, Chinese Academy of Sciences							
+Person Phone	86-21-54924085							
+Person Fax	86-21-54924015							
+Person Address	Shanghai Institute of Plant Physiology and Ecology, Chinese Academy of Sciences, 300 Fenglin Road, Shanghai, China							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Person Roles Term Accession Number								
+Normalization Type								
+Normalization Term Accession Number								
+Normalization Term Source REF								
+Replicate Type								
+Replicate Term Accession Number								
+Replicate Term Source REF								
+Experimental Design								
+Experimental Design Term Accession Number								
+Experimental Design Term Source REF								
+Quality Control Type								
+Quality Control Term Accession Number								
+Quality Control Term Source REF								
+Protocol Name	P-GSE36479-1	P-GSE36479-6	P-GSE36479-3	P-GSE36479-8	P-GSE36479-7	P-GSE36479-2	P-GSE36479-4	P-GSE36479-5
+Protocol Description	ID_REF = <br>VALUE = RMA signal	Fragmentation of the labeled aRNA prepares the target for hybridization to GeneChip® 3â€™ expression arrays with GeneChip® hybridization oven 640.	16 h light, 8 h dark, 21°C	RMA data were obtained by using Partek GS 6.4.	Wash and stain the arrays with GeneChip® fluidics station 450, Scan the arrays with the GeneArray scanner 3000 by the GeneChip® Operating Software (GCOS) or Command Console® (AGCC) Software.	Calli were induced on the CIM plate.	Extract and purify the total RNA by the Qiagen RNeasy Mini Kit.Reverse Transcription to Synthesize First-Strand cDNA is primed with T7 oligo(dT) primer to synthesize cDNA containing a T7 promoter sequence.Second-Strand cDNA Synthesis converts the single-stranded cDNA into a double-stranded DNA (dsDNA) template for transcription. The reaction employs DNA polymerase and RNase H to simultaneously degrade the RNA and synthesize second strand cDNA.	In Vitro Transcription to Synthesize Biotin-Modified aRNA with IVT Labeling Master Mix generates multiple copies of biotin-modified aRNA from the double-stranded cDNA templates; this is the amplification step.aRNA Purification removes unincorporated NTPs, salts, enzymes, and inorganic phosphate to improve the stability of the biotin-modified aRNA.
+Protocol Software								
+Protocol Hardware								
+Protocol Contact								
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Protocol Term Source REF								
+Protocol Term Accession Number								
+Experimental Factor Name	AGE	ORGANISM PART						
+Experimental Factor Type	age	organism part						
+Experimental Factor Term Source REF								
+Experimental Factor Term Accession Number								
+Publication Title								
+Publication Author List								
+PubMed ID								
+Publication DOI								
+Publication Status								
+Publication Status Term Source REF								
+Publication Status Term Accession Number								
+Comment[SecondaryAccession]	GSE36479							
+Comment[GEOLastUpdateDate]	2012-04-07
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[GEOReleaseDate]	2012-04-05
+Comment[ArrayExpressSubmissionDate]	2012-03-13
+SDRF File	E-GEOD-36479.sdrf.txt

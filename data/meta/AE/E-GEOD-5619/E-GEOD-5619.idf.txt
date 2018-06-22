@@ -1,0 +1,51 @@
+Investigation Title	Transcription profiling of Arabidopsis SH2 domain-containing gene PASTA mutant vs. wild type				
+Comment[Submitted Name]	Functional studies of a new Arabidopsis SH2 domain-containing gene				
+Experimental Design	unknown_experiment_design_type	transcription profiling by array			
+Experimental Design Term Source REF		EFO			
+Comment[AEExperimentType]	transcription profiling by array				
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for At1g78540				
+Comment[ArrayExpressReleaseDate]	2008-06-13				
+Comment[SecondaryAccession]	GSE5619				
+Comment[AEMIAMESCORE]	3				
+Comment[ArrayExpressAccession]	E-GEOD-5619				
+Comment[MAGETAB TimeStamp_Version]	2010-08-06 16:40:15 Last Changed Rev: 13058				
+Experimental Factor Name	GENOTYPE				
+Experimental Factor Type	genotype				
+Experimental Factor Term Source REF					
+Person Last Name	(NASC)				
+Person First Name	Nottingham Arabidopsis Stock Centre				
+Person Mid Initials					
+Person Email	affy@arabidopsis.info				
+Person Phone					
+Person Fax					
+Person Address	School of Biosciences, University of Nottingham, Nottingham Arabidopsis Stock Centre (NASC), Sutton Bonington Campus, Loughborough, LE12 5RD, United Kingdom				
+Person Affiliation	Nottingham Arabidopsis Stock Centre (NASC)				
+Person Roles	submitter				
+Person Roles Term Source REF					
+Quality Control Type					
+Quality Control Term Source REF					
+Replicate Type					
+Replicate Term Source REF					
+Normalization Type					
+Normalization Term Source REF					
+Date of Experiment					
+Public Release Date	2008-06-13				
+PubMed ID					
+Publication DOI					
+Publication Author List					
+Publication Title					
+Publication Status					
+Publication Status Term Source REF					
+Experiment Description	The protein modules known as SH2 (Src-homology-2) domains are key players in the signal transduction of animals. Two questions arise: Do such modules exist in plants, and when did SH2 domains evolve? Here I show that the Arabidopsis genome contains three strong candidates for plant SH2 proteins (referred to as PASTA1, 2 and 3 : GI:25513455, At1g78540, At1g17040 respectively) with homology to the SH2 domains and the adjacent linker region of STAT proteins (Signal Transducer and Activator of Transcription). The three characteristics features of a STAT protein sequence1, namely, (i) the SH2 domain with a conserved arginine residue crucial for binding to a phospho-tyrosine residue (ii) a tyrosine residue outside the C-terminus of the SH2-domain  for phosphorylation during signalling and (iii) a DNA-binding domain, are conserved in the PASTA3 protein. However, PASTA 1 and 2 proteins lack a tyrosine in a similar position. PASTA proteins are not homologous to STAT proteins outside the SH2 and linker regions. The three PASTA proteins are 70 to 80 % identical to one another. Gene expression studies with PASTA2 reveal that it is expressed in roots, stem, leaves, flowers and green siliques. Preliminary indications are that plants homozygous for PASTA2 do not have any obvious phenotype, most likely due to redundancies. This microarray experiment is an attempt to compare the gene expression of a mutant plant  homozygous for PASTA2 with that of the wild type plant. This might give clues about the possible function of PASTA2 in Arabidopsis. Experimenter name = Latha Kadalayil; Experimenter phone = 023-8059 5512; Experimenter department = University of  Southampton; Experimenter address = School of Biological Sciences; Experimenter address = Univ.  Southampton; Experimenter address = Bassett Crescent East; Experimenter address = Southampton; Experimenter zip/postal_code = SO16 7PX; Experimenter country = UK Experiment Overall Design: 2 samples were used in this experiment				
+Protocol Name	P-G5619-1	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6		
+Protocol Type	specified_biomaterial_action	hybridization	feature_extraction		
+Protocol Description	Seeds were spread on plates containing 50 uM PPT	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 		
+Protocol Parameters					
+Protocol Hardware					
+Protocol Software		MicroArraySuite 5.0	MicroArraySuite 5.0		
+Protocol Contact					
+Protocol Term Source REF		mo			
+SDRF File	E-GEOD-5619.sdrf.txt				
+Term Source Name	NCBI Taxonomy	The MGED Ontology	ArrayExpress	EFO	mo
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version					

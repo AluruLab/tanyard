@@ -1,0 +1,30 @@
+Comment[ArrayExpressAccession]	E-GEOD-69389
+MAGE-TAB Version	1.1							
+Public Release Date	2016-02-08
+Investigation Title	Expression data from Arabidopsis thaliana root protoplast							
+Comment[Submitted Name]	Expression data from Arabidopsis thaliana root protoplast
+Experiment Description	BACKGROUND:Dynamic transcriptional regulation is critical for an organism's response to environmental signals and yet remains elusive to capture. Such transcriptional regulation is mediated by master transcription factors (TF) that control large gene regulatory networks. Recently, we described a dynamic mode of TF regulation named &quot;hit-and-run&quot;. This model proposes that master TF can interact transiently with a set of targets, but the transcription of these transient targets continues after the TF dissociation from the target promoter. However, experimental evidence validating active transcription of the transient TF-targets is still lacking.  RESULTS:Here, we show that active transcription continues after transient TF-target interactions by tracking de novo synthesis of RNAs made in response to TF nuclear import. To do this, we introduced an affinity-labeled 4-thiouracil (4tU) nucleobase to specifically isolate newly synthesized transcripts following conditional TF nuclear import. Thus, we extended the TARGET system (Transient Assay Reporting Genome-wide Effects of Transcription factors) to include 4tU-labeling and named this new technology TARGET-tU. Our proof-of-principle example is the master TF Basic Leucine Zipper 1 (bZIP1), a central integrator of metabolic signaling in plants. Using TARGET-tU, we captured newly synthesized mRNAs made in response to bZIP1 nuclear import at a time when bZIP1 is no longer detectably bound to its target. Thus, the analysis of de novo transcripomics demonstrates that bZIP1 may act as a catalyst TF to initiate a transcriptional complex (&quot;hit&quot;), after which active transcription by RNA polymerase continues without the TF being bound to the gene promoter (&quot;run&quot;).  CONCLUSION:Our findings provide experimental proof for active transcription of transient TF-targets supporting a &quot;hit-and-run&quot; mode of action. This dynamic regulatory model allows a master TF to catalytically propagate rapid and broad transcriptional responses to changes in environment. Thus, the functional read-out of de novo transcripts produced by transient TF-target interactions allowed us to capture new models for genome-wide transcriptional control. Root protoplasts were transfected with 35S::GR::bZIP1 or Empty vector (EV=pJD385_35S::GR) constructs and cells were sequentially treated with: i) the nitrogen signal (N), ii) cycloheximide (CHX), iii) dexamethasone (DEX; for review see Bargmann et. al 2013). Cells were exposed to 4tU to affinity-label newly synthesized transcripts prior RNA extraction followed by specific pull down of 4tu-fractions and hybridization on Arabidopsis ATH1 microarray chips.							
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl						
+Person Last Name	doidy	Doidy	Li	Neymotin	Edwards	Varala	Gresham	Coruzzi
+Person First Name	joan	Joan	Ying	Benjamin	Molly	Kranthi	David	Gloria
+Person Mid Initials					B			M
+Person Email	joan.doidy@gmail.com							
+Person Affiliation	NYU							
+Person Address	Biology, NYU, 12 Waverly place, New York, NY, USA							
+Person Roles	submitter							
+Protocol Name	P-GSE69389-1	P-GSE69389-5	P-GSE69389-6	P-GSE69389-2	P-GSE69389-3	P-GSE69389-4	P-GSE69389-7	
+Protocol Description	The raw probe intensities were normalized using the GC-robust multiarray averaging (GCRMA) package ID_REF =  VALUE = GCRMA	4tuU pull down RNA fractions were amplified and labeled with Ovation Pico WTA System V2 (NuGEN) and Encore Biotin Module (NuGEN) according to the manufacturer's instructions.	Following fragmentation, 5 ug of cRNA were hybridized for 18 hr at 45Â°C on GeneChip Arabidopsis Genome Array. GeneChips were washed and stained in the Affymetrix Fluidics Station 450.	Protoplast supsensions treated sequentially with 20mM KNO3 and NH4NO3 for 1h40min, 35uM cycloheximide for 20m, 10uM dexamethasone for 5h, 1.5mM 4tU and 0.2mM uracil for 20min.	Wild-type Arabidopsis thaliana seeds were grown on vertical agar plates containing 2.2g/L MS salts without N or C, 1% (w/v) sucrose, 0.5g/L MES sodium salt, 1mM KNO3 and 2% (w/v) agar under a 50umol/m2s and 16h light/8h dark regime at 22 deg C.	RNA extraction was performed using an RNeasy Micro Kit with RNase-free DNaseI Set (QIAGEN) according to the manufacturer's instructions.	GeneChips were scanned using the GeneChip Scanner (Affymetrix)	
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol	
+Experimental Factor Name	transfection							
+Experimental Factor Type	transfection							
+Publication Title	Hit-and-Run transcription: de novo transcription initiated by a transient bZIP1 hit persists after the run.							
+Publication Author List	Doidy J, Li Y, Neymotin B, Edwards MB, Varala K, Gresham D, Coruzzi GM							
+PubMed ID	26843062							
+Publication DOI	10.1186/s12864-016-2410-2							
+Comment[SecondaryAccession]	GSE69389							
+Comment[GEOReleaseDate]	2016-02-08							
+Comment[ArrayExpressSubmissionDate]	2015-05-29							
+Comment[GEOLastUpdateDate]	2016-02-11							
+Comment[AEExperimentType]	transcription profiling by array							
+SDRF File	E-GEOD-69389.sdrf.txt

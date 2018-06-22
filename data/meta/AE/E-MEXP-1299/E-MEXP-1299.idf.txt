@@ -1,0 +1,48 @@
+Investigation Title	Transcription profiling of Arabidopsis circadian and light signaling mutants lux-2, lhy and phyB-9 in a time series over either intermediate or short days 	
+Comment[Submitted Name]	Diurnal time course in the Arabidopsis circadian and light signaling mutants lux-2, lhy and phyB-9	
+Experimental Design	time_series_design	reference_design	growth_condition_design	co-expression_design	genetic_modification_design	transcription profiling by array	
+Experimental Design Term Source REF	mo	mo	mo	mo	mo	EFO	
+Comment[ArrayExpressReleaseDate]	2008-10-17	
+Comment[AEMIAMESCORE]	5	
+Comment[ArrayExpressAccession]	E-MEXP-1299	
+Comment[MAGETAB TimeStamp_Version]	2010-08-09 21:26:55 Last Changed Rev: 13058	
+Experimental Factor Name	time	genotype	GrowthCondition	strain	
+Experimental Factor Type	time	genotype	growth_condition	strain_or_line	
+Experimental Factor Term Source REF	
+Person Last Name	Michael	
+Person First Name	Todd	
+Person Mid Initials	P	
+Person Email	tmichael@waksman.rutgers.edu	
+Person Phone	732-445-7034	
+Person Fax	
+Person Address	190 Frelinghuysen Road	
+Person Affiliation	Waksman Institute of Microbiology	
+Person Roles	submitter	
+Person Roles Term Source REF	The MGED Ontology	
+Quality Control Type	biological_replicate	
+Quality Control Term Source REF	The MGED Ontology	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2008-10-17	
+PubMed ID	
+Publication DOI	
+Publication Author List	Todd P. Michael, Ghislain Breton, Samuel P. Hazen, Todd C. Mockler, Steve A. Kay, and Joanne Chory	
+Publication Title	A circadian and light transcriptional network orchestrates plant growth	
+Publication Status	
+Publication Status Term Source REF	
+Experiment Description	Arabidopsis thaliana circadian and light signaling mutants have long hypocotyls under light/dark cycles.  In order to determine if aberrant hypocotyl growth is due to time of day specific miss-expression of growth associated transcripts we conducted time course microarray experiments in the lux-2, lhy and phyB-9 mutants. The mutants and their parental genotypes were grown on plates under either intermediate days (12 hours light and 12 hours dark) for lux-2, or short day (8 hrs of light and 16 hrs of dark) for lhy and phyB-9, for seven days and tissue was collected every four hours over one day.	
+Protocol Name	P-MEXP-101651	P-MEXP-101654	P-MEXP-101652	P-AFFY-2	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6	Affymetrix:Protocol:MAS4:ExpressionCall	
+Protocol Type	grow	specified_biomaterial_action	nucleic_acid_extraction	labeling	hybridization	feature_extraction	bioassay_data_transformation	
+Protocol Description	50-100 Arabidopsis thaliana seeds were vapor sterilized overnight. At 8 A.M., seeds were imbibed on plates containing ½ LS media with 0.8% agar at pH 5.8. Seeds were stratified for 3 days at 4°C and at 8 A.M. on the fourth day they were released into short day conditions of 8 hours light (100 µmol/m2s) and 16 hours dark at 22°C. After seven days of growth, plants were harvested starting at the dark to light transition of the eighth day.	Seedlings (50-100) from individual plates were collected every four hours.	Collected tissue was immediately frozen in liquid nitrogen in 2 ml eppindorph tubes with three steel ball bearings and stored at -80°C. Frozen tissue was disrupted on a Retsch shaker under liquid nitrogen. RNA was extracted using QIAGEN RNAeasy kits with on column DNAase treatment and resuspended in 35 µl RNAase-free H2O.	Title: Affymetrix in vitro transcription. Description: 	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	Title: Affymetrix CHP Analysis (ExpressionCall). Description: 	
+Protocol Parameters	start time;stop time;min temperature;media;		Extracted product;Amplification;	
+Protocol Hardware	
+Protocol Software					MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 4.0	
+Protocol Contact	
+Protocol Term Source REF					mo		mo	
+SDRF File	E-MEXP-1299.sdrf.txt	
+Term Source Name	The MGED Ontology		NCI_thesaurus	NCBI Taxonomy	mo	tair_dev:1.27	ArrayExpress	The MGED Ontology	mo	EFO	
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php		ncithesaurus.obo.alt	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.arabidopsis.org/info/ontologies/	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	
+Term Source Version						1.27					

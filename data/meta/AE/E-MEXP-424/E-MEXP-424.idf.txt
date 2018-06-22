@@ -1,0 +1,49 @@
+Investigation Title	Transcription profiling of Arabidopsis with 35S:BatIMS transgene to analyse effects of IMPS overexpression						
+Comment[Submitted Name]	Mithen R - Arabidopsis IPMS BatIMS overexpression						
+Experimental Design	genetic_modification_design	transcription profiling by array					
+Experimental Design Term Source REF	mo	EFO					
+Comment[ArrayExpressReleaseDate]	2006-05-02						
+Comment[AEMIAMESCORE]	4						
+Comment[ArrayExpressAccession]	E-MEXP-424						
+Comment[AEExperimentType]	transcription profiling by array						
+Comment[MAGETAB TimeStamp_Version]	2011-06-28 20:49:30 Last Changed Rev: 14857						
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis seedlings overexpressing an IPMS gene from Brassica (BatIMS) 						
+Experimental Factor Name	genotype						
+Experimental Factor Type	genotype						
+Experimental Factor Term Source REF							
+Person Last Name	Field						
+Person First Name	Ben						
+Person Mid Initials							
+Person Email	ben.field@bbsrc.ac.uk						
+Person Phone	1603450408						
+Person Fax							
+Person Address	Colney Lane						
+Person Affiliation	Metabolic Biology						
+Person Roles	submitter						
+Person Roles Term Source REF							
+Quality Control Type							
+Quality Control Term Source REF							
+Replicate Type							
+Replicate Term Source REF							
+Normalization Type							
+Normalization Term Source REF							
+Date of Experiment							
+Public Release Date	2006-05-02						
+PubMed ID	16649108						
+Publication DOI	10.1007/s11103-005-5547-y						
+Publication Author List	Field B, Furniss C, Wilkinson A, Mithen R						
+Publication Title	Expression of a Brassica isopropylmalate synthase gene in Arabidopsis perturbs both glucosinolate and amino acid metabolism						
+Publication Status	published						
+Experiment Description	Effect of IPMS (BatIMS) overexpression on Arabidopsis thaliana.						
+Protocol Name	P-MEXP-10418	P-MEXP-10417	P-MEXP-9925	P-MEXP-10416	P-MEXP-10383	P-MEXP-10384	P-MEXP-10390
+Protocol Type	specified_biomaterial_action	grow	nucleic_acid_extraction	labeling	hybridization	feature_extraction	bioassay_data_transformation
+Protocol Description	9-day old kanamycin resistant seedlings were harvested into liquid nitrogen and stored at -80C before RNA extraction.	Seeds were surface-sterilized and plated on growth medium (1X MS plus vitamins, 1% sucrose, 0.8% agar, 2.5mM MES pH 5.7, 75 ug/ml kanamycin). The seeds were stratified for 2 days at 4C in the dark before germination in a growth room (16h light, 8h dark, 20C).	Total RNA extracted with TRIzol reagent (Gibco BRL) according to the manufacturer's instructions and purified with an RNeasy Mini Kit (Qiagen, Hilden, Germany).	First strand cDNA synthesis was performed according to the Affymetrix Manual II, using 5 ug of total RNA. Second strand cDNA synthesis was performed with minor modifications to the Affymetrix Manual II. cDNA termini were not blunt ended and the reaction was not terminated using EDTA. Instead double-stranded cDNA products were immediately purified following the "Phase Lock Gel Cleanup of Double-Stranded cDNA" protocol (Affymetrix Manual II). cDNA was resuspended in 22 ul of RNAse free water.<br> <br> cRNA preparation was performed with minor modifications to the Affymetrix Manual II.  Briefly, 11 ul of cDNA was used as a template to produce biotinylated cRNA using half the recommended volumes of the ENZO BioArray High Yield RNA Transcript Labeling Kit. Labelled cRNAs were purified following the "Qiagen RNeasy Cleanup and Quantification of Biotin-Labeled cRNA" protocol (Affymetrix Manual II). cRNA quality was assessed by on Agilent RNA6000nano LabChips® (Agilent Technology 2100 Bioanalyzer Version A.01.20 SI211). cRNA quantity was assessed by running 1 ul of each cRNA sample on a NanoDrop® ND-1000 UV-Vis Spectrophotometer (Nanodrop Technologies).	20 µg of cRNA was fragmented and hybridisation cocktails were set-up according to the Affymetrix Manual II. Hybridization O/N at 45C and 60 rpm (Hybridization Oven 640), washing and staining (GeneChip® Fluidics Station 450, using the EukGEws2_450 Antibody amplification protocol) and scanning (GeneArray® 3000) was carried out according to the Affymetrix Manual II.	Scanning (GeneArray® 3000) was carried out according to the Affymetrix Manual II.	Data transformed by RMA method.
+Protocol Parameters			Amplification;Extracted product;	Amplification;Label used;Amount of nucleic acid labeled;	temperature;Quantity of label target used;Chamber type;		
+Protocol Hardware						GeneChip Scanner 3000 [Affymetrix]	
+Protocol Software							
+Protocol Contact							
+Protocol Term Source REF	mo						
+SDRF File	E-MEXP-424.sdrf.txt						
+Term Source Name	mo	ncbitax	The MGED Ontology	ArrayExpress	mo	EFO	
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	
+Term Source Version							

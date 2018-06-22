@@ -1,0 +1,30 @@
+Comment[ArrayExpressAccession]	E-GEOD-61884							
+MAGE-TAB Version	1.1							
+Public Release Date	2016-02-08							
+Investigation Title	Expression profiling of wild-type Arabidopsis and an activation-tagged jaz7-1D line.							
+Comment[Submitted Name]	Expression profiling of wild-type Arabidopsis and an activation-tagged jaz7-1D line.							
+Experiment Description	Jasmonate (JA) signaling plays a key role in mediating both resistance and susceptibility to the root-infecting fungal pathogen Fusarium oxysporum. Within this system, the roles of the JA-signaling repressor gene family of JASMONATE ZIM-domain (JAZ) genes had not been investigated. By screening JAZ T DNA insertion lines for altered resistance or susceptibility to F. oxysporum, we identified a JAZ7 mutant (jaz7-1D) highly susceptible to F. oxysporum infection. Further analyses revealed jaz7-1D exhibits constitutively active JAZ7 expression, enhanced expression of JA-defense marker genes, and increased sensitivity to JA-inhibition of root elongation. To further explore altered JA-signaling and JA-responses in this mutant, we use whole transcriptome profiling of jaz7-1D versus wild-type (Col-0) plants after mock/control and JA treatment. We grew both WT and jaz7-1D plants for four weeks in soil. After four weeks the plants were treated with 1 mL of 5% MeJA (dissolved in 100% ethanol) or 1 mL of Mock solution (100% ethanol) by applying the solutions to a cotton ball attached to a tray cover which was then used to enclose individual trays. Each tray and cover was then sealed by two layers of opaque plastic bags and secured with masking tape. There were four independent replicates of each treatment and each replicate contained leaf tissue from 20 plants. Each replicate (16 in total) was harvested after 6 hours and the resulting RNA was used for hybridization to an Affymetrix ATH1 chip.							
+Term Source Name	ArrayExpress	EFO						
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl						
+Person Last Name	Thatcher	Thatcher	Cevik	Grant	Zhai	Jones	Manners	Kazan
+Person First Name	Louise	Louise	Volkan	Murray	Bing	Jonathan	John	Kemal
+Person Mid Initials	Faye	F				D		
+Person Email	Louise.Thatcher@csiro.au							
+Person Affiliation	CSIRO							
+Person Address	Agriculture Flagship, CSIRO, 147 Underwood Ave, Floreat, WA, Australia							
+Person Roles	submitter							
+Protocol Name	P-GSE61884-1	P-GSE61884-5	P-GSE61884-6	P-GSE61884-2	P-GSE61884-3	P-GSE61884-4	P-GSE61884-7	
+Protocol Description	The data was analyzed using GenespringGX 7.3.1. The raw CEL files were pre-processed using the RMA algorithm and the resulting expression values were normalized per chip to the median across all chips. ID_REF =  VALUE = log2 RMA normalised signal values	The RNA was labelled, hybridized, washed and scanned by the AGRF (Australian Genome Research Facility - http://www.agrf.org.au) according to Affymetrix requirements.	The RNA was labelled, hybridized, washed and scanned by the AGRF (Australian Genome Research Facility - http://www.agrf.org.au) according to Affymetrix requirements.	Treatment involved enclosing trays of plants under clear plastic covers with a cotton ball treated with Mock (ethanol) or MeJA and attached to the inside of the cover. Each tray and cover was sealed by two layers of opaque plastic bags and secured with masking tape. Samples were harvested after 6 hours.	Plants were grown under short day conditions (8hrs light, 24C and 21C day night cycle) in plastic trays (30 cells 5cmx5cm) with two plants per cell for 4 weeks before treatment.	Total RNA was extracted using the RNeasy Plant Mini Kit (Qiagen) according to the manfacturer's instructions.	The RNA was labelled, hybridized, washed and scanned by the AGRF (Australian Genome Research Facility - http://www.agrf.org.au) according to Affymetrix requirements.	
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol	
+Experimental Factor Name	compound	genotype						
+Experimental Factor Type	compound	genotype						
+Comment[SecondaryAccession]	GSE61884							
+Comment[GEOReleaseDate]	2016-02-08							
+Comment[ArrayExpressSubmissionDate]	2014-09-30							
+Comment[GEOLastUpdateDate]	2016-02-10							
+Comment[AEExperimentType]	transcription profiling by array							
+SDRF File	E-GEOD-61884.sdrf.txt							
+Publication Title	Characterization of a JAZ7 activation-tagged Arabidopsis mutant with increased susceptibility to the fungal pathogen Fusarium oxysporum.							
+Publication Author List	Thatcher LF, Cevik V, Grant M, Zhai B, Jones JD, Manners JM, Kazan K							
+PubMed ID	26896849							
+Publication DOI								

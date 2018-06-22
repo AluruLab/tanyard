@@ -1,0 +1,31 @@
+Comment[ArrayExpressAccession]	E-GEOD-53957						
+MAGE-TAB Version	1.1						
+Public Release Date	2015-09-08						
+Investigation Title	Transcriptomic profiling of Arabidopsis exposed to E-2-hexenal						
+Comment[Submitted Name]	Transcriptomic profiling of Arabidopsis exposed to E-2-hexenal						
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis rosette leaves in response to aerial E-2-hexenal, one of the green leaf volatiles						
+Experiment Description	Plants are known to be responsive to volatiles, but knowledge about the molecular players involved in transducing their perception remain scarce. Here the response of Arabidopsis thaliana to E-2-hexenal, one of the green leaf volatiles that are produced upon wounding, herbivory or infection with pathogens is studied. We have taken a transcriptomics approach to identify genes that are induced by E-2-hexenal but not by defense hormones. In three independent biological experiments, Arabidopsis plants, ecotype Columbia (Col-0), were exposed either to 3 µM aerial E-2-hexenal or to the carrier MeOH for the mock treatment and rosette leaves were harvested after 1h, 3h and 24h.						
+Term Source Name	ArrayExpress	EFO					
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Rauwerda	Mirabella	Rauwerda	Scala	Breit	Haring	Schuurink
+Person First Name	Han	Rossana	Han	Alessandra	Timo	Michel	Robert
+Person Mid Initials					M	A	C
+Person Email	j.rauwerda@uva.nl						
+Person Affiliation	University of Amsterdam						
+Person Address	SILS, University of Amsterdam, Sciencepark 904, Amsterdam, Nederland, Netherlands						
+Person Roles	submitter						
+Protocol Name	P-GSE53957-1	P-GSE53957-5	P-GSE53957-6	P-GSE53957-2	P-GSE53957-3	P-GSE53957-4	P-GSE53957-7
+Protocol Description	We performed a set of quality control checks, i.e. visual inspection of the scans, RNA degradation analysis, examination of the consistency among the replicated samples by principal component analysis, checking the arrays for surface anomalies and inspection of MA plots using a pseudo-median reference and examination of the Affymetrix provided QC values. All 18 arrays passed these tests. ID_REF =  VALUE = The probe level data of the arrays was summarized using the robust multi-array average (RMA) algorithm (Irizarry et al., 2003).	Labelled cRNA was prepared according to the manufacturer’s instructions (Affymetrix).	Labelled cRNA was hybridized to whole genome Affymetrix ATH1 GeneChip, according to the manufacturer’s instructions (Affymetrix)	All chemical treatments were performed on 19 to 21-day old plants, grown in soil at 21 C with 70% humidity and a 11/13 h light (100 u E/m2/s)/dark cycle. For E-2-hexenal treatment, 3 plants were placed into airtight glass desiccators (22 L). E-2-hexenal was diluted in methanol and 50 ul of the diluted solutions were applied to a sterile cotton swab, placed in a 50 ml Erlenmeyer flask, positioned among the plants. For the control treatment only methanol was applied.	All experiments were performed with Arabidopsis thaliana plants, ecotype Columbia (Col-0).	RNA was extracted using the TRIzol (Invitrogen) extraction procedure followed by purification on RNAeasy columns (Qiagen).	Affymetrix scanner
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	compound	time					
+Experimental Factor Type	compound	time					
+Publication Title	WRKY40 and WRKY6 act downstream of the green leaf volatile E-2-hexenal in Arabidopsis.						
+Publication Author List	Mirabella R, Rauwerda H, Allmann S, Scala A, Spyropoulou EA, de Vries M, Boersma MR, Breit TM, Haring MA, Schuurink RC						
+PubMed ID	26243404						
+Publication DOI	10.1111/tpj.12953						
+Comment[SecondaryAccession]	GSE53957						
+Comment[GEOReleaseDate]	2015-09-08						
+Comment[ArrayExpressSubmissionDate]	2014-01-09						
+Comment[GEOLastUpdateDate]	2015-09-10						
+Comment[AEExperimentType]	transcription profiling by array						
+SDRF File	E-GEOD-53957.sdrf.txt						

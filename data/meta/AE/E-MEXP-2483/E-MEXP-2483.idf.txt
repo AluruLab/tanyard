@@ -1,0 +1,49 @@
+Investigation Title	Transcription profiling of Arabidopsis leaves and roots from fry1 mutants compared to ph1;4 (DCJ) controls	
+Comment[Submitted Name]	FRY1 root development and architecture	
+Experimental Design	individual_genetic_characteristics_design	co-expression_design	organism_part_comparison_design	replicate_design	transcription profiling by array	
+Experimental Design Term Source REF		The MGED Ontology	The MGED Ontology	The MGED Ontology	EFO	
+Comment[SecondaryAccession]		
+Comment[ArrayExpressReleaseDate]	2010-04-01	
+Comment[AEMIAMESCORE]	5	
+Comment[ArrayExpressAccession]	E-MEXP-2483	
+Comment[MAGETAB TimeStamp_Version]	2010-08-10 12:55:30 Last Changed Rev: 13058	
+Experimental Factor Name	GENOTYPE	ORGANISM_PART	
+Experimental Factor Type	genotype	organism_part	
+Experimental Factor Term Source REF	
+Person Last Name	thibaud	
+Person First Name	marie-christine	
+Person Mid Initials	
+Person Email	mcthibaud@cea.fr	
+Person Phone	33442257816	
+Person Fax	
+Person Address	SBVME, Cadarache, Saint Paul Les Duran, 13108, France	
+Person Affiliation	CEA	
+Person Roles	submitter	
+Person Roles Term Source REF	The MGED Ontology	
+Quality Control Type	biological_replicate	
+Quality Control Term Source REF	The MGED Ontology	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2010-04-01	
+PubMed ID	
+Publication DOI	
+Publication Author List	
+Publication Title	
+Publication Status	
+Publication Status Term Source REF	
+Experiment Description	Transcript analysis in the fry1 arabidopsis mutant compared to the pht1;4 (DCJ) control in leaves and roots of the plant. The experiment was duplicated.	
+Protocol Name	P-MTAB-9766	P-MTAB-9764	P-MTAB-9765	P-AFFY-2	Affymetrix:Protocol:Hybridization-EukGE-WS2v4[]	P-AFFY-6	Affymetrix:Protocol:ExpressionStat	
+Protocol Type	nucleic_acid_extraction	grow	specified_biomaterial_action	labeling	hybridization	feature_extraction	bioassay_data_transformation	
+Protocol Description	Total RNAs from leaves of plants was extracted with phenol-chloroform and precipitated in LiCl. Total RNAs from roots was extracted with the RNeasy plant mini kit (qiagen). RNAs are treated with DNase (DNA-free kit from Ambion). RNAs quality is checked by Agilent Lab-on-chip analysis.<br>(Parameters: Extracted product = total_RNA, Amplification = none)	plants are grown vertically in petri dishes during 10 to 12 days in a growth chamber (temperature : day/night 24/21°C, 16h photoperiod). Duplicates were performed for each genotype (pht1;4 and fry1 mutants). <br>(Parameters: start time = 10, stop time = 12, time unit = days, min temperature = 21, max temperature = 24, temperature unit = C, media = MS/10 500micromolar Pi)	Roots and rosettes of plants were harvested separately, immediately frozen in liquid nitrogen and stored at -45°C before extraction and analysis.	Title: Affymetrix in vitro transcription. Description: 	Title: Affymetrix EukGE-WS2v4 Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 	
+Protocol Parameters	
+Protocol Hardware	
+Protocol Software					MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact	
+Protocol Term Source REF					mo		The MGED Ontology	
+SDRF File	E-MEXP-2483.sdrf.txt	
+Term Source Name	Plant Ontology	po		NCBI Taxonomy	The MGED Ontology	ArrayExpress	The MGED Ontology	EFO	mo	
+Term Source File	http://www.plantontology.org/	http://www.plantontology.org		http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version										

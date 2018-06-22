@@ -1,0 +1,51 @@
+Investigation Title	Plasmodiophora brassicae infection of Arabidopsis thaliana									
+Comment[Submitted Name]	Plasmodiophora brassicae infection of Arabidopsis thaliana									
+Experimental Design	growth_condition_design	pathogenicity_design	disease_state_design	transcription profiling by array						
+Experimental Design Term Source REF	The MGED Ontology	The MGED Ontology	The MGED Ontology	EFO						
+Comment[AEExperimentType]	transcription profiling by array									
+Comment[AEExperimentDisplayName]	Plasmodiophora brassicae infection of Arabidopsis thaliana									
+Comment[ArrayExpressReleaseDate]	2005-02-25									
+Comment[AEMIAMESCORE]	3									
+Comment[ArrayExpressAccession]	E-MEXP-254									
+Comment[MAGETAB TimeStamp_Version]	2010-10-14 13:20:05 Last Changed Rev: 14677									
+Experimental Factor Name	infect	time								
+Experimental Factor Type	infect	time								
+Experimental Factor Term Source REF										
+Person Last Name	Nagel	Siemens	Ludwig-MÃ¼ller	Schmulling	Keller	Kunz	Schuller	Parniske	Sarx	
+Person First Name	Wolfgang	Johannes	Jutta	Thomas	Ingo	Sabine	Astrid	Martin	Johannes	
+Person Mid Initials										
+Person Email		Johannes.Siemens@mailbox.tu-dresden.de								
+Person Phone		+49 351 46336789								
+Person Fax		+49 351 46337749								
+Person Address		Dresden								
+Person Affiliation	TU Dresden	Molecular Biotechnology - Biology	TU Dresden	FU Berlin	TU Dresden	TU Dresden	TU Dresden	John Innes Centre	TU Dresden	
+Person Roles		submitter								
+Person Roles Term Source REF										
+Quality Control Type	biological_replicate									
+Quality Control Term Source REF	The MGED Ontology									
+Replicate Type										
+Replicate Term Source REF										
+Normalization Type										
+Normalization Term Source REF										
+Date of Experiment										
+Public Release Date	2005-02-25									
+PubMed ID	16673935									
+Publication DOI	10.1094/MPMI-19-0480									
+Publication Author List	"Siemens J, Keller I, Sarx J, Kunz S, Schuller A, Nagel W, Schm�lling T, Parniske M, Ludwig-M�ller J."									
+Publication Title	Transcriptome analysis of Arabidopsis clubroots and disease resistance of cytokinin oxidase/dehydrogenase gene overexpressing plants indicate a key role for cytokinin in disease development									
+Publication Status	published									
+Publication Status Term Source REF	EFO									
+Publication Status Term Accession Number	EFO_0001796									
+Experiment Description	Arabipdosis thaliana (ecotype Col-0) was infected with the root pathogen Plasmodiophora brassicae. Gene expression of the host plant has been analyzed at two time points after inoculation (10 and 23 days after inoculation) compared to the correspondend control plants.									
+Protocol Name	P-MEXP-6891	P-MEXP-7010	P-MEXP-6893	P-MEXP-7009	P-MEXP-6899	P-MEXP-6907	Affymetrix:Protocol:Hybridization-EukGE-WS2v4[]	P-AFFY-6	Affymetrix:Protocol:ExpressionStat	P-MEXP-6905
+Protocol Type	grow	specified_biomaterial_action	nucleic_acid_extraction	pool	labeling	hybridization	hybridization	feature_extraction	bioassay_data_transformation	bioassay_data_transformation
+Protocol Description	"To obtain uniform germination, seeds were moistened and stored for 4 days at 4ÂºC. Cold treated seeds were placed on the surface of the substrate with the aid of forceps at a distance of approximately 3 cm between seedlings. The substrate, consisting of a 3:1 potting soil:sand mixture, was sieved through a 5 mm mesh and thoroughly moistened. Until germination plant containers were covered with a clear plastic foil to maintain sufficient soil moisture. For the duration of the experiment the soil was moistened by placing plant containers on wetted fleece. For all other experiments plants were grown at same densities (140 plants/box) in flat plastic containers (30 Ã 47 Ã 6 cm). Containers were placed in growth cabinets under controlled environment (21 Â± 1Â°C, 16 h light, 100 Âµmol photons s-1 m-2)."	Fourteen day old plants (Boyes key stage 1.04) were inoculated by injecting the soil around each plant with 2 ml of a resting spore suspension of the pathogen Plasmodiophora brassicae (isolate e) with a standard concentration of 10^6 spores/ml.	"Soil residue was carefully removed from roots using brushes and the roots were immediately frozen in liquid nitrogen and grounded with mortar and pestle. Total RNA was extracted by the RNeasy Plant Mini kit (Qiagen, The Netherlands) according to the manufacturerÂs instructions. RNA samples were further cleaned using Qiagen RNeasy mini-columns "	"For each time point, treatment, and repetition 140 plants were grown and cleaned roots of these plants were pooled in liquid nitrogen before RNA extraction."	labelled according Affymetrix Manual II. 	according to Affymetrix Manual II	Title: Affymetrix EukGE-WS2v4 Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 	"Microarray suite 5.0 (Affymetrix) was used for image analysis and to determine probe signal levels. The average intensity of all probe sets was used for normalization and scaled to 100 in the absolute analysis for each probe array. For each microarray, overall intensity normalization for the entire probe sets was performed using Affymetrix Microarray Suite 5.0. "
+Protocol Parameters	max temperature;start time;min temperature;stop time;		Amplification;Extracted product;		Amplification;Label used;Amount of nucleic acid labeled;	Quantity of label target used;time;Volume;temperature;Chamber type;				
+Protocol Hardware										
+Protocol Software							MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact										
+Protocol Term Source REF			The MGED Ontology	The MGED Ontology	The MGED Ontology	The MGED Ontology	The MGED Ontology		The MGED Ontology	The MGED Ontology
+SDRF File	E-MEXP-254.sdrf.txt									
+Term Source Name	The MGED Ontology	EFO								
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/								
+Term Source Version										

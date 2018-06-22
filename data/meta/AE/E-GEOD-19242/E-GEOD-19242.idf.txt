@@ -1,0 +1,58 @@
+Comment[ArrayExpressAccession]	E-GEOD-19242						
+Public Release Date	2010-10-01						
+Investigation Title	Mitochondrial beta-cyanoalanine synthase is essential for root hair formation in Arabidopsis thaliana						
+Comment[Submitted Name]	Mitochondrial beta-cyanoalanine synthase is essential for root hair formation in Arabidopsis thaliana						
+Experiment Description	Cyanide is stoichiometrically produced as a co-product of the ethylene biosynthesis pathway, and it is detoxified by the b-cyanoalanine synthase enzyme. The molecular and phenotypical analysis of T-DNA insertional mutants of the mitochondrial b-cyanoalanine synthase CYS-C1 suggests that discrete accumulation of cyanide is not toxic for the plant and does not alter mitochondrial respiration rates, but does act as a strong inhibitor of root hair development. The cys-c1 null allele is defective in root hair formation and accumulates cyanide in root tissues. The root hair defect is phenocopied in wild type plants by the exogenous addition of cyanide to the growth medium and is reversed by the addition of hydroxocobalamin. Hydroxocobalamin not only recovers the root phenotype of the mutant, but also the formation of ROS at the initial step of the root hair tip. Transcriptional profile analysis of the cys-c1 mutant reveals that cyanide accumulation acts as a repressor signal for several genes encoding enzymes involved in cell wall rebuilding and the formation of the root hair tip, as well as genes involved in ethylene signaling and metabolism. Our results demonstrate that mitochondrial b-cyanoalanine synthase activity is essential to maintain a low level of cyanide for proper root hair development. Using Affymetrix ATH1 GeneChips, we performed a comparative transcriptomic analysis of roots of the cys-c1 and wild type plants. Total RNA was extracted from roots of 14-days-old plants grown under identical conditions on MS medium (three biological replicates for each genotype), and these samples were used to prepare complementary RNA and and analyzed using the Affymetrix-Arabidopsis ATH1GeneChip array.						
+Date of Experiment							
+Term Source Name	EFO						
+Term Source Version							
+Term Source File	http://www.ebi.ac.uk/efo						
+Person Last Name	Gotor	García	Gotor	Romero	Solano		
+Person First Name	Cecilia	Irene	Cecilia	Luis	Roberto		
+Person Mid Initials				C			
+Person Email	geo@ncbi.nlm.nih.gov						
+Person Affiliation	Instituto de Bioquímica Vegetal y Fotosíntesis						
+Person Phone							
+Person Fax							
+Person Address	Instituto de Bioquímica Vegetal y Fotosíntesis, Avda. Américo Vespucio, 49, Sevilla, Spain						
+Person Roles	submitter						
+Person Roles Term Source REF							
+Person Roles Term Accession Number							
+Normalization Type							
+Normalization Term Accession Number							
+Normalization Term Source REF							
+Replicate Type							
+Replicate Term Accession Number							
+Replicate Term Source REF							
+Experimental Design	genetic modification design						
+Experimental Design Term Accession Number							
+Experimental Design Term Source REF	EFO						
+Quality Control Type							
+Quality Control Term Accession Number							
+Quality Control Term Source REF							
+Protocol Name	P-GSE19242-1	P-GSE19242-6	P-GSE19242-5	P-GSE19242-3	P-GSE19242-2	P-GSE19242-4	P-GSE19242-7
+Protocol Description	ID_REF = <br>VALUE = Log2 RMA signal	GeneChips were scanned using the Affymetrix GeneChip Scanner 3000 7G	Following fragmentation, 15 µg of biotinylated cRNA were hybridized to Affymetrix chips (GeneChip Arabidopsis ATH1 Genome Array). Each sample was added to a hybridization solution containing 100mM 2-(N-morpholino)ethanesulfonic acid, 1 M Na+, and 20mM of EDT	Roots of 14-days-old plants grown under identical conditions on MS medium and RNA extracted from each sample. Total RNA was isolated with Trizol reagent (Invitrogen) followed by cleaning with the RNeasy Plant Mini Kit (Qiagen).	Arabidopsis thaliana (accession Col-0) and the cys-c1 mutant (SALK_022479) seeds were grown on solid Murashige & Skoog medium supplemented with 1% sucrosse. Plants were grown under a photoperiod of 16 h of white light (120 mE m-2 s-1) at 20ºC /8 h dark at 18ºC.	Biotinylated cRNA was prepared according to the standard Affymetrix protocol from 4 µg total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).	GeneChip intensities were background-corrected, normalized and sumarized by RMA method, using the “Affy” package from Bioconductor.
+Protocol Software							
+Protocol Hardware							
+Protocol Contact							
+Protocol Type	bioassay_data_transformation	image_aquisition	hybridization	nucleic_acid_extraction	grow	labeling	feature_extraction
+Protocol Term Source REF							
+Protocol Term Accession Number							
+Experimental Factor Name	genotype						
+Experimental Factor Type	genotype						
+Experimental Factor Term Source REF							
+Experimental Factor Term Accession Number							
+Publication Title	Mitochondrial {beta}-Cyanoalanine Synthase Is Essential for Root Hair Formation in Arabidopsis thaliana.						
+Publication Author List	García I, Castellano JM, Vioque B, Solano R, Gotor C, Romero LC						
+PubMed ID	20935247						
+Publication DOI	10.1105/tpc.110.076828						
+Publication Status	published						
+Publication Status Term Source REF	EFO						
+Publication Status Term Accession Number	EFO_0001796						
+Comment[SecondaryAccession]	GSE19242						
+Comment[GEOLastUpdateDate]	2010-10-13						
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for cys-c1						
+Comment[AEExperimentType]	transcription profiling by array						
+Comment[GEOReleaseDate]	2010-09-30						
+Comment[ArrayExpressSubmissionDate]	2009-12-01						
+SDRF File	E-GEOD-19242.sdrf.txt						

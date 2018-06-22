@@ -1,0 +1,45 @@
+Investigation Title	Transcription profiling of Arabidopsis flc3/fri mutants under different light conditions					
+Comment[Submitted Name]	FRI FLC combos					
+Experimental Design	unknown_experiment_design_type	transcription profiling by array				
+Experimental Design Term Source REF		EFO				
+Comment[AEExperimentType]	transcription profiling by array					
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for flc3 and/or fri after growth in a long-day regime					
+Comment[AEMIAMESCORE]	3					
+Comment[ArrayExpressReleaseDate]	2008-06-14					
+Comment[SecondaryAccession]	GSE5746					
+Comment[ArrayExpressAccession]	E-GEOD-5746					
+Comment[MAGETAB TimeStamp_Version]	2010-08-06 18:15:05 Last Changed Rev: 13058					
+Experimental Factor Name	genotype	growth condition	time			
+Experimental Factor Type	genotype	growth condition	time			
+Experimental Factor Term Source REF						
+Person Last Name	(NASC)					
+Person First Name	Nottingham Arabidopsis Stock Centre					
+Person Mid Initials						
+Person Email	affy@arabidopsis.info					
+Person Phone						
+Person Fax						
+Person Address	"School of Biosciences, University of Nottingham, Nottingham Arabidopsis Stock Centre (NASC), Sutton Bonington Campus, Loughborough, LE12 5RD, United Kingdom"					
+Person Affiliation	Nottingham Arabidopsis Stock Centre (NASC)					
+Person Roles	submitter					
+Person Roles Term Source REF						
+Quality Control Type						
+Quality Control Term Source REF						
+Replicate Type						
+Replicate Term Source REF						
+Normalization Type						
+Normalization Term Source REF						
+Date of Experiment						
+Public Release Date	2008-06-14					
+Experiment Description	This experiment was annotated by TAIR (http://arabidopsis.org).FRI FLC time series; Experimenter name = Markus Schmid; Experimenter phone = ++49-7071-601-1413; Experimenter fax = ++49-7071-601-1412; Experimenter department = Detlef Weigel Laboratory Germany; Experimenter institute = Max-Planck-Institute for Developmental Biology; Experimenter address = Dept. of Molecular Biology; Experimenter address = Spemannstr. 37-39; Experimenter address = TÃ¼bingen; Experimenter zip/postal_code = 72076; Experimenter country = Germnay Experiment Overall Design: 36 samples were used in this experiment					
+Protocol Name	P-G5746-2	P-G5746-4	P-G5746-3	P-G5746-1	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6
+Protocol Type	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	hybridization	feature_extraction
+Protocol Description	LD 3 days	LD 7 days	LD 5 days	LD 0 days	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 
+Protocol Parameters						
+Protocol Hardware						
+Protocol Software					MicroArraySuite 5.0	MicroArraySuite 5.0
+Protocol Contact						
+Protocol Term Source REF					mo	
+SDRF File	E-GEOD-5746.sdrf.txt					
+Term Source Name	NCBI Taxonomy	The MGED Ontology	ArrayExpress	EFO	mo	
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version						

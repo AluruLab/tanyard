@@ -1,0 +1,50 @@
+Investigation Title	Transcription profiling of Arabidopsis dark grown seedlings response to 6h-long treatment with 90 mM sucrose	
+Comment[Submitted Name]	Effects of a 6h-long treatment with 90 mM sucrose to 4-d old, dark grown Arabidopsis seedlings	
+Experimental Design	compound_treatment_design	transcription profiling by array	
+Experimental Design Term Source REF	mo	EFO	
+Comment[AEMIAMESCORE]	4	
+Comment[ArrayExpressReleaseDate]	2008-06-12	
+Comment[SecondaryAccession]	GSE3704	
+Comment[SecondaryAccession]	GDS1734	
+Comment[ArrayExpressAccession]	E-GEOD-3704	
+Comment[MAGETAB TimeStamp_Version]	2010-08-05 11:25:31 Last Changed Rev: 13058	
+Experimental Factor Name	Compound	
+Experimental Factor Type	compound	
+Experimental Factor Term Source REF	
+Person Last Name	Perata	
+Person First Name	Pierdomenico	
+Person Mid Initials	
+Person Email	p.perata@sssup.it	
+Person Phone	
+Person Fax	
+Person Address	Plant Physiology,Crop Physiology Center,Sant'Anna School of Advanced Studies,Via Mariscoglio 34,Pisa,56124,Italy	
+Person Affiliation	Sant'Anna School of Advanced Studies	
+Person Roles	submitter	
+Person Roles Term Source REF	The MGED Ontology	
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2008-06-12	
+PubMed ID	16463203	
+Publication DOI	16463203	
+Publication Author List	Silvia Gonzali, Elena Loreti, Cinzia Solfanelli, Giacomo Novi, Amedeo Alpi, Pierdomenico Perata	
+Publication Title	Identification of sugar-modulated genes and evidence for in vivo sugar sensing in Arabidopsis.	
+Publication Status	journal_article	
+Publication Status Term Source REF	The MGED Ontology	
+Experiment Description	Dark grown Arabidopsis seedlings (Columbia gl1) were grown in the dark at 23Â°C for 4 days before adding 90 mM sucrose for 6h.  Experiment Overall Design: Arabidopsis thaliana ecotype Columbia glabra (gl1-1) was used in this study. Seeds were sterilized with diluted bleach (10 min incubation in 1.7% sodium hypochlorite, rinsing and washing thoroughly in sterile water), and incubated in 2.5 ml liquid growing medium [Murashige-Skoog (MS) half strength solution] in 6-well plates (fully aerobic, with shaking). Plates were incubated in the darkness at 4Â°C for 2 days and finally transferred to 23Â°C for 4 days before the sugar treatments (with 90 mM sucrose, lasting 6h). Two independent, replicated experiments were performed for sucrose treatments. Each independent experiment consisted of four replicated seedlings cultures, pooled after RNA extraction.  Experiment Overall Design: AIR EXPERIMENT 1: Control without added sucrose Experiment Overall Design: AIR EXPERIMENT 2: Control without added sucrose Experiment Overall Design: Sucrose 90 mM, 6h treatment in the dark, Biological Replicate 1 Experiment Overall Design: Sucrose 90 mM, 6h treatment in the dark, Biological Replicate 2	
+Protocol Name	P-G3704-1	P-G3704-2	P-G3704-4	P-G3704-3	
+Protocol Type	grow	specified_biomaterial_action	nucleic_acid_extraction	labeling	
+Protocol Description	Arabidopsis thaliana ecotype Columbia glabra (gl1-1) was used in this study. Seeds were sterilized with diluted bleach (10 min incubation in 1.7% sodium hypochlorite, rinsing and washing thoroughly in sterile water), and incubated in 2.5 ml liquid growing medium [Murashige-Skoog (MS) half strength solution] in 6-well plates. Plates were incubated in the darkness at 4Â&deg;C for 2 days and finally transferred to 23Â&deg;C for 4 days before the sugar treatments. Two independent, replicated experiments were performed for sucrose treatments. Each independent experiment consisted of four replicated seedlings cultures, pooled after RNA extraction.	Arabidopsis thaliana ecotype Columbia glabra were grown for 4 days in the dark at 23Â&deg;C in multiwell plates containing half-strenght murashige skoog medium without added sucrose. Sample was subsequently kept for 6h under the same conditions with addition of 90 mM sucrose(shaking, thus aerobic).	Total RNA was extracted from the seedlings samples using the Ambion RNAqueous extraction kit (Ambion, Austin, Texas, USA). RNA quality was assessed by agarose gel electrophoresis and spectrophotometry.	RNA was processed for use on Affymetrix Arabidopsis ATH1 GeneChip arrays (Affymetrix Inc., Santa Clara, CA, USA) as as described in the Affymetrix technical manual.	
+Protocol Parameters	
+Protocol Hardware	
+Protocol Software	
+Protocol Contact	
+Protocol Term Source REF	
+SDRF File	E-GEOD-3704.sdrf.txt	
+Term Source Name	NCBI Taxonomy		The MGED Ontology	ArrayExpress	NCI_thesaurus	nci_meta	mo	EFO	The MGED Ontology	
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	ncithesaurus.obo.alt	http://ncimeta.nci.nih.gov/indexMetaphrase.html	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version										

@@ -1,0 +1,37 @@
+Investigation Title	Transcription profiling of Arabidopsis leading to the identification of novel components in the EDS1/PAD4-regulated defence pathwayabidopsis-Pst-eds1-pad4						
+Comment[Submitted Name]	Parker-Arabidopsis-Pst-eds1-pad4						
+Experimental Design	stimulus_or_stress_design	disease_state_design					
+Experimental Design Term Source REF	The MGED Ontology	The MGED Ontology					
+Comment[ArrayExpressReleaseDate]	2006-02-15						
+Comment[AEMIAMESCORE]	5						
+Comment[ArrayExpressAccession]	E-MEXP-546						
+Comment[MAGETAB TimeStamp_Version]	2010-08-11 15:15:04 Last Changed Rev: 13058						
+Comment[AEExperimentType]	transcription profiling by array						
+Experimental Factor Name	time	genotype	infect				
+Experimental Factor Type	time	genotype	infect				
+Person Last Name	Debey	Parker	Schultze	Bednarek	Bautor	Bartsch	Gobbato
+Person First Name	Svenja	Jane	Joachim	Pawel	Jaqueline	Michael	Enrico
+Person Mid Initials	S	E	J	P	J	M	E
+Person Email		parker@mpiz-koeln.mpg.de					
+Person Phone		+49 221 5062303					
+Person Fax		+49 221 5062353					
+Person Address		Carl von Linne Weg 24					
+Person Affiliation	University of Cologne	"Plant-Microbe Interactions, Max-Planck Institute for Plant Breeding Research"	University of Cologne	MPIZ	MPIZ	MPIZ	MPIZ
+Person Roles		submitter					
+Public Release Date	2006-02-15						
+PubMed ID	16531493						
+Publication DOI	10.1105/tpc.105.039982						
+Publication Author List	"Bartsch, Michael; Gobbato, Enrico; Bednarek, Pawel; Debey, Svenja; Schultze, Joachim L.; Bautor, Jaqueline; Parker, Jane E."						
+Publication Title	Salicylic Acid-Independent ENHANCED DISEASE SUSCEPTIBILITY1 Signaling in Arabidopsis Immunity and Cell Death Is Regulated by the Monooxygenase FMO1 and the Nudix Hydrolase NUDT7						
+Publication Status	journal_article						
+Publication Status Term Source REF							
+Experiment Description	Gene expression profiling leading to the identification of novel components in the EDS1/PAD4-regulated defence pathway						
+Protocol Name	P-MEXP-16945	P-MEXP-16944	P-MEXP-16954				
+Protocol Type	treatment protocol	growth protocol	nucleic acid extraction protocol				
+Protocol Description	Pseudomonas syringae pv. tomato strain DC3000 expressing avrRpm1 or avrRps4 was infiltrated at 10 E7 cfu/ml into leaves. Mock infiltration experiments were performed using 10 mM MgCl2 solution.	"Plants were soil grown in controlled environment chambers under a regime of 10 h light period at 150-200 uEinsteins m-2 sec-1, 23  C and 65 % relative humidity. Four-week-old plants were used for microarray experiments."	"Total RNA extracted using RNAwiz reagent (Ambion). cRNA was prepared following the manufacturer's instructions (www.affymetrix.com/support/technical/manual/expression_manual.affx).Labelled cRNA transcripts were purified using the Sample Cleanup Module (Affymetrix). Fragmentation of cRNA transcripts, hybridization and scanning of the high-density oligonucleotide microarrays (Arabidopsis ATH1 Genome Array, Affymetrix) were performed according to the manufacturer's GeneChip Expression Analysis Technical Manual."				
+Protocol Parameters		min temperature;max temperature;media;	Extracted product;Amplification;				
+Protocol Term Source REF	EFO	EFO	EFO				
+SDRF File	E-MEXP-546.sdrf.txt						
+Term Source Name	ArrayExpress	EFO	The MGED Ontology				
+Term Source File	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php				
+Term Source Version							

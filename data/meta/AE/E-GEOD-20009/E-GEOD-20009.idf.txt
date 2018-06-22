@@ -1,0 +1,50 @@
+Investigation Title	Response of Arabidopsis thaliana to phenanthrene	
+Comment[Submitted Name]	Response of Arabidopsis thaliana to phenanthrene	
+Experimental Design	transcription profiling by array	
+Experimental Design Term Source REF	EFO	
+Comment[AEMIAMESCORE]	4	
+Comment[SecondaryAccession]	GSE20009	
+Comment[ArrayExpressReleaseDate]	2010-04-27	
+Comment[Publication DOI]	10.1186/1471-2229-10-59	
+Comment[ArrayExpressAccession]	E-GEOD-20009	
+Comment[MAGETAB TimeStamp_Version]	2010-08-04 02:48:37 Last Changed Rev: 13058	
+Experimental Factor Name	TREATMENT	
+Experimental Factor Type	treatment	
+Experimental Factor Term Source REF	
+Person Last Name	Alkio	ColÃ³n-Carmona	Weisman	
+Person First Name	Merianne	AdÃ¡n	David	
+Person Mid Initials	
+Person Email	
+Person Phone	
+Person Fax	
+Person Address		Biology, University of Massachusetts Boston, 100 Morrissey Blvd, Boston, USA	
+Person Affiliation		University of Massachusetts Boston	
+Person Roles		submitter	
+Person Roles Term Source REF		The MGED Ontology	
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2010-04-27	
+PubMed ID	20377843	
+Publication DOI	20377843	
+Publication Author List	Weisman D, Alkio M, Colon-Carmona A	
+Publication Title	Transcriptional responses to polycyclic aromatic hydrocarbon induced stress in Arabidopsis thaliana reveal the involvement of hormone and defense signaling pathways.	
+Publication Status	journal_article	
+Publication Status Term Source REF	The MGED Ontology	
+Experiment Description	Background:  Polycyclic aromatic hydrocarbons (PAHs) are toxic, widely-distributed, environmentally persistent, and carcinogenic byproducts of carbon-based fuel combustion. Previously, plant studies have shown that PAHs induce oxidative stress, reduce growth, and cause leaf deformation as well as tissue necrosis. To understand the transcriptional changes that occur during these processes, we performed microarray experiments on Arabidopsis thaliana L. under phenanthrene treatment, and compared the results to published Arabidopsis microarray data representing a variety of stress and hormone treatments. In addition, to probe hormonal aspects of PAH stress, we assayed transgenic ethylene-inducible reporter plants as well as ethylene pathway mutants under phenanthrene treatment.  Results:  Microarray results revealed numerous perturbations in signaling and metabolic pathways that regulate reactive oxygen species (ROS) and responses related to pathogen defense. A number of glutathione S-transferases that may tag xenobiotics for transport to the vacuole were upregulated. Comparative microarray analyses indicated that the phenanthrene response was closely related to other ROS conditions, including pathogen defense conditions. The ethylene-inducible transgenic reporters were activated by phenanthrene. Mutant experiments showed that PAH inhibits growth through an ethylene-independent pathway, as PAH-treated ethylene-insensitive etr1-4 mutants exhibited a greater growth reduction than WT. Further, phenanthrene-treated, constitutive ethylene signaling mutants had longer roots than the untreated control plants, indicating that the PAH inhibits parts of the ethylene signaling pathway.  Conclusions:  This study identified major physiological systems that participate in the PAH-induced stress response in Arabidopsis. At the transcriptional level, the results identify specific gene targets that will be valuable in finding lead compounds and engineering increased tolerance. Collectively, the results open a number of new avenues for researching and improving plant resilience and PAH phytoremediation. Arabidopsis thaliana (ecotype Columbia) plants were long-day grown with +/- 0.25 mM phenanthrene in sterile plates at 23C for 21d before harvest.  At least 20 plants were pooled prior to each mRNA extraction.	
+Protocol Name	P-GSE20009-2	P-GSE20009-4	P-GSE20009-3	P-GSE20009-5	P-GSE20009-6	P-GSE20009-7	P-GSE20009-8	P-GSE20009-9	P-GSE20009-10	P-GSE20009-1	
+Protocol Type	specified_biomaterial_action	nucleic_acid_extraction	grow	labeling	hybridization	image_aquisition	feature_extraction	feature_extraction	feature_extraction	bioassay_data_transformation	
+Protocol Description	Phenanthrene was thoroughly mixed into sterile media prior to pouring plates.	RNA was isolated using TRIzol (Molecular Research Center) per the manufacturer's instructions, DNAse treated (Invitrogen), and purified with RNeasy Mini Cleanup (Qiagen) per the manufacturers' instructions.	21d whole plants grown from sterilized seeds on 0.5MS + phytoagar, long-day light, 23C +/- 1C.	Labeling was performed with the Affymetrix Enzo kit per the manufacturer's instructions.	Chips were hybridized and processed on a Affymetrix Fluidics Station Model 450 per the manufacturer's instructions.	Hybridized chips were read on a model M10 scanner.	.CEL files were produced by the Affymetrix MAS, and normalization was performed in R/Bioconductor using the just.gcrma function with default parameters.		Values are unmodified outputs from Bioconductor/just.gcrma and represent the log2 transformation of the signal level.	ID_REF = <br>VALUE = GC-RMA log2 signal	
+Protocol Parameters	
+Protocol Hardware	
+Protocol Software	
+Protocol Contact	
+Protocol Term Source REF							The MGED Ontology	The MGED Ontology	The MGED Ontology	The MGED Ontology	
+SDRF File	E-GEOD-20009.sdrf.txt	
+Term Source Name	NCBI Taxonomy		The MGED Ontology	ArrayExpress	NCI_thesaurus	EFO	The MGED Ontology	
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	ncithesaurus.obo.alt	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version								

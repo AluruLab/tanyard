@@ -1,0 +1,58 @@
+Comment[ArrayExpressAccession]	E-GEOD-25396								
+Public Release Date	2011-11-09								
+Investigation Title	Expression data from dark-grown AtGATA2 (At2g45050) overexpression transgenic line, homozygous bri1-116 and Col-0 wild type								
+Comment[Submitted Name]	Expression data from dark-grown AtGATA2 (At2g45050) overexpression transgenic line, homozygous bri1-116 and Col-0 wild type								
+Experiment Description	Molecular genetic analyses support important roles for the AtGATA2 gene in brassinolide (BR) and light regulation of plant development. The overexpression line 6-9 of AtGATA2 suppresses the etiolated phenotype of Col-0 grown in the dark. Using microarray analysis, we identified genes differentially expressed in the AtGATA2ox transgenic line 6-9 compared to wild type, and genes differentially expressed in the AtGATA2ox transgenic line 6-9 compared to the bri1-116 single mutant.  Consistent with the phenotypic similarity of bri1-116 and AtGATA2, overall about 93% of the co-regulated genes were affected in the same way by GATA2-ox and bri1-116. AtGATA2-regulated genes have been identified by comparing genes differentially expressed by the Col control and bri1-116, which could find the crosslink between light and BR regulations of plant development.								
+Date of Experiment									
+Term Source Name	EFO								
+Term Source Version									
+Term Source File	http://www.ebi.ac.uk/efo/efo.owl								
+Person Last Name	lin	Wang							
+Person First Name	wenhui	Zhiyong							
+Person Mid Initials									
+Person Email	whlin@ibcas.ac.cn								
+Person Affiliation	Institute of Botany, CAS  								
+Person Phone									
+Person Fax									
+Person Address	Institute of Botany, CAS  , No.20 Nanxincun, Xiangshan, Beijing, China								
+Person Roles	submitter								
+Person Roles Term Source REF									
+Person Roles Term Accession Number									
+Normalization Type									
+Normalization Term Accession Number									
+Normalization Term Source REF									
+Replicate Type									
+Replicate Term Accession Number									
+Replicate Term Source REF									
+Experimental Design									
+Experimental Design Term Accession Number									
+Experimental Design Term Source REF									
+Quality Control Type									
+Quality Control Term Accession Number									
+Quality Control Term Source REF									
+Protocol Name	P-GSE25396-1	P-GSE25396-6	P-GSE25396-3	P-GSE25396-9	P-GSE25396-8	P-GSE25396-7	P-GSE25396-2	P-GSE25396-4	P-GSE25396-5
+Protocol Description	ID_REF = <br>VALUE = MAS5.0 signal intensity	20 μg of labeled and fragmented cRNA were hybridized with the Arabidopsis ATH1 genome array according to the manufacturer’s instructions (Affymetrix).	Seedlings were grown on solid ½ MS medium with 1% sucrose in the dark for 108 hours.	Microarray data were analyzed using Genespring software (version 7, Silicon Genetics). Data that were flagged as absent using mismatch probes were removed from the analysis.  GC-RMA signal intensities were generated.  However, note that MAS5.0 signal intensities are presented in the table below. ANOVA was used to find genes whose expression was different between AtGATA2ox and Col or between AtGATA2ox and bri1-116.	Microarray data were analyzed using Genespring software (version 7, Silicon Genetics). Data that were flagged as absent using mismatch probes were removed from the analysis.  GC-RMA signal intensities were generated.  However, note that MAS5.0 signal intensities are presented in the table below.	Arrays were scanned using the Agilent GeneArray Scanner.	The seedlings were frozen in liquid nitrogen in complete darkness, and then the homozygote seedlings of bri1-116 were picked individually from the heterozygous population.	Total RNA was extracted by the Plant RNA Purification Reagent (Invitrogen), treated with RNase-free DNase I (Qiagen), and cleaned up using the RNeasy Plant Mini column (Qiagen) according to the manufacturer's instructions.	Biotinylated cRNA were prepared from 10ug of total RNA according to the Eukaryotic Target Protocol (Affymetrix).
+Protocol Software									
+Protocol Hardware									
+Protocol Contact									
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Protocol Term Source REF									
+Protocol Term Accession Number									
+Experimental Factor Name	genotype								
+Experimental Factor Type	genotype								
+Experimental Factor Term Source REF									
+Experimental Factor Term Accession Number									
+Publication Title	Integration of light- and brassinosteroid-signaling pathways by a GATA transcription factor in Arabidopsis.								
+Publication Author List	Luo XM, Lin WH, Zhu S, Zhu JY, Sun Y, Fan XY, Cheng M, Hao Y, Oh E, Tian M, Liu L, Zhang M, Xie Q, Chong K, Wang ZY.								
+PubMed ID	21145502								
+Publication DOI	10.1016/j.devcel.2010.10.023								
+Publication Status	published								
+Publication Status Term Source REF	EFO								
+Publication Status Term Accession Number	EFO_0001796								
+Comment[SecondaryAccession]	GSE25396								
+Comment[GEOLastUpdateDate]	2011-11-09								
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis overexpressing AtGATA2 or mutant for bri1								
+Comment[AEExperimentType]	transcription profiling by array								
+Comment[GEOReleaseDate]	2011-11-09								
+Comment[ArrayExpressSubmissionDate]	2010-11-15								
+SDRF File	E-GEOD-25396.sdrf.txt								

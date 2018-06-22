@@ -1,0 +1,50 @@
+Investigation Title	Transcription profiling of Arabidopsis seedlings expressing LEC2-Glucocorticoid Receptor fusion protein, induced with dexamethasone for 0, 1 or 4 hours	
+Comment[Submitted Name]	RNA changes induced by LEAFY COTYLEDON2 activity in Arabidopsis seedlings	
+Experimental Design	time_series_design	co-expression_design	genetic_modification_design	transcription profiling by array	
+Experimental Design Term Source REF	mo	mo	mo	EFO	
+Comment[ArrayExpressReleaseDate]	2007-10-03	
+Comment[SecondaryAccession]	GSE3959	
+Comment[AEMIAMESCORE]	4	
+Comment[SecondaryAccession]	GDS1776	
+Comment[ArrayExpressAccession]	E-GEOD-3959	
+Comment[MAGETAB TimeStamp_Version]	2010-08-05 12:10:28 Last Changed Rev: 13058	
+Experimental Factor Name	Compound	Genotype	Time	
+Experimental Factor Type	compound	genotype	time	
+Experimental Factor Term Source REF	
+Person Last Name	Braybrook	
+Person First Name	Siobhan	
+Person Mid Initials	A.	
+Person Email	sabraybrook@ucdavis.edu	
+Person Phone	
+Person Fax	
+Person Address	Harada Lab, Plant Biology, University of California, Davis, 1 Shields Ave, Davis, 95616, USA	
+Person Affiliation	University of California, Davis	
+Person Roles	submitter	
+Person Roles Term Source REF	The MGED Ontology	
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2007-10-03	
+PubMed ID	16492731	
+Publication DOI	16492731	
+Publication Author List	Siobhan A Braybrook, Sandra L Stone, Soomin Park, Anhthu Q Bui, Brandon H Le, Robert L Fischer, Robert B Goldberg, John J Harada	
+Publication Title	Genes directly regulated by LEAFY COTYLEDON2 provide insight into the control of embryo maturation and somatic embryogenesis.	
+Publication Status	journal_article	
+Publication Status Term Source REF	The MGED Ontology	
+Experiment Description	LEAFY COTYLEDON2 activity was induced via a LEC2-Glucocorticoid Receptor fusion protein in Arabidopsis seedlings. Experiment Overall Design: Transgenic plants carrying a 35S:LEC2-Glucocorticoid Receptor transgene were used for LEC2 induction.  Activity was induced in 8 day old seedlings for 1 or 4 hours with Dexamethasone application.  Controls include uninduced transgenic plants and non-transgenic plants treated with Dex. Experiment Overall Design: Two biological replicates per treatment.	
+Protocol Name	P-G3959-6	P-G3959-2	P-AFFY-2	Affymetrix:Protocol:Hybridization-EukGE-WS2v4	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6	
+Protocol Type	grow	nucleic_acid_extraction	labeling	hybridization	hybridization	feature_extraction	
+Protocol Description	As per Braybrook, S. A. et al (PNAS, 2006)	As per Stone, S. L. et al (PNAS, 2001)	Title: Affymetrix in vitro transcription. Description: 	Title: Fluidics Station Protocol. Description: 	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	
+Protocol Parameters	
+Protocol Hardware	
+Protocol Software				MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact	
+Protocol Term Source REF					mo	
+SDRF File	E-GEOD-3959.sdrf.txt	
+Term Source Name	NCBI Taxonomy		mo	The MGED Ontology	ArrayExpress	NCI_thesaurus	mo	EFO	The MGED Ontology	
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	ncithesaurus.obo.alt	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version										

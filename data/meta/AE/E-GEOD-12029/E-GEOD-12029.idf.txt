@@ -1,0 +1,52 @@
+Investigation Title	Transcription profiling of Arabidopsis NFYA5 mutant vs wild type						
+Comment[Submitted Name]	NFYA5, a CCAAT binding transcription factor important for drought resistance in Arabidopsis						
+Experimental Design	unknown_experiment_design_type	transcription profiling by array					
+Experimental Design Term Source REF		EFO					
+Comment[AEExperimentType]	transcription profiling by array						
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis overexpressing NYAF5						
+Comment[AEMIAMESCORE]	3						
+Comment[ArrayExpressReleaseDate]	2008-10-21						
+Comment[SecondaryAccession]	GSE12029						
+Comment[ArrayExpressAccession]	E-GEOD-12029						
+Comment[MAGETAB TimeStamp_Version]	2010-10-15 21:26:47 Last Changed Rev: 14677						
+Experimental Factor Name	GENOTYPE						
+Experimental Factor Type	genotype						
+Experimental Factor Term Source REF							
+Person Last Name	Zhu						
+Person First Name	Jian-Kang						
+Person Mid Initials							
+Person Email	jian-kang.zhu@ucr.edu						
+Person Phone							
+Person Fax							
+Person Address	Botany and Plant Sciences,University of California,2150 Batchelor Hall,Riverside,92521,USA						
+Person Affiliation	University of California						
+Person Roles	submitter						
+Person Roles Term Source REF	The MGED Ontology						
+Quality Control Type							
+Quality Control Term Source REF							
+Replicate Type							
+Replicate Term Source REF							
+Normalization Type							
+Normalization Term Source REF							
+Date of Experiment							
+Public Release Date	2008-10-21						
+PubMed ID	18682547						
+Publication DOI	10.1105/tpc.108.059444						
+Publication Author List	Li WX, Oono Y, Zhu J, He XJ, Wu JM, Iida K, Lu XY, Cui X, Jin H, Zhu JK.						
+Publication Title	The Arabidopsis NFYA5 transcription factor is regulated transcriptionally and posttranscriptionally to promote drought resistance.						
+Publication Status	published						
+Publication Status Term Source REF	EFO						
+Publication Status Term Accession Number	EFO_0001796						
+Experiment Description	NFYA5 is a transcription factor important for drought resistance.  Drought stress up-regulates NFYA5 gene expression not only at the transcriptional level but also at the posttranscriptional level by down-regulating the expression of miR169a that targets NFYA5 transcript for cleavage. Experiment Overall Design: 2 replicates for WT (Col-0) were compared to 2 replicates for nfya5 (mutant)						
+Protocol Name	P-G12029-2	P-G12029-1	P-G12029-4	P-G12029-3	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6	
+Protocol Type	specified_biomaterial_action	grow	nucleic_acid_extraction	labeling	hybridization	feature_extraction	
+Protocol Description	No treatment.	The seeds were plated on MS agar plates supplemented with 3% sucrose. Seedlings were grown at 22C with 16-h light and 8-h dark cycles for 2 weeks before being harvested.	RNeasy Plant Mini Kit, Qiagen	Followed users manual: http://www.affymetrix.com/support/downloads/manuals/expression_s21_manual.pdf	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	
+Protocol Parameters							
+Protocol Hardware							
+Protocol Software					MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact							
+Protocol Term Source REF					mo		
+SDRF File	E-GEOD-12029.sdrf.txt						
+Term Source Name	NCBI Taxonomy		The MGED Ontology	ArrayExpress	EFO	The MGED Ontology	mo
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version							

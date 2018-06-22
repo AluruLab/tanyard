@@ -1,0 +1,29 @@
+Comment[ArrayExpressAccession]	E-GEOD-73146						
+MAGE-TAB Version	1.1						
+Public Release Date	2015-09-18						
+Investigation Title	Gene expression over the course of xylem tracheary element formation in cell suspension cultures of Arabidopsis thaliana						
+Comment[Submitted Name]	Gene expression over the course of xylem tracheary element formation in cell suspension cultures of Arabidopsis thaliana						
+Experiment Description	Transcriptomic analysis of gene expression during the differentiation of cell suspension cultures into tracheary elements using the biological system published by Pesquet et al., Current Biology (2010): tracheary element differentiation was triggered by externally supplying hormone-free habituated cell suspension cultures of Arabidopsis thaliana Col-0 with auxin, cytokinin and epibrassinolides; RNA samples extracted from 3 independent time-courses every 12h from 0h to 4 days were analyzed using ATH1 Arabidopsis Affymetrix micro-array Time-course design during tracheary element differentiation (3 independepent time-course were harvested from initiation 0h to 4 days every 12h) - total of 27 samples corresponding to the 3 replicates of 9 time point time-courses - gene expression was monitored along the time-course compared to 0h						
+Term Source Name	ArrayExpress	EFO					
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Pesquet	Pesquet					
+Person First Name	Edouard	Edouard					
+Person Email	edouard.pesquet@plantphys.umu.se						
+Person Affiliation	Umeå Plant Science Centre						
+Person Address	Department of Plant Physiology, Umeå Plant Science Centre, Umeå University, Umeå, Sweden						
+Person Roles	submitter						
+Protocol Name	P-GSE73146-1	P-GSE73146-5	P-GSE73146-6	P-GSE73146-2	P-GSE73146-3	P-GSE73146-4	P-GSE73146-7
+Protocol Description	Data was processed using RMA normalization and analysis using R (performed by Johannes Hanson) ID_REF =  VALUE = Robust Multichip Average (RMA) value were used according to the standard Affymetrix protocol (http://media.affymetrix.com/support/downloads/manuals/expression_analysis_technical_manual.pdf).	Biotinylated cRNA were prepared from total RNA according to the standard Affymetrix protocol (http://media.affymetrix.com/support/downloads/manuals/expression_analysis_technical_manual.pdf).	15µg of cRNA were hybridized for 16h at 45°C and then wahsed in GeneChip Fluidics Station 450 according to the standard Affymetrix protocol (http://media.affymetrix.com/support/downloads/manuals/expression_analysis_technical_manual.pdf).	Tracheary element differentiation was triggered by incubating 7-days old cells into fresh MS liquid medium pH 5.7 b5 vitamins 3% sucrose complmented with 6µg/ml NAA, 1µg/ml BAP and 4µM epibrassinolides (see Pesquet et al., Current Biology 2010 for details).	Arabidopsis habituated cell suspension cultures were grown in 1x MS liquid pH 5.7 complemented with b5 vitamins and 3% sucrose	Total RNA were extracted from frozen cell cultures using the Trizol reagent methods - repeated twice (according to manufacturer's instruction)	Scanning was performed using GeneChip 3000 according to the standard Affymetrix protocol (http://media.affymetrix.com/support/downloads/manuals/expression_analysis_technical_manual.pdf).
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	time						
+Experimental Factor Type	time						
+Comment[SecondaryAccession]	GSE73146						
+Comment[GEOReleaseDate]	2015-09-18						
+Comment[ArrayExpressSubmissionDate]	2015-09-17						
+Comment[GEOLastUpdateDate]	2015-09-20						
+Comment[AEExperimentType]	transcription profiling by array						
+SDRF File	E-GEOD-73146.sdrf.txt						
+Publication Title	Proteomic Analysis of Microtubule Interacting Proteins over the Course of Xylem Tracheary Element Formation in Arabidopsis.						
+Publication Author List	Derbyshire P, Ménard D, Green P, Saalbach G, Buschmann H, Lloyd CW, Pesquet E						
+PubMed ID	26432860						
+Publication DOI	10.1105/tpc.15.00314						

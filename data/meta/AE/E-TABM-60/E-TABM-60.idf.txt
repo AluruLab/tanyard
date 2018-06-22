@@ -1,0 +1,51 @@
+Investigation Title	Transcription profiling of Arabidopsis treated with silwet for varying time and high throughout haplotyping and single feature polymorphism markers in Arabidopsis 							
+Comment[Submitted Name]	High-density haplotyping with microarray-based expression and single feature polymorphism markers in Arabidopsis							
+Experimental Design	time_series_design	compound_treatment_design	strain_or_line_design	transcription profiling by array				
+Experimental Design Term Source REF	mo	mo	mo	EFO				
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis after treatment with silwet for different amounts of time							
+Comment[ArrayExpressReleaseDate]	2006-11-14							
+Comment[AEMIAMESCORE]	5							
+Comment[ArrayExpressAccession]	E-TABM-60							
+Comment[MAGETAB TimeStamp_Version]	2010-08-12 20:08:32 Last Changed Rev: 13058							
+Experimental Factor Name	TIME	COMPOUND						
+Experimental Factor Type	time	compound						
+Experimental Factor Term Source REF								
+Person Last Name	West	Michelmore	Doerge	Kliebenstein	St Clair	St. Clair	van Leeuwen	Kozik
+Person First Name	Marilyn	Richard	R	Daniel	Dina	Dina	Hans	Alexander
+Person Mid Initials	A.L.	W.	W.	J.	A.			
+Person Email						dastclair@ucdavis.edu		
+Person Phone								
+Person Fax								
+Person Address								
+Person Affiliation						UC Davis Plant Sciences,		
+Person Roles						submitter		
+Person Roles Term Source REF								
+Quality Control Type	spike_quality_control	biological_replicate	peer_review_quality_control					
+Quality Control Term Source REF		The MGED Ontology						
+Replicate Type								
+Replicate Term Source REF								
+Normalization Type								
+Normalization Term Source REF								
+Date of Experiment								
+Public Release Date	2006-11-14							
+PubMed ID	16702412							
+Publication DOI	10.1101/gr.5011206							
+Publication Author List	West, Marilyn A.L.; van Leeuwen, Hans; Kozik, Alexander; Kliebenstein, Daniel J.; Doerge, R.W.; St. Clair, Dina A.; Michelmore, Richard W.							
+Publication Title	High-density haplotyping with microarray-based expression and single feature polymorphism markers in Arabidopsis							
+Publication Status	published							
+Publication Status Term Source REF	EFO							
+Publication Status Term Accession Number	EFO_0001796							
+Experiment Description	The study of natural genetic variation for plant disease resistance responses is a complementary approach to utilizing mutants to elucidate genetic pathways.  While some key genes involved in pathways controlling disease resistance, and signaling intermediates such as salicylic acid (SA) and jasmonic acid (JA), have been identified through mutational analyses, the use of genetic variation in natural populations permits the identification of change-of-function alleles, which likely act in a quantitative manner.  Whole genome microarrays, such as Affymetrix GeneChips, allow for molecular characterization of the disease response at a genomics level and characterization of differences in gene expression due to natural variation.  Differences in the level of gene expression, or expression level polymorphisms (ELPs), can be mapped in a segregating population to identify regulatory quantitative trait loci (expression QTLs, e-QTLs) affecting host resistance responses.  We assessed Arabidopsis accessions Bayreuth-0 (Bay-0) and Shahdara (Sha) for natural variation in the response to JA.  We treated vegetatively grown plants with either JA or a control solution (Silwet), and harvested the plants 4, 28, or 52 hours after chemical treatment.  We present Affymetrix GeneChip microarray expression data for 2 biological replications of the control (Silwet) samples for Bay-0 and Sha.  These GeneChips were used to generate genetic markers which allowed the development of high-density haplotype maps of a Bay-0 x Sha RIL population.							
+Protocol Name	P-TABM-131	P-TABM-103	P-TABM-132	Affymetrix:Protocol:Hybridization-EukGE-WS2v4_450	P-AFFY-6	Affymetrix:Protocol:ExpressionStat		
+Protocol Type	grow	nucleic_acid_extraction	labeling	hybridization	feature_extraction	bioassay_data_transformation		
+Protocol Description	Seeds of Arabidopsis thaliana accessions Bay-0 and Sha were obtained from ABRC through TAIR (www.arabidopsis.org).  A factorial experiment was conducted with two biological replicates of the two accessions.  For each biological replicate , multiple plants (~50) per accession were grown in a growth chamber under short day conditions (8 hr light at 100-120 microEinsteins, 20 degrees C day/20 degrees C night) to maintain plants in the vegetative phase for six weeks.  The growth chambers used a combination of metal halide, mercury vapor, and incandescent lamps. Plants were watered with half-strength Hoagland's solution.  JA and/or Silwet treatment: Six-week-old plants were sprayed with 0.10 mM JA (jasmonic acid, Sigma-Aldrich, St. Louis, MO, USA)  in 0.02% Silwet L77 to run-off, and control plants were sprayed with 0.02% Silwet L77, a surfactant (Lehle Seeds, Round Rock, TX, USA), alone.  Due to the volatile nature of JA, treated and control plants were placed in separate growth chambers after chemical treatment.  Vegetative leaves from plants from each combination of accession and treatment were harvested at 4, 28, and 52 hours post-treatment, and quick-frozen in liquid nitrogen for subsequent RNA extractions. Three plants per accession were bulked for each treatment/time point combination. Each plant was harvested only once. To avoid diurnal variation in gene expression, the time points were 24 hrs apart and harvesting was always performed over a 30 minute period at the same time of day (1:00 PM). ONLY THE SILWET TREATED CONTROL SAMPLES ARE INCLUDED IN THIS SUBMISSION, BECAUSE ONLY THE CONTROL MICROARRAYS WERE USED FOR THIS EXPERIMENT TO DERIVE GENETIC MARKERS.	RNA was extracted from the bulked plants using TRIzol as per the manufacturers protocol (Invitrogen, Carlsbad, CA, USA), followed by purification on RNeasy columns (Qiagen, Valencia, CA, USA).	cDNA synthesis was conducted according to the manufacturers guidelines in the GeneChip Expression Analysis Technical Manual 701021 rev1 (Affymetrix, Santa Clara, CA, USA).  Biotin labeling was conducted using an Affymetrix IVT labeling kit.	Title: Affymetrix EukGE-WS2v4_450 Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 		
+Protocol Parameters								
+Protocol Hardware								
+Protocol Software					MicroArraySuite 5.0	MicroArraySuite 5.0		
+Protocol Contact								
+Protocol Term Source REF				mo				
+SDRF File	E-TABM-60.sdrf.txt							
+Term Source Name	ncbitax	ArrayExpress	The MGED Ontology	mo	EFO			
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/			
+Term Source Version								

@@ -1,0 +1,57 @@
+Comment[ArrayExpressAccession]	E-GEOD-28297							
+Public Release Date	2012-08-01							
+Investigation Title	Expression data from WT (Columbia) and pifq (pif1pif3pif4pif5) mutant Arabidopsis seedlings							
+Comment[Submitted Name]	Expression data from WT (Columbia) and pifq (pif1pif3pif4pif5) mutant Arabidopsis seedlings							
+Experiment Description	Plants respond to changes in the red:far red ratio (R:FR) of incident light. A reduction in this ratio (increase in FR) results in the Shade Avoidance Response (SAR) with associated changes in gene expression. The Phyotchrome-Interacting Factors (PIFs) are bHLH transcription factors known to be involved in the SAR. An analysis of changes in gene expression in WT and quadruple pif1pif3pif4pif5 (pifq; Leivar et al., 2008 (PMID 19920208)) mutant seedlings in response to  an increase in FR should identify primary targets of PIF signaling. We used microarrays to examine the SAR in WT (Columbia) and pifq mutant Arabidopsis seedlings. Arabidopsis WT and pifq mutant seeds were plated on GM medium without sucrose at room temperature. During this procedure, the seeds were routinely exposed to white light (WL) for a total of 1.5 hours after imbibition. Seeds were then stratified for 5 days at 4ºC in darkness, and then grown in WL (19 umol/m2/s, R/FR ratio of 6.48) for 2 days at 21°C (WL0 samples). Two-day-old WL-grown seedlings were then maintained in the same fluence rate of WL supplemented with far-red light (WL-FR, R/FR ratio of 0.006) for 1 (FR1), 3 (FR3) or 24 (FR24) hours before harvesting. Control seedlings were also maintained in parallel in the same fluence rate of WL for 24h (WL24) before harvesting. Three different biological replicates of each treatment were grown separately and extracted, processed, and analyzed independently.							
+Date of Experiment								
+Term Source Name	EFO							
+Term Source Version								
+Term Source File	http://www.ebi.ac.uk/efo/efo.owl							
+Person Last Name	tepperman	Leivar	Tepperman	Quail				
+Person First Name	james	Pablo	James	Peter				
+Person Mid Initials	m							
+Person Email	jmtepp@berkeley.edu							
+Person Affiliation	Plant Gene Expression Center/UC Berkeley							
+Person Phone	510-559-5935							
+Person Fax	510-559-5678							
+Person Address	Plant and Microbial Biology, Plant Gene Expression Center/UC Berkeley, 800 Buchanan St., Albany, CA, USA							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Person Roles Term Accession Number								
+Normalization Type								
+Normalization Term Accession Number								
+Normalization Term Source REF								
+Replicate Type								
+Replicate Term Accession Number								
+Replicate Term Source REF								
+Experimental Design								
+Experimental Design Term Accession Number								
+Experimental Design Term Source REF								
+Quality Control Type								
+Quality Control Term Accession Number								
+Quality Control Term Source REF								
+Protocol Name	P-GSE28297-1	P-GSE28297-6	P-GSE28297-3	P-GSE28297-8	P-GSE28297-7	P-GSE28297-2	P-GSE28297-4	P-GSE28297-5
+Protocol Description	ID_REF = <br>VALUE = Log2 GC-RMA signal intensity	Standard Affymetrix procedures.	Arabidopsis wild-type (WT) and pifq mutant (Leivar et al., 2008) seeds were plated on GM medium without sucrose at room temperature. During this procedure, the seeds were routinely exposed to white light (WL) for a total of 1.5 hours after imbibition. Seeds were then stratified for 5 days at 4�C in darkness, and then grown in WL (19 μmol/m2/s, R/FR ratio of 6.48) for 2 days at 21�C.	BioConductor software (RMA) to normalize and correct background on all the data.	Standard Affymetrix procedures.	No subsequent light treatment (WL0) (R:FR = 6.48); WL + FR (R:FR=0.006) for 1h (FR1); WL + FR (R:FR=0.006) for 3h (FR3); WL + FR (R:FR=0.006) for 24h (FR24); 24h WL continuous, R:FR=6.48 (WL24).	Total RNA was extracted from ~400 mg (fw) tissue using the method of Chang et al. (Chang S, Puryear J & Cairney J (1993) Plant Mol. Biol. Rep. 11, 113-116), followed by further purification using Qiagen RNeasy columns.	Standard Affymetrix procedures.
+Protocol Software								
+Protocol Hardware								
+Protocol Contact								
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Protocol Term Source REF								
+Protocol Term Accession Number								
+Experimental Factor Name	time	light	genotype					
+Experimental Factor Type	time	light	genotype					
+Experimental Factor Term Source REF								
+Experimental Factor Term Accession Number								
+Publication Title	Dynamic antagonism between phytochromes and PIF family basic helix-loop-helix factors induces selective reciprocal responses to light and shade in a rapidly responsive transcriptional network in Arabidopsis.							
+Publication Author List	Leivar P, Tepperman JM, Cohn MM, Monte E, Al-Sady B, Erickson E, Quail PH							
+PubMed ID	22517317							
+Publication DOI	10.1105/tpc.112.095711							
+Publication Status								
+Publication Status Term Source REF								
+Publication Status Term Accession Number								
+Comment[SecondaryAccession]	GSE28297							
+Comment[GEOLastUpdateDate]	2012-08-01							
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[GEOReleaseDate]	2012-07-31							
+Comment[ArrayExpressSubmissionDate]	2011-03-30							
+SDRF File	E-GEOD-28297.sdrf.txt							

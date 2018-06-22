@@ -1,0 +1,57 @@
+Comment[ArrayExpressAccession]	E-GEOD-23846							
+Public Release Date	2011-02-15							
+Investigation Title	Expression data from siliques of wild type and AtHb1-overexpressing plants under moderate hypoxia and standard conditions							
+Comment[Submitted Name]	Expression data from siliques of wild type and AtHb1-overexpressing plants under moderate hypoxia and standard conditions							
+Experiment Description	Non-symbiotic hemoglobins are ubiquitously expressed proteins known to interact with nitric oxide, an inhibitor of mitochondrial respiration and an important signalling component. We evaluated the underlying molecular mechanisms of AtHb1 (also referred as AtGLB1 or AHb1) function, its effects on stress response and the interplay with nitric oxide. For this purpose, AtHb1 was overexpressed in Arabidopsis thaliana under control of the seed-specific promoter LeB4. We performed comparative transcriptome analysis of developing siliques from wild type (WT, Col-0) and transgenic plants subjected to control and moderate hypoxic conditions. The experimental design was used to analyze the underlying molecular mechanisms of AtHb1 function and to assess differences in the hypoxic response between WT and AtHb1-overexpressing seeds/siliques. Hypoxic and control (normoxic) treatment was carried out with complete transgenic (T3) and WT plants 45 days after germination (DPG). Plants were aerated with a gas mixture containing 10.5% oxygen or ambient gas containing 21% oxygen for control samples in darkness. After one hour, plants were decapitated, immediately frozen in liquid nitrogen, and siliques were dissected in liquid nitrogen for RNA extraction and hybridization to Affymetrix microarrays. Hypoxic and control treatment runs with WT and AtHb1-overexpressing plants were repeated twice to provide 3 biological replicates (total number of samples = 12).							
+Date of Experiment								
+Term Source Name	EFO							
+Term Source Version								
+Term Source File	http://www.ebi.ac.uk/efo/efo.owl							
+Person Last Name	Thiel	Thiel	Rolletschek					
+Person First Name	Johannes	Johannes	Hardy					
+Person Mid Initials								
+Person Email	thielj@ipk-gatersleben.de							
+Person Affiliation	IPK-Gatersleben							
+Person Phone	+49-017625559537							
+Person Fax								
+Person Address	IPK-Gatersleben, Corrensstrasse 3, Gatersleben, Germany							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Person Roles Term Accession Number								
+Normalization Type								
+Normalization Term Accession Number								
+Normalization Term Source REF								
+Replicate Type								
+Replicate Term Accession Number								
+Replicate Term Source REF								
+Experimental Design								
+Experimental Design Term Accession Number								
+Experimental Design Term Source REF								
+Quality Control Type								
+Quality Control Term Accession Number								
+Quality Control Term Source REF								
+Protocol Name	P-GSE23846-1	P-GSE23846-6	P-GSE23846-3	P-GSE23846-8	P-GSE23846-7	P-GSE23846-2	P-GSE23846-4	P-GSE23846-5
+Protocol Description	ID_REF = <br>VALUE = RMA-normalized expression values	After fragmentation, cRNA was hybridized to GeneChip Arabidopsis ATH1 Genome Array according to Affymetrix standard protocol at RZPD. Gene Chips were washed and stained using fluidics protocol EUKGE-WS2V4_450.	Plants were grown at 22°C under 16/8-h photoperiod, a relative air humidity of 60% and an approximate light intensity of 100-150 µmol photons m-2 second-1.	Data were processed with the Affymetrix MicroArray Suite software package (MAS 5.0) and analyzed using Bioconductor packages in R. Data were normalized using the Robust Multi-array Average (RMA) method.	GeneChips were scanned using the GeneChip Scanner 3000 (Affymetrix).	Complete plants (45 DPG) were aerated with a gas mixture containing 10.5% oxygen (composed of a 1:1 mixture of ambient gas and N2) or ambient gas containing 21% oxygen for control samples in darkness for 1 hour. Plants were decapitated and immediately frozen in liquid nitrogen. About 70-80 siliques were dissected in liquid nitrogen for one biological replicate.	Total RNA was isolated from siliques using GENTRA kit (Biozym, Germany) according to the manufacturer´s instructions. RNA was further purified using RNeasy Kit (Quiagen) and subjected to DNAse digestion (Quiagen) according to the manufacturer´s instructions.	Biotinylated cRNA was prepared according to the standard Affymetrix protocol from 2 ug total RNA (Expression Analysis Technical Manual, Affymetrix) at the RZPD Deutsches Ressourcenzentrum für Genomforschung GmbH (Berlin, Germany).
+Protocol Software								
+Protocol Hardware								
+Protocol Contact								
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_acquisition	specified_biomaterial_action	nucleic_acid_extraction	labelling
+Protocol Term Source REF								
+Protocol Term Accession Number								
+Experimental Factor Name	growth condition	genotype						
+Experimental Factor Type	growth condition	genotype						
+Experimental Factor Term Source REF								
+Experimental Factor Term Accession Number								
+Publication Title	Seed-specific elevation of non-symbiotic hemoglobin AtHb1: beneficial effects and underlying molecular networks in Arabidopsis thaliana							
+Publication Author List	Thiel J, Rolletschek H, Friedel S, Lunn JE, Nguyen TH, Feil R, Tschiersch H, Müller M, Borisjuk L							
+PubMed ID	21406103							
+Publication DOI	10.1186/1471-2229-11-48							
+Publication Status								
+Publication Status Term Source REF								
+Publication Status Term Accession Number								
+Comment[SecondaryAccession]	GSE23846							
+Comment[GEOLastUpdateDate]	2011-02-15							
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[GEOReleaseDate]	2011-02-15							
+Comment[ArrayExpressSubmissionDate]	2010-08-26							
+SDRF File	E-GEOD-23846.sdrf.txt							

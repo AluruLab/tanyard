@@ -1,0 +1,25 @@
+Comment[ArrayExpressAccession]	E-GEOD-57044
+MAGE-TAB Version	1.1						
+Public Release Date	2014-10-01
+Investigation Title	HIRA regulate Arabidopsis dedifferentiation process						
+Comment[Submitted Name]	HIRA regulate Arabidopsis dedifferentiation process
+Experiment Description	Plant development is characterised by the capacity to reprogram differentiated cells to initiate asexual reproduction and to produce new organs such as lateral roots. To test whether HIRA could be involved in aspects of developmental reprogramming we studied the effect of HIRA during de-differentiation Arabidopsis root tissue was digested with enzyme to generate protoplast. This process would induce plant cell dedifferentiation. Experiments were performed in WT and hira background to understand how hira affect plant dedifferentiation process.						
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Berger	Berger	Nie	Wang	Li	Holec	
+Person First Name	Frederic	Frederic	Xin	Haifeng	Jing	Sarah	
+Person Email	geo@ncbi.nlm.nih.gov						
+Person Affiliation	Temasek Lifesciences Laboratory						
+Person Address	Chromatin & Reproduction, Temasek Lifesciences Laboratory, 1 research link, NUS, Singapore, Singapore						
+Person Roles	submitter						
+Protocol Name	P-GSE57044-1	P-GSE57044-5	P-GSE57044-6	P-GSE57044-2	P-GSE57044-3	P-GSE57044-4	P-GSE57044-7
+Protocol Description	GCRMA normalization ID_REF =  VALUE = normalized data using median transformation	Affymetrix 3'-IVT kit	Affymetrix 3'-IVT kit	Enzyme digestion	Seeds were treated at 4°C for 4 days. MS plates were placed vertically in chamber for root growth	QIAGEN Rneasy Kit	Affymetrix 3'-IVT kit
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	GENOME TYPE	ORGANISM PART					
+Experimental Factor Type	genome type	organism part					
+Comment[SecondaryAccession]	GSE57044						
+Comment[GEOReleaseDate]	2014-10-01						
+Comment[ArrayExpressSubmissionDate]	2014-04-24						
+Comment[GEOLastUpdateDate]	2014-10-01						
+Comment[AEExperimentType]	transcription profiling by array						
+SDRF File	E-GEOD-57044.sdrf.txt

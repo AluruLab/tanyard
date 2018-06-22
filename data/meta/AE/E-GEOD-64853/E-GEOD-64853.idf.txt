@@ -1,0 +1,30 @@
+Comment[ArrayExpressAccession]	E-GEOD-64853
+MAGE-TAB Version	1.1												
+Public Release Date	2015-04-23
+Investigation Title	High REDOX RESONSIVE TRANSCRIPTION FACTOR1 levels result in accumulation of reactive oxygen species in Arabidopsis thaliana shoots and roots [mature leaves]												
+Comment[Submitted Name]	High REDOX RESONSIVE TRANSCRIPTION FACTOR1 levels result in accumulation of reactive oxygen species in Arabidopsis thaliana shoots and roots [mature leaves]
+Experiment Description	Redox Responsive Transcription Factor1 (RRTF1) in Arabidopsis is rapidly and transiently upregulated by H202, as well as biotic and abiotic induced redox signals. Inactivation of RRTF1 restricts and overexpression promotes reactive oxygen species (ROS) accumulation in response to stress. Overexpressor (oe) lines are impaired in root and shoot development, light sensitive and susceptible to Alternaria brassicae infection. These symptoms are diminished by the beneficial root endophyte Piriformospora indica which reduces ROS accumulation locally in roots and systemically in shoots, and by antioxidants and ROS inhibitors which scavenge ROS. More than 850 stress-, redox-, ROS regulated-, ROS scavenging-, defense-, cell death- and senescence-related genes are regulated by RRTF1, ~ 30% of them have ROS related functions. Bioinformatic analyses and in vitro DNA binding assays demonstrate that RRTF1 binds to GCC-box and GCC-box like sequences in the promoter of RRTF1-responsive genes. Upregulation of RRTF1 by stress stimuli as well as H2O2 requires WRKY18/40/60. RRTF1 is co-regulated with the phylogenetically related RAP2.6, which contains GCC-box like sequene in its promoter, but RAP2.6 oe lines do not accumulate higher ROS levels. RRTF1 stimulates systemic ROS accumulation in distal non-stressed leaves. We conclude that the highly conserved RRTF1 rapidly, transiently and systemically induce ROS accumulation in response to ROS and ROS-producing abiotic and biotic stress signals. Necrotrophs stimulate RRTF1 expression, while symbiotic interactions of Arabidopsis with (hemi)-biotrophs and P. indica do not affect or repress RRTF1 expression. Mature leaves of 5 weeks-old Col-0 wild type and RRTF1-overexpressor Arabidopsis (called oe18), which were grown on soil under short-day condition at 20˚C, were subjected to RNA extraction and Affymetrix microarray analysis. Three biological independent experiments for both Col-0 and oe18 were performed.												
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl											
+Person Last Name	Matsuo	Matsuo	Johnson	Hieno	Tokizawa	Nomoto	Tada	Godfrey	Obokata	Sherameti	Yamamoto	Böhmer	Oelmüller
+Person First Name	Mitsuhiro	Mitsuhiro	Joy	Ayaka	Mutsutomo	Mika	Yasuomi	Rinesh	Junichi	Irena	Yoshiharu	Frank	Ralf
+Person Mid Initials			M									D	
+Person Email	amat0072000@yahoo.co.jp												
+Person Affiliation	Kyoto Prefectural University												
+Person Address	Graduate School of Life and Environmental Sciences, Kyoto Prefectural University, 1-5 Hangi-cho, Shimogamo, Sakyoku, Kyoto, Japan												
+Person Roles	submitter												
+Protocol Name	P-GSE64853-1	P-GSE64853-5	P-GSE64853-6	P-GSE64853-2	P-GSE64853-3	P-GSE64853-4	P-GSE64853-7						
+Protocol Description	Summarized probe set signals were calculated by using Microarray Suite version 5.0 (MAS 5.0) with the Affymetrix GeneChip Expression Console Software. ID_REF =  VALUE = MAS5.0 signal intensity ABS_CALL =  DETECTION P-VALUE = 	Biotinylated cRNA were prepared according to the manufacturer's instruction (GeneChip Expression Analysis Technical Manual, Affymetrix).	Hybridization of cRNA on Affymetrix Arabidopsis ATH1 Genome Array [ATH1-121501] were performed according to the manufacturer's instruction.	Mature leaves were harvested.	Seedlings of wild-type and transgenic plant were grown on MS medium in the presence of 1.37% sucrose under continuous medium-light condition (80 µmol m-2s-1) at 20˚C for 2 weeks. And then, they were transferred to pots containing garden-soil including vermiculite and were further grown under short-day condition with the medium-light intensity at 20˚C for 3 weeks.	Total RNA was isolated from the mature leaves using RNeasy Plant Mini Kit (Qiagen)	Sample processing was performed at an Affymetrix Service Provider and Core Facility, “KFB - Center of Excellence for Fluorescent Bioanalytics” (Regensburg, Germany; www.kfb-regensburg.de).						
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol						
+Experimental Factor Name	genotype												
+Experimental Factor Type	genotype												
+Publication Title	High REDOX RESPONSIVE TRANSCRIPTION FACTOR1 levels result in accumulation of reactive oxygen species in Arabidopsis thaliana shoots and roots.												
+Publication Author List	Matsuo M, Michal Johnson J, Hieno A, Tokizawa M, Nomoto M, Tada Y, Godfrey R, Obokata J, Sherameti I, Yamamoto YY, Bï¿½hmer FD, Oelmï¿½ller R												
+PubMed ID	25882345												
+Publication DOI	10.1016/j.molp.2015.03.011												
+Comment[SecondaryAccession]	GSE64853												
+Comment[GEOReleaseDate]	2015-04-23												
+Comment[ArrayExpressSubmissionDate]	2015-01-09												
+Comment[GEOLastUpdateDate]	2015-04-23												
+Comment[AEExperimentType]	transcription profiling by array												
+SDRF File	E-GEOD-64853.sdrf.txt

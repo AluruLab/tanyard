@@ -1,0 +1,51 @@
+Investigation Title	Transcription profiling of Arabidopsis accessions treated with saline or salicylic acid - expression Level Polymorphism Project (ELP) - Est				
+Comment[Submitted Name]	Expression Level Polymorphism Project (ELP) - Est				
+Experimental Design	unknown_experiment_design_type	transcription profiling by array			
+Experimental Design Term Source REF		EFO			
+Comment[AEExperimentType]	transcription profiling by array				
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis Est after treatment with salicylic acid				
+Comment[AEMIAMESCORE]	4				
+Comment[ArrayExpressReleaseDate]	2008-06-14				
+Comment[SecondaryAccession]	GSE5754				
+Comment[ArrayExpressAccession]	E-GEOD-5754				
+Comment[MAGETAB TimeStamp_Version]	2010-08-06 17:45:55 Last Changed Rev: 13058				
+Experimental Factor Name	COMPOUND				
+Experimental Factor Type	compound				
+Experimental Factor Term Source REF					
+Person Last Name	(NASC)				
+Person First Name	Nottingham Arabidopsis Stock Centre				
+Person Mid Initials					
+Person Email	affy@arabidopsis.info				
+Person Phone					
+Person Fax					
+Person Address	School of Biosciences, University of Nottingham, Nottingham Arabidopsis Stock Centre (NASC), Sutton Bonington Campus, Loughborough, LE12 5RD, United Kingdom				
+Person Affiliation	Nottingham Arabidopsis Stock Centre (NASC)				
+Person Roles	submitter				
+Person Roles Term Source REF					
+Quality Control Type					
+Quality Control Term Source REF					
+Replicate Type					
+Replicate Term Source REF					
+Normalization Type					
+Normalization Term Source REF					
+Date of Experiment					
+Public Release Date	2008-06-14				
+PubMed ID					
+Publication DOI					
+Publication Author List					
+Publication Title					
+Publication Status					
+Publication Status Term Source REF					
+Experiment Description	This experiment was donated by The ELP Project website at elp.ucdavis.edu that was supported in part by the Arabidopsis 2010 project, NSF Division of Molecular and Cellular Biosciences, award 0115109. The study of natural genetic variation for plant disease resistance responses is a complementary approach to utilizing mutants to elucidate genetic pathways. While some key genes involved in pathways controlling disease resistance, and signaling intermediates such as salicylic acid and jasmonic acid, have been identified through mutational analyses, the use of genetic variation in natural populations permits the identification of change-of-function alleles, which likely act in a quantitative manner. Whole genome microarrays, such as Affymetrix GeneChips, allow for molecular characterization of the disease response at a genomics level and characterization of differences in gene expression due to natural variation. Differences in the level of gene expression, or expression level polymorphisms (ELPs), can be mapped in a segregating population to identify regulatory quantitative trait loci (expression QTLs) affecting host resistance responses. In order to identify an appropriate RIL population to map QTL controlling disease resistance responses, we performed a parental survey of 7 different Arabidopsis accessions. We treated vegetatively grown plants with either salicylic acid or a control solution, and harvested the plants at 3 different time points after chemical treatment. We present Affymetrix GeneChip microarray expression data for 3 biological replications of this parental survey. Experiment Overall Design: 18 samples were used in this experiment				
+Protocol Name	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6			
+Protocol Type	hybridization	feature_extraction			
+Protocol Description	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 			
+Protocol Parameters					
+Protocol Hardware					
+Protocol Software	MicroArraySuite 5.0	MicroArraySuite 5.0			
+Protocol Contact					
+Protocol Term Source REF	mo				
+SDRF File	E-GEOD-5754.sdrf.txt				
+Term Source Name	NCBI Taxonomy	The MGED Ontology	ArrayExpress	EFO	mo
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version					

@@ -1,0 +1,23 @@
+Comment[ArrayExpressAccession]	E-GEOD-58231
+MAGE-TAB Version	1.1					
+Public Release Date	2014-07-31
+Investigation Title	Expression data of Arabidopsis overexpressing ERF96 gene					
+Comment[Submitted Name]	Expression data of Arabidopsis overexpressing ERF96 gene
+Experiment Description	Arabidopsis overexpressing ERF96 are more resistant against necrotrophic pathogen such as Botrytis cinerea. ERF96 is a member of the AP2/ERF superfamily of transcription factor. We used Microarray to determine which gene expressions are up-regulated due to an accumulation of ERF96 and to identify the putative direct target of this transcription factor. Microarray were performed from the RNA of a four-week old Arabidopsis overexpressing ERF96  and WT(col-0). RNA was extracted during three independant experiments					
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl				
+Person Last Name	Catinot	Catinot	Zimmerli			
+Person First Name	Jeremy	Jeremy	Laurent			
+Person Email	catinotjey@gmail.com					
+Person Affiliation	National Taiwan University					
+Person Address	Institue of plant biology, National Taiwan University, nÂ°1 sec 4 Roosevelt road, Taipei, Taipei, Taiwan					
+Person Roles	submitter					
+Protocol Name	P-GSE58231-1	P-GSE58231-4	P-GSE58231-5	P-GSE58231-2	P-GSE58231-3	P-GSE58231-6
+Protocol Description	The data were analyzed using Gene Spring GX11 software using Affymetrix default analysis settings and global scaling as normalization method. ID_REF =  VALUE = Normalized signal intensity	Biotinylated cRNA were prepared according to the standard Affymetrix protocol	Following fragmentation, 10 ug of cRNA were hybridized for 16 hr on GeneChip ATH1 Genome Array.	Plants were grown on soil plus perlite for four weeks on a daily 8h light/ 16h dark photoperiod at 22°C.	RNA of leaves was extracted using Trizol according to manufacturer's instructions	Gene chip were scanned with Affymetrix GeneChip® Scanner 3000
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Comment[SecondaryAccession]	GSE58231					
+Comment[GEOReleaseDate]	2014-07-31					
+Comment[ArrayExpressSubmissionDate]	2014-06-04					
+Comment[GEOLastUpdateDate]	2014-07-31					
+Comment[AEExperimentType]	transcription profiling by array					
+SDRF File	E-GEOD-58231.sdrf.txt

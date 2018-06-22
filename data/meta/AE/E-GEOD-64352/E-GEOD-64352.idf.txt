@@ -1,0 +1,26 @@
+Comment[ArrayExpressAccession]	E-GEOD-64352
+MAGE-TAB Version	1.1					
+Public Release Date	2015-01-05
+Investigation Title	AtNIGT1/HRS1 TARGET approach					
+Comment[Submitted Name]	AtNIGT1/HRS1 TARGET approach
+Experiment Description	This work studies the impact of AtNIGT1/HRS1-GR entrance in the nucleus upond DEX treatment in protoplasts. AtNIGT1/HRS1 TARGET. The whole procedure has been performed as previously described in Bargmann et al Mol Plant 2013. In brief, the protoplasts were transfected with the plasmid pBeaconRFP_GR-HRS1 that trigger the expression of HRS1 protein fused with the glucocorticoid receptor under control of CaMV35S promoter. Protoplasts were treated with 35µM cycloheximide (CHX) to inhibit translation and to select only direct target genes and 10µM dexamethasone (DEX) to induce HRS1-GR entry in the nucleus. Nitrate is maintained during the whole TARGET procedure. The Red Fluorescent Protein was used as marker selection for fluorescent-activated cell sorting (FACS) of successfully transformed protoplasts. RNA were extracted and amplified in order to be tested with ATH1 Affymetrix™ chips.					
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl				
+Person Last Name	Krouk	Medici	Marshall-Colon	Ruffel	Coruzzi	Krouk
+Person First Name	Gabriel	Anna	Amy	Sandrine	Gloria	Gabriel
+Person Mid Initials					M	
+Person Email	geo@ncbi.nlm.nih.gov					
+Person Affiliation	CNRS					
+Person Address	Biology, CNRS, 2 Place Pierre Viala, Montpellier, France					
+Person Roles	submitter					
+Protocol Name	P-GSE64352-1	P-GSE64352-4	P-GSE64352-5	P-GSE64352-2	P-GSE64352-3	P-GSE64352-6
+Protocol Description	Mas5 [R] ID_REF =  VALUE = Mas5 [R] signal	GeneChip 3'IVT Express Kit (Affymetrix)	Affymetrix recommendation	Protoplasts are from NO3- treated roots	TRIzol reagent	Affymetrix recommendation
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	protocol					
+Experimental Factor Type	protocol					
+Comment[SecondaryAccession]	GSE64352					
+Comment[GEOReleaseDate]	2015-01-05					
+Comment[ArrayExpressSubmissionDate]	2014-12-19					
+Comment[GEOLastUpdateDate]	2015-01-06					
+Comment[AEExperimentType]	transcription profiling by array					
+SDRF File	E-GEOD-64352.sdrf.txt

@@ -1,0 +1,45 @@
+Comment[ArrayExpressAccession]	E-GEOD-16964										
+Public Release Date	2009-07-07										
+Investigation Title	"Iron-deficiency-induced changes in wild type, ubc13A and cucumber CsUBC13 overexpressed Arabidopsis thaliana roots"										
+Comment[Submitted Name]	"Iron-deficiency-induced changes in wild type, ubc13A and cucumber CsUBC13 overexpressed Arabidopsis thaliana roots"										
+Experiment Description	"CsUBC13 was identified via proteomics from iron starvation treated Cucumber root. ubc13A is an ABRC seed stock (CS51269). CS851269 was purchased from ABRC and confirmed as homozygous Atubc13A knock-out T-DNA mutant. We generated transgenic arabidopsis with ectopic expression of CsUBC13 gene under control of the cauliflower 35S promotor. Both genotypes and Col-0 were used to investigate the transcriptional response to Iron (Fe) deficiency. Wild type Col-0, ubc13A and transgenic overexpressor OE were grown under normal and iron-deficiency conditions. Roots were collected with 3 biological replicates."										
+Date of Experiment											
+Term Source Name	EFO										
+Term Source Version											
+Term Source File	http://bar.ebi.ac.uk:8080/trac/browser/branches/curator/ExperimentalFactorOntology/ExFactorInOWL/currentrelease/eforelease/efo.owl										
+Person Last Name	Schmidt	Li	Lin								
+Person First Name	Wolfgang	Wenfeng	Chungwen								
+Person Mid Initials											
+Person Email	wosh@gate.sinica.edu.tw										
+Person Affiliation	Academia Sinica										
+Person Phone	-3065										
+Person Fax											
+Person Address	"Institute of Plant and Microbial Biology, Academia Sinica, No. 128, Sec 2, Academia Rd, Nankang, Taipei, Taiwan"										
+Person Roles	submitter										
+Person Roles Term Source REF											
+Person Roles Term Accession Number											
+Experimental Design	transcription profiling by array  										
+Experimental Design Term Accession Number	EFO_0002768										
+Experimental Design Term Source REF	EFO										
+Quality Control Type											
+Quality Control Term Accession Number											
+Quality Control Term Source REF											
+Protocol Name	P-GSE16964-1	P-GSE16964-6	P-GSE16964-10	P-GSE16964-9	P-GSE16964-5	P-GSE16964-3	P-GSE16964-2	P-GSE16964-8	P-GSE16964-4	P-GSE16964-11	P-GSE16964-7
+Protocol Description	ID_REF = <br>VALUE = MAS5 normalized signal intensity<br>ABS_CALL = <br>DETECTION P-VALUE = 	Array was scanned with the Affymetrix GeneChip Scanner 7G.	Array was scanned using the Affymetrix GeneChip Scanner 7G.	Ten micrograms of labeled samples were hybridized to the ATH1 Genome Array at 45℃ for 16.5 h. Washing and staining involved Fluidics Station-450 and the ATH1 Genome Array.	Ten microgram labeled samples were hybridized to the ATH1 Genome Array at 45℃ for 16.5 h. Washing and staining involved Fluidics Station-450 and the ATH1 Genome.	Total RNA was extracted using the Qiagen RNeasy mini kit.	"10-day old seedlings were transferred to ES (+Fe) and ES without addition of FeEDTA (–Fe) medium, respectively. Tissues were harvested and immediately frozen in liquid nitrogen 3 days after the transfer."	"Ten micrograms of total RNA was used for cDNA synthesis and labeled by in vitro transcription followed by fragmentation according to the manufacturer's suggestion (GeneChip Expression Analysis Technical Manual rev5, Affymetrix)."	"Ten microgram of total RNA was used for cDNA synthesis, labeled by in vitro transcription, followed by fragmentation according to the manufacturer's suggestion (GeneChip Expression Analysis Technical Manual rev5, Affymetrix)."	The results were quantified and analyzed by use of MicroArray Suite 5.0 software (Affymetrix Inc.).	The results were quantified and analyzed by use of MicroArray Suite 5.0 software (Affymetrix Inc.)
+Protocol Software											
+Protocol Hardware											
+Protocol Contact											
+Protocol Type	bioassay_data_transformation	image_aquisition	image_aquisition	hybridization	hybridization	nucleic_acid_extraction	grow	labeling	labeling	feature_extraction	feature_extraction
+Protocol Term Source REF											
+Protocol Term Accession Number											
+Experimental Factor Name	growth condition	genotype									
+Experimental Factor Type	growth condition	genotype									
+Experimental Factor Term Source REF											
+Experimental Factor Term Accession Number											
+Comment[SecondaryAccession]	GSE16964										
+Comment[GEOLastUpdateDate]	2011-03-01										
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for ubc13A or expressing cucumber CsUBC13 under the control of the 35S promoter after iron deprivation										
+Comment[AEExperimentType]	transcription profiling by array										
+Comment[GEOReleaseDate]	2009-07-06										
+Comment[ArrayExpressSubmissionDate]	2009-07-05										
+SDRF File	E-GEOD-16964.sdrf.txt										

@@ -1,0 +1,58 @@
+Comment[ArrayExpressAccession]	E-GEOD-28446							
+Public Release Date	2011-04-08							
+Investigation Title	Expression data from Arabidopsis mature siliques							
+Comment[Submitted Name]	Expression data from Arabidopsis mature siliques							
+Experiment Description	"Analysis of the transcriptomes of nearly ripe siliques (18-19 DAP) of the rdo2-1, rdo3 and hub1-2 (rdo4) mutants in comparison with wild-type Ler, using Affymetrix GeneChip Arabidopsis ATH1 Genome Array. The experiment includes rdo2, rdo3, and rdo4 as well the Ler genotypes with three biological replicates for each. Therefore in total there are 12 arrays"							
+Date of Experiment								
+Term Source Name	EFO							
+Term Source Version								
+Term Source File	http://www.ebi.ac.uk/efo							
+Person Last Name	Carles	Liu	Carles	Li	Huettel	Soppe		
+Person First Name	Annaick	Yongxiu	Annaick	Yong	Bruno	Wim		
+Person Mid Initials						J		
+Person Email	geo@ncbi.nlm.nih.gov							
+Person Affiliation	University of Freiburg							
+Person Phone								
+Person Fax								
+Person Address	"University of Freiburg, Habsburgerstrasse 49 , Freiburg im Breisgau, Germany"							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Person Roles Term Accession Number								
+Normalization Type								
+Normalization Term Accession Number								
+Normalization Term Source REF								
+Replicate Type								
+Replicate Term Accession Number								
+Replicate Term Source REF								
+Experimental Design	genetic modification design							
+Experimental Design Term Accession Number								
+Experimental Design Term Source REF								
+Quality Control Type								
+Quality Control Term Accession Number								
+Quality Control Term Source REF								
+Protocol Name	P-GSE28446-1	P-GSE28446-6	P-GSE28446-3	P-GSE28446-8	P-GSE28446-7	P-GSE28446-2	P-GSE28446-4	P-GSE28446-5
+Protocol Description	ID_REF = <br>VALUE = GC-RMA signal intensity<br>DETECTION P-VALUE = 	"After fragmentation, 12.5 ug of cRNA were hybridized for 16 hr at 45 degrees Celsius on GeneChip ATH1 Genome Array. GeneChips were washed and stained with Fluidics Script FS450_004 in the Affymetrix Fluidics Station 450."	"Plants were grown on soil containing a mixture of substrate and vermiculite (3:1) in Elbanton growth cabinets (Elbanton BV, Kerkdriel, the Netherlands) under long day conditions (16 h light at 22oC and 8 h dark at 16oC)."	"Processing and statistical analysis of the microarray data were done in Expressionist Pro v5.1 (Genedata AG, Basel, Switzerland). We used the GC-RMA algorithm for background correction, normalization and probe summarization. Various quality metrics were examined to exclude quality problems."	GeneChips were scanned using the GeneChip Scanner 3000 7G.	Siliques were harvested from the plants at 18-19 days after pollination and immediately frozen until RNA extraction	"Extraction of RNA was performed using RNAqueous columns (Ambion, Austin, TX, USA)."	"Biotinylated cRNA was prepared according to the standard Ambion protocol from 1 ug total RNA (MessageAmp II-Biotin Enhanced Kit, 2008, Ambion)."
+Protocol Software								
+Protocol Hardware								
+Protocol Contact								
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Protocol Term Source REF								
+Protocol Term Accession Number								
+Experimental Factor Name	genotype							
+Experimental Factor Type	genotype							
+Experimental Factor Term Source REF								
+Experimental Factor Term Accession Number								
+Publication Title	Identification of the Arabidopsis REDUCED DORMANCY 2 gene uncovers a role for the polymerase associated factor 1 complex in seed dormancy.							
+Publication Author List	"Liu Y, Geyer R, van Zanten M, Carles A, Li Y, Hörold A, van Nocker S, Soppe WJ."							
+PubMed ID	21799800							
+Publication DOI	10.1371/journal.pone.0022241							
+Publication Status	published							
+Publication Status Term Source REF	EFO							
+Publication Status Term Accession Number	EFO_0001796							
+Comment[SecondaryAccession]	GSE28446							
+Comment[GEOLastUpdateDate]	2011-04-13							
+Comment[AEExperimentDisplayName]	"Transcription profiling by array of Arabidopsis mutant for rdo2, rdo3 or rdo4"							
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[GEOReleaseDate]	2011-04-07							
+Comment[ArrayExpressSubmissionDate]	2011-04-06							
+SDRF File	E-GEOD-28446.sdrf.txt							

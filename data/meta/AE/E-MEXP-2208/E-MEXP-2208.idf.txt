@@ -1,0 +1,34 @@
+Comment[ArrayExpressAccession]	E-MEXP-2208				
+Investigation Title	Transcription profiling of Scarecrow mutant Arabidopsis root-tips of 5-day-old plants to those of wildtype reveals an evolutionarily conserved mechanism delimiting SHR movement defines a single layer of endodermis in plants				
+Comment[Submitted Name]	An evolutionarily conserved mechanism delimiting SHR movement defines a single layer of endodermis in plants.				
+Publication Title	An Evolutionarily Conserved Mechanism Delimiting SHR Movement Defines a Single Layer of Endodermis in Plants				
+Publication Author List					
+Publication DOI					
+PubMed ID					
+Experimental Design	in_vivo_design	co-expression_design	individual_genetic_characteristics_design	transcription profiling by array	
+Experimental Design Term Source REF		The MGED Ontology		EFO	
+Comment[MIAMExpressLogin]	levesm				
+Comment[MIAMExpressSubmissionID]	5755				
+Experiment Description	Comparison of Scarecrow mutant Arabidopsis root-tips of 5-day-old plants to those of wildtype.				
+Experimental Factor Name	genotype				
+Experimental Factor Type	genotype				
+Person Last Name	Levesque				
+Person First Name	Mitch				
+Person Email	mitch@tuebingen.mpg.de				
+Person Phone	4.97072E+11				
+Person Affiliation	Max Planck Institute				
+Person Address	Genetics, Spemann Str. 35, T�bingen, BW, 72076, Germany				
+Person Roles	submitter				
+Person Roles Term Source REF	MGED Ontology				
+Quality Control Type	biological_replicate				
+Comment[QualityControlDescription]	3 biological replicates of wildtype and scarecrow mutant plants				
+Public Release Date	2009-06-04				
+Comment[ArrayExpressSubmissionDate]	2009-06-04				
+Protocol Name	P-MTAB-4400	P-MTAB-4401	P-MTAB-4402		
+Protocol Description	Total RNA was isolated from the frozen material using the Qiagen RNeasy kit (Valencia, California, United States). Probes for hybridization were then prepared from the total RNA according to standard Affymetrix protocol and hybridized on Affymetrix ATH1 microarray chip.<br>(Parameters: Extracted product = polyA_RNA, Amplification = none)	A mixed-model analysis of variance was performed to identify differentially expressed genes. In this approach, a global normalization step was applied to minimize general array-level effects by centering the mean of the log2-transformed values to zero for each array. Outlier probes with values greater than two standard deviations from the probe-set mean were then removed. Next, a mixed-model ANOVA was applied to the transformed and centered intensity values obtained from the global normalization step. respectively. The array effect Al(j) is assumed to be a normally distributed random effect. A standard error term ?jkl was also applied to this model. The output of this model is the mean expression value for every gene, based on the global model, as well as a p-value from the gene model for the probability of falsely rejecting the null hypothesis of no-differential expression (? = .05). The global and gene models were run on a Linux server with the statistical software SAS (version 8.2).	Arabidopsis thaliana lines in the Columbia (Col-0)ecotype were used. Seeds were surface-sterilized for 8 min in a 0.9% dichloroisocyanuric acid solution. The solution was prepared by adding 440 mg of dichloroisocyanuric acid dissolved in 5 ml of water to 45 ml of ethanol. The seeds were then washed twice in 95% ethanol and left to dry overnight. They were then germinated on plates containing 1� Murashige and Skoog salt mixture, 8.9 mM thiamine, 40.6 mM nicotinic acid, 2.4 mM pyrridoxin, 0.56 mM myo-inositol, 1% (w/v) sucrose, and 2.3 mM 2-( N-morpholino)ethanesulfonic acid (pH 5.8) in 1% agar. For the plants grown for the microarray experiments, a layer of nylon mesh (Sefar, 03�100/47) was added on top of the agar to facilitate transfer onto treatment media and/or root dissection.<br>(Parameters: time unit = seconds, temperature unit = C)		
+Protocol Type	nucleic_acid_extraction	bioassay_data_transformation	grow		
+Protocol Term Source REF	MGED Ontology	MGED Ontology	MGED Ontology		
+Term Source Name	MGED Ontology	ArrayExpress		The MGED Ontology	EFO
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress			
+SDRF File	E-MEXP-2208.sdrf.txt				
+Comment[AEExperimentType]	transcription profiling by array				

@@ -1,0 +1,26 @@
+Comment[ArrayExpressAccession]	E-GEOD-61104					
+MAGE-TAB Version	1.1					
+Public Release Date	2014-09-05					
+Investigation Title	Arabidopsis thaliana roots at 7DAG; ga1, ga1 scl3 (LOF) and ga1 SCL3 OE (GOF)					
+Comment[Submitted Name]	Arabidopsis thaliana roots at 7DAG; ga1, ga1 scl3 (LOF) and ga1 SCL3 OE (GOF)					
+Experiment Description	Transcriptional profiling in the root between ga1, ga1 scl3 and ga1 SCL3 OE.  We used Affymetrix ATH1 microarrays to determine the effect of GRAS transcription factor SCL3 and gibberellin on the growth and development of the Arabidopsis root system by global transcriptome analysis and to identify new regulators in the regulatory pathway. Three-condition experiments, ga1, ga1 scl3 and ga1 SCL3 OE. Biological triplicates: 3 ga1-3 , 3 ga1-3 scl3 and 3 ga1-3 SCL3 OE					
+Term Source Name	ArrayExpress	EFO				
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl				
+Person Last Name	Yoon	Lim	Yoon	Heo	Chang	
+Person First Name	Eun Kyung	Jun	Eun	Jung-Ok	Kwang	
+Person Mid Initials			K		S	
+Person Email	yek0827@konkuk.ac.kr					
+Person Affiliation	KonKuk University					
+Person Address	KonKuk University, 120 Neungdong-ro Gwangjin-gu, Seoul, South Korea					
+Person Roles	submitter					
+Protocol Name	P-GSE61104-1	P-GSE61104-4	P-GSE61104-5	P-GSE61104-2	P-GSE61104-3	P-GSE61104-6
+Protocol Description	The Microarray Suite version 5.0 (MAS 5.0) algorithm implemented in Affymetrix Expression Console software (version1.1) was used to normalize the raw data. To reduce noise for the significance analysis, probe sets that were called Present by the MAS5 detection call in 100% of the samples were selected.  Highly expressed genes that showed over 1.5-fold difference between the signal values of control and test samples were selected for further study. ID_REF =  VALUE = MAS5.0 signal intensity mas5-Detection =  mas5-Detection p-value = 	Biotinylated cDNA were prepared from 300 ng total RNA (GeneChip® 3â IVT Express Kit User Manual P/N 702646 Rev. 1, Affymetrix), according to the standard Affymetrix ATH1 microarray instructions.	Following fragmentation, fragmented cDNA were hybridized for 16 hr at 45°C on Affymetrix ATH1 GeneChip® Arabidopsis Genome Array. The GeneChips were washed and stained in the Affymetrix Fluidics Station 450.	plant were grown on MS medium under 16 h light/ 8 h dark cycle at 22°C	RNeasy plant mini kit (Qiagen), according to manufacturer's instructions	GeneChips were scanned using the Affymetrix GeneChip Scanner 3000 7G
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	genotype					
+Experimental Factor Type	genotype					
+Comment[SecondaryAccession]	GSE61104					
+Comment[GEOReleaseDate]	2014-09-05					
+Comment[ArrayExpressSubmissionDate]	2014-09-04					
+Comment[GEOLastUpdateDate]	2014-09-06					
+Comment[AEExperimentType]	transcription profiling by array					
+SDRF File	E-GEOD-61104.sdrf.txt					

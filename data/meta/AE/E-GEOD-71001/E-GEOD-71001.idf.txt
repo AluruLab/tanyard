@@ -1,0 +1,30 @@
+Comment[ArrayExpressAccession]	E-GEOD-71001						
+MAGE-TAB Version	1.1						
+Public Release Date	2015-09-02						
+Investigation Title	Crosstalk between two bZIP signaling pathways orchestrates salt-induced metabolic reprogramming in Arabidopsis roots						
+Comment[Submitted Name]	Crosstalk between two bZIP signaling pathways orchestrates salt-induced metabolic reprogramming in Arabidopsis roots						
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis roots treated with salt from bzip1, bzip53 double knockout						
+Experiment Description	Soil salinity increasingly causes crop losses worldwide. Although roots are the primary targets of salt stress, the signaling networks that facilitate metabolic reprogramming to induce stress tolerance are less understood than those in leaves. Here, a combination of transcriptomic and metabolic approaches was performed in salt-treated Arabidopsis thaliana roots, which revealed that the group S1 basic leucine zipper transcription factors bZIP1 and bZIP53 reprogram primary C- and N-metabolism. In particular, gluconeogenesis and amino acid catabolism are affected by these transcription factors. Importantly, bZIP1 expression reflects cellular stress and energy status in roots. In addition to the well-described abiotic stress response pathway initiated by the hormone abscisic acid (ABA) and executed by SnRK2 (Snf1-RELATED-PROTEIN-KINASE2) and AREB-like bZIP factors, we identify a structurally related ABA-independent signaling module consisting of SnRK1s and S1 bZIPs. Crosstalk between these signaling pathways recruits particular bZIP factor combinations to establish at least four distinct gene expression patterns. Understanding this signaling network provides a framework for securing future crop productivity. RNA from roots from Control and salt treated hydroponically grown seedlings were extracted and subjected to microarray analysis						
+Term Source Name	ArrayExpress	EFO					
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Hanson	Dröge-Laser	Hanson				
+Person First Name	Johannes	Wolfgang	Johannes				
+Person Email	johannes.hanson@umu.se						
+Person Affiliation	Umeå Plant Science Centre						
+Person Address	Plant Physiology, Umeå University, Umeå Plant Science Centre, KBC, Umea, Sweden						
+Person Roles	submitter						
+Protocol Name	P-GSE71001-1	P-GSE71001-5	P-GSE71001-6	P-GSE71001-2	P-GSE71001-3	P-GSE71001-4	P-GSE71001-7
+Protocol Description	Data were analysed statistically using the R language environment for statistical computing (http://www.r-project.org) version 2.9 and Bioconductor release 2.4 (Gentleman et al., 2004). Data were normalized using the Robust Multichip Average (RMA) expression measure in the Affy package (Gautier et al., 2004). Differentially expressed genes were identified using the LIMMA package. The obtained p-values were corrected for multiple testing errors using the BH procedure (Benjamini and Hochberg, 1995) and transferred to Microsoft Excel™. The probe set sequences were aligned to the TAIR9 gene model database of transcripts (www.arabidopsis.org). ID_REF =  VALUE = log2 RMA normalized probeset signal	Affymetrix OneCycle Lab protocols	Affymetrix OneCycle Lab protocols	Transcriptome analysis was performed on root material from hydroponically grown Col-0 WT and bzip1/bzip53 plants 1 h, 3 h, and 6 h after treatment with 150 mM NaCl.	Plants were cultured hydroponically (8/16 h day/night regime) according to (Gibeaut et al., 1997). Roots of 6-week-old plants were treated with 150 mM NaCl or equimolar concentrations of salts (KCl, MgSO4, Na2SO4) or mannitol, respectively (final osmolarity 0.25 mosM/l). To minimize the effect of circadian regulation, root material from salt-treated WT and mutant lines utilized for RT-qPCR and transcriptome studies was harvested simultaneously 1 h before the end of the light period.	RNAeasy, quiagen kit	Affymetrix OneCycle Lab protocols
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	genotype	compound	dose	time			
+Experimental Factor Type	genotype	compound	dose	time			
+Comment[SecondaryAccession]	GSE71001						
+Comment[GEOReleaseDate]	2015-09-02						
+Comment[ArrayExpressSubmissionDate]	2015-07-16						
+Comment[GEOLastUpdateDate]	2015-09-04						
+Comment[AEExperimentType]	transcription profiling by array						
+Pubmed ID	26276836						
+Publication DOI	10.1105/tpc.15.00163						
+Publication Title	Crosstalk between Two bZIP Signaling Pathways Orchestrates Salt-Induced Metabolic Reprogramming in Arabidopsis Roots						
+Publication Author List	Hartmann L, Pedrotti L, Weiste C, Fekete A, Schierstaedt J, Gottler J, Kempa S, Krischke M, Dietrich K, Mueller MJ, Vicente-Carbajosa J, Hanson J, Droge-Laser W						
+SDRF File	E-GEOD-71001.sdrf.txt						

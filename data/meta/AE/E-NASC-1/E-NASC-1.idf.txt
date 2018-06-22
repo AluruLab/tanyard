@@ -1,0 +1,48 @@
+Investigation Title	Transcription profiling of Arabidopsis glyoxylate cycle knock-out mutants in early stages of seedling development	
+Comment[Submitted Name]	Cornah: Transcriptome analysis of glyoxylate cycle knock-out mutants in early stages of seedling development	
+Experimental Design	genetic_modification_design	transcription profiling by array
+Experimental Design Term Source REF	mo	EFO
+Comment[ArrayExpressReleaseDate]	2005-02-16	
+Comment[AEMIAMESCORE]	4	
+Comment[ArrayExpressAccession]	E-NASC-1	
+Comment[MAGETAB TimeStamp_Version]	2010-08-11 19:08:04 Last Changed Rev: 13058	
+Experimental Factor Name	StrainOrLine	
+Experimental Factor Type	strain_or_line	
+Experimental Factor Term Source REF		
+Person Last Name	Cornah	
+Person First Name	Johanna	
+Person Mid Initials		
+Person Email	Johanna.Cornah@ed.ac.uk	
+Person Phone	+44 (0)131 6505316	
+Person Fax	0131 6505392
+Person Address	"Institute of Cell and Molecular Biology, University of Edinburgh, King's Buildings, Mayfield Road, Edinburgh, EH9 3JR, UK "
+Person Affiliation	University of Edinburgh
+Person Roles	investigator;biomaterial_provider;submitter
+Person Roles Term Source REF	mo
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2005-02-16
+PubMed ID	
+Publication DOI	
+Publication Author List	
+Publication Title																	
+Publication Status																	
+Publication Status Term Source REF																	
+Experiment Description	"We aim to assess changes in gene expression in the early stages of seedling growth in glyoxylate cycle enzyme knock-outs. The analysis has two clear goals: firstly to discover those genes (and hence enzymes) whose expression changes markedly when a major switch in the pathway of seed lipid mobilisation is imposed, and secondly to use information from metabolome analysis in the same mutants, to discover the impact of well-defined changes in endogenous metabolites on the transcriptome.In wild type seedlings at approximately 2 days post-imbibiton, glyoxylate cycle activity reaches a peak associated with the mobilisation of lipid reserves for the growth of the developing seedling. We have isolated KOs in two enzymes unique to the glyoxylate cycle: malate synthase (ms) and isocitrate lyase (icl). The mutants have a visible seedling phenotype only in the absence of sugar and/or (high) light. Surprisingly, these mutants are able to mobilise their lipid reserves,  apparently via a switch from glyoxylate cycle and gluconeogenesis to respiration (Eastmond et al. 2000, PNAS 97: 5669-5674). Transcriptomic analysis will allow us to establish what changes take place in expression of key genes involved in respiration and gluconeogenesis when the glyoxylate cycle is blocked in the KOs. This will in turn provide insights into the pathways of metabolism operating in these plants.In addition we are already in the process of having these mutants analysed by the GARNet metabolomics facility to quantitate changes in organic acids, amino acids and sugars. The use of the transcriptomics facility in parallel will allow us to determine how specific changes in metabolite levels affect the expression of genes involved in carbon and nitrogen metabolism, as well as in seedling development as a whole. One major strength of our approach is that both ms and icl mutants are blocked in the glyoxylate cycle and so will result in many common changes to the metabolome, but each may produce novel changes in specific metabolites which might allow correlation with specific changes in the transcriptome. The joint analysis of metabolome and transcriptome data will be carried out in collaboration with members of our School of Informatics.Whole seedlings will be grown in vitro and harvested 2 days after transfer of imbibed seed to continuous light, and used for RNA extraction. This corresponds to Principle Growth Stage 0.7 in the convention of Boyes et al. (Plant Cell 13; 1499-1510, 2001). Each mutant has a specific wild type control (Columbia in one case and Ws in the other) giving four RNA samples in total."																
+Protocol Name	NASCGrowProt:236	NASCGrowProt:216	NASCGrowProt:215	NASCGrowProt:233	NASCGrowProt:239	NASCGrowProt:235	NASCGrowProt:238	NASCGrowProt:237	NASCGrowProt:240	NASCGrowProt:217	NASCGrowProt:214	NASCGrowProt:234	NASCExtractProtocol:3	NASCLabelProtocol:1	Affymetrix:Protocol:Hybridization-EukGE-WS2v4	Affymetrix:Protocol:Percentile	Affymetrix:Protocol:ExpressionStat
+Protocol Type													nucleic_acid_extraction	labeling	hybridization	feature_extraction	bioassay_data_transformation
+Protocol Description													Protocol: Seedlings harvested and snap-frozen in liquid nitrogen and RNA extracted as described in the Qiagen RNAeasy kit. 	"RNA samples were quality controlled using the Agilent 2100 Bioanalyzer. 100 pmol T7-(dT)24 primer (5'-GGCCAGTGAATTGTAATACGACTCACTATAGGGAGGCGG-(dT)24-3')  was hybridized with the Total RNA ( 8 - 12ug) at 70ÃÂ°C for 10 minutes.  First strand cDNA was synthesized by reverse transcription using 400 units SuperScript II Reverse Transcriptase in a reaction containing 50 mM Tris-HCl (pH 8.3), 75 mM KCl, 3 mM MgCl2, 10 mM dithiothreitol (DTT) and 0.5 mM dNTPs at 42C for 1 hour.  The reaction was then put on ice for 2 mins, followed by second strand cDNA synthesis.  130ul of the second strand reaction mix was added to the 20ul  first strand synthesis reaction. The second strand reaction mix  contained 40 units E. coli DNA polymerase I, 10 units E. coli DNA ligase, 2 units  E. coli RNase H and 0.2 mM dNTPs in a buffer containing 20 mMTris-HCl (pH 6.9), 90 mM KCl, 4.6 mM MgCl2, 10mM (NH4)SO4 and 0.15 mM ÃÂ-NAD+. The reaction was incubated at 16 C for 2 hours.  10 units T4 DNA Polymerase was added and the reaction incubated for a further 5 minutes at 16 C, then the reaction was terminated using EDTA.  The double-stranded cDNA was cleaned up using the cDNA Cleanup Spin Column supplied in the Affymetrix GeneChip Sample Cleanup Module.  The double-stranded cDNA was used as a template for in Vitro transcription of biotin-labeled cRNA using the ENZO BioArray RNA Transcript Labeling Kit supplied by Affymetrix.  The Transcript Labeling kit produces large amounts of hybridizable biotin-labeled RNA targets by in Vitro transcription from bacteriophage T7 RNA polymerase promoters.  The reaction mixture containing Biotin-Labeled ribonucleotides (ATP, GTP, CTP, UTP with Bio-UTP and Bio-CTP), DTT, RNase inhibitor mix and T7 RNA polymerase was incubated at 37 C for 5 hrs, gently mixing every 30 minutes during the incubation. This produced an average of 40ug biotin-labeled cRNA . The biotin-labeled cRNA  was cleaned up using the cRNA Cleanup Spin Column supplied in the Affymetrix GeneChip Sample Cleanup Module.  The quantity and quality of the cRNA was measured using the Agilent 2100 Bioanalyzer. The total amount of cRNA was calculated, the starting quantity of RNA subtracted to give the quantity of adjusted cRNA.  The cRNA was fragmented by metal-induced hydrolysis to break down full-length cRNA to 35-200 base fragments.  15ug of adjusted cRNA was used to prepare 300ul of hybridization cocktail of which 200ul was hybridized with the GeneChip."	Title: Fluidics Station Protocol. Description: 	Title: Affymetrix CEL Analysis (Percentile). Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 
+Protocol Parameters	Stratification;Medium;Lighting;Temperature;Atmosphere;Location;	Atmosphere;Location;Temperature;Lighting;Medium;Stratification;	Stratification;Location;Medium;Lighting;Temperature;Atmosphere;	Stratification;Medium;Atmosphere;Location;Lighting;Temperature;	Location;Atmosphere;Medium;Stratification;Temperature;Lighting;	Medium;Stratification;Temperature;Lighting;Location;Atmosphere;	Stratification;Location;Medium;Lighting;Temperature;Atmosphere;	Lighting;Temperature;Atmosphere;Location;Stratification;Medium;	Location;Temperature;Atmosphere;Medium;Lighting;Stratification;	Lighting;Medium;Stratification;Location;Atmosphere;Temperature;	Temperature;Lighting;Location;Atmosphere;Medium;Stratification;	Location;Stratification;Lighting;Medium;Atmosphere;Temperature;					
+Protocol Hardware																	
+Protocol Software															MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 5.0
+Protocol Contact																	
+Protocol Term Source REF																	The MGED Ontology
+SDRF File	E-NASC-1.sdrf.txt																
+Term Source Name	ncbitax		ArrayExpress	mo	EFO	The MGED Ontology											
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html		http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php											
+Term Source Version																	

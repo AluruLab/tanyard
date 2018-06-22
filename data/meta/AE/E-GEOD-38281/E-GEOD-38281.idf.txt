@@ -1,0 +1,31 @@
+Comment[ArrayExpressAccession]	E-GEOD-38281						
+MAGE-TAB Version	1.1						
+Public Release Date	2014-05-26						
+Investigation Title	Expression data from leafminer-damaged Arabidopsis thaliana						
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis leaves with localised or systemic damage by leafminer Liriomyza huidobrensis						
+Comment[Submitted Name]	Expression data from leafminer-damaged Arabidopsis thaliana						
+Experiment Description	"Plants have developed a complicated resistance system, and they exhibit various defense patterns in response to different attackers. However, the determine factors of plant defense patterns are still not clear. Here, we hypothesized that damage patterns of plant attackers play an important role in determining the plant defense patterns. To test this hypothesis, we selected leafminer, which has a special feeding pattern more similar to pathogen damage than chewing insects, as our model insect, and Arabidopsis thaliana as the response plants. The local and systemic responses of Arabidopsis thaliana to leafminer feeding were investigated using the Affymetrix ATH1 genome array. Damaged leaves of Arabidopsis thaliana for local damage analysis and the intact leaves on the same plant for systemic damage analysis were separately frozen by liquid nitrogen. Then, we used an Affymetrix ATH1 Arabidopsis microarray to study the expression changes pattern of Arabidopsis thaliana to pea leafminers damage, both locally (LI) and systemically (SI). We downloaded data from the web database and used hierarchical clustering to explore the relationships of Arabidopsis thaliana expression pattern to different kinds of attackers."						
+Term Source Name	ArrayExpress	EFO					
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Zhang	Kang	Zhang				
+Person First Name	Sufang	Le	Sufang				
+Person Email	wavingsnow@ustc.edu						
+Person Affiliation	"Research Institute of Forest Ecology, Environment and Protection, Chinese Academy of Forestry"						
+Person Phone	86-10-62888896						
+Person Address	"Research Institute of Forest Ecology, Environment and Protection, Chinese Academy of Forestry, No.2 Dong Xiao Fu, Wan Shou Shan, Haidian District, Beijing, China"						
+Person Roles	submitter						
+Protocol Name	P-GSE38281-1	P-GSE38281-5	P-GSE38281-6	P-GSE38281-2	P-GSE38281-3	P-GSE38281-4	P-GSE38281-7
+Protocol Description	"The data were analyzed with Microarray Suite version 5.0 (MAS 5.0) using Affymetrix default analysis settings and global scaling as normalization method. The trimmed mean target intensity of each array was arbitrarily set to 100. ID_REF =  VALUE = MAS5.0-calculated signal intensity ABS_CALL = indicating whether the transcript was present (P), absent (A), or marginal (M) DETECTION P-VALUE = p-value that indicates the significance level of the detection call"	"Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 6 ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix)."	"Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45C on the GeneChip Arabidopsis ATH1 Genome Array. GeneChips were washed and stained in the Affymetrix Fluidics Station 400."	"Mated L. huidobrensis adults were released on four-week-old Arabidopsis thaliana leaves for oviposition. The adults were removed within 4 h. When the leafminer grew to second instar larvae , the damaged leaves of Arabidopsis thaliana for local damage analysis and the intact leaves on the same plant for systemic damage analysis were separately frozen by liquid nitrogen."	"The seeds were surface-sterilized for 15 min in 10% bleach, washed five times with sterile water, and plated on half-strength Murashige and Skoog medium. Plants were stratified at 4 degrees C for 2 days in darkness and then transferred to an environmental chamber set at 22h with a 16-h-light/8-h-dark cycle (light intensity 120 mmol m-2 s-1). After 2 to 3 weeks, seedlings were also potted in a mixed potting medium of peat and vermiculite (1:2), and placed in a growth room at 22 degrees C with a 16-h-light/8-h-dark cycle (light intensity 120 mmol m-2 s-1)."	"Total RNAs were isolated using the Rneasy(r) Plant Mini Kit (Qiagen, Valencia, CA, USA) according to the manufacturer's instructions."	GeneChips were scanned using the Hewlett-Packard GeneArray Scanner G2500A.
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Publication Author List	"Sufang Zhang, Zhen Zhang and Le Kang"						
+Publication Title	Transcriptome response analysis of Arabidopsis thaliana to leafminer (Liriomyza huidobrensis)						
+PubMed ID	23231622						
+Publication DOI	10.1186/1471-2229-12-234						
+Experimental Factor Name	growth condition						
+Experimental Factor Type	growth condition						
+Comment[SecondaryAccession]	GSE38281						
+Comment[GEOReleaseDate]	2014-05-26						
+Comment[ArrayExpressSubmissionDate]	2012-05-26						
+Comment[GEOLastUpdateDate]	2014-05-27						
+Comment[AEExperimentType]	transcription profiling by array						
+SDRF File	E-GEOD-38281.sdrf.txt						

@@ -1,0 +1,49 @@
+Investigation Title	Transcription profiling of Arabidopsis Umkirch-1/Umkirch-3 hybrid plants grown at 23C and 16C in short day conditions								
+Comment[Submitted Name]	Umkirch1_Umkirch3_hybrids								
+Experimental Design	co-expression_design	growth_condition_design	transcription profiling by array						
+Experimental Design Term Source REF	mo	mo	EFO						
+Comment[ArrayExpressReleaseDate]	2007-07-11								
+Comment[AEMIAMESCORE]	4								
+Comment[ArrayExpressAccession]	E-ATMX-24								
+Comment[MAGETAB TimeStamp_Version]	2010-07-29 14:41:19 Last Changed Rev: 13058								
+Experimental Factor Name	ecotype	temperature							
+Experimental Factor Type	ecotype	temperature							
+Experimental Factor Term Source REF									
+Person Last Name	Bomblies								
+Person First Name	Kirsten								
+Person Mid Initials									
+Person Email	kirsten.bomblies@tuebingen.mpg.de								
+Person Phone	4970716011407								
+Person Fax									
+Person Address	Spemannstrasse 37-39								
+Person Affiliation	Molecular Biology								
+Person Roles	submitter								
+Person Roles Term Source REF	The MGED Ontology								
+Quality Control Type									
+Quality Control Term Source REF									
+Replicate Type									
+Replicate Term Source REF									
+Normalization Type									
+Normalization Term Source REF									
+Date of Experiment									
+Public Release Date	2007-07-11								
+PubMed ID	17803357								
+Publication DOI									
+Publication Author List	Bomblies, K.; Lempe, J.; Epple, P.; Warthmann, N.; Lanz, C.; Dangl, J.; Weigel, D.								
+Publication Title	Auto-immune response as a mechanism for a Bateson-Dobzhansky-Muller-type Incompatibility Syndrome in Plants								
+Publication Status									
+Publication Status Term Source REF									
+Experiment Description	Umkirch-1/Umkirch-3 hybrid plants and their parents were grown at 23SD and then shifted to 16SD for five days. 10 plants were pooled in each of three sample replicates.								
+Protocol Name	P-CAGE-25826	P-CAGE-25829	P-CAGE-25830	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6				
+Protocol Type	grow	nucleic_acid_extraction	labeling	hybridization	feature_extraction				
+Protocol Description	Plants were grown at 23C (short days) for 27 days, then shifted to 16C (short days). Shoot apices were harvested before shift and five days after shift. Short day = 8 hrs light, 16 hrs dark.	Total RNA was extracted using the Qiagen RNeasy plant kit.	1µg starting RNA was used. Probes were labeled using the Message Amp II Biotin kit (Ambion).	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 				
+Protocol Parameters	light source;light hours;light intensity;day humidity;day temperature;media;night humidity;night temperature;	Extracted product;Amplification;	Amount of nucleic acid labeled;Used Label;Amplification;						
+Protocol Hardware									
+Protocol Software				MicroArraySuite 5.0	MicroArraySuite 5.0				
+Protocol Contact									
+Protocol Term Source REF				mo					
+SDRF File	E-ATMX-24.sdrf.txt								
+Term Source Name	nasc		NCBI Taxonomy	Plant Ontology	The MGED Ontology	ArrayExpress	mo	EFO	The MGED Ontology
+Term Source File	http://arabidopsis.info/catalogue.html		http://www.ncbi.nlm.nih.gov/Taxonomy/	http://www.plantontology.org/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version									
+Comment[AEExperimentType]	transcription profiling by array								

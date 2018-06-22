@@ -1,0 +1,58 @@
+Comment[ArrayExpressAccession]	E-GEOD-17500							
+Public Release Date	2009-10-31							
+Investigation Title	Effect of auxin signaling on Pseudomonas syinrgae pv tomato DC3000 response							
+Comment[Submitted Name]	Effect of auxin signaling on Pseudomonas syinrgae pv tomato DC3000 response							
+Experiment Description	Expression data 24hrs after PstDC3000 inoculation in Col-0, 35S:AFB1 and 35S:miR393. We used microarrays to investigated the effect of auxin signaling on PstDC3000 response.  Keywords: Alexandre,Robert-Seilaniantz Plants were syringe infiltrated with 10^6cfu/ml of PstDc3000 or water. Leaves were harvested 24hrs after inoculation							
+Date of Experiment								
+Term Source Name	EFO							
+Term Source Version								
+Term Source File	http://efo.svn.sourceforge.net/viewvc/efo/trunk/src/efoinowl/efo.owl							
+Person Last Name	MacLean	MacLean	Jones					
+Person First Name	Daniel	Dan	Jonathan					
+Person Mid Initials			D					
+Person Email	dan.maclean@sainsbury-laboratory.ac.uk							
+Person Affiliation	The Sainsbury Laboratory							
+Person Phone	16033221297							
+Person Fax								
+Person Address	Bioinformatics, The Sainsbury Laboratory, Colney Lane, Norwich, United Kingdom							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Person Roles Term Accession Number								
+Normalization Type								
+Normalization Term Accession Number								
+Normalization Term Source REF								
+Replicate Type								
+Replicate Term Accession Number								
+Replicate Term Source REF								
+Experimental Design								
+Experimental Design Term Accession Number								
+Experimental Design Term Source REF								
+Quality Control Type								
+Quality Control Term Accession Number								
+Quality Control Term Source REF								
+Protocol Name	P-GSE17500-1	P-GSE17500-6	P-GSE17500-3	P-GSE17500-8	P-GSE17500-7	P-GSE17500-2	P-GSE17500-4	P-GSE17500-5
+Protocol Description	ID_REF = <br>VALUE = signal calculated by RMA	Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45C on Arabidopsis Genome ATH1 microarray. GeneChips were washed and stained in the Affymetrix Fluidics Station 400.	Plants were grown in short day environment (8hrs light/16 hrs dark) for 5 weeks at 20C.	background corrected using RMA, quantile normalized, values summarised by median-polish	GeneChips were scanned using the Affymetrix GeneChip® Scanner 3000	Leaves were inoculated with PstDc3000 at 10^6cfu/ml or with water. Tissues were harvested at 24hrs post inoculation	Trizol extraction according to the manufacturer instruction. The total RNA was then DNAse treated using the Qiagen DNAse. Purification was performed using the RNAeasy columns following the manufacturer instruction	Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 5ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+Protocol Software								
+Protocol Hardware								
+Protocol Contact								
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_acquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Protocol Term Source REF								
+Protocol Term Accession Number								
+Experimental Factor Name	genotype	infect						
+Experimental Factor Type	genotype	infect						
+Experimental Factor Term Source REF								
+Experimental Factor Term Accession Number								
+Publication Title	The microRNA miR393 re-directs secondary metabolite biosynthesis away from camalexin and towards glucosinolates							
+Publication Author List	Robert-Seilaniantz A, MacLean D, Jikumaru Y, Hill L, Yamaguchi S, Kamiya Y, Jones JD							
+PubMed ID	21457368							
+Publication DOI	10.1111/j.1365-313X.2011.04591.x							
+Publication Status								
+Publication Status Term Source REF								
+Publication Status Term Accession Number								
+Comment[SecondaryAccession]	GSE17500							
+Comment[GEOLastUpdateDate]	2009-08-04							
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis overexpressing miR393 or AFB1 under the control of the 35S promoter after infection with Pseudomonas syringae pv. tomato DC3000							
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[GEOReleaseDate]	2009-11-01							
+Comment[ArrayExpressSubmissionDate]	2009-08-03							
+SDRF File	E-GEOD-17500.sdrf.txt							

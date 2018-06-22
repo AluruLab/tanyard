@@ -1,0 +1,29 @@
+Comment[ArrayExpressAccession]	E-GEOD-80461
+MAGE-TAB Version	1.1						
+Public Release Date	2016-05-31
+Investigation Title	Expression data from 29-day old Arabidopsis plants						
+Comment[Submitted Name]	Expression data from 29-day old Arabidopsis plants
+Experiment Description	Metal oxide engineered nanoparticles, which are widely used in diverse applications, are known to impact terrestrial plants. These nanoparticles have a potential to induce changes in plant tissue transcriptomes,  and thereby the productivity. Here we looked at how the two commonly used nanoparticles, nano-titania (TiO2) and nano-ceria (CeO2) can impact the underlying mechanisms associated plant growth at genome level. We used microarrays to detail the global programme of gene expression underlying various physiological processes associated with growth and development, and identified distinct classes of up-regulated genes during this process. 29  day old Arabidopsis plants were selected for RNA extraction from roots and rosette leaves, followed by hybridization on Affymetrix microarrays. Arabidopsis plants  were  exposed twice during the germination stage (Days 0 and 4), and once during the primary rosette stage (Day 17), to 500mg/L concentration of nano-titania and nano-ceria,  followed by extraction of RNA from 29-day old plant tissues (roots and rosette leaves) for Microarray analysis. 0.1mM KCl was used as control for nano-titania, whereas sterilized millipore water was used as control for nano-ceria.						
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Tumburu	Tumburu					
+Person First Name	Laxminath	Laxminath					
+Person Email	geo@ncbi.nlm.nih.gov						
+Person Affiliation	National Institutes of Health						
+Person Address	National Institutes of Health, 9000 Rockville Pike, Bethesda, MD, USA						
+Person Roles	submitter						
+Protocol Name	P-GSE80461-1	P-GSE80461-5	P-GSE80461-6	P-GSE80461-2	P-GSE80461-3	P-GSE80461-4	P-GSE80461-7
+Protocol Description	Raw scanning data files (Affymetrix.cel) were obtained using Affymetrix GeneChip Operating Software, v1.4, and then files were analyzed by Bioconductor SimpleAffy to assess data quality.  Data were normalized by quantile normalizationÂ and gene calls were generated using a robust multichip average algorithm. ID_REF =  VALUE = Log 2 value of normalized signal intensity	Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 15 ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).	Following fragmentation, quality of cRNA was evaluated on 2100 bionanalyzer, and hybridized for overnight at 45Â°C to Affymetrix ATH1 GeneChips in an Affymetrix Model 640 GeneChip hybridization oven. GeneChips were washed and stained in the Affymetrix Fluidics Station 400.	For microarray analysis (n=3), nanoparticle suspensions were prepared at 0 (control) and 500 mg ENPs L-1 using 0.1 M KCl and millipore water, for nano-titania and nano-ceria, respectively. Suspensions were indirectly sonicated for 30 min. The pH was adjusted to 5.4. Mean physical particle sizes in stock suspensions and diluted suspensions were similar to (nano-titania) or smaller than (nano-ceria) sizes indicated by the manufacturer. In all cases, particle sizes ranged from approximately10 nm to a small cohort exceeding 50 nm. For microarray analysis (n=3), plants were exposed by watering from above with control solution or the ENP treatment suspensions twice during the seed germination stage (Day 0-4) and for a third time during the primary rosette stage (Day 17).	Arabidopsis thaliana wild-type ecotype Columbia (Col-0) seeds (Lehle Seeds) were surface-sterilized with 70 % (v/v) ethanol, further sterilized in 50 % (v/v) household bleach, and then washed four times with sterile water. Seeds were stratified (4 Â°C for 8 h) and then placed on the surface of Arabidopsis potting media (PM-15-13, Lehle Seeds) contained in pots (5.7 cm diameter; 5.7 cm height). Pots were kept in a growth chamber for seed germination and plant growth (22 Â°C, light 100 Î¼mol m-2 s-1, photoperiod 16 h/8 h light/dark).	TRIzolÂ® extraction of total RNA was performed according to the manufacturer's (Life Technlogies, Inc) instructions.	Arrays were washed and stained using an Affymetrix 450 fluidics station as per the manufacturer and then scanned on an Affymetrix Model 3000 scanner
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	organism part						
+Experimental Factor Type	organism part						
+Publication Title	Molecular and physiological responses to titanium dioxide and cerium oxide nanoparticles in arabidopsis.						
+Publication Author List	Tumburu L, Andersen CP, Rygiewicz PT, Reichman JR						
+PubMed ID	27212052						
+Publication DOI	10.1002/etc.3500						
+Comment[SecondaryAccession]	GSE80461						
+Comment[GEOReleaseDate]	2016-05-31						
+Comment[ArrayExpressSubmissionDate]	2016-04-20						
+Comment[GEOLastUpdateDate]	2016-06-02						
+Comment[AEExperimentType]	transcription profiling by array						
+SDRF File	E-GEOD-80461.sdrf.txt

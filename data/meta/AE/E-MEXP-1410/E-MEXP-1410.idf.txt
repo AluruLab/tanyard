@@ -1,0 +1,48 @@
+Investigation Title	Transcription profiling of Arabidopsis wild type and msh1 mutant plants	
+Comment[Submitted Name]	Single mutant msh1	
+Experimental Design	replicate_design	co-expression_design	genetic_modification_design	transcription profiling by array	
+Experimental Design Term Source REF	mo	mo	mo	EFO	
+Comment[AEMIAMESCORE]	5	
+Comment[ArrayExpressReleaseDate]	2009-07-01	
+Comment[ArrayExpressAccession]	E-MEXP-1410	
+Comment[MAGETAB TimeStamp_Version]	2010-08-09 21:38:00 Last Changed Rev: 13058	
+Experimental Factor Name	genotype	
+Experimental Factor Type	genotype	
+Experimental Factor Term Source REF	
+Person Last Name	Mackenzie	
+Person First Name	Sally	
+Person Mid Initials	
+Person Email	smohammed2@unlnotes.unl.edu	
+Person Phone	402-472-6998	
+Person Fax	
+Person Address	N305 Beadle Center, 1901 Vine Street	
+Person Affiliation	Plant Science Initiative	
+Person Roles	submitter	
+Person Roles Term Source REF	The MGED Ontology	
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2009-07-01	
+PubMed ID	20139171	
+Publication DOI	20139171	
+Publication Author List	Shedge, Vikas; Davila, Jaime; Arrieta-Montiel, Maria P.; Mohammed, Saleem; Mackenzie, Sally A.	
+Publication Title	Extensive Rearrangement of the Arabidopsis Mitochondrial Genome Elicits Cellular Conditions for Thermo-tolerance	
+Publication Status	journal_article	
+Publication Status Term Source REF	The MGED Ontology	
+Experiment Description	Single mutant msh1	
+Protocol Name	P-MEXP-126219	P-MEXP-126127	P-AFFY-2	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6	Affymetrix:Protocol:ExpressionStat	
+Protocol Type	grow	nucleic_acid_extraction	labeling	hybridization	feature_extraction	bioassay_data_transformation	
+Protocol Description	Plants were grown at 8 hr day length at 24°C for 8 weeks and then transferred to 16 hr day length. 	Total RNA were extracted from 8-week-old wild type Col-0 plants and recA, msh1 and recArecA/msh1msh1 mutant plants using TRIzol (Invitrogen) extraction procedure followed by purification on RNeasy columns (Qiagen).	Title: Affymetrix in vitro transcription. Description: 	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 	
+Protocol Parameters	min temperature;stop time;start time;	Amplification;Extracted product;	
+Protocol Hardware	
+Protocol Software				MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact	
+Protocol Term Source REF				mo		The MGED Ontology	
+SDRF File	E-MEXP-1410.sdrf.txt	
+Term Source Name	NCBI Taxonomy		The MGED Ontology	ArrayExpress	mo	EFO	The MGED Ontology	
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version								

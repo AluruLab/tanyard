@@ -1,0 +1,58 @@
+Comment[ArrayExpressAccession]	E-GEOD-32672					
+Public Release Date	2011-10-06					
+Investigation Title	Identification of target genes of the NMD factor SMG7b					
+Comment[Submitted Name]	Identification of target genes of the NMD factor SMG7b					
+Experiment Description	Nonsense-mediated mRNA decay (NMD) is a conserved mRNA quality control mechanism that identifies and destroys aberrant mRNAs that contain premature termination codons (PTCs). The NMD core comprises seven proteins, from SMG1 to SMG7. Arabidopsis has orthologues of most of these proteins. Studies on yeast, Drosophila, Humans and Arabidopsis reveal that NMD not only functions to target PTC-containing mRNAs but also acts as a global regulator of gene expression. It has also been reported that the NMD pathway branches with some target genes being dependent on specific NMD factors. In order to determine the extent to which different NMD factors co-regulate or independently regulate Arabidopsis genes, transcriptome analysis of smg7b-1 mutants will be carried out and added to existent data of upf1, upf3 and smg5 NMD mutants for comparison. RNA will be extracted from 17 day-old mutant and wild type seedlings grown at 22-24 C under constant light. 4 samples were used in this experiment					
+Date of Experiment						
+Term Source Name	EFO					
+Term Source Version						
+Term Source File	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Nottingham Arabidopsis Stock Centre (NASC)	Arciga-Reyes				
+Person First Name		Luis				
+Person Mid Initials						
+Person Email	affy@arabidopsis.info					
+Person Affiliation	Nottingham Arabidopsis Stock Centre (NASC)					
+Person Phone	+44 (0)115 951 3237					
+Person Fax	+44 (0)115 951 3297					
+Person Address	School of Biosciences, University of Nottingham, Nottingham Arabidopsis Stock Centre (NASC), Sutton Bonington Campus, Loughborough, United Kingdom					
+Person Roles	submitter					
+Person Roles Term Source REF						
+Person Roles Term Accession Number						
+Normalization Type						
+Normalization Term Accession Number						
+Normalization Term Source REF						
+Replicate Type						
+Replicate Term Accession Number						
+Replicate Term Source REF						
+Experimental Design						
+Experimental Design Term Accession Number						
+Experimental Design Term Source REF						
+Quality Control Type						
+Quality Control Term Accession Number						
+Quality Control Term Source REF						
+Protocol Name	P-GSE32672-1	P-GSE32672-5	P-GSE32672-4	P-GSE32672-2	P-GSE32672-3	P-GSE32672-6
+Protocol Description	ID_REF = <br>VALUE = MAS5<br>ABS_CALL = <br>DETECTION P-VALUE = 	Scanned according to guidelines set out by Affymetrix, Santa Clara, CA.	Biotin Labelled cRNA using &quot;Affymetrix GeneChip Hybridization, Wash and Stain Kit&quot;, according to guidelines set out by Affymetrix, Santa Clara, CA	Qiagen RNAeasy kit protocol	Labelled using protocol described in manual &quot;Affymetrix GeneChip Expression Analysis Technical Manual&quot;, One-Cycle target labelling	Raw data from the microarrays was normalized at probe-level using MAS5 algorithm. The detection calls (present, marginal, absent) for each probe set was obtained using the GCOS system
+Protocol Software						
+Protocol Hardware						
+Protocol Contact						
+Protocol Type	bioassay_data_transformation	image_aquisition	hybridization	nucleic_acid_extraction	labeling	feature_extraction
+Protocol Term Source REF						
+Protocol Term Accession Number						
+Experimental Factor Name	GENOTYPE					
+Experimental Factor Type	genotype					
+Experimental Factor Term Source REF						
+Experimental Factor Term Accession Number						
+Publication Title						
+Publication Author List						
+PubMed ID						
+Publication DOI						
+Publication Status						
+Publication Status Term Source REF						
+Publication Status Term Accession Number						
+Comment[SecondaryAccession]	GSE32672					
+Comment[GEOLastUpdateDate]	2011-10-07					
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for smg7					
+Comment[AEExperimentType]	transcription profiling by array					
+Comment[GEOReleaseDate]	2011-10-05					
+Comment[ArrayExpressSubmissionDate]	2011-10-05					
+SDRF File	E-GEOD-32672.sdrf.txt					

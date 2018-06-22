@@ -1,0 +1,31 @@
+Comment[ArrayExpressAccession]	E-GEOD-33412
+MAGE-TAB Version	1.1							
+Public Release Date	2012-12-16
+Investigation Title	Genome-wide analysis of the BR response in msg2 and axr2							
+Comment[Submitted Name]	Genome-wide analysis of the BR response in msg2 and axr2
+Experiment Description	Although a wide range of interactions between BRs and auxin have been recognized,  knowledge about the direct molecular mechanism of interaction between them in specific physiological processes is very limited. In this study we found that auxin resisitent mutant msg2/iaa19 and arf7 were also resisitant to the BR effect on morphogenensis of dark-grown Arabidosis seedlings. Moreover, BR signaling transcription factor BZR1 can directly bind to promoter regions of IAA19 and ARF7. Microarray analysis revealed that a number of gene transcripts showed reduced BR response in msg2 and the control mutant axr2, suggesting the crucial role of IAA19 in mediating BR effects. Taken together, our results suggested that BRs regulate morphogenesis of dark-grown seedling by employing auxin signaling components IAA19 and ARF7. Four-day-old seedlings of WT, msg2 and axr2 grown on MS medium in the absence or presence of 24-eBL (100 nM) were used. Total RNA extraction and ATH1 microarray(Affymetrix) experiments were performend according to manufacturer’s protocols. Raw data were normalized by MAS 5.0 algorithm, Gene Spring Software 11.0. All experiments including two biological replicates and the Pearson correlation coefficient was analyzed to check the replicate quality.							
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl						
+Person Last Name	yi	Zhou	Xue					
+Person First Name	zhou	Xiao-Yi	Hong-Wei					
+Person Mid Initials	xiao							
+Person Email	zhouxy@sibs.ac.cn							
+Person Affiliation	Shanghai Institutes for Biological Science							
+Person Phone	021-54924062							
+Person Address	Shanghai Institutes for Biological Science, 300 fenglin Road, Shanghai, China							
+Person Roles	submitter							
+Protocol Name	P-GSE33412-1	P-GSE33412-6	P-GSE33412-3	P-GSE33412-8	P-GSE33412-7	P-GSE33412-2	P-GSE33412-4	P-GSE33412-5
+Protocol Description	ID_REF =  VALUE = log2 MAS5.0 signal intensity ABS_CALL =  DETECTION P-VALUE = 	Array hybridization and wash was performed using GeneChip� Hybridization,Wash and Stain Kit (Affymetrix, US) followed the manufacturer’s instructions	Sterilized seeds were germinated on medium containing 2% sucrose (w/v) and 0.8% agar (w/v). After cold (4℃) treatment for 3 days, seeds were germinated at 22℃ in light (16h light/8h dark cycles) for 8h then transferred to grown in the darkness for 4 days	Raw data were normalized by MAS 5.0 algorithm, Gene Spring Software 11.0 (Agilent technologies, US);The trimmed mean target intensity of each array was arbitrarily set to 100	Slides were scanned by GeneChip� Scanner 3000 (Affymetrix, US) and Command Console Software 3.1 (Affymetrix, US) with default settings	Seedlings were grown on MS medium with or without 100nM 24-eBL in the darkness for 4 days	Total RNA was extracted with RNeasy plant mini kit (Qiagen, Germany). RNA quality and quantity were tested by Agilent Bioanalyzer 2100 (Agilent technologies, US) and further purified by RNeasy micro kit (QIAGEN, Germany) and RNase-Free DNase Set (QIAGEN, Germany)	RNA were labled using biotin as described in the affymetrix technical manual (Affymetri, USA)
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Experimental Factor Name	TREATMENT	VARIATION						
+Experimental Factor Type	treatment	variation						
+Publication Title	Brassinosteroids Regulate the Differential Growth of Arabidopsis Hypocotyls through Auxin Signaling Components IAA19 and ARF7.							
+Publication Author List	Zhou XY, Song L, Xue HW							
+PubMed ID	23125315							
+Publication DOI	10.1093/mp/sss123							
+Comment[SecondaryAccession]	GSE33412							
+Comment[GEOReleaseDate]	2012-12-16							
+Comment[ArrayExpressSubmissionDate]	2011-11-02							
+Comment[GEOLastUpdateDate]	2012-12-20							
+Comment[AEExperimentType]	transcription profiling by array							
+SDRF File	E-GEOD-33412.sdrf.txt

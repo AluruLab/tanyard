@@ -1,0 +1,48 @@
+Investigation Title	Transcription profiling of elicitor treatment over time (0, 30, 60 min) in Arabidopsis Landsberg (wt) and fls2-17 (flagellin receptor mutant)	
+Comment[Submitted Name]	Boller T. A.thaliana elicitor treatment	
+Experimental Design	stimulus_or_stress_design	time_series_design	compound_treatment_design	transcription profiling by array	
+Experimental Design Term Source REF	mo	mo	mo	EFO	
+Comment[ArrayExpressReleaseDate]	2006-03-15	
+Comment[AEMIAMESCORE]	5	
+Comment[ArrayExpressAccession]	E-MEXP-547	
+Comment[MAGETAB TimeStamp_Version]	2010-08-11 15:03:41 Last Changed Rev: 13058	
+Experimental Factor Name	compound	genotype	time	
+Experimental Factor Type	compound_treatment_design	genotype	time	
+Experimental Factor Term Source REF	
+Person Last Name	Kunze	
+Person First Name	Gernot	
+Person Mid Initials	U	
+Person Email	gernot.kunze@unibas.ch	
+Person Phone	+41523549190	
+Person Fax	+41523549219	
+Person Address	Experimental Station Eschikon 33	
+Person Affiliation	Institute of Plant Science, ETH Zurich	
+Person Roles	submitter	
+Person Roles Term Source REF		
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2006-03-15	
+PubMed ID	16713565	
+Publication DOI	16713565	
+Publication Author List	Cyril Zipfel, Gernot Kunze, Delphine Chinchilla, Anne Caniard, Jonathan D.G. Jones, Thomas Boller and Georg Felix	
+Publication Title	Perception of the Bacterial PAMP EF-Tu by the Receptor EFR Restricts Agrobacterium-Mediated Transformation	
+Publication Status	journal_article	
+Publication Status Term Source REF	
+Experiment Description	Transcriptional changes upon elicitor treatment over time (0, 30, 60 min) have been analysed with the A.thaliana Landsberg (wt) and fls2-17 (flagellin receptor mutant).	
+Protocol Name	P-MEXP-16934	P-MEXP-16928	P-MEXP-16931	P-MEXP-16935	Affymetrix:Protocol:Hybridization-EukGE-WS2v4	P-AFFY-6	Affymetrix:Protocol:ExpressionStat	
+Protocol Type	specified_biomaterial_action	grow	nucleic_acid_extraction	labeling	hybridization	feature_extraction	bioassay_data_transformation	
+Protocol Description	After a 48-hour treatment at 4 C, A. thaliana Landsberg erecta (Ler-0) and fls2-17 seeds were grown for 12 days on plates containing 1x MS medium (Duchefa), 1% sucrose and 1% agar under continuous light conditions of 60 uE m-2 sec-1 (Biolux lamps) at 22 C. Seedlings were then transferred to liquid MS medium (two seedlings per 500 ul of medium in wells of 24-well-plates). Two days after transfer the medium was supplied with peptide to a final concentration of 10 uM. Plantlets were collected 30/60 min after treatment, frozen in liquid nitrogen and stored at -80 C. 	After a 48-hour treatment at 4 C, A. thaliana Landsberg erecta (Ler-0) and fls2-17 seeds were grown for 12 days on plates containing 1x MS medium (Duchefa), 1% sucrose and 1% agar under continuous light conditions of 60 uE m-2 sec-1 (Biolux lamps) at 22 C. Seedlings were then transferred to liquid MS medium (two seedlings per 500 ul of medium in wells of 24-well-plates). Two days after transfer the medium was supplied with peptides to a final concentration of 10 uM. Plantlets were collected 30/60 min after treatment, frozen in liquid nitrogen and stored at -80 C. 	Total RNA was prepared using TRIZOL reagent (Life Technologies) and purified on RNeasy Miniprep columns (Qiagen) according to the manufacturers' instructions. 	10 ug of total RNA was reverse transcribed using the SuperScript Choice system for cDNA synthesis (Life Technologies) according to the protocol recommended by Affymetrix. The oligonucleotide used for priming was 5'-ggccagtgaattgtaatacgactcactatagggaggcgg-(t)24-3' (Genset Oligo). Double-stranded cDNA was cleaned by phenol:chloroform extraction and the aqueous phase removed by centrifugation through Phase-lock Gel (Eppendorf). In vitro transcription was performed on 1 ug of cDNA using the Enzo BioArray High Yield RNA transcript labelling kit (Enzo Diagnostics). The cRNA was cleaned using RNAeasy clean-up columns (Qiagen). The cRNA was fragmented by heating in 40 mM Tris-acetate pH 8.1, 100 mM KOAc, 30 mM MgOAc. 	Title: Fluidics Station Protocol. Description: 	Title: Affymetrix CEL analysis. Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 	
+Protocol Parameters		media;start time;stop time;	Extracted product;Amplification;	Label used;Amplification;	
+Protocol Hardware	
+Protocol Software					MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact	
+Protocol Term Source REF	mo						The MGED Ontology	
+SDRF File	E-MEXP-547.sdrf.txt	
+Term Source Name	mo		ncbitax	tair_dev:1.27	nasc	ArrayExpress	mo	EFO	The MGED Ontology	
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php		http://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html	http://www.arabidopsis.org/info/ontologies/	http://arabidopsis.info/catalogue.html	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version				1.27						

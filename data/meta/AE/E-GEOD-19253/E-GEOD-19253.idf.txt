@@ -1,0 +1,57 @@
+Comment[ArrayExpressAccession]	E-GEOD-19253
+Public Release Date	2010-07-09
+Investigation Title	Identification of genes regulated by NMD in Arabidopsis								
+Comment[Submitted Name]	Identification of genes regulated by NMD in Arabidopsis
+Experiment Description	The nonsense-mediated mRNA decay pathway (NMD) is a quality control mechanism that detects and degrades mRNAs that contain premature translation termination codons (PTCs), thus preventing the production of potentially harmful truncated proteins. NMD has been studied in a number of organisms including humans, yeast, Drosophila, C. elegans and recently Arabidopsis. Recently the NMD process has been shown to have a wider significance in regulating the levels of mRNA expression for a wide range of genes in yeast and Drosophila. Several genes have been found to be required for NMD in a variety of organisms, including UPF1 and UPF3. We have identified and characterised a number of alleles of UPF1 and UPF3 in Arabidopsis that are defective in NMD. By doing a transcriptomic analysis of two NMD mutants, upf1-1 and upf3-1, and wild type plants we aim to identify the subset of genes that are co-regulated by UPF1 and UPF3 and, therefore, by NMD in Arabidopsis. RNA will be extracted from 17-day-old mutant and wild type seedlings grown at 22-24 C under constant light. 7 samples were used in this experiment.								
+Date of Experiment									
+Term Source Name	EFO
+Term Source Version									
+Term Source File	http://efo.svn.sourceforge.net/viewvc/efo/trunk/src/efoinowl/efo.owl								
+Person Last Name	Nottingham Arabidopsis Stock Centre (NASC)	Arciga-Reyes							
+Person First Name		Luis							
+Person Mid Initials									
+Person Email	affy@arabidopsis.info								
+Person Affiliation	Nottingham Arabidopsis Stock Centre (NASC)								
+Person Phone	+44 (0)115 951 3237								
+Person Fax	+44 (0)115 951 3297								
+Person Address	School of Biosciences, University of Nottingham, Nottingham Arabidopsis Stock Centre (NASC), Sutton Bonington Campus, Loughborough, United Kingdom								
+Person Roles	submitter								
+Person Roles Term Source REF									
+Person Roles Term Accession Number									
+Normalization Type									
+Normalization Term Accession Number									
+Normalization Term Source REF									
+Replicate Type									
+Replicate Term Accession Number									
+Replicate Term Source REF									
+Experimental Design									
+Experimental Design Term Accession Number									
+Experimental Design Term Source REF									
+Quality Control Type									
+Quality Control Term Accession Number									
+Quality Control Term Source REF									
+Protocol Name	P-GSE19253-1	P-GSE19253-5	P-GSE19253-4	P-GSE19253-2	P-GSE19253-3	P-GSE19253-8	P-GSE19253-6	P-GSE19253-7	P-GSE19253-9
+Protocol Description	ID_REF = <br>VALUE = MAS5.0-calculated signal intensity<br>ABS_CALL = the call in an absolute analysis that indicates if the transcript was present (P), absent (A), or marginal (M)<br>DETECTION P-VALUE = p-value that indicates the significance level of the detection call	Scanned according to guidelines set out by Affymetrix, Santa Clara, CA.	Biotin Labelled cRNA using &quot;Affymetrix GeneChip Hybridization, Wash and Stain Kit&quot;, according to guidelines set out by Affymetrix, Santa Clara, CA	Qiagen RNAeasy kit protocol	Labelled using protocol described in manual &quot;Affymetrix GeneChip Expression Analysis Technical Manual&quot;, One-Cycle target labelling		Raw data from the microarrays was normalized at probe-level using MAS5 algorithm. The detection calls (present, marginal, absent) for each probe set was obtained using the GCOS system	Raw data from the microarrays was normalized at probe-level using MAS5 algorithm. The detection calls (present, marginal, absent) for each probe set was obtained using the GCOS system.	*** The CEL file for Sample GSM477814 is truncated. A complete CEL file was requested but not provided. ***
+Protocol Software									
+Protocol Hardware									
+Protocol Contact									
+Protocol Type	bioassay_data_transformation	image_aquisition	hybridization	nucleic_acid_extraction	labeling	feature_extraction	feature_extraction	feature_extraction	feature_extraction
+Protocol Term Source REF									
+Protocol Term Accession Number									
+Experimental Factor Name	GENOTYPE	STOCK CODE							
+Experimental Factor Type	genotype	stock code							
+Experimental Factor Term Source REF									
+Experimental Factor Term Accession Number									
+Publication Title									
+Publication Author List									
+PubMed ID									
+Publication DOI									
+Publication Status									
+Publication Status Term Source REF									
+Publication Status Term Accession Number									
+Comment[SecondaryAccession]	GSE19253								
+Comment[GEOLastUpdateDate]	2010-07-07
+Comment[AEExperimentType]	transcription profiling by array								
+Comment[GEOReleaseDate]	2010-07-08
+Comment[ArrayExpressSubmissionDate]	2009-12-02
+SDRF File	E-GEOD-19253.sdrf.txt

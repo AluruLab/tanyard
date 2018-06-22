@@ -1,0 +1,50 @@
+Investigation Title	Transcription profiling by array of Arabidopsis plants treated either with mock or menadione sodium bisulphite and sampled after 3, 6 and 24 hours						
+Comment[Submitted Name]	Arabidopsis treated with MSB						
+Experimental Design	tim series design	compound treatment design					
+Experimental Design Term Source REF	EFO	EFO					
+Comment[AEExperimentType]	transcription profiling by array						
+Comment[SecondaryAccession]							
+Comment[ArrayExpressReleaseDate]	2009-09-11						
+Comment[AEMIAMESCORE]	4						
+Comment[ArrayExpressAccession]	E-MEXP-1934						
+Comment[MAGETAB TimeStamp_Version]	2010-10-14 07:30:20 Last Changed Rev: 14677						
+Experimental Factor Name	time	compound	dose				
+Experimental Factor Type	time	compound	dose				
+Experimental Factor Term Source REF							
+Person Last Name	Tornero						
+Person First Name	Pablo						
+Person Mid Initials							
+Person Email	ptornero@ibmcp.upv.es						
+Person Phone	(+34)963879377						
+Person Fax							
+Person Address	Stress, Camino de Vera s/n, Valencia, Valencia, 46022, Spain						
+Person Affiliation	IBMCP (UPV-CSIC)						
+Person Roles	submitter						
+Person Roles Term Source REF							
+Quality Control Type							
+Quality Control Term Source REF							
+Replicate Type							
+Replicate Term Source REF							
+Normalization Type							
+Normalization Term Source REF							
+Date of Experiment							
+Public Release Date	2009-09-11						
+PubMed ID	19732380						
+Publication DOI	10.1111/j.1467-7652.2009.00439.x						
+Publication Author List	Borges AA, Dobon A, Expósito-Rodríguez M, Jiménez-Arias D, Borges-Pérez A, Casañas-Sánchez V, Pérez JA, Luis JC, Tornero P.						
+Publication Title	Molecular analysis of menadione-induced resistance against biotic stress in Arabidopsis.						
+Publication Status	published						
+Publication Status Term Source REF	EFO						
+Experiment Description	Arabidopsis plants were treated either with mock or MSB (0.2 mM of Menadione sodium bisulphite). <br>Tissue was sampled after 3, 6 and 24 hours.						
+Protocol Name	P-MTAB-2470	P-MTAB-2471	P-MTAB-2469	P-AFFY-2	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6	P-MTAB-2525
+Protocol Type	nucleic_acid_extraction	grow	specified_biomaterial_action	labeling	hybridization	feature_extraction	bioassay_data_transformation
+Protocol Description	Total RNA was isolated with Trizol (Invitrogen, San Diego, CA, USA) following the manufacturer's recommendation. Following extraction, an additional step of column purification with RNeasy Mini Kit (Qiagen, Valencia, CA, USA) was added to ensure the purity of the RNA.  <br>(Parameters: Extracted product = total_RNA, Amplification = none)	Plants of Arabidopsis thaliana, ecotype Col-0.<br><br>Seeds were sowed in soil and kept at 4 C for 2 days (stratification).<br><br>After stratification, the pots are transferred to growth conditions, in a walk-in chamber.<br><br>The conditions of grow are:<br><br>Light from 10 am to 6 pm, at 21 C<br><br>Dark from 6 pm to 10 am, at 19 C.<br><br>No humidity control.<br><br><br><br><br>(Parameters: time unit = seconds, temperature unit = C)	Plants of Arabidopsis growing in short day were treated at day 17th of growth. The treatment was applied with a conventional sprayer. For mock treatments, only distilled water was used. For MSB, 0.2 mM of Menadione sodium bisulphite (SIGMA M5750) was used. The treatments were done approximately 30 minutes after the start of the artificial day.	Title: Affymetrix in vitro transcription. Description: 	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	The normalization was done with the package "affy" of "R". The function used was "rma(Data)".
+Protocol Parameters							
+Protocol Hardware							
+Protocol Software					MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact							
+Protocol Term Source REF							
+SDRF File	E-MEXP-1934.sdrf.txt						
+Term Source Name	EFO						
+Term Source File	http://www.ebi.ac.uk/efo/						
+Term Source Version							

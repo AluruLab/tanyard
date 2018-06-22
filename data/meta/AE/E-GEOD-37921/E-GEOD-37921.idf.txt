@@ -1,0 +1,57 @@
+Comment[ArrayExpressAccession]	E-GEOD-37921
+Public Release Date	2012-05-14					
+Investigation Title	The effects of infection with wild-type or mutant cucumber mosaic virus on the Arabidopsis transcriptome					
+Comment[Submitted Name]	The effects of infection with wild-type or mutant cucumber mosaic virus on the Arabidopsis transcriptome
+Experiment Description	The cucumber mosaic virus (CMV) 2b counter-defense protein disrupts plant antiviral mechanisms mediated by RNA silencing and salicylic acid (SA). Using NASC ATH-1 microarrays to investigate defensive gene expression in 2b-transgenic Arabidopsis thaliana plants we found that, surprisingly, 2b inhibited expression of few SA-regulated genes and in some instances enhanced the effect of SA on certain genes. Strikingly, the 2b protein inhibited changes in the expression of 90% of genes regulated by jasmonic acid (NASCARRAYS-415: Lewsey et al. Molec. Plant-Microbe Interact. vol. 23, in press).  We will extend this work to understand the effects of the 2b protein on plant gene expression during an authentic viral infection.  By comparing the effects on the transcriptome of infection by wild-type CMV and the 2b gene deletion mutant, CMVÃ¢Ëâ 2b, we will reveal not only the influence of the 2b protein but also the effects of its interactions with other viral gene products (and the process of infection itself), on the host transcriptome. 9 samples were used in this experiment					
+Date of Experiment						
+Term Source Name	EFO
+Term Source Version						
+Term Source File	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	nasc	Du				
+Person First Name	nasc	Zhiyou				
+Person Mid Initials						
+Person Email	affy@arabidopsis.org.uk					
+Person Affiliation	NASC					
+Person Phone	01159513091					
+Person Fax						
+Person Address	Plant&Crop Sciences, NASC, Sutton bonington Campus, Loughborough, United Kingdom					
+Person Roles	submitter					
+Person Roles Term Source REF						
+Person Roles Term Accession Number						
+Normalization Type						
+Normalization Term Accession Number						
+Normalization Term Source REF						
+Replicate Type						
+Replicate Term Accession Number						
+Replicate Term Source REF						
+Experimental Design						
+Experimental Design Term Accession Number						
+Experimental Design Term Source REF						
+Quality Control Type						
+Quality Control Term Accession Number						
+Quality Control Term Source REF						
+Protocol Name	P-GSE37921-1	P-GSE37921-5	P-GSE37921-4	P-GSE37921-2	P-GSE37921-3	P-GSE37921-6
+Protocol Description	ID_REF = <br>VALUE = 15min<br>ABS_CALL = flag<br>DETECTION P-VALUE = flag	Scanned according to guidelines set out by Affymetrix, Santa Clara, CA.	Biotin Labelled cRNA using &quot;Affymetrix GeneChip Hybridization, Wash and Stain Kit&quot;, according to guidelines set out by Affymetrix, Santa Clara, CA	Qiagen RNAeasy kit protocol	Labelled using protocol described in Affymetrix manual &quot;3' IVT Express Kit User Manual&quot;	Raw data from the microarrays was normalized at probe-level using MAS5 algorithm. The detection calls (present, marginal, absent) for each probe set was obtained using the GCOS system
+Protocol Software						
+Protocol Hardware						
+Protocol Contact						
+Protocol Type	bioassay_data_transformation	image_aquisition	hybridization	nucleic_acid_extraction	labeling	feature_extraction
+Protocol Term Source REF						
+Protocol Term Accession Number						
+Experimental Factor Name						
+Experimental Factor Type						
+Experimental Factor Term Source REF						
+Experimental Factor Term Accession Number						
+Publication Title						
+Publication Author List						
+PubMed ID						
+Publication DOI						
+Publication Status						
+Publication Status Term Source REF						
+Publication Status Term Accession Number						
+Comment[SecondaryAccession]	GSE37921					
+Comment[GEOLastUpdateDate]	2012-05-14
+Comment[AEExperimentType]	transcription profiling by array					
+Comment[GEOReleaseDate]	2012-05-13
+Comment[ArrayExpressSubmissionDate]	2012-05-10
+SDRF File	E-GEOD-37921.sdrf.txt

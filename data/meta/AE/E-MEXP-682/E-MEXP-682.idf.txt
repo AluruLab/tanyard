@@ -1,0 +1,47 @@
+Investigation Title	Transcription profiling of Arabidopsis thaliana LFY mutant plants transformed with either Arabidopsis LFY or Leanworthia crassa LFY to investigate evolutionary divergence of LFY function									
+Comment[Submitted Name]	Weigel - Arabidopsis - Genomic response to Leanworthia crassa LEAFY expression in Arabidopsis									
+Experimental Design	individual_genetic_characteristics_design	transcription profiling by array								
+Experimental Design Term Source REF		EFO								
+Comment[AEMIAMESCORE]	5									
+Comment[ArrayExpressAccession]	E-MEXP-682									
+Comment[MAGETAB TimeStamp_Version]	2010-08-11 15:25:35 Last Changed Rev: 13058									
+Experimental Factor Name	growth condition	genotype								
+Experimental Factor Type	growth_condition	genotype								
+Experimental Factor Term Source REF										
+Person Last Name	Baum	Maizel	Maizel	Weigel	Sliwinski	White				
+Person First Name	D.	alexis	A.	D.	M. K.	 M. A.				
+Person Mid Initials										
+Person Email		Alexis.Maizel@isv.cnrs-gif.fr								
+Person Phone		+4970716011407								
+Person Fax										
+Person Address		37 Spemannstrass								
+Person Affiliation	 Department of Botany, University of Wisconsin, Ma	Molecular Biology	Department of Molecular Biology, Max Planck Instit	Department of Molecular Biology, Max Planck Instit	Department of Botany, University of Wisconsin, Mad	Laboratory of Genetics, University of Wisconsin, M				
+Person Roles		submitter								
+Person Roles Term Source REF										
+Quality Control Type										
+Quality Control Term Source REF										
+Replicate Type										
+Replicate Term Source REF										
+Normalization Type										
+Normalization Term Source REF										
+Date of Experiment										
+Public Release Date	2006-08-17									
+PubMed ID	16915521									
+Publication DOI	16915521									
+Publication Author List	M. K. Sliwinski;  M. A. White; A. Maizel; D. Weigel; D. Baum									
+Publication Title	Evolutionary divergence of LFY function in the mustards Arabidopsis thaliana and Leavenworthia crassa.									
+Publication Status	journal_article									
+Publication Status Term Source REF										
+Experiment Description	The aim of this experiment is to test the ability of the ortholog of Arabidopsis LFY gene from Leanworthia crassa (Lcr) to complement an Arabidopsis LFY mutant. Plants used are homozygous lfy6 mutants (EMS alleles) in Ler background which are transformed or not (for the lfy6 mutant) by genomic clones for Arabidopsis LFY (AthLFY) or Leanworthia crassa LFY (LcrLFY). Flowering was synchronized by growing plants in SD then shifting them to LD. 2 time points samples (wild type Ler) were taken at the end of the SD period as a reference for genes induced by shifting to LD, irrespective of the status at the LFY locus.									
+Protocol Name	P-MEXP-16733	P-MEXP-16735	P-MEXP-16739	P-MEXP-16736	P-MEXP-16737	P-MEXP-16738	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6	Affymetrix:Protocol:ExpressionStat	
+Protocol Type	grow	specified_biomaterial_action	specified_biomaterial_action	pool	nucleic_acid_extraction	labeling	hybridization	feature_extraction	bioassay_data_transformation	
+Protocol Description	Plants were grown on soil for 30 days under short day conditions (8 hr light/16 hr darkness) at 23 desgrees C and 65% relative humidity.	Plants were grown on soil for 30 days under short day conditions (8 hr light/16 hr darkness) at 23C and 65% relative humidity. Plants where then shifted to long day conditions (16 hr light/8 hr darkness) at 23C and 65% relative humidity for 8 days. Inflorescence meristem were then dissected.	Plants were grown on soil for 30d under short day conditions (8h light/ 16h darkness) at 23C and 65% relative humidity. Shoot apical meristem were dissected.	25-30 dissected shoot apical meristems were pooled.	A pdf of the protocol 'Probe preparation (Development)' can be downloaded at http://www.weigelworld.org/resources/microarray/AtGenExpress/; also at TAIR http://www.arabidopsis.org Protocol:501712557.	A pdf of the protocol 'Probe preparation (Development)' can be downloaded at http://www.weigelworld.org/resources/microarray/AtGenExpress/; also at TAIR http://www.arabidopsis.org Protocol:501712557.	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 	
+Protocol Parameters	max temperature;stop time;start time;				Amplification;Extracted product;	Amount of nucleic acid labeled;Amplification;Label used;				
+Protocol Hardware										
+Protocol Software							MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact										
+Protocol Term Source REF		mo	mo				mo		The MGED Ontology	
+SDRF File	E-MEXP-682.sdrf.txt									
+Term Source Name	mo		po	atcc	ncbitax	The MGED Ontology	ArrayExpress	EFO	mo	The MGED Ontology
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php		http://www.plantontology.org	http://www.atcc.org/	http://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version										

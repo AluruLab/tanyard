@@ -1,0 +1,57 @@
+Comment[ArrayExpressAccession]	E-GEOD-25447
+Public Release Date	2011-05-24									
+Investigation Title	Jumonji C domain-containing protein 12 is a Histone H3 Lysine 27 Demethylase									
+Comment[Submitted Name]	Jumonji C domain-containing protein 12 is a Histone H3 Lysine 27 Demethylase
+Experiment Description	This SuperSeries is composed of the following subset Series: GSE25444: Differential gene expression in ref6-1 GSE25446: Genome-wide comparison of H3K27me3 difference between ref6-1 and wild type Col Refer to individual Series									
+Date of Experiment										
+Term Source Name	EFO
+Term Source Version										
+Term Source File	http://www.ebi.ac.uk/efo/efo.owl									
+Person Last Name	Lu									
+Person First Name	Falong									
+Person Mid Initials										
+Person Email	falonglu@gmail.com									
+Person Affiliation	Institute of Genetics and Developmental Biology, CAS									
+Person Phone										
+Person Fax										
+Person Address	Institute of Genetics and Developmental Biology, CAS, Beicheng West Road, Beijing, China									
+Person Roles	submitter									
+Person Roles Term Source REF										
+Person Roles Term Accession Number										
+Normalization Type										
+Normalization Term Accession Number										
+Normalization Term Source REF										
+Replicate Type										
+Replicate Term Accession Number										
+Replicate Term Source REF										
+Experimental Design										
+Experimental Design Term Accession Number										
+Experimental Design Term Source REF										
+Quality Control Type										
+Quality Control Term Accession Number										
+Quality Control Term Source REF										
+Protocol Name	P-GSE25447-1	P-GSE25447-6	P-GSE25447-3	P-GSE25447-8	P-GSE25447-10	P-GSE25447-7	P-GSE25447-2	P-GSE25447-9	P-GSE25447-4	P-GSE25447-5
+Protocol Description	ID_REF = <br>VALUE = dchip2008 intensity value<br>ABS_CALL = 	Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45C on a GeneChip Arabidopsis ATH1 Genome Array. GeneChips were washed and stained in the Affymetrix Fluidics Station 450.	The seeds of the indicated genotype were surface steriled, planted on an MS plate, and grown at 23°C under long day (16h light, 8h dark) conditions for ten days before harvest.	Gcos1.4 (GeneChip Operating Software) was used for single array analysis. Invariant set Normalization and Model-base Expression index in dchip2008 package were used for further expression analysis.	The reads were aligned to the TAIR9 assembly using the ELAND extended program (Illumina) allowing up to two mismatches. The MASC program was used to shift the reads and convert the data to WIG format. WIG files were visualized with the Integrated Genome Browser (IGB).	GeneChips were scanned using the Affymetrix GeneChip Scanner 3000.	No treatment applied.	Nuclear lysates were clarified from sonicated nuclei, and crosslinked histone-DNA complexes were isolated with antibody. DNA was purified after reverse crosslinking. Libraries were prepared according to Illumina's instructions accompanying the single end DNA Sample Kit (Part# 0801-0303). After adapter ligation, DNA was size-fractionated to obtain 300bp fragments from an agarose gel. The library was PCRed for 18 cycles and gel purified before sequencing.	Trizol extraction of total RNA was performed according to the manufacturer's instructions.	Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 10 ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+Protocol Software										
+Protocol Hardware										
+Protocol Contact										
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	nucleic_acid_extraction	labeling
+Protocol Term Source REF										
+Protocol Term Accession Number										
+Experimental Factor Name	DEVELOPMENTAL STAGE	GENOTYPE								
+Experimental Factor Type	developmental stage	genotype								
+Experimental Factor Term Source REF										
+Experimental Factor Term Accession Number										
+Publication Title										
+Publication Author List										
+PubMed ID										
+Publication DOI										
+Publication Status										
+Publication Status Term Source REF										
+Publication Status Term Accession Number										
+Comment[SecondaryAccession]	GSE25447									
+Comment[GEOLastUpdateDate]	2011-05-25
+Comment[AEExperimentType]	transcription profiling by array	ChIP-seq								
+Comment[GEOReleaseDate]	2011-05-23
+Comment[ArrayExpressSubmissionDate]	2010-11-17
+SDRF File	E-GEOD-25447.hyb.sdrf.txt	E-GEOD-25447.seq.sdrf.txt

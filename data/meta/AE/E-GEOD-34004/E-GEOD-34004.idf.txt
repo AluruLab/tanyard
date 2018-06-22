@@ -1,0 +1,57 @@
+Comment[ArrayExpressAccession]	E-GEOD-34004
+Public Release Date	2012-06-17										
+Investigation Title	The response and recovery of Arabidopsis thaliana transcriptome to phosphate starvation										
+Comment[Submitted Name]	The response and recovery of Arabidopsis thaliana transcriptome to phosphate starvation
+Experiment Description	This SuperSeries is composed of the following subset Series: GSE33790: The response and recovery of Arabidopsis thaliana transcriptome to phosphate starvation [ATH1-121501] GSE33996: The response and recovery of Arabidopsis thaliana transcriptome to phosphate starvation [At35b_MR] Refer to individual Series										
+Date of Experiment											
+Term Source Name	EFO
+Term Source Version											
+Term Source File	http://www.ebi.ac.uk/efo/efo.owl										
+Person Last Name	Liu										
+Person First Name	Jun										
+Person Mid Initials											
+Person Email	jliu@rockefeller.edu										
+Person Affiliation	The Rockefeller University										
+Person Phone											
+Person Fax											
+Person Address	Laboratory of Plant Molecular Biology, The Rockefeller University, 1230 York Avenue, New York, NY, USA										
+Person Roles	submitter										
+Person Roles Term Source REF											
+Person Roles Term Accession Number											
+Normalization Type											
+Normalization Term Accession Number											
+Normalization Term Source REF											
+Replicate Type											
+Replicate Term Accession Number											
+Replicate Term Source REF											
+Experimental Design											
+Experimental Design Term Accession Number											
+Experimental Design Term Source REF											
+Quality Control Type											
+Quality Control Term Accession Number											
+Quality Control Term Source REF											
+Protocol Name	P-GSE34004-1	P-GSE34004-6	P-GSE34004-3	P-GSE34004-9	P-GSE34004-8	P-GSE34004-11	P-GSE34004-10	P-GSE34004-7	P-GSE34004-2	P-GSE34004-4	P-GSE34004-5
+Protocol Description	ID_REF = <br>VALUE = log2 quantile normalized signal intensity	Hybridization and scanning of all arrays were done at the Genomics Resource Center in the Rockefeller University following the manufacturerâ€™s instructions (Affymetrix).	Non-sterile WT (Col-0) seeds were sowed on rock wool (Grodan Inc.) pre-soaked in basal MGRL hydroponic media24 and cold-treated at 4°C for 3 days. Plants were grown at 22°C under 150 Î¼mol m-2 S-1 fluence rate and a 12hr:12hr light:dark cycle. To minimize environmental variation, plants were rotated in growth chambers once a day.	Non-sterile WT (Col-0) seeds were sowed on rock wool (Grodan Inc.) pre-soaked in basal MGRL hydroponic media24 and cold-treated at 4ï‚°C for 3 days. Plants were grown at 22°C under 150 Î¼mol m-2 S-1 fluence rate and a 12hr:12hr light:dark cycle. To minimize environmental variation, plants were rotated in growth chambers once a day.	Raw Signal intensity were normalized by quantile method using R statistical environment with affy package. The expression values are shown in log2 scale.	Raw Signal intensity were normalized by quantile method using CisGenome software.	Tiling arrays were scanned using a GeneChip® Scanner 3000 7G.	Hybridization and scanning of all arrays were done at the Genomics Resource Center in the Rockefeller University following the manufacturerâ€™s instructions (Affymetrix).	In phosphate depleted media, 1.75 mM MES (pH 5.8) was used instead of 1.75 mM sodium phosphate (pH 5.8). All hydroponic media were aerated to maximize air supply during hydroponic culture. All plants were grown in basal MGRL hydroponic media for 20 days before being transferred to a phosphate-deficient medium. During the 10-day treatment, the phosphate-deficient medium was replaced every three days. For recovery experiments, plants previously grown in phosphate-deficient medium for 10 days were transferred to full-strength MGRL medium for an additional 3 days. Samples were collected on the 10th and 13th (10+3) day. Phosphate-starved shoot and root samples were collected separately at the indicated time point. Furthermore, all experiment procedures such as media replacement and sample collection were performed in the middle of day in order to minimize possible circadian effect. In parallel, control plants were grown in a full-strength MGRL media before sample collection on the 10th day after the initial 20-day growth period.	Total RNAs extracted by RNA easy extraction kit (Qiagen) were used for Arabidopsis Genechip ATH1	The efficiency of biotin labeling was confirmed by Gel-shift assay with NeutrAvidin (Pierce) as described in Genechip Whole transcript (WT) double-stranded target assay manual (Affymetrix).
+Protocol Software											
+Protocol Hardware											
+Protocol Contact											
+Protocol Type	bioassay_data_transformation	hybridization	grow	grow	feature_extraction	feature_extraction	image_aquisition	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Protocol Term Source REF											
+Protocol Term Accession Number											
+Experimental Factor Name	TREATMENT	ORGAN	AGE								
+Experimental Factor Type	treatment	organ	age								
+Experimental Factor Term Source REF											
+Experimental Factor Term Accession Number											
+Publication Title	The response and recovery of the Arabidopsis thaliana transcriptome to phosphate starvation.										
+Publication Author List	Woo J, Macpherson CR, Liu J, Wang H, Kiba T, Hannah M, Wang XJ, Bajic VB, Chua NH										
+PubMed ID	22553952										
+Publication DOI	10.1186/1471-2229-12-62										
+Publication Status											
+Publication Status Term Source REF											
+Publication Status Term Accession Number											
+Comment[SecondaryAccession]	GSE34004										
+Comment[GEOLastUpdateDate]	2012-06-17
+Comment[AEExperimentType]	transcription profiling by array	transcription profiling by tiling array									
+Comment[GEOReleaseDate]	2012-06-16
+Comment[ArrayExpressSubmissionDate]	2011-11-29
+SDRF File	E-GEOD-34004.sdrf.txt

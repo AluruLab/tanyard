@@ -1,0 +1,38 @@
+Investigation Title	Transcription profiling of Arabidopsis dms4-1, drd1-1 and drd1-6 mutant seedlings against wild-type to identify targets of IWR1-like transcription factor		
+Comment[Submitted Name]	RNA-directed DNA methylation and development require an IWR1-type transcription factor		
+Experimental Design	reference_design	transcript_identification_design	co-expression_design
+Experimental Design Term Source REF	The MGED Ontology	The MGED Ontology	The MGED Ontology
+Comment[AEMIAMESCORE]	5		
+Comment[ArrayExpressReleaseDate]	2010-01-10		
+Comment[ArrayExpressAccession]	E-MEXP-2251		
+Comment[MAGETAB TimeStamp_Version]	2010-08-10 11:53:36 Last Changed Rev: 13058		
+Comment[AEExperimentType]	transcription profiling by array		
+Experimental Factor Name	genotype	age	
+Experimental Factor Type	genotype	age	
+Experimental Factor Term Source REF	EFO		
+Person Last Name	Huettel		
+Person First Name	Bruno		
+Person Mid Initials			
+Person Email	huettel@mpiz-koeln.mpg.de		
+Person Phone	(43)-1-79044-9812		
+Person Fax			
+Person Address	Carl-von-Linné-Weg 10, D-50829 Köln		
+Person Affiliation	Max Planck Institute for Plant Breeding		
+Person Roles	submitter		
+Person Roles Term Source REF	The MGED Ontology		
+Public Release Date	2010-01-10		
+PubMed ID	20010803		
+Publication DOI	10.1038/embor.2009.246		
+Publication Author List	Kanno T, Bucher E, Daxinger L, Huettel B, Kreil DP, Breinig F, Lind M, Schmitt MJ, Simon SA, Gurazada SG, Meyers BC, Lorkovic ZJ, Matzke AJ, Matzke M		
+Publication Title	RNA-directed DNA methylation and plant development require an IWR1-type transcription factor.		
+Publication Status	submitted		
+Publication Status Term Source REF	The MGED Ontology		
+Experiment Description	We identified in a forward genetic screen a novel factor required for RNA-directed DNA methylation (IWR1-like transcription factor). The aim of the study was to identify natural targets of this factor and to compare it to targets of drd1 another major key factor required for the RNA silencing process in plants. We performed transcriptome analysis to identify targets of this factor. For this we used whole plants at seedling stage, isolated total RNA and then used the standard Affymetrix pipeline/chemistry. The mutated transcription factor, dms4-1 was compared to its respective wildtype (EDT, Col-O background). For microarray analysis THREE biological replicates were run.<br><br>For transcriptome comparison we analyzed another factor required for the process RNA-directed DNA methylation in plants, drd1 also identified in a forward genetic screen and previously characterized in depth (Kanno et al. Current Biology, 14, 801-805, (2004), Huettel et al. EMBO J. 25, 2828-2836 (2006)). For transcriptome analysis two alleles of drd1 (drd1-1 and drd1-6) with two biological replicates each was compared to the respective wildtype DT, which served as starting material in this forward genetic screen (DT, Col-0 background). For drd1 mutants and DT wildtype analysis 10 day old seedlings were used as starting matieral while for dms4-1 and EDT 3 week old seedlings were analyzed.		
+Protocol Name	P-MTAB-4694	P-MTAB-4696	P-MTAB-4695
+Protocol Type	nucleic acid extraction protocol	growth protocol	growth protocol
+Protocol Description	Total RNA was extracted and purified with an RNeasy Mini Kit (Qiagen, Hilden, Germany). RNA was quantified by spectrophotometry (Nanodrop ND-1000, Peqlab, Erlangen, Germany). Double-stranded cDNA was synthesized from 1 ug total RNA by using the one-cycle cDNA synthesis kit (GeneChip One-Cycle Target Labeling and Control Reagents, Affymetrix, High Wycombe, U.K.) <br>(Parameters: Extracted product = total_RNA, Amplification = none)	Seeds were sterilized and germinated on sterile solid Murashige and Skoog medium in petri dishes. The dishes were placed at 4 C for 3 d, then moved to a Percival incubator and grown at 23 C in a 16-h-light/8-h-dark cycle. Seedlings used in experiments were 21 d old and harvested at 3 PM.<br>(Parameters: time unit = seconds, min temperature = 23, temperature unit = C)	Seeds were sterilized and germinated on sterile solid Murashige and Skoog medium in petri dishes. The dishes were placed at 4 C for 3 d, then moved to a Percival incubator and grown at 23 C in a 16-h-light/8-h-dark cycle. Seedlings used in experiments were 10 d old and harvested at 3 PM.<br>(Parameters: time unit = seconds, min temperature = 23, temperature unit = C, media = MS Media)
+Protocol Term Source REF	EFO	EFO	EFO
+SDRF File	E-MEXP-2251.sdrf.txt		
+Term Source Name	The MGED Ontology	ArrayExpress	EFO
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/
+Term Source Version			

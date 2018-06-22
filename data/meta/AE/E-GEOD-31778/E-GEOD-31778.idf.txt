@@ -1,0 +1,57 @@
+Comment[ArrayExpressAccession]	E-GEOD-31778					
+Public Release Date	2011-12-31					
+Investigation Title	AhNAS2 suppression in Arabidopsis halleri roots					
+Comment[Submitted Name]	AhNAS2 suppression in Arabidopsis halleri roots					
+Experiment Description	The model Zn hyperaccumulators Arabidopsis halleri and Noccaea caerulescens share elevated nicotianamine synthase (NAS) expression relative to non-accumulators among a core of alterations in metal homeostasis gene expression. Suppression of AhNAS2 expression by RNAi resulted in strongly reduced root NA accumulation and a concomitant decrease in root-to-shoot-translocation of Zn but not of other micronutrients. Few secondary effects on the root transcriptome were detected by microarray analysis. Vegetatively propagated clones of A. halleri wildtype plants and a line with strong suppression of AhNAS2 were grown hydroponically for weeks in two different media (control Hoagland and 10 µM Zn2+ added). Roots were harvested and analyzed. Three plants were pooled for one sample. Three independent experiments were performed.					
+Date of Experiment						
+Term Source Name	EFO					
+Term Source Version						
+Term Source File	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Clemens	Deinlein	Clemens			
+Person First Name	Stephan	Ulrich	Stephan			
+Person Mid Initials						
+Person Email	stephan.clemens@uni-bayreuth.de					
+Person Affiliation	University of Bayreuth					
+Person Phone						
+Person Fax						
+Person Address	Plant Physiology, University of Bayreuth, Universitaetsstrasse 30, Bayreuth, Germany					
+Person Roles	submitter					
+Person Roles Term Source REF						
+Person Roles Term Accession Number						
+Normalization Type						
+Normalization Term Accession Number						
+Normalization Term Source REF						
+Replicate Type						
+Replicate Term Accession Number						
+Replicate Term Source REF						
+Experimental Design						
+Experimental Design Term Accession Number						
+Experimental Design Term Source REF						
+Quality Control Type						
+Quality Control Term Accession Number						
+Quality Control Term Source REF						
+Protocol Name	P-GSE31778-1	P-GSE31778-5	P-GSE31778-4	P-GSE31778-2	P-GSE31778-3	P-GSE31778-6
+Protocol Description	ID_REF = <br>VALUE = RMA signal intensity	Hybridized arrays were washed and stained in an Affymetrix Fluidics Station FS450, and the fluorescent signals were measured with an Affymetrix GeneChip Scanner 3000.	cRNA products were hybridized to the array for 16 h at 45C in a rotating chamber.	RNA was extracted from homogenized A. halleri root tissue with Trizol (Invitrogen Life Technologies) according to the manufacturer’s instructions.	250 ng of total RNA, purified with RNeasy Mini columns (Qiagen, Hilden, Germany) according to the manufacturer's directions, were used to generate double-stranded cDNA and subsequently biotin-labeled cRNA. The length of the cRNA products was assessed using an Agilent 2100 bioanalyzer (Agilent Technologies, Palo Alto, USA)	CEL files from the Affymetrix microarray hybridization were processed by use of the R program and Bioconductor packages (Gentleman et al., 2004). The Robust Multi-chip Average (RMA) normalization was performed using the default settings of the corresponding R function (Irizarry et al., 2003). To estimate the amount of expressed mRNAs, the present call information of the non-parametric Wilcoxon signed rank test (PMA values) was computed with the 'affy' package (Gautier et al., 2004). Hybridization data from three biological replicates were generated for each Langelsheim wild-type and RNAi line 1-2.
+Protocol Software						
+Protocol Hardware						
+Protocol Contact						
+Protocol Type	bioassay_data_transformation	image_acquisition	hybridization	nucleic_acid_extraction	labelling	feature_extraction
+Protocol Term Source REF						
+Protocol Term Accession Number						
+Experimental Factor Name	genotype	compound	dose			
+Experimental Factor Type	genotype	compound	dose			
+Experimental Factor Term Source REF						
+Experimental Factor Term Accession Number						
+Publication Title	Elevated nicotianamine levels in Arabidopsis halleri roots play a key role in zinc hyperaccumulation					
+Publication Author List	Deinlein U, Weber M, Schmidt H, Rensch S, Trampczynska A, Hansen TH, Husted S, Schjoerring JK, Talke IN, Krämer U, Clemens S					
+PubMed ID	22374395					
+Publication DOI	10.1105/tpc.111.095000					
+Publication Status						
+Publication Status Term Source REF						
+Publication Status Term Accession Number						
+Comment[SecondaryAccession]	GSE31778					
+Comment[GEOLastUpdateDate]	2012-01-01					
+Comment[AEExperimentType]	transcription profiling by array					
+Comment[GEOReleaseDate]	2011-12-31					
+Comment[ArrayExpressSubmissionDate]	2011-08-30					
+SDRF File	E-GEOD-31778.sdrf.txt					

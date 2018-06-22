@@ -1,0 +1,49 @@
+Investigation Title	Transcription profiling of Arabidopsis apices from control and smz-D flc-3 knock-out plants after photoperiod induction						
+Comment[Submitted Name]	Schmid_smz-D_apices						
+Experimental Design	time_series_design	stimulus_or_stress_design	age_design	co-expression_design	all_pairs	transcription profiling by array	
+Experimental Design Term Source REF	The MGED Ontology	The MGED Ontology		The MGED Ontology		EFO	
+Comment[SecondaryAccession]							
+Comment[ArrayExpressReleaseDate]	2009-06-05						
+Comment[AEMIAMESCORE]	5						
+Comment[ArrayExpressAccession]	E-MEXP-2041						
+Comment[MAGETAB TimeStamp_Version]	2010-09-07 00:02:40 Last Changed Rev: 13833						
+Experimental Factor Name	GENOTYPE	GROWTH CONDITION	TIME				
+Experimental Factor Type	genotype	growth_condition	time				
+Experimental Factor Term Source REF							
+Person Last Name	Schmid						
+Person First Name	Markus						
+Person Mid Initials							
+Person Email	Markus.Schmid@tuebingen.mpg.de						
+Person Phone	-6018434						
+Person Fax	-6018438						
+Person Address	"Molecular Biology, Spemannstr. 37-39, Tuebingen,  Baden WÃ¼rtenberg, 72076, Germany"						
+Person Affiliation	Max Planck Institute for Developmental Biology						
+Person Roles	submitter						
+Person Roles Term Source REF	The MGED Ontology						
+Quality Control Type	biological_replicate						
+Quality Control Term Source REF	The MGED Ontology						
+Replicate Type							
+Replicate Term Source REF							
+Normalization Type							
+Normalization Term Source REF							
+Date of Experiment							
+Public Release Date	2009-06-05						
+PubMed ID							
+Publication DOI							
+Publication Author List							
+Publication Title							
+Publication Status							
+Publication Status Term Source REF							
+Experiment Description	Response of control (flc-3) and dominant late flowering mutant (smz-D flc-3) to inductive photoperiod (tissue: apices)						
+Protocol Name	P-MTAB-3214	P-MTAB-3213	P-MTAB-3212	P-AFFY-2	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6	Affymetrix:Protocol:MAS4:ExpressionCall
+Protocol Type	nucleic_acid_extraction	specified_biomaterial_action	grow	labeling	hybridization	feature_extraction	bioassay_data_transformation
+Protocol Description	"Total RNA was isolated from plant material using Plant RNeasy columns (Qiagen) according to the manufacturers instructions.<br>(Parameters: Extracted product = total_RNA, Amplification = none)"	"Plants were shifted from short day (SD; 8hr light, 16 hr darkness) to long day (LD; 16 hr light, 8 hr darkness) to synchronously induce flowering."	"Arabidopsis thaliana plants were grown at 23°C and 65% rel. humidity on soil. Light conditions: Mixture of Cool White and Gro-Lux Wide Spectrum fluorescent lights, with a fluence rate of 125 to 175 µmol m-2 s-1. <br><br><br>(Parameters: time unit = days, temperature unit = C)"	Title: Affymetrix in vitro transcription. Description: 	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	Title: Affymetrix CHP Analysis (ExpressionCall). Description: 
+Protocol Parameters							
+Protocol Hardware							
+Protocol Software					MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 4.0
+Protocol Contact							
+Protocol Term Source REF					mo		mo
+SDRF File	E-MEXP-2041.sdrf.txt						
+Term Source Name	The MGED Ontology		NCBI Taxonomy	ArrayExpress	The MGED Ontology	EFO	mo
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php		http://www.ncbi.nlm.nih.gov/Taxonomy/	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version							

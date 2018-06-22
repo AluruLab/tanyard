@@ -1,0 +1,30 @@
+Comment[ArrayExpressAccession]	E-GEOD-42403					
+MAGE-TAB Version	1.1					
+Public Release Date	2014-10-14					
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis inflorescences from TOP1a-2 mutants against wild type (Landsberg erecta) controls					
+Investigation Title	Expression data from Ler and TOP1a-2 inflorescences					
+Comment[Submitted Name]	Expression data from Ler and TOP1a-2 inflorescences					
+Experiment Description	"DNA topoisomerases release supercoils in DNA introduced during replication or transcription. How DNA topoisomerases impact transcription in the context of eukaryotic chromatin is poorly understood. In this study, using a floral stem cell model in Arabidopsis, we uncovered a role of TOP1a in Polycomb Group (PcG) protein-mediated histone lysine 27 trimethylation at, and transcriptional repression of, the stem cell maintenance gene WUSCHEL (WUS). The strong genetic interactions between a TOP1a mutant and mutations in PcG genes and the overwhelming enrichment of PcG targets among genes affected in expression in the TOP1a mutant revealed a role of TOP1a in PcG-mediated regulation. Intriguingly, not only the repression of some PcG target genes but also the expression of others requires TOP1a. The mechanism that unifies the opposing effects of TOP1a on PcG target genes appears to lie in its role in decreasing nucleosome density. Genome-wide nucleosome mapping shows that TOP1a is required for the depletion of nucleosomes at regulatory regions of genes, which probably allows the binding of factors that either recruit PcG, as we show for AGAMOUS at the WUS locus, or counteract PcG-mediated regulation. This study uncovers a strong and previously unknown connection between TOP1a and PcG. 6 samples from wild-type and TOP1a-2 inflorescences, including three biological replicates per genotype."					
+Term Source Name	ArrayExpress	EFO				
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl				
+Person Last Name	Gao	Liu	Gao	Chen		
+Person First Name	Lei	Xigang	Lei	Xuemei		
+Person Email	leigao@ucr.edu					
+Person Affiliation	UCR					
+Person Address	"UCR, 900 university ave., riverside, California, USA"					
+Person Roles	submitter					
+Protocol Name	P-GSE42403-1	P-GSE42403-4	P-GSE42403-5	P-GSE42403-2	P-GSE42403-3	P-GSE42403-6
+Protocol Description	The microarray data were analyzed using the R package affy (affy_1.34.0) from Bioconductor. The MAS5 method was used. ID_REF =  VALUE = Log2 MAS5.0 signal intensity	Standard Affymetrix protocol.	Affymetrix ATH1 arrays were hybridized in three biological replicates according to the manufacturer's instructions.	All plants were grown at 23 degrees C under continuous light.	RNAs were isolated from wild-type and TOP1a-2 inflorescences. Inflorescences were ground and extracted with the TRI Reagent (Molecular Research Center). RNA was precipitated by isopropanol and treated with DNaseI (Roche) to eliminate contaminating DNA.	Standard Affymetrix protocol.
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	genotype					
+Experimental Factor Type	genotype					
+Publication Title	DNA topoisomerase I affects polycomb group protein-mediated epigenetic regulation and plant development by altering nucleosome distribution in Arabidopsis.					
+Publication Author List	"Liu X, Gao L, Dinh TT, Shi T, Li D, Wang R, Guo L, Xiao L, Chen X"					
+PubMed ID	25070639					
+Publication DOI	10.1105/tpc.114.124941					
+Comment[SecondaryAccession]	GSE42403					
+Comment[GEOReleaseDate]	2014-10-14					
+Comment[ArrayExpressSubmissionDate]	2012-11-19					
+Comment[GEOLastUpdateDate]	2014-10-14					
+Comment[AEExperimentType]	transcription profiling by array					
+SDRF File	E-GEOD-42403.sdrf.txt					

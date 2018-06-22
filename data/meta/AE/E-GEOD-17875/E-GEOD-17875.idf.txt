@@ -1,0 +1,58 @@
+Comment[ArrayExpressAccession]	E-GEOD-17875								
+Public Release Date	2010-01-03								
+Investigation Title	Indolic metabolites are required for antifungal defense of the Arabidopsis mlo2 mutant								
+Comment[Submitted Name]	Indolic metabolites are required for antifungal defense of the Arabidopsis mlo2 mutant								
+Experiment Description	Arabidopsis thaliana genes MLO2 (Mildew resistance locus-O 2), MLO6 and MLO12 exhibit unequal genetic redundancy with respect to the modulation of defense responses against powdery mildew fungi and the control of developmental phenotypes such as premature leaf decay. We show that early chlorosis and necrosis of rosette leaves in mlo2 mlo6 mlo12 mutants reflects an authentic but untimely leaf senescence program. Comparative transcriptional profiling revealed that transcripts of several genes encoding tryptophan/indole biosynthetic enzymes hyper-accumulate during vegetative development in the mlo2 mlo6 mlo12 mutant. Elevated expression levels of these genes correlate with altered steady-state levels of several indolic metabolites, including the phytoalexin camalexin and indolic glucosinolates, during development in the mlo2 single and the mlo2 mlo6 mlo12 triple mutant. Results of genetic epistasis analysis suggest a decisive role for indolic metabolites in mlo2-conditioned antifungal defense against both biotrophic powdery mildews and a camalexin-sensitive strain of the necrotrophic fungus, Botrytis cinerea. The wound- and pathogen-responsive callose synthase Powdery mildew resistance 4/Glucan-synthase-like 5 (PMR4/GSL5) was found to be responsible for the spontaneous callose deposits in mlo2 mutant plants but dispensable for mlo2-conditioned penetration resistance. Our data strengthen the notion that powdery mildew resistance of mlo2 genotypes is based on the same defense execution machinery as innate antifungal immune responses that restrict invasion of non-adapted fungal pathogens. Mature rosette leaves from WT and mlo2 mlo6 mlo12 triple mutant plants were harvested at 5, 6 and 7 weeks after sowing. 6 arrays.								
+Date of Experiment									
+Term Source Name	EFO								
+Term Source Version									
+Term Source File	http://efo.svn.sourceforge.net/viewvc/efo/trunk/src/efoinowl/efo.owl								
+Person Last Name	Ver Loren van Themaat	Consonni	Bednarek	Humphry	Francocci	Ferrari	Hanzen	Ver Loren van Themaat	Panstruga
+Person First Name	Emiel	Chiara	Pawel	Matt	Fedra	Simone	Anne	Emiel	Ralph
+Person Mid Initials									
+Person Email	themaat@mpiz-koeln.mpg.de								
+Person Affiliation	Max Planck Institute								
+Person Phone									
+Person Fax									
+Person Address	Max Planck Institute, Carl von linneweg, Cologne, Germany								
+Person Roles	submitter								
+Person Roles Term Source REF									
+Person Roles Term Accession Number									
+Normalization Type									
+Normalization Term Accession Number									
+Normalization Term Source REF									
+Replicate Type									
+Replicate Term Accession Number									
+Replicate Term Source REF									
+Experimental Design									
+Experimental Design Term Accession Number									
+Experimental Design Term Source REF									
+Quality Control Type									
+Quality Control Term Accession Number									
+Quality Control Term Source REF									
+Protocol Name	P-GSE17875-1	P-GSE17875-6	P-GSE17875-3	P-GSE17875-8	P-GSE17875-7	P-GSE17875-2	P-GSE17875-4	P-GSE17875-5	
+Protocol Description	ID_REF = <br>VALUE = Log2 RMA-normalized signal intensity	Hybridization of the high-density oligonucleotide microarrays (Arabidopsis ATH1 genome array; Affymetrix, Santa Clara, CA) was performed according to the manufacturer's GeneChip Expression Analysis Technical Manual.	Normal conditions. Mature rosette leaves were harvested at 5, 6 and 7 weeks after sowing.	RMA.	Scanning was performed according to the manufacturer's GeneChip Expression Analysis Technical Manual.	Time	Total RNA was extracted using the Trizol reagent.	cRNA was prepared following the manufacturer's instructions. Labelled cRNA transcripts were purified using the Sample Cleanup Module (Affymetrix, Santa Clara, CA). Fragmentation of cRNA transcripts was performed according to the manufacturer's GeneChip Expression Analysis Technical Manual.	
+Protocol Software									
+Protocol Hardware									
+Protocol Contact									
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling	
+Protocol Term Source REF									
+Protocol Term Accession Number									
+Experimental Factor Name	AGE	GENOTYPE							
+Experimental Factor Type	age	genotype							
+Experimental Factor Term Source REF									
+Experimental Factor Term Accession Number									
+Publication Title	Tryptophan-derived metabolites are required for antifungal defense in the Arabidopsis mlo2 mutant.								
+Publication Author List	Consonni C, Bednarek P, Humphry M, Francocci F, Ferrari S, Harzen A, Ver Loren van Themaat E, Panstruga R								
+PubMed ID	20023151								
+Publication DOI	10.1104/pp.109.147660								
+Publication Status	published								
+Publication Status Term Source REF	EFO								
+Publication Status Term Accession Number	EFO_0001796								
+Comment[SecondaryAccession]	GSE17875								
+Comment[GEOLastUpdateDate]	2010-01-08								
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for mlo2, mlo6 and mlo12								
+Comment[AEExperimentType]	transcription profiling by array								
+Comment[GEOReleaseDate]	2010-01-04								
+Comment[ArrayExpressSubmissionDate]	2009-08-27								
+SDRF File	E-GEOD-17875.sdrf.txt								

@@ -1,0 +1,29 @@
+Comment[ArrayExpressAccession]	E-GEOD-72742
+MAGE-TAB Version	1.1						
+Public Release Date	2016-09-01
+Investigation Title	Expression profiling of Col-0 and rps2 treated with Psm:AvrRpt2						
+Comment[Submitted Name]	Expression profiling of Col-0 and rps2 treated with Psm:AvrRpt2
+Experiment Description	Identification of differential gene expression during RPS2-mediated effector-triggered immunity in Arabidopsis Four-week-old leaves of Arabidopsis Col-0 wild type and rps2 mutant plant were infiltrated with Pseudomonas syringae pv. Maculicola carring effector AvrRpt2 at OD 0.01. Samples were collected at 0, 6 and 10 hours after infiltration for WT plants and at 0 and 10 hours after infiltration for rps2 plants. Three biological replicates were performed per genotype per time point.						
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Dong	Zebell	Gu	Dong			
+Person First Name	Xinnian	Sophia	Yangnan	Xinnian			
+Person Email	geo@ncbi.nlm.nih.gov						
+Person Affiliation	Duke University						
+Person Address	Biology, Duke University, 124 Science Drive, Durham, NC, USA						
+Person Roles	submitter						
+Protocol Name	P-GSE72742-1	P-GSE72742-5	P-GSE72742-6	P-GSE72742-2	P-GSE72742-3	P-GSE72742-4	P-GSE72742-7
+Protocol Description	The data were normalized with RMA algorithm using Gene-Spring GX default analysis settings ID_REF =  VALUE = Normalized RMA signal value	RNA probes were labelled using MessageAmp Premier RNA Amplification Kit (Ambion)	Following fragmentation, 10 ug of aRNA were hybridized on Affymetrix ATH1 GeneChip (Santa Clara, CA, U.S.A) for 16 hours at 45C with rotation at 60rpm.	Mature leaves were infiltrated with Psm carrying AvrRpt2 at OD 0.01 in 10mM MgSO4 solution	Arabidopsis plants (Columbia-0 and rps2 mutant) were grown on soil (Metro Mix 360) at 22ËC under a 12/12 hr light/dark cycle for 4 weeks	The RNA was extracted with TRIzol (Ambion)	Immediately following hybridization, the hybridized probe arrays undergo an automated washing and staining protocol on the GeneChipÂ® FS450 fluidic station and are then scanned on the GeneChipÂ® Scanner 3000 7G Plus where patterns of hybridization are detected.
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	treatment	genotype					
+Experimental Factor Type	treatment	genotype					
+Publication Title	Nuclear Pore Permeabilization Is a Convergent Signaling Event in Effector-Triggered Immunity.						
+Publication Author List	Gu Y, Zebell SG, Liang Z, Wang S, Kang BH, Dong X						
+PubMed ID	27569911						
+Publication DOI	10.1016/j.cell.2016.07.042						
+Comment[SecondaryAccession]	GSE72742						
+Comment[GEOReleaseDate]	2016-09-01						
+Comment[ArrayExpressSubmissionDate]	2015-09-04						
+Comment[GEOLastUpdateDate]	2016-09-03						
+Comment[AEExperimentType]	transcription profiling by array						
+SDRF File	E-GEOD-72742.sdrf.txt

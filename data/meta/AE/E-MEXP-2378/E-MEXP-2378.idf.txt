@@ -1,0 +1,37 @@
+Comment[ArrayExpressAccession]	E-MEXP-2378						
+Investigation Title	"Transcription profiling of Arabidopsis srk2cf mutant plants under abscisic acid (ABA) treatment for 0, 1 and 4 hours"						
+Comment[Submitted Name]	Transcription profiling of Arabidopsis srk2cf mutant under ABA treatment						
+Comment[AEExperimentType]	transcription profiling by array						
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for srk2cf after treatment with ABA						
+Publication Title	Two Closely Related Subclass II SnRK2 Protein Kinases Cooperatively Regulate Drought-Inducible Gene Expression						
+Publication Author List	"Mizoguchi, Masahide; Umezawa, Taishi; Nakashima, Kazuo; Kidokoro, Satoshi; Takasaki, Hironori; Fujita, Yasunari; Yamaguchi-Shinozaki, Kazuko; Shinozaki, Kazuo"						
+Publication DOI	10.1093/pcp/pcq041						
+PubMed ID	20375108						
+Publication Status	published						
+Publication Status Term Source REF	EFO						
+Publication Status Term Accession Number	EFO_0001796						
+Experimental Design	in_vivo_design	co-expression_design	time_series_design	stimulus_or_stress_design	genetic_modification_design	replicate_design	transcription profiling by array
+Experimental Design Term Source REF		The MGED Ontology	The MGED Ontology	The MGED Ontology	The MGED Ontology	The MGED Ontology	EFO
+Comment[MIAMExpressLogin]	pmbarray						
+Comment[MIAMExpressSubmissionID]	6083						
+Experiment Description	"Microarray experiments were performed using Arabidopsis wild type plants (Col-0) and srk2cf double knockout mutants to investigate functions of two osmotic stress-activated protein kinases, SRK2C and SRK2F. Transcription profiles of wild type and mutants were compared under abscisic acid (ABA) treatment for 0, 1 and 4 h."						
+Experimental Factor Name	genotype	time	growth condition				
+Experimental Factor Type	genotype	time	growth condition				
+Person Last Name	Mizoguchi						
+Person First Name	Masahide						
+Person Email	mizoguti@rtc.riken.jp						
+Person Phone	:81-29-836-4359						
+Person Affiliation	RIKEN Plant Science Center						
+Person Address	"Gene Discovery Research Team, 3-1-1, Kouyadai, Tsukuba, Ibaraki, 305-0074, Japan"						
+Person Roles	submitter						
+Person Roles Term Source REF	MGED Ontology						
+Quality Control Type							
+Public Release Date	2009-10-15						
+Comment[ArrayExpressSubmissionDate]	2009-10-02						
+Protocol Name	P-MTAB-5480	P-MTAB-5481	P-MTAB-5482				
+Protocol Description	2-week old seedlings grown on agar plates were<br><br>were treated with ABA.	"The plates were kept in a growth chamber with a conditions; 22ﾰC, 16 hr light and 8 hr dark cycles for 2 weeks.<br>(Parameters: time unit = seconds, temperature unit = C, media = MS-3% sucrose)"	"Total RNA was extracted from frozen tissue using TRIzol reagent (Invitrogen) and purified using a RNease MinElute Cleanup Kit (Qiagen). <br>(Parameters: Extracted product = total_RNA, Amplification = none)"				
+Protocol Type	specified_biomaterial_action	grow	nucleic_acid_extraction				
+Protocol Term Source REF	MGED Ontology	MGED Ontology	MGED Ontology				
+Term Source Name	MGED Ontology	ArrayExpress	The MGED Ontology	EFO			
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo			
+SDRF File	E-MEXP-2378.sdrf.txt						

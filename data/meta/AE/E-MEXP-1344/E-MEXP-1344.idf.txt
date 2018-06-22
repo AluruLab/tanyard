@@ -1,0 +1,49 @@
+Investigation Title	Transcription profiling of Arabidopsis plants grown under diurnal conditions and transferred to cold conditions at different times of day to identify factors influencing cold-responsive genes	
+Comment[AdditionalFile:XLS]	E-MEXP-1344.hybs.xls
+Comment[Submitted Name]	Cold diurnal interactions	
+Experimental Design	stimulus_or_stress_design	all_pairs	co-expression_design	transcription profiling by array	
+Experimental Design Term Source REF	mo		mo	EFO	
+Comment[ArrayExpressReleaseDate]	2008-04-10	
+Comment[AEMIAMESCORE]	5	
+Comment[ArrayExpressAccession]	E-MEXP-1344	
+Comment[MAGETAB TimeStamp_Version]	2010-08-09 21:10:39 Last Changed Rev: 13058	
+Experimental Factor Name	time at start of treatment	temperature	length of treatment	
+Experimental Factor Type	environmental_history	temperature	time	
+Experimental Factor Term Source REF	
+Person Last Name	Hannah	
+Person First Name	Matt	
+Person Mid Initials	A	
+Person Email	hannah@mpimp-golm.mpg.de	
+Person Phone	+49 3315678623	
+Person Fax	
+Person Address	Am Mühlenberg 1	
+Person Affiliation	Willmitzer	
+Person Roles	submitter	
+Person Roles Term Source REF	The MGED Ontology	
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2008-04-10	
+PubMed ID	18375597	
+Publication DOI	18375597	
+Publication Author List	Bieniawska Z, Espinoza C, Schlereth A, Sulpice R, Hincha DK, Hannah MA	
+Publication Title	Disruption of the Arabidopsis circadian clock is responsible for extensive variation in the cold-responsive transcriptome	
+Publication Status	journal_article	
+Publication Status Term Source REF	The MGED Ontology	
+Experiment Description	Arabidopsis plants growing under diurnal conditions were transferred to cold of approximately one day duration, starting at different times of the day. All comparisons are of unreplicated pairs and are thus not designed to identify cold-responsive gens in isolation but are rather to supplement existing publicly available data. The overall aim was to use a diverse set of experiments to see which factors have the greatest influence on the identity of cold-responsive genes.	
+Protocol Name	P-MEXP-114540	P-MEXP-114016	P-MEXP-114537	P-MEXP-114017	P-AFFY-2	Affymetrix:Protocol:Hybridization-Unknown	Affymetrix:Protocol:Hybridization-EukGE-WS2v4_450	P-AFFY-6	P-MEXP-114656	
+Protocol Type	grow	specified_biomaterial_action	pool	nucleic_acid_extraction	labeling	hybridization	hybridization	feature_extraction	bioassay_data_transformation	
+Protocol Description	Columbia (Col-0-G1) was initially soil grown for 4 weeks in short-days (8 h) before transfer to long-days (16 h) at a day/night air temperature of 20 °C/18 °C and 150 µmol m-2 s-1 light. Experiments were started when the rosette was mature (40-45 days after germination) and completed before the inflorescence reached 0.5-2cm. Experiments [treatments] were started at different times of the day as indicated by the hours after dawn [zeitgeber time (ZT)] in the sample name. The time of day of harvest can be calculated by adding the treatment duration to this ZT.	Nonacclimated control plants were transferred to a 4°C growth chamber with a 16 h photoperiod at 90 µmol m-2 s-1 for a specified period of time as indicated be the hours in the sample name. Treatments started at different times of the day as indicated by the zeitgeber time (ZT) in the sample name. 	Whole rosettes were pooled from 5 or 6 individual plants before extracting RNA.	As manufacturers instructions	Title: Affymetrix in vitro transcription. Description: 	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix EukGE-WS2v4_450 Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	gcrma (package version 2.8.1) implemented in bioconductor (version 2.0) for R version 2.5.1. Default settings.	
+Protocol Parameters	max temperature;media;stop time;min temperature;start time;			Amplification;Extracted product;	
+Protocol Hardware	
+Protocol Software						MicroArraySuite 5.0		MicroArraySuite 5.0	
+Protocol Contact	
+Protocol Term Source REF			The MGED Ontology			mo	mo		The MGED Ontology	
+SDRF File	E-MEXP-1344.sdrf.txt	
+Term Source Name	The MGED Ontology		NCBI Taxonomy	ArrayExpress	mo	EFO	The MGED Ontology	
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php		http://www.ncbi.nlm.nih.gov/Taxonomy/	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version								

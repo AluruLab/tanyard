@@ -1,0 +1,52 @@
+Investigation Title	Transcription profiling of Arabidopsis wild-type and lwd1lwd2 double mutant to investigate the role of LWD1 and LWD2 in Arabidopsis photoperiod regulation					
+Comment[Submitted Name]	LWD1 and LWD2 in Arabidopsis photoperiod regulation					
+Experimental Design	unknown_experiment_design_type	transcription profiling by array				
+Experimental Design Term Source REF		EFO				
+Comment[AEExperimentType]	transcription profiling by array					
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for lwd1 and lwd2					
+Comment[AEMIAMESCORE]	4					
+Comment[ArrayExpressReleaseDate]	2008-10-26					
+Comment[SecondaryAccession]	GSE11762					
+Comment[ArrayExpressAccession]	E-GEOD-11762					
+Comment[MAGETAB TimeStamp_Version]	2010-07-22 05:01:07 Last Changed Rev: 13058					
+Experimental Factor Name	GENOTYPE					
+Experimental Factor Type	genotype					
+Experimental Factor Term Source REF						
+Person Last Name	Wu					
+Person First Name	Shu-Hsing					
+Person Mid Initials						
+Person Email	shuwu@gate.sinica.edu.tw					
+Person Phone						
+Person Fax						
+Person Address	Institute of Plant and Microbial Biology, Academia Sinica, 128, Sec 2, Academia Road, Taipei, 11529, Taiwan					
+Person Affiliation	Institute of Plant and Microbial Biology, Academia Sinica					
+Person Roles	submitter					
+Person Roles Term Source REF	The MGED Ontology					
+Quality Control Type						
+Quality Control Term Source REF						
+Replicate Type						
+Replicate Term Source REF						
+Normalization Type						
+Normalization Term Source REF						
+Date of Experiment						
+Public Release Date	2008-10-26					
+PubMed ID	18676661					
+Publication DOI	10.1104/pp.108.124917					
+Publication Author List	Jing-Fen Wu, Ying Wang, Shu-Hsing Wu					
+Publication Title	Two New Clock Proteins, LWD1 and LWD2, Regulate Arabidopsis Photoperiodic Flowering.					
+Publication Status	published					
+Publication Status Term Source REF	EFO					
+Publication Status Term Accession Number	EFO_0001796					
+Experiment Description	Transcriptome analysis has revealed a light-regulated WD (tryptophan and aspartate)-containing protein, LWD1. LWD1 and LWD2 share greater than 90% amino acid sequence homology. The lack of phenotype changes in the lwd1 or lwd2 single mutant implies that the proteins function redundantly. The lwd1lwd2 double mutant, however, has an early flowering phenotype under both long-day (LD) and short-day (SD) conditions. Functional complementation experiment revealed that LWDs are indeed responsible for the defect in photoperiod sensing in lwd1lwd2 double mutant plants. The expression of LWD1 exhibits a diurnal pattern and peaks before dawn. The period length of oscillator (CCA1, LHY, TOC1 and ELF4) and output (CCR2 and CAB2) genes in the lwd1lwd2 double mutant is significantly shorter than that in wild-type Arabidopsis under free running condition. Under entrainment conditions, the expression phase of oscillator (CCA1, LHY, TOC1 and ELF4) and output (GI, FKF1, CDF1, CO and FT) genes shifts ~3 hr forward in the lwd1lwd2 double mutant. Our data indicated that the early flowering phenotype in lwd1lwd2 plants is contributed by the significant phase shift of CO and, therefore, an increased expression of FT before dusk under SD conditions. Our data imply that LWD1/LWD2 proteins function in close proximity to the circadian oscillators for the regulation of photoperiod sensing. Experiment Overall Design: Two biological replicates were performed to examine the differential gene expression between wild-type and lwd1lwd2 double mutant. The plants were grown under 12 h L/ 12 h D for 31 days before harvesting their above ground tissues at ZT5-9.					
+Protocol Name	P-G11762-2	P-G11762-1	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6	Affymetrix:Protocol:ExpressionStat	
+Protocol Type	nucleic_acid_extraction	labeling	hybridization	feature_extraction	bioassay_data_transformation	
+Protocol Description	Pine tree extraction method Chang S, Puryear J, Cainey J (1993) A simple and efficient method for isolating RNA from pine trees. Plant Molecular Biology Reporter 11: 113-116	Ten microgram of total RNA was used for cDNA synthesis, labeled by in vitro transcription, followed by fragmentation according to the manufacturerâs suggestion (GeneChip Expression Analysis Technical Manual rev5, Affymetrix).	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 	
+Protocol Parameters						
+Protocol Hardware						
+Protocol Software			MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact						
+Protocol Term Source REF			mo		The MGED Ontology	
+SDRF File	E-GEOD-11762.sdrf.txt					
+Term Source Name	NCBI Taxonomy	The MGED Ontology	ArrayExpress	EFO	The MGED Ontology	mo
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version						

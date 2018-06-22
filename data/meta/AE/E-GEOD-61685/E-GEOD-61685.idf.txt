@@ -1,0 +1,26 @@
+Comment[ArrayExpressAccession]	E-GEOD-61685						
+MAGE-TAB Version	1.1						
+Public Release Date	2014-10-01						
+Investigation Title	Gene regulation by the seed maturation master regulators, LEC1, LEC2, FUS3 and ABI3 [set 2]						
+Comment[Submitted Name]	Gene regulation by the seed maturation master regulators, LEC1, LEC2, FUS3 and ABI3 [set 2]						
+Experiment Description	During seed maturation, the embryo accumulates nutrition storage compounds such as oil and reserve proteins, and acquires dormancy and desiccation tolerance. Arabidopsis transcription factors LEC1, LEC2, FUS3 and ABI3 are known as the master regulators of seed maturation because all these events during the seed maturation are severely affected by the respective mutants. In addition, the lec1, lec2 and fus3 mutants exhibit some heterochronic characteristics, as exemplified by the development of true leaf-like cotyledons during embryogenesis. To characterize these mutants at the whole genome expression level, microarray experiments were performed. Developing seeds were dissected from the siliques of the abi3-6 homozygous plants or the respective wild type plants (Col-0) at 12 and 16 days after flowering. Seeds samples were obtained from triplicate batches of plants and used for RNA preparation.						
+Term Source Name	ArrayExpress	EFO					
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Hattori	Yamamoto	Tanaka	Hobo	Hattori		
+Person First Name	Tsukaho	Akiko	Sachiyo	Tokunori	Tsukaho		
+Person Email	hattori@agr.nagoya-u.ac.jp						
+Person Affiliation	Nagoya Universtiy						
+Person Phone	+81-52-789-5215						
+Person Address	Bioscience and Biotechnology Center, Nagoya Universtiy, Furo-cho, Chikusa-ku, Nagoya, Aichi Prefecture, Japan						
+Person Roles	submitter						
+Protocol Name	P-GSE61685-1	P-GSE61685-5	P-GSE61685-6	P-GSE61685-2	P-GSE61685-3	P-GSE61685-4	P-GSE61685-7
+Protocol Description	The CEL files produced by GCOS 1.3 were analyzed using GCRMA package (ver.2.0.0) on the statistical software R. ID_REF =  VALUE = Log2 transformed GC-RMA signal.	Biotinylated cRNA were prepared from 2ug of total RNA using One-Cycle cDNA Synthesis Kit (Affymetrix) according to manufacturers protocol.	20 ug of labeled and fragmented cRNA was hybridized to GeneChip Arabidopsis ATH1 Genome Array using GeneChip Hybridization Oven 640 (Affymetrix). Wash and stain was performed by GeneChip Fluidics Station 450 (Affymetrix). All operations were performed with Hybridization, Stain and Wash Kit (Affymetrix) according to manufacturer's protocol (hws_kit_manual).	Developing seeds dissected from siliques.	16h light/8h dark, 22degreesC	The total RNA was extracted using Concert Plant RNA Reagent (Invitrogen) and was followed by purification using RNeasy Mini Kit (Qiagen).	GeneChips were scanned using GeneChip Scanner 3000 7G (Affymetrix) controled by GCOS 1.4 (Affymetrix).
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	genotype	age					
+Experimental Factor Type	genotype	age					
+Comment[SecondaryAccession]	GSE61685						
+Comment[GEOReleaseDate]	2014-10-01						
+Comment[ArrayExpressSubmissionDate]	2014-09-23						
+Comment[GEOLastUpdateDate]	2014-10-01						
+Comment[AEExperimentType]	transcription profiling by array						
+SDRF File	E-GEOD-61685.sdrf.txt						

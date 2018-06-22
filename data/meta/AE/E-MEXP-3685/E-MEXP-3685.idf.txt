@@ -1,0 +1,34 @@
+Comment[ArrayExpressAccession]	E-MEXP-3685							
+Investigation Title	Genome-wide analysis of genes regulated by ARR22 overexpression.							
+Comment[Submitted Name]	Genome-wide analysis of genes regulated by ARR22 overexpression.							
+Comment[AEExperimentDisplayName]	Genome-wide analysis of genes regulated by ARR22 overexpression.							
+Comment[MIAMExpressLogin]	chulohcho							
+Comment[MIAMExpressSubmissionID]	8359							
+Experiment Description	The experiment was designed to enable comparison of Pro35S:ARR22:HA in the presence of DEX or absence of DEX.							
+Experimental Design	in_vivo_design	co-expression_design	development_or_differentiation_design					
+Comment[AEExperimentType]	transcription profiling by array							
+Experimental Factor Name	compound	dose						
+Experimental Factor Type	compound	dose						
+Person Last Name	Cho							
+Person First Name	Chuloh							
+Person Email	chuloh.cho@gmail.com							
+Person Phone	+82-10-9450-9549							
+Person Affiliation	Chonnam National University							
+Person Address	Bioenergy Science &amp; Technology, 77 Yongbong-ro, Buk-gu, Gwangju, 500-757, Colleage of Agriculture &amp; Life Science, Gwangju, Gwangju, 500-757, South Korea							
+Person Roles	submitter							
+Person Roles Term Source REF	MGED Ontology							
+Quality Control Type								
+Public Release Date	2013-07-27							
+Comment[ArrayExpressSubmissionDate]	2012-07-27 06:24:15							
+Pubmed ID	24244460							
+Publication DOI	10.1371/journal.pone.0079248							
+Publication Title	Inducible expression of Arabidopsis response regulator 22 (ARR22), a type-C ARR, in transgenic Arabidopsis enhances drought and freezing tolerance							
+Publication Author List	Kang NY, Cho C, Kim J							
+Publication Status	published							
+Protocol Name	P-MTAB-27705	P-MTAB-27706	P-MTAB-27707	P-MTAB-27708	P-AFFY-2	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6	Affymetrix:Protocol:MAS4:ExpressionCall
+Protocol Description	Equal amounts of RNA from triplicate samples were pooled.	Following treatment, Arabidopsis plants were immediately frozen in liquid nitrogen, and stored at -80C. Total RNA was isolated from frozen Arabidopsis using RNeasy Plant Mini Kit (Qiagen GmbH, Hilden, Germany) according to the manufacturerﾒs instructions.<br>(Parameters: Extracted product = genomic_DNA, Amplification = none)	Pro35S:ARR22:HA (line#11-7) transgenic plants were grown for 5 days under long-day conditions (16h light/8h dark) on 0.5x Murashige Skoog (MS) medium containing vitamins, 1.5% sucrose, 2.5 mM Mes, pH 5.7, and 0.8% agar., and then transferred to 0.5x MS agar plates containing 10 uM DEX, and grown for additional 5 days.<br>(Parameters: time unit = seconds, temperature unit = C)	Pro35S:ARR22:HA (line#11-7) transgenic plants were grown for 5 days under long-day conditions (16h light/8h dark) on 0.5x Murashige Skoog (MS) medium containing vitamins, 1.5% sucrose, 2.5 mM Mes, pH 5.7, and 0.8% agar, and then transferred to 0.5x MS agar plates and grown for additional 5 days.<br><br><br>(Parameters: time unit = seconds, temperature unit = C)				
+Protocol Type	pool	nucleic_acid_extraction	grow	grow	labeling	hybridization	image_acquisition	bioassay_data_transformation
+Protocol Term Source REF	MGED Ontology	MGED Ontology	MGED Ontology	MGED Ontology	ArrayExpress	ArrayExpress	ArrayExpress	ArrayExpress
+Term Source Name	MGED Ontology	ArrayExpress						
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress						
+SDRF File	E-MEXP-3685.sdrf.txt							

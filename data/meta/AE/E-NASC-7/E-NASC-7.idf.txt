@@ -1,0 +1,55 @@
+Comment[ArrayExpressAccession]	E-NASC-7
+MAGE-TAB Version	1.1
+Investigation Title	Identification of global gene expression in cir1 and cir1:ein2 plants
+Comment[Submitted Name]	Identification of global gene expression in cir1 and cir1:ein2 plants
+Experimental Design	
+Experimental Design Term Source REF	
+Experimental Design Term Accession Number	
+Experimental Factor Name	Genotype	
+Experimental Factor Type	genotype	
+Experimental Factor Term Source REF	
+Experimental Factor Term Accession Number	
+Person Last Name	Craigon	Okyere	Higgins	Jotham	Murray	
+Person First Name	David	John	Janet	Joan	Shane	
+Person Mid Initials	J	Y				
+Person Email	david@arabidopsis.info	affy@arabidopsis.info	affy@arabidopsis.info	affy@arabidopsis.info	shane@molbiol.uct.ac.za	
+Person Phone	+44 115 951 3091	+44 115 951 6315	+44 115 951 6315	+44 115 951 6315	+27 21-650-4006	
+Person Fax	
+Person Address					Dept. of Molecular and Cell Biology Private Bag 7701 Rondebosch  South Africa 	
+Person Affiliation	Nottingham Arabidopsis Stock Centre (NASC)	Nottingham Arabidopsis Stock Centre (NASC)	Nottingham Arabidopsis Stock Centre (NASC)	Nottingham Arabidopsis Stock Centre (NASC)	Dr Katherine Denby Lab	
+Person Roles	data_coder;submitter	investigator	investigator	investigator	biosource_provider	
+Person Roles Term Source REF	
+Person Roles Term Accession Number	
+Quality Control Type	
+Quality Control Term Source REF	
+Quality Control Term Accession Number	
+Replicate Type	
+Replicate Term Source REF	
+Replicate Term Accession Number	
+Normalization Type	
+Normalization Term Source REF	
+Normalization Term Accession Number	
+Date of Experiment	
+Public Release Date	2003-10-30	
+PubMed ID	
+Publication DOI	
+Publication Author List	
+Publication Title	
+Publication Status	
+Publication Status Term Source REF	
+Publication Status Term Accession Number	
+Experiment Description	 The Arabidopsis mutant cir1 displayed constitutive expression of defence genes and enhanced resistance to the virulent pathogens Pseudomonas syringae pv tomato (Pst) and Peronospora parasitica Noco2.  In order to dissect the downstream signalling components constitutively activated in cir1, cir1 plants were crossed to the ethylene-insensitive mutant ein2.  Resistance to Pst was abolished in cir1:ein2 plantswhile resistance to P. parasitica Noco2 was maintained.  Thus CIR1-mediated resistance to Pst appears to be dependent on ethylene signalling through EIN2but resistance to P. parasitica Noco2 is EIN2-independent. The aim of the proposed experiment is to identify EIN2 dependent and independent global gene expression in cir1 plants.  It is likely that expression of a sub-set of EIN2-dependent genes in cir1 are required for resistance to Pst whereas EIN2-independent genes may be required for P.parasitica Noco2 resistance.  Identification and analysis of genes in these sub-sets may reveal common regulatory mechanisms and may extend the understanding of resistance to Pst and P. parasitica Noco2 in Arabidopsis.  This information should be of interest to the Arabidopsis disease resistance community. Total RNA will be extracted from leaf tissue harvested from five-week old soil-grown plants.
+Protocol Name	NASCLabelProtocol:1	P-MTAB-24111	P-MTAB-24112	P-MTAB-24113	P-MTAB-24114	P-MTAB-24115	P-MTAB-24116	P-MTAB-24117	P-MTAB-24118	P-MTAB-24119	Affymetrix:Protocol:Percentile	Affymetrix:Protocol:ExpressionStat	Affymetrix:Protocol:Hybridization-EukGE-WS2v4	Affymetrix:Protocol:Scan
+Protocol Type	labeling	nucleic_acid_extraction									bioassay_data_transformation	bioassay_data_transformation	hybridization	image_acquisition	
+Protocol Term Source REF	
+Protocol Term Accession Number	
+Protocol Description	RNA samples were quality controlled using the Agilent 2100 Bioanalyzer. 100 pmol T7-(dT)24 primer (5'-GGCCAGTGAATTGTAATACGACTCACTATAGGGAGGCGG-(dT)24-3')  was hybridized with the Total RNA ( 8 - 12ug) at 70°C for 10 minutes. First strand cDNA was synthesized by reverse transcription using 400 units SuperScript II Reverse Transcriptase in a reaction containing 50 mM Tris-HCl (pH 8.3), 75 mM KCl, 3 mM MgCl2, 10 mM dithiothreitol (DTT) and 0.5 mM dNTPs at 42C for 1 hour.  The reaction was then put on ice for 2 mins, followed by second strand cDNA synthesis.  130ul of the second strand reaction mix was added to the 20ul  first strand synthesis reaction. The second strand reaction mix  contained 40 units E. coli DNA polymerase I, 10 units E. coli DNA ligase, 2 units  E. coli RNase H and 0.2 mM dNTPs in a buffer containing 20 mMTris-HCl (pH 6.9), 90 mM KCl, 4.6 mM MgCl2, 10mM (NH4)SO4 and 0.15 mM -NAD+. The reaction was incubated at 16 C for 2 hours.  10 units T4 DNA Polymerase was added and the reaction incubated for a further 5 minutes at 16 C, then the reaction was terminated using EDTA.  The double-stranded cDNA was cleaned up using the cDNA Cleanup Spin Column supplied in the Affymetrix GeneChip Sample Cleanup Module.  The double-stranded cDNA was used as a template for in Vitro transcription of biotin-labeled cRNA using the ENZO BioArray RNA Transcript Labeling Kit supplied by Affymetrix.  The Transcript Labeling kit produces large amounts of hybridizable biotin-labeled RNA targets by in Vitro transcription from bacteriophage T7 RNA polymerase promoters.  The reaction mixture containing Biotin-Labeled ribonucleotides (ATP, GTP, CTP, UTP with Bio-UTP and Bio-CTP), DTT, RNase inhibitor mix and T7 RNA polymerase was incubated at 37 C for 5 hrs, gently mixing every 30 minutes during the incubation. This produced an average of 40ug biotin-labeled cRNA . The biotin-labeled cRNA  was cleaned up using the cRNA Cleanup Spin Column supplied in the Affymetrix GeneChip Sample Cleanup Module.  The quantity and quality of the cRNA was measured using the Agilent 2100 Bioanalyzer. The total amount of cRNA was calculated, the starting quantity of RNA subtracted to give the quantity of adjusted cRNA.  The cRNA was fragmented by metal-induced hydrolysis to break down full-length cRNA to 35-200 base fragments.  15ug of adjusted cRNA was used to prepare 300ul of hybridization cocktail of which 200ul was hybridized with the GeneChip.   	Protocol:  Total RNA extracted using Trizol was purified using a Qiagen spin column, precipitated with 4M Lithium Chloride and ethanol and dried.  													
+Protocol Parameters			Light;Medium;Temperature;Treatment;Water;Nutrient;Location	Light;Medium;Temperature;Treatment;Water;Nutrient;Location	Light;Medium;Temperature;Treatment;Water;Nutrient;Location	Light;Medium;Temperature;Treatment;Water;Nutrient;Location	Light;Medium;Temperature;Treatment;Water;Nutrient;Location	Light;Medium;Temperature;Treatment;Water;Nutrient;Location	Light;Medium;Temperature;Treatment;Water;Nutrient;Location	Light;Medium;Temperature;Treatment;Water;Nutrient;Location	Algorithm name;Upper left corner x coordinate;Upper left corner y coordinate;Upper right corner x coordinate;Upper right corner y coordinate;Lower left corner x coordinate;Lower left corner y coordinate;Lower right corner x coordinate;Lower right corner y coordinate;Percentile;Cell margin;Outlier high;Outlier low	Algorithm name;Algorithm version;Baseline file;Alpha1;Alpha2;Tau;Gamma1H;Gamma1L;Gamma2H;Gamma2L;Perturbation;Normalization factor;Scale factor;Mask file	Wash A1 Recovery Mixes;Wash A1 Temperature (C);Number of Wash A1 Cycles;Mixes per Wash A1 Cycle;Wash B Recovery Mixes;Wash B Temperature (C);Number of Wash B Cycles;Mixes per Wash B Cycle;Stain Temperature (C);First Stain Time (seconds);Wash A2 Recovery Mixes;Wash A2 Temperature (C);Number of Wash A2 Cycles;Mixes per Wash A2 Cycle;Second Stain Time (seconds);Third Stain Time (seconds);Wash A3 Recovery Mixes;Wash A3 Temperature (C);Number of Wash A3 Cycles;Mixes per Wash A3 Cycle;Holding Temperature (C)	Pixel Size;Number of Scans	
+Protocol Hardware	
+Protocol Software	
+Protocol Contact	
+Term Source Name
+Term Source File	
+Term Source Version	
+Comment[AEExperimentType]	transcription profiling by array	
+SDRF File	E-NASC-7.sdrf.txt

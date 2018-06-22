@@ -1,0 +1,33 @@
+Comment[ArrayExpressAccession]	E-MTAB-1921
+MAGE-TAB Version	1.1																							
+Investigation Title	Yu_systemic light																							
+Comment[Submitted Name]	Yu_systemic light
+Experiment Description	Responsive genes in covered apex with light irradiation on rosette leaves are revealed by the expressional profiling. Normalized data is included as an additional file. It was created via the following protocol: The data were analyzed with Microarray Suite version 5.0 (MAS 5.0) using Affymetrix default analysis settings and global scaling as normalization method. The trimmed mean target intensity of each array was arbitrarily set to 500.																							
+Experimental Design	Arabidopsis inflorescence is covered as complete dark, whereas rosette leaves are illuminated with light. After three days treatment, covered apices are collected for RNA extraction and microarray analysis. 																							
+Comment[AEExperimentType]	transcription profiling by array																							
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis thaliana apex response to light irradiation																							
+Experimental Factor Name	growth condition																							
+Experimental Factor Type	growth condition																							
+Quality Control Type	biological replicate																							
+Quality Control Term Source REF	EFO																							
+Public Release Date	2014-12-31																							
+Person Last Name	Tang																							
+Person First Name	Han																							
+Person Mid Initials																								
+Person Email	littlecat921@gate.sinica.edu.tw																							
+Person Phone	886-2-2787-1032																							
+Person Address	128 Academia Road, Section 2, Nankang, Taipei 115, Taiwan																							
+Person Affiliation	IPMB, Academia sinica																							
+Person Roles	submitter																							
+PubMed ID																								
+Publication Author List	Han Tang, Huan-Ju Lu, Tien-Shin Yu																							
+Publication Title	Blue and far-red light induced systemic light responses in Arabidopsis																							
+Publication Status																								
+Protocol Name	P-MTAB-35063	P-MTAB-35064	P-MTAB-35065	P-MTAB-35066
+Protocol Type	growth protocol	treatment protocol	nucleic acid extraction protocol	nucleic acid labeling protocol																				
+Protocol Description	WT plant were grown in growth chambers under a 16/8-h, 22C/20C day/night cycle, with white fluorescent light, at light intensity: 100 umol m-2 s-1.	WT plant grow under LD until bolting, then transfer to continuous light for six days (LL). Plants are irradiated with W, cR, cFR, and cB with inflorescence covering, and DD as control. For different qualities of light treatment, the inflorescence-covered plants were irradiated with red (10 umol m-2 s-1), far-red (1.13 W m-2), and blue light (15 umol m-2 s-1)	As handbook of Rneasy Plant mini extract kit (Qiagen)	10 ug total RNA were used for cDNA synthesis, labeled by in vitro transcription followed by fragmentation following the manufactorys suggestion (GeneChip Expression Analysis Technical Manual rev5, Affymetrix). 																				
+Protocol Term Source REF	EFO	EFO	EFO	EFO																				
+Term Source Name	EFO	ArrayExpress
+Term Source File	http://www.ebi.ac.uk/efo	http://www.ebi.ac.uk/arrayexpress																						
+Comment[AdditionalFile:TXT]	Yu_systemic_light_Matrix_ArrayExpress.txt																							
+SDRF File	E-MTAB-1921.sdrf.txt

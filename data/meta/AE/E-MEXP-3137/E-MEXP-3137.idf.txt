@@ -1,0 +1,34 @@
+Comment[ArrayExpressAccession]	E-MEXP-3137
+Investigation Title	megaspore_mothercell																										
+Comment[Submitted Name]	megaspore_mothercell
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis laser microdissected megaspore mother cells 																										
+Comment[MIAMExpressLogin]	anjaschmidt																										
+Comment[MIAMExpressSubmissionID]	7381																										
+Experiment Description	Cell type specific transcriptome analysis from laser microdissected megaspore mother cells (MMC) from Arabidopsis thaliana (L.) Heynh., accession Landsberg erecta.																										
+Experimental Design	co-expression_design	development or differentiation design	replicate design																								
+Comment[AEExperimentType]	transcription profiling by array																										
+Experimental Factor Name	individual																										
+Experimental Factor Type	individual																										
+Person Last Name	Schmidt																										
+Person First Name	Anja																										
+Person Email	anjaschmi33@gmx.de																										
+Person Phone	+41 44 634 8242																										
+Person Affiliation	University of Zurich																										
+Person Address	Plant Biology, Zollikerstrasse 107, Zurich, Zurich, 8008, Switzerland																										
+Person Roles	submitter																										
+Person Roles Term Source REF	EFO																										
+Quality Control Type	biological_replicate																										
+Comment[QualityControlDescription]	RNA quality was tested with a Bionanalyzer (Agilent)																										
+Public Release Date	2011-09-23																										
+Comment[ArrayExpressSubmissionDate]	2011-03-08																										
+PubMed ID	21949639																										
+Publication Author List	Schmidt A, Wuest SE, Vijverberg K, Baroux C, Kleen D, Grossniklaus U 																										
+Publication Title	Transcriptome Analysis of the Arabidopsis Megaspore Mother Cell Uncovers the Importance of RNA Helicases for Plant Germline Development																										
+Publication Status																											
+Protocol Name	P-MTAB-19889	P-MTAB-19890	P-MTAB-19891
+Protocol Description	For total RNA isolation from material isolated by laser assisted microdissection, caps were covered with 10 ul extraction buffer from the PicoPure RNA isolation kit (Arcturus Engineering, Mountain View, USA), incubated at 42 °C for 30 min before isolation according to manufacturers instructions. The recommended DNaseI-treatment was performed on-column using the RNAse-free DNase set (QIAGEN, Hilden, Germany).<br>(Parameters: Extracted product = total_RNA, Amplification = OTHER: MessageAmp II a RNA Kit, Ambion)	To prepare material for laser assisted microdissection, inflorescences were fixed on ice in farmers´ fixative (ethanol:acetic acid 3:1), vacuum infiltrated two times for 15 min and stored on ice over night. The fixative was than replaced by 70% ethanol. Young buds were selected under the dissecting scope. Subsequently, tips of the ovaries were dissected using injection needles, cleared in chloralhydrate:glycerol:water (8:1:2; w:v:v) and subjected to microscopic analysis. Buds with ovules harbouring MMC cells (predominantly before meiosis or at meiosis I) were subsequently embedded in Paraplast X-traTM in an ASP200 embedding machine (Leica Microsystems, Wetzlar, Germany) with the following parameters: 1h 70% EtOH / 3x 1h 90% EtOH / 3x 1h 100% EtOH/ 2x 1h 100% Xylol/ 1x 1h 15 min 100% Xylol, all steps at room temperature; then 2x 1h Paraplast X-tra and 1x 3h Paraplast X-tra at 56 °C. Samples were poured in paraffin blocks and stored at 4 °C until further use.<br><br><br><br>Thin sections of 6-7 ?m were prepared from the samples using a RM2145 Leica microtome and mounted on PET metal frame slides (Molecular Machines and Industries (MMI), Glattbrugg, Switzerland) using methanol. Slides were dried over night on a heating table at 42 °C and subsequently dewaxed two times 10 min in Xylol (Merck, Darmstadt, Germany).  Microdissection was performed with a SL ?Cut and a CellCut Plus Instrument (MMI). MMCs and surrounding sporophytic nucellus tissue was subsequently isolated and collected separately on MMI isolation caps. On average, ~65 MMC were collected per day on one isolation cap. In addition, one or two ovary sections were isolated per slide to control RNA quality.<br><br><br><br>	Arabidopsis thaliana (L.) Heynh., accession Landsberg erecta, were sterilized in 1.25% sodium-hypochloride solution and subsequently in 70% EtOH, then stratified at 4 °C for 48 hours on MS plates: 1x Murashige and Skoog salts, 3% sucrose (w/v), and  0.8% agar (w/v). Seedlings were grown at 20 °C and at 14 h light/10 h darkness before transfer to soil (type ED73, Universalerde, Germany) and grown in a growth chamber at 16 h light/ 8 h darkness at 21 °C and 18 °C respectively. <br>(Parameters: time unit = seconds, temperature unit = C)																								
+Protocol Type	nucleic acid extraction protocol	treatment protocol	growth protocol																								
+Protocol Term Source REF	EFO	EFO	EFO																								
+Term Source Name	EFO	ArrayExpress
+Term Source File	http://www.ebi.ac.uk/efo/	http://www.ebi.ac.uk/arrayexpress																									
+SDRF File	E-MEXP-3137.sdrf.txt

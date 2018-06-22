@@ -1,0 +1,26 @@
+Comment[ArrayExpressAccession]	E-GEOD-51215														
+MAGE-TAB Version	1.1														
+Public Release Date	2013-09-27														
+Investigation Title	Transcriptome analysis in flavonoid overaccumulating and lacking Arabidopsis.														
+Comment[Submitted Name]	Transcriptome analysis in flavonoid overaccumulating and lacking Arabidopsis.														
+Experiment Description	TranscriptoTranscriptome profiling using DNA microarrays of the aerial parts of the wild-type and other plants was conducted to examine if either MYB overexpression or flavonoid overaccumulation is responsible for the expression of stress-related genes involved in both the biotic and abiotic stress response. Comparative transcriptome analysis using DNA microarray in flavonoid overaccumulating and lacking Arabidopsis.														
+Term Source Name	ArrayExpress	EFO													
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl													
+Person Last Name	Nakabayashi	Nakabayashi	Yonekura-Sakakibara	Urano	Suzuki	Yamada	Nishizawa	Matsuda	Kojima	Sakakibara	Shinozaki	Michael	Tohge	Yamazaki	Saito
+Person First Name	Ryo	Ryo	Keiko	Kaoru	Makoto	Yutaka	Tomoko	Fumio	Mikiko	Hitoshi	Kazuo	Anthony	Takayuki	Mami	Kazuki
+Person Mid Initials												J			
+Person Email	geo@ncbi.nlm.nih.gov														
+Person Affiliation	RIKEN CSRS														
+Person Address	RIKEN CSRS, 1-7-22 Suehiro-cho, Tsurumi-ku, Yokohama, Kanagawa, Japan														
+Person Roles	submitter														
+Protocol Name	P-GSE51215-1	P-GSE51215-4	P-GSE51215-5	P-GSE51215-2	P-GSE51215-3	P-GSE51215-6									
+Protocol Description	R package in Bioconductor (http://www.bioconductor.org/) was used for normalization (MAS5) of the CELL files. ID_REF =  VALUE = MAS5	Affymetrix ATH1 GeneChip (24K) was conducted according to the manufacturer’s instructions.	Affymetrix ATH1 GeneChip (24K) was conducted according to the manufacturer’s instructions.	Sterilized seeds were kept for 2 days at 4degreesC in the dark and were sown on plates of growth medium (GM) agar containing 1% sucrose. All plates were set in a growth chamber at 22degreesC and relative humidity (approximately 60%) under a 16 h light (approximately 40 umols−1m−2)/8 h dark cycle. The drought stress experiment was conducted at 21degreesC and 40% +/- 5% relative humidity under 16 h/8 h light/dark conditions in a plant growth room. Harvested plant samples were immediately frozen in liquid nitrogen and stored at −80degreesC until use.	Affymetrix ATH1 GeneChip (24K) was conducted according to the manufacturer’s instructions.	Affymetrix ATH1 GeneChip (24K) was conducted according to the manufacturer’s instructions.									
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol									
+Experimental Factor Name	genotype														
+Experimental Factor Type	genotype														
+Comment[SecondaryAccession]	GSE51215														
+Comment[GEOReleaseDate]	2013-09-27														
+Comment[ArrayExpressSubmissionDate]	2013-09-26														
+Comment[GEOLastUpdateDate]	2013-09-29														
+Comment[AEExperimentType]	transcription profiling by array														
+SDRF File	E-GEOD-51215.sdrf.txt														

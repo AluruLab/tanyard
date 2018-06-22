@@ -1,0 +1,50 @@
+Investigation Title	Transcription profiling of Arabidopsis uvr8-1 and hy5-1 mutants exposed to UV-B and white light	
+Comment[Submitted Name]	UV-B induced genes in wild-type Arabidopsis versus mutants uvr8-1 and hy5-1 using Affymetrix ATH1 array	
+Experimental Design	stimulus_or_stress_design	individual_genetic_characteristics_design	co-expression_design	transcription profiling by array	
+Experimental Design Term Source REF	mo		mo	EFO	
+Comment[ArrayExpressReleaseDate]	2007-06-27	
+Comment[SecondaryAccession]	GSE3533	
+Comment[AEMIAMESCORE]	4	
+Comment[SecondaryAccession]	GDS1727	
+Comment[ArrayExpressAccession]	E-GEOD-3533	
+Comment[MAGETAB TimeStamp_Version]	2010-08-04 22:30:34 Last Changed Rev: 13058	
+Experimental Factor Name	Genotype	EnvironmentalStress	
+Experimental Factor Type	genotype	environmental_stress	
+Experimental Factor Term Source REF	
+Person Last Name	Jenkins	
+Person First Name	Gareth	
+Person Mid Initials	
+Person Email	G.Jenkins@bio.gla.ac.uk	
+Person Phone	
+Person Fax	
+Person Address	Plant Science Group,Institute of Biomedical and Life Sciences,University of Glasgow,Bower Building,Glasgow,G12 8QQ,United Kingdom	
+Person Affiliation	University of Glasgow	
+Person Roles	submitter	
+Person Roles Term Source REF	The MGED Ontology	
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2007-06-27	
+PubMed ID	16330762	
+Publication DOI	16330762	
+Publication Author List	Bobby A Brown,Catherine Cloix,Guang Huai Jiang,Eirini Kaiserli,Pawel Herzyk,Daniel J Kliebenstein,Gareth I Jenkins	
+Publication Title	A UV-B-specific signaling component orchestrates plant UV protection.	
+Publication Status	journal_article	
+Publication Status Term Source REF	The MGED Ontology	
+Experiment Description	This experiment tests the effect of physiological dose of UV-B radiation on wild-type and uvr8-1 (UV Resistance Locus 8) and hy5-1 transcription factor mutants of Arabidopsis.	
+Protocol Name	P-G3533-2	P-G3533-8	P-G3533-3	P-G3533-4	P-G3533-5	
+Protocol Type	specified_biomaterial_action	grow	nucleic_acid_extraction	labeling	hybridization	
+Protocol Description	Plants exposed to 3 micromol m-2 s-1 UV-B (UV-B 313 tubes; Q-Panel, USA) for 4 hours	Plants were grown in compost for 3 weeks in 25 micromol m-2 s-1 continuous white light (warm white fluorescent tubes) at 21 oC	RNA was isolated from leaf tissue using the Purescript kit (Flowgen) according to the manufacturer instructions.	RNA was reverse transcribed using the SuperScript II system (Invitrogen). The oligonucleotide used for priming was 5'-ggccagtgaattgtaatacgactcactatagggaggcgg-(t)24-3', as recommended by Affymetrix. dscDNA was in vitro transcribed to produce biotinylated cRNA using the Affymetrix GeneChip labelling kit.	Biotinylated cRNA was hybridised to Affymetrix Arabidopsis ATH1 GeneChips using the standard Affymetrix procedure (45oC, 60 revs min-1, 16 hrs). Washing and staining were performed in a Fluidics Station 400 (Affymetrics) using Affymetrix protocol EukGE-WS2v4; the chips were stained with Streptavidin Phycoerythrin (SAPE) followed by biotinylated antibody followed by SAPE again.	
+Protocol Parameters	
+Protocol Hardware	
+Protocol Software	
+Protocol Contact	
+Protocol Term Source REF	
+SDRF File	E-GEOD-3533.sdrf.txt	
+Term Source Name	NCBI Taxonomy		po	mo	The MGED Ontology	ArrayExpress	mo	EFO	The MGED Ontology	
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://www.plantontology.org	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version										

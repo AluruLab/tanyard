@@ -1,0 +1,50 @@
+Investigation Title	Transcription profiling of Arabidopsis seedlings of wild type, brx loss-of-function and rescued brx lines							
+Comment[Submitted Name]	Hardtke - Arabidopsis thaliana - seedlings							
+Experimental Design	strain_or_line_design	compound_treatment_design	transcription profiling by array					
+Experimental Design Term Source REF	mo	mo	EFO					
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for brx after treatment with brassinolide or indole-3-acetic acid							
+Comment[ArrayExpressReleaseDate]	2006-09-28							
+Comment[AEMIAMESCORE]	4							
+Comment[ArrayExpressAccession]	E-MEXP-637							
+Comment[MAGETAB TimeStamp_Version]	2010-08-11 15:16:45 Last Changed Rev: 13058							
+Experimental Factor Name	dose	genotype	time	compound				
+Experimental Factor Type	dose	genotype	time	compound				
+Experimental Factor Term Source REF								
+Person Last Name	Mouchel	Osmont	Hardtke					
+Person First Name	Céline	Karen	Christian					
+Person Mid Initials	F	S						
+Person Email			christian.hardtke@unil.ch					
+Person Phone			(41) 21 692 4251					
+Person Fax			(41) 21 692 4195					
+Person Address			Batiment Biophore					
+Person Affiliation	Université de Lausanne	Université de Lausanne	Biologie moléculaire végétale					
+Person Roles			submitter					
+Person Roles Term Source REF								
+Quality Control Type								
+Quality Control Term Source REF								
+Replicate Type								
+Replicate Term Source REF								
+Normalization Type								
+Normalization Term Source REF								
+Date of Experiment								
+Public Release Date	2006-09-28							
+PubMed ID	17006513							
+Publication DOI	10.1038/nature05130							
+Publication Author List	Mouchel CF, Osmont KS, Hardtke CS.							
+Publication Title	BRX mediates feedback between brassinosteroid levels and auxin signalling in root growth							
+Publication Status	published							
+Publication Status Term Source REF	EFO							
+Experiment Description	We compared the seedling transcription profiles to determine the effects of loss-of-function of the BRX gene of Arabidopsis. BRX is required for optimal root growth. We compared seedlings of a loss-of-function line (brx) with its control background (Sav-0). Because the loss-of-function line was derived from introgression, a brx line that was complemented by a transgenic wild type copy of BRX was also included as a control. This line (rescued brx) allows the identification of expression differences that are due to introgression drag. See Mouchel et al. 2004, Genes & Dev. Vol. 18, p. 700 for a detailed description. We also compared to response of the different genotypes to the application of the phytohormones brassinolide (BL) and indole acetic acid (IAA)							
+Protocol Name	P-MEXP-21978	P-MEXP-21968	P-MEXP-21985	P-MEXP-22034	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6		
+Protocol Type	grow	specified_biomaterial_action	nucleic_acid_extraction	labeling	hybridization	feature_extraction		
+Protocol Description	Seeds were germinated in liquid MS media under constant light. 	At 4 days after germination in liquid media, seedlings were either mock-treated or treated with 1µM IAA for 1 hour  or with 5nM brassinolide for 3 hours.	Total RNA was extracted using the RNeasy plant mini kit from Qiagen	Samples were labelled accordingly to the manufacturers instructions	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 		
+Protocol Parameters	max temperature;min temperature;start time;stop time;		Extracted product;Amplification;	Amplification;Label used;Amount of nucleic acid labeled;				
+Protocol Hardware								
+Protocol Software					MicroArraySuite 5.0	MicroArraySuite 5.0		
+Protocol Contact								
+Protocol Term Source REF		mo			mo			
+SDRF File	E-MEXP-637.sdrf.txt							
+Term Source Name	mo		ncbitax	The MGED Ontology	ArrayExpress	chebi	mo	EFO
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php		http://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://ebi.ac.uk/chebi	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/
+Term Source Version								

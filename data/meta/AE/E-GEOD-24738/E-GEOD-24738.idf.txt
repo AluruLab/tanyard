@@ -1,0 +1,57 @@
+Comment[ArrayExpressAccession]	E-GEOD-24738							
+Public Release Date	2011-03-01							
+Investigation Title	HNI9/IWS1 mutant transcriptome in nitrogen-contrasted environments							
+Comment[Submitted Name]	HNI9/IWS1 mutant transcriptome in nitrogen-contrasted environments							
+Experiment Description	Effect of the high nitrogen insensitive 9 (hni9) mutation in contrasted nitrogen environments. hni9 vs. WT, and Low Nitrogen vs. High Nitrogen environments. 2 biological replicates per genotype/environment.							
+Date of Experiment								
+Term Source Name	EFO							
+Term Source Version								
+Term Source File	http://www.ebi.ac.uk/efo							
+Person Last Name	Krouk	Lepetit	Gojon	Coruzzi	Krouk	Widiez	Ruffel	
+Person First Name	Gabriel	Marc	Alain	Gloria	Gabriel	Thomas	Sandrine	
+Person Mid Initials								
+Person Email	geo@ncbi.nlm.nih.gov							
+Person Affiliation	New york University							
+Person Phone								
+Person Fax								
+Person Address	Center for Genomics and Systems Biology, New york University, 100 Washington Square East. 1009 Main Building, New York, NY, USA							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Person Roles Term Accession Number								
+Normalization Type								
+Normalization Term Accession Number								
+Normalization Term Source REF								
+Replicate Type								
+Replicate Term Accession Number								
+Replicate Term Source REF								
+Experimental Design								
+Experimental Design Term Accession Number								
+Experimental Design Term Source REF								
+Quality Control Type								
+Quality Control Term Accession Number								
+Quality Control Term Source REF								
+Protocol Name	P-GSE24738-1	P-GSE24738-6	P-GSE24738-3	P-GSE24738-8	P-GSE24738-7	P-GSE24738-2	P-GSE24738-4	P-GSE24738-5
+Protocol Description	ID_REF = <br>VALUE = MAS5.0 signal intensity	Affymetrix recommendations.	Plants were grown on basal media supplemented by different nitrogen sources.	Mas5 [R]	Affymetrix recommendations.	Steady state on 0.3 mM KNO3 (low nitrogen) or 10 mM NH4NO3 (high nitrogen).	Trizol RNA.	Affymetrix recommendations.
+Protocol Software								
+Protocol Hardware								
+Protocol Contact								
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Protocol Term Source REF								
+Protocol Term Accession Number								
+Experimental Factor Name	GROWTH CONDITION	GENOTYPE						
+Experimental Factor Type	growth_condition	genotype						
+Experimental Factor Term Source REF								
+Experimental Factor Term Accession Number								
+Publication Title	High nitrogen insensitive 9 (HNI9)-mediated systemic repression of root NO3- uptake is associated with changes in histone methylation.							
+Publication Author List	Widiez T, El Kafafi el S, Girin T, Berr A, Ruffel S, Krouk G, Vayssières A, Shen WH, Coruzzi GM, Gojon A, Lepetit M.							
+PubMed ID	21788519							
+Publication DOI	10.1073/pnas.1017863108 							
+Publication Status	published							
+Publication Status Term Source REF	EFO							
+Publication Status Term Accession Number	EFO_0001796							
+Comment[SecondaryAccession]	GSE24738							
+Comment[GEOLastUpdateDate]	2011-03-01							
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[GEOReleaseDate]	2011-03-01							
+Comment[ArrayExpressSubmissionDate]	2010-10-14							
+SDRF File	E-GEOD-24738.sdrf.txt							

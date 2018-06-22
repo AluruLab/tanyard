@@ -1,0 +1,25 @@
+Comment[ArrayExpressAccession]	E-GEOD-38102
+MAGE-TAB Version	1.1						
+Public Release Date	2015-06-10
+Investigation Title	Expression data from Oryza sativa and Arabidopsis thaliana						
+Comment[Submitted Name]	Expression data from Oryza sativa and Arabidopsis thaliana
+Experiment Description	The goal of this work is to identify the gene regulatory hubs that control nitrogen-use in Oryza sativa, one of the most important crop plants, by using a combination of genomics, bioinformatics and systems biology approaches. Here, we evaluate the role of bZIP1, a transcription factor involved in light and nitrogen sensing, by exposing wild-type (WT) and bZIP1 T-DNA null mutant plants to a combinatorial space of N and L treatment conditions.  We use ANOVA analysis combined with clustering and Boolean modeling, to evaluate the role of bZIP1 in mediating L and N signaling genome-wide. We also study the interspecies conservation, comparing rice with Arabidopsis thaliana nitrogen transcriptomes, to help identify conserved nitrogen regulation.						
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Obertello	Obertello	Srivastava	Katari	Coruzzi		
+Person First Name	Mariana	Mariana	Stuti	Manpreet	Gloria		
+Person Email	obertello@dna.uba.ar						
+Person Affiliation	INGEBI-CONICET						
+Person Address	Department of Biology, INGEBI-CONICET, Vuelta de Obligado 2490, Capital Federal, Argentina						
+Person Roles	submitter						
+Protocol Name	P-GSE38102-1	P-GSE38102-5	P-GSE38102-6	P-GSE38102-2	P-GSE38102-3	P-GSE38102-4	P-GSE38102-7
+Protocol Description	All microarray data was processed with Robust Microarray Analysis (RMA) normalization and summarization were done using the R Bioconductor package. ID_REF =  VALUE = RMA signal intensity	Biotin-labeled cRNA was synthesized using the Enzo BioArray HighYield RNA Transcript Labeling Kit (Enzo, New York, NY).	We used 15 µg of labeled cRNA to hybridize the Arabidopsis ATH1 Affymetrix and Rice Affymetrix gene chip for 16 h at 42°C. Washing, staining and scanning were performed as recommended by Affymetrix.	On day 13, plants were transiently treated for 2 h at the start of their light cycle by adding N at a final concentration of 20 mM KNO3 and 20 mM NH4NO3. Control plants were treated with KCl at a final concentration of 20 mM. After treatment, whole seedlings were harvest and immediately frozen in liquid nitrogen.	Seeds were surface-sterilized in 70% ethanol for 3 minutes followed by commercial H2O2 for 30 minutes with gently agitation, and washed with distilled water. Seeds were sown onto basal MS salts (custom-made; GIBCO) with 0.5 mM ammonium succinate and 3 mM sucrose, 0.8% BactoAgar at pH 5.5 for 3 days in dark conditions at 27°C. Following germination, embryos with developed root system and aerial tissue were dissected from the rest of the seed using a sterile blade and transferred to a hydroponic system (Phytatray II, Sigma Aldrich) containing basal MS salts (custom-made; GIBCO) with 0.5 mM ammonium succinate and 3 mM sucrose at pH 5.5 at light intensity of 180 μE.s-1.m-2 and at 27°C. Fresh media was exchanged every 3 days. Arabidopsis seeds were placed for 2 days in the dark at 4°C to synchronize germination. Seeds were surface-sterilized and then transferred to a hydroponic system (Phytatray I, Sigma Aldrich) containing the same media previously described for rice (pH 5.7). Growth conditions were the same as in rice, except that plants were under 50 μE.s-1.m-2 light intensity at 22°C.	RNA was isolated from whole plants using Trizol reagent according to the intructions of the manufacturer (15596; Invitrogen).	Scanning were performed as recommended by Affymetrix.
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	treated with	organism part	organism				
+Experimental Factor Type	treated with	organism part	organism				
+Comment[SecondaryAccession]	GSE38102						
+Comment[GEOReleaseDate]	2015-06-10						
+Comment[ArrayExpressSubmissionDate]	2012-05-21						
+Comment[GEOLastUpdateDate]	2015-06-10						
+Comment[AEExperimentType]	transcription profiling by array						
+SDRF File	E-GEOD-38102.sdrf.txt

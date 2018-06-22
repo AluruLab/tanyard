@@ -1,0 +1,33 @@
+Comment[ArrayExpressAccession]	E-MEXP-1920				
+Investigation Title	Transcription profiling of pistils from Arabidopsis wild type, ant-4 mutant and ino-1mutant plants at different developmental stages				
+Comment[Submitted Name]	Arabidopsis wt ino-1 and ant-4 expression profiling for ovule gene discovery				
+Publication Title	Expression-based discovery of candidate ovule development regulators through transcriptional profiling of ovule mutants.				
+Publication Author List	Skinner DJ, Gasser CS.				
+PubMed ID	19291320				
+Publication DOI	10.1186/1471-2229-9-29				
+Experimental Design	reference_design	co-expression_design	individual_genetic_characteristics_design	transcription profiling by array	
+Experimental Design Term Source REF	The MGED Ontology	The MGED Ontology		EFO	
+Comment[MIAMExpressLogin]	djskinner				
+Comment[MIAMExpressSubmissionID]	5233				
+Experiment Description	This experiment was designed to identify genes expressed preferentially in the two integuments of the Arabidopsis ovule.  Pistils from wild type and two ovule mutants were compared against each aintegumenta-4 (ant-4) which lacks both integuments and inner no outer (ino-1) which lacks the outer integument. Genes that are highly expressed only in the integuments were expected to be reduced in expression in the mutants, as compared with wild type. Pistils containing ovules through all stages of ovule development prior to pollination were pooled for one experiment (FULL arrays), and for two separate experiments, a set of early differentiation stages (EARLY arrays) and a set of later differentiation stages (LATE ARRAYS) were pooled. Wild type and mutant lines are in the ecotype Landsberg erecta. 				
+Experimental Factor Name	genotype	developmental stage			
+Experimental Factor Type	genotype	developmental stage			
+Person Last Name	Skinner				
+Person First Name	Debra				
+Person Email	zimskinner@gmail.com				
+Person Phone	1 530 7523111				
+Person Affiliation	UC Davis				
+Person Address	Molecular &amp; Cellular Biology, 1 Shields Ave, Davis, CA, 95616, USA				
+Person Roles	submitter				
+Person Roles Term Source REF	MGED Ontology				
+Quality Control Type	biological_replicate				
+Public Release Date	2009-06-01				
+Comment[ArrayExpressSubmissionDate]	21/11/08 14:21				
+Protocol Name	P-MTAB-2394	P-MTAB-2395	P-MTAB-2396	P-MTAB-2397	
+Protocol Description	Total RNA was extracted using the Qiagen RNeasy Plant kit (Qiagen, USA) using buffer QLT. <br>(Parameters: Extracted product = total_RNA, Amplification = none)	Using affylmGUI, an expression measure was generated from raw CEL files using the rma function. This method uses a multichip linear model and log2 expression values are provided.	All plants were grown in 24 hour light at 19C in Percival growth chambers using 1:1 mixture of Premier Pro-Mix 'BX' potting soil (Premier Horticulture) and vermiculite. Once germinated, plants were fertilized using a complete nutrient solution once per week (Kranz, 1987). Pots containing different genotypes were placed randomly in flats, and rotated between shelves every 3 days. <br>(Parameters: time unit = seconds, temperature unit = C)	Plants were sampled 2-3 days after the start of flowering, for several days, up to 2 weeks.  Pistils were collected during the same time period each day 10am - 1pm.  Pistils were dissected from flowers using needles, frozen on dry ice, and stored at -80C.  	
+Protocol Type	nucleic_acid_extraction	bioassay_data_transformation	grow	specified_biomaterial_action	
+Protocol Term Source REF	MGED Ontology	MGED Ontology	MGED Ontology	MGED Ontology	
+Term Source Name	MGED Ontology	ArrayExpress	The MGED Ontology		EFO
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress			
+SDRF File	E-MEXP-1920.sdrf.txt				
+Comment[AEExperimentType]	transcription profiling by array				

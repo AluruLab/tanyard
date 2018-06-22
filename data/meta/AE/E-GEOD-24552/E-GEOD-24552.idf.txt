@@ -1,0 +1,52 @@
+Investigation Title	Expression data from Arabidopsis thaliana - Pseudomonas interaction							
+Comment[Submitted Name]	Expression data from Arabidopsis thaliana - Pseudomonas interaction							
+Experimental Design	transcription profiling by array							
+Experimental Design Term Source REF	EFO							
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis after infection with Pseudomonas G62							
+Comment[SecondaryAccession]								
+Comment[SecondaryAccession]	GSE24552							
+Comment[ArrayExpressReleaseDate]	2010-10-07							
+Comment[AEMIAMESCORE]	4							
+Comment[ArrayExpressAccession]	E-GEOD-24552							
+Comment[MAGETAB TimeStamp_Version]	2010-10-21 14:43:16 Last Changed Rev: 14677							
+Experimental Factor Name	infect							
+Experimental Factor Type	infect							
+Experimental Factor Term Source REF								
+Person Last Name	van Dongen	Thormählen	Schwachtje					
+Person First Name	Joost	Ina	Jens					
+Person Mid Initials	T							
+Person Email			schwachtje@mpimp-golm.mpg.de					
+Person Phone								
+Person Fax								
+Person Address			"Energy Metabolism, Max-Planck-Institute for Molecular Plant Physiology, Am MÃ¼hlenberg 1, Potsdam , Germany"					
+Person Affiliation			Max-Planck-Institute for Molecular Plant Physiology					
+Person Roles			submitter					
+Person Roles Term Source REF			The MGED Ontology					
+Quality Control Type								
+Quality Control Term Source REF								
+Replicate Type								
+Replicate Term Source REF								
+Normalization Type								
+Normalization Term Source REF								
+Date of Experiment								
+Public Release Date	2010-10-07							
+PubMed ID								
+Publication DOI								
+Publication Author List								
+Publication Title								
+Publication Status								
+Publication Status Term Source REF								
+Experiment Description	"Some soil bacteria promote plant growth, including Pseudomonas species. With this approach we detected significant changes in Arabidopsis genes related to primary metabolism that were induced by the bacteria. Pseudomonas G62 was applied to roots of 18 day-old Arabidopsis seedlings and the transcriptional profile of whole seedlings after 6 hours of treatment was analyzed."							
+Protocol Name	P-GSE24552-2	P-GSE24552-3	P-GSE24552-4	P-GSE24552-5	P-GSE24552-6	P-GSE24552-7	P-GSE24552-8	P-GSE24552-1
+Protocol Type	specified_biomaterial_action	grow	nucleic_acid_extraction	labeling	hybridization	image_aquisition	feature_extraction	bioassay_data_transformation
+Protocol Description	"Six hours before harvesting 18-day old seedlings, 500 Âµl of P. sp. G62 (OD 0.5 in 10 mM MgSO4), or MgSO4 only for controls was applied to the medium."	"One or two Arabidopsis seedlings were grown in 1.5 ml Eppendorf tubes, from which the tip was cut off. The tubes contained sandy soil and were placed on peat substrate. Light conditions were 12 light/12 dark at 20Â°C and 18 Â°C, respectively."	Twenty-five seedlings were pooled for each of three  replicates per treatment. RNA was extracted from seedlings with RNeasy Mini Kit from Quiagen according to the manufacturerÂ´s protocol.	"cDNA synthesis and in vitro-transcription was done with AmbionÂ´s Message Amp II 96 Kit (Cat. No. 1819), starting with 1 Î¼g of total RNA"	"Hybridization solution was prepared according to AffymetrixÂ´ GeneChip Expression Analysis Technical Manual. The final concentration of cRNA was 60 ng/Î¼l. Hybridization was performed for 16-18 hours at 45Â°C and 60 rpm in a rotating hybridization oven (Hybridization Oven 640, Affymetrix)."	"Scanning was performed with the GeneChip Scanner 3000 7G (Affymetrix), which is controlled by AffymetrixÂ´ software GeneChip Operating System (GCOS) v1.4."	Data (.cel files) were quality-checked and normalized using robust multi array averaging (rma) with ROBIN software (Lohse et al. 2010) and analyzed with MapMan software (Usadel et al. 2005).	ID_REF = <br>VALUE = normalized signal intensity
+Protocol Parameters								
+Protocol Hardware								
+Protocol Software								
+Protocol Contact								
+Protocol Term Source REF	The MGED Ontology	The MGED Ontology	The MGED Ontology	The MGED Ontology	The MGED Ontology		The MGED Ontology	The MGED Ontology
+SDRF File	E-GEOD-24552.sdrf.txt							
+Term Source Name	EFO		The MGED Ontology	ArrayExpress	EFO	The MGED Ontology		
+Term Source File	http://www.ebi.ac.uk/efo/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php		
+Term Source Version								

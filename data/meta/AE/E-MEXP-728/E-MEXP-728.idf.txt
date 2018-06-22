@@ -1,0 +1,48 @@
+Investigation Title	Transcription profiling of potent induction of flowering in A. thaliana by elevated temperature	
+Comment[Submitted Name]	Weigel-Arabidopsis-Tempshift	
+Experimental Design	time_series_design	growth_condition_design	transcription profiling by array	
+Experimental Design Term Source REF	mo	mo	EFO	
+Comment[ArrayExpressReleaseDate]	2006-06-02	
+Comment[AEMIAMESCORE]	5	
+Comment[ArrayExpressAccession]	E-MEXP-728	
+Comment[MAGETAB TimeStamp_Version]	2010-08-11 16:03:56 Last Changed Rev: 13058	
+Experimental Factor Name	strain	time	temperature	
+Experimental Factor Type	ecotype	time	temperature	
+Experimental Factor Term Source REF	
+Person Last Name	Sureshkumar	Lempe	Balasubramanian	Weigel	
+Person First Name	Sridevi	Janne	Sureshkumar	Detlef	
+Person Mid Initials	
+Person Email			esskay@tuebingen.mpg.de	
+Person Phone			+49-7071-6011418	
+Person Fax	
+Person Address			Spemannstrasse 37-39	
+Person Affiliation	Max-Planck Institute for Developmental Biology	Max-Planck Institute for Developmental Biology	Dept. of Molecular Biology, MPI Developmental Biology	Max-Planck Institute for Developmental Biology	
+Person Roles			submitter	
+Person Roles Term Source REF				
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2006-06-02	
+PubMed ID	16839183	
+Publication DOI	16839183	
+Publication Author List	Sureshkumar Balasubramanian; Sridevi Sureshkumar; Janne Lempe; Detlef Weigel	
+Publication Title	Potent induction of Arabidopsis thaliana flowering by elevated growth temperature	
+Publication Status	journal_article	
+Publication Status Term Source REF	
+Experiment Description	Plants were grown on soil for 35 days under short day conditions (8hrs light/16hrs dark)  at 16¡ÄC and  65% relative humidity. Flowering was induced by shifting either to long day conditions (16/8) at 16¡ÄC and 65% relative humidity or to 25¨¬C in short days (8/16). Samples were taken at day 0, 2, 5 and 9 after shifting. 	
+Protocol Name	P-MEXP-24904	P-MEXP-24903	P-MEXP-24905	P-MEXP-24906	P-AFFY-2	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6	Affymetrix:Protocol:ExpressionStat	
+Protocol Type	specified_biomaterial_action	grow	pool	nucleic_acid_extraction	labeling	hybridization	feature_extraction	bioassay_data_transformation	
+Protocol Description	Plants grown at 16 C in short day conditions (8hrs light/16hrs dark) were shifted either to 16 C long days (16hrs light/8 hrs dark; Light shift) or to 25 C short days (8hrs light/16 hrs dark; Temperature shift).	Plants were grown on soil for 35 days under short day conditions (8hrs light/16hrs dark)  at 16 C and  65% relative humidity. Flowering was induced by shifting to long day conditions (16/8) at 16 C and 65% relative humidity or to 25 C in short day conditions (8/16). Samples were taken at day 0, 2, 5 and 9 after shifting. 	Apices from 25 plants per genotype/treatment were pooled and RNA was extracted.	RNA was extracted from 25 pooled shoot apices from corresponding samples using the Qiagen RNA extraction kit	Title: Affymetrix in vitro transcription. Description: 	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 	
+Protocol Parameters		stop time;max temperature;start time;min temperature;media;		Extracted product;Amplification;	
+Protocol Hardware	
+Protocol Software						MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact	
+Protocol Term Source REF	mo					mo		The MGED Ontology	
+SDRF File	E-MEXP-728.sdrf.txt	
+Term Source Name	mo		atcc	ncbitax	Plant Ontology	nasc	The MGED Ontology	ArrayExpress	mo	EFO	The MGED Ontology	
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php		http://www.atcc.org/	http://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html	http://www.plantontology.org/	http://arabidopsis.info/catalogue.html	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version												

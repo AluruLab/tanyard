@@ -1,0 +1,29 @@
+Comment[ArrayExpressAccession]	E-GEOD-59809						
+MAGE-TAB Version	1.1						
+Public Release Date	2014-07-29						
+Investigation Title	Expression data from12-day old Arabidopsis germinants						
+Comment[Submitted Name]	Expression data from12-day old Arabidopsis germinants						
+Experiment Description	Seed germination of a terrestrial plant constitute dynamic changes in various physiological processes related to growth and development. These physiological processes can be affected by various abiotic and biotic stressors. Here we looked at how the two commonly used nanoparticles, nano-titania (TiO2) and nano-ceria (CeO2) can impact the underlying mechanisms associated with germination at genome level. We used microarrays to detail the global programme of gene expression underlying various physiological processes associated with growth and development, and identified distinct classes of up-regulated genes during this process. 12 day old Arabidopsis germinants were selected for RNA extraction and hybridization on Affymetrix microarrays. Arabidopsis seeds were individually exposed to 500mg/L concentration of nano-titania and nano-ceria for 12 days, followed by extraction of RNA for Microarray analysis. 0.1M KCl was used as control for nano-titania, whereas sterilized millipore water was used as control for nano-ceria.						
+Term Source Name	ArrayExpress	EFO					
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Tumburu	Tumburu					
+Person First Name	Laxminath	Laxminath					
+Person Email	geo@ncbi.nlm.nih.gov						
+Person Affiliation	National Institutes of Health						
+Person Address	National Institutes of Health, 9000 Rockville Pike, Bethesda, MD, USA						
+Person Roles	submitter						
+Protocol Name	P-GSE59809-1	P-GSE59809-5	P-GSE59809-6	P-GSE59809-2	P-GSE59809-3	P-GSE59809-4	P-GSE59809-7
+Protocol Description	Raw scanning data files (Affymetrix.cel) were obtained using Affymetrix GeneChip Operating Software, v1.4, and then files were analyzed by Bioconductor SimpleAffy to assess data quality.  Data were normalized by quantile normalization and gene calls were generated using a robust multichip average algorithm. ID_REF =  VALUE = Log 2 value of RMA normalized signal intensity	Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 15 ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).	Following fragmentation, quality of cRNA was evaluated on 2100 bionanalyzer, and hybridized for overnight at 45degreesC to Affymetrix ATH1 GeneChips in an Affymetrix Model 640 GeneChip hybridization oven. GeneChips were washed and stained in the Affymetrix Fluidics Station 400.	Germinants for and microarray analyses (n = 3) were produced by placing 50 sterilized, stratified seeds on a sterile 9 cm glass microfiber filter disc (Whatman GF/A paper) held in a sterile 100 mm x 15 mm polystyrene Petri dishes (Fisher Scientific). Discs were wetted with 2 mL of solution (nano-ceria control: sterilized millipore water; nano-titania control: 0.1M KCl; ENP treatments: 500 mg ENPs L-1).	Seeds surface sterilized with 70% v/v ethanol, 50% bleach, washed 4 times in water, cold-stratified (4degreesC, 48 hours), placed on filter paper and grown in growth chamber for seed germination and initial germinant growth (22degreesC,light 100 μmol m-2 s-1, photoperiod 16 h/8 h light/dark).	Trizol extraction of total RNA was performed according to the manufacturer's instructions.	Arrays were washed and stained using an Affymetrix 450 fluidics station as per the manufacturer and then scanned on an Affymetrix Model 3000 scanner
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	compound	dose					
+Experimental Factor Type	compound	dose					
+Comment[SecondaryAccession]	GSE59809						
+Comment[GEOReleaseDate]	2014-07-29						
+Comment[ArrayExpressSubmissionDate]	2014-07-28						
+Comment[GEOLastUpdateDate]	2014-07-31						
+Comment[AEExperimentType]	transcription profiling by array						
+Publication Title	Phenotypic and genomic responses to titanium dioxide and cerium oxide nanoparticles in Arabidopsis germinants						
+Publication Author List	Tumburu L, Andersen CP, Rygiewicz PT, Reichman JR						
+Publication DOI	10.1002/etc.2756						
+Pubmed ID	25242526						
+SDRF File	E-GEOD-59809.sdrf.txt						

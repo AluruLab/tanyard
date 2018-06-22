@@ -1,0 +1,25 @@
+Comment[ArrayExpressAccession]	E-GEOD-59719
+MAGE-TAB Version	1.1						
+Public Release Date	2016-07-24
+Investigation Title	Unsaturation of very-long-chain ceramides regulates hypoxia response by modulating ethylene signaling in Arabidopsis						
+Comment[Submitted Name]	Unsaturation of very-long-chain ceramides regulates hypoxia response by modulating ethylene signaling in Arabidopsis
+Experiment Description	Lipid remodeling is crucial for hypoxic tolerance in animals, whilst little is known about the hypoxia-induced lipid dynamics in plant cells. Here we performed a mass spectrometry-based analysis to survey the lipid profiles of Arabidopsis rosettes under various hypoxic conditions. We observed that hypoxia caused a significant increase in total amounts of phosphatidylserine, phosphatidic acid and oxylipins, but a decrease in phosphatidylcholine (PC) and phosphatidylethanolamine (PE). Particularly, significant gains in the polyunsaturated species of PC, PE and phosphatidylinositol, and losses in their saturated and mono-unsaturated species were evident during hypoxia. Moreover, hypoxia led to a remarkable elevation of ceramides and hydroxyceramides. Depletion of ceramide synthases LOH1, LOH2, and LOH3 enhanced plant sensitivity to dark submergence (DS), but displayed more resistance to submergence under light than wild type. Consistently, levels of unsaturated ceramide species (22:1, 24:1, and 26:1) predominantly declined in the loh1, loh2, and loh3 mutants under DS. Evidence that C24:1-ceramide interacted with recombinant CTR1 protein in vitro, enhanced ER-to-nucleus translocation of EIN2-GFP and stabilization of EIN3-GFP in vivo, suggests a role of ceramides in modulating ethylene signaling. The DS-sensitive phenotypes of loh mutants were rescued by a ctr1-1 mutation. Thus, our findings demonstrate that unsaturation of very-long-chain ceramides is a protective strategy for hypoxic tolerance in Arabidopsis. Arabidopsis Affymetrix GeneChip arrays were probed with RNAs isolated from leaves of untreated plants (controls) and plants upon hypoxia under light submergence for 48 h.						
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Yu	Xie	Chen	Yu	Chen	Xiao	
+Person First Name	Lujun	Li-Juan	Qin-Fang	Lu-Jun	Liang	Shi	
+Person Email	bioyulj@hotmail.com						
+Person Affiliation	SYSU						
+Person Address	SYSU, xingangxilu 135, Guangzhou, Guandong, China						
+Person Roles	submitter						
+Protocol Name	P-GSE59719-1	P-GSE59719-5	P-GSE59719-6	P-GSE59719-2	P-GSE59719-3	P-GSE59719-4	P-GSE59719-7
+Protocol Description	Raw data were normalized by MAS 5.0 algorithm, and the date were analyzed with Gene Spring Software ID_REF =  VALUE = MAS5.0 signal intensity	Total RNA were amplified, labeled and purified by using GeneChip 3âIVT Express Kit (Cat#901229, Affymetrix, Santa Clara, CA, US) followed the manufacturerâs instructions to obtain biotin labeled cRNA.	Array hybridization and wash was performed using GeneChipÂ® Hybridization, Wash and Stain Kit (Cat#900720, Affymetrix, Santa Clara, CA, US)in Hybridization Oven 645 (Cat#00-0331-220V, Affymetrix, Santa Clara, CA, US)and Fluidics Station 450 (Cat#00-0079, Affymetrix, Santa Clara, CA, US) followed the manufacturerâs instructions.	4-week-old plants were submerged at depths of 5-10 cm under the water surface for 48 h under normal growth conditions (light and submergence; LS)	plants grown under LD cycles (16 h light, 23C/8 h dark, 22C)	Trizol extraction of total RNA was performed according to the manufacturer's instructions.	Slides were scanned by GeneChipÂ® Scanner 3000 (Cat#00-00212, Affymetrix, Santa Clara, CA, US) and Command Console Software 3.1 (Affymetrix, Santa Clara, CA, US) with default settings.
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	treatment						
+Experimental Factor Type	treatment						
+Comment[SecondaryAccession]	GSE59719						
+Comment[GEOReleaseDate]	2016-07-24						
+Comment[ArrayExpressSubmissionDate]	2014-07-24						
+Comment[GEOLastUpdateDate]	2016-07-24						
+Comment[AEExperimentType]	transcription profiling by array						
+SDRF File	E-GEOD-59719.sdrf.txt

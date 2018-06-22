@@ -1,0 +1,52 @@
+Investigation Title	Transcription profiling of Arabidopsis penetration resistance, wildtype and ataf1-1 mutant response to Bgh 12 h after inoculation, 2x2 factorial design					
+Comment[Submitted Name]	Penetration resistance: Wildtype and ataf1-1 mutant response to Bgh 12 h after inoculation, 2*2 factorial design					
+Experimental Design	unknown_experiment_design_type	transcription profiling by array				
+Experimental Design Term Source REF		EFO				
+Comment[AEExperimentType]	transcription profiling by array					
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for ataf1 after infection with Blumeria graminis f.sp. hordei					
+Comment[AEMIAMESCORE]	3					
+Comment[ArrayExpressReleaseDate]	2008-10-25					
+Comment[SecondaryAccession]	GSE12856					
+Comment[ArrayExpressAccession]	E-GEOD-12856					
+Comment[MAGETAB TimeStamp_Version]	2010-07-30 06:27:17 Last Changed Rev: 13058					
+Experimental Factor Name	genotype	infect				
+Experimental Factor Type	genotype	infect				
+Experimental Factor Term Source REF						
+Person Last Name	Dash					
+Person First Name	PLEXdb Curator Sudhansu					
+Person Mid Initials						
+Person Email	mlyn@life.ku.dk					
+Person Phone						
+Person Fax						
+Person Address	PLEXdb, Virtual Reality Application Center, Iowa State University, 2624 Howe Hall, VRAC(Iowa State University), Ames, 50011, USA					
+Person Affiliation	Iowa State University					
+Person Roles	submitter					
+Person Roles Term Source REF	The MGED Ontology					
+Quality Control Type						
+Quality Control Term Source REF						
+Replicate Type						
+Replicate Term Source REF						
+Normalization Type						
+Normalization Term Source REF						
+Date of Experiment						
+Public Release Date	2008-10-25					
+PubMed ID	18694460					
+Publication DOI	10.1111/j.1365-313X.2008.03646.x					
+Publication Author List	Hagedorn Jensen, Grant de Torres-Zabala, Collinge Rung,  Lyngkjaer					
+Publication Title	Transcriptional regulation by a NAC (NAM-ATAF1,2-CUC2) transcription factor attenuates ABA signalling for efficient basal defence towards Blumeria graminis f.sp. hordei in Arabidopsis.					
+Publication Status	published					
+Publication Status Term Source REF	EFO					
+Publication Status Term Accession Number	EFO_0001796					
+Experiment Description	Arabidopsis is a non-host to the biotrophic fungus Blumeria graminis f.sp. hordei (Bgh), effectively hindering Bgh ingress to the epidermal cells by deposition of callosic papillae formations, i.e. penetration resistance. To better understand the transcriptional changes in Arabidopsis towards Bgh, we compared un-inoculated and inoculated wild-type Arabidopsis samples, with those an ATAF1 mutant allele, compromised in penetration resistance. The experiment included sampling of 8 rosettes for each replicate sample from 6-weeks old plants, 12 hrs after inoculation. A total of 12 biolocigal replicates were sampled with three replicates from each of the four blocks (Wild-type, ataf1-1, Bgh, control).   ****[PLEXdb(http://www.plexdb.org) has submitted this series at GEO on behalf of the original contributor,  Michael Krogh Jensen.  The equivalent experiment is AT31 at PLEXdb.] Experiment Overall Design: genotype: Wild-type Arabidopsis, ecotype Col-0 - treated or untreated: Un-inoculated(3-replications);  genotype: Wild-type Arabidopsis, ecotype Col-0 - treated or untreated: Bgh inoculated(3-replications);  genotype: ataf1-1 mutant, ecotype Col-0 - treated or untreated: Un-inoculated(3-replications);  genotype: ataf1-1 mutant, ecotype Col-0 - treated or untreated: Bgh inoculated(3-replications)					
+Protocol Name	P-G12856-1	P-G12856-3	P-G12856-2	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6	
+Protocol Type	grow	nucleic_acid_extraction	labeling	hybridization	feature_extraction	
+Protocol Description	Growth Description:  Plants were grown in a growth chamber (PERCIVAL)(20-22 oC) under a short day (SD) photoperiod (8hrs/16hrs) from lamps (125 uE m-2 s-1).  Environmental Conditions:  Growth chamber	Arabidopsis protocol based on Qiagen RNeasy treatment	Affy-Eukaryotic Target Preparation for mRNA	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	
+Protocol Parameters						
+Protocol Hardware						
+Protocol Software				MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact						
+Protocol Term Source REF				mo		
+SDRF File	E-GEOD-12856.sdrf.txt					
+Term Source Name	NCBI Taxonomy	The MGED Ontology	ArrayExpress	EFO	The MGED Ontology	mo
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version						

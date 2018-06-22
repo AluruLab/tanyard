@@ -1,0 +1,48 @@
+Investigation Title	Transcription profiling by array of Arabidopsis thaliana seedlings treated with CTL-VI or GR24									
+Comment[Submitted Name]	Correlation analysis of Cotylimide and GR24									
+Experimental Design	compound_treatment_design	co-expression_design	replicate_design	transcription profiling by array						
+Experimental Design Term Source REF	The MGED Ontology	The MGED Ontology	The MGED Ontology	EFO						
+Comment[AEExperimentType]	transcription profiling by array									
+Comment[SecondaryAccession]										
+Comment[ArrayExpressReleaseDate]	2010-01-06									
+Comment[AEMIAMESCORE]	5									
+Comment[ArrayExpressAccession]	E-MEXP-2494									
+Comment[MAGETAB TimeStamp_Version]	2010-08-10 13:00:39 Last Changed Rev: 13058									
+Experimental Factor Name	compound	dose								
+Experimental Factor Type	compound	dose								
+Experimental Factor Term Source REF										
+Person Last Name	Tsuchiya									
+Person First Name	Yuichiro									
+Person Mid Initials										
+Person Email	yuichiro.tsuchiya@utoronto.ca									
+Person Phone	-2230									
+Person Fax	-7271									
+Person Address	"Cell and Systems Biology, 25 Willcocks St., Toronto, ON, M5S 3B2, Canada"									
+Person Affiliation	University of Toronto									
+Person Roles	submitter									
+Person Roles Term Source REF	The MGED Ontology									
+Quality Control Type	biological_replicate									
+Quality Control Term Source REF	The MGED Ontology									
+Replicate Type										
+Replicate Term Source REF										
+Normalization Type										
+Normalization Term Source REF										
+Date of Experiment										
+Public Release Date	2010-01-06									
+Publication Author List	"Tsuchiya Y, Vidaurre D, Toh S, Hanada A, Nambara E, Kamiya Y, Yamaguchi S, McCourt P."									
+Publication Title	A small-molecule screen identifies new functions for the plant hormone strigolactone.									
+Publication Status										
+Publication Status Term Source REF										
+Experiment Description	Effect of the chemical EL6 and GR24 on seedling growth in Arabidopsis									
+Protocol Name	P-MTAB-11699	P-MTAB-11696	P-MTAB-11697	P-AFFY-2	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6	Affymetrix:Protocol:MAS4:ExpressionCall			
+Protocol Type	nucleic_acid_extraction	grow	specified_biomaterial_action	labeling	hybridization	feature_extraction	bioassay_data_transformation			
+Protocol Description	"3-day-old seedlings were ground into powder in liquid nitrogen, then total RNA was extracted by standard phenol/SDS method. <br>(Parameters: Extracted product = total_RNA, Amplification = none)"	"Seeds were sterilized by Ethanol:20% Bleach (commercial) =7:3 for 3 minutes with vigorous shaking then rinsed twice with Ethanol. After air drying, the seeds were plated on 0.5X MS 0.8% agar media. Following 3 days of stratification, plates were transferred to growth chamber and incubated under constant light for 4 days.<br>(Parameters: start time = 4, time unit = days, min temperature = 21, temperature unit = C, media = 0.5X MS agar media)"	"seedlings were grown blotting paper lied on 0.5xMS media for 3 days and transferred to either DMSO, GR24 or CTLVI containing media."	Title: Affymetrix in vitro transcription. Description: 	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	Title: Affymetrix CHP Analysis (ExpressionCall). Description: 			
+Protocol Parameters										
+Protocol Hardware										
+Protocol Software					MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 4.0			
+Protocol Contact										
+Protocol Term Source REF					mo		mo			
+SDRF File	E-MEXP-2494.sdrf.txt									
+Term Source Name	NCI_thesaurus		NCBI Taxonomy	tair_dev:1.27	The MGED Ontology	ArrayExpress	nci_meta	The MGED Ontology	EFO	mo
+Term Source File	ncithesaurus.obo.alt		http://www.ncbi.nlm.nih.gov/Taxonomy/	http://www.arabidopsis.org/info/ontologies/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://ncimeta.nci.nih.gov/indexMetaphrase.html	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version				1.27						

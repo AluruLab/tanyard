@@ -1,0 +1,36 @@
+Comment[ArrayExpressAccession]	E-MEXP-2435				
+Investigation Title	Transcription profiling of Arabidopsis thaliana seedlings wild type vs transgenic plants under drought stress				
+Comment[Submitted Name]	Transcriptome analysis reveals absence of unintended effects in drought-tolerant transgenic plants overexpressing the transcription factor ABF3				
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis thaliana transgenic plants overexpressing ABF3 under drought stress				
+Publication Title	Transcriptome analysis reveals absence of unintended effects in drought-tolerant transgenic plants overexpressing the transcription factor ABF3				
+Publication Author List	Abdeen A, Schnell J, Miki B				
+Publication DOI	10.1186/1471-2164-11-69				
+PubMed ID	20105335				
+Experimental Design	loop_design	co-expression_design	stimulus_or_stress_design	genetic_modification_design	transcription profiling by array
+Experimental Design Term Source REF		The MGED Ontology	The MGED Ontology	The MGED Ontology	EFO
+Comment[MIAMExpressLogin]	schnellj				
+Comment[AEExperimentType]	transcription profiling by array				
+Comment[MIAMExpressSubmissionID]	6140				
+Experiment Description	Plants engineered for abiotic stress tolerance may soon be commercialized. The engineering of these plants typically involves the manipulation of complex multigene networks and may therefore have a greater potential to introduce pleiotropic effects than the simple monogenic traits that currently dominate the plant biotechnology market. Drought- tolerant Arabidopsis thaliana were engineered through overexpression of the transcription factor ABF3 in order to investigate unintended pleiotropic effects. In order to eliminate position effects, the Cre/lox recombination system was used to create control plant lines that contain identical T-DNA insertion sites but with the ABF3 transgene excised. This additionally allowed us to determine if Cre recombinase can cause unintended effects that impact the transcriptome. Microarray analysis of control plant lines that underwent Cre-mediated excision of the ABF3 transgene revealed only two genes that were differentially expressed in more than one plant line, suggesting that the impact of Cre recombinase on the transcriptome was minimal. In the absence of drought stress, overexpression of ABF3 had no effect on the transcriptome, but following drought stress, differences were observed in the gene expression patterns of plants overexpressing ABF3 relative to control plants. Examination of the functional distribution of the differentially expressed genes revealed strong similarity indicating that unintended pathways were not activated. In response to drought stress, overexpression of ABF3 results in a reprogramming of the drought response, which is characterized by changes in the timing or strength of expression of some drought response genes, without activating any unexpected gene networks. These results illustrate that important gene networks are highly regulated in Arabidopsis and that engineering stress tolerance may not necessarily cause extensive changes to the transcriptome.				
+Experimental Factor Name	genotype	environmental stress	time		
+Experimental Factor Type	genotype	environmental stress	time		
+Person Last Name	Schnell				
+Person First Name	Jaimie				
+Person Mid Initials	A				
+Person Email	Jaimie.Schnell@inspection.gc.ca				
+Person Phone	613-773-6319				
+Person Fax	613-773-5319				
+Person Affiliation	Canadian Food Inspection Agency				
+Person Address	Plant and Biotechnology Risk Assessment Unit, 1400 Merivale Road, Ottawa, Ontario, K1A 0Y9, Canada				
+Person Roles	submitter				
+Person Roles Term Source REF	MGED Ontology				
+Quality Control Type	biological_replicate				
+Public Release Date	2010-01-28				
+Comment[ArrayExpressSubmissionDate]	2009-10-29 22:26:04				
+Protocol Name	P-MTAB-5778	P-MTAB-5779	P-MTAB-5780	P-MTAB-5781	
+Protocol Description	Signals from Affymetrix .CEL files were normalized with the robust multi-array analysis (RMA) (Irizarry et al. 2003, Nucleic Acid Res. 31: e15) using the R software packages by Bioconductor (http://www.bioconductor.org/).	One-week-old seedlings were removed from MS media and transferred onto paper towels for 2h or 24h.	Arabidopsis plants were surface sterilized by soaking for 20 min in 25% (v/v) commercial Clorox (final concentration of 1.3% sodium hypochlorite) and 0.05 % (v/v) Triton X-100 (Fisher Scientific, Hampton, NH, USA), and then rinsing four times with distilled water. Seeds were germinated on MS media and grown in a growth cabinet at 22 degrees Celcius with a 16h day photoperiod.<br>(Parameters: time unit = seconds, min temperature = 22, temperature unit = C, media = 0.5 MS media)	Seedlings were snap frozen in liquid nitrogen and stored in a -80 degrees Celsius freezer until extracted. RNA was extracted from frozen seedlings using the RNeasy Mini Kit (Qiagen), according to the manufacturer's instructions.<br>(Parameters: Extracted product = total_RNA, Amplification = none)	
+Protocol Type	bioassay_data_transformation	specified_biomaterial_action	grow	nucleic_acid_extraction	
+Protocol Term Source REF	MGED Ontology	MGED Ontology	MGED Ontology	MGED Ontology	
+Term Source Name	MGED Ontology	ArrayExpress		The MGED Ontology	EFO
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress			
+SDRF File	E-MEXP-2435.sdrf.txt				

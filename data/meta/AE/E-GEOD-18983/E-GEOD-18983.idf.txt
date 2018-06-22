@@ -1,0 +1,58 @@
+Comment[ArrayExpressAccession]	E-GEOD-18983							
+Public Release Date	2009-11-17							
+Investigation Title	Effect of the explosive compound TNT on wild type seedlings							
+Comment[Submitted Name]	Effect of the explosive compound TNT on wild type seedlings							
+Experiment Description	"The aim of this experiment was to identify the genes involved in the detoxification of the toxic pollutant and explosive compound 2,4,6-trinitrotoluene (TNT). Fourteen-day-old, liquid culture grown, Arabidopsis seedlings, ecotype Col0 (NASC stock code N1093), were dosed with 60 uM TNT dissolved in 60 ul dimethyl formamide (DMF) solvent, or 60 ul DMF only. After six hours, RNA was extracted and used for the microarray analysis. Further details and characterisation of glucosyltransferases identified using this method are presented in citation below. 6 samples were used in this experiment"							
+Date of Experiment								
+Term Source Name	EFO							
+Term Source Version								
+Term Source File	http://bar.ebi.ac.uk:8080/trac/browser/branches/curator/ExperimentalFactorOntology/ExFactorInOWL/currentrelease/eforelease/efo.owl							
+Person Last Name	Nottingham Arabidopsis Stock Centre (NASC)	Rylott						
+Person First Name		Elizabeth						
+Person Mid Initials								
+Person Email	affy@arabidopsis.info							
+Person Affiliation	Nottingham Arabidopsis Stock Centre (NASC)							
+Person Phone	+44 (0)115 951 3237							
+Person Fax	+44 (0)115 951 3297							
+Person Address	"School of Biosciences, University of Nottingham, Nottingham Arabidopsis Stock Centre (NASC), Sutton Bonington Campus, Loughborough, United Kingdom"							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Person Roles Term Accession Number								
+Normalization Type								
+Normalization Term Accession Number								
+Normalization Term Source REF								
+Replicate Type								
+Replicate Term Accession Number								
+Replicate Term Source REF								
+Experimental Design	compound_treatment_design							
+Experimental Design Term Accession Number								
+Experimental Design Term Source REF								
+Quality Control Type								
+Quality Control Term Accession Number								
+Quality Control Term Source REF								
+Protocol Name	P-GSE18983-1	P-GSE18983-6	P-GSE18983-5	P-GSE18983-3	P-GSE18983-2	P-GSE18983-8	P-GSE18983-4	P-GSE18983-7
+Protocol Description	"ID_REF = <br>VALUE = MAS5 normalized signal intensity<br>ABS_CALL = present, marginal, absent calls<br>DETECTION P-VALUE = p-value"	"Scanned according to guidelines set out by Affymetrix, Santa Clara, CA."	"Biotin Labelled cRNA using &quot;Affymetrix GeneChip Hybridization, Wash and Stain Kit&quot;, according to guidelines set out by Affymetrix, Santa Clara, CA"	Qiagen RNeasy kit protocol	"Seeds on plates were transferred to 125 uM.m-1.s-2 light, 16 h photoperiod, at 20 - 18 oC day and night temperature for 24 h, then ten seedlings transferred to a 500 ml conical flask containing 100 ml 1/2MS medium, 20 mM sucrose and 1 x Gamborg's vitamin solution with 130 rpm, 20 uM.m-1.s-2 light for 13 days. The flask was dosed with 60 ul dimethyl formamide (DMF). After 6 h, RNA was extracted."	"Seeds on plates were transferred to 125 uM.m-1.s-2 light, 16 h photoperiod, at 20 - 18 oC day and night temperature for 24 h, then ten seedlings transferred to a 500 ml conical flask containing 100 ml 1/2MS medium, 20 mM sucrose and 1 x Gamborg's vitamin solution with 130 rpm, 20 uM.m-1.s-2 light for 13 days. The flask was dosed with 60 uM TNT dissolved in 60 ul dimethyl formamide (DMF). After 6 h, RNA was extracted."	Labelled using protocol described in Affymetrix manual &quot;3' IVT Express Kit User Manual&quot;	"Raw data from the microarrays was normalized at probe-level using MAS5 algorithm. The detection calls (present, marginal, absent) for each probe set was obtained using the GCOS system"
+Protocol Software								
+Protocol Hardware								
+Protocol Contact								
+Protocol Type	bioassay_data_transformation	image_aquisition	hybridization	nucleic_acid_extraction	grow	grow	labeling	feature_extraction
+Protocol Term Source REF								
+Protocol Term Accession Number								
+Experimental Factor Name	compound	dose						
+Experimental Factor Type	compound	dose						
+Experimental Factor Term Source REF								
+Experimental Factor Term Accession Number								
+Publication Title	"Detoxification of the explosive 2,4,6-trinitrotoluene in Arabidopsis: discovery of bifunctional O- and C-glucosyltransferases."							
+Publication Author List	"Gandia-Herrero F, Lorenz A, Larson T, Graham IA, Bowles DJ, Rylott EL, Bruce NC"							
+PubMed ID	18702669							
+Publication DOI	10.1111/j.1365-313X.2008.03653.x							
+Publication Status	published							
+Publication Status Term Source REF	EFO							
+Publication Status Term Accession Number	EFO_0001796							
+Comment[SecondaryAccession]	GSE18983							
+Comment[GEOLastUpdateDate]	2011-03-01							
+Comment[AEExperimentDisplayName]	"Transcription profiling by array of Arabidopsis treated with 2,4,6-trinitrotoluene (TNT)"							
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[GEOReleaseDate]	2009-11-18							
+Comment[ArrayExpressSubmissionDate]	2009-11-12							
+SDRF File	E-GEOD-18983.sdrf.txt							

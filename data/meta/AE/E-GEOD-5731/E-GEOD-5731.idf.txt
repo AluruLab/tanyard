@@ -1,0 +1,51 @@
+Investigation Title	Transcription profiling of Arabidopsis UV-B Responses in light grown plants: similarities to biotic stress							
+Comment[Submitted Name]	UV-B Responses in Light Grown Plants: Similarities to Biotic Stress							
+Experimental Design	unknown_experiment_design_type	transcription profiling by array						
+Experimental Design Term Source REF		EFO						
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis after growth in UV-A or UV-B light, or after inoculation with Peronospora parasitica Hiks-1 spores							
+Comment[ArrayExpressReleaseDate]	2008-06-14							
+Comment[SecondaryAccession]	GSE5731							
+Comment[AEMIAMESCORE]	4							
+Comment[ArrayExpressAccession]	E-GEOD-5731							
+Comment[MAGETAB TimeStamp_Version]	2010-08-06 17:27:02 Last Changed Rev: 13058							
+Experimental Factor Name	TREATMENT	GROWTH CONDITION						
+Experimental Factor Type	treatment	growth_condition						
+Experimental Factor Term Source REF								
+Person Last Name	(NASC)							
+Person First Name	Nottingham Arabidopsis Stock Centre							
+Person Mid Initials								
+Person Email	affy@arabidopsis.info							
+Person Phone								
+Person Fax								
+Person Address	School of Biosciences, University of Nottingham, Nottingham Arabidopsis Stock Centre (NASC), Sutton Bonington Campus, Loughborough, LE12 5RD, United Kingdom							
+Person Affiliation	Nottingham Arabidopsis Stock Centre (NASC)							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Quality Control Type								
+Quality Control Term Source REF								
+Replicate Type								
+Replicate Term Source REF								
+Normalization Type								
+Normalization Term Source REF								
+Date of Experiment								
+Public Release Date	2008-06-14							
+PubMed ID								
+Publication DOI								
+Publication Author List								
+Publication Title								
+Publication Status								
+Publication Status Term Source REF								
+Experiment Description	UV-B (280-320 nm) exposure causes serious damage in plants, limiting their growth and survival, effects that are partly counteracted by repair mechanisms active in plants receiving accompanying visible radiation. Though no particular UV-B receptor has been identified to date, there is strong evidence to indicate that certain aspects of UV-B perception are receptor-mediated. Investigations of down-stream signalling events have thus far indicated broad similarities to pathogen-induced defence responses in plants. In order to identify genes in Arabidopsis that may be up- or down- regulated specifically in response to UV-B exposure and compare them to genes whose expression is altered in plants challenged by an avirulent isolate of Peronospora parasitica (downy mildew), we propose to analyse the transcriptional profiles for the following treatments:; 1. UV-B Responses; "A-1" Columbia (Col-0) exposed to supplementary UV-B/UV-A* with a background of low photosynthetically active radiation (PAR of 20 micromol m-2 s-1) for 1.5 photoperiods (photoperiod = 12h). [UV-B treatment]; "A-2" Col-0 exposed to supplementary UV-A and low PAR for 1.5 photoperiods [control for UV-B treatment]; "A-3" Col-0 exposed to visible light only (low PAR) (no UV) for 1.5 photoperiods [control for UV effects in general].*  There are no pure sources of UV-B light available. 2. Pathogen Responses; "A-4" Col-0 spray-inoculated with P. parasitica isolate HIKS-1 (recognised by the R-gene RPP7). After spraying, plants were kept covered in plant propagators and transferred to an 18 degreeC growth chamber. !Samples for RNA extraction were taken 72h after inoculation. "A-5" The viability of spores was also checked by parallel spraying of the susceptible mutant, Col-rpp7. [pathogen treatment]; "A-6" Col-0 mock treated with water, covered and transferred to an 18 degree C growth chamber, 72h prior to sampling. [control for pathogen treatment]; In all experiments, we are using RNA from leaves taken at the same time of day (6 h into the 12 h photoperiod) from 4.5-week old plants grown under 12h photoperiod. All treatments were normalised against PR-1 expression levels to ensure comparability between UV-B and pathogen treatments. Due to the difficulty in distinguishing between local and systemic induced responses in UV-B treated plants, we are using RNA from whole rosettes for both the UV-B and pathogen treatment for better comparability among treatments. The degree of similarity between these two sets of transcriptional changes will complement and help interpret our experimental data on changes in resistance to pathogens in plants pre-treated with UV-B. Moreover, the data set obtained would allow for identification of UV-B specific changes in gene expression including cis-acting UV-B-responsive promoter elements. Experimenter name = Julia Brueggemann; Experimenter phone = 01789 470 382; Experimenter fax = 01789 470 552; Experimenter address = Horticulture Research International; Experimenter address = Wellesbourne; Experimenter address = Warwickshire; Experimenter zip/postal_code = CV35 9EF; Experimenter country = UK Experiment Overall Design: 6 samples were used in this experiment							
+Protocol Name	P-G5731-6	P-G5731-1	P-G5731-4	P-G5731-2	P-G5731-3	P-G5731-5	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6
+Protocol Type	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	hybridization	feature_extraction
+Protocol Description	Mock TREATMENT:Plants were sprayed with H2O as a mock treatment.After spraying, plants were coverd with propagator lids and transferred to an 18 degree C (day and night) growth room for 3 days before sampling (sampling done 6 hours into the light period)	Peronospora parasitica on susceptible host TREATMENT: rpp7 Plants (susceptible host) were sprayed with Peronospora parasitica Hiks-1 spores (2*10e4 spores per ml or above) until run-off. After spraying, plants were coverd with propagator lids and transferred to an 18 degree C (day and night) growth room for 3 days before sampling (sampling done 6 hours into the light period)	Visible Light Only TREATMENT: Background photosynthetically active radiation (400nm-700nm): 20 micromol m-2 s-1 Duration: 1.5 photoperiods (samples taken 6 hours into the second day of treatment with supplementary UV-B)	UV-B TREATMENT: UV-B source: Philips TL12 40W tubes covered with 1 layer (0.12mm) of "Diacel" cellulose diacetate UV-B fluence rate (280nm-320nm): 4.5 micromol m-2 s-1 Background photosynthetically active radiation (400nm-700nm): 20 micromol m-2 s-1 Duration: 1.5 photoperiods (samples taken 6 hours into the second day of treatment with supplementary UV-B)	UV-A TREATMENT: UV-A source: Philips TL12 40W tubes covered with 1 layer (0.1mm) of "Mylar D" UV-A fluence rate (320nm-400): 3.7 micromol m-2 s-1 Background photosynthetically active radiation (400nm-700nm): 20 micromol m-2 s-1 Duration: 1.5 photoperiods (samples taken 6 hours into the second day of treatment with supplementary UV-B)	Peronospora parasitica on resistant plant TREATMENT: Col-5 plants (resistant host) sprayed with P. parasitica Hiks-1 spores (2*10e4 spores per ml or above) until run-off. After spraying, plants were coverd with propagator lids and transferred to an 18 degree C (day and night) growth room for 3 days before sampling (sampling done 6 hours into the light period)	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 
+Protocol Parameters								
+Protocol Hardware								
+Protocol Software							MicroArraySuite 5.0	MicroArraySuite 5.0
+Protocol Contact								
+Protocol Term Source REF							mo	
+SDRF File	E-GEOD-5731.sdrf.txt							
+Term Source Name	NCBI Taxonomy	The MGED Ontology	ArrayExpress	EFO	mo			
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php			
+Term Source Version								

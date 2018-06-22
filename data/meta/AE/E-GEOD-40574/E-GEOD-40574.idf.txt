@@ -1,0 +1,25 @@
+Comment[ArrayExpressAccession]	E-GEOD-40574
+MAGE-TAB Version	1.1							
+Public Release Date	2012-09-05
+Investigation Title	Expression data from Arabidopsis under hydrogen peroxide and light treatment							
+Comment[Submitted Name]	Expression data from Arabidopsis under hydrogen peroxide and light treatment
+Experiment Description	Green plants are more robust to hydrogen peroxide (H2O2) stress and contain high endogeneous H2O2 levels which is generated during photorespiration and photosynthesis. Therefore, exgeneous H2O2 application mostly impose oxidative stress. To reduce endogenous H2O2 background, we adopted a strategy which is to grow Arabidopsis seedlings in the dark to eliminate light-induced H2O2 production, thus to reduce the endogenous H2O2 level. Exogenous H2O2 was then applied to induce transcriptome changes. Global gene expression is studied and compared between samples collected under 7d dark, 7d H2O2 treatment under dark and 7d light conditions. We cultured seedlings in the dark to reduce endogenous H2O2. Three conditions were used for transcriptome profiling: dark grown (dark); dark grown with exogenous H2O2 treatment (H2O2); and light grown (light). Three types of conditions were used for Arabidopsis seedling culture: dark, dark with 5 mM H2O2 treatment and light. Each condition was performed with two biological replicates. The seedlings were harvested at 7 days old.							
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl						
+Person Last Name	Cheng	Cheng	Guo					
+Person First Name	Han	Han	Dianjing					
+Person Email	geo@ncbi.nlm.nih.gov							
+Person Affiliation	The Chinese University of Hong Kong							
+Person Address	School of Life Science, The Chinese University of Hong Kong, Shatin, Hong Kong, China							
+Person Roles	submitter							
+Protocol Name	P-GSE40574-1	P-GSE40574-6	P-GSE40574-3	P-GSE40574-8	P-GSE40574-7	P-GSE40574-2	P-GSE40574-4	P-GSE40574-5
+Protocol Description	ID_REF =  VALUE = RMA signal intensity	Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45C on the Affymetrix Arabidopsis ATH1 Genome Array. GeneChips were washed and stained in the Affymetrix Fluidics Station 400.	Arabidopsis Col-0 seeds were grown on half MS media for 7 d, and then the seedlings were harvested.	The chip data were normalized by the RMA method and analyzed using the affy and limma packages in R/Bioconductor.	GeneChips were scanned using the Hewlett-Packard GeneArray Scanner G2500A.	The control was grown in the dark; the hydrogen peroxide sample was grown in the dark and treated with 5mM H2O2; the light sample was grown in the light.	Total RNA was extracted with the Qiagen RNeasy Plant Mini Kit under the manufacturer's instructions.	Biotinylated cRNA were prepared according to the standard Affymetrix protocol.
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Experimental Factor Name	TREATMENT							
+Experimental Factor Type	treatment							
+Comment[SecondaryAccession]	GSE40574							
+Comment[GEOReleaseDate]	2012-09-05							
+Comment[ArrayExpressSubmissionDate]	2012-09-04							
+Comment[GEOLastUpdateDate]	2012-09-06							
+Comment[AEExperimentType]	transcription profiling by array							
+SDRF File	E-GEOD-40574.sdrf.txt

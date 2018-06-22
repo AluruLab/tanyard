@@ -1,0 +1,51 @@
+Investigation Title	Transcription profiling of Arabidopsis pho3 mutants					
+Comment[Submitted Name]	Transcriptome analysis of pho3					
+Experimental Design	unknown_experiment_design_type	transcription profiling by array				
+Experimental Design Term Source REF		EFO				
+Comment[AEExperimentType]	transcription profiling by array					
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for pho3					
+Comment[ArrayExpressReleaseDate]	2008-06-11					
+Comment[SecondaryAccession]	GSE10326					
+Comment[AEMIAMESCORE]	3					
+Comment[ArrayExpressAccession]	E-GEOD-10326					
+Comment[MAGETAB TimeStamp_Version]	2010-07-29 18:36:49 Last Changed Rev: 13058					
+Experimental Factor Name	genotype					
+Experimental Factor Type	genotype					
+Experimental Factor Term Source REF						
+Person Last Name	(NASC)					
+Person First Name	Nottingham Arabidopsis Stock Centre					
+Person Mid Initials						
+Person Email	affy@arabidopsis.info					
+Person Phone						
+Person Fax						
+Person Address	School of Biosciences, University of Nottingham, Nottingham Arabidopsis Stock Centre (NASC), Sutton Bonington Campus, Loughborough, LE12 5RD, United Kingdom					
+Person Affiliation	Nottingham Arabidopsis Stock Centre (NASC)					
+Person Roles	submitter					
+Person Roles Term Source REF	The MGED Ontology					
+Quality Control Type						
+Quality Control Term Source REF						
+Replicate Type						
+Replicate Term Source REF						
+Normalization Type						
+Normalization Term Source REF						
+Date of Experiment						
+Public Release Date	2008-06-11					
+PubMed ID						
+Publication DOI						
+Publication Author List						
+Publication Title						
+Publication Status						
+Publication Status Term Source REF						
+Experiment Description	The aim of this proposal is to understand the impact of the pho3 mutation on the transcriptome.The mutant pho3 was isolated on the basis of a failure to induce acid phosphatase activity in roots in response to low Pi. The pho3 mutant had a P deficient phenotype in vitro and in the leaves of soil grown pho3 plants the total P content was again reduced. pho3 exhibited a number of characteristics normally associated with low-P stress, including severely reduced growth, increased anthocyanin content and starch accumulation. pho3 was shown to have an absolute requirement for exogenous sucrose as pho3 seedlings were arrested in early seedling development on sucrose-free medium and was unaffected by Pi-availability. pho3 was found to be insensitive to high concentrations of exogenous sucrose (10%) but was sensitive to glucose. pho3 also exhibited reduced sensitivity of seed germination to exogenous ABA (abi-phenotype), a response which has been linked to sucrose insensitivity in both sugar-sensing and ABA mutants. Two developmental stages have been selected on the basis of the physiological characterisation of pho3. Seedlings (1.02; 2 rosette leaves) grown in agar and compost-grown plants (3.90; rosette growth complete). Agar will be supplemented with 1% sucrose and 1/2 strength MS; plants will be grown under a 16 h light/8 h dark cycle. Comparisons will be made between pho3 and Wassilewskija (the genetic background of the mutant) at each stage. Experimenter name: Julie Lloyd; Experimenter phone: 01206 873307; Experimenter institute: Department of Biological Sciences,; University of Essex; Experimenter address: Colchester!Series_summary = Experimenter zip/postal_code: CO4 3SQ; Experimenter country: UK Experiment Overall Design: 6 samples were used in this experiment					
+Protocol Name	P-10326-2	P-10326-1	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6		
+Protocol Type	nucleic_acid_extraction	labeling	hybridization	feature_extraction		
+Protocol Description	Qiagen / Trizol: Qiagen RNAeasy kit protocol	RNA samples were quality controlled using the Agilent 2100 Bioanalyzer. 100 pmol T7-(dT)24 primer (5'-GGCCAGTGAATTGTAATACGACTCACTATAGGGAGGCGG-(dT)24-3') was hybridized with the Total RNA ( 8 - 12ug) at 70oC for 10 minutes. First strand cDNA was synthesized by reverse transcription using 400 units SuperScript II Reverse Transcriptase in a reaction containing 50 mM Tris-HCl (pH 8.3), 75 mM KCl, 3 mM MgCl2, 10 mM dithiothreitol (DTT) and 0.5 mM dNTPs at 42C for 1 hour. The reaction was then put on ice for 2 mins, followed by second strand cDNA synthesis. 130ul of the second strand reaction mix was added to the 20ul first strand synthesis reaction. The second strand reaction mix contained 40 units E. coli DNA polymerase I, 10 units E. coli DNA ligase, 2 units E. coli RNase H and 0.2 mM dNTPs in a buffer containing 20 mMTris-HCl (pH 6.9), 90 mM KCl, 4.6 mM MgCl2, 10mM (NH4)SO4 and 0.15 mM beta-NAD+. The reaction was incubated at 16 C for 2 hours. 10 units T4 DNA Polymerase was added and the reaction incubated for a further 5 minutes at 16 C, then the reaction was terminated using EDTA. The double-stranded cDNA was cleaned up using the cDNA Cleanup Spin Column supplied in the Affymetrix GeneChip Sample Cleanup Module. The double-stranded cDNA was used as a template for in Vitro transcription of biotin-labeled cRNA using the ENZO BioArray RNA Transcript Labeling Kit supplied by Affymetrix. The Transcript Labeling kit produces large amounts of hybridizable biotin-labeled RNA targets by in Vitro transcription from bacteriophage T7 RNA polymerase promoters. The reaction mixture containing Biotin-Labeled ribonucleotides (ATP, GTP, CTP, UTP with Bio-UTP and Bio-CTP), DTT, RNase inhibitor mix and T7 RNA polymerase was incubated at 37 C for 5 hrs, gently mixing every 30 minutes during the incubation. This produced an average of 40ug biotin-labeled cRNA . The biotin-labeled cRNA was cleaned up using the cRNA Cleanup Spin Column supplied in the Affymetrix GeneChip Sample Cleanup Module. The quantity and quality of the cRNA was measured using the Agilent 2100 Bioanalyzer. The total amount of cRNA was calculated, the starting quantity of RNA subtracted to give the quantity of adjusted cRNA. The cRNA was fragmented by metal-induced hydrolysis to break down full-length cRNA to 35-200 base fragments. 15ug of adjusted cRNA was used to prepare 300ul of hybridization cocktail of which 200ul was hybridized with the GeneChip.	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 		
+Protocol Parameters						
+Protocol Hardware						
+Protocol Software			MicroArraySuite 5.0	MicroArraySuite 5.0		
+Protocol Contact						
+Protocol Term Source REF			mo			
+SDRF File	E-GEOD-10326.sdrf.txt					
+Term Source Name	NCBI Taxonomy	The MGED Ontology	ArrayExpress	EFO	The MGED Ontology	mo
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version						

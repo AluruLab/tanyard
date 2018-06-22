@@ -1,0 +1,50 @@
+Investigation Title	Transcription profiling of Arabidopsis Potyvirus turnip mosaic virus infection stages							
+Comment[Submitted Name]	Whitham S viral infection stages							
+Experimental Design	pathogenicity_design	transcription profiling by array						
+Experimental Design Term Source REF	mo	EFO						
+Comment[ArrayExpressReleaseDate]	2006-12-01							
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[AEExperimentDisplayName]	Transcription profiling by of Arabidopsis leaves after infection with Potyvirus turnip mosaic virus 							
+Comment[AEMIAMESCORE]	5							
+Comment[ArrayExpressAccession]	E-MEXP-509							
+Comment[MAGETAB TimeStamp_Version]	2010-08-11 15:03:31 Last Changed Rev: 13058							
+Experimental Factor Name	infect	sampling site						
+Experimental Factor Type	infect	sampling site						
+Experimental Factor Term Source REF								
+Person Last Name	Yang							
+Person First Name	Chunling							
+Person Mid Initials								
+Person Email	chunyang@iastate.edu							
+Person Phone	515-294-5531							
+Person Fax								
+Person Address	432 Bessey Hall, Ames							
+Person Affiliation	Plant Pathology							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Quality Control Type								
+Quality Control Term Source REF								
+Replicate Type								
+Replicate Term Source REF								
+Normalization Type								
+Normalization Term Source REF								
+Date of Experiment								
+Public Release Date	2006-12-01							
+PubMed ID	17427806							
+Publication DOI	10.1094 / MPMI -20-4-0358							
+Publication Author List	Yang C, Guo R, Jie F, Nettleton D, Peng J, Carr T, Yeakley JM, Fan JB, Whitham SA							
+Publication Title	Spatial analysis of arabidopsis thaliana gene expression in response to Turnip mosaic virus infection							
+Publication Status								
+Publication Status Term Source REF								
+Experiment Description	A model system of Potyvirus turnip mosaic virus and Arabidopsis was used in this experiment. GFP-tagged virus supplied a visualized marker for us to localize the viral infection foci and its expansion on leaf under UV light. Initially, we dissect an individual infection focus and its adjacent region into four parts and define those four parts as zone 0, 1, 2, and 3, which represented different viral infection stages respectively. Corresponding fours parts were also dissected from control plant treated with turnip leaf sap only. This process was replicated three times totally.							
+Protocol Name	P-MEXP-9800	P-MEXP-9801	P-MEXP-9805	P-MEXP-9806	P-MEXP-9807	Affymetrix:Protocol:Hybridization-EukGE-WS2[]	P-AFFY-6	Affymetrix:Protocol:ExpressionStat
+Protocol Type	grow	specified_biomaterial_action	pool	nucleic_acid_extraction	labeling	hybridization	feature_extraction	bioassay_data_transformation
+Protocol Description	Arabidopsis Col-0 plants <br> 10 hours light/dark cycle<br> temperature 22 C<br> till 7 weeks old, before bolting	At 7 weeks of age, 7-8 rosette leaves from each of 6 plants were dusted with Carborundum (Fisher) and rub-inoculated with a cotton-stick applicator soaked in virus sap that was diluted and titered as described above. As a control, a corresponding set of six plants were dusted with carborundum and leaves were mock-inoculated with a cotton-stick applicator that was soaked in uninfected turnip sap diluted in phosphate buffer.	a 1.2 mm Harris Micro Punch (Whatman) was used to dissect 3-7 TuMV-GFP foci per leaf into 4 zones under UV illumination at 120 hours after infection. Corresponding leaf punches were dissected from the mock-inoculated plants. Leaf punches were immediately placed into tubes filled with RNAlaterTM solution (Ambion) and stored at -20 C. All the leaf punches from the same treatment and zone were pooled together to yield 8 total samples. 	Total RNA was isolated using Phenol-free total RNA isolation Kit --RNAqueousTM (Ambion), and the concentration and quality of each sample were determined spectrophotometrically and validated by Agilent 2100 bioanalyzer. 	The RNA samples (50 ng) were then amplified and labeled with the OvationTM Biotin RNA Amplification and Labeling System (NuGEN) according to the manufacturer's protocol.	Title: Affymetrix EukGE-WS2 Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description:
+Protocol Parameters	start time;stop time;max temperature;			Amplification;Extracted product;	Amplification;Amount of nucleic acid labeled;Label used;			
+Protocol Hardware								
+Protocol Software						MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 5.0
+Protocol Contact								
+Protocol Term Source REF		mo				mo		The MGED Ontology
+SDRF File	E-MEXP-509.sdrf.txt							
+Term Source Name	mo	ncbitax	tair_dev:1.27	ArrayExpress	mo	EFO	The MGED Ontology	
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html	http://www.arabidopsis.org/info/ontologies/	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version				1.27				

@@ -1,0 +1,29 @@
+Comment[ArrayExpressAccession]	E-GEOD-52669
+MAGE-TAB Version	1.1					
+Public Release Date	2013-11-23
+Investigation Title	Gene expression data from Arabidopsis C24 wild-type and ros1-1 seedlings.					
+Comment[Submitted Name]	Gene expression data from Arabidopsis C24 wild-type and ros1-1 seedlings.
+Experiment Description	We carried out a microarray experiment by using Affymetrix Arabidopsis ATH1 Genechips in order to identify genes that show reduced expression in ros1-1 plants. 2 samples examined: C24 wild-type and ros1-1 mutant (in C24 background).					
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl				
+Person Last Name	Zhu	Zhu	Lee	Tang	Zhu	
+Person First Name	Jian-Kang	Jianhua	Byeong-ha	Kai	Jian-Kang	
+Person Email	zhu132@purdue.edu					
+Person Affiliation	Purdue University					
+Person Address	Department of Horticulture and Landscape Architecture, Purdue University, 625 Agriculture Mall Dr., West Lafayette, IN, USA					
+Person Roles	submitter					
+Protocol Name	P-GSE52669-1	P-GSE52669-4	P-GSE52669-5	P-GSE52669-2	P-GSE52669-3	P-GSE52669-6
+Protocol Description	Microarray data were extracted from scanned GeneChip images and analyzed by use of Microarray Suite version 5.0.1. Target value (TGT value) was set to 500 global scaling. ID_REF =  VALUE = Signal ABS_CALL = indicating whether the transcript was present (P), absent (A), or marginal (M) DETECTION P-VALUE = 	Biotinylated cRNA was prepared according to the standard Affymetrix protocol.	The Affymetrix Arabidopsis ATH1 genome array GeneChips were used and hybridization, washing, and staining were carried out as directed in the manufacturerâ€™s manual.	Seedlings were grown om MS medium for 15 days at 22 °C with a cycle of 16 hr of light and 8 hr of darkness.	Total RNA was extracted using the RNeasy Plant Mini Kit (Qiagen) according to the manufacturer's instructions.	GeneChips were scanned using HP GeneArray Scanner G2500A.
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	GENOTYPE					
+Experimental Factor Type	genotype					
+Publication Title	The DNA glycosylase/lyase ROS1 functions in pruning DNA methylation patterns in Arabidopsis.					
+Publication Author List	Zhu J, Kapoor A, Sridhar VV, Agius F, Zhu JK					
+PubMed ID	17208187					
+Publication DOI	10.1016/j.cub.2006.10.059					
+Comment[SecondaryAccession]	GSE52669					
+Comment[GEOReleaseDate]	2013-11-23					
+Comment[ArrayExpressSubmissionDate]	2013-11-22					
+Comment[GEOLastUpdateDate]	2013-11-24					
+Comment[AEExperimentType]	transcription profiling by array					
+SDRF File	E-GEOD-52669.sdrf.txt

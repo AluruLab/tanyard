@@ -1,0 +1,27 @@
+Comment[ArrayExpressAccession]	E-GEOD-26848						
+MAGE-TAB Version	1.1						
+Public Release Date	2013-03-08						
+Investigation Title	Expression data from Arabidopsis wt and ga1-3, brm-1, ga1-3/brm-1 mutants						
+Comment[Submitted Name]	Expression data from Arabidopsis wt and ga1-3, brm-1, ga1-3/brm-1 mutants						
+Experiment Description	Arabidopsis brm plants depleted in a SWI/SNF-type ATPase BRM have decreased level of endogenous gibberellins and a phenotype that in many respects resembles the phenotype of mutants with repressed GA signaling or biosynthesis, like ga1-3. ga1-3/brm double mutant showed several additive and synergistic effects. To examine whether the phenotypic traits of brm, ga1-3 and ga1-3/brm lines are reflected at the gene expression level, we compared the expression profiles of brm, ga1-3, ga1-3/brm and wild-type plants using microarray analysis.  Microarray analysis was performed on total RNA isolated from shoots of 18-d-old wt, brm, ga1-3, and ga1-3/brm seedlings. Three biological replicates were examined for each genotype. Plants were grown simultaneously under the same conditions.						
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis ga1-3 mutants, brm-1 mutants and ga1-3, brm-1 double mutants						
+Term Source Name	ArrayExpress	EFO					
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Kotliński	Archacki	Kotlinski	Koblowska	Iwanicka-Nowicka	Jerzmanowski	
+Person First Name	Maciej	Rafal	Maciej	Marta	Roksana	Andrzej	
+Person Email	makotlinski@gmail.com						
+Person Affiliation	University of Warsaw / Institute of Biochemistry and Biophysics, PAS						
+Person Phone	48601076733						
+Person Address	Laboratory of Microarray Analysis, University of Warsaw / Institute of Biochemistry and Biophysics, PAS, Pawinskiego 5a, Warsaw, Mazowieckie, Poland						
+Person Roles	submitter						
+Protocol Name	P-GSE26848-1	P-GSE26848-6	P-GSE26848-5	P-GSE26848-3	P-GSE26848-2	P-GSE26848-4	P-GSE26848-7
+Protocol Description	ID_REF =  VALUE = Log2 expression (only present probe sets)	GeneChips were scanned using the Affymetrix GeneChip Scanner 3000. The signals were recorded and processed using Affymetrix GeneChip Command Console Software (AGCC).	15 ug of labeled and fragmented aRNA were hybridized with Arabidopsis ATH1 genome arrays, according to the manufacturer’s recommendations (Affymetrix). Affymetrix Fluidics Stations 450 were used.	Total RNA from shoots of 18-d-old seedlings was extracted using the RNeasy plant mini kit (Qiagen) according to the manufacturer’s protocol, followed by Turbo DNase treatment (Ambion). The quantity and quality of the isolated RNA was determined using a NanoDrop ND1000 spectrophotometer (Nanodrop technologies) and RNA integrity was assessed with a Bioanalyzer 2100 (Agilent Technologies).	Seedlings were cultivated in medium containing 1/2 Murashige and Skoog (MS) salts (Sigma-Aldrich), 0.5% (w/v) sucrose and 0.8% agar, pH 5.8.	100 ng of isolated RNA were used for aRNA synthesis and labeling using a GeneChip 3` IVT - Express Kit (Affymetrix)	CEL files were generated with AGCC. CEL files were further analyzed with the Partek Genomics Suite (Partek). Upon importing the data, a GC-RMA background correction, quantile normalization, log2 transformation were conducted. Median Polish was used for probe set summarization.
+Protocol Type	bioassay_data_transformation	image_acquisition	hybridization	nucleic_acid_extraction	grow	labeling	feature_extraction
+Experimental Factor Name	genotype						
+Experimental Factor Type	genotype						
+Comment[SecondaryAccession]	GSE26848						
+Comment[GEOReleaseDate]	2013-03-08						
+Comment[ArrayExpressSubmissionDate]	2011-01-25						
+Comment[GEOLastUpdateDate]	2013-03-10						
+Comment[AEExperimentType]	transcription profiling by array						
+SDRF File	E-GEOD-26848.sdrf.txt						

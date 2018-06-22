@@ -1,0 +1,26 @@
+Comment[ArrayExpressAccession]	E-GEOD-44655
+MAGE-TAB Version	1.1						
+Public Release Date	2013-04-09
+Investigation Title	Differential regulation of HSFA1s and HSFA2 after heat shock in Arabidopsis						
+Comment[Submitted Name]	Differential regulation of HSFA1s and HSFA2 after heat shock in Arabidopsis
+Experiment Description	HSFA1s are a gene family of HSFA1 with four members, HSFA1a, HSFA1b, HSFA1d, and HSFA1e. HSFA1s are the master regulators of heat shock response. As a part of the heat shock response, HSFA2 can prolong the heat shock response and amplify the heat shock response in response to repeat heat shock. To identify the heat-shock-responsive genes differentially regulated by HSFA1s and HSFA2, we compared the transcriptomic differences of plants containing only constitutively expressed HSFA1s or HSFA2 after heat stress. hsfa2 (the KO mutant of HSFA2, Col-0 background) and A2QK-10 (CaMV 35S:HSFA2 in QK mutant; QK is HSFA1a/b/d/e quadruple KO mutant) were used to compare the difference of heat shock response when plants lack HSFA1s or HSFA2. The aim is to find the HSFA1s- and HSFA2-preferred regulating genes after heat stress. As the control samples, wild type is the plant with normal heat shock response, and QK (HSFA1s KO mutant, Col-0 and Ws mixed background) is the plant that lost the heat shock response controlled by HSFA1s.						
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Liu	Liu	Charng				
+Person First Name	Hsiang-chin	Hsiang	Yee				
+Person Mid Initials		C	Y				
+Person Email	liuaway@gmail.com						
+Person Affiliation	Academia sinica						
+Person Address	Academia sinica, 9F., No.332, Xuefu Rd., Shulin City, Taipei County, Taiwan						
+Person Roles	submitter						
+Protocol Name	P-GSE44655-1	P-GSE44655-5	P-GSE44655-6	P-GSE44655-2	P-GSE44655-3	P-GSE44655-4	P-GSE44655-7
+Protocol Description	The data were RMA normalized using GeneSpring 11.5.1. ID_REF =  VALUE = Normalized log2 signal intensity	Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 6 ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).	Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45C on GeneChip Arabidopsis Genome Arrays. GeneChips were washed and stained in the Affymetrix® GeneChip® Fluidics Station 450.	The samples were incubated for 1 h at 37°C in a water bath.	The seeds were sowed in 0.5X MS medium, then treated in 4°C for 3 days to synchronize the germination and grown in 22°C for 7 days with 16 h of light (120 mmol m-2 s-1).	Total RNA of plant tissues was isolated according to the method of OÃ±ate-SÃ¡nchez and Vicente-Carbajosa (2008, BMC Research Notes, 1, 93 (PMID 18937828)).	GeneChips were scanned using the Affymetrix GeneChip® Scanner 3000.
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	BACKGROUND	GENOTYPE	CONDITION				
+Experimental Factor Type	background	genotype	condition				
+Comment[SecondaryAccession]	GSE44655						
+Comment[GEOReleaseDate]	2013-04-09						
+Comment[ArrayExpressSubmissionDate]	2013-02-25						
+Comment[GEOLastUpdateDate]	2013-04-10						
+Comment[AEExperimentType]	transcription profiling by array						
+SDRF File	E-GEOD-44655.sdrf.txt

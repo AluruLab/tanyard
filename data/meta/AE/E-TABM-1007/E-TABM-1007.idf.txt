@@ -1,0 +1,52 @@
+Investigation Title	Transcription profiling by array of Arabidopsis seeds from fis2 and wild type plants 					
+Comment[Submitted Name]	Seeds2009					
+Experimental Design	genetic modification design					
+Experimental Design Term Source REF	EFO					
+Comment[AEExperimentType]	transcription profiling by array					
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for fis2					
+Comment[ArrayExpressReleaseDate]	2010-12-14					
+Comment[SecondaryAccession]						
+Comment[AEMIAMESCORE]	4					
+Comment[ArrayExpressAccession]	E-TABM-1007					
+Comment[MAGETAB TimeStamp_Version]	2010-10-15 09:16:21 Last Changed Rev: 14677					
+Experimental Factor Name	genotype					
+Experimental Factor Type	genotype					
+Experimental Factor Term Source REF						
+Person Last Name	Hennig					
+Person First Name	Lars					
+Person Mid Initials						
+Person Email	lhennig@ethz.ch					
+Person Phone						
+Person Fax						
+Person Address						
+Person Affiliation	ETH Zurich					
+Person Roles	submitter					
+Person Roles Term Source REF						
+Quality Control Type						
+Quality Control Term Source REF						
+Replicate Type						
+Replicate Term Source REF						
+Normalization Type						
+Normalization Term Source REF						
+Date of Experiment						
+Public Release Date	2010-12-14					
+PubMed ID	20949070					
+Publication DOI	10.1371/journal.pgen.1001152					
+Publication Author List	Weinhofer I, Hehenberger E, Roszak P, Hennig L, Köhler C.					
+Publication Title	H3K27me3 profiling of the endosperm implies exclusion of polycomb group protein targeting by DNA methylation.					
+Publication Status	published					
+Publication Status Term Source REF	EFO					
+Publication Status Term Accession Number	EFO_0001796					
+Experiment Description	At 3 days after pollination, RNA was extracted from seeds of WT and fis2 mutants, labeled and hybridized to ATH1 arrays.					
+Protocol Name	P-TABM-4739	P-TABM-4738	P-TABM-5194	P-TABM-4740	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6
+Protocol Type	grow	nucleic_acid_extraction	pool	labeling	hybridization	feature_extraction
+Protocol Description	Plants were grown in growth chambers at 70% humidity and daily cycles of 16 h light and 8 h darkness at the specified temperature.	Total RNA was isolated using the Qiagen Plant RNeasy MiniKit (Quiagen, Hilden, Germany) according to the manufacturer's instruction. The quality of the isolated RNA was determined with a NanoDrop ND 1000 (NanoDrop Technologies, Delaware, USA) and a Bioanalyzer 2100 (Agilent, Waldbronn, Germany). Only samples with a 260 nm/280 nm ratio between 1.82.1 and a 28S/18S ratio within 1.52 were processed further.	Seeds of at least 20 siliques per sample was pooled per replicate	One-Cycle cDNA Synthesis Kit (Affymetrix, P/N 900431, Santa Clara, CA)	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 
+Protocol Parameters						
+Protocol Hardware						
+Protocol Software					MicroArraySuite 5.0	MicroArraySuite 5.0
+Protocol Contact						
+Protocol Term Source REF						
+SDRF File	E-TABM-1007.sdrf.txt					
+Term Source Name	EFO					
+Term Source File	http://www.ebi.ac.uk/efo/					
+Term Source Version						

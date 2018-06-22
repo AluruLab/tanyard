@@ -1,0 +1,31 @@
+Comment[ArrayExpressAccession]	E-GEOD-40076							
+MAGE-TAB Version	1.1							
+Public Release Date	2012-09-30							
+Investigation Title	Expression data from Arabidopsis roots and shoots grown with or without iron							
+Comment[Submitted Name]	Expression data from Arabidopsis roots and shoots grown with or without iron							
+Experiment Description	Iron-deficiency repsonses in Arabidopsis are controlled by several bHLH transcription factors.  FIT, for example has been shown to direct iron-uptake responses.  However, the role of shoot and root expressed genes bHLH100 and bHLH101 has not be clarified.  We used microarray to study what genes might be miss-regulated in the double mutant bhlh100/bhlh101 background 10-day-old Arabidopsis plants were divided into root and shoot tissues and harvested for RNA extraction.							
+Term Source Name	ArrayExpress	EFO						
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl						
+Person Last Name	Sivitz	Sivitz	Curie	Vert				
+Person First Name	Alicia	Alicia	Catherine	Gergory				
+Person Mid Initials		B						
+Person Email	geo@ncbi.nlm.nih.gov							
+Person Affiliation	Dartmouth College							
+Person Address	Dartmouth College, 78 College St, Hanover, NH, USA							
+Person Roles	submitter							
+Protocol Name	P-GSE40076-1	P-GSE40076-6	P-GSE40076-3	P-GSE40076-8	P-GSE40076-7	P-GSE40076-2	P-GSE40076-4	P-GSE40076-5
+Protocol Description	ID_REF =  VALUE = RMA normalization	Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45C on ATH1 Array. GeneChips were washed and stained in the Affymetrix Fluidics Station 400.	10-day-old plants grown on 0.5X MS plates without or with (100 micromolar) iron.	The data were analyzed using simpleAffy from Bioconductor and RMA normalization.	GeneChips were scanned using the Hewlett-Packard GeneArray Scanner G2500A.	Plants were grown either in the absence of iron or in the presence of 100uM Fe.	Qiagen RNAeasy extraction of total RNA was performed according to the manufacturer's instructions.	Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 6 ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_acquisition	specified_biomaterial_action	nucleic_acid_extraction	labelling
+Experimental Factor Name	genotype	organism part	compound	dose				
+Experimental Factor Type	genotype	organism part	compound	dose				
+Publication Title	Arabidopsis bHLH100 and bHLH101 control iron homeostasis via a FIT-independent pathway							
+Publication Author List	Sivitz AB, Hermand V, Curie C, Vert G							
+Pubmed ID	22984573							
+Publication DOI	10.1371/journal.pone.0044843							
+Comment[SecondaryAccession]	GSE40076							
+Comment[GEOReleaseDate]	2012-09-30							
+Comment[ArrayExpressSubmissionDate]	2012-08-13							
+Comment[GEOLastUpdateDate]	2012-10-01							
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[AdditionalFile:Data1]	GSE40076_merged_replicates.txt							
+SDRF File	E-GEOD-40076.sdrf.txt							

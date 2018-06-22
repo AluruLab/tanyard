@@ -1,0 +1,26 @@
+Comment[ArrayExpressAccession]	E-GEOD-49418						
+MAGE-TAB Version	1.1						
+Public Release Date	2015-02-01						
+Investigation Title	Transcription factor WRKY46 regulates osmotic stress responses and stomatal movement tissue specifically and independently in Arabidopsis						
+Comment[Submitted Name]	Transcription factor WRKY46 regulates osmotic stress responses and stomatal movement tissue specifically and independently in Arabidopsis						
+Experiment Description	Drought and salt stress severely inhibit plant growth and development. However, the regulatory mechanisms of plants in response to these stresses are not fully understood. Here we find that the expression of a WRKY transcription factor WRKY46 is rapidly induced by drought, salt and oxidative stresses. Mutations of WRKY46 by T-DNA insertion lead to more sensitive to drought and salt stress, whereas, overexpression of WRKY46 exhibits hypersensitive in soil culture with higher water loss rate, but increased tolerance on the agar plates. ABA induced stomatal closing is impaired in the WRKY46 overexpressing line (OV46), which is potentially due to the lower ROS accumulation in the guard cells. Real-time qPCR and GUS activity assay further demonstrate that WRKY46 is expressed in guard cells, but its expression is not affected by dehydration treatment, suggesting different regulatory mechanisms for WRKY46 between guard cells and other WRKY46 expressed tissues. The stomatal movement and conductance assay indicate that WRKY46 is involved in light-dependent stomatal opening. Further microarray analysis reveals that WRKY46 regulates a set of genes involved in cellular osmoprotection and redox homeostasis under dehydration stress. Determinations of ROS and MDA content confirm its role in oxidative detoxification under stress. Furthermore, we find that WRKY46 modulates light-dependent starch metabolism in guard cells via regulating QQS gene expression. Taken together, we demonstrate that WRKY46 plays a role in modulating cellular osmoprotection and redox homeostasis under drought and salt stress, and functions independently in stomatal movement via regulating light-dependent starch metabolism and ROS levels in guard cells. We used microarrays to identify the certain downstream genes regulated by WRKY46 under normal and dehydration conditions. One-week-old Arabidopsis seedlings of wild-type Col-0 (WT) and WRKY46 overexpressing line (46T) with or without dehydration treatment for 1 h were harvested and used for RNA extraction and hybridization to Affymetrix Arabidopsis ATH1 microarrays. The experiment includes 3 biological replicates.						
+Term Source Name	ArrayExpress	EFO					
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Zheng	Ding	Zheng				
+Person First Name	Shao Jian	Z	S				
+Person Email	sjzheng@zju.edu.cn						
+Person Affiliation	Zhejiang University						
+Person Phone	8657188206438						
+Person Address	College Life Sciences, Zhejiang University, Yuhangtang Rd 866#, Hangzhou, China						
+Person Roles	submitter						
+Protocol Name	P-GSE49418-1	P-GSE49418-5	P-GSE49418-6	P-GSE49418-2	P-GSE49418-3	P-GSE49418-4	P-GSE49418-7
+Protocol Description	Raw data were normalized by the MAS 5.0 algorithm, Gene Spring Software 11.0 (Agilent Technologies, Santa Clara, CA, USA) ID_REF =  VALUE = log2 ABS_CALL = 	Total RNA was amplified, labeled, and purified with the Genechip 3’IVT Express Kit (Cat#901229, Afftnetrix, Santa Clara, CA, USA) following the manufacturer’s instructions to obtain biotin labeled cRNA	Array hybridization and wash were performed using the Genechip� Hybridization, Wash and Stain Kit (Cat#900720, Affymetrix) in a Hybridization Oven 645 (Cat#00-0331-220V, Affymetrix) and Fluidics Station 450 (Cat#00-0079, Affymetrix) following the manufacturer’s instructions	1-week-old seedlings were dehydrated on Whatman 3MM paper at 22℃ and 60% humidity under dim light for 1h for drought treatment	Arabidopsis thaliana seedlings were grown in an environmental controlled growth chamber programmed for a 16-h-ight/8-h-dark cycle with daytime temperature of 24℃ and a night temperature of 21℃	Total RNA was isolated using the RNase kit (Qiagen) from three replicate samples of the 1-week-old wild-type and OV46 seedling under normal and dehydration treatment for 1 h	Hybridized slides were scanned by GeneChip.Scanner 3000 (Cat00-00212, Affimetrix)
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	environmental stress	genotype					
+Experimental Factor Type	environmental stress	genotype					
+Comment[SecondaryAccession]	GSE49418						
+Comment[GEOReleaseDate]	2015-02-01						
+Comment[ArrayExpressSubmissionDate]	2013-07-31						
+Comment[GEOLastUpdateDate]	2015-02-01						
+Comment[AEExperimentType]	transcription profiling by array						
+SDRF File	E-GEOD-49418.sdrf.txt						

@@ -1,0 +1,29 @@
+Comment[ArrayExpressAccession]	E-GEOD-52610						
+MAGE-TAB Version	1.1						
+Public Release Date	2014-01-27						
+Investigation Title	ATP effect on Arabidopsis roots						
+Comment[Submitted Name]	ATP effect on Arabidopsis roots						
+Experiment Description	Extracellular adenosine 5’-triphosphate (ATP) is a signaling molecule. To define the global transcriptional response to ATP, we performed DNA microarray analysis using RNA derived from wild-type (Col-0) Arabidopsis and the dorn1-1 mutant, Lectin receptor kinase I.9 (At5g60300) carrying a EMS point mutation, seedlings after 100 μM ATP. 12 samples ( 2 genotypes, 2 treatments, 3 biological replicates)						
+Term Source Name	ArrayExpress	EFO					
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Stacey	Choi	Tanaka	Stacey			
+Person First Name	Gary	Jeongmin	Kiwamu	Gary			
+Person Email	geo@ncbi.nlm.nih.gov						
+Person Affiliation	University of Missouri						
+Person Address	Division of Plant Sciences, University of Missouri, 1201 East Rollins street C. Bond Life Sciences center R202, Columbia, MO, USA						
+Person Roles	submitter						
+Protocol Name	P-GSE52610-1	P-GSE52610-5	P-GSE52610-6	P-GSE52610-2	P-GSE52610-3	P-GSE52610-4	P-GSE52610-7
+Protocol Description	The raw intensities of the Affymetrix data were preprocessed using the rma function of the R Affy package, which does probe-specific correction of the perfect match (PM) probes using a model based on observed intensity being the sum of signal and noise, normalizing the corrected PM probes using quantile normalization and then calculating the expression measure using median polish. The resultant gene expression values were transformed to a log base 2 scale. ID_REF =  VALUE = Log2 RMA	A total of 500 ng of RNA was used to synthesize double stranded cDNA. The biotin-labeled cRNA was synthesized by T7 RNA polymerase-assisted in vitro transcription of the cDNA according to the MesssageAmp Primer RNA Amplification Kit protocol from Ambion (Austin, TX)	GeneChip Hybridization, Wash and Stain kit from Affymetrix was used to make the hybridization mixture containing 10 microgram of the biotin-cRNA. The Genechip was hybridized for 18 hours at 45 C and 60 rpm. The chip was washed and stained with protocol FS_450_0004 on GeneChip Fluidics Station 450.	For each replicate, 120 seedlings were pooled and incubated in a single well of a 24-well plate containing 1 mL buffer (2 mM MES pH 5.7, 10 mM CaCl2) overnight at room temperature in dark. Root tissues were selectively harvested and frozen in liquid nitrogen 30 min after treatment with 100 μM ATP and 2 mM MES buffer.	Arabidopsis seeds were sown onto half strength Murashige and Skoog (MS) media containing 1% (w/v) sucrose, 1% (w/v) agar, and 0.5% (w/v) MES (pH 5.7). After cold treatment for three days, the plates were placed vertically in a growth chamber (16 h light/8 h dark cycle, 22degreesC, 100 μE cm-2sec-1 light intensity) and plants were grown for 5 days.	Total RNA was isolated using Trizol Reagent (Invitrogen) according to the manufacturer’s instructions followed by chloroform-based purification. Genomic DNA was removed by Turbo DNase (Ambion) treatment .The DNA-free RNA was further purified with Qiagen RNeasy mini columns.	The array images were acquired using Affymetrix GeneChip Scanner 7G using AGCC 3.1 software. These data were imported into GeneSpring 7.0 (Silicon Genetics, Redwood City, CA, USA). To remove chip-to-chip signal variation, each measurement was divided by the 50.0th percentile of all measurements in that sample.
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	genotype	growth condition					
+Experimental Factor Type	genotype	growth condition					
+Publication Title	Identification of a plant receptor for extracellular ATP.						
+Publication Author List	Choi J, Tanaka K, Cao Y, Qi Y, Qiu J, Liang Y, Lee SY, Stacey G						
+PubMed ID	24436418						
+Publication DOI	10.1126/science.343.6168.290						
+Comment[SecondaryAccession]	GSE52610						
+Comment[GEOReleaseDate]	2014-01-27						
+Comment[ArrayExpressSubmissionDate]	2013-11-21						
+Comment[GEOLastUpdateDate]	2014-01-27						
+Comment[AEExperimentType]	transcription profiling by array						
+SDRF File	E-GEOD-52610.sdrf.txt						

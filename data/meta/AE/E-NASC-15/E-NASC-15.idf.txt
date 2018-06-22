@@ -1,0 +1,48 @@
+Investigation Title	Transcription profiling of trans-differentiation of cultured Arabidopsis cells	
+Comment[Submitted Name]	Brown: The trans-differentiation of cultured Arabidopsis cells	
+Experimental Design	time_series_design	compound_treatment_design	transcription profiling by array	
+Experimental Design Term Source REF	mo:1.1.3	mo	EFO	
+Comment[ArrayExpressReleaseDate]		
+Comment[AEMIAMESCORE]	5	
+Comment[ArrayExpressAccession]	E-NASC-15	
+Comment[MAGETAB TimeStamp_Version]	2010-10-15 15:32:20 Last Changed Rev: 14677	
+Experimental Factor Name	Time point	Effect of cytokinin B	Effect of auxin	
+Experimental Factor Type	time	6-Benzylaminopurine	2,4-dichlorophenoxy acetic acid (2,4-D); 2-naphthalenamine (NA); indole-3-acetc-acid (IAA)	
+Experimental Factor Term Source REF	
+Person Last Name	unknown	Brown	
+Person First Name	unknown	David	
+Person Mid Initials	
+Person Email		david.m.brown@stud.man.ac.uk	
+Person Phone	+44 (0)115 951 3091	0161 2755109	
+Person Fax	+44 (0)115 951 3297	0161 2753938	
+Person Address	Plant Science Division, School of Biosciences, University of Nottingham, Sutton Bonnington Campus, Loughborough LE12 5RD, UK	University of Manchester School of biological Sciences 3.614 Stopford Building Oxford Road Manchester  M13 3PT UK 	
+Person Affiliation		University of Manchester	
+Person Roles		investigator;biosource_provider;submitter	
+Person Roles Term Source REF		mo	
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	
+PubMed ID	
+Publication DOI	
+Publication Author List	
+Publication Title	
+Publication Status	
+Publication Status Term Source REF	
+Experiment Description	The formation of vascular tissue occurs when cellulose, hemicellulose, lignin and other wall components are deposited within the primary cell wall.  These secondary thickened cells then undergo programmed cell death producing a network of empty cells with which water and ions can be transported throughout the plant. The hormones auxin and cytokinin are the principle signals for vascular tissue initiation. As a consequence cells cultured in-vitro can be converted into vascular tissue with the addition of exogenous auxin and cytokinin. We have created an in-vitro cell system, using callus produced from leaves that can be induced to form vascular tissue. Leaves are callused on induction media for two weeks. The callus is then transferred to liquid media and incubated under optimum conditions resulting in an increase in vascular tissue formation. Approximately 20% of cells will differentiate during the incubation period. The alteration of cytokinin concentration affects the ability of the cultured cells to undergo differentiation. Consequently callus incubated in liquid media, containing lower cytokinin concentrations, will undertake relatively little differentiation. Samples have been isolated from cell cultures at different time points and different hormone concentrations during incubation. Quantitative PCR using the marker AtCesA7, which encodes a cellulose synthase subunit specific to secondary wall deposition, was used as a guide to determine periods of high and low vascular differentiation. This system provides an opportunity to compare gene expression between differentiating and non differentiating cells and allow the identification of genes up regulated during vascular tissue formation.	
+Protocol Name	NASCGrowProt:483	NASCSampleTreatmentProt:481	NASCGrowProt:484	NASCSampleTreatmentProt:480	NASCSampleTreatmentProt:482	NASCGrowProt:479	NASCExtractProtocol:3	NASCLabelProtocol:1	Affymetrix:Protocol:Hybridization-EukGE-WS2v4	Affymetrix:Protocol:Percentile	Affymetrix:Protocol:ExpressionStat	
+Protocol Type							nucleic_acid_extraction	labeling	hybridization	feature_extraction	bioassay_data_transformation	
+Protocol Description		Leaves from seedlings, grown aseptically (14-17 days) on MS agar, excised and transferred to callus induction medium (Gamborg's B5 Basil Medium with minimal organics, 2.0% glucose, 0.5mgl-1 MES, 0.5mgl-1 2,4-D, 0.05mgl-1 Kinetin. pH 5.7). Incubated in darkness, at 22oC for 2 weeks. Callus transferred to high differentiating liquid media (MS 0.2% sucrose, 4% mannitol, 0.2mgl-1 auxins (2,4-D, NAA, IAA) 1mgl-1 BA, pH5.7). Incubated at 22oC on a rotary shaker (105rpm). Sample taken at day =5 		Leaves from seedlings, grown aseptically (14-17 days) on MS agar, excised and transferred to callus induction medium (Gamborg's B5 Basil Medium with minimal organics, 2.0% glucose, 0.5mgl-1 MES, 0.5mgl-1 2,4-D, 0.05mgl-1 Kinetin. pH 5.7). Incubated in darkness, at 22oC for 2 weeks. Callus transferred to high differentiating liquid media (MS 0.2% sucrose, 4% mannitol, 0.2mgl-1 auxins (2,4-D, NAA, IAA) 1mgl-1 BA, pH5.7). Incubated at 22oC on a rotary shaker (105rpm). Sample taken at day =2 	Leaves from seedlings, grown aseptically (14-17 days)on MS agar, excised and transferred to callus induction medium (Gamborg's B5 Basil Medium with minimal organics, 2.0% glucose, 0.5mgl-1 MES, 0.5mgl-1 2,4-D, 0.05mgl-1 Kinetin. pH 5.7). Incubated in darkness, at 22oC for 2 weeks. Callus transferred to high differentiating liquid media (MS 0.2% sucrose, 4% mannitol, 0.2mgl-1 auxins (2,4-D, NAA, IAA) 1mgl-1 BA, pH5.7). Incubated at 22oC on a rotary shaker (105rpm). Sample taken at day =9 		Protocol: Seedlings harvested and snap-frozen in liquid nitrogen and RNA extracted as described in the Qiagen RNAeasy kit. 	RNA samples were quality controlled using the Agilent 2100 Bioanalyzer. 100 pmol T7-(dT)24 primer (5'-GGCCAGTGAATTGTAATACGACTCACTATAGGGAGGCGG-(dT)24-3')  was hybridized with the Total RNA ( 8 - 12ug) at 70ÃÂ°C for 10 minutes.  First strand cDNA was synthesized by reverse transcription using 400 units SuperScript II Reverse Transcriptase in a reaction containing 50 mM Tris-HCl (pH 8.3), 75 mM KCl, 3 mM MgCl2, 10 mM dithiothreitol (DTT) and 0.5 mM dNTPs at 42C for 1 hour.  The reaction was then put on ice for 2 mins, followed by second strand cDNA synthesis.  130ul of the second strand reaction mix was added to the 20ul  first strand synthesis reaction. The second strand reaction mix  contained 40 units E. coli DNA polymerase I, 10 units E. coli DNA ligase, 2 units  E. coli RNase H and 0.2 mM dNTPs in a buffer containing 20 mMTris-HCl (pH 6.9), 90 mM KCl, 4.6 mM MgCl2, 10mM (NH4)SO4 and 0.15 mM ÃÂ-NAD+. The reaction was incubated at 16 C for 2 hours.  10 units T4 DNA Polymerase was added and the reaction incubated for a further 5 minutes at 16 C, then the reaction was terminated using EDTA.  The double-stranded cDNA was cleaned up using the cDNA Cleanup Spin Column supplied in the Affymetrix GeneChip Sample Cleanup Module.  The double-stranded cDNA was used as a template for in Vitro transcription of biotin-labeled cRNA using the ENZO BioArray RNA Transcript Labeling Kit supplied by Affymetrix.  The Transcript Labeling kit produces large amounts of hybridizable biotin-labeled RNA targets by in Vitro transcription from bacteriophage T7 RNA polymerase promoters.  The reaction mixture containing Biotin-Labeled ribonucleotides (ATP, GTP, CTP, UTP with Bio-UTP and Bio-CTP), DTT, RNase inhibitor mix and T7 RNA polymerase was incubated at 37 C for 5 hrs, gently mixing every 30 minutes during the incubation. This produced an average of 40ug biotin-labeled cRNA . The biotin-labeled cRNA  was cleaned up using the cRNA Cleanup Spin Column supplied in the Affymetrix GeneChip Sample Cleanup Module.  The quantity and quality of the cRNA was measured using the Agilent 2100 Bioanalyzer. The total amount of cRNA was calculated, the starting quantity of RNA subtracted to give the quantity of adjusted cRNA.  The cRNA was fragmented by metal-induced hydrolysis to break down full-length cRNA to 35-200 base fragments.  15ug of adjusted cRNA was used to prepare 300ul of hybridization cocktail of which 200ul was hybridized with the GeneChip.	Title: Fluidics Station Protocol. Description: 	Title: Affymetrix CEL Analysis (Percentile). Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 	
+Protocol Parameters	Nutrients;Temperature;location;Treatment;Medium;		Nutrients;Medium;Treatment;location;Temperature;			Nutrients;Medium;Treatment;location;Temperature;	
+Protocol Hardware	
+Protocol Software									MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact	
+Protocol Term Source REF											The MGED Ontology	
+SDRF File	E-NASC-15.sdrf.txt	
+Term Source Name	nasc		ncbitax	ArrayExpress	mo:1.1.3	mo	EFO	The MGED Ontology	
+Term Source File	http://arabidopsis.info/catalogue.html		http://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version					1.1.3				

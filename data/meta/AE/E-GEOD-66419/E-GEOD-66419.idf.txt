@@ -1,0 +1,32 @@
+Comment[ArrayExpressAccession]	E-GEOD-66419									
+MAGE-TAB Version	1.1									
+Public Release Date	2015-07-30									
+Investigation Title	The tinkerbell (tink) mutation identifies the dual-specificity MAPK phosphatase INDOLE-3-BUTYRIC ACID-RESPONSE5 (IBR5) as a novel regulator of organ size in Arabidopsis.									
+Comment[Submitted Name]	The tinkerbell (tink) mutation identifies the dual-specificity MAPK phosphatase INDOLE-3-BUTYRIC ACID-RESPONSE5 (IBR5) as a novel regulator of organ size in Arabidopsis.									
+Comment[AEExperimentDisplayName]	Transcription profiling by array of the tinkerbell (tink) mutation of Arabidopsis.									
+Experiment Description	Mitogen-activated dual-specificity MAPK phosphatases are important negative regulators in the MAPK signalling pathways responsible for many essential processes in plants.  In a screen for mutants with reduced organ size we have identified a mutation in the active site of the dual-specificity MAPK phosphatase INDOLE-3-BUTYRIC ACID-RESPONSE5 (IBR5) that we named tinkerbell (tink) due to its small size. Analysis of the tink mutant indicates that IBR5 acts as a novel regulator of organ size that changes the rate of growth in petals and leaves. Organ size and shape regulation by IBR5 acts independently of the KLU growth-regulatory pathway.  Microarray analysis of tink/ibr5-6 mutants identified a likely role for this phosphatase in male gametophyte development.  We show that IBR5 may influence the size and shape of petals through auxin and TCP growth regulatory pathways. 6 samples, three mutant replicates, three wild type replicates.									
+Term Source Name	ArrayExpress	EFO								
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl								
+Person Last Name	Lenhard	Johnson	Ramm	Kappel	Ward	Leyser	Sakamoto	Kurata	Bevan	Lenhard
+Person First Name	Michael	Kim	Sascha	Christian	Sally	Ottoline	Tomoaki	Tetsuya	Michael	Michael
+Person Mid Initials		L							W	
+Person Email	michael.lenhard@uni-potsdam.de									
+Person Affiliation	Universität Potsdam									
+Person Phone	+49-331-9775580									
+Person Address	Institut für Biochemie und Biologie, Universität Potsdam, Karl-Liebknecht-Str. 24-25, Haus 26, Potsdam, Germany									
+Person Roles	submitter									
+Protocol Name	P-GSE66419-1	P-GSE66419-5	P-GSE66419-6	P-GSE66419-2	P-GSE66419-3	P-GSE66419-4	P-GSE66419-7			
+Protocol Description	Data were gcrma normalized using R/Bioconductor. ID_REF =  VALUE = GCRMA normalized signal intensities	Performed by NASC Affymetrix service, Nottingham, UK.	Performed by NASC Affymetrix service, Nottingham, UK.	The tink/ibr5-6 mutant was isolated from an EMS-mutagenesized population in the klu-2 background and backcrossed three times to Ler plants to isolate tink/ibr5-6 single mutants. klu-2 mutants are described in Anastisou et al., 2007 (PMID: 18061566).	Growth conditions were as described in Disch et al., 2006 (PMID: 16461280).	RNA was extracted from inflorescences with young flower buds from individual tink/ibr5-6 mutant or Ler plants with three replicates using the RNEasy kit (Qiagen)	Performed by NASC Affymetrix service, Nottingham, UK.			
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol			
+Experimental Factor Name	genotype									
+Experimental Factor Type	genotype									
+Publication Title	The Tinkerbell (Tink) Mutation Identifies the Dual-Specificity MAPK Phosphatase INDOLE-3-BUTYRIC ACID-RESPONSE5 (IBR5) as a Novel Regulator of Organ Size in Arabidopsis.									
+Publication Author List	Johnson KL, Ramm S, Kappel C, Ward S, Leyser O, Sakamoto T, Kurata T, Bevan MW, Lenhard M									
+PubMed ID	26147117									
+Publication DOI	10.1371/journal.pone.0131103									
+Comment[SecondaryAccession]	GSE66419									
+Comment[GEOReleaseDate]	2015-07-30									
+Comment[ArrayExpressSubmissionDate]	2015-03-02									
+Comment[GEOLastUpdateDate]	2015-08-01									
+Comment[AEExperimentType]	transcription profiling by array									
+SDRF File	E-GEOD-66419.sdrf.txt									

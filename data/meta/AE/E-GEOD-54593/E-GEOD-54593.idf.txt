@@ -1,0 +1,25 @@
+Comment[ArrayExpressAccession]	E-GEOD-54593						
+MAGE-TAB Version	1.1						
+Public Release Date	2014-02-01						
+Investigation Title	Expression data from Arabidopsis leaves						
+Comment[Submitted Name]	Expression data from Arabidopsis leaves						
+Experiment Description	Flavonols are a class of flavonoids. Unlike other classes of flavonoids, flavonols strongly accumulate in guard cells, but the role of their accumulation in guard cells is still unclear so far.The overexpression of TaFLS1, a flavonol synthase gene from wheat, improves flavonol content in guard cells of Arabidopsis, while the mutant fls1-3 of Arabidopsis AtFLS1 reduces the content. Both the increase of flavonols by TaFLS1 overexpression and the decrease in fls1-3 change stomatal apeture, showing the association between flavonols and stomatal movements. We used microarrays to detail the global programme of gene expression underlying both the increase and decrease of flavonol content and identified possible mechanism of flavonols-mediated stomatal movement. Arabidipsis Col-0, TaFLS1 overexpression lines, and fls1-3 were used for analysis. Leaves of six-week old Arabidopsis seedlings grown in soils under the regime of a 16 h photoperiod at 22°C and 60% relative humidity were sampled, and RNA was extracted for microarray analysis. Each of Arabidopsis lines has three replicates.						
+Term Source Name	ArrayExpress	EFO					
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Wang	Mengcheng	Wei	Jiajia	Guangmin		
+Person First Name	Mengcheng	Wang	Li	Qian	Xia		
+Person Email	wangmc@sdu.edu.cn						
+Person Affiliation	Shandong University						
+Person Address	School of Life Science, Shandong University, 27 Shandanan Road, Jinan, China						
+Person Roles	submitter						
+Protocol Name	P-GSE54593-1	P-GSE54593-5	P-GSE54593-6	P-GSE54593-2	P-GSE54593-3	P-GSE54593-4	P-GSE54593-7
+Protocol Description	The data were analyzed with Microarray Suite version 5.0 (MAS 5.0) using Affymetrix default analysis settings and global scaling as normalization method. The trimmed mean target intensity of each array was arbitrarily set to 100. ID_REF =  VALUE = MAS5.0 signal intensity ABS_CALL = 	Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 6 ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).	Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45C on GeneChip Drosophila Genome Array. GeneChips were washed and stained in the Affymetrix Fluidics Station 400.	Leaves of Arabidopsis seeldings were sampled and immediately stored in liquid nitrogen for RNA extraction	Arabidopsis was grown in soils under the regime of a 16 h photoperiod at 22 degreesC and 60% relative humidity for six weeks	Trizol extraction of total RNA was performed according to the manufacturer's instructions.	GeneChips were scanned using GeneChip Scanner 3000.
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	genotype						
+Experimental Factor Type	genotype						
+Comment[SecondaryAccession]	GSE54593						
+Comment[GEOReleaseDate]	2014-02-01						
+Comment[ArrayExpressSubmissionDate]	2014-01-31						
+Comment[GEOLastUpdateDate]	2014-02-01						
+Comment[AEExperimentType]	transcription profiling by array						
+SDRF File	E-GEOD-54593.sdrf.txt						

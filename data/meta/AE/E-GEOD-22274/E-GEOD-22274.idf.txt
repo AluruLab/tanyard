@@ -1,0 +1,58 @@
+Comment[ArrayExpressAccession]	E-GEOD-22274																		
+Public Release Date	2010-12-31																		
+Investigation Title	H. arabidopsidis EMWA1 infection, time course experiment																		
+Comment[Submitted Name]	H. arabidopsidis EMWA1 infection, time course experiment																		
+Experiment Description	We used microarrays to identify differentially expressed genes. We focused on those genes that were dramatically induced (>2-fold) in WT but not in the rpp4 mutant at 2 dpi when WT and rpp4 first showed distinct phenotypes 2-week old Col wild-type plants and rpp4 mutants were infected with spores from 10-day old H. arabidopsidis EMWA1. Leaves were harvested at 0, 0.5, 2, 4, 6 days post-inoculation. Replicates are derived from two independent biological experiments, with no overlap in growing periods.																		
+Date of Experiment																			
+Term Source Name	EFO																		
+Term Source Version																			
+Term Source File	http://efo.svn.sourceforge.net/viewvc/efo/trunk/src/efoinowl/efo.owl																		
+Person Last Name	Barnaby	Barnaby																	
+Person First Name	Jinyoung	Jinyoung																	
+Person Mid Initials	Yang	Y																	
+Person Email	geo@ncbi.nlm.nih.gov																		
+Person Affiliation	Duke Univeristy																		
+Person Phone																			
+Person Fax																			
+Person Address	Biology, Duke Univeristy, 4204 FFSC Bldg (Box 90338), Durham, NC, USA																		
+Person Roles	submitter																		
+Person Roles Term Source REF																			
+Person Roles Term Accession Number																			
+Normalization Type																			
+Normalization Term Accession Number																			
+Normalization Term Source REF																			
+Replicate Type																			
+Replicate Term Accession Number																			
+Replicate Term Source REF																			
+Experimental Design																			
+Experimental Design Term Accession Number																			
+Experimental Design Term Source REF																			
+Quality Control Type																			
+Quality Control Term Accession Number																			
+Quality Control Term Source REF																			
+Protocol Name	P-GSE22274-3	P-GSE22274-2	P-GSE22274-4	P-GSE22274-8	P-GSE22274-10	P-GSE22274-1	P-GSE22274-7	P-GSE22274-9	P-GSE22274-5	P-GSE22274-6	P-GSE22274-15	P-GSE22274-12	P-GSE22274-17	P-GSE22274-19	P-GSE22274-18	P-GSE22274-16	P-GSE22274-11	P-GSE22274-13	P-GSE22274-14
+Protocol Description	ID_REF = <br>VALUE = normalized data from combined biological replicates<br>WT_EMWA1_2dpi_VAR = 	ID_REF = <br>VALUE = normalized data from combined biological replicates<br>WT_EMWA1_0.5dpi_VAR = 	ID_REF = <br>VALUE = normalized data from combined biological replicates<br>WT_EMWA1_4dpi_VAR = 	ID_REF = <br>VALUE = normalized data from combined biological replicates<br>rpp4_EMWA1_2dpi_VAR = 	ID_REF = <br>VALUE = normalized data from combined biological replicates<br>rpp4_EMWA1_6dpi_VAR = 	ID_REF = <br>VALUE = normalized data from combined biological replicates<br>WT_EMWA1_0dpi_VAR = 	ID_REF = <br>VALUE = normalized data from combined biological replicates<br>rpp4_EMWA1_0.5dpi_VAR = 	ID_REF = <br>VALUE = normalized data from combined biological replicates<br>rpp4_EMWA1_4dpi_VAR = 	ID_REF = <br>VALUE = normalized data from combined biological replicates<br>WT_EMWA1_6dpi_VAR = 	ID_REF = <br>VALUE = normalized data from combined biological replicates<br>rpp4_EMWA1_0dpi_VAR = 	Following fragmentation, 10 ug of cRNA were hybridized on Affymetrix ATH1 GeneChip (Santa Clara, CA, U.S.A) for 16 hours at 45C with rotation at 60rpm. .	Arabidopsis seedlings were grown for 10 days at 16-18°C, 12-hr day length, 80-100% relative humidity	Mixed-model ANOVA used to globally normalize all arrays and to identify differentially expressed probe sets is described in (Ref. 1 and 2).	Ref. 2: Levesque, M. P. et al. Whole-genome analysis of the SHORT-ROOT developmental pathway in Arabidopsis. PLoS biology 4, 1284-1284 (2006).	Ref. 1: Brady, S. M. et al. A high-resolution root spatiotemporal map reveals dominant expression patterns. Science 318, 801-806 (2007).	Immediately following hybridization, the hybridized probe arrays undergo an automated washing and staining protocol on the GeneChip® FS450 fluidic station and are then scanned on the GeneChip® Scanner 3000 7G Plus where patterns of hybridization are detected.	2-week old Col-0 wild-type plants and rpp4 mutants were infected with spores (500,000 spores / 1ml in dH2O) from 10-day old H. arabidopsidis EMWA1. Leaves were harvested at 0, 0.5, 2, 4, 6 days post-inoculation. Replicates are derived from two independent biological experiments, with no overlap in growing periods.	Total RNA was isolated from the frozen material using the Qiagen RNeasy kit	RNA probes were labelled using the GeneChip® Eukaryotic Small Sample Target Labelling Assay Version II.
+Protocol Software																			
+Protocol Hardware																			
+Protocol Contact																			
+Protocol Type	bioassay_data_transformation	bioassay_data_transformation	bioassay_data_transformation	bioassay_data_transformation	bioassay_data_transformation	bioassay_data_transformation	bioassay_data_transformation	bioassay_data_transformation	bioassay_data_transformation	bioassay_data_transformation	hybridization	grow	feature_extraction	feature_extraction	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Protocol Term Source REF																			
+Protocol Term Accession Number																			
+Experimental Factor Name	GENOTYPE	SAMPLING TIME POINT	INFECTION																
+Experimental Factor Type	genotype	sampling_time_point	infect																
+Experimental Factor Term Source REF																			
+Experimental Factor Term Accession Number																			
+Publication Title	Timing of plant immune responses by a central circadian regulator.																		
+Publication Author List	Wang W, Barnaby JY, Tada Y, Li H, Tör M, Caldelari D, Lee DU, Fu XD, Dong X.																		
+PubMed ID	21293378																		
+Publication DOI	10.1038/nature09766																		
+Publication Status	published																		
+Publication Status Term Source REF	EFO																		
+Publication Status Term Accession Number	EFO_0001796																		
+Comment[SecondaryAccession]	GSE22274																		
+Comment[GEOLastUpdateDate]	2010-12-31																		
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for rpp4 after infection with Hyaloperonospora arabidopsidis Emwa1																		
+Comment[AEExperimentType]	transcription profiling by array																		
+Comment[GEOReleaseDate]	2010-12-31																		
+Comment[ArrayExpressSubmissionDate]	2010-06-09																		
+SDRF File	E-GEOD-22274.sdrf.txt																		

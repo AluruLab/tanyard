@@ -1,0 +1,34 @@
+Comment[ArrayExpressAccession]	E-MEXP-3397		
+Investigation Title	Transcriptional profiling of DEX-inducible SNRK3.15 seedlings in the presence of ABA		
+Comment[Submitted Name]	Transcriptional profiling of DEX-inducible SNRK3.15 seedlings in the presence of ABA		
+Comment[AEExperimentDisplayName]	Transcription profiling of DEX-inducible SNRK3.15 Arabidopsis seedlings in the presence of ABA		
+Comment[MIAMExpressLogin]	shigeotoh		
+Comment[MIAMExpressSubmissionID]	7853		
+Experiment Description	Transcriptional profiling of a DEX-inducible SNRK3.15 seedlings in the presence of ABA.		
+Experimental Design	co-expression_design	compound_treatment_design	replicate_design
+Comment[AEExperimentType]	transcription profiling by array		
+Experimental Factor Name	growth condition	phenotype	
+Experimental Factor Type	growth condition	phenotype	
+Person Last Name	Toh		
+Person First Name	Shigeo		
+Person Email	s.toh@utoronto.ca		
+Person Phone	:1-416-978-837		
+Person Affiliation	University of Toronto		
+Person Address	"Cell and Systems Biology, Cell and Systems Biology, 25 Willcocks St., Toronto, ON, M5S 3B2, Canada"		
+Person Roles	submitter		
+Person Roles Term Source REF	MGED Ontology		
+Quality Control Type	biological_replicate		
+Public Release Date	2012-03-01		
+Comment[ArrayExpressSubmissionDate]	05/10/2011 22:08		
+PubMed ID	24823379		
+Publication DOI	10.1016/j.devcel.2014.04.004		
+Publication Author List	"Lumba S, Toh S, Handfield LF, Swan M, Liu R, Youn JY, Cutler SR, Subramaniam R, Provart N, Moses A, Desveaux D, McCourt P."		
+Publication Title	A mesoscale abscisic acid hormone interactome reveals a dynamic signaling landscape in Arabidopsis.		
+Publication Status	published		
+Protocol Name	P-MTAB-23174	P-MTAB-23175	P-MTAB-23176
+Protocol Description	4 days seedling of DEX:SNRK3.15 transgenic plant transfered to the 30uM DEX or 0.1% DMSO control plate for 24 hours. These DEX treated seedling (5 days seedling) transfered to the 2uM ABA or 0.11% DMSO with 30uM DEX. Control plants transfered to 2uM ABA or 0.11% DMSO without DEX plate.	"Seeds were sterilized by 70% Ethanol 3 minutes with vigorous shaking then rinsed once with Ethanol. After air drying, the seeds were plated on 0.5X MS 0.8% agar media. Following 3 days of stratification, plates were transferred to growth chamber and incubated under constant light for 4 days.<br>(Parameters: time unit = seconds, temperature unit = C, media = 1/2MS)"	"6-day-old seedlings were ground into powder in liquid nitrogen, then total RNA was extracted by standard phenol/SDS method. <br>(Parameters: Extracted product = genomic_DNA, Amplification = none)"
+Protocol Type	specified_biomaterial_action	grow	nucleic_acid_extraction
+Protocol Term Source REF	MGED Ontology	MGED Ontology	MGED Ontology
+Term Source Name	MGED Ontology	ArrayExpress	
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	
+SDRF File	E-MEXP-3397.sdrf.txt		

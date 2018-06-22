@@ -1,0 +1,25 @@
+Comment[ArrayExpressAccession]	E-GEOD-43724
+MAGE-TAB Version	1.1						
+Public Release Date	2013-11-06
+Investigation Title	dreb1a expression data from Arabidopsis flowers under drought stress						
+Comment[Submitted Name]	dreb1a expression data from Arabidopsis flowers under drought stress
+Experiment Description	We used microarray analysis to examine transcriptomic changes upon dreb1a under drought, identifying hundreds of genes that potentially function downstream of DREB1A and mediate drought responses in the flower, including genes encoding transcription factors that likely play crucial regulatory roles. DREB1a mutant (CS872453) were well-watered until after just bolting (after 24 days growth with the main stem about 1 cm high) when drought treatment was started by withholding water (defined as day 0 for drought treatment). The relative soil moisture content decreased sharply and, after about 80 hours (defined as day 3 for drought treatment), the relative soil moisture content was near 35% of the soil water-holding capacity. The soil water condition was maintained by daily watering until almost all the fruits were mature and ready to harvest. Unopened flower samples were collected from drought treated plants, at day 3, 4, 5.						
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	SU	Su	Ma				
+Person First Name	Zhao	Zhao	Hong				
+Person Email	geo@ncbi.nlm.nih.gov						
+Person Affiliation	The Penn State University						
+Person Address	Biology, The Penn State University, 416 Life Sciences BLDG, University Park, PA, USA						
+Person Roles	submitter						
+Protocol Name	P-GSE43724-1	P-GSE43724-5	P-GSE43724-6	P-GSE43724-2	P-GSE43724-3	P-GSE43724-4	P-GSE43724-7
+Protocol Description	The data were analyzed by using robust multi-array averaging (RMA, including background subtraction, summarization by median polish and quantile normalization) with the R/Bioconductor package affy. and then converted to logarithm base 2. ID_REF =  VALUE = log2 RMA signal	Standard Affymetrix protocol.	Standard Affymetrix protocol.	Arabidopsis were well-watered until after just bolting (after 24 days growth with the main stem about 1 cm high) when drought treatment was started by withholding water (defined as day 0 for drought treatment). The relative soil moisture content decreased sharply and, after about 80 hours (defined as day 3 for drought treatment), the relative soil moisture content was near 35% of the soil water-holding capacity. The soil water condition was maintained by daily watering until almost all the fruits were mature and ready to harvest (about 50 days). For well-watered (control) plants, 90% of the soil water-holding capacity was maintained until tissue harvest or after seed maturation (pots were weighed and watered twice per day). Unopened flower samples were collected, from both treated and control plants, at day 0, 3, 4, 5, 10.	Seeds were directly sown into pots containing 100g soil mixture of Metro-Mix 360 soil (Sun Gro Horticulture Canada Ltd) and Turface profile greens grade (Profile Products LLC) in 3:2 ratio by volume, with a maximum water-holding capacity of 100g (defined as 100% soil moisture). Seeds were stratified in a cold room for 2 d at 4 ℃ in the dark. After stratification, the pots with seeds were transferred into a Conviron growth chamber (Conviron Inc), which was set at our normal conditions (22 ℃, 16h day/8h night photoperied, ~300 μmol m-2 s-1 photon flux, 60% humidity) until just after flowering (bolting) when some of the plants were subjected to drought stress.	Total RNA was isolated from unopened flower buds using RNeasy columns following instructions from the manufacturer (Qiagen, Valencia, CA, USA).	Standard Affymetrix protocol.
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	AGE						
+Experimental Factor Type	age						
+Comment[SecondaryAccession]	GSE43724						
+Comment[GEOReleaseDate]	2013-11-06						
+Comment[ArrayExpressSubmissionDate]	2013-01-24						
+Comment[GEOLastUpdateDate]	2013-11-06						
+Comment[AEExperimentType]	transcription profiling by array						
+SDRF File	E-GEOD-43724.sdrf.txt

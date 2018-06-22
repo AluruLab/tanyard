@@ -1,0 +1,58 @@
+Comment[ArrayExpressAccession]	E-GEOD-31033						
+Public Release Date	2011-07-29						
+Investigation Title	Differential expression between frb1 mutant Arabidopsis and wild-type						
+Comment[Submitted Name]	Differential expression between frb1 mutant Arabidopsis and wild-type						
+Experiment Description	Cell adhesion in plants is mediated predominantly by pectins, a group of complex cell wall associated polysaccharides. An Arabidopsis mutant, friable1 (frb1), was identified through a screen of T-DNA insertion lines that exhibited defective cell adhesion. Interestingly, the frb1 plants displayed both cell and organ dissociations and also ectopic organ fusions. The FRB1 gene encodes a Golgi-localized, plant specific protein with only weak sequence similarities to known proteins (DUF246). Unlike other cell adhesion deficient mutants, frb1 mutants do not have reduced levels of adhesion related cell wall polymers, such as pectins. Instead, FRB1 affects the abundance of galactose- and arabinose-containing oligosaccharides in the Golgi. Furthermore, frb1 mutants displayed alteration in pectin methylesterification, cell wall associated extensins and xyloglucan microstructure. We propose that abnormal FRB1 action has pleiotropic consequences on wall architecture, affecting both the extensin and pectin matrices, with consequent changes to the biomechanical properties of the wall and middle lamella, thereby influencing cell-cell adhesion. Microarrays were used to determine the differences in global expression of friable1 mutant plants, which have cell adhesion defects, and compared these to wild-type plants. RNA was extracted from seedlings grown on 0.5X MS for 10 days under constant illumination.						
+Date of Experiment							
+Term Source Name	EFO						
+Term Source Version							
+Term Source File	http://www.ebi.ac.uk/efo						
+Person Last Name	Bonetta	Bonetta	Lumba				
+Person First Name	Dario	Dario	Shelley				
+Person Mid Initials							
+Person Email	dario.bonetta@uoit.ca						
+Person Affiliation	Ontario Institute of Technology						
+Person Phone							
+Person Fax							
+Person Address	Science, Ontario Institute of Technology, 2000 Simcoe St N, Oshawa, ON, Canada						
+Person Roles	submitter						
+Person Roles Term Source REF							
+Person Roles Term Accession Number							
+Normalization Type							
+Normalization Term Accession Number							
+Normalization Term Source REF							
+Replicate Type							
+Replicate Term Accession Number							
+Replicate Term Source REF							
+Experimental Design	genetic modification design						
+Experimental Design Term Accession Number							
+Experimental Design Term Source REF	EFO						
+Quality Control Type							
+Quality Control Term Accession Number							
+Quality Control Term Source REF							
+Protocol Name	P-GSE31033-1	P-GSE31033-6	P-GSE31033-5	P-GSE31033-3	P-GSE31033-2	P-GSE31033-4	P-GSE31033-7
+Protocol Description	ID_REF = <br>VALUE = Signal<br>ABS_CALL = indicating whether the transcript was present (P), absent (A), or marginal (M)<br>DETECTION P-VALUE = 	GeneChips were scanned using the Hewlett-Packard GeneArray Scanner G2500A.	Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45C on GeneChip Arabidopsis ATH1 Array. GeneChips were washed and stained in the Affymetrix Fluidics Station 400.	Trizol method according to manufacterer's instructions.	Seeds were sown onto 0.5 MS, kept at 4C for 4 days in the dark and transferred to 21C at 200 uE/m/s  for 10 days.	Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 6 ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).	The data were analyzed with Microarray Suite version 5.0 (MAS 5.0) using Affymetrix default analysis settings and global scaling as normalization method. The trimmed mean target intensity of each array was arbitrarily set to 100.
+Protocol Software							
+Protocol Hardware							
+Protocol Contact							
+Protocol Type	bioassay_data_transformation	image_aquisition	hybridization	nucleic_acid_extraction	grow	labeling	feature_extraction
+Protocol Term Source REF							
+Protocol Term Accession Number							
+Experimental Factor Name	genotype						
+Experimental Factor Type	genotype						
+Experimental Factor Term Source REF							
+Experimental Factor Term Accession Number							
+Publication Title	The FRIABLE1 gene product affects cell adhesion in Arabidopsis.						
+Publication Author List	Neumetzler L, Humphrey T, Lumba S, Snyder S, Yeats TH, Usadel B, Vasilevski A, Patel J, Rose JK, Persson S, Bonetta D.						
+PubMed ID	22916179						
+Publication DOI	10.1371/journal.pone.0042914						
+Publication Status	published						
+Publication Status Term Source REF	EFO						
+Publication Status Term Accession Number	EFO_0001796						
+Comment[SecondaryAccession]	GSE31033						
+Comment[GEOLastUpdateDate]	2011-07-30						
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for frb1						
+Comment[AEExperimentType]	transcription profiling by array						
+Comment[GEOReleaseDate]	2011-07-28						
+Comment[ArrayExpressSubmissionDate]	2011-07-28						
+SDRF File	E-GEOD-31033.sdrf.txt						

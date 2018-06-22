@@ -1,0 +1,58 @@
+Comment[ArrayExpressAccession]	E-GEOD-18984						
+Public Release Date	2009-11-17						
+Investigation Title	Treatment of Arabidopsis with low concentration of nitrate						
+Comment[Submitted Name]	Treatment of Arabidopsis with low concentration of nitrate						
+Experiment Description	The genomic response to low levels of nitrate was studied in Arabidopsis using the Affymetrix ATH1 chip containing more than 22,500 probe sets. Arabidopsis plants were grown hydroponically in sterile liquid culture on ammonium as the sole source of nitrogen for 10 d, then treated with 250 um nitrate for 20 min. The response to nitrate was much stronger in roots (1,176 genes showing increased or decreased mRNA levels) than in shoots (183 responding genes). In addition to known nitrate-responsive genes (e.g. those encoding nitrate transporters, nitrate reductase, nitrite reductase, ferredoxin reductase, and enzymes in the pentose phosphate pathway), genes encoding novel metabolic and potential regulatory proteins were found. These genes encode enzymes in glycolysis (glucose-6-phosphate isomerase and phosphoglycerate mutase), in trehalose-6-P metabolism (trehalose-6-P synthase and trehalose-6-P phosphatase), in iron transport/metabolism (nicotianamine synthase), and in sulfate uptake/reduction. In many cases, only a few select genes out of several in small gene families were induced by nitrate. These results show that the effect of nitrate on gene expression is substantial (affecting almost 10% of the genes with detectable mRNA levels) yet selective and affects many genes involved in carbon and nutrient metabolism.  Keywords: Expression profilling by array 8 samples were used in this experiment						
+Date of Experiment							
+Term Source Name	EFO						
+Term Source Version							
+Term Source File	http://bar.ebi.ac.uk:8080/trac/browser/branches/curator/ExperimentalFactorOntology/ExFactorInOWL/currentrelease/eforelease/efo.owl						
+Person Last Name	Nottingham Arabidopsis Stock Centre (NASC)	Wang					
+Person First Name		Rongchen					
+Person Mid Initials							
+Person Email	affy@arabidopsis.info						
+Person Affiliation	Nottingham Arabidopsis Stock Centre (NASC)						
+Person Phone	+44 (0)115 951 3237						
+Person Fax	+44 (0)115 951 3297						
+Person Address	School of Biosciences, University of Nottingham, Nottingham Arabidopsis Stock Centre (NASC), Sutton Bonington Campus, Loughborough, United Kingdom						
+Person Roles	submitter						
+Person Roles Term Source REF							
+Person Roles Term Accession Number							
+Normalization Type							
+Normalization Term Accession Number							
+Normalization Term Source REF							
+Replicate Type							
+Replicate Term Accession Number							
+Replicate Term Source REF							
+Experimental Design							
+Experimental Design Term Accession Number							
+Experimental Design Term Source REF							
+Quality Control Type							
+Quality Control Term Accession Number							
+Quality Control Term Source REF							
+Protocol Name	P-GSE18984-1	P-GSE18984-6	P-GSE18984-5	P-GSE18984-3	P-GSE18984-2	P-GSE18984-4	P-GSE18984-7
+Protocol Description	ID_REF = <br>VALUE = MAS5 normalized signal intensity<br>ABS_CALL = present, marginal, absent calls<br>DETECTION P-VALUE = p-value	Scanned according to guidelines set out by Affymetrix, Santa Clara, CA.	Biotin Labelled cRNA using &quot;Affymetrix GeneChip Hybridization, Wash and Stain Kit&quot;, according to guidelines set out by Affymetrix, Santa Clara, CA	Qiagen RNeasy kit protocol	Arabidopsis ecotype Columbia was grown at 25°C to 27°C under constant illumination with agitation at 120 rpm for 10 d. Plants were grown in a 50-mL glass beaker containing a segment (20 mM in height) of a 50-mL Falcon centrifuge tube with triangular openings at bottom to allow for liquid flow. On top of the tube was a disc of polypropylene mesh (250-micron pore size, 25 mM in diameter). Beakers initially contained 25 mL of sterile medium (described above) and approximately 50 surface-sterilized seeds evenly distributed on the mesh disc. On d 5, 5 mL of medium was removed from the beaker to allow shoots to stay above the medium liquid. The beaker top was covered with three layers of aluminum foil to keep the culture sterile.	Labelled using protocol described in Affymetrix manual &quot;3' IVT Express Kit User Manual&quot;	Raw data from the microarrays was normalized at probe-level using MAS5 algorithm. The detection calls (present, marginal, absent) for each probe set was obtained using the GCOS system
+Protocol Software							
+Protocol Hardware							
+Protocol Contact							
+Protocol Type	bioassay_data_transformation	image_aquisition	hybridization	nucleic_acid_extraction	grow	labeling	feature_extraction
+Protocol Term Source REF							
+Protocol Term Accession Number							
+Experimental Factor Name	ORGANISM PART	COMPOUND					
+Experimental Factor Type	organism_part	compound					
+Experimental Factor Term Source REF							
+Experimental Factor Term Accession Number							
+Publication Title							
+Publication Author List							
+PubMed ID							
+Publication DOI							
+Publication Status							
+Publication Status Term Source REF							
+Publication Status Term Accession Number							
+Comment[SecondaryAccession]	GSE18984						
+Comment[GEOLastUpdateDate]	2011-03-01						
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis grown on soil lacking nitrate after treatment with nitrate						
+Comment[AEExperimentType]	transcription profiling by array						
+Comment[GEOReleaseDate]	2009-11-18						
+Comment[ArrayExpressSubmissionDate]	2009-11-12						
+SDRF File	E-GEOD-18984.sdrf.txt						

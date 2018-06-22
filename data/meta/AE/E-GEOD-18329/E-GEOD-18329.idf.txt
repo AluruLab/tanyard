@@ -1,0 +1,58 @@
+Comment[ArrayExpressAccession]	E-GEOD-18329							
+Public Release Date	2010-08-09							
+Investigation Title	Transcriptome changes triggered by Hyaloperonospora parasitica arabidopsis Noco2 in WT and wrky72 mutants at 96 hpt							
+Comment[Submitted Name]	Transcriptome changes triggered by Hyaloperonospora parasitica arabidopsis Noco2 in WT and wrky72 mutants at 96 hpt							
+Experiment Description	Functional characterization of AtWRKY72 using Arabidopsis T-DNA insertion lines showed that this gene is important for basal defense to root-knot nematode (RKN) and Hyaloperonospora parasitica arabidopsis (Hpa), but not several tested R gene-mediated defenses.To profile transcriptional reprogramming associated with AtWRKY72-dependent basal defense we used Affymetrix ATH1 GeneChips representing ~24,000 Arabidopsis genes. Three independent biological replicates were performed with Col-0, wrky72-1 and wrky72-2 plants at 96 hpt with HpaNoco2 or mock treatment. Using a false discovery rate of less than 0.05 we identified for each of these three lines genes that showed significant transcriptional changes in response to HpaNoco2 compared to the mock-treated controls. Identification of downstream targets of WRKY72 in Arabidopsis by this microarray suggests that WRKY72 uses a unique signaling pathway that involves AP2/ERF TFs independent of the ethylene signaling pathway. We intended to identify Arabidopsis genes that are regulated in WRKY72-dependent manner in response to Hyaloperonospora parasitica arabidopsis (Hpa) at 96 hpt. For this, we used Col-0 and two wrky72 mutant lines and compared the differentially expressed genes with the hypothesis ‘genes that are specifically regulated in Col-0 but not in wrky72 mutants are WRKY72-dependent genes’.							
+Date of Experiment								
+Term Source Name	EFO							
+Term Source Version								
+Term Source File	http://www.ebi.ac.uk/efo/efo.owl							
+Person Last Name	Bhattarai	Bhattarai	Kaloshian	Eulgem				
+Person First Name	Kishor	Kishor	Isgouhi	Thomas				
+Person Mid Initials	Kumar	K						
+Person Email	bkk33@cornell.edu							
+Person Affiliation	University of California							
+Person Phone	607-254-6424							
+Person Fax								
+Person Address	Plant Pathology, University of California, 9000 University Avenue, Riverside, CA, USA							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Person Roles Term Accession Number								
+Normalization Type								
+Normalization Term Accession Number								
+Normalization Term Source REF								
+Replicate Type								
+Replicate Term Accession Number								
+Replicate Term Source REF								
+Experimental Design								
+Experimental Design Term Accession Number								
+Experimental Design Term Source REF								
+Quality Control Type								
+Quality Control Term Accession Number								
+Quality Control Term Source REF								
+Protocol Name	P-GSE18329-1	P-GSE18329-6	P-GSE18329-3	P-GSE18329-8	P-GSE18329-7	P-GSE18329-2	P-GSE18329-4	P-GSE18329-5
+Protocol Description	ID_REF = <br>VALUE = RMA signal intensity	Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45C on GeneChip Arabidopsis Genome Array. GeneChips were washed and stained in the Affymetrix Fluidics Station 450.	Arabidopsis thaliana plants (accessions Col-0 and  homozygous T-DNA insertion lines SALK_145765 and SALK-055293) were grown on soil in a semi-sterile growth chamber under fluorescent lights (14 hours light, 10 hours dark, 21 centi grades, 100 Einstein/m2/s).	Microarray analysis was performed in the R statistical programming environment using Bioconductor packages (http:/www.bioconductor.org). Values were normalized using the robust multichip averaging (RMA) algorithm in Bioconductor. Statistical analysis was performed with the LIMMA package. The p values were adjusted using the Benjamini and Hochberg method for False Discovery Rate (FDR) of 0.05. Significant up- and down-regulated genes were selected based on an adjusted p-value ≤ 0.01 compared to mock treatments.	GeneChips were scanned using the Hewlett-Packard GeneArray Scanner 3000 with 7G.	Aerial tissues of 2 week old soil grown Arabidopsis seedlings were sprayed with 3X10^4 spores/ml of HpaNoco2 or mock solution and harvested at 96 h after the treatment. Mock treatments were sprayed with water only. Three independent biological replicates were performed for each treatment.	For harvesting, the aerial plant parts were shock-frozen in liquid nitrogen. Total RNA was isolated from seedlings using TRIZOL (Invitrogen) follwing the manufacturer’s instructions.	Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 8 ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+Protocol Software								
+Protocol Hardware								
+Protocol Contact								
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Protocol Term Source REF								
+Protocol Term Accession Number								
+Experimental Factor Name	genotype	infect						
+Experimental Factor Type	genotype	infect						
+Experimental Factor Term Source REF								
+Experimental Factor Term Accession Number								
+Publication Title	WRKY72-type transcription factors contribute to basal immunity in tomato and Arabidopsis as well as gene-for-gene resistance mediated by the tomato R gene Mi-1.							
+Publication Author List	Bhattarai KK, Atamian HS, Kaloshian I, Eulgem T							
+PubMed ID	20409007							
+Publication DOI	10.1111/j.1365-313X.2010.04232.x							
+Publication Status	published							
+Publication Status Term Source REF	EFO							
+Publication Status Term Accession Number	EFO_0001796							
+Comment[SecondaryAccession]	GSE18329							
+Comment[GEOLastUpdateDate]	2010-08-09							
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for wrky72 after infection with Hyaloperonospora parasitica arabidopsis Noco2							
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[GEOReleaseDate]	2010-08-08							
+Comment[ArrayExpressSubmissionDate]	2009-09-28							
+SDRF File	E-GEOD-18329.sdrf.txt							

@@ -1,0 +1,57 @@
+Comment[ArrayExpressAccession]	E-GEOD-35869
+Public Release Date	2012-02-24							
+Investigation Title	Gene expression from cadmium treated Arabidopsis seedlings							
+Comment[Submitted Name]	Gene expression from cadmium treated Arabidopsis seedlings
+Experiment Description	To identify genes that are up-regulated by Cd for creation of a Cd-inducible reporter line. See PMID 22283708. One week old Col-0 plants were treated with/without 200uM Cd for 6 hours. Total RNA was extracted from whole seedlings and subjected to hybridization with Affymetrix ATH1 microarrays.							
+Date of Experiment								
+Term Source Name	EFO
+Term Source Version								
+Term Source File	http://www.ebi.ac.uk/efo/efo.owl							
+Person Last Name	Schroeder	Schroeder	Jobe					
+Person First Name	Julian	Julian	Timothy					
+Person Mid Initials	I							
+Person Email	geo@ncbi.nlm.nih.gov							
+Person Affiliation	UCSD							
+Person Phone								
+Person Fax								
+Person Address	Biology, UCSD, 9500 Gilman Drive #0116 , La Jolla , CA, USA							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Person Roles Term Accession Number								
+Normalization Type								
+Normalization Term Accession Number								
+Normalization Term Source REF								
+Replicate Type								
+Replicate Term Accession Number								
+Replicate Term Source REF								
+Experimental Design								
+Experimental Design Term Accession Number								
+Experimental Design Term Source REF								
+Quality Control Type								
+Quality Control Term Accession Number								
+Quality Control Term Source REF								
+Protocol Name	P-GSE35869-1	P-GSE35869-6	P-GSE35869-3	P-GSE35869-8	P-GSE35869-7	P-GSE35869-2	P-GSE35869-4	P-GSE35869-5
+Protocol Description	ID_REF = <br>VALUE = RMA-calculated signal intensity	Affymetrix Eukaryotic Target Hybridization protocol (GeneChip® Expression Analysis Technical Manual)	Arabidopsis thaliana plants were grown on quarter-strength MS media at 28oC with 16-h-light/8-h-dark cycle	Probe set summarization and normalization was performed by robust multi-array averaging (RMA, including background subtraction, summarization by median polish and quantile normalization) using the R/Bioconductor package affy.	Affymetrix® GeneChip® Scanner 3000 with GCOS software according to manufactuer's protocol (GeneChip® Expression Analysis Technical Manual)	200um Cd for 6 hours	RNeasy column (Qiagen) using the manufacturers’ protocols	Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 6 ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+Protocol Software								
+Protocol Hardware								
+Protocol Contact								
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Protocol Term Source REF								
+Protocol Term Accession Number								
+Experimental Factor Name	TREATMENT							
+Experimental Factor Type	treatment							
+Experimental Factor Term Source REF								
+Experimental Factor Term Accession Number								
+Publication Title								
+Publication Author List								
+PubMed ID								
+Publication DOI								
+Publication Status								
+Publication Status Term Source REF								
+Publication Status Term Accession Number								
+Comment[SecondaryAccession]	GSE35869							
+Comment[GEOLastUpdateDate]	2012-02-24
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[GEOReleaseDate]	2012-02-24
+Comment[ArrayExpressSubmissionDate]	2012-02-16
+SDRF File	E-GEOD-35869.sdrf.txt

@@ -1,0 +1,49 @@
+Investigation Title	Transcription profiling by array of Arabidopsis Atnudt7-1 knockout mutants compared to wild type plants	
+Comment[Submitted Name]	Atnudt7-1knockout mutant comapred with Wildtype Col-0	
+Experimental Design	reference_design	genetic_modification_design	co-expression_design	transcription profiling by array	
+Experimental Design Term Source REF	The MGED Ontology	The MGED Ontology	The MGED Ontology	EFO	
+Comment[AEMIAMESCORE]	5	
+Comment[SecondaryAccession]		
+Comment[ArrayExpressReleaseDate]	2010-08-31	
+Comment[ArrayExpressAccession]	E-MEXP-2711	
+Comment[MAGETAB TimeStamp_Version]	2010-08-10 13:52:28 Last Changed Rev: 13058	
+Experimental Factor Name	GENOTYPE	
+Experimental Factor Type	genotype	
+Experimental Factor Term Source REF	
+Person Last Name	Mahalingam	
+Person First Name	Ramamurthy	
+Person Mid Initials	
+Person Email	ramamurthy.mahalingam@okstate.edu	
+Person Phone	405-744-6207	
+Person Fax	
+Person Address	Biochemistry, 246 Noble Research Center, Stillwater, Oklahoma, 74078, USA	
+Person Affiliation	Oklahoma State University	
+Person Roles	submitter	
+Person Roles Term Source REF	The MGED Ontology	
+Quality Control Type	biological_replicate	
+Quality Control Term Source REF	The MGED Ontology	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2010-08-31	
+PubMed ID	
+Publication DOI	
+Publication Author List	
+Publication Title	Modulation of redox homeostasis under suboptimal conditions by Arabidopsis nudix hydrolase 7	
+Publication Status	
+Publication Status Term Source REF	
+Experiment Description	Arabidopsis nudix hydrolase 7 knock-out mutant Atnudt7-1 exhibits a reduced size phenotype when compared with age-matched Col-0 wildtype plants growing in potting mix of 12 parts vermiculite: 3 parts redi-earth and 1 part sand.  In these array experiments the differences in gene expression caused by this mutation is assessed in comparison to wildtype plants.	
+Protocol Name	P-MTAB-14146	P-MTAB-14145	P-MTAB-14147	P-AFFY-2	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6	Affymetrix:Protocol:MAS4:ExpressionCall	
+Protocol Type	nucleic_acid_extraction	grow	specified_biomaterial_action	labeling	hybridization	feature_extraction	bioassay_data_transformation	
+Protocol Description	Total RNA was isolated using the Plant RNeasy kit (Qiagen) <br>(Parameters: Extracted product = total_RNA, Amplification = none)	Seeds of WT, transgenic (P35S:AtNudt7), and mutant (Atnudt7-1) lines were stratified in 0.1% Phytagel (Caisson Laboratories) at 4 C for 3 days. Seeds were sown in pots containing either a mixture of 12 parts vermiculite, 3 parts Redi-earth (composition: 55-65% sphagnum peat moss, vermiculite, dolomitic lime; Sun Gro Horticulture) and 1 part sand (12:3:1) or Metro-Mix 200 (MM) potting mix (Scotts) for 4 weeks in a growth chamber. Plants were maintained at 22 C, 45% relative humidity, 100 µmol m-2 s-1 light intensity and 10 h day and 14 h dark conditions. Plants were irrigated using tap water. <br>(Parameters: start time = 10, time unit = seconds, min temperature = 18, max temperature = 21, temperature unit = C, media = 12 parts vermiculite: 3 parts redi-earth: 1 part sand)	Arabidopsis Atnudt7-1 mutant plants and wildtype Col-0 plants were grown in 12 parts of vermiculite, 3 parts of redi-earth and 1 part of sand for 4 weeks in growth rooms with 10 h of day length and 14 h of darkness.  The plants were raised in moderate light conditions of 100 micro mols.	Title: Affymetrix in vitro transcription. Description: 	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	Title: Affymetrix CHP Analysis (ExpressionCall). Description: 	
+Protocol Parameters	
+Protocol Hardware	
+Protocol Software					MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 4.0	
+Protocol Contact	
+Protocol Term Source REF					mo		mo	
+SDRF File	E-MEXP-2711.sdrf.txt	
+Term Source Name	NCBI Taxonomy		The MGED Ontology	ArrayExpress	The MGED Ontology	EFO	mo	
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version								

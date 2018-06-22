@@ -1,0 +1,58 @@
+Comment[ArrayExpressAccession]	E-GEOD-29699							
+Public Release Date	2011-06-03							
+Investigation Title	Effect of gibberellins on metabolism during rosette growth in Arabidopsis							
+Comment[Submitted Name]	Effect of gibberellins on metabolism during rosette growth in Arabidopsis							
+Experiment Description	To understand the effect of high and low GA levels on plant metabolism and development in Arabidopsis we made use of the GA biosynthesis inhibitor paclobutrazol (PBZ) and  exogenously applied GA. The whole genome response at the translation level was assessed by immunopurification of polysomes from PBZ- and GA treated plants expressing FLAG-tagged ribosomal protein L18 (RPL18B). Polysomal associated RNA was isolated and subjected to affymterix ATH1 CHIP analysis. A total of 140 genes were statistically determined to be differentially translated after GA treatment whereas 89 genes where affected PBZ treatment. Our analysis revealed that GA and PBZ have opposing effects on the expression of cell wall and wax layer biosynthesis related genes. In addition, many genes involved in secondary metabolism are upregulated upon PBZ treatment. A set of SAUR-like genes important for mediating auxin responses are downregulated by PBZ, which is of interest to coordinatian of GA levels with growth and development. Interestingly, GA treatment induces the upregulation of  transcription factors related to plant defense and senescence, which is in agreement with the early flowering upon GA treatment. Our study provides a first picture of the response of Arabidopsis to altered GA levels at the translation level, and thus will be valuable for understanding gene regulation at the polysome level. Two replicates for each treatment including GA, PBZ and control samples.							
+Date of Experiment								
+Term Source Name	EFO							
+Term Source Version								
+Term Source File	http://bar.ebi.ac.uk:8080/trac/browser/branches/curator/ExperimentalFactorOntology/ExFactorInOWL/currentrelease/eforelease/efo.owl							
+Person Last Name	Schippers	Ribeiro	Schippers	Mueller-Roeber				
+Person First Name	Jos	Dimas	Jozefus	Bernd				
+Person Mid Initials		M	H					
+Person Email	schippers@mpimp-golm.mpg.de							
+Person Affiliation	MPIMP-golm							
+Person Phone								
+Person Fax								
+Person Address	Plant Signaling, MPIMP-golm, Am Muehlenberg 1, Potsdam, Germany							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Person Roles Term Accession Number								
+Normalization Type								
+Normalization Term Accession Number								
+Normalization Term Source REF								
+Replicate Type								
+Replicate Term Accession Number								
+Replicate Term Source REF								
+Experimental Design								
+Experimental Design Term Accession Number								
+Experimental Design Term Source REF								
+Quality Control Type								
+Quality Control Term Accession Number								
+Quality Control Term Source REF								
+Protocol Name	P-GSE29699-1	P-GSE29699-6	P-GSE29699-3	P-GSE29699-8	P-GSE29699-7	P-GSE29699-2	P-GSE29699-4	P-GSE29699-5
+Protocol Description	ID_REF = <br>VALUE = RMA normalized<br>ABS_CALL = <br>DETECTION P-VALUE = 	Hybridizations against Arabidopsis ATH1 Genome Array (GeneChip System®, Affymetrix) chips were performed at 45 °C for 16 h, in the Affymetrix GeneChip Workstation (hybridization oven 640, Fluidics Station 450), using 10 µg of Biotin-labeled aRNA, according to the manufacturer's protocol.	Arabidopsis thaliana (L.) Heynh. Col-0 transgenic lines expressing the 35S:HF-RPL18B seeds (kindly provided by J. Bailey-Serres, University of California, Riverside, CA, USA) were sown on standard greenhouse soil (Stender AG; Schermbeck, Germany) in plastic pots with 0.1 L capacity. After 3 days of vernilization at 4 degrees the trays containing the pots were placed under a 16/8 h day/night  (22/16 oC) regime with 60/75% relative humidity and 180 μmol m-2 s-1 light intensity.	CEL files from the Affymetrix Chips were processed by use of the Robin program (Lohse et al., 2010). The Robust Multi-chip Average (RMA) normalization was performed using the default settings of the corresponding Robin function. Present, Marginal or Absent (P/M/A) calls were computed with the affy package.	GeneChips were scanned by use of the Affymetrix GeneChip Workstation Scanner 3000.	Plants were grown untill 27 days on soil after which whole rosettes were collected. Fourteen days after sowing, plants were watered with 10 mL PBZ solution   (50 mg L-1, 0.5 mg pot-1). For gibberellin treatment, each plant was sprayed every second day with 1 mL of 50 µM GA3. Rosettes were harvested and directly frozen in liquid nitrogen.	All mRNA extraction procedures were performed at 4 °C or on ice (Mustroph et al., 2009). Frozen pulverized tissue was homogenized in Polysome Extraction Buffer (PEB; 200 mM Tris-HCl, pH 9.0, 200 mM KCl, 25 mM ethylene glycol tetraacetic acid (EGTA), 36 mM MgCl2, 1% (v/v) octylphenyl-polyethylene glycol (Igepal CA-630), 1% (v/v) polyoxyethylene(23) lauryl ether (Brig® 35), 1% (v/v) Triton X-100, 1% (v/v) Tween-20, 1% (v/v) polyoxyethylene 10 tridecyl ether, 1% (v/v) sodium deoxycholate, 1 mM dithiothreitol (DTT), 50 µg mL-1 cycloheximide, 50 µg mL-1 chloramphenicol, 0.5 mg mL-1 heparin) using 2.5 mL PEB per mL tissue. A typical extraction was 1 to 2 ml packed volume of frozen pulverised rosette tissue. Homogenates were clarified by centrifugation at 16,000 g for 15 min and filtrated with miracloth. Six-hundred µL of the supernatant was reserved for isolation of total RNA. To the remaining supernatant 150 µL of anti-FLAG agarose beads (Sigma) were added and incubated at 4°C for 2 h with gentle shaking. The beads were recovered by centrifugation at 3,500 g, and washed four times for 5 min each with 6 mL of wash buffer (200 mM Tris-HCl, pH 9.0, 200 mM KCl, 25 mM EGTA, 36 mM MgCl2, 5 mM DTT, 50 µg mL-1 cycloheximide, 50 µg mL-1 chloramphenicol). Polysomes were eluted by resuspension of the washed beads in 300 µL of wash buffer per 100 µl beads that additionally contained 200 µg mL-1 of [FLAG]3 peptide (Sigma) at 4°C for 30 min. RNA extraction was performed by addition of two volumes of 8 M guanidine-HCl and three volumes of ethanol to the cleared eluate, incubation overnight at –20 °C and pelleting by centrifugation at 15,000 g for 45 min. RNA samples were further purified using RNeasy columns (Qiagen) as described previously (Branco-Price et al., 2008). Total RNA was extracted from the same cell lysate of p35S:HF-RPL18 that was used for polysome immunoprecipitation. For this, an aliquot of the homogenized sample was without further modifications precipitated by adding two volumes of 8 M guanidine-HCl and three volumes of ethanol, incubation overnight at –20 °C, pelleting by centrifugation at 15,000 g for 45 min and purification by use of RNeasy columns (Qiagen). Quality of RNA was checked with an Agilent 2100 Bioanalyzer (Atlas, Biolabs service)	RNA was labelled with the MessageAMP II biotin enhanced (Ambion) kit according to the manufactures protocol
+Protocol Software								
+Protocol Hardware								
+Protocol Contact								
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Protocol Term Source REF								
+Protocol Term Accession Number								
+Experimental Factor Name	COMPOUND							
+Experimental Factor Type	compound							
+Experimental Factor Term Source REF								
+Experimental Factor Term Accession Number								
+Publication Title								
+Publication Author List								
+PubMed ID								
+Publication DOI								
+Publication Status								
+Publication Status Term Source REF								
+Publication Status Term Accession Number								
+Comment[SecondaryAccession]	GSE29699							
+Comment[GEOLastUpdateDate]	2011-06-02							
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis after treatment with gibberellin or paclobutrazol							
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[GEOReleaseDate]	2011-06-02							
+Comment[ArrayExpressSubmissionDate]	2011-06-01							
+SDRF File	E-GEOD-29699.sdrf.txt							

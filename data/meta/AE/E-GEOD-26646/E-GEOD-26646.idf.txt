@@ -1,0 +1,57 @@
+Comment[ArrayExpressAccession]	E-GEOD-26646								
+Public Release Date	2012-03-19								
+Investigation Title	Transcriptome profiling of LecRKVI.2 over-expressor plants.								
+Comment[Submitted Name]	Transcriptome profiling of LecRKVI.2 over-expressor plants.								
+Experiment Description	The arabidopsis L-type lectin receptor kinase-VI.2 positively regulates bacterial PAMP-triggered immunity. We used microarrays and performed genome-wide transcriptome analysis of LecRKVI.2 over-expressing plants and identified number of upregulated genes involved against bacterial resistance. Total RNA was isolated from 5-week-old Arabidopsis plants for RNA extraction and hybridisation on Affymetrix microarrays.								
+Date of Experiment									
+Term Source Name	EFO								
+Term Source Version									
+Term Source File	http://www.ebi.ac.uk/efo/efo.owl								
+Person Last Name	SINGH	Singh	Zimmerli						
+Person First Name	PRASHANT	Prashant	Laurent						
+Person Mid Initials									
+Person Email	psingh939@gmail.com								
+Person Affiliation	NATIONAL TAIWAN UNIVERSITY								
+Person Phone	+886-919459124								
+Person Fax									
+Person Address	INSTITUTE OF PLANT BIOLOGY, NATIONAL TAIWAN UNIVERSITY, Rm 1150, Life Science Building, No. 1, Sec. 4, Roosevelt Road, TAIPEI, TAIPEI, Taiwan								
+Person Roles	submitter								
+Person Roles Term Source REF									
+Person Roles Term Accession Number									
+Normalization Type									
+Normalization Term Accession Number									
+Normalization Term Source REF									
+Replicate Type									
+Replicate Term Accession Number									
+Replicate Term Source REF									
+Experimental Design									
+Experimental Design Term Accession Number									
+Experimental Design Term Source REF									
+Quality Control Type									
+Quality Control Term Accession Number									
+Quality Control Term Source REF									
+Protocol Name	P-GSE26646-1	P-GSE26646-6	P-GSE26646-3	P-GSE26646-8	P-GSE26646-7	P-GSE26646-2	P-GSE26646-4	P-GSE26646-5	P-GSE26646-5
+Protocol Description	ID_REF = <br	VALUE = RMA signal	Eleven ug of labelled samples were hybridised to the GeneChip Arabidopsis ATHI at 45ºC for 16.5 hours. Washing and staining were performed using the Fluidic Station-450.	Arabidopsis thaliana (L. Heyhn.) Columbia (Col-0) were grown in commercial potting soil/perlite (3:2) at 22-24�C day, 17-19�C night temperature under a 15-h-light/9-h-dark photoperiod.	The data were analysed using GeneSpring GX11 software and alogrithm RMA as normalisation method.	GeneChip were scanned with Affymetrix GeneChip Scanner 7G.	no treatment	Total RNA was isolated using TRIZOL reagent according to the manufacturers instructions.	Ten ug of total RNA were used for cDNA synthesis, labeled by in vitro transcription followed by fragmentation according to the manufacturer’s suggestion (GeneChip Expression Analysis Technical Manual rev5, Affymetrix).
+Protocol Software									
+Protocol Hardware									
+Protocol Contact									
+Protocol Type	bioassay_data_transformation	bioassay_data_transformation	hybridization	grow	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Protocol Term Source REF									
+Protocol Term Accession Number									
+Experimental Factor Name	genotype								
+Experimental Factor Type	genotype								
+Experimental Factor Term Source REF									
+Experimental Factor Term Accession Number									
+Publication Title									
+Publication Author List									
+PubMed ID									
+Publication DOI									
+Publication Status									
+Publication Status Term Source REF									
+Publication Status Term Accession Number									
+Comment[SecondaryAccession]	GSE26646								
+Comment[GEOLastUpdateDate]	2012-03-22								
+Comment[AEExperimentType]	transcription profiling by array								
+Comment[GEOReleaseDate]	2012-03-19								
+Comment[ArrayExpressSubmissionDate]	2011-01-14								
+SDRF File	E-GEOD-26646.sdrf.txt								

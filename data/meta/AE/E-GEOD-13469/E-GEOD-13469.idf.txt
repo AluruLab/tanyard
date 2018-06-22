@@ -1,0 +1,52 @@
+Investigation Title	Transcription profiling of Arabidopsis  red 35S:PAP1 plants to investigate environmental regulation of leaf colour				
+Comment[Submitted Name]	Environmental regulation of leaf colour in red 35S:PAP1 Arabidopsis				
+Experimental Design	unknown_experiment_design_type	transcription profiling by array			
+Experimental Design Term Source REF		EFO			
+Comment[AEExperimentType]	transcription profiling by array				
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis expressing PAP1 under the control of the 35S promoter				
+Comment[AEMIAMESCORE]	3				
+Comment[SecondaryAccession]	GSE13469				
+Comment[ArrayExpressReleaseDate]	2008-11-15				
+Comment[ArrayExpressAccession]	E-GEOD-13469				
+Comment[MAGETAB TimeStamp_Version]	2010-07-30 10:32:15 Last Changed Rev: 13058				
+Experimental Factor Name	SAMPLING TIME POINT	GENOTYPE			
+Experimental Factor Type	sampling_time_point	genotype			
+Experimental Factor Term Source REF					
+Person Last Name	Cao				
+Person First Name	Mingshu				
+Person Mid Initials					
+Person Email	DRowan@hortresearch.co.nz Mingshu.Cao@agresearch.co.nz				
+Person Phone					
+Person Fax					
+Person Address	HortResearch/AgResearch, Tennent Drive, Palmerston North, 4442, New Zealand				
+Person Affiliation	HortResearch/AgResearch				
+Person Roles	submitter				
+Person Roles Term Source REF	The MGED Ontology				
+Quality Control Type					
+Quality Control Term Source REF					
+Replicate Type					
+Replicate Term Source REF					
+Normalization Type					
+Normalization Term Source REF					
+Date of Experiment					
+Public Release Date	2008-11-15				
+PubMed ID	19192188				
+Publication DOI	10.1111/j.1469-8137.2008.02737.x				
+Publication Author List	Rowan DD, Cao M, Lin-Wang K, Cooney JM, Jensen DJ, Austin PT, Hunt MB, Norling C, Hellens RP, Schaffer RJ, Allan AC.				
+Publication Title	Environmental regulation of leaf colour in red 35S:PAP1 Arabidopsis thaliana.				
+Publication Status	published				
+Publication Status Term Source REF	EFO				
+Publication Status Term Accession Number	EFO_0001796				
+Experiment Description	Examine global gene expression patterns in control and 35S:PAP1 Arabidopsis plants upon environmental perturbation (light and temperature) over the course of the experiments. Experiment Overall Design: Red coloured 35S:PAP1, and empty vector control, plants of Arabidopsis thaliana Columbia were grown under room temperature, high light (RTHL, 22Â°C, 440 Âµmol m-2 s-1 irradiance) conditions to promote red leaf colouration. The growth conditions were then changed to a high day temperature, low light (HTLL: 30Â°C day, 150 Âµmol m-2 s-1 irradiance) stress treatment for six days, during which time the 35S:PAP1 leaves lost much of their red colouration, turning green.  The growth conditions were then returned to a low temperature high light (LTHL, 15Â°C, 62% RH, 440 Âµmol m-2 s-1 irradiance) regime to restore the red colouration.				
+Protocol Name	P-G13469-2	P-G13469-1	P-AFFY-6		
+Protocol Type	nucleic_acid_extraction	labeling	feature_extraction		
+Protocol Description	RNA was isolated from 1 g of frozen pooled leaf tissue according to the manufacturer's instructions (PureLinkTM Plant RNA Reagent, Invitrogen) with one RNA clean-up using PureLinkTM Micro-to-Midi Total RNA Purification System (Invitrogen).	according to Affymetrix	Title: Affymetrix CEL analysis. Description: 		
+Protocol Parameters					
+Protocol Hardware					
+Protocol Software			MicroArraySuite 5.0		
+Protocol Contact					
+Protocol Term Source REF					
+SDRF File	E-GEOD-13469.sdrf.txt				
+Term Source Name	NCBI Taxonomy	The MGED Ontology	ArrayExpress	EFO	The MGED Ontology
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version					

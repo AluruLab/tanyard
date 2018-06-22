@@ -1,0 +1,51 @@
+Investigation Title	Transcription profiling of Arabidopsis plants of three different genotypes (FRI FLC, FRI flc and fri flc) induced to flowering by shifting from short day conditions to long day conditions							
+Comment[Submitted Name]	Weigel-Arabidopsis-Floral induction in different FRI FLC genotypes							
+Experimental Design	development_or_differentiation_design	individual_genetic_characteristics_design	transcription profiling by array					
+Experimental Design Term Source REF	mo:1.3.1.1		EFO					
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis with different genotypes for flowering locus C and frigida after flowering induction							
+Comment[ArrayExpressReleaseDate]	2005-09-08							
+Comment[AEMIAMESCORE]	5							
+Comment[ArrayExpressAccession]	E-TABM-19							
+Comment[MAGETAB TimeStamp_Version]	2010-08-12 15:31:56 Last Changed Rev: 13058							
+Experimental Factor Name	genotype	age						
+Experimental Factor Type	genotype	age						
+Experimental Factor Term Source REF								
+Person Last Name	Singh	Schmid	Sureshkumar	Lempe	Balasubramanian	Weigel		
+Person First Name	Anandita	Markus	Sridevi	Janne	Sureshkumar	Detlef		
+Person Mid Initials								
+Person Email				weigel@weigelworld.org				
+Person Phone								
+Person Fax								
+Person Address								
+Person Affiliation				Max Planck Institute for Developmental Biology, Department of Molecular Biology, Detlef Weigel				
+Person Roles				submitter				
+Person Roles Term Source REF								
+Quality Control Type								
+Quality Control Term Source REF								
+Replicate Type								
+Replicate Term Source REF								
+Normalization Type								
+Normalization Term Source REF								
+Date of Experiment								
+Public Release Date	2005-09-08							
+PubMed ID	16103920							
+Publication DOI	10.1371/journal.pgen.0010006							
+Publication Author List	Lempe J, Balasubramanian S, Sureshkumar S, Singh A, Schmid M, Weigel D							
+Publication Title	Diversity of flowering responses in wild Arabidopsis thaliana strains							
+Publication Status	published							
+Publication Status Term Source REF	EFO							
+Publication Status Term Accession Number	EFO_0001796							
+Experiment Description	Plants of three different genotypes (FRI FLC, FRI flc and fri flc) were induced to flowering by shifting from short day conditions to long day conditions. FRI=FRIGIDA, FLC=FLOWERING LOCUS C.							
+Protocol Name	P-TABM-36	P-TABM-34	P-TABM-35	P-TABM-37	Affymetrix:Protocol:Hybridization-EukGE-WS2v4_450	P-AFFY-6	Affymetrix:Protocol:ExpressionStat	
+Protocol Type	pool	grow	nucleic_acid_extraction	labeling	hybridization	feature_extraction	bioassay_data_transformation	
+Protocol Description	apices of 35 plants were pooled for each replicate; all plants were grown at the same timepoint	Plants were grown on soil for 25 days under short day conditions (8/16)  at 23°C and  65% relative humidity. Flowering was induced by shifting to long day conditions (16/8) also 23°C and 65% relative humidity. Samples were taken at day 0, 3, 5 and 7 after shifting.	pdf of the protocol (Probe preparation Development) can be downloaded at http://www.weigelworld.org/resources/microarray/AtGenExpress/; also at TAIR http://www.arabidopsis.org Protocol:501712557	pdf of the protocol (Probe preparation Development) can be downloaded at http://www.weigelworld.org/resources/microarray/AtGenExpress/; also at TAIR http://www.arabidopsis.org Protocol:501712557	Title: Affymetrix EukGE-WS2v4_450 Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 	
+Protocol Parameters		time after shift;						
+Protocol Hardware								
+Protocol Software						MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact								
+Protocol Term Source REF			mo	mo	mo		The MGED Ontology	
+SDRF File	E-TABM-19.sdrf.txt							
+Term Source Name	The MGED Ontology		ncbitax	ArrayExpress	mo:1.3.1.1	EFO	mo	The MGED Ontology
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php		http://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version					1.3.1.1			

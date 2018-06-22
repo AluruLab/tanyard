@@ -1,0 +1,51 @@
+Investigation Title	Transcription profiling by array of Arabidopsis mutant for mil4 and/or sid2 after treatment with benzothiadiazole						
+Comment[Submitted Name]	MILDEW-INDUCED LESIONS 4 encodes a novel regulator of the salicylic acid defense response						
+Experimental Design	unknown_experiment_design_type	transcription profiling by array					
+Experimental Design Term Source REF		EFO					
+Comment[AEExperimentType]	transcription profiling by array						
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for mil4 and/or sid2 after treatment with benzothiadiazole						
+Comment[AEMIAMESCORE]	3						
+Comment[ArrayExpressReleaseDate]	2008-10-25						
+Comment[SecondaryAccession]	GSE9955						
+Comment[ArrayExpressAccession]	E-GEOD-9955						
+Comment[MAGETAB TimeStamp_Version]	2010-08-09 17:09:33 Last Changed Rev: 13058						
+Experimental Factor Name	genotype	growth condition					
+Experimental Factor Type	genotype	growth condition					
+Experimental Factor Term Source REF							
+Person Last Name	Somerville						
+Person First Name	Shauna						
+Person Mid Initials							
+Person Email	shauna@andrew2.stanford.edu						
+Person Phone							
+Person Fax							
+Person Address	"Plant Biology,Carnegie Institution of Washington,260 Panama Street,Stanford,94305,USA"						
+Person Affiliation	Carnegie Institution of Washington						
+Person Roles	submitter						
+Person Roles Term Source REF	The MGED Ontology						
+Quality Control Type							
+Quality Control Term Source REF							
+Replicate Type							
+Replicate Term Source REF							
+Normalization Type							
+Normalization Term Source REF							
+Date of Experiment							
+Public Release Date	2008-10-25						
+PubMed ID							
+Publication DOI							
+Publication Author List							
+Publication Title							
+Publication Status							
+Publication Status Term Source REF							
+Experiment Description	"The 4 weeks old plant of genotype Col-0, mil4, sid2 and mil4 sid2 double mutants were sprayed with BTH. The rosette tissue were collected for RNA expression profiling. Experiment Overall Design: The rosettes were collected when the plants were 4 weeks old for RNA extraction and hybridization on Affymetrix microarrays."						
+Protocol Name	P-G9955-2	P-G9955-1	P-G9955-4	P-G9955-3	Affymetrix:Protocol:Hybridization-EukGE-WS2v5	P-AFFY-6	Affymetrix:Protocol:ExpressionStat
+Protocol Type	specified_biomaterial_action	grow	nucleic_acid_extraction	labeling	hybridization	feature_extraction	bioassay_data_transformation
+Protocol Description	H2O or 300 uM BTH spray 2 days before collection	The plants were grown in the Percival chamber at 22Â&deg;C with 14 hr photoperiod	Trizol extraction of total RNA was performed according to the manufacturer's instructions.	Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 15 ug total RNA.	Title: Affymetrix EukGE-WS2v5 Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 
+Protocol Parameters							
+Protocol Hardware							
+Protocol Software					MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 5.0
+Protocol Contact							
+Protocol Term Source REF							The MGED Ontology
+SDRF File	E-GEOD-9955.sdrf.txt						
+Term Source Name	NCBI Taxonomy		The MGED Ontology	ArrayExpress	EFO	The MGED Ontology	
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version							

@@ -1,0 +1,31 @@
+Comment[ArrayExpressAccession]	E-MTAB-2553		
+MAGE-TAB Version	1.1		
+Investigation Title	LPMAPK		
+Comment[Submitted Name]	LPMAPK		
+Experiment Description	Transcription profiling by array of Arabidopsis MKK9DD (constitutively active MKK9 kinase mutant) overexpressing seedlings and Pi-starved wild type seedlings to identify the  same regulated genes		
+Experimental Design	stimulus or stress design	array_platform_comparison_design 	co-expression_design
+Comment[AEExperimentType]	transcription profiling by array		
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis MKK9DD (constitutively active MKK9 kinase mutant) overexpressing seedlings and Pi-starved wild type seedlings to identify the  same regulated genes		
+Experimental Factor Name	growth condition	genotype	compound
+Experimental Factor Type	growth condition	genotype	compound
+Public Release Date	2014-06-02		
+Person Last Name	Dongtao		
+Person First Name	Ren		
+Person Mid Initials			
+Person Email	ren@cau.edu.cn		
+Person Phone			
+Person Address			
+Person Affiliation	China Agricultural University		
+Person Roles	submitter		
+Publication DOI	10.1111/nph.12872		
+PubMed ID	24865627		
+Publication Author List	Lei L, Li Y, Wang Q, Xu J, Chen Y, Yang H, Ren D		
+Publication Title	Activation of MKK9-MPK3/MPK6 enhances phosphate acquisition in Arabidopsis thaliana		
+Publication Status	accepted		
+Protocol Name	P-MTAB-38993	P-MTAB-38994	P-MTAB-38995
+Protocol Type	growth protocol	nucleic acid extraction protocol	nucleic acid labeling protocol 
+Protocol Description	Arabidopsis wild type and MKK9DD seedlings were grown on 0.5x MS media for 7 days, and WT seedlings were then transferred to either MS or LP (low phosphate) medium and grown for an additional 3 days.  MKK9DD seedlings were then transferred to MS media with or without DEX and grown for an additional day.	Total RNA was extracted with TRIzol reagent according to the manufacturer's instructions.	RNA purification and chip hybridization were done using Affymetrix Microarray Services (CapitalBio Co., Beijing).
+Protocol Term Source REF	EFO	EFO	EFO
+Term Source Name	EFO	ArrayExpress	
+Term Source File	http://www.ebi.ac.uk/efo	http://www.ebi.ac.uk/arrayexpress/	
+SDRF File	E-MTAB-2553.sdrf.txt		

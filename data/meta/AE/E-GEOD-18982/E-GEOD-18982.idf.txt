@@ -1,0 +1,58 @@
+Comment[ArrayExpressAccession]	E-GEOD-18982					
+Public Release Date	2009-11-17					
+Investigation Title	Molecular responses to external pH changes in roots of Arabidopsis thaliana					
+Comment[Submitted Name]	Molecular responses to external pH changes in roots of Arabidopsis thaliana					
+Experiment Description	Plants live in soils that vary considerably, both spatially and over time, in terms of nutrient composition and pH. Consistently, plants have to recognize and adapt to these changes by altering their structure and metabolism. The goal of this array analysis is to characterize the global transcriptional response to external pH changes in roots, which to date is almost unexplored. Arabidopsis thaliana (Columbia-0) were grown in hydroponic cultures in basic nutrient solution. Two days before treatment the media was shifted to nutrient solution containing 5mM MES, pH 6. At the time of the treatment start (4 hours after light on) the plants were shifted to nutrient solutions of pH 4.5 and 6.0 (control). Root RNA samples from time point 1 and 8 hour after treatment start is used for array analyzes.  Keywords: Expression profilling by array 12 samples were used in this experiment					
+Date of Experiment						
+Term Source Name	EFO					
+Term Source Version						
+Term Source File	http://bar.ebi.ac.uk:8080/trac/browser/branches/curator/ExperimentalFactorOntology/ExFactorInOWL/currentrelease/eforelease/efo.owl					
+Person Last Name	Nottingham Arabidopsis Stock Centre (NASC)	Lager				
+Person First Name		Ida				
+Person Mid Initials						
+Person Email	affy@arabidopsis.info					
+Person Affiliation	Nottingham Arabidopsis Stock Centre (NASC)					
+Person Phone	+44 (0)115 951 3237					
+Person Fax	+44 (0)115 951 3297					
+Person Address	School of Biosciences, University of Nottingham, Nottingham Arabidopsis Stock Centre (NASC), Sutton Bonington Campus, Loughborough, United Kingdom					
+Person Roles	submitter					
+Person Roles Term Source REF						
+Person Roles Term Accession Number						
+Normalization Type						
+Normalization Term Accession Number						
+Normalization Term Source REF						
+Replicate Type						
+Replicate Term Accession Number						
+Replicate Term Source REF						
+Experimental Design	time series design	growth condition design				
+Experimental Design Term Accession Number						
+Experimental Design Term Source REF						
+Quality Control Type						
+Quality Control Term Accession Number						
+Quality Control Term Source REF						
+Protocol Name	P-GSE18982-1	P-GSE18982-5	P-GSE18982-4	P-GSE18982-2	P-GSE18982-3	P-GSE18982-6
+Protocol Description	ID_REF = <br>VALUE = MAS5 normalized signal intensity<br>ABS_CALL = present, marginal, absent calls<br>DETECTION P-VALUE = p-value	Scanned according to guidelines set out by Affymetrix, Santa Clara, CA.	Biotin Labelled cRNA using &quot;Affymetrix GeneChip Hybridization, Wash and Stain Kit&quot;, according to guidelines set out by Affymetrix, Santa Clara, CA	Qiagen RNeasy kit protocol	Labelled using protocol described in Affymetrix manual &quot;3' IVT Express Kit User Manual&quot;	Raw data from the microarrays was normalized at probe-level using MAS5 algorithm. The detection calls (present, marginal, absent) for each probe set was obtained using the GCOS system
+Protocol Software						
+Protocol Hardware						
+Protocol Contact						
+Protocol Type	bioassay_data_transformation	image_aquisition	hybridization	nucleic_acid_extraction	labeling	feature_extraction
+Protocol Term Source REF						
+Protocol Term Accession Number						
+Experimental Factor Name	growth condition	treatment time				
+Experimental Factor Type	growth condition	time				
+Experimental Factor Term Source REF						
+Experimental Factor Term Accession Number						
+Publication Title						
+Publication Author List						
+PubMed ID						
+Publication DOI						
+Publication Status						
+Publication Status Term Source REF						
+Publication Status Term Accession Number						
+Comment[SecondaryAccession]	GSE18982					
+Comment[GEOLastUpdateDate]	2011-03-01					
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis grown at low pH					
+Comment[AEExperimentType]	transcription profiling by array					
+Comment[GEOReleaseDate]	2009-11-18					
+Comment[ArrayExpressSubmissionDate]	2009-11-12					
+SDRF File	E-GEOD-18982.sdrf.txt					

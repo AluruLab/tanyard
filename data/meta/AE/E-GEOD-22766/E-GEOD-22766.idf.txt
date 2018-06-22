@@ -1,0 +1,58 @@
+Comment[ArrayExpressAccession]	E-GEOD-22766							
+Public Release Date	2010-07-07							
+Investigation Title	Empty-vector control and transgenic 35S-PaWRKY1 Arabidopsis							
+Comment[Submitted Name]	Empty-vector control and transgenic 35S-PaWRKY1 Arabidopsis							
+Experiment Description	Transcriptional profiling of genes regulated by PaWRKY1 transcription factor A PaWRKY transcription factor from orchid plants is expressed in Arabidopsis, and the PaWRKY-regulated genes are studied Comparison of empty-vector control and transgenic 35S-PaWRKY1 Arabidopsis Affymetrix GeneChip assay were performed by the Affymetrix Gene Expression Service Lab (http://ipmb.sinica.edu.tw/affy/), supported by Academia Sinica, Taiwan							
+Date of Experiment								
+Term Source Name	EFO							
+Term Source Version								
+Term Source File	http://efo.svn.sourceforge.net/viewvc/efo/trunk/src/efoinowl/efo.owl							
+Person Last Name	Fu	Fu	Tsai	Chen	Liu	Haiso	Syue	Huang
+Person First Name	Shih-Feng	Shih-Feng	Tsung-Mu	Ying-Ru	Ching-Pei	Lin-June	Li-Hsin	Hao-Jen
+Person Mid Initials								
+Person Email	sff24@mail.ncku.edu.tw							
+Person Affiliation	National Cheng Kung University							
+Person Phone	+886-2757575-65539							
+Person Fax								
+Person Address	Life Sciences, National Cheng Kung University, No.1 University Road, Tainan, Tainan, Taiwan							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Person Roles Term Accession Number								
+Normalization Type								
+Normalization Term Accession Number								
+Normalization Term Source REF								
+Replicate Type								
+Replicate Term Accession Number								
+Replicate Term Source REF								
+Experimental Design								
+Experimental Design Term Accession Number								
+Experimental Design Term Source REF								
+Quality Control Type								
+Quality Control Term Accession Number								
+Quality Control Term Source REF								
+Protocol Name	P-GSE22766-1	P-GSE22766-6	P-GSE22766-3	P-GSE22766-8	P-GSE22766-7	P-GSE22766-2	P-GSE22766-4	P-GSE22766-5
+Protocol Description	ID_REF = <br>VALUE = RMA normalized signal intensity	Following fragmentation, 10 ug of cRNA were hybridized for 16.5 hr at 45C on GeneChip ATH1 Genome Array. GeneChips were washed and stained in the Affymetrix Fluidics Station 450.	7 day old seedlings in full-strength MS	The data were analyzed with Microarray Suite version 5.0 (MAS 5.0) using Affymetrix default analysis settings and global scaling as normalization method. The trimmed mean target intensity of each array was arbitrarily set to 500. The data was further normalized by the RMA algorithm.	GeneChips were scanned using Affymetrix GeneChip Scanner 3000 7G	Empty-vector control and transgenic PaWRKY1 Arabidopsis	Total RNA were extracted using QIAGEN RNeasy kit follwed by DNAse treatment. The RNA samples were further purified and concentrated by RNeasy MinElute Cleanup.	Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 10 ug total RNA (Expression Analysis Technical Manual, 701021 Rev. 5, Affymetrix).
+Protocol Software								
+Protocol Hardware								
+Protocol Contact								
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Protocol Term Source REF								
+Protocol Term Accession Number								
+Experimental Factor Name	genotype							
+Experimental Factor Type	genotype							
+Experimental Factor Term Source REF								
+Experimental Factor Term Accession Number								
+Publication Title	Characterization of the early response of the orchid, Phalaenopsis amabilis, to Erwinia chrysanthemi infection using expression profiling							
+Publication Author List	Fu SF, Tsai TM, Chen YR, Liu CP, Haiso LJ, Syue LH, Yeh HH, Huang HJ							
+PubMed ID	22268629							
+Publication DOI	10.1111/j.1399-3054.2012.01582.x							
+Publication Status								
+Publication Status Term Source REF								
+Publication Status Term Accession Number								
+Comment[SecondaryAccession]	GSE22766							
+Comment[GEOLastUpdateDate]	2010-07-05							
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis expressing PaWRKY under the control of the 35S promoter							
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[GEOReleaseDate]	2010-07-06							
+Comment[ArrayExpressSubmissionDate]	2010-07-05							
+SDRF File	E-GEOD-22766.sdrf.txt							

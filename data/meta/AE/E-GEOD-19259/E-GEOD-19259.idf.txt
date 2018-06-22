@@ -1,0 +1,58 @@
+Comment[ArrayExpressAccession]	E-GEOD-19259					
+Public Release Date	2010-01-09					
+Investigation Title	Seed development					
+Comment[Submitted Name]	Seed development					
+Experiment Description	Reciprocal crosses of a diploid Arabidopsis with different ploidies results in different endosperm development patterns and phenotype. Typically if the ploidy is higher on the maternal side, there are fewer endosperm cells which cellularize early, and conversely, if the paternal ploidy is higher, there is more number of endosperm cells which cellularize late. Crosses involving diploid and tetraploid Arabidopsis (C24) are viable, whereas crosses involving the diploid and hexaploid, even though exhibit the above mentioned directional trend in endosperm development, abort (Scott et al 1998). The 'maternalised' and 'paternalised' development of endosperm is also observed in crosses involving some Arabidopsis mutants. Mutants in the fis class of genes, e.g. fis1-medea, when crossed with a diploid Arabidopsis (pollen parent) show endosperm development-seed development similar to a diploid (seed parent) crossed with hexaploid pollen parent. Reciprocal crosses of homozygous met1 and diploid Arabidopsis also exhibit reciprocal trends in endosperm development, where a homozygous met1 mutant (seed parent) crossed with diploid is similar in phenotype to a diploid (seed parent) - tetraploid cross. Endosperm development in the reciprocal cross has phenotypic similarity to the tetraploid (seed parent)-diploid cross (Adams et al 2000). We are interested in understanding gene profiles and trends in expression underlying the endosperm development in the interploidy crosses as well as the fis and met1 mutant. 11 samples were used in this experiment.					
+Date of Experiment						
+Term Source Name	EFO					
+Term Source Version						
+Term Source File	http://efo.svn.sourceforge.net/viewvc/efo/trunk/src/efoinowl/efo.owl					
+Person Last Name	Nottingham Arabidopsis Stock Centre (NASC)	Tiwari				
+Person First Name		Sushma				
+Person Mid Initials						
+Person Email	affy@arabidopsis.info					
+Person Affiliation	Nottingham Arabidopsis Stock Centre (NASC)					
+Person Phone	+44 (0)115 951 3237					
+Person Fax	+44 (0)115 951 3297					
+Person Address	School of Biosciences, University of Nottingham, Nottingham Arabidopsis Stock Centre (NASC), Sutton Bonington Campus, Loughborough, United Kingdom					
+Person Roles	submitter					
+Person Roles Term Source REF						
+Person Roles Term Accession Number						
+Normalization Type						
+Normalization Term Accession Number						
+Normalization Term Source REF						
+Replicate Type						
+Replicate Term Accession Number						
+Replicate Term Source REF						
+Experimental Design						
+Experimental Design Term Accession Number						
+Experimental Design Term Source REF						
+Quality Control Type						
+Quality Control Term Accession Number						
+Quality Control Term Source REF						
+Protocol Name	P-GSE19259-1	P-GSE19259-5	P-GSE19259-4	P-GSE19259-2	P-GSE19259-3	P-GSE19259-6
+Protocol Description	ID_REF = <br>VALUE = MAS5.0-calculated signal intensity<br>ABS_CALL = the call in an absolute analysis that indicates if the transcript was present (P), absent (A), or marginal (M)<br>DETECTION P-VALUE = p-value that indicates the significance level of the detection call	Scanned according to guidelines set out by Affymetrix, Santa Clara, CA.	Biotin Labelled cRNA using &quot;Affymetrix GeneChip Hybridization, Wash and Stain Kit&quot;, according to guidelines set out by Affymetrix, Santa Clara, CA	Qiagen RNAeasy kit protocol	Labelled using protocol described in manual &quot;Affymetrix GeneChip Expression Analysis Technical Manual&quot;, One-Cycle target labelling	Raw data from the microarrays was normalized at probe-level using MAS5 algorithm. The detection calls (present, marginal, absent) for each probe set was obtained using the GCOS system
+Protocol Software						
+Protocol Hardware						
+Protocol Contact						
+Protocol Type	bioassay_data_transformation	image_aquisition	hybridization	nucleic_acid_extraction	labeling	feature_extraction
+Protocol Term Source REF						
+Protocol Term Accession Number						
+Experimental Factor Name	GENOTYPE	ECOTYPE				
+Experimental Factor Type	genotype	ecotype				
+Experimental Factor Term Source REF						
+Experimental Factor Term Accession Number						
+Publication Title						
+Publication Author List						
+PubMed ID						
+Publication DOI						
+Publication Status						
+Publication Status Term Source REF						
+Publication Status Term Accession Number						
+Comment[SecondaryAccession]	GSE19259					
+Comment[GEOLastUpdateDate]	2010-01-08					
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for met1 or fis					
+Comment[AEExperimentType]	transcription profiling by array					
+Comment[GEOReleaseDate]	2010-01-09					
+Comment[ArrayExpressSubmissionDate]	2009-12-02					
+SDRF File	E-GEOD-19259.sdrf.txt					

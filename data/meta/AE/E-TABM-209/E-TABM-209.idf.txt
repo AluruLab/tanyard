@@ -1,0 +1,51 @@
+Investigation Title	Transcription profiling of wild type and RAP2.2 over-expressing Arabidopsis leaves							
+Comment[Submitted Name]	Transcriptional profiling of wild_type and RAP2.2 overexpressing Arabidopsis leaves							
+Experimental Design	co-expression_design	in_vivo_design	genetic_modification_design	transcription profiling by array				
+Experimental Design Term Source REF	mo		mo	EFO				
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis over-expressing RAP2.2							
+Comment[ArrayExpressReleaseDate]	2007-10-09							
+Comment[AEMIAMESCORE]	5							
+Comment[ArrayExpressAccession]	E-TABM-209							
+Comment[MAGETAB TimeStamp_Version]	2010-08-12 14:59:33 Last Changed Rev: 13058							
+Experimental Factor Name	GENOTYPE							
+Experimental Factor Type	genotype							
+Experimental Factor Term Source REF								
+Person Last Name	Welsch							
+Person First Name	Ralf							
+Person Mid Initials								
+Person Email	welschra@web.de							
+Person Phone								
+Person Fax								
+Person Address	Schaenzlestr. 1, 79104 Freiburg, Germany							
+Person Affiliation	Albert-Ludwigs-University Freiburg, Cell Biology, group Prof. Peter Beyer							
+Person Roles	submitter							
+Person Roles Term Source REF	The MGED Ontology							
+Quality Control Type	biological_replicate							
+Quality Control Term Source REF	The MGED Ontology							
+Replicate Type								
+Replicate Term Source REF								
+Normalization Type								
+Normalization Term Source REF								
+Date of Experiment								
+Public Release Date	2007-10-09							
+PubMed ID	17873090							
+Publication DOI	10.1104/pp.107.104828 							
+Publication Author List	Welsch, Ralf; Maass, Dirk; Voegel, Tanja; DellaPenna, Dean; Beyer, Peter							
+Publication Title	Transcription Factor RAP2.2 and Its Interacting Partner SINAT2: Stable Elements in the Carotenogenesis of Arabidopsis Leaves							
+Publication Status	published							
+Publication Status Term Source REF	EFO							
+Publication Status Term Accession Number	EFO_0001796							
+Experiment Description	Comparison of rosette leaves of two different RAP2.2 overexpressing lines with wild type leaves. The AP2/EREBP transcription factor RAP2.2 was shown to bind to a cis-acting motif within the phytoene synthase promoter from Arabidopsis. To investigate effects of increased RAP2.2 levels, two RAP2.2 overexpressing Arabidopsis thaliana (ecotype Wassilewskija) lines were generated: one line, nosr2, carried the nos promoter and showed a two-fold increase in RAP2.2 transcript level, the second line, cmr-5, carried four copies of the CaMV-35S enhancer and showed a 12-fold increase. However, neither weak nor strong increase in RAP2.2 transcript amounts had any effect on RAP2.2 protein levels as shown by Western blot analysis. The strong robustness of RAP2.2 protein levels towards transcriptional changes can be explained by specific protein degradation which includes SINAT2, an E3 ubiquitin ligase which was isolated using a two-hybrid approach. Accordingly, global gene expression analysis using both RAP2.2 overexpressing lines showed only minor transcriptional changes which are probably due to minor growth variation than to mechanisms involved in the down-regulation of RAP2.2 protein amounts.							
+Protocol Name	P-TABM-1122	P-TABM-1121	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6	Affymetrix:Protocol:ExpressionStat			
+Protocol Type	grow	nucleic_acid_extraction	hybridization	feature_extraction	bioassay_data_transformation			
+Protocol Description	Transgenic lines and wild type plants were grown simultaneously in soil in randomisation under short day conditions (8/16 light/dark, 22&deg;C, 90 &#956;mol m-2 s-1) and watered by immersion 3 times per week.	Total RNAs were isolated from the rosette leaves using the concert reagent (Invitrogen). RNA quality was checked on formaldehyd gel and total RNA concentration was determined spectrophotometrically	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 			
+Protocol Parameters								
+Protocol Hardware								
+Protocol Software			MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 5.0			
+Protocol Contact								
+Protocol Term Source REF			mo		The MGED Ontology			
+SDRF File	E-TABM-209.sdrf.txt							
+Term Source Name	mo		ncbitax	The MGED Ontology	ArrayExpress	The MGED Ontology	mo	EFO
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php		http://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/
+Term Source Version								

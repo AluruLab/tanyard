@@ -1,0 +1,27 @@
+Comment[ArrayExpressAccession]	E-GEOD-64755
+MAGE-TAB Version	1.1						
+Public Release Date	2015-01-08
+Investigation Title	Global transcriptome analysis identifies shade avoidance-related genes regulated by BBX24 in Arabidopsis thaliana						
+Comment[Submitted Name]	Global transcriptome analysis identifies shade avoidance-related genes regulated by BBX24 in Arabidopsis thaliana
+Experiment Description	In seedlings, the induction of shade avoidance syndrome (SAS) involves a rapid up-regulation for known shade marker genes and subsequently activates an interacting network of various hormones that will eventually lead to cell elongation. We found that the B-box protein AtBBX24 have positive effects on the SAS (positive regulators). Global expression analysis of col and bbx24 seedlings reveals that a large number of genes involved in hormonal signaling pathways are positively regulated by BBX24 in response to simulated shade. The microarray experiment consisted in a factorial design comprising two genotypes (col and bbx24-1) and two light treatments (white light and simulated shade).  RNA material was extracted from 7-day-old seedlings. Two replicates per treatment were performed using Affymetrix Arabidopsis ATH1 GeneChips. RNA was prepared, labeled and hybridized in accordance with the manufacturer’s instructions. Data were normalized and genes with ‘absent’ calls and a signal of <50 units in all replicate experiments were filtered out. Significantly differentially expressed genes were identified by performing profile analysis using Significance Analysis of Microarrays (SAM; Tusher et al., 2001).						
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Crocco	Botto	Crocco				
+Person First Name	Carlos	Javier	Carlos				
+Person Mid Initials	Daniel	F	D				
+Person Email	ccrocco@agro.uba.ar						
+Person Affiliation	University of Buenos Aires - IFEVA - CONICET						
+Person Address	University of Buenos Aires - IFEVA - CONICET, Av. San Martín 4453, Buenos Aires, Buenos Aires, Argentina						
+Person Roles	submitter						
+Protocol Name	P-GSE64755-1	P-GSE64755-5	P-GSE64755-6	P-GSE64755-2	P-GSE64755-3	P-GSE64755-4	P-GSE64755-7
+Protocol Description	Data were normalized by multiplying the value of each gene by the mean of each chip, divided by the average intensity of all mean values. Significantly differentially expressed genes were identified by performing profile analysis using Significance Analysis of Microarrays (SAM) software (Tusher et al., 2001) ID_REF =  VALUE = MAS 5.0 signal intensity	Biotynlated aRNA were prepared according to the standard ATH1 affymetrix protocol for 5 ug total RNA.	Hybridized for 16 hours at 45oC on GeneChip Arabidopsis Genome Array	The microarray experiment consisted in a factorial design comprising two genotypes (col and bbx24-1) and two light treatments (white light and simulated shade). RNA material was extracted from 7-day-old seedlings. Two replicates per treatment were performed using Affymetrix Arabidopsis ATH1 GeneChip� (http://www.affymetrix.com).	Seedlings grown under while light or simulated shade conditions	For RNA expression, 100 mg of fresh seedlings was harvested and frozen immediately in liquid nitrogen. Total RNA was extracted using an RNeasy plant mini kit (Qiagen, http://www.qiagen.com). Crude RNA preparations were treated with 10 units of RNase-free DNase I (http://www.promega.com), and the samples were purified according to the RNeasy plant mini kit protocol.	GeneChip scanned with the Affymetrix GeneChip Scanner 3000
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	treatment	genotype					
+Experimental Factor Type	treatment	genotype					
+Comment[SecondaryAccession]	GSE64755						
+Comment[GEOReleaseDate]	2015-01-08						
+Comment[ArrayExpressSubmissionDate]	2015-01-07						
+Comment[GEOLastUpdateDate]	2015-01-08						
+Comment[AEExperimentType]	transcription profiling by array						
+Comment[AdditionalFile:Data1]	GSE64755_signicantly_expressed.txt						
+SDRF File	E-GEOD-64755.sdrf.txt

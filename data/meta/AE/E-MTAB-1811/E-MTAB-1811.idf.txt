@@ -1,0 +1,32 @@
+Comment[ArrayExpressAccession]	E-MTAB-1811
+MAGE-TAB Version	1.1																									
+Investigation Title	Transcription profiling of the radicle and micropylar endosperm cap of Lepidium seeds during germination in response to temperature																									
+Comment[Submitted Name]	Transcription profiling of the radicle and micropylar endosperm cap of Lepidium seeds during germination in response to temperature
+Experiment Description	An experiment was performed to compare global transcription patterns in two tissues of Lepidium sativum seeds at different temperatures during imbibition for 10h. RNA extractions from the two tissues were hybridized to Affymetrix ATH1 Arabidopsis microarrays. The two tissues were the radicle and the micropylar endosperm cap that covers it. The interaction of these two tissues is thought to control the timing of germination though alterations in the extensibility of the radicle and the physical resistance of the micropylar endosperm cap to radicle penetration. Only seeds without endosperm rupture were sampled.																									
+Experimental Design	stimulus_or_stress_design	in_vivo_design	co-expression_design																							
+Comment[AEExperimentType]	transcription profiling by array																									
+Comment[AEExperimentDisplayName]	Transcription profiling by array of radicle and micropylar endosperm cap from Lepidium seeds during germination in response to temperature																									
+Experimental Factor Name	temperature	organism part																								
+Experimental Factor Type	temperature	organism part																								
+Quality Control Type	biological replicate																									
+Quality Control Term Source REF	EFO																									
+Public Release Date	2013-10-06																									
+Person Last Name	Leubner																									
+Person First Name	Gerhard																									
+Person Mid Initials																										
+Person Email	gerhard.leubner@rhul.ac.uk																									
+Person Phone																										
+Person Address	Egham Hill TW20 0EX Egham, Surrey																									
+Person Affiliation	Royal Holloway University of London, School of Biological Sciences																									
+Person Roles	submitter																									
+PubMed ID																										
+Publication Author List	Antje Voegele, Tina Steinbrecher, Anita Kleiber, Danuše Tarkowská, Terezie Urbanová, Veronika Ture?ková, Karin Weitbrecht, Kai Graeber, Miroslav Strnad and Gerhard Leubner-Metzger																									
+Publication Title	The Molecular Biomechanics of the Micropylar Endosperm as a Major Mediator of the Germination Responses of Lepidium sativum Seeds to Sub- and Supra-Optimal Temperatures 																									
+Publication Status	completed manuscript																									
+Protocol Name	P-MTAB-34006	P-MTAB-34007	P-MTAB-34008	P-MTAB-34009
+Protocol Type	growth protocol	treatment protocol	nucleic acid extraction protocol	nucleic acid labeling protocol																						
+Protocol Description	After-ripened Lepidium sativum L. FR1 ('Gartenkresse, einfache') seeds (Juliwa, Heidelberg, Germany) were incubated in petri dishes on two layers of filter paper with 6 ml 1/10 Murashige-Skoog salts in continuous white light (ca. 100 µmol•s-1•m-2) at the temperature indicated. 	Four biological replicates of seeds were sampled after 10h of imbibition at 11 degrees C, 18 degrees C, 27 degrees C and 32 degrees C.  Two tissues (micropylar endosperm cap and radicle) were dissected from individual seeds. The dissected tissues (ca. 200 endosperm caps (Cap), and ca. 50 radicles (Rad)) were pooled for each sample, frozen in liquid nitrogen and stored at -80 ºC.	CTAB/Chloroform extraction followed by RNA clean-up with the Qiagen Rneasy kit, followed by quantity and quality controls	The Affymetrix 3' IVT-Express Labeling Kit (#901229) was used to synthesize Biotin-labeled cRNA. From each RNA sample 100 ng was used as input for the labeling reactions.																						
+Protocol Term Source REF	EFO	EFO	EFO	EFO																						
+Term Source Name	EFO	ArrayExpress
+Term Source File	http://www.ebi.ac.uk/efo	http://www.ebi.ac.uk/arrayexpress																								
+SDRF File	E-MTAB-1811.sdrf.txt

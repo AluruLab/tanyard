@@ -1,0 +1,52 @@
+Investigation Title	Transcription profiling of Arabidopsis with Silverleaf whitefly 2nd instar feeding rosette leaves							
+Comment[Submitted Name]	Silverleaf whitefly 2nd instar feeding on 7-week old Arabidopsis thaliana rosette leaves							
+Experimental Design	unknown_experiment_design_type	transcription profiling by array						
+Experimental Design Term Source REF		EFO						
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis infested with silverleaf whitefly							
+Comment[ArrayExpressReleaseDate]	2008-06-14							
+Comment[SecondaryAccession]	GSE6516							
+Comment[AEMIAMESCORE]	4							
+Comment[ArrayExpressAccession]	E-GEOD-6516							
+Comment[MAGETAB TimeStamp_Version]	2010-08-06 20:56:35 Last Changed Rev: 13058							
+Experimental Factor Name	DISEASE STATE							
+Experimental Factor Type	disease_state							
+Experimental Factor Term Source REF								
+Person Last Name	Walling							
+Person First Name	Linda							
+Person Mid Initials	L.							
+Person Email	lwalling@citrus.ucr.edu							
+Person Phone								
+Person Fax								
+Person Address	Dr. Linda Walling, Botany and Plant Sciences, CEPCEB, University of California, Riverside, 3401 Watkins Drive, Riverside, 92521, USA							
+Person Affiliation	University of California, Riverside							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Quality Control Type								
+Quality Control Term Source REF								
+Replicate Type								
+Replicate Term Source REF								
+Normalization Type								
+Normalization Term Source REF								
+Date of Experiment								
+Public Release Date	2008-06-14							
+PubMed ID	17189325							
+Publication DOI	10.1104/pp.106.090662 							
+Publication Author List	Louisa A Kempema, Xinping Cui, Frances M Holzer, Linda L Walling							
+Publication Title	Arabidopsis transcriptome changes in response to phloem-feeding silverleaf whitefly nymphs. Similarities and distinctions in responses to aphids.							
+Publication Status	published							
+Publication Status Term Source REF	EFO							
+Publication Status Term Accession Number	EFO_0001796							
+Experiment Description	Phloem-feeding pests cause extensive crop damage throughout the world yet little is understood about how plants perceive and defend themselves from these threats. The silverleaf whitefly (SLWF; Bemisia tabaci type B) is a good model for studying phloem-feeding insect-plant interactions as SLWF nymphs cause little wounding and have a long, continuous interaction with the plant. Using the Arabidopsis ATH1 GeneChip, the global responses to Silverleaf Whitefly 2nd instar feeding were examined.  Experiment Overall Design: The silverleaf whitefly colony (Bemisia tabaci type B; Bemisia argentifolii Bellows and Perring) was maintained on Brassica napus cv. âFlorida broad leafâ grown under fluorescent and incandescent lights (180 Î¼E m-2 s-1) 27Â°C with 55% relative humidity under long-day (16 hr light: 8 hr dark) conditions in the Insectory and Quarantine Facility at the University of California, Riverside. Adult whiteflies are collected from infested plants by aspiration into 15-ml falcon tubes.  Experiment Overall Design:  Individual Arabidopsis thaliana ecotype Columbia plants were grown for 21 days in 4-inch diameter, round pots under fluorescent and incandescent lights (180 Î¼E m-2 s-1) with 50% relative humidity, 23Â° C and an 8 hr-light/16-hr dark cycle. One hundred adult whiteflies were collected into each 15-ml falcon tube and the tube was placed upright in each pot. Plants were individually encased with 5- by 10-inch nylon bags that were secured to each pot with a rubber band. The whiteflies were released by unscrewing the falcon tube. After seven days, the adult whiteflies were removed from the plants by aspiration. The infested and non-infested plants were caged for the remainder of the experiment to ensure any adults that escaped aspiration could not reach the plants. Rosette tissue was collected after 28 days, when 2nd and 3rd instars were observed on wild-type Columbia plants. Developmentally matched leaves were harvested from uninfested plants. Infestations were performed in two growth chambers; each chamber contained one replicate experiment, which included 10 control and 10 infested plants.  This experiment was repeated for a total of 8 biological replicate experiments.  Experiment Overall Design: Total RNA from the eight biological replicates was isolated using the RNAwiz protocol (Ambion Inc., Austin, TX) and purified using a RNAeasy column (Qiagen, Valencia, CA). RNA from the two biological replicates performed in each growth chamber were pooled to eliminate variance due to different environmental factors. This yielded the infested and control RNA pools used in the microarrays (Exp1 and Exp2) and RT-PCRs (Exp3 and Exp4). The quality of the RNA was determined by A260/A280 absorbance readings. RNA integrity (1 Âµg) was verified by fractionation on a 1% formaldehyde gel.  Experiment Overall Design: Hybridization Experiment Overall Design: Biotin-labeled cRNAs were synthesized from infested and control RNAs for Exp1 and Exp2 at the UC Irvine Microarray Facility using the Affymetrix Eukaryotic One-Cycle Target Labeling Assay protocol (Affymetrix GeneChip Expression, Analysis Technical Manual, Affymetrix, Santa Clara, CA). The labeled cRNA was hybridized to Affymetrix Arabidopsis genome ATH1 Chip arrays, washed, and scanned using a Hewlett Packard Genearray scanner (Hewlett-Packard, Palo Alto, CA). Experiment Overall Design: MAS 5.0 was performed using the standard parameters (Affymetrix GeneChip Expression, Analysis Technical Manual, Affymetrix, Santa Clara, CA.) Genes with âabsentâ calls in replicate experiments were removed from further analysis.							
+Protocol Name	P-G6516-6	P-G6516-1	P-G6516-5	P-G6516-2	P-G6516-4	P-G6516-3	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6
+Protocol Type	grow	grow	specified_biomaterial_action	specified_biomaterial_action	nucleic_acid_extraction	labeling	hybridization	feature_extraction
+Protocol Description	Tissue collected from SLWF infested leaves 28 days post-infestation.	Tissue collected from developmentally matched control leaves after 7 weeks.	10 Three-week old Arabidopsis plants were infested with 100 Silverleaf whiteflies (SLWF) (or not infested); contained by a nylon-mesh bag.  Tissue was collected from infested leaves 28 days post-infestation. Developmentally matched uninfested tissue was also collected.	10 21-day old Arabidopsis plants, grown under short-day conditions, were infested with 100 Silverleaf whiteflies (SLWF) (or not infested); contained by a nylon-mesh bag.  Tissue was collected from infested leaves 28 days post-infestation. Developmentally matched uninfested tissue was also collected.	RNAwiz extraction of total RNA, pooled from 2 biological replicates (total 20 plants), was performed according to the manufacturer's instructions.	Biotinylated cRNA were prepared according to the Affymetrix Eukaryotic One-Cycle Target Labeling Assay protocol (Affymetrix GeneChip Expression, Analysis Technical Manual, Affymetrix, Santa Clara, CA)	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 
+Protocol Parameters								
+Protocol Hardware								
+Protocol Software							MicroArraySuite 5.0	MicroArraySuite 5.0
+Protocol Contact								
+Protocol Term Source REF							mo	
+SDRF File	E-GEOD-6516.sdrf.txt							
+Term Source Name	NCBI Taxonomy		The MGED Ontology	ArrayExpress	EFO	The MGED Ontology	mo	
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version								

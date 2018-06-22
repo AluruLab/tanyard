@@ -1,0 +1,51 @@
+Investigation Title	Gene expression profile in root and flower mediated by GLUCOSE-INHIBITED ROOT ELONGATION1 (GIR1)												
+Comment[Submitted Name]	Gene expression profile in root and flower mediated by GLUCOSE-INHIBITED ROOT ELONGATION1 (GIR1)												
+Experimental Design	transcription profiling by array												
+Experimental Design Term Source REF	EFO												
+Comment[AEMIAMESCORE]	4												
+Comment[AEExperimentType]	transcription profiling by array												
+Comment[AEExperimentDisplayName]	Gene expression profile in root and flower of gir1 mutant 												
+Comment[SecondaryAccession]	GSE16056												
+Comment[ArrayExpressReleaseDate]	2010-07-30												
+Comment[ArrayExpressAccession]	E-GEOD-16056												
+Comment[MAGETAB TimeStamp_Version]	2010-10-14 04:53:39 Last Changed Rev: 14677												
+Experimental Factor Name	genotype	organism part	compound	dose									
+Experimental Factor Type	genotype	organism part	compound	dose									
+Experimental Factor Term Source REF													
+Person Last Name	Sheen	Chen	Chiang	Huang	Hwang	Shiu	Cheng	Jane					
+Person First Name	Jen	Ya-Huei	Ming-Hau	Yu-wen	San-Gwang	Pei-Rung	Wan-Hsing	Wann-Neng					
+Person Mid Initials													
+Person Email							whcheng@gate.sinica.edu.tw						
+Person Phone													
+Person Fax													
+Person Address							Plant Molecular Genetics, Institute of Plant and Microbial Biology, Academia Sinica, 128, Section 2, Academia Road, Nankang, Taipei, 115, Taiwan, R.O.C.						
+Person Affiliation							Academia Sinica						
+Person Roles							submitter						
+Person Roles Term Source REF							The MGED Ontology						
+Quality Control Type													
+Quality Control Term Source REF													
+Replicate Type													
+Replicate Term Source REF													
+Normalization Type													
+Normalization Term Source REF													
+Date of Experiment													
+Public Release Date	2010-07-30												
+PubMed ID													
+Publication DOI													
+Publication Author List													
+Publication Title													
+Publication Status													
+Publication Status Term Source REF													
+Experiment Description	We isolated the glucose-inhibited root elongation1 (gir1) mutant from a genetic screen of activation T-DNA tagged seeds grown on 6% glucose agar plates. The gir1 mutant showed short swollen root phenotype at the presence of glucose and had a sever sterility when grown in soil. To better understand the molecular basis of GIR1-mediated gene expression, the Affymetrix ATH1 GeneChip was used to analyze the gene expression profiling in the gir1 mutant. The results showed that cell wall, carbohydrate, and lipid metabolic or transporter-related genes were altered expression pattern. These data suggest that GIR1 regulates root and flower growth and development through cell wall modification and, perhaps, membrane trafficking. For root microarray assay [Samples GSM402178-GSM402183], wild type and the gir1 mutant plants were vertically grown on 0% glucose agar plates for 11 days, then transferred to 4% glucose plates for another ten days. Subsequently, the root tissues were excised for GeneChip analysis. In the case of inflorescence microarray assay [Samples GSM402184-GSM402191], plants were grown in soil for 33 days. The opened and opening flowers were discarded and the remaining inflorescence was harvested for GeneChip analysis.												
+Protocol Name	P-GSE16056-14	P-GSE16056-3	P-GSE16056-2	P-GSE16056-4	P-GSE16056-11	P-GSE16056-6	P-GSE16056-12	P-GSE16056-7	P-GSE16056-13	P-GSE16056-8	P-GSE16056-9	P-GSE16056-10	P-GSE16056-1
+Protocol Type	grow	grow	grow	grow	nucleic_acid_extraction	nucleic_acid_extraction	labeling	labeling	hybridization	hybridization	image_acquisition	feature_extraction	bioassay_data_transformation
+Protocol Description	Soil-grown plants	2. Then, transfer seedlings to 0% glucose + 1/2 MS vertical agar plate	1. Plants were grown on 0% glucose + 1/2 MS agar plate for 7 days.	3. Then, transfer seedlings to 4% glucose + 1/2 MS vertical agar plate	QIAGEN RNease Plant Kit	QIAGEN RNeasy Plant Kit	Standard labeling protocol of Affymetrix expression array	Standard labeling protocal of Affymetrix expression array	Standard hybridization protocol of Affymetrix expression array	Standard hybridization protocal of Affymetrix expression array	Standard scanning protocol of Affymetrix expression array	MAS5.0	ID_REF = <br>VALUE = MAS5.0-processed signal intensity<br>ABS_CALL = absence call<br>DETECTION P-VALUE = detection p-value
+Protocol Parameters													
+Protocol Hardware													
+Protocol Software													
+Protocol Contact													
+Protocol Term Source REF												The MGED Ontology	The MGED Ontology
+SDRF File	E-GEOD-16056.sdrf.txt												
+Term Source Name	NCBI Taxonomy		The MGED Ontology	ArrayExpress	EFO	The MGED Ontology							
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php							
+Term Source Version													

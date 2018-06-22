@@ -1,0 +1,32 @@
+Comment[ArrayExpressAccession]	E-MEXP-2608
+Investigation Title	Transcription profiling of Arabidopsis thaliana seedlings using different Affymetrix RNA labelling protocols
+Comment[Submitted Name]	Statistical evaluation of transcriptomic data generated using the Affymetrix RNA labelling protocols with the Arabidopsis ATH1 microarray
+Publication Title	Statistical evaluation of transcriptomic data generated using the Affymetrix one-cycle, two-cycle and IVT-Express RNA labelling protocols with the Arabidopsis ATH1 microarray
+Publication Author List	
+Publication DOI	
+PubMed ID	
+Experimental Design	co-expression_design	optimization_design	array_platform_variation_design
+Experimental Design Term Source REF	The MGED Ontology		
+Comment[MIAMExpressLogin]	cpibuser																												
+Comment[MIAMExpressSubmissionID]	6503																												
+Experiment Description	Here we compare transcriptomic data generated using Affymetrix one-cycle (standard labelling protocol), two-cycle (small-sample protocol) and IVT-Express protocols with the Affymetrix ATH1 array using Arabidopsis root samples. Results obtained with each protocol are broadly similar. However, we show that there are 35 probe sets (of a total of 22810) that are misrepresented in the two-cycle data sets. Of these, 33 probe sets were classed as mis-amplified when comparisons of two independent publicly available data sets were undertaken. 																												
+Experimental Factor Name	DEVELOPMENTAL_STAGE	AFFYMETRIX RNA LABELLING PROTOCOL																											
+Experimental Factor Type	developmental_stage	labeling																											
+Person Last Name	Wilson																												
+Person First Name	Michael																												
+Person Email	mwilson@cpib.ac.uk																												
+Person Phone	01159516108																												
+Person Affiliation	Univeristy of Nottingham																												
+Person Address	CPIB, Sutton Bonington Campus, Sutton Bonington, Nottinghamshire, LE12 5RD, United Kingdom																												
+Person Roles	submitter																												
+Person Roles Term Source REF	MGED Ontology																												
+Quality Control Type																													
+Public Release Date	2010-03-13																												
+Comment[ArrayExpressSubmissionDate]	2010-03-08 16:57:14																												
+Protocol Name	P-MTAB-12751	P-MTAB-12752	P-MTAB-12753	P-MTAB-12754	P-MTAB-12755	P-MTAB-12756	P-MTAB-12757	P-MTAB-12758
+Protocol Description	Data were normalised from .cel files using the RMA protocol within R / Bioconductor with default settings using Bioconductors standard Affymetrix metadata and probe mapping files	Approximately 600 roots were dissected for the rapid elongation zone (EZ) (from the top of the lateral root cap to the first visible root hair bulge, approximately 850 µm from the top of the lateral root cap). Dissected samples were immediately frozen in liquid nitrogen	RNA labelling and hybridisation to Affymetrix ATH1 arrays were performed by the Nottingham Arabidopsis Stock Centre (NASC), according to manufacturers recommended protocol for the IVT-express kit<br>(Parameters: Amplification = none, Mass unit = Micro gram)	Wild-type Col-0 seedlings were grown vertically on ½ MS media supplemented with 1 % (w/v) PGP-type agarose (Park Scientific Ltd., UK) for seven days in controlled environmental conditions of 24 °C, continuous light of 150 µmol m-1 s-1. Plants for seed propagation were grown simultaneous in controlled conditions with a 16h light (23 °C), 8h dark (18 °C) cycle.<br>(Parameters: start time = 7, time unit = days, min temperature = 24, temperature unit = C, media = ½ MS media supplemented with 1 % (w/v) PGP-type agarose)	RNA labelling and hybridisation to Affymetrix ATH1 arrays were performed by the Nottingham Arabidopsis Stock Centre (NASC), according to manufacturers recommended protocol for the 1-cycle amplification kit<br>(Parameters: Amplification = none, Mass unit = Micro gram)	RNA labelling and hybridisation to Affymetrix ATH1 arrays were performed by the Nottingham Arabidopsis Stock Centre (NASC), according to manufacturers recommended protocol for the 2-cycle amplification kit<br>(Parameters: Amplification = none, Mass unit = Micro gram)	Approximately 600 roots were dissected into the meristem (MS) (from the root tip to the top of the lateral root cap, approximately 350 µm from the root tip). Dissected samples were immediately frozen in liquid nitrogen	RNA was extracted using the Qiagen MicroRNA Kit following the manufacturers recommended protocol (Qiagen, Crawley, UK). RNA was quantified using a Nanodrop ND100 spectrophotometer (Nanodrop, Wilimington, USA). All RNA samples were approximately 1 µg/µl in a total volume of 10 µl. For the two-cycle and IVT-E samples, RNA was diluted with RNase-free water to make a final concentration of 50 ng/µl (equivalent to 30 dissected root sections). <br>(Parameters: Extracted product = total_RNA, Amplification = none)																					
+Protocol Type	bioassay_data_transformation	specified_biomaterial_action	labeling	grow	labeling	labeling	specified_biomaterial_action	nucleic_acid_extraction																					
+Protocol Term Source REF	MGED Ontology	MGED Ontology	MGED Ontology	MGED Ontology	MGED Ontology	MGED Ontology	MGED Ontology	MGED Ontology																					
+Term Source Name	MGED Ontology	ArrayExpress	The MGED Ontology		EFO
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress			http://efo.svn.sourceforge.net/viewvc/efo/trunk/src/efoinowl/efo.owl																								
+SDRF File	E-MEXP-2608.sdrf.txt

@@ -1,0 +1,51 @@
+Investigation Title	Transcription profiling of Arabidopsis after short and prolonged hypoxia and reoxygenation						
+Comment[Submitted Name]	Dynamics of mRNA abundance and translation in response to short and prolonged hypoxia and reoxygenation						
+Experimental Design	unknown_experiment_design_type	transcription profiling by array					
+Experimental Design Term Source REF		EFO					
+Comment[AEExperimentType]	transcription profiling by array						
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis after short and prolonged hypoxia treatment						
+Comment[ArrayExpressReleaseDate]	2008-10-20						
+Comment[SecondaryAccession]	GSE9719						
+Comment[AEMIAMESCORE]	4						
+Comment[ArrayExpressAccession]	E-GEOD-9719						
+Comment[MAGETAB TimeStamp_Version]	2010-08-09 15:59:59 Last Changed Rev: 13058						
+Experimental Factor Name	growth condition	RNA					
+Experimental Factor Type	growth condition	RNA					
+Experimental Factor Term Source REF							
+Person Last Name	Jang						
+Person First Name	Charles						
+Person Mid Initials							
+Person Email	cjang001@student.ucr.edu						
+Person Phone							
+Person Fax							
+Person Address	Julia Bailey-Serres, Botany and Plant Sciences, UC Riverside, 2215 Batchelor Hall, Riverside, 92521, USA						
+Person Affiliation	UC Riverside						
+Person Roles	submitter						
+Person Roles Term Source REF	The MGED Ontology						
+Quality Control Type							
+Quality Control Term Source REF							
+Replicate Type							
+Replicate Term Source REF							
+Normalization Type							
+Normalization Term Source REF							
+Date of Experiment							
+Public Release Date	2008-10-20						
+PubMed ID							
+Publication DOI							
+Publication Author List							
+Publication Title							
+Publication Status							
+Publication Status Term Source REF							
+Experiment Description	Gene expression analysis of 7d-old Arabidopsis seedlings exposed to short term (2 h) hypoxia, long term (9 h) hypoxia, and 1 h reoxygenation after long term (9 h) hypoxia to evaluate the regulation of gene expression at the level of translation. Experiment Overall Design: 30 samples, 5 conditions (2 hr hypoxia stress, 2hr non-stress, 9 hr hypoxia stress , 9 hr non-stress, 9 hr hypoxia with 1 hr recovery), 2 RNA pools (Total mRNA and polysomal mRNA), 3 replicates						
+Protocol Name	P-G9719-2	P-G9719-1	P-G9719-4	P-G9719-3	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6	
+Protocol Type	specified_biomaterial_action	grow	nucleic_acid_extraction	labeling	hybridization	feature_extraction	
+Protocol Description	Seven-day old seedlings were subjected to short and long  hypoxia stress (HS) treatments (2h and 9h) or allowed to recover after 9h HS for 1h in air (re-oxygenation). Treatments started at the end of the light period and took place 6.5 uM m-1 s-1 light, i	Seeds from single copy transgene 35S:His6FLAG-RPL18B (Col-0) (Zanetti et al., 2005) were surface sterilized with 95 % (v/v) ethanol for 5 min, followed by 10 min submergence in bleach solution (20 % (v/v) bleach and 0.1 % (v/v) Tween-20), rinsed ad vernal	Whole seedlings were harvested into liquid nitrogen within < 3 min from release from treatment.  All mRNA extraction procedures were performed at 4 degreeC or on ice. Approximately 5 mL of pulverized tissue was extracted in 10 mL of Polysome Extraction Buffer	Total and polysomal RNA samples derived from three independent biological replicate experiments were used for microarray hybridization analysis. RNA samples (3 ug) were used to synthesize double stranded cDNA, using One-Cycle cDNA synthesis Kit (Affymetri	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	
+Protocol Parameters							
+Protocol Hardware							
+Protocol Software					MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact							
+Protocol Term Source REF					mo		
+SDRF File	E-GEOD-9719.sdrf.txt						
+Term Source Name	NCBI Taxonomy		The MGED Ontology	ArrayExpress	EFO	The MGED Ontology	mo
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version							

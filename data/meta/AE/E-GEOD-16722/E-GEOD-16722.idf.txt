@@ -1,0 +1,41 @@
+Comment[ArrayExpressAccession]	E-GEOD-16722						
+Public Release Date	2010-12-09						
+Investigation Title	Expression data from Arabidopsis thaliana under phosphate starvation stress						
+Comment[Submitted Name]	Expression data from Arabidopsis thaliana under phosphate starvation stress						
+Experiment Description	We performed a transcriptomic analysis of Pi starvation responses in Arabidopsis thaliana (Columbia-0) wild type plants under phosphate starvation stress and in plants with altered PHR1(-like) activity, comparing mutants of phr1 and phr1-phl1 grown in phosphate-lacking medium. Results show the central role of PHR1 and functionally redundant members of its family in the control of transcriptional responses to Pi starvation. The analysis was performed in wild-type plants grown for seven days in complete (+Pi) and Pi-lacking (-Pi) Johnson solid media and the single phr1 and double phr1-phl1 mutants grown for 7 days in –Pi medium. Three independent biological samples of total RNA from shoot and root were hybridized separately.						
+Date of Experiment							
+Term Source Name	EFO						
+Term Source Version							
+Term Source File	http://www.ebi.ac.uk/efo						
+Person Last Name	Bustos	Bustos	Castrillo	Paz-Ares			
+Person First Name	Regla	Regla	Gabriel	Javier			
+Person Mid Initials							
+Person Email	geo@ncbi.nlm.nih.gov						
+Person Affiliation	CNB-CSIC						
+Person Phone							
+Person Fax							
+Person Address	CNB-CSIC, Darwin 3, Campus de Cantoblanco, Madrid, Spain						
+Person Roles	submitter						
+Protocol Name	P-GSE16722-1	P-GSE16722-6	P-GSE16722-5	P-GSE16722-3	P-GSE16722-2	P-GSE16722-4	P-GSE16722-7
+Protocol Description	ID_REF = <br>VALUE = RMA log Signal intensity	Each microarray was scanned at 2.5 µm resolution in a GeneChip® Scanner 3000 7G System (Affymetrix)	10µg of fragmented cRNA were hybridized to the Arabidopsis ATH1 Genome array (Affymetrix, SantaClara, CA), containing 22500 transcript variants from 24000 well -characterized Arabidopsis thaliana genes. Each sample was added to a hybridization solution containing 100mM2-(N-morpholino) ethanesulfonic acid, 1M Na+,and 20mM of EDTA in the presence of 0.01% of Tween-20 to a final cRNA concentration of 0.05µg/ml. Hybridization was performed for 16 h at 45ºC . Each microarray was washed and stained with streptavidin-phycoerythrin in a Fluidics station 450 (Affymetrix)	The RNA from root and shoot samples processed separately was isolated using RNeasy plant mini kit from Quiagen	Plants were grown for 7 days in solid Johnson medium containing 2% sucrose and either 2mM Pi (KH2PO4) for complete medium (+Pi) or in phosphate-lacking medium (-Pi).	Each RNA preparation was tested for degradation using the Agilent 2100 Bioanalyzer (Agilent technologies, Palo Alto, CA). cDNA was synthesized from 4 µg of total RNA using One-cycle target labeling and control reagents(Affymetrix, Santa Clara, CA) to produce biotin-labeled cRNA. The cRNA preparations (15 µg) were fragmented at 94ºC for 35 min into 35-200 bases in length.	Analysis was performed using the affylmaGUI R package (Wettenhall et al, 2006). Robust Muti-array Analysis (RMA) algorithm was used for background correction, normalization and expression levels summarization (Irizarry et al., 2003).
+Protocol Type	normalization data transformation protocol	array scanning and feature extraction protocol	nucleic acid hybridization to array protocol	nucleic acid extraction protocol	growth protocol	nucleic acid labeling protocol	array scanning and feature extraction protocol
+Protocol Term Source REF	EFO	EFO	EFO	EFO	EFO	EFO	EFO
+Protocol Term Accession Number							
+Experimental Factor Name	growth condition	genotype	organism part				
+Experimental Factor Type	growth condition	genotype	organism part				
+Experimental Factor Term Source REF							
+Experimental Factor Term Accession Number							
+Publication Title	A central regulatory system largely controls transcriptional activation and repression responses to phosphate starvation in Arabidopsis.						
+Publication Author List	Bustos R, Castrillo G, Linhares F, Puga MI, Rubio V, Pérez-Pérez J, Solano R, Leyva A, Paz-Ares J						
+PubMed ID	20838596						
+Publication DOI	10.1371/journal.pgen.1001102						
+Publication Status	published						
+Publication Status Term Source REF	EFO						
+Publication Status Term Accession Number	EFO_0001796						
+Comment[SecondaryAccession]	GSE16722						
+Comment[GEOLastUpdateDate]	2010-12-09						
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for phr1 and phl1 or phr1 only after phosphate deprivation						
+Comment[AEExperimentType]	transcription profiling by array						
+Comment[GEOReleaseDate]	2010-12-09						
+Comment[ArrayExpressSubmissionDate]	2009-06-18						
+SDRF File	E-GEOD-16722.sdrf.txt						

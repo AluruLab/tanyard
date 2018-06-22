@@ -1,0 +1,49 @@
+Investigation Title	Transcription profiling by array of Arabidopsis transgenic plants overexpressing YFP and VND7-YFP	
+Comment[Submitted Name]	Transcription profiling of Arabidopsis transgenic plants overexpressing YFP and VND7-YFP gene.	
+Experimental Design	array_platform_variation_design	transcript_identification_design	co-expression_design	transcription profiling by array	
+Experimental Design Term Source REF			The MGED Ontology	EFO	
+Comment[SecondaryAccession]		
+Comment[ArrayExpressReleaseDate]	2010-04-30	
+Comment[AEMIAMESCORE]	5	
+Comment[ArrayExpressAccession]	E-MEXP-1876	
+Comment[MAGETAB TimeStamp_Version]	2010-08-10 00:13:29 Last Changed Rev: 13058	
+Experimental Factor Name	STRAIN_OR_LINE	
+Experimental Factor Type	strain_or_line	
+Experimental Factor Term Source REF	
+Person Last Name	Demura	
+Person First Name	Taku	
+Person Mid Initials	
+Person Email	demura@riken.jp	
+Person Phone	+81-45-503-9576	
+Person Fax	+81-45-503-9609	
+Person Address	Plant Science Center, 1-7-22 Suehiro-cho Tsurumi-ku, Kanagawa, Yokohama, 230-0045, Japan	
+Person Affiliation	RIKEN	
+Person Roles	submitter	
+Person Roles Term Source REF	The MGED Ontology	
+Quality Control Type	biological_replicate	
+Quality Control Term Source REF	The MGED Ontology	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2010-04-30	
+PubMed ID	
+Publication DOI	
+Publication Author List	
+Publication Title	VND-INTERACTING2, a NAC Domain Transcription Factor, Negatively Regulates Xylem Vessel Formation in Arabidopsis	
+Publication Status	
+Publication Status Term Source REF	
+Experiment Description	The Arabidopsis thaliana NAC domain transcription factor, VASCULAR-RELATED NAC-DOMAIN7 (VND7), acts as a master regulator for differentiation of xylem vessels. In order to identify a set of genes regulated by VND7, we carried out a microarray experiment with the Arabidopsis full-genome GeneChip array ATH1 (Affymetrix) for transgenic Arabidopsis roots overexpressing VND7. Experiment Overall Design: Total RNAs were isolated from roots of 5-day-old seedling of transgenic plants overexpressing YFP and VND7-YFP under control of Cauliflower mosaic virus 35S promoter. Three independent biological replicates were performed for each sample.	
+Protocol Name	P-MTAB-2165	P-MTAB-2164	P-MTAB-13524	P-AFFY-2	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6	Affymetrix:Protocol:MAS4:ExpressionCall	
+Protocol Type	nucleic_acid_extraction	grow	specified_biomaterial_action	labeling	hybridization	feature_extraction	bioassay_data_transformation	
+Protocol Description	Total RNAs were extracted by using Rneasy Plant Mini Kit (Qiagen)<br>(Parameters: Extracted product = total_RNA, Amplification = none)	Total RNAs were isolated from roots of 14-day-old seedling.<br>(Parameters: time unit = seconds, temperature unit = C)	Total RNAs were isolated from roots of 5-day-old seedling.	Title: Affymetrix in vitro transcription. Description: 	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	Title: Affymetrix CHP Analysis (ExpressionCall). Description: 	
+Protocol Parameters	
+Protocol Hardware	
+Protocol Software					MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 4.0	
+Protocol Contact	
+Protocol Term Source REF					mo		mo	
+SDRF File	E-MEXP-1876.sdrf.txt	
+Term Source Name	NCBI Taxonomy		The MGED Ontology	ArrayExpress	The MGED Ontology	EFO	mo	
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version								

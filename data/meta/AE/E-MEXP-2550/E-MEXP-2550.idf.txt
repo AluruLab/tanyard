@@ -1,0 +1,49 @@
+Investigation Title	Transcription profiling of Arabidopsis thaliana with inducible overexpression of the meristem regulator	
+Comment[Submitted Name]	Transcription profiling of inducible overexpression of the meristem regulator SHOOT MERISTEMLESS	
+Experimental Design	genetic_modification_design	in_vivo_design	co-expression_design	transcription profiling by array	
+Experimental Design Term Source REF	The MGED Ontology		The MGED Ontology	EFO	
+Comment[AEMIAMESCORE]	4	
+Comment[SecondaryAccession]		
+Comment[ArrayExpressReleaseDate]	2010-06-09	
+Comment[ArrayExpressAccession]	E-MEXP-2550	
+Comment[MAGETAB TimeStamp_Version]	2010-08-10 13:08:16 Last Changed Rev: 13058	
+Experimental Factor Name	GENOTYPE	
+Experimental Factor Type	genotype	
+Experimental Factor Term Source REF	
+Person Last Name	Spinelli	
+Person First Name	Silvana	
+Person Mid Initials	V	
+Person Email	spinelli@ibr.gov.ar	
+Person Phone	00543414350661	
+Person Fax	
+Person Address	Molecular Biology, Siupacha 531, Rosario, Santa Fe, 2000, Argentina	
+Person Affiliation	IBR-CONICET	
+Person Roles	submitter	
+Person Roles Term Source REF	The MGED Ontology	
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2010-06-09	
+PubMed ID	
+Publication DOI	
+Publication Author List	
+Publication Title	
+Publication Status	
+Publication Status Term Source REF	
+Experiment Description	Inducible overexpression of STM by AlcR / AlcA system. Plants harboring 35S::AlcR/AlcA::GOI (GUS control, STM and STM-VP16)constructs were grown in continous light for 12 days and induced with 1% Ethanol. After 12h of EtOH treatment, seedlings were dissected and RNA was processed from the shoot apex and young leaves. Affymetrix Ath1 arrays were hybridized in duplicates from each experiment.	
+Protocol Name	P-MTAB-12332	P-AFFY-2	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6	
+Protocol Type	nucleic_acid_extraction	labeling	hybridization	feature_extraction	
+Protocol Description	See Leibfried, A., To, J. P., Busch, W., Stehling, S., Kehle, A., Demar, M., Kieber, J. J. and Lohmann, J. U. (2005). WUSCHEL controls meristem function by direct regulation of cytokinin-inducible response regulators. Nature 438, 1172-5.<br>(Parameters: Extracted product = total_RNA, Amplification = none)	Title: Affymetrix in vitro transcription. Description: 	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	
+Protocol Parameters	
+Protocol Hardware	
+Protocol Software			MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact	
+Protocol Term Source REF			mo	
+SDRF File	E-MEXP-2550.sdrf.txt	
+Term Source Name	The MGED Ontology	NCBI Taxonomy	NCI_thesaurus	tair_dev:1.27	ArrayExpress	The MGED Ontology	EFO	mo	
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ncbi.nlm.nih.gov/Taxonomy/	ncithesaurus.obo.alt	http://www.arabidopsis.org/info/ontologies/	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version				1.27					

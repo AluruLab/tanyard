@@ -1,0 +1,25 @@
+Comment[ArrayExpressAccession]	E-GEOD-44307
+MAGE-TAB Version	1.1						
+Public Release Date	2014-04-10
+Investigation Title	Cell type-specific transcriptional responses of Arabidopsis to salinity						
+Comment[Submitted Name]	Cell type-specific transcriptional responses of Arabidopsis to salinity
+Experiment Description	Microarray data were generated to investigate the changes in gene expression for two cell types of the root: pericycle and cortical cells in response to salt treatment. The transcription profile of both cell types were also generated. Cell-types of interest expressing specifically Green Fluorescent Protein (GFP) were isolated from the rest of the root using fluorescence-activated cell sorting (FACS). 11 arrays were generated from plants grown in control and salt conditions. All seedlings grew in one tank were collected and correspond to one biological sample. Two control biological replicates were used for pericycle and 3 for cortical cells. By comparison from control microarray, 6 others arrays from salt treated plant (3 for each cell types) were used to identified salt responsive genes. The salt treatment was done on day 6 and 7 with increment of 25mM every 24h.						
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	evrard	Evrard	Johnson	Baumann	Tester	Bargmann	Birnbaum
+Person First Name	aurelie	Aurelie	Alex	Ute	Mark	Baastian	Kenneth
+Person Email	geo@ncbi.nlm.nih.gov						
+Person Affiliation	ACPFG						
+Person Address	ACPFG, Hartley Grove, Urrbrae, Adelaide, Australia						
+Person Roles	submitter						
+Protocol Name	P-GSE44307-1	P-GSE44307-5	P-GSE44307-6	P-GSE44307-2	P-GSE44307-3	P-GSE44307-4	P-GSE44307-7
+Protocol Description	Background correction and Robust Multi-array Average (RMA) normalization were performed within the “R” program using “affy” and limma packages. ID_REF =  VALUE = RMA normalized	cDNA was labeled and sheared using the FL-Ovation™ cDNA Biotin Module V2 (NuGEN technologies, USA).	Following fragmentation, 5 ug of cRNA were hybridized for 16 hr at 45C on ATH1 GeneChip. GeneChips were washed with Gene Chip Fluidics Station 450.	Salt treatment day 6: Same composition as growth solution supplemented with 25 mM NaCl and 0.22 mM CaCl2 (see Note 2), pH 5.7 (with 10 M KOH); Salt treatment day 7: Same composition as growth solution supplemented with 50 mM NaCl and 0.375 mM CaCl2, pH 5.7 (with 10 M KOH).	Sterilised Arabidopsis seeds germinated and grown for 5 or 7 days in 1/4X MS basal salt mixture, 1 X Gamborg’s B5 vitamin solution, 0.5% sucrose, 0.05% MES, pH 5.7 (with 10 M KOH).	Roots were protoplasted for 30min in (400 mM mannitol, 20 mM MES hydrate, 20 mM KCl, 1.25% Cellulase R10, 0.3% Macerozyme R10. Adjust pH to 5.7 with 1 M Tris pH 8. Heat 10 min in 60 �C water bath, cool to room temperature while stirring. Add 10 mM CaCl2 , 0.1% BSA and 1.79 �l of β-mercapoethanol), RNA was extracted using a kit (RNeasy Micro kit, Qiagen).	Chips were scanned with GeneChip Scanner 3000 (Affymetrix, USA).
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	GROWTH CONDITIONS	CELL TYPE	LINE				
+Experimental Factor Type	growth conditions	cell type	line				
+Comment[SecondaryAccession]	GSE44307						
+Comment[GEOReleaseDate]	2014-04-10						
+Comment[ArrayExpressSubmissionDate]	2013-02-13						
+Comment[GEOLastUpdateDate]	2014-04-10						
+Comment[AEExperimentType]	transcription profiling by array						
+SDRF File	E-GEOD-44307.sdrf.txt

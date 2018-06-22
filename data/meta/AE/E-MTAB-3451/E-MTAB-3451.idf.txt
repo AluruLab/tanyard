@@ -1,0 +1,35 @@
+Comment[ArrayExpressAccession]	E-MTAB-3451
+MAGE-TAB Version	1.1												
+Investigation Title	Profiling primary and secondary targets of ARF7 and ARF19 in Arabidopsis thaliana roots												
+Comment[Submitted Name]	Profiling primary and secondary targets of ARF7 and ARF19 in Arabidopsis thaliana roots
+Experiment Description	Arabidopsis thaliana AF7/ARF19 double knockout with ARF7 reintroduced under its own promotor with a glucocorticoid receptor added were treated with Auxin, Dexamethazone and cycloheximide to determine primary and secondary ARF7 auxin sensitive downstream targets												
+Experimental Design	stimulus or stress design												
+Experimental Design Term Source REF	EFO												
+Experimental Design Term Accession Number	EFO_0001762												
+Experimental Factor Name	growth condition												
+Experimental Factor Type	growth condition												
+Experimental Factor Term Source REF													
+Experimental Factor Term Accession Number													
+Person Last Name	Wilson												
+Person First Name	Michael												
+Person Mid Initials													
+Person Email	michael.wilson@nottingham.ac.uk												
+Person Phone	1159516108												
+Person Fax													
+Person Address	Centre for Plant Integrative Biology, Schoiol of Biosciences, Sutton Bonington Campus, University of Nottingham, LE12 5RD, UK												
+Person Affiliation	Centre for Plant Integrative Biology, University of Nottingham												
+Person Roles	submitter												
+Date of Experiment	2010-11-01												
+Public Release Date	2015-04-01												
+Protocol Name	P-MTAB-44053	P-MTAB-44054	P-MTAB-44055	P-MTAB-44056	P-MTAB-44057	P-MTAB-44058	P-MTAB-44059	P-MTAB-44060	P-MTAB-44061	P-MTAB-44062	P-MTAB-44063	P-AFFY-3	P-AFFY-6
+Protocol Type	growth protocol	treatment protocol	treatment protocol	treatment protocol	treatment protocol	treatment protocol	treatment protocol	treatment protocol	treatment protocol	nucleic acid extraction protocol	nucleic acid labeling protocol	nucleic acid hybridization to array protocol	array scanning and feature extraction protocol
+Protocol Term Source REF	EFO	EFO	EFO	EFO	EFO	EFO	EFO	EFO	EFO	EFO	EFO	EFO	EFO
+Protocol Term Accession Number	EFO_0003789	EFO_0003969	EFO_0003969	EFO_0003969	EFO_0003969	EFO_0003969	EFO_0003969	EFO_0003969	EFO_0003969	EFO_0002944	EFO_0003813	EFO_0003815	EFO_0003814
+Protocol Description	Seeds of pARF7::ARF7:GR (in the nph4-1 arf19-1 mutant background of Col-0 ecotype) were grown vertically on 1xMS media supplemented with 1 % (w/v) PGP-type agarose for five days in controlled environmental conditions of 23C under continuous light.	Plates containing seedlings were transfered into 1x MS medium 	Plates containing seedlings were transfered into 1x MS medium supplemented with 1 µM NAA and 2 µM dexamethasone	Plates containing seedlings were transfered into 1x MS medium supplemented with 1 µM NAA and 10 µM cycloheximide	Plates containing seedlings were transfered into 1x MS medium supplemented with 1 µM NAA, 2 µM dexamethasone and 10 µM cycloheximide	Plates containing seedlings were transfered into 1x MS medium	Plates containing seedlings were transfered into 1x MS medium supplemented with 2 µM dexamethasone	Plates containing seedlings were transfered into 1x MS medium supplemented with 10 µM cycloheximide	Plates containing seedlings were transfered into 1x MS medium supplemented with 2 µM dexamethasone and 10 µM cycloheximide	Total RNA was prepared using TRIzol reagent (Invitrogen) and then purified by RNeasy Plus Micro Kit (QIAGEN). RNA was quantifiedu sing a Nanodrop spectrophotometer (Nanodrop). All RNA samples were approximately 1 µg/µl in a total volume of 10 µl	RNA labelling and hybridisation to Affymetrix ATH1 arrays was performed according to manufacturers recommended protocol (Affymetrix, Santa Clara, CA)	P-AFFY-3	P-AFFY-6
+Protocol Hardware													
+Protocol Software													
+Term Source Name	ArrayExpress	EFO	PO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/	http://www.plantontology.org										
+Term Source Version													
+Comment[AEExperimentType]	transcription profiling by array												
+SDRF File	E-MTAB-3451.sdrf.txt

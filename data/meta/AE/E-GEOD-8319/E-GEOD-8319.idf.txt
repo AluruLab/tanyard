@@ -1,0 +1,52 @@
+Investigation Title	Transcription profiling of Arabidopsis ALys RLK1 mutant reveals LysM receptor-like kinase mediates chitin perception and fungal resistance								
+Comment[Submitted Name]	A LysM Receptor-like Kinase Mediates Chitin Perception and Fungal Resistance in Arabidopsis								
+Experimental Design	unknown_experiment_design_type	transcription profiling by array							
+Experimental Design Term Source REF		EFO							
+Comment[AEExperimentType]	transcription profiling by array								
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for rlk1 after treatment with chitooctaose								
+Comment[ArrayExpressReleaseDate]	2008-06-16								
+Comment[SecondaryAccession]	GSE8319								
+Comment[AEMIAMESCORE]	4								
+Comment[ArrayExpressAccession]	E-GEOD-8319								
+Comment[MAGETAB TimeStamp_Version]	2010-08-08 00:41:48 Last Changed Rev: 13058								
+Experimental Factor Name	genotype	growth condition							
+Experimental Factor Type	genotype	growth condition							
+Experimental Factor Term Source REF									
+Person Last Name	Stacey								
+Person First Name	Gary								
+Person Mid Initials									
+Person Email	staceyg@missouri.edu								
+Person Phone									
+Person Fax									
+Person Address	"Plant Sciences, University of Missouri-Columbia, 1201 Rollins Road, Columbia, 65211, USA"								
+Person Affiliation	University of Missouri-Columbia								
+Person Roles	submitter								
+Person Roles Term Source REF									
+Quality Control Type									
+Quality Control Term Source REF									
+Replicate Type									
+Replicate Term Source REF									
+Normalization Type									
+Normalization Term Source REF									
+Date of Experiment									
+Public Release Date	2008-06-16								
+PubMed ID	18263776								
+Publication DOI	10.1105/tpc.107.056754 								
+Publication Author List	"Wan J, Zhang XC, Neece D, Ramonell KM, Clough S, Kim SY, Stacey MG, Stacey G"								
+Publication Title	A LysM receptor-like kinase plays a critical role in chitin signaling and fungal resistance in Arabidopsis.								
+Publication Status	published								
+Publication Status Term Source REF	EFO								
+Publication Status Term Accession Number	EFO_0001796								
+Experiment Description	"A LysM Receptor-like Kinase Mediates Chitin Perception and Fungal Resistance in Arabidopsis; Jinrong Wan,1 Xuecheng Zhang,1 David Neece,2 Katrina M. Ramonell,3 Steve Clough,2,4 Sung-yong Kim,1 Minviluz Stacey,1 and Gary Stacey1*; 1Division of Plant Sciences, National Center for Soybean Biotechnology, C.S. Bond Life Sciences Center, University of Missouri-Columbia, Columbia, MO 65211, USA; 2Department of Crop Sciences, University of Illinois at Urbana-Champaign, Urbana, IL 61801, USA; 3Department of Biological Sciences, University of Alabama, Tuscaloosa, AL 35487, USA; 4US Department of Agriculture, Soybean/Maize Germplasm, Pathology and Genetics Research, Urbana, IL 61801, USA; *To whom correspondence should be addressed. E-mail: staceyg@missouri.edu; Abstract:  Chitin, a polymer of N-acetyl-D-glucosamine, is found in fungal cell walls, but not in plants. Plant cells are capable of perceiving chitin fragments (chitooligosaccharides) to trigger various defense responses. We identified a LysM receptor-like protein (AtLysM RLK1) that is required for the perception of chitooligosaccharides in Arabidopsis. Mutation of this gene blocked the induction of almost all chitooligosaccharide-responsive genes (CRGs) and led to more susceptibility to fungal pathogens, but not to a bacterial pathogen. In addition, exogenously applied chitooligosaccharides enhanced resistance against both fungal and bacterial pathogens in the wild-type plants, but not in the mutant. Together, our data strongly suggest AtLysM RLK1 is the chitin receptor or a key part of the receptor complex and chitin is a PAMP (pathogen-associated molecular pattern) in fungi recognized by the receptor leading to the induction of plant innate immunity against fungal pathogens. Since LysM RLKs were also recently shown to be critical for the perception of the rhizobial lipo-chitin Nod signals, our data suggest that LysM RLKs not just recognize friendly symbiotic rhizobia (via their lipo-chitin Nod signals), but also hostile fungal pathogens (via their cell wall chitin). These data suggest a possible evolutionary relationship between the perception mechanisms of Nod signals and chitin by plants.  Experiment Overall Design: wild type Col-0 and chitin receptor mutants treated with or without chitooctaose"								
+Protocol Name	P-G8319-5	P-G8319-1	P-G8319-7	P-G8319-2	P-G8319-6	P-G8319-4	P-G8319-3	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6
+Protocol Type	grow	grow	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	nucleic_acid_extraction	labeling	hybridization	feature_extraction
+Protocol Description	Seedlings were grown in the MS liquid medium for 14 days under constant light at 23 degree and then treated with water	Seedlings were grown in the MS liquid medium for 14 days under constant light at 23 degree and then treated with chitooctaose	Seedlings grown hydroponically were treated wtih water for 30 minutes (as a control). The collected seedlings were frozen in liquid nitrogen for RNA isolation uisng the Trizol solution (Invitrogen).	Seedlings grown hydroponically were treated wtih chitooctaose at a final concentration of 1 um for 30 minutes. The collected seedlings were frozen in liquid nitrogen for RNA isolation uisng the Trizol solution (Invitrogen).	Seedlings grown hydroponically were treated wtih water for 30 minutes (as a contro). The collected seedlings were frozen in liquid nitrogen for RNA isolation uisng the Trizol solution (Invitrogen).	Trizol extraction of total RNA was performed according to the manufacturer's instructions.	"Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 8 ug total RNA (Expression Analysis Technical Manual, Affymetrix)."	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 
+Protocol Parameters									
+Protocol Hardware									
+Protocol Software								MicroArraySuite 5.0	MicroArraySuite 5.0
+Protocol Contact									
+Protocol Term Source REF								mo	
+SDRF File	E-GEOD-8319.sdrf.txt								
+Term Source Name	NCBI Taxonomy		The MGED Ontology	ArrayExpress	EFO	mo			
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php			
+Term Source Version									

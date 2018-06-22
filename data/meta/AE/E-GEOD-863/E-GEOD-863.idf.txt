@@ -1,0 +1,50 @@
+Investigation Title	Transcription profiling of Arabidopsis seedlings treated with auxin	
+Comment[Submitted Name]	Auxin effects on seedlings	
+Experimental Design	compound_treatment_design	transcription profiling by array	
+Experimental Design Term Source REF	mo	EFO	
+Comment[AEMIAMESCORE]	4	
+Comment[ArrayExpressReleaseDate]	2008-06-16	
+Comment[SecondaryAccession]	GSE863	
+Comment[SecondaryAccession]	GDS744	
+Comment[ArrayExpressAccession]	E-GEOD-863	
+Comment[MAGETAB TimeStamp_Version]	2010-08-09 10:35:22 Last Changed Rev: 13058	
+Experimental Factor Name	Compound	
+Experimental Factor Type	compound	
+Experimental Factor Term Source REF	
+Person Last Name	Nemhauser	
+Person First Name	Jennifer	
+Person Mid Initials	
+Person Email	nemhauser@salk.edu	
+Person Phone	
+Person Fax	
+Person Address	Chory,PBIO,Salk Institute, ,La Jolla,92037,USA	
+Person Affiliation	Salk Institute	
+Person Roles	submitter	
+Person Roles Term Source REF	The MGED Ontology	
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2008-06-16	
+PubMed ID	15328536	
+Publication DOI	15328536	
+Publication Author List	Jennifer L Nemhauser, Todd C Mockler, Joanne Chory	
+Publication Title	Interdependency of brassinosteroid and auxin signaling in Arabidopsis.	
+Publication Status	journal_article	
+Publication Status Term Source REF	The MGED Ontology	
+Experiment Description	Five-day old light-grown Arabidopsis seedlings were immersed 10 ÂµM indole-3-acetic acid (auxin) or water	
+Protocol Name	
+Protocol Type	
+Protocol Description	
+Protocol Parameters	
+Protocol Hardware	
+Protocol Software	
+Protocol Contact	
+Protocol Term Source REF	
+SDRF File	E-GEOD-863.sdrf.txt	
+Term Source Name	NCBI Taxonomy	The MGED Ontology	ArrayExpress		NCI_thesaurus	mo	EFO	The MGED Ontology	
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress		ncithesaurus.obo.alt	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version									

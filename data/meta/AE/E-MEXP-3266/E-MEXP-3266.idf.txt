@@ -1,0 +1,31 @@
+Comment[ArrayExpressAccession]	E-MEXP-3266
+Investigation Title	Ruberti A. thaliana Intermediate molecular events in plant responses to canopy shade																								
+Comment[Submitted Name]	Ruberti A. thaliana Intermediate molecular events in plant responses to canopy shade
+Comment[AEExperimentDisplayName]	Ruberti A. thaliana Intermediate molecular events in plant responses to canopy shade																								
+Comment[MIAMExpressLogin]	ruberti																								
+Comment[MIAMExpressSubmissionID]	2926																								
+Experiment Description	Aim of the experiment is the analysis of early and late molecular events in plant response to canopy shade. To this end, gene expression changes were analysed in Arabidopsis seedlings after exposure to low R/FR light for 4 hours and 1 day. The experiment was designed to enable comparison between treated and untreated Arabidopsis seedlings.																								
+Experimental Design	reference_design	co-expression_design	time_series_design	growth_condition_design																					
+Comment[AEExperimentType]	transcription profiling by array																								
+Experimental Factor Name	TIME	GrowthCondition																							
+Experimental Factor Type	time	growth_condition																							
+Person Last Name	Ruberti																								
+Person First Name	Ida																								
+Person Email	ida.ruberti@uniroma1.it																								
+Person Phone	+390649912211																								
+Person Fax	+390649912500																								
+Person Affiliation	National Research Council																								
+Person Address	Institute of Molecular Biology and Pathology, P.le Aldo Moro 5, Rome, Rome, 00185, Italy																								
+Person Roles	submitter																								
+Person Roles Term Source REF	MGED Ontology																								
+Quality Control Type																									
+Public Release Date	2011-12-31																								
+Comment[ArrayExpressSubmissionDate]	2011-06-20 09:39:07																								
+Publication Status																									
+Protocol Name	P-MTAB-21439	P-MTAB-21440	P-MTAB-21441	P-MTAB-21442	P-MTAB-21443	P-MTAB-21444
+Protocol Description	Arabidopsis seedlings were exposed to high R/FR light and then to low R/FR light for a short and a long period of time. Light outputs in high R/FR were: 670 nm (Red) 96 mmoles m-2s-1; 735 nm (Far Red,) 21 mmoles m-2s-1; 470 nm (Blue) 15 mmoles m-2s-1. Light outputs in low R/FR were: 670 nm, 12 mmoles m-2s-1; 735 nm, 105 mmoles m-2s-1; 470 nm, 15 mmoles m-2s-1. 8-day-old seedlings were harvested after the exposure to low R/FR light for 4 hours and 1 day. As a control, 8-day-old seedlings grown for the entire period in high R/FR light were harvested.	15 µg of cRNA was used in a 300 µl hybridization containing added hybridization controls. 200 µl of mixture was hybridized on arrays for 16 h at 45°C. Standard post hybridization wash and double-stain protocols (EukGE-WS2v4) were used on an Affymetrix GeneChip Fluidics Station 400.<br>(Parameters: Chamber type = Affymetrix- GeneChip Hyb Oven 640, Quantity of label target used = 15, Mass unit = Micro gram, time = 16, Tiny time unit = hours, Volume = 200, Volume unit = Micro litre, temperature = 45)	RNAs from two biological replicates were used to prepare hybridization probes according to Affymetrix one-cycle protocol. 5 µg of total RNA was used in a reverse transcription reaction (SuperScript II; Invitrogen, Paisley, UK) to generate first-strand cDNA. After second-strand synthesis, double-strand cDNA was used in an in vitro transcription (IVT) reaction to generate biotinylated cRNA (ENZO BioArray HighYield RNA Transcript Labeling Kit; ENZO Diagnostics, Farmingdale, NY). Size distribution of the cRNA and fragmented cRNA, respectively, was assessed using an Agilent 2100 Bioanalyzer with a RNA 6000 Nano Assay.<br>(Parameters: Amount of nucleic acid labeled = 5, Label used = biotin, Amplification = none, Mass unit = Micro gram)	Seedlings were grown in a growth chamber (E30-LED, Percival Scientific Inc., USA), at 21°C temperature, 75% humidity, 16 h light/8 h dark cycles.<br>(Parameters: start time = 8, time unit = days, min temperature = 21, temperature unit = C)	Total RNA was isolated using the RNeasy Plant Mini Kit (Qiagen, Germany). Each sample consists of a pool of 200 individuals. Two sets of samples were collected from independent experiments.<br>(Parameters: Extracted product = total_RNA, Amplification = none)	Standard Affymetrix GeneChip array scan on an Affymetrix GeneChip scanner 3000.<br>(Parameters: Scanning hardware = GeneChip Scanner 3000 [Affymetrix], Scanning software = Scanning software)																			
+Protocol Type	specified_biomaterial_action	hybridization	labeling	grow	nucleic_acid_extraction	image_acquisition																			
+Protocol Term Source REF	MGED Ontology	MGED Ontology	MGED Ontology	MGED Ontology	MGED Ontology	MGED Ontology																			
+Term Source Name	MGED Ontology
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php																								
+SDRF File	E-MEXP-3266.sdrf.txt

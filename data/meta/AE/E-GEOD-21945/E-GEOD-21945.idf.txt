@@ -1,0 +1,52 @@
+Investigation Title	Gene expression data from Arabidopsis wild-type and pop2-1 mutant flowers							
+Comment[Submitted Name]	Gene expression data from Arabidopsis wild-type and pop2-1 mutant flowers							
+Experimental Design	transcription profiling by array							
+Experimental Design Term Source REF	EFO							
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[AEExperimentDisplayName]	Gene expression data from Arabidopsis wild-type and pop2-1 mutant flowers							
+Comment[SecondaryAccession]								
+Comment[SecondaryAccession]	GSE21945							
+Comment[ArrayExpressReleaseDate]	2010-06-16							
+Comment[AEMIAMESCORE]	5							
+Comment[ArrayExpressAccession]	E-GEOD-21945							
+Comment[MAGETAB TimeStamp_Version]	2010-08-04 07:04:59 Last Changed Rev: 13058							
+Experimental Factor Name	genotype							
+Experimental Factor Type	genotype							
+Experimental Factor Term Source REF								
+Person Last Name	PALANIVELU	Preuss	Updegraff	Palanivelu				
+Person First Name	RAVISHANKAR	Daphne	Emily	Ravishankar				
+Person Mid Initials								
+Person Email	rpalaniv@ag.arizona.edu							
+Person Phone								
+Person Fax								
+Person Address	"Palanivelu, Plant Sciences, University of Arizona, 1140 E. South Campus Drive P.O. Box 210036, Tucson, 85721, USA"							
+Person Affiliation	University of Arizona							
+Person Roles	submitter							
+Person Roles Term Source REF	The MGED Ontology							
+Quality Control Type								
+Quality Control Term Source REF								
+Replicate Type								
+Replicate Term Source REF								
+Normalization Type								
+Normalization Term Source REF								
+Date of Experiment								
+Public Release Date	2010-06-16							
+PubMed ID								
+Publication DOI								
+Publication Author List								
+Publication Title								
+Publication Status								
+Publication Status Term Source REF								
+Experiment Description	"Although two genes responsive to GABA were characterized previously in plants (Kathiresan et al 1997), a comprehensive study in reproductive and vegetative tissues has not been performed. Consequently, genes that mediate GABA response in plants remain unknown. We therefore used microarrays to survey the genome, identifying genes modulated in response to GABA in reproductive tissues.  Flowers were collected as described in the protocols section for RNA extraction and hybridization on Affymetrix ATH1 Genechip microarrays. Gene expression in wild-type and pop2-1 mutant flowers containing high levels of endogenous GABA were compared."							
+Protocol Name	P-GSE21945-2	P-GSE21945-4	P-GSE21945-3	P-GSE21945-5	P-GSE21945-6	P-GSE21945-7	P-GSE21945-8	P-GSE21945-1
+Protocol Type	specified_biomaterial_action	nucleic_acid_extraction	grow	labeling	hybridization	image_aquisition	feature_extraction	bioassay_data_transformation
+Protocol Description	Stage 14-15 pollinated flowers from pop2-1/pop2-1 homozygous mutant plants were collected and frozen in liquid nitrogen until RNA isolation.	"Total RNA was extracted from collected flowers using the Qiagen RNeasy kit (http://www.qiagen.com). Total RNA (10 Âµg) was prepared for microarray experiment as per the Affymetrix GeneChip Expression Analysis protocol (Part#701071, Rev 5, Affymetrix, Santa Clara, CA)."	pop2-1 homozygous mutant plants (Ler accession) were grown in chambers at 21Â°C under illumination (100 Âµmol m-2 s-1 with a 16-hour photoperiod).	"After first and second strand cDNA synthesis with total RNA, the cDNAs were used to generate cRNA labeled with biotin in an in vitro transcription reaction."	"Labeled cRNA was fragmented and 15 Âµg of fragmented cRNA (25-200nt as per Agilent 2100 Bioanalyzer RNA 6000 Nano Chip Series II Assay, Agilent Technologies, Waldbronn, Germany) was hybridized to the GeneChipÂ® Arabidopsis ATH1 genome arrays (http://www.affymetrix.com) for 20 hours at 45oC. Standard washing and staining procedures were performed using the GeneChip Fluidics Station 450 (Affymetrix, Santa Clara, CA)."	"The arrays were then scanned using the GeneChip Scanner 3000 with 7G upgrade (Affymetrix, Santa Clara, CA)."	"Signal intensities from each of the 15 arrays were converted to raw expression data (with Present, ""P"", Absent, ""A"" and Marginal, ""M"" scores) using Microarray Suite 5.0 (MAS 5.0; Affymetrix, Santa Clara, CA)."	ID_REF = <br>VALUE = signal intensity<br>ABS_CALL = absent or present call by Affymetrix<br>DETECTION P-VALUE = statistical significance
+Protocol Parameters								
+Protocol Hardware								
+Protocol Software								
+Protocol Contact								
+Protocol Term Source REF	The MGED Ontology	The MGED Ontology	The MGED Ontology	The MGED Ontology	The MGED Ontology		The MGED Ontology	The MGED Ontology
+SDRF File	E-GEOD-21945.sdrf.txt							
+Term Source Name	NCBI Taxonomy		The MGED Ontology	ArrayExpress	EFO	The MGED Ontology		
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php		
+Term Source Version								

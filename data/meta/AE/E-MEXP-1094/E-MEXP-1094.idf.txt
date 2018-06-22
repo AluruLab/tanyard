@@ -1,0 +1,49 @@
+Investigation Title	Transcription profiling of leaves from wild type and AtFAAH over-expressing Arabidopsis plants after inoculation with non-host pathogen Pseudomonas syringae pv. syringae for 0, 6 and 12 hours	
+Comment[AdditionalFile:XLS]	E-MEXP-1094.hybs.xls
+Comment[Submitted Name]	Overexpression of a fatty acid amide hydrolase compromises innate immunity in Arabidopsis	
+Experimental Design	time_series_design	stimulus_or_stress_design	co-expression_design	in_vivo_design	transcription profiling by array	
+Experimental Design Term Source REF	mo	mo	mo		EFO	
+Comment[ArrayExpressReleaseDate]	2007-11-01	
+Comment[AEMIAMESCORE]	5	
+Comment[ArrayExpressAccession]	E-MEXP-1094	
+Comment[MAGETAB TimeStamp_Version]	2010-08-09 19:32:54 Last Changed Rev: 13058	
+Experimental Factor Name	genotype	time	
+Experimental Factor Type	genotype	time	
+Experimental Factor Term Source REF	
+Person Last Name	Tang	
+Person First Name	Yuhong	
+Person Mid Initials	
+Person Email	ytang@noble.org	
+Person Phone	5802246645	
+Person Fax	
+Person Address	2510 Sam Noble Pkwy	
+Person Affiliation	Plant Biology Division	
+Person Roles	submitter	
+Person Roles Term Source REF	The MGED Ontology	
+Quality Control Type	biological_replicate	
+Quality Control Term Source REF	The MGED Ontology	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2007-11-01	
+PubMed ID	
+Publication DOI	
+Publication Author List	
+Publication Title	
+Publication Status	
+Publication Status Term Source REF	
+Experiment Description	Compare expression profiles between Col-0 and transgenic lines overexpressing AtFAAH(At5g64440) after inoculated with nonhost pathogen Pseudomonas syringae pv. syringae at 0, 6 and 12 hours.	
+Protocol Name	P-MEXP-53223	P-MEXP-53225	P-MEXP-52607	P-AFFY-2	Affymetrix:Protocol:Hybridization-EukGE-WS2v5_450[]	P-AFFY-6	Affymetrix:Protocol:ExpressionStat	Affymetrix:Protocol:MAS4:ExpressionCall	
+Protocol Type	grow	specified_biomaterial_action	nucleic_acid_extraction	labeling		feature_extraction	bioassay_data_transformation	bioassay_data_transformation	
+Protocol Description	Arabidopsis thaliana wild-type Col-0 and transgenic 35S::AtFAAH lines (OE2a-1, OE7a-1, and OE11a-1) were grown in growth chambers at 20 oC under short day condition (8 hrs light).  Four to five-week-old plants were used for inoculation in all experiments.	For bacterial inoculation, bacteria were grown in KB medium with appropriate antibiotics for 12 hrs and were pelleted by centrifugation at 4000 rpm. Bacterial pellets were washed three times and suspended in sterile water to stated concentrations. To reduce variation in infection, vacuum infiltration was used for experiments involving microarray analysis and SA quantification. A final concentration of 0.01% of Silwet L-77 (OSI, Danbary, CT) was added to facilitate infection in spraying and vacuum infiltration experiments. After inoculation, clear plastic domes were used to cover plants to facilitate disease development.	Total RNA was isolated from 0.5 g of M. truncatula suspension cells using 5 ml of Tri-Reagent (Molecular Research Center, Cincinnati, OH, USA) following the manufacturers protocol. RNA was further purified by MinElute (Qiagen, Valencia, CA).	Title: Affymetrix in vitro transcription. Description: 		Title: Affymetrix CEL analysis. Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 	Title: Affymetrix CHP Analysis (ExpressionCall). Description: 	
+Protocol Parameters	start time;stop time;media;min temperature;		Extracted product;Amplification;	
+Protocol Hardware	
+Protocol Software						MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 4.0	
+Protocol Contact	
+Protocol Term Source REF		mo					The MGED Ontology	mo	
+SDRF File	E-MEXP-1094.sdrf.txt	
+Term Source Name	mo		NCBI Taxonomy	NCI_thesaurus	The MGED Ontology	ArrayExpress	The MGED Ontology	mo	EFO	
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php		http://www.ncbi.nlm.nih.gov/Taxonomy/	ncithesaurus.obo.alt	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	
+Term Source Version										

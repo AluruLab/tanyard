@@ -1,0 +1,26 @@
+Comment[ArrayExpressAccession]	E-GEOD-37484
+MAGE-TAB Version	1.1					
+Public Release Date	2013-06-30
+Investigation Title	The effect of sucrose and sulfamethoxazole on the Arabidopsis transcriptome					
+Comment[Submitted Name]	The effect of sucrose and sulfamethoxazole on the Arabidopsis transcriptome
+Experiment Description	A chemical screen was performed in search of compounds that modify plant responses to sucrose. This screen uncovered that sulfamethoxazole (SMX), a folate biosynthesis inhibitor, acted synergistically with sucrose to inhibit hypocotyl elongation, suggesting interaction between these two pathways. Transcriptome analysis was performed to identify changes in transcript abundance that may underpin crosstalk between sucrose and SMX. Three-day-old dark-grown seedlings were treated to sucrose and SMX at concentrations that induced no change in hypocotyl elongation when administered independently, yet restricted elongation when both were present in the growth media (10mM and 0.2µM, respectively). This analysis uncovered multiple core auxin signalling components that exhibit altered  transcript abundance in response to co-treatment with sucrose and SMX, suggesting that auxin signalling mediates crosstalk between these two pathways. This study highlights an input through which metabolic status can shape plant growth and development through hormone signalling. 12 arrays total. Three arrays as non-treated control, three arrays from seedlings raised in presence of 0.2µM SMX, three arrays from seedlings raised in presence of 10mM sucrose, and three arrays from seeldings raised in presence of both 10mM sucrose and 0.2µM SMX. Three biological replicates were produced for each growth treatment.					
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl				
+Person Last Name	Campbell	Stokes	Chattopadhyay	Wilkins	Nambara	Campbell
+Person First Name	Malcolm	Michael	Abhishek	Olivia	Eiji	Malcolm
+Person Mid Initials	M.	E				M
+Person Email	malcolm.campbell@utoronto.ca					
+Person Affiliation	University of Toronto					
+Person Phone	416-946-0817					
+Person Fax	416-978-5878					
+Person Address	Cell & Systems Biology, University of Toronto, 25 Willcocks Street, Toronto, ON, Canada					
+Person Roles	submitter					
+Protocol Name	P-GSE37484-1	P-GSE37484-4	P-GSE37484-5	P-GSE37484-2	P-GSE37484-3	P-GSE37484-6
+Protocol Description	Analysis performed using the BioConductor suite in R. All 12 arrays were pre-processed together using GCRMA. Expression data were filtered to remove probe sets which reported low transcript abundance and low variance across all arrays (minimum intensity of 100 on at least two arrays, minimum inter-quartile range of 0.5 on the log2-scale). The pre-processed data were analysed as a 2 X 2 factorial complete randomized ANOVA using the linear model for microarray (limma) package in R (R Development Core Team, 2009). The linear model was parameterized by group means with a manually defined sum-to-zero contrast matrix to test directly for the contrasts of interest: the main and interaction effects overall, as well as the effect of the co-treatment with sucrose and SMX. A Benjamini-Hochberg false discovery rate of 0.1 was applied to the output of all tests (Benjamini and Hochberg, 1995). ID_REF =  VALUE = log2 scale, GCRMA signal	Affymetrix protocol: Eukaryotic target preparation: One-cycle target labeling assay.	Affymetrix protocol: Eukaryotic target preparation: Eukaryotic target hybridization.	Wild-type Arabidopsis thaliana (Col) seeds were sown in sterile liquid MS growth media in 24-well plates and wrapped in light-blocking foil. Plates were cold-stratified at 4C for three days, then exposed to light for six hours to promote germination. Seedlings were grown for three days at 21C prior to RNA extraction.	Total RNA extracted using RNeasy extraction kit (Qiagen).	Affymetrix protocol: GeneChip Scanner 3000 7G Affymetrix 00-0073.
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Comment[SecondaryAccession]	GSE37484					
+Comment[GEOReleaseDate]	2013-06-30					
+Comment[ArrayExpressSubmissionDate]	2012-04-23					
+Comment[GEOLastUpdateDate]	2013-06-30					
+Comment[AEExperimentType]	transcription profiling by array					
+SDRF File	E-GEOD-37484.sdrf.txt

@@ -1,0 +1,58 @@
+Comment[ArrayExpressAccession]	E-GEOD-29187								
+Public Release Date	2011-10-13								
+Investigation Title	Impact of RAP2.12 alterations on gene expression in hypoxic and aerobic conditions in Arabidopsis thaliana								
+Comment[Submitted Name]	Impact of RAP2.12 alterations on gene expression in hypoxic and aerobic conditions in Arabidopsis thaliana								
+Experiment Description	"In this study we analyzed the effect of overexpression of an HA-tagged version of the ERF RAP2.12 on the transcriptome levels in aerobic and hypoxic-treated (O2 21% and 1%, respectively) Arabidopsis thaliana rosettes. We also analyzed the effect of a RAP2.12 and RAP2.2 simultaneous silencing in aerobic and hypoxic-treated (O2 21% and 1%, respectively) Arabidopsis thaliana rosettes. We treated Arabidopsis Col-0 (wt) rosettes and transgenic HA::RAP2.12 and amiRAP2.2-12 , 5-week old, grown in 8/16 light/dark photoperiod with: -Control (22°C, dark, 21% O2, 1.5h). -Hypoxia (22°C, dark, 1% O2, 1.5h)."								
+Date of Experiment									
+Term Source Name	EFO								
+Term Source Version									
+Term Source File	http://www.ebi.ac.uk/efo/efo.owl								
+Person Last Name	Licausi	Licausi	Giorgi	van Dongen					
+Person First Name	Francesco	Francesco	Federico	Joost					
+Person Mid Initials			M	T					
+Person Email	f.licausi@sssup.it								
+Person Affiliation	Scuola Superiore Sant'Anna								
+Person Phone									
+Person Fax									
+Person Address	"Scuola Superiore Sant'Anna, Via Mariscolgio 34, Pisa, Italy"								
+Person Roles	submitter								
+Person Roles Term Source REF									
+Person Roles Term Accession Number									
+Normalization Type									
+Normalization Term Accession Number									
+Normalization Term Source REF									
+Replicate Type									
+Replicate Term Accession Number									
+Replicate Term Source REF									
+Experimental Design									
+Experimental Design Term Accession Number									
+Experimental Design Term Source REF									
+Quality Control Type									
+Quality Control Term Accession Number									
+Quality Control Term Source REF									
+Protocol Name	P-GSE29187-1	P-GSE29187-6	P-GSE29187-3	P-GSE29187-8	P-GSE29187-7	P-GSE29187-9	P-GSE29187-2	P-GSE29187-4	P-GSE29187-5
+Protocol Description	ID_REF = <br>VALUE = GC-RMA normalized probeset abundance	Affymetrix standard hybridization protocol	Seeds were sown in 6-cm diameter pots containing moisted Arabidopsis soil. The seeds were stratified at 4°C in the dark for 2 days and then the pots were moved in a growth chamber at short photoperiodic conditions (8h light 16 h darkness) with 18°C in the night and 22°C in the day.	GC-RMA algorithm	Affymetrix standard scan protocol	"Plants were kept in the dark at a 1% O2 atmosphere for 1.5h starting the treatment at 10am in the morning, 2h after the start of the day"	"Plants were kept in the dark at a 21% O2 atmosphere for 1.5h starting the treatment at 10am in the morning, 2h after the start of the day"	Total RNA was extracted from whole 5-week old plants using the RNeasy kit (Qiagen). RNA quality was assessed by agarose gel electrophoresis and spectrophotometry. RNA was processed for use on Affymetrix Arabidopsis Genome GeneChip arrays.	Affymetrix standard labeling protocol
+Protocol Software									
+Protocol Hardware									
+Protocol Contact									
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_aquisition	specified_biomaterial_action	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Protocol Term Source REF									
+Protocol Term Accession Number									
+Experimental Factor Name	growth condition	genotype							
+Experimental Factor Type	growth condition	genotype							
+Experimental Factor Term Source REF									
+Experimental Factor Term Accession Number									
+Publication Title	Oxygen sensing in plants is mediated by an N-end rule pathway for protein destabilization.								
+Publication Author List	"Licausi F, Kosmacz M, Weits DA, Giuntoli B, Giorgi FM, Voesenek LA, Perata P, van Dongen JT"								
+PubMed ID	22020282								
+Publication DOI	10.1038/nature10536								
+Publication Status	published								
+Publication Status Term Source REF	EFO								
+Publication Status Term Accession Number	EFO_0001796								
+Comment[SecondaryAccession]	GSE29187								
+Comment[GEOLastUpdateDate]	2011-11-11								
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis overexpressing RAP2.12 or with RAP2.12 and RAP2.2 silenced after growth in hypoxic conditions								
+Comment[AEExperimentType]	transcription profiling by array								
+Comment[GEOReleaseDate]	2011-10-12								
+Comment[ArrayExpressSubmissionDate]	2011-05-09								
+SDRF File	E-GEOD-29187.sdrf.txt								

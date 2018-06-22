@@ -1,0 +1,34 @@
+Comment[ArrayExpressAccession]	E-MEXP-2350			
+Investigation Title	Transcription profiling of Arabidopsis thaliana AP1::AtIPT4 transformants vs wild type plants to identify the candidate genes responsive to cytokinin			
+Comment[Submitted Name]	Cytokinin-Regulation of Floral Development through Transgenic Expression of AtIPT4 in Arabidopsis			
+Publication Title	Cytokinin-Regulated Floral Development at Least Partially Mediated by CUC2 and CUC3 in Arabidopsis			
+Publication Author List	Li XG, Su YH, Zhao XY, Li W, Gao XQ, Zhang XS			
+Publication DOI	10.1016/j.gene.2009.11.003			
+PubMed ID	19913077			
+Experimental Design	co-expression_design	all_pairs	transcript_identification_design	transcription profiling by array
+Experimental Design Term Source REF	The MGED Ontology			EFO
+Comment[MIAMExpressLogin]	xianshengzhang			
+Comment[MIAMExpressSubmissionID]	6037			
+Comment[AEExperimentType]	transcription profiling by array			
+Comment[AEExperimentDisplayName]	Transcription profiling by array of young inflorescences of AP1∷AtIPT4 Arabidopsis thaliana transgenic plants to identify the candidate genes responsive to cytokinin			
+Experiment Description	The aim of this experiment is to identify the candidate genes responsive to cytokinin in Arabidopsis floral development. For this purpose, AtIPT4 gene under the control of the AP1 promoter was transformed into wild type plants of Arabidopsis. The transcriptional profiles of the young inflorescence of AP1::AtIPT4 transformants and wild-type plants are compared.			
+Experimental Factor Name	genotype			
+Experimental Factor Type	genotype			
+Person Last Name	Zhang			
+Person First Name	Xian Sheng			
+Person Email	zhangxs@sdau.edu.cn			
+Person Phone	86538-8249418			
+Person Affiliation	Shandong Agricultural University			
+Person Address	College of Life Sciences, Daizong Street 61, Taian, Shandong, 271018, China			
+Person Roles	submitter			
+Person Roles Term Source REF	MGED Ontology			
+Quality Control Type	biological_replicate			
+Public Release Date	2010-09-07			
+Comment[ArrayExpressSubmissionDate]	2009-09-13			
+Protocol Name	P-MTAB-5342	P-MTAB-5343	P-MTAB-5344	
+Protocol Description	Total RNA was isolated from the young inflorescences at around 5 mm height with Trizol reagent (Invitrogen) according to the manufacturer's protocol.<br>(Parameters: Extracted product = total_RNA, Amplification = none)	The data per chip were analyzed with GeneSpring 7.31 (Agilent) using the default analysis settings and global scaling as normalization method. The trimmed mean target intensity of each array was arbitrarily set to 500.	Plants were grown on soil for two weeks under short day conditions (10 hr light/14 hr darkness, 20-21C), and then shifted to long day conditions (16 hr light/8 hr darkness, 20-21C) to induce flowering. <br>(Parameters: time unit = seconds, temperature unit = C)	
+Protocol Type	nucleic_acid_extraction	bioassay_data_transformation	grow	
+Protocol Term Source REF				
+Term Source Name	MGED Ontology	ArrayExpress	The MGED Ontology	EFO
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/
+SDRF File	E-MEXP-2350.sdrf.txt			

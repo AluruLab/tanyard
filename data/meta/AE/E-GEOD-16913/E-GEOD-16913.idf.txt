@@ -1,0 +1,58 @@
+Comment[ArrayExpressAccession]	E-GEOD-16913							
+Public Release Date	2009-11-26							
+Investigation Title	Expression data of ahg2-1, ahg2-1abi1-1, ahg2-1sid2-2, and WT Arabidopsis plants grown under normal growth conditions.							
+Comment[Submitted Name]	Expression data of ahg2-1, ahg2-1abi1-1, ahg2-1sid2-2, and WT Arabidopsis plants grown under normal growth conditions.							
+Experiment Description	Arabidopsis ABA hypersensitive germination2-1 mutant shows an enhanced sensitivity to ABA. This mutant has higher levels of endogenous ABA. This mutant also exhibited SA hypersensitivity and dwarf phenotype. Regarding SA hypersensitivity, ahg2-1 exhibits higher endogenous SA level and an enhanced resistance to pathogenic bacteria. Since AHG2 encodes the Arabidopsis polyA specific ribonuclease that is involved in mRNA degradation, presumably abnormal accumulation of some mRNAs confers the unique phenotype. Transcriptome analyses are expected to offer information on the target of AHG2. In order to eliminate secondary effects of higher levels of ABA and SA, ahg2-1abi1-1 and ahg2-1sid2-2 double mutants were also examined. The transcriptome data revealed that; ahg2-1 confers unique gene expression profiles, ABA and SA affect the expression profiles of this mutant but many genes are independent of those plant hormone responses. Comparing with expression profiles of other mutants indicated that the ahg2-1 might affect mitochondrial function.   Keywords: strain comparison, ABA, SA To investigate the whole genome transcription profiles of an ABA and SA hypersensitive mutant ahg2-1, transcriptome analysis for wild type, ahg2-1, ahg2-1abi1-1, ahg2-1sid2-2 plants were conducted. The plants of those lines were grown on MS-pplante containing 0,2% sucrose for three weeks under normal conditions. Comparing the data among those four lines, the direct targets of the ahg2-1 mutation were analyzed using R. In addition, the deduced data were compared with transcriptome data of various mutants or stimuli deposited in public database.							
+Date of Experiment								
+Term Source Name	EFO							
+Term Source Version								
+Term Source File	http://efo.svn.sourceforge.net/viewvc/efo/trunk/src/efoinowl/efo.owl							
+Person Last Name	Hirayama	Hirayama	Nishimura					
+Person First Name	Takashi	Takashi	Noriyuki					
+Person Mid Initials								
+Person Email	takashih@riken.jp							
+Person Affiliation	RIKEN							
+Person Phone								
+Person Fax	+81-45-508-7363							
+Person Address	RIKEN Yokohama Institute, RIKEN, 1-7-29 Suehiro, Tsururumi, Yokohama, Kanagawa, Japan							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Person Roles Term Accession Number								
+Normalization Type								
+Normalization Term Accession Number								
+Normalization Term Source REF								
+Replicate Type								
+Replicate Term Accession Number								
+Replicate Term Source REF								
+Experimental Design								
+Experimental Design Term Accession Number								
+Experimental Design Term Source REF								
+Quality Control Type								
+Quality Control Term Accession Number								
+Quality Control Term Source REF								
+Protocol Name	P-GSE16913-1	P-GSE16913-6	P-GSE16913-3	P-GSE16913-8	P-GSE16913-7	P-GSE16913-2	P-GSE16913-4	P-GSE16913-5
+Protocol Description	ID_REF = probe ID of ATH1 GeneChip<br>VALUE = RMA normalized log2 signal intensity	30 ug cRNA was used. ATH1 GeneChip was used.	The plates were kept in a growth chamber under the following conditions: 23°C, 16 hr light and 8 hr dark cycles.	RMA normalized using Cel file with affllmGUI.	Scanned using a GSC3000 scanner according to the manufacturer’s recommendations.	Plants were grown on MS-2% sucrose plate for three weeks.	Total RNA was extracted from frozen tissue using TRIzol reagent (Invitrogen) and purified using the RNeasy MinElute Cleanup Kit (Qiagen).	First-strand cDNA was synthesized using 15 µg of total RNA and SuperScript Double-stranded cDNA Synthesis kit (Invitrogen). The labeled cRNA was synthesized using BioArray RNA Transcripts Labeling Kit (T7) (ENZO Life Sciences inc.). After labeling, the cRNA was digested partially by incubating in 40 mM Tris-acetate, pH8.0, 100 mM KOAc, 30 mM MgOAc, at 94°C for 35 min. Then 30 µg cRNA was used for microarrary hybridization.
+Protocol Software								
+Protocol Hardware								
+Protocol Contact								
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Protocol Term Source REF								
+Protocol Term Accession Number								
+Experimental Factor Name	GENOTYPE							
+Experimental Factor Type	genotype							
+Experimental Factor Term Source REF								
+Experimental Factor Term Accession Number								
+Publication Title	ABA hypersensitive germination2-1 causes the activation of both abscisic acid and salicylic acid responses in Arabidopsis.							
+Publication Author List	Nishimura N, Okamoto M, Narusaka M, Yasuda M, Nakashita H, Shinozaki K, Narusaka Y, Hirayama T							
+PubMed ID	19892832							
+Publication DOI	10.1093/pcp/pcp146							
+Publication Status	published							
+Publication Status Term Source REF	EFO							
+Publication Status Term Accession Number	EFO_0001796							
+Comment[SecondaryAccession]	GSE16913							
+Comment[GEOLastUpdateDate]	2009-11-27							
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for ahg2 only, ahg2 and sid2 or ahg2 and abi1							
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[GEOReleaseDate]	2009-11-27							
+Comment[ArrayExpressSubmissionDate]	2009-06-30							
+SDRF File	E-GEOD-16913.sdrf.txt							

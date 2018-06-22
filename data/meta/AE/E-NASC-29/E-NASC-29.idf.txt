@@ -1,0 +1,48 @@
+Investigation Title	Transcription profiling of Arabidopsis 3 day-old seedlings of acn1-2 and the parent, Col-7 in the presence/absence of sucrose	
+Comment[Submitted Name]	Greville: Investigating the links between organic acid and carbohydrate regulation of gene expression.	
+Experimental Design	genetic_modification_design	transcription profiling by array	
+Experimental Design Term Source REF	mo	EFO	
+Comment[ArrayExpressReleaseDate]		
+Comment[AEMIAMESCORE]	4	
+Comment[ArrayExpressAccession]	E-NASC-29	
+Comment[MAGETAB TimeStamp_Version]	2010-10-15 14:18:17 Last Changed Rev: 14677	
+Experimental Factor Name	strain_or_line	nutrients	
+Experimental Factor Type	strain_or_line	nutrients	
+Experimental Factor Term Source REF	
+Person Last Name	unknown	Greville	
+Person First Name	unknown	Karen	
+Person Mid Initials	
+Person Email		m.a.hooks@bangor.ac.uk	
+Person Phone	+44 (0)115 951 3091	01248-382297	
+Person Fax	+44 (0)115 951 3297	01248-370731	
+Person Address	Plant Science Division, School of Biosciences, University of Nottingham, Sutton Bonnington Campus, Loughborough LE12 5RD, UK	School of Biological Sciences University of Wales, Bangor Gwynedd LL57 2UW United Kingdom 	
+Person Affiliation		University of Wales, Bangor	
+Person Roles		submitter;biosource_provider;investigator	
+Person Roles Term Source REF		mo	
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	
+PubMed ID	
+Publication DOI	
+Publication Author List	
+Publication Title	
+Publication Status	
+Publication Status Term Source REF	
+Experiment Description	Arabidopsis acetate non-utilizing mutants were isolated based on fluoroacetate resistant germination. Interestingly, a number of these mutants exhibited altered developmental characteristics in response to exogenous sucrose supply, such as bleaching of the cotyledons.  A preliminary microarray experiment has already been conducted on one of the mutants, acn1-2.  The gene expression analysis was done using 3 day-old seedlings of acn1-2 and the parent, Col-7, which were germinated on agar plates with and without exogenous sucrose.  A cross-comparison of acn1-2 and Col-7 revealed that the expression of a number of carbohydrate responsive genes was altered in the mutant.  The request for further microarray analysis is to confirm this result.	
+Protocol Name	NASCSampleTreatmentProt:686	NASCSampleTreatmentProt:389	NASCSampleTreatmentProt:382	NASCGrowProt:387	NASCSampleTreatmentProt:385	NASCSampleTreatmentProt:685	NASCSampleTreatmentProt:390	NASCGrowProt:388	NASCSampleTreatmentProt:383	NASCSampleTreatmentProt:684	NASCSampleTreatmentProt:384	NASCGrowProt:386	NASCExtractProtocol:11	NASCLabelProtocol:1	Affymetrix:Protocol:Hybridization-EukGE-WS2v4	Affymetrix:Protocol:Percentile	Affymetrix:Protocol:ExpressionStat	
+Protocol Type													nucleic_acid_extraction	labeling	hybridization	feature_extraction	bioassay_data_transformation	
+Protocol Description	The agar media was supplemented with 100mM Sucrose. Plants were grown to growth stage 0.70 (Boyes key). Whole seedlings were harvested for RNA extraction.	The agar media was supplemented with 100mM Sucrose. Plants were grown to growth stage 0.70 (Boyes key). Whole seedlings were harvested for RNA extraction.	Plants were not treated. Plants were grown to growth stage 0.70 (Boyes key). Whole seedlings were harvested for RNA extraction.	Plants were grown in a growth room with a continual lighting source at a temperature of 20C on agar media with half strength MS salts at pH 5.7. Stratification was carried out at 4C for days in the dark. Lighting intensity was 70 umol m-2.	Plants were not treated. Plants were grown to growth stage 0.70 (Boyes key). Whole seedlings were harvested for RNA extraction.	The agar media was supplemented with 100mM Sucrose. Plants were grown to growth stage 0.70 (Boyes key). Whole seedlings were harvested for RNA extraction.	The agar media was supplemented with 100mM Sucrose. Plants were grown to growth stage 0.70 (Boyes key). Whole seedlings were harvested for RNA extraction.	Plants were grown in a growth room with a continual lighting source at a temperature of 20C on agar media with half strength MS salts at pH 5.7. Stratification was carried out at 4C for days in the dark. Lighting intensity was 70 umol m-2.	Plants were not treated. Plants were grown to growth stage 0.70 (Boyes key). Whole seedlings were harvested for RNA extraction.	The agar media was supplemented with 100mM Sucrose. Plants were grown to growth stage 0.70 (Boyes key). Whole seedlings were harvested for RNA extraction.	Plants were not treated. Plants were grown to growth stage 0.70 (Boyes key). Whole seedlings were harvested for RNA extraction.	Plants were grown in a growth room with a continual lighting source at a temperature of 20C on agar media with half strength MS salts at pH 5.7. Stratification was carried out at 4C for days in the dark. Lighting intensity was 70 umol m-2.	Total RNA was used. Protocol source was the Affymetrix GeneChip Technical Analysis manual.	RNA samples were quality controlled using the Agilent 2100 Bioanalyzer. 100 pmol T7-(dT)24 primer (5'-GGCCAGTGAATTGTAATACGACTCACTATAGGGAGGCGG-(dT)24-3')  was hybridized with the Total RNA ( 8 - 12ug) at 70ÃÂ°C for 10 minutes.  First strand cDNA was synthesized by reverse transcription using 400 units SuperScript II Reverse Transcriptase in a reaction containing 50 mM Tris-HCl (pH 8.3), 75 mM KCl, 3 mM MgCl2, 10 mM dithiothreitol (DTT) and 0.5 mM dNTPs at 42C for 1 hour.  The reaction was then put on ice for 2 mins, followed by second strand cDNA synthesis.  130ul of the second strand reaction mix was added to the 20ul  first strand synthesis reaction. The second strand reaction mix  contained 40 units E. coli DNA polymerase I, 10 units E. coli DNA ligase, 2 units  E. coli RNase H and 0.2 mM dNTPs in a buffer containing 20 mMTris-HCl (pH 6.9), 90 mM KCl, 4.6 mM MgCl2, 10mM (NH4)SO4 and 0.15 mM ÃÂ-NAD+. The reaction was incubated at 16 C for 2 hours.  10 units T4 DNA Polymerase was added and the reaction incubated for a further 5 minutes at 16 C, then the reaction was terminated using EDTA.  The double-stranded cDNA was cleaned up using the cDNA Cleanup Spin Column supplied in the Affymetrix GeneChip Sample Cleanup Module.  The double-stranded cDNA was used as a template for in Vitro transcription of biotin-labeled cRNA using the ENZO BioArray RNA Transcript Labeling Kit supplied by Affymetrix.  The Transcript Labeling kit produces large amounts of hybridizable biotin-labeled RNA targets by in Vitro transcription from bacteriophage T7 RNA polymerase promoters.  The reaction mixture containing Biotin-Labeled ribonucleotides (ATP, GTP, CTP, UTP with Bio-UTP and Bio-CTP), DTT, RNase inhibitor mix and T7 RNA polymerase was incubated at 37 C for 5 hrs, gently mixing every 30 minutes during the incubation. This produced an average of 40ug biotin-labeled cRNA . The biotin-labeled cRNA  was cleaned up using the cRNA Cleanup Spin Column supplied in the Affymetrix GeneChip Sample Cleanup Module.  The quantity and quality of the cRNA was measured using the Agilent 2100 Bioanalyzer. The total amount of cRNA was calculated, the starting quantity of RNA subtracted to give the quantity of adjusted cRNA.  The cRNA was fragmented by metal-induced hydrolysis to break down full-length cRNA to 35-200 base fragments.  15ug of adjusted cRNA was used to prepare 300ul of hybridization cocktail of which 200ul was hybridized with the GeneChip.	Title: Fluidics Station Protocol. Description: 	Title: Affymetrix CEL Analysis (Percentile). Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 	
+Protocol Parameters				location;Lighting;Temperature;Humidity;Atmosphere;Stratification;Treatment;Medium;				location;Atmosphere;Humidity;Temperature;Lighting;Medium;Treatment;Stratification;				location;Temperature;Lighting;Atmosphere;Humidity;Stratification;Medium;Treatment;	
+Protocol Hardware	
+Protocol Software															MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact	
+Protocol Term Source REF													mo				The MGED Ontology	
+SDRF File	E-NASC-29.sdrf.txt	
+Term Source Name	The MGED Ontology		ncbitax	nasc	ArrayExpress	mo	EFO	The MGED Ontology	
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php		http://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html	http://arabidopsis.info/catalogue.html	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version									

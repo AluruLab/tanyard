@@ -1,0 +1,51 @@
+Investigation Title	Transcription profiling of heat stress response in Arabidopsis wild type and hsf1x3 double knockout mutant lines							
+Comment[Submitted Name]	Heat Stress on Arabidopsis Wildtype and hsf1x3 double knockout mutant lines							
+Experimental Design	stimulus_or_stress_design	transcription profiling by array						
+Experimental Design Term Source REF	mo	EFO						
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for hsf1 and hsf3 after heat shock treatment							
+Comment[ArrayExpressReleaseDate]	2004-12-15							
+Comment[AEMIAMESCORE]	5							
+Comment[ArrayExpressAccession]	E-MEXP-98							
+Comment[MAGETAB TimeStamp_Version]	2010-08-11 16:52:36 Last Changed Rev: 13058							
+Experimental Factor Name	GENOTYPE	STRESS	INDIVIDUAL					
+Experimental Factor Type	genotype	treatment	individual					
+Experimental Factor Term Source REF								
+Person Last Name	Busch							
+Person First Name	Wolfgang							
+Person Mid Initials								
+Person Email	wolfgang.busch@student.uni-tuebingen.de							
+Person Phone	07071 2974251							
+Person Fax								
+Person Address	Auf der Morgenstelle 28							
+Person Affiliation	ZMBP - Allgemeine Genetik							
+Person Roles	submitter							
+Person Roles Term Source REF	mo							
+Quality Control Type	spike_quality_control	biological_replicate						
+Quality Control Term Source REF		The MGED Ontology						
+Replicate Type								
+Replicate Term Source REF								
+Normalization Type								
+Normalization Term Source REF								
+Date of Experiment								
+Public Release Date	2004-12-15							
+PubMed ID	15610345							
+Publication DOI	10.1111/j.1365-313X.2004.02272.x							
+Publication Author List	Busch W, Wunderlich M, Schöffl F.							
+Publication Title	Identification of novel Heat Shock Factor dependent genes and biochemical pathways in Arabidopsis thaliana							
+Publication Status	published							
+Publication Status Term Source REF	EFO							
+Publication Status Term Accession Number	EFO_0001796							
+Experiment Description	The aim of the expression profiling was to define and to apply criteria that allow discrimination between the effects of heat stress (HS) and HSF-dependent gene expression in Arabidopsis. Therefore we determined and analyzed the expression profiles of wild type (WT) and homozygous hsf1--/hsf3-- double knock out mutant plants (abbreviated hsf1/3). Hsf1/3 plants are deficient in HSF1 and HSF3 activity and unable to induce the fast transient expression of mRNAs of a number of HS genes tested (Lohmann et al., 2004).<br> The effects of HS on gene expression were analyzed after one hour heat treatment (37C) of leaf tissue. 							
+Protocol Name	P-MEXP-3314	P-MEXP-3316	P-MEXP-3315	P-MEXP-3318	P-MEXP-3319	Affymetrix:Protocol:Hybridization-EukGE-WS2v4	P-AFFY-6	P-MEXP-3323
+Protocol Type	grow	specified_biomaterial_action	specified_biomaterial_action	nucleic_acid_extraction	labeling	hybridization	feature_extraction	bioassay_data_transformation
+Protocol Description	Plants were soilgrown in a dark/light cycle of 16/8h at 20C (60% humidity, 5000 lux light intensity)	Control Condition was administered by incubating leaves collected from 35 soil-grown plants for 1h at 22C in section incubation buffer (SIB: 1 mM potassium sulfate, pH 6.0 and 1 % sucrose) in a closed shaking water bath.	Heat shock was administered by incubating leaves collected from 35 soil-grown plants for 1h at 37C in section incubation buffer (SIB: 1 mM potassium sulfate, pH 6.0 and 1 % sucrose) in a closed shaking water bath. 	For RNA isolation the pooled leaves were frozen in liquid nitrogen. Frozen tissue was stored at -80C, and RNA was extracted with the Plant RNeasy Mini Kit (Qiagen, Hilden, GER), according to the manufacturer's instructions.	In vitro transcription by using double-stranded cDNA as a template in the presence of biotinylated UTP and CTP, using an ENZO BioArray HighYield RNA Transcript Labeling Kit (Affymetrix, Santa Clara, CA, and ENZO Diagnostics, Farmingdale, NY) according to the manufacturer's instructions. 	Title: Fluidics Station Protocol. Description: 	Title: Affymetrix CEL analysis. Description: 	For comparison across multiple arrays, raw data was scaled by MAS 5.0 (Affymetrix) to the TGT-Value: 200. <br> Signal intensities for each probe were estimated from .cel files by the Robust Multichip Average expression summary (Irizarry et al., 2003) RMA. 
+Protocol Parameters	min temperature;media;			Amplification;Extracted product;	Amplification;Label used;			
+Protocol Hardware								
+Protocol Software						MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact								
+Protocol Term Source REF								
+SDRF File	E-MEXP-98.sdrf.txt							
+Term Source Name	mo		The MGED Ontology	ncbitax	ArrayExpress	The MGED Ontology	mo	EFO
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/
+Term Source Version								

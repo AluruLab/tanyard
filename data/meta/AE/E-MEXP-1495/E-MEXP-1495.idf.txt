@@ -1,0 +1,50 @@
+Investigation Title	Transcription profiling of Arabidopsis wild type and SAL1 mutant plants grown under normal conditions										
+Comment[AdditionalFile:XLS]	E-MEXP-1495.hybs.xls										
+Comment[Submitted Name]	Role of SAL1 in drought tolerance										
+Experimental Design	replicate_design	reference_design	co-expression_design	genetic_modification_design	transcription profiling by array						
+Experimental Design Term Source REF	mo	mo	mo	mo	EFO						
+Comment[ArrayExpressReleaseDate]	2009-02-27										
+Comment[AEMIAMESCORE]	4										
+Comment[ArrayExpressAccession]	E-MEXP-1495										
+Comment[MAGETAB TimeStamp_Version]	2010-08-09 22:19:20 Last Changed Rev: 13058										
+Experimental Factor Name	genotype	ecotype									
+Experimental Factor Type	genotype	ecotype									
+Experimental Factor Term Source REF											
+Person Last Name	Wilson										
+Person First Name	Pip										
+Person Mid Initials	B										
+Person Email	pip.wilson@anu.edu.au										
+Person Phone	+612 6125 2663										
+Person Fax	+612 6125 0313										
+Person Address	Bldg 41, Linnaeus Way, Acton										
+Person Affiliation	BaMBi										
+Person Roles	submitter										
+Person Roles Term Source REF	The MGED Ontology										
+Quality Control Type											
+Quality Control Term Source REF											
+Replicate Type											
+Replicate Term Source REF											
+Normalization Type											
+Normalization Term Source REF											
+Date of Experiment											
+Public Release Date	2009-02-27										
+Publication Title	The nucleotidase/phosphatase SAL1 is a negative regulator of drought tolerance in Arabidopsis.										
+Publication Author List	Wilson PB, Estavillo GM, Field KJ, Pornsiriwong W, Carroll AJ, Howell KA, Woo NS, Lake JA, Smith SM, Harvey Millar A, von Caemmerer S, Pogson BJ										
+PubMed ID	19170934										
+Publication DOI	10.1111/j.1365-313X.2008.03780.x										
+Publication Status											
+Publication Status Term Source REF											
+Experiment Description	Null mutations in the SAL1 protein, a bi-functional protein with inositol polyphosphate-1-phosphotase activity and nucleosidase activity, result in mutants with altered leaf morphology, delayed growth and tolerance to drought stress. This experiment examines the gene expression of two SAL1 mutants, alx8 in the Col-0 background and fry1-1 in the C24 background, under normal growth conditions. In brief, RNA was extracted from the leaves of three plants of each mutant and their respective ecotypes two hours after lights on. Plants were grown under normal conditions for 5 weeks before harvesting. Each array represent a single biological replicate.										
+Protocol Name	P-MEXP-139224	P-MEXP-139226	P-MEXP-142188	P-MEXP-142189	P-MEXP-142187	P-AFFY-6					
+Protocol Type	grow	nucleic_acid_extraction	labeling	hybridization	feature_extraction	feature_extraction					
+Protocol Description	Arabidopsis was grown on metro mix soil (35 % Canadian Peat Moss, 19 % Perlite 500, 40 % vermiculite, 1.5 g l-1 lime), vernalised for 72 to 96 h and fertilized with 0.5X Hoaglandâs once a fortnight (Hoaglands and Arnon, 1950). Normal growth conditions were a light (150 &#956;mol photons m&#8722;2 sec&#8722;1)/dark cycle of 12/12 h at 21 + 2 Â°C and 55 % relative humidity.	Total RNA was isolated using the RNeasy Plant Mini Protocol (QIAGEN) including an on-column DNase treatment using the RNase-free DNase set (QIAGEN) according to the manufacturerâs instructions. The quality of the RNA was verified using an Agilent Bioanalyzer and spectrophotometric analysis to determine concentration and the A260 to A280 and A260 to A230 ratios.	Preparation of labeled cRNA from 5 ug of total RNA was carried out almost exactly as described in the Affymetrix GeneChip Expression Analysis Technical Manual using the Affymetrix One-Cycle Target Labeling kit and Control Reagents and for each sample, 20ug of cRNA was fragmented, labeled and used for hybridisation. 	Target hybridisation was carried out exactly as described in the Affymetrix GeneChip Expression Analysis Technical Manual, using the Affymetrix Eukaryotic Hybridisation kit and Hybridisation Control Kit and an Affymetrix GeneChip Hybridization Oven 640. After overnight hybridisation, arrays were washed and stained using the Affymetrix Wash and Stain kit and an Affymetrix Fluidics Station 450 (EukGE-WS2v5_450) as described in the Affymetrix GeneChip Expression Analysis Technical Manual. 	Scanning was performed with a Affymetrix 7G scanner according to the manufacturers instructions.	Title: Affymetrix CEL analysis. Description: 					
+Protocol Parameters	min temperature;start time;media;max temperature;	Amplification;Extracted product;	Amount of nucleic acid labeled;Amplification;Label used;	Quantity of label target used;time;temperature;Chamber type;							
+Protocol Hardware					418 [Affymetrix]						
+Protocol Software					AIDA [Raytest GmbH]	MicroArraySuite 5.0					
+Protocol Contact											
+Protocol Term Source REF					The MGED Ontology						
+SDRF File	E-MEXP-1495.sdrf.txt										
+Term Source Name	mo		NCBI Taxonomy	The MGED Ontology	po	NCI_thesaurus	ArrayExpress	nasc	mo	EFO	The MGED Ontology
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php		http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.plantontology.org	ncithesaurus.obo.alt	http://www.ebi.ac.uk/arrayexpress	http://arabidopsis.info/catalogue.html	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version											
+Comment[AEExperimentType]	transcription profiling by array										

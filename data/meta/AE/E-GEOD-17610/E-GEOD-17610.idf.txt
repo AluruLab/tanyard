@@ -1,0 +1,32 @@
+Comment[ArrayExpressAccession]	E-GEOD-17610				
+Investigation Title	Gene expression in response to AGL15 during somatic embryogenesis				
+Comment[Submitted Name]	Gene expression in response to AGL15 during somatic embryogenesis				
+Publication DOI	10.1105/tpc.109.068890				
+PubMed ID	19767455				
+Publication Title	Global identification of targets of the Arabidopsis MADS domain protein AGAMOUS-Like15.				
+Publication Author List	Zheng Y, Ren N, Wang H, Stromberg AJ, Perry SE				
+Experimental Design	unknown_experiment_design_type	transcription profiling by array			
+Experimental Design Term Source REF		EFO			
+Person Last Name	Perry				
+Person First Name	Sharyn				
+Person Email	sperr2@uky.edu				
+Person Address	Plant and Soil Sciences, University of Kentucky, 1405 Veterans Dr., Lexington, 40546-0312, USA				
+Person Affiliation	University of Kentucky				
+Person Roles	submitter				
+Public Release Date	2009-09-25				
+Comment[ArrayExpressSubmissionDate]	2009-08-12				
+Comment[GEOReleaseDate]	2009-09-18				
+Comment[SecondaryAccession]	GSE17610				
+Experiment Description	Transcript accumulation was measured using the Affymetrix Arabidopsis ATH1 Genome Array [ATH1-121501] to document changes in response to the MADS-domain transcription factor AGAMOUS-Like 15 during somatic embryogenesis. A somatic embryo system was used where mature seed is allowed to complete germination in liquid MS media containing 2,4-D and seedlings produce somatic embryos from the shoot apical meristem (SAM) region. The frequency with which these embryos are produced directly correlates with AGL15 accumulation. Experiment Overall Design: Wild type Arabidopsis (Columbia ecotype) with normal amounts of AGL15 were compared to (1) 35S:AGL15 that constitutively expresses AGL15 and produces more somatic embryos from the shoot apical region than wild type and (2) agl15 agl18 double loss-of-function mutants that produce less somatic embryos from the shoot apical region than wild type.				
+Protocol Name	P-G17610-1	P-G17610-3	P-G17610-4	P-G17610-2	P-G17610-5
+Protocol Type	grow	labeling	bioassay_data_transformation	specified_biomaterial_action	nucleic_acid_extraction
+Protocol Description	Arabidopsis seeds (Columbia wild type, agl15-4 agl18-1 double mutant, and 35S:AGL15) were surface sterilized and grown to complete germination in liquid MS media with 2% w/v sucrose, 10 mM MES and 4.5 micromolar 2,4-D under a 23 hour light/1 hour dark cycle on a rotary shaker.	Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 4 ug total RNA (Expression Analysis Technical Manual, 2007, Affymetrix).	The data was scaled using the Affymetrix analysis software to a target intensity of 500 and log2 transformed.	Tissue was collected 10 days after the start of culture and flash frozen for RNA isolation.	Trizol extraction of total RNA was performed according to the manufacturer's instructions, and the RNA was further purified using the RNeasy® plant mini kit (Qiagen, www.qiagen.com).
+Protocol Parameters					
+Protocol Software					
+SDRF File	E-GEOD-17610.sdrf.txt				
+Term Source Name	EFO				
+Term Source File	http://efo.svn.sourceforge.net/viewvc/efo/trunk/src/efoinowl/efo.owl				
+Experimental Factor Name	genotype				
+Experimental Factor Type	genotype				
+Comment[AEExperimentType]	transcription profiling by array				
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for agl15 and agl18 or overexpressing AGL15 during somatic embryogenesis				

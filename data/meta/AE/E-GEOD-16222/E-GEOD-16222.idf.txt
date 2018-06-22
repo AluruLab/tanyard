@@ -1,0 +1,52 @@
+Investigation Title	Transcription profiling of Arabidopdis seedlings - heat, anoxia, and combined heat-anoxia treatments								
+Comment[Submitted Name]	Effects of heat, anoxia, and combined heat-anoxia treatments								
+Experimental Design	unknown_experiment_design_type	transcription profiling by array							
+Experimental Design Term Source REF		EFO							
+Comment[AEExperimentType]	transcription profiling by array								
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis after heat and/or anoxia treatments								
+Comment[AEMIAMESCORE]	3								
+Comment[SecondaryAccession]	GSE16222								
+Comment[ArrayExpressReleaseDate]	2009-06-08								
+Comment[ArrayExpressAccession]	E-GEOD-16222								
+Comment[MAGETAB TimeStamp_Version]	2010-08-02 16:40:45 Last Changed Rev: 13058								
+Experimental Factor Name	TEMPERATURE	GROWTH CONDITION							
+Experimental Factor Type	temperature	growth_condition							
+Experimental Factor Term Source REF									
+Person Last Name	Perata								
+Person First Name	Pierdomenico								
+Person Mid Initials									
+Person Email	p.perata@sssup.it								
+Person Phone									
+Person Fax									
+Person Address	Plant Physiology, Crop Physiology Center, Sant'Anna School of Advanced Studies, Via Mariscoglio 34, Pisa, 56124, Italy								
+Person Affiliation	Sant'Anna School of Advanced Studies								
+Person Roles	submitter								
+Person Roles Term Source REF	The MGED Ontology								
+Quality Control Type									
+Quality Control Term Source REF									
+Replicate Type									
+Replicate Term Source REF									
+Normalization Type									
+Normalization Term Source REF									
+Date of Experiment									
+Public Release Date	2009-06-08								
+PubMed ID	20089772								
+Publication DOI	10.1104/pp.109.149815								
+Publication Author List	Banti V, Mafessoni F, Loreti E, Alpi A, Perata P.								
+Publication Title	The heat-inducible transcription factor HsfA2 enhances anoxia tolerance in Arabidopsis.								
+Publication Status	published								
+Publication Status Term Source REF	EFO								
+Publication Status Term Accession Number	EFO_0001796								
+Experiment Description	Anoxia induces several heat shock proteins and a heat pre-treatment can acclimatize Arabidopsis seedlings to a subsequent anoxic treatment.  In this work we analyzed the response of Arabidopsis seedlings to anoxia, heat and a combined heat+anoxia stress. A significant overlapping between the anoxic and heat shock responses has been observed by whole-genome microarray analysis.  Experiment Overall Design: We treated Arabidopsis seedling, 4-days old, dark germinated with: Experiment Overall Design: -Control (23Â°C, dark, liquid Murashige-Skoog medium containing 30mM sucrose). Experiment Overall Design: -Heat-treated (38Â°C for 90 minutes, dark, liquid Murashige-Skoog medium containing 30mM sucrose). Experiment Overall Design: -Anoxia-treated (23Â°C,  under anoxia for 6h, dark, liquid Murashige-Skoog medium containing 30mM sucrose). Experiment Overall Design: -combined heat+Anoxia-treatment (23Â°C,  treated at 38Â°C for 90 min and thereafter under anoxia for 6h, dark, liquid Murashige-Skoog medium containing 30mM sucrose). Experiment Overall Design: Two biological replicates for each condition.								
+Protocol Name	P-G16222-5	P-G16222-1	P-G16222-8	P-G16222-7	P-G16222-2	P-G16222-6	P-G16222-4	P-G16222-3	P-AFFY-6
+Protocol Type	grow	grow	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	nucleic_acid_extraction	labeling	feature_extraction
+Protocol Description	Seeds were sterilized with diluted bleach (10-min incubation in 1.7% sodium hypochlorite, rinsed and washed seven times in sterile water) and incubated in 2.5 mL of liquid growing media (Murashige and Skoog half-strength solution in six-well plates) containing 30 mM sucrose. The plates were incubated in the dark at 4Â°C for two days (vernalization, to promote homogeneous germination) and then transferred to 23Â°C for four days in the dark before the treatments.	Seeds were sterilized with diluted bleach (10-min incubation in 1.7% sodium hypochlorite, rinsed and washed seven times in sterile water) and incubated in 2.5 mL of liquid growing media (Murashige and Skoog half-strength solution in six-well plates) containing 30 mM sucrose. The plates were incubated in the dark at 4Â°C for two days (vernalization, to promote homogeneous germination) and then transferred to 23Â°C for four days in the dark before the treatments. This sample represents the control.	Arabidopsis seedlings. Ecotype: Columbia 0; Age: 4 days; Germination: aerobic; Medium: Murashige-Skoog medium, half-strenght, sucrose 30 mM, 23Â°C, darkness; Treated at 38Â°c for 90 minutes and thereafter under anoxia for 6h at 23Â°C in the dark.  An enclosed anaerobic work station (Anaerobic System model 1025; Forma Scientific, Marietta, OH) was used to provide an oxygen-free environment for seedling incubation. This chamber uses palladium catalyst wafers and desiccant wafers to maintain strict anaerobiosis to less than 10 Âµg mLâ1 O2 (according to the manufacturerâs specifications). High-purity N2 was used to purge the chamber initially, and the working anaerobic gas mixture was N2:H2 with a ratio of 90:10.	Arabidopsis seedlings. Ecotype: Columbia 0; Age: 4 days; Germination: aerobic; Medium: Murashige-Skoog medium, half-strenght, sucrose 30 mM, 23Â°C, darkness; Treated under anoxia for 6h at 23Â°C in the dark. Anoxic treatments were carried out in the dark. An enclosed anaerobic work station (Anaerobic System model 1025; Forma Scientific, Marietta, OH) was used to provide an oxygen-free environment for seedling incubation. This chamber uses palladium catalyst wafers and desiccant wafers to maintain strict anaerobiosis to less than 10 Âµg mLâ1 O2 (according to the manufacturerâs specifications). High-purity N2 was used to purge the chamber initially, and the working anaerobic gas mixture was N2:H2 with a ratio of 90:10.	This sample represents the control. Dark grown Arabidopsis seedlings, 4d-old.	Dark grown Arabidopsis seedlings, 4d-old, were treated at 38Â°C for 90 minutes in the dark.	Total RNA was extracted from the seedling samples using the Ambion RNAqueous kit (Ambion). RNA quality was assessed by agarose gel electrophoresis and spectrophotometry. RNA was processed for use on Affymetrix Arabidopsis ATH1 GeneChip arrays.	Affymetrix standard labeling protocol	Title: Affymetrix CEL analysis. Description: 
+Protocol Parameters									
+Protocol Hardware									
+Protocol Software									MicroArraySuite 5.0
+Protocol Contact									
+Protocol Term Source REF									
+SDRF File	E-GEOD-16222.sdrf.txt								
+Term Source Name	NCBI Taxonomy		The MGED Ontology	ArrayExpress	EFO	The MGED Ontology			
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php			
+Term Source Version									

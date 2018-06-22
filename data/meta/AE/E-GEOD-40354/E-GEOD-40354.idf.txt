@@ -1,0 +1,30 @@
+Comment[ArrayExpressAccession]	E-GEOD-40354							
+MAGE-TAB Version	1.1							
+Public Release Date	2013-03-05							
+Investigation Title	Expression analysis of Arabidopsis ein2 and bak1 mutants treated with the elicitors elf18 and Pep2.							
+Comment[Submitted Name]	Expression analysis of Arabidopsis ein2 and bak1 mutants treated with the elicitors elf18 and Pep2.							
+Experiment Description	Recognition of microbial patterns and host derived damage signals by host pattern recognition receptors is a key step in immune activation in multicellular eukaryotes. Here we show how mutations in ethylene signaling and the coreceptor bak1 affect host immune responses triggered by elicitors. A 51 DNA microarray study using total RNA from Arabidopsis mutants (ein2-1, bak1-3, efr-1 and pepr1-1 pepr2-3) as well as wild type treated with elf18 or Pep2 with three biological replicates.							
+Term Source Name	ArrayExpress	EFO						
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl						
+Person Last Name	Tsuda	Tsuda	Tintor	Saijo				
+Person First Name	Kenichi	Kenichi	Nico	Yusuke				
+Person Email	tsuda@mpipz.mpg.de							
+Person Affiliation	Max Planck Institute for Plant Breeding Research							
+Person Phone	+49-(0)221-5062-302							
+Person Address	Plant Microbe Interactions, Max Planck Institute for Plant Breeding Research, Carl-von-Linne Weg 10, Cologne, Germany							
+Person Roles	submitter							
+Protocol Name	P-GSE40354-1	P-GSE40354-6	P-GSE40354-3	P-GSE40354-8	P-GSE40354-7	P-GSE40354-2	P-GSE40354-4	P-GSE40354-5
+Protocol Description	ID_REF =  VALUE = The values are probe level data calculated by GCRMA	GeneChips were washed and stained with Fluidics Script FS450-004 in the Affymetrix Fluidics Station 450.	Arabidopsis seedlings were grown on agar plates containing 0.5X MS and 25 mM sucrose for 5-6 days under 12h light/12h dark conditions, then transferred to liquid media with 0.5X MS and 25 mM sucrose for additional 5-6 days.	The raw data (CELL files) were subjected to GCRMA.	Microarrays were scanned using a GeneChip Scanner 3000 7G. The data were analyzed with Affymetrix GeneChip Operating Software version 1.4 using Affymetrix default analysis settings and global scaling as normalization method.	Whole seedlings were treated with 1 �M elf18 or Pep2	Total RNA was isolated with RNeasy Mini kit supplied with RNase-Free DNase set (Qiagen) according to the manufacturer's instructions.	Biotinylated cRNA was prepared according to a standard Ambion protocol from 1 μg total RNA (MessageAmp II-Biotin Enhanced Kit; Ambion). After amplification and fragmentation, 12.5 μg of cRNA was hybridized for 16 h at 45�C on GeneChip ATH1-121501 Genome Array.
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Experimental Factor Name	treatment	time	genotype					
+Experimental Factor Type	treatment	time	genotype					
+Publication Title	Layered pattern receptor signaling via ethylene and endogenous elicitor peptides during Arabidopsis immunity to bacterial infection.							
+Publication Author List	Tintor N, Ross A, Kanehara K, Yamada K, Fan L, Kemmerling B, Nurnberger T, Tsuda K, Saijo Y							
+PubMed ID	23431187							
+Publication DOI	10.1073/pnas.1216780110							
+Comment[SecondaryAccession]	GSE40354							
+Comment[GEOReleaseDate]	2013-03-05							
+Comment[ArrayExpressSubmissionDate]	2012-08-24							
+Comment[GEOLastUpdateDate]	2013-03-05							
+Comment[AEExperimentType]	transcription profiling by array							
+SDRF File	E-GEOD-40354.sdrf.txt							

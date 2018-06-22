@@ -1,0 +1,38 @@
+Comment[ArrayExpressAccession]	E-GEOD-35544							
+Public Release Date	2012-04-30							
+Investigation Title	Root nitrate response of wild type plants and afb3-1 mutant plants in Arabidopsis thaliana							
+Comment[Submitted Name]	Root nitrate response of Ws plants and afb3-1 mutant plants							
+Experiment Description	"Auxin is a key phytohormone regulating central processes in plants that include embryo development, lateral root growth and flower maturation among others. Auxin is sensed by a set of F-Box proteins of the TIR1/AFB3 family triggering auxin dependent responses by a pathway that involves an interplay between the Aux/IAA transcription repressors and the ARF transcription factors. We have previously shown that the AFB3 auxin receptor has a specific role in coordinating primary and lateral root growth to external and internal nitrate availability (Vidal et al., 2010). In this work, we used an integrated genomics, bioinformatics and molecular genetics approach to dissect regulatory networks acting downstream AFB3 that are activated by a transient nitrate treatment in Arabidopsis roots.  Our systems approach unraveled key components of the AFB3 regulatory network leading to changes in lateral root growth in response to nitrate. Arabidopsis seedlings of the Ws and afb3-1 genotypes were grown on hydroponic medium containing 1X MS salts without Nitrogen, supplemented with 0.5 mM ammonium succinate as Nitrogen source and 3 mM sucrose on a Percival chamber under a photoperiod of 16 hours of light (100 μE/m2/sec) and 8 hours of dark at 22°C for 14 days. The plants were treated at the onset of the light cycle with 5 mM KNO3 or 5 mM KCl as control for 2 hours. Whole roots were cut from seedlings and frozen on liquid Nitrogen. Total RNA was extracted using the TriZol reagent. 3 independent biological replicates were performed."							
+Date of Experiment								
+Term Source Name	EFO							
+Term Source Version								
+Term Source File	http://www.ebi.ac.uk/efo/efo.owl							
+Person Last Name	Vidal	Moyano	Riveras	Contreras-López	Gutiérrez			
+Person First Name	Elena	Tomás	Eleodoro	Orlando	Rodrigo			
+Person Mid Initials	A	C	J		A			
+Person Email	eavidal@uc.cl							
+Person Affiliation	Pontificia Universidad Catolica de Chile							
+Person Phone								
+Person Fax								
+Person Address	"Genetica Molecular y Microbiologia, Pontificia Universidad Catolica de Chile, Avenida Libertador Bernardo O'Higgins 340, Santiago, Chile"							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Person Roles Term Accession Number								
+Protocol Name	P-GSE35544-1	P-GSE35544-6	P-GSE35544-3	P-GSE35544-8	P-GSE35544-7	P-GSE35544-2	P-GSE35544-4	P-GSE35544-5
+Protocol Description	ID_REF = <br>VALUE = log2 rma signal	"ATH1 chips were hybridized using the GeneChip Hybridization, Wash and Stain kit from Affymetrix"	"Arabidopsis seedlings of the Ws and afb3-1 genotypes were grown on hydroponic medium containing 1X MS salts without Nitrogen, supplemented with 0.5 mM ammonium succinate as Nitrogen source and 3 mM sucrose on a Percival chamber under a photoperiod of 16 hours of light (100 μE/m2/sec) and 8 hours of dark at 22�C for 14 days."	The summarized probe set data was generated using R/bioconductor (affy library). Normalization of the data was performed using rma. Normalized data was subjected to a two-way ANOVA analysis with a false discovery rate of 5 %.	Chips were scanned using the Affymetrix GeneChip Scanner 3000 7G and the Affymetrix GeneChip Command Console Scan Control 1.1.0.845 software	Plants were treated at the onset of the light period on day 15 with 5 mM KNO3 or 5 mM KCl as control for 2 hours. Roots were cut and frozen on liquid nitrogen.	Total RNA was extracted using the TriZol reagent as indicated by the manufacturer.	Bioitinylated cRNA was prepared using the GeneChip 3'IVT kit from Affymetrix
+Protocol Software								
+Protocol Hardware								
+Protocol Contact								
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Protocol Term Source REF								
+Protocol Term Accession Number								
+Experimental Factor Name	growth condition	genotype						
+Experimental Factor Type	growth condition	genotype						
+Experimental Factor Term Source REF								
+Experimental Factor Term Accession Number								
+Comment[SecondaryAccession]	GSE35544							
+Comment[GEOLastUpdateDate]	2012-05-01							
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[GEOReleaseDate]	2012-04-29							
+Comment[ArrayExpressSubmissionDate]	2012-02-03							
+SDRF File	E-GEOD-35544.sdrf.txt							

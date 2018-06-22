@@ -1,0 +1,26 @@
+Comment[ArrayExpressAccession]	E-GEOD-40322
+MAGE-TAB Version	1.1							
+Public Release Date	2012-12-31
+Investigation Title	The dependency of cpr5-altered genes on SIM and SMR1 in Arabidopsis							
+Comment[Submitted Name]	The dependency of cpr5-altered genes on SIM and SMR1 in Arabidopsis
+Experiment Description	In plants, effector-triggered immunity (ETI) is often associated with programmed cell death (PCD). Although the intracellular immune receptors involved in ETI have been studied extensively, how their activation leads to PCD and disease resistance is poorly understood. We found that the Arabidopsis nuclear envelope protein, CPR5 (constitutive expresser of PR genes 5), plays a crucial role in controlling cell fate in response to stress, as the cpr5 mutant exhibits spontaneous cell death and heightened immunity. A genetic screen revealed that the Cip/Kip CKIs (cyclin-dependent kinase inhibitors), SIM (siamese) and SMR1 (siamese-related 1), are essential for CPR5 signaling, as the sim smr1 double mutant fully suppressed the cpr5 phenotype. More significantly, PCD and ETI are compromised in sim smr1 even with the wild-type CPR5. 10-day-old wild type (Col-0), cpr5, sim smr1 and cpr5 sim smr1. 12 samples total. Replicates are derived from three independent biological experiments. We used microarrays to identify differentially expressed genes. We focused on those genes that were cpr5-altered (>2-fold) and SIM/SMR1-dependent.							
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl						
+Person Last Name	wang	Wang	Wang	Dong				
+Person First Name	shui	Shui	Wei	Xinnian				
+Person Email	swang@sibs.ac.cn							
+Person Affiliation	Duke University							
+Person Phone	9196138175							
+Person Address	Biology, Duke University, 124 Science Dr, Durham, NC, USA							
+Person Roles	submitter							
+Protocol Name	P-GSE40322-1	P-GSE40322-6	P-GSE40322-3	P-GSE40322-8	P-GSE40322-7	P-GSE40322-2	P-GSE40322-4	P-GSE40322-5
+Protocol Description	ID_REF =  VALUE = RMA signal intensity	Following fragmentation, 10 ug of cRNA were hybridized on Affymetrix ATH1 GeneChip (Santa Clara, CA, U.S.A).	Arabidopsis seedlings were grown at 21-24°C, 16-hour day length, 60% relative humidity	The data were normalized with RMA algorithm using Gene-Spring GX (version 12) default analysis settings	GeneChips were scanned using the Axon Genepix Scanner (Genepix 4000B).	10-day-old wild type (Col-0), cpr5, sim smr1 and cpr5 sim smr1. Replicates are derived from three independent biological experiments.	Total RNA was isolated from the frozen material using Invitrogen TRIzol.	RNA probes were labelled using the Ambion MessageAmp Premier.
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Experimental Factor Name	VARIATION							
+Experimental Factor Type	variation							
+Comment[SecondaryAccession]	GSE40322							
+Comment[GEOReleaseDate]	2012-12-31							
+Comment[ArrayExpressSubmissionDate]	2012-08-23							
+Comment[GEOLastUpdateDate]	2013-01-01							
+Comment[AEExperimentType]	transcription profiling by array							
+SDRF File	E-GEOD-40322.sdrf.txt

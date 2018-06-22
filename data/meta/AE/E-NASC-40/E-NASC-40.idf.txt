@@ -1,0 +1,47 @@
+Investigation Title	Transcription profiling of Arabidopsis seedling response to norflurazon-induced photobleaching of chloroplasts	
+Comment[Submitted Name]	McCormac: Seedling transcriptome affected by Norflurazon-induced photobleaching of chloroplasts.	
+Experimental Design	compound_treatment_design	genetic_modification_design	transcription profiling by array	
+Experimental Design Term Source REF	mo	mo	EFO	
+Comment[ArrayExpressReleaseDate]		
+Comment[AEMIAMESCORE]	3	
+Comment[ArrayExpressAccession]	E-NASC-40	
+Experimental Factor Name	strain_or_line	compound	
+Experimental Factor Type	strain_or_line	compound_treatment_design	
+Experimental Factor Term Source REF	
+Person Last Name	unknown	McCormac	
+Person First Name	unknown	Alex	
+Person Mid Initials	
+Person Email		acm@soton.ac.uk	
+Person Phone	+44 (0)115 951 3091	023 80594297	
+Person Fax	+44 (0)115 951 3297	023 80594319	
+Person Address	Plant Science Division, School of Biosciences, University of Nottingham, Sutton Bonnington Campus, Loughborough LE12 5RD, UK	School of Biological Sciences Division of Cell Sciences University of Southampton Bassett Crescent East Southampton  SO16 7PX UK 	
+Person Affiliation		University of Southampton	
+Person Roles		biosource_provider;investigator;submitter	
+Person Roles Term Source REF		mo	
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	
+PubMed ID	
+Publication DOI	
+Publication Author List	
+Publication Title	
+Publication Status	
+Publication Status Term Source REF	
+Experiment Description	Regulation of expression of genes encoding chloroplast components is critical to the autotrophic plant and never more so than in the cotyledons of the de-etiolating seedling. Many chloroplast proteins are nuclear-encoded and a retrograde signal from the chloroplasts (the Plastid Signal) modulates nuclear transcription. However, not all chloroplast-targeted genes are subject to this control and not all plastid-dependent nuclear genes are chloroplast-targeted. We therefore aim to provide the most comprehensive screen yet of which genes are affected by plastid-signalling. To specifically knock-out positive plastid signalling in light-grown cotyledons, the herbicide Norflurazon (NF) is supplied in the growth medium, causing a carotenoid deficiency that leaves the chloroplasts vulnerable to photobleaching. This blocks the expression of a subset of nuclear genes, such as Lhcb and HEMA1.  Two pairs of RNAs will directly compare the transcription in seedlings grown under continuous white light with and without NF. A third RNA will also be compared from a mutant that shows a degree of constitutive positive plastid signalling. These two mutants act synergistically to counteract the effect of NF on nuclear transcription. The gun1,gun5 double mutant maintains a significantly higher level of Lhcb and HEMA1 expression in the presence of photobeached chloroplasts than the NF-treated wild-type. This transcriptome set will therefore complement RNA1 (wild-type+NF) and indicate which of the genes identified from the RNA1/RNA2 comparison are subject to the particular gun1/gun5 plastid signalling pathway(s).  The growth of conditions of the seedlings (namely on MS medium supplemented with 1.5% sucrose, for 3 days under continuous WL following 2 days germination in darkness) has been chosen from the results of our own recent studies using Northern blotting techniques that show these conditions to maximise the respective NF and gun mutant effects on Lhcb and HEMA1 gene expression. This experiment is part one of a two-part study to compare the transcriptional output of this NF-affected pathway with that of a newly discovered FR-mediated pathway. A subsequent array experiment will assess the nuclear response as affected by this FR/ phyA-input pathway and the two sets of array data will be compared and contrasted. Note:  Col-0 wild-type (NASC code N1092). gun1,gun5 double mutant(obtained from Enriquez Lopez-Juez, Royal Holloway, University of London.(Mochizuki et al. 2001 PNAS 98: 2053-2058). This line cannot be donated by us as it is the IP of Joanne Chory (SALK Institute, USA). Treatment = a herbicide (Norflurazon) application which leads to chloroplast photobleaching and hence down regulation of nuclear genes dependent on plastid signalling from intact chloroplasts.	
+Protocol Name	NASCGrowProt:950	NASCSampleTreatmentProt:951	NASCExtractProtocol:16	NASCLabelProtocol:1	Affymetrix:Protocol:Hybridization-EukGE-WS2v4	Affymetrix:Protocol:Percentile	Affymetrix:Protocol:ExpressionStat	
+Protocol Type			nucleic_acid_extraction	labeling	hybridization	feature_extraction	bioassay_data_transformation	
+Protocol Description	Seeds were vernalised prior to germination and grown in Murashige and Skoog basal salts agar media supplemented with sucrose (1.5% w/v). The temperature was maintained at 23C and the humidity was maintained at 80% in a sealed petri dish. The lighting regime was 3 continuous  days in darkness followed by 3 days in light. The lighting intensity was 250  umol m-2 s-1 of white light.	Seedlings were grown on agar medium as stated in the growth protocol without the addition of any treatment. Seedlings were grown to growth stage 1.0 (Boyes key), until the cotyledons were fully opened. At this stage whole young seedlings in their entirety with cotyledons, hypocotyl and primary roots (no emerged true leaves) were taken for RNA extraction.	Protocol:   	RNA samples were quality controlled using the Agilent 2100 Bioanalyzer. 100 pmol T7-(dT)24 primer (5'-GGCCAGTGAATTGTAATACGACTCACTATAGGGAGGCGG-(dT)24-3')  was hybridized with the Total RNA ( 8 - 12ug) at 70Ì?å¡C for 10 minutes.  First strand cDNA was synthesized by reverse transcription using 400 units SuperScript II Reverse Transcriptase in a reaction containing 50 mM Tris-HCl (pH 8.3), 75 mM KCl, 3 mM MgCl2, 10 mM dithiothreitol (DTT) and 0.5 mM dNTPs at 42C for 1 hour.  The reaction was then put on ice for 2 mins, followed by second strand cDNA synthesis.  130ul of the second strand reaction mix was added to the 20ul  first strand synthesis reaction. The second strand reaction mix  contained 40 units E. coli DNA polymerase I, 10 units E. coli DNA ligase, 2 units  E. coli RNase H and 0.2 mM dNTPs in a buffer containing 20 mMTris-HCl (pH 6.9), 90 mM KCl, 4.6 mM MgCl2, 10mM (NH4)SO4 and 0.15 mM Ì?å?-NAD+. The reaction was incubated at 16 C for 2 hours.  10 units T4 DNA Polymerase was added and the reaction incubated for a further 5 minutes at 16 C, then the reaction was terminated using EDTA.  The double-stranded cDNA was cleaned up using the cDNA Cleanup Spin Column supplied in the Affymetrix GeneChip Sample Cleanup Module.  The double-stranded cDNA was used as a template for in Vitro transcription of biotin-labeled cRNA using the ENZO BioArray RNA Transcript Labeling Kit supplied by Affymetrix.  The Transcript Labeling kit produces large amounts of hybridizable biotin-labeled RNA targets by in Vitro transcription from bacteriophage T7 RNA polymerase promoters.  The reaction mixture containing Biotin-Labeled ribonucleotides (ATP, GTP, CTP, UTP with Bio-UTP and Bio-CTP), DTT, RNase inhibitor mix and T7 RNA polymerase was incubated at 37 C for 5 hrs, gently mixing every 30 minutes during the incubation. This produced an average of 40ug biotin-labeled cRNA . The biotin-labeled cRNA  was cleaned up using the cRNA Cleanup Spin Column supplied in the Affymetrix GeneChip Sample Cleanup Module.  The quantity and quality of the cRNA was measured using the Agilent 2100 Bioanalyzer. The total amount of cRNA was calculated, the starting quantity of RNA subtracted to give the quantity of adjusted cRNA.  The cRNA was fragmented by metal-induced hydrolysis to break down full-length cRNA to 35-200 base fragments.  15ug of adjusted cRNA was used to prepare 300ul of hybridization cocktail of which 200ul was hybridized with the GeneChip.	Title: Fluidics Station Protocol. Description: 	Title: Affymetrix CEL Analysis (Percentile). Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 	
+Protocol Parameters	Medium;location;Stratification;Lighting;Humidity;Nutrients;Atmosphere;Temperature;Water;	
+Protocol Hardware	
+Protocol Software					MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact	
+Protocol Term Source REF			mo	
+SDRF File	E-NASC-40.sdrf.txt	
+Term Source Name	mo		nasc	ncbitax	NCI_thesaurus	ArrayExpress	mo	EFO	
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php		http://arabidopsis.info/catalogue.html	http://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html	ncithesaurus.obo.alt	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	
+Term Source Version									

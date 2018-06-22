@@ -1,0 +1,33 @@
+Comment[ArrayExpressAccession]	E-GEOD-38965							
+Public Release Date	2012-06-27							
+Investigation Title	Effect of oligomycin on transcript levels in Arabidopsis seedling cultures							
+Comment[Submitted Name]	Effect of oligomycin on transcript levels in Arabidopsis seedling cultures							
+Experiment Description	"To understand how an inhibition of the mitochondrial ATP synthase affects transcriptional programming and to identify potential candidates of the signaling machinery involved in ATP synthase deficiency responses, we used oligomycin on seedling liquid cultures. Seedlings were harvested at time points 0, 1 and 4 h after the start of oligomycin and control (EtOH) treatments. Already 1 h after addition of oligomycin a total of 102 genes were more than threefold up-regulated and 14 genes were repressed, with most of them showing persistent changes. After 4 h, 580 additional genes were more than threefold up-regulated, and 152 genes were repressed by oligomycin. Several genes for alternative NAD(P)H dehydrogenases and alternative oxidases (AOX1a, AOX1d and NDA1) were up-regulated early, and additional homologs (NDA2, NDB2, NDB4 and AOX1b) followed 4 h after the start of treatment. Several genes for subunits of complex I, complex IV and the ATP synthase were induced whereas hardly any genes encoding enzymes of glycolysis and the TCA cycle changed. Additionally, four of five hallmark genes for oxidative stress were increased by oligomycin. These genes are At2g21640 (UPOX), At1g19020, At1g05340 and At1g57630 and code for proteins of unknown function. Among oxidative stress proteins with known functions, several H2O2-responsive Glutathione-S-transferases and BCS1 (CYTOCHROME BC1 SYNTHESIS) were strongly up-regulated already after 1 h. BCS1 is induced by salicylic acid and independent of other reactive oxygen signaling (ROS) pathways, such as H2O2. The results indicate that several different ROS and defense signaling pathways were induced simultaneously by oligomycin. This is further corroborated by induction of several transcription factors of the WRKY and NAC families, which have been previously implicated in coordinating cellular defense signaling. Three replicates for each treatment including oligomycin and control (EtOH) samples."							
+Date of Experiment								
+Term Source Name	EFO							
+Term Source Version								
+Term Source File	http://www.ebi.ac.uk/efo/efo.owl							
+Person Last Name	Persson	Geisler	Päpke	Persson				
+Person First Name	Staffan	Daniela	Carola	Staffan				
+Person Mid Initials		A						
+Person Email	Persson@mpimp-golm.mpg.de							
+Person Affiliation	Max Planck Institute 							
+Person Phone								
+Person Fax								
+Person Address	"Institute of Molecular Plant Physiology, Max Planck Institute , Am Mühlenberg 1, Potsdam-Golm, Germany"							
+Person Roles	submitter							
+Protocol Name	P-GSE38965-1	P-GSE38965-6	P-GSE38965-3	P-GSE38965-8	P-GSE38965-7	P-GSE38965-2	P-GSE38965-4	P-GSE38965-5
+Protocol Description	ID_REF = <br>VALUE = RMA normalized signal intensity<br>Stat Pairs = <br>Stat Pairs Used = <br>Detection = <br>Detection p-value = 	"After verifying RNA integrity using the Agilent RNA 6000 Nano Kit and the Agilent 2100 Bioanalyzer, the labeled aRNA was hybridized to Arabidopsis ATH1 Genome Array (GeneChip System(r), Affymetrix) chips at ATLAS Biolabs (Berlin, Germany)."	Around 100 seeds of Arabidopsis thaliana (L.) Heynh. Col-0 were inoculated into 80 ml of MS medium including 1% sucrose in 250 ml flask. Seedlings were grown at a 16/8 h day/night regime and 180 μmol m-2 s-1 light intensity on a shaker at 80 rpm.	"CEL files from the Affymetrix Chips were processed by use of the Robin program (Lohse et al., 2010). The Robust Multi-chip Average (RMA) normalization was performed using the default settings of the corresponding Robin function."	"GeneChips were scanned by ATLAS Biolabs (Berlin, Germany)."	"Seedlings were grown until day 9, then dark-treated for 24 h and kept in dark during treatment. For treatments, 80 μl of the stock were added to the seedling cultures for a final concentration of 10 μM, and an equal volume of EtOH was used as control. Seedlings were harvested, washed and directly frozen in liquid nitrogen."	Total RNA isolation was done with the RNeasy Plant mini kit (Qiagen).	RNA was labelled with the MessageAMP II-Biotin Enhanced (Ambion) kit according to the manufactures protocol
+Protocol Type	normalization data transformation protocol	nucleic acid hybridization to array protocol	growth protocol	array scanning and feature extraction protocol	array scanning and feature extraction protocol	treatment protocol	nucleic acid extraction protocol	nucleic acid labeling protocol
+Protocol Term Source REF								
+Protocol Term Accession Number								
+Experimental Factor Name	growth condition	time						
+Experimental Factor Type	growth condition	time						
+Experimental Factor Term Source REF								
+Experimental Factor Term Accession Number								
+Comment[SecondaryAccession]	GSE38965							
+Comment[GEOLastUpdateDate]	2012-06-27							
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[GEOReleaseDate]	2012-06-26							
+Comment[ArrayExpressSubmissionDate]	2012-06-26							
+SDRF File	E-GEOD-38965.sdrf.txt							

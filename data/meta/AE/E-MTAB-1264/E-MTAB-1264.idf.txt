@@ -1,0 +1,69 @@
+MAGE-TAB Version	1.1
+Investigation Title	The Arabidopsis spaceflight transcriptome: a comparison of whole plants to discrete root, hypocotyl and shoot responses to the orbital environment
+
+Experimental Design	individual_genetic_characteristics_design	genetic_modification_design
+Experimental Design Term Source REF		
+Experimental Design Term Accession Number		
+
+Experimental Factor Name	growth condition	organism part
+Experimental Factor Type	growth condition	organism part
+Experimental Factor Term Source REF		
+Experimental Factor Term Accession Number		
+
+Person Last Name	Ferl	Zupanska
+Person First Name	Robert	Agata
+Person Mid Initials	J	K
+Person Email	robferl@ufl.edu	zupanska@ufl.edu
+Person Phone	352-273-8029	352-273-8029
+Person Fax	352-392-5653	
+Person Affiliation	University of Florida	
+Person Address	1301 Fifield Hall, Horticultural Sciences	
+Person Roles	investigator	submitter
+Person Roles Term Source REF		
+Person Roles Term Accession Number		
+
+Quality Control Type	biological_replicate
+Quality Control Term Source REF	
+Quality Control Term Accession Number	
+
+Replicate Type	biological_replicate
+Replicate Term Source REF	
+Replicate Term Accession Number	
+
+Normalization Type	MAS5
+Normalization Term Source REF	
+Normalization Term Accession Number	
+
+Date of Experiment	2012-10-04
+Public Release Date	2013-10-04
+
+PubMed ID	23919896
+Publication DOI	10.1186/1471-2229-13-112
+Publication Author List	Paul AL, Zupanska AK, Schultz ER, Ferl RJ
+Publication Title	Organ-specific remodeling of the Arabidopsis transcriptome in response to spaceflight
+Publication Status	published
+Publication Status Term Source REF	
+Publication Status Term Accession Number	
+
+Experiment Description	Arabidopsis thaliana was evaluated for its response to the spaceflight environment in three replicated experiments on the International Space Station. Two approaches were used; GFP reporter genes were used to collect gene expression data in real time within unique GFP imaging hardware, and plants were harvested on orbit to RNAlater for subsequent analyses of gene expression with using Affymetrix and SAGE transcriptome analyses. Three tissue types were examined (leaves, hypocotyls and roots) and compared to analyses conducted with whole plants.  Transcriptome analyses with whole plants suggested that the spaceflight environment had little impact on the transcriptome of arabidopsis, however, closer examination of selected tissues revealed that there are a number of tissue-specific responses that arabidopsis employs to respond to this novel environment
+
+Protocol Name	P-MTAB-28101	P-MTAB-28103	P-MTAB-28102	P-MTAB-28105	P-MTAB-28104	P-MTAB-28107	P-MTAB-28106
+Protocol Type	grow	reverse_transcription	nucleic_acid_extraction	hybridization	labeling	bioassay_data_transformation	bioassay_data_transformation
+Protocol Term Source REF							
+Protocol Term Accession Number	ProtocolType\tNULL\tE-MTAB-1264\tNULL\tgrow	ProtocolType\tNULL\tE-MTAB-1264\tNULL\treverse_transcription	ProtocolType\tNULL\tE-MTAB-1264\tNULL\tnucleic_acid_extraction	ProtocolType\tNULL\tE-MTAB-1264\tNULL\thybridization	ProtocolType\tNULL\tE-MTAB-1264\tNULL\tlabeling	ProtocolType\tNULL\tE-MTAB-1264\tNULL\tbioassay_data_transformation	ProtocolType\tNULL\tE-MTAB-1264\tNULL\tbioassay_data_transformation
+Protocol Description	Plant Lines and Seed Dormancy: Arabidopsis thaliana (Arabidopsis) plants were grown in a vertical configuration on the surface of 10 cm2 solid media plates.  Three GFP (Green fluorescent Protein reporter gene lines were used:  Adh::GFP (alcohol dehydrogenase promoter), DR5::GFP (synthetic auxin response element) and UB::GFP (35sCaMV constitutive promoter). Seeds, and the seeded plates, were prepared in such a way as to maintain dormancy until the initiation of the experiment on orbit. Seeds were surface sterilized with 75% ethanol for 10 minutes, dried on sterile filter paper and stored at 4C until use. Immediately before planting onto media plates, a small amount of seed was suspended in sterile water and the seeds were dispersed individually to the surface of the plate.  The plate was then immediately wrapped in light-tight black cloth (Duvatyne) and stored at room temperature until launch. After launch (Shuttle launch STS-131, Orbiter Discovery, April, 2010) and transition to the International Space Station (ISS), the wrapped plates were stowed at ambient temperature for 12 days until the initiation of the experiment on orbit.  The dry-sterilized seeds remained dormant until activated by exposure to light. Experiment Unique Equipment and Environmental Conditions: Both the flight and ground control components of the experiment were grown in specialized growth chamber units developed by Kennedy Space Center referred to as ABRS (Advanced Biological Research System) growth chamber.  Seeded plates were unwrapped from their light-tight coverings and installed in a specialized GFP imaging system (GIS) designed to hold six plates ﾖ one in the direct line of fluorescent excitation LEDs and the imaging camera, plus five additional plates. GFP expression data were collected on orbit form the imaging plate, and after 12 days of growth, all plates were harvested on orbit to RNAlater-filled KSC Fixation Tubes (KFTs) and then stowed below -40C on station.  The Ground Control was housed in the Orbital Environmental Simulator (OES) chamber in the Spaceflight Life Sciences Laboratory at Kennedy Space Center. The Ground Control was initiated with a precise 48 hour delay to enable the OES environment to be programed with those environmental conditions that can be replicated on the ground, such as cabin temperature and CO2 levels, taken from ISS telemetry. Sample Preparation: Plants harvested to RNAlater-filled KFTs were returned from ISS stowage with Orbiter Atlantis for the return flight of STS-132 and transferred to the PIs. Total RNA was isolated form sets of intact 12 day old seedlings, and from seedlings separated into three tissue types: leaves (cut from the plant at base of each petiole), hypocotyls (the region between the root/shoot junction and the start of the leaf rosette) and roots.	The first method (6 arrays total): cDNA was synthesized using Ovation Pico WTA System (NuGEN Technologies Inc.). The second method (30 arrays total): cDNA was synthesized using Affymetrix 3'IVT kit for cDNA synthesis and labeling, using reverse transcription-IVT (RT-IVT) method, known as Eberwine method. Reverse Transcription to Synthesize First-Strand cDNA is primed with T7 oligo(dT) primer to synthesize cDNA containing a T7 promoter sequence.Second-Strand cDNA Synthesis converts the single-stranded cDNA into a doublestranded DNA (dsDNA) template for transcription. The reaction employs DNA polymerase and RNaseH to simultaneously degrade the RNA and synthesize seconds trand cDNA.	Total cellular RNA was extracted using RNeasy Mini Kit (QIAGEN)	Amplified and labeled cDNA (5 ug/sample) was fragmented and hybridized with rotation onto Affymetrix GeneChip Arabidopsis ATH1 Genome Arrays for 16?h at 45C. Arrays were washed on a Fluidics Station 450 (Affymetrix) with the Hybridization Wash and Stain Kit (Affymetrix) and the Washing Procedure FS450_0004.	The first method (6 arrays total): cDNA was labeled using Encore Biotin Module (NuGEN Technologies Inc.). The second method (30 arrays total): cDNA was labeled using Affymetrix 3'IVT kit for cDNA synthesis and labeling. In Vitro Transcription to Synthesize Biotin-Modified aRNA with IVT Labeling Master Mix generates multiple copies of biotin-modified aRNA from the doublestranded cDNA templates.	The file Result_TAGES.txt contains analyzed data for Spaceflight whole TAGES plants. The file contains information about:  fold change of genes expression in Spaceflight samples relative to Ground Controls, p-values, q-values, gene IDs, names, description if available. The columns are as follow: A. ProbeSet ID- probeset ID on microarray B. p-value- calculated for 5 biological replicas Spaceflight and 5 biological replicas Ground Control C. q-value- calculated for 5 biological replicas Spaceflight and 5 biological replicas Ground Control D. FoldChanges- fold changes as log at the base of 2 of genes expression in Spaceflight samples relative to Ground Controls, calculated from 6 biological replicas Spaceflight and 6 biological replicas Ground Control E. Representative Public ID- the name of the gene or Atg number if available F. Gene Title- title of the gene if available G. Gene Symbol- symbol of the gene if available H. Entrez Gene I. Gene Ontology Biological Process J. Gene Ontology Cellular Component K. Gene Ontology Molecular Function L. Pathway     The files: result_MAS5_Leaves.txt, result_MAS5_Hypocotyls.txt and result_MAS5_Root.txt contain analyzed data for Spaceflight TAGES shoots, Spaceflight TAGES hypocotyls and Spaceflight TAGES roots. Each file contains information about:  fold change of genes expression in Spaceflight samples relative to Ground Controls, p-values, q-values, gene IDs, names if available. The columns are as follow: A. ProbeSet ID- probeset ID on microarray B. p-value- calculated for 5 biological replicas Spaceflight and 5 biological replicas Ground Control C. q-value- calculated for 5 biological replicas Spaceflight and 5 biological replicas Ground Control D. FoldChanges- fold changes as log at the base of 2 of genes expression in Spaceflight samples relative to Ground Controls, calculated from 6 biological replicas Spaceflight and 6 biological replicas Ground Control E. Present (FL) F. Present (GR) G. Gene Symbol- symbol of the gene if availableH. Representative Public ID- the name of the gene or Atg number if available	The MAS5 data was generated by using the Affymetrix Expression Console software. The console is a widely used standard software for Affymatrix arrays.
+Protocol Parameters		amount of RNA used;system used	RNA quality RIN	hyb duration;hyb temp	cDNA MassUnit;system used		Affymetrix Expression Console software
+Protocol Hardware							
+Protocol Software							
+Protocol Contact	Paul A-L.	Zhang Y.	Zupanska A.		Zhang Y.		Sun Y.
+
+Term Source Name	ArrayExpress
+Term Source File	http://www.ebi.ac.uk/arrayexpress/
+Term Source Version
+
+SDRF File	E-MTAB-1264.sdrf.txt
+Comment [Submitted Name]	The Arabidopsis spaceflight transcriptome: a comparison of whole plants to discrete root, hypocotyl and shoot responses to the orbital environment
+Comment [AEMIAMEScore]	5
+Comment [AEExperimentType]	transcription profiling by array
+Comment[ArrayExpressAccession]	E-MTAB-1264
+Comment [AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis whole plants and discrete root, hypocotyl and shoot responses to spaceflight

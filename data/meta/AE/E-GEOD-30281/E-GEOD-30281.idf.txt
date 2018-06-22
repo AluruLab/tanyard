@@ -1,0 +1,58 @@
+Comment[ArrayExpressAccession]	E-GEOD-30281						
+Public Release Date	2011-11-29						
+Investigation Title	Transcript profiling of Arabidopsis albino msh1 mutants						
+Comment[Submitted Name]	Transcript profiling of Arabidopsis albino msh1 mutants						
+Experiment Description	The soybean msh1 RNAi transgenic line show various growth phenotype. We use microarray analysis to characterize gene expression pattern for two of the phenotypes - variegation and stunted growth. Wild type and Arabidopsis msh1 mutant albino tissues were collected for RNA extration and hybridization on Affymetrix.						
+Date of Experiment							
+Term Source Name	EFO						
+Term Source Version							
+Term Source File	http://www.ebi.ac.uk/efo/efo.owl						
+Person Last Name	Xu	Xu	Mackenzie				
+Person First Name	Ying-Zhi	Ying-Zhi	Sally				
+Person Mid Initials			A				
+Person Email	ying-zhi2@unl.edu						
+Person Affiliation	University of Nebraska						
+Person Phone	402-472-6998						
+Person Fax							
+Person Address	"Center for Plant Science Innovation, University of Nebraska, 1901 Vine St., Lincoln, NE, USA"						
+Person Roles	submitter						
+Person Roles Term Source REF							
+Person Roles Term Accession Number							
+Normalization Type							
+Normalization Term Accession Number							
+Normalization Term Source REF							
+Replicate Type							
+Replicate Term Accession Number							
+Replicate Term Source REF							
+Experimental Design							
+Experimental Design Term Accession Number							
+Experimental Design Term Source REF							
+Quality Control Type							
+Quality Control Term Accession Number							
+Quality Control Term Source REF							
+Protocol Name	P-GSE30281-1	P-GSE30281-6	P-GSE30281-5	P-GSE30281-3	P-GSE30281-2	P-GSE30281-4	P-GSE30281-7
+Protocol Description	ID_REF = <br>VALUE = Bioconductor RMA normalized value	According to Affymetrix instructions	RNA was hybridized to individual Affymetrix GeneChip oligonucleotide ATH1 array using manufacturers instructions	total RNA was extracted from each plant using TRIzol (Invitrogen) extraction procedure followed by purification on RNeasy columns (Qiagen).	plants were grown on MS media with 1.5% supplement of sucrose in percival growth chamber with 12h-light/12-dark period at 24ºC.	Biotinylated cRNA were prepared according to the standard Affymetrix protocol	Expression data from Affymetrix Genechips were normalized using the Robust Multichip Average (RMA) method using Bioconductor’s affy package in the R language
+Protocol Software							
+Protocol Hardware							
+Protocol Contact							
+Protocol Type	bioassay_data_transformation	image_aquisition	hybridization	nucleic_acid_extraction	grow	labeling	feature_extraction
+Protocol Term Source REF							
+Protocol Term Accession Number							
+Experimental Factor Name	genotype						
+Experimental Factor Type	genotype						
+Experimental Factor Term Source REF							
+Experimental Factor Term Accession Number							
+Publication Title	MutS HOMOLOG1 is a nucleoid protein that alters mitochondrial and plastid properties and plant response to high light.						
+Publication Author List	"Xu YZ, Arrieta-Montiel MP, Virdi KS, de Paula WB, Widhalm JR, Basset GJ, Davila JI, Elthon TE, Elowsky CG, Sato SJ, Clemente TE, Mackenzie SA."						
+PubMed ID	21934144						
+Publication DOI	10.1105/tpc.111.089136 						
+Publication Status	published						
+Publication Status Term Source REF	EFO						
+Publication Status Term Accession Number	EFO_0001796						
+Comment[SecondaryAccession]	GSE30281						
+Comment[GEOLastUpdateDate]	2011-11-29						
+Comment[AEExperimentDisplayName]	Transcript profiling of Arabidopsis albino msh1 mutants						
+Comment[AEExperimentType]	transcription profiling by array						
+Comment[GEOReleaseDate]	2011-11-29						
+Comment[ArrayExpressSubmissionDate]	2011-06-27						
+SDRF File	E-GEOD-30281.sdrf.txt						

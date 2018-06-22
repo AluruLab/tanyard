@@ -1,0 +1,57 @@
+Comment[ArrayExpressAccession]	E-GEOD-36943
+Public Release Date	2012-03-29							
+Investigation Title	Expression data from 7-day-old Arabidopsis emf2 mutant, rescued emf2 mutant harboring 35S::BoEMF2.1, WT Columbia ecotype and WT harboring 35S::BoEMF2.1 named transWT							
+Comment[Submitted Name]	Expression data from 7-day-old Arabidopsis emf2 mutant, rescued emf2 mutant harboring 35S::BoEMF2.1, WT Columbia ecotype and WT harboring 35S::BoEMF2.1 named transWT
+Experiment Description	Arabidopsis emf2 mutants bypass vegetative development and flowering upon seed germination. We introduced a broccoli BoEMF2.1 gene into emf2 mutants and obtained rescued emf2 plants that harbored 35S::BoEMF2.1. We found that BoEMF2.1 can partially rescue the phenotype of emf2 to that of WT. We used microarrays to study the global program of gene expression and to identify genes misexpressed in the Arabidopsis emf2 mutant that had been rescued by 35S::BoEMF2.1. 7-day-old seedlings of WT, transWT, emf2 and rescued emf2 Arabidopsis were used for RNA extraction and hybridization on Affymetrix microarrays.							
+Date of Experiment								
+Term Source Name	EFO
+Term Source Version								
+Term Source File	http://www.ebi.ac.uk/efo/efo.owl							
+Person Last Name	Liu	Liu	Chen	Sung				
+Person First Name	Mao-Sen	Mao-Sen	Long-Fang	Zinmay				
+Person Mid Initials			O	R				
+Person Email	d89226001@ntu.edu.tw							
+Person Affiliation	Institute of Plant and Microbial Biology, Academia Sinica, Taiwan							
+Person Phone								
+Person Fax								
+Person Address	Institute of Plant and Microbial Biology, Academia Sinica, Taiwan, 128 Academia Road, Section 2, Nankang, Taipei 115, Taiwan, Taipei, Taiwan							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Person Roles Term Accession Number								
+Normalization Type								
+Normalization Term Accession Number								
+Normalization Term Source REF								
+Replicate Type								
+Replicate Term Accession Number								
+Replicate Term Source REF								
+Experimental Design								
+Experimental Design Term Accession Number								
+Experimental Design Term Source REF								
+Quality Control Type								
+Quality Control Term Accession Number								
+Quality Control Term Source REF								
+Protocol Name	P-GSE36943-1	P-GSE36943-6	P-GSE36943-3	P-GSE36943-8	P-GSE36943-7	P-GSE36943-2	P-GSE36943-4	P-GSE36943-5
+Protocol Description	ID_REF = <br>VALUE = MAS5.0 signal intensity<br>ABS_CALL = the call in an absolute analysis that indicates if the transcript was present (P), absent (A), or marginal (M)<br>DETECTION P-VALUE = p-value that indicates the significance level of the detection call	Following fragmentation, 10 ug of cRNA were hybridized for 16.5 hr at 45C on GeneChip Arabidopsis ATH1 Genome Arrays. GeneChips were washed and stained in the Affymetrix Fluidics Station 450.	Seedlings were grown on 0.8% agar plates with half-strength MS and 1.5% sucrose under short day conditions (8h light/ 16h dark) at 21 degrees Celsius.	The data were analyzed with Microarray Suite version 5.0 (MAS 5.0) using Affymetrix default analysis settings and global scaling as the normalization method. The trimmed mean target intensity of each array was arbitrarily set to 500.	GeneChips were scanned using Affymetrix GeneChip Scanner 3000 7G.	Seedlings of rescued emf2 and transWT were grown on plates with 20 mg/mL hygromycin, while those of WT and emf2 were grown on MS-only plates, under short day conditions (8h/16h) for 7 days.	Trizol extraction of total RNA was performed according to the manufacturer's instructions.	Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 10 ug total RNA (Expression Analysis Technical Manual, 701021 Rev. 5, Affymetrix).
+Protocol Software								
+Protocol Hardware								
+Protocol Contact								
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Protocol Term Source REF								
+Protocol Term Accession Number								
+Experimental Factor Name	VARIATION							
+Experimental Factor Type	variation							
+Experimental Factor Term Source REF								
+Experimental Factor Term Accession Number								
+Publication Title								
+Publication Author List								
+PubMed ID								
+Publication DOI								
+Publication Status								
+Publication Status Term Source REF								
+Publication Status Term Accession Number								
+Comment[SecondaryAccession]	GSE36943							
+Comment[GEOLastUpdateDate]	2012-03-30
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[GEOReleaseDate]	2012-03-28
+Comment[ArrayExpressSubmissionDate]	2012-03-28
+SDRF File	E-GEOD-36943.sdrf.txt

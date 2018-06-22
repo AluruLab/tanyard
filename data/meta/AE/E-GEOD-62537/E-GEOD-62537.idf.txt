@@ -1,0 +1,29 @@
+Comment[ArrayExpressAccession]	E-GEOD-62537						
+MAGE-TAB Version	1.1						
+Public Release Date	2014-11-20						
+Investigation Title	Expression data roots of Arabidopsis plants inoculated with Verticillium longisporum						
+Comment[Submitted Name]	Expression data roots of Arabidopsis plants inoculated with Verticillium longisporum						
+Experiment Description	Identification of genes differentially expressed in roots of Arabidopsis Col-0 and ndr1-1 mutants 48 h post inoculation with the fungal pathogen Verticillium longisporum. Arabidopsis Col-0 and ndr1-1 seeds were grown in petri dishes with liquid MS medium supplemented with 0.2% sucrose. After two weeks on a horizontal shaker (40 rpm), plants were rinsed twice in sterile distilled water and transferred to liquid 0.5xMS medium without sucrose, supplemented with 200 conidia ml-1 of V. longisporum isolate VL1 (CBS110220). Control plants were grown in 0.5x MS only. At 48 hours post inoculation, materials were harvested in biological replicates (>50 plant roots) and immediately frozen in liquid nitrogen. RNA was extracted with Aurum Total RNA Mini Kit (Bio-Rad) and hybridized to the Arabidopsis ATH1 Genome Array at the DNAVision facility (Gosselies, Belgium). Microarray assays were performed with triplicate biological root samples. Normalization of the microarray data was performed using the Robust Multichip Average (RMA) method as implemented by the “quantile normalization” function in the Bioconductor 1.3 software.						
+Term Source Name	ArrayExpress	EFO					
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Roos	Roos	Bejai	Dixelius			
+Person First Name	Jonas	Jonas	Sarosh	Christina			
+Person Email	Jonas.Roos@slu.se						
+Person Affiliation	Swedish University of Agricultural Sciences						
+Person Address	Dept. Plant Biology, Swedish University of Agricultural Sciences, PO Box 7080, Uppsala, Sweden						
+Person Roles	submitter						
+Protocol Name	P-GSE62537-1	P-GSE62537-5	P-GSE62537-6	P-GSE62537-2	P-GSE62537-3	P-GSE62537-4	P-GSE62537-7
+Protocol Description	Normalization of the microarray data was performed using the Robust Multichip Average (RMA) method as implemented by the “quantile normalization” function in the Bioconductor 1.3 software. ID_REF =  VALUE = Quantile normalized gene level expression values from Bioconductor 1.3 software.	Biotinylated cRNA was prepared according to the standard Affymetrix protocol from 3 ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).	Biotinylated cRNA was fragmented and hybridized to Arabidopsis GeneChip ATH1/GPL198 Genome Array, and washed and stained using the Affymetrix Model 450 Fluidics Station.	After two weeks, plants were rinsed twice in sterile distilled water and transferred to liquid 0.5xMS medium without sucrose, supplemented with 200 conidia ml-1 of V. longisporum isolate VL1 (CBS110220). Control plants were grown in 0.5x MS only.	Arabidopsis Col-0 and ndr1-1 seeds were grown in petri dishes with liquid MS medium supplemented with 0.2% sucrose, on a horizontal shaker (40 rpm). The light intensity was 100 �mol E m-2 s-1 and the temperature 21�C (light) and 16�C (dark). The light/dark regime was 16/h/8h.	At 48 hours post inoculation, root materials were harvested in biological replicates (>50 plant roots) and immediately frozen in liquid nitrogen. RNA was extracted with Aurum Total RNA Mini Kit (Bio-Rad).	GeneChips were scanned on the Affymetrix Model 3000 scanner using the manufacturer's protocol.
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	infect	genotype					
+Experimental Factor Type	infect	genotype					
+Comment[SecondaryAccession]	GSE62537						
+Comment[GEOReleaseDate]	2014-11-20						
+Comment[ArrayExpressSubmissionDate]	2014-10-21						
+Comment[GEOLastUpdateDate]	2014-11-21						
+Comment[AEExperimentType]	transcription profiling by array						
+SDRF File	E-GEOD-62537.sdrf.txt						
+Publication Title	Susceptibility to Verticillium longisporum is linked to monoterpene production by TPS23/27 in Arabidopsis						
+Publication Author List	J Roos, S Bejai, R Mozūraitis, C Dixelius 						
+PubMed ID	25640950						
+Publication DOI	10.1111/tpj.12752						

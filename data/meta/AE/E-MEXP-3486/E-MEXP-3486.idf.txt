@@ -1,0 +1,34 @@
+Comment[ArrayExpressAccession]	E-MEXP-3486		
+Investigation Title	Overexpression of fatty acid amide hydrolase induces early flowering in Arabidopsis thaliana		
+Comment[Submitted Name]	Overexpression of fatty acid amide hydrolase induces early flowering in Arabidopsis thaliana		
+Comment[AEExperimentDisplayName]	Transcriptional profiling by array of Arabidopsis thaliana seedlings with AtFAAH overexpression.		
+Comment[MIAMExpressLogin]	YuhongTang		
+Comment[MIAMExpressSubmissionID]	8017		
+Experiment Description	To better understand the molecular basis for the early flowering phenotype of AtFAAH overexpressors, microarray analysis was conducted comparing transcript profiles of wild type to the AtFAAH overexpressors and AtFAAH knockouts. 		
+Experimental Design	co-expression_design	individual_genetic_characteristics_design	replicate_design
+Comment[AEExperimentType]	transcription profiling by array		
+Experimental Factor Name	genotype		
+Experimental Factor Type	genotype		
+Person Last Name	Tang		
+Person First Name	Yuhong		
+Person Email	ytang@noble.org		
+Person Phone	5802246645		
+Person Affiliation	The Samuel Robert Noble Foundation		
+Person Address	Plant Biology Division, 2510 Sam Noble Pkwy, Ardmore, Oklahoma, 73401, USA		
+Person Roles	submitter		
+Person Roles Term Source REF	MGED Ontology		
+Quality Control Type	biological_replicate		
+Public Release Date	2012-02-01		
+Comment[ArrayExpressSubmissionDate]	2012-12-21 11:17 PM		
+Publication Status			
+Protocol Name	P-MTAB-24479	P-MTAB-24480	P-MTAB-24481
+Protocol Description	The normalized data was obtained by using RMA. All chips were normalized together using robust multichip average.  Median polish was used for the probe level summary.	Total RNA was isolated using Qiagen RNeasy Mini Kit according to the kit protocol. <br>(Parameters: Extracted product = total_RNA, Amplification = none)	Arabidopsis thaliana wild-type Col-0, transgenic 35S::AtFAAH line (OE11a-1) and homozygous knockout line (Atfaah -/-) were planted on MS media and seedlings were grown for 14 days in 14h/10 h light/dark cycle prior to RNA isolation for arrays.
+Protocol Type	bioassay_data_transformation	nucleic_acid_extraction	grow
+Protocol Term Source REF	MGED Ontology	MGED Ontology	MGED Ontology
+Term Source Name	MGED Ontology	ArrayExpress	
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	
+SDRF File	E-MEXP-3486.sdrf.txt		
+Publication Title	Overexpression of Fatty Acid Amide Hydrolase Induces Early Flowering in Arabidopsis thaliana.		
+Publication Author List	Teaster ND, Keereetaweep J, Kilaru A, Wang YS, Tang Y, Tran CN, Ayre BG, Chapman KD, Blancaflor EB.		
+PubMed ID	22645580		
+Publication DOI	10.3389/fpls.2012.00032		

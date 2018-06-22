@@ -1,0 +1,48 @@
+Investigation Title	Transcription profiling of A. thaliana Col-0 wild type vs. myb11, myb12, myb111 triple mutant to identify targets of PFG	
+Comment[Submitted Name]	Stracke A. thaliana PFG target screening	
+Experimental Design	transcript_identification_design	individual_genetic_characteristics_design	co-expression_design	transcription profiling by array	
+Experimental Design Term Source REF			mo	EFO	
+Comment[ArrayExpressReleaseDate]	2007-11-21	
+Comment[AEMIAMESCORE]	5	
+Comment[ArrayExpressAccession]	E-ATMX-5	
+Comment[MAGETAB TimeStamp_Version]	2010-07-29 14:28:33 Last Changed Rev: 13058	
+Experimental Factor Name	genotype	
+Experimental Factor Type	genotype	
+Experimental Factor Term Source REF	
+Person Last Name	Stracke	
+Person First Name	Ralf	
+Person Mid Initials	
+Person Email	stracke@cebitec.uni-bielefeld.de	
+Person Phone	+49-521-1062448	
+Person Fax	
+Person Address	Universitaetsstrasse 25	
+Person Affiliation	Genome Research	
+Person Roles	submitter	
+Person Roles Term Source REF	The MGED Ontology	
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2007-11-21	
+PubMed ID	
+Publication DOI	
+Publication Author List	Ralf Stracke; Hirofumi Ishihara; Gunnar Huep; Aiko Barsch; Frank Mehrtens; Karsten Niehaus; Bernd Weisshaar	
+Publication Title	Differential regulation of closely related R2R3-MYB transcription factors controls flavonol accumulation in different parts of the Arabidopsis thaliana seedling	
+Publication Status	
+Publication Status Term Source REF	
+Experiment Description	Comparison of Col-0 wt vs. Col myb11 myb12 myb111 triple mutant, screening for genes downregulated in the triple mutant; Screening for target genes of R2R3-MYB subgroup 7 transcription factors	
+Protocol Name	P-CAGE-25016	P-CAGE-25017	P-CAGE-25018	P-AFFY-2	Affymetrix:Protocol:Hybridization-EukGE-WS2v4_450	P-AFFY-6	Affymetrix:Protocol:ExpressionStat	
+Protocol Type	grow	pool	nucleic_acid_extraction	labeling	hybridization	feature_extraction	bioassay_data_transformation	
+Protocol Description	Seedlings grown on parafilm covered 0.5x MS, 1.5% sucrose, 0.8% agar plates, in a phytochamber with 16 hours light/ 8 hours dark at 23°C 	seedlings from four independent plates (samples) have been harvested and one extract was created	total RNA was extracted using the RNeasy Plant Mini Kit from Qiagen, according to the manufactures instructions; total RNA was eluted with water	Title: Affymetrix in vitro transcription. Description: 	Title: Affymetrix EukGE-WS2v4_450 Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 	
+Protocol Parameters	light source;light intensity;media;day temperature;day humidity;night temperature;light hours;night humidity;		Extracted product;Amplification;	
+Protocol Hardware	
+Protocol Software						MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact	
+Protocol Term Source REF		The MGED Ontology			mo		The MGED Ontology	
+SDRF File	E-ATMX-5.sdrf.txt	
+Term Source Name	ncbitax		nasc	po_structure_ontology1.1	The MGED Ontology	ArrayExpress	mo	EFO	The MGED Ontology	
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html		http://arabidopsis.info/catalogue.html		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version										

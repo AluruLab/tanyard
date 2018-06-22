@@ -1,0 +1,27 @@
+Comment[ArrayExpressAccession]	E-GEOD-50435
+MAGE-TAB Version	1.1				
+Public Release Date	2013-08-30
+Investigation Title	The role of membrane fluidity in low temperature perception				
+Comment[Submitted Name]	The role of membrane fluidity in low temperature perception
+Experiment Description	The aim of this work is to investigate whether A. thaliana senses low temperature by perceiving changes in membrane fluidity. To this end, we have performed an experiment to test whether mutant or transgenic plants with altered membrane lipid composition, regulate their gene expression in the same manner as wild type plants in response to cold.  Previous work has demonstrated that a change in the expression levels of a number of genes is important in acquiring tolerance to low temperatures. Chemicals which rigidify cell membranes in such a way as to mimic the effects of cold have been shown to be able to induce the expression of such genes. However, because of the non-specific nature of such chemical treatments, it has not been possible to demonstrate unequivocally that the changes in gene expression observed were the result of changes in membrane fluidity. All of the mutants used in our experiment,  fab1, fad2-2 and the fad3/fad7/fad8 mutant, have increased lipid saturation levels compared to wild type plants and are thought to have reduced membrane fluidity. The fab1 mutant is also known to be sensitive to chilling. In the fab1 mutant the elongation of 16:0 fatty acids to 18:0 is reduced. The fad2-2 mutant has reduced 18:1 desaturase activity and hence reduced amounts of polyunsaturated phospholipids. The fad3/fad7/fad8 triple mutant is deficient in 18:2 desaturase activity and consequently unable to synthesise trienoic fatty acids. The transgenic line used contained a 35S::FAD3 transgene and in contrast to the mutants tested, should have increased lipid desaturation and increased membrane fluidity. A. thaliana ecotype Col-0 was used as the wild type control for the fab1 and fad2-2 mutants, in addition to the 35S::FAD3 line. The fad3/fad7/fad8 mutant had previously been transformed with the 35S::apoaequorin transgene and a Columbia line expressing apoaequorin under the control of the same promoter, was included to control for the presence of aequorin. Nine day old seedlings grown in petri-dishes on MS were transferred from their growth room (20 oC, 16 h photoperiod, 100 E m-2 s-1) to a growth cabinet (20 oC, 16 h photoperiod,160 m-2 s-1) 24 hours before the experiment began. The next day, one petri-dish of seedlings from each line of plants used was transferred to a cabinet running at 5 oC (16 h photoperiod,160 E m-2 s-1). Control plates remained at 20 oC. Seedlings were harvested after three hours and frozen in liquid nitrogen. 12 samples were used in this experiment				
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl			
+Person Last Name	Nottingham Arabidopsis Stock Centre (NASC)	Evans			
+Person First Name		Nicola			
+Person Email	affy@arabidopsis.info				
+Person Affiliation	Nottingham Arabidopsis Stock Centre (NASC)				
+Person Phone	+44 (0)115 951 3237				
+Person Fax	+44 (0)115 951 3297				
+Person Address	School of Biosciences, University of Nottingham, Nottingham Arabidopsis Stock Centre (NASC), Sutton Bonington Campus, Loughborough, United Kingdom				
+Person Roles	submitter				
+Protocol Name	P-GSE50435-1	P-GSE50435-3	P-GSE50435-4	P-GSE50435-2	P-GSE50435-5
+Protocol Description	Raw data from the microarrays was normalized at probe-level using MAS5 algorithm. The detection calls (present, marginal, absent) for each probe set was obtained using the GCOS system ID_REF =  VALUE = MAS5 ABS_CALL =  DETECTION P-VALUE = detection p-value	labelled using protocol described in manual &quot; Affymetrix Genechip IVT kit&quot;	Biotin Labelled cRNA using &quot;Affymetrix GeneChip Hybridization, Wash and Stain Kit&quot;, according to guidelines set out by Affymetrix, Santa Clara, CA	Qiagen RNAeasy kit protocol	Scanned according to guidelines set out by Affymetrix, Santa Clara, CA.
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	TREATMENT	GENETIC VARIATION	GENOTYPE	ORGANISM PART	
+Experimental Factor Type	treatment	genetic variation	genotype	organism part	
+Comment[SecondaryAccession]	GSE50435				
+Comment[GEOReleaseDate]	2013-08-30				
+Comment[ArrayExpressSubmissionDate]	2013-08-29				
+Comment[GEOLastUpdateDate]	2013-09-01				
+Comment[AEExperimentType]	transcription profiling by array				
+SDRF File	E-GEOD-50435.sdrf.txt

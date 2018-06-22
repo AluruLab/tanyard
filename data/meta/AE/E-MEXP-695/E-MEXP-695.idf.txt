@@ -1,0 +1,51 @@
+Investigation Title	Transcription profiling of Arabidopsis closed buds, open pollinated flowers and siliques										
+Comment[Submitted Name]	Hennig Arabidopsis Reproduction I										
+Experimental Design	development_or_differentiation_design	transcription profiling by array									
+Experimental Design Term Source REF	mo:1.3.1.1	EFO									
+Comment[AEExperimentType]	transcription profiling by array										
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis closed buds, open pollinated flowers and siliques										
+Comment[ArrayExpressReleaseDate]	2006-05-31										
+Comment[AEMIAMESCORE]	5										
+Comment[ArrayExpressAccession]	E-MEXP-695										
+Comment[MAGETAB TimeStamp_Version]	2010-08-11 15:23:06 Last Changed Rev: 13058										
+Experimental Factor Name	DEVELOPMENTAL STAGE										
+Experimental Factor Type	developmental_stage										
+Experimental Factor Term Source REF											
+Person Last Name	Hennig	Kohler	Grossniklaus	Gruissem							
+Person First Name	Lars	Claudia	Ueli	Wilhelm							
+Person Mid Initials											
+Person Email	lhennig@ethz.ch										
+Person Phone	41 44 632 2244										
+Person Fax											
+Person Address											
+Person Affiliation	Institute of Plant Sciences, ETH Zurich	University of Zurich	University of Zurich	ETH Zurich							
+Person Roles	submitter										
+Person Roles Term Source REF											
+Quality Control Type											
+Quality Control Term Source REF											
+Replicate Type											
+Replicate Term Source REF											
+Normalization Type											
+Normalization Term Source REF											
+Date of Experiment											
+Public Release Date	2006-05-31										
+PubMed ID	15247381										
+Publication DOI	http://dx.doi.org/10.1104/pp.104.043182										
+Publication Author List	Lars Hennig; Wilhelm Gruissem; Ueli Grossniklaus; Claudia Kohler										
+Publication Title	Transcriptional Programs of Early Reproductive										
+Publication Status	published										
+Publication Status Term Source REF	EFO										
+Publication Status Term Accession Number	EFO_0001796										
+Experiment Description	Plants were grown in growth chambers at 70% humidity and daily cycles of 16 h light and 8 h darkness at 21 C. Plant material used for the experiments was pooled from 12 plants. Stage I and stage II samples contained complete flower buds (stage I) or flowers (stage II). For stage III samples only siliques without withering flower organs were harvested. About 10% of the tissues for each sample were cleared and analyzed by microscopy to ensure that homogenous developmental stages were harvested. The entire experiment was performed twice providing independent biological replicates.										
+Protocol Name	P-MEXP-23111	P-MEXP-16111	P-MEXP-23120	P-AFFY-2	Affymetrix:Protocol:Hybridization-EukGE-WS2v3	P-AFFY-6	Affymetrix:Protocol:ExpressionStat				
+Protocol Type	grow	nucleic_acid_extraction	pool	labeling	hybridization	feature_extraction	bioassay_data_transformation				
+Protocol Description	Plants were grown in growth chambers at 70% humidity and daily cycles of 16 h light and 8 h darkness at 21 C.	RNA was extracted using TRIzol (Invitrogen) according to manufacturers protocol followed by a clean-up on Quiagen RNeasy columns.	Plant material used for the experiments was pooled from 12 plants.	Title: Affymetrix in vitro transcription. Description: 	Title: Affymetrix EukGE-WS2v3 Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 				
+Protocol Parameters	max temperature;min temperature;	Amplification;Extracted product;									
+Protocol Hardware											
+Protocol Software					MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 5.0				
+Protocol Contact											
+Protocol Term Source REF					mo		The MGED Ontology				
+SDRF File	E-MEXP-695.sdrf.txt										
+Term Source Name	mo		ncbitax	Plant Ontology	tair_anat:1.2	The MGED Ontology	ArrayExpress	mo:1.3.1.1	EFO	mo	The MGED Ontology
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php		http://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html	http://www.plantontology.org/	http://www.arabidopsis.org/info/ontologies/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version					1.2			1.3.1.1			

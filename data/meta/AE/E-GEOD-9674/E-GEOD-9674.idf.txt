@@ -1,0 +1,53 @@
+Investigation Title	Transcription profiling of  Arabidopsis plants mis-expressing AtMYB30 AFTER Xanthomonas inoculation  AT early timepoints					
+Comment[AdditionalFile:XLS]	E-GEOD-9674.hybs.xls					
+Comment[Submitted Name]	Expression data from Arabidopsis plants misexpressing AtMYB30 after Xanthomonas inoculation at early timepoints					
+Experimental Design	unknown_experiment_design_type	transcription profiling by array				
+Experimental Design Term Source REF		EFO				
+Comment[AEExperimentType]	transcription profiling by array					
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis misexpressing AtMYB30 after inoculation with Xanthomonas campestris pv campestris					
+Comment[AEMIAMESCORE]	4					
+Comment[ArrayExpressReleaseDate]	2008-04-07					
+Comment[SecondaryAccession]	GSE9674					
+Comment[ArrayExpressAccession]	E-GEOD-9674					
+Comment[MAGETAB TimeStamp_Version]	2010-08-09 15:27:40 Last Changed Rev: 13058					
+Experimental Factor Name	INOCULATION	GENOTYPE				
+Experimental Factor Type	infect	genotype				
+Experimental Factor Term Source REF						
+Person Last Name	ROBY					
+Person First Name	Dominique					
+Person Mid Initials						
+Person Email	dominique.roby@toulouse.inra.fr					
+Person Phone						
+Person Fax						
+Person Address	Laboratoire des Interactions Plantes - Microorganismes, CNRS/INRA, Chemin de Borde Rouge, Castanet-Tolosan, F-31326, France					
+Person Affiliation	CNRS/INRA					
+Person Roles	submitter					
+Person Roles Term Source REF	The MGED Ontology					
+Quality Control Type						
+Quality Control Term Source REF						
+Replicate Type						
+Replicate Term Source REF						
+Normalization Type						
+Normalization Term Source REF						
+Date of Experiment						
+Public Release Date	2008-04-07					
+PubMed ID	18326828					
+Publication DOI	10.1105/tpc.107.054858 					
+Publication Author List	Vailleau Raffaele, Joubès Léger, Huard Miersch, Mongrand Blée, Roby Domergue					
+Publication Title	A MYB Transcription Factor Regulates Very-Long-Chain Fatty Acid Biosynthesis for Activation of the Hypersensitive Cell Death Response in Arabidopsis.					
+Publication Status	published					
+Publication Status Term Source REF	EFO					
+Publication Status Term Accession Number	EFO_0001796					
+Experiment Description	Plant immune responses to pathogen attack involve various defense mechanisms and among them, the Hypersensitive Response (HR), a form of programmed cell death occurring at invasion sites.  AtMYB30, a transcription factor acts as a positive regulator of a cell death pathway conditioning the HR. We show by microarray analyses of Arabidopsis plants misexpressing AtMYB30 that the genes encoding the four enzymes forming the acyl-coA elongase complex, responsible for very long chain fatty acids (VLCFA) biosynthesis, are putative targets. Experiment Overall Design: 18 samples are analyzed : Leaves of 4 week-old plants syringe-infiltrated with the Xcc147 strain (or not) were harvested.  In experiment 1, we selected 4 timepoints : T0 (not inoculated), 90-105 min, 2-4 h and 6 h post inoculation in the wild-type line, and in a transgenic line overexpressing AtMYB30. Experiment 2 is a biological replicate of experiment 1 (except for 6 hpi). In experiment 3, we focused on the early timepoint 90-105 min to compare the wild-type line and an AtMYB30 antisense line. Experiment 4 is a biological replicate of experiment 3. Plant material was pooled when necessary, and frozen before RNA extraction and hybridization on Affymetrix ATH1 microarrays. As a screen for candidate target genes, we looked for genes, i) up-regulated in the wild-type line after inoculation with Xcc147 as compared to time T0 (not inoculated) , ii) over-expressed in the AtMYB30 overexpressor line compared to the wild-type, and iii) down-regulated in the AtMYB30 antisense line compared to the wild-type.					
+Protocol Name	P-9674-2	P-9674-3	P-9674-5	P-9674-4	P-9674-1	P-AFFY-6
+Protocol Type	grow	specified_biomaterial_action	nucleic_acid_extraction	labeling	hybridization	feature_extraction
+Protocol Description	Arabidopsis plants were grown under controlled conditions as previously described (Lacomme and Roby, 1996, Plant. Mol. Biol., 30, 995-1008)	Leaves of 4 week-old plants were syringe-infiltrated in totality, with the Xcc147 strain, at 108 cfu/ml, harvested at various times after inoculation, pooled and frozen	Total RNA was extracted as described by Lorrain et al., 2004, Plant cell, 16, 2217-2232	Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 6 ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).	Following fragmentation, 12.5 ug of cRNA were hybridized for 16 hr at 45Â&deg;C on ATH1 Arabidopsis GeneChip. GeneChips were washed and stained in the Affymetrix GenChip Fluidics Station 450	Title: Affymetrix CEL analysis. Description: 
+Protocol Parameters						
+Protocol Hardware						
+Protocol Software						MicroArraySuite 5.0
+Protocol Contact						
+Protocol Term Source REF						
+SDRF File	E-GEOD-9674.sdrf.txt					
+Term Source Name	NCBI Taxonomy		The MGED Ontology	ArrayExpress	EFO	The MGED Ontology
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version						

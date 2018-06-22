@@ -1,0 +1,29 @@
+Comment[ArrayExpressAccession]	E-GEOD-28109
+MAGE-TAB Version	1.1						
+Public Release Date	2014-05-15
+Investigation Title	Cell type specific gene expression map of Arabidopsis thaliana SAM.						
+Comment[Submitted Name]	Cell type specific gene expression map of Arabidopsis thaliana SAM.
+Experiment Description	Shoot apical meristem (SAM) of higher plant composed of a few distinct cell types.  All the cells in a mature plant’s SAM derived from 30~35 stem cells reservoir which are located at the tip of the apex.  Plants ability to give rise diverse cell types from a pool of pluripotent stem cells requires orchestrated gene network that controls the cell fate commitment during the meristem development.  To understand, how gene regulatory networks control cell identities switches during cell differentiation requires resolution in recording their gene expression pattern at single cell resolution. An earlier expression map involving three-cell population of stem cell niche revealed complex expression pattern among the cell types1.  We developed this approach further and report here a gene expression map using cell-sorting methods for fluorescent protein marked cells in Arabidopsis shoot. The map covered 10 cell populations. This gene expression map represents data from 10 different cell types from Arabidopsis SAM. It will be first step in defining the function of many unknown genes in model plant Arabidopsis. Based on the in situ hybridization we identified 7 new cell types specific gene expression patterns. The promoters of these genes were used to generate fluorescent reporters. After treating the SAM with protoplasting cocktail, we sorted the fluorescent protein tagged cells using fluorescent activated cell sorter (FACS).  The purified cell population was used to isolate RNA. Two round of RNA amplification was performed before microarray hybridization.						
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Yadav	Yadav	Reddy				
+Person First Name	Ram	R	G				
+Person Mid Initials	Kishor	K	V				
+Person Email	ryadav@iisermohali.ac.in						
+Person Affiliation	University of California Riverside						
+Person Phone	00919463998780						
+Person Fax	951-827-4437						
+Person Address	Plant Biology, University of California Riverside, 2150 Batchelor Hall, Riverside, CA, USA						
+Person Roles	submitter						
+Protocol Name	P-GSE28109-1	P-GSE28109-5	P-GSE28109-6	P-GSE28109-2	P-GSE28109-3	P-GSE28109-4	P-GSE28109-7
+Protocol Description	MAS 5 ID_REF =  VALUE = MAS5 signal intensities	Biotinylated cRNA were prepared according to the standard Affymetrix protocol.	Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45C on ATH1 chip. GeneChips were washed and stained in the Affymetrix Fluidics Station 450. Affymetrix Hybridization oven 640	Protoplasting	Arabidopsis thaliana ap1-1;cal1-1 plants were grown in growth room for 28 days. The shoot apices from these plants were used for isolating the cells.	RNA was isolated using RNeasy kit (Qiagen).	GeneChips were scanned using the Affymetrix Scanner 3000 with 7G upgrade
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	CELL TYPE						
+Experimental Factor Type	cell type						
+Comment[SecondaryAccession]	GSE28109						
+Comment[GEOReleaseDate]	2014-05-15						
+Comment[ArrayExpressSubmissionDate]	2011-03-22						
+Comment[GEOLastUpdateDate]	2014-05-15						
+Comment[AEExperimentType]	transcription profiling by array						
+Comment[AdditionalFile:Data1]	GSE28109_averaged_mas5_data.txt						
+SDRF File	E-GEOD-28109.sdrf.txt

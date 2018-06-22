@@ -1,0 +1,58 @@
+Comment[ArrayExpressAccession]	E-GEOD-25889							
+Public Release Date	2010-12-08							
+Investigation Title	expression data of WT and ced1 under osmotic stress							
+Comment[Submitted Name]	expression data of WT and ced1 under osmotic stress							
+Experiment Description	ced1 mutant has reduced expression of NCED3  in response to osmotic stress (polyethylene glycol) treatments compared to the wild type.  Other ABA biosynthesis genes are also greatly reduced in ced1 under osmotic stress. We used microarrays to detail the global programme of gene expression under osmotic stress treatment and identified distinct classes of up/down-regulated genes in the stress pathway. Arabidopsis seedlings were selected at 16 days with 6hr PEG treatment for RNA extraction and hybridization on Affymetrix microarrays. From Norther data we have known some of well-known stress responsive gene were significantly changed. We sought to obtain whole gene expression to analysis which genes were affected in the osmotic stress pathway.							
+Date of Experiment								
+Term Source Name	EFO							
+Term Source Version								
+Term Source File	http://efo.svn.sourceforge.net/viewvc/efo/trunk/src/efoinowl/efo.owl							
+Person Last Name	wang	Wang	Zhu					
+Person First Name	zhenyu	Zhenyu	Jiankang					
+Person Mid Initials								
+Person Email	wzy43155@gmail.com							
+Person Affiliation	KAUST							
+Person Phone	966028082661							
+Person Fax								
+Person Address	KAUST, PSGC, Thuwal, Saudi Arabia							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Person Roles Term Accession Number								
+Normalization Type								
+Normalization Term Accession Number								
+Normalization Term Source REF								
+Replicate Type								
+Replicate Term Accession Number								
+Replicate Term Source REF								
+Experimental Design								
+Experimental Design Term Accession Number								
+Experimental Design Term Source REF								
+Quality Control Type								
+Quality Control Term Accession Number								
+Quality Control Term Source REF								
+Protocol Name	P-GSE25889-1	P-GSE25889-6	P-GSE25889-3	P-GSE25889-8	P-GSE25889-7	P-GSE25889-2	P-GSE25889-4	P-GSE25889-5
+Protocol Description	ID_REF = <br>VALUE = MAS5.0 signal intensity	Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45C on GeneChip Arabidopsis Genome Array. GeneChips were washed and stained in the AffymetrixFluidics Station 450.	Arabidopsis seedlings on Murashige and Skoog (MS) medium agar plates were routinely grown under continuous white  light (~75 μmol m-2 s -1) at 23±1℃.	The data were analyzed with Microarray Suite version 5.0 (MAS 5.0) using Affymetrix default analysis settings and global scaling as normalization method. The trimmed mean target intensity of each array was arbitrarily set to 100.	GeneChips were scanned using GeneChip Scanner 3000	16 day old seedlings were transfer to plate contained 40% PEG solution for 6hr	Trizol extraction of total RNA was performed according to the manufacturer's instructions.	Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 6 ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+Protocol Software								
+Protocol Hardware								
+Protocol Contact								
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Protocol Term Source REF								
+Protocol Term Accession Number								
+Experimental Factor Name	GENOTYPE							
+Experimental Factor Type	genotype							
+Experimental Factor Term Source REF								
+Experimental Factor Term Accession Number								
+Publication Title	The plant cuticle is required for osmotic stress regulation of abscisic acid biosynthesis and osmotic stress tolerance in Arabidopsis							
+Publication Author List	Wang ZY, Xiong L, Li W, Zhu JK, Zhu J.							
+PubMed ID	21610183							
+Publication DOI	10.1105/tpc.110.081943							
+Publication Status	published							
+Publication Status Term Source REF	EFO							
+Publication Status Term Accession Number	EFO_0001796							
+Comment[SecondaryAccession]	GSE25889							
+Comment[GEOLastUpdateDate]	2010-12-08							
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for ced1							
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[GEOReleaseDate]	2010-12-08							
+Comment[ArrayExpressSubmissionDate]	2010-12-07							
+SDRF File	E-GEOD-25889.sdrf.txt							

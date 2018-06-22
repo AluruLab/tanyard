@@ -1,0 +1,50 @@
+Investigation Title	Transcription profiling of  Arabidopsis thaliana rosettes IN an extended night	
+Comment[AdditionalFile:XLS]	E-GEOD-10016.hybs.xls
+Comment[Submitted Name]	Expression data of Arabidopsis thaliana rosettes in an extended night	
+Experimental Design	unknown_experiment_design_type	transcription profiling by array	
+Experimental Design Term Source REF		EFO	
+Comment[AEMIAMESCORE]	3	
+Comment[ArrayExpressReleaseDate]	2008-04-09	
+Comment[SecondaryAccession]	GSE10016	
+Comment[ArrayExpressAccession]	E-GEOD-10016	
+Comment[MAGETAB TimeStamp_Version]	2010-07-29 16:34:32 Last Changed Rev: 13058	
+Experimental Factor Name	
+Experimental Factor Type	
+Experimental Factor Term Source REF	
+Person Last Name	Usadel	
+Person First Name	BjÃ¶rn	
+Person Mid Initials	
+Person Email	usadel@mpimp-golm.mpg.de	
+Person Phone	
+Person Fax	
+Person Address	Max Planck Institute of Molecular Plant Physiology, Am MÃ¼hlenberg 1, Potsdam, 14476, Germany	
+Person Affiliation	Max Planck Institute of Molecular Plant Physiology	
+Person Roles	submitter	
+Person Roles Term Source REF	The MGED Ontology	
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2008-04-09	
+PubMed ID	
+Publication DOI	
+Publication Author List	
+Publication Title	
+Publication Status	
+Publication Status Term Source REF	
+Experiment Description	Usually starch is nearly depleted at the end of the night. To induce a gradual depletion of carbon, we have analysed the global response of transcripts during an extension of the night, where carbon becomes severely limiting from about four hours onwards. Experiment Overall Design: Arabidopsis thaliana rosettes were harvested in successive timpoints in an extended night situation.	
+Protocol Name	P-10016-2	P-10016-3	P-10016-5	P-10016-4	P-10016-1	P-AFFY-6	
+Protocol Type	grow	specified_biomaterial_action	nucleic_acid_extraction	labeling	hybridization	feature_extraction	
+Protocol Description	Plants were germinated for 7 days (16 h light at 20Â&deg;C, night at 6Â&deg;C, 200 Â&#956;E fluorescent light, 60â"70% relative humidity), transferred to short-day condition (8 h light at 20Â&deg;C, dark at 16Â&deg;C, 180 Â&#956;E fluorescent light, 60â"70% relative humidity), picked after day 14 into pots and incubated under short day further 7 days. The Col-0 ecotype grew from day 22 on for 11 days in a 14-h photoperiod (20Â&deg;C, 150 Â&#956;E fluorescent light, 60â"70% relative humidity)	Plants were harvested in the vegetative state with 3 rosettes per sample, and typically at least 5 replicate samples. Rosettes were transferred into liquid nitrogen in darkness.	Trizol extraction	Approximately 10 Â&#956;g of total RNA was processed to produce biotinylated cRNA targets.	standard Affymetrix procedures	Title: Affymetrix CEL analysis. Description: 	
+Protocol Parameters	
+Protocol Hardware	
+Protocol Software						MicroArraySuite 5.0	
+Protocol Contact	
+Protocol Term Source REF	
+SDRF File	E-GEOD-10016.sdrf.txt	
+Term Source Name	NCBI Taxonomy		The MGED Ontology	ArrayExpress	EFO	The MGED Ontology	
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version							

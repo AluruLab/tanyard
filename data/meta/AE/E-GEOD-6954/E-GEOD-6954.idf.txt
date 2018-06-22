@@ -1,0 +1,52 @@
+Investigation Title	Transcription profiling of Arabidopsis pER22-AGL24 seedlings treated by estradiol vs. controls					
+Comment[Submitted Name]	Identification of AGL24 downstream genes by using XVE inducible system					
+Experimental Design	unknown_experiment_design_type	transcription profiling by array				
+Experimental Design Term Source REF		EFO				
+Comment[AEExperimentType]	transcription profiling by array					
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis carrying pER22-AGL24 after treatment with estradiol					
+Comment[ArrayExpressReleaseDate]	2008-06-15					
+Comment[SecondaryAccession]	GSE6954					
+Comment[AEMIAMESCORE]	4					
+Comment[ArrayExpressAccession]	E-GEOD-6954					
+Comment[MAGETAB TimeStamp_Version]	2010-08-07 16:25:38 Last Changed Rev: 13058					
+Experimental Factor Name	COMPOUND	GENOTYPE				
+Experimental Factor Type	compound	genotype				
+Experimental Factor Term Source REF						
+Person Last Name	Yu					
+Person First Name	Hao					
+Person Mid Initials						
+Person Email	dbsyuhao@nus.edu.sg					
+Person Phone						
+Person Fax						
+Person Address	Plant Functional Genomics Lab, Biological Sciences, National University of Singapore, Lower Kent Ridge Road, Singapore, 117543, Singapore					
+Person Affiliation	National University of Singapore					
+Person Roles	submitter					
+Person Roles Term Source REF						
+Quality Control Type						
+Quality Control Term Source REF						
+Replicate Type						
+Replicate Term Source REF						
+Normalization Type						
+Normalization Term Source REF						
+Date of Experiment						
+Public Release Date	2008-06-15					
+PubMed ID	18339670					
+Publication DOI	10.1242/dev.020255					
+Publication Author List	Chang Liu, Hongyan Chen, Hong Ling Er, Hui Meng Soo, Prakash P Kumar, Jin-Hua Han, Yih Cherng Liou, Hao Yu					
+Publication Title	Direct interaction of AGL24 and SOC1 integrates flowering signals in Arabidopsis.					
+Publication Status	published					
+Publication Status Term Source REF	EFO					
+Publication Status Term Accession Number	EFO_0001796					
+Experiment Description	To understand the transcriptional program controlled by AGL24, we took advantage of a functional estradiol-inducible AGL24 expression system in combination with microarray analysis to identify AGL24 target genes.  Experiment Overall Design: We firstly compared the transcriptomes in pER22-AGL24 seedlings induced by estradiol- relative to mock-treatment, which revealed the differentially expressed genes corresponding to the elevated AGL24 expression induced by estradiol. As a chemical, estradiol itself could trigger a series of elevated or repressed genes, which might represent a large portion of false positive targets of AGL24. To rule out the genes expressed exclusively in response to estradiol instead of induced AGL24 activity, we also compared the estradiol-induced transcriptomes in pER22-AGL24 relative to those in estradiol-induced wild-type seedlings because only the former contained the induced AGL24 expression. The genes showing different expression in these two comparisons only responded to induced AGL24 activity rather than estradiol- or mock-treatment.  Experiment Overall Design: Two replicates of microarray experiments were performed with biologically independent pools of samples. For pER22-AGL24 seedlings treated by estradiol- relative to mock-treatment, gene expression in mock-treated seedlings was used as the baseline, while for estradiol-treated pER22-AGL24 and wild-type seedlings, gene expression in estradiol-treated wild-type seedlings was used as the baseline.					
+Protocol Name	P-G6954-2	P-G6954-1	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6		
+Protocol Type	nucleic_acid_extraction	labeling	hybridization	feature_extraction		
+Protocol Description	Total RNAs were extracted by using RNeasy Plant Mini Kit (Qiagen)	According to the manufacturerâs instructions (Affymetrix, Santa Clara, California, USA)	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 		
+Protocol Parameters						
+Protocol Hardware						
+Protocol Software			MicroArraySuite 5.0	MicroArraySuite 5.0		
+Protocol Contact						
+Protocol Term Source REF			mo			
+SDRF File	E-GEOD-6954.sdrf.txt					
+Term Source Name	NCBI Taxonomy	The MGED Ontology	ArrayExpress	EFO	The MGED Ontology	mo
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version						

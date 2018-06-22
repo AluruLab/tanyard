@@ -1,0 +1,48 @@
+Investigation Title	Transcription profiling of shoot apices from Arabidopsis wild type, teb, atr, and teb atr mutant plants	
+Comment[Submitted Name]	K. Nakamura-A.thaliana-teb and atr double mutant	
+Experimental Design	individual_genetic_characteristics_design	replicate_design	co-expression_design	transcription profiling by array	
+Experimental Design Term Source REF		mo	mo	EFO	
+Comment[ArrayExpressReleaseDate]	2008-04-01	
+Comment[AEMIAMESCORE]	5	
+Comment[ArrayExpressAccession]	E-MEXP-1329	
+Comment[MAGETAB TimeStamp_Version]	2010-08-09 21:06:59 Last Changed Rev: 13058	
+Experimental Factor Name	genotype	
+Experimental Factor Type	genotype	
+Experimental Factor Term Source REF	
+Person Last Name	Nakamura	
+Person First Name	Kenzo	
+Person Mid Initials	
+Person Email	kenzo@agr.nagoya-u.ac.jp	
+Person Phone	81-52-789-4095	
+Person Fax	81-52-789-4094	
+Person Address	Chikusa, Nagoya	
+Person Affiliation	Graduate School of Bioagricultural Sciences	
+Person Roles	submitter	
+Person Roles Term Source REF		
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2008-04-01	
+PubMed ID	
+Publication DOI	
+Publication Author List	
+Publication Title	
+Publication Status	
+Publication Status Term Source REF	
+Experiment Description	Global gene expression patterns were compared among wild-type Col-0, teb, atr, teb atr of A. thaliana using shoot apices.	
+Protocol Name	P-MEXP-109879	P-MEXP-16627	P-MEXP-109880	P-AFFY-2	P-MEXP-110298	P-AFFY-6	P-MEXP-114005	
+Protocol Type	grow	nucleic_acid_extraction	pool	labeling	hybridization	feature_extraction	bioassay_data_transformation	
+Protocol Description	Arabidopsis thaliana seeds were sterilized in sterile water, kept 4C for 3-d, and sown on 0.3% (w/v) gellun gum plates containing Murashige and Skoog (MS) medium, 0.5 g/L MES, pH 5.8, and 2g/L Suc. Plates were incubated for 14 days in growth chamber at 22C under continuous light (50 mmol photons m-2 s-1).	Total RNA was extracted with Trizol reagent (Gibco BRL, Cleveland, OH) and subsequently purified using an RNeasy Mini Kit(Qiagen) according to the manufacturer`s instructions.	Leaves with visible petioles were removed from aerial parts of plants. And collected remaining parts from about 50 plants.	Title: Affymetrix in vitro transcription. Description: 	Hybridization using the GeneChip Hybridization, Wash, and Stain Kit in a GeneChip Hybridization Oven 640 for 16h, at 45?.	Title: Affymetrix CEL analysis. Description: 	Using GeneSpring GX 7.3,  the values less than 0.01 were set to 0.01, and then data from each chip was normalized to the 50th percentile of values taken from that chip. Then, values of each gene were normalized to that of mean values for Col-0.1 and Col-0.2. After that, spread sheet was made, and comberted it to tab delimited text file. 	
+Protocol Parameters	start time;min temperature;media;	Amplification;Extracted product;			Chamber type;temperature;Volume;time;Quantity of label target used;	
+Protocol Hardware	
+Protocol Software						MicroArraySuite 5.0	
+Protocol Contact	
+Protocol Term Source REF			The MGED Ontology				The MGED Ontology	
+SDRF File	E-MEXP-1329.sdrf.txt	
+Term Source Name	The MGED Ontology		NCBI Taxonomy	Plant Ontology	tair_dev:1.27	NCI_thesaurus	ArrayExpress	mo	EFO	The MGED Ontology	
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php		http://www.ncbi.nlm.nih.gov/Taxonomy/	http://www.plantontology.org/	http://www.arabidopsis.org/info/ontologies/	ncithesaurus.obo.alt	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version					1.27						

@@ -1,0 +1,26 @@
+Comment[ArrayExpressAccession]	E-GEOD-52885
+MAGE-TAB Version	1.1							
+Public Release Date	2014-08-01
+Investigation Title	Transcriptome profiling of an autopolyploidy series of Arabidopsis thaliana							
+Comment[Submitted Name]	Transcriptome profiling of an autopolyploidy series of Arabidopsis thaliana
+Experiment Description	Heterosis occurs where F1 offspring display superior characteristics to the parents. Heterosis is usually considered to result from crosses of genetically distinct (e.g. homozygous inbred) parents producing heterozygous F1 offspring. Most mechanistic models for heterosis require genetically heterozygous F1 hybrid offspring harbouring allelic diversity. Epigenetic or dosage models for heterosis could allow for heterosis effects in F1 offspring that display no allelic diversity with their parents. Reciprocal inter-ploidy crosses between diploid (2x) and tetraploid (4x) lines in the same genetic background generates genetically identical F1 triploids (3x). Such reciprocal F1 triploids differ according to whether the additional chromosome set is either maternally (maternal excess) or paternally inherited (paternal excess). Biomass accumulation and abiotic stress tolerance between the parental (2x and 4x) and reciprocal F1 triploid (3x) offspring of Arabidopsis thaliana accession C24 reveals a strong parental genome-dosage induced heterosis in the paternal-excess triploid F1 plants. In these F1 triploids, the circadian clock related genes CCA1 and TOC1, and the growth factors PIF4 and PIF5, display different expression levels compared to the non-heterotic maternal excess F1 triploid siblings. Whole transcriptome profiling reveals a paternal genome dosage effect on gene expression levels with strong enrichment for dysregulated abiotic stress-related genes in the paternal excess F1 triploids. This study demonstrates that heterosis can be triggered without allelic diversity in F1 triploid plants. Heterosis without heterozygosity in plants can be induced via an epigenetic “chromosome imprinting” like parental genome dosage effect requiring paternal transmission of an additional chromosome set 4 or 5 biological replicates per ploidy level, each replicate being a single two weeks old seedling							
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl						
+Person Last Name	Spillane	Fort	Donoghue	McKeown	Zielinski	Selcuklu	Sulpice	Spillane
+Person First Name	Charles	Antoine	Mark	Peter	Marie-Luise	S	Ronan	Charles
+Person Mid Initials			M	C		D		
+Person Email	charles.spillane@nuigalway.ie							
+Person Affiliation	National University of Ireland, Galway							
+Person Address	Botany and Plant Science, National University of Ireland, Galway, University Road, Galway, Galway, Ireland							
+Person Roles	submitter							
+Protocol Name	P-GSE52885-1	P-GSE52885-4	P-GSE52885-5	P-GSE52885-2	P-GSE52885-3	P-GSE52885-6		
+Protocol Description	Data was RMA normalized using R/Bioconductor ID_REF =  VALUE = Log2 RMA signal	Affymetrix 3' IVT express kit, biotin label	Affymetrix GeneChip Hybridization, Wash and Stain Kit	1x Murashige and Skoog medium, in a Percival growth chamber	Trizol lysis followed by RNA extraction using Masherey-Nagel Nucleospin Total RNA plant.	Fluidics protocol FS450_004 using Affymetric Fluidics station 450, Scanned using Affymetrix GeneChip Scanner 3000 7G, AGCC software		
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol		
+Experimental Factor Name	PLOIDY LEVEL							
+Experimental Factor Type	ploidy level							
+Comment[SecondaryAccession]	GSE52885							
+Comment[GEOReleaseDate]	2014-08-01							
+Comment[ArrayExpressSubmissionDate]	2013-12-02							
+Comment[GEOLastUpdateDate]	2014-08-02							
+Comment[AEExperimentType]	transcription profiling by array							
+SDRF File	E-GEOD-52885.sdrf.txt

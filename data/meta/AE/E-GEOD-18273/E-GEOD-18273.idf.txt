@@ -1,0 +1,57 @@
+Comment[ArrayExpressAccession]	E-GEOD-18273
+Public Release Date	2009-12-07						
+Investigation Title	Comparison of gene expression regulated by WRKY6						
+Comment[Submitted Name]	Comparison of gene expression regulated by WRKY6
+Experiment Description	WRKY6-overexpressing line 35S:WRKY6-9, knockout mutant wrky6-1 and wild-type seedlings were used to analyze genes whose expression are controlled under WRKY6. Seven-day-old seedlings of wild-type, 35S:WRKY6-9 and wrky6-1 mutant were harvested for RNA extraction.						
+Date of Experiment							
+Term Source Name	EFO
+Term Source Version							
+Term Source File	http://www.ebi.ac.uk/efo/efo.owl						
+Person Last Name	Wu						
+Person First Name	Wei-Hua						
+Person Mid Initials							
+Person Email	geo@ncbi.nlm.nih.gov						
+Person Affiliation	China Agricultural University						
+Person Phone							
+Person Fax							
+Person Address	College of Biological Sciences, China Agricultural University, No.2 Yuanmingyuan West Road, Beijing, Beijing, China						
+Person Roles	submitter						
+Person Roles Term Source REF							
+Person Roles Term Accession Number							
+Normalization Type							
+Normalization Term Accession Number							
+Normalization Term Source REF							
+Replicate Type							
+Replicate Term Accession Number							
+Replicate Term Source REF							
+Experimental Design							
+Experimental Design Term Accession Number							
+Experimental Design Term Source REF							
+Quality Control Type							
+Quality Control Term Accession Number							
+Quality Control Term Source REF							
+Protocol Name	P-GSE18273-1	P-GSE18273-6	P-GSE18273-5	P-GSE18273-3	P-GSE18273-2	P-GSE18273-4	P-GSE18273-7
+Protocol Description	ID_REF = <br>VALUE = MAS5.0 signal intensity<br>ABS_CALL = The call in an absolute analysis that indicates if the transcript was present (P), absent (A), marginal (M), or no call (NC).<br>DETECTION P-VALUE = p-value that indicates the significance level of the detection call	The arrays were scanned on an Affymetrix GeneChip scanner 3000. The scanned arrays were analyzed with Affymetrix GCOS 1.0 (MAS 5.0) software to generate both the CEL and CHP files.	Fifteen ug of fragmented cRNA was added in 300 ul hybridization solutions and 200 ul of this mixture was used for hybridization on Arabidopsis ATH1 Genome Arrays for 16 h at 45 ℃. The standard wash and double-stain protocols (EukGE-WS2v5-450) were applied using an Affymetrix GeneChip Fluidics Station 450.	The total RNA was extracted using the TRIzol reagent (Invitrogen). RNA concentration, purity and integrity were determined and confirmed by using an Eppendorf Biophotometer (Eppendorf) and electrophoresis. The total RNA was further purified using RNeasy Mini Kit (Qiagen).	The seeds were surface sterilized with the mixed solutions of NaClO (0.5%) and Triton X-100 (0.01%) for 10 min followed by washing with sterilized distilled water for 4 times. The sterilized seeds were first incubated on Petri dishes containing MS agar medium at 4℃ for 2 days before germination. The seeds were germinated at 22℃ under constant illumination at 40 μmol•m-2•s-1 and the 7-day-old seedlings were harvested for RNA extraction.	Eight ug of purified total RNA was used to generate first-strand cDNA in a reverse transcription reaction (One-Cycle Target Labeling and Control Reagents, Affymetrix). After second-strand synthesis, the double-stranded cDNA were used to generate cRNA via in vitro transcriptional reaction. The cRNA was labeled with biotin and 20 ug of this cRNA was fragmented. Size distribution of the cRNA and fragmented cRNA was assessed using an Eppendorf Biophotometer (Eppendorf) and electrophoresis.	One biological experiment was conducted. The scanned arrays were analyzed with Affymetrix GCOS 1.0 (MAS 5.0) software.
+Protocol Software							
+Protocol Hardware							
+Protocol Contact							
+Protocol Type	bioassay_data_transformation	image_aquisition	hybridization	nucleic_acid_extraction	grow	labeling	feature_extraction
+Protocol Term Source REF							
+Protocol Term Accession Number							
+Experimental Factor Name	GENOTYPE						
+Experimental Factor Type	genotype						
+Experimental Factor Term Source REF							
+Experimental Factor Term Accession Number							
+Publication Title	The WRKY6 transcription factor modulates PHOSPHATE1 expression in response to low Pi stress in Arabidopsis.						
+Publication Author List	Chen YF, Li LQ, Xu Q, Kong YH, Wang H, Wu WH						
+PubMed ID	19934380						
+Publication DOI	10.1105/tpc.108.064980						
+Publication Status							
+Publication Status Term Source REF							
+Publication Status Term Accession Number							
+Comment[SecondaryAccession]	GSE18273						
+Comment[GEOLastUpdateDate]	2012-03-21
+Comment[AEExperimentType]	transcription profiling by array						
+Comment[GEOReleaseDate]	2009-12-07
+Comment[ArrayExpressSubmissionDate]	2009-09-24
+SDRF File	E-GEOD-18273.sdrf.txt

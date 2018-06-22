@@ -1,0 +1,49 @@
+Investigation Title	Transcription profiling of wild type and lipocalin knock-out Arabidopsis plants grown at normal or low temperatures	
+Comment[Submitted Name]	THE ApoD ORTHOLOG AtTIL PROTECTS ARABIDOPSIS AGAINST OXIDATIVE STRESS AND DELAYS SENESCENCE	
+Experimental Design	physiological_process_design	transcription profiling by array	
+Experimental Design Term Source REF		EFO	
+Comment[AEMIAMESCORE]	4	
+Comment[ArrayExpressReleaseDate]	2008-03-31	
+Comment[SecondaryAccession]		
+Comment[ArrayExpressAccession]	E-TABM-430	
+Comment[MAGETAB TimeStamp_Version]	2010-08-12 17:46:15 Last Changed Rev: 13058	
+Experimental Factor Name	Genotype	Temperature	
+Experimental Factor Type	genotype	temperature	
+Experimental Factor Term Source REF	
+Person Last Name	Houde	
+Person First Name	Mario	
+Person Mid Initials	
+Person Email	houde.mario@uqam.ca	
+Person Phone	
+Person Fax	
+Person Address	C.P. 8888 Succ Centre-Ville Montréal Québec Canada H3C 3P8	
+Person Affiliation	Département des sciences biologiques Université du Québec à Montréal	
+Person Roles	submitter	
+Person Roles Term Source REF	The MGED Ontology	
+Quality Control Type	biological_replicate	
+Quality Control Term Source REF	The MGED Ontology	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2008-03-31	
+PubMed ID	
+Publication DOI	
+Publication Author List	Charron, Jean-Benoit F.; Ouellet, Francois; Houde, Mario; Sarhan Fathey	
+Publication Title	THE ApoD ORTHOLOG AtTIL PROTECTS ARABIDOPSIS AGAINST OXIDATIVE STRESS AND DELAYS SENESCENCE	
+Publication Status	
+Publication Status Term Source REF	
+Experiment Description	Effect of lipocalin gene knock-out on gene expression and stress tolerance under normal growth temperature and under low temperature exposure	
+Protocol Name	P-TABM-2391	P-TABM-2394	P-TABM-2390	P-TABM-2392	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6	P-TABM-2393	
+Protocol Type	grow	specified_biomaterial_action	nucleic_acid_extraction	labeling	hybridization	feature_extraction	bioassay_data_transformation	
+Protocol Description	Arabidopsis seeds were sown directly on potting medium, stratified for 3 days at 4&deg;C and grown for 11 days at 20&deg;C under long day conditions (16 hr light/8 hr dark) at a photon flux density of 90 &#956;mol m-2 sec-1. Seedlings were then transferred to 3.5 inches or 1.5 inches pots containing potting medium and grown under the same conditions as described above.	Wild type Col O Arabidopsis plants (named G1 on array) and lipocalin KO plants in Col O background (named G2 on array) were grown at normal temperature as described under growth conditions (temperature T1). For low temperature treament, 3 week-old plants (Col O or KO plants) were transferred to 4&deg;C for 7 days under short day conditions (8 hr photoperiod and a photon flux density of 90 &#956;mol m-2 sec-1) (temperature T2). Four treatment conditions are used for RNA extraction and array hybridization: G1T1, G1T2, G2T1 and G2T2. For each treatment, three biological replicates were prepared (A, B and C).	RNA was isolated using from whole plants using Trizol reagent as recommended by the manufacturer.	The Affymetrix in vitro transcription protocol was followed.	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	The different hybridization were normalized using RMA Express (version 0.2) providing a single file for all hybridizations.	
+Protocol Parameters	
+Protocol Hardware	
+Protocol Software					MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact	
+Protocol Term Source REF					mo		The MGED Ontology	
+SDRF File	E-TABM-430.sdrf.txt	
+Term Source Name	The MGED Ontology		NCBI Taxonomy	ArrayExpress	The MGED Ontology	EFO	mo	
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php		http://www.ncbi.nlm.nih.gov/Taxonomy/	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version								

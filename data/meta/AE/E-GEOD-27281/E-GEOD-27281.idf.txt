@@ -1,0 +1,58 @@
+Comment[ArrayExpressAccession]	E-GEOD-27281							
+Public Release Date	2011-02-14							
+Investigation Title	Whole genome analysis of pollen-pistil interactions in Arabidopsis thaliana: time course							
+Comment[Submitted Name]	Whole genome analysis of pollen-pistil interactions in Arabidopsis thaliana: time course							
+Experiment Description	Plant reproduction depends on the concerted activation of many genes to assure the correct communication between pollen and pistil. Here we queried the whole transcriptome of Arabidopsis thaliana in order to identify genes with specific reproductive functions. We used the ATH1 whole genome array to profile wild-type unpollinated pistils and unfertilized ovules in comparison with the expression profile of pistils 0.5, 3.5 and 8.0 hours after pollination  KEYWORDS: time course Flowers at the developmental stage 12c were emasculated 24 hours before pollination. Pistils were collected at 0, 0.5, 3.5 and 8 Hours After Pollination (HAP) and immediately frozen in liquid nitrogen. Unfertilized ovules were collected by the funiculus from dissected UP and immediately frozen in liquid nitrogen. To minimize biological variation 20 pistils were collected from a minimum of 10 plants and for ovule isolation 50 pistils were used from about 30 plants to isolate approximately 1500 ovules for each replicate experiment.							
+Date of Experiment								
+Term Source Name	EFO							
+Term Source Version								
+Term Source File	http://www.ebi.ac.uk/efo/efo.owl							
+Person Last Name	Borges	Boavida	Becker	Feijó				
+Person First Name	Filipe	Leonor	Jörg	José				
+Person Mid Initials		C	D	A				
+Person Email	geo@ncbi.nlm.nih.gov							
+Person Affiliation	Instituto Gulbenkian de Ciência							
+Person Phone								
+Person Fax								
+Person Address	Instituto Gulbenkian de Ciência, Rua da Quinta Grande, 6, Oeiras, Lisbon, Portugal							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Person Roles Term Accession Number								
+Normalization Type								
+Normalization Term Accession Number								
+Normalization Term Source REF								
+Replicate Type								
+Replicate Term Accession Number								
+Replicate Term Source REF								
+Experimental Design								
+Experimental Design Term Accession Number								
+Experimental Design Term Source REF								
+Quality Control Type								
+Quality Control Term Accession Number								
+Quality Control Term Source REF								
+Protocol Name	P-GSE27281-1	P-GSE27281-6	P-GSE27281-3	P-GSE27281-8	P-GSE27281-7	P-GSE27281-2	P-GSE27281-4	P-GSE27281-5
+Protocol Description	ID_REF = <br>VALUE = dChip signal after normalization and model-based expression value computation<br>ABS_CALL = 	Fifteen micrograms of cRNA were used in a 300-mL hybridization containing added hybridization controls; 200 mL of mixture were hybridized on arrays for 16 h at 45°C. Standard posthybridization wash and double-stain protocols (EukGE-WS2v4) were used on an Affymetrix GeneChip Fluidics Station 400.	Seeds of Arabidopsis thaliana (L.), Heynh, ecotype Columbia (NASC, Nottingham, UK) were sown on soil and kept for three days at 4ºC in the dark to promote seed stratification. Seedlings were grown in short-day conditions (8h light/16h dark at 22-24ºC) for two weeks and then transferred to long-day conditions (16h light/8 h dark at 22-24ºC) to induce flowering.	Scanned arrays were analyzed first with Affymetrix MAS 5.0 software to obtain Absent/Present calls and subsequent analysis was performed with dChip 1.3 (http://www.dchip.org, Wong Lab, Harvard). First, each GeneChip experiment was performed with biological replicates. Second, we used a samplewise normalization to the median median probe cell intensity (CEL) of all arrays: For each sample, the median CEL intensity of one of the replicates was scaled to the median median CEL intensity of all arrays. Then the remaining replicates were normalized to this array (baseline) applying an Invariant Set Normalization Method (Li and Wong, 2001)	Arrays were scanned on an Affymetrix GeneChip scanner 2500.	Pistils were collected at 0, 0.5, 3.5 and 8 Hours After Pollination (HAP) and immediately frozen in liquid nitrogen. Two pistils from each time point were collected and stained with 0.1 % de-colorized aniline blue (Martin, 1959) as a control for pollen tube growth. Unfertilized ovules were collected by the funiculus from dissected UP and immediately frozen in liquid nitrogen.	Total RNA was extracted from tissues using the RNeasy Mini Plant Kit (Qiagen, Hilden, Germany). Concentration and purity was determined by spectrophotometry and integrity was confirmed using an Agilent 2100 Bioanalyser with a RNA 6000 Nano assay (Agilent Technologies, Palo Alto, Ca).	100 ng of total RNA were used in a reverse transcription reaction (SuperScript II; Invitrogen, Paisley, UK). double-stranded cDNA was used in an in vitro transcription reaction to generate cRNA (MEGAscript T7 kit; Ambion, Austin, TX); 400 ng of  cRNA were used for a second cDNA synthesis, followed by a second in vitro transcription reaction to generate biotinylated cRNA (ENZO BioArray High- Yield RNA Transcript Labeling kit; ENZO Diagnostics, Farmingdale, NY). Size distribution of the cRNA and fragmented cRNA, respectively, was assessed using an Agilent 2100 Bioanalyzer with a RNA 6000 Nano Assay.
+Protocol Software								
+Protocol Hardware								
+Protocol Contact								
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Protocol Term Source REF								
+Protocol Term Accession Number								
+Experimental Factor Name	SAMPLING TIME POINT	ORGANISM PART	TREATMENT					
+Experimental Factor Type	sampling_time_point	organism_part	treatment					
+Experimental Factor Term Source REF								
+Experimental Factor Term Accession Number								
+Publication Title	Whole genome analysis of gene expression reveals coordinated activation of signaling and metabolic pathways during pollen-pistil interactions in Arabidopsis.							
+Publication Author List	Boavida LC, Borges F, Becker JD, Feijó JA							
+PubMed ID	21317340							
+Publication DOI	10.1104/pp.110.169813							
+Publication Status	published							
+Publication Status Term Source REF	EFO							
+Publication Status Term Accession Number	EFO_0001796							
+Comment[SecondaryAccession]	GSE27281							
+Comment[GEOLastUpdateDate]	2011-02-14							
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis pistils after pollination							
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[GEOReleaseDate]	2011-02-14							
+Comment[ArrayExpressSubmissionDate]	2011-02-14							
+SDRF File	E-GEOD-27281.sdrf.txt							

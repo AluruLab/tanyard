@@ -1,0 +1,58 @@
+Comment[ArrayExpressAccession]	E-GEOD-30223							
+Public Release Date	2011-09-08							
+Investigation Title	Expression data of germinating Arabidopsis seeds							
+Comment[Submitted Name]	Expression data of germinating Arabidopsis seeds							
+Experiment Description	In depth temporal profiling of transcript changes at 10 time points during germination in Arabidopsis seed was carried out. The time course utilised, encompassed seed maturation, stratification, germination and post-germination and provided a global investigation into the tightly regulated, phasic changes that define seed germination. A previously unidentified transient expression pattern was identified for a group of genes, whereby a significant rise in abundance was observed at the end of stratification and significantly lower expression observed up to 6 hours later. Total RNA extraction was carried out on 80 mg of Arabidopsis seeds at 10 time points during germination in triplicate. The time points selected were: freshly harvested seed (H), seeds following 15 days of ripening (0 h), seeds after; 1 h of stratification (1 h S), 12 h of stratification (12 h S), 48 h of stratification (48 h S), followed by seed collected 1 hour into the light (1 h SL), 6 hours into the light (6 h SL), 12 hours into the light (12 h SL), 24 hours into the light (24 h SL) and 48 hours into the light (48 h SL).							
+Date of Experiment								
+Term Source Name	EFO							
+Term Source Version								
+Term Source File	http://www.ebi.ac.uk/efo/efo.owl							
+Person Last Name	Law	Narsai	Law	Carrie	Xiu	Whelan		
+Person First Name	Simon	Reena	Simon	Chris	Lin	Jim		
+Person Mid Initials			R					
+Person Email	geo@ncbi.nlm.nih.gov							
+Person Affiliation	Plant Energy Biology							
+Person Phone								
+Person Fax								
+Person Address	Plant Energy Biology, The University of Western Australia, M316, Crawley , Perth, WA, Australia							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Person Roles Term Accession Number								
+Normalization Type								
+Normalization Term Accession Number								
+Normalization Term Source REF								
+Replicate Type								
+Replicate Term Accession Number								
+Replicate Term Source REF								
+Experimental Design								
+Experimental Design Term Accession Number								
+Experimental Design Term Source REF								
+Quality Control Type								
+Quality Control Term Accession Number								
+Quality Control Term Source REF								
+Protocol Name	P-GSE30223-1	P-GSE30223-6	P-GSE30223-3	P-GSE30223-8	P-GSE30223-7	P-GSE30223-2	P-GSE30223-4	P-GSE30223-5
+Protocol Description	ID_REF = <br>VALUE = GC RMA signal intensities	Following fragmentation, 12.5 µg of the labelled aRNA was hybridised rotating at 60 rpm, 16 hr at 45 °C on GeneChip ATH1 arrays. GeneChips were washed and stained in the Affymetrix Fluidics Station 450.	80 mg of Arabidopsis thaliana seeds were surface steralised and plated on MS media. Stratification was carried out at 4 °C in darkness, light conditions were 100 µE m -2 sec-1 at 22 °C.	The data were analyzed with Microarray Suite version 5.0 (MAS 5.0) using Affymetrix default analysis settings and global scaling as normalization method. Additionally, GC RMA normalisation was carried out using Partek Genomics Suite.	GeneChips were scanned individually using a GeneChip Scanner 3000	Seed was collected freshly harvested (H), after 14 days of drying (0 h), 1, 12 and 48 h during stratification and 1, 6, 12, 24, 48 h in continuous light.	RNA isolation was carried out using the Ambion Plant RNA isolation aid and RNAqeous RNA isolation kit.	Biotinylated aRNA were prepared according to the standard Affymetrix protocol from 400 ng total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+Protocol Software								
+Protocol Hardware								
+Protocol Contact								
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Protocol Term Source REF								
+Protocol Term Accession Number								
+Experimental Factor Name	growth condition							
+Experimental Factor Type	growth condition							
+Experimental Factor Term Source REF								
+Experimental Factor Term Accession Number								
+Publication Title	In-depth temporal transcriptome profiling reveals a crucial developmental switch with roles for RNA processing and organelle metabolism that are essential for germination in Arabidopsis.							
+Publication Author List	Narsai R, Law SR, Carrie C, Xu L, Whelan J.							
+PubMed ID	21908688							
+Publication DOI	10.1104/pp.111.183129 							
+Publication Status	published							
+Publication Status Term Source REF	EFO							
+Publication Status Term Accession Number	EFO_0001796							
+Comment[SecondaryAccession]	GSE30223							
+Comment[GEOLastUpdateDate]	2011-09-09							
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis seeds during the germination ripening, stratification and germination							
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[GEOReleaseDate]	2011-09-07							
+Comment[ArrayExpressSubmissionDate]	2011-06-26							
+SDRF File	E-GEOD-30223.sdrf.txt							

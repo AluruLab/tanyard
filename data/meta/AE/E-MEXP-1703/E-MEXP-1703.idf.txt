@@ -1,0 +1,42 @@
+Investigation Title	Transcription profiling of Arabidopsis seedlings treated with glucose and indole-3-acetic acid (auxin) to study glucose-auxin interactions							
+Comment[Submitted Name]	Whole genome profiling to study glucose-auxin interaction in model plant Arabidopsis Thaliana							
+Experimental Design	compound_treatment_design	co-expression_design	replicate_design	transcription profiling by array				
+Experimental Design Term Source REF	The MGED Ontology	The MGED Ontology	The MGED Ontology	EFO				
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[AEMIAMESCORE]	5							
+Comment[SecondaryAccession]								
+Comment[ArrayExpressReleaseDate]	2009-07-10							
+Comment[ArrayExpressAccession]	E-MEXP-1703							
+Comment[MAGETAB TimeStamp_Version]	2010-08-09 23:30:02 Last Changed Rev: 13058							
+Experimental Factor Name	compound							
+Experimental Factor Type	compound							
+Experimental Factor Term Source REF								
+Person Last Name	Laxmi							
+Person First Name	Ashverya							
+Person Mid Initials								
+Person Email	ashverya_laxmi@nipgr.res.in							
+Person Phone	011-26735180							
+Person Fax								
+Person Address	Aruna Asaf Ali Road, New Delhi, Delhi, 110067, India							
+Person Affiliation	National Institute for Plant Genome Research							
+Person Roles	submitter							
+Person Roles Term Source REF	The MGED Ontology							
+Quality Control Type	biological_replicate							
+Quality Control Term Source REF	The MGED Ontology							
+Public Release Date	2009-07-10							
+PubMed ID	19223973							
+Publication DOI	10.1371/journal.pone.0004502							
+Publication Author List	Mishra BS, Singh M, Aggrawal P, Laxmi A							
+Publication Title	Glucose and auxin signaling interaction in controlling Arabidopsis thaliana seedlings root growth and development							
+Publication Status	published							
+Publication Status Term Source REF	EFO							
+Publication Status Term Accession Number	EFO_0001796							
+Experiment Description	To find out the extent of interaction between glucose and auxin signaling							
+Protocol Name	P-MTAB-1049	P-MTAB-1048	P-MTAB-1050					
+Protocol Type	growth protocol	nucleic acid extraction protocol	treatment protocol					
+Protocol Description	Arabidopsis thaliana seeds (ecotype Columbia-0) were surface sterilized and water imbibed in the dark for 3 d at 4oC. The seeds were then inoculated in 1/2MS medium supplemented with 0.8% agar and 1% sucrose. Once the plant material was uniformly germinated, the experimental conditions were applied. 5d old light-grown uniformly germinated seedlings were washed seven times with sterile water with last wash given by 1/2MS liquid medium to remove residual exogenous sugar and the plant material was kept in 1/2MS liquid without sucrose in the dark for all subsequent steps. Cultures were shaken at 140 rpm at 22oC for 24 h and then 3h treatment was given with liquid 1/2MS without glucose and liquid 1/2MS supplemented with IAA (1?M), glucose (3%), glucose (3%) + IAA (1?M). <br>(Parameters: start time = 3, time unit = hours, min temperature = 22, temperature unit = C, media = 1/2MS, 1%sucrose, 0.8% agar)	Qiagen RNAeasy kit<br>(Parameters: Extracted product = total_RNA, Amplification = none)	Arabidopsis thaliana seeds (ecotype Columbia-0) were surface sterilized and water imbibed in the dark for 3 d at 4oC. The seeds were then inoculated in 1/2MS medium supplemented with 0.8% agar and 1% sucrose. Once the plant material was uniformly germinated, the experimental conditions were applied. 5d old light-grown uniformly germinated seedlings were washed seven times with sterile water with last wash given by 1/2MS liquid medium to remove residual exogenous sugar and the plant material was kept in 1/2MS liquid without sucrose in the dark for all subsequent steps. Cultures were shaken at 140 rpm at 22oC for 24 h and then 3h treatment was given with liquid 1/2MS without glucose and liquid 1/2MS supplemented with IAA (1?M), glucose (3%), glucose (3%) + IAA (1?M).					
+Protocol Term Source REF	EFO	EFO	EFO					
+SDRF File	E-MEXP-1703.sdrf.txt							
+Term Source Name	The MGED Ontology	NCBI Taxonomy	tair_dev:1.27	ArrayExpress	NCI_thesaurus	The MGED Ontology	EFO	mo
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://www.arabidopsis.org/info/ontologies/	http://www.ebi.ac.uk/arrayexpress	ncithesaurus.obo.alt	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version			1.27					

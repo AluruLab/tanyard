@@ -1,0 +1,48 @@
+Investigation Title	Transcription profiling of Arabidopsis potassium-starved and caesium-treated plants	
+Comment[Submitted Name]	Hammond: (3) Differential gene expression patterns in potassium-starved and caesium-treated plants	
+Experimental Design	growth_condition_design	compound_treatment_design	organism_part_comparison_design	transcription profiling by array	
+Experimental Design Term Source REF	mo	mo	mo	EFO	
+Comment[ArrayExpressReleaseDate]		
+Comment[AEMIAMESCORE]	3	
+Comment[ArrayExpressAccession]	E-NASC-61	
+Comment[MAGETAB TimeStamp_Version]	2010-10-15 14:46:49 Last Changed Rev: 14677	
+Experimental Factor Name	
+Experimental Factor Type	
+Experimental Factor Term Source REF	
+Person Last Name	unknown	Hammond	
+Person First Name	unknown	John	
+Person Mid Initials	
+Person Email		john.hammond@hri.ac.uk	
+Person Phone	+44 (0)115 951 3091	01789 470382	
+Person Fax	+44 (0)115 951 3297	01789 470552	
+Person Address	Plant Science Division, School of Biosciences, University of Nottingham, Sutton Bonnington Campus, Loughborough LE12 5RD, UK	Horticulture Research International Wellesbourne Warwick  CV35 9EF UK 	
+Person Affiliation		Warwick University	
+Person Roles		biosource_provider;investigator;submitter	
+Person Roles Term Source REF		mo	
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	
+PubMed ID	
+Publication DOI	
+Publication Author List	
+Publication Title	
+Publication Status	
+Publication Status Term Source REF	
+Experiment Description	At high concentrations ceasium (Cs) is toxic to plant growth. This toxic effect may occur when Cs blocks potassium (K) uptake mechanisms in plants. Consequently, plants starved of K and plants exposed to toxic concentrations of Cs should have similar gene expression patterns. To test this hypothesis, Arabidopsis will initially be grown on agar containing 1/10 MS salts before being transferred to either 1/10 MS nutrient solution (control plants), 1/10 MS nutrient solution containing 2 mM Cs, or 1/10 MS nutrient solution with no K. Roots and shoot will then be harvested seven days after transfer and used to challenge ATH1 GeneChips.	
+Protocol Name	NASCGrowProt:742	NASCGrowProt:741	NASCSampleTreatmentProt:743	NASCGrowProt:744	NASCSampleTreatmentProt:745	NASCSampleTreatmentProt:742	NASCExtractProtocol:1	NASCLabelProtocol:1	Affymetrix:Protocol:Hybridization-EukGE-WS2v4	Affymetrix:Protocol:Percentile	Affymetrix:Protocol:ExpressionStat	
+Protocol Type							nucleic_acid_extraction	labeling	hybridization	feature_extraction	bioassay_data_transformation	
+Protocol Description	Title: Growth protocol of treatments. Description: Seeds were stratified by allowing imbibition for 3-5 days at 4C. Plants were grown from seed in growth rooms at a temperature of 22C and 80% humidity; the photoperiod was 16hr and the lighting intensity was 50-80 umol photons m-2 s-1. Plants were grown on 0.8 % (w/v) agar containing 1 % (w/v) sucrose and a 1/10 Murashige and Skoog basal salt mix. Plants were grown in conditions for the first 14 days.	Title: Growth protocol for controls of shoots. Description: Seeds were stratified by allowing imbibition for 3-5 days at 4C. Plants were grown from seed in growth rooms at a temperature of 22C and 80% humidity; the photoperiod was 16hr and the lighting intensity was 50-80 umol photons m-2 s-1. Plants were grown on 0.8 % (w/v) agar containing 1 % (w/v) sucrose and a 1/10 Murashige and Skoog basal salt mix.  After 14 days on MS agar plants were transferred to a hydroponics system containing 1/10 MS nutrient solution. Plants were harvested after a further seven days at growth stage 3.90 (boyes key). Shoot material from 20-30 plants was snap frozen in liquid nitrogen and stored at -80 °C.	Title: Caesium treatment protocol of shoots. Description: After 14 days on MS agar, plants were transferred to a hydroponics system containing 1/10 MS nutrient solution containing 2mM Caesium.  Plants were harvested after a further seven days at growth stage 3.90 (boyes key). Shoot material from 20-30 plants was snap frozen in liquid nitrogen and stored at -80 °C.	Title: Growth protocol for controls of roots. Description: Seeds were stratified by allowing imbibition for 3-5 days at 4C. Plants were grown from seed in growth rooms at a temperature of 22C and 80% humidity; the photoperiod was 16hr and the lighting intensity was 50-80 umol photons m-2 s-1. Plants were grown on 0.8 % (w/v) agar containing 1 % (w/v) sucrose and a 1/10 Murashige and Skoog basal salt mix.  After 14 days on MS agar plants were transferred to a hydroponics system containing 1/10 MS nutrient solution. Plants were harvested after a further seven days at growth stage 3.90 (boyes key). Root material from 20-30 plants was snap frozen in liquid nitrogen and stored at -80 °C.	Title: Potassium starvation treatment protocol of roots. Description: After 14 days on MS agar, plants were transferred to a hydroponics system containing 1/10 MS nutrient solution without any potassium.  Plants were harvested after a further seven days at growth stage 3.90 (boyes key). Root material from 20-30 plants was snap frozen in liquid nitrogen and stored at -80 °C.	Title: Potassium starvation treatment protocol of shoots. Description: After 14 days on MS agar, plants were transferred to a hydroponics system containing 1/10 MS nutrient solution without any potassium.  Plants were harvested after a further seven days at growth stage 3.90 (boyes key). Shoot material from 20-30 plants was snap frozen in liquid nitrogen and stored at -80 °C.	Protocol: Qiagen RNAeasy kit protocol 	RNA samples were quality controlled using the Agilent 2100 Bioanalyzer. 100 pmol T7-(dT)24 primer (5'-GGCCAGTGAATTGTAATACGACTCACTATAGGGAGGCGG-(dT)24-3')  was hybridized with the Total RNA ( 8 - 12ug) at 70ÃÂ°C for 10 minutes.  First strand cDNA was synthesized by reverse transcription using 400 units SuperScript II Reverse Transcriptase in a reaction containing 50 mM Tris-HCl (pH 8.3), 75 mM KCl, 3 mM MgCl2, 10 mM dithiothreitol (DTT) and 0.5 mM dNTPs at 42C for 1 hour.  The reaction was then put on ice for 2 mins, followed by second strand cDNA synthesis.  130ul of the second strand reaction mix was added to the 20ul  first strand synthesis reaction. The second strand reaction mix  contained 40 units E. coli DNA polymerase I, 10 units E. coli DNA ligase, 2 units  E. coli RNase H and 0.2 mM dNTPs in a buffer containing 20 mMTris-HCl (pH 6.9), 90 mM KCl, 4.6 mM MgCl2, 10mM (NH4)SO4 and 0.15 mM ÃÂ-NAD+. The reaction was incubated at 16 C for 2 hours.  10 units T4 DNA Polymerase was added and the reaction incubated for a further 5 minutes at 16 C, then the reaction was terminated using EDTA.  The double-stranded cDNA was cleaned up using the cDNA Cleanup Spin Column supplied in the Affymetrix GeneChip Sample Cleanup Module.  The double-stranded cDNA was used as a template for in Vitro transcription of biotin-labeled cRNA using the ENZO BioArray RNA Transcript Labeling Kit supplied by Affymetrix.  The Transcript Labeling kit produces large amounts of hybridizable biotin-labeled RNA targets by in Vitro transcription from bacteriophage T7 RNA polymerase promoters.  The reaction mixture containing Biotin-Labeled ribonucleotides (ATP, GTP, CTP, UTP with Bio-UTP and Bio-CTP), DTT, RNase inhibitor mix and T7 RNA polymerase was incubated at 37 C for 5 hrs, gently mixing every 30 minutes during the incubation. This produced an average of 40ug biotin-labeled cRNA . The biotin-labeled cRNA  was cleaned up using the cRNA Cleanup Spin Column supplied in the Affymetrix GeneChip Sample Cleanup Module.  The quantity and quality of the cRNA was measured using the Agilent 2100 Bioanalyzer. The total amount of cRNA was calculated, the starting quantity of RNA subtracted to give the quantity of adjusted cRNA.  The cRNA was fragmented by metal-induced hydrolysis to break down full-length cRNA to 35-200 base fragments.  15ug of adjusted cRNA was used to prepare 300ul of hybridization cocktail of which 200ul was hybridized with the GeneChip.	Title: Fluidics Station Protocol. Description: 	Title: Affymetrix CEL Analysis (Percentile). Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 	
+Protocol Parameters	Temperature;Atmosphere;Humidity;location;	Temperature;Humidity;Atmosphere;location;		Temperature;location;Humidity;Atmosphere;	
+Protocol Hardware	
+Protocol Software									MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact	
+Protocol Term Source REF											The MGED Ontology	
+SDRF File	E-NASC-61.sdrf.txt	
+Term Source Name	nasc		ncbitax	ArrayExpress	mo	EFO	The MGED Ontology	
+Term Source File	http://arabidopsis.info/catalogue.html		http://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version								

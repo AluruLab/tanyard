@@ -1,0 +1,33 @@
+Comment[ArrayExpressAccession]	E-MTAB-1344				
+Investigation Title	Comparing WT and RAP2.4a mutants after light shift				
+Comment[Submitted Name]	Comparing WT and RAP2.4a mutants after light shift				
+Experiment Description	Comparison of expression of Arabidopsis thaliana Col-0 and T-DNA insertion line of RAP2.4a under time dependent light stress by transfer to high light				
+Experimental Design	stimulus_or_stress_design	growth condition design	co-expression_design		
+Comment[AEExperimentType]	transcription profiling by array				
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis thaliana Col-0 and RAP2.4a mutants under time dependent light stress by transfer to high light				
+Experimental Factor Name	environmental stress	genotype			
+Experimental Factor Type	environmental stress	genotype			
+Quality Control Type	biological_replicate				
+Public Release Date	2013-11-01				
+Person Last Name	Dietz	Vogel			
+Person First Name	Karl-Josef	Marc Oliver			
+Person Mid Initials					
+Person Email	karl-josef.dietz@uni-bielefeld.de	marc_oliver.vogel@uni-bielefeld.de			
+Person Phone					
+Person Address	Bielefeld University, 33501 Bielefeld				
+Person Affiliation	Biochemistry and Physiology of Plants				
+Person Roles	submitter	submitter			
+PubMed ID					
+Publication Author List					
+Publication Title					
+Publication Status					
+Protocol Name	P-MTAB-29418	P-MTAB-29419	P-MTAB-29420	P-MTAB-29421	P-MTAB-29422
+Protocol Type	grow	specified_biomaterial_action	nucleic_acid_extraction	bioassay_data_transformation	labeling
+Protocol Description	Plants were grown in soil culture (1:1:1 mixture of Fruhsdorfer Erde Klocke P, perlite and vermiculite) for 4.5 weeks under the following conditions: 10ﾠh of light, 100ﾠumol quanta m-2 s-1, 23ﾠC and 14ﾠh darkness at 18ﾠC; 55ﾠ% relative humidity. For low light acclimation 3 week old normal light grown plants were transferred to low light (8ﾠumol quanta m-2 s-1) and grown for further 10 d. See Oelze et al. 2012 for further details.	For the treatments, whole plants were illuminated with high light (800ﾠumol quanta m-2 s-1) for 6 hours or left in low light as control (Oelze et al. 2012).	Total RNA was extracted by QUIAGEN Plant RNA Kit following the manufactures instructions. Purity was checked by Nanodrop (ND-1000, Peqlab, Germany) and gel electrophoresis	RMA-normalization	The samples were biotin-labeled according to the GeneChip 3ﾒ IVT Express Kit User Manual by Affymetrix
+Term Source Name	ArrayExpress				
+Term Source File	http://www.ebi.ac.uk/arrayexpress/				
+SDRF File	E-MTAB-1344.sdrf.txt				
+Publication Title	Meta-analysis of retrograde signaling in Arabidopsis thaliana reveals a core module of genes embedded in complex cellular signaling networks.				
+Publication Author List	Gläßer C, Haberer G, Finkemeier I, Pfannschmidt T, Kleine T, Leister D, Dietz KJ, Häusler RE, Grimm B, Mayer KF				
+PubMed ID	24719466				
+Publication DOI	10.1093/mp/ssu042				

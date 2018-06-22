@@ -1,0 +1,49 @@
+Investigation Title	Transcription profiling of Arabidopsis mutant or transgenic plants with altered membrane lipid composition to investigate the role of membrane fluidity in low temperature perception	
+Comment[AdditionalFile:XLS]	E-NASC-66.hybs.xls
+Comment[Submitted Name]	The role of membrane fluidity in low temperature perception	
+Experimental Design	growth_condition_design	genetic_modification_design	transcription profiling by array	
+Experimental Design Term Source REF	mo	mo	EFO	
+Comment[AEMIAMESCORE]	3	
+Comment[ArrayExpressReleaseDate]	2008-02-15	
+Comment[ArrayExpressAccession]	E-NASC-66	
+Comment[MAGETAB TimeStamp_Version]	2010-10-14 05:51:14 Last Changed Rev: 14677	
+Experimental Factor Name	
+Experimental Factor Type	
+Experimental Factor Term Source REF	
+Person Last Name	unknown	Evans	
+Person First Name	unknown	Nicola	
+Person Mid Initials	
+Person Email		nicola.evans@plants.ox.ac.uk	
+Person Phone	+44 (0)115 951 3091	+44 (0)1865 275062	
+Person Fax	+44 (0)115 951 3297	+44 (0)1865 275074	
+Person Address	Plant Science Division, School of Biosciences, University of Nottingham, Sutton Bonnington Campus, Loughborough LE12 5RD, UK	Department of Plant Sciences University of Oxford South Parks Road Oxford Oxon  OX1 3RB UK 	
+Person Affiliation		University of Oxford	
+Person Roles		biosource_provider;investigator;submitter	
+Person Roles Term Source REF		mo;The MGED Ontology	
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2008-02-15	
+PubMed ID	
+Publication DOI	
+Publication Author List	
+Publication Title	
+Publication Status	
+Publication Status Term Source REF	
+Experiment Description	The aim of this work is to investigate whether A. thaliana senses low temperature by perceiving changes in membrane fluidity. To this end, we have performed an experiment to test whether mutant or transgenic plants with altered membrane lipid composition, regulate their gene expression in the same manner as wild type plants in response to cold.  Previous work has demonstrated that a change in the expression levels of a number of genes is important in acquiring tolerance to low temperatures. Chemicals which rigidify cell membranes in such a way as to mimic the effects of cold have been shown to be able to induce the expression of such genes. However, because of the non-specific nature of such chemical treatments, it has not been possible to demonstrate unequivocally that the changes in gene expression observed were the result of changes in membrane fluidity. All of the mutants used in our experiment,  fab1, fad2-2 and the fad3/fad7/fad8 mutant, have increased lipid saturation levels compared to wild type plants and are thought to have reduced membrane fluidity. The fab1 mutant is also known to be sensitive to chilling. In the fab1 mutant the elongation of 16:0 fatty acids to 18:0 is reduced. The fad2-2 mutant has reduced 18:1 desaturase activity and hence reduced amounts of polyunsaturated phospholipids. The fad3/fad7/fad8 triple mutant is deficient in 18:2 desaturase activity and consequently unable to synthesise trienoic fatty acids. The transgenic line used contained a 35S::FAD3 transgene and in contrast to the mutants tested, should have increased lipid desaturation and increased membrane fluidity. A. thaliana ecotype Col-0 was used as the wild type control for the fab1 and fad2-2 mutants, in addition to the 35S::FAD3 line. The fad3/fad7/fad8 mutant had previously been transformed with the 35S::apoaequorin transgene and a Columbia line expressing apoaequorin under the control of the same promoter, was included to control for the presence of aequorin. Nine day old seedlings grown in petri-dishes on MS were transferred from their growth room (20 oC, 16 h photoperiod, 100 E m-2 s-1) to a growth cabinet (20 oC, 16 h photoperiod,160 m-2 s-1) 24 hours before the experiment began. The next day, one petri-dish of seedlings from each line of plants used was transferred to a cabinet running at 5 oC (16 h photoperiod,160 E m-2 s-1). Control plates remained at 20 oC. Seedlings were harvested after three hours and frozen in liquid nitrogen.	
+Protocol Name	NASC:GrowthProtocol:1532	NASC:GrowthProtocol:1530	NASC:GrowthProtocol:1526	NASC:GrowthProtocol:1534	NASC:GrowthProtocol:1536	NASC:GrowthProtocol:1528	NASC:GrowthProtocol:1529	NASC:GrowthProtocol:1525	NASC:GrowthProtocol:1531	NASC:GrowthProtocol:1533	NASC:GrowthProtocol:1535	NASC:GrowthProtocol:1527	NASC:ExtractProtocol:1	NASC:LabellingProtocol	Affymetrix:Protocol:Hybridization-EukGE-WS2v4	Affymetrix:Protocol:Percentile	Affymetrix:Protocol:ExpressionStat	
+Protocol Type	grow	grow	grow	grow	grow	grow	grow	grow	grow	grow	grow	grow			hybridization	feature_extraction	bioassay_data_transformation	
+Protocol Description													Protocol: Qiagen RNAeasy kit protocol 	RNA samples were quality controlled using the Agilent 2100 Bioanalyzer. 100 pmol T7-(dT)24 primer (5'-GGCCAGTGAATTGTAATACGACTCACTATAGGGAGGCGG-(dT)24-3')  was hybridized with the Total RNA ( 8 - 12ug) at 70 Â°C for 10 minutes. First strand cDNA was synthesized by reverse transcription using 400 units SuperScript II Reverse Transcriptase in a reaction containing 50 mM Tris-HCl (pH 8.3), 75 mM KCl, 3 mM MgCl2, 10 mM dithiothreitol (DTT) and 0.5 mM dNTPs at 42C for 1 hour.  The reaction was then put on ice for 2 mins, followed by second strand cDNA synthesis.  130ul of the second strand reaction mix was added to the 20ul  first strand synthesis reaction. The second strand reaction mix  contained 40 units E. coli DNA polymerase I, 10 units E. coli DNA ligase, 2 units  E. coli RNase H and 0.2 mM dNTPs in a buffer containing 20 mMTris-HCl (pH 6.9), 90 mM KCl, 4.6 mM MgCl2, 10mM (NH4)SO4 and 0.15 mM ÃÂ-NAD+. The reaction was incubated at 16 C for 2 hours.  10 units T4 DNA Polymerase was added and the reaction incubated for a further 5 minutes at 16 C, then the reaction was terminated using EDTA.  The double-stranded cDNA was cleaned up using the cDNA Cleanup Spin Column supplied in the Affymetrix GeneChip Sample Cleanup Module.  The double-stranded cDNA was used as a template for in Vitro transcription of biotin-labeled cRNA using the ENZO BioArray RNA Transcript Labeling Kit supplied by Affymetrix.  The Transcript Labeling kit produces large amounts of hybridizable biotin-labeled RNA targets by in Vitro transcription from bacteriophage T7 RNA polymerase promoters.  The reaction mixture containing Biotin-Labeled ribonucleotides (ATP, GTP, CTP, UTP with Bio-UTP and Bio-CTP), DTT, RNase inhibitor mix and T7 RNA polymerase was incubated at 37 C for 5 hrs, gently mixing every 30 minutes during the incubation. This produced an average of 40ug biotin-labeled cRNA . The biotin-labeled cRNA  was cleaned up using the cRNA Cleanup Spin Column supplied in the Affymetrix GeneChip Sample Cleanup Module.  The quantity and quality of the cRNA was measured using the Agilent 2100 Bioanalyzer. The total amount of cRNA was calculated, the starting quantity of RNA subtracted to give the quantity of adjusted cRNA.  The cRNA was fragmented by metal-induced hydrolysis to break down full-length cRNA to 35-200 base fragments.  15ug of adjusted cRNA was used to prepare 300ul of hybridization cocktail of which 200ul was hybridized with the GeneChip.   	Title: Fluidics Station Protocol. Description: 	Title: Affymetrix CEL Analysis (Percentile). Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 	
+Protocol Parameters	location;Lighting;Temperature;Medium;Stratification;	Temperature;location;Stratification;Lighting;Medium;	Medium;Lighting;Temperature;location;Stratification;	Medium;Lighting;Temperature;location;Stratification;	location;Lighting;Temperature;Medium;Stratification;	location;Temperature;Lighting;Medium;Stratification;	location;Temperature;Stratification;Medium;Lighting;	Temperature;location;Medium;Lighting;Stratification;	Temperature;Lighting;location;Stratification;Medium;	location;Temperature;Lighting;Medium;Stratification;	location;Medium;Stratification;Temperature;Lighting;	Temperature;Lighting;location;Stratification;Medium;	
+Protocol Hardware	
+Protocol Software															MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact	
+Protocol Term Source REF																	The MGED Ontology	
+SDRF File	E-NASC-66.sdrf.txt	
+Term Source Name	NCBI Taxonomy	The MGED Ontology	ArrayExpress	mo	EFO	The MGED Ontology	
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version							

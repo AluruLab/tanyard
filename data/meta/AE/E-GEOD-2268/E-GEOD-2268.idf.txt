@@ -1,0 +1,50 @@
+Investigation Title	Transcription profiling of Arabidopsis polysomal and non polysomal RNAs from plants exposed to mild dehydration vs. controls	
+Comment[Submitted Name]	Arabidopsis polysome microarray	
+Experimental Design	stimulus_or_stress_design	transcription profiling by array	
+Experimental Design Term Source REF	mo	EFO	
+Comment[ArrayExpressReleaseDate]	2008-06-12	
+Comment[SecondaryAccession]	GSE2268	
+Comment[SecondaryAccession]	GDS1382	
+Comment[AEMIAMESCORE]	5	
+Comment[ArrayExpressAccession]	E-GEOD-2268	
+Comment[MAGETAB TimeStamp_Version]	2010-08-04 14:59:50 Last Changed Rev: 13058	
+Experimental Factor Name	EnvironmentalStress	Treatment	
+Experimental Factor Type	environmental_stress	material_type	
+Experimental Factor Term Source REF	
+Person Last Name	Bailey-Serres	
+Person First Name	Julia	
+Person Mid Initials	
+Person Email	rxk33@psu.edu	
+Person Phone	
+Person Fax	
+Person Address	Bailey-Serres, Center for Plant Cell Biology, University of California Riverside, Batchelor Hall, Riverside, 92521, USA	
+Person Affiliation	University of California Riverside	
+Person Roles	submitter	
+Person Roles Term Source REF	The MGED Ontology	
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2008-06-12	
+PubMed ID	15716313	
+Publication DOI	15716313	
+Publication Author List	Riki Kawaguchi, Julia Bailey-Serres	
+Publication Title	mRNA sequence features that contribute to translational regulation in Arabidopsis.	
+Publication Status	journal_article	
+Publication Status Term Source REF	The MGED Ontology	
+Experiment Description	Microarray experiment with polysomal and non-polysomal RNAs extracted under non-stress and mild-dehydration stress.	
+Protocol Name	Affymetrix:Protocol:Hybridization-EukGE-WS2v4	P-AFFY-6	
+Protocol Type	hybridization	feature_extraction	
+Protocol Description	Title: Fluidics Station Protocol. Description: 	Title: Affymetrix CEL analysis. Description: 	
+Protocol Parameters	
+Protocol Hardware	
+Protocol Software	MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact	
+Protocol Term Source REF	
+SDRF File	E-GEOD-2268.sdrf.txt	
+Term Source Name	NCBI Taxonomy	The MGED Ontology	ArrayExpress		NCI_thesaurus	mo	EFO	The MGED Ontology	
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress		ncithesaurus.obo.alt	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version									

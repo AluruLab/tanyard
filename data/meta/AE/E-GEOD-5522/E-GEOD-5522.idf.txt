@@ -1,0 +1,51 @@
+Investigation Title	Low chronic exposure of Arabidopsis thaliana to Caesium-137				
+Comment[Submitted Name]	Low chronic exposure of Arabidopsis thaliana to Caesium-137				
+Experimental Design	unknown_experiment_design_type	transcription profiling by array			
+Experimental Design Term Source REF		EFO			
+Comment[AEExperimentType]	transcription profiling by array				
+Comment[AEExperimentDisplayName]	Low chronic exposure of Arabidopsis thaliana to Caesium-137				
+Comment[ArrayExpressReleaseDate]	2008-06-13				
+Comment[SecondaryAccession]	GSE5522				
+Comment[AEMIAMESCORE]	4				
+Comment[ArrayExpressAccession]	E-GEOD-5522				
+Comment[MAGETAB TimeStamp_Version]	2010-08-06 16:37:44 Last Changed Rev: 13058				
+Experimental Factor Name	growth condition	organism part			
+Experimental Factor Type	growth condition	organism part			
+Experimental Factor Term Source REF					
+Person Last Name	(NASC)				
+Person First Name	Nottingham Arabidopsis Stock Centre				
+Person Mid Initials					
+Person Email	affy@arabidopsis.info				
+Person Phone					
+Person Fax					
+Person Address	"School of Biosciences, University of Nottingham, Nottingham Arabidopsis Stock Centre (NASC), Sutton Bonington Campus, Loughborough, LE12 5RD, United Kingdom"				
+Person Affiliation	Nottingham Arabidopsis Stock Centre (NASC)				
+Person Roles	submitter				
+Person Roles Term Source REF					
+Quality Control Type					
+Quality Control Term Source REF					
+Replicate Type					
+Replicate Term Source REF					
+Normalization Type					
+Normalization Term Source REF					
+Date of Experiment					
+Public Release Date	2008-06-13				
+PubMed ID					
+Publication DOI					
+Publication Author List					
+Publication Title					
+Publication Status					
+Publication Status Term Source REF					
+Experiment Description	"Arabidopsis thaliana plants are grown for one week in a hydroponic growth system and transferred to new plant medium containing low levels of Caesium-137 (control is transferred to new medium with no radioactivity) and left for further two weeks. Levels of Caesium-137 are chosen according to research and are reflecting occurring levels found in radioactive contaminated soil. The plants are then harvested and the samples divided into shoot and root samples. Experimenter name = Yu-Jin Heinekamp; Experimenter phone = 0044-117-3442102; Experimenter address = University of the West of England  (UWE); Experimenter address = Faculty of Applied Sciences; Experimenter address = Center for Research in Plants, GRI; Experimenter address = Coldharbour Lane; Experimenter address = Bristol; Experimenter zip/postal_code = BS6 5BP; Experimenter country = UK Experiment Overall Design: 12 samples were used in this experiment"				
+Protocol Name	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6			
+Protocol Type	hybridization	feature_extraction			
+Protocol Description	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 			
+Protocol Parameters					
+Protocol Hardware					
+Protocol Software	MicroArraySuite 5.0	MicroArraySuite 5.0			
+Protocol Contact					
+Protocol Term Source REF	mo				
+SDRF File	E-GEOD-5522.sdrf.txt				
+Term Source Name	NCBI Taxonomy	The MGED Ontology	ArrayExpress	EFO	mo
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version					

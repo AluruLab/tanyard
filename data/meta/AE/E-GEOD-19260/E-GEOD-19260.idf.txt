@@ -1,0 +1,58 @@
+Comment[ArrayExpressAccession]	E-GEOD-19260						
+Public Release Date	2009-12-04						
+Investigation Title	Transcript inhibition from limited starch degradation						
+Comment[Submitted Name]	Transcript inhibition from limited starch degradation						
+Experiment Description	"In starchless mutants of Arabidopsis, pgm, and wild type, Col0, there are small differences in transcript levels at the end of the day, but large differences at the end of the night. Many of the transcripts of genes involved in biosynthesis and growth are repressed in the pgm mutant (Thimm et al., 2004).  It is hypothesized that a transient depletion in sugars at the end of the night inhibits carbon utilization at the beginning of the day (Gibon et al., 2004).  In order to test if the same inhibition of transcripts involved in biosynthesis and growth also occurs in starch excess mutants of Arabidopsis, Affymetrix arrays will be generated for WT (Col0), and the following mutants: sex4-3 (Salk 102567), ptpkis2 (Salk 053285), and sex1-3 (Yu et al., 2001).  WT, sex4-3, and ptpkis2 plants were grown for 30 days and sex1-3 plants were grown for 36 days.  All plants were grown in a growth chamber with a 12 hour photoperiod, quantum flux  100 mol m-2s-1, relative humidity was at least 75%, and a constant temperature of 20oC.  Three leaves from 8 different plants of each genotype were harvested using a green safe lamp 0.5 hours before the lights came on in the morning and immediately frozen in LN2. Leaf material was powered using a mortar and pestle and RNA was extracted using a Purescript RNA isolation kit (Gentra Systems, MN, USA).  Samples were then treated with DNaseI (Invitrogen, CA, USA). 12 samples were used in this experiment."						
+Date of Experiment							
+Term Source Name	EFO						
+Term Source Version							
+Term Source File	http://www.ebi.ac.uk/efo						
+Person Last Name	Nottingham Arabidopsis Stock Centre (NASC)	Weise					
+Person First Name		Sean					
+Person Mid Initials							
+Person Email	affy@arabidopsis.info						
+Person Affiliation	Nottingham Arabidopsis Stock Centre (NASC)						
+Person Phone	+44 (0)115 951 3237						
+Person Fax	+44 (0)115 951 3297						
+Person Address	"School of Biosciences, University of Nottingham, Nottingham Arabidopsis Stock Centre (NASC), Sutton Bonington Campus, Loughborough, United Kingdom"						
+Person Roles	submitter						
+Person Roles Term Source REF							
+Person Roles Term Accession Number							
+Normalization Type							
+Normalization Term Accession Number							
+Normalization Term Source REF							
+Replicate Type							
+Replicate Term Accession Number							
+Replicate Term Source REF							
+Experimental Design	genetic modification design	transcription profiling by array					
+Experimental Design Term Accession Number							
+Experimental Design Term Source REF							
+Quality Control Type							
+Quality Control Term Accession Number							
+Quality Control Term Source REF							
+Protocol Name	P-GSE19260-1	P-GSE19260-6	P-GSE19260-5	P-GSE19260-3	P-GSE19260-2	P-GSE19260-4	P-GSE19260-7
+Protocol Description	"ID_REF = <br>VALUE = MAS5.0 signal intensity<br>ABS_CALL = the call in an absolute analysis that indicates if the transcript was present (P), absent (A), or marginal (M)<br>DETECTION P-VALUE = p-value that indicates the significance level of the detection call"	"Scanned according to guidelines set out by Affymetrix, Santa Clara, CA."	"Biotin Labelled cRNA using &quot;Affymetrix GeneChip Hybridization, Wash and Stain Kit&quot;, according to guidelines set out by Affymetrix, Santa Clara, CA"	"Leaf material was powered using a mortar and pestle and RNA was extracted using a Purescript RNA isolation kit (Gentra Systems, MN, USA)according to kit directions. Samples were then treated with DNaseI (Invitrogen, CA, USA) according to manufactures directions"	"Plants were sewn in flats of modified commercial soil and grown in a growth chamber with a 12 hour photoperiod, quantum flux of 100 micromol m-2s-1, relative humidity was at least 75%, and a constant temperature of 20 degrees Celsius"	"Labelled using protocol described in manual &quot;Affymetrix GeneChip Expression Analysis Technical Manual&quot;, One-Cycle target labelling"	"Raw data from the microarrays was normalized at probe-level using MAS5 algorithm. The detection calls (present, marginal, absent) for each probe set was obtained using the GCOS system"
+Protocol Software							
+Protocol Hardware							
+Protocol Contact							
+Protocol Type	bioassay_data_transformation	image_aquisition	hybridization	nucleic_acid_extraction	grow	labeling	feature_extraction
+Protocol Term Source REF							
+Protocol Term Accession Number							
+Experimental Factor Name	genotype						
+Experimental Factor Type	genotype						
+Experimental Factor Term Source REF							
+Experimental Factor Term Accession Number							
+Publication Title							
+Publication Author List							
+PubMed ID							
+Publication DOI							
+Publication Status							
+Publication Status Term Source REF							
+Publication Status Term Accession Number							
+Comment[SecondaryAccession]	GSE19260						
+Comment[GEOLastUpdateDate]	2011-03-01						
+Comment[AEExperimentDisplayName]	"Transcription profiling by array of Arabidopsis mutant for sex1, sex4 and ptpkis2"						
+Comment[AEExperimentType]	transcription profiling by array						
+Comment[GEOReleaseDate]	2009-12-05						
+Comment[ArrayExpressSubmissionDate]	2009-12-02						
+SDRF File	E-GEOD-19260.sdrf.txt						

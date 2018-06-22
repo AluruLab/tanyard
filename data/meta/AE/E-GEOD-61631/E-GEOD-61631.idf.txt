@@ -1,0 +1,27 @@
+Comment[ArrayExpressAccession]	E-GEOD-61631
+MAGE-TAB Version	1.1					
+Public Release Date	2015-04-14
+Investigation Title	Comparative transcriptional profiling between the organs of the scion and rootstock of a homograft (Arabidopsis thaliana)					
+Comment[Submitted Name]	Comparative transcriptional profiling between the organs of the scion and rootstock of a homograft (Arabidopsis thaliana)
+Experiment Description	Analyses of expression differences in flower bud and leaf of scion and rootstock, in homografts of Arabidopsis Gene expression data of unopened developing flower buds and leaves, newly emerged after homografting, from the scion and the rootstock					
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl				
+Person Last Name	Singh	Singh	Kumari	Kumar		
+Person First Name	Sudhir	Sudhir	Anita	Jitendra		
+Person Mid Initials	P	P				
+Person Email	pratapsudhir17@gmail.com					
+Person Affiliation	National Agri-Food Biotechnology Institu					
+Person Phone	911722290131					
+Person Address	National Agri-Food Biotechnology Institu, NABI, C127, Indus Area, Phase8, Mohali, Punjab, India					
+Person Roles	submitter					
+Protocol Name	P-GSE61631-1	P-GSE61631-4	P-GSE61631-5	P-GSE61631-2	P-GSE61631-3	P-GSE61631-6
+Protocol Description	The intensities of probe arrays were normalized by using GeneSpring software. The Robust Multi-array normalization algorithm (RMA) values of probe sets were used for further statistical analysis. One-way ANOVA analysis was carried out in GeneSpring software with ‘Asymptotic’ p value computation and the Benjamini-Hochberg false discovery rate (FDR) for multiple test correction (at p < 0.05). ID_REF =  VALUE = Signal intensity	Double stranded cDNA synthesis, In vitro transcription to synthesize biotin labeled cRNA, purification and fragmentation of cRNA were performed according to Affymetrix protocol described in technical manual.	Hybridization of arrays were performed according to Affymetrix protocol described in technical manual.	The Arabidopsis thaliana var. Columbia-0 (Col-0) plants were used in the grafting experiments. The dried seeds were sterilized following the standard procedures, and were sown on the Soilrite bed in the pots. The pots were kept at 4oC in the dark for 2 days for stratification of seeds to synchronize the germination. After stratification, pots were shifted to PGC 20 growth chamber (Conviron, Canada) under long-day conditions (16-h light/8-h dark at 150 µmol m-2 s-1 irradiance) at 22°C ± 1°C and 65% humidity.	Total RNA was extracted from the leaf and flower bud samples using the Spectrum Plant Total RNA kit (Sigma-Aldrich, USA), following the manufacturer’s instructions. On-column DNase (Sigma-Aldrich, USA) treatment was performed as instructed in the manual.	The hybridized chips were washed, stained and scanned using GeneChip scanner to generate the CEL files.
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	organism part					
+Experimental Factor Type	organism part					
+Comment[SecondaryAccession]	GSE61631					
+Comment[GEOReleaseDate]	2015-04-14					
+Comment[ArrayExpressSubmissionDate]	2014-09-22					
+Comment[GEOLastUpdateDate]	2015-04-14					
+Comment[AEExperimentType]	transcription profiling by array					
+SDRF File	E-GEOD-61631.sdrf.txt

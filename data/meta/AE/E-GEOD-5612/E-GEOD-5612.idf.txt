@@ -1,0 +1,51 @@
+Investigation Title	Transcription profiling of Arabidopsis in continuous white light - circadian experiment				
+Comment[Submitted Name]	Circadian expression of genes: modelling the Arabidopsis circadian clock				
+Experimental Design	unknown_experiment_design_type	transcription profiling by array			
+Experimental Design Term Source REF		EFO			
+Comment[AEExperimentType]	transcription profiling by array				
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis grown in continuous white light sampled at different time points				
+Comment[ArrayExpressReleaseDate]	2008-06-13				
+Comment[SecondaryAccession]	GSE5612				
+Comment[AEMIAMESCORE]	4				
+Comment[ArrayExpressAccession]	E-GEOD-5612				
+Comment[MAGETAB TimeStamp_Version]	2010-08-06 16:50:24 Last Changed Rev: 13058				
+Experimental Factor Name	SAMPLING TIME POINT				
+Experimental Factor Type	sampling_time_point				
+Experimental Factor Term Source REF					
+Person Last Name	(NASC)				
+Person First Name	Nottingham Arabidopsis Stock Centre				
+Person Mid Initials					
+Person Email	affy@arabidopsis.info				
+Person Phone					
+Person Fax					
+Person Address	School of Biosciences, University of Nottingham, Nottingham Arabidopsis Stock Centre (NASC), Sutton Bonington Campus, Loughborough, LE12 5RD, United Kingdom				
+Person Affiliation	Nottingham Arabidopsis Stock Centre (NASC)				
+Person Roles	submitter				
+Person Roles Term Source REF					
+Quality Control Type					
+Quality Control Term Source REF					
+Replicate Type					
+Replicate Term Source REF					
+Normalization Type					
+Normalization Term Source REF					
+Date of Experiment					
+Public Release Date	2008-06-13				
+PubMed ID					
+Publication DOI					
+Publication Author List					
+Publication Title					
+Publication Status					
+Publication Status Term Source REF					
+Experiment Description	Our aim is to study the circadian expression of genes to aid in our attempt of modelling the Arabidopsis circadian clock. Circadian microarray data have previously been published for plants after white light (WL)-dark cycles, using the 8k chip (Harmer et al. 2000). We intend to repeat this experiment using the 26k chips and are coordinating with Dr. Harmer, who is pursuing complementary experiments in UC Davis. Plants will be transferred to continuous WL after entrainment to 12h:12h light dark cycles. RNAs will be harvested every 4 hours over two days, with the same accession and sampling intervals used previously by Harmer et al. The two days of sampling provide internal replication. Our experience shows that this is the most economical design: it is easier to identify rhythms over a two-day timecourse than in two replicates of a single day. Hence: 13 RNA samples on 13 chips in total. METHOD: Seed was sown on MS agar plates with 3% sucrose, imbibed at 4 C for 96 hours.  Seed was then entrained for 7 days at 22C, in cycles of 12 hours white light, 12 hours darkness. After 7 days they were transferred to constant white light at 22 C: this is time 0h. Tissue harvested at the time points shown after time 0. Experimenter name = Kieron Edwards; Experimenter phone = 024 7652 8374; Experimenter fax = 024 7652 3701; Experimenter department = Department of Biological Sciences; Experimenter institute = University of Warwick; Experimenter address = Department of Biological Sciences; Experimenter address = University of Warwick; Experimenter address = Gibbet Hill Road; Experimenter address = Coventry; Experimenter zip/postal_code = CV4 7AL; Experimenter country = UK Experiment Overall Design: 13 samples were used in this experiment				
+Protocol Name	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6			
+Protocol Type	hybridization	feature_extraction			
+Protocol Description	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 			
+Protocol Parameters					
+Protocol Hardware					
+Protocol Software	MicroArraySuite 5.0	MicroArraySuite 5.0			
+Protocol Contact					
+Protocol Term Source REF	mo				
+SDRF File	E-GEOD-5612.sdrf.txt				
+Term Source Name	NCBI Taxonomy	The MGED Ontology	ArrayExpress	EFO	mo
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version					

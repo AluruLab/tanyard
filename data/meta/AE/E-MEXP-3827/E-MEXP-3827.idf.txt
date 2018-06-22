@@ -1,0 +1,30 @@
+Comment[ArrayExpressAccession]	E-MEXP-3827
+Investigation Title	The interaction between glucose and cytokinin signal transduction pathway in Arabidopsis thaliana																										
+Comment[Submitted Name]	The interaction between glucose and cytokinin signal transduction pathway in Arabidopsis thaliana
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis thaliana to investigate the interaction between glucose and cytokinin signal transduction pathway																										
+Comment[MIAMExpressLogin]	laxmiashverya203																										
+Comment[MIAMExpressSubmissionID]	8618																										
+Experiment Description	Columbia (Col) seeds were sown on half-strength Murashige and Skoog (MS) medium, supplemented with 1% sucrose and 0.8% agar and grown vertically in culture room conditions. The 5-d-old homogenous seedlings were washed five times with sterile water and lastly with liquid half strength MS medium without sugar to remove residual exogenous sugar. In order to deplete internal sugars seedlings were grown in sugar free liquid half strength MS medium for 24 h in dark.  Thereafter, the seedlings were treated with half-strength MS medium containing 0% G, 0% G + 1 uM BAP, 3% G, and 3% G + 1 uM BAP for 3 h in dark. RNA was extracted and microarray analysis was performed. Please note: G stands for glucose and BAP stands for 6-Benzylaminopurine (cytokinin)																										
+Experimental Design	in_vitro_design	co-expression_design	compound treatment design																								
+Comment[AEExperimentType]	transcription profiling by array																										
+Experimental Factor Name	COMPOUND_1	DOSE_1	COMPOUND_2	DOSE_2																							
+Experimental Factor Type	compound	dose	compound	dose																							
+Person Last Name	Laxmi																										
+Person First Name	Ashverya																										
+Person Email	ashverya_laxmi@nipgr.ac.in																										
+Person Phone	011-26735180																										
+Person Affiliation	National Institute of Plant Genome Research																										
+Person Address	Lab 203, Aruna Asaf Ali Marg, New Delhi, Delhi, 110067, India																										
+Person Roles	submitter																										
+Person Roles Term Source REF	MGED Ontology																										
+Quality Control Type																											
+Public Release Date	2014-02-07																										
+Comment[ArrayExpressSubmissionDate]	2013-02-07 07:56																										
+Publication Status	not yet submitted																										
+Protocol Name	P-MTAB-30976	P-MTAB-30977	P-MTAB-30978
+Protocol Description	The GeneChip arrays were washed and then stained on an Affymetrix Fluidics Station 450, followed by scanning on an Affymetrix GeneChip 3000 Scanner 7G. The results were quantified and analyzed using Expression Console ver.1.1 software (Affymetrix, Inc.) (Parameters: Scanning hardware = OTHER: Affymetrix GeneChip 3000 Scanner 7G, Scanning software = Scanning software)	RNA was extracted and microarray analysis was performed.  (Parameters: Extracted product = total_RNA, Amplification = PCR)	Columbia (Col) seeds were sown on half-strength Murashige and Skoog (MS) medium, supplemented with 1% sucrose and 0.8% agar and grown vertically in culture room conditions. The 5-d-old homogenous seedlings were washed five times with sterile water and lastly with liquid half strength MS medium without sugar to remove residual exogenous sugar. In order to deplete internal sugars seedlings were grown in sugar free liquid half strength MS medium for 24 h in dark.  Thereafter, the seedlings were treated with half-strength MS medium containing 0% G, 0% G + 1 uM BAP, 3% G, and 3% G + 1 uM BAP for 3 h in dark. 																								
+Protocol Type	image_acquisition	nucleic_acid_extraction	growth protocol																								
+Protocol Term Source REF	MGED Ontology	MGED Ontology																									
+Term Source Name	MGED Ontology	ArrayExpress
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress																									
+SDRF File	E-MEXP-3827.sdrf.txt

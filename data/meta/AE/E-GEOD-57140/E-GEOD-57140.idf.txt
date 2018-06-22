@@ -1,0 +1,31 @@
+Comment[ArrayExpressAccession]	E-GEOD-57140											
+MAGE-TAB Version	1.1											
+Public Release Date	2014-06-01											
+Investigation Title	Expression data of Col:LUC Arabidopsis treated with antimycin A (AA) in the presence or absence of a synthetic auxin analogue											
+Comment[AEExperimentDisplayName]	Expression data of Col:LUC Arabidopsis treated with antimycin A (AA) in the presence or absence of a synthetic auxin analogue											
+Comment[Submitted Name]	Expression data of Col:LUC Arabidopsis treated with antimycin A (AA) in the presence or absence of a synthetic auxin analogue											
+Experiment Description	Mitochondrial stress stimuli such as AA caused a transient suppression of auxin signaling and conversely, auxin treatment represses a part of the response to AA treatment. Expression data of Col:LUC Arabidopsis treated with antimycin A (AA) in the presence or absence of a synthetic auxin analogue Total RNA extraction was carried out on 80 mg of  Col:LUC Arabidopsis seedlings grown on B5 media for 10 days and transferred to fresh plates, containing either B5 media or B5 media supplemented with 4.5 µM NAA for an additional 3 days. Seedlings were treated with 50 µM AA for 3 hours.											
+Term Source Name	ArrayExpress	EFO										
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl										
+Person Last Name	Law	Ivanova	Law	Narsai	Duncan	Hoon	Zhang	Van Aken	Radomiljac	van der Merwe	Yi	Whelan
+Person First Name	Simon	Aneta	Simon	Reena	Owen	Jae-Lee	Botao	Olivier	Jordan	Margaretha	KeKe	James
+Person Mid Initials	R.		R						D			
+Person Email	laws03@student.uwa.edu.au											
+Person Affiliation	Plant Energy Biology											
+Person Address	Plant Energy Biology, The University of Western Australia, M316, Crawley, Perth, WA, Australia											
+Person Roles	submitter											
+Protocol Name	P-GSE57140-1	P-GSE57140-5	P-GSE57140-6	P-GSE57140-2	P-GSE57140-3	P-GSE57140-4	P-GSE57140-7					
+Protocol Description	The data were analyzed with Microarray Suite version 5.0 (MAS 5.0) using Affymetrix default analysis settings and global scaling as normalization method. Additionally, GC RMA normalisation was carried out using Partek Genomics Suite. ID_REF =  VALUE = GC RMA signal intensities	Biotinylated aRNA were prepared according to the standard Affymetrix protocol from 400 ng total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).	Following fragmentation, 12.5 ug of the labelled aRNA was hybridised rotating at 60 rpm, 16 hr at 45 degreesC on GeneChip ATH1 arrays. GeneChips were washed and stained in the Affymetrix Fluidics Station 450.	Analyses were carried out using 400 ng total RNA isolated in biological triplicate from Col:LUC seedlings grown on B5 media for 10 days and transferred to fresh plates, containing either B5 media or B5 media supplemented with 4.5 uM NAA for an additional 3 days.Seedlings were treated with 50 uM AA for 3 hours.	40 mg of Col-0 and Attim17-1 Arabidopsis thaliana seeds were surface steralized and plated on B5 media. Stratification was carried out at 4 degreesC in darkness, followed by long day growth conditions at 100 uE m -2 sec-1 at 22 degreesC.	RNA isolation was carried out using the Sigma-Aldrich Spectrum™ Plant Total RNA Kit.	GeneChips were scanned individually using a GeneChip Scanner 3000					
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol					
+Experimental Factor Name	treatment											
+Experimental Factor Type	treatment											
+Comment[SecondaryAccession]	GSE57140											
+Comment[GEOReleaseDate]	2014-06-01											
+Comment[ArrayExpressSubmissionDate]	2014-04-28											
+Comment[GEOLastUpdateDate]	2014-06-03											
+Comment[AEExperimentType]	transcription profiling by array											
+Publication Title	A Functional Antagonistic Relationship between Auxin and Mitochondrial Retrograde Signaling Regulates Alternative Oxidase1a Expression in Arabidopsis											
+Publication Author List	Ivanova A, Law SR, Narsai R, Duncan O, Lee JH, Zhang B, Van Aken O, Radomiljac JD, van der Merwe M, Yi K, Whelan J											
+Pubmed ID	24820025											
+Publication Status	published											
+SDRF File	E-GEOD-57140.sdrf.txt											

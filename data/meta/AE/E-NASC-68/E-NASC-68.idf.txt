@@ -1,0 +1,49 @@
+Investigation Title	Transcription profiling of Arabidopsis mutant plants homozygous for PASTA2 vs wild type	
+Comment[AdditionalFile:XLS]	E-NASC-68.hybs.xls
+Comment[Submitted Name]	Kadalayil: Functional studies of a new Arabidopsis SH2 domain-containing gene	
+Experimental Design	genetic_modification_design	transcription profiling by array	
+Experimental Design Term Source REF	mo	EFO	
+Comment[AEMIAMESCORE]	3	
+Comment[ArrayExpressReleaseDate]	2008-02-15	
+Comment[ArrayExpressAccession]	E-NASC-68	
+Comment[MAGETAB TimeStamp_Version]	2010-10-14 05:27:43 Last Changed Rev: 14677	
+Experimental Factor Name	
+Experimental Factor Type	
+Experimental Factor Term Source REF	
+Person Last Name	Kadalayil	unknown	
+Person First Name	Latha	unknown	
+Person Mid Initials	
+Person Email	lk@soton.ac.uk	
+Person Phone	023-8059 5512	+44 (0)115 951 3091	
+Person Fax		+44 (0)115 951 3297	
+Person Address	School of Biological Sciences Univ.  Southampton Bassett Crescent East Southampton  SO16 7PX UK 	Plant Science Division, School of Biosciences, University of Nottingham, Sutton Bonnington Campus, Loughborough LE12 5RD, UK	
+Person Affiliation	University of Southampton	
+Person Roles	biosource_provider;investigator;submitter	
+Person Roles Term Source REF	mo;The MGED Ontology	
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2008-02-15	
+PubMed ID	
+Publication DOI	
+Publication Author List	
+Publication Title	
+Publication Status	
+Publication Status Term Source REF	
+Experiment Description	The protein modules known as SH2 (Src-homology-2) domains are key players in the signal transduction of animals. Two questions arise: Do such modules exist in plants, and when did SH2 domains evolve? Here I show that the Arabidopsis genome contains three strong candidates for plant SH2 proteins (referred to as PASTA1, 2 and 3 : GI:25513455, At1g78540, At1g17040 respectively) with homology to the SH2 domains and the adjacent linker region of STAT proteins (Signal Transducer and Activator of Transcription). The three characteristics features of a STAT protein sequence1, namely, (i) the SH2 domain with a conserved arginine residue crucial for binding to a phospho-tyrosine residue (ii) a tyrosine residue outside the C-terminus of the SH2-domain  for phosphorylation during signalling and (iii) a DNA-binding domain, are conserved in the PASTA3 protein. However, PASTA 1 and 2 proteins lack a tyrosine in a similar position. PASTA proteins are not homologous to STAT proteins outside the SH2 and linker regions. The three PASTA proteins are 70 to 80 % identical to one another. Gene expression studies with PASTA2 reveal that it is expressed in roots, stem, leaves, flowers and green siliques. Preliminary indications are that plants homozygous for PASTA2 do not have any obvious phenotype, most likely due to redundancies.  This microarray experiment is an attempt to compare the gene expression of a mutant plant  homozygous for PASTA2 with that of the wild type plant. This might give clues about the possible function of PASTA2 in Arabidopsis.	
+Protocol Name	NASC:GrowthProtocol:1509	NASC:GrowthProtocol:1510	NASC:ExtractProtocol:4	NASC:LabellingProtocol	Affymetrix:Protocol:Hybridization-EukGE-WS2v4	Affymetrix:Protocol:Percentile	Affymetrix:Protocol:ExpressionStat	
+Protocol Type	grow	grow	nucleic_acid_extraction		hybridization	feature_extraction	bioassay_data_transformation	
+Protocol Description			Protocol: Qiagen RNAeasy kit protocol 	RNA samples were quality controlled using the Agilent 2100 Bioanalyzer. 100 pmol T7-(dT)24 primer (5'-GGCCAGTGAATTGTAATACGACTCACTATAGGGAGGCGG-(dT)24-3')  was hybridized with the Total RNA ( 8 - 12ug) at 70 Â°C for 10 minutes. First strand cDNA was synthesized by reverse transcription using 400 units SuperScript II Reverse Transcriptase in a reaction containing 50 mM Tris-HCl (pH 8.3), 75 mM KCl, 3 mM MgCl2, 10 mM dithiothreitol (DTT) and 0.5 mM dNTPs at 42C for 1 hour.  The reaction was then put on ice for 2 mins, followed by second strand cDNA synthesis.  130ul of the second strand reaction mix was added to the 20ul  first strand synthesis reaction. The second strand reaction mix  contained 40 units E. coli DNA polymerase I, 10 units E. coli DNA ligase, 2 units  E. coli RNase H and 0.2 mM dNTPs in a buffer containing 20 mMTris-HCl (pH 6.9), 90 mM KCl, 4.6 mM MgCl2, 10mM (NH4)SO4 and 0.15 mM ÃÂ-NAD+. The reaction was incubated at 16 C for 2 hours.  10 units T4 DNA Polymerase was added and the reaction incubated for a further 5 minutes at 16 C, then the reaction was terminated using EDTA.  The double-stranded cDNA was cleaned up using the cDNA Cleanup Spin Column supplied in the Affymetrix GeneChip Sample Cleanup Module.  The double-stranded cDNA was used as a template for in Vitro transcription of biotin-labeled cRNA using the ENZO BioArray RNA Transcript Labeling Kit supplied by Affymetrix.  The Transcript Labeling kit produces large amounts of hybridizable biotin-labeled RNA targets by in Vitro transcription from bacteriophage T7 RNA polymerase promoters.  The reaction mixture containing Biotin-Labeled ribonucleotides (ATP, GTP, CTP, UTP with Bio-UTP and Bio-CTP), DTT, RNase inhibitor mix and T7 RNA polymerase was incubated at 37 C for 5 hrs, gently mixing every 30 minutes during the incubation. This produced an average of 40ug biotin-labeled cRNA . The biotin-labeled cRNA  was cleaned up using the cRNA Cleanup Spin Column supplied in the Affymetrix GeneChip Sample Cleanup Module.  The quantity and quality of the cRNA was measured using the Agilent 2100 Bioanalyzer. The total amount of cRNA was calculated, the starting quantity of RNA subtracted to give the quantity of adjusted cRNA.  The cRNA was fragmented by metal-induced hydrolysis to break down full-length cRNA to 35-200 base fragments.  15ug of adjusted cRNA was used to prepare 300ul of hybridization cocktail of which 200ul was hybridized with the GeneChip.   	Title: Fluidics Station Protocol. Description: 	Title: Affymetrix CEL Analysis (Percentile). Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 	
+Protocol Parameters	Medium;Water;Stratification;Humidity;location;Lighting;Temperature;	Stratification;Water;Treatment;Medium;Lighting;Temperature;location;Humidity;	
+Protocol Hardware	
+Protocol Software					MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact	
+Protocol Term Source REF							The MGED Ontology	
+SDRF File	E-NASC-68.sdrf.txt	
+Term Source Name	NCBI Taxonomy	The MGED Ontology	ArrayExpress	mo	EFO	The MGED Ontology	
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version							

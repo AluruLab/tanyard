@@ -1,0 +1,48 @@
+Investigation Title	Transcription profiling of Arabidopsis seedlings treated with the herbicide methyl viologen							
+Comment[Submitted Name]	Valle MV stress							
+Experimental Design	compound_treatment_design	co-expression_design	transcription profiling by array					
+Experimental Design Term Source REF	mo	mo	EFO					
+Comment[ArrayExpressReleaseDate]	2008-01-08							
+Comment[AEMIAMESCORE]	5							
+Comment[ArrayExpressAccession]	E-ATMX-28							
+Comment[MAGETAB TimeStamp_Version]	2010-07-29 14:31:10 Last Changed Rev: 13058							
+Experimental Factor Name	dose	compound						
+Experimental Factor Type	dose	compound						
+Experimental Factor Term Source REF								
+Person Last Name	Valle							
+Person First Name	Estela							
+Person Mid Initials	M							
+Person Email	valle@ibr.gov.ar							
+Person Phone	-4351522							
+Person Fax								
+Person Address	Suipacha 531							
+Person Affiliation	Molecular Biology							
+Person Roles	submitter							
+Person Roles Term Source REF	The MGED Ontology							
+Quality Control Type	biological_replicate							
+Quality Control Term Source REF	The MGED Ontology							
+Replicate Type								
+Replicate Term Source REF								
+Normalization Type								
+Normalization Term Source REF								
+Date of Experiment								
+Public Release Date	2008-01-08							
+PubMed ID	18158584							
+Publication DOI	18158584							
+Publication Author List	"Scarpeci TE, Zanor MI, Carrillo N, Mueller-Roeber B, Valle EM."							
+Publication Title	Generation of superoxide anion in chloroplasts of Arabidopsis thaliana during active photosynthesis: a focus on rapidly induced genes.							
+Publication Status	journal_article							
+Publication Status Term Source REF	The MGED Ontology							
+Experiment Description	"We exposed plants to methyl viologen (MV), a redox cycling herbicide in the light, and perform biochemical and Affymetrix ATH1 GeneChip experiments under conditions in which photosynthesis was active and the antioxidant response well conserved. Samples of total RNA were obtained from a pool of 25 Arabidopsis specimens from two independent biological replicates from the aerial parts of 2h MV-treated and non-treated control seedlings."							
+Protocol Name	P-CAGE-26123	P-CAGE-26125	P-CAGE-26122	P-AFFY-2	Affymetrix:Protocol:Hybridization-EukGE-WS2v4	P-AFFY-6	Affymetrix:Protocol:ExpressionStat	
+Protocol Type	grow	specified_biomaterial_action	nucleic_acid_extraction	labeling	hybridization	feature_extraction	bioassay_data_transformation	
+Protocol Description	"Arabidopsis thaliana (L.) Heynh. Col-0 plants were grown in soil in 5 cm pots (50 per flat) under 120 µmol quanta m-2 s-1 with a 16-h period at 23 °C, and relative humidity of 65-70 % for 2 weeks. "	"Two week-old Arabidopsis plants were transferred to 50 µM MV, 0.01 % Tween 20 for 2 h at 120 µmol quanta m-2 s-1 and 20°C.   Control plants were run in parallel, and handled as treated plants, except that MV was omitted. After treatment, aerial parts were separated from the roots, and immediately processed for RNA isolation. "	"Total RNA was isolated using TRIzol (Invitrogen Life Technologies, Karlsruhe, Germany) following the manufacturers procedure. Quality and quantity of RNA was monitored spectrophotometrically at 260 and 280 nm. RNA with a ratio (A260/A280) higher than 1.2 was used for further analysis."	Title: Affymetrix in vitro transcription. Description: 	Title: Fluidics Station Protocol. Description: 	Title: Affymetrix CEL analysis. Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 	
+Protocol Parameters	light hours;light intensity;light source;media;night humidity;night temperature;day humidity;day temperature;		Amplification;Extracted product;					
+Protocol Hardware								
+Protocol Software					MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact								
+Protocol Term Source REF							The MGED Ontology	
+SDRF File	E-ATMX-28.sdrf.txt							
+Term Source Name	NCBI Taxonomy		abrc_stock	The MGED Ontology	ArrayExpress	The MGED Ontology	mo	EFO
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://www.arabidopsis.org/servlets/Search?action=new_search&type=germplasm	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/
+Term Source Version								

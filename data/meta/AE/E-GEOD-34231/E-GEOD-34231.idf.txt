@@ -1,0 +1,57 @@
+Comment[ArrayExpressAccession]	E-GEOD-34231
+Public Release Date	2012-03-30							
+Investigation Title	Dynamics of mRNA abundance and translation in response to darkness and reillumination							
+Comment[Submitted Name]	Dynamics of mRNA abundance and translation in response to darkness and reillumination
+Experiment Description	Gene expression analysis of 14d-old Arabidopsis seedlings exposed to 1h darkness and 10 min reillumination after 1 h darkness to evaluate the regulation of gene expression at the level of translation. 12 samples, 3 conditions (1h light control, 1 h darkness treatment, 1 h darkness plus 10 min reillumination), 2 RNA pools (Total mRNA and polysomal mRNA), 2 bioreplicates							
+Date of Experiment								
+Term Source Name	EFO
+Term Source Version								
+Term Source File	http://www.ebi.ac.uk/efo/efo.owl							
+Person Last Name	Juntawong	Juntawong	Bailey-Serres					
+Person First Name	Piyada	Piyada	Julia					
+Person Mid Initials								
+Person Email	piyada.juntawong@ucr.edu							
+Person Affiliation	University of California Riverside							
+Person Phone								
+Person Fax								
+Person Address	Botany and Plant Sciences, University of California Riverside, 900 University ave, Riverside, CA, USA							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Person Roles Term Accession Number								
+Normalization Type								
+Normalization Term Accession Number								
+Normalization Term Source REF								
+Replicate Type								
+Replicate Term Accession Number								
+Replicate Term Source REF								
+Experimental Design								
+Experimental Design Term Accession Number								
+Experimental Design Term Source REF								
+Quality Control Type								
+Quality Control Term Accession Number								
+Quality Control Term Source REF								
+Protocol Name	P-GSE34231-1	P-GSE34231-6	P-GSE34231-3	P-GSE34231-8	P-GSE34231-7	P-GSE34231-2	P-GSE34231-4	P-GSE34231-5
+Protocol Description	ID_REF = <br>VALUE = rma normalized	Hybridizations against Arabidopsis ATH1 Genome Array (GeneChip System®, Affymetrix) chips were performed at 45 °C for 16 h, in a rotating platform, using 10 µg of Biotin-labeled cRNA.	Arabidopsis 35S:HF-RPL18 (Col-0 ecotype), expressing an amino-terminally His6-FLAG (HF)-tagged ribosomal protein L18B (RPL18, At3g05590) under a control of the near-constitutive Cauliflower Mosaic Virus (CaMV) 35S promoter, was used to enable the immunoprecipitation of polysomes (Zanetti et al., 2005). Seeds were surfaced sterilized in a 15 mL Falcon tube with 10 mL 95% (v/v) ethanol for 5 min, 10 mL 20 % (v/v) household bleach plus 0.1 % (v/v) Tween-20 for 5 min, rinsed 3 times with 10 mL sterile water, and stratified in 10 mL sterile water at 4 °C for 48 h in darkness. Seeds were plated on sterile solid Murashige and Skoog (MS) medium containing 0.43 % (w/v) MS salts (Caisson Laboratories, North Logan, UT), 1 % (w/v) Sucrose, 1 % (w/v), Agar [pH 5.7] and vertically orientated in a growth chamber (model CU-36L5C8, Percival Scientific, Inc.) under a 16 h light (~60 Î¼E secâˆ’1 mâˆ’2) and 8 h dark cycle at 23 °C.	CEL files from the Affymetrix Chips were processed by use of the R program (http://cran.at.r-project.org/) and Bioconductor packages (http://www.bioconductor.org/). The Robust Multi-chip Average (RMA) normalization was performed using the default settings of the corresponding R function. Present, Marginal or Absent (P/M/A) calls were computed with the affy package.	GeneChips were scanned by use of the Affymetrix GeneChip Workstation Scanner 3000.	Fourteen-day old seedlings were subjected to 1h darkness treatment or reilluminate after 1 h darkness for 10 min. Treatment started at the middle of light period.	Briefly, 7.5 mL of frozen packed tissue was thawed in 15 mL of Polysome Extraction Buffer (PEB; 200 mM Tris-HCl, pH 9.0, 200 mM KCl, 25 mM ethylene glycol tetraacetic acid (EGTA), 36 mM MgCl2, 1% (v/v) octylphenyl-polyethylene glycol (Igepal CA-630), 1% (v/v) polyoxyethylene(23) lauryl ether (Brig® 35), 1% (v/v) Triton X-100, 1% (v/v) Tween-20, 1% (v/v) polyoxyethylene 10 tridecyl ether, 1% (v/v) sodium deoxycholate, 1 mM dithiothreitol (DTT), 50 µg mL-1 cycloheximide, 50 µg mL-1 chloramphenicol), homogenized, and centrifuged at 16,000g for 20 min at 4 °C. Total extract was centrifuged at 16,000g for 20 min at 4 °C. The clarified supernatant of the extract was passed through Miracloth and 13 mL was combined with 400 µl EZ view Red Anti-FLAG affinity beads (Sigma, St. Louis, MO) that had been pre-washed twice with 6 mL PB. The mixture was incubated at 4 °C for 2 h with gentle shaking. The unbound fraction was removed by centrifugation in clinical centrifuge at 700g for 2 min and beads were washed 4 times with 6 mL PB for 5 min at 4 °C with gentle shaking. The elution was performed by incubation of beads with 600 Î¼L PB containing 200 ng/Î¼L 3x FLAG peptide (Sigma) for 30 min at 4 °C. Total RNA was extracted from 1 mL of the clarified extract. Both the total cell extract and immunoprecipitation eluate were subjected the TRIzol RNA extraction (Invitrogen, Carlsbad, CA). RNA was further purified by use of the RNaeasy Plant Mini Kit (Qiagen, Valencia, CA) according to the manufacturerâ€™s protocol. RNA concentration and quality was determined by absorbance 260 and 280 nm by use of a spectrophotometer (ND-1000, Nanodrop, Wilmington, DE). The RNA integrity was examined with an Agilent Bioanalyzer 2100 on RNA 6000 nano chip (Agilent Teachnologies, Santa Clara, CA)	Total and polysomal RNA samples derived from two independent biological replicate experiments were used for microarray hybridization analysis. RNA samples (1.5 µg) were used to synthesize double stranded cDNA, using One-Cycle cDNA synthesis Kit (Affymetrix, Santa Clara, CA).
+Protocol Software								
+Protocol Hardware								
+Protocol Contact								
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Protocol Term Source REF								
+Protocol Term Accession Number								
+Experimental Factor Name	TREATMENT							
+Experimental Factor Type	treatment							
+Experimental Factor Term Source REF								
+Experimental Factor Term Accession Number								
+Publication Title								
+Publication Author List								
+PubMed ID								
+Publication DOI								
+Publication Status								
+Publication Status Term Source REF								
+Publication Status Term Accession Number								
+Comment[SecondaryAccession]	GSE34231							
+Comment[GEOLastUpdateDate]	2012-03-30
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[GEOReleaseDate]	2012-03-29
+Comment[ArrayExpressSubmissionDate]	2011-12-07
+SDRF File	E-GEOD-34231.sdrf.txt

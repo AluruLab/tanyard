@@ -1,0 +1,48 @@
+Investigation Title	Transcription profiling of Arabidopsis apices from transgenic lines: TCP4p::wtTCP4:GFP 2. transgenic lines carrying construct: TCP4p::miRNAresistantTCP4:GFP 3. tcp2 tcp4 double ko	
+Comment[Submitted Name]	MPI Arabidopsis rTCP apices	
+Experimental Design	genetic_modification_design	transcription profiling by array	
+Experimental Design Term Source REF	mo	EFO	
+Comment[ArrayExpressReleaseDate]	2007-01-01	
+Comment[AEMIAMESCORE]	5	
+Comment[ArrayExpressAccession]	E-MEXP-469	
+Comment[MAGETAB TimeStamp_Version]	2011-06-28 21:00:43 Last Changed Rev: 14857	
+Experimental Factor Name	genotype	
+Experimental Factor Type	genotype	
+Experimental Factor Term Source REF	
+Person Last Name	Palatnik	Cubas	Schommer	Aggarwal	Nath	Weigel	
+Person First Name	Javier	Pilar	Carla	Pooja	Uptal	Detlef	
+Person Mid Initials	F	
+Person Email			carla.schommer@tuebingen.mpg.de	
+Person Phone			+49-(0)7071-6011407	
+Person Fax	
+Person Address			Spemannstr. 37-39	
+Person Affiliation	MPI for Dev. Biol., TÃ¼bingen, Germany	Centro Nacional de Biotecnologia, Madrid, Spain	Molecular Biology	Indian Institute of Science Bangalore, India	Indian Institute of Science Bangalore, India	MPI for Dev. Biol, Germany; Salk Institute, USA	
+Person Roles			submitter	
+Person Roles Term Source REF				
+Quality Control Type	biological_replicate	
+Quality Control Term Source REF	The MGED Ontology	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2007-01-01	
+PubMed ID	18816164	
+Publication DOI	18816164	
+Publication Author List	Schommer C, Palatnik JF, Aggarwal P, Chételat A, Cubas P, Farmer EE, Nath U, Weigel D.	
+Publication Title	Control of jasmonate biosynthesis and senescence by miR319 targets.	
+Publication Status	journal_article	
+Publication Status Term Source REF	
+Experiment Description	apices of 3 genotypes were compared. 1. transgenic lines carrying construct: TCP4p::wtTCP4:GFP 2. transgenic lines carrying construct: TCP4p::miRNAresistantTCP4:GFP 3. tcp2 tcp4 double ko	
+Protocol Name	P-MEXP-10318	P-MEXP-10320	P-MEXP-10322	P-MEXP-10323	P-MEXP-10324	Affymetrix:Protocol:Hybridization-EukGE-WS2v4_450	P-AFFY-6	Affymetrix:Protocol:ExpressionStat	
+Protocol Type	grow	specified_biomaterial_action	pool	nucleic_acid_extraction	labeling	hybridization	feature_extraction	bioassay_data_transformation	
+Protocol Description	plants were grown on soil for 6 weeks at 23C, and 65% relative humidity. Light cycle was short day (SD): 8h light, 16h dark	after 6 weeks a ca.0.3cm apical region was dissected from whole plants and immediately transferred to liquit N2 until sample collection was complete (ca 100mg). Samples were stored at -80C until RNA extraction.	Plant material from several individuals was pooled for each sample. All pooled individuals were grown at the same time, under same conditions. Extracts were prepared from these pools.	pdf of the protocol (Probe preparation Development) can be downloaded at http://www.weigelworld.org/resources/microarray/AtGenExpress/; also at TAIR http://www.arabidopsis.org Protocol:501712557	pdf of the protocol (Probe preparation Development) can be downloaded at http://www.weigelworld.org/resources/microarray/AtGenExpress/; also at TAIR http://www.arabidopsis.org Protocol:501712557	Title: Affymetrix EukGE-WS2v4_450 Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 	
+Protocol Parameters	start time;min temperature;media;			Extracted product;Amplification;	Amount of nucleic acid labeled;Amplification;Label used;	
+Protocol Hardware	
+Protocol Software							MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact	
+Protocol Term Source REF		mo				mo	
+SDRF File	E-MEXP-469.sdrf.txt	
+Term Source Name	mo		atcc	ncbitax	The MGED Ontology	po	ArrayExpress	The MGED Ontology	mo	EFO	
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php		http://www.atcc.org/	http://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.plantontology.org	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	
+Term Source Version											

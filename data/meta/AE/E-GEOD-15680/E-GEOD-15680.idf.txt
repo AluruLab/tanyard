@@ -1,0 +1,52 @@
+Investigation Title	Transcription profiling of Arabidopsis laser microdissected cells at the powdery mildew infection site					
+Comment[Submitted Name]	Laser microdissection of Arabidopsis cells at the powdery mildew infection site					
+Experimental Design	unknown_experiment_design_type	transcription profiling by array				
+Experimental Design Term Source REF		EFO				
+Comment[AEExperimentType]	transcription profiling by array					
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for eds16 after infection with Golovinomyces orontii					
+Comment[AEMIAMESCORE]	4					
+Comment[SecondaryAccession]	GSE15680					
+Comment[ArrayExpressReleaseDate]	2009-12-14					
+Comment[ArrayExpressAccession]	E-GEOD-15680					
+Comment[MAGETAB TimeStamp_Version]	2010-08-02 14:11:15 Last Changed Rev: 13058					
+Experimental Factor Name	GENOTYPE	ORGANISM PART	INFECTION			
+Experimental Factor Type	genotype	organism_part	infect			
+Experimental Factor Term Source REF						
+Person Last Name	Wildermuth					
+Person First Name	Mary					
+Person Mid Initials						
+Person Email	mwildermuth@berkeley.edu					
+Person Phone						
+Person Fax						
+Person Address	Plant and Microbial Biology, University of California Berkeley, 221 Koshland Hall MC3102, Berkeley, 94720, USA					
+Person Affiliation	University of California Berkeley					
+Person Roles	submitter					
+Person Roles Term Source REF	The MGED Ontology					
+Quality Control Type						
+Quality Control Term Source REF						
+Replicate Type						
+Replicate Term Source REF						
+Normalization Type						
+Normalization Term Source REF						
+Date of Experiment						
+Public Release Date	2009-12-14					
+PubMed ID	20018666					
+Publication DOI	10.1073/pnas.0912492107					
+Publication Author List	Chandran D, Inada N, Hather G, Kleindt CK, Wildermuth MC.					
+Publication Title	Laser microdissection of Arabidopsis cells at the powdery mildew infection site reveals site-specific processes and regulators.					
+Publication Status	published					
+Publication Status Term Source REF	EFO					
+Publication Status Term Accession Number	EFO_0001796					
+Experiment Description	Obligate biotrophs such as the virulent powdery mildew Golovinomyces orontii alter plant host cellular architecture, metabolism, and defense in order to acquire nutrients while suppressing cell death and senescence. G. orontii exclusively infects epidermal cells of Arabidopsis with clearly defined stages of infection. Host factors mediating the powdery mildew (PM) interaction are often expressed in the mesophyll cells underlying the infected epidermal cells. Therefore, in order to identify Arabidopsis processes and regulators mediating this PM interaction, we used UV laser microdissection to isolate cells at the PM infection site for global expression profiling. As part of this process, we optimized and/or developed novel tissue preparation, RNA extraction and amplification, and quality control protocols resulting in highly correlated biological replicate data. We focused on the growth and reproduction stage of the PM infection (5 days post infection) when the number of reproductive structures, conidiophores, can be quantified. Site-specific profiling increased our sensitivity dramatically, allowing us to identify specific processes, process components, and their putative regulators hidden in previous whole leaf global expression analyses. For example, the known cell cycle regulator MYB3R4 exhibits altered expression at the site of infection, as do a subset of cell-cycle-associated genes. Furthermore, null myb3r4 mutants exhibit enhanced resistance to PM with reduced conidiophores per colony, suggesting cell cycle control plays an important role in the PM interaction. Experiment Overall Design: Arabidopsis whole leaves from wild type Columbia-0 and enhanced disease susceptibility mutant eds16-1, a null isochorismate synthase 1 (At1g74710) mutant were harvested at 5 days after Golovinomyces orontii infection, microwave-fixed, paraffin-embedded and sectioned. Groups of epidermal and mesophyll cells (~20 cells/group) surrounding the G. orontii infected epidermal cell were cut using a Leica AS laser microdissection (LMD) system. In parallel, groups of epidermal and mesophyll cells were collected from uninfected leaves at 5 days from wild type Arabidopsis. LMD-isolated cells, whole leaf, whole leaf amplified and tissue scrape samples were used for RNA extraction and hybridization to Affymetrix Arabidopsis ATH1 microarrays.  Gene expression profiles were obtained for wild type from all samples and for ics1 mutant from LMD infected samples. The experiment includes 2 biological replicates.					
+Protocol Name	P-G15680-2	P-G15680-1	P-G15680-5	P-G15680-3	P-AFFY-6	P-G15680-4
+Protocol Type	specified_biomaterial_action	grow	nucleic_acid_extraction	labeling	feature_extraction	bioassay_data_transformation
+Protocol Description	At four weeks, a subset of boxes was infected with a light innoculum of G.orontii using a settling tower. Light innoculum is 2 half G.O.-infected leaves with conidia 10-14 dpi.  Infected plants were placed in a separate Percival growth chamber under the same conditions as the pathogen-free Percival. Infections were performed at 11:30 am to standardize experiments and minimize circadian effects. Samples were harvested at 5 dpi. An uninfected 5 d sample was also collected.  For each sample, four fully expanded mature leaves were excised per plant and transferred to Sorensen's buffer. Harvested leaves were microwave-fixed, dehydrated and embedded in paraffin. Embedded leaves were sectioned into 10 Âµm sections using a microtome prior to laser microdissection. Groups of epidermal and mesophyll cells surrounding G. orontii-infected cells were collected using the Leica AS LMD with 40XT objective from infected samples. In parallel, groups of epidermal and mesophyll cells were collected from uninfected samples. Whole leaves (3-4 fully expanded mature leaves) were also harvested for each sample and immediately frozen in liquid nitrogen. Two independent experiments were performed with triplicate samples collected within each experiment.  Two biological replicates were processed.	Arabidopsis seeds were stratified in 0.1% agarose for 3-5 days and planted in boxes containing Metromix 200 soil. Seeds were equally distributed in each box using a template, with 9 plants per box.  The flats (6 boxes per flat) were covered with plastic trays for 1 week and then uncovered. Flats were watered from below and fertilized at 2-1/2 weeks. Plants were grown in Percival AR66L growth chambers at 22Â°C, 70% RH, 12 h photoperiod with photosynthetically active radiation=180 ÂµE m-2 s-1.	Total RNA was extracted using the Picopure kit from Arcturus according to the manufacturer's instructions from LMD, whole leaf and leaf section scrape samples.  Samples were subject to on-column DNase digestion using  DNase I from Qiagen. RNA quality was determined by the A260/A280 ratio and by its profile on an Agilent 2100 Bioanalyzer.	Two-round and one-round target labeling was performed according to the protocols given in the Affymetrix GeneChip Expression Analysis Technical Manual 701025 rev 1. Quantity and quality of amplified RNA was determined by the A260/A280 ratio and by its profile on an Agilent 2100 Bioanalyzer.	Title: Affymetrix CEL analysis. Description: 	Log2 (expression values) were extracted using robust multi-array analysis (RMA) implemented in the function rma() in the Bioconductor software package affy. Background correction was performed by correcting PM (perfect match) only, to reduce noise from signal intensity. Quantile normalization was performed to make the distributions of signal intensities uniform across chips. Quality assessment was done using the weights outputted from the linear model fitting function fitPLM() in the R package AffyExtensions.
+Protocol Parameters						
+Protocol Hardware						
+Protocol Software					MicroArraySuite 5.0	
+Protocol Contact						
+Protocol Term Source REF						The MGED Ontology
+SDRF File	E-GEOD-15680.sdrf.txt					
+Term Source Name	NCBI Taxonomy		The MGED Ontology	ArrayExpress	EFO	The MGED Ontology
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version						

@@ -1,0 +1,52 @@
+Investigation Title	Transcription profiling of Arabidopsis seedlings to chito-tetramers, chito-octamers and hydrolized chitin						
+Comment[Submitted Name]	Chitin Oligomer Experiment						
+Experimental Design	compound_treatment_design	co-expression_design					
+Experimental Design Term Source REF	mo	mo					
+Comment[AEExperimentType]	transcription profiling by array						
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis after treatment with crab shell chitin or chitin octamer						
+Comment[ArrayExpressReleaseDate]	2007-07-12						
+Comment[SecondaryAccession]	GSE2538						
+Comment[AEMIAMESCORE]	5						
+Comment[SecondaryAccession]	GDS1531						
+Comment[ArrayExpressAccession]	E-GEOD-2538						
+Comment[MAGETAB TimeStamp_Version]	2010-08-04 16:31:40 Last Changed Rev: 13058						
+Experimental Factor Name	compound						
+Experimental Factor Type	compound						
+Experimental Factor Term Source REF							
+Person Last Name	Ramonell						
+Person First Name	Katrina						
+Person Mid Initials							
+Person Email	kramonel@bama.ua.edu						
+Person Phone							
+Person Fax							
+Person Address	Biological Sciences,University of Alabama,411 Hackberry Lane, Box 870344,Tuscaloosa,35487,USA						
+Person Affiliation	University of Alabama						
+Person Roles	submitter						
+Person Roles Term Source REF	The MGED Ontology						
+Quality Control Type							
+Quality Control Term Source REF							
+Replicate Type							
+Replicate Term Source REF							
+Normalization Type							
+Normalization Term Source REF							
+Date of Experiment							
+Public Release Date	2007-07-12						
+PubMed ID	15923325						
+Publication DOI	10.1104/pp.105.060947 						
+Publication Author List	Katrina Ramonell,Marta Berrocal-Lobo,Serry Koh,Jinrong Wan,Herb Edwards,Gary Stacey,Shauna Somerville						
+Publication Title	Loss-of-function mutations in chitin responsive genes show increased susceptibility to the powdery mildew pathogen Erysiphe cichoracearum.						
+Publication Status	published						
+Publication Status Term Source REF	EFO						
+Experiment Description	Using the ATH1 Affymetrix microarrays consisting of about 23,000 genes, we examined the response of Arabidopsis seedlings to chito-tetramers, chito-octamers and hydrolyzed chitin after 30 min of treatment.						
+Protocol Name	P-G2538-1	Affymetrix:Protocol:Hybridization-EukGE-WS2v4	P-AFFY-6				
+Protocol Type	specified_biomaterial_action	hybridization	feature_extraction				
+Protocol Description	Growth Conditions and Treatments: Arabidopsis thaliana L. (Columbia-0) seeds were sterilized and grown hydroponically as previously described (Zhang et al., 2002, MPMI 15(9) 963-970). Briefly, Arabidopsis seeds were surface sterilized and allocated in 50 ml Falcon tubes containing 10 ml of liquid medium (1 X Murashige and Skoog Basal Salt Mixture + 2% Dextrose, pH 5.8). The tubes were incubated with gentle shaking in a growth chamber with the following settings: constant light at 125 Â&#956;mol m-2 sec-1 at a temperature of 23 Â&deg;C. After 14 days, the seedlings were treated with either hydrolyzed crab-shell chitin (Sigma-Aldrich, St. Louis, Missouri) at a final concentration of 100 Â&#956;g/ml or the purified chito-tetramer  (degree of polymerization, d.p. = 4) or octamer (d.p. =8) at a final concentration of 1 Â&#956;M. The control seedlings were similarly treated with an equivalent amount of water. Whole seedlings were collected 30 minutes after treatment, immediately frozen in liquid N2, and stored at â"80 Â&deg;C for later use. Three independent replicates were conducted. RNA and Microarray Methods: Total RNA was extracted from the plants using a modified Trizol method (Chomczynski and Sashi, 1987) (see also Protocols Manual at the AFGC web page http://www.arabidopsis.org/info/2010_projects/comp_proj/AFGC/RevisedAFGC/AFGC_Protocols_Dec_2001L.pdf) and purified with a silica membrane column (Qiagen, RNeasy). Fifteen micrograms biotinylated complementary RNA (cRNA) was prepared and used to hybridize ATH1 Arabidopsis GeneChips (Affymetrix) using the Affymetrix manufacturerâs protocols. The array images were analyzed with the Affymetrix GeneChip Operating Software (GCOS) 1.1 with the target intensity set to 500. These data were imported into GeneSpring 7.0 (Silicon Genetics, Redwood City, CA, USA). To remove chip-to-chip signal variation, each measurement was divided by the 50.0th percentile of all measurements in that sample.  All samples were normalized to the reference data set, consisting of four replicates of Columbia-0, untreated. Each measurement for each gene was divided by the median of that geneâs intensity in the reference data set. The normalized values (Normalized Ratio) are reported along with the intensity values for this array. Keywords = chitin, defense, elicitor, mutant, powdery mildew, Erysiphe cichoracearum Lot batch = 510690	Title: Fluidics Station Protocol. Description: 	Title: Affymetrix CEL analysis. Description: 				
+Protocol Parameters							
+Protocol Hardware							
+Protocol Software		MicroArraySuite 5.0	MicroArraySuite 5.0				
+Protocol Contact							
+Protocol Term Source REF							
+SDRF File	E-GEOD-2538.sdrf.txt						
+Term Source Name	NCBI Taxonomy	mo	The MGED Ontology	ArrayExpress	mo	EFO	The MGED Ontology
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version							

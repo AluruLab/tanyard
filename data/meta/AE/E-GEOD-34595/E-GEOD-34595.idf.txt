@@ -1,0 +1,58 @@
+Comment[ArrayExpressAccession]	E-GEOD-34595						
+Public Release Date	2012-02-10						
+Investigation Title	Transcript profile changes associated with lateral root fasciation in temperature-sensitive mutants						
+Comment[Submitted Name]	Transcript profile changes associated with lateral root fasciation in temperature-sensitive mutants						
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis temperature-dependent later root fasciation mutants						
+Experiment Description	"Control of the dimensions of organ primordia is crucial for proper organogenesis in the development of multicellular organisms. Lateral root formation is a major type of plant organogenesis important for postembryonic development of the root system. Lateral root formation begins with a few rounds of asymmetric, anticlinal cell division (formative cell division) in the pericycle, which determines the basal dimensions of root primordia. Here we show, based on molecular genetic analysis of temperature-dependent fasciation (TDF) mutants of Arabidopsis thaliana, that mitochondria play an unexpected role in the restriction of formative cell division and thus in the control of the basal dimensions of lateral root primordia. Three TDF mutants, root redifferentiation defective 1 (rrd1), rrd2, and root initiation defective 4 (rid4), exhibit lateral root fasciation from excess formative cell division under high-temperature conditions. We identify RRD1 as encoding a poly(A)-specific ribonuclease (PARN)-like protein and RRD2 and RID4 as encoding pentatricopeptide repeat (PPR) proteins. Subcellular localization and predicted functions of these proteins implicate them in poly(A)-dependent RNA degradation in mitochondria. This characterization is supported by the finding that mitochondrial RNAs with poly(A) tails, most of which are mRNAs of respiratory chain components, accumulate at an unusually high level in these TDF mutants. Explants of three mutants (rrd1, rrd2, rid4) and wild type were cultured on B5 medium supplemented with 0.5 mg/L IBA for the induction of lateral root formation. After 12 hours of culture at 28C, explants were collected and used for microarray analysis. Analysis was performed in three biological replicates."						
+Date of Experiment							
+Term Source Name	EFO						
+Term Source Version							
+Term Source File	http://www.ebi.ac.uk/efo/efo.owl						
+Person Last Name	Sugiyama	Otsuka	Sugiyama				
+Person First Name	Munetaka	Kurataka	Munetaka				
+Person Mid Initials							
+Person Email	sugiyama@ns.bg.s.u-tokyo.ac.jp						
+Person Affiliation	The University of Tokyo						
+Person Phone	+81-3-3814-0368						
+Person Fax	+81-3-3814-0139						
+Person Address	"Botanical Gardens, Graduate School of Science, The University of Tokyo, Hakusan 3-7-1, Bunkyo-ku, Tokyo, Japan"						
+Person Roles	submitter						
+Person Roles Term Source REF							
+Person Roles Term Accession Number							
+Normalization Type							
+Normalization Term Accession Number							
+Normalization Term Source REF							
+Replicate Type							
+Replicate Term Accession Number							
+Replicate Term Source REF							
+Experimental Design	genetic modification design	transcription profiling by array					
+Experimental Design Term Accession Number							
+Experimental Design Term Source REF							
+Quality Control Type							
+Quality Control Term Accession Number							
+Quality Control Term Source REF							
+Protocol Name	P-GSE34595-1	P-GSE34595-6	P-GSE34595-5	P-GSE34595-2	P-GSE34595-3	P-GSE34595-4	P-GSE34595-7
+Protocol Description	"ID_REF = <br>VALUE = GCOS-calculated signal intensity<br>ABS_CALL = The call in an absolute analysis of wild type plant that indicates if the transcript was present (P), absent (A), marginal (M), or no call (NC).<br>DETECTION P-VALUE = p-value that indicates the significance level of the detection call."	Scanning procedure was conducted with GeneChip Scanner 3000 7G as described in the GeneChip Expression Analysis Technical Manual (Affymetrix).	"Hybridization, washing, and staining procedures were conducted with Fluidics Station 450 as described in the GeneChip Expression Analysis Technical Manual (Affymetrix)."	Explants from 4-day-old seedlings were cultured on B5 medium supplemented with 0.5 mg/L IBA at 28C for 12 h for the induction of lateral root formation.	Total RNA was extracted with TRIzol (Invitrogen) and purified with the RNeasy Micro Kit (QIAGEN).	Biotinylated cRNA was prepared from total RNA with the GeneChip 3' IVT Express Kit (Affymetrix).	GCOS (MAS5.0).
+Protocol Software							
+Protocol Hardware							
+Protocol Contact							
+Protocol Type	bioassay_data_transformation	image_aquisition	hybridization	specified_biomaterial_action	nucleic_acid_extraction	labeling	feature_extraction
+Protocol Term Source REF							
+Protocol Term Accession Number							
+Experimental Factor Name	genotype						
+Experimental Factor Type	genotype						
+Experimental Factor Term Source REF							
+Experimental Factor Term Accession Number							
+Publication Title							
+Publication Author List							
+PubMed ID							
+Publication DOI							
+Publication Status							
+Publication Status Term Source REF							
+Publication Status Term Accession Number							
+Comment[SecondaryAccession]	GSE34595						
+Comment[GEOLastUpdateDate]	2012-02-10						
+Comment[AEExperimentType]	transcription profiling by array						
+Comment[GEOReleaseDate]	2012-02-10						
+Comment[ArrayExpressSubmissionDate]	2011-12-21						
+SDRF File	E-GEOD-34595.sdrf.txt						

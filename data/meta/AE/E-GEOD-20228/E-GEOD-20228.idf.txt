@@ -1,0 +1,49 @@
+Investigation Title	Nuclear gene expression in response to chloroplast division inhibition	
+Comment[Submitted Name]	Nuclear gene expression in response to chloroplast division inhibition	
+Experimental Design	transcription profiling by array	
+Experimental Design Term Source REF	EFO	
+Comment[AEMIAMESCORE]	4	
+Comment[SecondaryAccession]	GSE20228	
+Comment[ArrayExpressReleaseDate]	2010-04-28	
+Comment[ArrayExpressAccession]	E-GEOD-20228	
+Comment[MAGETAB TimeStamp_Version]	2010-08-04 03:43:14 Last Changed Rev: 13058	
+Experimental Factor Name	GENETIC BACKGROUND	
+Experimental Factor Type	genetic background	
+Experimental Factor Term Source REF	
+Person Last Name	(NASC)	Aldridge	
+Person First Name	Nottingham Arabidopsis Stock Centre	Cassie	
+Person Mid Initials	
+Person Email	affy@arabidopsis.info	
+Person Phone	
+Person Fax	
+Person Address	School of Biosciences, University of Nottingham, Nottingham Arabidopsis Stock Centre (NASC), Sutton Bonington Campus, Loughborough, LE12 5RD, United Kingdom	
+Person Affiliation	Nottingham Arabidopsis Stock Centre (NASC)	
+Person Roles	submitter	
+Person Roles Term Source REF	The MGED Ontology	
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2010-04-28	
+PubMed ID	
+Publication DOI	
+Publication Author List	
+Publication Title	
+Publication Status	
+Publication Status Term Source REF	
+Experiment Description	The aim of this investigation is to analyse the effect on nuclear gene expression of inhibition of chloroplast division. Transgenic Arabidopsis lines (Ler) were generated that contained a chemically inducible promoter (XVE) upstream of AtMinD1. AtMinD1 encodes a product involved in chloroplast division; overexpression of AtMinD1 leads to chloroplast division inhibition. 6 samples were used in this experiment.  Three treatments were performed:  Treatment 1: Empty vector control seedlings (transformed with PER-10 only) were sown onto lehle, sprayed at 13 days old with 2uM 17-B-estradiol (inducer) and harvested 24 hours later.  Treatment 2: Seeds were sown on lehle containing inducer and sprayed every 24 hours with 2uM inducer until harvested at 14 days old.  Treatment 3: Seeds were sown on lehle plates, sprayed at 13 days old with 2uM inducer and harvested 24 hours later.  For all three treatments, seedlings were grown in constant light conditions, and tissue was harvested from 14-day-old seedlings (4 rosette leaves) and snap frozen in liquid nitrogen before RNA preparation.	
+Protocol Name	P-GSE20228-3	P-GSE20228-9	P-GSE20228-10	P-GSE20228-2	P-GSE20228-4	P-GSE20228-5	P-GSE20228-6	P-GSE20228-7	P-GSE20228-8	P-GSE20228-1	
+Protocol Type	grow	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	nucleic_acid_extraction	labeling	hybridization	image_aquisition	feature_extraction	bioassay_data_transformation	
+Protocol Description	Seedlings were grown on lehle plates in constant light	Seeds were sown on lehle containing 2uM 7-B-estradiol and sprayed every 24 hours with 2uM 7-B-estradiol until harvested at 14 days old.	Seeds were sown on lehle plates, sprayed at 13 days old with 2uM 7-B-estradiol and harvested 24 hours later.	Empty vector control seedlings (transformed with PER-10 only) were sown onto lehle, sprayed at 13 days old with 2uM 17-B-estradiol and harvested 24 hours later.	Standard Affymetrix extraction protocol	Labelled using protocol described in manual "Affymetrix GeneChip Expression Analysis Technical Manual", One-Cycle target labelling	Biotin Labelled cRNA using "Affymetrix GeneChip Hybridization, Wash and Stain Kit", according to guidelines set out by Affymetrix, Santa Clara, CA	Scanned according to guidelines set out by Affymetrix, Santa Clara, CA.	Raw data from the microarrays was normalized at probe-level using MAS5 algorithm. The detection calls (present, marginal, absent) for each probe set was obtained using the GCOS system	ID_REF = <br>VALUE = MAS5.0-calculated signal intensity<br>ABS_CALL = the call in an absolute analysis that indicates if the transcript was present (P), absent (A), or marginal (M)<br>DETECTION P-VALUE = p-value that indicates the significance level of the detection call	
+Protocol Parameters	
+Protocol Hardware	
+Protocol Software	
+Protocol Contact	
+Protocol Term Source REF									The MGED Ontology	The MGED Ontology	
+SDRF File	E-GEOD-20228.sdrf.txt	
+Term Source Name	NCBI Taxonomy		The MGED Ontology	ArrayExpress	EFO	The MGED Ontology	
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version							

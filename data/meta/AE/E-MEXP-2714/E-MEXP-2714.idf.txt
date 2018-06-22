@@ -1,0 +1,51 @@
+Investigation Title	Genome wide analysis of glucose brassinosteroid interaction in Arabidopsis						
+Comment[Submitted Name]	Genome wide analysis of glucose brassinosteroid interaction in Arabidopsis						
+Experimental Design	dose_response_design	compound_treatment_design	co-expression_design	replicate_design	transcription profiling by array		
+Experimental Design Term Source REF		The MGED Ontology	The MGED Ontology	The MGED Ontology	EFO		
+Comment[AEExperimentType]	transcription profiling by array						
+Comment[AEExperimentDisplayName]	Genome wide analysis of glucose brassinosteroid interaction in Arabidopsis						
+Comment[AEMIAMESCORE]	4						
+Comment[SecondaryAccession]							
+Comment[ArrayExpressReleaseDate]	2011-05-18						
+Comment[ArrayExpressAccession]	E-MEXP-2714						
+Comment[MAGETAB TimeStamp_Version]	2010-10-16 11:06:32 Last Changed Rev: 14677						
+Experimental Factor Name	growth condition						
+Experimental Factor Type	growth condition						
+Experimental Factor Term Source REF							
+Person Last Name	Laxmi						
+Person First Name	Ashverya						
+Person Mid Initials							
+Person Email	ashverya_laxmi@nipgr.res.in						
+Person Phone	011-26735180						
+Person Fax							
+Person Address	"Aruna Asaf Ali Road, New Delhi, Delhi, 110067, India"						
+Person Affiliation	National Institute for Plant Genome Research						
+Person Roles	submitter						
+Person Roles Term Source REF	The MGED Ontology						
+Quality Control Type	biological_replicate						
+Quality Control Term Source REF	The MGED Ontology						
+Replicate Type							
+Replicate Term Source REF							
+Normalization Type							
+Normalization Term Source REF							
+Date of Experiment							
+Public Release Date	2011-05-18						
+PubMed ID							
+Publication DOI							
+Publication Author List							
+Publication Title	Genome wide Analysis of Glucose and Brassinosteroid Signaling Interactions in Arabidopsis thaliana						
+Publication Status							
+Publication Status Term Source REF							
+Experiment Description	"Arabidopsis thaliana seeds after imbibition were inoculated in ½ MS medium supplemented with 0.8% agar and 1% sucrose. Once the plant material was uniformly germinated, the experimental conditions were applied. 5d old light-grown uniformly germinated seedlings were washed seven times with sterile water with last wash given by ½ MS liquid medium without sucrose to remove residual exogenous sugar and the plant material was kept in ½ MS liquid without sucrose in the dark for all subsequent steps. Cultures were shaken at 140 rpm at 22oC for 24 h and then 3 h treatment was given with liquid ½ MS without glucose and liquid ½ MS supplemented with BR (0.1 ?M EBR), glucose (3%), glucose (3%) + BR (0.1 ?M EBR). Seedlings were harvested after 3h and preceded for RNA isolation and Microarray analysis."						
+Protocol Name	P-MTAB-14181	P-MTAB-14180	P-MTAB-14179	P-AFFY-2	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6	
+Protocol Type	nucleic_acid_extraction	specified_biomaterial_action	grow	labeling	hybridization	feature_extraction	
+Protocol Description	"Qiagen RNAeasy kit<br>(Parameters: Extracted product = total_RNA, Amplification = none)"	"Arabidopsis thaliana seeds after imbibition were inoculated in ½ MS medium supplemented with 0.8% agar and 1% sucrose. Once the plant material was uniformly germinated, the experimental conditions were applied. 5d old light-grown uniformly germinated seedlings were washed seven times with sterile water with last wash given by ½ MS liquid medium without sucrose to remove residual exogenous sugar and the plant material was kept in ½ MS liquid without sucrose in the dark for all subsequent steps. Cultures were shaken at 140 rpm at 22oC for 24 h and then 3 h treatment was given with liquid ½ MS without glucose and liquid ½ MS supplemented with BR (0.1 ?M), glucose (3%), glucose (3%) + BR (0.1 ?M). Seedlings were harvested after 3h and preceded for RNA isolation and Microarray analysis."	"Seeds were surface sterilized and imbibed at 4oC for 48 h. The imbibed seeds were germinated and grown vertically on Petri dishes containing 0.5x Murashige and Skoog (Sigma) supplemented with 1% sucrose and solidified with 0.8% Agar (Hi Media). Seed germination was carried out in climate-controlled growth rooms in a long day condition (16 h light and 8 h darkness), except stated otherwise, with 22oC±2oC temperature and 80?mol m-2 s-1 light intensity. <br>(Parameters: start time = 6, time unit = days, min temperature = 22, max temperature = 24, temperature unit = C, media = 1/2 MS)"	Title: Affymetrix in vitro transcription. Description: 	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	
+Protocol Parameters							
+Protocol Hardware							
+Protocol Software					MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact							
+Protocol Term Source REF					mo		
+SDRF File	E-MEXP-2714.sdrf.txt						
+Term Source Name	NCBI Taxonomy	tair_dev:1.27	The MGED Ontology	ArrayExpress	The MGED Ontology	EFO	mo
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://www.arabidopsis.org/info/ontologies/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version			1.27				

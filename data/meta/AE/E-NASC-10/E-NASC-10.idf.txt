@@ -1,0 +1,55 @@
+Comment[ArrayExpressAccession]	E-NASC-10
+MAGE-TAB Version	1.1
+Investigation Title	Identification of genes differentially expressed in dormant versus active axillary shoot apical mersitems.
+Comment[Submitted Name]	Identification of genes differentially expressed in dormant versus active axillary shoot apical mersitems.
+Experimental Design	
+Experimental Design Term Source REF	
+Experimental Design Term Accession Number	
+Experimental Factor Name	Genotype	
+Experimental Factor Type	genotype	
+Experimental Factor Term Source REF	
+Experimental Factor Term Accession Number	
+Person Last Name	Craigon	Okyere	Higgins	Jotham	Ward	
+Person First Name	David	John	Janet	Joan	Sally	
+Person Mid Initials	J	Y				
+Person Email	david@arabidopsis.info	affy@arabidopsis.info	affy@arabidopsis.info	affy@arabidopsis.info	spw6@york.ac.uk	
+Person Phone	+44 115 951 3091	+44 115 951 6315	+44 115 951 6315	+44 115 951 6315	01904 328683	
+Person Fax	
+Person Address					Dept of Biology (Area 11), University of York, Heslington, York YO10 5DD England 	
+Person Affiliation	Nottingham Arabidopsis Stock Centre (NASC)	Nottingham Arabidopsis Stock Centre (NASC)	Nottingham Arabidopsis Stock Centre (NASC)	Nottingham Arabidopsis Stock Centre (NASC)	University of York	
+Person Roles	data_coder;submitter	investigator	investigator	investigator	biosource_provider	
+Person Roles Term Source REF	
+Person Roles Term Accession Number	
+Quality Control Type	
+Quality Control Term Source REF	
+Quality Control Term Accession Number	
+Replicate Type	
+Replicate Term Source REF	
+Replicate Term Accession Number	
+Normalization Type	
+Normalization Term Source REF	
+Normalization Term Accession Number	
+Date of Experiment	
+Public Release Date	2003-10-20	
+PubMed ID	
+Publication DOI	
+Publication Author List	
+Publication Title	
+Publication Status	
+Publication Status Term Source REF	
+Publication Status Term Accession Number	
+Experiment Description	 The aim of this study is to identify genes differentially expressed during the transition between dormancy and activity in axillary shoot apical meristems. We have chosen to study this by comparing mRNA populations from the axillary buds of the auxin over-responding, apically dominant axr3-1 mutant of Arabidopsis,with those from the axillary buds of the auxin resistant axr1-12 bushy mutant. Preliminary investigation using cDNA AFLP has been successful in identifying differentially expressed transcripts in the buds of these two genotypes, thus demonstrating the importance of this study, however this is a time consuming procedure. Axillary buds from axr3-1 are seen to arrest at an early stage when the buds are approximately 2mm long and harvested at this point. Buds of a similar size were harvested from axr1-12 plants and the RNA extracted using Qiagen columns.These two mRNA samples will represent the dormant and active buds to be comparedin this experiment. The plants from which these buds were harvested were grown in adjacent p40 trays in a plant growth room. Between two and three buds were harvested from each plant.
+Protocol Name	NASCLabelProtocol:1	P-MTAB-24019	P-MTAB-24020	P-MTAB-24021	Affymetrix:Protocol:Percentile	Affymetrix:Protocol:ExpressionStat	Affymetrix:Protocol:Hybridization-EukGE-WS2v4	Affymetrix:Protocol:Scan
+Protocol Type	labeling	nucleic_acid_extraction			bioassay_data_transformation	bioassay_data_transformation	hybridization	image_acquisition	
+Protocol Term Source REF	
+Protocol Term Accession Number	
+Protocol Description	RNA samples were quality controlled using the Agilent 2100 Bioanalyzer. 100 pmol T7-(dT)24 primer (5'-GGCCAGTGAATTGTAATACGACTCACTATAGGGAGGCGG-(dT)24-3')  was hybridized with the Total RNA ( 8 - 12ug) at 70°C for 10 minutes. First strand cDNA was synthesized by reverse transcription using 400 units SuperScript II Reverse Transcriptase in a reaction containing 50 mM Tris-HCl (pH 8.3), 75 mM KCl, 3 mM MgCl2, 10 mM dithiothreitol (DTT) and 0.5 mM dNTPs at 42C for 1 hour.  The reaction was then put on ice for 2 mins, followed by second strand cDNA synthesis.  130ul of the second strand reaction mix was added to the 20ul  first strand synthesis reaction. The second strand reaction mix  contained 40 units E. coli DNA polymerase I, 10 units E. coli DNA ligase, 2 units  E. coli RNase H and 0.2 mM dNTPs in a buffer containing 20 mMTris-HCl (pH 6.9), 90 mM KCl, 4.6 mM MgCl2, 10mM (NH4)SO4 and 0.15 mM -NAD+. The reaction was incubated at 16 C for 2 hours.  10 units T4 DNA Polymerase was added and the reaction incubated for a further 5 minutes at 16 C, then the reaction was terminated using EDTA.  The double-stranded cDNA was cleaned up using the cDNA Cleanup Spin Column supplied in the Affymetrix GeneChip Sample Cleanup Module.  The double-stranded cDNA was used as a template for in Vitro transcription of biotin-labeled cRNA using the ENZO BioArray RNA Transcript Labeling Kit supplied by Affymetrix.  The Transcript Labeling kit produces large amounts of hybridizable biotin-labeled RNA targets by in Vitro transcription from bacteriophage T7 RNA polymerase promoters.  The reaction mixture containing Biotin-Labeled ribonucleotides (ATP, GTP, CTP, UTP with Bio-UTP and Bio-CTP), DTT, RNase inhibitor mix and T7 RNA polymerase was incubated at 37 C for 5 hrs, gently mixing every 30 minutes during the incubation. This produced an average of 40ug biotin-labeled cRNA . The biotin-labeled cRNA  was cleaned up using the cRNA Cleanup Spin Column supplied in the Affymetrix GeneChip Sample Cleanup Module.  The quantity and quality of the cRNA was measured using the Agilent 2100 Bioanalyzer. The total amount of cRNA was calculated, the starting quantity of RNA subtracted to give the quantity of adjusted cRNA.  The cRNA was fragmented by metal-induced hydrolysis to break down full-length cRNA to 35-200 base fragments.  15ug of adjusted cRNA was used to prepare 300ul of hybridization cocktail of which 200ul was hybridized with the GeneChip.   	Protocol:  As in manufacturers instructions including DNase treatment  							
+Protocol Parameters			location;Humidity;Temperature;Lighting;Medium;Treatment;Nutrients;Water;Stratification	location;Humidity;Temperature;Lighting;Medium;Treatment;Nutrients;Water;Stratification	Algorithm name;Upper left corner x coordinate;Upper left corner y coordinate;Upper right corner x coordinate;Upper right corner y coordinate;Lower left corner x coordinate;Lower left corner y coordinate;Lower right corner x coordinate;Lower right corner y coordinate;Percentile;Cell margin;Outlier high;Outlier low	Algorithm name;Algorithm version;Baseline file;Alpha1;Alpha2;Tau;Gamma1H;Gamma1L;Gamma2H;Gamma2L;Perturbation;Normalization factor;Scale factor;Mask file	Wash A1 Recovery Mixes;Wash A1 Temperature (C);Number of Wash A1 Cycles;Mixes per Wash A1 Cycle;Wash B Recovery Mixes;Wash B Temperature (C);Number of Wash B Cycles;Mixes per Wash B Cycle;Stain Temperature (C);First Stain Time (seconds);Wash A2 Recovery Mixes;Wash A2 Temperature (C);Number of Wash A2 Cycles;Mixes per Wash A2 Cycle;Second Stain Time (seconds);Third Stain Time (seconds);Wash A3 Recovery Mixes;Wash A3 Temperature (C);Number of Wash A3 Cycles;Mixes per Wash A3 Cycle;Holding Temperature (C)	Pixel Size;Number of Scans	
+Protocol Hardware	
+Protocol Software	
+Protocol Contact	
+Term Source Name
+Term Source File	
+Term Source Version	
+Comment[AEExperimentType]	transcription profiling by array	
+SDRF File	E-NASC-10.sdrf.txt

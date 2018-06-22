@@ -1,0 +1,50 @@
+Investigation Title	Transcription profiling of Arabidopsis slr1 mutant and wild type lateral root segments treated with auxin	
+Comment[Submitted Name]	SLR/IAA14-dependent auxin induced lateral root initiation	
+Experimental Design	time_series_design	individual_genetic_characteristics_design	compound_treatment_design	co-expression_design	transcription profiling by array	
+Experimental Design Term Source REF	mo		mo	mo	EFO	
+Comment[ArrayExpressReleaseDate]	2007-07-13	
+Comment[SecondaryAccession]	GSE3350	
+Comment[AEMIAMESCORE]	5	
+Comment[SecondaryAccession]	GDS1515	
+Comment[ArrayExpressAccession]	E-GEOD-3350	
+Comment[MAGETAB TimeStamp_Version]	2010-08-04 21:19:09 Last Changed Rev: 13058	
+Experimental Factor Name	Time	Genotype	Compound	
+Experimental Factor Type	time	genotype	compound	
+Experimental Factor Term Source REF	
+Person Last Name	Vanneste	
+Person First Name	Steffen	
+Person Mid Initials	
+Person Email	stnes@psb.ugent.be	
+Person Phone	
+Person Fax	
+Person Address	Root Development,Plant Systems Biology,VIB-University of Ghent,Technologiepark 927,Ghent,9052,Belgium	
+Person Affiliation	VIB-University of Ghent	
+Person Roles	submitter	
+Person Roles Term Source REF	The MGED Ontology	
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2007-07-13	
+PubMed ID	16243906	
+Publication DOI	16243906	
+Publication Author List	Steffen Vanneste,Bert De Rybel,Gerrit T S Beemster,Karin Ljung,Ive De Smet,Gert Van Isterdael,Mirande Naudts,Ryusuke Iida,Wilhelm Gruissem,Masao Tasaka,Dirk Inzï¿½,Hidehiro Fukaki,Tom Beeckman	
+Publication Title	Cell cycle progression in the pericycle is not sufficient for SOLITARY ROOT/IAA14-mediated lateral root initiation in Arabidopsis thaliana.	
+Publication Status	journal_article	
+Publication Status Term Source REF	The MGED Ontology	
+Experiment Description	Lateral root initiation was used as a model system to study the mechanisms behind auxin-induced cell division. Genome-wide transcriptional changes were monitored during the early steps of lateral root initiation. Inclusion of the dominant auxin signaling mutant solitary root1 (slr1) identified genes involved in lateral root initiation that act downstream of the AUX/IAA signaling pathway. Interestingly, key components of the cell cycle machinery were strongly defective in slr1, suggesting a direct link between AUX/IAA signaling and core cell cycle regulation. However, induction of the cell cycle in the mutant background by overexpression of the D-type cyclin (CYCD3;1) was able to trigger complete rounds of cell division in the pericycle that did not result in lateral root formation. Therefore, lateral root initiation can only take place when cell cycle activation is accompanied by cell fate respecification of pericycle cells. The microarray data also yielded evidence for the existence of both negative and positive feedback mechanisms that regulate auxin homeostasis and signal transduction in the pericycle, thereby fine-tuning the process of lateral root initiation. Experiment Overall Design: Seedlings of both wild type (Col-0) and the lateral root defective mutant (slr-1) were germinated on MS medium supplemented with 10Î¼M NPA (=auxin transport inhibitor). Three days after germination, such seedlings were transferred to MS supplemented with 10Î¼M NAA for 0h, 2h and 6h respectively. The segment between root meristem and root-hypocotyl junction was harvested from about 1500 seedling per time point. All treatments were repeated biologically. 5.8 Î¼g total RNA was used for the preparation of biotinylated cRNA. Labeled RNA was hybridised to ATH1 Affymetrix chips. The resulting data was MAS5.0 normalised.	
+Protocol Name	P-G3350-4	P-G3350-3	P-G3350-7	P-G3350-2	P-G3350-5	P-G3350-6	P-G3350-1	P-G3350-8	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6	
+Protocol Type	nucleic_acid_extraction	nucleic_acid_extraction	nucleic_acid_extraction	nucleic_acid_extraction	nucleic_acid_extraction	nucleic_acid_extraction	nucleic_acid_extraction	labeling	hybridization	feature_extraction	
+Protocol Description	Root segments as described in Himanen et al (2002; Plant Cell, 14, 2339-2351)  were dissected from 3 day old seedlings, germinated on 10 Â&#956;M NPA and an additional 6h mock-treatment. Total RNA was extracted from the tissue lysate using an RNeasy kit (Qiagen).	Root segments as described in Himanen et al (2002; Plant Cell, 14, 2339-2351)  were dissected from 3 day old seedlings, germinated on 10 Â&#956;M NPA and an additional 6h 10Â&#956;M NAA treatment. Total RNA was extracted from the tissue lysate using an RNeasy kit (Qiagen).	Root segments as described in Himanen et al (2002; Plant Cell, 14, 2339-2351)  were dissected from 3 day old slr-1 seedlings, germinated on 10 Â&#956;M NPA and an additional 6h 10Â&#956;M NAA treatment. Total RNA was extracted from the tissue lysate using an RNeasy kit (Qiagen).	Root segments as described in Himanen et al (2002; Plant Cell, 14, 2339-2351)  were dissected from 3 day old seedlings, germinated on 10 Â&#956;M NPA and an additional 2h 10Â&#956;M NAA treatment. Total RNA was extracted from the tissue lysate using an RNeasy kit (Qiagen).	Root segments as described in Himanen et al (2002; Plant Cell, 14, 2339-2351)  were dissected from 3 day old slr-1 seedlings, germinated on 10 Â&#956;M NPA. Total RNA was extracted from the tissue lysate using an RNeasy kit (Qiagen).	Root segments as described in Himanen et al (2002; Plant Cell, 14, 2339-2351)  were dissected from 3 day old slr-1 seedlings, germinated on 10 Â&#956;M NPA and an additional 2h 10Â&#956;M NAA treatment. Total RNA was extracted from the tissue lysate using an RNeasy kit (Qiagen).	Root segments as described in Himanen et al (2002; Plant Cell, 14, 2339-2351)  were dissected from 3 day old seedlings, germinated on 10 Â&#956;M NPA. Total RNA was extracted from the tissue lysate using an RNeasy kit (Qiagen).	Approximately 5.8 Â&#956;g of total RNA was processed to produce biotinylated cRNA targets.	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	
+Protocol Parameters	
+Protocol Hardware	
+Protocol Software									MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact	
+Protocol Term Source REF									mo	
+SDRF File	E-GEOD-3350.sdrf.txt	
+Term Source Name	NCBI Taxonomy	mo		The MGED Ontology	ArrayExpress	mo	EFO	The MGED Ontology	
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version									

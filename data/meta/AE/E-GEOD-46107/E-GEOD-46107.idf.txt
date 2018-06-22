@@ -1,0 +1,29 @@
+Comment[ArrayExpressAccession]	E-GEOD-46107						
+MAGE-TAB Version	1.1						
+Public Release Date	2013-04-17						
+Investigation Title	Expression data in response to WRKY40 and WRKY63 knock-out/overexpression (and in response to high light stress)						
+Comment[Submitted Name]	Expression data in response to WRKY40 and WRKY63 knock-out/overexpression (and in response to high light stress)						
+Experiment Description	In response to WRKY40 and WRKY60 perturbation (and high light stress), significant transcriptional re-programming occurs particularly for genes encoding stress responsive mitochondrial and choloplast proteins. We used microarrays to analyse the response to WRKY40 and WRKY63 KO/OE in resonse to high light stress. Wild-type (Col0) and transgenic WRKY40 and WRKY60 knock-out/over-expressing Arabidopsis plants were grown to 21-days and leaf samples were collected with/without high light treatment.						
+Term Source Name	ArrayExpress	EFO					
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Narsai	Narsai					
+Person First Name	Reena	Reena					
+Person Email	geo@ncbi.nlm.nih.gov						
+Person Affiliation	University of Western Australia						
+Person Address	University of Western Australia, 35 Stirling Hwy, Crawley, Perth, Australia						
+Person Roles	submitter						
+Protocol Name	P-GSE46107-1	P-GSE46107-5	P-GSE46107-6	P-GSE46107-2	P-GSE46107-3	P-GSE46107-4	P-GSE46107-7
+Protocol Description	The data were analyzed with Affymetrix Gene Expression colsole using the Microarray Suite version 5.0 (MAS 5.0) under Affymetrix default analysis settings. ID_REF =  VALUE = Signal ABS_CALL = indicating whether the transcript was present (P), absent (A), or marginal (M) DETECTION P-VALUE = 	Biotinylated cRNA were prepared according to the standard Affymetrix protocol (Expression Analysis Technical Manual, 2001, Affymetrix).	Following fragmentation, cRNA was hybridized, washed and stained as per manufacterers' instructions.	For the HL treatment, 21-day old plants were treated with high light for 1h at 1000 μE m–2s–1 and snap frozen.	Arabidopsis seeds were sown on soil, cold stratified for 2 days before growing for 21-days under a 16-h light/8-h dark photoperiod.	Total RNA extracted using the Qiagen Rneasy kit as per manufacturer's instructions.	GeneChips were scanned using the approved Affymetrix scanner.
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	light	genotype					
+Experimental Factor Type	light	genotype					
+Publication Title	AtWRKY40 and AtWRKY63 modulate the expression of stress responsive nuclear genes encoding mitochondrial and chloroplast proteins.						
+Publication Author List	Van Aken O, Zhang B, Law S, Narsai R, Whelan J						
+PubMed ID	23509177						
+Publication DOI	10.1104/pp.113.215996						
+Comment[SecondaryAccession]	GSE46107						
+Comment[GEOReleaseDate]	2013-04-17						
+Comment[ArrayExpressSubmissionDate]	2013-04-16						
+Comment[GEOLastUpdateDate]	2013-04-18						
+Comment[AEExperimentType]	transcription profiling by array						
+SDRF File	E-GEOD-46107.sdrf.txt						

@@ -1,0 +1,52 @@
+Investigation Title	Transcription profiling of Arabidopsis phloem									
+Comment[Submitted Name]	Transcriptome analysis of the Arabidopsis phloem									
+Experimental Design	unknown_experiment_design_type	transcription profiling by array								
+Experimental Design Term Source REF		EFO								
+Comment[AEExperimentType]	transcription profiling by array									
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis phloem									
+Comment[ArrayExpressReleaseDate]	2008-10-25									
+Comment[SecondaryAccession]	GSE10247									
+Comment[AEMIAMESCORE]	3									
+Comment[ArrayExpressAccession]	E-GEOD-10247									
+Comment[MAGETAB TimeStamp_Version]	2010-07-29 17:58:35 Last Changed Rev: 13058									
+Experimental Factor Name	organism part									
+Experimental Factor Type	organism part									
+Experimental Factor Term Source REF										
+Person Last Name	Deeken									
+Person First Name	Rosalia									
+Person Mid Initials										
+Person Email	deeken@botanik.uni-wuerzburg.de									
+Person Phone										
+Person Fax										
+Person Address	Rainer Hedrich, Department of Molecular Plant Physiology and Biophysics, University of Wuerzburg, Julius-von-Sachs-Institute, Julius-von-Sachs-Platz 2, Wuerzburg, 97082, Germany									
+Person Affiliation	University of Wuerzburg, Julius-von-Sachs-Institute									
+Person Roles	submitter									
+Person Roles Term Source REF	The MGED Ontology									
+Quality Control Type										
+Quality Control Term Source REF										
+Replicate Type										
+Replicate Term Source REF										
+Normalization Type										
+Normalization Term Source REF										
+Date of Experiment										
+Public Release Date	2008-10-25									
+PubMed ID	18485061									
+Publication DOI	10.1111/j.1365-313X.2008.03555.x									
+Publication Author List	Deeken R, Ache P, Kajahn I, Klinkenberg J, Bringmann G, Hedrich R.									
+Publication Title	Identification of Arabidopsis thaliana phloem RNAs provides a search criterion for phloem-based transcripts hidden in complex datasets of microarray experiments.									
+Publication Status	published									
+Publication Status Term Source REF	EFO									
+Publication Status Term Accession Number	EFO_0001796									
+Experiment Description	This sudy focuses on the identification of transcripts in the shoot phloem of the model plant Arabidopsis thaliana. Transcripts expressed in the phloem tissue (parenchyma cell, companion cell, sieve element) were excised by laser microdissection pressure catapulting (LMPC). These were compared with transcripts isolated from leaf phloem exudates by EDTA-chelation technique. Optimization of sample harvest resulted in RNA of high quality from both sources. Modifications of the RNA amplification procedure obtained RNA of sufficient yield and quality for microarray experiments. Microarrays (Affymetrix, ATH1) hybridized with RNA derived from phloem tissue by LMPC or phloem sap allowed us to differentiate between phloem located and mobile transcript species. The datasets provide a search criterion for phloem-based signals and will facilitate reverse genetic studies and forward genetic screens for phloem and long distance RNA signaling mutants. Experiment Overall Design: Arabidopsis plants were cultivated under short day conditions (8 h light) until flowering. Phloem tissue was isolated by Lasermicrodissection and Pressure Catapulting (LMPC) and phloem exudate by EDTA-chelation technique. In both experiments poly-A-RNA was extracted and amplified before hybridization of microarrays (Affymetrix, ATH1). For both experiments three LMPC-derived phloem tissue (LMPC-derived phloem_1-3) and three phloem exudate samples (Phloem exudate_1-3) were analysed. Precise protocols of plant growth, sample harvest, RNA extraction and amplification are provided in Deeken et al., 2008.									
+Protocol Name	P-G10247-1	P-G10247-5	P-G10247-6	P-G10247-2	P-G10247-4	P-G10247-3	P-G10247-7	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6	Affymetrix:Protocol:ExpressionStat
+Protocol Type	grow	grow	grow	specified_biomaterial_action	nucleic_acid_extraction	labeling	labeling	hybridization	feature_extraction	bioassay_data_transformation
+Protocol Description	Plants were cultivated under short day conditions (8 h light, 22 degreeC / 16 h darkness, 16 degreeC) in a growth chamber (Percival Scientific, Inc. USA).	Plants were cultivated under short day conditions (8 h light, 22 Â&deg;C / 16 h darkness, 16Â&deg;C) in a growth chamber (Percival Scientific, Inc. USA).	Plants were cultivated under short day conditions (8 h light, 22 Â&deg;C / 16 h darkness, 16 Â&deg;C) a growth chamber (Percival Scientific, Inc. USA).	na	PolyA-RNA was extracted from phloem exudates using Oligo-dT25 Dynabeads (Dynal, Hamburg, Germany) according to the manufacturerâs protocol.	Affymetrix protocol.	Affymetrix protocol..	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 
+Protocol Parameters										
+Protocol Hardware										
+Protocol Software								MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 5.0
+Protocol Contact										
+Protocol Term Source REF								mo		The MGED Ontology
+Term Source Name	NCBI Taxonomy		The MGED Ontology	ArrayExpress	EFO	The MGED Ontology	mo			
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://mged.sourceforge.net/ontologies/MGEDontology.php			
+Term Source Version										
+SDRF File	E-GEOD-10247.sdrf.txt									

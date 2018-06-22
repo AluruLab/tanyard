@@ -1,0 +1,58 @@
+Comment[ArrayExpressAccession]	E-GEOD-29589							
+Public Release Date	2011-05-28							
+Investigation Title	Comparison of root transcriptomes in Arabidopsis thaliana plants supplied with different forms of inorganic nitrogen							
+Comment[Submitted Name]	Comparison of root transcriptomes in Arabidopsis thaliana plants supplied with different forms of inorganic nitrogen							
+Experiment Description	Plants aquire nitrogen from the soil, most commonly in the form of either nitrate or ammonium. Unlike ammonium, nitrate must be reduced (with NADH and ferredoxin as electron donors) prior to assimilation. Thus, nitrate nutrition imposes a substantially greater energetic cost than ammonium nutrition. Our goal was to compare the transcriptomes of nitrate-supplied and ammonium-supplied plants, with a particular interest in characterizing the differences in redox metabolism elicited by different forms of inorganic nitrogen. We used microarrays to compare the short-term transcriptional response to either nitrogen supply or ammonium supply in Arabidopsis roots. Genes upregulated or downregulated by nitrate only, ammonium only, or both ammonium and nitrate were identified and analyzed. Arabidopsis thaliana (Col-0) plants were grown hydroponically until they reached growth stage 5.10. They were then transferred to a nitrogen-free medium for 26 hr and then supplied with 1 mM nitrate or 1 mM ammonium. RNA isolation (and subsequent microarray analysis) was performed on root tissue isolated just before nitrogen supply (time 0) and at 1.5 hr and 8 hr after nitrogen supply (1.5 hr nitrate, 8 hr nitrate, 1.5 hr ammonium, 8 hr ammonium).							
+Date of Experiment								
+Term Source Name	EFO							
+Term Source Version								
+Term Source File	http://www.ebi.ac.uk/efo							
+Person Last Name	Escobar	Escobar	Patterson					
+Person First Name	Matthew	Matthew	Kurt					
+Person Mid Initials		A						
+Person Email	mescobar@csusm.edu							
+Person Affiliation	California State University San Marcos							
+Person Phone	760-750-8083							
+Person Fax								
+Person Address	Biological Sciences, California State University San Marcos, 333 S. Twin Oaks Valley Rd., San Marcos, CA, USA							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Person Roles Term Accession Number								
+Normalization Type								
+Normalization Term Accession Number								
+Normalization Term Source REF								
+Replicate Type								
+Replicate Term Accession Number								
+Replicate Term Source REF								
+Experimental Design	time series design	growth condition design						
+Experimental Design Term Accession Number								
+Experimental Design Term Source REF								
+Quality Control Type								
+Quality Control Term Accession Number								
+Quality Control Term Source REF								
+Protocol Name	P-GSE29589-1	P-GSE29589-6	P-GSE29589-3	P-GSE29589-8	P-GSE29589-7	P-GSE29589-2	P-GSE29589-4	P-GSE29589-5
+Protocol Description	ID_REF = <br>VALUE = log2 RMA signal	aRNA was hybridized to an Affymetrix ATH1-121501 chip according to Lockhart et al. (1996) (Nature Biotech 14, 1675)	Plants were grown hydroponically using Araponics system according to manufacturer's specifications. Plant were grown until they reached stage 5.10 (Boyes et al., 2001; Plant Cell 13,1499)	The raw expression values were normalized using RMA or Robust Multichip Average expression summary (http://rmaexpress.bmbolstad.com/). All further processing of the data was performed within the Bioconductor project and the R program software (R is available as Free Software under the terms of the Free Software Foundation's GNU General Public License). The limma package implemented within Bioconductor was used to perform the linear modeling and the empirical Bayes statistics for differential expression analysis. The fold changes and standard errors were estimated by fitting a linear model for each gene and empirical Bayes smoothing was applied to the standard errors. Results are presented between two experimental conditions as a log2-fold change in expression level, the p-value, and the adjusted p-value. The adjusted p-value is the p-value adjusted for multiple testing using the Benjamini and Hochberg’s method to control the false discovery rate. The meaning of the BH q-values is as follows. If all genes with q-value below a threshold of 0.05 are selected as differentially expressed, then the expected proportion of false discoveries in the selected group is controlled to be less than the threshold value of 5%. Transcripts with pvalue less than 0.05 and greater than 1.4 fold change were called as significantly differentially expressed genes.	GeneChips were scanned using an Affymetrix GeneChip Scanner 3000	Plants at growth stage 5.10 were transferred to medium lacking nitrogen for 26 hr. Either 1 mM nitrate or 1 mM ammonium was then added to the media. Plants were harvested just before nitrate/ammonium addition, or at 1.5 hr or 8 hr post-nitrate/ammonium addition.	For each sample, roots from at least five individual plants were harvested, pooled, and frozen in liquid nitrogen. Total RNA was isolated using a Qiagen Rneasy Plant Kit according to the manufacturer's specifications	Biotin-labelled aRNA was synthesized from 1 ug of total RNA using a Message Amp II-Biotin Enhanced aRNA sythesis kit.
+Protocol Software								
+Protocol Hardware								
+Protocol Contact								
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Protocol Term Source REF								
+Protocol Term Accession Number								
+Experimental Factor Name	growth condition	time						
+Experimental Factor Type	growth condition	time						
+Experimental Factor Term Source REF								
+Experimental Factor Term Accession Number								
+Publication Title	Distinct signalling pathways and transcriptome response signatures differentiate ammonium- and nitrate-supplied plants							
+Publication Author List	Patterson K, Cakmak T, Cooper A, Lager I, Rasmusson AG, Escobar MA.							
+PubMed ID	20444219							
+Publication DOI	10.1111/j.1365-3040.2010.02158.x							
+Publication Status	published							
+Publication Status Term Source REF	EFO							
+Publication Status Term Accession Number	EFO_0001796							
+Comment[SecondaryAccession]	GSE29589							
+Comment[GEOLastUpdateDate]	2011-05-27							
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis after growth with either ammonium or nitrate							
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[GEOReleaseDate]	2011-05-27							
+Comment[ArrayExpressSubmissionDate]	2011-05-26							
+SDRF File	E-GEOD-29589.sdrf.txt							

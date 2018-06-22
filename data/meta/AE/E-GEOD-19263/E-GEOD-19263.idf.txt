@@ -1,0 +1,58 @@
+Comment[ArrayExpressAccession]	E-GEOD-19263						
+Public Release Date	2009-12-09						
+Investigation Title	Identifying Y candidate genes						
+Comment[Submitted Name]	Identifying Y candidate genes						
+Experiment Description	The circadian clock generates biological rhythms with a period of approximately 24 hours. Using microarray experiments, we have previously shown that approximately 16% of the Arabidopsis genome is regulated in a circadian manner (Edwards et al., 2006). Previous work from our lab in modelling the molecular oscillator of Arabidopsis introduced a hypothetical component Y into an evening loop of the clock gene network (Locke et al., 2005). GIGANTEA (GI) was suggested as a strong candidate for Y based on genetic evidence and its close matching of the expression profile predicted by the mathematical modelling. Recent experimental evidence suggests that GI may only partially account for the function of Y. Thus, we are undertaking a genomics approach to identify other candidate genes that match the predicted expression profile of Y. Samples were taken from wild type and lhy cca1 double mutant seedlings from 4 timepoints around the night to day transition (-15mins, +15mins, +30mins and +60mins) after 9 days of growth in 18:6 light dark cycles. We aim to identify genes showing the light induction response predicted for Y around dawn. 16 samples were used in this experiment.						
+Date of Experiment							
+Term Source Name	EFO						
+Term Source Version							
+Term Source File	http://www.ebi.ac.uk/efo						
+Person Last Name	Nottingham Arabidopsis Stock Centre (NASC)	Edwards					
+Person First Name		Kieron					
+Person Mid Initials							
+Person Email	affy@arabidopsis.info						
+Person Affiliation	Nottingham Arabidopsis Stock Centre (NASC)						
+Person Phone	+44 (0)115 951 3237						
+Person Fax	+44 (0)115 951 3297						
+Person Address	School of Biosciences, University of Nottingham, Nottingham Arabidopsis Stock Centre (NASC), Sutton Bonington Campus, Loughborough, United Kingdom						
+Person Roles	submitter						
+Person Roles Term Source REF							
+Person Roles Term Accession Number							
+Normalization Type							
+Normalization Term Accession Number							
+Normalization Term Source REF							
+Replicate Type							
+Replicate Term Accession Number							
+Replicate Term Source REF							
+Experimental Design							
+Experimental Design Term Accession Number							
+Experimental Design Term Source REF							
+Quality Control Type							
+Quality Control Term Accession Number							
+Quality Control Term Source REF							
+Protocol Name	P-GSE19263-1	P-GSE19263-6	P-GSE19263-5	P-GSE19263-3	P-GSE19263-2	P-GSE19263-4	P-GSE19263-7
+Protocol Description	ID_REF = <br>VALUE = MAS5.0 signal intensity<br>ABS_CALL = the call in an absolute analysis that indicates if the transcript was present (P), absent (A), or marginal (M)<br>DETECTION P-VALUE = p-value that indicates the significance level of the detection call	Scanned according to guidelines set out by Affymetrix, Santa Clara, CA.	Biotin Labelled cRNA using &quot;Affymetrix GeneChip Hybridization, Wash and Stain Kit&quot;, according to guidelines set out by Affymetrix, Santa Clara, CA	Qiagen RNAeasy kit protocol	Seedlings were grown for 9 days at 22degC on MS media in sealed petri-dishes under 18h:6h Light:Dark cycles of 60-65 uEINSTEINS cool white fluorescent light. Samples were taken at time intervals relative to time zero at dawn on the 9th day of growth.	Labelled using protocol described in manual &quot;Affymetrix GeneChip Expression Analysis Technical Manual&quot;, One-Cycle target labelling	Raw data from the microarrays was normalized at probe-level using MAS5 algorithm. The detection calls (present, marginal, absent) for each probe set was obtained using the GCOS system
+Protocol Software							
+Protocol Hardware							
+Protocol Contact							
+Protocol Type	bioassay_data_transformation	image_aquisition	hybridization	nucleic_acid_extraction	grow	labeling	feature_extraction
+Protocol Term Source REF							
+Protocol Term Accession Number							
+Experimental Factor Name	SAMPLING TIME POINT	GENOTYPE					
+Experimental Factor Type	sampling_time_point	genotype					
+Experimental Factor Term Source REF							
+Experimental Factor Term Accession Number							
+Publication Title							
+Publication Author List							
+PubMed ID							
+Publication DOI							
+Publication Status							
+Publication Status Term Source REF							
+Publication Status Term Accession Number							
+Comment[SecondaryAccession]	GSE19263						
+Comment[GEOLastUpdateDate]	2011-03-01						
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for lhy and cca1 sampled at different time points relative to dawn						
+Comment[AEExperimentType]	transcription profiling by array						
+Comment[GEOReleaseDate]	2009-12-10						
+Comment[ArrayExpressSubmissionDate]	2009-12-02						
+SDRF File	E-GEOD-19263.sdrf.txt						

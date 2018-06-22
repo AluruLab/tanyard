@@ -1,0 +1,46 @@
+Investigation Title	Transcription profiling of Arabidopsis thaliana early response to the phytohormone Gibberellin (GA)						
+Comment[Submitted Name]	Early GA response genes in Arabidopsis thaliana						
+Experimental Design	unknown_experiment_design_type	transcription profiling by array					
+Experimental Design Term Source REF		EFO					
+Comment[AEExperimentType]	transcription profiling by array						
+Comment[AEExperimentDisplayName]	"Transcription profiling by array of Arabidopsis mutant for gid1a, gid1b and gid1c or for ga-1 after treatment with Gibberellin (GA3)"						
+Comment[ArrayExpressReleaseDate]	2008-06-15						
+Comment[SecondaryAccession]	GSE7353						
+Comment[AEMIAMESCORE]	4						
+Comment[ArrayExpressAccession]	E-GEOD-7353						
+Comment[MAGETAB TimeStamp_Version]	2010-08-07 18:32:20 Last Changed Rev: 13058						
+Experimental Factor Name	genotype	compound					
+Experimental Factor Type	genotype	compound					
+Experimental Factor Term Source REF							
+Person Last Name	Schwechheimer						
+Person First Name	Claus						
+Person Mid Initials							
+Person Email	claus.schwechheimer@zmbp.uni-tuebingen.de						
+Person Phone							
+Person Fax							
+Person Address	"Developmental Genetics,Centre for Plant Molecular Biology,Auf der Morgenstelle 5,Tuebingen,72076,Germany"						
+Person Affiliation	Centre for Plant Molecular Biology						
+Person Roles	submitter						
+Person Roles Term Source REF							
+Date of Experiment							
+Public Release Date	2008-06-15						
+PubMed ID	17416730						
+Publication DOI	10.1105/tpc.107.051441 						
+Publication Author List	"Bjorn C Willige, Soumya Ghosh, Carola Nill, Melina Zourelidou, Esther M N Dohmann, Andreas Maier, Claus Schwechheimer"						
+Publication Title	The DELLA domain of GA INSENSITIVE mediates the interaction with the GA INSENSITIVE DWARF1A gibberellin receptor of Arabidopsis.						
+Publication Status	published						
+Publication Status Term Source REF	EFO						
+Publication Status Term Accession Number	EFO_0001796						
+Experiment Description	"The phytohormone GA controls multiple important developmental processes in plants such as germination, elongation growth and flowering time. In this experiment, we look for early GA response genes in 7 day-old light-grown Arabidopsis seedlings. To this end we compare four data sets: (1) a GA biosynthesis mutant ga-1 (SALK_109115) mock treated for 1 hr; (2) a GA biosynthesis mutant ga-1 (SALK_109115) treated for 1 hr with 100 ÂµM GA3; (3) a gid1a-1 gid1b-1 gid1c-2 GA receptor triple mutant mock treated for 1 hr; (4) a gid1a-1 gid1b-1 gid1c-2 GA receptor triple mutant treated for 1 hr with 100 ÂµM GA3. In a comparison of the two ga-1 samples, GA regulated genes can be identified, and the assumption is that bona fide GA regulated genes are not responding in the gid1a-1 gid1b-1 gid1c-2 GA receptor mutant. Experiment Overall Design: We compare four samples of 7 day-old light-grown growth-medium grown seedlings (3 independent biological replicates each): (1) a GA biosynthesis mutant ga-1 (SALK_109115) mock treated for 1 hr; (2) a GA biosynthesis mutant ga-1 (SALK_109115) treated for 1 hr with 100 ÂµM GA3; (3) a gid1a-1 gid1b-1 gid1c-2 GA receptor triple mutant mock treated for 1 hr; (4) a gid1a-1 gid1b-1 gid1c-2 GA receptor triple mutant treated for 1 hr with 100 ÂµM GA3. In a comparison of the two ga-1 samples, GA regulated genes can be identified, and the assumption is that bona fide GA regulated genes are not responding in the gid1a-1 gid1b-1 gid1c-2 GA receptor mutant."						
+Protocol Name	P-G7353-4	P-G7353-2	P-G7353-5	P-G7353-3	P-G7353-1	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6
+Protocol Type	nucleic_acid_extraction	nucleic_acid_extraction	nucleic_acid_extraction	nucleic_acid_extraction	labeling	hybridization	feature_extraction
+Protocol Description	"Approximately 80 mg from 7 day old, light grown gid1a-1 gid1b-1 gid1c-2  mutant seedlings were mock-treated for 1h, collected and ground to a fine powder under liquid Nitrogen. Samples were lysed in separate groups in RLT buffer (Qiagen).Total RNA was extracted from the tissue lysate using an RNeasy kit (Qiagen)."	"Approximately 80 mg from 7 day old, light grown ga-1 (SALK_109115)  mutant seedlings were mock-treated for 1h, collected and ground to a fine powder under liquid Nitrogen. Samples were lysed in separate groups in RLT buffer (Qiagen).Total RNA was extracted from the tissue lysate using an RNeasy kit (Qiagen)."	"Approximately 80 mg from 7 day old light grown gid1a-1 gid1b-1 gid1c-2  mutant seedlings were treated with 100Â&#956;M GA3 for 1h, collected and ground to a fine powder under liquid Nitrogen. Samples were lysed in separate groups in RLT buffer (Qiagen).Total RNA was extracted from the tissue lysate using an RNeasy kit (Qiagen)."	"Approximately 80 mg from 7 day old light grown ga-1 (SALK_109115)  mutant seedlings were treated with 100Â&#956;M GA3 for 1h, collected and ground to a fine powder under liquid Nitrogen. Samples were lysed in separate groups in RLT buffer (Qiagen).Total RNA was extracted from the tissue lysate using an RNeasy kit (Qiagen)."	Approximately 1 Â&#956;g of total RNA was processed to produce biotinylated cRNA targets using the MessageAmpâ¢ II-Biotin Enhanced Single Round aRNA Amplification Kit (Ambion) according to the manufacturer's instructions.	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 
+Protocol Parameters							
+Protocol Hardware							
+Protocol Software						MicroArraySuite 5.0	MicroArraySuite 5.0
+Protocol Contact							
+Protocol Term Source REF						mo	
+SDRF File	E-GEOD-7353.sdrf.txt						
+Term Source Name	NCBI Taxonomy	The MGED Ontology	ArrayExpress	EFO	The MGED Ontology	mo	
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version							

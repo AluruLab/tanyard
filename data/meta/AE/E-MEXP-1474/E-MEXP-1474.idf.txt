@@ -1,0 +1,48 @@
+Investigation Title	Transcription profiling of stamen abscission zone cells from Arabidopsis over five developmental stages from prepollination to organ shed						
+Comment[AdditionalFile:XLS]	E-MEXP-1474.hybs.xls						
+Comment[Submitted Name]	Stamen Abscission Zone Transcriptome Profiling Reveals New Candidates for Abscission Control. Enhanced Retention of Floral Organs in Transgenic Plants Overexpressing Arabidopsis Zinc Finger Protein 2.						
+Experimental Design	development or differentiation design						
+Experimental Design Term Source REF							
+Comment[AEExperimentType]	transcription profiling by array						
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis stamen abscission zone during flower development						
+Comment[AEMIAMESCORE]	5						
+Comment[ArrayExpressReleaseDate]	2008-06-15						
+Comment[ArrayExpressAccession]	E-MEXP-1474						
+Comment[MAGETAB TimeStamp_Version]	2010-08-09 22:24:03 Last Changed Rev: 13058						
+Experimental Factor Name	developmental stage						
+Experimental Factor Type	developmental stage						
+Experimental Factor Term Source REF							
+Person Last Name	Lashbrook						
+Person First Name	Coralie						
+Person Mid Initials	C						
+Person Email	ccl@iastate.edu						
+Person Phone	515-294-3789						
+Person Fax							
+Person Address	251 Hort Hall						
+Person Affiliation	Horticulture						
+Person Roles	submitter						
+Replicate Type							
+Replicate Term Source REF							
+Normalization Type							
+Normalization Term Source REF							
+Date of Experiment							
+Public Release Date	2008-06-15						
+PubMed ID	18192438						
+Publication DOI	10.1104/pp.107.110908						
+Publication Author List	Cai S, Lashbrook CC.						
+Publication Title	Stamen abscission zone transcriptome profiling reveals new candidates for abscission control. Enhanced retention of floral organs in transgenic plants overexpressing Arabidopsis Zinc Finger Protein2.						
+Publication Status	published						
+Publication Status Term Source REF	EFO						
+Experiment Description	We conducted transcriptional profiling of laser-captured stamen abscission zone cells over five developmental stages from prepollination to organ shed.  						
+Protocol Name	P-MEXP-134455	P-MEXP-137718	P-MEXP-137720	P-AFFY-2	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6	Affymetrix:Protocol:ExpressionStat
+Protocol Type	grow	specified_biomaterial_action	nucleic_acid_extraction	labeling	hybridization	feature_extraction	bioassay_data_transformation
+Protocol Description	Arabidopsis seed (Col-0) was sown in sterilized potting soil (Sunshine LC1 mix; Sungro Horticulture, Bellevue, WA, USA) and grown in a growth chamber at 21°C under a 16-h light and 8-h dark cycle. 	Flowers were harvested when plants were ~ six weeks old and bore a total of 12-14 open flowers and siliques. Flowers were collected at the same daily time (4-5 PM) to reduce circadian effects. Floral stages were assigned according to Smyth et al. (1990).  Flowers at stage 12 (âpetals level with long stamensâ), 13 (âpetal visible, anthesisâ) and early stage 15 (âstigma extends above long anthersâ, S15a) were collected from the primary inflorescence of the same plant.  Flowers of the same stage from the same plant batch were pooled as one independent sample. Three separately grown plant batches formed three biological replications. Flowers at stage S15c were ~24-h older than those at stage S15a. Flowers one position above S15c flowers were termed Stage S15b. Flowers at Stages 15b and 15c were harvested from different plant batches six-months later. Flowers were fixed, processed and paraffin-embedded according to Cai and Lashbrook (2006).  Protocols of Cai and Lashbrook (2006) were used for longitudinal paraffin sectioning, LCM and RNA isolation, amplification and biotin-labeling.  Paraffin sections were mounted onto adhesive-coated slides (Cai and Lashbrook, 2006) with a paraffin tape transfer system (Instrumedics, Hackensack, NJ, USA). Prior to LCM, tape was carefully removed from slides submerged in xylenes using forceps. AZ microdissection using the Pix-Cell IITM LCM system employed CapSureTM Macro LCM caps (Arcturus Engineering, Mountain View, CA, USA).  	RNA was isolated from microdissected cells with the PicoPureTM RNA isolation kit (Arcturus Engineering, Mountain View, CA, USA). Biotin-labeled aRNA was generated with the BioArray TM RNA amplification and labeling system (Enzo Life Sciences Inc., Farmingdale, NY, USA).	Title: Affymetrix in vitro transcription. Description: 	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 
+Protocol Parameters							
+Protocol Hardware							
+Protocol Software					MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 5.0
+Protocol Contact							
+Protocol Term Source REF							
+SDRF File	E-MEXP-1474.sdrf.txt						
+Term Source Name	EFO						
+Term Source File	http://www.ebi.ac.uk/efo/						
+Term Source Version							

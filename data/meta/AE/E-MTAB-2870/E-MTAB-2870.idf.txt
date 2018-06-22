@@ -1,0 +1,42 @@
+Comment[ArrayExpressAccession]	E-MTAB-2870
+MAGE-TAB Version	1.1					
+Investigation Title	Transcription profiling by array of Arabidopsis thaliana Columbia and MYB94 over expressing plant line leaves to investigate genome wide gene expression analysis					
+Comment[Submitted Name]	Transcription profiling by array of Arabidopsis thaliana Columbia and MYB94 over expressing plant line leaves to investigate genome wide gene expression analysis
+Experiment Description	The experiment was designed to enable comparison between columbia and MYB94 OX plants line Arabidopsis leaves					
+Experimental Design	development or differentiation design					
+Experimental Design Term Source REF	EFO					
+Experimental Design Term Accession Number	EFO_0001746					
+Experimental Factor Name	genotype					
+Experimental Factor Type	genotype					
+Experimental Factor Term Source REF						
+Experimental Factor Term Accession Number						
+Person Last Name	Lee					
+Person First Name	Saet Buyl					
+Person Mid Initials						
+Person Email	vitalquf@hanmail.net					
+Person Phone	82-62-530-683					
+Person Fax	82-62-530-2047					
+Person Address	333 Yongbongro, Buk-gu, Gwangju 500-757, Republic of Korea					
+Person Affiliation	Department of Bioenergy Science and Technology, Chonnam National University					
+Person Roles	experiment performer;submitter					
+Date of Experiment	2011-11-28					
+Public Release Date	2015-07-30					
+PubMed ID						
+Publication DOI						
+Publication Author List	Saet Buyl Lee and Mi Chung Suh*					
+Publication Title	Overexpression of MYB94 Transcription Factor Causes Activation of Arabidopsis Cuticular Wax Biosynthesis					
+Publication Status	in preparation					
+Publication Status Term Source REF	EFO					
+Publication Status Term Accession Number	EFO_0001795					
+Protocol Name	P-MTAB-40806	P-MTAB-40807	P-MTAB-40809	P-MTAB-40810	P-MTAB-40811	P-MTAB-40812
+Protocol Type	growth protocol	nucleic acid extraction protocol	nucleic acid labeling protocol	nucleic acid hybridization to array protocol	array scanning and feature extraction protocol	normalization data transformation protocol
+Protocol Term Source REF	EFO	EFO	EFO	EFO	EFO	EFO
+Protocol Term Accession Number	EFO_0003789	EFO_0002944	EFO_0003813	EFO_0003815	EFO_0003814	EFO_0003816
+Protocol Description	All Arabidopsis thaliana plants (ecotype Columbia-0 and MYB94 OX transgenic lines in the Columbia-0 background) were grown in pots on a soil mixture (3:2:1 mixture of peat moss-enriched soil:vermiculite:perlite). seeds were cold-treated for 3d at 4 C in the dark before being transferred to a controlled growth room under long-day conditions (16-/8-h light/dark cycle) at 22 to 23 C and relative 50% humidity. 	Total RNAs were isolated from Arabidopsis stems using a RNeasyⓇ Plant Mini Kit (QIAGEN) according to the instructions of the manufacturer.	The biotin labeled cRNA was synthesized using synthesied cDNA as a template in vitro transcription reaction	Hybridization was conducted by using the Gene Chip Expression Analysis Techical Manual (Affymetrix)	The chips were stained and washed in a Genechip Fluidics Station 450(Affymetrix) and scanned by using a Genechip Array scanner 3000 7G (Affymetrix). And the image data was extracted through Affymetrix Commnad Console software1.1. The raw .cel file generated through above procedure meant expression intensity data and was used for the next step. 	For the normalization, Affymetrix microarray suite 5(MAS5) algorithm implemented in Affymetrix Expression Console software(version1.1) was used. 
+Protocol Hardware						
+Protocol Software						
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/				
+Term Source Version						
+Comment[AEExperimentType]	transcription profiling by array
+SDRF File	E-MTAB-2870.sdrf.txt

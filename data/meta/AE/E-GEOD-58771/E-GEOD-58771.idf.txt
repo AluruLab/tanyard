@@ -1,0 +1,26 @@
+Comment[ArrayExpressAccession]	E-GEOD-58771
+MAGE-TAB Version	1.1						
+Public Release Date	2016-05-30
+Investigation Title	Expression data from Arabidopsis thaliana root and piriformaspora indica  during log and short term interaction						
+Comment[Submitted Name]	Expression data from Arabidopsis thaliana root and piriformaspora indica  during log and short term interaction
+Experiment Description	Piriformospora indica, an endophytic fungus of Sebacinales, colonizes the roots of many plant species including Arabidopsis thaliana. The symbiotic interaction promotes plant per-formance, growth and resistance/tolerance against abiotic and biotic stress. We demonstrate that exudated compounds from the fungus activate stress and defense responses in the Arabidopsis roots and shoots before the two partners are in physical contact. They induce stomata closure, stimulate reactive oxygen species (ROS) production, stress-related phytohormone accumulation and activate defense and stress genes in the roots and/or shoots. Once a physical contact is established, the stomata re-open, ROS and phytohormone levels decline, and the gene expression pattern indicates a shift from defense to mutualistic interaction. We propose that exudated compounds from P. indica induce stress and defense responses in the host. Root colonization results in the downregulation of defense responses and the activation of genes involved in promoting plant growth, metabolism and performance. Twelve day-old (48 h cold treatment and 10 days of illumination) Arabidopsis seedlings of equal sizes were selected for co-cultivation experiments. They were transferred to PNM plates with a nylone membrane on the top (Johnson et al. 2011) and exposed to a fungal plug 5 mm in diameter or a KM plug of the same size without fungal hyphae (control). The plugs were placed 3 cm away from the closest root part . The light intensity (80 Â± 5 Î¼mol m-2 sec-1) was checked every third day to ensure that both P. indica- and mock-treated seedlings receive equal amounts of light.						
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	vahabi	Vahabi					
+Person First Name	khabat	Khabat					
+Person Email	khabat.v@gmail.com						
+Person Affiliation	Friedrich-Schiller-UniversitÃ¤t						
+Person Phone	4915775950704						
+Person Address	plant physiology, Friedrich-Schiller-UniversitÃ¤t, Dornburger StraÃe 159, Jena, Deutschland, Germany						
+Person Roles	submitter						
+Protocol Name	P-GSE58771-1	P-GSE58771-5	P-GSE58771-6	P-GSE58771-2	P-GSE58771-3	P-GSE58771-4	P-GSE58771-7
+Protocol Description	The data were analyzed with Microarray Suite version 5.0 (MAS 5.0) using Affymetrix default analysis settings and global scaling as normalization method. The trimmed mean target intensity of each array was arbitrarily set to 100. ID_REF =  VALUE = MAS5.0 signal intensity ABS_CALL =  DETECTION P-VALUE = 	Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 6 ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).	Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45C on GeneChip Drosophila Genome Array. GeneChips were washed and stained in the Affymetrix Fluidics Station 400.	Twelve day-old (48 h cold treatment and 10 days of illumination) Arabidopsis seedlings of equal sizes were selected for co-cultivation experiments. They were transferred to PNM plates with a nylone membrane on the top (Johnson et al. 2011, Section C1 - Method 1) and expose to a fungal (KM) plug or a KM plug without fungal hyphae (5 mm in diameter). The plags were placed 3 cm away from the closest root part . The light intensity (80 Â± 5 Î¼mol m-2 sec-1) was checked every third day to ensure that both P. indica- and mock-treated seedlings receive equal amounts of light.	Arabidopsis thaliana WT (ecotype Columbia-0) seeds were surface-sterilized and placed on Petri dishes containing MS nutrient medium (Murashige and Skoog 1962). After cold treatment at 4Â°C for 48 h, plates were incubated for 10 days at 22Â°C under continuous illumination (65 Î¼mol m-2 sec-1, light from the top). Piriformospora indica was cultured for three weeks at 22-24Â°C on Aspergillus-minimal medium (Hill and Kaefer 2001; Johnson et al. 2011: Section A, B)	Total RNA was isolated from both roots and shoots of WT seedlings after 2 and 6 days of co-cultivation with P. indica using RNeasy Plant Mini Kit (Qiagen)	GeneChips were scanned using the Hewlett-Packard GeneArray Scanner G2500A.
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	age						
+Experimental Factor Type	age						
+Comment[SecondaryAccession]	GSE58771						
+Comment[GEOReleaseDate]	2016-05-30						
+Comment[ArrayExpressSubmissionDate]	2014-06-24						
+Comment[GEOLastUpdateDate]	2016-06-01						
+Comment[AEExperimentType]	transcription profiling by array						
+SDRF File	E-GEOD-58771.sdrf.txt

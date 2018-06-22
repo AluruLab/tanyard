@@ -1,0 +1,52 @@
+Investigation Title	RNAi profiling of Arabidopsis Col-0 plants (air control), 8 week old Col-0 plants treated for 24 hours with ethylene gas (10 ppm), and artificial microRNA knockdown mutants, amiR-ETP1/2 - interplay between ethylene, ETP1/ETP2 F-box proteins, and degradation of EIN2 triggers ethylene responses in Arabidopsis					
+Comment[Submitted Name]	Interplay between ethylene, ETP1/ETP2 F-box proteins, and degradation of EIN2 triggers ethylene responses in Arabidopsis					
+Experimental Design	unknown_experiment_design_type	transcription profiling by array				
+Experimental Design Term Source REF		EFO				
+Comment[AEExperimentType]	transcription profiling by array					
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis with miR-mediated knock-down of ETP1 and ETP2 and of wild-type Col-0 after treatment with ethylene					
+Comment[AEMIAMESCORE]	4					
+Comment[SecondaryAccession]	GSE14247					
+Comment[ArrayExpressReleaseDate]	2009-12-05					
+Comment[ArrayExpressAccession]	E-GEOD-14247					
+Comment[MAGETAB TimeStamp_Version]	2010-08-01 13:43:00 Last Changed Rev: 13058					
+Experimental Factor Name	GENOTYPE	COMPOUND				
+Experimental Factor Type	genotype	compound				
+Experimental Factor Term Source REF						
+Person Last Name	Ecker					
+Person First Name	Joseph					
+Person Mid Initials						
+Person Email	ecker@salk.edu					
+Person Phone						
+Person Fax						
+Person Address	Joseph R. Ecker, Genomic Analysis Laboratory, The Salk Institute, 10010 N. Torrey Pines Road, La Jolla, 92037, USA					
+Person Affiliation	The Salk Institute					
+Person Roles	submitter					
+Person Roles Term Source REF	The MGED Ontology					
+Quality Control Type						
+Quality Control Term Source REF						
+Replicate Type						
+Replicate Term Source REF						
+Normalization Type						
+Normalization Term Source REF						
+Date of Experiment						
+Public Release Date	2009-12-05					
+PubMed ID	19196655					
+Publication DOI	10.1101/gad.1765709					
+Publication Author List	Qiao H, Chang KN, Yazaki J, Ecker JR.					
+Publication Title	Interplay between ethylene, ETP1/ETP2 F-box proteins, and degradation of EIN2 triggers ethylene responses in Arabidopsis.					
+Publication Status	published					
+Publication Status Term Source REF	EFO					
+Publication Status Term Accession Number	EFO_0001796					
+Experiment Description	A complex interplay between ethylene, ETP1/ETP2 F-box proteins, and degradation of EIN2 is essential for triggering ethylene responses in plants. The gaseous plant hormone ethylene can trigger myriad physiological and morphological responses in plants. While many ethylene signaling pathway components have been identified and characterized, little is known about the function of the integral membrane protein EIN2, a central regulator of all ethylene responses. Here, we demonstrate that Arabidopsis thaliana EIN2 is a protein with a short half-life that undergoes rapid proteasome-mediated protein turnover. Moreover, EIN2 protein accumulation is positively regulated by ethylene. We identified two F-box proteins, EIN2 TARGETING PROTEIN and 2 (ETP1 and ETP2), that interact with the EIN2 carboxyl-terminal domain (CEND), which is highly conserved and sufficient to activate most ethylene responses. Overexpression of ETP1 or ETP2 disrupts EIN2 protein accumulation, and these plants manifest a strong ethylene insensitive phenotype. Furthermore, knocking down the levels of both ETP1 and ETP2 mRNAs using an artificial microRNA (amiRNA) leads to accumulation of EIN2 protein, resulting in plants that display constitutive ethylene response phenotypes. Finally, ethylene down-regulates ETP1 and ETP2 proteins, impairing their ability to interact with EIN2. Thus, these studies reveal that a complex interplay between ethylene, the regulation of ETP1/ETP2 F-box proteins, and subsequent targeting and degradation of EIN2 is essential for triggering ethylene responses in plants. Experiment Overall Design: Six samples were analyzed.  There were three treatments with two biological replicates each.  The treatments are as follows:  8 week old Col-0 plants (air control), 8 week old Col-0 plants treated for 24 hours with ethylene gas (10 ppm), and artificial microRNA knockdown mutants, amiR-ETP1/2.					
+Protocol Name	P-G14247-1	P-G14247-2	P-G14247-5	P-G14247-3	P-AFFY-6	P-G14247-4
+Protocol Type	grow	specified_biomaterial_action	nucleic_acid_extraction	labeling	feature_extraction	bioassay_data_transformation
+Protocol Description	The Columbia ecotype (Col-0) was the parent strain for all mutant and transgenic lines used in this study. Arabidopsis seeds were surface-sterilized and plate on the MS medium (4.3g MS salt, 10g sucrose pH 5.7, 8g bactoagar per liter).  After 3-4 days cold (4ÂºC) treatment, the plates were wrapped in foil and kept in a 24ÂºC incubator before the phenotypes of seedlings were analyzed. For propagation, seedlings were transferred from plates to soil (Pro-mix-HP) and grown to maturity at 22ÂºC under a 16 hr light/8 hr dark cycles.	Ethylene treatment of Arabidopsis seedlings grown on plates was performed in air-tight containers (AirGas) by flowing hydrocarbon-free air supplied with 10 parts per million (ppm) ethylene or treated with hydrocarbon-free air alone (Kieber et al. 1993).	All RNA extractions were performed using the RNeasy Kit (Qiagen) per manufacturers instructions.	cRNA synthesis, labeling, and hybridization to Arabidopsis  ATH1 gene expression arrays (Affymetrix inc) were performed according to manufacturerâs recommendations  except that the labeling reactions were scaled down by 50%.	Title: Affymetrix CEL analysis. Description: 	All normalization and quality controls were performed using the packages from the remote analysis computation for gene expression data (RACE, http://race.unil.ch) (Psarros et al. 2005). After normalization, present, marginal, and absent flags, together with the intensity values converted from logarithmic to linear scales, were exported to GeneSpring GX (Aligent). Ethylene- and auxin-regulated genes were selected using a linear model approach (Smyth 2004) implemented in the limma package from BioConductor (Smyth 2004) . This analysis was done using the Remote Analysis Computation for Gene Expression (Psarros et al. 2005). Genes that had a P value of <0.05 and a fold change between control and treatment or control and mutants experiments greater than 1.5 were selected. To account for the multiple testing, a highly sensitive low-stringency false discovery rate (q-value) of 0.15 was used. Finally, only genes that were present or marginal in both replicates in the treated (when selecting upregulated genes) or in the untreated (when selecting for down regulated genes) samples were further considered.
+Protocol Parameters						
+Protocol Hardware						
+Protocol Software					MicroArraySuite 5.0	
+Protocol Contact						
+Protocol Term Source REF						The MGED Ontology
+SDRF File	E-GEOD-14247.sdrf.txt					
+Term Source Name	NCBI Taxonomy		The MGED Ontology	ArrayExpress	EFO	The MGED Ontology
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version						

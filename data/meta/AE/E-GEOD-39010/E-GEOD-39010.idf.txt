@@ -1,0 +1,27 @@
+Comment[ArrayExpressAccession]	E-GEOD-39010
+MAGE-TAB Version	1.1							
+Public Release Date	2012-09-04
+Investigation Title	Expression data from Arabidopsis petioles in early stage dense canopy							
+Comment[Submitted Name]	Expression data from Arabidopsis petioles in early stage dense canopy
+Experiment Description	Growth in dense stands induces shade avoidance responses. Early responses to neighbors seem to be assoctaed with touch, not light signalling. We studied gene expression in petioles during early canopy development when leaf hyponasty was visible but altered phytochrome signalling was not yet detectable. Plants were grown in small pots that were either kept single, or put in a high density of 2066 plants/m2. Gene expression measured in petioles when canopies had reached a leaf area index of 0.9.							
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl						
+Person Last Name	Pierik	Pierik	de Wit					
+Person First Name	Ronald	Ronald	Mieke					
+Person Email	r.pierik@uu.nl							
+Person Affiliation	Utrecht University							
+Person Address	Plant Ecophysiology, Utrecht University, Padualaan 8, Utrecht, Netherlands							
+Person Roles	submitter							
+Protocol Name	P-GSE39010-1	P-GSE39010-6	P-GSE39010-3	P-GSE39010-8	P-GSE39010-7	P-GSE39010-2	P-GSE39010-4	P-GSE39010-5
+Protocol Description	ID_REF =  VALUE = log2 RMA signal	The (#900720) GeneChip Hybridization, Wash and Stain Kit was used for hybridization, washing, staining and scanning of the chips.	Arabidopsis thaliana plants were sown, stratified (4ËšC) for 3 days and then transferred to a growth chamber (9 h. light (180 µmol / m2 / s, 20°C, 70% RH), 15 h dark) where they were transferred to individual pots after 10 d and grown until canopies reached a leaf area index = 0.9 (approx. 23 days after sowing).	Data were processed using the Bioconductor packages in R (version 2.15.0) and using the RMA normalization algorithm.	The software program Affymetrix 'GeneChip Command Console (v3.1)' was used to operate the staning, washing and scanning of the GeneChips and visual inspection of the array images. Chips were scanned using the Affymetrix 3000G scanner.	Plants were grown single in pots that were either kept separate (single plants; control) or places in a 2066 plants / m2 dense canopy directly after transfer to these pots. 2 young petioles per plant were harvested in liquid N2 and petioles from 4 plants were pooled per biological replicate.	Total RNA was isolated from homogenized material using the RNeasy plant mini kit (Qiagen) with on-column DNA digestion following the companyâ€™s instructions.	The Affymetrix 3'IVT-Express Labeling Kit was used to synthesize Biotin-labeled cRNA. From each RNA sample 100 ng was used as input for the labelling reactions.
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Publication Title	Plant neighbor detection through touching leaf tips precedes phytochrome signals.							
+Publication Author List	de Wit M, Kegge W, Evers JB, Vergeer-van Eijk MH, Gankema P, Voesenek LA, Pierik R							
+PubMed ID	22908260							
+Publication DOI	10.1073/pnas.1205437109							
+Comment[SecondaryAccession]	GSE39010							
+Comment[GEOReleaseDate]	2012-09-04							
+Comment[ArrayExpressSubmissionDate]	2012-06-28							
+Comment[GEOLastUpdateDate]	2012-09-04							
+Comment[AEExperimentType]	transcription profiling by array							
+SDRF File	E-GEOD-39010.sdrf.txt

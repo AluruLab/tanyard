@@ -1,0 +1,49 @@
+Investigation Title	Transcription profiling of Arabidopsis thaliana AtCPL5 overexpressing seedlings	
+Comment[Submitted Name]	AtCPL5 OVEREXPRESSION	
+Experimental Design	is_expressed_design	co-expression_design	replicate_design	transcription profiling by array	
+Experimental Design Term Source REF	The MGED Ontology	The MGED Ontology	The MGED Ontology	EFO	
+Comment[AEMIAMESCORE]	5	
+Comment[SecondaryAccession]		
+Comment[ArrayExpressReleaseDate]	2010-01-20	
+Comment[ArrayExpressAccession]	E-MEXP-2552	
+Comment[MAGETAB TimeStamp_Version]	2010-08-10 13:08:54 Last Changed Rev: 13058	
+Experimental Factor Name	GENOTYPE	
+Experimental Factor Type	genotype	
+Experimental Factor Term Source REF	
+Person Last Name	Jin	
+Person First Name	YongMei	
+Person Mid Initials	
+Person Email	mkkim3@snu.ac.kr, jin0303@snu.ac.kr	
+Person Phone	82-2-880-4641	
+Person Fax	82-2-873-3112	
+Person Address	School of Agricultural Biotechnology, San 56-1, Shillim-Dong, Kwanak-Gu,, Seoul, Seoul, 151-742, South Korea	
+Person Affiliation	Seoul National University	
+Person Roles	submitter	
+Person Roles Term Source REF	The MGED Ontology	
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2010-01-20	
+PubMed ID	
+Publication DOI	
+Publication Author List	
+Publication Title	AtCPL5 encodes a novel Ser-2-specific RNA Polymerase II C-terminal domain phosphatase that is a positive regulator for ABA responses in Arabidopsis	
+Publication Status	
+Publication Status Term Source REF	
+Experiment Description	Wild-type and AtCPL5 overexpressing seedlings were compared	
+Protocol Name	P-MTAB-12340	P-MTAB-12342	P-MTAB-12339	P-MTAB-12343	P-AFFY-6	P-MTAB-12338	
+Protocol Type	nucleic_acid_extraction	grow	labeling	hybridization	feature_extraction	bioassay_data_transformation	
+Protocol Description	Total RNA was extracted from 2-week-old Arabidopsis seedlings using RNeasy mini kit (Qiagen).<br>(Parameters: Extracted product = total_RNA, Amplification = none)	Seeds were sterilized and plated on 1/2 MS medium, and then stratified for 4 days before growing in a growth chamber at 23C under long-day conditions.<br>(Parameters: start time = 2, time unit = weeks, min temperature = 23, temperature unit = C, media = 1/2 MS medium)	Five micrograms of total RNA was used to generate double-stranded cDNA using a GeneChip one-cycle cDNA synthesis kit (Affymetrix) with a T7 promoter-containing oligo(dT) primer. Sythesized cDNA was in vitro transcribed and biotinylated using the GeneChip IVT labeling kit (Affymetrix).<br>(Parameters: Amount of nucleic acid labeled = 5, Amplification = none, Mass unit = Micro gram)	Following fragmentation, 10 ug of cRNA were hybridized for 16 h at 45C on Affymetrix ATH1 genome arrays using and Affymetrx Fluidics Station 450.<br>(Parameters: Chamber type = OTHER: Affymetrix Fluidics Station 450, Quantity of label target used = 10, Mass unit = Micro gram, time = 16, Tiny time unit = hours, Volume unit = Nano litre, temperature = 45)	Title: Affymetrix CEL analysis. Description: 	The data were analyzed with Micorray Suit version 5.0 (MAS5.0) using Affymetrix default analysis setting and Quantile as nomalization method.	
+Protocol Parameters	
+Protocol Hardware	
+Protocol Software					MicroArraySuite 5.0	
+Protocol Contact	
+Protocol Term Source REF						The MGED Ontology	
+SDRF File	E-MEXP-2552.sdrf.txt	
+Term Source Name	NCBI Taxonomy		The MGED Ontology	tair_dev:1.27	ArrayExpress	The MGED Ontology	EFO	
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.arabidopsis.org/info/ontologies/	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	
+Term Source Version				1.27				

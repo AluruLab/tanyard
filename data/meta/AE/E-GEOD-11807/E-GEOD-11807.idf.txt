@@ -1,0 +1,52 @@
+Investigation Title	Transcription profiling of Arabidopsis reveals Flg22 regulates MAP kinase 6 interaction with an ethylene response factor substrate via ethylene								
+Comment[Submitted Name]	Flg22 regulates MAP kinase 6 interaction with an ethylene response factor substrate via ethylene								
+Experimental Design	unknown_experiment_design_type	transcription profiling by array							
+Experimental Design Term Source REF		EFO							
+Comment[AEExperimentType]	transcription profiling by array								
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis expressing ERF104 under the control of the 35S promoter, mutant for erf104 or mpk6								
+Comment[SecondaryAccession]	GSE11807								
+Comment[ArrayExpressReleaseDate]	2009-05-27								
+Comment[AEMIAMESCORE]	3								
+Comment[ArrayExpressAccession]	E-GEOD-11807								
+Comment[MAGETAB TimeStamp_Version]	2010-07-22 05:55:26 Last Changed Rev: 13058								
+Experimental Factor Name	genotype	compound							
+Experimental Factor Type	genotype	compound							
+Experimental Factor Term Source REF									
+Person Last Name	Unthan								
+Person First Name	Tino								
+Person Mid Initials									
+Person Email	Tino.Unthan@ipb-halle.de								
+Person Phone									
+Person Fax									
+Person Address	stress and developmental biology, Leibniz Institue of Plant Biochemistry (IPB), Weinberg, Halle, 06120, Germany								
+Person Affiliation	Leibniz Institue of Plant Biochemistry (IPB)								
+Person Roles	submitter								
+Person Roles Term Source REF	The MGED Ontology								
+Quality Control Type									
+Quality Control Term Source REF									
+Replicate Type									
+Replicate Term Source REF									
+Normalization Type									
+Normalization Term Source REF									
+Date of Experiment									
+Public Release Date	2009-05-27								
+PubMed ID	19416906								
+Publication DOI	10.1073/pnas.0810206106								
+Publication Author List	Gerit Bethke, Tino Unthan, Joachim F Uhrig, Yvonne Pöschl, Andrea A Gust, Dierk Scheel, Justin Lee								
+Publication Title	Flg22 regulates the release of an ethylene response factor substrate from MAP kinase 6 in Arabidopsis thaliana via ethylene signaling.								
+Publication Status	published								
+Publication Status Term Source REF	EFO								
+Publication Status Term Accession Number	EFO_0001796								
+Experiment Description	Despite their importance, plant MAP kinase targets are still poorly elucidated. Here, the specific in vivo interaction of an ethylene response factor (ERF104) with the Arabidopsis MAP kinase, MPK6, is shown by fluorescence resonance energy transfer. The interaction, which is lost within minutes after treatment with the flagellin-derived flg22 peptide, is dependent on both MPK6 kinase activity and rapid ethylene signaling initiated downstream of MPK6 activation. ERF104 is an MPK6 substrate and phosphorylation site mutations affected its stability. ERF104 activates promoters with GCC elements. This was evident from microarray data of overexpressing transgenic plants, where promoters of up regulated genes contain GCC motifs and chromatin immunoprecipitation showing ERF104 association with PDF1.2 promoter. The ERF104 overexpressor did not affect biotrophic bacteria proliferation but was more susceptible to necrotrophic Botrytis cinerea. Microarray performed with erf104 or mpk6 revealed only a limited number of flg22-induced genes that require these elements - possibly as a; result of functional redundancies. Thus, ERF104 phosphorylation by MPK6, in concert with ethylene signaling induced by pathogen-derived molecules, modulates defense in Arabidopsis. Experiment Overall Design: Leaves of six week old Col-0, erf104, mpk6 and 35S::ERF104 plants were infiltrated with 1ÂµM Flg22 or water and harvested four hours later. Total RNA was isolated and processed according to the Affymetrix protocol for biotin-labelled cRNA and hybridized to the Affymetrix ATH1 chip. The data Experiment Overall Design: was analyzed with Genespring GX 7.3.1 software (Agilent) with the following parameters: Filter on Flags for present or marginal in 50% of all considered experiments, Filter for reliable differentially expressed genes based on volcano plot (one way ANOVA p-value <0.05 and >3-fold change in expression). For the flg22 experiments, analysis for each genotype was separately performed and a composite list of flg22-regulated genes compiled â with the aim of including genes that may be differentially regulated in the genotype. Global expression profile was visualized by k-means clustering and condition tree (Genespring).								
+Protocol Name	P-G11807-1	P-G11807-5	P-G11807-2	P-G11807-7	P-G11807-4	P-G11807-3	P-G11807-6	P-AFFY-6	Affymetrix:Protocol:ExpressionStat
+Protocol Type	grow	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	nucleic_acid_extraction	labeling	labeling	feature_extraction	bioassay_data_transformation
+Protocol Description	plants grown on soil under short day conditions (8h light 23Â°C and 16h dark 22Â°C)	H2O infiltrated in leaves, harvested 4h pi	1ÂµM Flg22 infiltrated in leaves, harvested 4h pi	Flg22 infiltrated in leaves, harvested 4h pi	total RNA was extracted from plant tissue using the TRIZOL Method and afterwards RNA cleanup with RNeacsy Kit from Quiagen	RNAs have been treated with the One-Cycle cDNA Synthesis Kit from Affymetrix (Santa Clara, CA) until dscDNA with T7 primer incorporation. Resulting âTargetâ dscDNA (double-stranded cDNA) has been purified  and served as a template in the subsequent in vitro trascription   (IVT) reaction for complimentary RNA (cRNA) amplification and biotin labeling. We used the GeneChip IVT labeling Kit from Affymetrix.	RNAs have been treated with the One-Cycle cDNA Synthesis Kit from Affymetrix (Santa Clara, CA) until dscDNA with T7 primer incorporation. Resulting âTargetâ dscDNA (double-stranded cDNA) has been purified  and served as a template in the subsequent in vitro trascription  (IVT) reaction for complimentary RNA (cRNA) amplification and biotin labeling. We used the GeneChip IVT labeling Kit from Affymetrix	Title: Affymetrix CEL analysis. Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 
+Protocol Parameters									
+Protocol Hardware									
+Protocol Software								MicroArraySuite 5.0	MicroArraySuite 5.0
+Protocol Contact									
+Protocol Term Source REF									The MGED Ontology
+SDRF File	E-GEOD-11807.sdrf.txt								
+Term Source Name	NCBI Taxonomy		The MGED Ontology	ArrayExpress	EFO	The MGED Ontology			
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php			
+Term Source Version									

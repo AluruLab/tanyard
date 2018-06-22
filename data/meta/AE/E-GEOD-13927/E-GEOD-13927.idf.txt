@@ -1,0 +1,52 @@
+Investigation Title	Transcription profiling of Arabidopsis thaliana mature crown galls							
+Comment[Submitted Name]	Transcriptome of mature Arabidopsis thaliana crown galls							
+Experimental Design	unknown_experiment_design_type	transcription profiling by array						
+Experimental Design Term Source REF		EFO						
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis after infection with Agrobacterium tumefaciens and tumour development							
+Comment[SecondaryAccession]	GSE13927							
+Comment[ArrayExpressReleaseDate]	2009-12-02							
+Comment[AEMIAMESCORE]	3							
+Comment[ArrayExpressAccession]	E-GEOD-13927							
+Comment[MAGETAB TimeStamp_Version]	2010-10-16 17:07:22 Last Changed Rev: 14677							
+Experimental Factor Name	infect							
+Experimental Factor Type	infect							
+Experimental Factor Term Source REF								
+Person Last Name	Deeken							
+Person First Name	Rosalia							
+Person Mid Initials								
+Person Email	deeken@botanik.uni-wuerzburg.de							
+Person Phone								
+Person Fax								
+Person Address	Prof. Hedrich, Botany I; Plant Molecular Physiology & Biophysics, University of Wuerzburg, Julius-von-Sachs-Institute, Julius-von-Sachs-Platz 2, Wuerzburg, 97072, Germany							
+Person Affiliation	University of Wuerzburg, Julius-von-Sachs-Institute							
+Person Roles	submitter							
+Person Roles Term Source REF	The MGED Ontology							
+Quality Control Type								
+Quality Control Term Source REF								
+Replicate Type								
+Replicate Term Source REF								
+Normalization Type								
+Normalization Term Source REF								
+Date of Experiment								
+Public Release Date	2009-12-02							
+PubMed ID	17172353							
+Publication DOI	10.1105/tpc.106.044743							
+Publication Author List	Rosalia Deeken, Julia C Engelmann, Marina Efetova, Tina Czirjak, Tobias Müller, Werner M Kaiser, Olaf Tietz, Markus Krischke, Martin J Mueller, Klaus Palme, Thomas Dandekar, Rainer Hedrich							
+Publication Title	An integrated view of gene expression and solute profiles of Arabidopsis tumors: a genome-wide approach.							
+Publication Status	published							
+Publication Status Term Source REF	EFO							
+Publication Status Term Accession Number	EFO_0001796							
+Experiment Description	This study describes physiological changes, morphological adaptations and the regulation of pathogen defense responses in Arabidopsis crown galls. Crown gall development was induced on intact plants under most natural conditions with Agrobacterium tumefaciens. Differential gene expression and the metabolite pattern was determined by comparing crown galls with mock-inoculated inflorescence stalk segments of the same age. Experiment Overall Design: The bases of Arabidopsis thaliana (WS-2) inflorescence stalks were wounded and immediately inoculated with Agrobacterium tumefaciens, strain C58, or mock-inoculated. Plants were cultivated for another 35 days under short day conditions (8 h illumination, 16 h darkness). Gene expression values of four independent experiments of treated material (C58 35dpi 1 to 4) were compared with four non-treated samples of the same age (reference 35dpi 1 to 4). Differential gene expression was analyzed by applying the LIMMA package (Linear Models for Microarray Data; Smyth, G.K. (2004) Applic. Genet. Mol. Biol. 3, Article 3; http://www.bepress.com/sagmb/vol3/iss1/art3/).							
+Protocol Name	P-G13927-7	P-G13927-2	P-G13927-6	P-G13927-1	P-G13927-5	P-G13927-3	P-AFFY-6	P-G13927-4
+Protocol Type	specified_biomaterial_action	specified_biomaterial_action	grow	grow	nucleic_acid_extraction	labeling	feature_extraction	bioassay_data_transformation
+Protocol Description	The base of the first emerging main inflorescence stalk (3-5 cm) of intact plants was wounded with a syringe needle and inoculated with A. tumefaciens strain C58. Agrobacteria were scratched from the surface of an agar plate with a bent pipette tip by preventing contamination with medium and evenly spread on the wounded inflorescence stalk area immediately after wounding. Inoculated plants were grown for another 35 days to develop tumors.	The base of the first emerging main inflorescence stalks (3-5 cm) of an intact plant was wounded with a syringe needle, mock-inoculated and grown for another 35 days.	Arabidopsis thaliana plants (ecotype WS-2) were cultivated in growth chambers under short-day conditions (8 h of light, 120 ÂµE) at 22Â°C and 16Â°C during the dark period (16 h). Agrobacteria were grown on YEB plates over night.	Arabidopsis thaliana plants were cultivated in a growth chamber under short-day conditions (8 h of light, 120 ÂµE) at 22Â°C and 16Â°C during the dark period (16 h).	Total RNA was extracted, including digestion of DNA, from plant tissue samples by using the RNeasy Plant Mini Kit according to manufacturerâs protocol (Qiagen, Hilden, Germany).	Affymetrix protocol.	Title: Affymetrix CEL analysis. Description: 	VSN (variance stabilization normalization, reference: Huber et al. (2002) Bioinformatics 18: suppl. 1, S96-S104)
+Protocol Parameters								
+Protocol Hardware								
+Protocol Software							MicroArraySuite 5.0	
+Protocol Contact								
+Protocol Term Source REF								The MGED Ontology
+SDRF File	E-GEOD-13927.sdrf.txt							
+Term Source Name	NCBI Taxonomy		The MGED Ontology	ArrayExpress	EFO	The MGED Ontology		
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php		
+Term Source Version								

@@ -1,0 +1,58 @@
+Comment[ArrayExpressAccession]	E-GEOD-26973							
+Public Release Date	2011-03-15							
+Investigation Title	G3P triggered changes in systemic transcriptome							
+Comment[Submitted Name]	G3P triggered changes in systemic transcriptome							
+Experiment Description	"Goal of this study was to determine changes in transcription profile in mock versus G3P treated plants. Arabidopsis (Col-0 ecotype) plants were infiltrated with petiole exudate, with or without G3P, and distal leaves were sampled 24 h post treatments.  Keywords: Glycerol-3-Phosphate, Exudate, Salicylic acid, Arabidopsis, Systemic Acquired Resistance, Defense 3 mock-treated and 3 G3P-treated biological replicates were analyzed (one array each) Total RNA was isolated from four-week-old plants using TRIZOL method.  The experiment was carried out in triplicate and a separate group of plants was used for each set. RNA was processed and hybridized to the Affymetric Arabidopsis ATH1 genome array GeneChip following the manufacturers instructions (http://www.affymetrix.com/Auth/  support/downloads/manuals/expression_analysis_technical_manual.pdf <http://www.affymetrix.com/Auth/%20support/downloads/manuals/expression_analysis_technical_manual.pdf> ). All probe sets on the Genechips were assigned hybridization signal above background using Affymetrix Expression Console Software v1.0 (http://www.affymetrix.com/Auth/support/downloads/manuals  /expression_console_userguide.pdf <http://www.affymetrix.com/Auth/support/downloads/manuals%20/expression_console_userguide.pdf> ). Data was analyzed using the nonparametric Wilcoxen Rank Sum test. Fold changes are reported as ratios of medians. The P values were calculated individually for each probe set."							
+Date of Experiment								
+Term Source Name	EFO							
+Term Source Version								
+Term Source File	http://www.ebi.ac.uk/efo							
+Person Last Name	Mandal	Mandal	Kachroo					
+Person First Name	Mihir	Mihir	Pradeep					
+Person Mid Initials	Kumar							
+Person Email	mkmand2@uky.edu							
+Person Affiliation	University of Kentucky							
+Person Phone	859-218-0729							
+Person Fax	859-323-1961							
+Person Address	"Plant Pathology, University of Kentucky, 201 F Plant science Building, LEXINGTON, KENTUCKY, USA"							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Person Roles Term Accession Number								
+Normalization Type								
+Normalization Term Accession Number								
+Normalization Term Source REF								
+Replicate Type								
+Replicate Term Accession Number								
+Replicate Term Source REF								
+Experimental Design	transcription profiling by array							
+Experimental Design Term Accession Number								
+Experimental Design Term Source REF								
+Quality Control Type								
+Quality Control Term Accession Number								
+Quality Control Term Source REF								
+Protocol Name	P-GSE26973-1	P-GSE26973-6	P-GSE26973-3	P-GSE26973-8	P-GSE26973-7	P-GSE26973-2	P-GSE26973-4	P-GSE26973-5
+Protocol Description	ID_REF = <br>VALUE = MAS5.0 signal intensity<br>DETECTION P-VALUE = 	standard Affymetrix procedures	"Columbia ecotype, 3-4 week old plants, grown in MTPS 144 conviron walk in Chamber at 22 degree C, 65% RH and 14 hr photoperiod"	All probe sets on the Genechips were assigned hybridization signal above background using Affymetrix Expression Console Software v1.0 (http://www.affymetrix.com/Auth/support/downloads/manuals  /expression_console_userguide.pdf <http://www.affymetrix.com/Auth/support/downloads/manuals%20/expression_console_userguide.pdf> ). Data was analyzed using the nonparametric Wilcoxen Rank Sum test. Fold changes are reported as ratios of medians. The P values were calculated individually for each probe set.	standard Affymetrix procedures	"Columbia ecotype, 3-4 week old plants, grown in MTPS 144 conviron walk in Chamber at 22 degree C, 65% RH and 14 hr photoperiod. Distal leaves were harvested 24 h after infiltration of Exudate or Exudate+ G3P in the primary leaf"	Trizol Method	standard Affymetrix procedures
+Protocol Software								
+Protocol Hardware								
+Protocol Contact								
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Protocol Term Source REF								
+Protocol Term Accession Number								
+Experimental Factor Name	compound							
+Experimental Factor Type	compound							
+Experimental Factor Term Source REF								
+Experimental Factor Term Accession Number								
+Publication Title	Glycerol-3-phosphate is a critical mobile inducer of systemic immunity in plants.							
+Publication Author List	"Chanda B, Xia Y, Mandal MK, Yu K, Sekine KT, Gao QM, Selote D, Hu Y, Stromberg A, Navarre D, Kachroo A, Kachroo P."							
+PubMed ID	21441932							
+Publication DOI	10.1038/ng.798							
+Publication Status	published							
+Publication Status Term Source REF	EFO							
+Publication Status Term Accession Number	EFO_0001796							
+Comment[SecondaryAccession]	GSE26973							
+Comment[GEOLastUpdateDate]	2011-03-15							
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis after treatment with glycerol-3-phosphate							
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[GEOReleaseDate]	2011-03-15							
+Comment[ArrayExpressSubmissionDate]	2011-01-31							
+SDRF File	E-GEOD-26973.sdrf.txt							

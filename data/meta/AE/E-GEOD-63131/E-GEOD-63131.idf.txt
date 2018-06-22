@@ -1,0 +1,24 @@
+Comment[ArrayExpressAccession]	E-GEOD-63131
+MAGE-TAB Version	1.1						
+Public Release Date	2015-01-20
+Investigation Title	Expression data from the Arabidopsis with freezing treatment following the inhibitors of DNA methylation and histone deacetylation						
+Comment[Submitted Name]	Expression data from the Arabidopsis with freezing treatment following the inhibitors of DNA methylation and histone deacetylation
+Experiment Description	To understand the roles of DNA methylation and histone deacetylation in plant gene network that controls plant tolerance to freezing treatment, we used Affymetrix GeneChips ATH-121501 to analysis. For microarray analysis, Arabidopsis (ecotype Columbia) seedlings grew in four types of sterile growth medium: no any other modifying agents, added 7g/ml 0.5 M aza-dC in water (DNA methylation inhibitor), added TSA in methanol (histone deacetylation inhibitor), both aza-dC and TSA, all for 16 day in growth chamber (16-h day length at 70% relative humidity, 23 Â°C) , then all seedlings were cold treated at 0 Â°C for 24 h in growth chamber (16-h day length at 70% relative humidity). A total of 3305 genes expression were statistically analysized. Our study provides some clues that the transcript levels of some cold-responsive genes regulated by DNA methylation and histone deacetylation. This will be valuable for understanding gene regulation by epigenetic modifications under freezing stress.  Keywords: Cold Stress response, DNA methylation, histone deacetylation Three replicates for aza-dc and TSA treatment, and two replicates for Mock and both aza-dc and TSA treatment. All samples were treated 0Â°C 24h.						
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Song	Song	Tian				
+Person First Name	Yuan	Yuan	Lining				
+Person Email	songyuan@lzu.edu.cn						
+Person Affiliation	Lanzhou University						
+Person Address	the school of life science, Lanzhou University, the South of Tianshui Road, Lanzhou, Gansu, China						
+Person Roles	submitter						
+Protocol Name	P-GSE63131-1	P-GSE63131-5	P-GSE63131-6	P-GSE63131-2	P-GSE63131-3	P-GSE63131-4	P-GSE63131-7
+Protocol Description	Microarray data were extracted from scanned GeneChip images and analyzed by use of Microarray Suite version 5.0.1 (Affymetrix) and BioConductor (http://www.bioconductor.org/). ID_REF =  VALUE = The chip data as transformed with log2.	Biotinylated cRNA were prepared according to the standard Affymetrix protocol (Expression Analysis Technical Manual, 2001, Affymetrix).	Hybridization, washing, and staining were performed according to the Affymetrix manufacturerâ€™s Instructions.	Arabidopsis seedlings were cold treated at 0 °C for 24 h in growth chamber (16-h day length at 70% relative humidity).	Seeds were sterilized with 70% ethanol, 0.05% Triton X-100 for 10 min and then washed with 95% ethanol, 0.05% Triton X-100 for 10 min, with 95% ethanol was for 10 min. A final washed with ddH2O for 3times, put into ddH2O in 4°C 48h. Seeds were sown on deep Petri plates with semisolid MS germination medium (Mock), added aza-dC and/or TSA. All seedlings kept in a growth chamber (16 h light and 8 h darkness, 70% relative humidity, 23 °C) for 16 days before being harvested.	RNA were extracted using RNA purification kit (Norgen, Canada) following the manufacturerâ€™s manual.	Microarrays were scanned using a ScanArray 4000 Microarray Acquisition System.
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Comment[SecondaryAccession]	GSE63131						
+Comment[GEOReleaseDate]	2015-01-20						
+Comment[ArrayExpressSubmissionDate]	2014-11-10						
+Comment[GEOLastUpdateDate]	2015-01-20						
+Comment[AEExperimentType]	transcription profiling by array						
+Comment[AdditionalFile:Data1]	GSE63131_pre-processed_normalized_datadata_table_raw.txt						
+SDRF File	E-GEOD-63131.sdrf.txt

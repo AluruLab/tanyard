@@ -1,0 +1,24 @@
+Comment[ArrayExpressAccession]	E-GEOD-42007
+MAGE-TAB Version	1.1						
+Public Release Date	2013-09-01
+Investigation Title	A Kinetic Analysis of Auxin-mediated Changes in Transcript Abundance in Arabidopsis Reveals New Mediators of Root Growth and Development						
+Comment[Submitted Name]	A Kinetic Analysis of Auxin-mediated Changes in Transcript Abundance in Arabidopsis Reveals New Mediators of Root Growth and Development
+Experiment Description	Auxin-dependent transcript abundance was assayed by transferring 6 day old Arabidopsis grown on a a nylon mesh to IAA-containing or control media Seedling roots were harvested 0, 0.5, 1, 2, 4, 8, 12, or 24 hours after treatment and the resultant RNA was used for microarray analysis to determine the kinetic profiles of auxin-responsive gene expression. 8 timepoints after control or IAA treatment done in triplicate						
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Muday	Muday	Lewis	Olex	Fetrow		
+Person First Name	Gloria	Gloria	Daniel	Amy	Jacquelyn		
+Person Mid Initials	Kressin	K	L		S		
+Person Email	muday@wfu.edu						
+Person Affiliation	Wake Forest University						
+Person Address	Biology, Wake Forest University, 1834 Wake Forest Road, WINSTON SALEM, North Carolina, USA						
+Person Roles	submitter						
+Protocol Name	P-GSE42007-1	P-GSE42007-5	P-GSE42007-6	P-GSE42007-2	P-GSE42007-3	P-GSE42007-4	P-GSE42007-7
+Protocol Description	Raw data were normalized using systematic variation normalization, and the log2 of the signal intensity is reported. ID_REF =  VALUE = log2 SVN signal DETECTION P-VALUE = 	Approximately 5ug of purified total RNA was processed to produce biotinylated cRNA targets followed by streptavidin-phycoerythrin fluorescent staining according to the standard Affymetrix 3’-IVT labeling protocol	Following fragmentation, 20 ug of labeled cRNA was hybridized for 16 hr at 45 degrees C on the Affymetrix GeneChips. GeneChips were washed and stained using the GeneChip 450 Fluidics Station according to standard Affymetrix operating procedures	Nylon mesh with seedlings grown on the surface was transferred to control media or media containing 1 uM IAA at time 0	6 days of growth in 100 umol/m2sec2 continuous cool white light on a nylon screen (03-100/32; Sefar Filtration) pressed tigghtly against 1xMS 1% sucrose media (pH 5.6)	Root samples were ground in liquid nitrogen and the RNA was extracted using the Qiagen Plant RNeasy kit. The RNA was then precipitated from the eluate with isopropanol	GeneChips were scanned using the GeneChip Scanner 3000 7G system according to the standard Affymetrix protocol
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Comment[SecondaryAccession]	GSE42007						
+Comment[GEOReleaseDate]	2013-09-01						
+Comment[ArrayExpressSubmissionDate]	2012-11-02						
+Comment[GEOLastUpdateDate]	2013-09-03						
+Comment[AEExperimentType]	transcription profiling by array						
+SDRF File	E-GEOD-42007.sdrf.txt

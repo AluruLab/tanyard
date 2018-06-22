@@ -1,0 +1,57 @@
+Comment[ArrayExpressAccession]	E-GEOD-34209							
+Public Release Date	2011-12-07							
+Investigation Title	Transcriptome analysis of genes regulated by overexpression of LATERAL ORGAN BOUNDARIES (LOB) in Arabidopsis thaliana							
+Comment[Submitted Name]	Transcriptome analysis of genes regulated by overexpression of LATERAL ORGAN BOUNDARIES (LOB) in Arabidopsis thaliana							
+Experiment Description	The Arabidopsis thaliana transcription factor LATERAL ORGAN BOUNDARIES (LOB) is expressed in the boundary between the shoot apical meristem and initiating lateral organs. To identify genes regulated by LOB activity, we used an inducible 35S:LOB-GR line. This analysis identified genes that are differentially expressed in response to ectopic LOB activity. 35S:LOB-GR and Col wild-type seedlings were treated with dexamethasone (DEX) or mock-treated. Three biological replicates were conducted for each treatment.							
+Date of Experiment								
+Term Source Name	EFO							
+Term Source Version								
+Term Source File	http://www.ebi.ac.uk/efo/efo.owl							
+Person Last Name	Springer	Springer						
+Person First Name	Patricia	P						
+Person Mid Initials		S						
+Person Email	pspringer@ucr.edu							
+Person Affiliation	University of California							
+Person Phone								
+Person Fax								
+Person Address	Botany and Plant Sciences, University of California, 900 University Ave, Riverside, CA, USA							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Person Roles Term Accession Number								
+Normalization Type								
+Normalization Term Accession Number								
+Normalization Term Source REF								
+Replicate Type								
+Replicate Term Accession Number								
+Replicate Term Source REF								
+Experimental Design								
+Experimental Design Term Accession Number								
+Experimental Design Term Source REF								
+Quality Control Type								
+Quality Control Term Accession Number								
+Quality Control Term Source REF								
+Protocol Name	P-GSE34209-1	P-GSE34209-6	P-GSE34209-3	P-GSE34209-8	P-GSE34209-7	P-GSE34209-2	P-GSE34209-4	P-GSE34209-5
+Protocol Description	ID_REF = <br>VALUE = Log2 RMA signal	Standard Affymetrix protocol.	Nine-day-old seedlings, grown on MS plates.	R/Bioconductor, RMA normalization.	Standard Affymetrix protocol.	Seedlings were flooded with MS medium with or without 5µM DEX and incubated, with shaking, for 4 hours.	Total RNA was isolated using TRIzol, followed by purification over RNeasy columns (Qiagen).	Standard Affymetrix protocol.
+Protocol Software								
+Protocol Hardware								
+Protocol Contact								
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_acquisition	specified_biomaterial_action	nucleic_acid_extraction	labelling
+Protocol Term Source REF								
+Protocol Term Accession Number								
+Experimental Factor Name	genotype	compound	dose					
+Experimental Factor Type	genotype	compound	dose					
+Experimental Factor Term Source REF								
+Experimental Factor Term Accession Number								
+Publication Title	Arabidopsis lateral organ boundaries negatively regulates brassinosteroid accumulation to limit growth in organ boundaries							
+Publication Author List	Bell EM, Lin WC, Husbands AY, Yu L, Jaganatha V, Jablonska B, Mangeon A, Neff MM, Girke T, Springer PS							
+PubMed ID	23213252							
+Publication DOI	10.1073/pnas.1210789109							
+Publication Status								
+Publication Status Term Source REF								
+Publication Status Term Accession Number								
+Comment[SecondaryAccession]	GSE34209							
+Comment[GEOLastUpdateDate]	2011-12-08							
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[GEOReleaseDate]	2011-12-07							
+Comment[ArrayExpressSubmissionDate]	2011-12-06							
+SDRF File	E-GEOD-34209.sdrf.txt							

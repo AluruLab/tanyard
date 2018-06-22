@@ -1,0 +1,50 @@
+Investigation Title	Transcription profiling of Arabidopsis loss-of-function and gain-of-function mutants	
+Comment[Submitted Name]	YODA lof and gof seedlings	
+Experimental Design	individual_genetic_characteristics_design	co-expression_design	transcription profiling by array	
+Experimental Design Term Source REF		mo	EFO	
+Comment[ArrayExpressReleaseDate]	2007-07-10	
+Comment[SecondaryAccession]	GSE991	
+Comment[AEMIAMESCORE]	4	
+Comment[SecondaryAccession]	GDS685	
+Comment[ArrayExpressAccession]	E-GEOD-991	
+Comment[MAGETAB TimeStamp_Version]	2010-08-09 16:43:48 Last Changed Rev: 13058	
+Experimental Factor Name	Ecotype	Phenotype	
+Experimental Factor Type	ecotype	phenotype	
+Experimental Factor Term Source REF	
+Person Last Name	Bergmann	
+Person First Name	Dominique	
+Person Mid Initials	
+Person Email	bergmann@andrew2.stanford.edu	
+Person Phone	
+Person Fax	
+Person Address	Chris Somerville,Plant Biology,Carnegie Institution,260 Panama St,Stanford,94305,USA	
+Person Affiliation	Carnegie Institution	
+Person Roles	submitter	
+Person Roles Term Source REF	The MGED Ontology	
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2007-07-10	
+PubMed ID	
+Publication DOI	
+Publication Author List	
+Publication Title	
+Publication Status	
+Publication Status Term Source REF	
+Experiment Description	comparison of 7dpg seedlings of wildtype yda(C24) and N-term deletion of YDA (Ler) for stomatal development comparisons	
+Protocol Name	
+Protocol Type	
+Protocol Description	
+Protocol Parameters	
+Protocol Hardware	
+Protocol Software	
+Protocol Contact	
+Protocol Term Source REF	
+SDRF File	E-GEOD-991.sdrf.txt	
+Term Source Name		mo	NCBI Taxonomy	nasc	tair_dev:1.27	The MGED Ontology	ArrayExpress	mo	EFO	The MGED Ontology	
+Term Source File		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://arabidopsis.info/catalogue.html	http://www.arabidopsis.org/info/ontologies/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version					1.27						

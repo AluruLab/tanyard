@@ -1,0 +1,29 @@
+Comment[ArrayExpressAccession]	E-GEOD-43818						
+MAGE-TAB Version	1.1						
+Public Release Date	2013-06-30						
+Investigation Title	Expression data from WT, camta1/2, camta1/3, camta2/3, camta1/2/3 mutants						
+Comment[Submitted Name]	Expression data from WT, camta1/2, camta1/3, camta2/3, camta1/2/3 mutants						
+Experiment Description	CAMTA3 is known to be involved in regulation of induction of early cold-responsive genes, CBF1 and CBF2 at cold conditions and of suppression of SA production at warm temperature. Considering a functional redundancy of CAMTA family members in both warm and cold conditions, high-order of camta mutants, camta double and triple mutants, were generated and used to determined the effects of their regulation using microarray analysis. Global gene expression profile of WT and camta mutants was compared with the plants at warm temperature or at cold condition, 4°C for 24 hrs.						
+Term Source Name	ArrayExpress	EFO					
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Park	Kim	Park	Gilmour	Thomashow		
+Person First Name	Sunchung	Yongsig	Sunchung	Sarah	Michael		
+Person Email	parksu16@msu.edu						
+Person Affiliation	Michigan State University						
+Person Address	Plant Research Lab, Michigan State University, 612 Wilson Road, Rm310, East Lansing, MI, USA						
+Person Roles	submitter						
+Protocol Name	P-GSE43818-1	P-GSE43818-5	P-GSE43818-6	P-GSE43818-2	P-GSE43818-3	P-GSE43818-4	P-GSE43818-7
+Protocol Description	The data were analyzed with LIMMA package of Bioconductor using GCRMA normalization procedure. ID_REF =  VALUE = GCRMA-normalized log2 expression signal	RNA was amplified and biotinylated using a MessageAmp kit (Ambion) according to the manufacturer's protocol	Hybridization and washing were carried out according to the Gene Chip manufacturer's protocol (Affymetrix)	Plants were treated at 4ﾰC under a 12 hr photoperiod for 24 h	Plants were grown in soil at 22ﾰC under a 12 hr photoperiod for 3 weeks	RNA was extracted using the RNeasy plant mini kit (Qiagen)	Scan protocols were carried out according to the Gene Chip manufacturer's protocol (Affymetrix)
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	genotype	growth condition					
+Experimental Factor Type	genotype	growth condition					
+Comment[SecondaryAccession]	GSE43818						
+Comment[GEOReleaseDate]	2013-06-30						
+Comment[ArrayExpressSubmissionDate]	2013-01-28						
+Comment[GEOLastUpdateDate]	2013-06-30						
+Comment[AEExperimentType]	transcription profiling by array						
+SDRF File	E-GEOD-43818.sdrf.txt						
+Publication Title	Roles of CAMTA transcription factors and salicylic acid in configuring the low-temperature transcriptome and freezing tolerance of Arabidopsis.						
+Publication Author List	Kim Y, Park S, Gilmour SJ, Thomashow MF						
+PubMed ID	23581962						
+Publication DOI	10.1111/tpj.12205						

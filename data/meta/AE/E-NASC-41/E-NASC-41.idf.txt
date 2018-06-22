@@ -1,0 +1,48 @@
+Investigation Title	Transcription profiling of Arabidopsis seedling respones to far-red light preconditioning treatment to block chloroplast development	
+Comment[Submitted Name]	McCormac: Seedling transcriptome affected by a far-red light preconditioning treatment to block chloroplast development.	
+Experimental Design	growth_condition_design	genetic_modification_design	transcription profiling by array	
+Experimental Design Term Source REF	mo	mo	EFO	
+Comment[ArrayExpressReleaseDate]		
+Comment[AEMIAMESCORE]	3	
+Comment[ArrayExpressAccession]	E-NASC-41	
+Comment[MAGETAB TimeStamp_Version]	2010-10-15 14:04:16 Last Changed Rev: 14677	
+Experimental Factor Name	individual_genetic_characteristic	
+Experimental Factor Type	individual_genetic_characteristic	
+Experimental Factor Term Source REF	
+Person Last Name	unknown	McCormac	
+Person First Name	unknown	Alex	
+Person Mid Initials	
+Person Email		acm@soton.ac.uk	
+Person Phone	+44 (0)115 951 3091	023 80594297	
+Person Fax	+44 (0)115 951 3297	023 80594319	
+Person Address	Plant Science Division, School of Biosciences, University of Nottingham, Sutton Bonnington Campus, Loughborough LE12 5RD, UK	School of Biological Sciences Division of Cell Sciences University of Southampton Bassett Crescent East Southampton  SO16 7PX UK 	
+Person Affiliation		University of Southampton	
+Person Roles		biosource_provider;investigator;submitter	
+Person Roles Term Source REF		mo	
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	
+PubMed ID	
+Publication DOI	
+Publication Author List	
+Publication Title	
+Publication Status	
+Publication Status Term Source REF	
+Experiment Description	This application is the second part of a BBSRC-funded grant to compare and contrast the plastid-signalling pathways disrupted by Norflurazon and far-red light treatment of Arabidopsis seedlings. The first application of this laboratory to GARNet's Affymetrix service (2002-08-25-17.41.49_McCormac) addressed the Norflurazon pathway; this application addresses the far-red pathway.  The assembly of photosynthetic complexes in developing chloroplasts is critical to the establishment of the autotrophic plant. This requires light-mediated upregulation of both nuclear- and chloroplast-encoded genes. The expression of such photosynthetically-associated nuclear genes is also often dependant on a retrograde plastid signal which emanates from chloroplasts to modulate nuclear transcription. Extensive studies using the herbicide Norflurazon to knock-out the plastid signal (including this lab's previous Affymetrix application to GARNet) are identifying the affected gene sets. However, genetic studies have indicated the existence of more than one plastid signalling pathway.  We have recently investigated a phytochrome A-mediated, far-red (FR) input pathway which blocks subsequent chloroplast development under white light (WL). This has also been found to inhibit the transcription of a small group of known nuclear-encoded plastidic proteins. Here we wish to establish how wide-reaching this FR-effect is on nuclear transcription, and will directly compare the affected gene groups with those identified from our earlier (and other's) studies with a Norflurazon treatment.  In this array experiment we will compare RNA from seedlings grown in complete darkness (D) before transfer to WL, with that of seedlings preconditioned under a restricted wavelength FR source before exposure to WL. This comparison of FR- and Norflurazon-affected gene groupings will indicate whether the plastid signalling pathways are likely to be the same, overlapping or highly divergent. As well as wild-type seedlings, the gun1,gun5 mutant line is to be used as both these alleles are well established as alleviating the Norflurazon-inhibited pathway, but their affect on the FR-pathway is less clear. A single replicate of a phyA-null mutant line will also be included in order to differentiate between specific phytochromeA-mediated responses and other FR effects. It is envisaged that, in general, D- and FR-treated samples of the phyA mutant line will respond in the same way as each other and as the wild-type D-treated samples and, thus, the lack of a biological repeat in this case is not a major short-fall.  The proposed experiment will consist of: wild-type: D-pretreated (x2 biological replicates)  wild-type: FR-preconditioned (x2) gun1,gun5: D-pretreated (x2) gun1,gun5: FR-preconditioned (x2) phyA: D-pretreated (x1) phyA: FR-preconditioned (x1)	
+Protocol Name	NASCSampleTreatmentProt:550	NASCGrowProt:549	NASCGrowProt:550	NASCSampleTreatmentProt:549	NASCExtractProtocol:16	NASCLabelProtocol:1	Affymetrix:Protocol:Hybridization-EukGE-WS2v4	Affymetrix:Protocol:Percentile	Affymetrix:Protocol:ExpressionStat	
+Protocol Type					nucleic_acid_extraction	labeling	hybridization	feature_extraction	bioassay_data_transformation	
+Protocol Description	Seedlings were grown in the dark i.e. did not receive far-red,  before transfer to white light.	Following treatment plants were grown in white light for a continuous photoperiod, with an intensity of 150 umol m-2 s-1. The medium was Murashige and Skoog basal medium supplemented without the addition of sucrose, the temperature was 22C. Seedlings were grown to growth stage 1.0 (Boyes key), i.e. cotyledons fully opened. At this point, seedlings were taken in their entirety with cotyledons, hypocotyl and primary roots - (no emerged true leaves) for RNA extraction.	Following treatment plants were grown in white light for a continuous photoperiod, with an intensity of 150 umol m-2 s-1. The medium was Murashige and Skoog basal medium supplemented with 1.5% sucrose the temperature was 22C. Seedlings were grown to growth stage 1.0 (Boyes key), i.e. cotyledons fully opened. At this point, seedlings were taken in their entirety with cotyledons, hypocotyl and primary roots - (no emerged true leaves) for RNA extraction.	Seedlings were pre-conditioned under far-red light before transfer to white light.	Protocol:   	RNA samples were quality controlled using the Agilent 2100 Bioanalyzer. 100 pmol T7-(dT)24 primer (5'-GGCCAGTGAATTGTAATACGACTCACTATAGGGAGGCGG-(dT)24-3')  was hybridized with the Total RNA ( 8 - 12ug) at 70ÃÂ°C for 10 minutes.  First strand cDNA was synthesized by reverse transcription using 400 units SuperScript II Reverse Transcriptase in a reaction containing 50 mM Tris-HCl (pH 8.3), 75 mM KCl, 3 mM MgCl2, 10 mM dithiothreitol (DTT) and 0.5 mM dNTPs at 42C for 1 hour.  The reaction was then put on ice for 2 mins, followed by second strand cDNA synthesis.  130ul of the second strand reaction mix was added to the 20ul  first strand synthesis reaction. The second strand reaction mix  contained 40 units E. coli DNA polymerase I, 10 units E. coli DNA ligase, 2 units  E. coli RNase H and 0.2 mM dNTPs in a buffer containing 20 mMTris-HCl (pH 6.9), 90 mM KCl, 4.6 mM MgCl2, 10mM (NH4)SO4 and 0.15 mM ÃÂ-NAD+. The reaction was incubated at 16 C for 2 hours.  10 units T4 DNA Polymerase was added and the reaction incubated for a further 5 minutes at 16 C, then the reaction was terminated using EDTA.  The double-stranded cDNA was cleaned up using the cDNA Cleanup Spin Column supplied in the Affymetrix GeneChip Sample Cleanup Module.  The double-stranded cDNA was used as a template for in Vitro transcription of biotin-labeled cRNA using the ENZO BioArray RNA Transcript Labeling Kit supplied by Affymetrix.  The Transcript Labeling kit produces large amounts of hybridizable biotin-labeled RNA targets by in Vitro transcription from bacteriophage T7 RNA polymerase promoters.  The reaction mixture containing Biotin-Labeled ribonucleotides (ATP, GTP, CTP, UTP with Bio-UTP and Bio-CTP), DTT, RNase inhibitor mix and T7 RNA polymerase was incubated at 37 C for 5 hrs, gently mixing every 30 minutes during the incubation. This produced an average of 40ug biotin-labeled cRNA . The biotin-labeled cRNA  was cleaned up using the cRNA Cleanup Spin Column supplied in the Affymetrix GeneChip Sample Cleanup Module.  The quantity and quality of the cRNA was measured using the Agilent 2100 Bioanalyzer. The total amount of cRNA was calculated, the starting quantity of RNA subtracted to give the quantity of adjusted cRNA.  The cRNA was fragmented by metal-induced hydrolysis to break down full-length cRNA to 35-200 base fragments.  15ug of adjusted cRNA was used to prepare 300ul of hybridization cocktail of which 200ul was hybridized with the GeneChip.	Title: Fluidics Station Protocol. Description: 	Title: Affymetrix CEL Analysis (Percentile). Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 	
+Protocol Parameters		Nutrients;Lighting;Medium;Atmosphere;Temperature;location;	Medium;Lighting;Nutrients;location;Temperature;Atmosphere;	
+Protocol Hardware	
+Protocol Software							MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact	
+Protocol Term Source REF					mo				The MGED Ontology	
+SDRF File	E-NASC-41.sdrf.txt	
+Term Source Name	NCI_thesaurus		ncbitax	nasc	mo	ArrayExpress	mo	EFO	The MGED Ontology	
+Term Source File	ncithesaurus.obo.alt		http://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html	http://arabidopsis.info/catalogue.html	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version										

@@ -1,0 +1,58 @@
+Comment[ArrayExpressAccession]	E-GEOD-18981						
+Public Release Date	2009-11-17						
+Investigation Title	Analysis of RLI on RNA stability in A. thaliana						
+Comment[Submitted Name]	Analysis of RLI on RNA stability in A. thaliana						
+Experiment Description	A number of RNA encoding different functions have been detected in the plant vasculature. An RNase L inhibitor, similar to that present in humans have been identified in the phloem sap of cucurbits. We are interested in analyze the role of this putative inhibitor on the transcript levels that could be present in the vasculature and mainly in the phloem stream. For this purpose, we obtained an RLI T-DNA insertion mutant and generated A. thaliana overexpressing lines using the ORF of the two alleles found in the database.  Keywords: Expression profilling by array 6 samples were used in this experiment						
+Date of Experiment							
+Term Source Name	EFO						
+Term Source Version							
+Term Source File	http://bar.ebi.ac.uk:8080/trac/browser/branches/curator/ExperimentalFactorOntology/ExFactorInOWL/currentrelease/eforelease/efo.owl						
+Person Last Name	Nottingham Arabidopsis Stock Centre (NASC)	Xoconostle					
+Person First Name		Beatriz					
+Person Mid Initials							
+Person Email	affy@arabidopsis.info						
+Person Affiliation	Nottingham Arabidopsis Stock Centre (NASC)						
+Person Phone	+44 (0)115 951 3237						
+Person Fax	+44 (0)115 951 3297						
+Person Address	School of Biosciences, University of Nottingham, Nottingham Arabidopsis Stock Centre (NASC), Sutton Bonington Campus, Loughborough, United Kingdom						
+Person Roles	submitter						
+Person Roles Term Source REF							
+Person Roles Term Accession Number							
+Normalization Type							
+Normalization Term Accession Number							
+Normalization Term Source REF							
+Replicate Type							
+Replicate Term Accession Number							
+Replicate Term Source REF							
+Experimental Design							
+Experimental Design Term Accession Number							
+Experimental Design Term Source REF							
+Quality Control Type							
+Quality Control Term Accession Number							
+Quality Control Term Source REF							
+Protocol Name	P-GSE18981-1	P-GSE18981-6	P-GSE18981-5	P-GSE18981-3	P-GSE18981-2	P-GSE18981-4	P-GSE18981-7
+Protocol Description	ID_REF = <br>VALUE = MAS5 normalized signal intensity<br>ABS_CALL = present, marginal, absent calls<br>DETECTION P-VALUE = p-value	Scanned according to guidelines set out by Affymetrix, Santa Clara, CA.	Biotin Labelled cRNA using &quot;Affymetrix GeneChip Hybridization, Wash and Stain Kit&quot;, according to guidelines set out by Affymetrix, Santa Clara, CA	Qiagen RNeasy kit protocol	Seeds were sterilized, mixed with agarose 0.01% and dropped onto prewet sunshine mix soil. Trays were covered until plantelets appeared.	Labelled using protocol described in Affymetrix manual &quot;3' IVT Express Kit User Manual&quot;	Raw data from the microarrays was normalized at probe-level using MAS5 algorithm. The detection calls (present, marginal, absent) for each probe set was obtained using the GCOS system
+Protocol Software							
+Protocol Hardware							
+Protocol Contact							
+Protocol Type	bioassay_data_transformation	image_aquisition	hybridization	nucleic_acid_extraction	grow	labeling	feature_extraction
+Protocol Term Source REF							
+Protocol Term Accession Number							
+Experimental Factor Name	DEVELOPMENTAL STAGE	GENOTYPE					
+Experimental Factor Type	developmental_stage	genotype					
+Experimental Factor Term Source REF							
+Experimental Factor Term Accession Number							
+Publication Title							
+Publication Author List							
+PubMed ID							
+Publication DOI							
+Publication Status							
+Publication Status Term Source REF							
+Publication Status Term Accession Number							
+Comment[SecondaryAccession]	GSE18981						
+Comment[GEOLastUpdateDate]	2011-03-01						
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for RLI						
+Comment[AEExperimentType]	transcription profiling by array						
+Comment[GEOReleaseDate]	2009-11-18						
+Comment[ArrayExpressSubmissionDate]	2009-11-12						
+SDRF File	E-GEOD-18981.sdrf.txt						

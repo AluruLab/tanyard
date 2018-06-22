@@ -1,0 +1,53 @@
+Investigation Title	microRNA156 resistant SQUAMOSA-PROMOTER-BINDING PROTEIN-LIKE13 (mSPL13) seedlings							
+Comment[Submitted Name]	microRNA156 resistant SQUAMOSA-PROMOTER-BINDING PROTEIN-LIKE13 (mSPL13) seedlings							
+Experimental Design	transcription profiling by array							
+Experimental Design Term Source REF	EFO							
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for or overexpressing spl13							
+Comment[AEMIAMESCORE]	4							
+Comment[SecondaryAccession]								
+Comment[SecondaryAccession]	GSE10414							
+Comment[ArrayExpressReleaseDate]	2010-05-27							
+Comment[ArrayExpressAccession]	E-GEOD-10414							
+Comment[MAGETAB TimeStamp_Version]	2010-07-29 19:19:24 Last Changed Rev: 13058							
+Experimental Factor Name	GENOTYPE							
+Experimental Factor Type	genotype							
+Experimental Factor Term Source REF								
+Person Last Name	Kristof	Coppersmith	Nonogaki	Martin	Asahina	Liu	Nonogaki	
+Person First Name	Jessica	Jennifer	Hiroyuki	Ruth	Masashi	Po-Pu	Hiro	
+Person Mid Initials	R	L		C				
+Person Email							hiro.nonogaki@oregonstate.edu	
+Person Phone							541 737 8885	
+Person Fax							541 737 3479	
+Person Address							Horticulture, Oregon State University, 4017 ALS Bldg, Dept. of Horticulture, Oregon State University, Corvallis, OR, USA	
+Person Affiliation							Oregon State University	
+Person Roles							submitter	
+Person Roles Term Source REF							The MGED Ontology	
+Quality Control Type								
+Quality Control Term Source REF								
+Replicate Type								
+Replicate Term Source REF								
+Normalization Type								
+Normalization Term Source REF								
+Date of Experiment								
+Public Release Date	2010-05-27							
+PubMed ID								
+Publication DOI	10.1017/S0960258510000085	10.1017/S0960258510000073						
+Publication Author List	Martin RC, Asahina M, Liu P-P, Kristof JR, Coppersmith JL, Pluskota WE, Bassel GW, Goloviznina NA, Nguyen TT, Martinez-Andujar C, Kumar MBA, Pupel P, Nonogaki H	Martin RC, Asahina M, Liu P-P, Kristof JR, Coppersmith JL, Pluskota WE, Bassel GW, Goloviznina NA, Nguyen TT, Martinez-Andujar C, Kumar MBA, Pupel P, Nonogaki H						
+Publication Title	The microRNA156 and microRNA172 gene regulation cascades at post-germinative stages in Arabidopsis	The regulation of post-germinative transition from the cotyledon- to vegetative-leaf stages by microRNA-targeted SQUAMOSA PROMOTER-BINDING PROTEIN LIKE13 in Arabidopsis						
+Publication Status	published	published						
+Publication Status Term Source REF	EFO	EFO						
+Publication Status Term Accession Number	EFO_0001796	EFO_0001796						
+Experiment Description	The expression profiles were determined using Affymetrix ATH1 arrays. Comparisons among the Col-0, SPL13 and mSPL13 sample groups allow the identification of genes regulated by SPL13. Keywords: Potential upregulated and downregulated genes Arabidopsis 3 days seedling from three independent biological replicates of Col-0, SPL13 and mSPL13 samples, which contain three independent seed lots each, were analyzed.							
+Protocol Name	P-GSE10414-4	P-GSE10414-2	P-GSE10414-3	P-GSE10414-5	P-GSE10414-6	P-GSE10414-7	P-GSE10414-8	P-GSE10414-1
+Protocol Type	nucleic_acid_extraction	specified_biomaterial_action	grow	labeling	hybridization	image_aquisition	feature_extraction	bioassay_data_transformation
+Protocol Description	Total RNA was extracted from 3 days seedling using standard phenol-SDS extraction as described before (Sambrook et al., 1989), and then checked for RNA integrity with Agilent Bioanalyzer 2100 (Agilent Technologies, Inc., Palo Alto, CA, USA). Ten Î¼g of total RNA was used to produce double-strand cDNAs which were transcribed to cRNAs.	The mutant SPL13 (mSPL13) and non-mutated gene (SPL13) driven by the native promoter were used to transform Arabidopsis Col-0.	Seeds were plated on agar medium containing MS salts and 1% w/v sucrose, incubated at 4Â°C for 3 days in the dark and at 22Â°C for 3 days under the light.	Biotinylated cRNA was synthesized from the double stranded cDNA using T7 RNA polymerase and a biotin-conjugated pseudouridine containing nucleotide mixture provided in the IVT Labeling Kit (Affymetrix, Santa Clara, CA) .	Twenty-five Î¼g of cRNAs were purified and fragmented prior to hybridization in the Affymetrix GeneChipÂ® Hybridization Oven 640, washing in the Affymetrix GeneChipÂ® Fluidics Station 450, and then staining the arrays with biotinylated anti-streptavidin (Vector Laboratories, Burlingame, CA, USA) at the Center for Genome Research and Biocomputing Core Laboratories at Oregon State University, Corvallis OR.	The arrays were scanned with an Affymetrix GeneChipÂ® Scanner 3000 at 570 nm and signal values were obtained using statistical algorithms on Affymetrix GeneChipÂ® Operating (GCOS) software (Affymetrix).	Expression data generated with GCOS software (MAS5.0 method) with a scale factor of 500.	ID_REF = <br>VALUE = GCOS calculated Signal intensity.<br>ABS_CALL = <br>DETECTION P-VALUE =
+Protocol Parameters								
+Protocol Hardware								
+Protocol Software								
+Protocol Contact								
+Protocol Term Source REF							The MGED Ontology	The MGED Ontology
+SDRF File	E-GEOD-10414.sdrf.txt							
+Term Source Name	NCBI Taxonomy		The MGED Ontology	ArrayExpress	EFO	The MGED Ontology		
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php		
+Term Source Version								

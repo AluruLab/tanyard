@@ -1,0 +1,48 @@
+Investigation Title	Transcription profiling of Arabidopsis protoplasts are treated with 20mM Fumonisin B1 (FB1) 	
+Experimental Design	compound_treatment_design	transcription profiling by array	
+Experimental Design Term Source REF	mo	EFO	
+Comment[ArrayExpressReleaseDate]		
+Comment[AEMIAMESCORE]	3	
+Comment[ArrayExpressAccession]	E-NASC-22	
+Comment[MAGETAB TimeStamp_Version]	2010-10-15 14:04:16 Last Changed Rev: 14677	
+Experimental Factor Name	compound	
+Experimental Factor Type	compound_treatment_design	
+Experimental Factor Term Source REF	
+Person Last Name	Diamond	unknown	
+Person First Name	Mark	unknown	
+Person Mid Initials	
+Person Email	paul.mccabe@ucd.ie	
+Person Phone	017162251	+44 (0)115 951 3091	
+Person Fax	017161153	+44 (0)115 951 3297	
+Person Address	Botany Department University College Dublin Belfield Dublin 4 Ireland 	Plant Science Division, School of Biosciences, University of Nottingham, Sutton Bonnington Campus, Loughborough LE12 5RD, UK	
+Person Affiliation	Botany Department	
+Person Roles	submitter;biosource_provider;investigator	
+Person Roles Term Source REF	mo	
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	
+PubMed ID	
+Publication DOI	
+Publication Author List	
+Publication Title	
+Publication Status	
+Publication Status Term Source REF	
+Experiment Description	PCD is a highly organised process that is involved in development and in an organisms response to biotic stresses (toxins and avirulent pathogens) and abiotic stresses (such as temperature, water availability, etc.).  It is a genetically regulated form of cellular suicide, however in plants the underlying process is poorly understood.  Although PCD may occur in response to different stimuli; we believe once it is triggered, one core mechanism is responsible for the cellular demise.  It is our aim to identify the elements of this mechanism.  We will do this by expanding on the work of a previous user of GARNet's GeneChip microarray facility, Dr. Jodi Swidzinski.  She utilised an Arabidopsis cell suspension system; performing microarray analysis on both senescing, and heat shock induced PCD samples.  This resulted in data showing that a large number of genes were upregulated (or downregulated) in response to both treatments.  We are working under the premise that some of the genes that were similarly regulated under both treatments must be core PCD genes.  However because of the large amount of data generated it is difficult to choose appropriate candidate genes (with any degree of confidence that they are core genes) for further study.   We propose to use a third PCD-inducing treatment, involving a mycotoxin, to generate another population of microarray results.  The mycotoxin we intend to use is Fumonisin B1 (FB1).  This is an extremely potent compound that induces PCD by disrupting ceramide synthesis.  We have found Arabidopsis protoplasts to be much more sensitive than cells to the toxin at low concentrations.  Protoplasts are treated with 20mM FB1 and RNA is extracted at time points when 0%, 20% and 40% of protoplasts have died.  This RNA is then pooled.  RNA from methanol treated protoplasts is used as a control.  We intend for these RNA samples to be subjected to GeneChip microarray analysis.  This would identify genes differentially regulated due to FB1 treatment, which would be interesting in itself.  However, by combining this data with that from previous work by Swidzinski (2002) we will be able to decrease the pool of possible core genes further, and increase the chances of selecting an appropriate candidate gene.  This will both improve upon existing work and add value to an existing GARNet data set.	
+Protocol Name	NASCSampleTreatmentProt:463	NASCGrowProt:462	NASCGrowProt:457	NASCSampleTreatmentProt:464	NASCGrowProt:459	NASCGrowProt:458	NASCGrowProt:460	NASCGrowProt:461	NASCExtractProtocol:1	NASCLabelProtocol:1	Affymetrix:Protocol:Hybridization-EukGE-WS2v4	Affymetrix:Protocol:Percentile	Affymetrix:Protocol:ExpressionStat	
+Protocol Type									nucleic_acid_extraction	labeling	hybridization	feature_extraction	bioassay_data_transformation	
+Protocol Description	 from these samples.  This RNA was then pooled into one sample. 			 from these samples.  This RNA was then pooled into one sample. 					Protocol: Qiagen RNAeasy kit protocol 	RNA samples were quality controlled using the Agilent 2100 Bioanalyzer. 100 pmol T7-(dT)24 primer (5'-GGCCAGTGAATTGTAATACGACTCACTATAGGGAGGCGG-(dT)24-3')  was hybridized with the Total RNA ( 8 - 12ug) at 70ÃÂ°C for 10 minutes.  First strand cDNA was synthesized by reverse transcription using 400 units SuperScript II Reverse Transcriptase in a reaction containing 50 mM Tris-HCl (pH 8.3), 75 mM KCl, 3 mM MgCl2, 10 mM dithiothreitol (DTT) and 0.5 mM dNTPs at 42C for 1 hour.  The reaction was then put on ice for 2 mins, followed by second strand cDNA synthesis.  130ul of the second strand reaction mix was added to the 20ul  first strand synthesis reaction. The second strand reaction mix  contained 40 units E. coli DNA polymerase I, 10 units E. coli DNA ligase, 2 units  E. coli RNase H and 0.2 mM dNTPs in a buffer containing 20 mMTris-HCl (pH 6.9), 90 mM KCl, 4.6 mM MgCl2, 10mM (NH4)SO4 and 0.15 mM ÃÂ-NAD+. The reaction was incubated at 16 C for 2 hours.  10 units T4 DNA Polymerase was added and the reaction incubated for a further 5 minutes at 16 C, then the reaction was terminated using EDTA.  The double-stranded cDNA was cleaned up using the cDNA Cleanup Spin Column supplied in the Affymetrix GeneChip Sample Cleanup Module.  The double-stranded cDNA was used as a template for in Vitro transcription of biotin-labeled cRNA using the ENZO BioArray RNA Transcript Labeling Kit supplied by Affymetrix.  The Transcript Labeling kit produces large amounts of hybridizable biotin-labeled RNA targets by in Vitro transcription from bacteriophage T7 RNA polymerase promoters.  The reaction mixture containing Biotin-Labeled ribonucleotides (ATP, GTP, CTP, UTP with Bio-UTP and Bio-CTP), DTT, RNase inhibitor mix and T7 RNA polymerase was incubated at 37 C for 5 hrs, gently mixing every 30 minutes during the incubation. This produced an average of 40ug biotin-labeled cRNA . The biotin-labeled cRNA  was cleaned up using the cRNA Cleanup Spin Column supplied in the Affymetrix GeneChip Sample Cleanup Module.  The quantity and quality of the cRNA was measured using the Agilent 2100 Bioanalyzer. The total amount of cRNA was calculated, the starting quantity of RNA subtracted to give the quantity of adjusted cRNA.  The cRNA was fragmented by metal-induced hydrolysis to break down full-length cRNA to 35-200 base fragments.  15ug of adjusted cRNA was used to prepare 300ul of hybridization cocktail of which 200ul was hybridized with the GeneChip.	Title: Fluidics Station Protocol. Description: 	Title: Affymetrix CEL Analysis (Percentile). Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 	
+Protocol Parameters		Treatment;Nutrients;Temperature;Medium;Atmosphere;Humidity;Location;	Nutrients;Treatment;Medium;Temperature;Humidity;Atmosphere;Location;		Medium;Temperature;Nutrients;Treatment;Location;Humidity;Atmosphere;	Treatment;Nutrients;Temperature;Medium;Atmosphere;Humidity;Location;	Temperature;Medium;Treatment;Nutrients;Location;Atmosphere;Humidity;	Nutrients;Treatment;Medium;Temperature;Humidity;Atmosphere;Location;	
+Protocol Hardware	
+Protocol Software											MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact	
+Protocol Term Source REF													The MGED Ontology	
+SDRF File	E-NASC-22.sdrf.txt	
+Term Source Name	nasc		ncbitax	ArrayExpress	mo	EFO	The MGED Ontology	
+Term Source File	http://arabidopsis.info/catalogue.html		http://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version								
+

@@ -1,0 +1,50 @@
+Investigation Title	Transcription profiling of Arabidopsis wild type and complex I mutant plants								
+Comment[Submitted Name]	CPEB_Arabidopsis_complex I mutant								
+Experimental Design	individual_genetic_characteristics_design	co-expression_design	replicate_design	transcription profiling by array					
+Experimental Design Term Source REF		The MGED Ontology	The MGED Ontology	EFO					
+Comment[SecondaryAccession]									
+Comment[ArrayExpressReleaseDate]	2008-12-25								
+Comment[AEMIAMESCORE]	5								
+Comment[ArrayExpressAccession]	E-MEXP-1967								
+Comment[MAGETAB TimeStamp_Version]	2010-08-10 10:32:58 Last Changed Rev: 13058								
+Experimental Factor Name	genotype								
+Experimental Factor Type	genotype								
+Experimental Factor Term Source REF									
+Person Last Name	meyer								
+Person First Name	etienne								
+Person Mid Initials	h								
+Person Email	meyere@cyllene.uwa.edu.au								
+Person Phone	61864884411								
+Person Fax									
+Person Address	centre of excellence in plant energy biology, M316, 35 Stirling Highway, Crawley, WA, 6009, Australia								
+Person Affiliation	University of Western Australia								
+Person Roles	submitter								
+Person Roles Term Source REF	The MGED Ontology								
+Quality Control Type									
+Quality Control Term Source REF									
+Replicate Type									
+Replicate Term Source REF									
+Normalization Type									
+Normalization Term Source REF									
+Date of Experiment									
+Public Release Date	2008-12-25								
+Publication Title	Remodeled respiration in ndufs4 with low phosphorylation efficiency suppresses Arabidopsis germination and growth and alters control of metabolism at night.								
+Publication Author List	Meyer EH, Tomaz T, Carroll AJ, Estavillo G, Delannoy E, Tanz SK, Small ID, Pogson BJ, Millar AH.								
+PubMed ID	19675153								
+Publication DOI	10.1104/pp.109.141770								
+Publication Status									
+Publication Status Term Source REF									
+Experiment Description	Analysis of the effect of a mutation in complex I on the RNA pools								
+Protocol Name	P-MTAB-2708	P-MTAB-2709	P-MTAB-2710	P-AFFY-2	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6	Affymetrix:Protocol:ExpressionStat		
+Protocol Type	nucleic_acid_extraction	grow	specified_biomaterial_action	labeling	hybridization	feature_extraction	bioassay_data_transformation		
+Protocol Description	Total RNA were extracted with the RNeasy PLant Mini Kit (Qiagen). Genomic DNA were removed using the DNAse I (RNAse free) from Ambion (Applied Biosystem) and the RNA were purified with the RNeasy Mini Kit (Qiagen). Complete removal of both mitochondrial and nuclear DNA was checked by PCR on diluted RNA and RNA quality was assessed on the 2100 Bioanalyzer (Agilent) prior to reverse transcription with random primers (Superscript III, Invitrogen). <br>(Parameters: Extracted product = total_RNA, Amplification = PCR)	Seeds were sown directly on soil and pots were placed in medium day conditions (12h light 150 uA.cm-2, 22ºC, 60% humidity, 12h dark 18ºC, 60% humidity).<br>(Parameters: time unit = seconds, temperature unit = C)	Leaves (ca. 80 mg) were harvested and directly frozen in liquid nitrogen	Title: Affymetrix in vitro transcription. Description: 	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 		
+Protocol Parameters									
+Protocol Hardware									
+Protocol Software					MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 5.0		
+Protocol Contact									
+Protocol Term Source REF					mo		The MGED Ontology		
+SDRF File	E-MEXP-1967.sdrf.txt								
+Term Source Name	NCBI Taxonomy		The MGED Ontology	po	NCI_thesaurus	ArrayExpress	The MGED Ontology	EFO	mo
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.plantontology.org	ncithesaurus.obo.alt	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version									
+Comment[AEExperimentType]	transcription profiling by array								

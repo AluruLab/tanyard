@@ -1,0 +1,48 @@
+Investigation Title	Platform comparison and transcription profiling Arabidopsis samples on CATMA, Affymetrix and Agilent arrays	
+Comment[Submitted Name]	Beynon: Comparison of CATMA, Affymetrix and Agilent arrays	
+Experimental Design	unknown_experiment_design_type	transcription profiling by array	
+Experimental Design Term Source REF		EFO	
+Comment[ArrayExpressReleaseDate]		
+Comment[AEMIAMESCORE]	3	
+Comment[ArrayExpressAccession]	E-NASC-43	
+Comment[MAGETAB TimeStamp_Version]	2010-10-15 14:39:21 Last Changed Rev: 14677	
+Experimental Factor Name	
+Experimental Factor Type	
+Experimental Factor Term Source REF	
+Person Last Name	unknown	Beynon	
+Person First Name	unknown	Jim	
+Person Mid Initials	
+Person Email		jim.beynon@hri.ac.uk	
+Person Phone	+44 (0)115 951 3091	01798 470382	
+Person Fax	+44 (0)115 951 3297	01789 470552	
+Person Address	Plant Science Division, School of Biosciences, University of Nottingham, Sutton Bonnington Campus, Loughborough LE12 5RD, UK	Horticulture Research International Wellesbourne Warwick  CV34 6QJ UK 	
+Person Affiliation		Horticulture Research International	
+Person Roles		submitter;biosource_provider;investigator	
+Person Roles Term Source REF		mo	
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	
+PubMed ID	
+Publication DOI	
+Publication Author List	
+Publication Title	
+Publication Status	
+Publication Status Term Source REF	
+Experiment Description	Transcript profiling is crucial to study biological systems and various platforms have been implemented to survey mRNAs at the genome scale. We have assessed the characteristics of the CATMA microarray designed for Arabidopsis thaliana transcriptome analysis, and compared it with two commercial platforms from Agilent and Affymetrix. The CATMA array consists of gene-specific sequence tags of 150 to 500 base pairs, the Agilent (Arabidopsis 2) array of 60mer oligonucleotides, and the Affymetrix gene chip (ATH1) of 25mer oligonucleotide sets. We have matched each probe repertoire with the Arabidopsis genome annotation (TIGR release 5.0) and determined the correspondence between them.   Array performance was analyzed by hybridization with labeled target derived from eight RNA samples made of shoot total RNA spiked with a calibrated series of 14 control transcripts. A total of fourteen cDNA clones were thus selected and used as templates to synthesize bona fide polyadenylated spike RNAs. Each spike RNA was calibrated then mixed in equal amount with one of the other spike RNAs to obtain seven pairs at equal concentration.  These seven spike RNA pairs were then combined systematically to construct seven complex spike mixes in a design similar to an ordered Latin square, each mix containing six of the seven spike pairs in staggered concentrations covering five logs.  To prevent loss of spike RNA through adsorption to the plastic ware, the spike mixes were prepared in 0.5 Âµg/Âµl Col RNA, resulting in a range of concentration from 0.1 to 10,000 copies per cellular equivalent (cpc), assuming that the total RNA contained 1% polyadenalated mRNA and that a cell contained on average 300,000 transcripts. These seven RNA samples included equal amounts of combined spike RNA . To convert the spike hybridization signals to ratios, an eighth sample was prepared, called the reference sample, consisting of the base Col RNA completed with all spike RNAs at a concentration of 100 cpc.  The results from the eight experiments using the Affymetrix gene chips (ATH1) are available for analysis or download from this site.	
+Protocol Name	NASCSampleTreatmentProt:592	NASCGrowProt:589	NASCGrowProt:585	NASCSampleTreatmentProt:588	NASCSampleTreatmentProt:586	NASCSampleTreatmentProt:587	NASCGrowProt:591	NASCGrowProt:590	NASCExtractProtocol:1	NASCLabelProtocol:1	Affymetrix:Protocol:Hybridization-EukGE-WS2v4	Affymetrix:Protocol:Percentile	Affymetrix:Protocol:ExpressionStat	
+Protocol Type									nucleic_acid_extraction	labeling	hybridization	feature_extraction	bioassay_data_transformation	
+Protocol Description	Reference Spike Mix 	Arabidopsis thaliana Col-1 (NASC stock code N3176) plants were grown in agar plates with a 16hr photoperiod. Plants were grown to a development stage 1.04 (Boyes key). Whole shoots from plants were harvested at mid-day, 6 hr into the day period. More then 10 plants were pooled from each sample for RNA extraction.	Arabidopsis thaliana Col-1 (NASC stock code N3176) plants were grown in agar plates with a 16hr photoperiod. Plants were grown to a development stage 1.04 (Boyes key). Whole shoots from plants were harvested at mid-day, 6 hr into the day period. More then 10 plants were pooled from each sample for RNA extraction.	Spike Mix 4 	Spike Mix 2 	Spike Mix 3 	Arabidopsis thaliana Col-1 (NASC stock code N3176) plants were grown in agar plates with a 16hr photoperiod. Plants were grown to a development stage 1.04 (Boyes key). Whole shoots from plants were harvested at mid-day, 6 hr into the day period. More then 10 plants were pooled from each sample for RNA extraction.	Arabidopsis thaliana Col-1 (NASC stock code N3176) plants were grown in agar plates with a 16hr photoperiod. Plants were grown to a development stage 1.04 (Boyes key). Whole shoots from plants were harvested at mid-day, 6 hr into the day period. More then 10 plants were pooled from each sample for RNA extraction.	Protocol: Qiagen RNAeasy kit protocol 	RNA samples were quality controlled using the Agilent 2100 Bioanalyzer. 100 pmol T7-(dT)24 primer (5'-GGCCAGTGAATTGTAATACGACTCACTATAGGGAGGCGG-(dT)24-3')  was hybridized with the Total RNA ( 8 - 12ug) at 70ÃÂ°C for 10 minutes.  First strand cDNA was synthesized by reverse transcription using 400 units SuperScript II Reverse Transcriptase in a reaction containing 50 mM Tris-HCl (pH 8.3), 75 mM KCl, 3 mM MgCl2, 10 mM dithiothreitol (DTT) and 0.5 mM dNTPs at 42C for 1 hour.  The reaction was then put on ice for 2 mins, followed by second strand cDNA synthesis.  130ul of the second strand reaction mix was added to the 20ul  first strand synthesis reaction. The second strand reaction mix  contained 40 units E. coli DNA polymerase I, 10 units E. coli DNA ligase, 2 units  E. coli RNase H and 0.2 mM dNTPs in a buffer containing 20 mMTris-HCl (pH 6.9), 90 mM KCl, 4.6 mM MgCl2, 10mM (NH4)SO4 and 0.15 mM ÃÂ-NAD+. The reaction was incubated at 16 C for 2 hours.  10 units T4 DNA Polymerase was added and the reaction incubated for a further 5 minutes at 16 C, then the reaction was terminated using EDTA.  The double-stranded cDNA was cleaned up using the cDNA Cleanup Spin Column supplied in the Affymetrix GeneChip Sample Cleanup Module.  The double-stranded cDNA was used as a template for in Vitro transcription of biotin-labeled cRNA using the ENZO BioArray RNA Transcript Labeling Kit supplied by Affymetrix.  The Transcript Labeling kit produces large amounts of hybridizable biotin-labeled RNA targets by in Vitro transcription from bacteriophage T7 RNA polymerase promoters.  The reaction mixture containing Biotin-Labeled ribonucleotides (ATP, GTP, CTP, UTP with Bio-UTP and Bio-CTP), DTT, RNase inhibitor mix and T7 RNA polymerase was incubated at 37 C for 5 hrs, gently mixing every 30 minutes during the incubation. This produced an average of 40ug biotin-labeled cRNA . The biotin-labeled cRNA  was cleaned up using the cRNA Cleanup Spin Column supplied in the Affymetrix GeneChip Sample Cleanup Module.  The quantity and quality of the cRNA was measured using the Agilent 2100 Bioanalyzer. The total amount of cRNA was calculated, the starting quantity of RNA subtracted to give the quantity of adjusted cRNA.  The cRNA was fragmented by metal-induced hydrolysis to break down full-length cRNA to 35-200 base fragments.  15ug of adjusted cRNA was used to prepare 300ul of hybridization cocktail of which 200ul was hybridized with the GeneChip.	Title: Fluidics Station Protocol. Description: 	Title: Affymetrix CEL Analysis (Percentile). Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 	
+Protocol Parameters		location;Lighting;Atmosphere;Harvest;	Lighting;Harvest;location;Atmosphere;				Harvest;Atmosphere;Lighting;location;	Lighting;Harvest;Atmosphere;location;	
+Protocol Hardware	
+Protocol Software											MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact	
+Protocol Term Source REF													The MGED Ontology	
+SDRF File	E-NASC-43.sdrf.txt	
+Term Source Name	nasc		ncbitax	ArrayExpress	EFO	mo	The MGED Ontology	
+Term Source File	http://arabidopsis.info/catalogue.html		http://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version								

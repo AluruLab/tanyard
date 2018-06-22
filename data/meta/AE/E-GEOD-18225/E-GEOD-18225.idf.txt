@@ -1,0 +1,36 @@
+Comment[ArrayExpressAccession]	E-GEOD-18225				
+Investigation Title	Transcription profiling of Arabidopsis early anther				
+Comment[Submitted Name]	Expression data from early anther				
+Publication Title					
+Publication Author List					
+Publication DOI					
+PubMed ID					
+Experimental Design	unknown_experiment_design_type	transcription profiling by array			
+Experimental Design Term Source REF		EFO			
+Person Last Name	Ma				
+Person First Name	Xuan				
+Person Email	xxm108@psu.edu				
+Person Address	hong ma, Biology, penn state university, Life Science Building 416, State College, 16801, US				
+Person Affiliation	penn state university				
+Person Roles	submitter				
+Public Release Date	2009-09-25				
+Comment[ArrayExpressSubmissionDate]	2009-09-23				
+Comment[GEOReleaseDate]	2009-09-23				
+Comment[SecondaryAccession]	GSE18225				
+Experiment Description	We performed microarray experiments with RNAs from dissected immature anthers (stages 4-7) from wild-type, dyt1  and ams mutant plants, using the Affymetrix ATH1 chip. Experiment Overall Design: Anthers from Arabidopsis thaliana were selected at 4-7 stages of early development for RNA extraction and hybridization on Affymetrix microarrays.  Samples from two mutants and wild-type anther.				
+Protocol Name	P-G18225-1	P-G18225-4	P-G18225-5	P-G18225-3	P-G18225-2
+Protocol Type	grow	bioassay_data_transformation	nucleic_acid_extraction	labeling	specified_biomaterial_action
+Protocol Description	All plants were grown at 22˚C under long day photoperiod (16 hours in light and 8 hours in darkness)	RMA to normalize and converted to logarithm base 2	RNA were extracted by using Plant RNase Mini kit (Qiagen).	Standard Affymetrix protocol.	The anthers at stages 4-7 were dissected and collected from the young floral buds of the plants of 3-4 weeks. Three biological replicates from each genetic background (Col., dyt1, and ams) were used for microarray analyses.
+Protocol Parameters					
+Protocol Software					
+SDRF File	E-GEOD-18225.sdrf.txt				
+Term Source Name	EFO				
+Term Source File	http://efo.svn.sourceforge.net/viewvc/efo/trunk/src/efoinowl/efo.owl				
+Experimental Factor Name	genotype				
+Experimental Factor Type	genotype				
+Comment[AEExperimentType]	transcription profiling by array				
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for dyt1 or ams				
+Publication Title	Regulation of the Arabidopsis anther transcriptome by DYT1 for pollen development				
+Publication Author List	Feng B, Lu D, Ma X, Peng Y, Sun Y, Ning G, Ma H				
+Publication DOI	doi: 10.1111/j.1365-313X.2012.05104.x				
+Pubmed ID	22775442				

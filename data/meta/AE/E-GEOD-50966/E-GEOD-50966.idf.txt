@@ -1,0 +1,24 @@
+Comment[ArrayExpressAccession]	E-GEOD-50966
+MAGE-TAB Version	1.1						
+Public Release Date	2013-10-15
+Investigation Title	Transcriptional reprogramming and stimulation of leaf respiration by elevated CO2 concentration is diminished, but not eliminated, under limiting nitrogen supply.						
+Comment[Submitted Name]	Transcriptional reprogramming and stimulation of leaf respiration by elevated CO2 concentration is diminished, but not eliminated, under limiting nitrogen supply.
+Experiment Description	Transcriptional reprogramming and stimulation of leaf respiration by elevated CO2 concentration is diminished, but not eliminated, under limiting nitrogen supply. Arabidopsis plants were grown in either ambient (370 ppm) or elevated (750 ppm) CO2 with either ample N supply or limiting N supply. Leaf tissue was harvested from youngest most fully expanded leaves 35 days after plant germination at either midday or midnight.						
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Markelz	Markelz	Leakey				
+Person First Name	Robert	R	Andrew				
+Person Mid Initials	John Cody	J	D				
+Person Email	geo@ncbi.nlm.nih.gov						
+Person Affiliation	University of Illinois						
+Person Address	Plant Biology, University of Illinois, 1206 W Gregory Dr, Urbana, IL, USA						
+Person Roles	submitter						
+Protocol Name	P-GSE50966-1	P-GSE50966-5	P-GSE50966-6	P-GSE50966-2	P-GSE50966-3	P-GSE50966-4	P-GSE50966-7
+Protocol Description	The data were analyzed using JMP Genomics Version 5.1 (SAS Institute, Inc., Cary NC, USA) using the Basic Expression Workflow Option with the median intensity normalization method option. Probesets not called present in at least 3 biological replicates for each treatment combination were considered insufficiently replicated and were dropped,  leaving 12826 remaining for the analysis. ID_REF =  VALUE = Log2 values based on median intensity normalization	Labeling was performed by the Keck Center University of Illinois Urbana-Champaign Following manufacturers protocols using the 3' IVT Express Kit User Manual	Labeling was performed by the Keck Center University of Illinois Urbana-Champaign Following manufacturers protocols using the 3' IVT Express Kit User Manual	Pots were watered passively by adding 1L of 40% Long Ashton solution per tray once per week until week 4 when trays were watered every five days. NH4+ and NO3- concentrations were varied in the Long Ashton solution to establish the N treatments as limiting (0.25 mM NH4NO3) and ample (6 mM NH4NO3). CO2 concentration was precisely maintained at either 370 ppm (ambient) or 750 ppm (elevated) by retrofitting the chambers with CO2 source/scrub capabilities. With the exception of final biomass, which involved all aboveground tissue, the following analyses were preformed on the youngest most fully expanded leaves 35 days after germination.	Arabidopsis thaliana (Col) seeds were surface sterilized with 70% ethanol solution for 2 minutes and a 15% Clorox solution for 15 minutes with occasional shaking. Clorox was removed by and seeds were rinsed 5 times in sterile DI water. Seeds were plated on sterilized 0.5% gellan gum containing 0.5x MS and 0.3% sucrose (pH 5.7) in a sterile hood where the plates were wrapped in aluminum foil and stored at 4 °C for 48 hours to synchronize emergence. Plates were removed from foil and placed in growth chambers vertically to allow for downward root growth. 5 days after emergence, seedlings were transplanted to 514 cm3 pots containing LC1 sunshine mixed homogeneously with 20% v/v of small grain vermiculite. Conviron (company name) growth chamber conditions were 10/14 hour day/night cycle with 21 °C/18 °C temperatures, 70% RH, and 250 µmol m-2/s-1 for PPFD levels.	Youngest most fully expanded leaves were excised at midday and midnight on day 35, wrapped in aluminum foil, immediately plunged into liquid N, and stored at -80°C until total RNA was isolated using a Spectra Plant RNA Isolation Kit (Sigma) following manufacturers instructions	Wash and Scanning were performed by the Keck Center University of Illinois Urbana-Champaign Following manufacturers protocols using the Expression Wash, Stain, Scan User Manual for Cartridge Arrays Manual on an Affymetrix model 3000 scanner
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Comment[SecondaryAccession]	GSE50966						
+Comment[GEOReleaseDate]	2013-10-15						
+Comment[ArrayExpressSubmissionDate]	2013-09-18						
+Comment[GEOLastUpdateDate]	2013-10-16						
+Comment[AEExperimentType]	transcription profiling by array						
+SDRF File	E-GEOD-50966.sdrf.txt

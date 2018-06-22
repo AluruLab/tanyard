@@ -1,0 +1,58 @@
+Comment[ArrayExpressAccession]	E-GEOD-19978							
+Public Release Date	2010-09-03							
+Investigation Title	Different gene expressions in root tips between CLE10 and CLE25 treatment							
+Comment[Submitted Name]	Different gene expressions in root tips between CLE10 and CLE25 treatment							
+Experiment Description	Cell–cell communication is critical for tissue and organ development. In plants, secretory CLAVATA3/EMBRYO SURROUNDING REGION-related (CLE) peptides function as intercellular signaling molecules in various aspects of tissue development. However, little is known about intracellular signaling pathways functioning in vascular development downstream of the CLE ligands. To elucidate CLE signaling pathway, we performed GeneChip analysis. Arabidopsis roots were treated with chemically synthesized CLE10, or CLE25 at 1000 nM for 12 hours. Comparisons between CLE10 and CLE25 treatment will highlight the genes involved in the cause of different effects.							
+Date of Experiment								
+Term Source Name	EFO							
+Term Source Version								
+Term Source File	http://efo.svn.sourceforge.net/viewvc/efo/trunk/src/efoinowl/efo.owl							
+Person Last Name	Kondo	Isu	Iwamoto					
+Person First Name	Yuki	Sayaka	Kuninori					
+Person Mid Initials								
+Person Email	p@biol.s.u-tokyo.ac.jp							
+Person Affiliation	The University of Tokyo							
+Person Phone								
+Person Fax								
+Person Address	Graduate School of Science Department of Biological Sciences, The University of Tokyo, 7-3-1 Hongo, Bunkyo-ku, Tokyo, Japan							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Person Roles Term Accession Number								
+Normalization Type								
+Normalization Term Accession Number								
+Normalization Term Source REF								
+Replicate Type								
+Replicate Term Accession Number								
+Replicate Term Source REF								
+Experimental Design								
+Experimental Design Term Accession Number								
+Experimental Design Term Source REF								
+Quality Control Type								
+Quality Control Term Accession Number								
+Quality Control Term Source REF								
+Protocol Name	P-GSE19978-1	P-GSE19978-6	P-GSE19978-3	P-GSE19978-8	P-GSE19978-7	P-GSE19978-2	P-GSE19978-4	P-GSE19978-5
+Protocol Description	ID_REF = <br>VALUE = GCOS 1.4 MAS 5.0 signal<br>ABS_CALL = indicating whether the transcript was present (P), absent (A), or marginal (M)<br>DETECTION P-VALUE = 	Hybridization, washing, staining procedures were conducted with Fluidics Station 450 as described in the GeneChip Expression Analysis Techinical Manual (Affymetrix).	Seeds were sterilised with sodium hypochlorite 5 min, 4 rinses sterile water, cultured on MS liquid medium, and incubated at 23ºC under the continuous light conditions with shaking for 7 days.	GCOS 1.4	Scanning procedure ws conducted with GeneChip Scanner 3000 7G as described in the GeneChip Expression Analysis Techinical Manual (Affymetrix).	Before sampling, roots were treated with chemically synthesized CLE peptide at 1000 nM for 12 hours.	Total RNA was extracted with TRIzol (Invitrogen) and purified with Rneasy Micro Kit (QIAGEN).	Biotinylated cRNA was prepared from total RNA with GeneChip One-Cycle Target Labeling and Control Reagents (Affymetrix).
+Protocol Software								
+Protocol Hardware								
+Protocol Contact								
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Protocol Term Source REF								
+Protocol Term Accession Number								
+Experimental Factor Name	compound	dose						
+Experimental Factor Type	compound	dose						
+Experimental Factor Term Source REF								
+Experimental Factor Term Accession Number								
+Publication Title	CLE peptides can negatively regulate protoxylem vessel formation via cytokinin signaling							
+Publication Author List	Kondo Y, Hirakawa Y, Kieber JJ, Fukuda H.							
+PubMed ID	20802224							
+Publication DOI	10.1093/pcp/pcq129							
+Publication Status	published							
+Publication Status Term Source REF	EFO							
+Publication Status Term Accession Number	EFO_0001796							
+Comment[SecondaryAccession]	GSE19978							
+Comment[GEOLastUpdateDate]	2010-09-02							
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis after treatment with CLAVATA3/EMBRYO SURROUNDING REGION-related (CLE) peptides							
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[GEOReleaseDate]	2010-09-02							
+Comment[ArrayExpressSubmissionDate]	2010-01-21							
+SDRF File	E-GEOD-19978.sdrf.txt							

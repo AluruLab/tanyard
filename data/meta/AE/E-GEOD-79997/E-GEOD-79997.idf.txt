@@ -1,0 +1,26 @@
+Comment[ArrayExpressAccession]	E-GEOD-79997
+MAGE-TAB Version	1.1						
+Public Release Date	2016-08-01
+Investigation Title	Salt treatment of PtSnRK2.7 overexpressor						
+Comment[Submitted Name]	Salt treatment of PtSnRK2.7 overexpressor
+Experiment Description	Subfamily 2 of SNF1-related protein kinase (SnRK2) plays important roles in plant abiotic stress responses as a global positive regulator of abscisic acid signaling. In the genome of the model tree Populus trichocarpa, 12 SnRK2 genes have been identified, and some are upregulated by abiotic stresses. In this study, we heterologously overexpressed the PtSnRK2 genes in Arabidopsis thaliana and found that overexpression of PtSnRK2.5 and PtSnRK2.7 genes enhanced stress tolerance. In the PtSnRK2.5 and PtSnRK2.7 overexpressors, chlorophyll content and root elongation were maintained under salt stress conditions, leading to higher survival rates under salt stress compared with those in the wild type. Transcriptomic analysis revealed that PtSnRK2.7 overexpression affected stress-related metabolic genes, including lipid metabolism and flavonoid metabolism, even under normal growth conditions. However, the stress response genes reported to be upregulated in Arabidopsis SRK2C/SnRK2.6 and wheat SnRK2.8 overexpressors were not changed by PtSnRK2.7 overexpression. Instead, PtSnRK2.7 overexpression widely and largely influenced the transcriptome in response to salt stress; genes related to transport activity, including anion transport-related genes, were characteristically upregulated, and a variety of metabolic genes were specifically downregulated. We also found that the salt stress response genes were greatly upregulated in the PtSnRK2.7 overexpressor. Taken together, poplar subclass 2 PtSnRK2 genes can modulate salt stress tolerance in Arabidopsis, through the activation of cellular signaling pathways in a different manner from that by herbal subclass 2 SnRK2 genes. Total RNAs of the transgenic plants expressing 35S:PtSnRK2.7 treated with or without 200 mM NaCl.  As a control experiment, the wild-type plants were treated similarly. The total RNAs were used for microarray analysis to reveal genes affected by the PtSnRK2.7 overexpression.						
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Ohtani	Song	Ohtani	Demura	Zhuge		
+Person First Name	Misato	Xueqing	Misato	Taku	Qiang		
+Person Email	misato@bs.naist.jp						
+Person Affiliation	NAIST						
+Person Phone	+81-743-72-5462						
+Person Address	Graduate School of Biological Sciences, NAIST, 8916-5 Takayama-cho, Ikoma, Japan						
+Person Roles	submitter						
+Protocol Name	P-GSE79997-1	P-GSE79997-5	P-GSE79997-6	P-GSE79997-2	P-GSE79997-3	P-GSE79997-4	P-GSE79997-7
+Protocol Description	The data were analyzed with Microarray Suite version 5.0 (MAS 5.0) using Affymetrix default analysis settings and global scaling as normalization method. All signals were divided by median value of all probe sets. Ln value of MAS5.0 signal intensity divided by median value of all non-control probe sets. ID_REF =  VALUE = Signal ABS_CALL = indicating whether the transcript was present (P), absent (A), or marginal (M) DETECTION P-VALUE = 	Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 10 ug total RNA.	Following fragmentation, 15 ug of cRNA were hybridized for 16 hr at 45C on GeneChip. GeneChips were washed and stained in the Affymetrix Fluidics Station 450.	Seven-day-old plants were transferred to the 1/2 MS medium plates with or without NaCl, and cultured for additional 2 days.	Seedlings were were grown at 22Â°C under the LD condition (16 h light/8 h dark) on the 1/2 strength MS medium.	Total RNA was extracted using RNeasy Mini kit (Qiagen) following instruction.	GeneChips were scanned using the Affymetrix GeneChip Scanner 3000.
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	treatment	genotype					
+Experimental Factor Type	treatment	genotype					
+Comment[SecondaryAccession]	GSE79997						
+Comment[GEOReleaseDate]	2016-08-01						
+Comment[ArrayExpressSubmissionDate]	2016-04-06						
+Comment[GEOLastUpdateDate]	2016-08-02						
+Comment[AEExperimentType]	transcription profiling by array						
+SDRF File	E-GEOD-79997.sdrf.txt

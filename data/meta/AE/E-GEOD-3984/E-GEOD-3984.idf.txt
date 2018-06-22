@@ -1,0 +1,53 @@
+Investigation Title	Transcription profiling of Arabidopsis leaf samples treated with salicylic acid									
+Comment[Submitted Name]	Difference in expression between SA- and mock-treated leaves 2 hours after application									
+Experimental Design	compound_treatment_design	co-expression_design	transcription profiling by array							
+Experimental Design Term Source REF	mo	mo	EFO							
+Comment[AEExperimentType]	transcription profiling by array									
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis leaves after treatment with salicylic acid									
+Comment[ArrayExpressReleaseDate]	2007-10-04									
+Comment[SecondaryAccession]	GSE3984									
+Comment[AEMIAMESCORE]	4									
+Comment[SecondaryAccession]	GDS2207									
+Comment[ArrayExpressAccession]	E-GEOD-3984									
+Comment[MAGETAB TimeStamp_Version]	2010-08-05 12:19:39 Last Changed Rev: 13058									
+Experimental Factor Name	compound	dose								
+Experimental Factor Type	compound	dose								
+Experimental Factor Term Source REF										
+Person Last Name	Thibaud-Nissen									
+Person First Name	Francoise									
+Person Mid Initials										
+Person Email	fthibaud@tigr.org									
+Person Phone										
+Person Fax										
+Person Address	Arabidopsis Lab, The Institute for Genomic Research, 9712 Medical Center Dr, Rockville, 20850, USA									
+Person Affiliation	The Institute for Genomic Research									
+Person Roles	submitter									
+Person Roles Term Source REF	The MGED Ontology									
+Quality Control Type										
+Quality Control Term Source REF										
+Replicate Type										
+Replicate Term Source REF										
+Normalization Type										
+Normalization Term Source REF										
+Date of Experiment										
+Public Release Date	2007-10-04									
+PubMed ID	16824183									
+Publication DOI	10.1111/j.1365-313X.2006.02770.x									
+Publication Author List	Francoise Thibaud-Nissen, Hank Wu, Todd Richmond, Julia C Redman, Christopher Johnson, Roland Green, Jonathan Arias, Christopher D Town									
+Publication Title	Development of Arabidopsis whole-genome microarrays and their application to the discovery of binding sites for the TGA2 transcription factor in salicylic acid-treated plants.									
+Publication Status	published									
+Publication Status Term Source REF	EFO									
+Publication Status Term Accession Number	EFO_0001796									
+Experiment Description	Arabidopsis plants, ecotype Columbia, were sprayed with surfactant alone (0.01% Silwet) or surfactant and 1mM salicylic acid until all leaves were wet, 3 to 4 weeks after germination (before flowering). Leaves were harvested and frozen in liquid nitrogen. Three biological replicates were obtained over a period of 6 months. For each replicate, RNA was extracted using standard phenol/chloroform protocol and biotin-labeled cRNA was synthesized. cRNA was hybridized to 6 ATH1 GeneChip arrays. Cel files produced by the Affymetrix software were imported into R. Background subtraction, normalization and probe summaries were performed with the rma, quantile.normalization and median polish options of the rma function. Comparison of the SA- versus mock-treated tissue provides insight on the genes involved in systemic acquired resistance in Arabidopsis. Experiment Overall Design: 3 mock-treated and 3 SA-treated biological replicates were analyzed (one array each)									
+Protocol Name	P-G3984-2	P-G3984-1	P-G3984-3	P-G3984-4						
+Protocol Type	specified_biomaterial_action	specified_biomaterial_action	nucleic_acid_extraction	labeling						
+Protocol Description	Plants were sprayed with 0.01% Silwet and 1 mM salicylic acid 2 hours before harvesting of leaves	Plants were sprayed with 0.01% Silwet 2 hours before harvesting of leaves	Phenol/Chloroform extraction of quick-frozen leaves	Approximately 5 Â&#956;g of total RNA was processed to produce biotinylated cRNA targets.						
+Protocol Parameters										
+Protocol Hardware										
+Protocol Software										
+Protocol Contact										
+Protocol Term Source REF										
+SDRF File	E-GEOD-3984.sdrf.txt									
+Term Source Name	NCBI Taxonomy	mo	po	The MGED Ontology	ArrayExpress		NCI_thesaurus	mo	EFO	The MGED Ontology
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.plantontology.org	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress		ncithesaurus.obo.alt	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version										

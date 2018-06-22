@@ -1,0 +1,58 @@
+Comment[ArrayExpressAccession]	E-GEOD-20188							
+Public Release Date	2010-09-13							
+Investigation Title	Expression data in response to neonicotinoid insecticides							
+Comment[Submitted Name]	Expression data in response to neonicotinoid insecticides							
+Experiment Description	Neonicotinoid insecticides control crop pests based on their action as agonists at the insect nicotinic acetylcholine receptor which accepts chloropyridinyl- and chlorothiazolyl- analogs almost equally well.  In some cases, these compounds have also been reported to enhance plant vigor and (a)biotic stress tolerance, independent of their insecticidal function.  However, this mode of action has not been specifically defined.  Using Arabidopsis thaliana, we show that the neonicotinoid compounds, imidacloprid (IMI) and clothianidin (CLO), via their 6-chloropyridinyl-3-carboxylic acid and 2-chlorothiazolyl-5-carboxylic acid metabolites, respectively, induce salicylic acid (SA) – associated plant responses.  SA is a phytohormone best known for its role in plant defense against pathogens and as an inducer of systemic acquired resistance; however, it can also modulate abiotic stress responses.  These neonicotinoids effect a similar global transcriptional response to that of SA including genes involved in (a)biotic stress response.  Furthermore, similar to SA, IMI and CLO induce systemic acquired resistance resulting in reduced growth of a powdery mildew pathogen.  The action of CLO induces the endogenous synthesis of SA via the SA biosynthetic enzyme ICS1, with ICS1 required for CLO-induced accumulation of SA, expression of the SA marker PR1, and fully enhanced resistance to powdery mildew.  In contrast, the action of IMI does not induce endogenous synthesis of SA.  Instead, IMI is further bioactivated to 6-chloro-2-hydroxypyridinyl-3-carboxylic acid, which is shown here to be a potent inducer of PR1 and inhibitor of SA-sensitive enzymes.  Thus, via different mechanisms, these chloropyridinyl- and chlorothiazolyl- neonicotinoids induce SA responses associated with enhanced stress tolerance.   response to neonicotinoid insecticides							
+Date of Experiment								
+Term Source Name	EFO							
+Term Source Version								
+Term Source File	http://efo.svn.sourceforge.net/viewvc/efo/trunk/src/efoinowl/efo.owl							
+Person Last Name	Wildermuth	Wildermuth	Chandran					
+Person First Name	Mary	Mary	Divya					
+Person Mid Initials	C	C						
+Person Email	mwildermuth@berkeley.edu							
+Person Affiliation	University of California Berkeley							
+Person Phone	510-643-4861							
+Person Fax								
+Person Address	Plant and Microbial Biology, University of California Berkeley, 221 Koshland Hall MC3102, Berkeley, CA, USA							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Person Roles Term Accession Number								
+Normalization Type								
+Normalization Term Accession Number								
+Normalization Term Source REF								
+Replicate Type								
+Replicate Term Accession Number								
+Replicate Term Source REF								
+Experimental Design								
+Experimental Design Term Accession Number								
+Experimental Design Term Source REF								
+Quality Control Type								
+Quality Control Term Accession Number								
+Quality Control Term Source REF								
+Protocol Name	P-GSE20188-1	P-GSE20188-6	P-GSE20188-3	P-GSE20188-8	P-GSE20188-7	P-GSE20188-2	P-GSE20188-4	P-GSE20188-5
+Protocol Description	ID_REF = <br>VALUE = RMA normalized log2 expression	Microarray hybridizations to Affymetrix Arabidopsis ATH1 GeneChips were performed according to the protocol given in the Affymetrix GeneChip Expression Analysis Technical Manual 701025 rev 1.	Arabidopsis seeds were stratified in 0.1% agarose for 3-5 days and planted in boxes containing Metromix 200 soil. Seeds were equally distributed in each box using a template, with 12 plants per box.  The flats (6 boxes per flat) were covered with plastic trays for 1 week and then uncovered. Flats were watered from below and fertilized at 2-1/2 weeks. Plants were grown on growth carts with 12 h photoperiod with photosynthetically active radiation=100 µE m-2 s-1.	Log2 (expression values) were extracted using robust multi-array analysis (RMA) implemented in the function rma() in the Bioconductor software package affy. Background correction was performed by correcting PM (perfect match) only, to reduce noise from signal intensity. Quantile normalization was performed to make the distributions of signal intensities uniform across chips. Quality assessment was done using the weights outputted from the linear model fitting function fitPLM() in the R package AffyExtensions.	GeneChips were scanned using the GeneChip® Scanner 3000 7G at the Univeristy of California, Berkeley, Functional Genomics Lab.	At four weeks, a subset of boxes was treated with 4 mM of a neonicotinoid solution.  Samples were harvested at 4 d after treatment. An untreated 4 d sample was also collected.  For each sample, fully expanded mature leaves were excised, with 100 mg leaf tissue used to prepare each RNA sample.  Two independent experiments were performed and one sample from each experiment was processed.	Total RNA was extracted using the RNeasy mini kit from Qiagen according to the manufacturer's instructions from  whole leaf samples.  Samples were subject to on-column DNase digestion using  DNase I from Qiagen. RNA quality was determined by the A260/A280 ratio and by its profile on an Agilent 2100 Bioanalyzer.	Target labeling was performed according to the protocol given in the Affymetrix GeneChip Expression Analysis Technical Manual 701025 rev 1.
+Protocol Software								
+Protocol Hardware								
+Protocol Contact								
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Protocol Term Source REF								
+Protocol Term Accession Number								
+Experimental Factor Name	COMPOUND							
+Experimental Factor Type	compound							
+Experimental Factor Term Source REF								
+Experimental Factor Term Accession Number								
+Publication Title								
+Publication Author List								
+PubMed ID								
+Publication DOI								
+Publication Status								
+Publication Status Term Source REF								
+Publication Status Term Accession Number								
+Comment[SecondaryAccession]	GSE20188							
+Comment[GEOLastUpdateDate]	2010-09-12							
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis after treatment with salicylic acid, imidacloprid and clothianidin							
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[GEOReleaseDate]	2010-09-12							
+Comment[ArrayExpressSubmissionDate]	2010-02-04							
+SDRF File	E-GEOD-20188.sdrf.txt							

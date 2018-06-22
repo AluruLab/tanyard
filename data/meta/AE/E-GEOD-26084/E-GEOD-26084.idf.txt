@@ -1,0 +1,57 @@
+Comment[ArrayExpressAccession]	E-GEOD-26084
+Public Release Date	2011-01-22							
+Investigation Title	Expression data from Arabidopsis seedlings treated with Pseudomonas aeruginosa (strain PA14)							
+Comment[Submitted Name]	Expression data from Arabidopsis seedlings treated with Pseudomonas aeruginosa (strain PA14)
+Experiment Description	Early stages of host microbe adaptations involve 'system status changes' (rewiring of pre-existing cellular signaling networks and components) of the host and microbe. We posited that under certain environmental conditions these changes leads to maladaptations and favor emergence of new infectious diseases, and these adaptations will have characteristic signatures representative of the adaptation. Here using Arabidopsis seedlings in a submerged environment treated with P. aerugionsa, we show one such rewired regulation where the master two-component regulator GacA (previously shown to act upstream of quorum sensing, including the regulator LasR, that in turn controls a subset of virulence factors) is completely dispensable. The gacA mutant behaves similar to wild type P. aeruginosa (strain PA14) by a number of read-outs. Consistent with that, the gene expression data here indicates that the transcriptome pattern of the host is identical when treated with wild type PA14 or PA14-gacA mutant. Single time point (10 day old Arabidopsis seedlings infected with wild type PA14 or mutant bacteria PA14DgacA, and analyzed 24h after infection) with two independent experimenal replicates per treatment							
+Date of Experiment								
+Term Source Name	EFO
+Term Source Version								
+Term Source File	http://www.ebi.ac.uk/efo/efo.owl							
+Person Last Name	Gopalan	Gopalan	Ausubel					
+Person First Name	Suresh	Suresh	Frederick					
+Person Mid Initials			M					
+Person Email	gopalan@molbio.mgh.harvard.edu							
+Person Affiliation	Massachusetts General Hosptal & Harvard Medical School							
+Person Phone	781-696-2049							
+Person Fax								
+Person Address	Molecular Biology, Massachusetts General Hosptal & Harvard Medical School, 185 Cambridge Street, CPZN 7250, Boston, MA, USA							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Person Roles Term Accession Number								
+Normalization Type								
+Normalization Term Accession Number								
+Normalization Term Source REF								
+Replicate Type								
+Replicate Term Accession Number								
+Replicate Term Source REF								
+Experimental Design								
+Experimental Design Term Accession Number								
+Experimental Design Term Source REF								
+Quality Control Type								
+Quality Control Term Accession Number								
+Quality Control Term Source REF								
+Protocol Name	P-GSE26084-1	P-GSE26084-6	P-GSE26084-3	P-GSE26084-8	P-GSE26084-7	P-GSE26084-2	P-GSE26084-4	P-GSE26084-5
+Protocol Description	ID_REF = <br>VALUE = MAS 5.0 signal<br>ABS_CALL = indicating whether the transcript was present (P), absent (A), or marginal (M)<br>DETECTION P-VALUE = 	Chips were hybridized according standard Affymetrix protocol, and washed in GeneChip 450 fluidics station.	Strelilized Arabidopsis seeds Col-0 expressing hRluc under the CaMV 35S promoter were grown for 10 days in MS medium with vitamins (Phytotechnologies, CA) with 0.5 % sucrose (adjusted in the beginning to pH 5.8) with 75 microE light, 18 h photoperiod and 80% humidity at 22oC. Bacteria were grown to mid-exponential phase in LB.	The data were analyzed with Microarray Suite version 5.0 (MAS 5.0) in GCOS environment using Affymetrix default analysis settings and global scaling as normalization method. The trimmed mean target intensity of each array was arbitrarily set to 500.	GeneChips were scanned using the GeneArray 3000 7G Scanner	10 day old seedlings in 100 microliter medium were infected with 10 microliter of 0.0002 ABS600 bacteria, continued incubation at 25oC for 24 h, and flash frozen in liquid N2.	RNA was extracted using RNeasy Plant mini kit (Qiagen) according to manufacturer's instructions.	Biotinylated cRNA were prepared according to the standard Affymetrix protocol
+Protocol Software								
+Protocol Hardware								
+Protocol Contact								
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Protocol Term Source REF								
+Protocol Term Accession Number								
+Experimental Factor Name	INFECTION							
+Experimental Factor Type	infection							
+Experimental Factor Term Source REF								
+Experimental Factor Term Accession Number								
+Publication Title								
+Publication Author List								
+PubMed ID								
+Publication DOI								
+Publication Status								
+Publication Status Term Source REF								
+Publication Status Term Accession Number								
+Comment[SecondaryAccession]	GSE26084							
+Comment[GEOLastUpdateDate]	2012-03-22
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[GEOReleaseDate]	2011-01-22
+Comment[ArrayExpressSubmissionDate]	2010-12-15
+SDRF File	E-GEOD-26084.sdrf.txt

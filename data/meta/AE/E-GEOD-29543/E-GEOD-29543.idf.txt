@@ -1,0 +1,57 @@
+Comment[ArrayExpressAccession]	E-GEOD-29543
+Public Release Date	2012-07-22								
+Investigation Title	Molecular events during the early stage of callus induction								
+Comment[Submitted Name]	Molecular events during the early stage of callus induction
+Experiment Description	Profiling the transcriptome of the early stage of Arabidopsis callus induction variable_1 = root explants variable_2 = aerial organ explants variable_3 = 0 h on callus inducing medium variable_4 = 12 h on callus inducing medium variable_5 = 24 h on callus inducing medium variable_6 = 48 h on callus inducing medium variable_7 = 96 h on callus inducing medium								
+Date of Experiment									
+Term Source Name	EFO
+Term Source Version									
+Term Source File	http://www.ebi.ac.uk/efo/efo.owl								
+Person Last Name	XU	Xu	Xu	Fan	Hu				
+Person First Name	Chongyi	Chongyi	Ke	Mingzhu	Yuxin				
+Person Mid Initials									
+Person Email	chyxu1979@yahoo.com.cn								
+Person Affiliation	Institute of Botany, the Chinese Academy of Sciences								
+Person Phone									
+Person Fax									
+Person Address	Center for signal transdution & metabolomics, Institute of Botany, the Chinese Academy of Sciences, No.20 Nanxincun, Xiangshan, beijing, beijing, China								
+Person Roles	submitter								
+Person Roles Term Source REF									
+Person Roles Term Accession Number									
+Normalization Type									
+Normalization Term Accession Number									
+Normalization Term Source REF									
+Replicate Type									
+Replicate Term Accession Number									
+Replicate Term Source REF									
+Experimental Design									
+Experimental Design Term Accession Number									
+Experimental Design Term Source REF									
+Quality Control Type									
+Quality Control Term Accession Number									
+Quality Control Term Source REF									
+Protocol Name	P-GSE29543-2	P-GSE29543-1	P-GSE29543-7	P-GSE29543-6	P-GSE29543-4	P-GSE29543-9	P-GSE29543-3	P-GSE29543-5	P-GSE29543-8
+Protocol Description	ID_REF = <br>VALUE = This is the final calculated measurement for each probe set identifier that has been made comparable across all samples and rows<br>ABS_CALL = A qualitative measurement indicating if the probe set is detected (Present; P), not detected (Absent; A), or marginally detected (Marginal;M)<br>DETECTION P-VALUE = A p-value indicating the significance of the Detection call. A Detection p-value measures the probability that the discrimination scores of all probe pairs in the probe set are above a certain level, and that the target is likely to be Presen	ID_REF = <br>VALUE = This is the final calculated measurement for each probe set identifier that has been made comparable across all samples and rows<br>ABS_CALL = A qualitative measurement indicating if the probe set is detected (Present; P), not detected (Absent; A), or marginally detected (Marginal;M)<br>DETECTION P-VALUE = A p-value indicating the significance of the Detection call. A Detection p-value measures the probability that the discrimination scores of all probe pairs in the probe set are above a certain level, and that the target is likely to be Present	standard Affymetrix procedures	standard Affymetrix procedures	Total RNA was isolated from plant tissues using a guanidine thiocyanate extraction buffer as described (Hu et al., 2000, Plant J, 24: 693-701)	aerial organ segments seperated from 10-day-old seedlings grown on MS solid medium in growth chambers at 22 ºC with 16h light / 8h dark	root segments seperated from 10-day-old seedlings grown on MS solid medium in growth chambers at 22 ºC with 16h light / 8h dark	Approximately 5 µg of total RNA was processed to produce biotinylated cRNA targets	Affymetrix Microarray Suite version 5.0
+Protocol Software									
+Protocol Hardware									
+Protocol Contact									
+Protocol Type	bioassay_data_transformation	bioassay_data_transformation	image_aquisition	hybridization	nucleic_acid_extraction	grow	grow	labeling	feature_extraction
+Protocol Term Source REF									
+Protocol Term Accession Number									
+Experimental Factor Name	BIOLOGICAL REPLICATE	TREATMENT	ORGANISM PART						
+Experimental Factor Type	biological replicate	treatment	organism part						
+Experimental Factor Term Source REF									
+Experimental Factor Term Accession Number									
+Publication Title	LATERAL ORGAN BOUNDARIES DOMAIN transcription factors direct callus formation in Arabidopsis regeneration.								
+Publication Author List	Fan M, Xu C, Xu K, Hu Y								
+PubMed ID	22508267								
+Publication DOI	10.1038/cr.2012.63								
+Publication Status									
+Publication Status Term Source REF									
+Publication Status Term Accession Number									
+Comment[SecondaryAccession]	GSE29543								
+Comment[GEOLastUpdateDate]	2012-07-22
+Comment[AEExperimentType]	transcription profiling by array								
+Comment[GEOReleaseDate]	2012-07-21
+Comment[ArrayExpressSubmissionDate]	2011-05-25
+SDRF File	E-GEOD-29543.sdrf.txt

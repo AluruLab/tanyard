@@ -1,0 +1,50 @@
+Investigation Title	Transcription profiling of Arabidopsis seedlings exposed to ANep1 Treatment	
+Comment[Submitted Name]	Nep1 Treatment	
+Experimental Design	compound_treatment_design	transcription profiling by array	
+Experimental Design Term Source REF	mo	EFO	
+Comment[ArrayExpressReleaseDate]	2008-06-13	
+Comment[SecondaryAccession]	GSE4638	
+Comment[SecondaryAccession]	GDS2136	
+Comment[AEMIAMESCORE]	4	
+Comment[ArrayExpressAccession]	E-GEOD-4638	
+Comment[MAGETAB TimeStamp_Version]	2010-08-05 16:21:46 Last Changed Rev: 13058	
+Experimental Factor Name	Compound	
+Experimental Factor Type	compound	
+Experimental Factor Term Source REF	
+Person Last Name	Bae	
+Person First Name	Hanhong	
+Person Mid Initials	
+Person Email	rbae@asrr.arsusda.gov	
+Person Phone	
+Person Fax	
+Person Address	SPCL, USDA-ARS-PSI, 10300 Baltimore Ave, Beltsville, 20705, USA	
+Person Affiliation	USDA-ARS-PSI	
+Person Roles	submitter	
+Person Roles Term Source REF	The MGED Ontology	
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2008-06-13	
+PubMed ID	16698904	
+Publication DOI	16698904	
+Publication Author List	Hanhong Bae, Moon S Kim, Richard C Sicher, Hyeun-Jong Bae, Bryan A Bailey	
+Publication Title	Necrosis- and ethylene-inducing peptide from Fusarium oxysporum induces a complex cascade of transcripts associated with signal transduction and cell death in Arabidopsis.	
+Publication Status	journal_article	
+Publication Status Term Source REF	The MGED Ontology	
+Experiment Description	In order to study the Nep1 responsive genes in Arabidopsis, experiments were performed with the Affymetrix GeneChip Arabidopsis ATH1 Genome Array (Santa Clara, CA; Cat # 900385).   Experiment Overall Design: Seven-day old Arabidopsis seedlings were exposed to Nep1 (10 ug/mL) treatment or using sterilized, deionized H2O as a control for 30 min.  Two independent biological replications were conducted using two independent samples and two microarrays.	
+Protocol Name	P-G4638-4	P-G4638-1	P-G4638-5	P-G4638-2	P-G4638-3	
+Protocol Type	grow	grow	specified_biomaterial_action	specified_biomaterial_action	nucleic_acid_extraction	
+Protocol Description	Approximately 100 sterilized seeds were transferred to sterile 125-mL Erlenmeyer flasks containing 20 mL of 1X MS basal salts supplemented with 1X vitamin B5, and 0.1 mM MES-NaOH (pH 5.7) buffer.  Seedlings were grown in controlled environment chambers and the flasks were continuously agitated with a rotary shaker for 7 days.  Seedlings were grown in growth chamber at 22Â&deg;C for 7 days under fluorescent lights providing 150 Â± 10 Â&#956;mol /m2/s photosynthetically active radiation (PAR) with 16-h days.	Approximately 100 sterilized seeds were transferred to sterile 125-mL Erlenmeyer flasks containing 20 mL of 1X MS basal salts supplemented with 1X vitamin B5, and 0.1 mM MES-NaOH (pH 5.7) buffer.  Seedlings were grown in controlled environment chambers and the flasks were continuously agitated with a rotary shaker for 7 days.  Seedlings were grown in growth chamber at 22Â&deg;C for 7 days under fluorescent lights providing 150 Â± 10 Â&#956;mol /m2/s1 photosynthetically active radiation (PAR) with 16-h days.	One-week old seedlings were exposed to Nep1 (10 ï­g mL-1) treatment or using sterilized, deionized H2O as a control.  Seedlings were harvested after 30 min treatment, filtered through Whatman #1 filter paper (Whatman, Middlesex, UK), rinsed thoroughly with deionized water and were immediately frozen in liquid nitrogen.	One-week old seedlings were exposed to Nep1 (10 ug/mL) treatment or using sterilized, deionized H2O as a control.  Seedlings were harvested after 30 min treatment, filtered through Whatman #1 filter paper (Whatman, Middlesex, UK), rinsed thoroughly with deionized water and were immediately frozen in liquid nitrogen.	The harvested whole seedlings were ground to a fine powder under liquid nitrogen using a mortar and pestle.  Total RNA was extracted using a RNeasy mini kit (Qiagen, Valencia, CA) as described by the manufacturer and then purified with a RNeasy MinElute Cleanup Kit (Qiagen).	
+Protocol Parameters	
+Protocol Hardware	
+Protocol Software	
+Protocol Contact	
+Protocol Term Source REF	
+SDRF File	E-GEOD-4638.sdrf.txt	
+Term Source Name	NCBI Taxonomy		The MGED Ontology	ArrayExpress	NCI_thesaurus	mo	EFO	The MGED Ontology	
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	ncithesaurus.obo.alt	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version									

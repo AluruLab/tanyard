@@ -1,0 +1,69 @@
+MAGE-TAB Version	1.1
+Investigation Title	Dry seed transcriptome differences associated with relief of sly1-2 seed dormancy through after-ripening or overexpression of the gibberellin-receptor GID1b
+
+Experimental Design	growth condition design	genotype design
+Experimental Design Term Source REF	EFO	EFO
+Experimental Design Term Accession Number	EFO_0001759	EFO_0001748
+
+Experimental Factor Name	genotype	environmental history
+Experimental Factor Type	genotype	environmental history
+Experimental Factor Term Source REF	EFO	EFO
+Experimental Factor Term Accession Number	EFO_0000513	EFO_0004444
+
+Person Last Name	Nelson	Steber
+Person First Name	Sven	Camille
+Person Mid Initials	K	M
+Person Email	Sven.Nelson@ars.usda.gov	csteber@wsu.edu
+Person Phone		(509) 335-2887
+Person Fax		
+Person Affiliation	USDA-ARS, Midwest Area Plant Genetics Research Unit, Columbia, MO	USDA-ARS, Wheat Health, Genetics, and Quality Research Unit, Pullman, Washington, USA
+Person Address	University of Missouri	Washington State University
+Person Roles	data analyst;experiment performer;submitter	investigator
+Person Roles Term Source REF		
+Person Roles Term Accession Number		
+
+Quality Control Type
+Quality Control Term Source REF
+Quality Control Term Accession Number
+
+Replicate Type
+Replicate Term Source REF
+Replicate Term Accession Number
+
+Normalization Type
+Normalization Term Source REF
+Normalization Term Accession Number
+
+Date of Experiment	2012-03-01
+Public Release Date	2018-01-10
+
+PubMed ID
+Publication DOI	10.3389/fpls.2017.02158
+Publication Author List	Sven K. Nelson, Tohru Ariizumi, and Camille M. Steber
+Publication Title	Biology in the Dry Seed: Transcriptome Changes Associated with Dry Seed Dormancy and Dormancy Loss in the Arabidopsis GA-Insensitive sleepy1-2 Mutant
+Publication Status	in preparation
+Publication Status Term Source REF	
+Publication Status Term Accession Number	
+
+Experiment Description	Plant embryos can survive years in a desiccated, quiescent state within seeds.  In many species, seeds are dormant and unable to germinate at maturity.  They acquire the capacity to germinate through a period of dry storage called after-ripening (AR), a biological process that occurs at 5-15% moisture when most metabolic processes cease.  Because stored transcripts will be among the first proteins translated upon water uptake, they likely impact germination potential.  Transcriptome changes associated with the increased seed dormancy of the GA-insensitive <i>sly1-2</i> mutant, and with dormancy loss through <i>sly1-2</i> after-ripening or constitutive overexpression of the GA receptor (GID1b) were characterized in dry seeds.  This experiment used the same seed batches as a previous experiment (E-MTAB-4782) to characterize transcriptional changes associated with the increased seed dormancy and dormancy loss in imbibing seeds. The <i>SLY1</i> gene encodes the F-box subunit of an SCF E3 ubiquitin ligase needed for GA-triggered proteolysis of DELLA repressors of seed germination.  In the <i>sly1-2</i> mutant, GA-directed DELLA proteolysis cannot occur leading to DELLA protein accumulation and increased dormancy.  <i>sly1-2</i> mutant seeds are fully dormant at 2 weeks of dry storage (0% germination), but germinate well with very long after-ripening (51% germination after 19 months).  <i>sly1-2</i> seed germination can also be rescued by overexpression of the GA receptor, <i>GA-INSENSITIVE DWARF1b</i> (<i>GID1b-OE</i>), which resulted in 74% germination at 2 weeks of dry storage.  In this experiment, we sampled dry seeds of wild-type L<i>er</i> at 2 weeks of dry storage (non-dormant), dormant <i>sly1-2</i> (2 weeks of dry storage; <i>sly1-2</i>(D)), long after-ripened <i>sly1-2</i> (non-dormant, 19 months of dry storage; <i>sly1-2</i>(AR)), and <i>sly1-2 GID1b-OE</i> (non-dormant, 2 weeks of dry storage).    This experimental design allowed comparison between these transcriptomes in dry seeds to determine if dry seed stored mRNA differences contribute to the dormancy phenotypes observed once seeds are imbibed.  Seeds for L<i>er</i> wt, <i>sly1-2</i>(D), and <i>sly1-2 GID1b-OE</i> were grown alongside each other under the same conditions and after-ripened for 2 weeks.  Seeds from <i>sly1-2</i>(AR) were grown under the same conditions in advance of the other lines to allow for the long after-ripening requirement.  RNA was extracted using a phenol-chloroform-based extraction from three biological replicates per treatment.
+
+Protocol Name	P-MTAB-69121	P-MTAB-69122	P-MTAB-69120	P-MTAB-69123	P-MTAB-69118	P-MTAB-69119
+Protocol Type	nucleic acid hybridization to array protocol	array scanning and feature extraction protocol	nucleic acid labeling protocol	normalization data transformation protocol	sample collection protocol	nucleic acid extraction protocol
+Protocol Term Source REF	EFO	EFO	EFO	EFO	EFO	EFO
+Protocol Term Accession Number	EFO_0003815	EFO_0003814	EFO_0003813	EFO_0003816	EFO_0005518	EFO_0002944
+Protocol Description	The 3.75 µgs of cDNA was fragmented and biotinylated and that entire amount was hybridized to the GeneChip Arabidopsis ATH1 Genome Array.	GeneChips were scanned according to Affymetrix protocols.	Amplification and labeling was performed using the Applause 3’-Amp System (p/n 5100-24) and the Encore Biotin Module (p/n 4200-12) from the company NuGEN.  Based on the manufacturer’s protocols, we started with 200 ng of total RNA for the 3’-amp kit and 3.75 µg of amplified cDNA (generated from the amp kit) was used as the input for the Biotin module.	Data analysis of raw CEL files was performed using the LIMMA package as part of the Bioconductor suite of tools in the R statistical programming environment (Gentleman et al., 2004; Smyth, 2005; R Core Team, 2014).  Background correction and normalization was performed by Robust Multi-array Average (RMA), control probesets were removed, and significance was determined by False Discovery Rate (FDR) with α = 0.05 (Benjamini and Hochberg, 1995; Irizarry et al., 2003).	For RNA extraction, 20 mg of dry seed per sample was used for RNA extractions.  Dry seeds were stored at room temperature and low humidity (≈15-30%) in open tubes for dry after-ripening treatments prior to extraction.	RNA isolation was performed using a phenol-chloroform extraction developed for tough tissues such as Arabidopsis seeds based on Oñate-Sánchez and Vicente-Carbajosa (2008) with an additional chloroform extraction and the use of Phase Lock (5-PRIME) gel tubes to allow complete recovery of the aqueous phase without risk of organic phase contamination.
+Protocol Parameters						
+Protocol Hardware						
+Protocol Software				R Bioconductor		
+Protocol Contact						
+
+Term Source Name	EFO	ArrayExpress
+Term Source File	http://www.ebi.ac.uk/efo/	http://www.ebi.ac.uk/arrayexpress/
+Term Source Version	2.38
+
+SDRF File	E-MTAB-6135.sdrf.txt
+Comment [Submitted Name]	Dry seed transcriptome differences associated with relief of sly1-2 seed dormancy through after-ripening or overexpression of the gibberellin-receptor GID1b
+Comment [AEMIAMEScore]	5
+Comment [AEExperimentType]	transcription profiling by array
+Comment[ArrayExpressAccession]	E-MTAB-6135
+Comment [RelatedExperiment]	E-MTAB-4782

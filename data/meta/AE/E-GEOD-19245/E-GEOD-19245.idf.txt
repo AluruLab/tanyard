@@ -1,0 +1,58 @@
+Comment[ArrayExpressAccession]	E-GEOD-19245						
+Public Release Date	2010-10-01						
+Investigation Title	Depleting cytosolic cysteine compromises the antioxidant capacity of the cytosol in Arabidopsis thaliana						
+Comment[Submitted Name]	Depleting cytosolic cysteine compromises the antioxidant capacity of the cytosol in Arabidopsis thaliana						
+Experiment Description	Plant cells contain different O-acetylserine(thiol)lyase (OASTL) enzymes involved in Cys biosynthesis and located in different subcellular compartments. These enzymes are made up of a complex variety of isoforms resulting in different subcellular Cys pools. To unravel the contribution of cytosolic Cys to plant metabolism, we characterized the knockout oas-a1.1 and osa-a1.2 mutants, deficient in the most abundant cytosolic OASTL isoform in Arabidposis thaliana. Total intracellular Cys and glutathione concentrations were reduced, and the glutathione redox state was shifted in favour of its oxidized form. Interestingly, the capability of the mutants to chelate heavy metals did not differ from that of the wild type, but the mutants have an enhanced sensitivity to Cd. With the aim of establishing the metabolic network most influenced by the cytosolic Cys pool, we used the ATH1 GeneChip for evaluation of differentially expressed genes in the oas-a1.1 mutant grown under non-stress conditions. The transcriptomic footprints of mutant plants had predicted functions associated with various physiological responses that are dependent on reactive oxygen species and suggested that the mutant was oxidatively stressed. To further elucidate the specific function(s) of the OAS-A1 isoform in the adaptation response to cadmium we extended the trasncriptome experiment to the wild type and oas-a1.1 mutant plants exposed to Cd. The comparison of transcriptomic profiles showed a higher proportion of genes with altered expression in the mutant than in the wild type, highlighting up-regulated genes identified as of the general oxidative stress response rather than metal-responsive genes. Wild type and oas-a1.1 mutant plants were grown hydroponically and, after a two-week acclimation period, the roots and shoots were harvested separately. Total RNA was then prepared and analyzed using the Affymetrix-Arabidopsis ATH1GeneChip array. Three biological replicates were performed for each sample. We made two different comparisons to classify the differently expressed genes in the mutant plant: oas-a1.1 roots versus wild-type roots and oas-a1.1 shoots versus wild-type shoots. Hydroponically-grown wild type and oas-a1.1 mutant plants were further treated with 50µM CdCl2 and 18h-treated-roots and 24h-treated-shoots were harvested. Total RNA was then prepared and analyzed using the Affymetrix-Arabidopsis ATH1GeneChip array. Three biological replicates were performed for each sample. Different comparisons were performed as follows: 18h Cd-treated wild type roots versus untreated wild type roots; 24h Cd-treated wild type shoots versus untreated wild type shoots; 18h Cd-treated oas-a1.1 roots versus untreated oas-a1.1 roots; 24h Cd-treated oas-a1.1 shoots versus untreated oas-a1.1 shoots; 18h Cd-treated oas-a1.1 roots versus 18h Cd-treated wild type roots; 24h Cd-treated oas-a1.1 shoots versus 24h Cd-treated wild type shoots						
+Date of Experiment							
+Term Source Name	EFO						
+Term Source Version							
+Term Source File	http://efo.svn.sourceforge.net/viewvc/efo/trunk/src/efoinowl/efo.owl						
+Person Last Name	Gotor	López-Martín	Romero	Gotor			
+Person First Name	Cecilia	Carmen	Luis	Cecilia			
+Person Mid Initials			C				
+Person Email	geo@ncbi.nlm.nih.gov						
+Person Affiliation	Instituto de Bioquímica Vegetal y Fotosíntesis						
+Person Phone							
+Person Fax							
+Person Address	Instituto de Bioquímica Vegetal y Fotosíntesis, Avda. Américo Vespucio, 49, Sevilla, Spain						
+Person Roles	submitter						
+Person Roles Term Source REF							
+Person Roles Term Accession Number							
+Normalization Type							
+Normalization Term Accession Number							
+Normalization Term Source REF							
+Replicate Type							
+Replicate Term Accession Number							
+Replicate Term Source REF							
+Experimental Design							
+Experimental Design Term Accession Number							
+Experimental Design Term Source REF							
+Quality Control Type							
+Quality Control Term Accession Number							
+Quality Control Term Source REF							
+Protocol Name	P-GSE19245-1	P-GSE19245-6	P-GSE19245-5	P-GSE19245-3	P-GSE19245-2	P-GSE19245-4	P-GSE19245-7
+Protocol Description	ID_REF = <br>VALUE = Log2 RMA signal	GeneChips were scanned using the Affymetrix GeneChip Scanner 3000 7G	Following fragmentation, 15 µg of biotinylated cRNA were hybridized to Affymetrix chips (GeneChip Arabidopsis ATH1 Genome Array). Each sample was added to a hybridization solution containing 100mM 2-(N-morpholino)ethanesulfonic acid, 1 M Na+, and 20mM of EDT	Hydroponically-grown plants were cultured in the absence and presence of 50 mM CdCl2 for 18 and 24 h. The untreated-roots, 18 h treated-roots, untreated-shoots and 24h treated-shoots were collected and RNA extracted from each sample. Total RNA was isolated with Trizol reagent (Invitrogen) followed by cleaning with the RNeasy Plant Mini Kit (Qiagen).	Arabidopsis thaliana (accession Col-0) and the oas-a1.1 mutant (SALK_072213) seeds were grown on Petri dishes on MS medium containing 2.5 g L-1 Phytagel (Sigma-Aldrich) and 1% (w/v) Suc for two weeks and then seedlings were transferred to hydroponic culture. The nutrient solution contained 2 mM Ca(NO3)2, 0.5 mM KH2PO4, 0.75 mM MgSO4, 10 mM KNO3, 1.5 µM CuSO4, 2 µM ZnSO4, 10 µM MnSO4, 50 µM H3BO3, 0.1 µM MoO3, 50 µM KCl, and 50 µM Fe-Na-EDTA, and was replaced once a week. The Cd treatment of hydroponically-grown plants was performed by adding 50 mM of CdCl2 to the above-described nutrient solution after a two-week period of acclimation to the hydroponic conditions. Plants were grown under a photoperiod of 16 h of white light (120 mE m-2 s-1) at 20ºC / 8 h dark at 18ºC.	Biotinylated cRNA was prepared according to the standard Affymetrix protocol from 4 µg total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).	GeneChip intensities were background-corrected, normalized and sumarized by RMA method, using the “Affy” package from Bioconductor.
+Protocol Software							
+Protocol Hardware							
+Protocol Contact							
+Protocol Type	bioassay_data_transformation	image_aquisition	hybridization	nucleic_acid_extraction	grow	labeling	feature_extraction
+Protocol Term Source REF							
+Protocol Term Accession Number							
+Experimental Factor Name	organism part	genotype	compound	time			
+Experimental Factor Type	organism part	genotype	compound	time			
+Experimental Factor Term Source REF							
+Experimental Factor Term Accession Number							
+Publication Title	Knocking out cytosolic cysteine synthesis compromises the antioxidant capacity of the cytosol to maintain discrete concentrations of hydrogen peroxide in Arabidopsis.						
+Publication Author List	López-Martín MC, Becana M, Romero LC, Gotor C.						
+PubMed ID	18441224						
+Publication DOI	10.1104/pp.108.117408						
+Publication Status	published						
+Publication Status Term Source REF	EFO						
+Publication Status Term Accession Number	EFO_0001796						
+Comment[SecondaryAccession]	GSE19245						
+Comment[GEOLastUpdateDate]	2009-12-01						
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for oas-a1 after treatment with cadmium chloride						
+Comment[AEExperimentType]	transcription profiling by array						
+Comment[GEOReleaseDate]	2010-09-30						
+Comment[ArrayExpressSubmissionDate]	2009-12-01						
+SDRF File	E-GEOD-19245.sdrf.txt						

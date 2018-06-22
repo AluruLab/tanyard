@@ -1,0 +1,58 @@
+Comment[ArrayExpressAccession]	E-GEOD-19254						
+Public Release Date	2009-12-03						
+Investigation Title	Cold acclimation in the sfr3-1 mutant						
+Comment[Submitted Name]	Cold acclimation in the sfr3-1 mutant						
+Experiment Description	The sfr3-1 mutation causes freezing-sensitivity in Arabidopsis thaliana. The mutated gene has been identified by positional cloning and is currently being characterised.  The mutant appears normal when grown in the warm (no phenotype has been identified associated with such growth). However, following cold acclimation and subsequent freezing mutant plants are severely damaged whilst wild type plants are not. This suggests that sfr3 is deficient in the cold acclimation process. Micro-array analysis will enable the identification of any transcriptional changes during the cold acclimation process. This information will then be used, together with information obtained by gene characterisation, in order to more fully understand the nature of the sfr3 mutation. 8 samples were used in this experiment.						
+Date of Experiment							
+Term Source Name	EFO						
+Term Source Version							
+Term Source File	http://bar.ebi.ac.uk:8080/trac/browser/branches/curator/ExperimentalFactorOntology/ExFactorInOWL/currentrelease/eforelease/efo.owl						
+Person Last Name	Nottingham Arabidopsis Stock Centre (NASC)	Garton					
+Person First Name		Sarah					
+Person Mid Initials							
+Person Email	affy@arabidopsis.info						
+Person Affiliation	Nottingham Arabidopsis Stock Centre (NASC)						
+Person Phone	+44 (0)115 951 3237						
+Person Fax	+44 (0)115 951 3297						
+Person Address	School of Biosciences, University of Nottingham, Nottingham Arabidopsis Stock Centre (NASC), Sutton Bonington Campus, Loughborough, United Kingdom						
+Person Roles	submitter						
+Person Roles Term Source REF							
+Person Roles Term Accession Number							
+Normalization Type							
+Normalization Term Accession Number							
+Normalization Term Source REF							
+Replicate Type							
+Replicate Term Accession Number							
+Replicate Term Source REF							
+Experimental Design							
+Experimental Design Term Accession Number							
+Experimental Design Term Source REF							
+Quality Control Type							
+Quality Control Term Accession Number							
+Quality Control Term Source REF							
+Protocol Name	P-GSE19254-1	P-GSE19254-6	P-GSE19254-5	P-GSE19254-3	P-GSE19254-2	P-GSE19254-4	P-GSE19254-7
+Protocol Description	ID_REF = <br>VALUE = MAS5.0 signal intensity<br>ABS_CALL = the call in an absolute analysis that indicates if the transcript was present (P), absent (A), or marginal (M)<br>DETECTION P-VALUE = p-value that indicates the significance level of the detection call	Scanned according to guidelines set out by Affymetrix, Santa Clara, CA.	Biotin Labelled cRNA using &quot;Affymetrix GeneChip Hybridization, Wash and Stain Kit&quot;, according to guidelines set out by Affymetrix, Santa Clara, CA	Qiagen RNAeasy kit protocol	Seeds were sown in trays containing compost comprised of 6 parts Levington's M3, 6 parts John Innes no. 3 and 1 part perlite. The trays were placed at 4 degrees centigrade for 48 hours prior to transfer to the growth room. Growth conditions were short day (8hrs light, 16 hrs dark), 20 degrees centigrade at 70% humidity. Light intensity was 100 micro Einsteins.	Labelled using protocol described in manual &quot;Affymetrix GeneChip Expression Analysis Technical Manual&quot;, One-Cycle target labelling	Raw data from the microarrays was normalized at probe-level using MAS5 algorithm. The detection calls (present, marginal, absent) for each probe set was obtained using the GCOS system
+Protocol Software							
+Protocol Hardware							
+Protocol Contact							
+Protocol Type	bioassay_data_transformation	image_aquisition	hybridization	nucleic_acid_extraction	grow	labeling	feature_extraction
+Protocol Term Source REF							
+Protocol Term Accession Number							
+Experimental Factor Name	GENOTYPE	GROWTH CONDITION					
+Experimental Factor Type	genotype	growth_condition					
+Experimental Factor Term Source REF							
+Experimental Factor Term Accession Number							
+Publication Title							
+Publication Author List							
+PubMed ID							
+Publication DOI							
+Publication Status							
+Publication Status Term Source REF							
+Publication Status Term Accession Number							
+Comment[SecondaryAccession]	GSE19254						
+Comment[GEOLastUpdateDate]	2011-03-01						
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for sfr3 after growth in cold conditions						
+Comment[AEExperimentType]	transcription profiling by array						
+Comment[GEOReleaseDate]	2009-12-04						
+Comment[ArrayExpressSubmissionDate]	2009-12-02						
+SDRF File	E-GEOD-19254.sdrf.txt						

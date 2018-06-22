@@ -1,0 +1,26 @@
+Comment[ArrayExpressAccession]	E-GEOD-48915
+MAGE-TAB Version	1.1						
+Public Release Date	2013-07-17
+Investigation Title	Expression data from tissues during somatic embryogenesis in Arabidopsis						
+Comment[Submitted Name]	Expression data from tissues during somatic embryogenesis in Arabidopsis
+Experiment Description	We collected tissues from bent cotyledon stage zygotic embryos, proliferating tissue at day 7 and day 14 induction of somatic embryogenesis and mature somatic emrbyos in a wild type (Col-0) and vtc2 (SALK_146824) insertion. We used microarrays to identify global patterns of gene activity during somatic embryogenesis in a wild type (Col-0) and vitamin C deficient mutant (vtc2) RNA was extracted and amplified from four stages of somatic embryogenesis (bent cotyledon, day 7 induction, day 14 induction, and mature somatic embryos) in a wild type (Col-0) and vitamin C deficient mutant (vtc2) before being hybridized to the Arabidopsis ATH1 GeneChip in duplicate (two biological replicates).						
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Belmonte	Belmonte	Chan	Becker	Mao	Lee	
+Person First Name	Mark	Mark	Ainsley	Michael	Sherry	Samantha	
+Person Mid Initials	Findlay						
+Person Email	geo@ncbi.nlm.nih.gov						
+Person Affiliation	University of Manitoba						
+Person Address	Biological Sciences, University of Manitoba, 50 Sifton Road, Winnipeg, Manitoba, Canada						
+Person Roles	submitter						
+Protocol Name	P-GSE48915-1	P-GSE48915-5	P-GSE48915-6	P-GSE48915-2	P-GSE48915-3	P-GSE48915-4	P-GSE48915-7
+Protocol Description	The data were analyzed with the Affymetrix GeneChip Operating system 1.4 (GCOS) using default analysis settings and global scaling as a normalization method.  The mean target intensity of each array was set to 500. ID_REF =  VALUE = normalized signal intensity CALL =  DETECTION = 	Amplification and labeling was performed using 3 Î¼g RNA into the Enzo Single-Round RNA Amplification and Biotin Labeling system (Life Technologies).	Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45C on the Arabidopsis ATH1 Array. GeneChips were washed and stained in the Affymetrix Fluidics Station 450.	bent cotyledon embryos were cultured on modified MS media supplemented with the phytohormone 2,4-D for 14 days to promote callus development. Explants that formed callus were then transferred to MS media lacking 2,4-D for embryos to develop.	plants were grown in a Conviron growth cabinet under long day conditions (16 hour light, 8 hours dark) with fluorescent lamps at 22°C and 50% - 70% relative humidity.	Total RNA was extracted using Plant RNA reagent (Invitrogen). DNA contamination was removed with the Ambion Turbo DNA-free kit (Life Technologies)	GeneChips were scanned using the Affymetrix GeneChip Scanner 3000.
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	DEVELOPMENTAL STAGE	GENOTYPE					
+Experimental Factor Type	developmental stage	genotype					
+Comment[SecondaryAccession]	GSE48915						
+Comment[GEOReleaseDate]	2013-07-17						
+Comment[ArrayExpressSubmissionDate]	2013-07-16						
+Comment[GEOLastUpdateDate]	2013-07-17						
+Comment[AEExperimentType]	transcription profiling by array						
+SDRF File	E-GEOD-48915.sdrf.txt

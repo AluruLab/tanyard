@@ -1,0 +1,57 @@
+Comment[ArrayExpressAccession]	E-GEOD-33790									
+Public Release Date	2012-06-17									
+Investigation Title	The response and recovery of Arabidopsis thaliana transcriptome to phosphate starvation [ATH1-121501]									
+Comment[Submitted Name]	The response and recovery of Arabidopsis thaliana transcriptome to phosphate starvation [ATH1-121501]									
+Experiment Description	Background: Over application of phosphate fertilizers in modern agriculture contaminates waterways and disrupts natural ecosystems. Nevertheless, this is a common practice among farmers, especially in developing countries as abundant fertilizers are believed to boost crop yields. The study of plant phosphate metabolism and its underlying genetic pathways is key to discovering methods of efficient fertilizer usage. The work presented here describes the first genome-wide resource on the molecular dynamics underpinning the response and recovery in roots and shoots of Arabidopsis thaliana to phosphate-starvation.   Results: Genome-wide profiling revealed minimal overlap between root and shoot transcriptomes suggesting two independent phosphate-starvation regulons. Novel gene expression patterns were detected for over 1000 candidates and were classified as either initial, persistent, or latent responders. Comparative analysis to AtGenExpress identified novel cohorts of genes co-regulated across multiple stimuli. The hormone ABA displayed a dominant role in regulating many phosphate-responsive candidates. Analysis of co-regulation enabled the determination of primary versus redundant members of closely related gene families with respect to phosphate-starvation. Thus, among others, we show that PHO1 acts in shoot, whereas PHO1;H1 is likely the primary regulator in root.   Conclusion: Our results uncover a much larger, staged responses to phosphate-starvation than previously described.  To our knowledge, this work describes the highest resolution of genome-wide data on plant nutrient stress to date. 6 Sample types, 3 replicates each									
+Date of Experiment										
+Term Source Name	EFO									
+Term Source Version										
+Term Source File	http://www.ebi.ac.uk/efo/efo.owl									
+Person Last Name	Liu	Chua	Woo	MacPherson	Liu	Wang	Kiba	Hannah	Wang	Bajic
+Person First Name	Jun	Nam-Hai	Jongchan	Cameron	Jun	Huan	Takatoshi	Matthew	Xiu-Jie	Vladimir
+Person Mid Initials				R						B
+Person Email	jliu@rockefeller.edu									
+Person Affiliation	The Rockefeller University									
+Person Phone										
+Person Fax										
+Person Address	Laboratory of Plant Molecular Biology, The Rockefeller University, 1230 York Avenue, New York, NY, USA									
+Person Roles	submitter									
+Person Roles Term Source REF										
+Person Roles Term Accession Number										
+Normalization Type										
+Normalization Term Accession Number										
+Normalization Term Source REF										
+Replicate Type										
+Replicate Term Accession Number										
+Replicate Term Source REF										
+Experimental Design										
+Experimental Design Term Accession Number										
+Experimental Design Term Source REF										
+Quality Control Type										
+Quality Control Term Accession Number										
+Quality Control Term Source REF										
+Protocol Name	P-GSE33790-1	P-GSE33790-6	P-GSE33790-3	P-GSE33790-8	P-GSE33790-7	P-GSE33790-2	P-GSE33790-4	P-GSE33790-5		
+Protocol Description	ID_REF = <br>VALUE = log2 quantile normalized signal intensity	Hybridization and scanning of all arrays were done at the Genomics Resource Center in the Rockefeller University following the manufacturer’s instructions (Affymetrix).	Non-sterile WT (Col-0) seeds were sowed on rock wool (Grodan Inc.) pre-soaked in basal MGRL hydroponic media24 and cold-treated at 4°C for 3 days. Plants were grown at 22°C under 150 μmol m-2 S-1 fluence rate and a 12hr:12hr light:dark cycle. To minimize environmental variation, plants were rotated in growth chambers once a day.	Raw Signal intensity were normalized by quantile method using R statistical environment with affy package. The expression values are shown in log2 scale.	Hybridization and scanning of all arrays were done at the Genomics Resource Center in the Rockefeller University following the manufacturer’s instructions (Affymetrix).	In phosphate depleted media, 1.75 mM MES (pH 5.8) was used instead of 1.75 mM sodium phosphate (pH 5.8). All hydroponic media were aerated to maximize air supply during hydroponic culture. All plants were grown in basal MGRL hydroponic media for 20 days before being transferred to a phosphate-deficient medium. During the 10-day treatment, the phosphate-deficient medium was replaced every three days. For recovery experiments, plants previously grown in phosphate-deficient medium for 10 days were transferred to full-strength MGRL medium for an additional 3 days. Samples were collected on the 10th and 13th (10+3) day. Phosphate-starved shoot and root samples were collected separately at the indicated time point. Furthermore, all experiment procedures such as media replacement and sample collection were performed in the middle of day in order to minimize possible circadian effect. In parallel, control plants were grown in a full-strength MGRL media before sample collection on the 10th day after the initial 20-day growth period.	Total RNAs extracted by RNA easy extraction kit (Qiagen) were used for Arabidopsis Genechip ATH1	The efficiency of biotin labeling was confirmed by Gel-shift assay with NeutrAvidin (Pierce) as described in Genechip Whole transcript (WT) double-stranded target assay manual (Affymetrix).		
+Protocol Software										
+Protocol Hardware										
+Protocol Contact										
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling		
+Protocol Term Source REF										
+Protocol Term Accession Number										
+Experimental Factor Name	treatment	organism part								
+Experimental Factor Type	treatment	organism part								
+Experimental Factor Term Source REF										
+Experimental Factor Term Accession Number										
+Publication Title	The response and recovery of the Arabidopsis thaliana transcriptome to phosphate starvation.									
+Publication Author List	Woo J, Macpherson CR, Liu J, Wang H, Kiba T, Hannah M, Wang XJ, Bajic VB, Chua NH									
+PubMed ID	22553952									
+Publication DOI	10.1186/1471-2229-12-62									
+Publication Status										
+Publication Status Term Source REF										
+Publication Status Term Accession Number										
+Comment[SecondaryAccession]	GSE33790									
+Comment[GEOLastUpdateDate]	2012-06-17									
+Comment[AEExperimentType]	transcription profiling by array									
+Comment[GEOReleaseDate]	2012-06-16									
+Comment[ArrayExpressSubmissionDate]	2011-11-17									
+SDRF File	E-GEOD-33790.sdrf.txt									

@@ -1,0 +1,51 @@
+Investigation Title	Transcription profiling of Arabidopsis thaliana wild type and freezing sensitive mutants				
+Comment[Submitted Name]	Cold induced changes: differences between the Arabidopsis thaliana wild type and freezing sensitive mutants.				
+Experimental Design	unknown_experiment_design_type	transcription profiling by array			
+Experimental Design Term Source REF		EFO			
+Comment[AEExperimentType]	transcription profiling by array				
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for str6 and sfr2				
+Comment[ArrayExpressReleaseDate]	2008-06-14				
+Comment[SecondaryAccession]	GSE5711				
+Comment[AEMIAMESCORE]	4				
+Comment[ArrayExpressAccession]	E-GEOD-5711				
+Comment[MAGETAB TimeStamp_Version]	2010-08-06 17:20:11 Last Changed Rev: 13058				
+Experimental Factor Name	GENOTYPE				
+Experimental Factor Type	genotype				
+Experimental Factor Term Source REF					
+Person Last Name	(NASC)				
+Person First Name	Nottingham Arabidopsis Stock Centre				
+Person Mid Initials					
+Person Email	affy@arabidopsis.info				
+Person Phone					
+Person Fax					
+Person Address	School of Biosciences, University of Nottingham, Nottingham Arabidopsis Stock Centre (NASC), Sutton Bonington Campus, Loughborough, LE12 5RD, United Kingdom				
+Person Affiliation	Nottingham Arabidopsis Stock Centre (NASC)				
+Person Roles	submitter				
+Person Roles Term Source REF					
+Quality Control Type					
+Quality Control Term Source REF					
+Replicate Type					
+Replicate Term Source REF					
+Normalization Type					
+Normalization Term Source REF					
+Date of Experiment					
+Public Release Date	2008-06-14				
+PubMed ID					
+Publication DOI					
+Publication Author List					
+Publication Title					
+Publication Status					
+Publication Status Term Source REF					
+Experiment Description	Arabidopsis sfr mutants are deficient in cold acclimation during exposure to coolnon-freezing temperatures. Although not visibly affected by the cold they have lost the ability to survive subsequent freezing. We plan to investigate how the sfr2 and sfr6 mutants respond to low temperature on the gene expression level. Wild type plants that have undergone identical treatments in parallel are necessary controls. The cold treatment of plants in the rosette stage (soil grown in a 8/16 hours day/night cycle) will be carried out in a cooled growth chamber at 4 degrees for 24 hours (same light regimetreatment starting/ending at the 4th hour of light). The aerial parts of the treated and untreated plants will be collected and frozen immediately in liquid nitrogen for RNA extraction. Comparison of the cold response of thousands of Arabidopsis genes in the wild type to the situation in our freezing sensitive mutants will enhance our understanding of the cold response itself and illuminate the effect of the mutations on the cold acclimation process. Experimenter name = Irene Bramke; Experimenter phone = 01784 44 3770; Experimenter fax = 01784 43 4326; Experimenter address = Royal Holloway; Experimenter address = University of London; Experimenter address = School of Biological Sciences; Experimenter address = Bourne Building; Experimenter address = Laboratory 406; Experimenter zip/postal_code = TW20 OEX; Experimenter country = UK Experiment Overall Design: 6 samples were used in this experiment				
+Protocol Name	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6			
+Protocol Type	hybridization	feature_extraction			
+Protocol Description	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 			
+Protocol Parameters					
+Protocol Hardware					
+Protocol Software	MicroArraySuite 5.0	MicroArraySuite 5.0			
+Protocol Contact					
+Protocol Term Source REF	mo				
+SDRF File	E-GEOD-5711.sdrf.txt				
+Term Source Name	NCBI Taxonomy	The MGED Ontology	ArrayExpress	EFO	mo
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version					

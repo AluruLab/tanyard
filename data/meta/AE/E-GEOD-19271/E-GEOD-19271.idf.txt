@@ -1,0 +1,58 @@
+Comment[ArrayExpressAccession]	E-GEOD-19271					
+Public Release Date	2009-12-09					
+Investigation Title	Identification of circadian transcripts that are co-regulated with [Ca2+]cyt					
+Comment[Submitted Name]	Identification of circadian transcripts that are co-regulated with [Ca2+]cyt					
+Experiment Description	Our aim is to identify circadian transcripts that are co-regulated with [Ca2+]cyt, with the eventual goal of identifying genetic regulators and targets for circadian oscillations of [Ca2+]cyt.  We have identified two conditions in which [Ca2+]cyt behaves differently to other circadian outputs.  1.  Treatment of plants with nicotinamide, a metabolic inhibitor of ADPR cyclase, abolishes the circadian oscillations of [Ca 2+]cyt. However, leaf movement, CCA1, LHY, TOC1 and CAB transcript abundance and CAB promoter activity are all rhythmic albeit with a longer period (Dodd et al., 2007). 2.  The toc1-1 mutant, which shortens the circadian period of all other rhythms tested, has no effect on the period of [Ca2+]cyt oscillations (Xu et al., 2007).  We will measure the circadian regulation of transcript abundance in wild type (C24), toc1-1 and nicotinamide (C24)-treated plants. Method: Wild type (C24) and toc1-1 seeds were sown on 1/2MS 0.8% agar plates and imbibed at 4 C for 48 hours. Seedlings were grown in LD cycles of 12hL:12hD at 19 C for 11 days to entrain the oscillator.  Following transfer to LL at dawn on the 12th day, 50% of the wild type seedlings were dosed with 50 mM nicotinamide every 2 hours over the entire course of the experiment. Wild type, toc1-1 and nicotinamide-treated seedlings (approx. 100 for each sample, excluding roots) were harvested at 4 hour intervals from 49 to 93 hours in LL (12 time points covering the entire third and fourth circadian cycles). Two independent replicates of the whole experiment will be hybridised. 72 samples were used in this experiment.					
+Date of Experiment						
+Term Source Name	EFO					
+Term Source Version						
+Term Source File	http://bar.ebi.ac.uk:8080/trac/browser/branches/curator/ExperimentalFactorOntology/ExFactorInOWL/currentrelease/eforelease/efo.owl					
+Person Last Name	Nottingham Arabidopsis Stock Centre (NASC)	Robertson				
+Person First Name		Fiona				
+Person Mid Initials						
+Person Email	affy@arabidopsis.info					
+Person Affiliation	Nottingham Arabidopsis Stock Centre (NASC)					
+Person Phone	+44 (0)115 951 3237					
+Person Fax	+44 (0)115 951 3297					
+Person Address	School of Biosciences, University of Nottingham, Nottingham Arabidopsis Stock Centre (NASC), Sutton Bonington Campus, Loughborough, United Kingdom					
+Person Roles	submitter					
+Person Roles Term Source REF						
+Person Roles Term Accession Number						
+Normalization Type						
+Normalization Term Accession Number						
+Normalization Term Source REF						
+Replicate Type						
+Replicate Term Accession Number						
+Replicate Term Source REF						
+Experimental Design						
+Experimental Design Term Accession Number						
+Experimental Design Term Source REF						
+Quality Control Type						
+Quality Control Term Accession Number						
+Quality Control Term Source REF						
+Protocol Name	P-GSE19271-1	P-GSE19271-5	P-GSE19271-4	P-GSE19271-2	P-GSE19271-3	P-GSE19271-6
+Protocol Description	ID_REF = <br>VALUE = MAS5.0 signal intensity<br>ABS_CALL = the call in an absolute analysis that indicates if the transcript was present (P), absent (A), or marginal (M)<br>DETECTION P-VALUE = p-value that indicates the significance level of the detection call	Scanned according to guidelines set out by Affymetrix, Santa Clara, CA.	Biotin Labelled cRNA using &quot;Affymetrix GeneChip Hybridization, Wash and Stain Kit&quot;, according to guidelines set out by Affymetrix, Santa Clara, CA	Qiagen RNAeasy kit protocol	Labelled using protocol described in manual &quot;Affymetrix GeneChip Expression Analysis Technical Manual&quot;, One-Cycle target labelling	Raw data from the microarrays was normalized at probe-level using MAS5 algorithm. The detection calls (present, marginal, absent) for each probe set was obtained using the GCOS system
+Protocol Software						
+Protocol Hardware						
+Protocol Contact						
+Protocol Type	bioassay_data_transformation	image_aquisition	hybridization	nucleic_acid_extraction	labeling	feature_extraction
+Protocol Term Source REF						
+Protocol Term Accession Number						
+Experimental Factor Name	DEVELOPMENTAL STAGE	COMPOUND	SAMPLING TIME POINT	GENOTYPE		
+Experimental Factor Type	developmental_stage	treatment	sampling_time_point	genotype		
+Experimental Factor Term Source REF						
+Experimental Factor Term Accession Number						
+Publication Title	Correct biological timing in Arabidopsis requires multiple light-signaling pathways					
+Publication Author List	Dalchau N, Hubbard KE, Robertson FC, Hotta CT, Briggs HM, Stan GB, Gonçalves JM, Webb AA.					
+PubMed ID	20615944					
+Publication DOI	10.1073/pnas.1001429107					
+Publication Status	published					
+Publication Status Term Source REF	EFO					
+Publication Status Term Accession Number	EFO_0001796					
+Comment[SecondaryAccession]	GSE19271					
+Comment[GEOLastUpdateDate]	2011-03-01					
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for toc1 after treatment with nicotinamide sampled over a circadian time course					
+Comment[AEExperimentType]	transcription profiling by array					
+Comment[GEOReleaseDate]	2009-12-10					
+Comment[ArrayExpressSubmissionDate]	2009-12-02					
+SDRF File	E-GEOD-19271.sdrf.txt					

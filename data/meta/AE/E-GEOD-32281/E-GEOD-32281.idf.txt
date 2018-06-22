@@ -1,0 +1,29 @@
+Comment[ArrayExpressAccession]	E-GEOD-32281
+MAGE-TAB Version	1.1						
+Public Release Date	2013-02-19
+Investigation Title	Transcriptome in Col, C24, and their F1 at 10 DAS						
+Comment[Submitted Name]	Transcriptome in Col, C24, and their F1 at 10 DAS
+Experiment Description	We compared the expression among three lines, Col, C24, and their hybrids at 10 days after sowing (DAS). Whole plants without root in Col, C24, and their F1 hybrids with three replications.						
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Fujimoto	Fujimoto					
+Person First Name	Ryo	Ryo					
+Person Email	ryo.fujimoto@csiro.au						
+Person Affiliation	CSIRO						
+Person Address	CSIRO, Cnr Clunies Ross St & Barry Dr, Canberra, ACT, Australia						
+Person Roles	submitter						
+Protocol Name	P-GSE32281-1	P-GSE32281-6	P-GSE32281-5	P-GSE32281-3	P-GSE32281-2	P-GSE32281-4	P-GSE32281-7
+Protocol Description	ID_REF =  VALUE = MAS5.0 ABS_CALL = indicating whether the transcript was present (P), absent (A), or marginal (M) DETECTION P-VALUE = 	After hybridisation, the chip is washed and stained with SAPE using the appropriate fluidics script in the Affymetrix Fluidics Station 450. Upon completion of the washing, the chips are then scanned using the Affymetrix GeneChip Scanner 3000.	A total hybridisation volume of 300ul is prepared for each sample and 200ul loaded into a GeneChip. The chip is hybridised at 45C for 16 hours in an oven with a rotating wheel at 60rpm.	Total RNA was isolated from whole plants without root using SV Total RNA Isolation system (Promega)	Controlled enviromental condition (22C) under fluorescent lights and a 16h/8h (day/light) photoperiod.	1-3ug of total RNA was labelled using a cDNA synthesis kit GeneChip Eukaryotic poly-A RNA spikes (Millenium Sciences cat no. 900433) were added to the reaction to determine the labelling efficiency. The subsequent cDNA was cleaned using the Affymetrix GeneChip Sample Cleanup kit (Millenium Sciences cat no. 900371). Upon cleaning of the cDNA the next step was to incorporate biotin into the resultant cRNA using the Affymetrix IVT labelling kit (Millenium Sciences cat no. 900449). After the IVT process the labelled cRNA was cleaned using the above GeneChip Sample Cleanup kit. The quantity of product was ascertained using the Agilent Bioanalyser 2100 using the NanoChip protocol. A total of 20ug of labelled cRNA was then fragmented to the 50-200bp size range and quality control checked using the Bioanalyser 2100 using the NanoChip protocol. Samples that pass this checkpoint are then prepared for hybridisation to the GeneChip by preparing a probe cocktail (cRNA @ 0.05ug/ul) that includes 1x Hybridisation Buffer (100mM MES, 1m NaCl, 20mM EDTA, 0.01% Tween-20), 0.1mg/ml Herring Sperm DNA, 0.5mg/ml BSA, and 7% DMSO.	The scanner operating software, GCOS, converts the signal on the chip into a DAT file, which will then be used for generating subsequent CEL and CHP files for analysis.
+Protocol Type	bioassay_data_transformation	image_aquisition	hybridization	nucleic_acid_extraction	grow	labeling	feature_extraction
+Experimental Factor Name	ECOTYPE						
+Experimental Factor Type	ecotype						
+Publication Title	Heterosis of Arabidopsis hybrids between C24 and Col is associated with increased photosynthesis capacity.						
+Publication Author List	Fujimoto R, Taylor JM, Shirasawa S, Peacock WJ, Dennis ES						
+PubMed ID	22493265						
+Publication DOI	10.1073/pnas.1204464109						
+Comment[SecondaryAccession]	GSE32281						
+Comment[GEOReleaseDate]	2013-02-19						
+Comment[ArrayExpressSubmissionDate]	2011-09-21						
+Comment[GEOLastUpdateDate]	2013-02-19						
+Comment[AEExperimentType]	transcription profiling by array						
+SDRF File	E-GEOD-32281.sdrf.txt

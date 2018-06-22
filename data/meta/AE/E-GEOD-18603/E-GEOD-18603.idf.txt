@@ -1,0 +1,53 @@
+Investigation Title	Expression data from esd7-1 mutant vs wt (Ler)							
+Comment[Submitted Name]	Expression data from esd7-1 mutant vs wt (Ler)							
+Experimental Design	transcription profiling by array							
+Experimental Design Term Source REF	EFO							
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for esd7							
+Comment[SecondaryAccession]								
+Comment[SecondaryAccession]	GSE18603							
+Comment[ArrayExpressReleaseDate]	2010-10-14							
+Comment[AEMIAMESCORE]	4							
+Comment[ArrayExpressAccession]	E-GEOD-18603							
+Comment[MAGETAB TimeStamp_Version]	2010-10-31 14:31:18 Last Changed Rev: 14857							
+Experimental Factor Name	genotype							
+Experimental Factor Type	genotype							
+Experimental Factor Term Source REF								
+Person Last Name	Jarillo	López-González	Martínez-Zapater	Jarillo	del Olmo	Martín-Trillo	Piñeiro	
+Person First Name	Jose Antonio	Leticia	José	Jose	Iván	Maria	Manuel	
+Person Mid Initials			M	A		M	A	
+Person Email	jarillo@inia.es							
+Person Phone	+34 91 336 4576							
+Person Fax	+34 91 7157721							
+Person Address	PLANT DEVELOPMENTAL BIOLOGY, Centro de Biotecnología y Genomica de Plantas (UPM-INIA), Parque Cientifico y Tecnologico de la U.P.M. Campus de Montegancedo Pozuelo de Alarcón, Madrid, Madrid, Spain							
+Person Affiliation	Centro de Biotecnología y Genomica de Plantas (UPM-INIA)							
+Person Roles	submitter							
+Person Roles Term Source REF	The MGED Ontology							
+Quality Control Type								
+Quality Control Term Source REF								
+Replicate Type								
+Replicate Term Source REF								
+Normalization Type								
+Normalization Term Source REF								
+Date of Experiment								
+Public Release Date	2010-10-14							
+PubMed ID	19947980							
+Publication DOI	10.1111/j.1365-313X.2009.04093.x							
+Publication Author List	del Olmo I, López-González L, Martín-Trillo MM, Martínez-Zapater JM, Piñeiro M, Jarillo JA.							
+Publication Title	EARLY IN SHORT DAYS 7 (ESD7) encodes the catalytic subunit of DNA polymerase epsilon and is required for flowering repression through a mechanism involving epigenetic gene silencing.							
+Publication Status	published							
+Publication Status Term Source REF	EFO							
+Publication Status Term Accession Number	EFO_0001796							
+Experiment Description	We have characterized a mutation affecting the Arabidopsis EARLY IN SHORT DAYS 7 (ESD7) gene encoding the catalytic subunit of the DNA polymerase epsilon (e), AtPOL2A. esd7-1 mutations causes early flowering independently of photoperiod, shortened inflorescence internodes and altered leaf and root development. esd7-1 was a hypomorphic allele whereas KO alleles displayed an embryo-lethal phenotype. The SAM and the RAM in the esd7-1 seedlings were found to exhibit an altered disposition that might correlate with the abnormal expression pattern of SAM and RAM marker genes. esd7-1 showed higher sensitivity to DNA damaging reagents than wild type plants and altered expression of genes involved in DNA repair mechanisms by homologous recombination. Moreover, esd7 early flowering phenotype requires functional FT and SOC1 proteins and might be also related to the mis-regulation of AG and AG-like gene expression found in esd7. Loci involved in the modulation of the chromatin structural dynamics, such as TFL2 and EBS, which negatively regulate FT expression, were found to interact genetically with ESD7, and the carboxy terminus of ESD7 interacted with TFL2 in vitro. Besides, fasciata2 (fas2) mutations suppressed esd7 early flowering phenotype and INCURVATA 2 (ICU2) was found to be epistatic to ESD7.  Discrete regions of the chromatin of FT and AG loci were enriched in activating epigenetic marks in the esd7-1 mutant. We concluded that ESD7 might be participating in processes involved in chromatin-mediated cellular memory. We used microarrays to evaluate the genes whose expression was mis-regulated by the esd7-1 mutation Ler and esd7-1 14-d-old seedlings grown under SD photoperiods, were collected 8 h after dawn for RNA extraction and hybridization on Affymetrix microarrays. The experimental design comprised three replicates of each genotype and each replicate corresponded to an RNA extraction of an independent pool of plants.							
+Protocol Name	P-GSE18603-4	P-GSE18603-3	P-GSE18603-2	P-GSE18603-5	P-GSE18603-6	P-GSE18603-7	P-GSE18603-8	P-GSE18603-1
+Protocol Type	nucleic_acid_extraction	grow	specified_biomaterial_action	labeling	hybridization	image_aquisition	feature_extraction	bioassay_data_transformation
+Protocol Description	Total RNA was isolated using the RNeasy Plant Mini Kit (Qiagen) according to the manufacturerâs protocol. Each RNA preparation was tested for degradation using the Agilent 2100 Bioanalyzer (Agilent technologies, Palo Alto, CA).	Total RNA was isolated using the RNeasy Plant Mini Kit (Qiagen) according to the manufacturerâs protocol. Each RNA preparation was tested for degradation using the Agilent 2100 Bioanalyzer (Agilent technologies, Palo Alto, CA).	Ler and esd7-1 14-d-old seedlings grown under SD photoperiods	cDNA was synthesized from 4 Âµg of total RNA using One-cycle target labeling and control reagents (Affymetrix, Santa Clara, CA) to produce biotin labeled cRNA. The cRNA preparation (15 Âµg) were fragmented at 94ÂºC for 35 min into 35-200 bases in length.	Three biological replicates for each condition were independently hybridized.If the quality control was correct, then 10 Âµg of fragmented cRNA were hybridized to the Arabidopsis ATH1 Genome array (Affymetrix, Santa Clara, CA), containing 22500 transcript variants from 24000 well -characterized Arabidopsis thaliana genes. Each sample was added to a hybridization solution containing 100mM 2-(N-morpholino) ethanesulfonic acid, 1 M Na+, and 20mM of EDTA in the presence of 0.01% of Tween-20 to a final cRNA concentration of 0.05 Âµg/ml. Hybridization was performed for 16 h at 45ÂºC . Each microarray was washed and stained with streptavidin-phycoerythrin in a Fluidics station 450 (Affymetrix)	GeneChips were scanned at 2.5 Âµm resolution in a GeneChipÂ® Scanner 3000 7G System (Affymetrix) Data analyses were performed using GeneChip Operating Software (GCOS).	Analysis was performed using the affylmaGUI R package (Wettenhall et al, Bioinformatics (2006), 22, 897-899). Robust Muti-array Analysis (RMA) algorithm was used for background correction, normalization and expression levels summarization (Irizarry et al (2003) Biostatistics, 4, 249-264). Next, differential expression analysis was performed with the Bayes t-statistics from the linear models for Microarray data (limma), included in the affylmGUI package. P-values were corrected for multiple-testing using the Benjamini-Hochberg's method (False Discovery Rate) (Benjamini, Y and Hochberg, Y (1995) J.Roy.Stat.Soc, 57, 289-300, Reiner et al (2003) Bioinformatics, 19, 368-375). The data were visualized by FIESTA (http://bioinfogp.cnb.csic.es/tools/fiesta_server)	ID_REF = <br>VALUE = log RMA signal
+Protocol Parameters								
+Protocol Hardware								
+Protocol Software								
+Protocol Contact								
+Protocol Term Source REF	The MGED Ontology	The MGED Ontology	The MGED Ontology	The MGED Ontology	The MGED Ontology		The MGED Ontology	The MGED Ontology
+SDRF File	E-GEOD-18603.sdrf.txt							
+Term Source Name	EFO		The MGED Ontology	ArrayExpress	EFO	The MGED Ontology		
+Term Source File	http://www.ebi.ac.uk/efo/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php		
+Term Source Version								

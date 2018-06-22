@@ -1,0 +1,52 @@
+Investigation Title	Transcription profiling of Arabidopsis wild type (Col), aba2 (or gin1-3), etr1-1, and ein2-1 to investigate ABA and ethylene signaling crosstalk				
+Comment[Submitted Name]	ABA and ethylene signaling crosstalk				
+Experimental Design	unknown_experiment_design_type	transcription profiling by array			
+Experimental Design Term Source REF		EFO			
+Comment[AEExperimentType]	transcription profiling by array				
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for aba2, gin1, etr1 or ein2				
+Comment[SecondaryAccession]	GSE12715				
+Comment[ArrayExpressReleaseDate]	2009-04-04				
+Comment[AEMIAMESCORE]	3				
+Comment[ArrayExpressAccession]	E-GEOD-12715				
+Comment[MAGETAB TimeStamp_Version]	2010-07-30 05:45:21 Last Changed Rev: 13058				
+Experimental Factor Name	GENOTYPE	AGE			
+Experimental Factor Type	genotype	age			
+Experimental Factor Term Source REF					
+Person Last Name	Cheng				
+Person First Name	Wan-Hsing				
+Person Mid Initials					
+Person Email	whcheng@gate.sinica.edu.tw				
+Person Phone					
+Person Fax					
+Person Address	Plant Molecular Genetics, Institute of Plant and Microbial Biology, Academia Sinica, 128, Section 2, Academia Road, Nankang, Taipei, 115, Taiwan, R.O.C.				
+Person Affiliation	Academia Sinica				
+Person Roles	submitter				
+Person Roles Term Source REF	The MGED Ontology				
+Quality Control Type					
+Quality Control Term Source REF					
+Replicate Type					
+Replicate Term Source REF					
+Normalization Type					
+Normalization Term Source REF					
+Date of Experiment					
+Public Release Date	2009-04-04				
+PubMed ID	19513806				
+Publication DOI	10.1007/s11103-009-9509-7				
+Publication Author List	Cheng WH, Chiang MH, Hwang SG, Lin PC.				
+Publication Title	Antagonism between abscisic acid and ethylene in Arabidopsis acts in parallel with the reciprocal regulation of their metabolism and signaling pathways.				
+Publication Status	published				
+Publication Status Term Source REF	EFO				
+Publication Status Term Accession Number	EFO_0001796				
+Experiment Description	Our current study showed that the ABA and ethylene signal transduction pathways function in parallel and have antagonistic interaction during seed germination and early seedling growth. To further address the possible mechanism by which these two hormones crosstalk, microarray analysis was performed. By microarray analysis we found that an ACC oxidase (ACO) was significantly up-regulated in the aba2 mutant, whereas the 9-CIS-EPOXYCAROTENOID DIOXYGENASE (NCED3) gene in ein2, and both the ABSCISIC ACID INSENSITIVE1 (ABI1) and cytochrome P450, family 707, subfamily A, polypeptide 2 (CYP707A2) genes in etr1-1 were up- and down-regulated, respectively. These data further suggest that ABA and ethylene may control the hormonal biosynthesis, catabolism or signaling of each other to enhance their antagonistic effects upon seed germination and early seedling growth. Experiment Overall Design: Cold pre-treated seeds of wild type (Col), aba2 (or gin1-3), etr1-1, and ein2-1, were grown on 1% sucrose agar plates for 12 to 14 days. Total RNAs were extracted from which 10 Î¼g aliquots were used for cDNA synthesis, labeling by in vitro transcription followed by fragmentation according to the GeneChip Expression Analysis Technical Manual rev5, Affymetrix. Eleven Î¼g of each labeled samples was hybridized to an ATH1 GeneChip at 45oC for 16.5 hours. The washing and staining steps were performed using a Fluidic Station-450 and the ATH1 slides were scanned using the Affymetrix GeneChip Scanner 7G. Subsequent data processing and analysis was performed using the Affymetrix Microarray Suit Software version 5.0. Two independent sets of microarray analyses were performed in this study. The wild type in this study was used as a control.				
+Protocol Name	P-G12715-2	P-G12715-3	P-G12715-1	P-AFFY-6	Affymetrix:Protocol:ExpressionStat
+Protocol Type	nucleic_acid_extraction	labeling	labeling	feature_extraction	bioassay_data_transformation
+Protocol Description	Qiagen RNeasy plant kit	standard Affymetrix expression array protocol	Standard Affymetrix expression array protocol.	Title: Affymetrix CEL analysis. Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 
+Protocol Parameters					
+Protocol Hardware					
+Protocol Software				MicroArraySuite 5.0	MicroArraySuite 5.0
+Protocol Contact					
+Protocol Term Source REF					The MGED Ontology
+SDRF File	E-GEOD-12715.sdrf.txt				
+Term Source Name	NCBI Taxonomy	The MGED Ontology	ArrayExpress	EFO	The MGED Ontology
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version					

@@ -1,0 +1,31 @@
+Comment[ArrayExpressAccession]	E-GEOD-33344							
+MAGE-TAB Version	1.1							
+Public Release Date	2013-01-01							
+Investigation Title	ABI3 Network Walking							
+Comment[Submitted Name]	ABI3 Network Walking							
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis transcription factor ABI3 in root protoplasts							
+Experiment Description	Deciphering gene regulatory networks (GRNs) is a key for understanding gene expression regulations in living systems. Here, we describe the investigation of the ABSCISIC ACID INSENSITIVE 3 (ABI3) plant transcription factor GRN vicinity by a technique called Network Walking. The method involves transient transformation of protoplasts and inducible nuclear re-localization of transcription factors along with transcriptomic analysis. This genome-wide approach allowed the de novo  recovery of i) direct and indirect ABI3 target genes, ii) cis-binding site preference, and iii) biological processes regulated by this canonical abscisic acid response factor. This work improves our knowledge of ABI3 action by inferring network motifs (such as Feed Forwar Loops) under its influence. The novel high-throughput-oriented technique will help accelerate GRN systems investigations in plants, as well as in other organisms. This work studies ABI3 direct and indirect targets by a technique named Network Walking. Root/protoplasts were treated with or without dexamethasone (DEX) and cycloheximide (CHX). 3 reps each.							
+Term Source Name	ArrayExpress	EFO						
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl						
+Person Last Name	Krouk	Bargmann	Coruzzi	Krouk				
+Person First Name	Gabriel	Bastiaan	Gloria	Gabriel				
+Person Mid Initials			M					
+Person Email	geo@ncbi.nlm.nih.gov							
+Person Affiliation	New york University							
+Person Address	Center for Genomics and Systems Biology, New york University, 100 Washington Square East. 1009 Main Building, New York, NY, USA							
+Person Roles	submitter							
+Protocol Name	P-GSE33344-1	P-GSE33344-6	P-GSE33344-3	P-GSE33344-8	P-GSE33344-7	P-GSE33344-2	P-GSE33344-4	P-GSE33344-5
+Protocol Description	ID_REF =  VALUE = MAS5.0 signal intensity	Affymetrix recommendations.	Plants are grown on MS/2 media.	Mas5 [R].	Affymetrix recommendations.	Transformed protoplasts were treated with combinations of CHX (35 ﾵM) or DEX (10 ﾵM). CHX blocks translation into proteins and DEX induced the transcription factor nuclear localization.	QIAGEN Kit.	NuGEN Kit.
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Experimental Factor Name	treatment							
+Experimental Factor Type	treatment							
+Comment[SecondaryAccession]	GSE33344							
+Comment[GEOReleaseDate]	2013-01-01							
+Comment[ArrayExpressSubmissionDate]	2011-10-31							
+Comment[GEOLastUpdateDate]	2013-01-02							
+Comment[AEExperimentType]	transcription profiling by array							
+SDRF File	E-GEOD-33344.sdrf.txt							
+Publication Title	TARGET: a transient transformation system for genome-wide transcription factor target discovery.							
+Publication Author List	Bargmann BO, Marshall-Colon A, Efroni I, Ruffel S, Birnbaum KD, Coruzzi GM, Krouk G.							
+PubMed ID	23335732							
+Publication DOI	10.1093/mp/sst010							

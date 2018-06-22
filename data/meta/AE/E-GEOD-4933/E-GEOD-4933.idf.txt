@@ -1,0 +1,50 @@
+Investigation Title	Transcription profiling of early response of Arabidopsis root tips exposed to 1 hour of red light	
+Comment[Submitted Name]	Expression data from 7 day old Arabidopsis roots with 1h  Red light or dark	
+Experimental Design	compound_treatment_design	co-expression_design	transcription profiling by array	
+Experimental Design Term Source REF	mo	mo	EFO	
+Comment[ArrayExpressReleaseDate]	2007-10-04	
+Comment[SecondaryAccession]	GSE4933	
+Comment[AEMIAMESCORE]	4	
+Comment[SecondaryAccession]	GDS2260	
+Comment[ArrayExpressAccession]	E-GEOD-4933	
+Comment[MAGETAB TimeStamp_Version]	2010-08-05 18:16:22 Last Changed Rev: 13058	
+Experimental Factor Name	GrowthCondition	Time	
+Experimental Factor Type	light	time	
+Experimental Factor Term Source REF	
+Person Last Name	Correll	
+Person First Name	Melanie	
+Person Mid Initials	
+Person Email	correllm@ufl.edu	
+Person Phone	
+Person Fax	
+Person Address	Correll, Agricultural and Biological Engineering, University of Florida, 142 Frazier Rogers Hall, Gainesville, 32606, USA	
+Person Affiliation	University of Florida	
+Person Roles	submitter	
+Person Roles Term Source REF	The MGED Ontology	
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2007-10-04	
+PubMed ID	16908503	
+Publication DOI	16908503	
+Publication Author List	Maria Lia Molas, John Z Kiss, Melanie J Correll	
+Publication Title	Gene profiling of the red light signalling pathways in roots.	
+Publication Status	journal_article	
+Publication Status Term Source REF	The MGED Ontology	
+Experiment Description	Red light can affect a variety of responses in Arabidopsis.  We characterize the early gene expression patterns of roots exposed to 1 hour of red light.  Early genes indicate elements involved in photomorphogenesis, chloroplast development, PAL pathways, root hair development are regulated by 1 hour of red light; We used microarrays to detail the gene expression underlying the effects of red light on roots. Experiment Overall Design: 7 Day dark-grown 1 cm Arabidopsis root tips were harvested for RNA extraction and hybridization on Affymetrix microarrays. We pooled samples from several Petri plates for each experiment to obtain enough RNA for arrays.  Three experiments were performed. Treatment 1 hour of red light 630 nm (max) and dark controls	
+Protocol Name	P-G4933-1	P-G4933-8	P-G4933-9	P-G4933-2	P-G4933-5	P-G4933-6	P-G4933-7	
+Protocol Type	specified_biomaterial_action	grow	grow	nucleic_acid_extraction	labeling	hybridization	feature_extraction	
+Protocol Description	Seeds were sterilized with 70% ethanol 5min, two rinses  90% ethanol 10s, 4 rinses sterile water. Seeds were plated on 1/2 MS media + 1% (w/v) sucrose, 1.2% agar, pH5.6, incubated at 23 Â&deg;C in the dark for 7 days. Seedlings illuminated with 1 h of 12-14 umol m-2 s-1 red light 630 nm max wavelength.	Roots were grown in 23Â&deg;C dark for 7 days and then transferred to dark for 1 hour	Roots were grown in 23Â&deg;C dark for 7 days and then transferred to 1 hour red light	Seeds collected in RNAlater (Ambion) and roots excised for further analysis , Qiagen RNeasy kit	Biotinylated cRNA were prepared using GeneChip One-Cycle Target Labeling Kit (Affymetrix) from 5ug of total RNA.  First strand synthesis was primed with T7dT24 oligonuclided primer containing a T7 RNA polymerase promoter seqyance on the 5'end. Second strand products were cleaned and used for IVT with biotin-labeled nucelotides.	Following fragmentation, 15 microg of cRNA were hybridized for 16 hr at 45C on ATH1 Arabidopsis GeneChip Array. GeneChips were washed (Molecular Probes, OR).	GeneChips were scanned using a GeneCHip Scanner 3000 (Affymetrix).	
+Protocol Parameters	
+Protocol Hardware	
+Protocol Software	
+Protocol Contact	
+Protocol Term Source REF							The MGED Ontology	
+SDRF File	E-GEOD-4933.sdrf.txt	
+Term Source Name	The MGED Ontology		Plant Ontology	NCBI Taxonomy	tair_dev:1.27	ArrayExpress	mo	EFO	The MGED Ontology	
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php		http://www.plantontology.org/	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://www.arabidopsis.org/info/ontologies/	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version					1.27					

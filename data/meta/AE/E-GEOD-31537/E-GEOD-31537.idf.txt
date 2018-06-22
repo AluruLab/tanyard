@@ -1,0 +1,57 @@
+Comment[ArrayExpressAccession]	E-GEOD-31537
+Public Release Date	2011-08-21						
+Investigation Title	Analysis of gene expression in the nectarless mutant cwinv4-1						
+Comment[Submitted Name]	Analysis of gene expression in the nectarless mutant cwinv4-1
+Experiment Description	Many flowering plants attract pollinators by offering a reward of floral nectar. Remarkably, the molecular events involved in the development of nectaries, the organs that produce nectar, as well as the synthesis and secretion of nectar itself, are poorly understood. We previously identified a mutant, cwinv4-1, for the gene CELL WALL INVERTASE 4 that failed to produde nectar. This study was undertaken to understand transcriptional changes that occur in cwinv4-1 mature lateral nectaries. RNA was isolated from Stage 14-15 lateral nectaries (secretory stage) of wild-type and cwinv4-1 (mutant) Arabidopsis thaliana ecotype Columbia flowers. Two biological replicates were performed for cwinv4-1 and a single biological replicate was performed for wild-type. Normalization was also performed with other pre-existing wild-type lateral nectary array data.						
+Date of Experiment							
+Term Source Name	EFO
+Term Source Version							
+Term Source File	http://www.ebi.ac.uk/efo/efo.owl						
+Person Last Name	xu	Kram	Xu	Carter			
+Person First Name	wayne	Brian	Wayne	Clay			
+Person Mid Initials		W	W	J			
+Person Email	wxu@msi.umn.edu						
+Person Affiliation	university of minnesota						
+Person Phone							
+Person Fax							
+Person Address	supercomputing Institute, university of minnesota, 117 Pleasant ST, minneapolis, MN, USA						
+Person Roles	submitter						
+Person Roles Term Source REF							
+Person Roles Term Accession Number							
+Normalization Type							
+Normalization Term Accession Number							
+Normalization Term Source REF							
+Replicate Type							
+Replicate Term Accession Number							
+Replicate Term Source REF							
+Experimental Design							
+Experimental Design Term Accession Number							
+Experimental Design Term Source REF							
+Quality Control Type							
+Quality Control Term Accession Number							
+Quality Control Term Source REF							
+Protocol Name	P-GSE31537-1	P-GSE31537-6	P-GSE31537-5	P-GSE31537-3	P-GSE31537-2	P-GSE31537-4	P-GSE31537-7
+Protocol Description	ID_REF = <br>VALUE = MAS5 signal intensity, linear	GeneChips were scanned using a GeneChip 3000 scanner at the University of Minnesota Microarray Facility.	Hybridization was performed according to the recommended Affymetrix protocols at the University of Minnesota Microarray facility.	RNA was extracted from floral nectariferous tissue by mechanical disruption, with a microcentrifuge pestle, and using the RNAqueous®-Micro micro scale RNA isolation kit (Ambion, Austin, TX) with Plant RNA Isolation Aid (Ambion, Austin, TX). Denaturing agarose gel electrophoresis (Applied Biosystems, 2008) and UV spectrophotometry were used to assess RNA quality for all samples.	Plants were grown in individual pots on a peat-based growth medium with vermiculite and perlite (Pro-Mix BX; Premier Horticulture, Rivière-du-Loup, Quebec, Canada). All plant growth was performed in Percival AR66LX environmental chambers with settings of: 16 hr day/8hr night cycle, photosynthetic photon flux of 150 µmol m-2 s-1, 50% humidity and temperature of 21C.  All nectary tissues were separately dissected by hand from the flowers of primary inflorescences of ca. 30-35 day-old plants. Due to the small size of nectaries, dissections took place over several days from 4-8 hours after dawn (h.a.d.). Isolated nectaries were pooled in RNAlater™ solution (Ambion, Austin, TX) on ice, and stored at +4°C prior to RNA extraction. Up to two nectaries were collected per flower, with approximately 250-300 nectaries being processed as a single RNA sample.	RNA was processed using the MessageAmp™ II-Biotin Enhanced Kit (Ambion, Austin, TX) for a single round of RNA amplification as described by the manufacturer. Briefly, 250-500 ng of total RNA (500 ng from lateral nectaries; 250 ng from median nectaries due to extremely small size) was used in a reverse transcription reaction to generate first-strand cDNA. Following second-strand synthesis, double-stranded cDNA was used in an in vitro transcription (IVT) reaction to generate biotin-labeled, amplified RNA (aRNA). aRNA size distribution was evaluated by conventional denaturing agarose gel analysis according to manufacturer’s instructions (Ambion, Austin, TX). An aRNA fragmentation reaction, employing metal-induced hydrolysis, was used to fragment aRNA as described by the manufacturer (Ambion, Austin, TX).	The probe level signals were summarized into expression indexes using MAS5 algorithm and were further linear scaled up to a media of 500 by the Expressionist (Genedata, Basel, Switzerland) Refiner module.  Scaling median to 500, PM/MM pvalue passes 0.05 as valid probesets. Invalid sets are null.
+Protocol Software							
+Protocol Hardware							
+Protocol Contact							
+Protocol Type	bioassay_data_transformation	image_aquisition	hybridization	nucleic_acid_extraction	grow	labeling	feature_extraction
+Protocol Term Source REF							
+Protocol Term Accession Number							
+Experimental Factor Name	GENOTYPE/VARIATION						
+Experimental Factor Type	genotype/variation						
+Experimental Factor Term Source REF							
+Experimental Factor Term Accession Number							
+Publication Title							
+Publication Author List							
+PubMed ID							
+Publication DOI							
+Publication Status							
+Publication Status Term Source REF							
+Publication Status Term Accession Number							
+Comment[SecondaryAccession]	GSE31537						
+Comment[GEOLastUpdateDate]	2011-08-23
+Comment[AEExperimentType]	transcription profiling by array						
+Comment[GEOReleaseDate]	2011-08-20
+Comment[ArrayExpressSubmissionDate]	2011-08-18
+SDRF File	E-GEOD-31537.sdrf.txt

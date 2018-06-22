@@ -1,0 +1,52 @@
+Investigation Title	Transcription profiling of Arabidopsis auxin mediated gene expression in wild type and arf2-6 mutant					
+Comment[Submitted Name]	Auxin mediated gene expression in WT and arf2-6 mutant					
+Experimental Design	unknown_experiment_design_type	transcription profiling by array				
+Experimental Design Term Source REF		EFO				
+Comment[AEExperimentType]	transcription profiling by array					
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for arf2 after treatment with indole-3-acetic acid					
+Comment[ArrayExpressReleaseDate]	2008-06-14					
+Comment[SecondaryAccession]	GSE631					
+Comment[AEMIAMESCORE]	4					
+Comment[ArrayExpressAccession]	E-GEOD-631					
+Comment[MAGETAB TimeStamp_Version]	2010-08-06 20:02:10 Last Changed Rev: 13058					
+Experimental Factor Name	genotype	growth condition				
+Experimental Factor Type	genotype	growth condition				
+Experimental Factor Term Source REF						
+Person Last Name	Okushima					
+Person First Name	Yoko					
+Person Mid Initials						
+Person Email	okushima@bs.naist.jp					
+Person Phone						
+Person Fax						
+Person Address	"Athanasios Theologis Lab., Plant and Microbial Biology, Plant Gene Expression Center, U. C. Berkeley, 800 Buchanan St., Albany, 94710, USA"					
+Person Affiliation	"Plant Gene Expression Center, U. C. Berkeley"					
+Person Roles	submitter					
+Person Roles Term Source REF						
+Quality Control Type						
+Quality Control Term Source REF						
+Replicate Type						
+Replicate Term Source REF						
+Normalization Type						
+Normalization Term Source REF						
+Date of Experiment						
+Public Release Date	2008-06-14					
+PubMed ID	15960614					
+Publication DOI	10.1111/j.1365-313X.2005.02426.x					
+Publication Author List	"Yoko Okushima, Irina Mitina, Hong L Quach, Athanasios Theologis"					
+Publication Title	AUXIN RESPONSE FACTOR 2 (ARF2): a pleiotropic developmental regulator.					
+Publication Status	published					
+Publication Status Term Source REF	EFO					
+Publication Status Term Accession Number	EFO_0001796					
+Experiment Description	"Global gene expression data from 7-day old light-grown liquid cultured seedlings treated with or without auxin (5ÂµM IAA) for 2 h. Columbia (WT) and Auxin response factor 2 (ARF2) T-DNA insertion mutant (arf2-6 ) were used for this study. Each experimental condition has three true replicates for a total of 12 hybridizations. Data analysis:; Affymetrix GeneChip Microarray Suite version 5.0 software was used to obtain signal values for individual genes. The data files containing the probe level intensities (cell files) were used for background correction and normalization using the log2 scale robust multi-array analysis (RMA) procedure (Irizarry et al., 2003). The âRâ environment (Ihaka and Gentleman, 1996) was used for running the RMA program. Data analysis and statistical extraction were performed using log2 converted expression intensity data within Microsoft Excel 98. Based on preliminary analysis, a hybridization signal less than 5.64385619 (= log2 50) was considered as background; all signals less than 5.64385619 were converted to 5.64385619 prior to further analysis."					
+Protocol Name	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6				
+Protocol Type	hybridization	feature_extraction				
+Protocol Description	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 				
+Protocol Parameters						
+Protocol Hardware						
+Protocol Software	MicroArraySuite 5.0	MicroArraySuite 5.0				
+Protocol Contact						
+Protocol Term Source REF	mo					
+SDRF File	E-GEOD-631.sdrf.txt					
+Term Source Name	NCBI Taxonomy	The MGED Ontology	ArrayExpress	EFO	The MGED Ontology	mo
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version						

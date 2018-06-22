@@ -1,0 +1,52 @@
+Investigation Title	Expression data from adult Arabidopsis roots under 200uM cadmium (Cd) treatment							
+Comment[Submitted Name]	Expression data from adult Arabidopsis roots under 200uM cadmium (Cd) treatment							
+Experimental Design	transcription profiling by array							
+Experimental Design Term Source REF	EFO							
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[AEExperimentDisplayName]	Expression data from adult Arabidopsis roots under 200uM cadmium (Cd) treatment							
+Comment[SecondaryAccession]	GSE22114							
+Comment[ArrayExpressReleaseDate]	2010-06-16							
+Comment[AEMIAMESCORE]	3							
+Comment[ArrayExpressAccession]	E-GEOD-22114							
+Comment[MAGETAB TimeStamp_Version]	2010-08-04 14:59:31 Last Changed Rev: 13058							
+Experimental Factor Name	compound	dose						
+Experimental Factor Type	compound	dose						
+Experimental Factor Term Source REF								
+Person Last Name	Gong	Schroeder	Li					
+Person First Name	Ji-Ming	Julian	Jian Yong					
+Person Mid Initials		I						
+Person Email			jyli01@sibs.ac.cn					
+Person Phone								
+Person Fax								
+Person Address			"Institute of Plant Physiology and Ecology, SIBS, CAS, 300 Feng lin road, Shanghai, China"					
+Person Affiliation			"Institute of Plant Physiology and Ecology, SIBS, CAS"					
+Person Roles			submitter					
+Person Roles Term Source REF			The MGED Ontology					
+Quality Control Type								
+Quality Control Term Source REF								
+Replicate Type								
+Replicate Term Source REF								
+Normalization Type								
+Normalization Term Source REF								
+Date of Experiment								
+Public Release Date	2010-06-16							
+PubMed ID	20501909							
+Publication DOI	10.1105/tpc.110.075242							
+Publication Author List	"Li JY, Fu YL, Pike SM, Bao J, Tian W, Zhang Y, Chen CZ, Zhang Y, Li HM, Huang J, Li LG, Schroeder JI, Gassmann W, Gong JM."							
+Publication Title	The Arabidopsis nitrate transporter NRT1.8 functions in nitrate removal from the xylem sap and mediates cadmium tolerance.							
+Publication Status	published							
+Publication Status Term Source REF	EFO							
+Publication Status Term Accession Number	EFO_0001796							
+Experiment Description	To massively identify genes that are up-regulated by Cd and in particular transporter genes which might transport peptides or oligopeptides. Four week old  hydroponically-grown Col-0 plants were treated with/without 200uM Cd for 6 hours. Total RNA was extracted from roots and subjected to hybridization with Affymetrix ATH1 microarrays.							
+Protocol Name	P-GSE22114-2	P-GSE22114-4	P-GSE22114-3	P-GSE22114-5	P-GSE22114-6	P-GSE22114-7	P-GSE22114-8	P-GSE22114-1
+Protocol Type	specified_biomaterial_action	nucleic_acid_extraction	grow	labeling	hybridization	image_aquisition	feature_extraction	bioassay_data_transformation
+Protocol Description	200um Cd for 6 hours	Invitrogen trizol extraction of total RNA was performed according to the manufacturer's instructions.	"Arabidopsis thaliana plants were grown in quarter-strength sterile hydroponic solution at 28 0C with 16-h-light/8-h-dark cycles as described (Arteca and Arteca, 2000; Gong et al., 2003)."	"Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 6 ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix)."	"Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45C on GeneChip Arabidopsis Genome Array. GeneChips were washed and stained in the Affymetrix Fluidics Station 400."	GeneChips were scanned using the Hewlett-Packard GeneArray Scanner G2500A.	The data were analyzed with Microarray Suite version 5.0 (MAS 5.0) using Affymetrix default analysis settings and global scaling as normalization method. The trimmed mean target intensity of each array was arbitrarily set to 100.	ID_REF = <br>VALUE = MAS 5.0 intensity<br>ABS_CALL = <br>DETECTION P-VALUE =
+Protocol Parameters								
+Protocol Hardware								
+Protocol Software								
+Protocol Contact								
+Protocol Term Source REF	The MGED Ontology	The MGED Ontology	The MGED Ontology	The MGED Ontology	The MGED Ontology		The MGED Ontology	The MGED Ontology
+SDRF File	E-GEOD-22114.sdrf.txt							
+Term Source Name	NCBI Taxonomy		The MGED Ontology	ArrayExpress	EFO	The MGED Ontology		
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php		
+Term Source Version								

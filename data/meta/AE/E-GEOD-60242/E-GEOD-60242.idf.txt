@@ -1,0 +1,25 @@
+Comment[ArrayExpressAccession]	E-GEOD-60242
+MAGE-TAB Version	1.1						
+Public Release Date	2014-10-23
+Investigation Title	Expression data from early Arabidopsis thaliana embryo						
+Comment[Submitted Name]	Expression data from early Arabidopsis thaliana embryo
+Experiment Description	After zygote division, the resulting daughter cells progressively give rise to two very different tissue types. With the use of microarrays, global nuclear expression profiles were generated. Tissue-specific marker lines were used to isolate nuclei from early Arabidopsis embryos by flow cytometry. Subsequently, RNA was extracted, and after amplification, hybridized to in Affymetrix ATH1 chips.						
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Slane	Slane	Kong	Jürgens			
+Person First Name	Daniel	Daniel	Jixiang	Gerd			
+Person Email	daniel.slane@tuebingen.mpg.de						
+Person Affiliation	Max Planck Institute for Developmental Biology						
+Person Address	Cell Biology, Max Planck Institute for Developmental Biology, Spemannstrasse 35, Tübingen, Baden-Württemberg, Germany						
+Person Roles	submitter						
+Protocol Name	P-GSE60242-1	P-GSE60242-5	P-GSE60242-6	P-GSE60242-2	P-GSE60242-3	P-GSE60242-4	P-GSE60242-7
+Protocol Description	The data was analyzed with Microarray Suite version 5.0 (MAS 5.0) using &quot;affy&quot; package (v1.32.1). ID_REF =  VALUE = MAS5.0 signal intensity ABS_CALL = indicating whether the transcript was present (P), absent (A), or marginal (M) DETECTION P-VALUE = p-value that indicates the significance level of the detection call	Biotinylated cRNA was prepared according to the ENZO BioArray™ Single-round RNA amplification and biotin labeling system.	Following fragmentation, 12.5 ug of cRNA were hybridized for 16 hr at 45C on ATH1 array. GeneChips were washed and stained in the Affymetrix Fluidics Station 450.	Ovules including embryos from 2-16 cell stage were dissected from siliques and fixed with 0.1% PFA (paraformaldeyhde).	Long day 16 hours light/8 hours dark.	Nuclear extraction with CelLyticTM PN kit (Sigma). RNA extraction with buffer containing proteinase K.	GeneChips were scanned using Affymetrix GeneChip scanner 3000.
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	organism part						
+Experimental Factor Type	organism part						
+Comment[SecondaryAccession]	GSE60242						
+Comment[GEOReleaseDate]	2014-10-23						
+Comment[ArrayExpressSubmissionDate]	2014-08-08						
+Comment[GEOLastUpdateDate]	2014-10-23						
+Comment[AEExperimentType]	transcription profiling by array						
+SDRF File	E-GEOD-60242.sdrf.txt

@@ -1,0 +1,52 @@
+Investigation Title	Transcription profiling of Arabidopsis arf2 and wild type dark grown seedlings treated with brassinazole					
+Comment[Submitted Name]	Brassinazole treatment of arf2 and wild-type dark-grown seedlings					
+Experimental Design	unknown_experiment_design_type	transcription profiling by array				
+Experimental Design Term Source REF		EFO				
+Comment[AEExperimentType]	transcription profiling by array					
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for arf2 after treatment with brassinazole					
+Comment[AEMIAMESCORE]	4					
+Comment[ArrayExpressReleaseDate]	2008-10-20					
+Comment[SecondaryAccession]	GSE11216					
+Comment[ArrayExpressAccession]	E-GEOD-11216					
+Comment[MAGETAB TimeStamp_Version]	2010-07-22 02:28:12 Last Changed Rev: 13058					
+Experimental Factor Name	genotype	compound				
+Experimental Factor Type	genotype	compound				
+Experimental Factor Term Source REF						
+Person Last Name	Nemhauser					
+Person First Name	Jennifer					
+Person Mid Initials						
+Person Email	nemhauser@salk.edu					
+Person Phone						
+Person Fax						
+Person Address	"Chory,PBIO,Salk Institute, ,La Jolla,92037,USA"					
+Person Affiliation	Salk Institute					
+Person Roles	submitter					
+Person Roles Term Source REF	The MGED Ontology					
+Quality Control Type						
+Quality Control Term Source REF						
+Replicate Type						
+Replicate Term Source REF						
+Normalization Type						
+Normalization Term Source REF						
+Date of Experiment						
+Public Release Date	2008-10-20					
+PubMed ID	18599455					
+Publication DOI	10.1073/pnas.0803996105					
+Publication Author List	"Grégory Vert, Cristina L Walcher, Joanne Chory, Jennifer L Nemhauser"					
+Publication Title	Integration of auxin and brassinosteroid pathways by Auxin Response Factor 2.					
+Publication Status	published					
+Publication Status Term Source REF	EFO					
+Publication Status Term Accession Number	EFO_0001796					
+Experiment Description	"While the close relationship between BRs and auxin has been widely reported, the molecular mechanism for combinatorial control of shared target genes has remained elusive. In this work, we demonstrate that BRs synergistically increase seedling sensitivity to auxin and show that combined treatment with both hormones can increase the magnitude and duration of gene expression. arf2 mutants are less sensitive to changes in endogenous BR levels, while a large number of genes affected in an arf2 background are returned to near wild-type levels by altering BR biosynthesis. Together, these data suggest a model where BIN2 increases expression of auxin-induced genes by directly inactivating repressor ARFs, leading to synergistic increases in transcription. Experiment Overall Design: Total RNA was extracted from 4-day-old, etiolated Arabidopsis seedlings grown on 0.5 ÂµM BRZ or mock treatments and used to probe ATH1 microarrays (Affymetrix), according to manufacturerâs protocols. There are three independent biological replicates for each genotype and treatment, except for arf2 mutants with BRZ where only two arrays passed quality control. We performed standard Affymetrix quality-control procedures using the BioConductor packages simpleaffy. Expression was normalized and estimated using the gcRMA package of BioConductor."					
+Protocol Name	P-G11216-2	P-G11216-1	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6		
+Protocol Type	nucleic_acid_extraction	labeling	hybridization	feature_extraction		
+Protocol Description	Total RNA was extracted with Spectrumâ¢ Plant Total RNA Kit from Sigma-Aldrich according to manufacturerâs protocols.	"Total RNA from the treated seedlings was used for preparing probes for the microarray experiments, which were carried out according to the protocols provided by the gene chip manufacturer Affymetrix (Santa Clara, California, United States)."	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 		
+Protocol Parameters						
+Protocol Hardware						
+Protocol Software			MicroArraySuite 5.0	MicroArraySuite 5.0		
+Protocol Contact						
+Protocol Term Source REF			mo			
+SDRF File	E-GEOD-11216.sdrf.txt					
+Term Source Name	NCBI Taxonomy	The MGED Ontology	ArrayExpress	EFO	The MGED Ontology	mo
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version						

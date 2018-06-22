@@ -1,0 +1,34 @@
+Comment[ArrayExpressAccession]	E-MEXP-2144				
+Investigation Title	Systemic wounding				
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis distal leaves in response to wounding				
+Comment[Submitted Name]	Systemic wounding				
+Comment[AEExperimentType]	transcription profiling by array				
+Publication Title	The plant NADPH oxidase RBOHD mediates rapid systemic signaling in response to diverse stimuli.				
+Publication Author List	"Miller G, Schlauch K, Tam R, Cortes D, Torres MA, Shulaev V, Dangl JL, Mittler R."				
+Publication DOI					
+PubMed ID	19690331				
+Experimental Design	in_vivo_design	co-expression_design	stimulus_or_stress_design	transcription profiling by array	
+Experimental Design Term Source REF		The MGED Ontology	The MGED Ontology	EFO	
+Comment[MIAMExpressLogin]	gadmiller				
+Comment[MIAMExpressSubmissionID]	5643				
+Experiment Description	Systemic transcriptional responses in Arabidopsis thaliana distal leaves to wounding 				
+Experimental Factor Name	injury				
+Experimental Factor Type	injury				
+Person Last Name	Miller				
+Person First Name	Gad				
+Person Email	gadmiller@gmail.com				
+Person Phone	775-7844071				
+Person Affiliation	"University of Nevada, Reno"				
+Person Address	"Biochemistry and Molecular Biology, 1664 N. Virginia st.  MS200, Reno, Nevada, 89557, USA"				
+Person Roles	submitter				
+Person Roles Term Source REF	MGED Ontology				
+Quality Control Type	biological_replicate				
+Public Release Date	2010-04-22				
+Comment[ArrayExpressSubmissionDate]	2009-04-23 00:28				
+Protocol Name	P-MTAB-3952	P-MTAB-3953	P-MTAB-3954		
+Protocol Description	"Arabidopsis thaliana Zat12::Luciferase plants were grown under constant light (50 µmol.-2.sec-1) on soil mixture (MetroMix 200, SUN GRO) for 3 weeks.<br>(Parameters: start time = 3, time unit = weeks, min temperature = 23, temperature unit = C, media = Soil)"	"Three rosette leaves of each plant were pricked 10 times with the tip of a scalpel. Systemically wounded (distal not injured) leaves (W) were collected 10 minutes following injury, for control (C) unwounded leaves of similar sizes and developmental stages were sampled. <br><br>No more than 3 plants were wounded at a time. "	"Total RNA was extracted from homogenized frozen leaf tissue with TRIzol reagent (Invitrogen) according manufacturer recommendations. Isolated total RNA  was treated with DNaseI (Turbo DNA free, Ambion inc. Austin, Texas) and cleaned on RNeasy Mini columns (Qiagen, ML, USA). <br>(Parameters: Extracted product = total_RNA, Amplification = none)"		
+Protocol Type	grow	specified_biomaterial_action	nucleic_acid_extraction		
+Protocol Term Source REF	MGED Ontology	MGED Ontology	MGED Ontology		
+Term Source Name	MGED Ontology	ArrayExpress		The MGED Ontology	EFO
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress			
+SDRF File	E-MEXP-2144.sdrf.txt				

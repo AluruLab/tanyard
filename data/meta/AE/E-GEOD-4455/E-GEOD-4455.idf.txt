@@ -1,0 +1,49 @@
+Investigation Title	Transcription profiling of Arabidopsis roots from slim1 and the parental line grown +/-S condition	
+Comment[Submitted Name]	Gene expression in roots of slim1 and the parental line grown +/-S condition	
+Experimental Design	unknown_experiment_design_type	transcription profiling by array	
+Experimental Design Term Source REF		EFO	
+Comment[ArrayExpressReleaseDate]	2008-06-13	
+Comment[SecondaryAccession]	GSE4455	
+Comment[AEMIAMESCORE]	3	
+Comment[ArrayExpressAccession]	E-GEOD-4455	
+Comment[MAGETAB TimeStamp_Version]	2010-08-05 15:25:19 Last Changed Rev: 13058	
+Experimental Factor Name	
+Experimental Factor Type	
+Experimental Factor Term Source REF	
+Person Last Name	Maruyama-Nakashita	
+Person First Name	Akiko	
+Person Mid Initials	
+Person Email	amaru@riken.jp	
+Person Phone	
+Person Fax	
+Person Address	RIKEN Plant Science Center, 1-7-22 Suehiro-cho, Tsurumi-ku, Yokohama, 230-0045, Japan	
+Person Affiliation	RIKEN Plant Science Center	
+Person Roles	submitter	
+Person Roles Term Source REF	The MGED Ontology	
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2008-06-13	
+PubMed ID	17114350	
+Publication DOI	17114350	
+Publication Author List	Akiko Maruyama-Nakashita, Yumiko Nakamura, Takayuki Tohge, Kazuki Saito, Hideki Takahashi	
+Publication Title	Arabidopsis SLIM1 is a central transcriptional regulator of plant sulfur response and metabolism.	
+Publication Status	journal_article	
+Publication Status Term Source REF	The MGED Ontology	
+Experiment Description	Plants utilize soil sulfate for production of sulfur-containing amino acids that serve as essential dietary sulfur sources for animals. Despite the global nutritional significance of this fundamental metabolic process in nature, transcription factors regulating the plant sulfur assimilation pathways have never been discovered. We isolated sulfur limitation1 (slim1) mutants from Arabidopsis, showing abnormally low expression of SULTR1;2 sulfate transporter, by screening responsiveness of SULTR1;2 promoter-GFP, as an indicator, to sulfur limitation.  SLIM1 encoded an EIL-family transcription factor, EIL3. To clarify the siganificance of SLIM1 function in sulfur responsive gene expression, we analyzed the transcriptome profiles in slim1-1, slim1-2 and the parental line under +S and -S conditions. Experiment Overall Design: PSULTR1;2-GFP, slim1-1 and slim1-2 were vertically grown on the +S/-S (S1500/S15) agar medium. Root tissues of 10-day-old plants were used for RNA extraction and hybridization on Affymetrix microarrays. All conditions were duplicated.	
+Protocol Name	P-G4455-1	P-G4455-5	P-G4455-2	P-G4455-4	P-G4455-3	
+Protocol Type	grow	grow	specified_biomaterial_action	nucleic_acid_extraction	labeling	
+Protocol Description	Arabidopsis plants (Col-0) were grown at 22C under 16 h/8 h light and dark cycles for 10 days. Plants were grown on mineral nutrient media (Hirai et al. 1995 Plant Cell Physiology 36: 1331) containing 1% sucrose, 0.8% agar. For preparation of agar medium, agar was washed twice with 1 L of de-ionized water and vacuum filtrated. The agar medium with complete replacement of MgSO4 to MgCl2 contained approximately 10 Â&#956;M of residual sulfate derived from agar. The S1500 agar media were prepared by adding 1500 Â&#956;M of MgSO4.	Arabidopsis plants (Col-0) were grown at 22C under 16 h/8 h light and dark cycles for 10 days. Plants were grown on mineral nutrient media (Hirai et al. 1995 Plant Cell Physiology 36: 1331) containing 1% sucrose, 0.8% agar. For preparation of agar medium, agar was washed twice with 1 L of de-ionized water and vacuum filtrated. The agar medium with complete replacement of MgSO4 to MgCl2 contained approximately 10 Â&#956;M of residual sulfate derived from agar. The S15 agar media were prepared by adding 15 Â&#956;M of MgSO4 and 1485 Â&#956;M of MgCl2.	Root samples were transferred to liquid nitrogen before RNA extraction.	Total RNA was prepared using RNeasy Plant Mini Kit (Qiagen, Hilden, Germany) according to the manufacturer's instructions.	Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 10 microg total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).	
+Protocol Parameters	
+Protocol Hardware	
+Protocol Software	
+Protocol Contact	
+Protocol Term Source REF	
+SDRF File	E-GEOD-4455.sdrf.txt	
+Term Source Name	NCBI Taxonomy		The MGED Ontology	ArrayExpress	EFO	The MGED Ontology	
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version							

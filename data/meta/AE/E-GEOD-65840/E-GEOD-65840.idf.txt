@@ -1,0 +1,31 @@
+Comment[ArrayExpressAccession]	E-GEOD-65840									
+MAGE-TAB Version	1.1									
+Public Release Date	2015-05-28									
+Investigation Title	Root transcriptome of ninja-1									
+Comment[Submitted Name]	Root transcriptome of ninja-1									
+Experiment Description	A major role of NINJA is to repress root jasmonate signalling and allow normal cell elongation. To further characterize the transcriptional changes occurring in the root in the absence of a NINJA-dependent repression mechanism, we conducted a microarray analysis of ninja-1 versus WT roots. Root transcriptome of Col-0 (WT) versus ninja-1, both carrying the JAZ10pro-GUSPlus (JGP) reporter, grown in basal aseptic conditions. Biological replicates: 3 for the WT control and 3 for the ninja-1 mutant.									
+Term Source Name	ArrayExpress	EFO								
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl								
+Person Last Name	Dreos	Gasperini	Chételat	Acosta	Goossens	Pauwels	Goossens	Dreos	Alfonso	Farmer
+Person First Name	Rene	Debora	Aurore	Ivan	Jonas	Laurens	Alain	René	Esteban	Edward
+Person Mid Initials				F						E
+Person Email	rene.dreos@epfl.ch									
+Person Affiliation	EPFL									
+Person Phone	0044 (0)1603 450793									
+Person Address	Life Science, EPFL, Ecublens, Lausanne, VD, Switzerland									
+Person Roles	submitter									
+Protocol Name	P-GSE65840-1	P-GSE65840-5	P-GSE65840-6	P-GSE65840-2	P-GSE65840-3	P-GSE65840-4	P-GSE65840-7			
+Protocol Description	Data processing was done in R using GCRMA normalisation method ID_REF =  VALUE = log2 transformed signal intensities	Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 6 ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).	Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45C on GeneChip Drosophila Genome Array. GeneChips were washed and stained in the Affymetrix Fluidics Station 400.	none	Col-0 (WT) and ninja-1 seeds, both carrying the JAZ10pro-GUSPlus (JGP) reporter, were surface sterilized and equidistantly plated on a nylon mesh (200 μm pore size; product number AH03444, Lanz-Anliker AG, Rohrbach, Switzerland) resting on solid half-strength Murashige and Skoog solid medium (0.5XMS, 2.15 g/L, pH 5.7; Duchefa, Haarlem, The Netherlands) supplemented with 0.5 g/L of MES hydrate (Sigma, Buchs, Switzerland) and 0.7% agar. After seed stratification for 2 d at 4°C, plants were grown horizontally for 5 d at 21°C under 100 μE m-2 s-1 of light with 14 h light, 10 h dark photoperiod.	Total RNA was extracted from 5-do roots and purified with RNeasy Plant Mini Kit (Qiagen). Three biological replicates, each consisting of 120 roots, were performed per genotype.	GeneChips were scanned using the Hewlett-Packard GeneArray Scanner G2500A.			
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol			
+Experimental Factor Name	genotype									
+Experimental Factor Type	genotype									
+Comment[SecondaryAccession]	GSE65840									
+Comment[GEOReleaseDate]	2015-05-28									
+Comment[ArrayExpressSubmissionDate]	2015-02-11									
+Comment[GEOLastUpdateDate]	2015-05-28									
+Comment[AEExperimentType]	transcription profiling by array									
+SDRF File	E-GEOD-65840.sdrf.txt									
+Publication Title	Multilayered Organization of Jasmonate Signalling in the Regulation of Root Growth.									
+Publication Author List	Gasperini D, Chételat A, Acosta IF, Goossens J, Pauwels L, Goossens A, Dreos R, Alfonso E, Farmer EE									
+PubMed ID	26070206									
+Publication DOI	10.1371/journal.pgen.1005300									

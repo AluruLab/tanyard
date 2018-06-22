@@ -1,0 +1,29 @@
+Comment[ArrayExpressAccession]	E-MEXP-2316
+Investigation Title	Imprinting of the Polycomb Group Gene MEDEA Serves as a Ploidy Sensor in Arabidopsis			
+Comment[Submitted Name]	Imprinting of the Polycomb Group Gene MEDEA Serves as a Ploidy Sensor in Arabidopsis
+Comment[AEExperimentDisplayName]	Transcription profliing of Arabidopsis fis2 and jas mutants and tetraploid x diploid crosses			
+Comment[MIAMExpressLogin]	lars.hennig			
+Comment[MIAMExpressSubmissionID]	5984			
+Experiment Description	Comparison of fis2 and jas mutants and tetraploid x diploid crosses.			
+Experimental Design	co-expression_design	individual_genetic_characteristics_design	genetic_modification_design	replicate_design
+Experimental Factor Name	GENOTYPE			
+Experimental Factor Type	genotype			
+Person Last Name	Hennig			
+Person First Name	Lars			
+Person Email	lhennig@ethz.ch			
+Person Phone	  41 44 632 2244			
+Person Affiliation	ETH Zurich			
+Person Address	Institute of Plant Sciences, , Zurich, ETH Center, LFW E17, 8092, Switzerland			
+Person Roles	submitter			
+Person Roles Term Source REF	MGED Ontology																								
+Quality Control Type																									
+Public Release Date	2009-12-01																								
+Comment[ArrayExpressSubmissionDate]	2009-08-20 15:18																								
+Publication Status																									
+Protocol Name	P-MTAB-18778	P-MTAB-5172	P-MTAB-5173	P-MTAB-5174
+Protocol Description	GCRMA as inlcuded in the R package	RNA was extracted using the RNAqueous kit (Ambion/Applied Biosystems, Lincoln, CA) combined with Plant RNA Isolation Aid (Ambion/Applied Biosystems) according to manufacturer’s instructions.<br>(Parameters: Extracted product = total_RNA, Amplification = none)	Plants were grown in growth chambers at 70% humidity and daily cycles of 16 h light and 8 h darkness at 21 C.<br>(Parameters: time unit = seconds, min temperature = 21, max temperature = C, temperature unit = soil)	Seeds of at least 20 siliques per sample 																					
+Protocol Type	bioassay_data_transformation	nucleic_acid_extraction	grow	pool																					
+Protocol Term Source REF	MGED Ontology	MGED Ontology	MGED Ontology	MGED Ontology																					
+Term Source Name	MGED Ontology	ArrayExpress
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress																							
+SDRF File	E-MEXP-2316.sdrf.txt

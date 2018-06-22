@@ -1,0 +1,29 @@
+Comment[ArrayExpressAccession]	E-GEOD-11217
+Investigation Title	Transcription profiling of Arabidopsis leaf tissues and protoplasts in response to Plum pox virus infection
+Comment[Submitted Name]	Altered gene expression changes in Arabidopsis leaf tissues and protoplasts in response to Plum pox virus infection
+Publication Title	Altered gene expression changes in Arabidopsis leaf tissues and protoplasts in response to Plum pox virus infection.
+Publication Author List	Mohan Babu, Jonathan S Griffiths, Tyng-Shyan Huang, Aiming Wang
+Publication DOI	
+PubMed ID	18613973
+Experimental Design	unknown_experiment_design_type	transcription profiling by array
+Experimental Design Term Source REF		EFO
+Person Last Name	babu
+Person First Name	Mohan
+Person Mid Initials	
+Person Email	mohanbabu_r@yahoo.com
+Person Address	Molecular Virology, Virology, AAFC, 1391 Sandford, London, N5V 4T3, Canada
+Person Affiliation	AAFC
+Person Roles	submitter
+Public Release Date	2008-11-07
+Comment[ArrayExpressSubmissionDate]	2008-04-20
+Comment[GEOReleaseDate]	2008-11-04
+Comment[SecondaryAccession]	GSE11217
+Experiment Description	Virus infection induces activation and suppression of global gene expression in the host. Profiling gene expression changes in the host may provide insights into the molecular mechanisms that underlie host physiological and phenotypic responses to virus infection. In this study, the Arabidopsis Affymetrix ATH1 whole genome array was used to assess global gene expression changes in Arabidopsis thaliana plants infected with Plum pox virus (PPV). To identify early genes in response to PPV infection, an Arabidopsis synchronized single-cell transformation system was developed. Arabidopsis protoplasts were transfected with a PPV infectious clone, PPV-SK68 and global gene expression changes in the transfected protoplasts were profiled. Experiment Overall Design: For PPV infection in Arabdiopsis leaves, eight independent hybridizations were performed using total RNA isolated from three independent biological replicates of the virus-infected or mock-inoculated control samples. Experiment Overall Design: For PPV infection in Arabidopsis protoplasts, 24 gene chips in total were used to hybridize with RNA isolated from protoplasts transfected with PPV infectious clone and PPV deletion mutant.
+Protocol Name	P-G11217-1	P-G11217-3	P-G11217-2	P-G11217-4
+Protocol Type	grow	labeling	specified_biomaterial_action	nucleic_acid_extraction
+Protocol Description	Arabidopsis grown at standard green house conditions	As per Affymetrix protocol	Protoplasts transfected with PPV infection	Trizol reagent to extract total RNA
+Protocol Parameters				
+Protocol Software				
+SDRF File	E-GEOD-11217.sdrf.txt
+Term Source Name	EFO
+Term Source File	http://efo.svn.sourceforge.net/viewvc/efo/trunk/src/efoinowl/efo.owl

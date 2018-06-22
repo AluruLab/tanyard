@@ -1,0 +1,49 @@
+Investigation Title	Transcription profiling of Arabidopsis response to sucrose feeding to detached leaves	
+Comment[Submitted Name]	effect of sucrose feeding to detached leaves	
+Experimental Design	unknown_experiment_design_type	transcription profiling by array	
+Experimental Design Term Source REF		EFO	
+Comment[ArrayExpressReleaseDate]	2008-06-12	
+Comment[SecondaryAccession]	GSE4022	
+Comment[AEMIAMESCORE]	2	
+Comment[ArrayExpressAccession]	E-GEOD-4022	
+Comment[MAGETAB TimeStamp_Version]	2010-08-05 12:32:32 Last Changed Rev: 13058	
+Experimental Factor Name	
+Experimental Factor Type	
+Experimental Factor Term Source REF	
+Person Last Name	van Dongen	
+Person First Name	Joost	
+Person Mid Initials	T.	
+Person Email	dongen@mpimp-golm.mpg.de	
+Person Phone	
+Person Fax	
+Person Address	AG Geigenberger, Metabolic Networks, Max Planck Institute of Molecular Plant Physiology, Am Muehlenberg 1, Potsdam, D-14476, Germany	
+Person Affiliation	Max Planck Institute of Molecular Plant Physiology	
+Person Roles	submitter	
+Person Roles Term Source REF	The MGED Ontology	
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2008-06-12	
+PubMed ID	
+Publication DOI	
+Publication Author List	
+Publication Title	
+Publication Status	
+Publication Status Term Source REF	
+Experiment Description	The effect of sucrose feeding on gene expression in Arabidopsis thaliana leaves was investigated using affymetrix ATH1 microarrays. For this, petioles of detached leaves were put in a solution containing either sucrose or sorbitol (control). Sugars were taken up into the leaf via the respiration stream for 13 hours. After that, leaves were frozen in liquid nitrogen and RNA was extracted for analysis. Experiment Overall Design: The effect of sucrose feeding on gene expression was investigated using affymetrix ATH1 microarrays. For this, petioles of detached leaves were put in a solution containing either sucrose or sorbitol (control). Sugars were taken up into the leaf via the respiration stream for 13 hours. After that, leaves were frozen in liquid nitrogen and RNA was extracted for analysis.	
+Protocol Name	P-G4022-5	P-G4022-2	P-G4022-1	P-G4022-4	P-G4022-3	
+Protocol Type	specified_biomaterial_action	specified_biomaterial_action	grow	nucleic_acid_extraction	labeling	
+Protocol Description	Source leaves were cut at the end of the day from non-flowering plants. Leaf peteoles were recut under buffer (2mM MES, pH6.5) and placed in buffer + 100mM sucrose for 13hours in the dark. After incubation discs were snap-frozen in liquid nitrogen.	Source leaves were cut at the end of the day from non-flowering plants. Leaf peteoles were recut under buffer (2mM MES, pH6.5) and placed in buffer + 100mM sorbitol for 13hours in the dark. After incubation discs were snap-frozen in liquid nitrogen.	Plants were grown in a phytotron with a 14h day / 10h night. Temperature: 20Â&deg;C / 16Â&deg;C. Humidity: 60% / 75%. Lightintensity: .	Total RNA extraction using TRIzol Total RNA Isolation Reagent, according to the protocol supplied by the manufacturer GibcoBRL Life-Technologies.	10Â&#956;g total RNA was biotin labelled	
+Protocol Parameters	
+Protocol Hardware	
+Protocol Software	
+Protocol Contact	
+Protocol Term Source REF	
+SDRF File	E-GEOD-4022.sdrf.txt	
+Term Source Name	NCBI Taxonomy		The MGED Ontology	ArrayExpress	EFO	The MGED Ontology	
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version							

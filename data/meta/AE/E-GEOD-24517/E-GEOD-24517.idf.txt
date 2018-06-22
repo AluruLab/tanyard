@@ -1,0 +1,58 @@
+Comment[ArrayExpressAccession]	E-GEOD-24517
+Public Release Date	2012-03-02							
+Investigation Title	Light- and plastid-regulated transcriptomes in Arabidopsis seedlings							
+Comment[Submitted Name]	Light- and plastid-regulated transcriptomes in Arabidopsis seedlings
+Experiment Description	Plastids emit signals that broadly affect cellular processes. Based on previous genetic analyses, we propose that plastid signaling regulates the downstream components of a light signaling network and that these interactions coordinate chloroplast biogenesis with both the light environment and development by regulating gene expression.  We tested these ideas by analyzing light-regulated and plastid-regulated transcriptomes.  We found that the plastid is a major regulator of light signaling, attenuating the expression of more than half of all light-regulated genes in our dataset and changing the nature of light regulation for a smaller fraction of these light-regulated genes. Our analyses provide evidence that light and plastid signaling are interactive processes and are consistent with these interactions serving as major drivers of chloroplast biogenesis and function. Four biological replicates were grown separately under the same conditions.  Arabidopsis seedlings were grown in the presence (+Lin) or absence (-Lin) of lincomycin in 0.5 µmol m-2 s-1 blue plus red (BR) light for 6 days. After 6 days of growth in 0.5 µmol m-2 s-1 of BR light, seedlings were transferred to 60 µmol m-2 s-1 BR light.   50-100 seedlings were collected before (0 h) and 0.5 h, 1 h, 4 h, and 24 h after the 0.5 to 60 µmol m-2 s-1 BR-fluence-rate shift for RNA extraction and hybridization on Affymetrix microarrays.							
+Date of Experiment								
+Term Source Name	EFO
+Term Source Version								
+Term Source File	http://www.ebi.ac.uk/efo/efo.owl							
+Person Last Name	Ruckle	Ruckle	Larkin	Burgoon				
+Person First Name	Michael	Michael	Robert	Lyle				
+Person Mid Initials	E	E	M	D				
+Person Email	rucklemi@msu.edu							
+Person Affiliation	Michigan State University							
+Person Phone								
+Person Fax								
+Person Address	Plant Research Labs, Michigan State University, S-208 Plant Biology, Michigan State University, East Lansing, MI, USA							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Person Roles Term Accession Number								
+Normalization Type								
+Normalization Term Accession Number								
+Normalization Term Source REF								
+Replicate Type								
+Replicate Term Accession Number								
+Replicate Term Source REF								
+Experimental Design								
+Experimental Design Term Accession Number								
+Experimental Design Term Source REF								
+Quality Control Type								
+Quality Control Term Accession Number								
+Quality Control Term Source REF								
+Protocol Name	P-GSE24517-1	P-GSE24517-6	P-GSE24517-3	P-GSE24517-8	P-GSE24517-7	P-GSE24517-2	P-GSE24517-4	P-GSE24517-5
+Protocol Description	ID_REF = <br>VALUE = Signal<br>ABS_CALL = indicating whether the transcript was present (P), absent (A), or marginal (M)<br>DETECTION P-VALUE = 	For each sample, 15μg of labeled target cRNA was purified, fragmented, and hybridized to the GeneChip® Arabidopsis ATH1 Genome Array (Affymetrix) as recommended by the manufacturer. The GeneChip arrays were then washed and stained using a GeneChip Fluidics Station 450 (Affymetrix)	Col-0 seeds were surface-sterilized with ethanol, and plated on Linsmaier and Skoog medium containing 2% sucrose and 0.5% Phytoblend (Caisson Laboratories).  0.5mM lincomycin was included to the growth medium to block chloroplast biogenesis.  Seeds were stratified for 4 d at 4°C, irradiated with 125µmol m-2 s-1 red light for 1h at 21°C, incubated in the dark for 23h at 21°C, and incubated for 6 d in 0.5 µmol m-2 s-1 blue plus red (BR) light at 21°C.	The data were analyzed with Microarray Suite version 5.0 (MAS 5.0) using Affymetrix default analysis settings and global scaling as normalization method. The trimmed mean target intensity of each array was arbitrarily set to 100. In the manuscript, the data were normalized using GCRMA in R/Bioconductor (data provided as supplementary file: GSE24517.txt.gz).  Posterior probabilities were calculated using an empirical Bayes analysis on a per gene, per time point, and per treatment basis.  Samples Light_0h_(-LIN)_1 through Light_0h_(-LIN)_4 were used as the reference samples for -Lin at 0.5 h and 1 h.  Samples Light_0h_(+LIN)_1 through Light_0h_(+LIN)_4 were used as the reference samples for +Lin at 0.5 h and 1 h.  Samples Light_0h_(-LIN)_5 through Light_0h_(-LIN)_8 were used as the reference samples for -Lin at 4 h and 24 h.  Samples Light_0h_(+LIN)_5 through Light_0h_(+LIN)_8 were used as the reference samples for +Lin at 4 h and 24 h.	GeneChips were scanned using the GeneChip® Scanner 3000 7G (Affymetrix).	After 6 days of growth in 0.5 µmol m-2 s-1 blue plus red (BR) light, seedlings grown in the presence (+Lin) or absence (-Lin) of lincomycin were transferred to 60 µmol m-2 s-1 BR light.   50-100 seedlings were collected, frozen, and stored at -80°C before (0 h) and 0.5 h, 1 h, 4 h, and 24 h after the 0.5 to 60 µmol m-2 s-1 BR-fluence-rate shift.	RNA was extracted with Qiagen Rneasy Plant Mini Kit (Qiagen, Valencia, CA) performed according to the manufacturer's instructions.	Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 5 µg total RNA for each sample using the GeneChip One-Cycle Target Labeling (Affymetrix, Santa Clara CA).
+Protocol Software								
+Protocol Hardware								
+Protocol Contact								
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Protocol Term Source REF								
+Protocol Term Accession Number								
+Experimental Factor Name								
+Experimental Factor Type								
+Experimental Factor Term Source REF								
+Experimental Factor Term Accession Number								
+Publication Title								
+Publication Author List								
+PubMed ID								
+Publication DOI								
+Publication Status								
+Publication Status Term Source REF								
+Publication Status Term Accession Number								
+Comment[SecondaryAccession]	GSE24517							
+Comment[AdditionalFile:Data1]	GSE24517.txt							
+Comment[GEOLastUpdateDate]	2012-03-04
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[GEOReleaseDate]	2012-03-02
+Comment[ArrayExpressSubmissionDate]	2010-10-04
+SDRF File	E-GEOD-24517.sdrf.txt

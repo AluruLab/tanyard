@@ -1,0 +1,38 @@
+Comment[ArrayExpressAccession]	E-GEOD-18667																			
+Public Release Date	2010-09-10																			
+Investigation Title	Study of the effect of C2 on the transcriptome and the response to MeJA in Arabidopsis thaliana																			
+Comment[Submitted Name]	Study of the effect of C2 on the transcriptome and the response to MeJA in Arabidopsis thaliana																			
+Experiment Description	"affy_meja_arabidopsis - We want to determine if the presence of C2 modifies the cell transcriptome and its response to methyl jasmonate. Comparison of control lines and transgenic lines expressing C2 in basal conditions and after treatment with 50uM MeJA for 10 hours. C2 lines are expressing geminivirus C2 under a 35S promoter. PR1-LUC have a luciferase transgene under the control of the promoter of PR1; since the plants are not induced, these are the control plants (resistant to kanamycin, but not expressing anything else)  Keywords: gene knock in (transgenic),treated vs untreated comparison 12 arrays - ATH1"																			
+Term Source Name	EFO																			
+Experimental Design	unknown_experiment_design_type	transcription profiling by array																		
+Experimental Design Term Source REF		EFO																		
+Term Source Version																				
+Term Source File	http://efo.svn.sourceforge.net/viewvc/efo/trunk/src/efoinowl/efo.owl																			
+Person Last Name	balzergue	Balzergue	Bejarano	Lozano durán	Martin-Magniette															
+Person First Name	sandrine	Sandrine	Eduardo-R	Rosa	Marie-Laure															
+Person Mid Initials					L															
+Person Email	geo@ncbi.nlm.nih.gov																			
+Person Affiliation	INRA																			
+Person Phone																				
+Person Fax																				
+Person Address	"INRA, 2 rue Gaston Cremieux, evry, France"																			
+Person Roles	submitter																			
+Protocol Name	P-GSE18667-1	P-GSE18667-6	P-GSE18667-3	P-GSE18667-8	P-GSE18667-7	P-GSE18667-10	P-GSE18667-2	P-GSE18667-12	P-GSE18667-18	P-GSE18667-14	P-GSE18667-20	P-GSE18667-9	P-GSE18667-11	P-GSE18667-17	P-GSE18667-15	P-GSE18667-16	P-GSE18667-4	P-GSE18667-13	P-GSE18667-19	P-GSE18667-5
+Protocol Description	ID_REF = ID number<br>VALUE = Normalized data by GCRMA	labelled extract quantity: 15ug	"whole plant - MS plates, 22ºC, long day conditions (16 hours light/8 hours dark)"	"The data were normalized with the gcrma algorithm (Irizarry et al., 2003), available in the Bioconductor package (Gentleman and Carey, 2002)."	"GCOS, Biotin:pmt voltage 570nm,650V,laser power 1"	"Name:MeJA - hormone treatment,biotic stress - compound addition,methyl jasmonate:quantity 50uM time 10hour . Addition of 50uM MeJA to the plate and 10 hour incubation."	"Name:control - genetic treatment - o nacl,nacl 200 mm:time 0 . NaCl was added to MS liquid (final concentration 200mM) for 30 min or 1 h. For control, no salt was added. Treatment was stopped by freezing in liquid nitrogen."	LUC2C_1:10ug.	C2TSC_3:10ug.	C2TST_2:10ug.	LUC2T_2:10ug.	LUC2C_3:10ug.	LUC2T_1:10ug.	C2TSC_2:10ug.	LUC2C_2:10ug.	C2TST_1:10ug.	C2TSC_1:10ug.	C2TST_3:10ug.	LUC2T_3:10ug.	"labelling Biotin direct, amplification=yes, cRNA 20 ug."
+Protocol Software																				
+Protocol Hardware																				
+Protocol Contact																				
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_aquisition	specified_biomaterial_action	specified_biomaterial_action	nucleic_acid_extraction	nucleic_acid_extraction	nucleic_acid_extraction	nucleic_acid_extraction	nucleic_acid_extraction	nucleic_acid_extraction	nucleic_acid_extraction	nucleic_acid_extraction	nucleic_acid_extraction	nucleic_acid_extraction	nucleic_acid_extraction	nucleic_acid_extraction	labeling
+Protocol Term Source REF																				
+Protocol Term Accession Number																				
+Experimental Factor Name	genotype	compound																		
+Experimental Factor Type	genotype	compound																		
+Experimental Factor Term Source REF																				
+Experimental Factor Term Accession Number																				
+Comment[SecondaryAccession]	GSE18667																			
+Comment[GEOLastUpdateDate]	2010-07-27																			
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis expressing genimivirus C2 under the control of the 35S promoter after treatment with methyl jasmonate																			
+Comment[AEExperimentType]	transcription profiling by array																			
+Comment[GEOReleaseDate]	2010-09-09																			
+Comment[ArrayExpressSubmissionDate]	2009-10-20																			
+SDRF File	E-GEOD-18667.sdrf.txt																			

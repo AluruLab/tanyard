@@ -1,0 +1,36 @@
+Comment[ArrayExpressAccession]	E-MEXP-3186						
+Investigation Title	ire1 double mutant vs wild-type in response to tunicamycin						
+Comment[Submitted Name]	ire1 double mutant vs wild-type in response to tunicamycin						
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for ire1 after treatment with tunicamycin						
+Comment[MIAMExpressLogin]	yiwata						
+Comment[MIAMExpressSubmissionID]	7397						
+Experiment Description	Arabidopsis thaliana wild-type and ire1a/ire1b double mutant plants were treated with tunicamycin. RNA was extracted and subjected to microarray analysis.						
+Experimental Design	co-expression_design	compound_treatment_design	replicate_design				
+Comment[AEExperimentType]	transcription profiling by array						
+Experimental Factor Name	genotype	growth condition					
+Experimental Factor Type	genotype	growth condition					
+Person Last Name	Iwata						
+Person First Name	Yuji						
+Person Email	yui2@psu.edu						
+Person Phone	814-863-5717						
+Person Affiliation	Pennsylvania State University						
+Person Address	"Huck Institutes of the Life Sciences, 211 Wartik, University Park, PA, 16802, USA"						
+Person Roles	submitter						
+Person Roles Term Source REF	MGED Ontology						
+Quality Control Type	biological_replicate						
+Public Release Date	2012-03-13						
+Comment[ArrayExpressSubmissionDate]	19/04/2011 14:08						
+PubMed ID	22355548						
+Publication DOI	10.1038/srep00029						
+Publication Title	Arabidopsis IRE1 catalyses unconventional splicing of bZIP60 mRNA to produce the active transcription factor						
+Publication Author List	"Yukihiro Nagashima, Kei-ichiro Mishiba, Eiji Suzuki, Yukihisa Shimada, Yuji Iwata & Nozomu Koizumi"						
+Publication Status	published						
+Publication Status Term Source REF	EFO						
+Publication Status Term Accession Number	EFO_0001796						
+Protocol Name	P-MTAB-20294	P-MTAB-20289	P-MTAB-20291	P-MTAB-20295	P-MTAB-20296	P-MTAB-20292	P-AFFY-2
+Protocol Description	Each chip was normalized relative to the sum of the signal values using the GeneChip software MAS version 5 (Affymetrix). 	Arabidopsis seedlings were treated with 5 mg/L tunicamycin for 5 h.	"Total RNA was extracted using RNeasy plant mini kit (Qiagen, Valencia, CA) according to the manufacturerﾒs instructions. (Parameters: Extracted product = total_RNA, Amplification = none)"	"The array was scanned using a confocal microscope scanner (HP Genome Array Scanner; Affymetrix) at a wavelength of 570 nm. (Parameters: Scanning hardware = HP GeneArray [Affymetrix/HP], Scanning software = MAS/GCOS/GREX [Affymetrix])"	"Each cRNA sample (20 ug) was fragmented and hybridized with the Arabidopsis Genome Array (Affymetrix, Santa Clara, CA) for 16 h at 45C with rotation at 60 rpm. Each array was then washed and detected by consecutive exposure to phycoerythrin-streptavidin (Molecular Probes, Eugene, OR), biotinylated antibodies to streptavidin (Vector Laboratories, Burlingame, CA), and phycoerythrin-streptavidin, after which each array was washed again with a nonstringent wash buffer. All washing and staining procedures were performed with a Fluidics Station 400 (Affymetrix). (Parameters: Chamber type = Affymetrix- GeneChip Hyb Oven 640, Quantity of label target used = 20, Mass unit = Micro gram, time = 16, Tiny time unit = hours, Volume unit = Micro litre, temperature = 45)"	"Arabidopsis seedlings were grown in half-strength MS medium supplemented with 2% (w/v) sucrose in a 16 h light and 8 h dark cycle for 10 days. (Parameters: time unit = seconds, temperature unit = C)"	
+Protocol Type	bioassay_data_transformation	specified_biomaterial_action	nucleic_acid_extraction	image_acquisition	hybridization	grow	feature_extraction
+Protocol Term Source REF	MGED Ontology	MGED Ontology	MGED Ontology	MGED Ontology	MGED Ontology	MGED Ontology	
+Term Source Name	MGED Ontology	ArrayExpress	EFO				
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo				
+SDRF File	E-MEXP-3186.sdrf.txt						

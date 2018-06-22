@@ -1,0 +1,49 @@
+Investigation Title	Transcription profiling of Arabidopsis seedlings treated with NAE(12:0)								
+Comment[Submitted Name]	Gene expression profiling of Arabidopsis seedling treated with NAE								
+Experimental Design	in_vivo_design	compound_treatment_design	co-expression_design	transcription profiling by array					
+Experimental Design Term Source REF		mo	mo	EFO					
+Comment[AEExperimentType]	transcription profiling by array								
+Comment[ArrayExpressReleaseDate]	2007-11-03								
+Comment[AEMIAMESCORE]	5								
+Comment[ArrayExpressAccession]	E-MEXP-1310								
+Comment[MAGETAB TimeStamp_Version]	2010-08-09 20:59:22 Last Changed Rev: 13058								
+Experimental Factor Name	dose	compound							
+Experimental Factor Type	dose	compound							
+Experimental Factor Term Source REF									
+Person Last Name	Tang								
+Person First Name	Yuhong								
+Person Mid Initials									
+Person Email	ytang@noble.org								
+Person Phone	5802246645								
+Person Fax									
+Person Address	2510 Sam Noble Pkwy								
+Person Affiliation	Plant Biology Division								
+Person Roles	submitter								
+Person Roles Term Source REF	The MGED Ontology								
+Quality Control Type	biological_replicate								
+Quality Control Term Source REF	The MGED Ontology								
+Replicate Type									
+Replicate Term Source REF									
+Normalization Type									
+Normalization Term Source REF									
+Date of Experiment									
+Public Release Date	2007-11-03								
+PubMed ID	17766402								
+Publication DOI	10.1105/tpc.106.048702								
+Publication Author List	Teaster ND, Motes CM, Tang Y, Wiant WC, Cotter MQ, Wang YS, Kilaru A, Venables BJ, Hasenstein KH, Gonzalez G, Blancaflor EB, Chapman KD.								
+Publication Title	N-Acylethanolamine Metabolism Interacts with Abscisic Acid Signaling in Arabidopsis thaliana Seedlings.								
+Publication Status									
+Publication Status Term Source REF	The MGED Ontology								
+Experiment Description	Transcript profiling and gene expression studies in NAE-treated seedlings: Seeds were germinated and seedlings maintained for 4 d in liquid MS media supplemented with 35 uM NAE(12:0)(N-lauroylethanolamine) prior to RNA isolation.								
+Protocol Name	P-MEXP-104680	P-MEXP-104681	P-MEXP-52607	P-AFFY-2	Affymetrix:Protocol:Hybridization-EukGE-WS2v5	P-AFFY-6	Affymetrix:Protocol:ExpressionStat	Affymetrix:Protocol:MAS4:ExpressionCall	
+Protocol Type	grow	specified_biomaterial_action	nucleic_acid_extraction	labeling	hybridization	feature_extraction	bioassay_data_transformation	bioassay_data_transformation	
+Protocol Description	Germination and growth proceeded in a controlled environment room with 16h/8 h light/dark cycle (60 umol·m-2·sec-1 ) at 20-22 degreeC. Liquid cultured seedlings were incubated with shaking (75 rpm).	Seeds were germinated and seedlings maintained for 4 d in liquid MS media supplemented with 35 uM NAE12:0 prior to RNA isolation.	Total RNA was isolated from 0.5 g of M. truncatula suspension cells using 5 ml of Tri-Reagent (Molecular Research Center, Cincinnati, OH, USA) following the manufacturers protocol. RNA was further purified by MinElute (Qiagen, Valencia, CA).	Title: Affymetrix in vitro transcription. Description: 	Title: Affymetrix EukGE-WS2v5 Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 	Title: Affymetrix CHP Analysis (ExpressionCall). Description: 	
+Protocol Parameters	media;min temperature;max temperature;start time;		Extracted product;Amplification;						
+Protocol Hardware									
+Protocol Software					MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 4.0	
+Protocol Contact									
+Protocol Term Source REF							The MGED Ontology	mo	
+SDRF File	E-MEXP-1310.sdrf.txt								
+Term Source Name	The MGED Ontology		NCBI Taxonomy	mo	tair_dev:1.27	ArrayExpress	The MGED Ontology	mo	EFO
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php		http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.arabidopsis.org/info/ontologies/	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/
+Term Source Version					1.27				

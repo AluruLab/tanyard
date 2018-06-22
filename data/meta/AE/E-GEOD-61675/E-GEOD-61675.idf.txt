@@ -1,0 +1,29 @@
+Comment[ArrayExpressAccession]	E-GEOD-61675					
+MAGE-TAB Version	1.1					
+Public Release Date	2014-09-24					
+Investigation Title	Transcriptome of Arabidopsis thaliana ceh1 mutant					
+Comment[Submitted Name]	Transcriptome of Arabidopsis thaliana ceh1 mutant					
+Experiment Description	Here we present the transcriptomic profile of mutant plants designated as ceh1 (constitutively expressing HPL). CEH1 encodes 1-hydroxy-2-methyl-2-butenyl 4-diphosphate synthase (HDS), the enzyme controlling the bottleneck step of the biosynthesis of isopentenyl diphosphate via the 2-C-methyl-d-erythritol-4-phosphate (MEP) pathway in the plastids. Mutation of this enzyme in ceh1 mutant led to accumulation of high levels of the stress specific signaling metabolite 2c-methyl-D-erythritol 2,4-cylclodiphosphate (MEcPP), and consequently constitutive activation of a selected otherwise stress responsive genes. This data identifies the ensemble of stress responsive genes whose expression is regulated by the MEcPP signaling cascade. About 20 two-week-old plants grown on 1/2 MS medium were collected to extract total RNA. Transcriptome of parent line and ceh1 mutant were compared.					
+Term Source Name	ArrayExpress	EFO				
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl				
+Person Last Name	Dehesh	Xiao	Dehesh			
+Person First Name	Katayoon	Yanmei	Katayoon			
+Person Email	kdehesh@ucdavis.edu					
+Person Affiliation	UNIVERSITY OF CALIFORNIA DAVIS					
+Person Address	Plant Biology, UNIVERSITY OF CALIFORNIA DAVIS, One Shilels Avenue, Davis, CA, USA					
+Person Roles	submitter					
+Protocol Name	P-GSE61675-1	P-GSE61675-4	P-GSE61675-5	P-GSE61675-2	P-GSE61675-3	P-GSE61675-6
+Protocol Description	The data were analyzed with Microarray Suite version 5.0 (MAS 5.0) using Affymetrix default analysis settings and global scaling as normalization method. The trimmed mean target intensity of each array was arbitrarily set to 100. ID_REF =  VALUE = Signal ABS_CALL = indicating whether the transcript was present (P), absent (A), or marginal (M) DETECTION P-VALUE = 	Biotinylated cRNA was prepared according to the standard Affymetrix protocol from 4 micrograms total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).	Following fragmentation, 10 micrograms of biotinylated cRNA were hybridized to Affymetrix chips (Arabidopsis ATH1 Genome Array). Each sample was added to a hybridization solution containing 100mM 2-(N-morpholino)ethanesulfonic acid, 1 M Na+, and 20mM of EDTA in the presence of 0.01% of Tween-20 to a final cRNA concentration of 0.05 ug/ml. Hybridization was performed for 16 h at 45degreesC . Each microarray was washed and stained with streptavidin-phycoerythrin in a Fluidics station 450 (Affymetrix).	Arabidopsis thaliana ceh1 mutant and corresponding parent line seeds were plated on 1/2 MS medium and kept at 4degreesC for 2 days, then the plants were grown in a growth chamber for 2 weeks with a light intensity of approximately 100-150 uE m-2s-1 at 23degreesC under 8 h light/16 h dark cycles and 60% humidity.	RNA was isolated with Trizol (Invitrogen) followed by the RNA purification using RNeasy Plant Mini Kit (Qiagen) following manufactureﾴs instructions.	GeneChips were scanned using the standard Affymetrix GeneChip Scanner
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	genotype					
+Experimental Factor Type	genotype					
+Comment[SecondaryAccession]	GSE61675					
+Comment[GEOReleaseDate]	2014-09-24					
+Comment[ArrayExpressSubmissionDate]	2014-09-23					
+Comment[GEOLastUpdateDate]	2014-09-25					
+Comment[AEExperimentType]	transcription profiling by array					
+Publication Title	Plastid-produced interorgannellar stress signal MEcPP potentiates induction of the unfolded protein response in endoplasmic reticulum					
+Publication Author List	Walley J, Xiao Y, Wang JZ, Baidoo EE, Keasling JD, Shen Z, Briggs SP, Dehesh K					
+Publication DOI	10.1073/pnas.1504828112					
+Pubmed ID	25922532					
+SDRF File	E-GEOD-61675.sdrf.txt					

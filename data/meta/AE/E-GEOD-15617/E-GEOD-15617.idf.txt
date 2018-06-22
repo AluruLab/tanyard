@@ -1,0 +1,58 @@
+Comment[ArrayExpressAccession]	E-GEOD-15617									
+Public Release Date	2009-06-15									
+Investigation Title	Uncovering the Arabidopsis thaliana nectary transcriptome: nectary and reference tissues									
+Comment[Submitted Name]	Uncovering the Arabidopsis thaliana nectary transcriptome: nectary and reference tissues									
+Experiment Description	Many flowering plants attract pollinators by offering a reward of floral nectar. Remarkably, the molecular events involved in the development of nectaries, the organs that produce nectar, as well as the synthesis and secretion of nectar itself, are poorly understood. Indeed, to date, no genes have been shown to directly affect the de novo production or quality of floral nectar. To address this gap in knowledge, the ATH1 Affymetrix GeneChip array was used to systematically investigate the Arabidopsis nectary transcriptome to identify genes and pathways potentially involved in nectar production. In this study, we identified a large number of genes differentially expressed between secretory lateral nectaries and non-secretory median nectary tissues, as well as between mature lateral nectaries (post-anthessis) and immature lateral nectary tissue (pre-anthesis).  To identify genes that are specifically upregulated in nectary tissues, and therefore may contribute to nectar production, we compared individual nectary samples (ILN, MLN & MMN) with 51 non-nectary reference tissues (downloaded .cel files from other studies).  270 genes were identified as being significantly upregulated in nectaries.  The expression patterns for multiple genes were also confirmed via RT-PCR.  The co-normalized RMA expression data (i.e., our own 8 nectary samples and 51 samples downloaded from GEO) are available as a supplementary file at the foot of this record. Three different types of RNA samples were prepared from Arabidopsis thaliana ecotype Columbia-0 nectaries: mature lateral nectaries (MLN; Stage 14-15 flowers), immature lateral nectaries (ILN, Stage 11-12 flowers), and mature median nectaries (MMN, Stage 14-15 flowers) [developmental stages defined by (Smyth et al., 1990)]. MLN are secretory tissues, whereas, ILN and MMN are pre-secretory and nonsecretory tissues, respectively. All nectary tissues were separately dissected by hand from the flowers of primary inflorescences of ca. 30-35 day-old plants.  All plants were grown in soil with a 16h light/8h dark light regimen. Due to the small size of nectaries, dissections took place over several days from 4-8 hours after dawn (h.a.d.).  The gene expression dataset obtained by our laboratory was enriched with third party expression data (i.e., 51 GEO Samples: GSM131510..GSM131660).  The final gene expression dataset includes 59 hybridizations.									
+Date of Experiment										
+Term Source Name	EFO									
+Term Source Version										
+Term Source File	http://efo.svn.sourceforge.net/viewvc/efo/trunk/src/efoinowl/efo.owl									
+Person Last Name	Carter	Kram	Xu	Carter						
+Person First Name	Clay	Brian	Wayne	Clay						
+Person Mid Initials	J	W	W	J						
+Person Email	cjcarter@d.umn.edu									
+Person Affiliation	University of Minnesota Duluth									
+Person Phone	218-726-7347									
+Person Fax										
+Person Address	Biology, University of Minnesota Duluth, 1035 Kirby Dr, Duluth, MN, USA									
+Person Roles	submitter									
+Person Roles Term Source REF										
+Person Roles Term Accession Number										
+Normalization Type										
+Normalization Term Accession Number										
+Normalization Term Source REF										
+Replicate Type										
+Replicate Term Accession Number										
+Replicate Term Source REF										
+Experimental Design										
+Experimental Design Term Accession Number										
+Experimental Design Term Source REF										
+Quality Control Type										
+Quality Control Term Accession Number										
+Quality Control Term Source REF										
+Protocol Name	P-GSE15617-2	P-GSE15617-1	P-GSE15617-8	P-GSE15617-10	P-GSE15617-3	P-GSE15617-5	P-GSE15617-9	P-GSE15617-4	P-GSE15617-6	P-GSE15617-7
+Protocol Description	ID_REF = <br>VALUE = RMA signal intensity, linear scale	ID_REF = <br>VALUE = This is the final calculated measurement for each probe set identifier that has been made comparable across all samples and rows<br>ABS_CALL = A qualitative measurement indicating if the probe set is detected<br>DETECTION P-VALUE = A p-value indicating the significance of the Detection call	Hybridization was performed according to the recommended Affymetrix protocols at the University of Minnesota Microarray facility.	The probe level signals were quantile-normalized and summarized using RMA algorithm by using the Expressionist® (Genedata, Basel, Switzerland) Refiner module.  Gene expression values were further linear scaled up to a media of 100 in the Expressionist® (Genedata, Basel, Switzerland) Analyst module.	The data were analysed using Affymetrix Microarray Suite 5.0 (MAS5)	Plants were grown in individual pots on a peat-based growth medium with vermiculite and perlite (Pro-Mix BX; Premier Horticulture, Rivière-du-Loup, Quebec, Canada). All plant growth was performed in Percival AR66LX environmental chambers with settings of: 16 hr day/8hr night cycle, photosynthetic photon flux of 150 µmol m-2 s-1, 50% humidity and temperature of 21°C.  All nectary tissues were separately dissected by hand from the flowers of primary inflorescences of ca. 30-35 day-old plants. Due to the small size of nectaries, dissections took place over several days from 4-8 hours after dawn (h.a.d.). Isolated nectaries were pooled in RNAlater™ solution (Ambion, Austin, TX) on ice, and stored at +4°C prior to RNA extraction. Up to two nectaries were collected per flower, with approximately 250-300 nectaries being processed as a single RNA sample.	GeneChips were scanned using a GeneChip 3000 scanner at the University of Minnesota Microarray Facility	N/A	RNA was extracted from floral nectariferous tissue by mechanical disruption, with a microcentrifuge pestle, and using the RNAqueous®-Micro micro scale RNA isolation kit (Ambion, Austin, TX) with Plant RNA Isolation Aid (Ambion, Austin, TX). Denaturing agarose gel electrophoresis (Applied Biosystems, 2008) and UV spectrophotometry were used to assess RNA quality for all samples.	RNA was processed using the MessageAmp™ II-Biotin Enhanced Kit (Ambion, Austin, TX) for a single round of RNA amplification as described by the manufacturer. Briefly, 250-500 ng of total RNA (500 ng from lateral nectaries; 250 ng from median nectaries due to extremely small size) was used in a reverse transcription reaction to generate first-strand cDNA. Following second-strand synthesis, double-stranded cDNA was used in an in vitro transcription (IVT) reaction to generate biotin-labeled, amplified RNA (aRNA). aRNA size distribution was evaluated by conventional denaturing agarose gel analysis according to manufacturer’s instructions (Ambion, Austin, TX). An aRNA fragmentation reaction, employing metal-induced hydrolysis, was used to fragment aRNA as described by the manufacturer (Ambion, Austin, TX).
+Protocol Software										
+Protocol Hardware										
+Protocol Contact										
+Protocol Type	bioassay_data_transformation	bioassay_data_transformation	hybridization	feature_extraction	feature_extraction	grow	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Protocol Term Source REF										
+Protocol Term Accession Number										
+Experimental Factor Name	DEVELOPMENTAL STAGE	ORGANISM PART								
+Experimental Factor Type	developmental_stage	organism_part								
+Experimental Factor Term Source REF										
+Experimental Factor Term Accession Number										
+Publication Title	Uncovering the Arabidopsis thaliana nectary transcriptome: investigation of differential gene expression in floral nectariferous tissues.									
+Publication Author List	Kram BW, Xu WW, Carter CJ									
+PubMed ID	19604393									
+Publication DOI	10.1186/1471-2229-9-92									
+Publication Status	published									
+Publication Status Term Source REF	EFO									
+Publication Status Term Accession Number	EFO_0001796									
+Comment[SecondaryAccession]	GSE15617									
+Comment[GEOLastUpdateDate]	2009-09-13									
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis floral, leaf and stem tissues									
+Comment[AEExperimentType]	transcription profiling by array									
+Comment[GEOReleaseDate]	2009-06-14									
+Comment[ArrayExpressSubmissionDate]	2009-04-08									
+SDRF File	E-GEOD-15617.sdrf.txt									

@@ -1,0 +1,26 @@
+Comment[ArrayExpressAccession]	E-GEOD-75928
+MAGE-TAB Version	1.1						
+Public Release Date	2016-05-31
+Investigation Title	Expression profiling of Fusarium oxysporum infected wild-type Arabidopsis and a 35S Fusarium SIX4 overexpression line.						
+Comment[Submitted Name]	Expression profiling of Fusarium oxysporum infected wild-type Arabidopsis and a 35S Fusarium SIX4 overexpression line.
+Experiment Description	Fungal effectors play important roles in inciting disease development on host plants. We identified an effector (Secreted in Xylem4, SIX4) in an Arabidopsis infecting isolate (Fo5176) of the root-infecting fungal pathogen Fusarium oxysporum and demonstrated this effector is required for full virulence. To  explore the role of Fo5176_SIX4 we use whole transcriptome profiling of root tissues from plants overexpressing this effector (35sSIX4) versus wild-type (Col-0) plants after F. oxysporum infection. We grew both WT and 35sSIX4 plants for four weeks in soil. After four weeks the plants were  infected with Fusarium oxyporum isolate Fo5176, trays covered with a plastic dome and incubated at 28C. There were four independent replicates of each treatment and each replicate contained root tissue from 20 plants. Each replicate (8 in total) was harvested 4 days post inoculation and the resulting RNA was used for hybridization to an Affymetrix ATH1 chip.						
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Thatcher	Thatcher	Manners	Kazan			
+Person First Name	Louise	Louise	John	Kemal			
+Person Mid Initials	Faye	F	M				
+Person Email	Louise.Thatcher@csiro.au						
+Person Affiliation	CSIRO						
+Person Address	Agriculture Flagship, CSIRO, 147 Underwood Ave, Floreat, WA, Australia						
+Person Roles	submitter						
+Protocol Name	P-GSE75928-1	P-GSE75928-5	P-GSE75928-6	P-GSE75928-2	P-GSE75928-3	P-GSE75928-4	P-GSE75928-7
+Protocol Description	The data was analyzed using GenespringGX 7.3.1. The raw CEL files were pre-processed using the RMA algorithm and the resulting expression values were normalized per chip to the median across all chips. ID_REF =  VALUE = Signal ABS_CALL = indicating whether the transcript was present (P), absent (A), or marginal (M) DETECTION P-VALUE = 	The RNA was labelled, hybridized, washed and scanned by the AGRF (Australian Genome Research Facility - http://www.agrf.org.au) according to Affymetrix requirements.	The RNA was labelled, hybridized, washed and scanned by the AGRF (Australian Genome Research Facility - http://www.agrf.org.au) according to Affymetrix requirements.	Treatment involved lifting plants and rinsing off soil, placing roots in a spore suspension (1x106 spores/ml) for 1 minute, replanting, and covering tray with a clear plastic dome to maintain humidity. Plants were transferred to long day conditions (16hrs light) at 28C. Samples were harvested after 4 days post inoculation.	Plants were grown under short day conditions (8hrs light, 24C and 21C day night cycle) in plastic trays (20 cells) with one plant per cell for 4 weeks before treatment.	Total RNA was extracted using the RNeasy Plant Mini Kit (Qiagen) according to the manfacturer's instructions.	The RNA was labelled, hybridized, washed and scanned by the AGRF (Australian Genome Research Facility - http://www.agrf.org.au) according to Affymetrix requirements.
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	ecotype						
+Experimental Factor Type	ecotype						
+Comment[SecondaryAccession]	GSE75928						
+Comment[GEOReleaseDate]	2016-05-31						
+Comment[ArrayExpressSubmissionDate]	2015-12-11						
+Comment[GEOLastUpdateDate]	2016-06-02						
+Comment[AEExperimentType]	transcription profiling by array						
+SDRF File	E-GEOD-75928.sdrf.txt

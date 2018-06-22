@@ -1,0 +1,37 @@
+Comment[ArrayExpressAccession]	E-MEXP-2912								
+Investigation Title	Transcription profiling by array of Arabidopsis wild type and an ARF7/ARF19 double knockout mutant roots dissected into 5 developmental zones								
+Comment[Submitted Name]	A transcriptomic map of the root of the arabidopsis seedling								
+Comment[AEExperimentType]	transcription profiling by array								
+Comment[AEExperimentDisplayName]	Transcription profiling by array of different organism parts of Arabidopsis mutant for arf7 and arf19								
+Publication Title	A novel Aux/IAA28 signalling cascade activates GATA23-dependent specification of lateral root founder cell identity								
+Publication Author List	Bert De Rybel, Valya Vassileva, Boris Parizot, Marlies Demeulenaere, Wim Grunewald, Dominique Audenaert, Jelle Van Campenhout, Paul Overvoorde, Leentje Jansen, Steffen Vanneste, Barbara Moller Michael Wilson, Tara Holman, Gert Van Isterdael, Geraldine Brunoud, Marnik Vuylsteke, Teva Vernoux, Lieven De Veylder, Dirk Inze, Dolf Weijers, Malcolm Bennett and Tom Beeckman								
+Publication DOI	10.1016/j.cub.2010.09.007								
+PubMed ID	20888232								
+Publication Status	published								
+Publication Status Term Source REF	EFO								
+Publication Status Term Accession Number	EFO_0001796								
+Experimental Design	organism_part_comparison_design	co-expression_design	replicate_design	transcription profiling by array					
+Experimental Design Term Source REF	The MGED Ontology	The MGED Ontology	The MGED Ontology	EFO					
+Comment[MIAMExpressLogin]	cpibuser								
+Comment[MIAMExpressSubmissionID]	6590								
+Experiment Description	Arabidopsis seedlings, of both wild-type and an ARF7/ARF19 double knockout mutant, were grown to 7 days post-germination. The roots were then dissected into 5 developmental zones, the meristem, early elongation zone, late elongation zone, mature root and lateral root zone. The sections then underwent transcriptional profiling to identify processes and regulatory events specific and in common to the zones.								
+Experimental Factor Name	genotype	organism part							
+Experimental Factor Type	genotype	organism part							
+Person Last Name	Wilson								
+Person First Name	Michael								
+Person Email	mwilson@cpib.ac.uk								
+Person Phone	1159516108								
+Person Affiliation	University of Nottingham								
+Person Address	CPIB, Sutton Bonington Campus, Sutton Bonington, Nottinghamshire, LE12 5RD, United Kingdom								
+Person Roles	submitter								
+Person Roles Term Source REF	The MGED Ontology								
+Quality Control Type									
+Public Release Date	2011-04-13								
+Comment[ArrayExpressSubmissionDate]	2010-09-10 14:42:19								
+Protocol Name	P-MTAB-16965	P-MTAB-16966	P-MTAB-16967	P-MTAB-16968	P-MTAB-16969	P-MTAB-16970	P-MTAB-16971	P-MTAB-16972	P-MTAB-16973
+Protocol Description	Approximately 50 roots were dissected for the decelerating elongation zone (DZ) (from the  first visible root hair bulge to the first fully elongated root hair, approximately 1000 um from the first root hair bulge). Dissected samples were immediately frozen in liquid nitrogen	RNA labelling and hybridisation to Affymetrix ATH1 arrays were performed by the Nottingham Arabidopsis Stock Centre (NASC), according to manufacturers recommended protocol for the IVT-express kit<br>(Parameters: Amplification = none, Mass unit = Micro gram)	Wild-type Col-0 seedlings were grown vertically on 1/2 MS media supplemented with 1 % (w/v) PGP-type agarose (Park Scientific Ltd., UK) for seven days in controlled environmental conditions of 24 degreeC, continuous light of 150 umol m-1 s-1. Plants for seed propagation were grown simultaneous in controlled conditions with a 16h light (23 degreeC), 8h dark (18 degreeC) cycle.<br>(Parameters: start time = 7, time unit = days, min temperature = 24, temperature unit = C, media = ﾽ MS media supplemented with 1 % (w/v) PGP-type agarose)	Approximately 50 roots were dissected for the lateral root zone (LZ) (from 500 um past the first fully elongated root hair for 2500 um in the direction of the hypocotyl boundary). Dissected samples were immediately frozen in liquid nitrogen	Approximately 50 roots were dissected into the meristem (MS) (from the root tip to the top of the lateral root cap, approximately 350 um from the root tip). Dissected samples were immediately frozen in liquid nitrogen	RNA labelling and hybridisation to Affymetrix ATH1 arrays were performed by the Nottingham Arabidopsis Stock Centre (NASC), according to manufacturers recommended protocol for the 2-cycle amplification kit<br>(Parameters: Amplification = none, Mass unit = Micro gram)	Approximately 50 roots were dissected for the mature post elongation zone (MR) (500 um from the first fully elongated root hair). Dissected samples were immediately frozen in liquid nitrogen	Approximately 50 roots were dissected for the rapid elongation zone (EZ) (from the top of the lateral root cap to the first visible root hair bulge, approximately 850 um from the top of the lateral root cap). Dissected samples were immediately frozen in liquid nitrogen	RNA was extracted using the Qiagen MicroRNA Kit following the manufacturers recommended protocol (Qiagen, Crawley, UK). RNA was quantified using a Nanodrop ND100 spectrophotometer (Nanodrop, Wilimington, USA). All RNA samples were approximately 1 ug/ul in a total volume of 10 ul. For the two-cycle and IVT-E samples, RNA was diluted with RNase-free water to make a final concentration of 50 ng/ul (equivalent to 30 dissected root sections). <br>(Parameters: Extracted product = total_RNA, Amplification = none)
+Protocol Type	specified_biomaterial_action	labeling	grow	specified_biomaterial_action	specified_biomaterial_action	labeling	specified_biomaterial_action	specified_biomaterial_action	nucleic_acid_extraction
+Protocol Term Source REF	The MGED Ontology	The MGED Ontology	The MGED Ontology	The MGED Ontology	The MGED Ontology	The MGED Ontology	The MGED Ontology	The MGED Ontology	The MGED Ontology
+Term Source Name	The MGED Ontology	ArrayExpress	EFO						
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo						
+SDRF File	E-MEXP-2912.sdrf.txt								

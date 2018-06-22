@@ -1,0 +1,52 @@
+Investigation Title	Arabidopsis light and temperature response													
+Comment[Submitted Name]	Arabidopsis light and temperature response													
+Experimental Design	in_vivo_design	co-expression_design	time_series_design	stimulus_or_stress_design	transcription profiling by array									
+Experimental Design Term Source REF		The MGED Ontology	The MGED Ontology	The MGED Ontology	EFO									
+Comment[AEExperimentType]	transcription profiling by array													
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis after exposure to different temperatures and light levels													
+Comment[SecondaryAccession]														
+Comment[ArrayExpressReleaseDate]	2011-08-09													
+Comment[AEMIAMESCORE]	5													
+Comment[ArrayExpressAccession]	E-MTAB-375													
+Comment[MAGETAB TimeStamp_Version]	2010-09-16 16:06:32 Last Changed Rev: 13833													
+Experimental Factor Name	LIGHT	TEMPERATURE	TIME											
+Experimental Factor Type	light	temperature	time											
+Experimental Factor Term Source REF														
+Person Last Name	Klie													
+Person First Name	Sebastian													
+Person Mid Initials														
+Person Email	willmitzer@mpimp-golm.mpg.de													
+Person Phone														
+Person Fax														
+Person Address														
+Person Affiliation														
+Person Roles	submitter													
+Person Roles Term Source REF														
+Quality Control Type	technical_replicate													
+Quality Control Term Source REF	The MGED Ontology													
+Replicate Type														
+Replicate Term Source REF														
+Normalization Type														
+Normalization Term Source REF														
+Date of Experiment														
+Public Release Date	2011-08-09													
+PubMed ID	21575090													
+Publication DOI	10.1111/j.1365-313X.2011.04640.x													
+Publication Author List	Camila Caldana, Thomas Degenkolbe, Alvaro Cuadros-Inostroza, Sebastian Klie, Ronan Sulpice, Andrea Leisse, Dirk Steinhauser, Alisdair R. Fernie, Lothar Willmitzer and Matthew A Hannah													
+Publication Title	High-density kinetic analysis of the metabolomic and transcriptomic response of Arabidopsis to eight environmental conditions													
+Publication Status	published													
+Publication Status Term Source REF	EFO													
+Publication Status Term Accession Number	EFO_0001796													
+Experiment Description	High-density kinetic analysis of the metabolomic and transcriptomic response of Arabidopsis to temperature and light													
+Protocol Name	P-MTAB-17005	P-MTAB-17013	P-MTAB-17012	P-MTAB-17006	P-MTAB-17008	P-MTAB-17009	P-MTAB-17010	P-MTAB-17007	P-MTAB-17011	P-MTAB-17004	P-MTAB-17014	P-MTAB-17015	P-AFFY-6	P-MTAB-17016
+Protocol Type	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	grow	nucleic_acid_extraction	labeling	feature_extraction	bioassay_data_transformation
+Protocol Description	Before experiment was started (4h after the beginning of light period), control plants were transferred back to the long-day conditions (air temperature of 21 C/18 C and light intensity of 150 uE). Treated plants were transferred to the same photoperiod with different light and/or temperatures regimes. All conditions were performed and sampled in parallel.	Normal temperature and high-light: Plants transferred to 21 C and hight-light intensity of 400 uE	Normal temperature and low-light: Plants transferred to 21 C and low-light intensity of 75 uE	Control treatment: long-day (16h) conditions (air temperature of 21 C/18 C and light intensity of 150 uE)	Low temperature and normal light: Plants transferred to 4 C and with light-intensity of 85 uE	Low temperature and darkness: Plants transferred to 4 C and no light	Hight temperature and normal light: Plants transferred 32 C and with light-intesity of 150 uE	Normal temperature and darkness: Plants transferred to 21 C and no light	High temperature and darkness: Plants transferred to 32 C and no light	Wild-type Arabidopsis thaliana Col-0 grown for 4 weeks in short-days (8h). Transfer to long-days (16h) with light/night temperatures of 21 C/18 C for 2 weeks.	All experimental conditions: harvests of 6 plant rosettes every 20min up to 360min. Additional sample taken at 5, 10, 640 and 1280min. Samples were harvested from individual plants and immediately frozen in liquid nitrogen. RNA was isolated using RNeasy Plant Mini Kit (Qiagen, Hilden, Germany) from pools of 6 leaves	1 g of RNA was used as described in [Hannah et al. (2008) ,Global mRNA changes in microarray experiments,doi:10.1038/nbt0708-741]. Samples were hybridized to the Affymetrix ATH1 arrays and scanned by ATLAS Biolabs (Berlin, Germany).		Raw CEL files were analyzed using bioconductor. Quality control and Affymetrix MAS5 present/absent calls were obtained using affy package. GCRMA expression estimation was acquire using gcrma package. Intesity values are log2 transformed.
+Protocol Parameters														
+Protocol Hardware														
+Protocol Software													MicroArraySuite 5.0	
+Protocol Contact														
+Protocol Term Source REF	The MGED Ontology	The MGED Ontology	The MGED Ontology	The MGED Ontology	The MGED Ontology	The MGED Ontology	The MGED Ontology	The MGED Ontology	The MGED Ontology	The MGED Ontology	The MGED Ontology	The MGED Ontology		The MGED Ontology
+SDRF File	E-MTAB-375.sdrf.txt													
+Term Source Name	The MGED Ontology		NCBI Taxonomy	ArrayExpress	The MGED Ontology	EFO								
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php		http://www.ncbi.nlm.nih.gov/Taxonomy/	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/								
+Term Source Version														

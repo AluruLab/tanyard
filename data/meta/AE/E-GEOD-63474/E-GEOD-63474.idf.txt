@@ -1,0 +1,26 @@
+Comment[ArrayExpressAccession]	E-GEOD-63474
+MAGE-TAB Version	1.1						
+Public Release Date	2016-07-31
+Investigation Title	Gene Expression in whole roots of the Arabidopsis nlp7-1 mutant						
+Comment[Submitted Name]	Gene Expression in whole roots of the Arabidopsis nlp7-1 mutant
+Experiment Description	The root cap surrounds the root meristem, protecting it from harsh environments and facilitating root movement through soil. In Arabidopsis, new root cap cells produced in the meristem displace older cells toward the root periphery, where they undergo programmed cell death and are released from the root. This rapid cell turnover is a unique feature of the root cap and is modulated in part by the combined action of four NAC transcription factors, as well as cell wall modification enzymes. Here we show that the transcription factor NIN-LIKE PROTEIN 7 (NLP7) regulates root cap maturation in Arabidopsis by modulating expression of each of the NAC TFs as well as several cell wall modifying enzymes. NLP7 is a homolog of NIN, a transcription factor required for nodulation in Lotus japonicas, and is highly expressed in the columella root cap. Mutants have altered columella root cap development and decreased levels of homogalacturonan, a major component of pectin. Reverse genetic analysis of genes differentially expressed in nlp7 roots showed that two cell wall modifying enzymes, CELLULASE5 and XTH5, modulate root cap maturation likely downstream of NLP7. Plant cell wall modification is critical for nodulation, and we propose that this characteristic is also present in NLPs. We used microarrays to identify the differences in gene expression between whole roots of WT and nlp7-1 Arabidopsis plants Roots were cut at the root/hypocotyl junction and collected into RLT buffer in the RNeasy plant mini kit. Approximately 60 roots were collected per replicate, with two biological replicates.  RNA was extracted using the RNeasy Micro Kit. Probes for array analysis were preparedfrom 1Î¼g total RNA with the one-cycle amplification protocol by Affymetrix according to the manufacturer's instructions. Samples were submitted to Expression Analysis Inc. (Durham, NC) for hybridization to Arabidopsis Whole Genome ATH1 Affymetrix GeneChips.						
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Iyer-Pascuzzi	Iyer-Pascuzzi					
+Person First Name	Anjali	Anjali					
+Person Mid Initials	S						
+Person Email	geo@ncbi.nlm.nih.gov						
+Person Affiliation	Purdue University						
+Person Address	Botany and Plant Pathology, Purdue University, 915 W. State Street, West Lafayette, IN, USA						
+Person Roles	submitter						
+Protocol Name	P-GSE63474-1	P-GSE63474-5	P-GSE63474-6	P-GSE63474-2	P-GSE63474-3	P-GSE63474-4	P-GSE63474-7
+Protocol Description	Processed data attached here is with Microarray Suite version 5.0 (MAS 5.0) using Affymetrix default analysis settings. Target intensity was set abitrarily to 250. ID_REF =  VALUE = MAS5.0 signal intensity ABS_CALL = 	Biotinylated cRNA were prepared according to the standard Affymetrix one-cycle amplification protocol from 1 ug total RNA.	After fragmentation, samples were sent to Expression Analysis in Durham, NC for hybridization according to their protocols.	no treatment, experiment is WT vs mutant under standard laboratory conditions	Plants were grown at 22 deg C with 16 hour days on pH 5.7 1x MS agar plates	Roots were cut at the hypocotyl junction and placed into RLT buffer, then into liquid nitrogen. RNA was extracted using the RNAeasy micro kit from Qiagen.	Chips were scanned at Expression Analysis in Durham, NC according to their protocols
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	genotype						
+Experimental Factor Type	genotype						
+Comment[SecondaryAccession]	GSE63474						
+Comment[GEOReleaseDate]	2016-07-31						
+Comment[ArrayExpressSubmissionDate]	2014-11-19						
+Comment[GEOLastUpdateDate]	2016-08-01						
+Comment[AEExperimentType]	transcription profiling by array						
+SDRF File	E-GEOD-63474.sdrf.txt

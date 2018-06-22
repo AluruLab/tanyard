@@ -1,0 +1,58 @@
+Comment[ArrayExpressAccession]	E-GEOD-12964							
+Public Release Date	2011-02-15							
+Investigation Title	Auxin stimulates brassinosteroid biosynthesis in Arabidopsis roots							
+Comment[Submitted Name]	Auxin stimulates brassinosteroid biosynthesis in Arabidopsis roots							
+Experiment Description	We found that auxin stimulates gene expression of DWF4, which encodes a rate-dertermining step in brassinosteroid biosynthesis pathways. This increased gene expressioin subsequently led to elevation of the biosynthetic flux in Arabidopsis roots. To determine the list of genes that are regulated by auxin-synthesizing brassinosteroids, we challenged Arabidopsis seedlings with either auxin only or auxin plus brassinosteroid biosynthetic inhibitor brassinazole.  Keywords: Hormone treatment Arabidopsis seedlings (Columbia ecotype) were grown for 10 d on 1× MS agar-solidified media under long-day conditions (16:8, white light and dark cycle). The seedlings were then transferred to 2 different liquid media containing either 10–7 M 2,4-D or 10–7 M 2,4-D plus 10–6 M brassinazole. After 8 h of treatment, the seedlings were blotted with paper towels to remove excess media and subject to total RNA isolation. Total RNAs isolated from each batch were prepared from 3 replicate seedlings using an RNeasy plant mini kit (Qiagen, Germany).							
+Date of Experiment								
+Term Source Name	EFO							
+Term Source Version								
+Term Source File	http://www.ebi.ac.uk/efo/efo.owl							
+Person Last Name	Choe	Choe						
+Person First Name	Sunghwa	Sunghwa						
+Person Mid Initials								
+Person Email	shchoe@snu.ac.kr							
+Person Affiliation	Seoul National University							
+Person Phone								
+Person Fax								
+Person Address	Biological sciences, Seoul National University, Gwanak-Gu Shillim-Dong, Seoul, South Korea							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Person Roles Term Accession Number								
+Normalization Type								
+Normalization Term Accession Number								
+Normalization Term Source REF								
+Replicate Type								
+Replicate Term Accession Number								
+Replicate Term Source REF								
+Experimental Design								
+Experimental Design Term Accession Number								
+Experimental Design Term Source REF								
+Quality Control Type								
+Quality Control Term Accession Number								
+Quality Control Term Source REF								
+Protocol Name	P-GSE12964-1	P-GSE12964-6	P-GSE12964-3	P-GSE12964-8	P-GSE12964-7	P-GSE12964-2	P-GSE12964-4	P-GSE12964-5
+Protocol Description	ID_REF = <br>VALUE = Signal<br>ABS_CALL = indicating whether the transcript was present (P), absent (A), or marginal (M)<br>DETECTION P-VALUE = 	Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45C on GeneChip Drosophila Genome Array. GeneChips were washed and stained in the Affymetrix Fluidics Station 400.	Arabidopsis seedlings (Columbia ecotype) were grown for 10 d on 1× MS agar-solidified media under long-day conditions (16:8, white light and dark cycle).	The data were analyzed with Microarray Suite version 5.0 (MAS 5.0) using Affymetrix default analysis settings and global scaling as normalization method. The trimmed mean target intensity of each array was arbitrarily set to 100.	GeneChips were scanned using the Hewlett-Packard GeneArray Scanner G2500A.	The seedlings were then transferred to 2 different liquid media containing either 10–7 M 2,4-D or 10–7 M 2,4-D plus 10–6 M brassinazole. After 8 h of treatment, the seedlings were blotted with paper towels to remove excess media and subject to total RNA isolation.	Total RNAs isolated from each batch were prepared from 3 replicate seedlings using an RNeasy plant mini kit (Qiagen, Germany). The integrities and concentrations of the total RNAs were assessed using a Nanodrop spectrophotometer (Thermo, USA) and by gel electrophoresis before being pooled together.	Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 6 ug total RNA (Expression Analysis Technical Manual, 2002, Affymetrix).
+Protocol Software								
+Protocol Hardware								
+Protocol Contact								
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Protocol Term Source REF								
+Protocol Term Accession Number								
+Experimental Factor Name	compound							
+Experimental Factor Type	compound							
+Experimental Factor Term Source REF								
+Experimental Factor Term Accession Number								
+Publication Title	Auxin stimulates DWARF4 expression and brassinosteroid biosynthesis in Arabidopsis.							
+Publication Author List	Chung Y, Maharjan PM, Lee O, Fujioka S, Jang S, Kim B, Takatsuto S, Tsujimoto M, Kim H, Cho S, Park T, Cho H, Hwang I, Choe S							
+PubMed ID	21284753							
+Publication DOI	10.1111/j.1365-313X.2011.04513.x							
+Publication Status	published							
+Publication Status Term Source REF	EFO							
+Publication Status Term Accession Number	EFO_0001796							
+Comment[SecondaryAccession]	GSE12964							
+Comment[GEOLastUpdateDate]	2011-02-16							
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis after treatment with auxin and brassinazole or auxin only							
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[GEOReleaseDate]	2011-02-15							
+Comment[ArrayExpressSubmissionDate]	2008-09-28							
+SDRF File	E-GEOD-12964.sdrf.txt							

@@ -1,0 +1,58 @@
+Comment[ArrayExpressAccession]	E-GEOD-29433											
+Public Release Date	2011-09-06											
+Investigation Title	Transcriptomic analysis of the myb3r1 myb3r4 double mutant in Arabidopsis thaliana											
+Comment[Submitted Name]	Transcriptomic analysis of the myb3r1 myb3r4 double mutant in Arabidopsis thaliana											
+Experiment Description	R1R2R3-Myb proteins represent an evolutionarily conserved class of Myb family proteins important for cell cycle regulation and differentiation in eukaryotic cells. In plants, this class of Myb proteins are believed to play important roles in cell cycle regulation through transcriptional regulation of G2/M phase-specific genes by binding to common cis-elements, called MSA elements. In Arabidopsis thaliana, MYB3R1 and MYB3R4 act as transcriptional activators and positively regulate cytokinesis by activating transcription of KNOLLE, which encodes a cytokinesis-specific syntaxin. Here, we show that the double mutation myb3r1 myb3r4 causes pleiotropic developmental defects, some of which are due to deficiency of KNOLLE whereas other are not, suggesting multiple target genes are involved. Consistently, microarray analysis of the double mutant revealed altered expression of many genes, among which G2/M-specific genes showed significant overrepresentation of the MSA motif and a strong tendency to be down-regulated by the double mutation. Our results demonstrate, on a genome-wide level, the importance of the MYB3R-MSA pathway for regulating G2/M-specific transcription. In addition, MYB3R1 and MYB3R4 may have diverse roles during plant development by regulating G2/M-specific genes with various functions, as well as genes possibly unrelated to the cell cycle. Comparison between the myb3r1 myb3r4 double mutant and wild type in three paired replicates.											
+Date of Experiment												
+Term Source Name	EFO											
+Term Source Version												
+Term Source File	http://www.ebi.ac.uk/efo/efo.owl											
+Person Last Name	Mitsuda	Haga	Kobayashi	Suzuki	Maeo	Kubo	Ohtani	Mitsuda	Demura	Nakamura	Jürgens	Ito
+Person First Name	Nobuitaka	Nozomi	Kosuke	Takamasa	Kenichiro	Minoru	Misato	Nobutaka	Taku	Kenzo	Gerd	Masaki
+Person Mid Initials												
+Person Email	nobutaka.mitsuda@aist.go.jp											
+Person Affiliation	National Institute of Advanced Industrial Science and Technology											
+Person Phone												
+Person Fax												
+Person Address	Gene Function Research Center, National Institute of Advanced Industrial Science and Technology, Central 4 Higashi 1-1-1, Tsukuba, Ibaraki, Japan											
+Person Roles	submitter											
+Person Roles Term Source REF												
+Person Roles Term Accession Number												
+Normalization Type												
+Normalization Term Accession Number												
+Normalization Term Source REF												
+Replicate Type												
+Replicate Term Accession Number												
+Replicate Term Source REF												
+Experimental Design												
+Experimental Design Term Accession Number												
+Experimental Design Term Source REF												
+Quality Control Type												
+Quality Control Term Accession Number												
+Quality Control Term Source REF												
+Protocol Name	P-GSE29433-1	P-GSE29433-6	P-GSE29433-3	P-GSE29433-8	P-GSE29433-7	P-GSE29433-2	P-GSE29433-4	P-GSE29433-5				
+Protocol Description	ID_REF = <br>VALUE = Log2 value of MAS5.0 signal intensity divided by median value of all non-control probe sets<br>ABS_CALL = 	Following fragmentation, 15 micro g of cRNA were hybridized for 16 hrs at 45 Celsius degrees on the GeneChip. GeneChips were washed and stained in the Affymetrix Fluidics Station 450.	Seedlings were grown in half-strength MS agar medium with 2% sucrose in continuous light at 22 Celsius degrees.	The data were analyzed with Microarray Suite version 5.0 (MAS 5.0) using Affymetrix default analysis settings and global scaling as normalization method. All signals were divided by the median value of all probe sets.	GeneChips were scanned using the Affymetrix GeneChip Scanner 3000.	None.	Total RNA was extracted using the Plant RNeasy kit (QIAGEN) following the manufacturer's instructions.	Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 10 micro g of total RNA.				
+Protocol Software												
+Protocol Hardware												
+Protocol Contact												
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling				
+Protocol Term Source REF												
+Protocol Term Accession Number												
+Experimental Factor Name	genotype											
+Experimental Factor Type	genotype											
+Experimental Factor Term Source REF												
+Experimental Factor Term Accession Number												
+Publication Title	Mutations in MYB3R1 and MYB3R4 cause pleiotropic developmental defects and preferential down-regulation of multiple G2/M-specific genes in Arabidopsis.											
+Publication Author List	Haga N, Kobayashi K, Suzuki T, Maeo K, Kubo M, Ohtani M, Mitsuda N, Demura T, Nakamura K, Jürgens G, Ito M.											
+PubMed ID	21862669											
+Publication DOI	10.1104/pp.111.180836 											
+Publication Status	published											
+Publication Status Term Source REF	EFO											
+Publication Status Term Accession Number	EFO_0001796											
+Comment[SecondaryAccession]	GSE29433											
+Comment[GEOLastUpdateDate]	2011-09-06											
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for myb3r1 and myb3r4											
+Comment[AEExperimentType]	transcription profiling by array											
+Comment[GEOReleaseDate]	2011-09-05											
+Comment[ArrayExpressSubmissionDate]	2011-05-19											
+SDRF File	E-GEOD-29433.sdrf.txt											

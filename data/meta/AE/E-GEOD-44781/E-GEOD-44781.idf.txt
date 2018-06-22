@@ -1,0 +1,27 @@
+Comment[ArrayExpressAccession]	E-GEOD-44781
+MAGE-TAB Version	1.1							
+Public Release Date	2013-03-02
+Investigation Title	Expression data for plant compensatory responses							
+Comment[Submitted Name]	Expression data for plant compensatory responses
+Experiment Description	Plant compensatory responses depends on transcriptional reprogramming. We used microarray analysis to understand the differential gene expression pattern between clipped (herbivore browsed) and unclipped plant. Arabidopsis ecotypes Columbia and Landsberg erecta were chosen due to their differential compensatory response. The plants were grown in greenhouse. At bolting stage the plants were clipped to imitate herbivore damage. Following day the samples were collected from clipped and unclipped plants.							
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl						
+Person Last Name	Siddappaji	Paige	Siddappaji	Scholes	Bohn			
+Person First Name	Madhura	Ken	Madhura	Daniel	Martin			
+Person Mid Initials	H							
+Person Email	madhurahs@gmail.com							
+Person Affiliation	UIUC							
+Person Phone	2177781003							
+Person Address	UIUC, 515 Morrill Hall, Utbana, IL, USA							
+Person Roles	submitter							
+Protocol Name	P-GSE44781-1	P-GSE44781-6	P-GSE44781-3	P-GSE44781-8	P-GSE44781-7	P-GSE44781-2	P-GSE44781-4	P-GSE44781-5
+Protocol Description	ID_REF =  VALUE = rma normalized	Following fragmentation, 2 ug of cRNA were hybridized for 16 hr at 45C on GeneChip Drosophila Genome Array. GeneChips were washed and stained in the Affymetrix Fluidics Station 400.	3 day cold treated seeds were planted in 3 inch circular pots containing sunshine plant mix. Plant were grown in greenhouse with 16:8 light and dark cycles.	The data was analysed using R software	GeneChips were scanned using GeneArray Scanner G2500A.	Plants were clipped at bolting to simulate mammalian herbivore damage	Trizol extraction of total RNA was performed according to the manufacturer's instructions.	Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 2 ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Experimental Factor Name	ECOTYPE							
+Experimental Factor Type	ecotype							
+Comment[SecondaryAccession]	GSE44781							
+Comment[GEOReleaseDate]	2013-03-02							
+Comment[ArrayExpressSubmissionDate]	2013-03-01							
+Comment[GEOLastUpdateDate]	2013-03-03							
+Comment[AEExperimentType]	transcription profiling by array							
+SDRF File	E-GEOD-44781.sdrf.txt

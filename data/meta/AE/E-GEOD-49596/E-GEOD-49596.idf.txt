@@ -1,0 +1,31 @@
+Comment[ArrayExpressAccession]	E-GEOD-49596						
+MAGE-TAB Version	1.1						
+Public Release Date	2014-04-21						
+Investigation Title	A New Mediator of Singlet Oxygen Responses in Chlamydomonas and Arabidopsis						
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis plants overexpressing or mutant for MBS genes against wild type controls or flu mutants (which produce lots of singlet oxygen when exposed to light) to study NBS as a mediator of singlet oxygen response						
+Comment[Submitted Name]	A New Mediator of Singlet Oxygen Responses in Chlamydomonas and Arabidopsis						
+Experiment Description	We identified a small zinc finger protein, MBS, as a new mediator of singlet oxygen responses in Chlamydomonas and Arabidopsis.  MBS is required for induction of singlet oxygen-dependent gene expression and, upon oxidative stress, accumulates in distinct granules in the cytosol of Arabidopsis cells. First, we recorded changes in light stress-regulated gene expression profiles after genetically perturbing MBS function by isolating mutants for the two MBS genes (MBS1 and MBS2) and by overexpression of MBS1 in Arabidopsis thaliana. Then, these light stress-related gene expression profiles were analyzed with respect to genes specifically responding to singlet oxygen and hydrogen peroxide/superoxide.  The results indicated that MBS inactivation leads to an impaired response to singlet oxygen signaling under light stress. Knock-out or knock-down of the MBS1 and MBS2 genes and overexpression of MBS1 in Arabidopsis thaliana were compared with the wild type and the flu mutant as controls under light stress. Arabidopsis seedlings of mbs1-1, RNAi-MBS2/mbs1-1, 35S:MBS1, the wild type and the flu mutant were harvested at 0 h and 3 h of light stress (HL, 1000 µE m−2 s−1). Total RNA was extracted and cDNA was hybridized to Affymetrix ATH1 microarrays in three biological replicates.						
+Term Source Name	ArrayExpress	EFO					
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Shao	Shao	Duan	Bock			
+Person First Name	Ning	N	G	R			
+Person Email	geo@ncbi.nlm.nih.gov						
+Person Affiliation	Max-Planck Institute for Molecular Plant Physiology						
+Person Phone	0049-0331-5678318						
+Person Address	Max-Planck Institute for Molecular Plant Physiology, Wissenschaftpark Golm, Potsdam, Germany						
+Person Roles	submitter						
+Protocol Name	P-GSE49596-1	P-GSE49596-5	P-GSE49596-6	P-GSE49596-2	P-GSE49596-3	P-GSE49596-4	P-GSE49596-7
+Protocol Description	The data was analyzed with rma function in R/Bioconductor package affy using default settings. ID_REF =  VALUE = log2 RMA signal	NuGEN’s Encore Biotin Module (Cat. No. 4200-12) was used to fragment 3.95 µg cDNA followed by Biotin-labeling according to the manufacturers’ instructions.	Hybridization solution was prepared according to Affymetrix´ 3’ GeneChip Expression Analysis Technical Manual . The final concentration of cDNA is 17 ng/μl. • Hybridization was performed for 18+/-2 hours at 45°C and 60 rpm in a rotating hybridization oven (Hybridization Oven 640, Affymetrix).	12 day-old Arabidopsis seedlings grown on ½ MS agar plates with 1% sucrose and adapted to 10 µE m−2 s−1 continuous light for 7 d were exposed to HL stress (1000 µE m−2 s−1) following a 3h dark period	12 day-old Arabidopsis seedlings grown on ½ MS agar plates with 1% sucrose and adapted to 10 µE m−2 s−1 continuous light for 7 d	Total cellular RNA was extracted using the NucleoSpin RNA Plant kit (Macherey-Nagel) according to the manufacturer’s instructions, without DNase digestion. The remaining DNA was digested using Ambion® DNA-free™ DNase Treatment and Removal Reagents (Invitrogen).	Scanning was performed with the GeneChip Scanner 3000 7G (Affymetrix), which is controlled by Affymetrix´ software GeneChip Operating System (GCOS) v1.4.
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	stress	genotype					
+Experimental Factor Type	stress	genotype					
+Publication Title	A mediator of singlet oxygen responses in Chlamydomonas reinhardtii and Arabidopsis identified by a luciferase-based genetic screen in algal cells.						
+Publication Author List	Shao N, Duan GY, Bock R						
+PubMed ID	24151292						
+Publication DOI	10.1105/tpc.113.117390						
+Comment[SecondaryAccession]	GSE49596						
+Comment[GEOReleaseDate]	2014-04-21						
+Comment[ArrayExpressSubmissionDate]	2013-08-06						
+Comment[GEOLastUpdateDate]	2014-06-18						
+Comment[AEExperimentType]	transcription profiling by array						
+SDRF File	E-GEOD-49596.sdrf.txt						

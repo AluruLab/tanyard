@@ -1,0 +1,35 @@
+Comment[ArrayExpressAccession]	E-MEXP-3713				
+Investigation Title	Microarray analysis of an Arabibidopsis mutant srk2dei				
+Comment[Submitted Name]	Microarray analysis of an Arabibidopsis mutant srk2dei				
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis thaliana wild type plants (Col-0) and srk2dei triple knockout mutant to investigate the functions of ABA-activated protein kinases, SRK2D/SnRK2.2, SRK2E/OST1 and SRK2I/SnRK2.3				
+Comment[MIAMExpressLogin]	umelab				
+Comment[MIAMExpressSubmissionID]	8388				
+Experiment Description	Microarray experiments were performed using Arabidopsis wild type plants (Col-0) and srk2dei triple knockout mutant to investigate the functions of ABA-activated protein kinases, SRK2D/SnRK2.2, SRK2E/OST1 and SRK2I/SnRK2.3. Transcription profiles of wild type and mutants were compared under ABA treatment or dehydration stress for 0 and 90 min. The srk2dei mutant was established by crossing T-DNA insertion mutants provided from Arabidopsis Biological Resource Center.				
+Experimental Design	co-expression_design	genetic modification design	replicate_design	stimulus or stress design	compound treatment design
+Comment[AEExperimentType]	transcription profiling by array				
+Experimental Factor Name	genotype	growth condition			
+Experimental Factor Type	genotype	growth condition			
+Person Last Name	Umezawa				
+Person First Name	Taishi				
+Person Email	taishi@cc.tuat.ac.jp				
+Person Phone	81423887364				
+Person Fax	81423887364				
+Person Affiliation	Tokyo University of Agriculture and Technology				
+Person Address	Faculty of Agriculture, 2-24-16 Nakacho, Koganei, Tokyo, 184-8588, Japan				
+Person Roles	submitter				
+Person Roles Term Source REF	MGED Ontology				
+Quality Control Type	biological_replicate				
+Public Release Date	2013-03-31				
+Comment[ArrayExpressSubmissionDate]	2013-01-11 11:54				
+Pubmed ID	23572148				
+Publication DOI	10.1126/scisignal.2003509 				
+Publication Title	Genetics and phosphoproteomics reveal a protein phosphorylation network in the abscisic acid signaling pathway in Arabidopsis thaliana				
+Publication Author List	Umezawa T, Sugiyama N, Takahashi F, Anderson JC, Ishihama Y, Peck SC, Shinozaki K				
+Publication Status	published				
+Protocol Name	P-MTAB-30527	P-MTAB-30528			
+Protocol Description	Arabidopsis seedlings were grown on GM agar medium for 2-3 weeks in a controlled growth chamber. Then seedlings were harvested and treated with ABA or dehydration stress. Total RNA was extracted using Trizol reagent according to manufacturer's instructions (Invitrogen). (Parameters: Extracted product = total_RNA, Amplification = none)	Arabidopsis seedlings (wild type and srk2dei) were grown on GM medium for three weeks. Then they were exposed to 50 uM ABA solution for ABA treatment, or placed on petri dishes for dehydration stress. Each sample name mean as follows; Col-cont means wild type (no treatment). Col-ABA means wild type treated with ABA for 90 min. Col-DH means wild type under dehydration stress for 90 min. dei-cont means srk2dei mutant (no treatment). dei-ABA means srk2dei mutant treated with ABA for 90 min. dei-DH means srk2dei mutant under dehydration stress for 90 min.			
+Protocol Type	nucleic_acid_extraction	treatment protocol			
+Protocol Term Source REF	MGED Ontology	EFO			
+Term Source Name	MGED Ontology	ArrayExpress	EFO		
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/		
+SDRF File	E-MEXP-3713.sdrf.txt				

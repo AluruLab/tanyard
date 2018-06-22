@@ -1,0 +1,51 @@
+Investigation Title	Transcription profiling of Arabidopsis inflorescence stages 1-12 from small RNA biogenesis mutants				
+Comment[Submitted Name]	Small RNA biogenesis mutants				
+Experimental Design	unknown_experiment_design_type	transcription profiling by array			
+Experimental Design Term Source REF		EFO			
+Comment[AEExperimentType]	transcription profiling by array				
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for dcl1, dcl2, hen1, hst, hyl1, rdr1, rdr2, or rdr6				
+Comment[ArrayExpressReleaseDate]	2008-06-12				
+Comment[SecondaryAccession]	GSE2473				
+Comment[AEMIAMESCORE]	4				
+Comment[ArrayExpressAccession]	E-GEOD-2473				
+Comment[MAGETAB TimeStamp_Version]	2011-01-22 12:12:11 Last Changed Rev: 14857				
+Experimental Factor Name	genotype	ecotype			
+Experimental Factor Type	genotype	ecotype			
+Experimental Factor Term Source REF					
+Person Last Name	Allen				
+Person First Name	Edwards				
+Person Mid Initials					
+Person Email	allened@cgrb.oregonstate.edu				
+Person Phone					
+Person Fax					
+Person Address	Carrington,Botany and Plant Pathology,Oregon State University,3021 Ag Life Sciences Building,Corvallis,97331,USA				
+Person Affiliation	Oregon State University				
+Person Roles	submitter				
+Person Roles Term Source REF					
+Quality Control Type					
+Quality Control Term Source REF					
+Replicate Type					
+Replicate Term Source REF					
+Normalization Type					
+Normalization Term Source REF					
+Date of Experiment					
+Public Release Date	2008-06-12				
+PubMed ID	15851028				
+Publication DOI	10.1016/j.cell.2005.04.004				
+Publication Author List	Allen E, Xie Z, Gustafson AM, Carrington JC				
+Publication Title	microRNA-directed phasing during trans-acting siRNA biogenesis in plants				
+Publication Status					
+Publication Status Term Source REF					
+Experiment Description	Inflorescence stages 1 to 12 from mutants involved in Arabidopsis small RNA metabolism. Three biological replicates of each mutant comprising at least 9 independent plants were harvested, and the expression profiles were determined using Affymetrix ATH1 arrays.  Comparisons among the sample groups allow the identification of genes regulated by small RNAs (microRNAs and siRNAs).				
+Protocol Name	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6	Affymetrix:Protocol:ExpressionStat		
+Protocol Type	hybridization	feature_extraction	bioassay_data_transformation		
+Protocol Description	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 		
+Protocol Parameters					
+Protocol Hardware					
+Protocol Software	MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 5.0		
+Protocol Contact					
+Protocol Term Source REF	mo				
+SDRF File	E-GEOD-2473.sdrf.txt				
+Term Source Name	EFO	The MGED Ontology	ArrayExpress	EFO	mo
+Term Source File	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version					

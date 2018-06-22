@@ -1,0 +1,58 @@
+Comment[ArrayExpressAccession]	E-GEOD-26297							
+Public Release Date	2011-08-16							
+Investigation Title	CYTOKININ HYPERSENSITIVE1 (CKH1) and CKH2 affect to cytokinin responses in tissue culture							
+Comment[Submitted Name]	CYTOKININ HYPERSENSITIVE1 (CKH1) and CKH2 affect to cytokinin responses in tissue culture							
+Experiment Description	Analysis of calli derived from the wild type (Ler), the ckh1 and ckh2 mutants cultured on media in the absence of cytokinin (control), in the presence of low (25 ng/ml kinetin) or high (200 ng/ml kinetin) levels of cytokinin, or in the presence of Trichostatin A (TSA). In these conditions, a constant 2,4-dichlorophenoxyacetic acid (2,4-D) was included as an auxin. Hypocotyl segments of the wild type (Ler), ckh1-1 and ckh2-1 mutants were cultured for 3 days on media containing 100 ng/ml 2,4-D in the absence of kinetin or in the presence of low (25 ng/ml) or high (200 ng/ml) kinetin or 100ng/ml TSA, and then collected and rapidly frozen by liquid nitrogen. Total RNA was extracted by using an RNeasy plant kit (Qiagen; USA), and 10 µg of total RNA was used for target preparation by using							
+Date of Experiment								
+Term Source Name	EFO							
+Term Source Version								
+Term Source File	http://www.ebi.ac.uk/efo/efo.owl							
+Person Last Name	Kubo	Kubo	Furuta	Demura	Kakimoto			
+Person First Name	Minoru	Minoru	Kaoru	Taku	Tatsuo			
+Person Mid Initials								
+Person Email	ku-bo@nibb.ac.jp							
+Person Affiliation	JST							
+Person Phone	+81-564-55-7600							
+Person Fax	+81-564-55-1356							
+Person Address	ERATO, JST, 38NIshigonaka, Myoudaiji, Okazaki, Aichi, Japan							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Person Roles Term Accession Number								
+Normalization Type								
+Normalization Term Accession Number								
+Normalization Term Source REF								
+Replicate Type								
+Replicate Term Accession Number								
+Replicate Term Source REF								
+Experimental Design								
+Experimental Design Term Accession Number								
+Experimental Design Term Source REF								
+Quality Control Type								
+Quality Control Term Accession Number								
+Quality Control Term Source REF								
+Protocol Name	P-GSE26297-1	P-GSE26297-6	P-GSE26297-3	P-GSE26297-8	P-GSE26297-7	P-GSE26297-2	P-GSE26297-4	P-GSE26297-5
+Protocol Description	ID_REF = <br>VALUE = Signal<br>ABS_CALL = indicating whether the transcript was present (P), absent (A), or marginal (M)<br>DETECTION P-VALUE = 	Standard Affymetrix procedures	The sterilized seeds were put on germination medium (GM) and stored at 4ºC for at least 1 day, and then moved to growth chambers at 23ºC. Seedlings to be used for the excision of hypocotyl segments for callus induction were grown for 10days under dim light (2.5 µEm-2s-1).	The data were analyzed with Affymetrix Microarray Suite version 5.0 (MAS 5.0).	Standard Affymetrix procedures	Callus induction medium (CIM) were GM supplemented with 1 mg/liter biotin, 100 ng/ml 2,4-D as auxin and kinetin as cytokinin at the specified concentrations or TSA. Hypocotyl segments of seedlings were cultured for 3 days on CIM under comtinuous illumination (100 µEm-2s-1) at 23ºC , and then collected and rapidly frozen by liquid nitrogen.	Total RNA was prepared using RNeasy Plant Mini Kit (Qiagen) according to the manufacturer's instructions.	Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 10 microg total RNA.
+Protocol Software								
+Protocol Hardware								
+Protocol Contact								
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Protocol Term Source REF								
+Protocol Term Accession Number								
+Experimental Factor Name	COMPOUND	GENOTYPE	DOSE					
+Experimental Factor Type	compound	genotype	dose					
+Experimental Factor Term Source REF								
+Experimental Factor Term Accession Number								
+Publication Title	The CKH2/PKL chromatin remodeling factor negatively regulates cytokinin responses in Arabidopsis calli.	The CKH1/EER4 gene encoding a TAF12-like protein negatively regulates cytokinin sensitivity in Arabidopsis thaliana.						
+Publication Author List	Furuta K, Kubo M, Sano K, Demura T, Fukuda H, Liu YG, Shibata D, Kakimoto T	Kubo M, Furuta K, Demura T, Fukuda H, Liu YG, Shibata D, Kakimoto T						
+PubMed ID	21357580	21357579						
+Publication DOI	10.1093/pcp/pcr022	10.1093/pcp/pcr021						
+Publication Status	published	published						
+Publication Status Term Source REF	EFO	EFO						
+Publication Status Term Accession Number	EFO_0001796	EFO_0001796						
+Comment[SecondaryAccession]	GSE26297							
+Comment[GEOLastUpdateDate]	2011-08-16							
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for ckh1 and ckh2 after treatment with kinetin							
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[GEOReleaseDate]	2011-08-15							
+Comment[ArrayExpressSubmissionDate]	2010-12-23							
+SDRF File	E-GEOD-26297.sdrf.txt							

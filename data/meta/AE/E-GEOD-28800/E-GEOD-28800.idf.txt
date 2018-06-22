@@ -1,0 +1,57 @@
+Comment[ArrayExpressAccession]	E-GEOD-28800
+Public Release Date	2011-12-31					
+Investigation Title	Gene expression data from ABA, [5-(3,4-Dichlorophenyl)Furan-2-yl]-Piperidin-1-ylMethanethione (DFPM), and ABA+DFPM treated Arabidopsis thaliana seedlings.					
+Comment[Submitted Name]	Gene expression data from ABA, [5-(3,4-Dichlorophenyl)Furan-2-yl]-Piperidin-1-ylMethanethione (DFPM), and ABA+DFPM treated Arabidopsis thaliana seedlings.
+Experiment Description	Coordinated regulation of protection mechanisms against environmental abiotic stress and pathogen attack is essential for plant adaptation and survival. Initial abiotic stress can interfere with disease resistance signaling. Conversely, initial plant immune signaling may interrupt subsequent ABA signal transduction. However, the processes involved in cross talk between these signaling networks have not been determined. By screening a 9,600 compound chemical library, we identified a small molecule [5-(3,4-Dichlorophenyl)Furan-2-yl]-Piperidin-1-ylMethanethione that rapidly down-regulates ABA-dependent gene expression and also inhibits ABA-induced stomatal closure. Transcriptome analyses show that DFPM also stimulates expression of plant defense-related genes. Plate grown 12-day-old seedlings were transferred into 6 well plates with 1:5000 (V/V) DMSO in water as a control, 30uM DFPM, and 10uM ABA in water as a treatment for 6 hours. DFPM was added 30 min prior to ABA treatment. RNA was extracted using Trizol (Invitrogen, Carlsbad, CA, USA) and further purified using RNeasy Plant RNA purification kit (QIAgen, Valencia, CA, USA). Three biological replicates of ATH1 oligonucleotide arrays were hybridized with labeled samples from 1) wild-type Columbia (WT) untreated, 2) WT with 30uM DFPM treatment, 3) WT with 10uM ABA treatment, 4) WT with 30uM DFPM and 10uM ABA treatment. Each biological replicate was prepared by combining 7 independently-treated samples. Seedling treatments, 4 agent, 1 genotype/variation sets.					
+Date of Experiment						
+Term Source Name	EFO
+Term Source Version						
+Term Source File	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Schroeder	Kim	Schroeder			
+Person First Name	Julian	Taehoun	Julian			
+Person Mid Initials			I			
+Person Email	geo@ncbi.nlm.nih.gov					
+Person Affiliation	UCSD					
+Person Phone						
+Person Fax						
+Person Address	Division of Biological Sciences, UCSD, 9500 Gilman Drive #0116, La Jolla, CA, USA					
+Person Roles	submitter					
+Person Roles Term Source REF						
+Person Roles Term Accession Number						
+Normalization Type						
+Normalization Term Accession Number						
+Normalization Term Source REF						
+Replicate Type						
+Replicate Term Accession Number						
+Replicate Term Source REF						
+Experimental Design						
+Experimental Design Term Accession Number						
+Experimental Design Term Source REF						
+Quality Control Type						
+Quality Control Term Accession Number						
+Quality Control Term Source REF						
+Protocol Name	P-GSE28800-1	P-GSE28800-5	P-GSE28800-4	P-GSE28800-2	P-GSE28800-3	P-GSE28800-6
+Protocol Description	ID_REF = <br>VALUE = GC-RMA-calculated signal intensity	UCSD GeneChip Microarray Core; Affymetrix GeneChip Scanner 3000 with GCOS software according to manufactuer's protocol (GeneChip Expression Analysis Technical Manual)	UCSD GeneChip Microarray Core; Affymetrix Eukaryotic Target Hybridization protocol (GeneChip Expression Analysis Technical Manual)	Trizol (Invitrogen, Carlsbad, CA, USA) and further purified using RNeasy Plant RNA purification kit (QIAgen, Valencia, CA, USA)	UCSD GeneChip Microarray Core; Affymetrix GeneChip IVT Labeling Kit, according to manufactuer's protocol (GeneChip Expression Analysis Technical Manual)	Probe set summarization and normalization was performed by robust multi-array averaging (gcrma, including background subtraction, summarization by median polish and quantile normalization) using the R/Bioconductor package affy.
+Protocol Software						
+Protocol Hardware						
+Protocol Contact						
+Protocol Type	bioassay_data_transformation	image_aquisition	hybridization	nucleic_acid_extraction	labeling	feature_extraction
+Protocol Term Source REF						
+Protocol Term Accession Number						
+Experimental Factor Name						
+Experimental Factor Type						
+Experimental Factor Term Source REF						
+Experimental Factor Term Accession Number						
+Publication Title						
+Publication Author List						
+PubMed ID						
+Publication DOI						
+Publication Status						
+Publication Status Term Source REF						
+Publication Status Term Accession Number						
+Comment[SecondaryAccession]	GSE28800					
+Comment[GEOLastUpdateDate]	2012-01-01
+Comment[AEExperimentType]	transcription profiling by array					
+Comment[GEOReleaseDate]	2011-12-31
+Comment[ArrayExpressSubmissionDate]	2011-04-20
+SDRF File	E-GEOD-28800.sdrf.txt

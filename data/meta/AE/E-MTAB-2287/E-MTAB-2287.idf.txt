@@ -1,0 +1,32 @@
+Comment[ArrayExpressAccession]	E-MTAB-2287			
+MAGE-TAB Version	1.1			
+Investigation Title	Gene expression profile in wheat TaRZ1-expressing Arabidopsis plant			
+Comment[Submitted Name]	Gene expression profile in wheat TaRZ1-expressing Arabidopsis plant			
+Experiment Description	Profiling genes that are regulated by the expression of wheat TaRZ1 in Arabidopsis 			
+Experimental Design	cell type comparison design	array_platform_comparison_design	co-expression_design	
+Comment[AEExperimentType]	transcription profiling by array			
+Experimental Factor Name	genotype			
+Experimental Factor Type	genotype			
+Quality Control Type	biological replicates			
+Quality Control Term Source REF	EFO			
+Public Release Date	2014-06-30			
+Person Last Name	Kang			
+Person First Name	Hunseung			
+Person Mid Initials				
+Person Email	hskang@jnu.ac.kr			
+Person Phone	82-62-530-2181			
+Person Address	300 Yongbong-dong, Buk-gu, Gwangju, 500-757 Korea			
+Person Affiliation	Chonnam National University			
+Person Roles	submitter			
+PubMed ID	24800811			
+Publication DOI	10.1371/journal.pone.0096877			
+Publication Author List	Xu T, Gu L, Choi MJ, Kim RJ, Suh MC, Kang H			
+Publication Title	Comparative functional analysis of wheat (Triticum aestivum) zinc finger-containing glycine-rich RNA-binding proteins in response to abiotic stresses			
+Publication Status	Published			
+Protocol Name	P-MTAB-37382	P-MTAB-37383	P-MTAB-37384	P-MTAB-37385
+Protocol Type	growth protocol	treatment protocol	nucleic acid extraction protocol	nucleic acid labeling protocol
+Protocol Description	Arabidopsis was grown in soil	No treatment	Qiagen RNeasy Plant Kit	biotin
+Protocol Term Source REF	EFO	EFO	EFO	EFO
+Term Source Name	EFO	ArrayExpress		
+Term Source File	http://www.ebi.ac.uk/efo	http://www.ebi.ac.uk/arrayexpress		
+SDRF File	E-MTAB-2287.sdrf.txt			

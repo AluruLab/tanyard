@@ -1,0 +1,49 @@
+Investigation Title	Growth responses and global gene expression analysis of transgenic mannitol-producing Arabidopsis thaliana	
+Comment[Submitted Name]	Growth responses and global gene expression analysis of transgenic mannitol-producing Arabidopsis thaliana	
+Experimental Design	transcription profiling by array	
+Experimental Design Term Source REF	EFO	
+Comment[AEMIAMESCORE]	4	
+Comment[SecondaryAccession]	GSE18217	
+Comment[ArrayExpressReleaseDate]	2010-03-07	
+Comment[ArrayExpressAccession]	E-GEOD-18217	
+Comment[MAGETAB TimeStamp_Version]	2010-08-03 14:08:47 Last Changed Rev: 13058	
+Experimental Factor Name	ECOTYPE	
+Experimental Factor Type	ecotype	
+Experimental Factor Term Source REF	
+Person Last Name	Grumet	Loescher	Chan	
+Person First Name	Rebecca	Wayne	Zhulong	
+Person Mid Initials	
+Person Email			chanzhul@msu.edu	
+Person Phone	
+Person Fax	
+Person Address			Michigan State University, Plant and Soil Sciences Bldg, Lansing, MI, USA	
+Person Affiliation			Michigan State University	
+Person Roles			submitter	
+Person Roles Term Source REF			The MGED Ontology	
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2010-03-07	
+PubMed ID	
+Publication DOI	
+Publication Author List	
+Publication Title	
+Publication Status	
+Publication Status Term Source REF	
+Experiment Description	Mannitol is a sugar alcohol that serves as a compatible solute contributing to exceptional salt tolerance in several plant species. Arabidopsis plants transformed with the mannose-6-phosphate reductase (M6PR) gene from celery were dramatically more salt tolerant. Following treatment with 100mM NaCl, transgenic plants, relative to wild type (WT), were more successful in bolting, flowering, and production of viable seed, were less chlorotic/necrotic, and with less inhibition of growth (leaf number, rosette diameter, plant height, stalk number, and dry weight). When irrigated with 200 mM NaCl, both transformants and WT plants died without producing seeds, but M6PR transformants bolted and showed significantly less chlorosis and necrosis and had higher survival rates and dry weights than those of WT.  Under normal growth conditions there were no negative effects of the M6PR transgene on overall growth (leaf number, rosette diameter, plant height, stalk number, and dry weight), or time to bolting/flowering or seed production compared to wild type (WT).  Despite the lack of effects on phenotype in the absence of salt stress, genome wide expression analyses indicated that expression levels of more than 2000 genes were altered by presence of the M6PR transgene:  however, there were many fewer differences observed between the M6PR and non-transgenic plants in the presence of salt stress (459), suggesting that M6PR pre-conditioned the plants for exposure to salinity. Gene categories most affected in the M6PR transgenic plants were involved in DNA binding, signal transduction, metabolism/energy, cell structure, membrane transport, defense response, and transcription. Notably, a large number of known stress genes were induced, including those related to cell walls, biotic stress, and ABA- and ethylene-responses.  Our work and that in other labs has suggested that mannitol acts as an osmoprotectant, but mannitol levels are invariably quite low, and perhaps inadequate to explain its effects as an osmoprotectant.  The gene expression data here indicate that stress tolerance of mannitol-producing Arabidopsis is also due, at least in part, to enhanced expression of a number of stress inducible genes related to both biotic and abiotic stress tolerance. Both M6PR transgenic and Col WT plants were grown in the growth chamber in the absence and presence of salt stress. Plants from 20 days after sowing (6 days after salt treatment) were used for RNA extraction and hybridization on Affymetrix microarrays. There were two biological replicates for each genotype and salt treatment combination.	
+Protocol Name	P-GSE18217-4	P-GSE18217-2	P-GSE18217-3	P-GSE18217-5	P-GSE18217-6	P-GSE18217-7	P-GSE18217-8	P-GSE18217-1	
+Protocol Type	nucleic_acid_extraction	specified_biomaterial_action	grow	labeling	hybridization	image_aquisition	feature_extraction	bioassay_data_transformation	
+Protocol Description	Total RNA was extracted and purified using QIAGEN-RNeasy Mini Kit according to guidelines specified by the manufacturer.	Plants subjected to salt stress were watered with NaCl solution which was dissolved in Â½ Strength Hoagland Solution. Salt treatment started at 14 DAS . Plants were watered from below to field capacity and then sprayed with the same concentration of NaCl solution from the top, ensuring adequate leaching and preventing excess salinity. The concentrations of NaCl supplementation were increased stepwise by 50 mM every 2 days for each line, to the indicated maximum (0, 100 mM). Plants were then watered every 2 days with or without NaCl at the indicated concentrations. The flats were rotated in the growth chamber everyday to minimize the effect of growth condition.	Seeds of both transgenic and wild type plants were sown as described above with two replicate pots for each genotype and salt combination. Plants were grown at 23/18 Â°C in the growth chamber under a short-day cycle (10h light/14 h dark) at 350 Î¼mol m-2s-1 and 70% relative humidity in order to increase seedling leaf area and growth while not promoting bolting. Sampling time was performed at 20 DAS by collecting developed but not senescent leaves (about 0.5cm width Ã 1.5cm length) from at least 15 seedlings.	Ten Âµg of total RNA was processed to produce biotinylated cRNA targets.	standard Affymetrix procedures	standard Affymetrix procedures	All the Affymetrix data files produced with Affymetrix GCOS software (*.CEL files) were analyzed using Bioconductor, a public source software for the analyses of genomic data rooted in the statistical computing environment R. The data were normalized by robust multioiarray normalization of probe-level data with RMA and analyzed using affylmGUI running on R software.	ID_REF = <br>VALUE = RMA-calculated log2 intensity	
+Protocol Parameters	
+Protocol Hardware	
+Protocol Software	
+Protocol Contact	
+Protocol Term Source REF							The MGED Ontology	The MGED Ontology	
+SDRF File	E-GEOD-18217.sdrf.txt	
+Term Source Name	NCBI Taxonomy		The MGED Ontology	ArrayExpress	EFO	The MGED Ontology	
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version							

@@ -1,0 +1,58 @@
+Comment[ArrayExpressAccession]	E-GEOD-32193						
+Public Release Date	2011-12-10						
+Investigation Title	Gene expression during Arabidopsis flower maturation						
+Comment[Submitted Name]	Gene expression during Arabidopsis flower maturation						
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis flowers from arf6-2, arf8-3 double mutant and myb21-5, myb24-5 double mutant						
+Experiment Description	Flower maturation consists of several events that contribute to reproductive success as flowers open, including petal expansion, stamen filament elongation, pollen release, nectary maturation, stigma growth, and gynoecium maturation to support pollen tube growth.  The Arabidopsis transcription factors ARF6 (Auxin Response Factor 6) and ARF8 regulate all of these processes, in part by activating jasmonate biosynthesis.  Jasmonates in turn activate genes encoding the transcription factors MYB21 and MYB24, which mediate a subset of the processes controlled by ARF6 and ARF8.  This experiment was designed to characterize gene expression in flowers before and after they open, and to determine how arf6 arf8 and myb21 myb24 mutation combinations affect these gene expression patterns. Three biological replicates were prepared at each of two developmental stages, stage 12 (oldest closed buds) and stage 13 (youngest open flowers), for three genotypes (Wild type, arf6-2 arf8-3, and myb21-5 myb24-5).  For the mutant genotypes, stage 13 flowers do not actually open, so corresponding flowers of equivalent age were chosen based on the position of open flowers in wild-type inflorescences.						
+Date of Experiment							
+Term Source Name	EFO						
+Term Source Version							
+Term Source File	http://www.ebi.ac.uk/efo/efo.owl						
+Person Last Name	Reed	Reed	Nagpal	Ploense			
+Person First Name	Jason	Jason	Punita	Sara			
+Person Mid Initials		W		E			
+Person Email	jreed@email.unc.edu						
+Person Affiliation	University of North Carolina at Chapel Hill						
+Person Phone	919-962-5699						
+Person Fax	919-962-1625						
+Person Address	Biology, University of North Carolina at Chapel Hill, CB #3280, Coker Hall, Chapel Hill, NC, USA						
+Person Roles	submitter						
+Person Roles Term Source REF							
+Person Roles Term Accession Number							
+Normalization Type							
+Normalization Term Accession Number							
+Normalization Term Source REF							
+Replicate Type							
+Replicate Term Accession Number							
+Replicate Term Source REF							
+Experimental Design							
+Experimental Design Term Accession Number							
+Experimental Design Term Source REF							
+Quality Control Type							
+Quality Control Term Accession Number							
+Quality Control Term Source REF							
+Protocol Name	P-GSE32193-1	P-GSE32193-6	P-GSE32193-5	P-GSE32193-3	P-GSE32193-2	P-GSE32193-4	P-GSE32193-7
+Protocol Description	ID_REF = <br>VALUE = RMA normalized signal intensity	The arrays were washed and stained with R-phycoerythrin streptavidin in the GeneChip Fluidics Station 450 (Affymetrix) using wash protocol EukGE-WS2v4, and arrays were scanned with the GeneChip Scanner 3000 7G Plus with autoloader.	Fragmented aRNA (15 µg) was then added to a hybridization cocktail (0.05 µg/µl fragmented aRNA, 50 pM control oligonucleotide B2, BioB, BioC, BioD and cre hybridization controls, 0.1 mg/ml herring sperm DNA, 0.5 mg/ml acetylated BSA, 100 mM MES, 1 M [Na+], 20 mM EDTA, 0.01% Tween 20).  aRNA (10 µg) was used for hybridization in a volume of 200 µl per slide.  ATH1 arrays (Redman et al., 2004)(Affymetrix, Santa Clara, CA) were hybridized for 16 hours at 45°C in the GeneChip Hybridization Oven 640 (Affymetrix).	Frozen tissue was ground in a mortar and pestle.  RNA was isolated with Trizol reagent (Invitrogen Life Technologies, Carlsbad, CA) or with RNeasy plant mini kits (Qiagen) according to manufacturer's instructions.	Wild-type plants were grown in 16 hour days/8 hour nights in a controlled environment growth chamber.  Light intensity was approximately 100 micromol/m2sec.  Flowers were harvested in the morning between 2 and 4 hours after subjective dawn and frozen directly in liquid nitrogen.	Total RNA (1000ng) was used to synthesize cDNA followed by aRNA.  The MessageAmp™ II-Biotin Enhanced Kit (Ambion) was used to generate biotinylated aRNA from the cDNA reaction.  The aRNA was then fragmented in fragmentation buffer from the Ambion kit at 94°C for 35 minutes before the chip hybridization.	Affymetrix MAS 5.0 GeneChip Operating Software was used for washing, scanning and basic analysis.  Data were analyzed using Genespring GX 10.0.1 software.  Raw data were background corrected and normalized using the RMA algorithm with no baseline correction.
+Protocol Software							
+Protocol Hardware							
+Protocol Contact							
+Protocol Type	bioassay_data_transformation	image_acquisition	hybridization	nucleic_acid_extraction	grow	labeling	feature_extraction
+Protocol Term Source REF							
+Protocol Term Accession Number							
+Experimental Factor Name	genotype	developmental stage					
+Experimental Factor Type	genotype	developmental stage					
+Experimental Factor Term Source REF							
+Experimental Factor Term Accession Number							
+Publication Title	A regulatory network for coordinated flower maturation						
+Publication Author List	Reeves PH, Ellis CM, Ploense SE, Wu MF, Yadav V, Tholl D, Chételat A, Haupt I, Kennerley BJ, Hodgens C, Farmer EE, Nagpal P, Reed JW						
+PubMed ID	22346763						
+Publication DOI	10.1371/journal.pgen.1002506						
+Publication Status							
+Publication Status Term Source REF							
+Publication Status Term Accession Number							
+Comment[SecondaryAccession]	GSE32193						
+Comment[GEOLastUpdateDate]	2011-12-11						
+Comment[AEExperimentType]	transcription profiling by array						
+Comment[GEOReleaseDate]	2011-12-10						
+Comment[ArrayExpressSubmissionDate]	2011-09-15						
+SDRF File	E-GEOD-32193.sdrf.txt						

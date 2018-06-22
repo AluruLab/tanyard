@@ -1,0 +1,52 @@
+Investigation Title	Transcription profiling of Arabidopsis dor mutant and wild type plants in response to drought stress.										
+Comment[Submitted Name]	Transcription profiling of Arabidopsis dor mutant and wild-type plants in response to drought stress.										
+Experimental Design	unknown_experiment_design_type	transcription profiling by array									
+Experimental Design Term Source REF		EFO									
+Comment[AEExperimentType]	transcription profiling by array										
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for dor after drought stress										
+Comment[ArrayExpressReleaseDate]	2008-10-26										
+Comment[SecondaryAccession]	GSE10643										
+Comment[AEMIAMESCORE]	4										
+Comment[ArrayExpressAccession]	E-GEOD-10643										
+Comment[MAGETAB TimeStamp_Version]	2010-07-29 20:54:04 Last Changed Rev: 13058										
+Experimental Factor Name	GENOTYPE	GROWTH CONDITION									
+Experimental Factor Type	genotype	growth_condition									
+Experimental Factor Term Source REF											
+Person Last Name	Xu										
+Person First Name	Wenying										
+Person Mid Initials											
+Person Email	wyxu@genetics.ac.cn										
+Person Phone											
+Person Fax											
+Person Address	Institute of Genetics and Developmental Biology of the Chinese Academy of Sciences, Datun Road, Chaoyang District, Beijing, 100101, China										
+Person Affiliation	Institute of Genetics and Developmental Biology of the Chinese Academy of Sciences										
+Person Roles	submitter										
+Person Roles Term Source REF	The MGED Ontology										
+Quality Control Type											
+Quality Control Term Source REF											
+Replicate Type											
+Replicate Term Source REF											
+Normalization Type											
+Normalization Term Source REF											
+Date of Experiment											
+Public Release Date	2008-10-26										
+PubMed ID	18835996										
+Publication DOI	10.1104/pp.108.126912										
+Publication Author List	Zhang Y, Xu W, Li Z, Deng XW, Wu W, Xue Y.										
+Publication Title	F-box protein DOR functions as a novel inhibitory factor for abscisic acid-induced stomatal closure under drought stress in Arabidopsis										
+Publication Status	published										
+Publication Status Term Source REF	EFO										
+Publication Status Term Accession Number	EFO_0001796										
+Experiment Description	ATH1 GeneChip was used for gene expression analysis of wild-type plants and dor mutant under drought treatment (both the wild-type and dor plants were grown under normal watering conditions for 24 days and then stressed by completely depriving of irrigation for 10 days). Two biological repeat experiments were conducted and the raw data was analyzed applying Affymetrix GCOS software. Experiment Overall Design: ATH1 GeneChip was used for gene expression analysis of wild-type plants and dor mutant under drought treatment (both the wild-type and dor plants were grown under normal watering conditions for 24 days and then stressed by completely depriving of irrigation for 10 days).										
+Protocol Name	P-G10643-7	P-G10643-5	P-G10643-1	P-G10643-8	P-G10643-4	P-G10643-9	P-G10643-6	P-G10643-3	P-G10643-2	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6
+Protocol Type	grow	grow	grow	grow	grow	grow	nucleic_acid_extraction	nucleic_acid_extraction	labeling	hybridization	feature_extraction
+Protocol Description	WT plants were grown under normal watering conditions for 34 days. Arabidopsis rosette leaves samples were homogenized in liquid nitrogen prior to RNA isolation Arabidopsis plants were grown   in soil under long-day conditions (16 hr light; 8 hr dark) at 22 degree	WT plants were grown under normal watering conditions for 24 days and then stressed by completely depriving of irrigation for 10 days. Arabidopsis rosette leaves samples were homogenized in liquid nitrogen prior to RNA isolation Arabidopsis plants were grown in soil under long-day conditions (16 hr light; 8 hr dark) at 22 degree	dor  plants were grown under normal watering conditions for 24 days and then stressed by completely depriving of irrigation for 10 days. Arabidopsis rosette leaves samples were homogenized in liquid nitrogen prior to RNA isolation Arabidopsis plants were grown in soil under long-day conditions (16 hr light; 8 hr dark) at 22 degree	dor plants were grown under normal watering conditions for 24 days and then stressed by completely depriving of irrigation for 10 days. Arabidopsis rosette leaves samples were homogenized in liquid nitrogen prior to RNA isolation Arabidopsis plants were grown   in soil under long-day conditions (16 hr light; 8 hr dark) at 22 degree	dor plants were grown under normal watering conditions for 34 days. Arabidopsis rosette leaves samples were homogenized in liquid nitrogen prior to RNA isolation Arabidopsis plants were grown   in soil under long-day conditions (16 hr light; 8 hr dark) at 22 degree	WT plants were grown under normal watering conditions for 24 days and then stressed by completely depriving of irrigation for 10 days. Arabidopsis rosette leaves samples were homogenized in liquid nitrogen prior to RNA isolation Arabidopsis plants were grown   in soil under long-day conditions (16 hr light; 8 hr dark) at 22 degree	total RNA was isolated and  purified by Qiagen RNeasy kit	total RNA was isolated by RNAplant reagent ((Tiangen Biotech))and  purified by Qiagen RNeasy kit.	Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 5 ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 
+Protocol Parameters											
+Protocol Hardware											
+Protocol Software										MicroArraySuite 5.0	MicroArraySuite 5.0
+Protocol Contact											
+Protocol Term Source REF										mo	
+SDRF File	E-GEOD-10643.sdrf.txt										
+Term Source Name	NCBI Taxonomy	The MGED Ontology	ArrayExpress	EFO	The MGED Ontology	mo					
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://mged.sourceforge.net/ontologies/MGEDontology.php					
+Term Source Version											

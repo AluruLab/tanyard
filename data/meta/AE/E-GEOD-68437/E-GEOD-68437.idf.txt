@@ -1,0 +1,26 @@
+Comment[ArrayExpressAccession]	E-GEOD-68437
+MAGE-TAB Version	1.1								
+Public Release Date	2015-04-30
+Investigation Title	The Arabidopsis GAGA-binding factor BPC6 recruits PRC1 component LHP1 to GAGA DNA-motifs								
+Comment[Submitted Name]	The Arabidopsis GAGA-binding factor BPC6 recruits PRC1 component LHP1 to GAGA DNA-motifs
+Experiment Description	Plant BBR/BPC transcription factors contain the conserved Basic-Pentacystein (BPC) DNA-binding domain. Arabidopsis group II BBR/BPC proteins interact with PRC1 component LHP1 in vivo. Microarray experiments with Arabidopsis bpc4 bpc6, lhp1-4 and lhp1-4 bpc4 bpc6 suggest an importance of this interaction in the concerted repression of homeotic genes. In this study, we used the ATH1 GeneChip microarray to investigate transcript abundance in different Arabidopsis thaliana genotypes. Arabidopsis thaliana (accession Columbia) were grown in the greenhouse under constant temperature of 20°C, 35% humidity and a 18-h light period. 18 days old plants were harvested and immediately frozen in liquid nitrogen. Six individual plants were pooled per replicate.								
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl							
+Person Last Name	Wanke	Hecker	Brand	Peter	Simoncello	Kilian	Harter	Gaudin	Wanke
+Person First Name	Dierk	Andreas	Luise	Sébastien	Nathalie	Joachim	Klaus	Valérie	Dierk
+Person Mid Initials			H						
+Person Email	dierk.wanke@zmbp.uni-tuebingen.de								
+Person Affiliation	University of Tuebingen								
+Person Address	Plant Physiology, University of Tuebingen, Auf der Morgenstelle 32, Tuebingen, Germany								
+Person Roles	submitter								
+Protocol Name	P-GSE68437-1	P-GSE68437-5	P-GSE68437-6	P-GSE68437-2	P-GSE68437-3	P-GSE68437-4	P-GSE68437-7		
+Protocol Description	The data was analyzed with GeneSpring GX (vers. 7.3.1) from Agilent. Preprocessing was performed with included RMA Plugin. ID_REF =  VALUE = RMA signal intensity	1µg of total RNA were used to synthesize amplified labeled cRNA (MessageAmp™ II aRNA Biotin Amplification Kit; Ambion).	After fragmentation of cRNA using the RNA Fragmentation Reagents (Ambion), 15 µg of cRNA was hybridized to Affymetrix Arabidopsis ATH1 Genome Array (ATH1-121501; GEO accession GPL198) according to manufacturers manual. GeneChips were washed and stained in the Affymetrix Fluidics Station 450 using the protocol 'EukGE-WS2V4'.	No treatment was applied	Arabidopsis thaliana (accession Columbia) were grown in the greenhouse under constant temperature of 20°C, 35% humidity and a 18-h light period.	For RNA extraction RNeasy Plant Mini kit was used ( according instructions from Quiagen). Extracted RNA was precipitated 100ul RNA; 8 µl 3 M Sodium acetate (pH 5.2); 2 µl Glycogen(5mg/ml); -80°C over night. then 30 min 13000 rpm 4°C. 2 times washing with 70% ethanol. resuspended in DEPC water. RNA quantity and integrity were assessed using RNA 6000 Nano LabChip Kit and the BioAnalyzer software (Agilent).	GeneChips were scanned using the Affymetrix GeneChip® scanner GS3000 7G according to manufacturers manual.		
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol		
+Experimental Factor Name	genotype								
+Experimental Factor Type	genotype								
+Comment[SecondaryAccession]	GSE68437								
+Comment[GEOReleaseDate]	2015-04-30								
+Comment[ArrayExpressSubmissionDate]	2015-04-30								
+Comment[GEOLastUpdateDate]	2015-04-30								
+Comment[AEExperimentType]	transcription profiling by array								
+SDRF File	E-GEOD-68437.sdrf.txt

@@ -1,0 +1,36 @@
+Comment[ArrayExpressAccession]	E-MEXP-739														
+Investigation Title	Dudler-Effect of syringolin treatment on powdery mildew infected Arabidopsis														
+Comment[Submitted Name]	Dudler-Effect of syringolin treatment on powdery mildew infected Arabidopsis														
+Comment[AEExperimentDisplayName]	Transcription profiling of by array of Arabidopsis plants infected with powdery mildew and treated with Syringolin A														
+Comment[MIAMExpressLogin]	michel														
+Comment[MIAMExpressSubmissionID]	2535														
+Experiment Description	Powdery mildew, caused by the fungus Blumeria graminis (DC) Speer, is one of the most important foliar diseases of cereals worldwide. It is an obligate biotrophic parasite, colonising leaf epidermal cells to obtain nutrients from the plant cells without killing them. Syringolin A (sylA), a circular peptide secreted by the phytopathogenic bacterium Pseudomonas syringae pv. syringae, triggers a hypersensitive cell death reaction (HR) at infection sites when sprayed onto powdery mildew infected wheat which essentially eradicates the fungus. The rational was to identify genes whose expression was specifically regulated during HR, i.e. genes that might be involved in the switch of compatibility to incompatibility.<br>Powdery mildew-infected or uninfected plants were treated with syringolin two days after infection and plant material for RNA extraction was collected at 0.5, 1, 2, 4, 8, 12 hours after treatment (hat), resulting in an early (2 and 4 hat) and late pool (8 and 12 hat). Plant material that was uninfected prior to syringolin treatment was collected 8 and 12 hat (late pool of uninfected plant material), and 1 hat, respectively.														
+Experimental Design	in_vivo_design	co-expression_design	dose_response_design	compound_treatment_design											
+Comment[AEExperimentType]	transcription profiling by array														
+Experimental Factor Name	growth condition	compound	dose	time											
+Experimental Factor Type	growth condition	compound	dose	time											
+Person Last Name	Michel														
+Person First Name	Kathrin														
+Person Email	kmichel@botinst.unizh.ch														
+Person Phone	0041-1-6348260														
+Person Affiliation	Molecular Plant Biology														
+Person Address	University, Zollikerstr. 107, Zürich, Zürich, 8008, Switzerland														
+Person Roles	submitter														
+Person Roles Term Source REF	MGED Ontology														
+Quality Control Type															
+Public Release Date	2006-06-30														
+Comment[ArrayExpressSubmissionDate]															
+PubMed ID	16941219														
+Publication DOI	10.1007/s11103-006-9045-7														
+Publication Author List	Michel K, Abderhalden O, Bruggmann R, Dudler R														
+Publication Title	Transcriptional changes in powdery mildew infected wheat and Arabidopsis leaves undergoing syringolin-triggered hypersensitive cell death at infection sites														
+Publication Status	published														
+Publication Status Term Source REF	EFO														
+Publication Status Term Accession Number	EFO_0001796														
+Protocol Name	P-MTAB-21119	P-MTAB-21120	P-MTAB-21121	P-MTAB-21122	P-MTAB-21123	P-MTAB-21124	P-MTAB-21125	P-MTAB-21126	P-MTAB-21127	P-MTAB-21128	P-MTAB-21129	P-MTAB-21130	P-MTAB-21131	Affymetrix:Protocol:Hybridization-EukGE-WS2v4[]	Affymetrix:Protocol:MAS4:ExpressionCall
+Protocol Description	Scanning of the probe arrays using the Agilent GeneArray Scanner<br><br>Initial data analysis with the Microarray Suite software<br><br><br>(Parameters: Scanning hardware = G2500A GeneArray scanner [Agilent Technologies], Scanning software = MAS/GCOS/GREX [Affymetrix])	Plants were inoculated with powdery mildew spores and treated with control (0,05% TWEEN 20) solution at two days after inoculation. Plant material was collected 8 and 12 hours after treatment.	Plant material was ground to a fine powder in liquid nitrogen using pestle and mortar. Alternatively, 50-100 mg plant material was homogenised with an electrical homogeniser by totally adding 750 ul of Trizol extraction buffer (Invitrogen BV, Groningen, Netherlands). Subsequently, RNA was extracted according to the manufacturer's protocol (Chomczynski and Sacchi, 1987). The RNA was then further purified using the RNeasy Kit (Qiagen, Basel, Switzerland) according to the protocols of the manufacturer.<br>(Parameters: Extracted product = total_RNA, Amplification = none)	Plants were inoculated with powdery mildew spores and treated with a 20 uM syringolin solution at two days after inoculation. Plant material was collected 2 and 4 hours after treatment.	Uninfected plants were treated with a 20 uM syringolin solution. Plant material was collected 1 hour after treatment.	Plants were inoculated with powdery mildew spores and treated with control solution (0,05% TWEEN 20) at two days after inoculation. Plant material was collected 2 and 4 hours after treatment.	Uninfected plants were treated with control solution (0,05% TWEEN 20). Plant material was collected 1 hour after treatment.	The probe was labelled with the Ambion MEGA Script T7 kit (Ambion, Huntingdon, UK) and finally purified again with the Affymetrix GeneChip Sample Cleanup module.<br>(Parameters: Amount of nucleic acid labeled = 15, Label used = biotin, Amplification = OTHER: amplification during IVT, Mass unit = Micro gram)	Plants were inoculated with powdery mildew spores and treated with a 20 uM syringolin solution at two days after inoculation. Plant material was collected 8 and 12 hours after treatment.	Uninfected plants were treated with control solution (0,05% TWEEN 20). Plant material was collected 8 and 12 hours after treatment.	equal amounts of plant material derived from two time point experiments were pooled in pairs	Uninfected plants were treated with a 20 uM syringolin solution. Plant material was collected 8 and 12 hours after treatment.	Arabidopsis thaliana accession Col-0 plants were grown in soil in growth chambers with a day/night cycle of 16 h/8 h, a light intensity of 100-150 uE, and a constant temperature of 20-22degreeC. 12-14 day-old plants were used for experiments<br>(Parameters: start time = 12, stop time = 14, time unit = days, min temperature = 20, max temperature = 22, temperature unit = C)		
+Protocol Type	image_acquisition	specified_biomaterial_action	nucleic_acid_extraction	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	labeling	specified_biomaterial_action	specified_biomaterial_action	pool	specified_biomaterial_action	grow	hybridization	bioassay_data_transformation
+Protocol Term Source REF	MGED Ontology	MGED Ontology	MGED Ontology	MGED Ontology	MGED Ontology	MGED Ontology	MGED Ontology	MGED Ontology	MGED Ontology	MGED Ontology	MGED Ontology	MGED Ontology	MGED Ontology	ArrayExpress	ArrayExpress
+Term Source Name	MGED Ontology	ArrayExpress	EFO												
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo												
+SDRF File	E-MEXP-739.sdrf.txt														

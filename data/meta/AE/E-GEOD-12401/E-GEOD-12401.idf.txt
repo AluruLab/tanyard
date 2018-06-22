@@ -1,0 +1,52 @@
+Investigation Title	Transcription profiling of Arabidopsis seedlings of wild-type Ws and ged1 (greening after extended darkness 1) mutant						
+Comment[Submitted Name]	Transcript abundance data from seedlings of wild-type Ws and ged1 (greening after extended darkness 1) mutant						
+Experimental Design	unknown_experiment_design_type	transcription profiling by array					
+Experimental Design Term Source REF		EFO					
+Comment[AEExperimentType]	transcription profiling by array						
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for ged1						
+Comment[AEMIAMESCORE]	4						
+Comment[ArrayExpressReleaseDate]	2008-10-21						
+Comment[SecondaryAccession]	GSE12401						
+Comment[ArrayExpressAccession]	E-GEOD-12401						
+Comment[MAGETAB TimeStamp_Version]	2010-07-30 04:40:05 Last Changed Rev: 13058						
+Experimental Factor Name	genotype						
+Experimental Factor Type	genotype						
+Experimental Factor Term Source REF							
+Person Last Name	Choy						
+Person First Name	Mun-Kit						
+Person Mid Initials							
+Person Email	jcg2@mole.bio.cam.ac.uk						
+Person Phone							
+Person Fax							
+Person Address	Division of Cardiovascular Medicine, University of Cambridge, Box 110, Level 6, ACCI Building, Addenbrookeâs Hospital, Hills Road , Cambridge, CB2 2QQ, United Kingdom						
+Person Affiliation	University of Cambridge						
+Person Roles	submitter						
+Person Roles Term Source REF	The MGED Ontology						
+Quality Control Type							
+Quality Control Term Source REF							
+Replicate Type							
+Replicate Term Source REF							
+Normalization Type							
+Normalization Term Source REF							
+Date of Experiment							
+Public Release Date	2008-10-21						
+PubMed ID	18931353						
+Publication DOI	10.1093/jxb/ern227						
+Publication Author List	Choy MK, Sullivan JA, Theobald JC, Davies WJ, Gray JC.						
+Publication Title	An Arabidopsis mutant able to green after extended dark periods shows decreased transcripts of seed protein genes and altered sensitivity to abscisic acid.						
+Publication Status	published						
+Publication Status Term Source REF	EFO						
+Publication Status Term Accession Number	EFO_0001796						
+Experiment Description	An Arabidopsis mutant showing an altered ability to green on illumination after extended periods of darkness has been isolated in a screen for genomes uncoupled (gun) mutants. Following illumination for 24 h, 10-day-old dark-grown mutant seedlings accumulated 5 times more chlorophyll than wild-type seedlings and this was correlated with differences in plastid morphology observed by transmission electron microscopy. The mutant has been named greening after extended darkness 1 (ged1). We used microarrays to detail the global profiles of transcript abundances in the mutant in comparison to the wild type. Microarray analysis showed much lower amounts of transcripts of genes encoding seed storage proteins, oleosins and late embryogenesis abundant (LEA) proteins in 7-day-old seedlings of ged1 compared to wild type. RNA-gel-blot analyses confirmed very low levels of transcripts of seed protein genes in ged1 seedlings grown for 2-10 days in the dark, and showed higher amounts of transcripts of photosynthesis-related genes in illuminated 10-day-old dark-grown ged1 seedlings compared to wild type.  Experiment Overall Design: Total RNA samples were extracted from wild-type Ws and ged1 seedlings grown for 5 days in the dark followed by 2 days in the light and hybridised on Affymetrix ATH-121501 arrays. Transcript amounts between wild-type Ws and ged1 seedlings were compared globally.						
+Protocol Name	P-G12401-2	P-G12401-1	P-G12401-4	P-G12401-3	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6	Affymetrix:Protocol:ExpressionStat
+Protocol Type	specified_biomaterial_action	grow	nucleic_acid_extraction	labeling	hybridization	feature_extraction	bioassay_data_transformation
+Protocol Description	After the stratification, the dish was then removed to specified dark (22 C) and light (22 C under a mixture of cool white and GRO-LUX fluorescent lights in 3:2 ratio with average light intensity of 60 mole m-2 s-1 and 16-h diurnal photoperiod) periods.	The seeds were spread on 0.7 % (w/v) micro agar containing half-strength Murashige and Skoog medium in a 9-cm petri dish stratified at 4 C in the dark for overnight.	Concert Plant RNA Reagent (Invitrogen, Paisley, UK) using the manufacturerâs large-scale isolation protocol.	cDNA was synthesised from 6.6 ug total RNA in accordance with the prescribed Affymetrix protocal. Biotinylated cRNA were prepared according to the standard Affymetrix protocol using Enzo BioArray High Yield RNA Transcript Labelling Kit.	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 
+Protocol Parameters							
+Protocol Hardware							
+Protocol Software					MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 5.0
+Protocol Contact							
+Protocol Term Source REF					mo		The MGED Ontology
+SDRF File	E-GEOD-12401.sdrf.txt						
+Term Source Name	NCBI Taxonomy		The MGED Ontology	ArrayExpress	EFO	The MGED Ontology	mo
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version							

@@ -1,0 +1,38 @@
+Comment[ArrayExpressAccession]	E-MTAB-3416
+MAGE-TAB Version	1.1
+Investigation Title	Transcriptional profiles of Arabidopsis stomataless mutants
+Comment[Submitted Name]	Transcriptional profiles of Arabidopsis stomataless mutants
+Experiment Description	Stomataless Arabidopsis thaliana mutants spch-3 and mute-3 are extreme dwarfs but can produce cotyledons and tiny leaves, providing a system to interrogate plant life in the absence of stomata. To this end, we compared the transcriptomes of mutant cotyledons lacking SPCH or MUTE functions, and therefore lacking stomata, with those of wild-type, stomata-bearing Col-0 accession. RNA was obtained from 21 days old cotyledons collected from 9 independent biological replicates per genotype. These were pooled in 3x3 replicates and used to hybridize Affymetrix ATH1 microarrays.
+Experimental Factor Name	genotype
+Experimental Factor Type	genotype
+Experimental Factor Term Source REF	EFO
+Experimental Factor Term Accession Number	EFO_0000513
+Person Last Name	Mena	Fenoll	de Marcos	Triviño
+Person First Name	Montaña	Carmen 	Alberto 	Magdalena
+Person Mid Initials				
+Person Email	montana.mena@uclm.es			
+Person Phone				
+Person Fax				
+Person Address				
+Person Affiliation	Facultad de Ciencias Ambientales y Bioquímica, Universidad de Castilla-la Mancha, 45071 Toledo, Spain	Facultad de Ciencias Ambientales y Bioquímica, Universidad de Castilla-la Mancha, 45071 Toledo, Spain	Facultad de Ciencias Ambientales y Bioquímica, Universidad de Castilla-la Mancha, 45071 Toledo, Spain	Facultad de Ciencias Ambientales y Bioquímica, Universidad de Castilla-la Mancha, 45071 Toledo, Spain
+Person Roles	submitter			
+Public Release Date	2016-01-27
+PubMed ID	
+Publication DOI	
+Publication Author List	Triviño M., de Marcos A., Pérez-Bueno M.L., Ballesteros I., Barón M., Mena M., Fenoll C.
+Publication Title	
+Publication Status	in preparation
+Publication Status Term Source REF	EFO
+Publication Status Term Accession Number	EFO_0001795
+Protocol Name	P-MTAB-43864	P-MTAB-43865	P-MTAB-43866	P-MTAB-43867	P-MTAB-43868	P-MTAB-43869	P-MTAB-43870
+Protocol Type	growth protocol	sample collection protocol	nucleic acid extraction protocol	nucleic acid labeling protocol	nucleic acid hybridization to array protocol	array scanning and feature extraction protocol	normalization data transformation protocol
+Protocol Term Source REF	EFO	EFO	EFO	EFO	EFO	EFO	EFO
+Protocol Term Accession Number	EFO_0003789	EFO_0005518	EFO_0002944	EFO_0003813	EFO_0003815	EFO_0003814	EFO_0003816
+Protocol Description	Surface sterilized seeds were plated in Petri dishes containing MS medium (M552, Sigma) supplemented with 1% sucrose and 0.8 %  plant agar (S0809, Duchefa Biochemies), pH 5.7. Seeds were stratified in the dark for 48 h at 4°C, transferred to a growth chamber with a 16 h photoperiod, 21°C, 60 % relative humidity and 70 µmol photon cm-2 s-1.	Approximately 30 cotyledons (10-15 mg) were collected, immediately shock frozen in liquid nitrogen and stored at -80ºC until RNA extraction. For each mutant seedling, maintained in heterozygous stocks, one cotyledon was phenotyped and the other collected at 21 dpg.	RNA was extracted with a Trizol/RNeasy procedure. Frozen cotyledons were homogenized with a pestle, 800 µl of Trizol (15596-026, Invitrogen) were added to the powder and incubated for 5 min at room temperature and RNA was extracted with chloroform and cleaned with Qiagen MinElute (RNeasy mini kit 74104, QIAGEN) columns following the manufacturer’s instructions. Prior to elution, the columns were treated with DNase (RNase-Free DNase Set 79254, QIAGEN). RNA integrity and quality was tested by electrophoresis with an Agilent 2100 Bioanalyzer (Brolingen).	cDNA was synthesized from 4 µg of total RNA using One-cycle target labeling and control reagents (Affymetrix, Santa Clara, CA) to produce biotin labeled cRNA. The cRNA preparation (15 µg) were fragmented at 94ºC for 35 min into 35-200 bases in length.	Three biological replicates for each condition were independently hybridized. If the quality control was correct, then 10 µg of fragmented cRNA were hybridized to the Arabidopsis ATH1 Genome array (Affymetrix, Santa Clara, CA), containing 22500 transcript variants from 24000 well -characterized Arabidopsis thaliana genes. Each sample was added to a hybridization solution containing 100mM 2-(N-morpholino) ethanesulfonic acid, 1 M Na+, and 20mM of EDTA in the presence of 0.01% of Tween-20 to a final cRNA concentration of 0.05 µg/ml. Hybridization was performed for 16 h at 45ºC . Each microarray was washed and stained with streptavidin-phycoerythrin in a Fluidics station 450 (Affymetrix).	Microarrays were scanned at 2.5 µm resolution in a GeneChip® Scanner 3000 7G System (Affymetrix) Data analyses were performed using GeneChip Operating Software (GCOS).	Background correction, quantile normalization and expression data averaging and Log2 transformation were performed by Robust Multichip Analysis (RMA) (Irizarry et al., 2003).
+Protocol Hardware							
+Protocol Software							
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/
+Term Source Version		
+Comment[AEExperimentType]	transcription profiling by array
+SDRF File	E-MTAB-3416.sdrf.txt

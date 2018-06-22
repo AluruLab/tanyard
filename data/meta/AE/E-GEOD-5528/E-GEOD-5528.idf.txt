@@ -1,0 +1,51 @@
+Investigation Title	Transcription profiling of Arabidopsis FLC genotype seedlings at 27oC				
+Comment[Submitted Name]	Identifying targets of FLC at 27oC				
+Experimental Design	unknown_experiment_design_type	transcription profiling by array			
+Experimental Design Term Source REF		EFO			
+Comment[AEExperimentType]	transcription profiling by array				
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis knocked out for At5g10140 grown at 27degC				
+Comment[ArrayExpressReleaseDate]	2008-06-13				
+Comment[SecondaryAccession]	GSE5528				
+Comment[AEMIAMESCORE]	4				
+Comment[ArrayExpressAccession]	E-GEOD-5528				
+Comment[MAGETAB TimeStamp_Version]	2010-08-06 16:26:34 Last Changed Rev: 13058				
+Experimental Factor Name	GENOTYPE				
+Experimental Factor Type	genotype				
+Experimental Factor Term Source REF					
+Person Last Name	(NASC)				
+Person First Name	Nottingham Arabidopsis Stock Centre				
+Person Mid Initials					
+Person Email	affy@arabidopsis.info				
+Person Phone					
+Person Fax					
+Person Address	School of Biosciences, University of Nottingham, Nottingham Arabidopsis Stock Centre (NASC), Sutton Bonington Campus, Loughborough, LE12 5RD, United Kingdom				
+Person Affiliation	Nottingham Arabidopsis Stock Centre (NASC)				
+Person Roles	submitter				
+Person Roles Term Source REF					
+Quality Control Type					
+Quality Control Term Source REF					
+Replicate Type					
+Replicate Term Source REF					
+Normalization Type					
+Normalization Term Source REF					
+Date of Experiment					
+Public Release Date	2008-06-13				
+PubMed ID					
+Publication DOI					
+Publication Author List					
+Publication Title					
+Publication Status					
+Publication Status Term Source REF					
+Experiment Description	FLOWERING LOCUS C (FLC) is a MADS box transcription factor that plays a well characterised role in repressing the vegetative to floral transition of Arabidopsis thaliana. FLC has also been shown to affect the Arabidopsis circadian clock, with mutant seedlings showing short circadian periods. In a previous study, we identified the temperature-dependent circadian period QTL PerCv5b near the FLC locus on the top arm of Chromosome 5. PerCv5b caused a significant period effect at 27oC but not at 12oC or 22oC. Temperature-dependent circadian period phenotypes and a known polymorphism in the Ler allele made FLC a strong candidate gene for PerCv5b. The period effect of FLC was enhanced by combination with alleles of FRIGIDA (FRI), a gene shown to up-regulate FLC's expression. We were interested in identifying how FLC affects the circadian clock, so we decided to identify its target genes. Greatest phenotypic difference was observed between fri; flc and FRI; FLC genotype seedlings at 27oC, so expression was compared between these lines (previously described in Michaels and Amasino1999 and 2001) on the Affymetrix ATH1 microarray. Seedlings were grown on media (MS 1.5% Agar containing 3% Sucrose) for 6 days under constant cool white fluorescent light (55-60 micro EINSTEINS) at 22oC then entrained for 4 days under (12h , 12h) light , dark cycles at 22oC. At dawn on the fourth day of entrainment they were transferred to constant light (25-30 micro EINSTEINS) at 27oC. Four samples were taken at 6 hour intervals starting 24h after the transfer to continuous conditions at the times 24h, 30h, 36h and 42h. Equal amounts of total RNA were pooled from the three time points to produce one sample per genotype. The pooling strategy was employed to reduce the effect of circadian regulation on genes expression. This was particularly important in our case as some interesting genes would likely be regulated by the circadian clock and may only show expression differences at particular phases that could easily be missed if using just one time point. Experimenter name = Kieron Edwards; Experimenter phone = 0131 651 3326; Experimenter fax = 0131 650 5392; Experimenter department = Institute of Molecular Plant Sciences; Experimenter institute = University of Edinbugh; Experimenter address = Kings Buildings; Experimenter address = Mayfield Road; Experimenter address = Edinburgh; Experimenter zip/postal_code = EH9 3JH; Experimenter country = UK Experiment Overall Design: 4 samples were used in this experiment				
+Protocol Name	P-G5528-1	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6		
+Protocol Type	specified_biomaterial_action	hybridization	feature_extraction		
+Protocol Description	The seedlings were placed into constant light at 27degC following entrainment to 12h/12h light dark cycles at 22degC. Four samples were taken at 6h intervals starting 24h after transfer to the 27degC constant light conditions at times 24, 30, 36 and 42h. Equal amounts of total RNA were pooled from each timepoint to produce one sample averaged over one circadian cycle.	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 		
+Protocol Parameters					
+Protocol Hardware					
+Protocol Software		MicroArraySuite 5.0	MicroArraySuite 5.0		
+Protocol Contact					
+Protocol Term Source REF		mo			
+SDRF File	E-GEOD-5528.sdrf.txt				
+Term Source Name	NCBI Taxonomy	The MGED Ontology	ArrayExpress	EFO	mo
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version					

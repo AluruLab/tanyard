@@ -1,0 +1,31 @@
+Comment[ArrayExpressAccession]	E-MEXP-4001
+Investigation Title	Schmid_flowering_mutants_2013																													
+Comment[Submitted Name]	Schmid_flowering_mutants_2013
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis thaliana wild type (Col-0) and flowering time mutants to investigate synchronized induction of flowering																													
+Comment[MIAMExpressLogin]	maschmid																													
+Comment[MIAMExpressSubmissionID]	8937																													
+Experiment Description	Synchronized induction of flowering in Arabidopsis thaliana wild type (Col-0) and flowering time mutants (soc1, agl24, fd) by shifting from short day (8 hr light, 16 hr dark; 23C; 65% rel humidity) to long day (16 hr light, 8 hr dark; 23C; 65% rel humidity) for 0, 3, 5, and 7 days. Biotinylated probes were synthesized from RNA isolated from manually disseted shoot meristems and hybridized to Affymetrix ATH1 arrays.																													
+Experimental Design	replicate design	co-expression_design	stimulus or stress design	time series design																										
+Comment[AEExperimentType]	transcription profiling by array																													
+Experimental Factor Name	age	genotype	time																											
+Experimental Factor Type	age	genotype	time																											
+Person Last Name	Schmid																													
+Person First Name	Markus																													
+Person Email	Markus.Schmid@tuebingen.mpg.de																													
+Person Phone	-6018434																													
+Person Fax	-6018438																													
+Person Affiliation	Max Planck Institute for Developmental Biology																													
+Person Address	Molecular Biology, Spemannstr. 37-39, Tuebingen,  Baden Wurtenberg, 72076, Germany																													
+Person Roles	submitter																													
+Person Roles Term Source REF	EFO																													
+Quality Control Type																														
+Public Release Date	2013-11-01																													
+Comment[ArrayExpressSubmissionDate]	2013-10-28 12:43																													
+Publication Status	not yet submitted																													
+Protocol Name	P-MTAB-35729	P-MTAB-35730	P-MTAB-35731	P-MTAB-35732	P-MTAB-35733
+Protocol Description	25-30 shoot apical meristems of Arabidopsis thaliana were micro-dissected and snap frozen on liquid nitrogen per biological replicate.	Arabidopsis thaliana plants were grown at 23C and 65% rel. humidity on soil. Light conditions: Mixture of Cool White and Gro-Lux Wide Spectrum fluorescent lights, with a fluence rate of 125 to 175 umol m-2 s-1.  (Parameters: time unit = days, temperature unit = C)	Plants were shifted from short day (SD; 8hr light, 16 hr darkness) to long day (LD; 16 hr light, 8 hr darkness) to synchronously induce flowering.	Total RNA was isolated from plant material using Plant RNeasy columns (Qiagen) according to the manufacturers instructions. (Parameters: Extracted product = total_RNA, Amplification = none)	Biotinylated antisense RNA was prepared from 1 µg total RNA using the MessageAmp II-Biotin Enhanced Kit (Ambion) according to the manufacturers instructions, except that in vitro transcription was carried out o/n (16 hr).  (Parameters: Amount of nucleic acid labeled = 1, Amplification = RNA polymerases, Mass unit = Micro gram)																									
+Protocol Type	pool	growth protocol	treatment protocol	nucleic acid extraction protocol	nucleic acid labeling protocol																									
+Protocol Term Source REF	EFO	EFO	EFO	EFO	EFO																									
+Term Source Name	EFO	ArrayExpress
+Term Source File	http://www.ebi.ac.uk/efo/	http://www.ebi.ac.uk/arrayexpress																												
+SDRF File	E-MEXP-4001.sdrf.txt

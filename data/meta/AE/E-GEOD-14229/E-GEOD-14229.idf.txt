@@ -1,0 +1,52 @@
+Investigation Title	Transcription profiling of Arabidopsis myb5 and wild-type (Col) seeds				
+Comment[Submitted Name]	The differentially expressed genes identified in the microarray analysis using myb5 and wild-type (Col) seeds				
+Experimental Design	genetic modification design				
+Experimental Design Term Source REF	EFO				
+Comment[AEExperimentType]	transcription profiling by array				
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for myb5				
+Comment[SecondaryAccession]	GSE14229				
+Comment[ArrayExpressReleaseDate]	2009-03-07				
+Comment[AEMIAMESCORE]	4				
+Comment[ArrayExpressAccession]	E-GEOD-14229				
+Comment[MAGETAB TimeStamp_Version]	2010-08-01 13:36:23 Last Changed Rev: 13058				
+Experimental Factor Name	genotype				
+Experimental Factor Type	genotype				
+Experimental Factor Term Source REF					
+Person Last Name	Li				
+Person First Name	Song Feng				
+Person Mid Initials					
+Person Email	s.li@latrobe.edu.au				
+Person Phone					
+Person Fax					
+Person Address	Botany, La Trobe University, Plenty Rd, Melbourne, 3086, Australia				
+Person Affiliation	La Trobe University				
+Person Roles	submitter				
+Person Roles Term Source REF					
+Quality Control Type					
+Quality Control Term Source REF					
+Replicate Type					
+Replicate Term Source REF					
+Normalization Type					
+Normalization Term Source REF					
+Date of Experiment					
+Public Release Date	2009-03-07				
+PubMed ID	19136646				
+Publication DOI	10.1105/tpc.108.063503				
+Publication Author List	Song Feng Li, Olga Nicolaou Milliken, Hanh Pham, Reg Seyit, Ross Napoli, Jeremy Preston, Anna M Koltunow, Roger W Parish				
+Publication Title	The Arabidopsis MYB5 Transcription Factor Regulates Mucilage Synthesis, Seed Coat Development, and Trichome Morphogenesis.				
+Publication Status	published				
+Publication Status Term Source REF	EFO				
+Publication Status Term Accession Number	EFO_0001796				
+Experiment Description	The MYB gene family encodes transcription factors with a diverse range of functions in Arabidopsis. This study demonstrated that MYB5, which is expressed in trichomes and seeds, plays a central role in trichome and seed development. A microarray analysis of myb5 seeds identified other members of the MYB5 regulatory network. Experiment Overall Design: Four wild-type biological replicates and three myb5 biological replicates were used for microarray analysis.				
+Protocol Name	P-G14229-1	P-G14229-3	P-G14229-2	P-AFFY-6	Affymetrix:Protocol:ExpressionStat
+Protocol Type	grow	nucleic_acid_extraction	labeling	feature_extraction	bioassay_data_transformation
+Protocol Description	Plants were grown on soil under constant illumination.	The seeds were dissected out from siliques in RNAlater solution (Ambion) and total RNAs were extracted using the RNeasy Plant Mini Kit (QIAGEN). RNA quality and integrity were determined using an Agilent 2100 Bioanalyzer (Agilent Technologies).	Approximately 100 ng of RNAwas used as template for the synthesis of labeled cRNA probe using the Two Cycle Amplification Kit (Affymetrix). Briefly, the first cycle of cDNA synthesis was carried out using an oligo (dT) primer fused to a T7 RNA polymerase promoter and was followed by the first cycle of in vitro transcription using  T7 RNA polymerase to generate cRNA. The cRNA was used as a template for the second cycle of cDNA synthesis followed by the second cycle of in vitro transcription, to generate the biotin-labeled antisense cRNA.	Title: Affymetrix CEL analysis. Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 
+Protocol Parameters					
+Protocol Hardware					
+Protocol Software				MicroArraySuite 5.0	MicroArraySuite 5.0
+Protocol Contact					
+Protocol Term Source REF					
+SDRF File	E-GEOD-14229.sdrf.txt				
+Term Source Name	EFO				
+Term Source File	http://www.ebi.ac.uk/efo/				
+Term Source Version					

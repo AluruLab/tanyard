@@ -1,0 +1,51 @@
+Investigation Title	Transcription profiling of three atino80 allelic mutants was vs that of wild type and 50B Arabidopsis plants, all Col-0						
+Comment[Submitted Name]	T-DNA insertion in AtINO80						
+Experimental Design	genetic_modification_design	transcription profiling by array					
+Experimental Design Term Source REF	mo	EFO					
+Comment[AEExperimentType]	transcription profiling by array						
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for INO80						
+Comment[ArrayExpressReleaseDate]	2004-11-01						
+Comment[AEMIAMESCORE]	5						
+Comment[ArrayExpressAccession]	E-MEXP-185						
+Comment[MAGETAB TimeStamp_Version]	2011-06-28 19:32:15 Last Changed Rev: 14857						
+Experimental Factor Name	GENOTYPE	STRAIN					
+Experimental Factor Type	genotype	strain_or_line					
+Experimental Factor Term Source REF							
+Person Last Name	Fritsch	Oakeley					
+Person First Name	Olivier	Edward					
+Person Mid Initials		J					
+Person Email	olivierf@fmi.ch	oakeley@fmi.ch					
+Person Phone		616976986					
+Person Fax							
+Person Address		Maulbeerstrasse 66					
+Person Affiliation		Bioinformatics					
+Person Roles		submitter					
+Person Roles Term Source REF		mo					
+Quality Control Type							
+Quality Control Term Source REF							
+Replicate Type							
+Replicate Term Source REF							
+Normalization Type							
+Normalization Term Source REF							
+Date of Experiment							
+Public Release Date	2004-11-01						
+PubMed ID	15525519						
+Publication DOI	10.1016/j.molcel.2004.09.034						
+Publication Author List	Olivier Fritsch, Giovanna Benvenuto, Chris Bowler, Jean Molinier and Barbara Hohn						
+Publication Title	The INO80 Protein Controls Homologous Recombination in Arabidopsis Thaliana						
+Publication Status	published						
+Publication Status Term Source REF	EFO						
+Publication Status Term Accession Number	EFO_0001796						
+Experiment Description	The transcriptome of the three atino80 allelic mutants was compared to that of wild-type and 50B Arabidopsis plants (see Fritsch et al. 2004). Since the transcriptomes of 50B and wild-type plants were found to be identical, we compared expression in the mutant with 50B and with wild-type without distinction. Therefore, we had four replicates of the wild type condition (50B line, wild-type) and two replicates for each of the mutant alleles (atino80-1, atino80-2 and atino80-3), all ecotype Columbia. All lines were profiled in duplicate (grown independently at 2-week-intervals).						
+Protocol Name	P-MEXP-5496	P-MEXP-5499	P-MEXP-5498	P-MEXP-963	Affymetrix:Protocol:Hybridization-EukGE-WS2v4	Affymetrix:Protocol:Percentile	Affymetrix:Protocol:ExpressionStat
+Protocol Type	grow	nucleic_acid_extraction	pool	labeling	hybridization	feature_extraction	bioassay_data_transformation
+Protocol Description	All lines were profiled in duplicate (grown independently at 2-week-intervals). All seeds were coming from plant individuals grown in the same growth room and at the same time. In vitro growth was achieved in growth chamber at 16 h light/8 h dark cycles with 21°C during the day and 16°C during the night with temperature regulated shelves. Seeds were surface sterilized by 2 min incubation in 70% ethanol followed by 10 min incubation in bleach solution (7% hypochlorite bleach (technical grade), 0.05% TWEEN-80) with occasional mixing. The seeds were then rinsed 2 or 3 times with sterile double-distilled water and resuspended in 0.08 % liquid agar (DIFCO Bacto-Agar) for easy plating. Seeds were germinated on agar plates containing MS medium (Duchefa) in growth chamber after 2 days at 4°C in the dark for stratification. One-week-old plants were transferred to two new plates with a density of 25 plants for a 9 cm diameter dish. After one more week in the growth chamber samples were harvested 1 h after the light switched on.	Total RNA extraction from frozen plant material. RNA was isolated using the RNeasy plant extraction kit (QIAGEN) according to the manufacturers instructions. For one isolation, about 50-to-100 mg of liquid nitrogen-frozen material with 450 µl of the provided RLT buffer (with â-mercaptoethanol) were grinded with one tungsten bead in a MixerMill robot for 90 sec at maximum speed. The rest of the extraction was done according to the provided instructions. After elution, the yield was estimated by OD measurement and the RNA was precipitated and resuspended in an appropriate volume to reach a final concentration of RNA of 1.5 µg.µl-1	A pool of 25 individual plants was consituted by randomly picking plants from the two plates. Pooled plants were frozen in liquid nitrogen and kept at -80°C until the extraction	10 µg of total RNA was reverse transcribed using the SuperScript Choice system for cDNA synthesis (Life Technologies) according to the protocol recommended by Affymetrix. The oligonucleotide used for priming was 5?-ggccagtgaattgtaatacgactcactatagggaggcgg-(t)24-3? (Genset Oligo). Double-stranded cDNA was cleaned by phenol:chloroform extraction and the aqueous phase removed by centrifugation through Phase-lock Gel (Eppendorf). In vitro transcription was performed on 1 µg of cDNA using the Enzo BioArray High Yield RNA transcript labelling kit (Enzo Diagnostics). The cRNA was cleaned using RNAeasy clean-up columns (Qiagen). The cRNA was fragmented by heating in 40 mM Tris-acetate pH 8.1, 100 mM KOAc, 30 mM MgOAc.	Title: Fluidics Station Protocol. Description: 	Title: Affymetrix CEL Analysis (Percentile). Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 
+Protocol Parameters	min temperature;max temperature;	Extracted product;Amplification;		Amplification;Label used;Amount of nucleic acid labeled;			
+Protocol Hardware							
+Protocol Software					MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 5.0
+Protocol Contact							
+Protocol Term Source REF		mo	mo				
+SDRF File	E-MEXP-185.sdrf.txt						
+Term Source Name	mo	nasc	The MGED Ontology	ncbitax	ArrayExpress	mo	EFO
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://arabidopsis.info/catalogue.html	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/
+Term Source Version							

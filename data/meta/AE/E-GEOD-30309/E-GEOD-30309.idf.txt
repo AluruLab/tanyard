@@ -1,0 +1,58 @@
+Comment[ArrayExpressAccession]	E-GEOD-30309							
+Public Release Date	2011-09-21							
+Investigation Title	Gene expression changes in response to the overexpression of the Arabidopsis RKD4 gene							
+Comment[Submitted Name]	Gene expression changes in response to the overexpression of the Arabidopsis RKD4 gene							
+Experiment Description	The Arabidopsis RWP-RK protein RKD4 is expressed specifically in early embryogenesis and triggers embryonic cell division sequences. We used Affymetrix ATH1 microarrays to analyze the pattern of gene expression changes in response to induced ectopic expression of RKD4 in post-embryonic organs. Plants of a dexamethasone (DEX)-inducible overexpression line and a control line were grown under normal conditions for 2 days and then treated with DEX for 1 day. RNA was extracted from two independent pools for each genotype.							
+Date of Experiment								
+Term Source Name	EFO							
+Term Source Version								
+Term Source File	http://www.ebi.ac.uk/efo/efo.owl							
+Person Last Name	Nakajima	Nakajima						
+Person First Name	Keiji	Keiji						
+Person Mid Initials								
+Person Email	geo@ncbi.nlm.nih.gov							
+Person Affiliation	Nara Institute of Science and Technology							
+Person Phone								
+Person Fax								
+Person Address	Graduate School of Biological Sciences, Nara Institute of Science and Technology, 8916-5 Takayama, Ikoma, Nara, Japan							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Person Roles Term Accession Number								
+Normalization Type								
+Normalization Term Accession Number								
+Normalization Term Source REF								
+Replicate Type								
+Replicate Term Accession Number								
+Replicate Term Source REF								
+Experimental Design								
+Experimental Design Term Accession Number								
+Experimental Design Term Source REF								
+Quality Control Type								
+Quality Control Term Accession Number								
+Quality Control Term Source REF								
+Protocol Name	P-GSE30309-1	P-GSE30309-6	P-GSE30309-3	P-GSE30309-8	P-GSE30309-7	P-GSE30309-2	P-GSE30309-4	P-GSE30309-5
+Protocol Description	ID_REF = <br>VALUE = MAS5.0 signal intensity<br>ABS_CALL = indicating whether the transcript was present (P), absent (A), or marginal (M)<br>DETECTION P-VALUE = p-value that indicates the significance level of the detection call	Hybridization, washing, and staining procedures were conducted with the Fluidics Station 450 as described in the GeneChip Expression Analysis Technical Manual (Affymetrix).	Sterilized Arabidopsis seeds were plated on a nutrient agar medium and grown at 23 ˚C with a 16h-light/8h-dark cycle.	The data were analyzed with Affymetrix GeneChip Operating Software (GCOS) using default analysis settings.	The scanning procedure was conducted with the GeneChip Scanner 3000 7G as described in the GeneChip Expression Analysis Technical Manual (Affymetrix).	Two days after germination, seedlings were transferred to a nutrient agar medium containing 1 microM of Dexamethasone (DEX).	For each replicate, RNA was extracted from 60 seedlings using the RNeasy Plant Mini Kit (QIAGEN) accrding to the manufacturer's protocol.	Biotin-labelled cRNA was prepared using the Affymetrix GeneChip 3' IVT Expression Kit.
+Protocol Software								
+Protocol Hardware								
+Protocol Contact								
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Protocol Term Source REF								
+Protocol Term Accession Number								
+Experimental Factor Name	GENOTYPE							
+Experimental Factor Type	genotype							
+Experimental Factor Term Source REF								
+Experimental Factor Term Accession Number								
+Publication Title	The Arabidopsis RWP-RK protein RKD4 triggers gene expression and pattern formation in early embryogenesis.							
+Publication Author List	Waki T, Hiki T, Watanabe R, Hashimoto T, Nakajima K							
+PubMed ID	21802301							
+Publication DOI	10.1016/j.cub.2011.07.001							
+Publication Status	published							
+Publication Status Term Source REF	EFO							
+Publication Status Term Accession Number	EFO_0001796							
+Comment[SecondaryAccession]	GSE30309							
+Comment[GEOLastUpdateDate]	2011-09-22							
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis overexpressing RDK4							
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[GEOReleaseDate]	2011-09-20							
+Comment[ArrayExpressSubmissionDate]	2011-06-28							
+SDRF File	E-GEOD-30309.sdrf.txt							

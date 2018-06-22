@@ -1,0 +1,52 @@
+Investigation Title	VFB mutant analysis								
+Comment[Submitted Name]	VFB mutant analysis								
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis vfb (Vier F-Box) triple mutant seedlings								
+Comment[AEExperimentType]	transcription profiling by array								
+Experimental Design	individual_genetic_characteristics_design	co-expression_design	transcription profiling by array						
+Experimental Design Term Source REF		mo	EFO						
+Comment[ArrayExpressReleaseDate]	2007-06-27								
+Comment[SecondaryAccession]	GSE3863								
+Comment[AEMIAMESCORE]	4								
+Comment[SecondaryAccession]	GDS1741								
+Comment[ArrayExpressAccession]	E-GEOD-3863								
+Comment[MAGETAB TimeStamp_Version]	2010-08-05 11:50:40 Last Changed Rev: 13058								
+Experimental Factor Name	genotype								
+Experimental Factor Type	genotype								
+Experimental Factor Term Source REF									
+Person Last Name	Schwechheimer								
+Person First Name	Claus								
+Person Mid Initials									
+Person Email	claus.schwechheimer@zmbp.uni-tuebingen.de								
+Person Phone									
+Person Fax									
+Person Address	"Developmental Genetics,Centre for Plant Molecular Biology,Auf der Morgenstelle 5,Tuebingen,72076,Germany"								
+Person Affiliation	Centre for Plant Molecular Biology								
+Person Roles	submitter								
+Person Roles Term Source REF	The MGED Ontology								
+Quality Control Type									
+Quality Control Term Source REF									
+Replicate Type									
+Replicate Term Source REF									
+Normalization Type									
+Normalization Term Source REF									
+Date of Experiment									
+Public Release Date	2007-06-27								
+PubMed ID	17435085								
+Publication DOI									
+Publication Author List	"Schwager KM, Calderon-Villalobos LI, Dohmann EM, Willige BC, Knierer S, Nill C, Schwechheimer C."								
+Publication Title	Characterization of the VIER F-BOX PROTEINE genes from Arabidopsis reveals their importance for plant growth and development.								
+Publication Status									
+Publication Status Term Source REF									
+Experiment Description	Transcript profiling analysis of vfb (Vier F-Box) mutant  seedlings compared to wild type using Arabidopsis ATH1 GeneChip array.								
+Protocol Name	P-G3863-2	P-G3863-1	P-G3863-5						
+Protocol Type	nucleic_acid_extraction	nucleic_acid_extraction	labeling						
+Protocol Description	Approximately 80 mg from 5 day old light grown VFB triple mutant seedlings were collected and ground to a fine powder under liquid Nitrogen. Samples were lysed in separate groups in RLT buffer (Qiagen).Total RNA was extracted from the tissue lysate using an RNeasy kit (Qiagen).	Approximately 80 mg from 10 day old light grown Col-0 wild type seedlings were collected and ground to a fine powder under liquid Nitrogen. Samples were lysed in separate groups in RLT buffer (Qiagen).Total RNA was extracted from the tissue lysate using an RNeasy kit (Qiagen).	Approximately 6 Â&#956;g of total RNA was processed to produce biotinylated cRNA targets.						
+Protocol Parameters									
+Protocol Hardware									
+Protocol Software									
+Protocol Contact									
+Protocol Term Source REF									
+SDRF File	E-GEOD-3863.sdrf.txt								
+Term Source Name	mo	The MGED Ontology		NCBI Taxonomy	tair_dev:1.27	ArrayExpress	mo	EFO	The MGED Ontology
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://mged.sourceforge.net/ontologies/MGEDontology.php		http://www.ncbi.nlm.nih.gov/Taxonomy/	http://www.arabidopsis.org/info/ontologies/	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version					1.27				

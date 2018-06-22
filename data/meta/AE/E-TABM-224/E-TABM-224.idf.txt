@@ -1,0 +1,49 @@
+Investigation Title	Transcription profiling of Arabidopsis recombinant strains - control hybridizations	
+Comment[Submitted Name]	Transcriptional profiling of Arabidopsis recombinant strains: control hybridizations	
+Experimental Design	compound_treatment_design	strain_or_line_design	transcription profiling by array	
+Experimental Design Term Source REF	mo	mo	EFO	
+Comment[ArrayExpressReleaseDate]	2007-03-01	
+Comment[SecondaryAccession]		
+Comment[AEMIAMESCORE]	5	
+Comment[ArrayExpressAccession]	E-TABM-224	
+Comment[MAGETAB TimeStamp_Version]	2011-06-29 00:49:33 Last Changed Rev: 14857	
+Experimental Factor Name	compound	Time	StrainOrLine	Compound	
+Experimental Factor Type	compound_treatment_design	time	strain_or_line	compound_treatment_design	
+Experimental Factor Term Source REF	
+Person Last Name	St.Clair	
+Person First Name	Dina	
+Person Mid Initials	
+Person Email	dastclair@ucdavis.edu	
+Person Phone	
+Person Fax	
+Person Address	114 Amundson Hall, UC Davis, Davis, CA, USA	
+Person Affiliation	UC Davis Plant Sciences	
+Person Roles	submitter	
+Person Roles Term Source REF		
+Quality Control Type	biological_replicate	spike_quality_control	peer_review_quality_control	
+Quality Control Term Source REF	The MGED Ontology	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2007-03-01	
+PubMed ID	17179097	
+Publication DOI	17179097	
+Publication Author List	Marilyn A.L. West, Kyunga Kim, Daniel J. Kliebenstein, Hans van Leeuwen, Richard W. Michelmore, R.W. Doerge, Dina A. St.Clair	
+Publication Title	Global eQTL Mapping Reveals the Complex Genetic Architecture of Transcript Level Variation in Arabidopsis	
+Publication Status	journal_article	
+Publication Status Term Source REF	
+Experiment Description	The study of natural genetic variation for plant disease resistance responses is a complementary approach to utilizing mutants to elucidate genetic pathways.  While some key genes involved in pathways controlling disease resistance, and signaling intermediates such as salicylic acid (SA) and jasmonic acid (JA), have been identified through mutational analyses, the use of genetic variation in natural populations permits the identification of change-of-function alleles, which likely act in a quantitative manner.  Whole genome microarrays, such as Affymetrix GeneChips, allow for molecular characterization of the disease response at a genomics level and characterization of differences in gene expression due to natural variation.  Differences in the level of gene expression, or expression level polymorphisms (ELPs), can be mapped in a segregating population to identify regulatory quantitative trait loci (expression QTLs, eQTLs) affecting host resistance responses.  We surveyed recombinant inbred lines (RILs) from a population derived from a cross of inbred Arabidopsis accessions Bayreuth-0 (Bay-0) and Shahdara (Sha) in order to map eQTLs controlling ELPs.  We treated vegetatively grown plants with either SA or a control solution (Silwet), and harvested the plants 28 hours after chemical treatment.  Here we present Affymetrix GeneChip microarray expression data for 8 biological replications of the control (Silwet) samples for Bay-0 and Sha.	
+Protocol Name	P-TABM-hans18	P-TABM-826	P-TABM-103	P-TABM-hans19	Affymetrix:Protocol:Hybridization-EukGE-WS2v4_450	P-AFFY-6	Affymetrix:Protocol:ExpressionStat	
+Protocol Type	grow	grow	nucleic_acid_extraction	labeling	hybridization	feature_extraction	bioassay_data_transformation	
+Protocol Description	Seeds of  Arabidopsis thaliana accessions Bay-0; Sha; and Bay-0 x Sha RILs originally developed by O. Loudet (http://www.inra.fr/qtlat); were obtained from ABRC through TAIR (www.arabidopsis.org).   Due to limitations in growth chamber space;  two biologi	Seeds of  Arabidopsis thaliana accessions Bay-0, Sha, and Bay-0 x Sha RILs originally developed by O. Loudet (http://www.inra.fr/qtlat), were obtained from ABRC through TAIR (www.arabidopsis.org).   Due to limitations in growth chamber space,  two biological replications of the RILs plus Bay-0 and Sha controls were grown sequentially, one complete replication at a time.  For each biological replicate, multiple plants (~5) per genotype were grown in a growth chamber under short day conditions (8 hr light at 100-120 microEinsteins, 20 degrees C day/20 degrees C night) to maintain plants in the vegetative phase for six weeks.  The growth chambers used a combination of metal halide, mercury vapor, and incandescent lamps.  Plants were watered with half-strength Hoaglands solution. SA and/or Silwet treatment: Six-week-old plants were sprayed with 0.30 mM SA (salicylic acid, Sigma-Aldrich, St. Louis, MO, USA)  in 0.02% Silwet L77 to run-off, and control plants were sprayed with 0.02% Silwet L77, a surfactant (Lehle Seeds, Round Rock, TX, USA), alone.   Vegetative leaves from 3 plants per genotype/treatment combination were bulk harvested 28 hours post-treatment, and quick-frozen in liquid nitrogen for subsequent RNA extractions.  To avoid diurnal variation in gene expression, the biological replicates were always treated at the same time of day, and harvested at 1:00 p.m.  ONLY THE SILWET TREATED CONTROL SAMPLES ARE INCLUDED IN THIS SUBMISSION.	RNA was extracted from the bulked plants using TRIzol as per the manufacturers protocol (Invitrogen, Carlsbad, CA, USA), followed by purification on RNeasy columns (Qiagen, Valencia, CA, USA).	cDNA and labeled cRNA were prepared according to the manufacturers guidelines in the GeneChip Expression Analysis Technical Manual 701021 rev5 (Affymetrix; Santa Clara; CA; USA). The cDNA synthesis was initiated with 5 micrograms total RNA; one-cycle cDNA synthesis and cRNA labeling were performed with kits purchased from Affymetrix.	Title: Affymetrix EukGE-WS2v4_450 Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 	
+Protocol Parameters	
+Protocol Hardware	
+Protocol Software						MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact	
+Protocol Term Source REF					mo	
+SDRF File	E-TABM-224.sdrf.txt	
+Term Source Name	ncbitax	The MGED Ontology	ArrayExpress	The MGED Ontology	mo	EFO	
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	
+Term Source Version							

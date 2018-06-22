@@ -1,0 +1,25 @@
+Comment[ArrayExpressAccession]	E-GEOD-38721
+MAGE-TAB Version	1.1						
+Public Release Date	2013-12-29
+Investigation Title	Genome wide identification of SHYG early target genes						
+Comment[Submitted Name]	Genome wide identification of SHYG early target genes
+Experiment Description	Global transcriptome patterns were performed using SHYG-IOE-5h (5h after Estradiol and Mock treatment) To identify genes more rapidly responding to elevated SHYG , we perfromed gene expression profiling (Affymetrix) upon 5h Est treatment of SHYG-IOE plants.						
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Balazadeh	Balazadeh	Rauf				
+Person First Name	Salma	Salma	Mamoona				
+Person Email	balazadeh@mpimp-golm.mpg.de						
+Person Affiliation	MPIMP						
+Person Address	Stitt, MPIMP, Am Muehlenberg 1, Postdam, Germany						
+Person Roles	submitter						
+Protocol Name	P-GSE38721-1	P-GSE38721-5	P-GSE38721-6	P-GSE38721-2	P-GSE38721-3	P-GSE38721-4	P-GSE38721-7
+Protocol Description	Raw data (CEL files) obtained from RNA hybridisation experiments were normalized with the affyPLM package from the Bioconductor software project (Gentleman et al., 2004) using the GCRMA that uses GC content of probes in normalization with RMA (Robust Multiple array Average) and  gives one value for each probe set instead of keeping probe level information (Wu et al., 2004). The transcriptional changes were determined by subtracting the normalized signal intensity of the control samples from that of induced samples. ID_REF =  VALUE = RMA normalized	Labelling, hybridisation, washing, staining, and scanning procedures were performed by an Affymetrix authorized service provider (ATLAS Biolabs, Berlin, Germany) as described in the Affymetrix technical manual	Labelling, hybridisation, washing, staining, and scanning procedures were performed by an Affymetrix authorized service provider (ATLAS Biolabs, Berlin, Germany) as described in the Affymetrix technical manual	After two weeks, seedlings were transferred to MS liquid medium while shaking. Î²-estradiol (Sigma-Aldrich) was added to the medium to a final concentration of 10 Î¼M. Subsequently, seedlings were harvested at 5h after estradiol addition.	for IOE: Seeds were surface-sterilized for 1 min in 70% ethanol and then in sterilisation solution (20% sodium hypochlorite) for 30 min. After sterilization, the seeds were sown on half-strength MS medium (Murashige and Skoog, 1962), supplemented with 1% (w/v) sucrose and solidified with 0.7% (w/v) phytoagar and appropriate antibiotics. After imbibition, the seeds were stratified at 4°C for 3 days. The seeds were germinated at 22°C under a 16-h day (140 µmol m-2 s-1) / 8-h night regime. The two-week-old Arabidopsis seedlings were carefully removed from plates subjected to Est/Mocktreatments. for_plants_used_for_protoplast_preparation: Col-0 seeds were directly sown on soil and plants were grown under long day (16 h light / 8 h dark) conditions.	RNeasy Plant Mini Kit	Labelling, hybridisation, washing, staining, and scanning procedures were performed by an Affymetrix authorized service provider (ATLAS Biolabs, Berlin, Germany) as described in the Affymetrix technical manual
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	TREATMENT						
+Experimental Factor Type	treatment						
+Comment[SecondaryAccession]	GSE38721						
+Comment[GEOReleaseDate]	2013-12-29						
+Comment[ArrayExpressSubmissionDate]	2012-06-14						
+Comment[GEOLastUpdateDate]	2013-12-29						
+Comment[AEExperimentType]	transcription profiling by array						
+SDRF File	E-GEOD-38721.sdrf.txt

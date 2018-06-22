@@ -1,0 +1,26 @@
+Comment[ArrayExpressAccession]	E-GEOD-53152
+MAGE-TAB Version	1.1						
+Public Release Date	2014-08-28
+Investigation Title	Gene expression analysis in wild-type and OsGSTU4 overexpression line						
+Comment[Submitted Name]	Gene expression analysis in wild-type and OsGSTU4 overexpression line
+Experiment Description	Glutathione S-transferases (GSTs) are the ubiquitous enzymes, which play important role in defense against various stresses. To analyze the function of a rice GST gene, OsGSTU4, we overexpressed it into Arabidopsis constitutively. The physiological analyses revealed that overexpression of GRX gene enhanced abiotic stress tolerance in transgenic plants as compared to wild-type. We used microarrays to study the global effect of overexpression of OsGSTU4 in Arabidopsis. Wild-type and transgenic Arabidopsis seedlings were grown on MS medium for 14-days in a culture room with a daily photoperiodic cycle of 16h light and 8h dark. The 500 ng of total RNA sample isolated from each tissue sample was processed for microarray analysis according to Affymetrix protocol. Two biological replicates for wild-type and GRX overexpression line were used for microarray analysis.						
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Jain	Raghvendra	Mukesh				
+Person First Name	Mukesh	Sharma	Jain				
+Person Email	mjain@nipgr.ac.in						
+Person Affiliation	National Institute of Plant Genome Research (NIPGR)						
+Person Phone	91-11-26735182						
+Person Address	National Institute of Plant Genome Research (NIPGR), Aruna Asaf Ali Marg, JNU Campus, New Delhi, New Delhi, India						
+Person Roles	submitter						
+Protocol Name	P-GSE53152-1	P-GSE53152-5	P-GSE53152-6	P-GSE53152-2	P-GSE53152-3	P-GSE53152-4	P-GSE53152-7
+Protocol Description	CEL files wer imported into Genespring software and probe summarization and normalization was performed using RMA algorithm ID_REF =  VALUE = RMA signal intensity	Biotinylated cRNA were prepared according to the standard Affymetrix protocol	Following fragmentation, 10 microgram of cRNA were hybridized for 16 h at 45 degree C on the rice Array. GeneChips were washed and stained in the Affymetrix Fluidics Station 450	Seedlings were grown under normal control conditions	Wild-type and transgenic Arabidopsis seedlings were grown on MS medium for 14-days in a culture room with a daily photoperiodic cycle of 16h light and 8h dark	Total RNA was extracted using TRI reagent according to the manufacturer's instructions	GeneChip were scanned using Affymetrix scanner
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	GENOTYPE						
+Experimental Factor Type	genotype						
+Comment[SecondaryAccession]	GSE53152						
+Comment[GEOReleaseDate]	2014-08-28						
+Comment[ArrayExpressSubmissionDate]	2013-12-10						
+Comment[GEOLastUpdateDate]	2014-08-28						
+Comment[AEExperimentType]	transcription profiling by array						
+SDRF File	E-GEOD-53152.sdrf.txt

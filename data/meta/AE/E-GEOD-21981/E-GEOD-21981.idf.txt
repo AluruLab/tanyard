@@ -1,0 +1,52 @@
+Investigation Title	Comparison between NuGEN's WT-Ovation Pico and One-Direct Amplification Systems									
+Comment[Submitted Name]	Comparison between NuGEN's WT-Ovation Pico and One-Direct Amplification Systems									
+Experimental Design	transcription profiling by array									
+Experimental Design Term Source REF	EFO									
+Comment[AEExperimentType]	transcription profiling by array									
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis samples amplified using different amplification systems									
+Comment[AEMIAMESCORE]	4									
+Comment[SecondaryAccession]										
+Comment[SecondaryAccession]	GSE21981									
+Comment[ArrayExpressReleaseDate]	2010-06-08									
+Comment[ArrayExpressAccession]	E-GEOD-21981									
+Comment[MAGETAB TimeStamp_Version]	2010-08-04 07:29:11 Last Changed Rev: 13058									
+Experimental Factor Name	CELL TYPE	PROTOCOL TYPE								
+Experimental Factor Type	cell_type	protocol_type								
+Experimental Factor Term Source REF										
+Person Last Name	Taylor	Baldwin	Carballo	McIntyre	Morse					
+Person First Name	Christopher	Donald	Valentina	Lauren	Alison					
+Person Mid Initials	G	A		M	M					
+Person Email				mcintyre@UFL.EDU						
+Person Phone				352-273-8024						
+Person Fax				352-273-8284						
+Person Address				Department of Molecular Genetics and Microbiology, University of Florida, 2033 Mowry Rd, Gainesville , FL, USA						
+Person Affiliation				University of Florida						
+Person Roles				submitter						
+Person Roles Term Source REF				The MGED Ontology						
+Quality Control Type										
+Quality Control Term Source REF										
+Replicate Type										
+Replicate Term Source REF										
+Normalization Type										
+Normalization Term Source REF										
+Date of Experiment										
+Public Release Date	2010-06-08									
+PubMed ID										
+Publication DOI										
+Publication Author List										
+Publication Title										
+Publication Status										
+Publication Status Term Source REF										
+Experiment Description	Differential gene expression between groups of homogenous cell types is a biological question whose time has come.  RNA can be extracted from small numbers of cells, such as those isolated by laser capture microdissection, but the small amounts obtained often require amplification to enable whole genome transcriptome profiling by technologies such as microarray analysis and RNA-seq.  Recently, advances in amplification procedures make amplification directly from whole cell lysates possible.  The aim of this study was to compare two amplification systems for variations in observed RNA abundance attributable to the amplification procedure for use with small quantities of cells isolated by laser capture microdissection.   Arabidopsis root cells undergoing giant cell formation due to nematode infestation and un-infested control root cells were laser captured and used to evaluate 2 amplification systems.  One, NuGEN's WT-Ovation Pico amplification system, uses total RNA as starting material while the other, NuGEN's WT-One-Direct Amplification system, uses lysate containing the captured cells.   The reproducibility of whole genome transcript profiling and correlations of both systems were investigated after microarray analysis.  The NuGEN WT-Ovation One-Direct system was less reproducible and more variable than the NuGEN WT-Ovation Pico system.  The NuGEN WT-Ovation Pico Amplification kit resulted in the detection of thousands of genes differentially expressed genes between giant cells and control cells.  This is in marked contrast to the relatively few genes detected after amplification with the NuGEN WT-Ovation One-Direct Amplification kit. Evaluation of each amplification system consisted of three biological replicates per treatment (control root cells or giant cells) with one biological replicate split into three technical replicates for a total of 10 samples per amplification procedure.  RNA samples for amplification with the NuGEN WT-Ovation Pico kit were isolated from 150 control cells or from 80 giant cells using the PicoPure RNA Isolation Kit (Arcturus, Mountain View, USA).  For amplification with the NuGEN WT-Ovation One-Direct kit, samples containing 150 control or 80 giant cells were collected directly into 2ul of the NuGEN lysis buffer.  RNA amplifications were carried out according to the respective kitsâ protocols.									
+Protocol Name	P-GSE21981-10	P-GSE21981-4	P-GSE21981-9	P-GSE21981-2	P-GSE21981-3	P-GSE21981-5	P-GSE21981-6	P-GSE21981-7	P-GSE21981-8	P-GSE21981-1
+Protocol Type	nucleic_acid_extraction	nucleic_acid_extraction	specified_biomaterial_action	specified_biomaterial_action	grow	labeling	hybridization	image_aquisition	feature_extraction	bioassay_data_transformation
+Protocol Description	Total RNA amplified according to NuGEN WT-Ovation Pico kit instructions.	Total RNA amplified according to NuGEN WT-Ovation One-Direct kit instructions.	Arabidopsis seedlings were infested with Meloidogyne incognita nematodes according to (Hammes et al. Plant J. 2006 48:414-426). Briefly, 3 week old Arabidopsis seedlings, 5 per plate, were inoculated with 1,000 M. incognita stage 2 juveniles and placed at an angle in a clear acrylic humid box in a short-day chamber. Twenty-one days after inoculation, root cells undergoing giant cell formation (~5,000,000 um2 area) were captured from infested regions of the root. Giant cells were catapulted using the AutoLPC method directly to P.A.L.M. Adhesive caps.	Arabidopsis seedlings were infested with Meloidogyne incognita nematodes according to (Hammes et al. Plant J. 2006 48:414-426). Briefly, 3 week old Arabidopsis seedlings, 5 per plate, were inoculated with 1,000 M. incognita stage 2 juveniles and placed at an angle in a clear acrylic humid box in a short-day chamber. Twenty-one days after inoculation, control root cells not undergoing giant cell formation (~13,000,000 um2 area) were captured from non-infested regions of the infested root. Control root cells were catapulted using the AutoLPC method directly to P.A.L.M. Adhesive caps.	Arabidopsis seedlings  were grown for infestation with Meloidogyne incognita nematodes according to (Hammes et al. Plant J. 2006 48:414-426).  Briefly, Arabidopsis seeds were sterilized and sown, five seeds per plate, 30 plates total, in a medium containing 2% sucrose, 0.3% Gamborgâs basal salts, and 0.6 % Phytagel, pH 6.1.  Plates were placed at a 45o angle in a short-day chamber.	NuGEN FL module	Hybridization mixture was prepared according to NuGEN and Affymetrix procedures and hybridized to GeneChipÂ© Arabidopsis ATH1 Arrays.	GeneChips were scanned at the University of Pennsylvania School of Medicine Microarray Facility according to standard manufacturer protocols.	Data were quantified with the Expression Console (Affymetrix) software application using the MAS5 algorithm	ID_REF = probe_set_ID<br>VALUE = MAS5 calculated signal intensity<br>ABS_CALL = call that indicates if the transcript was present (P), absent (A) or marginal (M)<br>DETECTION P-VALUE = p-value that indicates the significance level of the detection call
+Protocol Parameters										
+Protocol Hardware										
+Protocol Software										
+Protocol Contact										
+Protocol Term Source REF									The MGED Ontology	The MGED Ontology
+SDRF File	E-GEOD-21981.sdrf.txt									
+Term Source Name	NCBI Taxonomy		The MGED Ontology	ArrayExpress	EFO	The MGED Ontology				
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php				
+Term Source Version										

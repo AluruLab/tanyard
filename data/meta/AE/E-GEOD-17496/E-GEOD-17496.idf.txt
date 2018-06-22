@@ -1,0 +1,34 @@
+Comment[ArrayExpressAccession]	E-GEOD-17496						
+Investigation Title	Analysis of polyploidy-associated transcriptional gene silencing (paTGS) mutants						
+Comment[Submitted Name]	Analysis of polyploidy-associated transcriptional gene silencing (paTGS) mutants						
+Comment[AEExperimentType]	transcription profiling by array						
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis polyploidy-associated transcriptional gene silencing (paTGS) mutants ddm1-12 and hog1-7 against wild type controls						
+Publication Title	Cooperation of Multiple Chromatin Modifications Can Generate Unanticipated Stability of Epigenetic States in Arabidopsis.						
+Publication Author List	Baubec T, Dinh HQ, Pecinka A, Rakic B, Rozhon W, Wohlrab B, von Haeseler A, Mittelsten Scheid O						
+Publication DOI	10.1105/tpc.109.072819						
+PubMed ID	20097869						
+Public Release Date	2010-02-01						
+Experiment Description	A case of transcriptional gene silencing, originally observed in tetraploid Arabidopsis plants, created an epiallele resistant to many mutations or inhibitor treatments that activate other suppressed genes. This raised the question about the molecular basis of this extreme stability. A combination of forward and reverse genetics, transcriptome profiling and drug application provides evidence for a double safeguard system that is only alleviated upon the simultaneous removal of both DNA methylation and histone methylation by loss of DDM1 or HOG1 acitivity. Three biological replicates per line are provided. C2S1 = Wt line; hog1-7=774; ddm1-12=1135						
+Term Source Name	EFO						
+Term Source File	http://www.ebi.ac.uk/efo						
+Person Last Name	Mittelsten Scheid	Baubec	Scheid				
+Person First Name	Ortrun	Tuncay	Ortrun				
+Person Mid Initials			M				
+Person Email	ortrun.mittelstenscheid@gmi.oeaw.ac.at						
+Person Affiliation	Gregor Mendel Institute						
+Person Phone							
+Person Fax							
+Person Address	Gregor Mendel Institute, Dr. Bohrgasse 3, Vienna, Austria						
+Person Roles	submitter						
+Person Roles Term Source REF	EFO						
+Protocol Name	P-GSE17496-1	P-GSE17496-6	P-GSE17496-5	P-GSE17496-3	P-GSE17496-2	P-GSE17496-4	P-GSE17496-7
+Protocol Description	ID_REF = <br>VALUE = log2 RMA signal	Nottingham Arabidopsis Stock Centre (NASC) standard method	Nottingham Arabidopsis Stock Centre (NASC) standard method	Qiagen Rneasy	Standard growth protocol on plates containing GM medium, long day condition, 21°C, 17 days	Nottingham Arabidopsis Stock Centre (NASC) standard method	R/BioC using RMA
+Protocol Type	normalization data transformation protocol	array scanning and feature extraction protocol	nucleic acid hybridization to array protocol	nucleic acid extraction protocol	growth protocol	nucleic acid labeling protocol	array scanning and feature extraction protocol
+Protocol Term Source REF	EFO	EFO	EFO	EFO	EFO	EFO	EFO
+Experimental Factor Name	genotype						
+Experimental Factor Type	genotype						
+Comment[SecondaryAccession]	GSE17496						
+Comment[GEOLastUpdateDate]	2010-01-28						
+Comment[GEOReleaseDate]	2010-02-01						
+Comment[ArrayExpressSubmissionDate]	2009-08-03						
+SDRF File	E-GEOD-17496.sdrf.txt						

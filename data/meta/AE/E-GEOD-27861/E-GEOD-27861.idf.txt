@@ -1,0 +1,58 @@
+Comment[ArrayExpressAccession]	E-GEOD-27861							
+Public Release Date	2011-05-01							
+Investigation Title	Rice A20/AN1 zinc-finger containing stress-associated proteins (SAP1/11) and a receptor-like cytoplasmic kinase (OsRLCK253) interact via A20 zinc-finger and confer abiotic stress tolerance in transgenic Arabidopsis plants							
+Comment[Submitted Name]	Rice A20/AN1 zinc-finger containing stress-associated proteins (SAP1/11) and a receptor-like cytoplasmic kinase (OsRLCK253) interact via A20 zinc-finger and confer abiotic stress tolerance in transgenic Arabidopsis plants							
+Experiment Description	"The inbuilt mechanisms of plant survival have been exploited for improving tolerance to abiotic stresses. We have investigated the subcellular interactions of rice stress-associated proteins (SAPs) using yeast two-hybrid and FRET approaches and found that A20 domain mediates the interaction of OsSAP1 with self, its close homolog OsSAP11, and a rice receptor-like cytoplasmic kinase, OsRLCK253. Such interactions between OsSAP1/11 and with OsRLCK253 occur at nuclear membrane, plasma membrane and in nucleus. Functionally, both OsSAP11 and OsRLCK253 could improve the water-deficit and salt stress tolerance in transgenic Arabidopsis plants via a signaling pathway affecting the expression of several common endogenous genes. The yield in transgenic plants is also protected indicating the agronomic relevance of OsSAP11 and OsRLCK253 in conferring abiotic stress tolerance. Arabidopsis transgenic plants expressing rice genes OsSAP11 and OsRLCK253  were compared with untransformed plants at seedling level"							
+Date of Experiment								
+Term Source Name	EFO							
+Term Source Version								
+Term Source File	http://www.ebi.ac.uk/efo							
+Person Last Name	Tyagi	Giri	Tyagi					
+Person First Name	Akhilesh	Jitender	Akhilesh					
+Person Mid Initials	Kumar		K					
+Person Email	akhilesh@genomeindia.org							
+Person Affiliation	"University of Delhi South Campus,  Benito Juarez Road  India"							
+Person Phone	91-11-24115095							
+Person Fax	91-11-24115095							
+Person Address	"Plant Molecular Biology, University of Delhi South Campus,  Benito Juarez Road  India, Benito Juarez Road , New Delhi , Delhi, India"							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Person Roles Term Accession Number								
+Normalization Type								
+Normalization Term Accession Number								
+Normalization Term Source REF								
+Replicate Type								
+Replicate Term Accession Number								
+Replicate Term Source REF								
+Experimental Design	transcription profiling by array							
+Experimental Design Term Accession Number								
+Experimental Design Term Source REF								
+Quality Control Type								
+Quality Control Term Accession Number								
+Quality Control Term Source REF								
+Protocol Name	P-GSE27861-1	P-GSE27861-6	P-GSE27861-3	P-GSE27861-8	P-GSE27861-7	P-GSE27861-2	P-GSE27861-4	P-GSE27861-5
+Protocol Description	ID_REF = <br>VALUE = GCRMA normalized signal values	"Following fragmentation, 15 ug of cRNA were hybridized for 16 hr at 45C on GeneChip Arabidopsis Genome Array. GeneChips were washed and stained in the Affymetrix Fluidics Station 450"	Seedlings were raised on 1/2 MS medium without antibiotic selection for 21 days.	"First-order analysis was performed using Affymetrix Gene Chip Operating (GCOS) software 1.2.1. Normalization of data and differential expression analysis was done using Array Assist software (Strandgenomics, Bangalore, India)"	GeneChips were scanned using the Affymetrix Gene Chip Scanner 3000	Untreated seedlings were used for tissue	Trizol extraction of total RNA was performed according to the manufacturer's instructions.	Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 5ug total RNA
+Protocol Software								
+Protocol Hardware								
+Protocol Contact								
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Protocol Term Source REF								
+Protocol Term Accession Number								
+Experimental Factor Name	genotype							
+Experimental Factor Type	genotype							
+Experimental Factor Term Source REF								
+Experimental Factor Term Accession Number								
+Publication Title								
+Publication Author List								
+PubMed ID								
+Publication DOI								
+Publication Status								
+Publication Status Term Source REF								
+Publication Status Term Accession Number								
+Comment[SecondaryAccession]	GSE27861							
+Comment[GEOLastUpdateDate]	2011-05-01							
+Comment[AEExperimentDisplayName]	Rice A20/AN1 zinc-finger containing stress-associated proteins (SAP1/11) and a receptor-like cytoplasmic kinase (OsRLCK253) interact via A20 zinc-finger and confer abiotic stress tolerance in transgenic Arabidopsis plants							
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[GEOReleaseDate]	2011-04-30							
+Comment[ArrayExpressSubmissionDate]	2011-03-09							
+SDRF File	E-GEOD-27861.sdrf.txt							

@@ -1,0 +1,28 @@
+Comment[ArrayExpressAccession]	E-GEOD-46958						
+MAGE-TAB Version	1.1						
+Public Release Date	2013-08-01						
+Comment[AEExperimentDisplayName]	Transcription profiling by array of roots of hydroponically grown Arabidopsis treated with 0.125 mM gold against untreated control to study the uptake of gold						
+Investigation Title	Gene expression profiles in roots of hydroponically grown Arabidopsis treated with 0.125 mM gold						
+Comment[Submitted Name]	Gene expression profiles in roots of hydroponically grown Arabidopsis treated with 0.125 mM gold						
+Experiment Description	"Gold is widely considered to be a biologically inert element; however, it can elicit a profound biological response in plants. Plants can be exposed to significant levels of this precious metal in the environment from naturally occurring sources, as the result of mining activities or more recently resulting from the escalating use of nanoparticles in industry. In this microarray study we have investigated the gene expression response of Arabidopsis thaliana (Arabidopsis) to gold. Although the uptake of metal cations by plant transporters is well characterised, little is known about the uptake of gold, which exists in soil predominantly in a zero-valent state (Au0). We used this study to monitor the expression of candidate genes involved in metal uptake and transport. These show the down-regulation of a discreet number of genes known to be involved in the transport of copper, cadmium, nickel and iron. The experiment comprised three replicate jars of hydropnically-grown Arabidopsis, each treated with 0.125 mM KAuCl4, and three replicate jars of hydropnically-grown Arabidopsis which were treated with water only."						
+Term Source Name	ArrayExpress	EFO					
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Rylott	Rylott					
+Person First Name	Elizabeth	Elizabeth					
+Person Mid Initials	L	L					
+Person Email	liz.rylott@york.ac.uk						
+Person Affiliation	University of York						
+Person Phone	1904328754						
+Person Address	"Department of Biology, University of York, Wentworth Way, York, United Kingdom"						
+Person Roles	submitter						
+Protocol Name	P-GSE46958-1	P-GSE46958-5	P-GSE46958-6	P-GSE46958-2	P-GSE46958-3	P-GSE46958-4	P-GSE46958-7
+Protocol Description	Data was processed using GeneSpring GX10 Expression software (Agilent Technologies) and global scaling as normalisation method.   Differentially expressed genes were identified using a two-class t-test (p< 0.05 significance level).   Genes that were up or down-regulated more than 2-fold were selected ID_REF =  VALUE = genespring normalized	The cDNA was labelled using a MessageAmp(tm)II-Biotin Enhanced Kit (Ambion)	"Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45C on GeneChip Arabidopsis ATH1 array."	"0.125 mM KAuCl4 was prepared in water and pH adjusted to pH 5.7 using NaOH. 1/2 Murashige and Skoog (1962) liquid growth medium was replaced with 0.125 mM KAuCl4 solution for six hours, and plants grown at 80 umol.m-2.s-1 21 oC for 6 hours. then roots harvested, snap frozen in liquid nitrogen and total RNA extracted."	"For the microarray experiment, Arabidopsis was grown according to the method described by Kumari et al. (Kumari et al. 2008). Rafts were made from circular lightweight plastic, 75 mm diameter and 6 mm thick. Approximately 100 holes (3-4 mm diameter) were drilled into each disk. These rafts were sterilised by autoclaving and the holes were plugged with 1/2MS(A). Sterile Arabidopsis seeds, which had been stratified for two nights in the dark at 4 degrees C, were pipetted onto each plugged hole. Rafts were transferred to liquid Richard's medium (pH 5.7). Plants were grown in sealed sterile jars for 14 days at 22  degrees C / 19  degrees C day / night temperatures on a 16 hour light (80 umol.m-2.s-1) / 8 hour dark cycle."	Total RNA was extracted usign Qiagen RNAeasy kit for plants. RNA quality was tested using a Bioanalyser (Agilent Technologies)	GeneChips were scanned using an Affyimetrix GCS3000 scanner with Command Console Software (AGCC)
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	growth condition						
+Experimental Factor Type	growth condition						
+Comment[SecondaryAccession]	GSE46958						
+Comment[GEOReleaseDate]	2013-08-01						
+Comment[ArrayExpressSubmissionDate]	2013-05-15						
+Comment[GEOLastUpdateDate]	2013-08-03						
+Comment[AEExperimentType]	transcription profiling by array						
+SDRF File	E-GEOD-46958.sdrf.txt						

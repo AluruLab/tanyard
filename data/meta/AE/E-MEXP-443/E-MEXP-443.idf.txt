@@ -1,0 +1,48 @@
+Investigation Title	Transcription profiling of Arabidopsis thaliana seedlings after exposure to low R/FR light for a short and a long period of time	
+Comment[Submitted Name]	Ruberti - A.thaliana Early and Late Shade Avoidance Responses	
+Experimental Design	growth_condition_design	transcription profiling by array	
+Experimental Design Term Source REF	mo	EFO	
+Comment[ArrayExpressReleaseDate]	2006-03-01	
+Comment[AEMIAMESCORE]	5	
+Comment[ArrayExpressAccession]	E-MEXP-443	
+Comment[MAGETAB TimeStamp_Version]	2011-06-28 20:52:26 Last Changed Rev: 14857	
+Experimental Factor Name	light	time	
+Experimental Factor Type	light	time	
+Experimental Factor Term Source REF	
+Person Last Name	Sassi	Carabelli	Possenti	Ciolfi	Sessa	Ruberti	Morelli	Mittempergher	Becker	
+Person First Name	Massimiliano	Monica	Marco	Andrea	Giovanna	Ida	Giorgio	Francesca	Jorg	
+Person Mid Initials	
+Person Email						ida.ruberti@uniroma1.it	
+Person Phone						+390649912211	
+Person Fax						+390649912500	
+Person Address						P.le Aldo Moro 5	
+Person Affiliation	CNR	CNR	INRAN	CNR	CNR	Institute of Molecular Biology and Pathology	INRAN	CNR	IGC	
+Person Roles						submitter	
+Person Roles Term Source REF							
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2006-03-01	
+PubMed ID	16322556	
+Publication DOI	16322556	
+Publication Author List	Sessa, Giovanna; Carabelli, Monica; Sassi, Massimiliano; Ciolfi, Andrea; Possenti, Marco; Mittempergher, Francesca; Becker, Jorg; Morelli, Giorgio; Ruberti, Ida	
+Publication Title	A dynamic balance between gene activation and repression regulates the shade avoidance response in Arabidopsis	
+Publication Status	journal_article	
+Publication Status Term Source REF	
+Experiment Description	Aim of the experiment is the identification of regulatory genes rapidly induced by low R/FR and still up-regulated after prolonged exposure to FR-rich light. To this end, gene expression changes were analysed in Arabidopsis thaliana seedlings after exposure to low R/FR light for a short and a long period of time. The experiment was designed to enable comparison between treated and untreated Arabidopsis seedlings.	
+Protocol Name	P-MEXP-9609	P-MEXP-9610	P-MEXP-9615	P-MEXP-9618	Affymetrix:Protocol:Hybridization-EukGE-WS2v4	P-AFFY-6	Affymetrix:Protocol:ExpressionStat	
+Protocol Type	grow	specified_biomaterial_action	nucleic_acid_extraction	labeling	hybridization	feature_extraction	bioassay_data_transformation	
+Protocol Description	Seedlings were grown in a growth chamber (E30-LED, Percival Scientific Inc., USA), at 21°C temperature, 75% humidity, 16 h light/8 h dark cycles.	Arabidopsis seedlings were exposed to high R/FR light and then to low R/FR light for a short and a long period of time. Light outputs in high R/FR were: 670 nm (Red) 96 mmoles m-2s-1; 735 nm (Far Red,) 21 mmoles m-2s-1; 470 nm (Blue) 15 mmoles m-2s-1. Light outputs in low R/FR were: 670 nm, 12 mmoles m-2s-1; 735 nm, 105 mmoles m-2s-1; 470 nm, 15 mmoles m-2s-1. 8-day-old seedlings were harvested after the exposure to low R/FR light for 1 hour and 4 days. As a control, 8-day-old seedlings grown for the entire period in high R/FR light were harvested.	Total RNA was isolated using the RNeasy Plant Mini Kit (Qiagen, Germany). Each sample consists of a pool of 200 individuals. Two sets of samples were collected from independent experiments.	7 µg of total RNA was used in a reverse transcription reaction (SuperScript II; Invitrogen, Paisley, UK) to generate first-strand cDNA. After second-strand synthesis, double-strand cDNA was used in an in vitro transcription (IVT) reaction to generate biotinylated cRNA (ENZO BioArray HighYield RNA Transcript Labeling Kit; ENZO Diagnostics, Farmingdale, NY). Size distribution of the cRNA and fragmented cRNA, respectively, was assessed using an Agilent 2100 Bioanalyzer with a RNA 6000 Nano Assay.	Title: Fluidics Station Protocol. Description: 	Title: Affymetrix CEL analysis. Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 	
+Protocol Parameters	start time;min temperature;		Extracted product;Amplification;	Amount of nucleic acid labeled;Amplification;Label used;	
+Protocol Hardware	
+Protocol Software					MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact	
+Protocol Term Source REF		mo	
+SDRF File	E-MEXP-443.sdrf.txt	
+Term Source Name	mo		ncbitax	tair_dev:1.27	ArrayExpress	mo	EFO	
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php		http://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html	http://www.arabidopsis.org/info/ontologies/	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	
+Term Source Version				1.27				

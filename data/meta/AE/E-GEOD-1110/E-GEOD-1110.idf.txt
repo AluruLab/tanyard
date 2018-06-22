@@ -1,0 +1,53 @@
+Investigation Title	Transcription profiling of Arabidopsis seedlings treated with indole-3-acetic acid (IAA)							
+Comment[Submitted Name]	Arabidopsis thaliana gene expression in response to IAA challenge							
+Experimental Design	time_series_design	dose_response_design	compound_treatment_design	quality_control_testing_design	co-expression_design	transcription profiling by array		
+Experimental Design Term Source REF	mo		mo		mo	EFO		
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis after treatment with indole-3-acetic acid							
+Comment[ArrayExpressReleaseDate]	2007-07-10							
+Comment[SecondaryAccession]	GSE1110							
+Comment[AEMIAMESCORE]	4							
+Comment[SecondaryAccession]	GDS672							
+Comment[ArrayExpressAccession]	E-GEOD-1110							
+Comment[MAGETAB TimeStamp_Version]	2010-07-22 02:14:46 Last Changed Rev: 13058							
+Experimental Factor Name	Time	Dose	Compound					
+Experimental Factor Type	time	dose	compound					
+Experimental Factor Term Source REF								
+Person Last Name	Redman							
+Person First Name	Julia							
+Person Mid Initials	C.							
+Person Email	jredman@tigr.org							
+Person Phone								
+Person Fax								
+Person Address	Christopher Town,Plant Genomics,The Institute for Genomic Research,9712 Medical Center Dr,Rockville,20850,USA							
+Person Affiliation	The Institute for Genomic Research							
+Person Roles	submitter							
+Person Roles Term Source REF	The MGED Ontology							
+Quality Control Type								
+Quality Control Term Source REF								
+Replicate Type								
+Replicate Term Source REF								
+Normalization Type								
+Normalization Term Source REF								
+Date of Experiment								
+Public Release Date	2007-07-10							
+PubMed ID	15086809							
+Publication DOI	10.1111/j.1365-313X.2004.02061.x							
+Publication Author List	Julia C Redman,Brian J Haas,Gene Tanimoto,Christopher D Town							
+Publication Title	Development and evaluation of an Arabidopsis whole genome Affymetrix probe array.							
+Publication Status	published							
+Publication Status Term Source REF	EFO							
+Publication Status Term Accession Number	EFO_0001796							
+Experiment Description	Arabidopsis seedlings (Col-0) were grown in suspension in half-strength MS medium with agitation at ~100 rpm at ~22 C under ~50 microeinsteins m-2s-1 cool white fluorescent continuous illumination as described by (Xiao et al., Plant Physiol. 2002 Dec;130(4):2118-28). Seedlings were treated at 10-12 days by addition of freshly made IAA (0.1 or 1.0uM) to each flask, and harvested after a 1 or 3 hour incubation.  Controls were not treated and harvested at 0hr.  All tissue harvested.  Total RNA was extracted using TRIzol (Invitrogen) as described by the manufacturer and then filtered using QIAGEN RNeasy columns.  cDNA was synthesized from total RNA using a Superscript double-stranded cDNA synthesis kit (Invitrogen) and a T7-dT24 primer. cRNA was synthesized using the Enzo BioArray HighYield RNA Transcript Labeling kit (Affymetrix p/n 900182) and fragmented by Mg2+ hydrolysis.  15ug per ATH1 array was hybridized overnight at 45 C. Arrays were then washed and scanned using the GeneChip FS400 fluidics station and Agilent GeneArray scanner.  Images were analyzed using Affymetrix Microarray Suite 5.0, scaling to a target average intensity of 500.  Spiking controls were added to the total RNA before cDNA synthesis and additional spiking samples were added to the resulting cDNA prior to cRNA synthesis.,In comparison table below:,SIGNAL_LOG_RATIO = Mean of log to base two of the experimental divided by control signal ratios across all probe pairs in a set.,CHANGE = Qualitative measurement indicating whether the probe set signal is increased (I), marginally increased (MI), not changed (NC), marginally decreased (MD), or decreased (D) as compared to a control hybridization across all probe pairs, based on a p-value calculation.,change_p-value = Measures the probability that all probe pairs in the set indicate a change, with 0 indicating strong likelyhood for increase, 0.5 indicating little probability for difference, and 1 indicating strong probability for decrease.							
+Protocol Name								
+Protocol Type								
+Protocol Description								
+Protocol Parameters								
+Protocol Hardware								
+Protocol Software								
+Protocol Contact								
+Protocol Term Source REF								
+SDRF File	E-GEOD-1110.sdrf.txt							
+Term Source Name	NCBI Taxonomy	tair_dev:1.27	The MGED Ontology	ArrayExpress	chebi	mo	EFO	The MGED Ontology
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://www.arabidopsis.org/info/ontologies/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://ebi.ac.uk/chebi	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version		1.27						

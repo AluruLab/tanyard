@@ -1,0 +1,58 @@
+Comment[ArrayExpressAccession]	E-GEOD-23301							
+Public Release Date	2011-04-07							
+Investigation Title	Quantitative transcriptomic analysis of abscisic acid-induced and reactive oxygen species-dependent expression changes and proteomic profiling in Arabidopsis suspension cells							
+Comment[Submitted Name]	Quantitative transcriptomic analysis of abscisic acid-induced and reactive oxygen species-dependent expression changes and proteomic profiling in Arabidopsis suspension cells							
+Experiment Description	Early rapid changes in response to the phytohormone abscisic acid (ABA) have been observed at the transcript level, but little is known how these transcript changes translate to changes in protein abundance under the same conditions. Here we have performed a global quantitative analysis of transcript and protein changes in Arabidopsis suspension cells in response to ABA using microarrays and quantitative proteomics. In summary, 3494 transcripts and 50 proteins were significantly regulated by ABA over a treatment period of 20–24 h. Abscisic acid also caused a rapid and strong increase in production of extracellular reactive oxygen species (ROS) with an average half-rise time of 33 sec. A subset of ABA-regulated transcripts were differentially regulated in the presence of the ROS scavenger dimethylthiourea (DMTU) as compared with ABA alone, suggesting a role for ROS in the regulation of these ABA-induced genes. Transcript changes showed an overall poor correlation to protein changes (r = 0.66). Only a subset of genes was regulated at the transcript and protein level, including known ABA marker genes. We furthermore identified ABA regulation of proteins that function in a branch of glucosinolate catabolism previously not associated with ABA signaling. The discovery of genes that were differentially regulated at the transcript and at the protein level emphasizes the strength of our combined approach. In summary, our dataset not only expands previous studies on gene and protein regulation in response to ABA, but rather uncovers unique aspects of the ABA regulon and gives rise to additional mechanisms regulated by ABA. Experimental Goals: 1. Identification of the set of genes that is regulated by Abscisic acid (ABA) in T87 suspension cells. 2. Test the effect of the H2O2 scavenger Dimethylthiourea (DMTU) on gene activation by ABA 3. Comaprison of changes in transcript and protein abundance in response to ABA							
+Date of Experiment								
+Term Source Name	EFO							
+Term Source Version								
+Term Source File	http://www.ebi.ac.uk/efo							
+Person Last Name	Boehmer	Boehmer	Schroeder					
+Person First Name	Maik	Maik	Julian					
+Person Mid Initials			I					
+Person Email	mboehmer@ucsd.edu							
+Person Affiliation	University of Caifornia, San Diego							
+Person Phone	+1-858-534-7432							
+Person Fax	+1-858-534-7108							
+Person Address	Biology, University of Caifornia, San Diego, 9500 Gilman Dr 0116, La Jolla, CA, USA							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Person Roles Term Accession Number								
+Normalization Type								
+Normalization Term Accession Number								
+Normalization Term Source REF								
+Replicate Type								
+Replicate Term Accession Number								
+Replicate Term Source REF								
+Experimental Design								
+Experimental Design Term Accession Number								
+Experimental Design Term Source REF								
+Quality Control Type								
+Quality Control Term Accession Number								
+Quality Control Term Source REF								
+Protocol Name	P-GSE23301-1	P-GSE23301-6	P-GSE23301-3	P-GSE23301-8	P-GSE23301-7	P-GSE23301-2	P-GSE23301-4	P-GSE23301-5
+Protocol Description	ID_REF = <br>VALUE = RMA-normalized (Limma), log2 expression values	Arabidopsis ATH1 oligonucleotide-based genome arrays were used, and hybridization and washing were performed by using the standard Affymetrix protocol for RNA analyses (www.affymetrix.com/products/arrays/specific/arab.affx).	Arabidopsis thaliana (Columbia ecotype) T87 suspension cells were obtained from RIKEN BioResource Center (Tsukuba, Japan) and were cultured at 20 °C under 16 h light, 8h dark illumination (24 μE s−1 m−2) with shaking at 120 rpm. Cells were subcultured every 7 days by adding 10 ml of the cell suspension to a 500 ml flask containing 90 ml of Gamborg B5 medium with 3% sucrose and 0.5 µM 1-naphthaleneacetic acid (NAA). Experiments were carried out in the exponential phase of growth at about 120 h of cell cultivation.	RMA (Limma)	Affymetrix 7G scanner	ABA and DMTU were added to the medium containing the suspension cells to the final required concentrations of 50 µM and 5mM, respectively. Treatments were continued for 20 h before RNA extraction	RNA was isolated with the RNeasy Plant Mini Kit (Qiagen) following the manufacturer's instructions.	Affymetrix 3' IVT labeling kit
+Protocol Software								
+Protocol Hardware								
+Protocol Contact								
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Protocol Term Source REF								
+Protocol Term Accession Number								
+Experimental Factor Name	compound							
+Experimental Factor Type	compound							
+Experimental Factor Term Source REF								
+Experimental Factor Term Accession Number								
+Publication Title	Quantitative transcriptomic analysis of abscisic acid-induced and reactive oxygen species-dependent expression changes and proteomic profiling in Arabidopsis suspension cells.							
+Publication Author List	Böhmer M, Schroeder JI.							
+PubMed ID	21426425							
+Publication DOI	10.1111/j.1365-313X.2011.04579.x							
+Publication Status	published							
+Publication Status Term Source REF	EFO							
+Publication Status Term Accession Number	EFO_0001796							
+Comment[SecondaryAccession]	GSE23301							
+Comment[GEOLastUpdateDate]	2011-04-13							
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis T87 cells after treatment with abscisic acid and dimethylthiourea							
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[GEOReleaseDate]	2011-04-06							
+Comment[ArrayExpressSubmissionDate]	2010-07-27							
+SDRF File	E-GEOD-23301.sdrf.txt							

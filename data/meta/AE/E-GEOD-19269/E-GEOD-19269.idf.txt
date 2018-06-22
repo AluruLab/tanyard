@@ -1,0 +1,58 @@
+Comment[ArrayExpressAccession]	E-GEOD-19269					
+Public Release Date	2009-12-09					
+Investigation Title	Epigenetic mutant gene expression analysis_2					
+Comment[Submitted Name]	Epigenetic mutant gene expression analysis_2					
+Experiment Description	The aim of this project is to identify endogenous targets of yet unidentified epigenetic mutants. Mutants were discovered in a forward genetic approach using T-DNA insertion mutagenesis. Pools of 25 seedlings, grown in-vitro, will be used to examine changes in gene expression. 9 samples were used in this experiment.					
+Date of Experiment						
+Term Source Name	EFO					
+Term Source Version						
+Term Source File	http://bar.ebi.ac.uk:8080/trac/browser/branches/curator/ExperimentalFactorOntology/ExFactorInOWL/currentrelease/eforelease/efo.owl					
+Person Last Name	Nottingham Arabidopsis Stock Centre (NASC)	Baubec				
+Person First Name		Tuncay				
+Person Mid Initials						
+Person Email	affy@arabidopsis.info					
+Person Affiliation	Nottingham Arabidopsis Stock Centre (NASC)					
+Person Phone	+44 (0)115 951 3237					
+Person Fax	+44 (0)115 951 3297					
+Person Address	School of Biosciences, University of Nottingham, Nottingham Arabidopsis Stock Centre (NASC), Sutton Bonington Campus, Loughborough, United Kingdom					
+Person Roles	submitter					
+Person Roles Term Source REF						
+Person Roles Term Accession Number						
+Normalization Type						
+Normalization Term Accession Number						
+Normalization Term Source REF						
+Replicate Type						
+Replicate Term Accession Number						
+Replicate Term Source REF						
+Experimental Design						
+Experimental Design Term Accession Number						
+Experimental Design Term Source REF						
+Quality Control Type						
+Quality Control Term Accession Number						
+Quality Control Term Source REF						
+Protocol Name	P-GSE19269-1	P-GSE19269-5	P-GSE19269-4	P-GSE19269-2	P-GSE19269-3	P-GSE19269-6
+Protocol Description	ID_REF = <br>VALUE = MAS5.0 signal intensity<br>ABS_CALL = the call in an absolute analysis that indicates if the transcript was present (P), absent (A), or marginal (M)<br>DETECTION P-VALUE = p-value that indicates the significance level of the detection call	Scanned according to guidelines set out by Affymetrix, Santa Clara, CA.	Biotin Labelled cRNA using &quot;Affymetrix GeneChip Hybridization, Wash and Stain Kit&quot;, according to guidelines set out by Affymetrix, Santa Clara, CA	Qiagen RNAeasy kit protocol	Labelled using protocol described in manual &quot;Affymetrix GeneChip Expression Analysis Technical Manual&quot;, One-Cycle target labelling	Raw data from the microarrays was normalized at probe-level using MAS5 algorithm. The detection calls (present, marginal, absent) for each probe set was obtained using the GCOS system
+Protocol Software						
+Protocol Hardware						
+Protocol Contact						
+Protocol Type	bioassay_data_transformation	image_aquisition	hybridization	nucleic_acid_extraction	labeling	feature_extraction
+Protocol Term Source REF						
+Protocol Term Accession Number						
+Experimental Factor Name	LINE	GENETIC MODIFICATION				
+Experimental Factor Type	strain_or_line	genetic_modification				
+Experimental Factor Term Source REF						
+Experimental Factor Term Accession Number						
+Publication Title						
+Publication Author List						
+PubMed ID						
+Publication DOI						
+Publication Status						
+Publication Status Term Source REF						
+Publication Status Term Accession Number						
+Comment[SecondaryAccession]	GSE19269					
+Comment[GEOLastUpdateDate]	2011-03-01					
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis epigenetic mutants					
+Comment[AEExperimentType]	transcription profiling by array					
+Comment[GEOReleaseDate]	2009-12-10					
+Comment[ArrayExpressSubmissionDate]	2009-12-02					
+SDRF File	E-GEOD-19269.sdrf.txt					

@@ -1,0 +1,25 @@
+Comment[ArrayExpressAccession]	E-GEOD-37130
+MAGE-TAB Version	1.1						
+Public Release Date	2012-12-01
+Investigation Title	Comparative transcriptome analysis of responses of Arabidopsis ecotypes to cold stress						
+Comment[Submitted Name]	Comparative transcriptome analysis of responses of Arabidopsis ecotypes to cold stress
+Experiment Description	Transcriptional variation, also called expression level polymorphism (ELP), contributes to intra-specific phenotypic variation in many organisms. Differentially expressed transcripts are typically enriched for stress-related genes, suggesting that differences in response to the environment are a particularly common point of divergence among gentoypes. Analysis of ELPs also has been suggested as a way to assess unintended consequences of transgene introduction; however, it is important that interpretation of transcriptional changes be performed within the context of potential fitness effects.  In these studies we sought to examine differential gene expression in response to cold for two widely used Arabidopsis thaliana ecotypes, C24 and Columbia (Col). Two Arabidopsis genotypes were grown in 1/2 MS plate. Forteen-day-old seedlings were used for RNA extraction and hybridization on Affymetrix microarrays. There were two biological replicates for each genotype and cold treatment combination.						
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Chan	Chan					
+Person First Name	Zhulong	Zhulong					
+Person Email	chanzhul@msu.edu						
+Person Affiliation	Wuhan Botanic Garden, Chinese Academy of Sciences						
+Person Address	Wuhan Botanic Garden, Chinese Academy of Sciences, Wuchang District, Moshan, Wuhan, Hubei, China						
+Person Roles	submitter						
+Protocol Name	P-GSE37130-1	P-GSE37130-6	P-GSE37130-5	P-GSE37130-3	P-GSE37130-2	P-GSE37130-4	P-GSE37130-7
+Protocol Description	ID_REF =  VALUE = RMA-calculated log2 intensity	standard Affymetrix procedures	standard Affymetrix procedures	Total RNA was extracted and purified using QIAGEN-RNeasy Mini Kit according to guidelines specified by the manufacturer.	Seeds were planted on 1/2 MS plate and incubated at 23/18 degree growth chamber	One µg of total RNA was processed to produce biotinylated cRNA targets.	All the Affymetrix data files produced with Affymetrix GCOS software (*.CEL files) were analyzed using Bioconductor, a public source software for the analyses of genomic data rooted in the statistical computing environment R. The data were normalized by robust multioiarray normalization of probe-level data with RMA and analyzed using affylmGUI running on R software.
+Protocol Type	bioassay_data_transformation	image_aquisition	hybridization	nucleic_acid_extraction	grow	labeling	feature_extraction
+Experimental Factor Name	GENOTYPE						
+Experimental Factor Type	genotype						
+Comment[SecondaryAccession]	GSE37130						
+Comment[GEOReleaseDate]	2012-12-01						
+Comment[ArrayExpressSubmissionDate]	2012-04-09						
+Comment[GEOLastUpdateDate]	2012-12-20						
+Comment[AEExperimentType]	transcription profiling by array						
+SDRF File	E-GEOD-37130.sdrf.txt

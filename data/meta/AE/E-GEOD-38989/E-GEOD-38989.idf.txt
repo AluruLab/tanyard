@@ -1,0 +1,26 @@
+Comment[ArrayExpressAccession]	E-GEOD-38989
+MAGE-TAB Version	1.1									
+Public Release Date	2013-03-01
+Investigation Title	Light- and Phytochrome-Dependent Regulation of Hypocotyl Elongation in Arabidopsis thaliana									
+Comment[Submitted Name]	Light- and Phytochrome-Dependent Regulation of Hypocotyl Elongation in Arabidopsis thaliana
+Experiment Description	To identify and characterize genes required for tissue-specific phytochrome responses during hypocotyl development in far-red-light grown bvr lines, we performed gene transcriptional profiling using bvr lines with mesophyll-specific phytochrome inactivation (cab3: :pBVR2). We identified several candidate genes whose expression is significantly altered in lines with mesophyll tissue-specific BVR expression (Cab3::pBVR2), compared to constitutive phytochrome inactivation lines, i.e. 35S-driven BVR lines (35S::pBVR3). No-0 is used as wild-type (WT) Seeds of No-0 WT, 35S::pBVR3 and CAB3::pBVR2 on MS plates were exposed to Red (R) light of 75 Âµmol m-2 s-1 for 5 min and imbibing seeds were cold-stratified at 4 Â°C in darkness for 3 d. Seedlings were grown under continuous far-red illumination for 7 d. Seven-day-old vegetative whole seedlings (300 â€“ 500 mg) were quickly (<1 min) harvested and immediately frozen in liquid nitrogen inside the FR chamber. Seedlings were grown under continuous far-red illumination for 7 d.									
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl								
+Person Last Name	Oh	Warnasooriya	Oh	Montgomery						
+Person First Name	Sookyung	Sankalpi	Sookyung	Beronda						
+Person Email	ohsookyu@msu.edu									
+Person Affiliation	Michigan State Univ.									
+Person Phone	517-353-3992									
+Person Address	Plant Research Laboratories, Michigan State Univ., 612 Wilson Road, Rm. 322, East Lansing, MI, USA									
+Person Roles	submitter									
+Protocol Name	P-GSE38989-2	P-GSE38989-3	P-GSE38989-1	P-GSE38989-8	P-GSE38989-5	P-GSE38989-10	P-GSE38989-9	P-GSE38989-4	P-GSE38989-6	P-GSE38989-7
+Protocol Description	ID_REF =  ABS_CALL = Detection criteria P:present A:absent DETECTION P-VALUE = Detection p-value VALUE = signal value	ID_REF =  ABS_CALL = Detection criteria P:present A: absent DETECTION P-VALUE = Detection p-value VALUE = signal value	ID_REF =  ABS_CALL = Detection criteria P: present, A:absent DETECTION P-VALUE = Detection p-value VALUE = signal value	We submitted ~12 µg of labeled aRNA to the Research Technology Support Facility at Michigan State University for hybridization with a GeneChip® Arabidopsis ATH1 Genome Arrays (Affymetrix, Inc., CA) and acquisition of scanned probe arrays.	Seedlings were grown under continuous far-red illumination for 7 d.	Microarray data were analyzed using the statistical algorithms within the Affymetrix Microarray Suite (MAS) 5.0 software.	We submitted ~12 µg of labeled aRNA to the Research Technology Support Facility at Michigan State University for hybridization with a GeneChip® Arabidopsis ATH1 Genome Arrays (Affymetrix, Inc., CA) and acquisition of scanned probe arrays.	Seeds of No-0 WT, 35S::pBVR3 and CAB3::pBVR2 on MS plates were exposed to Red (R) light of 75 µmol m-2 s-1 for 5 min and imbibing seeds were cold-stratified at 4 °C in darkness for 3 d. Seedlings were grown under continuous far-red illumination for 7 d. Seven-day-old vegetative whole seedlings (300 â€“ 500 mg) were quickly (<1 min) harvested and immediately frozen in liquid nitrogen inside the FR chamber	Seven-day-old vegetative whole seedlings (300 â€“ 500 mg) were quickly (<1 min) harvested and immediately frozen in liquid nitrogen inside the FR chamber. Total RNA was isolated using an RNeasy® Plant Minikit (Qiagen, CA) according to the manufacturerâ€™s instructions.	Amplified RNA (aRNA) was synthesized using a MessageAmpâ„¢ Premier RNA Amplification Kit (Applied Biosystems/Ambion, TX) according to the manufacturerâ€™s instructions with the following modifications. For in vitro transcription reaction, samples were incubated for 8 h at 40 °C. Binding of aRNA to magnetic beads following addition of 100% ethanol was carried out for 5 min with gentle shaking. To capture the magnetic beads-aRNA complex, we placed U bottom plates on a magnetic stand for ~6 min. aRNA was eluted off of the magnetic beads through vigorous shaking for ~7 min. The quality of biotin-labeled aRNA was determined on an Agilent 2100 Bioanalyzer.
+Protocol Type	bioassay_data_transformation	bioassay_data_transformation	bioassay_data_transformation	hybridization	grow	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Experimental Factor Name	GENETIC MODIFICATION									
+Experimental Factor Type	genetic modification									
+Comment[SecondaryAccession]	GSE38989									
+Comment[GEOReleaseDate]	2013-03-01									
+Comment[ArrayExpressSubmissionDate]	2012-06-28									
+Comment[GEOLastUpdateDate]	2013-03-03									
+Comment[AEExperimentType]	transcription profiling by array									
+SDRF File	E-GEOD-38989.sdrf.txt

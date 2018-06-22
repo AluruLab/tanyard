@@ -1,0 +1,50 @@
+Investigation Title	Transcription profiling of Arabidopsis under hypoxia stress to assess proportion of transcript associated with large polysomes	
+Comment[Submitted Name]	Changes in transcript abundance and association with large polysomes in response to hypoxia stress	
+Experimental Design	stimulus_or_stress_design	transcription profiling by array	
+Experimental Design Term Source REF	mo	EFO	
+Comment[ArrayExpressReleaseDate]	2008-06-11	
+Comment[SecondaryAccession]	GSE2218	
+Comment[SecondaryAccession]	GDS1450	
+Comment[AEMIAMESCORE]	5	
+Comment[ArrayExpressAccession]	E-GEOD-2218	
+Comment[MAGETAB TimeStamp_Version]	2010-08-04 14:56:30 Last Changed Rev: 13058	
+Experimental Factor Name	Treatment	EnvironmentalStress	
+Experimental Factor Type	material_type	environmental_stress	
+Experimental Factor Term Source REF	
+Person Last Name	Branco-Price	
+Person First Name	Cristina	
+Person Mid Initials	
+Person Email	cmbranco@yahoo.com	
+Person Phone	
+Person Fax	
+Person Address	Julia Bailey-Serres, Botany and Plant Sciences, University of California, Riverside, 2215 batchelor Hall, Riverside, 92521, USA	
+Person Affiliation	University of California, Riverside	
+Person Roles	submitter	
+Person Roles Term Source REF	The MGED Ontology	
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2008-06-11	
+PubMed ID	16081496	
+Publication DOI	16081496	
+Publication Author List	Cristina Branco-Price, Riki Kawaguchi, Ricardo B Ferreira, Julia Bailey-Serres	
+Publication Title	Genome-wide analysis of transcript abundance and translation in Arabidopsis seedlings subjected to oxygen deprivation.	
+Publication Status	journal_article	
+Publication Status Term Source REF	The MGED Ontology	
+Experiment Description	7d-old WT ler seedlings were submitted to 12h of non-stress (air) or hypoxia-stress treatment under low light conditions (45 uM m-2 s-2), and Total and Large Polysome RNA from both treatments were extracted and hybridized against Affymetrix genome chips. Values were used to evaluate changes in transcript abundance and transcript association with large polysomal complexes. TABLE 1 - Comparison between transcript abundance in non-stress and hypoxia-stress conditions. TABLE 2 - Comparison between transcript abundance in large polysome complexes (5 or more ribosomes per mRNA) in non-stress and 12 hypoxia-stress conditions. TABLE 3 - Proportion of total transcript that is associated with large polysome complexes (polysome loading) under non-stress conditions. Raw data (not normalized); TABLE 4 - Proportion of total transcript that is associated with large polysome complexes (polysome loading) under 12h of hypoxia-stress. Raw data (not normalized)	
+Protocol Name	Affymetrix:Protocol:Hybridization-EukGE-WS2v4	P-AFFY-6	
+Protocol Type	hybridization	feature_extraction	
+Protocol Description	Title: Fluidics Station Protocol. Description: 	Title: Affymetrix CEL analysis. Description: 	
+Protocol Parameters	
+Protocol Hardware	
+Protocol Software	MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact	
+Protocol Term Source REF	
+SDRF File	E-GEOD-2218.sdrf.txt	
+Term Source Name	NCBI Taxonomy	The MGED Ontology	ArrayExpress		NCI_thesaurus	mo	EFO	The MGED Ontology	
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress		ncithesaurus.obo.alt	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version									

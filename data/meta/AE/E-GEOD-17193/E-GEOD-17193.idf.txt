@@ -1,0 +1,52 @@
+Investigation Title	Transcription profiling of Arabidopsis seedlings treated with chitosan						
+Comment[Submitted Name]	Transcript profile of chitosan-treated Arabidopsis seedlings						
+Experimental Design	unknown_experiment_design_type	transcription profiling by array					
+Experimental Design Term Source REF		EFO					
+Comment[AEExperimentType]	transcription profiling by array						
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis after treatment with chitosan						
+Comment[SecondaryAccession]	GSE17193						
+Comment[ArrayExpressReleaseDate]	2009-11-10						
+Comment[AEMIAMESCORE]	3						
+Comment[ArrayExpressAccession]	E-GEOD-17193						
+Comment[MAGETAB TimeStamp_Version]	2010-10-14 07:51:02 Last Changed Rev: 14677						
+Experimental Factor Name	COMPOUND						
+Experimental Factor Type	compound						
+Experimental Factor Term Source REF							
+Person Last Name	Perata						
+Person First Name	Pierdomenico						
+Person Mid Initials							
+Person Email	p.perata@sssup.it						
+Person Phone							
+Person Fax							
+Person Address	Plant Physiology, Crop Physiology Center, Sant'Anna School of Advanced Studies, Via Mariscoglio 34, Pisa, 56124, Italy						
+Person Affiliation	Sant'Anna School of Advanced Studies						
+Person Roles	submitter						
+Person Roles Term Source REF	The MGED Ontology						
+Quality Control Type							
+Quality Control Term Source REF							
+Replicate Type							
+Replicate Term Source REF							
+Normalization Type							
+Normalization Term Source REF							
+Date of Experiment							
+Public Release Date	2009-11-10						
+PubMed ID	21240536						
+Publication DOI	10.1007/s10265-010-0399-1						
+Publication Author List	Povero G, Loreti E, Pucciariello C, Santaniello A, Di Tommaso D, Di Tommaso G, Kapetis D, Zolezzi F, Piaggesi A, Perata P.						
+Publication Title	Transcript profiling of chitosan-treated Arabidopsis seedlings						
+Publication Status	published						
+Publication Status Term Source REF	EFO						
+Publication Status Term Accession Number	EFO_0001796						
+Experiment Description	We treated Arabidopsis seedlings with chitosan and carried out a transcript profiling analysis (GeneChip microarrays) in order to identify genes and transcription factors regulated by chitosan. The results showed that jasmonate and defense responsive genes, camalexin and lignin biosynthetic genes were among genes up-regulated by chitosan. Several transcription factors are also strongly induced by chitosan. The results suggested that chitosan can be used as a strong elicitor of defense pathways. Experiment Overall Design: Arabidopsis thaliana, ecotype Columbia (Col-0) seeds were sterilized for 7 min in 1.7% (v/v) bleach solution, incubated over night in 4% PPM (Plant Preservative Mixture, Plant Cell Technology, Washington DC, USA) in a full strength sterilized Murashige-Skoog (MS) salt solution with gentle shaking. Subsequently, the seeds were rinsed in abundant sterile water and transferred into 2.5 ml liquid growing media (MS half strength solution) with 0.05% PPM in 6-well plates. The plates were incubated in the dark at 4 Â°C for two days and finally transferred to continuous light (90Âµm photons/ m-2) with gentle swirling for four days in a plant growth chamber at 22 Â°C.  Experiment Overall Design:  . Treatments were performed by comparing  a control solution containing the solvent used to solubilize chitosan, and a chitosan solution concentrated 150 Âµg/ml.						
+Protocol Name	P-G17193-2	P-G17193-6	P-G17193-1	P-G17193-5	P-G17193-3	P-AFFY-6	P-G17193-4
+Protocol Type	specified_biomaterial_action	specified_biomaterial_action	grow	nucleic_acid_extraction	labeling	feature_extraction	bioassay_data_transformation
+Protocol Description	Arabidopsis seedlings. Ecotype: Columbia 0; Age: 4 days; Germination: aerobic; Medium: Murashige-Skoog medium, half-strenght, sucrose 30 mM, 23Â°C, continuous light; Treated for 3h with chitosan under continuous light.	Arabidopsis seedlings. Ecotype: Columbia 0; Age: 4 days; Germination: aerobic; Medium: Murashige-Skoog medium, half-strenght, sucrose 30 mM, 23Â°C, continuous light; Treated for 3 hours with chitosan under continuous light.	Seeds were sterilized with diluted bleach (10-min incubation in 1.7% sodium hypochlorite, rinsed and washed seven times in sterile water) and incubated in 2.5 mL of liquid growing media (Murashige and Skoog half-strength solution in six-well plates) containing 30 mM sucrose. The plates were incubated in the dark at 4Â°C for two days (vernalization, to promote homogeneous germination) and then transferred to 23Â°C for four days under continuous light before the treatments.	Total RNA was extracted from the seedling samples using the Ambion RNAqueous kit (Ambion). RNA quality was assessed by agarose gel electrophoresis and spectrophotometry. RNA was processed for use on Affymetrix Arabidopsis ATH1 GeneChip arrays.	Affymetrix standard labeling protocol	Title: Affymetrix CEL analysis. Description: 	GC-RMA algorithm
+Protocol Parameters							
+Protocol Hardware							
+Protocol Software						MicroArraySuite 5.0	
+Protocol Contact							
+Protocol Term Source REF							The MGED Ontology
+SDRF File	E-GEOD-17193.sdrf.txt						
+Term Source Name	NCBI Taxonomy		The MGED Ontology	ArrayExpress	EFO	The MGED Ontology	
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version							

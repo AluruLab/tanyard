@@ -1,0 +1,48 @@
+Investigation Title	Transcription profiling of Arabidopsis mutants in AtrbohC in primary root tissue	
+Comment[Submitted Name]	The effect of mutations in AtrbohC on the pattern of gene expression in primary root tissue.	
+Experimental Design	individual_genetic_characteristics_design	strain_or_line_design	transcription profiling by array	
+Experimental Design Term Source REF		mo	EFO	
+Comment[ArrayExpressReleaseDate]		
+Comment[AEMIAMESCORE]	4	
+Comment[ArrayExpressAccession]	E-NASC-54	
+Comment[MAGETAB TimeStamp_Version]	2010-08-11 19:16:59 Last Changed Rev: 13058	
+Experimental Factor Name	
+Experimental Factor Type	
+Experimental Factor Term Source REF	
+Person Last Name	unknown	Jones	
+Person First Name	unknown	Mark	
+Person Mid Initials	
+Person Email		m.a.jones@ex.ac.uk	
+Person Phone	+44 (0)115 951 3091	01392-264609	
+Person Fax	+44 (0)115 951 3297	01392-264668	
+Person Address	Plant Science Division, School of Biosciences, University of Nottingham, Sutton Bonnington Campus, Loughborough LE12 5RD, UK	School of Biological Sciences University of Exeter Washington Singer Laboratories Perry Road Exeter  EX4 4QG UK 	
+Person Affiliation		School of Biological Sciences University of Exeter	
+Person Roles		biosource_provider;investigator;submitter	
+Person Roles Term Source REF		mo	
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	
+PubMed ID	
+Publication DOI	
+Publication Author List	
+Publication Title	
+Publication Status	
+Publication Status Term Source REF	
+Experiment Description	Aim:  To determine the effect of an AtrbohC mutation on the gene expression pattern in primary root tissue, to identify candidate genes acting downstream of AtrbohC, particularly any encoding antioxidant-related proteins, signal transduction components or proteins known to be required for normal root-hair development. Background:  Root-hairs are a model system for investigating plant cell polarity. The root-hair mutant rhd2 (Schiefelbein and Somerville, 1990. Plant Cell, 2:235) has short hairs that burst at their tips, (Jones and Smirnoff, unpublished). RHD2 has been cloned and is identical to AtrbohC (L. Dolan, pers. comm.), which encodes a homologue of the superoxide-generating neutrophil respiratory burst oxidase catalytic subunit gp91phox (Torres et al., 1998. Plant J., 14:365). Superoxide rapidly dismutates to hydrogen peroxide (H2O2), suggesting that the rhd2 phenotype may result from reduced H2O2 levels in root-hair cells. Low doses of exogenous antioxidants phenocopy the rhd2 root-hair phenotype in wild-type plants (Jones and Smirnoff, unpublished) further supporting a role for H2O2 in root-hair growth. Fluorescent dyes that detect H2O2 show distinct localisation patterns in growing root-hair cells, (Jones and Smirnoff, unpublished). H2O2 may be an important second messenger in plant cell signalling with proposed roles in the development of cotton fibres (Potikha et al., 1999. Plant Physiol., 119: 849) and in ABA-induced stomatal closure (Zhang et al., 2001. Plant Physiol., 126: 1438). In cultured Arabidopsis cells H2O2 induces gene expression, including that of a gp91phox homologue, (Desikan et al., 1998. J. Exp. Bot., 49: 1767; Desikan, et al., 2000. Free Rad. Biol. Med., 28: 773; Baxter-Burrell et al., 2002. Science, 296: 2026) and activates a MAP kinase cascade (Desikan et al., 1999. J. Exp Bot., 50: 1863). cDNA microarray technology has been used previously to examine the effects of H2O2 on gene expression during oxidative stress (Desikan et al., 2001. Plant Physiol., 127: 159). We wish to investigate the effects of H2O2 on gene expression during root development using the rhd2 mutant. We are currently determining the expression pattern of RHD2. By extracting RNA from the small region of the primary root (for wild-type and rhd2 plants grown in sterile conditions) where root hairs are growing we hope to enrich for root-hair RNAs. This may reveal candidate genes that could be examined more closely at the single-cell level. This approach will provide new insights into the role of H2O2 in root-hair development.	
+Protocol Name	NASCGrowProt:208	NASCExtractProtocol:3	NASCLabelProtocol:1	Affymetrix:Protocol:Hybridization-EukGE-WS2v4	Affymetrix:Protocol:Percentile	Affymetrix:Protocol:ExpressionStat	
+Protocol Type		nucleic_acid_extraction	labeling	hybridization	feature_extraction	bioassay_data_transformation	
+Protocol Description	Title: Growth protocol. Description: Plants were grown in growth cabinets in petri dishes sealed with parafilm. The temperature was 20.5C and the photoperiod was 24hr with a lighting intensity of 50 umoles m-2 s-1. The medium used was Gilroy medium (ref. Plant J. 1997 12: 427-439) with 0.1% phytagel. The medium was supplemented with 1% (w/v) sucrose. Startification was carried out at 4C for a period of 5 days. Seedlings were grown to Boyes key stage 1.02, at which point small excised segments of primary root tissue corresponding to root-hair elongation zone were harvested and retained for RNA extraction.	Protocol: Seedlings harvested and snap-frozen in liquid nitrogen and RNA extracted as described in the Qiagen RNAeasy kit. 	RNA samples were quality controlled using the Agilent 2100 Bioanalyzer. 100 pmol T7-(dT)24 primer (5'-GGCCAGTGAATTGTAATACGACTCACTATAGGGAGGCGG-(dT)24-3')  was hybridized with the Total RNA ( 8 - 12ug) at 70ÃÂ°C for 10 minutes.  First strand cDNA was synthesized by reverse transcription using 400 units SuperScript II Reverse Transcriptase in a reaction containing 50 mM Tris-HCl (pH 8.3), 75 mM KCl, 3 mM MgCl2, 10 mM dithiothreitol (DTT) and 0.5 mM dNTPs at 42C for 1 hour.  The reaction was then put on ice for 2 mins, followed by second strand cDNA synthesis.  130ul of the second strand reaction mix was added to the 20ul  first strand synthesis reaction. The second strand reaction mix  contained 40 units E. coli DNA polymerase I, 10 units E. coli DNA ligase, 2 units  E. coli RNase H and 0.2 mM dNTPs in a buffer containing 20 mMTris-HCl (pH 6.9), 90 mM KCl, 4.6 mM MgCl2, 10mM (NH4)SO4 and 0.15 mM ÃÂ-NAD+. The reaction was incubated at 16 C for 2 hours.  10 units T4 DNA Polymerase was added and the reaction incubated for a further 5 minutes at 16 C, then the reaction was terminated using EDTA.  The double-stranded cDNA was cleaned up using the cDNA Cleanup Spin Column supplied in the Affymetrix GeneChip Sample Cleanup Module.  The double-stranded cDNA was used as a template for in Vitro transcription of biotin-labeled cRNA using the ENZO BioArray RNA Transcript Labeling Kit supplied by Affymetrix.  The Transcript Labeling kit produces large amounts of hybridizable biotin-labeled RNA targets by in Vitro transcription from bacteriophage T7 RNA polymerase promoters.  The reaction mixture containing Biotin-Labeled ribonucleotides (ATP, GTP, CTP, UTP with Bio-UTP and Bio-CTP), DTT, RNase inhibitor mix and T7 RNA polymerase was incubated at 37 C for 5 hrs, gently mixing every 30 minutes during the incubation. This produced an average of 40ug biotin-labeled cRNA . The biotin-labeled cRNA  was cleaned up using the cRNA Cleanup Spin Column supplied in the Affymetrix GeneChip Sample Cleanup Module.  The quantity and quality of the cRNA was measured using the Agilent 2100 Bioanalyzer. The total amount of cRNA was calculated, the starting quantity of RNA subtracted to give the quantity of adjusted cRNA.  The cRNA was fragmented by metal-induced hydrolysis to break down full-length cRNA to 35-200 base fragments.  15ug of adjusted cRNA was used to prepare 300ul of hybridization cocktail of which 200ul was hybridized with the GeneChip.	Title: Fluidics Station Protocol. Description: 	Title: Affymetrix CEL Analysis (Percentile). Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 	
+Protocol Parameters	Humidity;location;Lighting;Temperature;Nutrients;Medium;Stratification;	
+Protocol Hardware	
+Protocol Software				MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact	
+Protocol Term Source REF						The MGED Ontology	
+SDRF File	E-NASC-54.sdrf.txt	
+Term Source Name	NCI_thesaurus		nasc	ncbitax	mo	ArrayExpress	mo	EFO	The MGED Ontology	
+Term Source File	ncithesaurus.obo.alt		http://arabidopsis.info/catalogue.html	http://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version										

@@ -1,0 +1,29 @@
+Comment[ArrayExpressAccession]	E-GEOD-27077						
+MAGE-TAB Version	1.1						
+Public Release Date	2012-11-21						
+Investigation Title	Actin Cytoskeleton Integrates Auxin and Brassinosteroid Signaling in Plants.						
+Comment[Submitted Name]	Actin Cytoskeleton Integrates Auxin and Brassinosteroid Signaling in Plants.						
+Experiment Description	We describe a new mutant allele of the ACTIN2 gene with enhanced actin dynamics, displaying a broad array of twisting and bending phenotypes that resemble BR-treated plants. Moreover, auxin transcriptional regulation is enhanced on the mutant background, supporting the idea that shaping actin filaments is sufficient to modulate BR-mediated auxin responsiveness. The actin cytoskeleton thus functions as a scaffold for integration of auxin and BR signaling pathways. Three biological replicates were performed for each sample (wild-type and actin2-5) and hybridized to the the Affymetrix ATH1 GeneChips.						
+Term Source Name	ArrayExpress	EFO					
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Leyva	Catarecha	Lanza	Leo	Leyva		
+Person First Name	Antonio	Pablo	Mónica	Yolanda	Antonio		
+Person Email	geo@ncbi.nlm.nih.gov						
+Person Affiliation	CNB-CSIC						
+Person Address	Plant Molecular Genetics, CNB-CSIC, Darwin 3, Campus de Cantoblanco, Madrid, Spain						
+Person Roles	submitter						
+Protocol Name	P-GSE27077-1	P-GSE27077-6	P-GSE27077-5	P-GSE27077-3	P-GSE27077-2	P-GSE27077-4	P-GSE27077-7
+Protocol Description	ID_REF =  VALUE = Log2 RMA signal	GeneChips were scanned using the Affymetrix GeneChip Scanner 3000 7G	Following fragmentation, 15 ug of biotinylated cRNA were hybridized to Affymetrix chips (GeneChip Arabidopsis ATH1 Genome Array). Each sample was added to a hybridization solution containing 100mM 2-(N-morpholino)ethanesulfonic acid, 1 M Na+, and 20mM of EDT	RNA was isolated with TriReagent and Plant RNA Isolation Aid (Ambion), followed by cleanup with RNeasy Mini Kit (Qiagen).	Wild-type and actin2-5 seedlings were grown on half strength Murashige & Skoog medium for 8 days before harvest and storage at -80 °C	Biotinylated cRNA was prepared according to the standard Affymetrix protocol from 4 �g total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).	GeneChip intensities were background-corrected, normalized and sumarized by RMA method, using the “Affy” package from Bioconductor.
+Protocol Type	bioassay_data_transformation	image_aquisition	hybridization	nucleic_acid_extraction	grow	labeling	feature_extraction
+Experimental Factor Name	genotype						
+Experimental Factor Type	genotype						
+Publication Title	Role of actin cytoskeleton in brassinosteroid signaling and in its integration with the auxin response in plants.						
+Publication Author List	Lanza M, Garcia-Ponce B, Castrillo G, Catarecha P, Sauer M, Rodriguez-Serrano M, Perez-Garcia A, Sanchez-Bermejo E, T C M, Leo del Puerto Y, Sandalio LM, Paz-Ares J, Leyva A						
+PubMed ID	22698285						
+Publication DOI	10.1016/j.devcel.2012.04.008						
+Comment[SecondaryAccession]	GSE27077						
+Comment[GEOReleaseDate]	2012-11-21						
+Comment[ArrayExpressSubmissionDate]	2011-02-04						
+Comment[GEOLastUpdateDate]	2012-12-20						
+Comment[AEExperimentType]	transcription profiling by array						
+SDRF File	E-GEOD-27077.sdrf.txt						

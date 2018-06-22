@@ -1,0 +1,51 @@
+Investigation Title	Expression Profile of ASL9 Overexpressor						
+Comment[Submitted Name]	Expression Profile of ASL9 Overexpressor						
+Experimental Design	transcription profiling by array						
+Experimental Design Term Source REF	EFO						
+Comment[AEExperimentType]	transcription profiling by array						
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis overexpressing ASL9						
+Comment[SecondaryAccession]	GSE20233						
+Comment[ArrayExpressReleaseDate]	2010-04-28						
+Comment[AEMIAMESCORE]	4						
+Comment[ArrayExpressAccession]	E-GEOD-20233						
+Comment[MAGETAB TimeStamp_Version]	2010-08-04 03:44:29 Last Changed Rev: 13058						
+Experimental Factor Name	genotype						
+Experimental Factor Type	genotype						
+Experimental Factor Term Source REF							
+Person Last Name	(NASC)	Sakakibara					
+Person First Name	Nottingham Arabidopsis Stock Centre	Hitoshi					
+Person Mid Initials							
+Person Email	affy@arabidopsis.info	sakaki@riken.jp					
+Person Phone							
+Person Fax							
+Person Address	School of Biosciences, University of Nottingham, Nottingham Arabidopsis Stock Centre (NASC), Sutton Bonington Campus, Loughborough, LE12 5RD, United Kingdom	Biodynamics Research Team, Plant Science Center, RIKEN, 1-7-22 Suehiro, Tsurumi, Yokohama, 230-0045, Japan					
+Person Affiliation	Nottingham Arabidopsis Stock Centre (NASC)	RIKEN					
+Person Roles	submitter	submitter					
+Person Roles Term Source REF	The MGED Ontology	The MGED Ontology					
+Quality Control Type							
+Quality Control Term Source REF							
+Replicate Type							
+Replicate Term Source REF							
+Normalization Type							
+Normalization Term Source REF							
+Date of Experiment							
+Public Release Date	2010-04-28						
+PubMed ID							
+Publication DOI							
+Publication Author List							
+Publication Title							
+Publication Status							
+Publication Status Term Source REF							
+Experiment Description	In Arabidopsis thaliana, each member of a large family of AS2/LOB (ASYMMETRIC LEAVES 2 / LATERAL ORGAN BOUNDARIES) genes encodes a highly homologous plant-specific protein. A mutational lesion of the representative AS2 gene results in the development of anomalous asymmetric leaves, implying that these family members might commonly play some roles in plant development. Here, we found that ectopic and over-expression of ASL9 (ASYMMETRIC LEAVES 2 LIKE 9) in transgenic plants displayed a markedly anomalous architecture during development of adult plants. The expression pattern of ASL9 was quite characteristic in that it was expressed at the restricted bases of lateral organs formed from vegetative, inflorescence, and floral meristems. It was also demonstrated that, among the AS2/LOB family members, ASL9 is uniquely distinct from others in that this one is exclusively, markedly, and specifically regulated by the plant hormone cytokinin in a manner dependent on the His-Asp phosphorelay signal transduction. To gain further insight into the function of ASL9, we carried out transcriptome analysis of transgenic lines that ectopically overexpress ASL9 (ASL9-ox). Wild-type and ASL9-ox plants were grown on agar plates containing MS salt and 1% sucrose under continuous fluorescent light for 2 weeks. For each strain, these 2-week-old plant samples were divided into three portions, from which RNA samples were prepared separately from aerial parts of seedlings with use of RNeasy Plant Mini Kit (Qiagen, Valencia, CA, U.S.A.). The quality of RNAs prepared was analyzed by Bioanalyzer 2100 (Agilent Technologies). These RNA samples were processed as recommended by the Affymetrix instruction (Affymetrix GeneChip Expression Analysis Technical Manual, Affymetrix). The resultant data set will be of help to discuss and hypothesize that ASL9 might be implicated in the regulation of differentiation of lateral organs with a linkage to the actions of cytokinin that is primarily propagated through the His-Asp phosphorelay signal transduction. 6 samples were used in this experiment.						
+Protocol Name	P-GSE20233-3	P-GSE20233-2	P-GSE20233-4	P-GSE20233-5	P-GSE20233-6	P-GSE20233-7	P-GSE20233-1
+Protocol Type	nucleic_acid_extraction	grow	labelling	hybridization	image_acquisition	feature_extraction	bioassay_data_transformation
+Protocol Description	Seedlings were harvested and snap-frozen in liquid nitrogen. RNA was extracted as described in the Qiagen RNAeasy kit.	Arabidopsis were grown vertically on MS agar plates for 2 weeks.	Labelled using protocol described in manual "Affymetrix GeneChip Expression Analysis Technical Manual", One-Cycle target labelling	Biotin Labelled cRNA using "Affymetrix GeneChip Hybridization, Wash and Stain Kit", according to guidelines set out by Affymetrix, Santa Clara, CA	Scanned according to guidelines set out by Affymetrix, Santa Clara, CA.	Raw data from the microarrays was normalized at probe-level using MAS5 algorithm. The detection calls (present, marginal, absent) for each probe set was obtained using the GCOS system	ID_REF = <br>VALUE = MAS5.0-calculated signal intensity<br>ABS_CALL = the call in an absolute analysis that indicates if the transcript was present (P), absent (A), or marginal (M)<br>DETECTION P-VALUE = p-value that indicates the significance level of the detection call
+Protocol Parameters							
+Protocol Hardware							
+Protocol Software							
+Protocol Contact							
+Protocol Term Source REF						The MGED Ontology	The MGED Ontology
+SDRF File	E-GEOD-20233.sdrf.txt						
+Term Source Name	NCBI Taxonomy		The MGED Ontology	ArrayExpress	EFO	The MGED Ontology	
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version							

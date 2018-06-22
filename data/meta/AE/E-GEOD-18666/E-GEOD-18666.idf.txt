@@ -1,0 +1,52 @@
+Investigation Title	Persistent heat stress in Arabidopsis							
+Comment[Submitted Name]	Persistent heat stress in Arabidopsis							
+Experimental Design	transcription profiling by array							
+Experimental Design Term Source REF	EFO							
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis after heat stress treatment							
+Comment[AEMIAMESCORE]	3							
+Comment[SecondaryAccession]	GSE18666							
+Comment[ArrayExpressReleaseDate]	2010-03-06							
+Comment[ArrayExpressAccession]	E-GEOD-18666							
+Comment[MAGETAB TimeStamp_Version]	2010-08-03 15:47:21 Last Changed Rev: 13058							
+Experimental Factor Name	GROWTH CONDITION							
+Experimental Factor Type	growth_condition							
+Experimental Factor Term Source REF								
+Person Last Name	Pecinka	Mittelsten Scheid	Scheid					
+Person First Name	Ales	Ortrun	Ortrun					
+Person Mid Initials			M					
+Person Email		ortrun.mittelsten_scheid@gmi.oeaw.ac.at						
+Person Phone								
+Person Fax								
+Person Address		"Gregor Mendel Institute, Dr. Bohrgasse 3, Vienna, Austria"						
+Person Affiliation		Gregor Mendel Institute						
+Person Roles		submitter						
+Person Roles Term Source REF		The MGED Ontology						
+Quality Control Type								
+Quality Control Term Source REF								
+Replicate Type								
+Replicate Term Source REF								
+Normalization Type								
+Normalization Term Source REF								
+Date of Experiment								
+Public Release Date	2010-03-06							
+PubMed ID	20876829							
+Publication DOI	10.1105/tpc.110.078493							
+Publication Author List	"Pecinka A, Dinh HQ, Baubec T, Rosa M, Lettner N, Mittelsten Scheid O."							
+Publication Title	Epigenetic regulation of repetitive elements is attenuated by prolonged heat stress in Arabidopsis							
+Publication Status	published							
+Publication Status Term Source REF	EFO							
+Publication Status Term Accession Number	EFO_0001796							
+Experiment Description	"Analysis of transcriptional changes upon persistent heat stress with emphasis on epigenetically regulated genes 3 week old seedling grown in vitro were exposed to 37oC for 30 h (LHS). After heat stress, plants were analyzed immediately (R0) or allowed to recover at ambient temperature for 2 days (R2)."							
+Protocol Name	P-GSE18666-3	P-GSE18666-2	P-GSE18666-4	P-GSE18666-5	P-GSE18666-6	P-GSE18666-7	P-GSE18666-8	P-GSE18666-1
+Protocol Type	grow	specified_biomaterial_action	nucleic_acid_extraction	labeling	hybridization	image_aquisition	feature_extraction	bioassay_data_transformation
+Protocol Description	Plants were germinated and grown for three weeks under in vitro conditions under long day light regime at 22oC.	"Three hours after beginning of the light phase, plants were transferred to 37oC for 30 h, then transferred back to 22oC. Mock controls were kept at 22oC."	Qiagen Rneasy	standard Affymetrix protocol	standard Affymetrix protocol	standard Affymetrix protocol	gcRMA	ID_REF = <br>VALUE = gcRMA normalized signal
+Protocol Parameters								
+Protocol Hardware								
+Protocol Software								
+Protocol Contact								
+Protocol Term Source REF							The MGED Ontology	The MGED Ontology
+SDRF File	E-GEOD-18666.sdrf.txt							
+Term Source Name	NCBI Taxonomy		The MGED Ontology	ArrayExpress	EFO	The MGED Ontology		
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php		
+Term Source Version								

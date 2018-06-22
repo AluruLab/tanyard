@@ -1,0 +1,26 @@
+Comment[ArrayExpressAccession]	E-GEOD-52067
+MAGE-TAB Version	1.1						
+Public Release Date	2014-03-18
+Investigation Title	miRNAs trigger widespread epigenetically-activated siRNAs from transposons in Arabidopsis [Affymetrix]						
+Comment[Submitted Name]	miRNAs trigger widespread epigenetically-activated siRNAs from transposons in Arabidopsis [Affymetrix]
+Experiment Description	Utilizing Affymetrix ATH1 microarrays to analyze transposon expression in DNA methylation mutants, and RNAi mutants, compared to wildtype. Total RNA extracted from plant inflorescence tissue.						
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Creasey	Creasey	Martienssen				
+Person First Name	Kate	K	R				
+Person Mid Initials	M	M	A				
+Person Email	geo@ncbi.nlm.nih.gov						
+Person Affiliation	Cold Spring Harbor Laboratory						
+Person Address	Plant Sciences, Cold Spring Harbor Laboratory, 1 Bungtown Road, Cold Spring Harbor, NY, USA						
+Person Roles	submitter						
+Protocol Name	P-GSE52067-1	P-GSE52067-5	P-GSE52067-6	P-GSE52067-2	P-GSE52067-3	P-GSE52067-4	P-GSE52067-7
+Protocol Description	RMA normalized data in the Sample data tables. Further processed data were derived from GeneSpring. 20 percentile to filter for low intensity and high saturated probes. P-value cut-off 0.05. Fold change cut-off log2. ID_REF =  VALUE = Log2 RMA-signal	Biotynlated aRNA were prepared according to the standard ATH1 affymetrix protocol for 6 ug total RNA.	Hybridized for 16 hours at 45oC on GeneChip Arabidopsis Genome Array	Inflorescence tissue isolated on dry ice.	Plants were grown under standard long day growth conditions.	Total RNA was isolated from pooled inflorescence tissue (n = 3) and TRIzol (Invitrogen).	GeneChip scanned with the Affymetrix GeneChip Scanner 3000.
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	GENOTYPE						
+Experimental Factor Type	genotype						
+Comment[SecondaryAccession]	GSE52067						
+Comment[GEOReleaseDate]	2014-03-18						
+Comment[ArrayExpressSubmissionDate]	2013-11-04						
+Comment[GEOLastUpdateDate]	2014-03-18						
+Comment[AEExperimentType]	transcription profiling by array						
+SDRF File	E-GEOD-52067.sdrf.txt

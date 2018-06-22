@@ -1,0 +1,30 @@
+Comment[ArrayExpressAccession]	E-MEXP-3649
+Investigation Title	Arabidopsis root gene expression under iron deficiency in myb10myb72																							
+Comment[Submitted Name]	Arabidopsis root gene expression under iron deficiency in myb10myb72
+Comment[AEExperimentDisplayName]	Transcriptional profiling by array of Arabidopsis root to study gene expression in myb10/myb72 mutants under iron deficiency versus controls.																							
+Comment[MIAMExpressLogin]	palmervermont																							
+Comment[MIAMExpressSubmissionID]	8294																							
+Experiment Description	MYB10 and MYB72 are two transcription factors expressed in Arabidopsis roots under iron deficiency.  To understand the contribution of these factors, we analyzed gene expression in roots of wild-type (Col) and mutant (myb10myb72 double knockout) seedlings exposed to iron deficiency for 72 hours.																							
+Experimental Design	co-expression_design	genetic_modification_design	all_pairs																					
+Comment[AEExperimentType]	transcription profiling by array																							
+Experimental Factor Name	GENOTYPE																							
+Experimental Factor Type	genotype																							
+Person Last Name	Palmer																							
+Person First Name	Christine																							
+Person Email	cmpalmer@ucdavis.edu																							
+Person Phone	(603)646-2378																							
+Person Affiliation	Dartmouth College																							
+Person Address	Biology, 78 College Street, 03755, Hanover, NH, USA																							
+Person Roles	submitter																							
+Person Roles Term Source REF	MGED Ontology																							
+Quality Control Type	biological_replicate																							
+Public Release Date	2012-10-30																							
+Comment[ArrayExpressSubmissionDate]	2012-06-01 21:53:09																							
+Publication Status	not yet submitted																							
+Protocol Name	P-MTAB-26855	P-MTAB-26856
+Protocol Description	Plants were stratified for 3 days at 4 degrees in the dark, and then plated on 1/2 B5 + 2% sucrose.  Grown at 21 degrees in a 16/8 light/dark cycle conviron chamber for 2 weeks.  Plants were transferred to -Fe plates (see Colangelo and Guerinot, Plant Cell 2004) for 72hrs and then roots were harvested and flash frozen in liquid nitrogen.<br>(Parameters: start time = 2, time unit = weeks, min temperature = 21, temperature unit = C, media = 1/2 B5 + 2%sucrose)	RNA was extracted from plant roots using the standard qiagen plant RNA extraction kit.<br>(Parameters: Extracted product = total_RNA, Amplification = none)																						
+Protocol Type	grow	nucleic_acid_extraction																						
+Protocol Term Source REF	MGED Ontology	MGED Ontology																						
+Term Source Name	MGED Ontology	ArrayExpress
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress																						
+SDRF File	E-MEXP-3649.sdrf.txt

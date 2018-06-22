@@ -1,0 +1,52 @@
+Comment[ArrayExpressAccession]	E-GEOD-34837							
+Public Release Date	2012-03-30							
+Investigation Title	Identification of Direct Targets of RPX a NAC transcription factor of Arabidopsis thaliana							
+Comment[Submitted Name]	Identification of Direct Targets of RPX a NAC transcription factor of Arabidopsis thaliana							
+Experiment Description	"To determine the role of RPX on cell proliferation and organ development, we performed microarray experiments in search of RPX target genes by using an estradiol-inducible RPX protein. Estradiol-treatment allows for the nuclear translocation of the constitutively expressed chimeric transcription factor XVE and subsequent expression of RPX from the LexA promoter. Stable trangenic T3 seedlings were either treated with 10 uM estradiol or ethanol (mock) for 2 hours. Three mock and three estradiol treated samples were used for RNA isolation and hybridization."							
+Date of Experiment								
+Term Source Name	EFO							
+Term Source Version								
+Term Source File	http://www.ebi.ac.uk/efo/efo.owl							
+Person Last Name	Schippers	Mnguyen	Schippers	Mueller-Roeber				
+Person First Name	Jos	Hung	Jozefus	Bernd				
+Person Mid Initials		M	H					
+Person Email	schippers@mpimp-golm.mpg.de							
+Person Affiliation	MPIMP-golm							
+Person Phone								
+Person Fax								
+Person Address	"Plant Signaling, MPIMP-golm, Am Muehlenberg 1, Potsdam, Germany"							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Person Roles Term Accession Number								
+Normalization Type								
+Normalization Term Accession Number								
+Normalization Term Source REF								
+Replicate Type								
+Replicate Term Accession Number								
+Replicate Term Source REF								
+Experimental Design								
+Experimental Design Term Accession Number								
+Experimental Design Term Source REF								
+Quality Control Type								
+Quality Control Term Accession Number								
+Quality Control Term Source REF								
+Protocol Name	P-GSE34837-1	P-GSE34837-5	P-GSE34837-2	P-GSE34837-7	P-GSE34837-6	P-GSE34837-8	P-GSE34837-3	P-GSE34837-4
+Protocol Description	"ID_REF = <br>VALUE = MAS5<br>ABS_CALL = indicating whether the transcript was present (P), absent (A), or marginal (M)<br>DETECTION P-VALUE = "	"Hybridizations against Arabidopsis ATH1 Genome Array (GeneChip System®, Affymetrix) chips were performed at 45 °C for 16 h, in the Affymetrix GeneChip Workstation (hybridization oven 640, Fluidics Station 450), using 10 µg of Biotin-labeled aRNA, according to the manufacturer's protocol."	T3 seeds were stratified on plate for 72 h in the dark at 4°C and then transferred to 22°C with a 16-h light (100 Î¼E mâˆ’2 sâˆ’1)/8-h dark period.	"Expression values are calculated based on the difference of the PM signal and MM signal at each of the probe pairs using the Affymetrix GeneChip Operating System (GCOS). Present, Marginal or Absent (P/M/A) calls were computed with the affy package. This software employs statistical algorithms to calculate qualitative and quantitative expression values for each transcript. It also generates a statistical p-value, which suggests the level of confidence in each of the qualitative measurements."	GeneChips were scanned by use of the Affymetrix GeneChip Workstation Scanner 3000.	"For estradiol (EST) treatment, 14 day-old seedlings were selected and synchronized in ½ MS liquid medium in long-day condition for one night. Subsequently, fresh medium with 10 Î¼M EST was added to the seedlings in a 12-well plate and the same amount of inducer-free medium to control samples as a mock treatment. After 2 hours seedlings were harvested and directly frozen in liquid nitrogen."	Total RNA was extracted with the Plant RNAeasy kit (Qiagen)	RNA was labelled with the MessageAMP II biotin enhanced (Ambion) kit according to the manufactures protocol
+Protocol Software								
+Protocol Hardware								
+Protocol Contact								
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Protocol Term Source REF								
+Protocol Term Accession Number								
+Experimental Factor Name	growth condition						
+Experimental Factor Type	growth condition					
+Experimental Factor Term Source REF								
+Experimental Factor Term Accession Number								
+Publication Title								
+Publication Author List								
+Comment[SecondaryAccession]	GSE34837							
+Comment[GEOLastUpdateDate]	2012-03-30							
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[GEOReleaseDate]	2012-03-29							
+Comment[ArrayExpressSubmissionDate]	2012-01-04							
+SDRF File	E-GEOD-34837.sdrf.txt							

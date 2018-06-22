@@ -1,0 +1,58 @@
+Comment[ArrayExpressAccession]	E-GEOD-28431					
+Public Release Date	2011-04-06					
+Investigation Title	Skipsey: Fenclorim safening of Arabidopsis					
+Comment[Submitted Name]	Skipsey: Fenclorim safening of Arabidopsis					
+Experiment Description	Wild type Arabidopsis thaliana Col-0 root cultures, were treated with fenclorim or 4-chloro-6-methyl-2-phenylpyrimidine dissolved in acetone to achieve a final concentration of 100uM. The final acetone concentration of 0.1% was replicated in control root cultures. Samples were taken at four and twenty-four hours post addition in biological triplicate. Root cultures were routinely maintained at 25C in the dark. 18 samples were used in this experiment					
+Date of Experiment						
+Term Source Name	EFO					
+Term Source Version						
+Term Source File	http://www.ebi.ac.uk/efo					
+Person Last Name	Nottingham Arabidopsis Stock Centre (NASC)	Skipsey				
+Person First Name		Mark				
+Person Mid Initials						
+Person Email	affy@arabidopsis.info					
+Person Affiliation	Nottingham Arabidopsis Stock Centre (NASC)					
+Person Phone	+44 (0)115 951 3237					
+Person Fax	+44 (0)115 951 3297					
+Person Address	School of Biosciences, University of Nottingham, Nottingham Arabidopsis Stock Centre (NASC), Sutton Bonington Campus, Loughborough, United Kingdom					
+Person Roles	submitter					
+Person Roles Term Source REF						
+Person Roles Term Accession Number						
+Normalization Type						
+Normalization Term Accession Number						
+Normalization Term Source REF						
+Replicate Type						
+Replicate Term Accession Number						
+Replicate Term Source REF						
+Experimental Design	time series design	compound treatment design				
+Experimental Design Term Accession Number						
+Experimental Design Term Source REF						
+Quality Control Type						
+Quality Control Term Accession Number						
+Quality Control Term Source REF						
+Protocol Name	P-GSE28431-1	P-GSE28431-5	P-GSE28431-4	P-GSE28431-2	P-GSE28431-3	P-GSE28431-6
+Protocol Description	ID_REF = <br>VALUE = MAS5 Signal<br>ABS_CALL = flag<br>DETECTION P-VALUE = flag	Scanned according to guidelines set out by Affymetrix, Santa Clara, CA.	Biotin Labelled cRNA using &quot;Affymetrix GeneChip Hybridization, Wash and Stain Kit&quot;, according to guidelines set out by Affymetrix, Santa Clara, CA	Qiagen RNAeasy kit protocol	Labelled using protocol described in Affymetrix manual &quot;3' IVT Express Kit User Manual&quot;	Raw data from the microarrays was normalized at probe-level using MAS5 algorithm. The detection calls (present, marginal, absent) for each probe set was obtained using the GCOS system
+Protocol Software						
+Protocol Hardware						
+Protocol Contact						
+Protocol Type	bioassay_data_transformation	image_aquisition	hybridization	nucleic_acid_extraction	labeling	feature_extraction
+Protocol Term Source REF						
+Protocol Term Accession Number						
+Experimental Factor Name	compound	time	dose			
+Experimental Factor Type	compound	time	dose			
+Experimental Factor Term Source REF						
+Experimental Factor Term Accession Number						
+Publication Title	Xenobiotic responsiveness of Arabidopsis thaliana to a chemical series derived from a herbicide safener.					
+Publication Author List	Skipsey M, Knight KM, Brazier-Hicks M, Dixon DP, Steel PG, Edwards R.					
+PubMed ID	21778235					
+Publication DOI	10.1074/jbc.M111.252726					
+Publication Status	published					
+Publication Status Term Source REF	EFO					
+Publication Status Term Accession Number	EFO_0001796					
+Comment[SecondaryAccession]	GSE28431					
+Comment[GEOLastUpdateDate]	2011-04-13					
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis treatment with fenclorim or 4-chloro-6-methyl-2-phenylpyrimidine 					
+Comment[AEExperimentType]	transcription profiling by array					
+Comment[GEOReleaseDate]	2011-04-05					
+Comment[ArrayExpressSubmissionDate]	2011-04-05					
+SDRF File	E-GEOD-28431.sdrf.txt					

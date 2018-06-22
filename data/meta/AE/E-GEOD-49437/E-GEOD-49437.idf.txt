@@ -1,0 +1,30 @@
+Comment[ArrayExpressAccession]	E-GEOD-49437						
+MAGE-TAB Version	1.1						
+Public Release Date	2015-01-15						
+Investigation Title	Impact of NRT1.1 point mutants on gene expression under high NH4NO3 supply						
+Comment[Submitted Name]	Impact of NRT1.1 point mutants on gene expression under high NH4NO3 supply						
+Experiment Description	NRT1.1 is a nitrate transceptor involved in many nitrate responses including the regulation of gene expression through (i) the Primary Nitrate Response (PNR) and (ii) the regulation the NRT2.1 gene under continuous high NH4NO3 conditions. Phosphorylation of NRT1.1’s T101 residue is involved in the modulation of the PNR whereas nitrate transport by NRT1.1 is not. Here we used various NRT1.1 point mutants to study the impact of NRT1.1 on the whole transcriptome under high NH4NO3 supply. Col is the WT control, chl1-5 and chl1-12 are KO mutants, chl1-9 is defective in nitrate transport but not in PNR induction, T101D and T101A mimick the phosphorylated and not phosphorylated forms of NRT1.1 respectively. This work studies the impact of various NRT1.1 mutations on the transcriptome under 10mM NH4N03 supply.						
+Term Source Name	ArrayExpress	EFO					
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Krouk	Bouguyon	Marshall-Colon	Krouk	Coruzzi	Gojon	Nacry
+Person First Name	Gabriel	Eléonore	Amy	Gabriel	Gloria	Alain	Philippe
+Person Mid Initials					M		
+Person Email	geo@ncbi.nlm.nih.gov						
+Person Affiliation	CNRS						
+Person Address	Biology, CNRS, 2 Place Pierre Viala, Montpellier, France						
+Person Roles	submitter						
+Protocol Name	P-GSE49437-1	P-GSE49437-5	P-GSE49437-6	P-GSE49437-2	P-GSE49437-3	P-GSE49437-4	P-GSE49437-7
+Protocol Description	Mas5 [R] ID_REF =  VALUE = MAS5 signal	GeneChip 3'IVT Express Kit (Affymetrix)	Affymetrix recommendation	_	Plants are grown in vitro on 10mM NH4NO3 for 8 days	TRIzol reagent	Affymetrix recommendation
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	genotype						
+Experimental Factor Type	genotype						
+Comment[SecondaryAccession]	GSE49437						
+Comment[GEOReleaseDate]	2015-01-15						
+Comment[ArrayExpressSubmissionDate]	2013-08-01						
+Comment[GEOLastUpdateDate]	2015-01-15						
+Comment[AEExperimentType]	transcription profiling by array						
+SDRF File	E-GEOD-49437.sdrf.txt						
+Publication Title	Multiple mechanisms of nitrate sensing by Arabidopsis nitrate transceptor NRT1.1						
+Publication Author List	E. Bouguyon, F. Brun, D. Meynard, M. Kubeš, M. Pervent, S. Leran, B. Lacombe, G. Krouk, E. Guiderdoni, E. Zažímalová, K. Hoyerová, P. Nacry & A. Gojon						
+PubMed ID							
+Publication DOI	10.1038/nplants.2015.15						

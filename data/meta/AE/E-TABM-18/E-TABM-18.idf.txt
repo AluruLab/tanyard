@@ -1,0 +1,51 @@
+Investigation Title	Transcription profiling of 35 different Arabidopsis thaliana ecotypes							
+Comment[Submitted Name]	Weigel-Arabidopsis-Ecotype comparison							
+Experimental Design	strain_or_line_design	transcription profiling by array						
+Experimental Design Term Source REF	mo	EFO						
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[AEExperimentDisplayName]	Transcription profiling by array of 35 different Arabidopsis ecotypes							
+Comment[ArrayExpressReleaseDate]	2005-09-08							
+Comment[AEMIAMESCORE]	5							
+Comment[ArrayExpressAccession]	E-TABM-18							
+Comment[MAGETAB TimeStamp_Version]	2010-08-12 15:49:04 Last Changed Rev: 13058							
+Experimental Factor Name	ECOTYPE							
+Experimental Factor Type	ecotype							
+Experimental Factor Term Source REF								
+Person Last Name	Singh	Schmid	Sureshkumar	Lempe	Balasubramanian	Weigel		
+Person First Name	Anandita	Markus	Sridevi	Janne	Sureshkumar	Detlef		
+Person Mid Initials								
+Person Email				weigel@weigelworld.org				
+Person Phone								
+Person Fax								
+Person Address								
+Person Affiliation				Max Planck Institute for Developmental Biology, Department of Molecular Biology, Detlef Weigel				
+Person Roles				submitter				
+Person Roles Term Source REF								
+Quality Control Type								
+Quality Control Term Source REF								
+Replicate Type								
+Replicate Term Source REF								
+Normalization Type								
+Normalization Term Source REF								
+Date of Experiment								
+Public Release Date	2005-09-08							
+PubMed ID	16103920							
+Publication DOI	10.1371/journal.pgen.0010006							
+Publication Author List	Lempe J, Balasubramanian S, Sureshkumar S, Singh A, Schmid M, Weigel D							
+Publication Title	Diversity of flowering responses in wild Arabidopsis thaliana strains							
+Publication Status	published							
+Publication Status Term Source REF	EFO							
+Publication Status Term Accession Number	EFO_0001796							
+Experiment Description	Seedlings of 35 different Arabidopsis thaliana ecotypes were compared. Triplicates were performed of 10 ecotpyes, single arrays of 25 ecotypes.							
+Protocol Name	P-TABM-38	P-TABM-39	P-TABM-35	P-TABM-37	Affymetrix:Protocol:Hybridization-EukGE-WS2v4_450	P-AFFY-6	Affymetrix:Protocol:ExpressionStat	
+Protocol Type	grow	pool	nucleic_acid_extraction	labeling	hybridization	feature_extraction	bioassay_data_transformation	
+Protocol Description	Plants were grown on soil for 4 days under continuous light  at 23°C and  65% relative humidity. Most replicates were grown at the same time, exceptions to this are indicated by the 'replicate timepoint' parameter.	above soil plant material of 15 seedlings was pooled per replicate	pdf of the protocol (Probe preparation Development) can be downloaded at http://www.weigelworld.org/resources/microarray/AtGenExpress/; also at TAIR http://www.arabidopsis.org Protocol:501712557	pdf of the protocol (Probe preparation Development) can be downloaded at http://www.weigelworld.org/resources/microarray/AtGenExpress/; also at TAIR http://www.arabidopsis.org Protocol:501712557	Title: Affymetrix EukGE-WS2v4_450 Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 	
+Protocol Parameters	replicate timepoint;							
+Protocol Hardware								
+Protocol Software						MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact								
+Protocol Term Source REF			mo	mo	mo		The MGED Ontology	
+SDRF File	E-TABM-18.sdrf.txt							
+Term Source Name	nasc		ncbitax	The MGED Ontology	ArrayExpress	mo	EFO	The MGED Ontology
+Term Source File	http://arabidopsis.info/catalogue.html		http://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version								

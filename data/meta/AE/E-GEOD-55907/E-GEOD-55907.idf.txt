@@ -1,0 +1,23 @@
+Comment[ArrayExpressAccession]	E-GEOD-55907
+MAGE-TAB Version	1.1						
+Public Release Date	2015-02-28
+Investigation Title	Expression data from WT and transgenic plants overexpressing cold-induced transcription factors						
+Comment[Submitted Name]	Expression data from WT and transgenic plants overexpressing cold-induced transcription factors
+Experiment Description	Our goal in this study is to understand the regulation mechanism of genes including CBF regulon in low temperature. We addressed these issues by overexpressing the transcription factors encoded by genes that are rapidly induced in parallel with the CBF genes.  The results show that the low temperature regulatory network is highly interconneted. Global gene expression profile of the transgenic plants overexpressing TFs was compared with that of WT plants						
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Park	Park	Lee	Thomashow			
+Person First Name	Sunchung	Sunchung	Chinmei	Michael			
+Person Email	parksu16@msu.edu						
+Person Affiliation	Michigan State University						
+Person Address	Plant Research Lab, Michigan State University, 612 Wilson Road, Rm310, East Lansing, MI, USA						
+Person Roles	submitter						
+Protocol Name	P-GSE55907-1	P-GSE55907-5	P-GSE55907-6	P-GSE55907-2	P-GSE55907-3	P-GSE55907-4	P-GSE55907-7
+Protocol Description	The data were analyzed with LIMMA package of Bioconductor using GCRMA normalization procedure. ID_REF =  VALUE = GCRMA-normalized log2 expression signal	RNA was amplified and biotinylated using a MessageAmp kit (Ambion) according to the manufacturer's protocol	Hybridization and washing were carried out according to the Gene Chip manufacturer's protocol (Affymetrix)	For cold treatment, plants were treated at 4°C under continuous light at ~30 µmol mâ€“2 sâ€“1 for 24-h	Plants were grown at 22°C under sterile conditions on solid agar medium which contained Gamborg's B5 medium (Caisson Laboratories) without sucrose and 0.8 % Phytoblend for 12 days at ~100 µmol mâ€“2 sâ€“1 constant light.	RNA was extracted using the RNeasy plant mini kit (Qiagen)	Scan protocols were carried out according to the Gene Chip manufacturer's protocol (Affymetrix)
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Comment[SecondaryAccession]	GSE55907						
+Comment[GEOReleaseDate]	2015-02-28						
+Comment[ArrayExpressSubmissionDate]	2014-03-14						
+Comment[GEOLastUpdateDate]	2015-02-28						
+Comment[AEExperimentType]	transcription profiling by array						
+SDRF File	E-GEOD-55907.sdrf.txt

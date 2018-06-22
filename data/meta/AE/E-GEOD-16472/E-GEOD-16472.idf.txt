@@ -1,0 +1,52 @@
+Investigation Title	Identification of early flg22 responsive genes in Arabidopsis mesophyll cells							
+Comment[Submitted Name]	Identification of early flg22 responsive genes in Arabidopsis mesophyll cells							
+Experimental Design	transcription profiling by array							
+Experimental Design Term Source REF	EFO							
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mesophyll cells after treatment with flg22							
+Comment[SecondaryAccession]	GSE16472							
+Comment[ArrayExpressReleaseDate]	2010-03-18							
+Comment[AEMIAMESCORE]	4							
+Comment[ArrayExpressAccession]	E-GEOD-16472							
+Comment[MAGETAB TimeStamp_Version]	2010-11-08 14:37:02 Last Changed Rev: 14857							
+Experimental Factor Name	COMPOUND	TREATMENT TIME						
+Experimental Factor Type	compound	time						
+Experimental Factor Term Source REF								
+Person Last Name	McCormack	Lee	Sheen					
+Person First Name	Matthew	Horim	Jen					
+Person Mid Initials								
+Person Email			sheen@molbio.mgh.harvard.edu					
+Person Phone								
+Person Fax								
+Person Address								
+Person Affiliation								
+Person Roles			submitter					
+Person Roles Term Source REF								
+Quality Control Type								
+Quality Control Term Source REF								
+Replicate Type								
+Replicate Term Source REF								
+Normalization Type								
+Normalization Term Source REF								
+Date of Experiment								
+Public Release Date	2010-03-18							
+PubMed ID	20164835							
+Publication DOI	10.1038/nature08794							
+Publication Author List	Boudsocq M, Willmann MR, McCormack M, Lee H, Shan L, He P, Bush J, Cheng SH, Sheen J.							
+Publication Title	Differential innate immune signalling via Ca(2+) sensor protein kinases.							
+Publication Status	published							
+Publication Status Term Source REF	EFO							
+Publication Status Term Accession Number	EFO_0001796							
+Experiment Description	The goal of this experiment was to identify the early responsive genes activated by the 22 amino acid peptide of bacterial flagellin (flg22) in Arabidopsis mesophyll cells that are involved in the initial responses important for plant innate immunity. We used the microarrays to detail the global program of gene expression underlying intial cellular and molecular responses to microbial associated molecualr patterns (MAMPs). Arabidopsis mesophyll protoplasts were treated with 100 nM flg22 for 30 min and 60 min.  Transcript profiles were analyzed and compared between control and treated cells to identify early flg22 responsive genes.							
+Protocol Name	P-GSE16472-4	P-GSE16472-3	P-GSE16472-2	P-GSE16472-5	P-GSE16472-6	P-GSE16472-7	P-GSE16472-8	P-GSE16472-1
+Protocol Type	nucleic_acid_extraction	grow	specified_biomaterial_action	labeling	hybridization	image_aquisition	feature_extraction	bioassay_data_transformation
+Protocol Description	Total RNA was extracted using RNeasy plant mini kit (Qiagen) according to the manufacturerâs protocol	Arabidopsis plants (Col-0) were grown in a controlled room for 28 days at 22oC, 60% relative humidity, 75 uE light and 12 hr photoperiod.	Isolated protoplasts (0.4 million) were incubated in 10 ml 0.5 M mannitol, 4 mM MES pH 5.7 and 20 mM KCl for 4 hr at 28oC before treatment with 100 nM flg22 for 30 min and 60 min.	Total RNA (1.5-4.5 Âµg) were amplified, biotinylated and fragmented using the BioArrayTM HighYieldTM RNA transcript labelling kit (Enzo) according to the manufacturerâs instructions.	Following fragmentation, 10 ug of cRNA were hybridized on the Arabidopsis ATH1 GeneChips using the Affymetrix 640 Hybridization Oven. GeneChips were washed and stained in the Affymetrix Fluidics Station 450.	GeneChips were scanned using GeneChip Scanner 7G with AutoLoader.	The data were analyzed in FlexArray with RMA including background correction and normalization.	ID_REF = <br>VALUE = RMA log(2) signal intensity
+Protocol Parameters								
+Protocol Hardware								
+Protocol Software								
+Protocol Contact								
+Protocol Term Source REF	The MGED Ontology	The MGED Ontology	The MGED Ontology	The MGED Ontology	The MGED Ontology		The MGED Ontology	The MGED Ontology
+SDRF File	E-GEOD-16472.sdrf.txt							
+Term Source Name		EFO	The MGED Ontology	ArrayExpress	EFO	The MGED Ontology		
+Term Source File		http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php		
+Term Source Version								

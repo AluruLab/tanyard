@@ -1,0 +1,26 @@
+Comment[ArrayExpressAccession]	E-GEOD-42060
+MAGE-TAB Version	1.1							
+Public Release Date	2012-11-07
+Investigation Title	Partial deficiency of isoleucine impairs alters transcript levels of the genes involved in branched-chain amino acid and glucosinolate metabolism in Arabidopsis							
+Comment[Submitted Name]	Partial deficiency of isoleucine impairs alters transcript levels of the genes involved in branched-chain amino acid and glucosinolate metabolism in Arabidopsis
+Experiment Description	Isoleucine (Ile) is one of the branched-chain amino acids (BCAAs) that are essential substrates for protein synthesis in all organisms. In this study, we characterized an Arabidopsis mutant, lib (low isoleucine biosynthesis), that has defects in both cell proliferation and cell expansion processes during root development. This mutant carries a mutation in OMR1 gene that encodes a threonine deaminase/dehydratase (TD) which results in a defect in isoleucine production. Microarray analysis indicated that the partial deficiency of Ile in the lib mutant triggers a decrease in transcript levels of the genes encoding the major enzymes involved in the BCAA degradation pathway; the analysis also indicated that many genes involved in the biosynthesis of methionine-derived glucosinolates are up-regulated. Total RNAs were isolated from three replicate samples of the root tissues of 8-day-old wild type (w) and lib mutant (m)seedlings grown on 1/2 MS medium and hybridized on Affymetrix ATH1 microarrays. The changes of gene expression in the lib mutant (m) was compared with the wild type (w). The corrected P value of <0.05 was used to select the genes for comparison, and only those genes whose expression was two-fold higher or lower in lib than in the WT were used for analysis.							
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl						
+Person Last Name	Liu	Liu	Yu					
+Person First Name	Dong	Dong	Hailan					
+Person Email	liu-d@mail.tsinghua.edu.cn							
+Person Affiliation	Tsinghua University							
+Person Address	Tsinghua University, School of Life Sciences, Beijing, China							
+Person Roles	submitter							
+Protocol Name	P-GSE42060-1	P-GSE42060-6	P-GSE42060-3	P-GSE42060-8	P-GSE42060-7	P-GSE42060-2	P-GSE42060-4	P-GSE42060-5
+Protocol Description	ID_REF =  VALUE = MAS5.0 signal intensity ABS_CALL = 	Array hybridization and wash were performed using GeneChip� Hybridization, Wash and Stain Kit (Cat#900720, Affymetrix, Santa Clara, CA, US) in a Hybridization Oven 645 (Cat#00-0331-220V, Affymetrix, Santa Clara, CA, US) and Fluidics Station 450 (Cat#00-0079, Affymetrix, Santa Clara, CA US) following the manufacturer’s instructions.	The sterilized Arabidopsis seeds were sown on Petri dishes containing a medium of 1/2 Murashige & Skoog (MS) basal salts with 1% sucrose, 0.1% MES (adjusted to pH 5.7 with 1 N NaOH), and 1.2% agar. After 2 days of stratification at 4℃, the agar plates were placed vertically in the growth room with a photoperiod of 16 h light : 8 h dark at 22–24℃.The light intensity was 100 �mol m-2 s-1. At day 8 after seed germination, whole seedlings were collected for RNA isolation.	Raw data were normalized by the MAS 5.0 algorithm, Gene Spring Software 11.0 (Agilent technologies, Santa Clara, CA, US). Microarray data analysis was performed using the SBC Analysis system, which is available on the website: http://sas.ebioservice.com/index.jsp. The username and password to access to this website are available upon request.	Hybridized slides were scanned by GeneChip�Scanner 3000 (Cat00-00212, Affimetrix, Santa Clara, CA US) and Command Console Software 3.1 (Affymetrix, Santa Clara, CA US) with default settings.	No treatment is applied.	Trizol extraction of total RNA was performed using RNA extraction kit (Cat#15596-018，Life technologies, Carlsbad, CA, US) according to the manufacturer's instructions.	Total RNA was amplified, labeled, and purified with the GeneChip 3’IVT Express Kit (Cat#901229, Afftnetrix, Santa Clara, CA, US) following the manufacturer’s instructions to obtain biotin labeled cRNA.
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Experimental Factor Name	VARIATION							
+Experimental Factor Type	variation							
+Comment[SecondaryAccession]	GSE42060							
+Comment[GEOReleaseDate]	2012-11-07							
+Comment[ArrayExpressSubmissionDate]	2012-11-06							
+Comment[GEOLastUpdateDate]	2012-11-08							
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[AdditionalFile:Data1]	GSE42060_p-values.txt							
+SDRF File	E-GEOD-42060.sdrf.txt

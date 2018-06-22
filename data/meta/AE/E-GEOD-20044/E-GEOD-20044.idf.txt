@@ -1,0 +1,57 @@
+Comment[ArrayExpressAccession]	E-GEOD-20044
+Public Release Date	2010-11-10
+Investigation Title	High resolution NO3 response of Arabidopsis Roots							
+Comment[Submitted Name]	High resolution NO3 response of Arabidopsis Roots
+Experiment Description	This work uses a time series in order to decipher gene relationships and consequently to build core regulatory networks involved in Arabidopsis root adaptation to NO3- provision. The experimental approach has been to monitor genome response to NO3- at 3, 6, 9, 12, 15 and 20 min, using ATH1 chips. This high-resolution time course analysis demonstrated that the previously known primary nitrate response is actually preceded by very fast (within 3 min) gene expression modulation, involving genes/functions needed to prepare plants to use/reduce NO3-. State-space modeling (a machine learning approach) has been used to successfully predict gene behavior in unlearnt conditions. 26 Samples: 2 at time 0 with no treatment; 4 at time 3, 2 with KCL and 2 with KNO3 treatment; 4 at time 6, 2 with KCL and 2 with KNO3 treatment; 4 at time 9, 2 with KCL and 2 with KNO3 treatment; 4 at time 12, 2 with KCL and 2 with KNO3 treatment; 4 at time 15, 2 with KCL and 2 with KNO3 treatment;  4 at time 20, 2 with KCL and 2 with KNO3 treatment;							
+Date of Experiment								
+Term Source Name	EFO
+Term Source Version								
+Term Source File	http://efo.svn.sourceforge.net/viewvc/efo/trunk/src/efoinowl/efo.owl							
+Person Last Name	Krouk							
+Person First Name	Gabriel							
+Person Mid Initials								
+Person Email	geo@ncbi.nlm.nih.gov							
+Person Affiliation	New york University							
+Person Phone								
+Person Fax								
+Person Address	Center for Genomics and Systems Biology, New york University, 100 Washington Square East. 1009 Main Building, New York, NY, USA							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Person Roles Term Accession Number								
+Normalization Type								
+Normalization Term Accession Number								
+Normalization Term Source REF								
+Replicate Type								
+Replicate Term Accession Number								
+Replicate Term Source REF								
+Experimental Design								
+Experimental Design Term Accession Number								
+Experimental Design Term Source REF								
+Quality Control Type								
+Quality Control Term Accession Number								
+Quality Control Term Source REF								
+Protocol Name	P-GSE20044-1	P-GSE20044-6	P-GSE20044-3	P-GSE20044-8	P-GSE20044-7	P-GSE20044-2	P-GSE20044-4	P-GSE20044-5
+Protocol Description	ID_REF = <br>VALUE = signal intensity	Affy	arabidopsis are grown hydroponically for 14 days	MAS5	The Affy ATH1 chips have been processed and scanned according to the manufacturer protocol or as described by Krouk et al. PLoS Comput Biol 2009, 5(3):e1000326.  The Scanner is an Affymetrix GeneChip(R) scanner 3000 7G.	High resolution NO3 treatments	Plants have been extracted by Trizol reagent according to the manufacturer protocol.	Affy
+Protocol Software								
+Protocol Hardware								
+Protocol Contact								
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Protocol Term Source REF								
+Protocol Term Accession Number								
+Experimental Factor Name	TIME (MINUTES)	TREATMENT						
+Experimental Factor Type	time (minutes)	treatment						
+Experimental Factor Term Source REF								
+Experimental Factor Term Accession Number								
+Publication Title								
+Publication Author List								
+PubMed ID								
+Publication DOI								
+Publication Status								
+Publication Status Term Source REF								
+Publication Status Term Accession Number								
+Comment[SecondaryAccession]	GSE20044							
+Comment[GEOLastUpdateDate]	2010-11-10
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[GEOReleaseDate]	2010-11-10
+Comment[ArrayExpressSubmissionDate]	2010-01-26
+SDRF File	E-GEOD-20044.sdrf.txt

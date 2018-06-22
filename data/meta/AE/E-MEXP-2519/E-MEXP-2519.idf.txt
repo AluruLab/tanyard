@@ -1,0 +1,51 @@
+Investigation Title	Transcriptional profiling of Arabidopsis thaliana wild type and ip28-2 mutant seedlings treated or mock treated by tunicamycin.								
+Comment[Submitted Name]	bZIP28-depedent UPR genes								
+Experimental Design	array_platform_variation_design	stimulus_or_stress_design	co-expression_design	transcription profiling by array					
+Experimental Design Term Source REF		The MGED Ontology	The MGED Ontology	EFO					
+Comment[AEExperimentType]	transcription profiling by array								
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for ip28 after treatment with tunicamycin								
+Comment[AEMIAMESCORE]	4								
+Comment[SecondaryAccession]									
+Comment[ArrayExpressReleaseDate]	2010-03-01								
+Comment[ArrayExpressAccession]	E-MEXP-2519								
+Comment[MAGETAB TimeStamp_Version]	2010-09-06 23:48:50 Last Changed Rev: 13833								
+Experimental Factor Name	Compound	TIME	GENOTYPE	Dose					
+Experimental Factor Type	compound	time	genotype	dose					
+Experimental Factor Term Source REF									
+Person Last Name	Liu								
+Person First Name	Jianxiang								
+Person Mid Initials									
+Person Email	sunny.jianxiang@gmail.com								
+Person Phone	1-515-2948416								
+Person Fax									
+Person Address	Plant Sciences Institute, 1049 Roy Carver Co Lab, Ames, IA, 50011, USA								
+Person Affiliation	Iowa State University								
+Person Roles	submitter								
+Person Roles Term Source REF	The MGED Ontology								
+Quality Control Type									
+Quality Control Term Source REF									
+Replicate Type									
+Replicate Term Source REF									
+Normalization Type									
+Normalization Term Source REF									
+Date of Experiment									
+Public Release Date	2010-03-01								
+PubMed ID									
+Publication DOI									
+Publication Author List									
+Publication Title	bZIP28 and nuclear factors (NF-Ys) are activated by ER stress and assembled into a transcriptional complex to regulate stress response genes in Arabidopsis								
+Publication Status									
+Publication Status Term Source REF									
+Experiment Description	compare the effect of tunicamycin on gene expression between wild type and zip28-2 mutant								
+Protocol Name	P-MTAB-12054	P-MTAB-12052	P-MTAB-12053	P-AFFY-2	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6			
+Protocol Type	grow	nucleic_acid_extraction	specified_biomaterial_action	labeling	hybridization	feature_extraction			
+Protocol Description	Arabidopsis seedlings were grew vertically on LS solid medium plus 1% sucrose<br>(Parameters: start time = 7, time unit = days, min temperature = 22, temperature unit = C, media = LS)	total RNA was extracted with RNEasy kit (Qiagen)and treated with DNase<br>(Parameters: Extracted product = total_RNA, Amplification = none)	seven day old seedlings were treated with 5 ug/ml tunicamycin	Title: Affymetrix in vitro transcription. Description: 	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 			
+Protocol Parameters									
+Protocol Hardware									
+Protocol Software					MicroArraySuite 5.0	MicroArraySuite 5.0			
+Protocol Contact									
+Protocol Term Source REF					mo				
+SDRF File	E-MEXP-2519.sdrf.txt								
+Term Source Name	NCBI Taxonomy		The MGED Ontology	ArrayExpress	nci_meta	NCI_thesaurus	The MGED Ontology	EFO	mo
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://ncimeta.nci.nih.gov/indexMetaphrase.html	ncithesaurus.obo.alt	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version									

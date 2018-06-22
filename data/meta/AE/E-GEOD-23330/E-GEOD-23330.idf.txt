@@ -1,0 +1,58 @@
+Comment[ArrayExpressAccession]	E-GEOD-23330								
+Public Release Date	2011-08-25								
+Investigation Title	Transcriptome analysis of vtc1, abi4-102 and wild type Col 0								
+Comment[Submitted Name]	Transcriptome analysis of vtc1, abi4-102 and wild type Col 0								
+Experiment Description	The role of abscisic acid (ABA) signalling in the ascorbic acid (AA)-dependent control of plant growth and defence was determined using the vtc1 and vtc2 mutants, which have impaired ascorbic acid synthesis, and in the abi4 mutant that is impaired in ABA-signalling. ABA levels were increase in the mutants relative to the wild type (Col0). Like vtc1 the vtc2 mutants have a slow growth relative to Col0. However, the wild type phenotype is restored in the abi4vtc2 double mutant. Similarly, the sugar sensing phenotype of in the abi4 is reversed in the abi4vtc2 double mutant. The vtc1 and vtc2 leaf transcriptomes show up to 70 % homology with abi4. Of the transcripts that are altered in the mutants a relative to Col0, only a small number are reversed in the abi4vtc2 double mutants relative to either abi4 or vtc2. We conclude that AA controls growth via an ABA and abi4-dependent signalling pathway. The vtc and abi4 mutants have enhanced glutathione levels and common redox signalling pathways leading to similar gene expression patterns. Rosettes of 42 days old plants were harvested and used to exctract RNA								
+Date of Experiment									
+Term Source Name	EFO								
+Term Source Version									
+Term Source File	http://www.ebi.ac.uk/efo/efo.owl								
+Person Last Name	Kerchev	Kerchev	Foyer						
+Person First Name	Pavel	Pavel	Christine						
+Person Mid Initials			H						
+Person Email	pavel.kerchev@scri.ac.uk								
+Person Affiliation	University of Leeds								
+Person Phone									
+Person Fax									
+Person Address	University of Leeds, Faculty of Biological Sciences University of Leeds, Leeds, United Kingdom								
+Person Roles	submitter								
+Person Roles Term Source REF									
+Person Roles Term Accession Number									
+Normalization Type									
+Normalization Term Accession Number									
+Normalization Term Source REF									
+Replicate Type									
+Replicate Term Accession Number									
+Replicate Term Source REF									
+Experimental Design									
+Experimental Design Term Accession Number									
+Experimental Design Term Source REF									
+Quality Control Type									
+Quality Control Term Accession Number									
+Quality Control Term Source REF									
+Protocol Name	P-GSE23330-1	P-GSE23330-6	P-GSE23330-3	P-GSE23330-9	P-GSE23330-8	P-GSE23330-7	P-GSE23330-2	P-GSE23330-4	P-GSE23330-5
+Protocol Description	ID_REF = <br>VALUE = RMA signal intensity	The target cRNAs were fragmented, combined with hybridization and spike controls, then hybridized to the Genechip Arabidopsis ATH1 Genome Array (Affymetrix, Inc., Santa Clara, CA) for 16 h. Following hybridization, the arrays were washed and stained with streptavidin phycoerythrin conjugate using an automated GeneChip® Fluidics Station 450	Arabidopsis thaliana was grown on compost in controlled conditions. 8 h day, 60 % RH, 23/18°C day/night, light intensity 200 µmol/ m2 s	A significance test was undertaken by calculating a null hypothesis through a permuted modified t-statistic across the replicates for each array comparison. The log2 means of the normalized intensity values of the biological replicates were compared as ratios, where a log2 ratio of ±1.0 and a p-value of < 0.05 was selected as worthy of further study.	Raw intensity values from the scanned Arabidopsis ATH1 Genome Arrays were analyzed using RMAExpress .	GeneChips were scanned with a GeneChip® Scanner 3000 7G using a 570 nm excitation wavelength laser. Microarray quality controls were assessed using GeneChip® Operating Software (Affymetrix)..	Whole rosettes were harvested at the indicated stage, frozen in liquid nitrogen and stored at −80°C.	Total RNA was extracted using RNeasy Plant Mini Kit (Qiagen) according to manufacturer’s protocol.	Double-stranded cDNA was generated from each of the ten total-RNA samples and transcribed to obtain biotin-labeled cRNA.
+Protocol Software									
+Protocol Hardware									
+Protocol Contact									
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Protocol Term Source REF									
+Protocol Term Accession Number									
+Experimental Factor Name	genotype								
+Experimental Factor Type	genotype								
+Experimental Factor Term Source REF									
+Experimental Factor Term Accession Number									
+Publication Title	The transcription factor ABI4 Is required for the ascorbic acid-dependent regulation of growth and regulation of jasmonate-dependent defense signaling pathways in Arabidopsis.								
+Publication Author List	Kerchev PI, Pellny TK, Vivancos PD, Kiddle G, Hedden P, Driscoll S, Vanacker H, Verrier P, Hancock RD, Foyer CH.								
+PubMed ID	21926335								
+Publication DOI	10.1105/tpc.111.090100								
+Publication Status	published								
+Publication Status Term Source REF	EFO								
+Publication Status Term Accession Number	EFO_0001796								
+Comment[SecondaryAccession]	GSE23330								
+Comment[GEOLastUpdateDate]	2011-08-27								
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for vtc1 or abi4								
+Comment[AEExperimentType]	transcription profiling by array								
+Comment[GEOReleaseDate]	2011-08-24								
+Comment[ArrayExpressSubmissionDate]	2010-07-28								
+SDRF File	E-GEOD-23330.sdrf.txt								

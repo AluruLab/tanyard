@@ -1,0 +1,52 @@
+Investigation Title	Transcription profiling of Arabidopsis wild type and ein3-1eil1-1mutant seedlings grown in the dark					
+Comment[Submitted Name]	Expression from dark grown Arabidopsis Wild type (Wt, Col-o) and ein3-1eil1-1 (AT3G20770, AT2G27050) mutant seedlings					
+Experimental Design	unknown_experiment_design_type	transcription profiling by array	transcription profiling by array			
+Experimental Design Term Source REF		EFO	EFO			
+Comment[AEExperimentType]	transcription profiling by array					
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for ein3 and eil1					
+Comment[SecondaryAccession]	GSE18631					
+Comment[ArrayExpressReleaseDate]	2009-10-27					
+Comment[AEMIAMESCORE]	3					
+Comment[ArrayExpressAccession]	E-GEOD-18631					
+Comment[MAGETAB TimeStamp_Version]	2010-08-03 15:36:26 Last Changed Rev: 13058					
+Experimental Factor Name	GENOTYPE					
+Experimental Factor Type	genotype					
+Experimental Factor Term Source REF						
+Person Last Name	Zhong					
+Person First Name	Shangwei					
+Person Mid Initials						
+Person Email	zhshweiwh@163.com					
+Person Phone						
+Person Fax						
+Person Address	New Life Science Building 428 room, Life Science School, Peking University, China, YiHeYuan West Street, Peking, 100871, China					
+Person Affiliation	Peking University, China					
+Person Roles	submitter					
+Person Roles Term Source REF	The MGED Ontology					
+Quality Control Type						
+Quality Control Term Source REF						
+Replicate Type						
+Replicate Term Source REF						
+Normalization Type						
+Normalization Term Source REF						
+Date of Experiment						
+Public Release Date	2009-10-27					
+PubMed ID	19948955					
+Publication DOI	10.1073/pnas.0907670106 					
+Publication Author List	Zhong S, Zhao M, Shi T, Shi H, An F, Zhao Q, Guo H.					
+Publication Title	EIN3/EIL1 cooperate with PIF1 to prevent photo-oxidation and to promote greening of Arabidopsis seedlings.					
+Publication Status	published					
+Publication Status Term Source REF	EFO					
+Publication Status Term Accession Number	EFO_0001796					
+Experiment Description	Ethylene is a gaseous hormone that plays important roles in plant growth, development and stress responses. EIN3 was identified as a plant-specific transcription factor and its protein level rapidly increases upon ethylene treatment. We found that activation of EIN3 and EIN3-like 1 (EIL1) is both necessary and sufficient for ethylene-induced enhancement of seedling greening, as well as repression of the accumulation of protochlorophyllide, a phototoxic intermediate of chlorophyll synthesis. Therefore, comparation of the Wt and ein3-1eil1-1 mutant etiolated seedlings' gene expression at genome wide will be helpfull for us  to find the EIN3/EIL1 target genes in chlorophyll biosynthesis pathway. Here we used microarrays to detail the global gene expression under the regulation of EIN3/EIL1.Here we used microarrays to detail the global gene expression under the regulation of EIN3/EIL1. Experiment Overall Design: 4 days dark grown Wt and ein3-1eil1-1 (AT3G20770, AT2G27050) double mutant seedlings were collected for isolation RNA. Standard Affymetrix protocal and 25K Affymetrix chip (ATH1) were used for Microarry hybridization.					
+Protocol Name	P-G18631-1	P-G18631-2	P-G18631-5	P-G18631-3	P-AFFY-6	P-G18631-4
+Protocol Type	grow	specified_biomaterial_action	nucleic_acid_extraction	labeling	feature_extraction	bioassay_data_transformation
+Protocol Description	After 3 days cold treatment, Arabidopsis seeds which plated on MS medium, were given 4 hour light for germination induction then grown at 22ÂºC for 4 days in the darkness.	Dark grown seedlings.	Total RNA was isolated using a TRIZOL Reagent system (Invitrogen) according to the manufacturer's instructions.	Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 6 ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).	Title: Affymetrix CEL analysis. Description: 	The data were analyzed with Microarray Suite version 5.0 (MAS 5.0) using Affymetrix default analysis settings and global scaling as normalization method. The trimmed mean target intensity of each array was arbitrarily set to 100.
+Protocol Parameters						
+Protocol Hardware						
+Protocol Software					MicroArraySuite 5.0	
+Protocol Contact						
+Protocol Term Source REF						The MGED Ontology
+SDRF File	E-GEOD-18631.sdrf.txt					
+Term Source Name	NCBI Taxonomy		The MGED Ontology	ArrayExpress	EFO	The MGED Ontology
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version						

@@ -1,0 +1,58 @@
+Comment[ArrayExpressAccession]	E-GEOD-28275							
+Public Release Date	2011-03-31							
+Investigation Title	Microarray hybridization data from the root tips of 5-day-old Arabidopsis thaliana seedlings grown on tilted, hard agar surfaces							
+Comment[Submitted Name]	Microarray hybridization data from the root tips of 5-day-old Arabidopsis thaliana seedlings grown on tilted, hard agar surfaces							
+Experiment Description	The growth behavior of plant roots on tilted, hard agar surfaces is determined by many basic cellular processes, including microtubule dynamics and cell wall expansion.  Among Arabidopsis thaliana accessions there is natural variation for these behaviors, including one known as skewing or slanting.  The root skewing pattern on hard, tilted agar surfaces may be a clue to adaptations of an accession to its environment. Here, we compare expression profiles of two accessions with diverse skewing behavior grown on the wave assay, which consists of seedlings growing two days vertically and 3 days tilted on hard agar plates.  Cvi has a strong skew on tilted, hard agar sufaces, and Ler-2 has a weaker one.  We also include a near isogenic line, 170G-55-16 a.k.a HGI2.1, that is mostly Ler-2 in background but has a segment of Cvi introgressed into chromosome 2.  This line has an intermediate skew between its two parents. 3 biological replicates of each of 3 genotypes (Cvi, Ler-2, and 170G-55-16/HGI2.1) were subjected to the wave assay.  After the assay, approximately 600 root tips from each biological replicate were pooled for RNA extraction and hybridization on the Affymetrix ATH1 microarray.							
+Date of Experiment								
+Term Source Name	EFO							
+Term Source Version								
+Term Source File	http://bar.ebi.ac.uk:8080/trac/browser/branches/curator/ExperimentalFactorOntology/ExFactorInOWL/currentrelease/eforelease/efo.owl							
+Person Last Name	Vaughn	Vaughn	Masson					
+Person First Name	Laura	Laura	Patrick					
+Person Mid Initials		M	H					
+Person Email	geo@ncbi.nlm.nih.gov							
+Person Affiliation	University of Wisconsin							
+Person Phone								
+Person Fax								
+Person Address	Genetics, University of Wisconsin, 425-G Henry Mall, Madison, WI, USA							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Person Roles Term Accession Number								
+Normalization Type								
+Normalization Term Accession Number								
+Normalization Term Source REF								
+Replicate Type								
+Replicate Term Accession Number								
+Replicate Term Source REF								
+Experimental Design								
+Experimental Design Term Accession Number								
+Experimental Design Term Source REF								
+Quality Control Type								
+Quality Control Term Accession Number								
+Quality Control Term Source REF								
+Protocol Name	P-GSE28275-1	P-GSE28275-6	P-GSE28275-3	P-GSE28275-8	P-GSE28275-7	P-GSE28275-2	P-GSE28275-4	P-GSE28275-5
+Protocol Description	ID_REF = <br>VALUE = Quantile normalized data	For each sample, the labeled cDNA was hybridized overnight on an ATH1 GeneChip (Affymetrix, Santa Clara, CA) in an AFX HybOven 480 (Affymetrix).  Post processing was done on an automated Fluidics 450 Station (Affymetrix).	Sterilized seeds of 170G-55-16, Cvi and Ler were placed on 1/2 LSPS + 1.5% agar E plates, stratified for 8 days at 4° C, and then placed in a 22° C growth chamber on a 16 h day/8 h night cycle.  Each replicate consisted of two rows of 60 seeds per row over five plates for a total of ~600 seedlings per replicate.  The plates were positioned vertically for 2 days, and then tilted back 30° for the final 3 days of growth.	Quality of microarray hybridization was determined using the Affymetrix MAS5 algorithm.  Expression differences were analyzed using ArrayStar 3 (DNAStar, Madison, WI).  The data were preprocessed using RMA and a quantile normalization method.  For statistical comparisons of expression levels, the student’s t-test option was employed with a FDR (Benjamini-Hochberg correction) multiple testing correction algorithm.	Chips were scanned with the GC 3000 G7 scanner (Affymetrix).	On the fifth day, approximately 7 mm of root tip was harvested for each seedling and pooled for each replicate.  The order of sample collection was randomized.  The root tips were flash frozen in liquid nitrogen then stored at -80° C until the time of RNA extraction.	RNA extraction of the ground root tissue was carried out with the RNAeasy kit (QIAGEN, Valencia, CA) according to manufacturer instructions.	Biotin-labeled cDNA was generated using the MessageAmp II kit (Ambion, Austin, TX) according to manufacturer instructions.
+Protocol Software								
+Protocol Hardware								
+Protocol Contact								
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Protocol Term Source REF								
+Protocol Term Accession Number								
+Experimental Factor Name	genotype							
+Experimental Factor Type	genotype							
+Experimental Factor Term Source REF								
+Experimental Factor Term Accession Number								
+Publication Title	A QTL Study for Regions Contributing to Arabidopsis thaliana Root Skewing on Tilted Surfaces							
+Publication Author List	Vaughn, L. and Masson, P. H.							
+PubMed ID	22384323							
+Publication DOI	10.1534/g3.111.000331							
+Publication Status	published							
+Publication Status Term Source REF	EFO							
+Publication Status Term Accession Number	EFO_0001796							
+Comment[SecondaryAccession]	GSE28275							
+Comment[GEOLastUpdateDate]	2011-04-10							
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis lines grown on tilted hard agar surfaces							
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[GEOReleaseDate]	2011-03-30							
+Comment[ArrayExpressSubmissionDate]	2011-03-29							
+SDRF File	E-GEOD-28275.sdrf.txt							

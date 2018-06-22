@@ -1,0 +1,48 @@
+Investigation Title	Transcription profiling of Arabidopsis response to UV-B	
+Comment[Submitted Name]	Ulm R. Arabidopsis UV-B -1	
+Experimental Design	stimulus_or_stress_design	time_series_design	transcription profiling by array	
+Experimental Design Term Source REF	mo	mo	EFO	
+Comment[ArrayExpressReleaseDate]	2006-03-01	
+Comment[AEMIAMESCORE]	5	
+Comment[ArrayExpressAccession]	E-MEXP-550	
+Comment[MAGETAB TimeStamp_Version]	2010-08-11 15:15:42 Last Changed Rev: 13058	
+Experimental Factor Name	time	UV-B quality	
+Experimental Factor Type	time	light	
+Experimental Factor Term Source REF	
+Person Last Name	Ulm	Nagy	Schäfer	Oakeley	Ádám	Máté	Oravecz	Baumann	
+Person First Name	Roman	Ferenc	Eberhard	Edward	Éva	Zoltán	Attila	Alexander	
+Person Mid Initials	
+Person Email	roman.ulm@biologie.uni-freiburg.de	
+Person Phone	+49-761-203-2932	
+Person Fax	+49-761-203-2612	
+Person Address	Schänzlestrasse 1	
+Person Affiliation	Department of Botany	
+Person Roles	submitter	
+Person Roles Term Source REF		
+Quality Control Type	biological_replicate	
+Quality Control Term Source REF	The MGED Ontology	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2006-03-01	
+PubMed ID	14739338	
+Publication DOI	14739338	
+Publication Author List	Van Aken, Olivier; Zhang, Botao; Carrie, Chris; Uggalla, Vindya; Paynter, Ellen; Giraud, Estelle; Whelan, James	
+Publication Title	Defining the Mitochondrial Stress Response in Arabidopsis thaliana	
+Publication Status	journal_article	
+Publication Status Term Source REF	
+Experiment Description	Seven-day-old white-light-grown Arabidopsis seedlings were exposed for 15 minutes to polychromatic radiation with decreasing short-wave cut-off in the UV range, transferred back to the standard growth chamber and samples were taken 1 and 6 hours after the start of irradiation.	
+Protocol Name	P-MEXP-9939	P-MEXP-17438	P-MEXP-9941	P-MEXP-9943	P-MEXP-9948	Affymetrix:Protocol:Hybridization-EukGE-WS2v4	P-AFFY-6	Affymetrix:Protocol:ExpressionStat	
+Protocol Type	grow	specified_biomaterial_action	nucleic_acid_extraction	pool	labeling	hybridization	feature_extraction	bioassay_data_transformation	
+Protocol Description	Arabidopsis seeds were surface-sterilized with sodium-hypochlorite, plated on Murashige and Skoog medium (MS, Duchefa) containing 1% sucrose and 0.8% agar. Seeds were stratified for at least two days at 4°C and germinated aseptically at 25°C in a standard growth chamber (MLR-350, Sanyo Electric Co., Ltd.) with a 12 h/12 h light/dark cycle. 	Seedlings of Arabidopsis were irradiated for 15 minutes at midday with UV-B from Philips TL 40W/12 UV fluorescent tubes (Lambda,max = 310 nm, half-bandwidth = 40 nm, fluence rate = 7 W/m2) filtered through 3-mm transmission cut-off filters of the WG series with half-maximal transmission at the indicated wavelength (WG295, WG305, and WG327; Schott, Germany), or unfiltered through a 3-mm quartz plate. Spectral energy distributions of UV-B sources were measured with an OL 754 UV-visible spectroradiometer (Optronic Laboratories, Orlando, FL). After irradiation of the seedlings for the indicated times, plates were immediately returned to the standard growth chamber until the tissue was harvested and snap-frozen in liquid nitrogen.	Arabidopsis total RNA was isolated with the Plant RNeasy Kit (Qiagen, Chatsworth, CA), according to the manufacturers instructions.	Whole plant tissue of at least 50 Arabidopsis seedlings was harvested, snap-frozen in liquid nitrogen and stored at -80°C until further processing.	10 µg of total RNA (isolated from approx. 50 7-day-old Arabidopsis seedlings) was reverse transcribed using the SuperScript Choice system for cDNA synthesis (Life Technologies) according to the protocol recommended by Affymetrix (GeneChip Expression Analysis: Technical Manual (2001) p. 2.1.14-2.1.16). The oligonucleotide used for priming was 5-ggccagtgaattgtaatacgactcactatagggaggcgg-(t)24-3 (Genset Oligo, France) as recommended by Affymetrix. Double-stranded cDNA was purified by phenol:chloroform extraction and the aqueous phase was removed by centrifugation through Phase-lock Gel (Eppendorf). In vitro transcription was performed on 1 µg of cDNA using the Enzo BioArray High Yield RNA transcript labelling kit (Enzo Diagnostics, USA) following the manufacturers protocol. The cRNA was purified using RNAeasy clean-up columns (Qiagen). To improve the recovery from the columns, the elution water was spun into the matrix at 27 g and then left to stand for one minute prior to the standard 8000 g centrifugation recommended by Qiagen. The cRNA was fragmented by heating in fragmentation buffer (40mM Tris-acetate pH8.1, 100mM KOAc, 30mM MgOAc) as recommended by Affymetrix.	Title: Fluidics Station Protocol. Description: 	Title: Affymetrix CEL analysis. Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 	
+Protocol Parameters			Extracted product;Amplification;		Label used;Amplification;Amount of nucleic acid labeled;	
+Protocol Hardware	
+Protocol Software						MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact	
+Protocol Term Source REF		mo						The MGED Ontology	
+SDRF File	E-MEXP-550.sdrf.txt	
+Term Source Name	mo		ncbitax	tair_dev:1.27	ArrayExpress	The MGED Ontology	mo	EFO	
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php		http://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html	http://www.arabidopsis.org/info/ontologies/	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	
+Term Source Version				1.27					

@@ -1,0 +1,27 @@
+Comment[ArrayExpressAccession]	E-GEOD-44405
+MAGE-TAB Version	1.1						
+Public Release Date	2013-06-18
+Investigation Title	Three MYB Transcription Factors Control Pollen Tube Differentiation Required for Sperm Release						
+Comment[Submitted Name]	Three MYB Transcription Factors Control Pollen Tube Differentiation Required for Sperm Release
+Experiment Description	Flowering plants have immotile sperm that develop within pollen and must be carried to female gametes by a pollen tube. The pollen tube engages in molecular interactions with several cell types within the pistil and these interactions are essential for successful fertilization. We identified a group of three closely related pollen tube-expressed MYB transcription factors (MYB97, MYB101, MYB120), which are required for proper interaction of the pollen tube with the female gametophyte. These transcription factors are transcriptionally induced during growth in the pistil. They regulate a transcriptional network leading to proper differentiation and maturation of the pollen tube, promoting proper pollen tube-ovule interactions resulting in sperm release and double fertilization. We used microarrays to discover  genes regulated by the transcription factors MYB97, MYB101 and MYB120 in pollen tubes growing through the pistil at 8 hours after pollination. Pistils were collected from ms1 (Male Sterile 1) pistils that were unpollinated, or pollinated with either wild type (Col-0) pollen or myb triple mutant (myb97-1, myb101-4, myb120-3) pollen for 8 hours. We sought to examine transcriptional changes that were taking place in pollen tubes before they reached ovules in wild type pollen tubes, and what portion of this transcriptional regulation was due to MYB97, MYB101 and MYB120. Analysis of growth in the pistil allows discovery of transcriptional changes taking place during pollen tube growth in its native environment, as opposed to mature pollen or in vitro grown pollen, which are essentially naive conditions, as neither have interacted with the pistil environment and any signalling factors found therein.						
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Leydon	Leydon	Johnson				
+Person First Name	Alexander	Alexander	Mark				
+Person Mid Initials	Rivinus	R	A				
+Person Email	Alexander_leydon@brown.edu						
+Person Affiliation	Brown University						
+Person Phone	401-863-6122						
+Person Address	MCB, Brown University, 60 Olive Street, Providence, RI, USA						
+Person Roles	submitter						
+Protocol Name	P-GSE44405-1	P-GSE44405-5	P-GSE44405-6	P-GSE44405-2	P-GSE44405-3	P-GSE44405-4	P-GSE44405-7
+Protocol Description	Quality control was performed using Expression Console, differential gene expression was detected using Partek Genomics Suite and RMA was used for normalization ID_REF =  VALUE = RMA signal	100 ng total RNA was amplified using Affymetrix 3' IVT express kit according to manufacturers instructions.	10 ug fragmented IVT cRNA was hybridized overnight at 45 Cat 60 rpm to Arabidopsis ATH1 arrays	Pistils were dissected from surrounding floral tissues and immerdiately frozen on dry ice	ms1 pistils (100 per collection) were either collected at stage 14 without pollination, or pollinated at 9am with respective genotypes and allowed to grow for 8 hours	Total RNA was extracted using the RNeasy kit (Qiagen), The yield and RNA purity were determined by Nano-Drop (Thermo Scientific), and RNA integrity was checked using an Agilent 2100 Bioanalyzer (Agilent Technologies)	Arrays were scanned using Affymetrix 3000 G7 scanner
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	PROTOCOL						
+Experimental Factor Type	protocol						
+Comment[SecondaryAccession]	GSE44405						
+Comment[GEOReleaseDate]	2013-06-18						
+Comment[ArrayExpressSubmissionDate]	2013-02-19						
+Comment[GEOLastUpdateDate]	2013-06-20						
+Comment[AEExperimentType]	transcription profiling by array						
+SDRF File	E-GEOD-44405.sdrf.txt

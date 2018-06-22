@@ -1,0 +1,27 @@
+Comment[ArrayExpressAccession]	E-GEOD-60157
+MAGE-TAB Version	1.1						
+Public Release Date	2015-11-02
+Investigation Title	Bird Factors integrate positional signals to coordinate asymmetric cell division and cell fate						
+Comment[Submitted Name]	Bird Factors integrate positional signals to coordinate asymmetric cell division and cell fate
+Experiment Description	We sorted for GFP+ cells using the enhancer trap J0571 with the UAS promoter driving the expression of different BIRD genes. Different genetic backgrounds are use and listed below. Seedlings were grown for 5 days.  J0571 and J0571-UAS-BIRDS sorted fluorecent cells were harvested for RNA extraction.						
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Sozzani	Moreno-Risueno	Sozzani	Benfey			
+Person First Name	Rosangela	Miguel	Rosangela	Philip			
+Person Mid Initials				N			
+Person Email	rs93@duke.edu						
+Person Affiliation	Duke						
+Person Address	Duke, 124 Science Dr, Durham, USA						
+Person Roles	submitter						
+Protocol Name	P-GSE60157-1	P-GSE60157-5	P-GSE60157-6	P-GSE60157-2	P-GSE60157-3	P-GSE60157-4	P-GSE60157-7
+Protocol Description	The data were analyzed with Microarray Suite version 5.0 (MAS 5.0) using Affymetrix default analysis settings and global scaling as normalization method. The trimmed mean target intensity of each array was arbitrarily set to 250. ID_REF =  VALUE = MAS5.0 signal intensity	Affy two-cycle labeling (raw 21-26) and one-cycle (everything else) labeling protocol	Standard Operating Procedure performed at the Duke Microarray Facility	Seedling roots, 5 days after germination, either protoplasted cells or tissue	Growth Media: Standard media for 5 days	Quiagen MicroRNAesy kit (total RNA was extracted according to the manufacturer's instruction	Standard Operating Procedure performed at the Duke Microarray Facility
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	ecotype	genotype	organism part				
+Experimental Factor Type	ecotype	genotype	organism part				
+PubMed ID	26494755						
+Comment[SecondaryAccession]	GSE60157						
+Comment[GEOReleaseDate]	2015-11-02						
+Comment[ArrayExpressSubmissionDate]	2014-08-06						
+Comment[GEOLastUpdateDate]	2015-11-02						
+Comment[AEExperimentType]	transcription profiling by array						
+SDRF File	E-GEOD-60157.sdrf.txt

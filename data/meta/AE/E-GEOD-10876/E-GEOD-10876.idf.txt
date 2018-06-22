@@ -1,0 +1,53 @@
+Investigation Title	Transcription profiling of  Arabidopsis thaliana (Ler) rosette leaves after the release of singlet  oxygen inside plastids						
+Comment[AdditionalFile:XLS]	E-GEOD-10876.hybs.xls						
+Comment[Submitted Name]	Expression data from Arabidopsis thaliana (Ler) rosette leaves after the release of singlet oxygen inside plastids						
+Experimental Design	unknown_experiment_design_type	transcription profiling by array					
+Experimental Design Term Source REF		EFO					
+Comment[AEExperimentType]	transcription profiling by array						
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for flu after exposure to light for different lengths of time						
+Comment[ArrayExpressReleaseDate]	2008-04-05						
+Comment[SecondaryAccession]	GSE10876						
+Comment[AEMIAMESCORE]	4						
+Comment[ArrayExpressAccession]	E-GEOD-10876						
+Comment[MAGETAB TimeStamp_Version]	2010-07-29 22:40:09 Last Changed Rev: 13058						
+Experimental Factor Name	GENOTYPE	LIGHT DURATION					
+Experimental Factor Type	genotype	time					
+Experimental Factor Term Source REF							
+Person Last Name	Laloi						
+Person First Name	Christophe						
+Person Mid Initials							
+Person Email	claloi@ethz.ch						
+Person Phone							
+Person Fax							
+Person Address	LFW D17.2, Institute of Plant Science, ETH Zurich, Universitaetstrasse 2, Zurich, 8092, Switzerland						
+Person Affiliation	ETH Zurich						
+Person Roles	submitter						
+Person Roles Term Source REF	The MGED Ontology						
+Quality Control Type							
+Quality Control Term Source REF							
+Replicate Type							
+Replicate Term Source REF							
+Normalization Type							
+Normalization Term Source REF							
+Date of Experiment							
+Public Release Date	2008-04-05						
+PubMed ID	14508004						
+Publication DOI	10.1105/tpc.014662						
+Publication Author List	Roel G L op den Camp, Dominika Przybyla, Christian Ochsenbein, Christophe Laloi, Chanhong Kim, Antoine Danon, Daniela Wagner, Eva Hideg, Cornelia Göbel, Ivo Feussner, Mena Nater, Klaus Apel						
+Publication Title	Rapid induction of distinct stress responses after the release of singlet oxygen in Arabidopsis.						
+Publication Status	published						
+Publication Status Term Source REF	EFO						
+Publication Status Term Accession Number	EFO_0001796						
+Experiment Description	We used the flu mutant of Arabidopsis to detail gene expression in response to singlet oxygen. The conditional flu mutant of Arabidopsis accumulates excess protochlorophyllide in the dark within chloroplast membranes that upon illumination acts as a photosensitizer and generates singlet oxygen. Immediately after the release of singlet oxygen mature flu plants stop growing, whereas seedlings bleach and die. Within the first 30 min after the release of singlet oxygen rapid changes in nuclear gene expression occur. Distinct sets of genes were activated that were different from those induced by other reactive oxygen species, superoxide or hydrogen peroxide. Experiment Overall Design: Arabidopsis thaliana rosette leaves were harvested after 30 min, 1h, and 2 h of reillumination following a 8h dark period for RNA extraction and hybridization on Affymetrix ATH1 microarrays.  Plants were grown on soil for 3 weeks under continuous light at 90 mmol. m-2 . s-1. For each sample, the rosette leaves of five to six 3-week-old plants (before they start bolting) were collected for RNA extraction. Total RNAs from two separate biological experiments were pooled for the preparation of cDNA and the subsequent synthesis of biotin-labeled complementary RNA as recommended by Affymetrix.						
+Protocol Name	P-10876-3	P-10876-2	P-10876-5	P-10876-4	P-10876-1	P-AFFY-6	Affymetrix:Protocol:ExpressionStat
+Protocol Type	specified_biomaterial_action	grow	nucleic_acid_extraction	labeling	hybridization	feature_extraction	bioassay_data_transformation
+Protocol Description	Plants were transferred to the dark for 8 h and rosette leaves were harvested at 30 min, 60 min, and 2 h after reillumination.	Plants were grown on soil for 3 weeks under continuous light at 90 mmol. m-2 . s-1	total RNA extraction was performed according to the guanidine-hydrochloride method as described in Melzer, S., Majewski, D. M. & Apel, K. (1990) Plant Cell 2, 953-961.	Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 20 ug total RNA (Eukaryotic Target Preparation, 2002, Affymetrix).	Following fragmentation, 15 ug of cRNA were hybridized for 16 hr at 45C on GeneChip Arabidopsis ATH1 Genome Array. GeneChips were washed and stained in the Affymetrix Fluidics Station 400, protocol EukGE-WS2v4.	Title: Affymetrix CEL analysis. Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 
+Protocol Parameters							
+Protocol Hardware							
+Protocol Software						MicroArraySuite 5.0	MicroArraySuite 5.0
+Protocol Contact							
+Protocol Term Source REF							The MGED Ontology
+SDRF File	E-GEOD-10876.sdrf.txt						
+Term Source Name	NCBI Taxonomy		The MGED Ontology	ArrayExpress	EFO	The MGED Ontology	
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version							

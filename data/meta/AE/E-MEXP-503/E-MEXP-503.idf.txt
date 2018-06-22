@@ -1,0 +1,50 @@
+Investigation Title	Transcription profiling of Arabidopsis mature leaf 6 of ron2-1 EMS mutant vs wild type Ler 							
+Comment[Submitted Name]	ron2_matureLeaf6_shortDay							
+Experimental Design	genetic_modification_design	transcription profiling by array						
+Experimental Design Term Source REF	mo	EFO						
+Comment[ArrayExpressReleaseDate]	2007-12-08							
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis ron2-1 knockout mutant 							
+Comment[AEMIAMESCORE]	5							
+Comment[ArrayExpressAccession]	E-MEXP-503							
+Comment[MAGETAB TimeStamp_Version]	2010-08-11 14:35:56 Last Changed Rev: 13058							
+Experimental Factor Name	genotype							
+Experimental Factor Type	genotype							
+Experimental Factor Term Source REF								
+Person Last Name	Fleury	Cookson	Granier	Van Hummelen	Van Lijsebettens			
+Person First Name	Delphine	Sarah	Christine	Paul	Mieke			
+Person Mid Initials		J						
+Person Email				tom.bogaert@vib.be				
+Person Phone				+32 (0)16 34 79 33				
+Person Fax				+32 (0)16 34 79 40				
+Person Address				Herestraat 49				
+Person Affiliation	VIB-PSB Ghent university	LEPSE-INRA_Montpellier	LEPSE-INRA_Montpellier	Micro Array Facility, VIB	VIB-PSB Ghent university			
+Person Roles		biomaterial_provider		submitter				
+Person Roles Term Source REF		mo						
+Quality Control Type	biological_replicate							
+Quality Control Term Source REF	The MGED Ontology							
+Replicate Type								
+Replicate Term Source REF								
+Normalization Type								
+Normalization Term Source REF								
+Date of Experiment								
+Public Release Date	2007-12-08							
+PubMed ID								
+Publication DOI								
+Publication Author List	Sarah Cookson; Delphine Fleury; Mieke Van Lijsebettens; Christine Granier							
+Publication Title								
+Publication Status								
+Publication Status Term Source REF								
+Experiment Description	Goal:identify the genes regulated by RON2 involved in the delay of floral transitional and those associated with leaf development. The gene expression profile of mature leaf 6 of ron2-1 EMS mutant and the wild-type Ler are compared. The plant material for this experiment was grown in LEPSE-INRA Montpellier, and the microarrays at the MAF-VIB Leuven with PSB-VIB Ghent.							
+Protocol Name	P-MEXP-15642	P-MEXP-15641	P-MEXP-7782	P-MEXP-15643	P-MEXP-8074	Affymetrix:Protocol:Hybridization-EukGE-WS2v4	P-AFFY-6	P-MEXP-15676
+Protocol Type	specified_biomaterial_action	grow	nucleic_acid_extraction	pool	labeling	hybridization	feature_extraction	bioassay_data_transformation
+Protocol Description	3 pools of the 6th leaf of 10 to 15 plants were harvested 11 days after the leaf6 initiation and at least 4 hours after the beginning of the photoperiod. Plants were at growth stage 1.06 (Boyes et al., 2001)	Light in the growth chamber was provided by a bank of cool-white fluorescent tubes and sodium lamps. Air humidity was maintained at approximately 70 % and air temperature was maintained between 20.5 and 21.5  C. Seeds were stored at 4  C before sowing and then five seeds were sown in cylindrical pots (53 mm diameter and 88 mm height) containing a 50:50 mixture (v/v) of loamy soil and organic compost. To avoid population density effects, young seedlings were thinned to one plant per pot 10 d after plant germination. The substrate was maintained at 80 % of field capacity (corresponding to a soil water content of 0.50 g g-1 of dry soil) by weighing the pots once a d and watering them with a modified one-tenth strength Hoagland's solution with additional micronutrients (Hoagland & Arnon, 1950). Plants were grown under a 10 h photoperiod with a daily PPFD of 9.2 mol m2 d-1 to harvest leaf material for microarray analysis. 	Total RNA was isolated using Trizol Reagent (Life Technologies Gaithersburg MD, USA)	The experimental design comprised 3 replicates of each genotype, one replicate corresponding to one RNA extraction on an independent pool of about 10 to 15 leaves.	Affymetrix  Labelling protocol for ARE-ATH1 array  The labelling protocol is applicable for use with the GeneChip ARE-ATH1 when starting with a minimal amount of 5ug total RNA.  The protocol is derived from the ÂGeneChipÂ® Expression Analysis Technical ManualÂ (Section 2 Eukaryotic sample and array processing). The document can be found at the affymetrix website: http://www.affymetrix.com/support/downloads/manuals/expression_s2_manual.pdf   Within this document (expression_s2_manual.pdf), the following sections are applicable for the labelling protocol:  2.1.3 Eukaryotic Target Preparation 2.1.7 - 2.1.8 Reagents and Materials Required 2.1.13 - 2.1.18 One-Cycle cDNA Synthesis  2.1.32 - 2.1.33 Cleanup of Double Stranded cDNA for Both the One-Cycle and Two-Cycle Target Labelling Assays 2.1.34 - 2.1.35 Synthesis of Biotin-Labelled cRNA for both the One-Cycle and Two-Cycle Target Labelling Assays. 2.1.36 2.1.38Â Cleanup and Quantification of Biotin-Labelled cRNA 2.1.39 Â 2.1.40 Fragmenting the cRNA for Target Preparation 	Title: Fluidics Station Protocol. Description: 	Title: Affymetrix CEL analysis. Description: 	Expression data calculated with GCRMA method (Bioconductor; Bioinformatics 20, 307 315).
+Protocol Parameters		max temperature;media;min temperature;	Extracted product;Amplification;		Amplification;Label used;Amount of nucleic acid labeled;			
+Protocol Hardware								
+Protocol Software						MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact								
+Protocol Term Source REF	mo	mo		mo			The MGED Ontology	
+SDRF File	E-MEXP-503.sdrf.txt							
+Term Source Name	The MGED Ontology	ncbitax	nasc	ArrayExpress	The MGED Ontology	mo	EFO	
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html	http://arabidopsis.info/catalogue.html	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	
+Term Source Version								

@@ -1,0 +1,49 @@
+Investigation Title	Transcription profiling by array of Arabidopsis overexpressing LBD16 and LBD18 to investigate downstream genes								
+Comment[Submitted Name]	Genome-wide analysis of genes regulated downstream of LBD16 and LBD18								
+Experimental Design	in_vivo_design	compound_treatment_design	co-expression_design	genetic_modification_design	transcription profiling by array				
+Experimental Design Term Source REF		mo	mo	mo	EFO				
+Comment[AEExperimentType]	transcription profiling by array								
+Comment[AEMIAMESCORE]	5								
+Comment[ArrayExpressReleaseDate]	2011-06-01								
+Comment[ArrayExpressAccession]	E-MEXP-1400								
+Comment[MAGETAB TimeStamp_Version]	2010-08-09 21:46:05 Last Changed Rev: 13058								
+Experimental Factor Name	genotype	compound	dose						
+Experimental Factor Type	genotype	compound	dose						
+Experimental Factor Term Source REF									
+Person Last Name	Lee								
+Person First Name	Han Woo								
+Person Mid Initials									
+Person Email	blackox3911@hanmail.net								
+Person Phone	82-62-530-2042								
+Person Fax									
+Person Address	Chonnam National University 300 Yongbong-dong, Buk-gu, Gwangju,								
+Person Affiliation	Plant biotechnology								
+Person Roles	submitter								
+Person Roles Term Source REF	The MGED Ontology								
+Quality Control Type									
+Quality Control Term Source REF									
+Replicate Type									
+Replicate Term Source REF									
+Normalization Type									
+Normalization Term Source REF									
+Date of Experiment									
+Public Release Date	2011-06-01								
+PubMed ID	22974309								
+Publication DOI	10.1111/tpj.12013								
+Publication Author List	Lee HW, Kim MJ, Kim NY, Lee SH, Kim J								
+Publication Title	LBD18 acts as a transcriptional activator that directly binds to the EXPANSIN14 promoter in promoting lateral root emergence of Arabidopsis								
+Publication Status									
+Publication Status Term Source REF									
+Experiment Description	Pro35SLBD16:GR or Pro35SLBD18:GR transgenic seedlings that overexpress LBD16 or LBD18 fused to glucocorticoidsteroid hormone binding domain(GR) under CaMV35S promoter were grown for 12 days under long-day conditions (16h light/ 8h dark).								
+Protocol Name	P-MEXP-122157	P-MEXP-122156	P-MEXP-122159	P-MEXP-122158	P-AFFY-2	Affymetrix:Protocol:Hybridization-FS450_0004[]	P-AFFY-6	Affymetrix:Protocol:ExpressionStat	
+Protocol Type	specified_biomaterial_action	grow	nucleic_acid_extraction	pool	labeling	hybridization	feature_extraction	bioassay_data_transformation	
+Protocol Description	Pro35SLBD16:GR or Pro35SLBD18:GR transgenic seedlings that overexpress LBD16 or LBD18 fused to glucocorticoidsteroid hormone binding domain(GR) under CaMV35S promoter were grown for 12 days under long-day conditions (16h light/ 8h dark) on the ½ Murashige Skoog(MS) medium containing vitamins, 1.5% sucrose, 2.5 mM Mes, pH 5.7, and 0.8% agar, treated with 10 uM dexamethasone (DEX) or mock-treated for 2.5 h. 	Pro35SLBD16:GR or Pro35SLBD18:GR transgenic seedlings that overexpress LBD16 or LBD18 fused to glucocorticoidsteroid hormone binding domain(GR) under CaMV35S promoter were grown for 12 days under long-day conditions (16h light/ 8h dark) on the Murashige Skoog(MS) medium containing vitamins, 1.5% sucrose, 2.5 mM Mes, pH 5.7, and 0.8% agar, treated with 10 uM dexamethasone (DEX) or mock-treated for 2.5 h. 	Each RNA sample is obtained from seedlings of Arabidopsis. The frozen plant tissue (~100 mg) was ground in tiny mortars dipped in liquid nitrogen. The frozen powder was carefully transfered into 1.5 ml microcentrifuge tubes using small funnels and rubber spatulas also cooled with liquid nitrogen. Total RNA was extracted using RNeasy Mini kit (Qiagen GmbH, Hilden, Germany) according to the manufacturer's instructions and purified with an RNeasy minelute cleanup (Qiagen).	Equal amounts of RNA from triplicate samples were pooled.	Title: Affymetrix in vitro transcription. Description: 		Title: Affymetrix CEL analysis. Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 	
+Protocol Parameters			Amplification;Extracted product;						
+Protocol Hardware									
+Protocol Software						MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact									
+Protocol Term Source REF				The MGED Ontology				The MGED Ontology	
+SDRF File	E-MEXP-1400.sdrf.txt								
+Term Source Name	NCI_thesaurus		NCBI Taxonomy	tair_dev:1.27	The MGED Ontology	ArrayExpress	mo	EFO	The MGED Ontology
+Term Source File	ncithesaurus.obo.alt		http://www.ncbi.nlm.nih.gov/Taxonomy/	http://www.arabidopsis.org/info/ontologies/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version				1.27					

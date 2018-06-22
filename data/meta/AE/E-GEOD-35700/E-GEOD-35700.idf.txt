@@ -1,0 +1,58 @@
+Comment[ArrayExpressAccession]	E-GEOD-35700							
+Public Release Date	2012-04-30							
+Investigation Title	Expression data from low R:FR - JA crosstalk in Arabidopsis							
+Comment[Submitted Name]	Expression data from low R:FR - JA crosstalk in Arabidopsis							
+Comment[AEExperimentDisplayName]	Expression data from low Red:Far-Red ratio and Jasmonic Acid crosstalk in Arabidopsis							
+Experiment Description	Low reduced red:far-red ratio [R:FR] signaling through phytochromes induces shade avoidance responses, including petiole elongation. Jasmonic acid-mediated defense against herbivores and pathogens is inhibited under these conditions. Using microarrays we studied the crosstalk between low R:FR and JA at the global gene expression level in Arabidopsis thaliana. Plants were exposed for 2 h. to the following treatments: high R/FR with mock spray, low R/FR with mock spray, high R/FR with JA spray, low R/FR with JA spray. Gene expression was determined in petioles.							
+Date of Experiment								
+Term Source Name	EFO							
+Term Source Version								
+Term Source File	http://www.ebi.ac.uk/efo/efo.owl							
+Person Last Name	Pierik	Pierik	de Wit					
+Person First Name	Ronald	Ronald	Mieke					
+Person Mid Initials								
+Person Email	r.pierik@uu.nl							
+Person Affiliation	Utrecht University							
+Person Phone								
+Person Fax								
+Person Address	Plant Ecophysiology, Utrecht University, Padualaan 8, Utrecht, Netherlands							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Person Roles Term Accession Number								
+Normalization Type								
+Normalization Term Accession Number								
+Normalization Term Source REF								
+Replicate Type								
+Replicate Term Accession Number								
+Replicate Term Source REF								
+Experimental Design								
+Experimental Design Term Accession Number								
+Experimental Design Term Source REF								
+Quality Control Type								
+Quality Control Term Accession Number								
+Quality Control Term Source REF								
+Protocol Name	P-GSE35700-1	P-GSE35700-6	P-GSE35700-3	P-GSE35700-8	P-GSE35700-7	P-GSE35700-2	P-GSE35700-4	P-GSE35700-5
+Protocol Description	ID_REF = <br>VALUE = log2 RMA signal	The (#900720) GeneChip Hybridization, Wash and Stain Kit was used for hybridization, washing, staining and scanning of the chips.	Arabidopsis thaliana plants were sown, stratified (4˚C) for 3 days and then transferred to a growth chamber (9 h. light (180 �mol / m2 / s, 20�C, 70% RH, R/FR = 2.2), 15 h dark) where they were transferred to individual pots after 10 d and gwon until 4 weeks old.	Data were processed using the Bioconductor packages in R and using the RMA normalization algorithm.	The software program Affymetrix 'GeneChip Command Console (v3.1)' was used to operate the staning, washing and scanning of the GeneChips and visual inspection of the array images. Chips were scanned using the Affymetrix 3000G scanner	Plants were put in each of the four conditions (control light with mock spray, control light with 0.1 mM JA spray, low R:FR (0.2) with mock spray, low R:FR (0.2) with 0.1 mM JA spray) for 2h. One petiole (approx. 5 mm length) per plant was harvested in liquid N2. 3 petioles/biological replicate were pooled.	Total RNA was isolated from homogenized material using the RNeasy plant mini kit (Qiagen) with on-column DNA digestion following the company’s instructions	The Affymetrix 3'IVT-Express Labeling Kit was used to synthesize Biotin-labeled cRNA. From each RNA sample 100 ng was used as input for the labelling reactions.
+Protocol Software								
+Protocol Hardware								
+Protocol Contact								
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Protocol Term Source REF								
+Protocol Term Accession Number								
+Experimental Factor Name	treatment	compound						
+Experimental Factor Type	treatment	compound						
+Experimental Factor Term Source REF								
+Experimental Factor Term Accession Number								
+Publication Title	Low red/far-red ratios reduce Arabidopsis resistance to Botrytis cinerea and jasmonate responses via a COI1-JAZ10-dependent, salicylic acid-independent mechanism.							
+Publication Author List	Cerrudo I, Keller MM, Cargnel MD, Demkura PV, de Wit M, Patitucci MS, Pierik R, Pieterse CM, Ballaré CL							
+PubMed ID	22371506							
+Publication DOI	10.1104/pp.112.193359							
+Publication Status								
+Publication Status Term Source REF								
+Publication Status Term Accession Number								
+Comment[SecondaryAccession]	GSE35700							
+Comment[GEOLastUpdateDate]	2012-06-06							
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[GEOReleaseDate]	2012-04-29							
+Comment[ArrayExpressSubmissionDate]	2012-02-10							
+SDRF File	E-GEOD-35700.sdrf.txt							

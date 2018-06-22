@@ -1,0 +1,51 @@
+Investigation Title	SALK 098602 mutant vs wild-type Col-0						
+Comment[Submitted Name]	SALK 098602 mutant vs wild-type Col-0						
+Experimental Design	genetic_modification_design	co-expression_design	replicate_design	transcription profiling by array			
+Experimental Design Term Source REF	The MGED Ontology	The MGED Ontology	The MGED Ontology	EFO			
+Comment[AEExperimentType]	transcription profiling by array						
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis EXORDIUM mutants						
+Comment[SecondaryAccession]							
+Comment[ArrayExpressReleaseDate]	2009-03-01						
+Comment[AEMIAMESCORE]	4						
+Comment[ArrayExpressAccession]	E-MEXP-1743						
+Comment[MAGETAB TimeStamp_Version]	2010-08-09 23:37:08 Last Changed Rev: 13058						
+Experimental Factor Name	genotype						
+Experimental Factor Type	genotype						
+Experimental Factor Term Source REF							
+Person Last Name	Mussig						
+Person First Name	Carsten						
+Person Mid Initials							
+Person Email	muessig@uni-potsdam.de						
+Person Phone	-4568396						
+Person Fax							
+Person Address	"Am Mühlenberg 1, Golm, --, 14476, Germany"						
+Person Affiliation	University Potsdam GoFORSYS						
+Person Roles	submitter						
+Person Roles Term Source REF	The MGED Ontology						
+Quality Control Type							
+Quality Control Term Source REF							
+Replicate Type							
+Replicate Term Source REF							
+Normalization Type							
+Normalization Term Source REF							
+Date of Experiment							
+Public Release Date	2009-03-01						
+PubMed ID	19216774						
+Publication DOI	10.1186/1471-2229-9-20						
+Publication Author List	"Schr�der F, Lisso J, Lange P, M�ssig C "						
+Publication Title	The extracellular EXO protein mediates cell expansion in Arabidopsis leaves.						
+Publication Status	published						
+Publication Status Term Source REF	EFO						
+Experiment Description	Wild-type and exo mutant (SALK_098602) were grown in parallel in three independent experiments in a greenhouse. 3 x 2 profiles were established.						
+Protocol Name	P-MTAB-1228	P-MTAB-1227	P-MTAB-1229	P-AFFY-2	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6	P-MTAB-1226
+Protocol Type	grow	nucleic_acid_extraction	pool	labeling	hybridization	feature_extraction	bioassay_data_transformation
+Protocol Description	"Seed material for growth experiments was derived from plants grown in parallel under identical conditions. Plants were established in soil (type GS-90 Einheitserde, Gebrüder Patzer, Germany). Firstly, seeds were allowed to germinate and grow for two weeks in controlled growth chambers (7 days: 16 h light [140 µmol m-2 s-1], 20°C, 75 % relative humidity/8-h night, 6°C, 75 % relative humidity; thereafter 7 days: 8 h light [140 µmol m-2 s-1], 20°C, 60% relative humidity/16-h night, 16°C, 75% relative humidty). Subsequently, plants were transferred to long-day conditions in a greenhouse with artificial light (16 h light [high pressure sodium and metal halide lamps], 21°C, 50 % relative humidity/8 h night, 19°C, 50 % relative humidity). Both genotypes were grown in the same chamber at the same time in a randomized manner. <br>(Parameters: time unit = seconds, temperature unit = C)"	"Trizol (Invitrogen) standard RNA extraction <br>(Parameters: Extracted product = total_RNA, Amplification = none)"	Wild-type and exo plants were grown in a randomized manner in a greenhouse. Above ground organs of 15 plants per genotype were harvested for preparation of one RNA sample.	Title: Affymetrix in vitro transcription. Description: 	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	Standard GCOS/MAS5.0 normalization protocol
+Protocol Parameters							
+Protocol Hardware							
+Protocol Software					MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact							
+Protocol Term Source REF			The MGED Ontology		mo		The MGED Ontology
+SDRF File	E-MEXP-1743.sdrf.txt						
+Term Source Name	NCBI Taxonomy	ArrayExpress	The MGED Ontology	EFO	mo		
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php		
+Term Source Version							

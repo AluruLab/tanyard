@@ -1,0 +1,25 @@
+Comment[ArrayExpressAccession]	E-GEOD-55913
+MAGE-TAB Version	1.1						
+Public Release Date	2014-10-15
+Investigation Title	Expression data from RECA1-overexpressing plants						
+Comment[Submitted Name]	Expression data from RECA1-overexpressing plants
+Experiment Description	Arabidopsis nuclear RecA homologue RA51D were reported to be involved in plant defense responses. Plant organelles such as mitochondria and chloroplast also have their own RecA homologues. We focused on chloroplast RecA homologue RECA1 because it has been well known that the precursors of phytohormones and secondary metabolites related to plant defense responses are synthesized in chloroplast and recent studies have identified several chloroplastic proteins invoved with plant defense responses. We used microarrays to investigate the global gene expression changes by RECA1 and identified the up-regualted genes involved with plant defense response. 2-week-old Col-0 and RECA1(at1g79050)-overexpressing plants without any treatments were used for RNA extraction and hybridization on Affymetrix microarrays. Col-0 plants were used as control and T3 RECA1-overexpressing transgenic plants were used in this study.						
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Jeon	Jeon	Kim				
+Person First Name	Hyesung	Hyesung	Minkyun				
+Person Email	purda78@snu.ac.kr						
+Person Affiliation	Seoul National University						
+Person Address	Agricutural Biotechnology, Seoul National University, Shillim-Dong, Seoul, South Korea						
+Person Roles	submitter						
+Protocol Name	P-GSE55913-1	P-GSE55913-5	P-GSE55913-6	P-GSE55913-2	P-GSE55913-3	P-GSE55913-4	P-GSE55913-7
+Protocol Description	The data were analyzed with Microarray Suit version 5.0 (MAS 5.0) using Affymetrix default analysis setting and Quantile as nomalization method. ID_REF =  VALUE = MAS5.0 signal intensity ABS_CALL =  DETECTION P-VALUE = 	Five microgram of total RNA was used to generate double-stranded cDNA using GeneChip one-cycle cDNA synthesis kit (Affymetrix) with T7 promoter-containing oligo(dT)primer. Synthesized cDNA was in vitro transcribed and biotinylated using the GeneChip IVT labelilng kit (Affymetrix).	Following fragmentation, 10ug of cRNA were hybiridized for 16 h at 45˚C on Affymetrix ATH1 genome arrays using and Affymetrix Fluidics Station 450	without any treatments	Seeds were sterlized and plated on 1/2 MS medium, and then stratified for 4 days before growing in a growth in a growth camber at 23˚C under long day conditions (16 h light and 8 h dark).	Total RNA was extracted from 2-week-old Arabidopsis seedling using RNeasy mini kit (Qiagen).	Gene Chip were scanned using the GeneChip Scanner 3000 7G
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	GENOTYPE						
+Experimental Factor Type	genotype						
+Comment[SecondaryAccession]	GSE55913						
+Comment[GEOReleaseDate]	2014-10-15						
+Comment[ArrayExpressSubmissionDate]	2014-03-14						
+Comment[GEOLastUpdateDate]	2014-10-15						
+Comment[AEExperimentType]	transcription profiling by array						
+SDRF File	E-GEOD-55913.sdrf.txt

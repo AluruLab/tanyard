@@ -1,0 +1,58 @@
+Comment[ArrayExpressAccession]	E-GEOD-14646						
+Public Release Date	2009-12-26						
+Investigation Title	Gene expression in aerial parts of rice-Arabidopsis Os-LBD37 FOX plants						
+Comment[Submitted Name]	Gene expression in aerial parts of rice-Arabidopsis Os-LBD37 FOX plants						
+Experiment Description	Aerial parts of the rice-Arabidopsis FOX (Full-length cDNA overexpressor) lines K16331 and K19624 harboring the rice FL cDNA of LBD37 (Os-LBD37) were analyzed. LBD37 belongs to the plant- specific LOB- (Lateral Organ Boundary) domain family proteins first characterized in Arabidopsis. Results point towards an involvement of the rice LBD37 ortholog of Arabidopsis in nitrogen metabolism- related processes. K16331 (T2) and empty vector control plants (T2) were grown for 18 days on solid MS- medium supplemented with 20mg/l Hygromycin. For each hybridization on Affymetrix microarrays, 2 independent plants for K16331 were used. Homozygote K19624 (T3) and empty vector control plants (T3) were grown for 18 days on solid MS- medium. For each hybridization on Affymetrix microarrays, 1 plant was used.						
+Date of Experiment							
+Term Source Name	EFO						
+Term Source Version							
+Term Source File	http://efo.svn.sourceforge.net/viewvc/efo/trunk/src/efoinowl/efo.owl						
+Person Last Name	Kusano	Albinsky	Kusano	Fukushima	Hayashi		
+Person First Name	Miyako	Doris	Miyako	Atsushi	Naomi		
+Person Mid Initials							
+Person Email	mkusano005@psc.riken.jp						
+Person Affiliation	RIKEN, PSC						
+Person Phone	+81-45-503-9442						
+Person Fax	+81-45-503-9489						
+Person Address	Metabolomics research group, RIKEN, PSC, 1-7-22, Suehiro, Tsurumi, Yokohama, Kanagawa, Japan						
+Person Roles	submitter						
+Person Roles Term Source REF							
+Person Roles Term Accession Number							
+Normalization Type							
+Normalization Term Accession Number							
+Normalization Term Source REF							
+Replicate Type							
+Replicate Term Accession Number							
+Replicate Term Source REF							
+Experimental Design							
+Experimental Design Term Accession Number							
+Experimental Design Term Source REF							
+Quality Control Type							
+Quality Control Term Accession Number							
+Quality Control Term Source REF							
+Protocol Name	P-GSE14646-1	P-GSE14646-5	P-GSE14646-4	P-GSE14646-2	P-GSE14646-3	P-GSE14646-7	P-GSE14646-6
+Protocol Description	ID_REF = <br>VALUE = GCOS-calculated Signal intensity, MAS5.0<br>ABS_CALL = the call in an absolute analysis that indicates if the transcript was present (P), absent (A), marginal (M), or no call (NC)<br>DETECTION P-VALUE = 'detection p-value', p-value that indicates the significance level of the detection call	Standard Affymetrix procedures	Standard Affymetrix procedures	Total RNA was prepared using RNeasy Plant Mini Kit (Qiagen) according to the manufacturer's instructions.	Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 10 µg of total RNA.	Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 10 μg of total RNA.	GCOS1.2
+Protocol Software							
+Protocol Hardware							
+Protocol Contact							
+Protocol Type	bioassay_data_transformation	image_aquisition	hybridization	nucleic_acid_extraction	labeling	labeling	feature_extraction
+Protocol Term Source REF							
+Protocol Term Accession Number							
+Experimental Factor Name	GENERATION	GENOTYPE					
+Experimental Factor Type	generation	genotype					
+Experimental Factor Term Source REF							
+Experimental Factor Term Accession Number							
+Publication Title	Metabolomic Screening Applied to Rice FOX Arabidopsis Lines Leads to the Identification of a Gene-Changing Nitrogen Metabolism.						
+Publication Author List	Albinsky D, Kusano M, Higuchi M, Hayashi N, Kobayashi M, Fukushima A, Mori M, Ichikawa T, Matsui K, Kuroda H, Horii Y, Tsumoto Y, Sakakibara H, Hirochika H, Matsui M, Saito K						
+PubMed ID	20085895						
+Publication DOI	10.1093/mp/ssp069						
+Publication Status	published						
+Publication Status Term Source REF	EFO						
+Publication Status Term Accession Number	EFO_0001796						
+Comment[SecondaryAccession]	GSE14646						
+Comment[GEOLastUpdateDate]	2010-03-29						
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis overexpressing rice LBD37						
+Comment[AEExperimentType]	transcription profiling by array						
+Comment[GEOReleaseDate]	2009-12-27						
+Comment[ArrayExpressSubmissionDate]	2009-01-29						
+SDRF File	E-GEOD-14646.sdrf.txt						

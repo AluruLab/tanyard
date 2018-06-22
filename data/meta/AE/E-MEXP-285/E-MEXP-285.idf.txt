@@ -1,0 +1,51 @@
+Investigation Title	Transcription profiling of Arabidopsis cell-sorted, hydrated pollen grains vs those of flowers, leaves, seedlings and siliques 										
+Comment[Submitted Name]	Arabidopsis pollen versus vegetative tissues										
+Experimental Design	organism_part_comparison_design	transcription profiling by array									
+Experimental Design Term Source REF	mo	EFO									
+Comment[AEExperimentType]	transcription profiling by array										
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis pollen grains, flowers, leaves, siliques and whole seedlings										
+Comment[ArrayExpressReleaseDate]	2005-06-01										
+Comment[AEMIAMESCORE]	5										
+Comment[ArrayExpressAccession]	E-MEXP-285										
+Comment[MAGETAB TimeStamp_Version]	2011-06-28 19:57:09 Last Changed Rev: 14857										
+Experimental Factor Name	AGE	ORGANISM PART									
+Experimental Factor Type	age	organism_part									
+Experimental Factor Term Source REF											
+Person Last Name	Pina	Feijó	Becker	Pinto							
+Person First Name	Cristina	José	Jörg	Francisco							
+Person Mid Initials		A	D								
+Person Email			jbecker@igc.gulbenkian.pt								
+Person Phone			351214464526								
+Person Fax			351214407970								
+Person Address			Rua da Quinta Grande Nº 6								
+Person Affiliation			Centro de Biologia do Desenvolvimento								
+Person Roles			submitter								
+Person Roles Term Source REF											
+Quality Control Type	spike_quality_control	biological_replicate									
+Quality Control Term Source REF		The MGED Ontology									
+Replicate Type											
+Replicate Term Source REF											
+Normalization Type											
+Normalization Term Source REF											
+Date of Experiment											
+Public Release Date	2005-06-01										
+PubMed ID	15908605										
+Publication DOI	10.1104/pp.104.057935 										
+Publication Author List	Pina, Cristina; Pinto, Francisco; Feijo, Jose A.; Becker, Jorg D.										
+Publication Title	Gene Family Analysis of the Arabidopsis Pollen Transcriptome Reveals Biological Implications for Cell Growth, Division Control, and Gene Expression Regulation										
+Publication Status	published										
+Publication Status Term Source REF	EFO										
+Publication Status Term Accession Number	EFO_0001796										
+Experiment Description	Upon germination, pollen forms a tube that elongates dramatically through female tissues in order to reach and fertilize ovules. While essential for the life cycle of higher plants, the genetic basis underlying most of the process is not well understood. We used Affymetrix Arabidopsis ATH1 Genome Arrays covering more than 80% of the Arabidopsis genome to compare transcriptomes of cell-sorted, hydrated pollen grains with those of flowers, leaves, seedlings and siliques (all samples with duplicates). This comparison revealed that pollen expresses a reduced set of genes with increased proportions of enriched and selectively-expressed transcripts. Relative gene ontology (GO) category representations in pollen and vegetative tissues revealed a functional skew of the pollen transcriptome towards signaling, vesicle transport and cytoskeleton, suggestive of a commitment towards germination and tube growth. Relative gene ontology (GO) category representations in pollen and vegetative tissues reveal a functional skew of the pollen transcriptome towards signaling, vesicle transport and cytoskeleton, suggestive of a commitment towards germination and tube growth. Relative gene ontology (GO) category representations in pollen and vegetative tissues reveal a functional skew of the pollen transcriptome towards signaling, vesicle transport and cytoskeleton, suggestive of a commitment towards germination and tube growth. Gene family and pathway analysis allowed formulation of novel hypotheses for the role of non-classical MADS-box genes, small RNA pathways and cell cycle components in pollen.										
+Protocol Name	P-MEXP-7913	P-MEXP-7912	P-MEXP-7911	P-MEXP-7920	P-MEXP-7914	P-MEXP-7922	P-MEXP-7923	Affymetrix:Protocol:Hybridization-EukGE-WS2v4[]	P-AFFY-6	P-MEXP-7925	
+Protocol Type	grow	grow	grow	specified_biomaterial_action	specified_biomaterial_action	nucleic_acid_extraction	labeling	hybridization	feature_extraction	bioassay_data_transformation	
+Protocol Description	For the seedling samples, seeds were surface-sterilized and then spread on Petri dishes containing B-5 medium (Duchefa, Haarlem, The Netherlands) solidified with 0.8% phytagar (Duchefa, Haarlem, The Netherlands). The seeds were cold-treated for 3 days at 4°C to ensure uniform germination. The plates were transferred to short-day conditions (8 h of light at 21°C-23°C) and grown in a horizontal position for 7 days. Per seedling sample more than 25 seedlings from five Petri dishes were collected after 7 days of growth.	Plants for the leaf, flower, silique and pollen samples were grown on soil for 12 weeks in short-day conditions (8 h of light at 21°C-23°C) and then changed to long-day conditions (16 h light) to induce flowering. After bolting more than 20 rosette leaves from different plants per leaf sample were collected. Flowers and siliques were harvested two weeks later. 20 siliques and flowers, respectively, from different plants were pooled per sample.	Plants for the leaf, flower, silique and pollen samples were grown on soil for 12 weeks in short-day conditions (8 h of light at 21°C-23°C) and then changed to long-day conditions (16 h light) to induce flowering. After bolting more than 20 rosette leaves from different plants per leaf sample were collected.	Samples were collected and transferred directly to liquid nitrogen and the tissues/cells were grinded to a fine powder using mortar and pestle. 	Isolation and purification of hydrated pollen grains by flowcytometric cell sorting were carried out as described in: Becker JD, Boavida LC, Carneiro J, Haury M, Feijó JA: Transcriptional profiling of Arabidopsis tissues reveals the unique characteristics of the pollen transcriptome. Plant Physiology 133: 713-725 (2003).  	Total RNA was extracted using the RNeasy Mini Kit (Qiagen, Hilden, Germany)according to the manufacturers protocol. 	RNA was processed for use on Affymetrix (Santa Clara, CA, USA) Arabidopsis ATH1 Genome Arrays, according to the manufacturers Small Sample Labeling Protocol vII described in the technical note GeneChip Eukaryotic Small Sample Target Labeling Assay Version II. Briefly, 100 ng of total RNA was used in a reverse transcription reaction (SuperScript II; Invitrogen, Paisley, UK) to generate first-strand cDNA. After second-strand synthesis, double-stranded cDNA was used in an in vitro transcription (IVT) reaction to generate cRNA (MEGAscript T7 kit; Ambion, Austin, TX). 400 ng of this cRNA was used for a second cDNA synthesis, followed by a second IVT reaction to generate biotinylated cRNA (ENZO BioArray HighYield RNA Transcript Labeling Kit; ENZO Diagnostics, Farmingdale, NY). Size distribution of the cRNA and fragmented cRNA, respectively, was assessed using an Agilent 2100 Bioanalyzer with a RNA 6000 Nano Assay.	Title: Affymetrix EukGE-WS2v4 Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	All Probe Sets were scaled to a target value of 200. Important note: Global scaling should  not be used for this type of experiment - see in: Becker JD, Boavida LC, Carneiro J, Haury M, Feijó JA: Transcriptional profiling of Arabidopsis tissues reveals the unique characteristics of the pollen transcriptome. Plant Physiology 133: 713-725 (2003).	
+Protocol Parameters	min temperature;start time;media;max temperature;	min temperature;max temperature;media;start time;	start time;min temperature;media;max temperature;			Extracted product;Amplification;	Amplification;Label used;				
+Protocol Hardware											
+Protocol Software								MicroArraySuite 5.0	MicroArraySuite 5.0		
+Protocol Contact											
+Protocol Term Source REF						mo	mo	mo		mo	
+SDRF File	E-MEXP-285.sdrf.txt										
+Term Source Name	mo	tair_anat:1.2	po_structure_ontology1.1	po	Plant Ontology	tair_dev:1.27	ncbitax	ArrayExpress	The MGED Ontology	mo	EFO
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.arabidopsis.org/info/ontologies/		http://www.plantontology.org	http://www.plantontology.org/	http://www.arabidopsis.org/info/ontologies/	http://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/
+Term Source Version			1.2				1.27				

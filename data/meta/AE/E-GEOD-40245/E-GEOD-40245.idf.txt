@@ -1,0 +1,32 @@
+Comment[ArrayExpressAccession]	E-GEOD-40245						
+MAGE-TAB Version	1.1						
+Public Release Date	2013-04-05						
+Investigation Title	Identification of glucose-TOR signaling early target genes in Arabidopsis seedling autotrophic transition stage						
+Comment[Submitted Name]	Identification of glucose-TOR signaling early target genes in Arabidopsis seedling autotrophic transition stage						
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis estradiol inducible RNAi-tor seedlings treated with glucose						
+Experiment Description	The goal of this experiment was to explore the molecular network of glucose-TOR signaling in Arabidopsis seedling autotrophic transition stage. We used the whole-genome microarrays to detail the global program of gene expression mediated by glucose and TOR. Arabidopsis WT and estradiol inducible RNAi-tor seedlings were germinated in low light condition for 3 days to deplete seed nutrient supply. Fifteen mM glucose was adding back to reactivate the quiescent seedlings and the samples were harvested for RNA isolation.  Transcript profiles were analyzed and compared between with and without glucose treatment to identify early glucose-TOR target genes. Each experimental condition was repeated three times and total 12 samples were generated.						
+Term Source Name	ArrayExpress	EFO					
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Sheen	Xiong	Xiang	McCormack	Sheen		
+Person First Name	Jen	Yan	Chengbin	Matthew	Jen		
+Person Email	sheen@molbio.mgh.harvard.edu						
+Person Affiliation	Massachusetts General Hospital						
+Person Address	Molecular Biology, Massachusetts General Hospital, 185 Cambridge st. CPZN7620, Boston, MA, USA						
+Person Roles	submitter						
+Protocol Name	P-GSE40245-1	P-GSE40245-5	P-GSE40245-6	P-GSE40245-2	P-GSE40245-3	P-GSE40245-4	P-GSE40245-7
+Protocol Description	The data were analyzed in FlexArray using RMA (background correction and normalization) and also dChip (subtract MM from PM). dChip(PM-MM) log(2) with p-value, RMA log(2) signal intensity with p-value data can be found on Series (GSE40245_torC-torG.txt.gz and GSE40245_wtC-wtG.txt.gz). ID_REF =  VALUE = RMA log2 signal	Total RNA (5ug) were amplified and biotinylated using the BioArrayTM HighYieldTM RNA transcript labelling kit (Enzo) according to the manufacturer’s instructions. The RNA was then fragmented in fragmentation buffer (40 mM Tris-Acetate, pH 8.1, 100 mM KOAc, 30 mM MgOAc), 94 degreeCelsius for 35 minutes.	Following fragmentation, 10 ug of cRNA were hybridized on the Arabidopsis ATH1 GeneChips using the Affymetrix 640 Hybridization Oven. GeneChips were washed and stained in the Affymetrix Fluidics Station 450.	Seedlings were treated with or without 15 mM glucose for 2 hours	Arabidopsis wild type (Col-0) and estradiol inducible RNAi-tor plants were grown in 6-well plates containing 1 ml of liquid medium (0.5 x MS, pH 5.7) in a controlled room for 3 days at 22 C, 60% relative humidity, 75 uE light and 12 hr photoperiod.	Total RNA was extracted using RNeasy plant mini kit (Qiagen) according to the manufacturer’s protocol	GeneChips were scanned using GeneChip Scanner 7G with AutoLoader.
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	genotype	compound	dose				
+Experimental Factor Type	genotype	compound	dose				
+Publication Title	Glucose-TOR signalling reprograms the transcriptome and activates meristems.						
+Publication Author List	Xiong Y, McCormack M, Li L, Hall Q, Xiang C, Sheen J						
+PubMed ID	23542588						
+Publication DOI	10.1038/nature12030						
+Comment[SecondaryAccession]	GSE40245						
+Comment[GEOReleaseDate]	2013-04-05						
+Comment[ArrayExpressSubmissionDate]	2012-08-21						
+Comment[GEOLastUpdateDate]	2013-04-05						
+Comment[AEExperimentType]	transcription profiling by array						
+Comment[AdditionalFile:Data1]	GSE40245_torC-torG.txt						
+Comment[AdditionalFile:Data2]	GSE40245_wtC-wtG.txt						
+SDRF File	E-GEOD-40245.sdrf.txt						

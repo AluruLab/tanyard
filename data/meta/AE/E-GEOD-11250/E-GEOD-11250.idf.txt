@@ -1,0 +1,35 @@
+Comment[ArrayExpressAccession]	E-GEOD-11250			
+Investigation Title	Transcription profiling of Arabidopsis seedlings over expressing miR396			
+Comment[Submitted Name]	Overexpression of miR396			
+Publication Title	Control of cell proliferation in Arabidopsis thaliana by microRNA miR396			
+Publication Author List	Rodriguez RE, Mecchia MA, Debernardi JM, Schommer C, Weigel D, Palatnik JF.			
+Publication DOI	10.1242/dev.043067			
+PubMed ID	20023165			
+Publication Status	published			
+Publication Status Term Source REF	EFO			
+Publication Status Term Accession Number	EFO_0001796			
+Experimental Design	unknown_experiment_design_type	transcription profiling by array	transcription profiling by array	transcription profiling by array
+Experimental Design Term Source REF		EFO	EFO	EFO
+Person Last Name	Rodriguez			
+Person First Name	Ramiro			
+Person Email	rrodriguez@ibr.gov.ar			
+Person Address	IBR, Suipacha 531, Rosario, 2000, Argentina			
+Person Affiliation	IBR			
+Person Roles	submitter			
+Public Release Date	2009-10-23			
+Comment[ArrayExpressSubmissionDate]	2008-04-23			
+Comment[GEOReleaseDate]	2009-10-20			
+Comment[SecondaryAccession]	GSE11250			
+Experiment Description	Transcript profile of 10 days-old seedlings over expressing miR396 Experiment Overall Design: 2 samples from 35S:miR396 plants vs 2 samples of wild type plants			
+Protocol Name	P-G11250-1	P-G11250-2	P-G11250-3	
+Protocol Type	labeling	bioassay_data_transformation	nucleic_acid_extraction	
+Protocol Description	Affymetrix instructions	MAS5	QIAGEN - RNeasy Plant Mini Kit	
+Protocol Parameters				
+Protocol Software				
+SDRF File	E-GEOD-11250.sdrf.txt			
+Term Source Name	EFO			
+Term Source File	http://efo.svn.sourceforge.net/viewvc/efo/trunk/src/efoinowl/efo.owl			
+Experimental Factor Name	GENOTYPE			
+Experimental Factor Type	genotype			
+Comment[AEExperimentType]	transcription profiling by array			
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis expressing miR396 under the control of the 35S promoter			

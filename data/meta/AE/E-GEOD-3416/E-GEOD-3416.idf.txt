@@ -1,0 +1,51 @@
+Investigation Title	Transcription profiling of diurnal gene expression in Arabidopsis thaliana Col-0 rosette leaves							
+Comment[Submitted Name]	Diurnal gene expression in Arabidopsis thaliana Col-0 rosette leaves							
+Experimental Design	time_series_design	physiological_process_design	co-expression_design	transcription profiling by array				
+Experimental Design Term Source REF	mo		mo	EFO				
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[ArrayExpressReleaseDate]	2007-06-28							
+Comment[SecondaryAccession]	GSE3416							
+Comment[AEMIAMESCORE]	5							
+Comment[SecondaryAccession]	GDS1757							
+Comment[ArrayExpressAccession]	E-GEOD-3416							
+Comment[MAGETAB TimeStamp_Version]	2010-08-04 21:42:58 Last Changed Rev: 13058							
+Experimental Factor Name	growth condition	time						
+Experimental Factor Type	growth condition	time						
+Experimental Factor Term Source REF								
+Person Last Name	Blasing							
+Person First Name	Oliver							
+Person Mid Initials	E.							
+Person Email	blaesing@mpimp-golm.mpg.de							
+Person Phone								
+Person Fax								
+Person Address	Stitt,Abt. Stitt,Max-Planck-Institut Molekulare Pflanzenphysiologie,Am MÃ¼hlenberg 1,Potsdam-Golm,D-14476,Germany							
+Person Affiliation	Max-Planck-Institut Molekulare Pflanzenphysiologie							
+Person Roles	submitter							
+Person Roles Term Source REF	The MGED Ontology							
+Quality Control Type								
+Quality Control Term Source REF								
+Replicate Type								
+Replicate Term Source REF								
+Normalization Type								
+Normalization Term Source REF								
+Date of Experiment								
+Public Release Date	2007-06-28							
+PubMed ID	16299223							
+Publication DOI	10.1105/tpc.105.035261 							
+Publication Author List	Oliver E Blasing,Yves Gibon,Manuela Gunther,Melanie Hohne,Rosa Morcuende,Daniel Osuna,Oliver Thimm,Bjorn Usadel,Wolf-Rudiger Scheible,Mark Stitt							
+Publication Title	Sugars and circadian regulation make major contributions to the global regulation of diurnal gene expression in Arabidopsis.							
+Publication Status	published							
+Publication Status Term Source REF	EFO							
+Experiment Description	How do the transcript levels of leaf-expressed genes change in a normal day-night cycle? The interest is in genes that are regulated by the circadian clock and the diurnal component (i.e. light, metabolite changes). Plants were grown on soil in a 12/12 h light/dark rythm at 20Â°C day and night. 5 weeks after germination the rosettes of the non-flowering plants were harvested, 15 plants per sample. Plants were harvested at 6 timepoints every 4 hours beginning with the end of the night (still in darkness).							
+Protocol Name	P-G3416-1	P-G3416-2	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6				
+Protocol Type	nucleic_acid_extraction	labeling	hybridization	feature_extraction				
+Protocol Description	5 x 3 rosettes were harvested and directly frozen by liquid nitrogen, inside the growth chamber. The material of 15 rosettes was ground in liquid nitrogen.Total RNA was extracted from 250 mg fresh weight using 5 ml TriZol. Organic compounts were removed by 2 chloroform extractions. Precipitation was done with sodium chloride/sodium citrate/2-propanol over night at 4Â&deg;C. Ethanol wash of RNA pellet was done twice with 75% Ethanol. Total RNA was dissolved in pure H2O.	Approximately 10 Â&#956;g of total RNA was processed to produce biotinylated cRNA targets.	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 				
+Protocol Parameters								
+Protocol Hardware								
+Protocol Software			MicroArraySuite 5.0	MicroArraySuite 5.0				
+Protocol Contact								
+Protocol Term Source REF			mo					
+SDRF File	E-GEOD-3416.sdrf.txt							
+Term Source Name	mo	NCBI Taxonomy	po	The MGED Ontology	ArrayExpress	mo	EFO	The MGED Ontology
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://www.plantontology.org	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version								

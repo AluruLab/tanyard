@@ -1,0 +1,53 @@
+Investigation Title	Transcription profiling of Arabidopsis suspension cells exposed to a range of abiotic treatments														
+Comment[Submitted Name]	Cell culture treatment study														
+Experimental Design	compound_treatment_design	co-expression_design	transcription profiling by array												
+Experimental Design Term Source REF	mo	mo	EFO												
+Comment[AEExperimentType]	transcription profiling by array														
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis cells after a range of abiotic treatments														
+Comment[ArrayExpressReleaseDate]	2007-07-11														
+Comment[SecondaryAccession]	GSE3709														
+Comment[AEMIAMESCORE]	4														
+Comment[SecondaryAccession]	GDS1620														
+Comment[ArrayExpressAccession]	E-GEOD-3709														
+Comment[MAGETAB TimeStamp_Version]	2010-08-05 12:19:43 Last Changed Rev: 13058														
+Experimental Factor Name	Dose	Time	GrowthCondition	Compound											
+Experimental Factor Type	dose	time	growth_condition	compound											
+Experimental Factor Term Source REF															
+Person Last Name	Clifton														
+Person First Name	Rachel														
+Person Mid Initials															
+Person Email	crachel@cyllene.uwa.edu.au														
+Person Phone															
+Person Fax															
+Person Address	Plant Molecular Biology Group,Biochemistry, UWA,Plant Energy Biology, ARC Centre of Excellence,4th Floor CMS Building M310, University of Western Australia,Crawley,6009,Australia														
+Person Affiliation	Plant Energy Biology, ARC Centre of Excellence														
+Person Roles	submitter														
+Person Roles Term Source REF	The MGED Ontology														
+Quality Control Type															
+Quality Control Term Source REF															
+Replicate Type															
+Replicate Term Source REF															
+Normalization Type															
+Normalization Term Source REF															
+Date of Experiment															
+Public Release Date	2007-07-11														
+PubMed ID	16027974														
+Publication DOI	10.1007/s11103-005-5514-7														
+Publication Author List	Clifton R, Lister R, Parker KL, Sappl PG, Elhafez D, Millar AH, Day DA, Whelan J.														
+Publication Title	Stress-induced co-expression of alternative respiratory chain components in Arabidopsis thaliana.														
+Publication Status	published														
+Publication Status Term Source REF	EFO														
+Publication Status Term Accession Number	EFO_0001796														
+Experiment Description	Profiling the transcriptome of Arabidopsis suspension cells in response to a range of abiotic treatments. Experiment Overall Design: variable_1 = 3 h Experiment Overall Design: variable_2 = 12 h Experiment Overall Design: variable_3 = untreated, control Experiment Overall Design: variable_4 = hydrogen peroxide Experiment Overall Design: variable_5 = N2 air replacement Experiment Overall Design: variable_6 = chitin Experiment Overall Design: variable_7 = cold Experiment Overall Design: variable_8 = cysteine Experiment Overall Design: variable_9 = flagellen Experiment Overall Design: variable_10 = mannitol Experiment Overall Design: variable_11 = norflurazon Experiment Overall Design: variable_12 = oligomycin 0.125 uM Experiment Overall Design: variable_13 = oligomycin 1.25 uM Experiment Overall Design: variable_14 = roteonone Experiment Overall Design: variable_15 = salicylic acid 10 uM Experiment Overall Design: variable_16 = salicylic acid 100 uM Experiment Overall Design: variable_17 = chloramphenicol														
+Protocol Name	P-G3709-11	P-G3709-13	P-G3709-7	P-G3709-1	P-G3709-6	P-G3709-14	P-G3709-2	P-G3709-10	P-G3709-3	P-G3709-8	P-G3709-5	P-G3709-4	P-G3709-9	P-G3709-12	P-G3709-15
+Protocol Type	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	labeling
+Protocol Description	250 mL flasks of suspension cells were treated by the addition of 480 ul of 10 mM rotenone to obtain a final concentration of 40 uM in the flask, samples were collected 12 h after treatment.	250 mL flasks of suspension cells were treated by the addition of 100 ul of 0.24 M chloramphenicol to obtain a final concentration of 200 uM in the flask, samples were collected 12 h after treatment.	250 mL flasks of suspension cells were treated by the addition of flagellen to obtain a final concentration of 1 uM in the flask, samples were collected 3 h after treatment.	250 mL flasks of suspension cells were treated by the addition of 130 uL 8.82 M hydrogen peroxide to a final concentration of 10 mM samples were collected 3 h after treatment.	250 mL flasks of suspension cells were cold (10Â&deg;C) treated, samples were collected 3 h after treatment.	250 mL flasks of suspension cells were treated by the addition of 120 ul of 1 M chloramphenicol to obtain a final concentration of 1 mM in the flask, samples were collected 12 h after treatment.	250 mL flasks of suspension cells were treated by the addition of 15 uL of 1 mM oligomycin dissolved in ethanol to obtain a final concentration in the flask of 0.125 uM, samples were collected 3 h after treatment.	250 mL flasks of suspension cells were treated by the addition of 120 ul of 100 mM salicylic acid to obtain a final concentration of 100 uM in the flask, samples were collected 3 h after treatment.	250 mL flasks of suspension cells were treated by the addition of 150 uL of 1 mM oligomycin dissolved in ethanol to obtain a final concentration in the flask of 1.25 uM, samples were collected 3 h after treatment.	250 mL flasks of suspension cells were treated by the addition of 480 ul of 10 mM rotenone to obtain a final concentration of 40 uM in the flask, samples were collected 3 h after treatment.	250 mL flasks of suspension cells were treated by the addition of 100 ul of 0.24 M chloramphenicol to obtain a final concentration of 200 uM in the flask, samples were collected 3 h after treatment.	250 mL flasks of suspension cells were treated by the addition of chitin to obtain a final concentration of 50 mg/L in the flask, samples were collected 3 h after treatment.	250 mL flasks of suspension cells were treated by the addition of 12 ul of 100 mM salicylic acid to obtain a final concentration of 10 uM in the flask, samples were collected 3 h after treatment.	250 mL flasks of suspension cells were treated by the addition of 100 ul of 120 mM rotenone to obtain a final concentration of 100 uM in the flask, samples were collected 12 h after treatment.	Approximately 5 Â&#956;g of total RNA was processed to produce biotinylated cRNA targets.
+Protocol Parameters															
+Protocol Hardware															
+Protocol Software															
+Protocol Contact															
+Protocol Term Source REF															
+SDRF File	E-GEOD-3709.sdrf.txt														
+Term Source Name	NCBI Taxonomy	The MGED Ontology	ArrayExpress		NCI_thesaurus	nci_meta	mo	EFO	The MGED Ontology						
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress		ncithesaurus.obo.alt	http://ncimeta.nci.nih.gov/indexMetaphrase.html	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php						
+Term Source Version															

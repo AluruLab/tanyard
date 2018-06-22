@@ -1,0 +1,49 @@
+Investigation Title	Cell signalling by microRNA165/6 directs gene dose dependent root cell fate	
+Comment[Submitted Name]	Cell signalling by microRNA165/6 directs gene dose dependent root cell fate	
+Experimental Design	transcription profiling by array	
+Experimental Design Term Source REF	EFO	
+Comment[AEMIAMESCORE]	3	
+Comment[SecondaryAccession]	GSE16469	
+Comment[ArrayExpressReleaseDate]	2010-04-27	
+Comment[ArrayExpressAccession]	E-GEOD-16469	
+Comment[MAGETAB TimeStamp_Version]	2010-08-02 17:47:04 Last Changed Rev: 13058	
+Experimental Factor Name	
+Experimental Factor Type	
+Experimental Factor Term Source REF	
+Person Last Name	Lee	Benfey	
+Person First Name	Ji-Young	Philip	
+Person Mid Initials	
+Person Email	jl924@cornell.edu	
+Person Phone	
+Person Fax	
+Person Address	Boyce Thompson Institute, Tower Rd., Ithaca, 14853, USA	
+Person Affiliation	Boyce Thompson Institute	
+Person Roles	submitter	
+Person Roles Term Source REF	The MGED Ontology	
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2010-04-27	
+PubMed ID	
+Publication DOI	
+Publication Author List	
+Publication Title	
+Publication Status	
+Publication Status Term Source REF	
+Experiment Description	A key question in developmental biology is how cells exchange positional information for proper patterning during organ development. In plant roots the radial tissue organization is highly conserved with a central vascular cylinder in which two water conducting cell types, protoxylem and metaxylem, are patterned centripetally. We show that this patterning occurs through crosstalk between the vascular cylinder and the surrounding endodermis mediated by cell-to-cell movement of a transcription factor in one direction and microRNAs in the other. SHORT ROOT, produced in the vascular cylinder, moves into the endodermis to activate SCARECROW. Together these transcription factors activate MIR165a and 166b. Endodermally produced miR165/6 then acts to degrade its target mRNAs encoding class III homeodomain-leucine zipper transcription factors in the endodermis and stele periphery. The resulting differential distribution of target mRNA in the vascular cylinder determines xylem cell types in a dosage dependent manner. To investigate the global regulation of SHR and SCR in the root, direct and indirect target genes of SHR and SCR were cross-compared with selected cell type specific expression profiles in the Arabidopsis root published in Birnbaum et al. (2003), Nawy et al. (2005), Lee et al. (2006), and Brady et al. (2007) [pubmed IDs: 14671301, 15937229, 16581911, 17975066].  Furthermore, the mature endodermis specific transcript profiles were generated using a GFP marker line, E30, and used together with published profiles in this comparison.	
+Protocol Name	P-GSE16469-2	P-GSE16469-3	P-GSE16469-4	P-GSE16469-5	P-GSE16469-6	P-GSE16469-7	P-GSE16469-8	P-GSE16469-1	
+Protocol Type	specified_biomaterial_action	grow	nucleic_acid_extraction	labeling	hybridization	image_aquisition	feature_extraction	bioassay_data_transformation	
+Protocol Description	Seeds were surface sterilized with 50% Bleach and 0.1% Tween for 5 minutes and then rinsed 3 times with sterile water. Seeds were stratified at 4ËC for 2 days before being planted on standard media. Standard media is 1X concentration Murashige and Skoog salt mixture (Caisson laboratories), 0.5g/L MES, 1% sucrose, 1% agar and adjusted to pH 5.7 with KOH. Nylon mesh was placed on top of the solidified media and seeds were evenly placed on the mesh in two rows. About 1cm long root tips were harvested and placed in the protoplast solution as described in Birnbaum et al. (2005) Nat. Methods. GFP expressing protoplasts  were isolated from Fluorescence Activated Cell Sorter to collect total RNA.	Seedlings were grown vertically for 6 days at 22 degree under 16 hours of day and 8 hours of night.	RNA was extracted using the RNAeasy Micro Kit (Qiagen GmbH)	Biotinylated cRNA was prepared using the two-cycle amplification protocol by Affymetrix.	Samples were submitted to Expression Analysis Inc. (Durham, NC) for hybridization to Affymetrix ATH1 microarrays.	Samples were submitted to Expression Analysis Inc. (Durham, NC) for hybridization to Affymetrix ATH1 microarrays.	The data were analyzed with Microarray Suite version 5.0 (MAS 5.0) using Affymetrix default analysis settings and global scaling as normalization method.	ID_REF = <br>VALUE = signal intensity	
+Protocol Parameters	
+Protocol Hardware	
+Protocol Software	
+Protocol Contact	
+Protocol Term Source REF							The MGED Ontology	The MGED Ontology	
+SDRF File	E-GEOD-16469.sdrf.txt	
+Term Source Name	NCBI Taxonomy		The MGED Ontology	ArrayExpress	EFO	The MGED Ontology	
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version							

@@ -1,0 +1,30 @@
+Comment[ArrayExpressAccession]	E-GEOD-537
+MAGE-TAB Version	1.1			
+Public Release Date	2003-08-06
+Investigation Title	Seedling ethylene treatment			
+Comment[Submitted Name]	Seedling ethylene treatment
+Experiment Description	Effect of ethylene treatment on wild-type Arabidopsis seedlings (ecotype Col-0). Keywords: other			
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl		
+Person Last Name	Alonso	Guzman	Ecker	
+Person First Name	Jose	Plinio	Joseph	
+Person Mid Initials	M		R	
+Person Email	jmalonso@unity.ncsu.edu			
+Person Affiliation	North Carolina State University			
+Person Phone	919-515-5729			
+Person Address	Genetics, North Carolina State University, , Raleigh, NC, USA			
+Person Roles	submitter			
+Protocol Name	P-GSE537-3	P-GSE537-4	P-GSE537-1	P-GSE537-2
+Protocol Description	ID_REF =  VALUE = Normalized expression values	ID_REF =  VALUE = normalized expression values	ID_REF =  VALUE = air experiment1 replica1 normalized	ID_REF =  VALUE = normalized expression value
+Protocol Type	normalization data transformation protocol	normalization data transformation protocol	normalization data transformation protocol	normalization data transformation protocol
+Publication Title	Genome-wide insertional mutagenesis of Arabidopsis thaliana.			
+Publication Author List	Alonso JM, Stepanova AN, Leisse TJ, Kim CJ, Chen H, Shinn P, Stevenson DK, Zimmerman J, Barajas P, Cheuk R, Gadrinab C, Heller C, Jeske A, Koesema E, Meyers CC, Parker H, Prednis L, Ansari Y, Choy N, Deen H, Geralt M, Hazari N, Hom E, Karnes M, Mulholland C, Ndubaku R, Schmidt I, Guzman P, Aguilar-Henonin L, Schmid M, Weigel D, Carter DE, Marchand T, Risseeuw E, Brogden D, Zeko A, Crosby WL, Berry CC, Ecker JR			
+PubMed ID	12893945			
+Publication DOI	10.1126/science.1086391			
+Comment[SecondaryAccession]	GSE537			
+Comment[GEOReleaseDate]	2003-08-06			
+Comment[ArrayExpressSubmissionDate]	2003-07-16			
+Comment[GEOLastUpdateDate]	2014-03-10			
+Comment[AEExperimentType]	transcription profiling by array			
+Comment[SecondaryAccession]	GDS414			
+SDRF File	E-GEOD-537.sdrf.txt

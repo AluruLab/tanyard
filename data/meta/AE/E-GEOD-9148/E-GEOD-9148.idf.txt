@@ -1,0 +1,51 @@
+Investigation Title	Transcription profiling of Arabidopsis 10 day old wild type and chl1-5 plants exposed to 25 mM nitrate for 0h or 0.5h						
+Comment[Submitted Name]	Expression data of 10-day-old wild-type and chl1-5 plants exposed to 25 mM nitrate for 0h or 0.5h						
+Experimental Design	unknown_experiment_design_type	transcription profiling by array					
+Experimental Design Term Source REF		EFO					
+Comment[AEExperimentType]	transcription profiling by array						
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for chl1 after treatment with nitrate						
+Comment[ArrayExpressReleaseDate]	2008-06-16						
+Comment[SecondaryAccession]	GSE9148						
+Comment[AEMIAMESCORE]	4						
+Comment[ArrayExpressAccession]	E-GEOD-9148						
+Comment[MAGETAB TimeStamp_Version]	2010-08-09 12:57:54 Last Changed Rev: 13058						
+Experimental Factor Name	genotype	growth condition					
+Experimental Factor Type	genotype	growth condition					
+Experimental Factor Term Source REF							
+Person Last Name	Tsay						
+Person First Name	Yi-Fang						
+Person Mid Initials							
+Person Email	mbyftsay@ccvax.sinica.edu.tw						
+Person Phone							
+Person Fax							
+Person Address	"N317, Institute of Molecular Biology, Academia Sinica, 128 Sec. 2, Academia Rd, Nankang, Taipei, 114, Taiwan"						
+Person Affiliation	Academia Sinica						
+Person Roles	submitter						
+Person Roles Term Source REF	The MGED Ontology						
+Quality Control Type							
+Quality Control Term Source REF							
+Replicate Type							
+Replicate Term Source REF							
+Normalization Type							
+Normalization Term Source REF							
+Date of Experiment							
+Public Release Date	2008-06-16						
+PubMed ID							
+Publication DOI							
+Publication Author List							
+Publication Title							
+Publication Status							
+Publication Status Term Source REF							
+Experiment Description	"CHL1 is one of major nitrate transporters responsible for nitrate uptake and some studies suggest that it may be also play a role in regulating the nitrate response, its influence was analyzed in a global transcriptome study using Affymetrix ATH1 array. Experiment Overall Design: Three biological replicates of 10-day-old Arabidopsis root tissue from wild-type and chl1-5 plants were performed to explore differences  in gene expression between the wild-type and chl1-5 mutants exposed to 25 mM nitrate for 0h (T0) or 0.5h (T0.5) using Affymetrix ATH1 microarray."						
+Protocol Name	P-G9148-1	P-G9148-2	P-G9148-4	P-G9148-3	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6	
+Protocol Type	grow	specified_biomaterial_action	nucleic_acid_extraction	labeling	hybridization	feature_extraction	
+Protocol Description	"Approximately 100 sterilized seeds of Arabidopsis thaliana wild-type and chl1-5 plants (Columbia ecotype) were grown in different areas on the same mesh in a Magenta vessel (Sigma) in 60 mL of NO3--free liquid growth medium (10 mM K2HPO4/KH2PO4 pH 5.5, 2 mM MgSO4, 0.1 mM FeSO4-EDTA, 1 mM CaCl2, 50 Î¼M H3BO3, 12 Î¼M MnSO4â¢H2O, 1 Î¼M ZnCl2, 1 Î¼M CuSO4â¢5H2O, 0.2 Î¼M Na2MoO4â¢2H2O, 1 g/L MES, 0.5% sucrose) containing 12.5 mM (NH4)2 succinate as the sole nitrogen source, pH 6.5.  For each biological replicate, 9 vessels ( ~ 900 seedlings / each replicate) of samples were pooled to use in a single independent experiment.  Plants were grown under continuous illumination at 24-26Â&deg;C and rotated at 100 rpm."	"10-day-old plants were shifted to 60 mL of the same 12.5 mM (NH4)2 succinate medium in which the pH had been changed to 5.5 by addition of HCl.  After 3 h treatment, the plants were washed twice with 10 mM K2HPO4/KH2PO4, pH 5.5, then 1) collected the root sample (T0), or 2) shifted for 0.5 hour (T0.5) to 60 mL of the same pH 5.5 growth medium, but with the 12.5 mM (NH4)2 succinate replaced by 25 mM KNO3, and the root sample was collected after 30 min induction."	"Total RNA was isolated using TRIzol Reagent (Invitrogen Life Technology, Grand Island, NY, U.S.A.) according to the manufacturerâs instructions, followed by chloroform extraction and isopropanol / EtOH precipitation.  The total RNA was further purified using an RNeasy Plant Mini Kit (Qiagen, Chatsworth, CA)"	"Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 6 ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix)."	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	
+Protocol Parameters							
+Protocol Hardware							
+Protocol Software					MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact							
+Protocol Term Source REF					mo		
+SDRF File	E-GEOD-9148.sdrf.txt						
+Term Source Name	NCBI Taxonomy		The MGED Ontology	ArrayExpress	EFO	The MGED Ontology	mo
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version							

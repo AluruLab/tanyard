@@ -1,0 +1,51 @@
+Investigation Title	Transcription profiling of Arabidopsis pickle mutants					
+Comment[Submitted Name]	Transcription profiling of Arabidopsis pickle mutants					
+Experimental Design	genetic_modification_design	in_vivo_design	co-expression_design	transcription profiling by array		
+Experimental Design Term Source REF	The MGED Ontology		The MGED Ontology	EFO		
+Comment[AEExperimentType]	transcription profiling by array					
+Comment[AEExperimentDisplayName]	Transcription profiling of Arabidopsis pickle mutants					
+Comment[AEMIAMESCORE]	5					
+Comment[SecondaryAccession]						
+Comment[ArrayExpressReleaseDate]	2009-08-19					
+Comment[ArrayExpressAccession]	E-MEXP-2140					
+Comment[MAGETAB TimeStamp_Version]	2010-08-10 11:16:06 Last Changed Rev: 13058					
+Experimental Factor Name	genotype					
+Experimental Factor Type	genotype					
+Experimental Factor Term Source REF						
+Person Last Name	Hennig					
+Person First Name	Lars					
+Person Mid Initials						
+Person Email	lhennig@ethz.ch					
+Person Phone	41 44 632 2244					
+Person Fax						
+Person Address	"Zurich, ETH Center, LFW E17, 8092, Switzerland"					
+Person Affiliation	ETH Zurich					
+Person Roles	submitter					
+Person Roles Term Source REF	The MGED Ontology					
+Quality Control Type	biological_replicate					
+Quality Control Term Source REF	The MGED Ontology					
+Replicate Type						
+Replicate Term Source REF						
+Normalization Type						
+Normalization Term Source REF						
+Date of Experiment						
+Public Release Date	2009-08-19					
+PubMed ID	19680533					
+Publication DOI	10.1371/journal.pgen.1000605					
+Publication Author List	"Aichinger E, Villar CB, Farrona S, Reyes JC, Hennig L, K�hler C."					
+Publication Title	CHD3 Proteins and Polycomb Group Proteins Antagonistically Determine Cell Identity in Arabidopsis					
+Publication Status	published					
+Publication Status Term Source REF	EFO					
+Experiment Description	"Wild type, pkl, pkr2 and pkl pkr2 plants were grown, and gene expression in roots was compared at the age of 5 days. <br>"					
+Protocol Name	P-MTAB-3962	P-MTAB-3963	P-AFFY-2	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6	P-MTAB-3961
+Protocol Type	nucleic_acid_extraction	grow	labeling	hybridization	feature_extraction	bioassay_data_transformation
+Protocol Description	"Total RNA was prepared from frozen tissue using Trizol and purified with RNeasy columns (Quiagen, Hilden, Germany).<br>(Parameters: Extracted product = total_RNA, Amplification = none)"	"Seeds were plated on sterile MS medium containing 1% agar. After stratification for 48h at 4°C, plates were incubated in Weiss growth chambers (Weiss, Switzerland). Growth conditions were 16 h photoperiod, 23°C and white light of 70 umol/m2s. Twelve days after induction of germination, 4 h after dawn, complete seedlings were harvested into liquid nitrogen. The entire experiment was performed twice providing independent biological replicates. <br>(Parameters: start time = 12, time unit = days, min temperature = 23, temperature unit = C, media = MS medium containing 1% agar)"	Title: Affymetrix in vitro transcription. Description: 	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	"Signal values were derived from Affymetrix *.cel files using a modified version of the robust multiple array normalisation (GCRMA, [Wu, 2003])."
+Protocol Parameters						
+Protocol Hardware						
+Protocol Software				MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact						
+Protocol Term Source REF				The MGED Ontology		The MGED Ontology
+SDRF File	E-MEXP-2140.sdrf.txt					
+Term Source Name	The MGED Ontology	EFO				
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/				
+Term Source Version						

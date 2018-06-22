@@ -1,0 +1,48 @@
+Investigation Title	Transcription profiling of Arabidopsis rosettes from plants over-expressing OBP1 to identify candidate target genes	
+Comment[Submitted Name]	OBP1_target_genes	
+Experimental Design	co-expression_design	genetic_modification_design	transcription profiling by array	
+Experimental Design Term Source REF	mo	mo	EFO	
+Comment[ArrayExpressReleaseDate]	2008-11-03	
+Comment[AEMIAMESCORE]	5	
+Comment[ArrayExpressAccession]	E-MEXP-1360	
+Comment[MAGETAB TimeStamp_Version]	2010-08-09 21:11:19 Last Changed Rev: 13058	
+Experimental Factor Name	genotype	
+Experimental Factor Type	genotype	
+Experimental Factor Term Source REF	
+Person Last Name	Hannah	
+Person First Name	Matt	
+Person Mid Initials	A	
+Person Email	hannah@mpimp-golm.mpg.de	
+Person Phone	+49 3315678623	
+Person Fax	
+Person Address	Am Mühlenberg 1	
+Person Affiliation	Willmitzer	
+Person Roles	submitter	
+Person Roles Term Source REF	The MGED Ontology	
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2008-11-03	
+PubMed ID	18665917	
+Publication DOI	18665917	
+Publication Author List	Skirycz A, Radziejwoski A, Busch W, Hannah MA, Czeszejko J, Kwa[niewski M, Zanor MI, Lohmann JU, De Veylder L, Witt I, Mueller-Roeber B.	
+Publication Title	The DOF transcription factor OBP1 is involved in cell cycle regulation in Arabidopsis thaliana	
+Publication Status	journal_article	
+Publication Status Term Source REF	The MGED Ontology	
+Experiment Description	In order to identify candidate target genes of the OBP1 (At3g50410) transcription factor we used dexamethasone inducible system (Lloyd et al, 1994). A single inducible over-expression line was compared to an empty vector control line 10h after DEX induction to identify candidate genes that were confirmed by quantitative RT-PCR.	
+Protocol Name	P-MEXP-119374	P-MEXP-119378	P-MEXP-119376	P-MEXP-119377	P-AFFY-2	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6	Affymetrix:Protocol:ExpressionStat	
+Protocol Type	grow	specified_biomaterial_action	pool	nucleic_acid_extraction	labeling	hybridization	feature_extraction	bioassay_data_transformation	
+Protocol Description	C24 was initially soil grown for 2 weeks in short-days (8 h) at 150 µmol m-2 s-1 light before picking and transfer to long-days (16 h) in a greenhouse at a day/night air temperature of 20 °C/18 °C and a minimum of 200 µmol m-2 s-1 light. 	C24 plants transformed with either empty vector [d143(pBI-GR), Lloyd et al. 1994, Science 266, 436] or OBP1:GR fusion were sprayed with 25µM dexamethasone in 0.025% (v/v) Ethanol. Treatment was performed at 09:00 and plants were harvested at 19:00.	Whole rosettes from 3 individual plants were pooled.	Trizol (Invitrogen) extraction following manual.	Title: Affymetrix in vitro transcription. Description: 	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 	
+Protocol Parameters	media;			Extracted product;Amplification;	
+Protocol Hardware	
+Protocol Software						MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact	
+Protocol Term Source REF			The MGED Ontology			mo		The MGED Ontology	
+SDRF File	E-MEXP-1360.sdrf.txt	
+Term Source Name	NCBI Taxonomy		nasc	The MGED Ontology	ArrayExpress	mo	EFO	The MGED Ontology	
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://arabidopsis.info/catalogue.html	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version									

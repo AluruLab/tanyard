@@ -1,0 +1,52 @@
+Investigation Title	Gene expression profiling of Arabidopsis Atwrky12 mutants stems						
+Comment[Submitted Name]	Gene expression profiling of Arabidopsis Atwrky12 mutants stems						
+Experimental Design	genetic_modification_design	co-expression_design	replicate_design	transcription profiling by array			
+Experimental Design Term Source REF	The MGED Ontology	The MGED Ontology	The MGED Ontology	EFO			
+Comment[AEExperimentType]	transcription profiling by array						
+Comment[AEExperimentDisplayName]	Gene expression profiling of Arabidopsis Atwrky12 mutants stems						
+Comment[AEMIAMESCORE]	5						
+Comment[SecondaryAccession]							
+Comment[ArrayExpressReleaseDate]	2011-06-01						
+Comment[ArrayExpressAccession]	E-MEXP-2792						
+Comment[MAGETAB TimeStamp_Version]	2010-08-10 14:23:12 Last Changed Rev: 13058						
+Experimental Factor Name	genotype						
+Experimental Factor Type	genotype						
+Experimental Factor Term Source REF							
+Person Last Name	Tang						
+Person First Name	Yuhong						
+Person Mid Initials							
+Person Email	ytang@noble.org						
+Person Phone	5802246645						
+Person Fax							
+Person Address	"2510 Sam Noble Pkwy, Ardmore, Oklahoma, 73401, USA"						
+Person Affiliation	The Samuel Robert Noble Foundation						
+Person Roles	submitter						
+Person Roles Term Source REF	The MGED Ontology						
+Quality Control Type	biological_replicate						
+Quality Control Term Source REF	The MGED Ontology						
+Replicate Type							
+Replicate Term Source REF							
+Normalization Type							
+Normalization Term Source REF							
+Date of Experiment							
+Public Release Date	2011-06-01						
+PubMed ID	21135241						
+Publication DOI	10.1073/pnas.1016436107						
+Publication Author List	"Wang H, Avci U, Nakashima J, Hahn MG, Chen F, Dixon RA"						
+Publication Title	Mutation of WRKY transcription factors initiates pith secondary wall formation and increases stem biomass in dicotyledonous plants						
+Publication Status	published						
+Publication Status Term Source REF	EFO						
+Publication Status Term Accession Number	EFO_0001796						
+Experiment Description	Gene expression profile in Arabidopsis stems of T-DNA insertion lines Atwrky12-1 and Atwrky12-2 were compared with Columbia wild-type plants at 45 days after germination.						
+Protocol Name	P-MTAB-15816	P-MTAB-15813	P-MTAB-15814	P-AFFY-2	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6	P-MTAB-15815
+Protocol Type	grow	nucleic_acid_extraction	specified_biomaterial_action	labeling	hybridization	feature_extraction	bioassay_data_transformation
+Protocol Description	"Arabidopsis thaliana wild-type Col-0 and T-DNA insert lines were grown in growth chambers at 22 oC under long day condition (16 hrs light). Stems of 45 days old plants were used for all experiments.<br><br><br>(Parameters: start time = 45, time unit = days, min temperature = 22, temperature unit = C, media = Potting soil mix)"	"Total RNA was extracted using TRIZOL reagent, treated with DNaseI (Ambion), and column purified with an RNeasy MinElute CleanUp kit (Qiagen).<br>(Parameters: Extracted product = total_RNA, Amplification = none)"	"For Arabidopsis, 1/3 of the bottom part of stems of Atwrky12-1 and Atwrky12-2 homozygous plants and Columbia wild type plants were used."	Title: Affymetrix in vitro transcription. Description: 	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	The normalized data was obtained by using RMA. All chips were normalized together using robust multichip average.  Median polish was used for the probe level summary.
+Protocol Parameters							
+Protocol Hardware							
+Protocol Software					MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact							
+Protocol Term Source REF	The MGED Ontology	The MGED Ontology	The MGED Ontology		The MGED Ontology		The MGED Ontology
+SDRF File	E-MEXP-2792.sdrf.txt						
+Term Source Name	The MGED Ontology	EFO					
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/					
+Term Source Version							

@@ -1,0 +1,50 @@
+Investigation Title	Transcription profiling of hy5 single mutant, hyh single mutant, hy5 hyh double mutant and wild type Arabidopsis seedlings of two different ecotypes and with or without auxin treatment								
+Comment[Submitted Name]	Hardtke-Arabidopsis thaliana-auxin signaling deregulation								
+Experimental Design	compound_treatment_design	individual_genetic_characteristics_design	transcription profiling by array						
+Experimental Design Term Source REF	mo		EFO						
+Comment[AEExperimentType]	transcription profiling by array								
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for hy5 and/or hyh after treatment with auxin								
+Comment[ArrayExpressReleaseDate]	2006-11-08								
+Comment[AEMIAMESCORE]	5								
+Comment[ArrayExpressAccession]	E-MEXP-715								
+Comment[MAGETAB TimeStamp_Version]	2010-08-11 15:42:57 Last Changed Rev: 13058								
+Experimental Factor Name	compound	dose	ecotype	genotype					
+Experimental Factor Type	compound	dose	ecotype	genotype					
+Experimental Factor Term Source REF									
+Person Last Name	Sibout								
+Person First Name	Richard								
+Person Mid Initials									
+Person Email	rsibout@unil.ch								
+Person Phone	041 21 649 4257								
+Person Fax									
+Person Address	batiment biophore 1015-Lausanne								
+Person Affiliation	DBMV								
+Person Roles	submitter								
+Person Roles Term Source REF									
+Quality Control Type									
+Quality Control Term Source REF									
+Replicate Type									
+Replicate Term Source REF									
+Normalization Type									
+Normalization Term Source REF									
+Date of Experiment									
+Public Release Date	2006-11-08								
+PubMed ID	17121469								
+Publication DOI	10.1371/journal.pgen.0020202								
+Publication Author List	Sibout R, Sukumar P, Hettiarachchi C, Holm M, Muday GK, Hardtke CS.								
+Publication Title	Opposite root growth phenotypes of hy5 versus hy5 hyh mutants correlate with increased constitutive auxin signaling.								
+Publication Status	published								
+Publication Status Term Source REF	EFO								
+Experiment Description	Arabidopsis thaliana seedlings comprising hy5 single mutant , hyh single mutant, hy5 hyh double mutant and wild-type plants were germinated in the dark on agar medium on usual Murashig and Skoog medium (pH 5.8) without sucrose. After 3 days of germination, etiolated seedlings were transfered to light conditions in liquid media similar to previous one but without agar . After 5 hours, auxin (10 micromolar IAA) was added to all treated samples except to controls (Mock treatment). all samples were harvested after one-hour treatment and frozen for further RNA extraction. Aim of the project was to detect impact of exogenous auxin treatment  on each genotype 								
+Protocol Name	P-MEXP-22776	P-MEXP-22777	P-MEXP-22778	P-AFFY-2	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6	P-MEXP-29361		
+Protocol Type	grow	specified_biomaterial_action	nucleic_acid_extraction	labeling	hybridization	feature_extraction	bioassay_data_transformation		
+Protocol Description	Etiolated seedlings were germinated on Murashig and Skoog (MS) medium (on agar plates) without sucrose. 3 days after germination, seedling were transfered in liquid MS (in light) and harvested after 6 hours.	After 3 days of germination, etiolated seedlings were transfered to light conditions in liquid Murashig and Skoog medium without sucrose. After 5 hours, 10 microMolar auxin (IAA) was added to all treated samples except to controls (Mock treatment). Samples were harvested one-hour after treatment and frozen for further RNA extraction.	QIAGEN protocol for plants and fungi. Frozen seedlings were ground in liquid nitrogen. 450ul of buffer RLT were added to 100mg of powder and the tube was centrifuged (15s,8000g). Lysate was added to 0.5 volume of ethanol and applied to RNeasy mini column and thus centrifuged (15s, 8000g). DNAse treatment was carried out according to the protocol. 700ul of buffer RW1 were added and the column was centrifuged (15s, 8000g) the column was centrifuged once to remove buffer RPE. Total RNA was eluted with 30 ul of rnase-free water 	Title: Affymetrix in vitro transcription. Description: 	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	Normalized signal intensities using generated using the Affymetrix MAS 5.0 default algorithm for each CEL file. The caluclation was performed using the RACE web site at University of Lausanne (http://race.unil.ch/). This software is described in: Psarros M, Heber S, Sick M, Thoppae G, Harshman K, Sick B. RACE: Remote Analysis Computation for gene Expression data. Nucleic Acids Res. 2005 Jul 1;33(Web Server issue):W638-43.		
+Protocol Parameters	media;start time;stop time;min temperature;		Extracted product;Amplification;						
+Protocol Hardware									
+Protocol Software					MicroArraySuite 5.0	MicroArraySuite 5.0			
+Protocol Contact									
+Protocol Term Source REF		mo			mo		The MGED Ontology		
+SDRF File	E-MEXP-715.sdrf.txt								
+Term Source Name	mo		The MGED Ontology	tair_dev:1.27	ncbitax	ArrayExpress	mo	EFO	The MGED Ontology
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.arabidopsis.org/info/ontologies/	http://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version				1.27					

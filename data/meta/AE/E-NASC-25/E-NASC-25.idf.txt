@@ -1,0 +1,48 @@
+Investigation Title	Transcription profiling of DEX treated Arabidopsis genotypes (ANGR4-12 and wild type) to analyse nutritional control of plant development: molecular analysis of the NO3- response pathway in Arabidopsis roots	
+Comment[Submitted Name]	Filleur: Nutritional control of plant development: molecular analysis of the NO3- response pathway in Arabidopsis roots.	
+Experimental Design	strain_or_line_design	transcription profiling by array	
+Experimental Design Term Source REF	mo	EFO	
+Comment[ArrayExpressReleaseDate]		
+Comment[AEMIAMESCORE]	3	
+Comment[ArrayExpressAccession]	E-NASC-25	
+Comment[MAGETAB TimeStamp_Version]	2010-10-15 14:05:30 Last Changed Rev: 14677	
+Experimental Factor Name	behavioral_stimulus	strain_or_line	
+Experimental Factor Type	behavior	strain_or_line	
+Experimental Factor Term Source REF	
+Person Last Name	unknown	Filleur	
+Person First Name	unknown	Sophie	
+Person Mid Initials	
+Person Email		s.filleur@lancaster.ac.uk	
+Person Phone	+44 (0)115 951 3091	01524 65201 ext 93524	
+Person Fax	+44 (0)115 951 3297	01524 843854	
+Person Address	Plant Science Division, School of Biosciences, University of Nottingham, Sutton Bonnington Campus, Loughborough LE12 5RD, UK	Bailrigg Lancaster LA1 4YQ UK 	
+Person Affiliation		Department of Biological Science	
+Person Roles		submitter;biosource_provider;investigator	
+Person Roles Term Source REF		mo	
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	
+PubMed ID	
+Publication DOI	
+Publication Author List	
+Publication Title	
+Publication Status	
+Publication Status Term Source REF	
+Experiment Description	Background: The Arabidopsis ANR1 gene is a key regulator of root architecture (Zhang and Forde, 1998): when ANR1 is down-regulated (by antisense or co-suppression) the resulting lines are no longer able to proliferate their lateral roots in response to localised supplies of NO3- (Zhang and Forde, 1998). ANR1 encodes a root-specific member of the MADS box family of transcription factors and is thought to be a component of a signalling pathway that links an external NO3- signal to increased meristematic activity in the lateral root meristem (Zhang et al., 1999).A major goal of our present BBSRC-funded project is to learn more about this NO3- response pathway by identifying the downstream targets of ANR1. To this end we have generated a set of transgenic lines in which ANR1 is under a novel post-translational control. This was achieved by tagging ANR1 with the steroid-binding domain of the rat glucocorticoid receptor (rGR) and expressing the fusion protein under the control of the CaMV 35S promoter. Initial results with these lines confirm that the architecture of the root system is altered in a way that correlates with the presence of the steroid inducer (dexamethasone, or DEX) and the expression of the ANR1::rGR transgene.  We now wish to apply transcript analysis to one of these lines (ANGR4-12) to identify the genes whose expression is up- or down-regulated by ANR1. Sablowski and Meyerowitz (1998) successfully used an analogous approach to identify a gene that is an immediate target of the AP3 MADS-box transcription factor (although here, in the absence of microarray technology, differential display was used). Experimental: Plants of the two genotypes (ANGR4-12 and wild type) will be grown in sterile liquid culture for 3-4 weeks and then starved of N for 3 d (to quench the endogenous NO3- signalling pathway) before starting the DEX treatment. Roots will be harvested after 60 min from roots of DEX-treated and mock-treated RGR4-12 and control plants (four RNA samples). To minimise background noise due to environmental variables we will repeat the experiment three times and pool the RNA samples.	
+Protocol Name	NASCGrowProt:690	NASCGrowProt:688	NASCGrowProt:689	NASCSampleTreatmentProt:221	NASCGrowProt:222	NASCGrowProt:223	NASCSampleTreatmentProt:220	NASCGrowProt:687	NASCExtractProtocol:1	NASCLabelProtocol:1	Affymetrix:Protocol:Hybridization-EukGE-WS2v4	Affymetrix:Protocol:Percentile	Affymetrix:Protocol:ExpressionStat	
+Protocol Type									nucleic_acid_extraction	labeling	hybridization	feature_extraction	bioassay_data_transformation	
+Protocol Description	Plants were grown at 25C in MS media with 0.5% sucrose. Plants were grown upto Boyes key stage 1.02 in 24 hr light source, at an intensity of 100 micromolm-2s-1. Roots were excised for RNA extraction.	Plants were grown at 25C in MS media with 0.5% sucrose. Plants were grown upto Boyes key stage 1.02 in 24 hr light source, at an intensity of 100 micromolm-2s-1. Roots were excised for RNA extraction.	Plants were grown at 25C in MS media with 0.5% sucrose. Plants were grown upto Boyes key stage 1.02 in 24 hr light source, at an intensity of 100 micromolm-2s-1. Roots were excised for RNA extraction.	Plants have been N-starved for 2 days.Plants have been transferred after 9 days on MS Agar plate containing 1uM dexamethasone for 1 hour.	Plants were grown at 25C in MS media with 0.5% sucrose. Plants were grown upto Boyes key stage 1.02 in 24 hr light source, at an intensity of 100 micromolm-2s-1. Roots were excised for RNA extraction.	Plants were grown at 25C in MS media with 0.5% sucrose. Plants were grown upto Boyes key stage 1.02 in 24 hr light source, at an intensity of 100 micromolm-2s-1. Roots were excised for RNA extraction.	Plants have been N-starved for 2 days.Plants have been transferred after 9 days on MS Agar plate containing no dexamethasone for 1 hour. 	Plants were grown at 25C in MS media with 0.5% sucrose. Plants were grown upto Boyes key stage 1.02 in 24 hr light source, at an intensity of 100 micromolm-2s-1. Roots were excised for RNA extraction.	Protocol: Qiagen RNAeasy kit protocol 	RNA samples were quality controlled using the Agilent 2100 Bioanalyzer. 100 pmol T7-(dT)24 primer (5'-GGCCAGTGAATTGTAATACGACTCACTATAGGGAGGCGG-(dT)24-3')  was hybridized with the Total RNA ( 8 - 12ug) at 70ÃÂ°C for 10 minutes.  First strand cDNA was synthesized by reverse transcription using 400 units SuperScript II Reverse Transcriptase in a reaction containing 50 mM Tris-HCl (pH 8.3), 75 mM KCl, 3 mM MgCl2, 10 mM dithiothreitol (DTT) and 0.5 mM dNTPs at 42C for 1 hour.  The reaction was then put on ice for 2 mins, followed by second strand cDNA synthesis.  130ul of the second strand reaction mix was added to the 20ul  first strand synthesis reaction. The second strand reaction mix  contained 40 units E. coli DNA polymerase I, 10 units E. coli DNA ligase, 2 units  E. coli RNase H and 0.2 mM dNTPs in a buffer containing 20 mMTris-HCl (pH 6.9), 90 mM KCl, 4.6 mM MgCl2, 10mM (NH4)SO4 and 0.15 mM ÃÂ-NAD+. The reaction was incubated at 16 C for 2 hours.  10 units T4 DNA Polymerase was added and the reaction incubated for a further 5 minutes at 16 C, then the reaction was terminated using EDTA.  The double-stranded cDNA was cleaned up using the cDNA Cleanup Spin Column supplied in the Affymetrix GeneChip Sample Cleanup Module.  The double-stranded cDNA was used as a template for in Vitro transcription of biotin-labeled cRNA using the ENZO BioArray RNA Transcript Labeling Kit supplied by Affymetrix.  The Transcript Labeling kit produces large amounts of hybridizable biotin-labeled RNA targets by in Vitro transcription from bacteriophage T7 RNA polymerase promoters.  The reaction mixture containing Biotin-Labeled ribonucleotides (ATP, GTP, CTP, UTP with Bio-UTP and Bio-CTP), DTT, RNase inhibitor mix and T7 RNA polymerase was incubated at 37 C for 5 hrs, gently mixing every 30 minutes during the incubation. This produced an average of 40ug biotin-labeled cRNA . The biotin-labeled cRNA  was cleaned up using the cRNA Cleanup Spin Column supplied in the Affymetrix GeneChip Sample Cleanup Module.  The quantity and quality of the cRNA was measured using the Agilent 2100 Bioanalyzer. The total amount of cRNA was calculated, the starting quantity of RNA subtracted to give the quantity of adjusted cRNA.  The cRNA was fragmented by metal-induced hydrolysis to break down full-length cRNA to 35-200 base fragments.  15ug of adjusted cRNA was used to prepare 300ul of hybridization cocktail of which 200ul was hybridized with the GeneChip.	Title: Fluidics Station Protocol. Description: 	Title: Affymetrix CEL Analysis (Percentile). Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 	
+Protocol Parameters	Light brigtht;Medium;Location;Light;Nutrients;Temperature;humidity;	Nutrients;Light brigtht;Medium;Temperature;humidity;Location;Light;	Light brigtht;Light;Location;Nutrients;humidity;Temperature;Medium;		humidity;Nutrients;Temperature;Medium;Light brigtht;Light;Location;	Nutrients;Temperature;humidity;Light brigtht;Medium;Location;Light;		Nutrients;Medium;Light brigtht;humidity;Temperature;Light;Location;	
+Protocol Hardware	
+Protocol Software											MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact	
+Protocol Term Source REF													The MGED Ontology	
+SDRF File	E-NASC-25.sdrf.txt	
+Term Source Name	nasc		ncbitax	po_structure_ontology1.1	ArrayExpress	mo	EFO	The MGED Ontology	
+Term Source File	http://arabidopsis.info/catalogue.html		http://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html		http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version									

@@ -1,0 +1,33 @@
+Comment[ArrayExpressAccession]	E-MEXP-3283					
+Investigation Title	PIP5K mediates feed-back regulation of PIN polarity in Arabidopsis					
+Comment[Submitted Name]	PIP5K mediates feed-back regulation of PIN polarity in Arabidopsis					
+Comment[AEExperimentType]	transcription profiling by array					
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for axr3 after treatment with naphthalene-1-acetic acid					
+Comment[MIAMExpressLogin]	michisauer					
+Comment[MIAMExpressSubmissionID]	7649					
+Experiment Description	Differentially expressed genes in response to the phytohormone auxin in wild type and a conditional auxin signalling mutant					
+Experimental Design	in_vivo_design	co-expression_design	cellular_process_design			
+Comment[AEExperimentType]	transcription profiling by array					
+Experimental Factor Name	COMPOUND	DOSE	GENOTYPE			
+Experimental Factor Type	compound	dose	genotype			
+Person Last Name	Sauer					
+Person First Name	Michael					
+Person Mid Initials	B					
+Person Email	msauer@cnb.csic.es					
+Person Phone	34915854674					
+Person Affiliation	Centro Nacional de Biotecnologia, CSIC					
+Person Address	Plant Molecular Genetics, c/ Darwin 3, Madrid, Madrid, 28049, Spain					
+Person Roles	submitter					
+Person Roles Term Source REF	MGED Ontology					
+Quality Control Type	spike_quality_control	biological_replicate				
+Comment[QualityControlDescription]	2 biological replicates per condition, each consisting of pooled RNA of at least 100 individuals. Standard Affymetrix spike controls					
+Public Release Date	2011-07-04					
+Comment[ArrayExpressSubmissionDate]	2011-06-26 16:21:10					
+Publication Status	not yet submitted					
+Protocol Name	P-MTAB-21606	P-MTAB-21607	P-MTAB-21608	P-AFFY-6	Affymetrix:Protocol:Hybridization-EukGE-WS2v4_450	Affymetrix:Protocol:ExpressionStat
+Protocol Description	Seedlings were sawn on plates with 0.5x Murashige and Skoog basal salts, 1% sucrose, 0.8% agar and 100 ﾵg/ml timentin, stratified for 3 days and grown vertically at 22ﾺC under a 16h/8h light/dark regime for 5 days.<br>(Parameters: start time = 5, time unit = days, min temperature = 22, temperature unit = C, media = 0.5x Murashige and Skoog, 1% sucrose, 0.8% agar, 100ug/ml Timetin)	The lower third part of the pooled roots was collected and RNA extracted using the Quiagen RNAeasy kit according to manufacturerﾴs instruction for plant tissue.<br>(Parameters: Extracted product = total_RNA, Amplification = none)	Plates with seedlings were exposed to 37ﾺC for 40 min and allowed to recover for 1.5 h in normal growth conditions, then the seedlings were transferred to liquid culture medium supplemented with 10 ﾵM 1-naphthaleneacetic acid(NAA) or the equivalent amount of DMSO as control for 4 h. 			
+Protocol Type	grow	nucleic_acid_extraction	specified_biomaterial_action	feature_extraction	hybridization	bioassay_data_transformation
+Protocol Term Source REF	MGED Ontology	MGED Ontology	MGED Ontology			
+Term Source Name	MGED Ontology	ArrayExpress				
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress				
+SDRF File	E-MEXP-3283.sdrf.txt					

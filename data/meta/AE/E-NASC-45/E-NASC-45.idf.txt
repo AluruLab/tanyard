@@ -1,0 +1,48 @@
+Investigation Title	Transcription profiling of Arabidopsis wild type and gpa1 mutant in response to ABA	
+Comment[Submitted Name]	Okamoto: Comparative transcriptome analysis between wild-type and gpa1 mutant in response to ABA	
+Experimental Design	compound_treatment_design	individual_genetic_characteristics_design	strain_or_line_design	transcription profiling by array	
+Experimental Design Term Source REF	mo		mo	EFO	
+Comment[ArrayExpressReleaseDate]		
+Comment[AEMIAMESCORE]	3	
+Comment[ArrayExpressAccession]	E-NASC-45	
+Comment[MAGETAB TimeStamp_Version]	2010-10-15 14:36:56 Last Changed Rev: 14677	
+Experimental Factor Name	compound	strain_or_line	
+Experimental Factor Type	compound_treatment_design	strain_or_line	
+Experimental Factor Term Source REF	
+Person Last Name	unknown	Okamoto	
+Person First Name	unknown	Haruko	
+Person Mid Initials	
+Person Email		haruko.okamoto@plants.ox.ac.uk	
+Person Phone	+44 (0)115 951 3091	01865-275004	
+Person Fax	+44 (0)115 951 3297	01865-27c5074	
+Person Address	Plant Science Division, School of Biosciences, University of Nottingham, Sutton Bonnington Campus, Loughborough LE12 5RD, UK	Department of Plant Science University of Oxford South Parks Road Oxford OX1 3RB UK 	
+Person Affiliation		University of Oxford	
+Person Roles		biosource_provider;investigator;submitter	
+Person Roles Term Source REF		mo	
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	
+PubMed ID	
+Publication DOI	
+Publication Author List	
+Publication Title	
+Publication Status	
+Publication Status Term Source REF	
+Experiment Description	Mutations in the heterotrimeric G-protein a-subunit of Arabidopsis, GPA1, leads to deficiency in ABA-induced stomatal closure (Wang et al., 2001). To further investigate whether GPA1 is involved in the regulation of gene expression in response to ABA, we examined the induction of known ABA-inducible genes in the gpa1 mutant and compared it to wild-type. We found significant differences in levels of ABA-induced expression between wild-type and gpa1 mutant. In order to systematically investigate GPA1 involvement in ABA signalling leading to gene expression, we are requesting the transcriptome analysis of the gpa1 mutant in response to ABA.In detail, 2 week old wild-type and gpa1 plants grown in the 16/8 hrs light and dark cycle will be treated with either ABA or with a control solution for 3 hours.  10 plants will be used per sample to produce RNA, to give 4 samples, one for each chip: gpa1-1 mutant in the presence (chip1) or absence of ABA (chip2) and wild-type (WS2) in the presence (chip3) or absence of ABA (chip4).	
+Protocol Name	NASCSampleTreatmentProt:319	NASCGrowProt:320	NASCGrowProt:319	NASCExtractProtocol:1	NASCLabelProtocol:1	Affymetrix:Protocol:Hybridization-EukGE-WS2v4	Affymetrix:Protocol:Percentile	Affymetrix:Protocol:ExpressionStat	
+Protocol Type				nucleic_acid_extraction	labeling	hybridization	feature_extraction	bioassay_data_transformation	
+Protocol Description	Treated with 100 micro M ABA for 3 hours. 10 day old plants were taken for RNA extraction. Whole plants were hravested for extraction. 10 plants were pooled per treatment	Plants were grown in growth rooms at a temperature of 21C with a lighting regime of 16 hr light and 8 darkness. The growth medium was Murashige and Skoog with vitamins in agar. Plants were grown to 10 days and the whole plant was used for RNA extraction. 10 plants were pooled per treatment.	Plants were grown in growth rooms at a temperature of 21C with a lighting regime of 16 hr light and 8 darkness. The growth medium was Murashige and Skoog with vitamins in agar.	Protocol: Qiagen RNAeasy kit protocol 	RNA samples were quality controlled using the Agilent 2100 Bioanalyzer. 100 pmol T7-(dT)24 primer (5'-GGCCAGTGAATTGTAATACGACTCACTATAGGGAGGCGG-(dT)24-3')  was hybridized with the Total RNA ( 8 - 12ug) at 70ÃÂ°C for 10 minutes.  First strand cDNA was synthesized by reverse transcription using 400 units SuperScript II Reverse Transcriptase in a reaction containing 50 mM Tris-HCl (pH 8.3), 75 mM KCl, 3 mM MgCl2, 10 mM dithiothreitol (DTT) and 0.5 mM dNTPs at 42C for 1 hour.  The reaction was then put on ice for 2 mins, followed by second strand cDNA synthesis.  130ul of the second strand reaction mix was added to the 20ul  first strand synthesis reaction. The second strand reaction mix  contained 40 units E. coli DNA polymerase I, 10 units E. coli DNA ligase, 2 units  E. coli RNase H and 0.2 mM dNTPs in a buffer containing 20 mMTris-HCl (pH 6.9), 90 mM KCl, 4.6 mM MgCl2, 10mM (NH4)SO4 and 0.15 mM ÃÂ-NAD+. The reaction was incubated at 16 C for 2 hours.  10 units T4 DNA Polymerase was added and the reaction incubated for a further 5 minutes at 16 C, then the reaction was terminated using EDTA.  The double-stranded cDNA was cleaned up using the cDNA Cleanup Spin Column supplied in the Affymetrix GeneChip Sample Cleanup Module.  The double-stranded cDNA was used as a template for in Vitro transcription of biotin-labeled cRNA using the ENZO BioArray RNA Transcript Labeling Kit supplied by Affymetrix.  The Transcript Labeling kit produces large amounts of hybridizable biotin-labeled RNA targets by in Vitro transcription from bacteriophage T7 RNA polymerase promoters.  The reaction mixture containing Biotin-Labeled ribonucleotides (ATP, GTP, CTP, UTP with Bio-UTP and Bio-CTP), DTT, RNase inhibitor mix and T7 RNA polymerase was incubated at 37 C for 5 hrs, gently mixing every 30 minutes during the incubation. This produced an average of 40ug biotin-labeled cRNA . The biotin-labeled cRNA  was cleaned up using the cRNA Cleanup Spin Column supplied in the Affymetrix GeneChip Sample Cleanup Module.  The quantity and quality of the cRNA was measured using the Agilent 2100 Bioanalyzer. The total amount of cRNA was calculated, the starting quantity of RNA subtracted to give the quantity of adjusted cRNA.  The cRNA was fragmented by metal-induced hydrolysis to break down full-length cRNA to 35-200 base fragments.  15ug of adjusted cRNA was used to prepare 300ul of hybridization cocktail of which 200ul was hybridized with the GeneChip.	Title: Fluidics Station Protocol. Description: 	Title: Affymetrix CEL Analysis (Percentile). Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 	
+Protocol Parameters		Temperature;Humidity;Atmosphere;location;Water;Medium;Lighting;	location;Humidity;Atmosphere;Lighting;Temperature;Water;Medium;	
+Protocol Hardware	
+Protocol Software						MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact	
+Protocol Term Source REF								The MGED Ontology	
+SDRF File	E-NASC-45.sdrf.txt	
+Term Source Name	The MGED Ontology		nasc	ncbitax	mo	ArrayExpress	mo	EFO	The MGED Ontology	
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php		http://arabidopsis.info/catalogue.html	http://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version										

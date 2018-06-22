@@ -1,0 +1,68 @@
+MAGE-TAB Version	1.1
+Investigation Title	Timecourse analysis of STM-responsive gene expression
+
+Experimental Design	time series design
+Experimental Design Term Source REF	EFO
+Experimental Design Term Accession Number	EFO_0001779
+
+Experimental Factor Name	phenotype	sampling time point
+Experimental Factor Type	phenotype	sampling time point
+Experimental Factor Term Source REF	EFO	EFO
+Experimental Factor Term Accession Number	EFO_0000651	EFO_0000689
+
+Person Last Name	Scofield
+Person First Name	Simon
+Person Mid Initials
+Person Email	ScofieldS@cardiff.ac.uk
+Person Phone
+Person Fax
+Person Affiliation	School of Biosciences Cardiff University
+Person Address	School of Biosciences Cardiff University Museum Avenue Cardiff CF103AX UK
+Person Roles	submitter
+Person Roles Term Source REF
+Person Roles Term Accession Number
+
+Quality Control Type
+Quality Control Term Source REF
+Quality Control Term Accession Number
+
+Replicate Type
+Replicate Term Source REF
+Replicate Term Accession Number
+
+Normalization Type
+Normalization Term Source REF
+Normalization Term Accession Number
+
+Date of Experiment	2008-08-21
+Public Release Date	2018-04-26
+
+PubMed ID
+Publication DOI
+Publication Author List
+Publication Title
+Publication Status
+Publication Status Term Source REF
+Publication Status Term Accession Number
+
+Experiment Description	Arabidopsis transcription factor SHOOT MERISTEMLESS (STM) expression was induced using the dexamethasone-inducible TGV system in the Ler background and differentially expressed genes were identified compared to an induced empty-vector control line at each time point using RMA and LIMMA analysis.
+
+Protocol Name	P-MTAB-68180	P-MTAB-68181	P-MTAB-68182	P-MTAB-68183	P-MTAB-68184	P-MTAB-68179	P-MTAB-68185	P-MTAB-68178
+Protocol Type	nucleic acid labeling protocol	nucleic acid hybridization to array protocol	array scanning and feature extraction protocol	growth protocol	treatment protocol	nucleic acid extraction protocol	normalization data transformation protocol	sample collection protocol
+Protocol Term Source REF	EFO	EFO	EFO	EFO	EFO	EFO	EFO	EFO
+Protocol Term Accession Number	EFO_0003813	EFO_0003815	EFO_0003814	EFO_0003789	EFO_0003969	EFO_0002944	EFO_0003816	EFO_0005518
+Protocol Description	According to Affymetrix instructions.	According to Affymetrix instructions.	According to Affymetrix instructions.	Plants were grown at 22 degrees celsius under continuous white light.	60 um (micromolar) dexamethasone was added as a solution to agar plates containing plants (~5 ml per plate)	Total RNA was extracted with Tripure Reagent (Roche). RNA was further purified using 2M LiCl (final concentration). RNA was dissolved in water.	RMA and LIMMA were used subsequently to analyse data.	All samples were harvested at 9 days after sowing. Inductions with 60 um DEX were performed such that all samples were the same age when harvested.
+Protocol Parameters
+Protocol Hardware
+Protocol Software
+Protocol Contact
+
+Term Source Name	EFO	ArrayExpress
+Term Source File	http://www.ebi.ac.uk/efo/	http://www.ebi.ac.uk/arrayexpress/
+Term Source Version	2.81
+
+SDRF File	E-MTAB-6123.sdrf.txt
+Comment [Submitted Name]	Timecourse analysis of STM-responsive gene expression
+Comment [AEExperimentType]	transcription profiling by array
+Comment[ArrayExpressAccession]	E-MTAB-6123
+Comment [AEExperimentDisplayName]	Transcription profiling by array time course of Arabidopsis thaliana Ler-1 plants with STM RNAi knock down or overexpression compared to controls

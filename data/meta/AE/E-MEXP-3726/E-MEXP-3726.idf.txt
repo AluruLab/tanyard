@@ -1,0 +1,35 @@
+Comment[ArrayExpressAccession]	E-MEXP-3726					
+Investigation Title	Identifying FIL-response genes					
+Comment[Submitted Name]	Identifying FIL-response genes					
+Comment[AEExperimentDisplayName]	Identifying FIL-response genes					
+Comment[MIAMExpressLogin]	golzlab					
+Comment[MIAMExpressSubmissionID]	8416					
+Experiment Description	Arabidopsis plants expressing DEX-inducible version of the developmental regulator FIL were exposed to DEX or a solution lacking DEX and changes in gene expression assessed after 4h and 8h using microarray analysis.					
+Experimental Design	in_vivo_design	co-expression_design	time_series_design	transcript_identification_design		
+Comment[AEExperimentType]	transcription profiling by array					
+Experimental Factor Name	compound	dose	time			
+Experimental Factor Type	compound	dose	time			
+Person Last Name	Golz					
+Person First Name	John					
+Person Email	jgolz@unimelb.edu.au					
+Person Phone	03 8344-9877					
+Person Affiliation	University of Melbourne					
+Person Address	Genetics, Royal Parade, Parkville, Melbourne, VIC, 3010, Australia					
+Person Roles	submitter					
+Person Roles Term Source REF	MGED Ontology					
+Quality Control Type	biological_replicate					
+Comment[QualityControlDescription]	4 replicates for each timepoint and dose					
+Public Release Date	2013-08-31					
+Comment[ArrayExpressSubmissionDate]	2012-08-31 07:19:45					
+PubmedID	23025792					
+Publication DOI	10.1186/1471-2229-12-176					
+Publication Title	FILAMENTOUS FLOWER controls lateral organ development by acting as both an activator and a repressor 					
+Publication Author List	Bonaccorso O, Lee JE, Puah L, Scutt CP, Golz JF					
+Publication Status	published					
+Protocol Name	P-MTAB-28148	P-MTAB-28149	P-MTAB-28150	P-AFFY-2	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6
+Protocol Description	1. Prepare 0.5x MS media pH5.7 with 0.7% phytoagar<br><br>2. Sow approx. 300 sterile seeds on plate<br><br>3. Stratify for 4 days at 4oC<br><br>4. Place in a growth cabinet set at 21oC short days (8h light, 16 h dark)<br><br>5. Harvest plants after 10 days of growth<br><br><br>(Parameters: start time = 10, time unit = days, min temperature = 21, temperature unit = C, media = 0.5xMS)	1. Plant culture plates opened in a fume hood<br><br>2. Samples sprayed with either mock or DEX solutions:<br><br>   Mock=0.05% Silwet L77/0.1% Ethanol<br><br>   DEX =0.05% Silwet L77/0.1% Ethanol/10uM DEX<br><br>3. Allow plants to dry<br><br>4. Replace lid and return to growth chamber for 4h or 8h<br><br>	1. 300-600 mg Arabidopsis shoot tissue ground under liquid nitrogen     2. RNA extracted using QIAGEN - RNeasy Plant Mini Kit accoring to manufacturers instructions    3. RNA eluted in 50ul EB  (Parameters: Extracted product = total_RNA, Amplification = PCR)			
+Protocol Type	grow	specified_biomaterial_action	nucleic_acid_extraction	labeling	hybridization	image_acquisition
+Protocol Term Source REF	MGED Ontology	MGED Ontology	MGED Ontology	ArrayExpress	ArrayExpress	ArrayExpress
+Term Source Name	MGED Ontology	ArrayExpress				
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress				
+SDRF File	E-MEXP-3726.sdrf.txt					

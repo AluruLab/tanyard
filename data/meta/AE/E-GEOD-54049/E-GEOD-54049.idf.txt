@@ -1,0 +1,30 @@
+Comment[ArrayExpressAccession]	E-GEOD-54049													
+MAGE-TAB Version	1.1													
+Public Release Date	2014-06-23													
+Investigation Title	Hit-and-run transcriptional control by bZIP1 mediates rapid nutrient signaling in Arabidopsis													
+Comment[Submitted Name]	Hit-and-run transcriptional control by bZIP1 mediates rapid nutrient signaling in Arabidopsis													
+Experiment Description	To identify potential transient interactions between a TF and its targets, we developed an approach that can identify primary targets based either on TF-induced regulation or TF-binding, assayed in the same samples. Our studies focused on the TF bZIP1 (BASIC LEUCINE ZIPPER 1), a central integrator of cellular and metabolic signaling. To discern the mechanisms by which bZIP1 regulates a gene netowork in response to a nitrogen (N)-signal perceived in vivo, we perturbed both bZIP1 and the N-signal that it transduces in a cell-based transient expression system called TARGET (Transient Assay Reporting Genome-wide Effects of Transcription factors). To identify the genome-wide targets of bZIP1 in response to a N-signal, we transiently perturbed both the TF and the signal in the TARGET cell-based system.  Specifically, bZIP1 was transiently overexpressed in root protoplasts following transfection with a 35S::GR::bZIP1 construct containing an RFP (red fluorescent protein) selectable marker gene. bZIP1 transfected cells were sequentially treated with: i) an inorganic nitrogen signal (+/-N), ii) cycloheximide (CHX) to block the synthesis of proteins, and iii) dexamethasone (DEX) to induce nuclear import of the GR::bZIP1 protein. To identify both the TF-regulated and the TF-bound genes, transcriptome analysis of transfected cells and micro-ChIP data (using anti-GR antibodies), were carried out in parallel .  This submission represents transcriptome component of study.													
+Term Source Name	ArrayExpress	EFO												
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl												
+Person Last Name	Li	Para	Li	Marshall-Colon	Varala	Francoeur	Moran	Edwards	Hackley	Bargmann	Birnbaum	McCombie	Krouk	Coruzzi
+Person First Name	Ying	Alessia	Ying	Amy	Kranthi	Nancy	Tara	Molly	Christopher	Bastiaan	Kenneth	W	Gabriel	Gloria
+Person Mid Initials						J	M	B		O	D	R		M
+Person Email	geo@ncbi.nlm.nih.gov													
+Person Affiliation	New York University													
+Person Address	Biology, New York University, 12 Waverly Place, New York, NY, USA													
+Person Roles	submitter													
+Protocol Name	P-GSE54049-1	P-GSE54049-5	P-GSE54049-6	P-GSE54049-2	P-GSE54049-3	P-GSE54049-4	P-GSE54049-7							
+Protocol Description	Microarray intensities were normalized using the GCRMA  package. Differentially expressed genes were then determined using multi-way ANOVA. ID_REF =  VALUE = GCRMA signal intensity	RNA was converted into cDNA, amplified and labeled with Ovation Pico WTA System V2 (NuGEN) and Encore Biotin Module (NuGEN), respectively.	The labeled cDNA was hybridized, washed and stained on an ATH1-121501 Arabidopsis Genome Array (Affymetrix) using a Hybridization Control Kit (Affymetrix), a GeneChip Hybridization, Wash, and Stain Kit (Affymetrix) on a GeneChip Fluidics Station 450.	Protoplasts were transfected with pBeaconRFP_GR::bZIP1 plasmid DNA (or pBeaconRFP_GR empty vetor for empty vector control) for 25 minutes and then incubated overnight to allow the transcription and translation of bZIP1. The Protoplast suspensions were then treated sequentially with 1) +/- Nitrogen for 2 h; 2)+/- CHX; 3) +/- DEX at room temperature. Transfected protoplasts were selected by the RFP fluorescent marker.	Roots of 10-day-old Arabidopsis Col-0 seedlings were harvested and treated with cell wall digesting enzymes Cellulase and Macerozyem for 4 h to prepare protoplasts.	RNA from was extracted from protoplasts using an RNeasy Micro Kit with RNase-free DNaseI Set (QIAGEN) and quantified on a Bioanalyzer RNA Pico Chip (Agilent Technologies)	The microarrays were scanned using a GeneChip Scanner (Affymetrix).							
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol							
+Experimental Factor Name	treatment	genotype												
+Experimental Factor Type	treatment	genotype												
+Comment[SecondaryAccession]	GSE54049													
+Comment[GEOReleaseDate]	2014-06-23													
+Comment[ArrayExpressSubmissionDate]	2014-01-14													
+Comment[GEOLastUpdateDate]	2014-06-24													
+Comment[AEExperimentType]	transcription profiling by array													
+SDRF File	E-GEOD-54049.sdrf.txt													
+Publication Title	Hit-and-run transcriptional control by bZIP1 mediates rapid nutrient signaling in Arabidopsis.													
+Publication Author List	Para A, Li Y, Marshall-Colón A, Varala K, Francoeur NJ, Moran TM, Edwards MB, Hackley C, Bargmann BO, Birnbaum KD, McCombie WR, Krouk G, Coruzzi GM													
+PubMed ID	24958886													
+Publication DOI	10.1073/pnas.1404657111													

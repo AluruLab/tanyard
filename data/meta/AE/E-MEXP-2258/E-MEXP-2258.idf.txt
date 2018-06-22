@@ -1,0 +1,49 @@
+Investigation Title	Transcription profiling of Arabidopsis thaliana LFY mutant plants transformed with different LFY orthologs to investigate evolutionary divergence of LFY function	
+Comment[Submitted Name]	Transcription profiling of Arabidopsis thaliana LFY mutant plants transformed with different Arabidopsis LFY orthologs to investigate evolutionary divergence of LFY function	
+Experimental Design	genetic_modification_design	co-expression_design	replicate_design	transcription profiling by array	
+Experimental Design Term Source REF	The MGED Ontology	The MGED Ontology	The MGED Ontology	EFO	
+Comment[SecondaryAccession]		
+Comment[ArrayExpressReleaseDate]	2009-07-23	
+Comment[AEMIAMESCORE]	4	
+Comment[ArrayExpressAccession]	E-MEXP-2258	
+Comment[MAGETAB TimeStamp_Version]	2010-08-10 12:00:05 Last Changed Rev: 13058	
+Experimental Factor Name	TIME AFTER LONG DAY SHIFT	GENOTYPE	
+Experimental Factor Type	time	genotype	
+Experimental Factor Term Source REF	
+Person Last Name	Maizel	
+Person First Name	alexis	
+Person Mid Initials	
+Person Email	Alexis.Maizel@isv.cnrs-gif.fr	
+Person Phone	:49 70716011407	
+Person Fax	
+Person Address	Molecular Biology, 37 Spemannstrass, Tuebingen, BW, 72071, Germany	
+Person Affiliation	MPI for Developmental Biology	
+Person Roles	submitter	
+Person Roles Term Source REF	The MGED Ontology	
+Quality Control Type	biological_replicate	
+Quality Control Term Source REF	The MGED Ontology	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2009-07-23	
+PubMed ID	
+Publication DOI	
+Publication Author List	
+Publication Title	The floral regulator LEAFY evolves by substitutions in the DNA binding domain.	
+Publication Status	
+Publication Status Term Source REF	
+Experiment Description	The aim of this experiment is to test the ability of the ortholog of Arabidopsis LFY gene from flowering and non flowering species to complement an Arabidopsis LFY mutant. <br>Plants expressing, in a homozygous lfy12 background, the open reading frame of LFY orthologs under the control of Arabidopsis LFY promoter were synchronously induced to flower by growing plants in short days for 30 days then shifting them to Long Day for an additional 8 days. Shoot apices were dissected at either d0 or d8 in long days. Two biological replicates were performed. The following genotypes were used: <br>Col - wild type arabidopsis; reference strain<br>LFY (lfy12; LFY::AthLFY) - Arabidopsis<br>UNI (lfy12; LFY::UNI) - Pisum<br>ALF (lfy12; LFY::ALF)  - Petunia <br>WelNDLY (lfy12; LFY::WelNDLY)  - Welwitschia mirabilis<br>CrLFY1 (lfy12; LFY::CrLFY1) - Ceratopteris richardii<br>CrLFY2 (lfy12; LFY::CrLFY2) - Ceratopteris richardii<br>lfy-2; weak lfy allele<br>lfy-9; intermediate leafy allele<br>lfy-12; strong leafy allele.	
+Protocol Name	P-MTAB-4767	P-MTAB-4770	P-MTAB-4768	P-MTAB-4769	P-AFFY-2	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6	P-MTAB-4771	
+Protocol Type	grow	specified_biomaterial_action	specified_biomaterial_action	nucleic_acid_extraction	labeling	hybridization	feature_extraction	bioassay_data_transformation	
+Protocol Description	Plants were grown on soil for 30 days under short day conditions (8 hr light/16 hr darkness) at 23C and 65% relative humidity.<br>(Parameters: start time = 30, time unit = days, min temperature = 23, temperature unit = C)	Plants were grown on soil for 30d under short day conditions (8h light/ 16h darkness) at 23C and 65% relative humidity. Shoot apical meristem were dissected.	Plants were grown on soil for 30 days under short day conditions (8 hr light/16 hr darkness) at 23C and 65% relative humidity. Plants where then shifted to long day conditions (16 hr light/8 hr darkness) at 23C and 65% relative humidity for 8 days. Inflorescence meristem were then dissected.	A pdf of the protocol 'Probe preparation (Development)' can be downloaded at http://www.weigelworld.org/resources/microarray/AtGenExpress/; also at TAIR http://www.arabidopsis.org Protocol:501712557.<br>(Parameters: Extracted product = total_RNA, Amplification = RNA polymerases)	Title: Affymetrix in vitro transcription. Description: 	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	Normalized data was generated using gcRMA	
+Protocol Parameters	
+Protocol Hardware	
+Protocol Software						MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact	
+Protocol Term Source REF						mo		The MGED Ontology	
+SDRF File	E-MEXP-2258.sdrf.txt	
+Term Source Name	NCBI Taxonomy		NCI_thesaurus	The MGED Ontology	ArrayExpress	The MGED Ontology	EFO	mo	
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		ncithesaurus.obo.alt	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version									

@@ -1,0 +1,50 @@
+Investigation Title	Transcription profiling of Arabidopsis rosette leaves and inflorescences from dcl1-7, rdr6-15 and dcl4-2 mutants	
+Comment[Submitted Name]	DCL4 Functional Analysis	
+Experimental Design	individual_genetic_characteristics_design	organism_part_comparison_design	co-expression_design	transcription profiling by array	
+Experimental Design Term Source REF		mo	mo	EFO	
+Comment[ArrayExpressReleaseDate]	2007-07-10	
+Comment[SecondaryAccession]	GSE3011	
+Comment[AEMIAMESCORE]	4	
+Comment[SecondaryAccession]	GDS1466	
+Comment[ArrayExpressAccession]	E-GEOD-3011	
+Comment[MAGETAB TimeStamp_Version]	2010-08-04 19:23:06 Last Changed Rev: 13058	
+Experimental Factor Name	Genotype	OrganismPart	
+Experimental Factor Type	genotype	organism_part	
+Experimental Factor Term Source REF	
+Person Last Name	Allen	
+Person First Name	Edwards	
+Person Mid Initials	
+Person Email	allened@cgrb.oregonstate.edu	
+Person Phone	
+Person Fax	
+Person Address	Carrington,Botany and Plant Pathology,Oregon State University,3021 Ag Life Sciences Building,Corvallis,97331,USA	
+Person Affiliation	Oregon State University	
+Person Roles	submitter	
+Person Roles Term Source REF	The MGED Ontology	
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2007-07-10	
+PubMed ID	16129836	
+Publication DOI	16129836	
+Publication Author List	Zhixin Xie,Edwards Allen,April Wilken,James C Carrington	
+Publication Title	DICER-LIKE 4 functions in trans-acting small interfering RNA biogenesis and vegetative phase change in Arabidopsis thaliana.	
+Publication Status	journal_article	
+Publication Status Term Source REF	The MGED Ontology	
+Experiment Description	Rosette leaves (5-8) and inflorescence stages (1-12) from dcl1-7, rdr6-15, and dcl4-2 mutants, involved in Arabidopsis small RNA metabolism. Three biological replicates of each mutant comprising at least 9 independent plants were harvested, and the expression profiles were determined using Affymetrix ATH1 arrays.  Comparisons among the sample groups allow the identification of genes regulated by small RNAs (microRNAs and trans-acting siRNAs). Experiment Overall Design: Three biological replicates of each mutant comprising at least 9 independent plants were harvested, and the expression profiles were determined using Affymetrix ATH1 arrays.	
+Protocol Name	
+Protocol Type	
+Protocol Description	
+Protocol Parameters	
+Protocol Hardware	
+Protocol Software	
+Protocol Contact	
+Protocol Term Source REF	
+SDRF File	E-GEOD-3011.sdrf.txt	
+Term Source Name	NCBI Taxonomy		mo	po	tair_anat:1.2	The MGED Ontology	ArrayExpress	mo	EFO	The MGED Ontology	
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.plantontology.org	http://www.arabidopsis.org/info/ontologies/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version					1.2						

@@ -1,0 +1,52 @@
+Investigation Title	Transcription profiling of Arabidopsis ahg1 and ahg3 mutants						
+Comment[Submitted Name]	Expression data of germinating ahg1, ahg3 and WT seedling in the presence of ABA						
+Experimental Design	unknown_experiment_design_type	transcription profiling by array					
+Experimental Design Term Source REF		EFO					
+Comment[AEExperimentType]	transcription profiling by array						
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for ahg1 or ahg3 after treatment with ABA						
+Comment[AEMIAMESCORE]	4						
+Comment[ArrayExpressReleaseDate]	2008-06-15						
+Comment[SecondaryAccession]	GSE6638						
+Comment[ArrayExpressAccession]	E-GEOD-6638						
+Comment[MAGETAB TimeStamp_Version]	2010-08-06 21:41:33 Last Changed Rev: 13058						
+Experimental Factor Name	GENOTYPE	COMPOUND					
+Experimental Factor Type	genotype	compound					
+Experimental Factor Term Source REF							
+Person Last Name	Hirayama						
+Person First Name	Takashi						
+Person Mid Initials							
+Person Email	hirayama@gsc.riken.jp						
+Person Phone							
+Person Fax							
+Person Address	Environmental Molecular Biology, RIKEN Yokohama Institute, RIKEN, 1-7-29 Suehiro, Tsururumi, Yokohama, 230-0045, Japan						
+Person Affiliation	RIKEN						
+Person Roles	submitter						
+Person Roles Term Source REF							
+Quality Control Type							
+Quality Control Term Source REF							
+Replicate Type							
+Replicate Term Source REF							
+Normalization Type							
+Normalization Term Source REF							
+Date of Experiment							
+Public Release Date	2008-06-15						
+PubMed ID	17461784						
+Publication DOI	10.1111/j.1365-313X.2007.03107.x						
+Publication Author List	Noriyuki Nishimura, Tomo Yoshida, Nobutaka Kitahata, Tadao Asami, Kazuo Shinozaki, Takashi Hirayama						
+Publication Title	ABA-Hypersensitive Germination1 encodes a protein phosphatase 2C, an essential component of abscisic acid signaling in Arabidopsis seed.						
+Publication Status	published						
+Publication Status Term Source REF	EFO						
+Publication Status Term Accession Number	EFO_0001796						
+Experiment Description	The effect of ahg1 and ahg3 on the gene expression profiles is similar but some genes are differentially affected. Experiment Overall Design: To investigate the effect of ahg1 and ahg3 mutations, the genome wide gene expression profiles of germinating seedlings were examined. These mutations occurred in close but distinct PP2C genes. Stratified seeds were transferred to plates containing 0.5 uM ABA and allowed germinate at 23 Â°C under 16hr light 8hr dark conditions. After two days samples were collected for RNA extraction.						
+Protocol Name	P-G6638-2	P-G6638-5	P-G6638-1	P-G6638-4	P-G6638-3	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6
+Protocol Type	specified_biomaterial_action	specified_biomaterial_action	grow	nucleic_acid_extraction	labeling	hybridization	feature_extraction
+Protocol Description	After stratification at 4Â&deg;C for 4 days, seeds were allowed to germinate on the MS-2% sucrose plate for two days	After stratification at 4Â&deg;C for 4 days, seeds were allowed to germinate on the MS-2% sucrose plate containing 0.5 uM ABA for two days	The plates were kept in a growth chamber with a conditions; 23Â&deg;C, 16 hr light and 8 hr dark cycles	Total RNA was extracted from frozen tissue using TRIzol reagent (Invitrogen) and purified using a RNease MinElute Cleanup Kit (Qiagen).	First-strand of cDNA was synthesized using 16 Â&#956;g of total RNA and SuperScript Double-stranded cDNA Synthesis kit (Invitrogen). The labeled cRNA was synthesized using BioArray RNA Transcripts Labeling Kit (T7) (ENZO Life Sciences inc.). After labeling, the cRNA was digested partially by incubating in 40 mM Tris-acetate, pH8.0, 100 mM KOAc, 30 mM MgOAc, at 94Â&deg;C for 35 min. Then 30 Â&#956;g cRNA was used for microarrary hybridization.	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 
+Protocol Parameters							
+Protocol Hardware							
+Protocol Software						MicroArraySuite 5.0	MicroArraySuite 5.0
+Protocol Contact							
+Protocol Term Source REF						mo	
+SDRF File	E-GEOD-6638.sdrf.txt						
+Term Source Name	NCBI Taxonomy		The MGED Ontology	ArrayExpress	EFO	The MGED Ontology	mo
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version							

@@ -1,0 +1,52 @@
+Investigation Title	"Transcription profiling of Arabidopsis csn3-1, csn4-1 and csn5 (csn5a-2 csn5b) COP9 signalosome (csn) mutant analysis"										
+Comment[Submitted Name]	COP9 signalosome (csn) mutant analysis										
+Experimental Design	unknown_experiment_design_type	transcription profiling by array									
+Experimental Design Term Source REF		EFO									
+Comment[AEExperimentType]	transcription profiling by array										
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for csn after growth in light and dark conditions										
+Comment[ArrayExpressReleaseDate]	2008-06-16										
+Comment[SecondaryAccession]	GSE9728										
+Comment[AEMIAMESCORE]	4										
+Comment[ArrayExpressAccession]	E-GEOD-9728										
+Comment[MAGETAB TimeStamp_Version]	2010-08-09 15:59:14 Last Changed Rev: 13058										
+Experimental Factor Name	growth condition	genotype									
+Experimental Factor Type	growth condition	genotype									
+Experimental Factor Term Source REF											
+Person Last Name	Schwechheimer										
+Person First Name	Claus										
+Person Mid Initials											
+Person Email	claus.schwechheimer@zmbp.uni-tuebingen.de										
+Person Phone											
+Person Fax											
+Person Address	"Developmental Genetics,Centre for Plant Molecular Biology,Auf der Morgenstelle 5,Tuebingen,72076,Germany"										
+Person Affiliation	Centre for Plant Molecular Biology										
+Person Roles	submitter										
+Person Roles Term Source REF	The MGED Ontology										
+Quality Control Type											
+Quality Control Term Source REF											
+Replicate Type											
+Replicate Term Source REF											
+Normalization Type											
+Normalization Term Source REF											
+Date of Experiment											
+Public Release Date	2008-06-16										
+PubMed ID	18434413										
+Publication DOI	10.1242/dev.020743										
+Publication Author List	"Dohmann EM, Levesque MP, De Veylder L, Reichardt I, Jürgens G, Schmid M, Schwechheimer C"										
+Publication Title	The Arabidopsis COP9 signalosome is essential for G2 phase progression and genomic stability										
+Publication Status	published										
+Publication Status Term Source REF	EFO										
+Publication Status Term Accession Number	EFO_0001796										
+Experiment Description	"Transcript profiling analysis of csn3-1, csn4-1 and csn5 (csn5a-2 csn5b) light grown and dark grown mutant seedlings compared to light grown and dark grown wild type using Arabidopsis ATH1 GeneChip array Experiment Overall Design: We compare eight samples of 7 day-old light grown or dark grown csn3-1, csn4-1, and csn5 (csn5a-2 csn5b) mutant seedlings and light grown and dark grown wild type seedlings (3 independent biological replicates each)."										
+Protocol Name	P-G9728-4	P-G9728-5	P-G9728-7	P-G9728-9	P-G9728-6	P-G9728-8	P-G9728-2	P-G9728-3	P-G9728-1	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6
+Protocol Type	nucleic_acid_extraction	nucleic_acid_extraction	nucleic_acid_extraction	nucleic_acid_extraction	nucleic_acid_extraction	nucleic_acid_extraction	nucleic_acid_extraction	nucleic_acid_extraction	labeling	hybridization	feature_extraction
+Protocol Description	Approximately 80 mg from 7 day old light grown  csn3-1 mutant seedlings were collected and ground to a fine powder under liquid Nitrogen. Samples were lysed in separate groups in RLT buffer (Qiagen).Total RNA was extracted from the tissue lysate using an RNeasy kit (Qiagen).	Approximately 80 mg from 7 day old light grown  csn5 (csn5a-2 csn5b) mutant seedlings were collected and ground to a fine powder under liquid Nitrogen. Samples were lysed in separate groups in RLT buffer (Qiagen).Total RNA was extracted from the tissue lysate using an RNeasy kit (Qiagen).	Approximately 80 mg from 7 day old dark grown  csn3-1 mutant seedlings were collected and ground to a fine powder under liquid Nitrogen. Samples were lysed in separate groups in RLT buffer (Qiagen).Total RNA was extracted from the tissue lysate using an RNeasy kit (Qiagen).	Approximately 80 mg from 7 day old dark grown  csn5 (csn5a-2 csn5b) mutant seedlings were collected and ground to a fine powder under liquid Nitrogen. Samples were lysed in separate groups in RLT buffer (Qiagen).Total RNA was extracted from the tissue lysate using an RNeasy kit (Qiagen).	Approximately 80 mg from 7 day old dark grown Col wild type seedlings were collected and ground to a fine powder under liquid Nitrogen. Samples were lysed in separate groups in RLT buffer (Qiagen).Total RNA was extracted from the tissue lysate using an RNeasy kit (Qiagen).	Approximately 80 mg from 7 day old dark grown  csn4-1 mutant seedlings were collected and ground to a fine powder under liquid Nitrogen. Samples were lysed in separate groups in RLT buffer (Qiagen).Total RNA was extracted from the tissue lysate using an RNeasy kit (Qiagen).	Approximately 80 mg from 7 day old light grown  csn4-1 mutant seedlings were collected and ground to a fine powder under liquid Nitrogen. Samples were lysed in separate groups in RLT buffer (Qiagen).Total RNA was extracted from the tissue lysate using an RNeasy kit (Qiagen).	Approximately 80 mg from 7 day old light grown CSN4-1 in Col wild type seedlings were collected and ground to a fine powder under liquid Nitrogen. Samples were lysed in separate groups in RLT buffer (Qiagen).Total RNA was extracted from the tissue lysate using an RNeasy kit (Qiagen).	Approximately 6 Â&#956;g of total RNA was processed to produce biotinylated cRNA targets.	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 
+Protocol Parameters											
+Protocol Hardware											
+Protocol Software										MicroArraySuite 5.0	MicroArraySuite 5.0
+Protocol Contact											
+Protocol Term Source REF										mo	
+SDRF File	E-GEOD-9728.sdrf.txt										
+Term Source Name	NCBI Taxonomy	The MGED Ontology	ArrayExpress	EFO	The MGED Ontology	mo					
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://mged.sourceforge.net/ontologies/MGEDontology.php					
+Term Source Version											

@@ -1,0 +1,31 @@
+Comment[ArrayExpressAccession]	E-GEOD-52298						
+MAGE-TAB Version	1.1						
+Public Release Date	2015-03-31						
+Investigation Title	Expression data from Arabidopsis myb3r mutants						
+Comment[Submitted Name]	Expression data from Arabidopsis myb3r mutants						
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis myb3r mutants						
+Experiment Description	Temporal and spatial regulation of cell division is central for generating multicellular organs with predictable sizes and shapes. However, it remains largely unclear how genes with mitotic functions are transcriptionally regulated during organogenesis in plants. Here, we showed that a group of R1R2R3-Myb transcription factors are responsible for developmentally controlled downregulation of variety of mitotic genes in Arabidopsis. Loss of their functions resulted in elevated expression of mitotic genes in quiescent cells including those underwent terminal differentiation. Concomitantly, their mutations enhanced cell division activities in various aspects of plant development, generating organs with increased sizes and irregular architectures. In addition, we showed that this type of R1R2R3-Myb proteins are required for oscillated expression of G2/M-specfiic genes, most likely by inhibiting transcription outside of G2/M in the cell cycle. Our finding uncovered a novel plant-specific mechanism in which scheduled expression of G2/M-specific genes may require their global repression both in the cell cycle and during development. Seedlings (9d-old) or leaves (5d or 15d-old) of the wild type or myb3r mutants were sampled for RNA extraction and hybridization on Affymetrix microarrays.						
+Term Source Name	ArrayExpress	EFO					
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Ohtani	Ohtani	Demura	Kobayashi	Ito		
+Person First Name	Misato	Misato	Taku	Kosuke	Masaki		
+Person Email	misato@psc.riken.jp						
+Person Affiliation	RIKEN						
+Person Phone	+81-45-503-9576						
+Person Address	Biomass Engineering Program Cooperation Division, RIKEN, 1-7-22 Suehiro-cho, Trurumi-ku, Yokohama, Japan						
+Person Roles	submitter						
+Protocol Name	P-GSE52298-1	P-GSE52298-5	P-GSE52298-6	P-GSE52298-2	P-GSE52298-3	P-GSE52298-4	P-GSE52298-7
+Protocol Description	The data were analyzed with Microarray Suite version 5.0 (MAS 5.0) using Affymetrix default analysis settings and global scaling as normalization method. ID_REF =  VALUE = MAS5.0 signal ABS_CALL = indicating whether the transcript was present (P), absent (A), or marginal (M) DETECTION P-VALUE = 	Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 10 ug of total RNA.	Following fragmentation, 15 ug of cRNA were hybridized for 16 hrs at 45 degree Celsius on GeneChip. GeneChips were washed and stained in the Affymetrix Fluidics Station 450.	None	Seedlings were grown in half strength of MS agar medium with 2% sucrose in continuous light at 22 degree Celsius.	Total RNA was extracted using Plant RNeasy kit (QIAGEN) following instruction.	GeneChips were scanned using the Affymetrix GeneChip Scanner 3000.
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	genotype	age	organism part				
+Experimental Factor Type	genotype	age	organism part				
+Comment[SecondaryAccession]	GSE52298						
+Comment[GEOReleaseDate]	2015-03-31						
+Comment[ArrayExpressSubmissionDate]	2013-11-12						
+Comment[GEOLastUpdateDate]	2015-03-31						
+Comment[AEExperimentType]	transcription profiling by array						
+Publication Title	Transcriptional repression by MYB3R proteins regulates plant organ growth						
+Publication Author List	Kobayashi K, Suzuki T, Iwata E, Nakamichi N, Suzuki T, Chen P, Ohtani M, Ishida T, Hosoya H, Muller S, Leviczky T, Pettko-Szandtner A, Darula Z, Iwamoto A, Nomoto M, Tada Y, Higashiyama T, Demura T, Doonan JH, Hauser MT, Sugimoto K, Umeda M, Magyar Z, Bogre L, Ito M						
+Publication DOI	10.15252/embj.201490899						
+Pubmed ID	26069325						
+SDRF File	E-GEOD-52298.sdrf.txt						

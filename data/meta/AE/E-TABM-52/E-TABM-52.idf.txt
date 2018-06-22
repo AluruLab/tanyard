@@ -1,0 +1,52 @@
+Investigation Title	Transcription profiling of nine ecotypes of Arabidopsis before and after 14d of cold acclimation at 4 degrees C							
+Comment[Submitted Name]	Ecotype Cold acclimation							
+Experimental Design	stimulus_or_stress_design	replicate_design	strain_or_line_design	transcription profiling by array				
+Experimental Design Term Source REF	mo	mo	mo	EFO				
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[AEExperimentDisplayName]	Transcription profiling by array of nine ecotypes of Arabidopsis before and after cold acclimation							
+Comment[ArrayExpressReleaseDate]	2008-02-07							
+Comment[SecondaryAccession]								
+Comment[AEMIAMESCORE]	4							
+Comment[ArrayExpressAccession]	E-TABM-52							
+Comment[MAGETAB TimeStamp_Version]	2010-08-12 19:39:30 Last Changed Rev: 13058							
+Experimental Factor Name	temperature	ecotype						
+Experimental Factor Type	temperature	ecotype						
+Experimental Factor Term Source REF								
+Person Last Name	Hannah							
+Person First Name	Matt							
+Person Mid Initials								
+Person Email	hannah@mpimp-golm.mpg.de							
+Person Phone								
+Person Fax								
+Person Address	"Am mühlenburg 1, 14476 Golm, Germany"							
+Person Affiliation	Max-Planck Institute of Molecular Plant Physiology							
+Person Roles	submitter							
+Person Roles Term Source REF	The MGED Ontology							
+Quality Control Type	replicate_design							
+Quality Control Term Source REF								
+Replicate Type								
+Replicate Term Source REF								
+Normalization Type								
+Normalization Term Source REF								
+Date of Experiment								
+Public Release Date	2008-02-07							
+PubMed ID	16844837							
+Publication DOI	10.1104/pp.106.081141							
+Publication Author List	"Hannah, Matthew A.; Wiese, Dana; Freund, Susanne; Fiehn, Oliver; Heyer, Arnd G.; Hincha, Dirk K."							
+Publication Title	Natural Genetic Variation of Freezing Tolerance in Arabidopsis							
+Publication Status	published							
+Publication Status Term Source REF	EFO							
+Publication Status Term Accession Number	EFO_0001796							
+Experiment Description	Nine accessions of Arabidopsis were sampled before and after 14d of cold acclimation at 4°C. Transcript data were combined with metabolite data and related to quantitative measurement of plant freezing tolerance as determined by leaf electrolyte leakage assays.							
+Protocol Name	P-MTAB-5	P-MTAB-6	P-EXTR-1	P-AFFY-2	Affymetrix:Protocol:Hybridization-EukGE-WS2v4_450	P-NORM-1	P-AFFY-6	
+Protocol Type	grow	specified_biomaterial_action	nucleic_acid_extraction	labeling	hybridization	normalization	feature_extraction	
+Protocol Description	Soil grown in a greenhouse with a 16 h photoperiod at a minimum of 200 &#956;mol m-2 s-1 and a day/night temperature of 20&deg;C/18&deg;C. Nonacclimated plants were harvested for all measurements at the common developmental stage of bolting (0.5-2 cm inflorescence growth). Each sample was made up of whole rosettes pooled from 10 plants.	At the same time as nonacclimated plants were harvested replicate plants were transferred to a 4&deg;C growth chamber with a 16 h photoperiod at 90 &#956;mol m-2 s-1 for an additional 14 d.	Trizol	Title: Affymetrix in vitro transcription. Description: 	Title: Affymetrix EukGE-WS2v4_450 Hybridization. Description: 	GCRMA	Title: Affymetrix CEL analysis. Description: 	
+Protocol Parameters								
+Protocol Hardware								
+Protocol Software							MicroArraySuite 5.0	
+Protocol Contact								
+Protocol Term Source REF					mo			
+SDRF File	E-TABM-52.sdrf.txt							
+Term Source Name		nasc	NCBI Taxonomy	The MGED Ontology	ArrayExpress	mo	EFO	The MGED Ontology
+Term Source File		http://arabidopsis.info/catalogue.html	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version								

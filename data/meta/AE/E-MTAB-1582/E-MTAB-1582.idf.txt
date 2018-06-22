@@ -1,0 +1,33 @@
+Comment[ArrayExpressAccession]	E-MTAB-1582				
+MAGE-TAB Version	1.1				
+Investigation Title	A.thaliana roots interacting with Hieracium				
+Comment[Submitted Name]	A.thaliana roots interacting with Hieracium				
+Experiment Description	Plant roots perceive neighbouring roots even when resource depletion is low. The transcriptomic response to the presence or absence of an inferior competitor (Hieracium pilosella) is therefore examined in roots of A. thaliana. The experiment was set up in pots filled with non-sterile sand, that allowed to sample roots of eight week old Arabidopsis plants. 3 biological replicates per treatment were examined. Each of these replicates represents 3 pooled  samples from individual plants.				
+Experimental Design	stimulus_or_stress_design	in_vivo_design	co-expression_design		
+Comment[AEExperimentType]	transcription profiling by array				
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis roots exposed to roots of Hieracium pilosella to study root-root interactions				
+Experimental Factor Name	stimulus				
+Experimental Factor Type	stimulus				
+Quality Control Type	biological replicate				
+Quality Control Term Source REF	EFO				
+Public Release Date	2014-01-28				
+Person Last Name	Bartelheimer				
+Person First Name	Maik				
+Person Mid Initials					
+Person Email	maik.bartelheimer@biologie.uni-regensburg.de				
+Person Phone	0049 941 943 3105				
+Person Address	Institute of Botany, Faculty of Biology and Preclinical Medicine, University of Regensburg, 93040 Regensburg, Germany				
+Person Affiliation	Institute of Botany,  University of Regensburg, Regensburg, Germany				
+Person Roles	submitter				
+PubMed ID	23967000				
+Publication DOI	10.3389/fpls.2013.00296				
+Publication Author List	Schmid C, Bauer S, Muller B, Bartelheimer M				
+Publication Title	Belowground neighbor perception in Arabidopsis thaliana studied by transcriptome analysis: roots of Hieracium pilosella cause biotic stress				
+Publication Status	published				
+Protocol Name	P-MTAB-31882	P-MTAB-31883	P-MTAB-31884	P-MTAB-31885	P-MTAB-31886
+Protocol Type	treatment protocol	nucleic acid extraction protocol	nucleic acid labeling protocol	nucleic acid hybridization to array protocol	array scanning protocol
+Protocol Description	Interaction of Arabidopsis thaliana roots with Hieracium pilosella roots, and without.	Tissue homogenization, RNA purification and sample processing were performed at an Affymetrix Service Provider and Core Facility, KFB - Center of Excellence for Fluorescent Bioanalytics (Regensburg, Germany). Tissues were homogenized with 1.4 mm ceramic beads for 30 s at 6,000 rpm using the Precellys Homogenizer (PEQLAB, Erlangen, Germany), followed by total RNA purification with RNeasy Mini columns (Qiagen, Hilden, Germany) and an Agilent 2100 bioanalyzer quality assessment (Agilent Technologies, Palo Alto, USA).	250 ng of total RNA were used to generate double-stranded cDNA and subsequently Biotin-labeled aRNA.	Gene expression profiles were determined by Arabidopsis ATH1 Genome Arrays according to the GeneChip 3' IVT Express Kit Manual (Affymetrix, Santa Clara, USA). 250 ng of total RNA were used to generate double-stranded cDNA and subsequently Biotin-labeled aRNA. Following fragmentation, aRNA products were hybridized to the array for 16 h at 45 C in a rotating chamber.	Hybridized arrays were washed and stained in an Affymetrix Fluidics Station FS450, and the fluorescent signals were measured with an Affymetrix GeneChip Scanner 3000-7G.
+Protocol Term Source REF	EFO	EFO	EFO	EFO	EFO
+Term Source Name	EFO				
+Term Source File	http://www.ebi.ac.uk/efo				
+SDRF File	E-MTAB-1582.sdrf.txt				

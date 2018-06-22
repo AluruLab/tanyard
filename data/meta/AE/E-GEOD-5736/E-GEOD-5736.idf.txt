@@ -1,0 +1,51 @@
+Investigation Title	Transcription profiling of Arabidopsis to identify gene expression during silique senescence				
+Comment[Submitted Name]	To identify changes in gene expression during silique senescence in Arabidopsis thaliana				
+Experimental Design	unknown_experiment_design_type	transcription profiling by array			
+Experimental Design Term Source REF		EFO			
+Comment[AEExperimentType]	transcription profiling by array				
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis young and old siliques				
+Comment[AEMIAMESCORE]	4				
+Comment[ArrayExpressReleaseDate]	2008-06-14				
+Comment[SecondaryAccession]	GSE5736				
+Comment[ArrayExpressAccession]	E-GEOD-5736				
+Comment[MAGETAB TimeStamp_Version]	2010-08-06 17:27:33 Last Changed Rev: 13058				
+Experimental Factor Name	SILIQUE AGE				
+Experimental Factor Type	age				
+Experimental Factor Term Source REF					
+Person Last Name	(NASC)				
+Person First Name	Nottingham Arabidopsis Stock Centre				
+Person Mid Initials					
+Person Email	affy@arabidopsis.info				
+Person Phone					
+Person Fax					
+Person Address	School of Biosciences, University of Nottingham, Nottingham Arabidopsis Stock Centre (NASC), Sutton Bonington Campus, Loughborough, LE12 5RD, United Kingdom				
+Person Affiliation	Nottingham Arabidopsis Stock Centre (NASC)				
+Person Roles	submitter				
+Person Roles Term Source REF					
+Quality Control Type					
+Quality Control Term Source REF					
+Replicate Type					
+Replicate Term Source REF					
+Normalization Type					
+Normalization Term Source REF					
+Date of Experiment					
+Public Release Date	2008-06-14				
+PubMed ID					
+Publication DOI					
+Publication Author List					
+Publication Title					
+Publication Status					
+Publication Status Term Source REF					
+Experiment Description	The aim of the experiment is to compare and contrast the profiles of gene expression during silique senescence and to identify the molecular events that regulate the timing of the process. Silique occurs over a highly predictable time frame and as a consequence it may be easier to identify the molecular events that are critical for the process to take place than in systems such as leaf senescence. The material will be collected from 20 Arabidopsis thaliana ecotype Columbia plants  (NASC order number N1093) grown under controlled conditions specified under NASC protocol: Baseline sample preparation. Two pods will be collected from each plant and pooled from 20 plants to reduce sampling variability. It is intended that 3 replicates of the experiment will be submitted.  The RNA will be extracted from mature green silique tissues of 10 days after anthesis and senescing pod tissues of 20 days after anthesis using lithium chloride extraction protocol and cleaned with Qiagen RNAeasy column. Experimenter name = Thomas Yang; Experimenter phone = 01159516378; Experimenter institute = University of Nottingham; Experimenter address = Division of Plant Sciences; Experimenter address = University of Nottingham; Experimenter address = Sutton Bonington Campus; Experimenter address = Loughborough; Experimenter address = Leicestershire; Experimenter zip/postal_code = LE12 5RD; Experimenter country = UK Experiment Overall Design: 6 samples were used in this experiment				
+Protocol Name	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6			
+Protocol Type	hybridization	feature_extraction			
+Protocol Description	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 			
+Protocol Parameters					
+Protocol Hardware					
+Protocol Software	MicroArraySuite 5.0	MicroArraySuite 5.0			
+Protocol Contact					
+Protocol Term Source REF	mo				
+SDRF File	E-GEOD-5736.sdrf.txt				
+Term Source Name	NCBI Taxonomy	The MGED Ontology	ArrayExpress	EFO	mo
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version					

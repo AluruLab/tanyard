@@ -1,0 +1,52 @@
+Investigation Title	Transcription profiling of Arabidopsis Col-0 and pil5 imbibed seeds after far-red or far-red/red light irradiation.					
+Comment[Submitted Name]	Expression data from Col-0 and pil5 imbibed seeds after far-red or far-red/red light irradiation.					
+Experimental Design	unknown_experiment_design_type	transcription profiling by array				
+Experimental Design Term Source REF		EFO				
+Comment[AEExperimentType]	transcription profiling by array					
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for pil5 after exposure to red and far-red light or far-red light only					
+Comment[SecondaryAccession]	GSE14374					
+Comment[ArrayExpressReleaseDate]	2010-01-19					
+Comment[AEMIAMESCORE]	4					
+Comment[ArrayExpressAccession]	E-GEOD-14374					
+Comment[MAGETAB TimeStamp_Version]	2010-08-01 14:47:42 Last Changed Rev: 13058					
+Experimental Factor Name	genotype	growth condition				
+Experimental Factor Type	genotype	growth condition				
+Experimental Factor Term Source REF						
+Person Last Name	Choi					
+Person First Name	Giltsu					
+Person Mid Initials						
+Person Email	gchoi@kaist.edu					
+Person Phone						
+Person Fax						
+Person Address	"Choi Laboratory, Biological Sciences, KAIST, 335 Gwahangno, Daejeon, 305-701, Korea"					
+Person Affiliation	KAIST					
+Person Roles	submitter					
+Person Roles Term Source REF	The MGED Ontology					
+Quality Control Type						
+Quality Control Term Source REF						
+Replicate Type						
+Replicate Term Source REF						
+Normalization Type						
+Normalization Term Source REF						
+Date of Experiment						
+Public Release Date	2010-01-19					
+PubMed ID	19244139					
+Publication DOI	10.1105/tpc.108.064691					
+Publication Author List	"Oh E, Kang H, Yamaguchi S, Park J, Lee D, Kamiya Y, Choi G."					
+Publication Title	Genome-wide analysis of genes targeted by PHYTOCHROME INTERACTING FACTOR 3-LIKE5 during seed germination in Arabidopsis.					
+Publication Status	published					
+Publication Status Term Source REF	EFO					
+Publication Status Term Accession Number	EFO_0001796					
+Experiment Description	"PIL5 is a key negative regulator of phytochrome mediated seed germination and PIL5 protein is degraded by red light irradiation through phytochrome. The microarray aimed to find various red light-regulated genes and PIL5-regulated genes in the imbibed seeds. Experiment Overall Design: Col-0 and pil5 seeds were irradiated by far-red light or far-red/red light and then, incubated in the dark for 12 hours. Total three biological replicates were used for the microarray."					
+Protocol Name	P-G14374-2	P-G14374-1	P-G14374-5	P-G14374-3	P-AFFY-6	P-G14374-4
+Protocol Type	specified_biomaterial_action	grow	nucleic_acid_extraction	labeling	feature_extraction	bioassay_data_transformation
+Protocol Description	"Far-red light treatment (3.2 Î¼mol m-2 s-1, 5 mins), Red light treatment (13 Î¼mol m-2 s-1, 5mins)"	Seeds were incubated for 12 hours dark either after far-red light or far-red/red light irradiation on aqueous medium.	"Total RNA was extracted using the Spectrum plant total RNA kit (Sigma, St. Louis, MO, USA) according to the manufacturerâs protocol."	"Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 10 ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix)."	Title: Affymetrix CEL analysis. Description: 	"The data were analyzed with Microarray Suite software (version 5.0, Affymetrix) and signal intensities were normalized using robust multiple-array average (RMA) method"
+Protocol Parameters						
+Protocol Hardware						
+Protocol Software					MicroArraySuite 5.0	
+Protocol Contact						
+Protocol Term Source REF						The MGED Ontology
+SDRF File	E-GEOD-14374.sdrf.txt					
+Term Source Name	NCBI Taxonomy		The MGED Ontology	ArrayExpress	EFO	The MGED Ontology
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version						

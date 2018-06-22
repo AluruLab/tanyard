@@ -1,0 +1,51 @@
+Investigation Title	Transcription profiling of Arabidopsis -P. syringae pv. tomato DC3000 interaction														
+Comment[Submitted Name]	Genome-wide transcriptional analysis of the compatible A. thaliana-P. syringae pv. tomato DC3000 interaction														
+Experimental Design	unknown_experiment_design_type	transcription profiling by array													
+Experimental Design Term Source REF		EFO													
+Comment[AEExperimentType]	transcription profiling by array														
+Comment[AExperimentDisplayName]	Transcription profiling by array of Arabidopsis after inoculation with Pseudomonas syringae pv. tomato														
+Comment[AEMIAMESCORE]	4														
+Comment[ArrayExpressReleaseDate]	2008-06-13														
+Comment[SecondaryAccession]	GSE5520														
+Comment[ArrayExpressAccession]	E-GEOD-5520														
+Comment[MAGETAB TimeStamp_Version]	2010-08-06 17:16:54 Last Changed Rev: 13058														
+Experimental Factor Name	INOCULATION	DOSE													
+Experimental Factor Type	infect	dose													
+Experimental Factor Term Source REF															
+Person Last Name	(NASC)														
+Person First Name	Nottingham Arabidopsis Stock Centre														
+Person Mid Initials															
+Person Email	affy@arabidopsis.info														
+Person Phone															
+Person Fax															
+Person Address	School of Biosciences, University of Nottingham, Nottingham Arabidopsis Stock Centre (NASC), Sutton Bonington Campus, Loughborough, LE12 5RD, United Kingdom														
+Person Affiliation	Nottingham Arabidopsis Stock Centre (NASC)														
+Person Roles	submitter														
+Person Roles Term Source REF															
+Quality Control Type															
+Quality Control Term Source REF															
+Replicate Type															
+Replicate Term Source REF															
+Normalization Type															
+Normalization Term Source REF															
+Date of Experiment															
+Public Release Date	2008-06-13														
+PubMed ID															
+Publication DOI															
+Publication Author List															
+Publication Title															
+Publication Status															
+Publication Status Term Source REF															
+Experiment Description	Pseudomonas syringae pv. tomato DC3000 (Pst) is a virulent pathogen, which causes disease on tomato and Arabidopsis. The type III secretion system (TTSS) plays a key role in pathogenesis by translocating virulence effectors from the bacteria into the plant host cell, while the phytotoxin coronatine (COR) contributes to virulence and disease symptom development.  Recent studies suggest that both the TTSS and and COR are involved in the suppression of host basal defenses.   However, little is known about the interplay between the host gene expression associated with basal defenses and the virulence activities of the TTSS and COR during infection.  The global effects of the TTSS and COR on host gene expression associated with other host cellular processes during bacterial infection are also not well characterized.  In this study, we used the Affymetrix full genome chip to determine the Arabidopsis transcriptome associated with basal defense to Pst DC3000 hrp mutants and the human pathogenic bacterium Escherichia coli O157:H7.   We then used Pst DC3000 virulence mutants to characterize Arabidopsis transcriptional responses to the action of hrp-regulated virulence factors (e.g., TTSS and COR) during bacterial infection.  Additionally, we used bacterial fliC mutants to assess the role of the PAMP flagellin in induction of basal defense-associated transcriptional responses. In total, our global gene expression analysis identified more than 5000 Arabidopsis genes that are reproducibly regulated more than 2-fold in three independent biological replicates of at least one type of comparison.  Regulation of these genes provides a molecular signature for Arabidopsis basal defense to plant and human pathogenic bacteria, and illustrates both common and distinct global virulence effects of the TTSS, COR, and possibly other hrp-regulated virulence factors during Pst DC3000 infection. Experimenter name = William Underwood; Experimenter phone = 517-353-9182; Experimenter fax = 517-353-9168; Experimenter address = Michigan State University; Experimenter address = 222 Plant Biology Building; Experimenter address = 178 Wilson R.d. Experimenter address = East Lansing, MI; Experimenter zip/postal_code = 48824; Experimenter country = USA Experiment Overall Design: 40 samples were used in this experiment														
+Protocol Name	P-G5520-9	P-G5520-8	P-G5520-7	P-G5520-6	P-G5520-2	P-G5520-5	P-G5520-12	P-G5520-13	P-G5520-11	P-G5520-10	P-G5520-3	P-G5520-1	P-G5520-4	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6
+Protocol Type	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	hybridization	feature_extraction
+Protocol Description	Plants were inoculated by vacuum infiltration with a suspension of Pseudomonas syringae pv. tomato DC3000 hrpA mutant bacteria at 10e8 cfu/ml. Inoculated leaf tissue from at least 15 plants was collected 7 hours after inoculation for RNA isolation.	Plants were inoculated by vacuum infiltration with a suspension of Pseudomonas syringae pv. tomato DC3000 hrpAfliC double mutant bacteria at 10e8 cfu/ml. Inoculated leaf tissue from at least 15 plants was collected 7 hours after inoculation for RNA isolation.	Plants were inoculated by vacuum infiltration with a mock inoculum of distilled/deionized water. Inoculated leaf tissue from at least 15 plants was collected 10 hours after inoculation for RNA isolation.	Plants were inoculated by vacuum infiltration with a suspension of Pseudomonas syringae pv. tomato DC3118 COR-hrpS double mutant bacteria at a concentration of 5x10e7 cfu/ml. Inoculated leaf tissue from at least 15 plants was collected for RNA isolation.	Plants were inoculated by vacuum infiltration with Pseudomonas syringae DC3118 COR-hrpS double mutant bacteria at a concentration of 10e6 cfu/ml. Inoculated leaf tissue from at least 15 plants was collected for RNA isolation.	Plants were inoculated by vacuum infiltration with a suspension of Pseudomonas syringae pv. tomato DC3118 Coronatine- bacteria at a concentration of 5x10e7 cfu/ml. Inoculated leaf tissue from at least 15 plants was collected for RNA isolation.	Plants were inoculated by vacuum infiltration with a suspension of E. coli O157:H7 bacteria at a concentration of 10e8 cfu/ml. Inoculated leaf tissue from at least 15 plants was collected 7 hours after inoculation for RNA isolation.	Plants were inoculated by vacuum infiltration with a suspension of E. coli TUV86-2 fliC mutant bacteria at a concentration of 10e8 cfu/ml. Inoculated leaf tissue from at least 15 plants was collected 7 hours after inoculation for RNA isolation.	Plants were inoculated by vacuum infiltration with a mock inoculum of distilled/deionized water. Inoculated leaf tissue from at least 15 plants was collected 7 hours after inoculation for RNA isolation.	Plants were inoculated by vacuum infiltration with a suspension of Pseudomonas syringae pv. tomato DC3000 bacteria at 10e8 cfu/ml. Inoculated leaf tissue from at least 15 plants was collected 7 hours after inoculation for RNA isolation.	Plants were inoculated by vacuum infiltration with Pseudomonas syringae pv. tomato strain DC3000 bacteria at a concentration of 10e6 cfu/ml. Inoculated leaf tissue from at least 15 plants was collected for RNA isolation.	Plants were inoculated by vacuum infiltration with Pseudomonas syringae DC3118 Coronatine- bacteria at a concentration of 10e6 cfu per ml. Inoculated leaf tissue from at least 15 plants was collected for RNA isolation.	Plants were inoculated by vacuum infiltration with a mock inoculum of distilled/deionized water. Inoculated leaf tissue from at least 15 plants was collected for RNA isolation.	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 
+Protocol Parameters															
+Protocol Hardware															
+Protocol Software														MicroArraySuite 5.0	MicroArraySuite 5.0
+Protocol Contact															
+Protocol Term Source REF														mo	
+SDRF File	E-GEOD-5520.sdrf.txt														
+Term Source Name	NCBI Taxonomy	The MGED Ontology	ArrayExpress	EFO	mo										
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php										
+Term Source Version															

@@ -1,0 +1,30 @@
+Comment[ArrayExpressAccession]	E-MEXP-3915			
+Investigation Title	Transcriptome profiling of fgps1 mutant inflorescence stem			
+Comment[Submitted Name]	Transcriptome profiling of fgps1 mutant inflorescence stem			
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidiopsis inflorescence stems from fpgs1 mutants			
+Comment[MIAMExpressLogin]	YuhongTang			
+Comment[MIAMExpressSubmissionID]	8778			
+Experiment Description	Total RNA was isolated from 35-d old inflorescence stems of plants. For microarray analysis, three biological replicates were included for both WT control and fpgs1 mutant.  			
+Experimental Design	replicate design	co-expression_design	genotype design	
+Comment[AEExperimentType]	transcription profiling by array			
+Experimental Factor Name	genotype			
+Experimental Factor Type	genotype			
+Person Last Name	Tang			
+Person First Name	Yuhong			
+Person Email	ytang@noble.org			
+Person Phone	5802246645			
+Person Affiliation	The Samuel Robert Noble Foundation			
+Person Address	Plant Biology Division, 2510 Sam Noble Pkwy, Ardmore, Oklahoma, 73401, USA			
+Person Roles	submitter			
+Person Roles Term Source REF	EFO			
+Quality Control Type				
+Public Release Date	2014-05-24			
+Comment[ArrayExpressSubmissionDate]	2013-05-24 21:03:17			
+Publication Status	not yet submitted			
+Protocol Name	P-MTAB-33000	P-MTAB-33001	P-MTAB-33002	P-MTAB-33003
+Protocol Description	The normalized data was obtained by using RMA. All chips were normalized together using robust multichip average.  Median polish was used for the probe level summary.	Arabidopsis thaliana wild-type Col-0 and T-DNA insert lines were grown in growth chambers at 22 oC under long day condition (16 hrs light). Stems of 35 days old plants were used for all experiments. (Parameters: time unit = seconds, temperature unit = C)	Total RNA was isolated using Qiagen RNeasy Mini Kit according to the kit protocol. (Parameters: Extracted product = total_RNA, Amplification = none)	Chips are loaded onto the machine and scanned as manufacturer's recommendations.(Parameters: Scanning hardware = GeneChip Scanner 3000 [Affymetrix], Scanning software = MAS/GCOS/GREX [Affymetrix])
+Protocol Type	normalization data transformation protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Protocol Term Source REF	EFO	EFO	EFO	EFO
+Term Source Name	EFO	ArrayExpress		
+Term Source File	http://www.ebi.ac.uk/efo/	http://www.ebi.ac.uk/arrayexpress		
+SDRF File	E-MEXP-3915.sdrf.txt			

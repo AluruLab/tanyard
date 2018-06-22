@@ -1,0 +1,30 @@
+Comment[ArrayExpressAccession]	E-GEOD-35507
+MAGE-TAB Version	1.1					
+Public Release Date	2014-04-25
+Investigation Title	CSB3 transcriptome analysis (Arabidopsis thaliana)					
+Comment[Submitted Name]	CSB3 transcriptome analysis (Arabidopsis thaliana)
+Experiment Description	In this study we show the comparative transcriptome of constitutive subtilisin3 (csb3) plants, an Arabidopsis mutant showing strikingly enhanced resistance to biotrophic pathogens. CSB3 encodes a 1-hydroxy-2-methyl-2-butenyl 4-diphosphate synthase, the enzyme controlling the penultimate step of the biosynthesis of isopentenyl diphosphate via the 2-C-methyl-d-erythritol-4-phosphate (MEP) pathway in the chloroplast. It has been proposed that CSB3 represents a point of metabolic convergence modulating the magnitude of SA-mediated disease resistance to biotrophic pathogens. We show that csb3 have increased expression  of a set of genes encoding defense-related proteins and enzymes,  which includes two subtilisins. In essence our results substantiates an important role of these two subtilases in the activation of defense-related signaling pathways against biotrophic pathogens. 5 five-week-old plants were collected, frozen in liquid nitrogen and stored at -80ÂºC. Samples from Col-0 and csb3 were compared.					
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl				
+Person Last Name	Vera	RamÃ­rez	Gil	LÃ³pez	Vera	
+Person First Name	Pablo	Vicente	MarÃ­a	Ana	Pablo	
+Person Mid Initials			J			
+Person Email	vera@ibmcp.upv.es					
+Person Affiliation	Instituto de BiologÃ­a Molecular y Celular de Plantas (IBMCP) UPV-CSIC					
+Person Address	Instituto de BiologÃ­a Molecular y Celular de Plantas (IBMCP) UPV-CSIC, Camino de Vera s/n, Valencia, Valencia, Spain					
+Person Roles	submitter					
+Protocol Name	P-GSE35507-1	P-GSE35507-4	P-GSE35507-5	P-GSE35507-2	P-GSE35507-3	P-GSE35507-6
+Protocol Description	GeneChip intensities were background-corrected, normalized and sumarized by MAS5 suite (Affymetrix) ID_REF =  VALUE = Normalized Signal values as calculated by MAS5 (TGT=250)	Biotinylated cRNA was prepared according to the standard Affymetrix protocol from 4 µg total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).	Following fragmentation, 10 µg of biotinylated cRNA were hybridized to Affymetrix chips (Arabidopsis ATH1 Genome Array). Each sample was added to a hybridization solution containing 100mM 2-(N-morpholino)ethanesulfonic acid, 1 M Na+, and 20mM of EDTA in the presence of 0.01% of Tween-20 to a final cRNA concentration of 0.05 µg/ml. Hybridization was performed for 16 h at 45ºC . Each microarray was washed and stained with streptavidin-phycoerythrin in a Fluidics station 450 (Affymetrix).	Seeds of csb3 mutant and wild-type Arabidopsis thaliana were kept at 4°C for 3 days and sown in jiffy7 peat pellets (Clause-Tezier IbÃ©rica, Paterna, Spain). Plants were grown in a growth phytochamber for 5 weeks with a light intensity of approximately 150-200 µE m-2s-1 at 23°C under 10 h light/14 h dark cycles and 60% humidity.	RNA was isolated with Tri-Reagent (Invitrogen) following manufacture´s instructions. High-quality RNA was obtained by using RNeasy Plant Mini Kit (Qiagen).	GeneChips were scanned using the standard Affymetrix GeneChip Scanner
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	GENOTYPE					
+Experimental Factor Type	genotype					
+Publication Title	An extracellular subtilase switch for immune priming in Arabidopsis.					
+Publication Author List	Ramï¿½rez V, Lï¿½pez A, Mauch-Mani B, Gil MJ, Vera P					
+PubMed ID	23818851					
+Publication DOI	10.1371/journal.ppat.1003445					
+Comment[SecondaryAccession]	GSE35507					
+Comment[GEOReleaseDate]	2014-04-25					
+Comment[ArrayExpressSubmissionDate]	2012-02-02					
+Comment[GEOLastUpdateDate]	2014-04-25					
+Comment[AEExperimentType]	transcription profiling by array					
+SDRF File	E-GEOD-35507.sdrf.txt

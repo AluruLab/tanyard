@@ -1,0 +1,31 @@
+Comment[ArrayExpressAccession]	E-GEOD-9311
+Investigation Title	Transcription profiling of Arabidopsis roots and shoots from plants grown on selenate
+Comment[Submitted Name]	Gene expression in roots and shoots of plants grown on selenate
+Publication Title	Transcriptome analyses give insights into selenium-stress responses and selenium tolerance mechanisms in Arabidopsis.
+Publication Author List	Doug Van Hoewyk, Hideki Takahashi, Eri Inoue, Ann Hess, Masanori Tamaoki, Elizabeth A H Pilon-Smits
+Publication DOI	
+PubMed ID	18251864
+Experimental Design	compound_treatment_design	transcription profiling by array
+Experimental Design Term Source REF	The MGED Ontology	EFO
+Experimental Factor Name	COMPOUND	ORGANISMPART																							
+Experimental Factor Type	compound	organism_part																							
+Person Last Name	Hoewyk																								
+Person First Name	Douglas Van																								
+Person Mid Initials																									
+Person Email	dougvh@lamar.colostate.edu																								
+Person Address	Pilon-Smits, Biology Department, Colorado State University, 1521 Crestmore PL, Fort Collins, 80521, USA																								
+Person Affiliation	Colorado State University																								
+Person Roles	submitter																								
+Public Release Date	2008-11-06																								
+Comment[ArrayExpressSubmissionDate]	2007-10-12																								
+Comment[GEOReleaseDate]	2007-10-24																								
+Comment[SecondaryAccession]	GSE9311	GDS3243	GDS3225																						
+Experiment Description	Selenate is chemically similar to sulfate and can be taken up and assimilated by plants via the same transporters and enzymes.  In contrast to many other organisms, selenium (Se) has not been shown to be essential for higher plants.  In excess, Se is toxic and restricts development.  Both Se deficiency and toxicity pose problems worldwide. To obtain better insight into the effects of Se on plant metabolism and into plant mechanisms involved in Se tolerance, the transcriptome of Arabidopsis plants grown with or without selenate was studied, and Se-responsive genes identified.  Roots and shoots exhibited different Se-related changes in gene regulation and metabolism. Many genes involved in sulfur (S) uptake and assimilation were upregulated. Accordingly, Se treatment enhanced sulfate levels in plants, but the quantity of organic S metabolites decreased.  Transcripts regulating the synthesis and signaling of ethylene and jasmonic acid were also upregulated by Se.    Selenate appeared to repress plant development, as suggested by the down-regulation of genes involved in cell wall synthesis and auxin-regulated proteins.  The Se-responsive genes discovered in this study may help create plants that can better tolerate and accumulate Se, which may enhance the effectiveness of Se phytoremediation or serve as Se-fortified food. Experiment Overall Design: Arabidopsis thaliana (ecotype WS) plants were vertically grown on +/- 40 micromolar selenate MS medium. Root and shoot tissues of 10-day-old plants were seperated and  used for RNA extraction and hybridization on Affymetrix microarrays. All conditions were duplicated.																								
+Protocol Name	P-G9311-3	P-G9311-2	P-G9311-4	P-G9311-1	P-G9311-5																				
+Protocol Type	labeling	specified_biomaterial_action	nucleic_acid_extraction	grow	grow																				
+Protocol Description	Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 10 microg total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).	Root samples were transferred to liquid nitrogen before RNA extraction.	Total RNA was prepared using RNeasy Plant Mini Kit (Qiagen, Hilden, Germany) according to the manufacturer's instructions.	WS plants were grown at 22C under 16h light and 8 hour dark cycle.	WS plants were grown at 22C under 16h light and 8 hour dark cycle. Plants were grown on 40 micromolar selenate.																				
+Protocol Parameters																									
+Protocol Software																									
+Term Source Name	efo.obo	The MGED Ontology	EFO
+Term Source File	/nfs/ma/ma-exp/GEOImportDownload/efo.obo																								
+SDRF File	E-GEOD-9311.sdrf.txt

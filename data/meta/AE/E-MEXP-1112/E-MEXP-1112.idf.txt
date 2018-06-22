@@ -1,0 +1,49 @@
+Investigation Title	Transcription profiling of wild type and cli186 mutant Arabidopsis seedlings grown with and without carbon and light to provide information about gene networks regulated by the interaction of light and carbon signaling pathways	
+Comment[AdditionalFile:XLS]	E-MEXP-1112.hybs.xls
+Comment[Submitted Name]	An integrated genetic, genomic and systems approach defines gene networks regulated by the interaction of light and carbon signaling pathways in Arabidopsis	
+Experimental Design	in_vivo_design	co-expression_design	genetic_modification_design	transcription profiling by array	
+Experimental Design Term Source REF		mo	mo	EFO	
+Comment[AEMIAMESCORE]	5	
+Comment[ArrayExpressReleaseDate]	2008-02-23	
+Comment[ArrayExpressAccession]	E-MEXP-1112	
+Comment[MAGETAB TimeStamp_Version]	2011-01-23 06:02:20 Last Changed Rev: 14857	
+Experimental Factor Name	GrowthCondition	genotype	
+Experimental Factor Type	growth_condition	genotype	
+Experimental Factor Term Source REF	
+Person Last Name	Thum	
+Person First Name	Karen	
+Person Mid Initials	E	
+Person Email	karen.thum@gmail.com	
+Person Phone	212-998-3964	
+Person Fax	212-995-4204	
+Person Address	100 Washington Square East, 1009 Main Building	
+Person Affiliation	Biology	
+Person Roles	submitter	
+Person Roles Term Source REF		
+Quality Control Type	biological_replicate	
+Quality Control Term Source REF	The MGED Ontology	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2008-02-23	
+PubMed ID	18387196	
+Publication DOI	18387196	
+Publication Author List	Thum KE, Shin MJ, Gutierrez R, Mukherjee I, Nero D, Shasha D, Coruzzi GM	
+Publication Title	An integrated genetic, genomic and systems approach defines gene networks regulated by the interaction of light and carbon signaling pathways in Arabidopsis	
+Publication Status	journal_article	
+Publication Status Term Source REF	The MGED Ontology	
+Experiment Description	This microarray experiment serves to identify the genes in the Arabidopsis genome that are regulated by carbon and light signaling interactions in 7 day dark grown seedlings.  The expression profile of wild-type will be compared to the cli186 mutant, a mutant defective in carbon and light signaling.  Plants of both the wild-type and cli186 genotypes are treated with the following light (L) and carbon (C) treatments: -C-L, +C-L, +C+L, -C+L.  Comparison of the expression profiles under all treatments will help to identify genes that are misregulated in carbon and/or light treatments in the cli186 mutant. 	
+Protocol Name	P-MEXP-55930	P-MEXP-55932	P-MEXP-55929	P-MEXP-55931	P-MEXP-55928	P-MEXP-1210	P-AFFY-2	Affymetrix:Protocol:Hybridization-EukGE-WS2v3	P-AFFY-6	Affymetrix:Protocol:ExpressionStat	P-MEXP-2613	
+Protocol Type	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	grow	nucleic_acid_extraction	labeling	hybridization	feature_extraction	bioassay_data_transformation	bioassay_data_transformation	
+Protocol Description	Seven day etiolated seedlings of the AS-hyg genotype and the cli186 mutant were germinated and maintained on basal MS media that contained 1% sucrose.  These plants were maintained in the dark for 7 days and three hours.  Following this treatment, whole seedlings were harvested, immediately frozen in liquid nitrogen and stored at -80C until further use.	Seven day etiolated seedlings of the AS-hyg genotype and the cli186 mutant were germinated and maintained on basal MS media that contained no sucrose.  These plants were maintained in the dark for 7 days and then treated with white light for an additional three hours.  Following this treatment, whole seedlings were harvested, immediately frozen in liquid nitrogen and stored at -80C until further use.	Seven day etiolated seedlings of the AS-hyg genotype and the cli186 mutant were germinated and maintained on basal MS media that contained no sucrose.  These plants were maintained in the dark for 7 days and three hours.  Following this treatment, whole seedlings were harvested, immediately frozen in liquid nitrogen and stored at -80C until further use.	Seven day etiolated seedlings of the AS-hyg genotype and the cli186 mutant were germinated and maintained on basal MS media that contained 1% sucrose.  These plants were maintained in the dark for 7 days and were then treated with white light for an additional three hours.  Following this treatment, whole seedlings were harvested, immediately frozen in liquid nitrogen and stored at -80C until further use.	Arabidopsis thaliana seeds of AS-hyg genotype (Columbia ecotype) and the FN-created cli186 mutants were surface-sterilized, plated on designated media and stratified for 48 hours at 4C. Plants were grown on tissue culture plates under continuous darkness at a constant temperature of 23 C on basal Murashige and Skoog (MS) medium that was supplemented with 2 mM KNO3 and +/- 1% sucrose.  After 7 days dark growth half of the plants (AS-hyg and cli186) on 0% or 1% sucrose were placed into white light for 3 hours while other half of seedlings on 0% or 1% sucrose plates were maintained in the dark. 	Total RNA was isolated from whole plants using a phenol extraction protocol as described in Jackson and Larkins (1976) Influence of Ionic strength, pH and chelation of divalent metals on isolation of polyribosomes from tobacco leaves. Plant Physiol. 57: 5-10.	Title: Affymetrix in vitro transcription. Description: 	Title: Affymetrix EukGE-WS2v3 Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 	Expression analysis was performed with the Affymetrix Microarray Suite software (version 5.0) set at default values with a target intensity set to 150. 	
+Protocol Parameters					min temperature;media;start time;	Amplification;Extracted product;	
+Protocol Hardware	
+Protocol Software								MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact	
+Protocol Term Source REF								mo	
+SDRF File	E-MEXP-1112.sdrf.txt	
+Term Source Name	The MGED Ontology		EFO	tair_dev:1.27	NCI_thesaurus	ArrayExpress	The MGED Ontology	mo	EFO	
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php		http://www.ebi.ac.uk/efo/	http://www.arabidopsis.org/info/ontologies/	ncithesaurus.obo.alt	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	
+Term Source Version				1.27						

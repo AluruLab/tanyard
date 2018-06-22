@@ -1,0 +1,50 @@
+Investigation Title	Transcription profiling of Arabidopsis short day leaves overexpression miR319a	
+Comment[Submitted Name]	Overexpression of miR319a (SD Leaves)	
+Experimental Design	individual_genetic_characteristics_design	transcription profiling by array	
+Experimental Design Term Source REF		EFO	
+Comment[ArrayExpressReleaseDate]	2008-06-11	
+Comment[SecondaryAccession]	GSE2081	
+Comment[SecondaryAccession]	GDS2066	
+Comment[AEMIAMESCORE]	4	
+Comment[ArrayExpressAccession]	E-GEOD-2081	
+Comment[MAGETAB TimeStamp_Version]	2010-08-04 05:15:10 Last Changed Rev: 13058	
+Experimental Factor Name	Genotype	
+Experimental Factor Type	genotype	
+Experimental Factor Term Source REF	
+Person Last Name	Palatnik	
+Person First Name	Javier Fernando	
+Person Mid Initials	
+Person Email	javier.palatnik@tuebingen.mpg.de	
+Person Phone	
+Person Fax	
+Person Address	Detlef Weigel,Molecular Biology,Max Planck Institute,37-39 Spemannstrasse,Tuebingen,D-72076,Germany	
+Person Affiliation	Max Planck Institute	
+Person Roles	submitter	
+Person Roles Term Source REF	The MGED Ontology	
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2008-06-11	
+PubMed ID	15809034	
+Publication DOI	15809034	
+Publication Author List	Rebecca Schwab, Javier F Palatnik, Markus Riester, Carla Schommer, Markus Schmid, Detlef Weigel	
+Publication Title	Specific effects of microRNAs on the plant transcriptome.	
+Publication Status	journal_article	
+Publication Status Term Source REF	The MGED Ontology	
+Experiment Description	jaw-D plants grown in SD compared to columbia wt.	
+Protocol Name	
+Protocol Type	
+Protocol Description	
+Protocol Parameters	
+Protocol Hardware	
+Protocol Software	
+Protocol Contact	
+Protocol Term Source REF	
+SDRF File	E-GEOD-2081.sdrf.txt	
+Term Source Name	NCBI Taxonomy	The MGED Ontology	ArrayExpress		EFO	The MGED Ontology	
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress		http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version							

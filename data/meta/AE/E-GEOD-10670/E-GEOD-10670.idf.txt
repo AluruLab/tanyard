@@ -1,0 +1,52 @@
+Investigation Title	Transcription profiling of Arabidopsis wild type and transgenic plants response to water stress						
+Comment[Submitted Name]	Global expression profiling of wild type and transgenic Arabidopsis plants in response to water stress						
+Experimental Design	genotype design	growth condition design					
+Experimental Design Term Source REF							
+Comment[AEExperimentType]	transcription profiling by array						
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis expressing mammalian type I inositol polyphosphate 5-phosphatase under the control of the 35S promoter after water deprivation						
+Comment[ArrayExpressReleaseDate]	2008-10-25						
+Comment[SecondaryAccession]	GSE10670						
+Comment[AEMIAMESCORE]	4						
+Comment[ArrayExpressAccession]	E-GEOD-10670						
+Comment[MAGETAB TimeStamp_Version]	2010-07-29 21:37:36 Last Changed Rev: 13058						
+Experimental Factor Name	genotype	growth condition					
+Experimental Factor Type	genotype	growth condition					
+Experimental Factor Term Source REF							
+Person Last Name	Perera						
+Person First Name	Imara						
+Person Mid Initials							
+Person Email	imara_perera@ncsu.edu						
+Person Phone							
+Person Fax							
+Person Address	Plant Biology, North Carolina State University, Campus Box 7612, Raleigh , 27695, USA						
+Person Affiliation	North Carolina State University						
+Person Roles	submitter						
+Person Roles Term Source REF	The MGED Ontology						
+Quality Control Type							
+Quality Control Term Source REF							
+Replicate Type							
+Replicate Term Source REF							
+Normalization Type							
+Normalization Term Source REF							
+Date of Experiment							
+Public Release Date	2008-10-25						
+PubMed ID	18849493						
+Publication DOI	10.1105/tpc.108.061374						
+Publication Author List	Perera IY, Hung CY, Moore CD, Stevenson-Paulik J, Boss WF.						
+Publication Title	Transgenic Arabidopsis plants expressing the type 1 inositol 5-phosphatase exhibit increased drought tolerance and altered abscisic acid signaling						
+Publication Status	published						
+Publication Status Term Source REF	EFO						
+Publication Status Term Accession Number	EFO_0001796						
+Experiment Description	Transgenic Arabidopsis plants with constitutively low inositol (1,4,5) triphosphate exhibit an increased tolerance to water stress by an ABA-independent pathway; The phosphoinositide pathway and inositol (1,4,5) trisphopsphate (InsP3) are implicated in plant responses to stress. In order to manipulate the pathway and determine the downstream consequences of altered InsP3-mediated signaling, we generated transgenic Arabidopsis plants expressing the mammalian type I inositol polyphosphate 5-phosphatase, an enzyme that specifically hydrolyzes the soluble inositol phosphates and terminates the signal.  Transgenic plants have no morphological differences compared to wild type; however, rapid transient Ca2+ responses to a cold or salt stimulus are reduced by ~ 30%. To further understand the role of InsP3-mediated signaling in plant stress responses we focused on drought stress. Surprisingly, the InsP 5-ptase plants lose less water and exhibited an increased tolerance to drought. Stomatal bioassays showed that transgenic guard cells are less responsive to the inhibition of opening by ABA but show an increased sensitivity to ABA-induced closure. The onset of the drought stress is delayed in the transgenic plants and ABA levels did not increase as much as in the wild type. Transcript profiling has revealed that DREB2A and a subset of DREB2A regulated genes are basally up regulated in the InsP 5-ptase plants.  These results indicate that the drought tolerance of the InsP 5-ptase plants is mediated in part via an ABA-independent pathway. The constitutive dampening of the InsP3 signal in this system has uncovered novel regulation and cross talk between signaling pathways. Experiment Overall Design: In order to compare global expression profiles between wild type and transgenic plants in response to water stress we harvested leaves for transcript profiling at day 0 (well watered) and at day 7 when the transgenic plants were still at an RWC of >85%  and the wild type and vector control plants were at an RWC of ~ 50 -60% .  Leaves were harvested and pooled from ~ 10 plants of each line/time point and three independent biological replicates were carried out with wild type (WT) and 2 independent transgenic lines (T6 and T8).  The vector control line (C2) was used as an additional control.						
+Protocol Name	P-G10670-1	P-G10670-2	P-G10670-4	P-G10670-3	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6	
+Protocol Type	grow	specified_biomaterial_action	nucleic_acid_extraction	labeling	hybridization	feature_extraction	
+Protocol Description	Wild type (Col 0) and InsP 5-ptase transgenic Arabidopsis plants were grown in the NC State University Phytotron in a growth chamber, under short day conditions (8h light/16 dark) at 21C with a light intensity of ~ 150 Î¼mol m-2 sec-1.	Leaf samples (pooled from 10 plants/line) were collected on day 0 and day 7 of the RWC time course and frozen immediately in liquid N2.	RNA was isolated using the Plant RNeasy kit (Qiagen, Valencia, CA).	Biotinylated target cRNA was synthesized using the Two cycle Target Labeling protocol (Affymetrix Inc, Santa Clara, CA).	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	
+Protocol Parameters							
+Protocol Hardware							
+Protocol Software					MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact							
+Protocol Term Source REF					mo		
+SDRF File	E-GEOD-10670.sdrf.txt						
+Term Source Name	NCBI Taxonomy		The MGED Ontology	ArrayExpress	EFO	The MGED Ontology	mo
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version							

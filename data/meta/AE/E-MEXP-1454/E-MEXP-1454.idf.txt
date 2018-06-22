@@ -1,0 +1,48 @@
+Investigation Title	Transcription profiling of A.thaliana to determine the ffect of aneuplody extra copy of chromosome 5	
+Comment[Submitted Name]	Arabidopsis - aneuploidy	
+Experimental Design	individual_genetic_characteristics_design	normalization_testing_design	co-expression_design	transcription profiling by array	
+Experimental Design Term Source REF			mo	EFO	
+Comment[ArrayExpressReleaseDate]	2008-09-01	
+Comment[AEMIAMESCORE]	5	
+Comment[ArrayExpressAccession]	E-MEXP-1454	
+Comment[MAGETAB TimeStamp_Version]	2010-08-09 22:21:22 Last Changed Rev: 13058	
+Experimental Factor Name	individual	genotype	
+Experimental Factor Type	individual	genotype	
+Experimental Factor Term Source REF	
+Person Last Name	Huettel	
+Person First Name	Bruno	
+Person Mid Initials	
+Person Email	bruno.huettel@gmi.oeaw.ac.at	
+Person Phone	(43)-1-79044-9812	
+Person Fax	
+Person Address	Dr. Bohrgasse 3	
+Person Affiliation	Matzke	
+Person Roles	submitter	
+Person Roles Term Source REF	The MGED Ontology	
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2008-09-01	
+PubMed ID	18927630	
+Publication DOI	18927630	
+Publication Author List	Huettel B, Kreil DP, Matzke M, Matzke AJ	
+Publication Title	Effects of aneuploidy on genome structure, expression, and interphase organization in Arabidopsis thaliana	
+Publication Status	journal_article	
+Publication Status Term Source REF	The MGED Ontology	
+Experiment Description	Effects of aneuploidy on gene expression in Arabidopsis thaliana containing extra copies of chromosome 5.	
+Protocol Name	P-MEXP-134916	P-MEXP-135114	P-AFFY-2	Affymetrix:Protocol:Hybridization-EukGE-WS2v5_450	Affymetrix:Protocol:Hybridization-EukGE-WS2v4_450	P-AFFY-6	Affymetrix:Protocol:ExpressionStat	
+Protocol Type	grow	nucleic_acid_extraction	labeling	hybridization	hybridization	feature_extraction	bioassay_data_transformation	
+Protocol Description	Seeds were germinated on sterile, solid Murashige and Skoog (MS) medium in plastic petri dishes. Seedlings were then transferred to pots containing a mixture of Huminsubstrat N3 and Vermiculit Nr.2 (2:1 v/v) (purchased from a local supplier), and placed in a culture room with natural light (3000 lux). The photoperiod was 16 h and temperature was maintained at 23 °C. Single leaves were cut from the plants at a stage of approximately ten rosette leaves (>1 cm in length).	Total RNA was extracted and purified with an RNeasy Mini Kit (Qiagen, Hilden, Germany). RNA was quantified by spectrophotometry (Nanodrop ND-1000, Peqlab, Erlangen, Germany). Double-stranded cDNA was synthesized from 1 ug total RNA by using the one-cycle cDNA synthesis kit (GeneChip One-Cycle Target Labeling and Control Reagents, Affymetrix, High Wycombe, U.K.) 	Title: Affymetrix in vitro transcription. Description: 		Title: Affymetrix EukGE-WS2v4_450 Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 	
+Protocol Parameters	stop time;min temperature;media;start time;	Amplification;Extracted product;	
+Protocol Hardware	
+Protocol Software				MicroArraySuite 5.0		MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact	
+Protocol Term Source REF					mo		The MGED Ontology	
+SDRF File	E-MEXP-1454.sdrf.txt	
+Term Source Name	NCBI Taxonomy		po	NCI_thesaurus	The MGED Ontology	ArrayExpress	mo	EFO	The MGED Ontology	
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://www.plantontology.org	ncithesaurus.obo.alt	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version										

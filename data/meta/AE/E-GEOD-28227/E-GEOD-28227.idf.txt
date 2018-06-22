@@ -1,0 +1,57 @@
+Comment[ArrayExpressAccession]	E-GEOD-28227							
+Public Release Date	2011-12-31							
+Investigation Title	Comparison of gene expression profiles between erf5/6 and WT Arabidopsis in response to chitooctaose							
+Comment[Submitted Name]	Comparison of gene expression profiles between erf5/6 and WT Arabidopsis in response to chitooctaose							
+Experiment Description	Transcription factors ERF5 and ERF6 may play a regulatory role in regulating the expression of chitin-responsive genes. We compared the gene expression profiles between the double mutant erf5/6 and WT plants in response to chitooctaose using the Affymetrix Arabidopsis Whole Genome Arrays. Both the double mutant erf5/6 and WT plants were grown in liquid MS medium in a growth chamber with constant light. Two-week-old seedlings were treated with chitooctaose at a final concentration of 1 uM for 30 minutes. The controls were similarly treated with an equivalent amount of ddH2O. The treated seedlings were harvested for RNA isolation. Three biological replicates were conducted for the experiment.							
+Date of Experiment								
+Term Source Name	EFO							
+Term Source Version								
+Term Source File	http://www.ebi.ac.uk/efo/efo.owl							
+Person Last Name	Stacey	Wan	Son	Stacey				
+Person First Name	Gary	Jinrong	Geon-hui	Gary				
+Person Mid Initials								
+Person Email	staceyg@missouri.edu							
+Person Affiliation	University of Missouri-Columbia							
+Person Phone	573-884-4799							
+Person Fax								
+Person Address	Plant Sciences, University of Missouri-Columbia, 1201 Rollins Road, Columbia, MO, USA							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Person Roles Term Accession Number								
+Normalization Type								
+Normalization Term Accession Number								
+Normalization Term Source REF								
+Replicate Type								
+Replicate Term Accession Number								
+Replicate Term Source REF								
+Experimental Design								
+Experimental Design Term Accession Number								
+Experimental Design Term Source REF								
+Quality Control Type								
+Quality Control Term Accession Number								
+Quality Control Term Source REF								
+Protocol Name	P-GSE28227-1	P-GSE28227-6	P-GSE28227-3	P-GSE28227-8	P-GSE28227-7	P-GSE28227-2	P-GSE28227-4	P-GSE28227-5
+Protocol Description	ID_REF = <br>VALUE = dChip expression value	Hybridization solution containing 50 ng/ul of fragmented aRNA was hybridized to the genome array GeneChip (Affymetrix, Santa Clara, CA) at 45 C for 18 hrs.  After hybridization, the chips were washed and stained with R-phycoerythrin-streptavidin on Affymetrix fluidics station 450 using fluidics protocol FS450_0004.	Plants were grown in 1/2 MS medium plus vitamin B5 and 2% glucose in a growth chamber with constant light and a temperature of 23 C.	The data were analyzed with dChip (DNA-Chip Analyzer), Build date: Mar 31 2010. The default settings were employed for normalization and calculation of expression values.	The image data was acquired by the Affymetrix GeneChip scanner 3000 and Affymetrix AGCC software.	Seedlings were treated with chitooctaose at a final concentration of 1 uM for 30 minutes. The controls were similarly treated with an equivalent amount of ddH2O.	Trizol extraction of total RNA was performed according to the manufacturer's instructions.	0.5 microgram of total RNA was used to make the biotin-labeled antisense RNA (aRNA) target using the MessageAmp Premier RNA amplification kit (Ambion, Austin, TX) by following the manufacturer’s procedures.  Briefly, the total RNA was reverse transcribed to first strand cDNA with a oligo(dT) primer bearing a 5’-T7 promoter using ArrayScript reverse transcriptase.  The first strand cDNA then underwent second-strand synthesis to convert into double-stranded cDNA template for in vitro transcription.  The biotin-labeled aRNA was synthesized using T7 RNA transcriptase with biotin-NTP mix.  After purification, the aRNA was fragmented in 1X fragmentation buffer at 94 C for 35 min.
+Protocol Software								
+Protocol Hardware								
+Protocol Contact								
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Protocol Term Source REF								
+Protocol Term Accession Number								
+Experimental Factor Name	genotype	compound	dose					
+Experimental Factor Type	genotype	compound	dose					
+Experimental Factor Term Source REF								
+Experimental Factor Term Accession Number								
+Publication Title								
+Publication Author List								
+PubMed ID								
+Publication DOI								
+Publication Status								
+Publication Status Term Source REF								
+Publication Status Term Accession Number								
+Comment[SecondaryAccession]	GSE28227							
+Comment[GEOLastUpdateDate]	2012-01-01							
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[GEOReleaseDate]	2011-12-31							
+Comment[ArrayExpressSubmissionDate]	2011-03-28							
+SDRF File	E-GEOD-28227.sdrf.txt							

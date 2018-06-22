@@ -1,0 +1,30 @@
+Comment[ArrayExpressAccession]	E-GEOD-50786						
+MAGE-TAB Version	1.1						
+Public Release Date	2014-09-21						
+Investigation Title	Comparison of histone deacetylase 9-1 mutant (SALK_001723) dry seed transcriptome with Col wild-type						
+Comment[Submitted Name]	Comparison of histone deacetylase 9-1 mutant (SALK_001723) dry seed transcriptome with Col wild-type						
+Experiment Description	Analysis of the transcriptome of dry hda9-1 mutant seeds with those of Col wild-type seeds, using Affymetrix GeneChip Arabidopsis ATH1 Genome Array. The hda9-1 mutant has reduced primary seed dormancy. We used microarrays to dissect which genes are differentially expressed in the hda9-1 mutant to study the mechanisms how HDA9 affects seed dormancy and germination RNA was extracted from tagged dry 18-19-DAP siliques of wild-type Col and the hda9-1 mutant following an adapted protocol of the RNAqueous small scale Phenol-free total RNA isolation kit in addition with RNA isolation aid (Ambion, Austing, TX, USA), as described in Liu et al. (2011) PLoS ONE and Van Zanten et al. (2011) PNAS. Affymetrix GeneChip Arabidopsis ATH1 Genome-Micro hybridization was performed at the Max Planck Genome Centre Cologne. Three independent hybridizations of independent biological replicates, obtained from several dry siliques of at least five plants per replica, were performed.						
+Term Source Name	ArrayExpress	EFO					
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Li	van Zanten	Zöll	Carles	Li	Soppe	
+Person First Name	Yong	Martijn	Christian	Annaick	Yong	Wim	
+Person Mid Initials						J	
+Person Email	yong.li@uniklinik-freiburg.de						
+Person Affiliation	University Hospital Freiburg						
+Person Address	Internal Medicine IV, University Hospital Freiburg, Berliner Allee 29, Freiburg, Germany						
+Person Roles	submitter						
+Protocol Name	P-GSE50786-1	P-GSE50786-5	P-GSE50786-6	P-GSE50786-2	P-GSE50786-3	P-GSE50786-4	P-GSE50786-7
+Protocol Description	The RMA algorithm implemented in R package AFFY was used for background correction, normalization and expression calculation. Statistical analysis of the normalized data were performed using R packages LIMMA and RankProd ID_REF =  VALUE = Log2 RMA signal intensity	Biotinylated cRNA were prepared according to the standard Ambion protocol from 1 ug total RNA (MessageAmp II-Biotin Enhanced Kit, 2008, Ambion)	After fragmentation, 12.5 ug of cRNA were hybridized for 16 hr at 45C on GeneChip ATH1 Genome Array. GeneChips were washed and stained with Fluidics Script FS450_004 in the Affymetrix Fluidics Station 450	Dry seeds were used obtained from 18-19 day-old (days after polination) ripe siliques	Plants were grown on soil containing a mixture of substrate and vermiculite (3:1) in growth cabinets (Elbanton BV, Kerkdriel, The Netherlands) in 16h light at 22degreesC and 8h dark at 16degreesC	Trizol extraction of total RNA was performed according to the manufacturer's instructions	GeneChips were scanned using the GeneChip Scanner 3000 7G
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	genotype						
+Experimental Factor Type	genotype						
+Publication Title	HISTONE DEACETYLASE 9 represses seedling traits in Arabidopsis thaliana dry seeds.						
+Publication Author List	van Zanten M, Zoll C, Wang Z, Philipp C, Carles A, Li Y, Kornet NG, Liu Y, Soppe WJ						
+PubMed ID	25146719						
+Publication DOI	10.1111/tpj.12646						
+Comment[SecondaryAccession]	GSE50786						
+Comment[GEOReleaseDate]	2014-09-21						
+Comment[ArrayExpressSubmissionDate]	2013-09-11						
+Comment[GEOLastUpdateDate]	2014-09-22						
+Comment[AEExperimentType]	transcription profiling by array						
+SDRF File	E-GEOD-50786.sdrf.txt						

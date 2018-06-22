@@ -1,0 +1,49 @@
+Investigation Title	Transcription profiling of Arabidopsis 8 GFP marked lines with 2-3 replicates were used to augment existing microarray expression profiles of the root	
+Comment[Submitted Name]	A  high resolution organ expression map reveals novel expression patterns and predicts cellular function	
+Experimental Design	unknown_experiment_design_type	transcription profiling by array	
+Experimental Design Term Source REF		EFO	
+Comment[ArrayExpressReleaseDate]	2008-06-16	
+Comment[SecondaryAccession]	GSE8934	
+Comment[AEMIAMESCORE]	4	
+Comment[ArrayExpressAccession]	E-GEOD-8934	
+Comment[MAGETAB TimeStamp_Version]	2010-08-09 12:33:44 Last Changed Rev: 13058	
+Experimental Factor Name	
+Experimental Factor Type	
+Experimental Factor Term Source REF	
+Person Last Name	Brady	
+Person First Name	Siobhan	
+Person Mid Initials	M.	
+Person Email	chevybra@duke.edu	
+Person Phone	
+Person Fax	
+Person Address	Benfey Lab, Biology, Duke University, Box 90338, Durham, 27708, USA	
+Person Affiliation	Duke University	
+Person Roles	submitter	
+Person Roles Term Source REF		
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2008-06-16	
+PubMed ID	17975066	
+Publication DOI	17975066	
+Publication Author List	Siobhan M Brady, David A Orlando, Ji-Young Lee, Jean Y Wang, Jeremy Koch, José R Dinneny, Daniel Mace, Uwe Ohler, Philip N Benfey	
+Publication Title	A high-resolution root spatiotemporal map reveals dominant expression patterns.	
+Publication Status	journal_article	
+Publication Status Term Source REF	The MGED Ontology	
+Experiment Description	Transcriptional programs that regulate development are exquisitely controlled in space and time.  Elucidating these programs that underlie development is essential to understanding the acquisition of cell and tissue identity. We present microarray expression profiles of a high resolution set of developmental time points within a single Arabidopsis root, and a comprehensive map of nearly all root cell-types.   These cell-type specific transcriptional signatures often predict novel cellular functions.  A computational pipeline identified dominant expression patterns that demonstrate transcriptional connections between disparate cell types.  Dominant expression patterns along the rootâs longitudinal axis do not strictly correlate with previously defined developmental zones, and in many cases, expression fluctuation along this axis was observed. Both robust co-regulation of gene expression and potential phasing of gene expression were identified between individual roots.  Methods that combine these two sets of profiles demonstrate transcriptionally rich and complex programs that define Arabidopsis root development in both space and time. We used microarrays to profile expression of nearly all cell types in the Arabidopsis root, and to profile at high resolution, developmental time points along the root's longitudinal axis. Experiment Overall Design: Microarray expression profiles of 8 new GFP marked lines with 2-3 replicates were used to augment existing microarray expression profiles of the root.  RNA isolated from 13 cross sections along a single root's longitudinal axis were also profiled by microarray analysis.  An independent root with 12 sections were used as a biological replicate.	
+Protocol Name	P-G8934-2	P-G8934-1	P-G8934-4	P-G8934-3	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6	
+Protocol Type	specified_biomaterial_action	grow	nucleic_acid_extraction	labeling	hybridization	feature_extraction	
+Protocol Description	Samples were prepared as in Birnbaum et al. (2005) Nat. Methods for roots grown under standard conditions.	Seeds were surface sterilized with 50% Bleach and 0.1% Tween for 5 minutes and then rinsed 3 times with sterile water.  Seeds were stratified at 4ËC for 2 days before being planted on standard media.  Standard media is 1X concentration Murashige and Skoog salt mixture (Caisson laboratories), 0.5g/L MES, 1% sucrose, 1% agar and adjusted to pH 5.7 with KOH.  Nylon mesh was placed on top of the solidified media and seeds were evenly placed on the mesh.	RNA was extracted using the RNAeasy Micro Kit (Qiagen GmbH).	Fragmented cRNA probes were prepared using the two-cycle amplification protocol by Affymetrix.	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	
+Protocol Parameters	
+Protocol Hardware	
+Protocol Software					MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact	
+Protocol Term Source REF					mo	
+SDRF File	E-GEOD-8934.sdrf.txt	
+Term Source Name	NCBI Taxonomy		The MGED Ontology	ArrayExpress	EFO	The MGED Ontology	mo	
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version								

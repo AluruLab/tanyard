@@ -1,0 +1,25 @@
+Comment[ArrayExpressAccession]	E-GEOD-44116
+MAGE-TAB Version	1.1						
+Public Release Date	2013-05-01
+Investigation Title	Cytosolic Fe-S cluster assembly-deficient mutant, nar1 and nbp35 mutant seedling						
+Comment[Submitted Name]	Cytosolic Fe-S cluster assembly-deficient mutant, nar1 and nbp35 mutant seedling
+Experiment Description	Expression profiling of two-weeks-old wild type, nar1-4/- and nbp35-3/-  mutant seedlings. The cytosolic Fe -S cluster assembly pathway is involved in cytosolic and nucleus Fe-S protein maturation. The nar1 mutant was identified by the screeing for abnormal transcription feature in endosperm.We performed genome-wide transcriptional profiling of weak allele nar1-4/- using microarrays to estimate whether the  cytosolic Fe -S cluster assembly could affect on the transcriptional profile even in vegetative tissues. Two biological replicate were performed using two weeks seedling of wild type, nar1-4/- and nbp35-3/-. RNA was extracted using the RNeasy mini kit(QIAGEN).						
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Nakamura	Miyuki					
+Person First Name	Miyuki	Nakamura					
+Person Email	nakamura@bs.naist.jp						
+Person Affiliation	Nara Institute of Science and Technology						
+Person Address	Nara Institute of Science and Technology, 8916-5 Takayama, Nara, Japan						
+Person Roles	submitter						
+Protocol Name	P-GSE44116-1	P-GSE44116-5	P-GSE44116-6	P-GSE44116-2	P-GSE44116-3	P-GSE44116-4	P-GSE44116-7
+Protocol Description	RMA processing using R/Bioconductor ID_REF =  VALUE = log2 signal by RMA processing	Biotinylated cRNA were synthesized by GeneChip 3'IVT Express Kit （Affymetrix) from 250 ng (200 ng for sample '2EA1021_10', '4EA1021_11', '6EA1021_12') total RNA according to the manufacturer's instructions. Biotinylated cRNA yield were checked with the NanoDrop Spectrophotometer.	Following fragmentation, 10 ug (5 ug for sample '2EA1021_10', '4EA1021_11', '6EA1021_12') of cRNA were hybridized for 16 hr at 45 degrees on GeneChip Arabidpsis ATH1 Gemome Array. GeneChips were washed and stained in the Affymetrix Fluidics Station 450.	2-week-old whole plants were collected and frozen by liquid nitrogen.	Plants were grown on MS plates for 2 weeks under 16 h light/8 h dark at 22˚C.	Total RNA was extracted using the RNeasy plant mini kit (Qiagen) according to the manufacturer's instructions.	GeneChips were scanned using GeneChip Scanner 3000 7G.
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	GENOTYPE						
+Experimental Factor Type	genotype						
+Comment[SecondaryAccession]	GSE44116						
+Comment[GEOReleaseDate]	2013-05-01						
+Comment[ArrayExpressSubmissionDate]	2013-02-06						
+Comment[GEOLastUpdateDate]	2013-05-02						
+Comment[AEExperimentType]	transcription profiling by array						
+SDRF File	E-GEOD-44116.sdrf.txt

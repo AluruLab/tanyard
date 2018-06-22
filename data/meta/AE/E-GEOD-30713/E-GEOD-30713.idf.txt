@@ -1,0 +1,57 @@
+Comment[ArrayExpressAccession]	E-GEOD-30713
+Public Release Date	2011-12-31										
+Investigation Title	Genome-wide Binding Site Analysis of FAR-RED ELONGATED HYPOCOTYL 3 Reveals Its Novel Function in Arabidopsis Development										
+Comment[Submitted Name]	Genome-wide Binding Site Analysis of FAR-RED ELONGATED HYPOCOTYL 3 Reveals Its Novel Function in Arabidopsis Development
+Experiment Description	This SuperSeries is composed of the following subset Series: GSE30711: ChIP-Seq data from Arabidopsis thaliana under dark and far-red light GSE30712: Expression data from Arabidopsis thaliana under dark and far-red light Refer to individual Series										
+Date of Experiment											
+Term Source Name	EFO
+Term Source Version											
+Term Source File	http://www.ebi.ac.uk/efo/efo.owl										
+Person Last Name	Li										
+Person First Name	bosheng										
+Person Mid Initials											
+Person Email	geo@ncbi.nlm.nih.gov										
+Person Affiliation	Beijing Forestry University										
+Person Phone											
+Person Fax											
+Person Address	Beijing Forestry University, 393 Mansfield, New Haven, CT, USA										
+Person Roles	submitter										
+Person Roles Term Source REF											
+Person Roles Term Accession Number											
+Normalization Type											
+Normalization Term Accession Number											
+Normalization Term Source REF											
+Replicate Type											
+Replicate Term Accession Number											
+Replicate Term Source REF											
+Experimental Design											
+Experimental Design Term Accession Number											
+Experimental Design Term Source REF											
+Quality Control Type											
+Quality Control Term Accession Number											
+Quality Control Term Source REF											
+Protocol Name	P-GSE30713-1	P-GSE30713-9	P-GSE30713-6	P-GSE30713-2	P-GSE30713-11	P-GSE30713-4	P-GSE30713-10	P-GSE30713-5	P-GSE30713-7	P-GSE30713-3	P-GSE30713-8
+Protocol Description	ID_REF = <br>VALUE = RMA signal intensity	Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45C on GeneChip Drosophila Genome Array. GeneChips were washed and stained in the Affymetrix Fluidics Station 400.	FHY3p:FHY3-GR fhy3-4 transgenic seedlings grown in D or continuous FR light for 4 d	The homozygous 35S:3FLAG-FHY3-3HA fhy3-4 seedlings grown in D or continuous FR light for 4 d were used for ChIP assays following the procedure described previously	Raw microarray data were normalized using the robust multiarray analysis (RMA) algorithm in the BIOCONDUCTOR affy package. Then the microarray data were analyzed using Significance Analysis of Microarrays (SAM) method with default parameters as well as a manual setting of false discovery threshold (FDR) < 0.027 in D and <0.022 in FR.	Sequencing reads from D and FR libraries were mapped to TAIR9 genome release of Arabidopsis thaliana using the MAQ software, allowing for up to two mismatching nucleotides and no gaps. Only uniquely mapped reads were retained for further analyses. The output of the analysis pipeline was converted to browser extensible data (BED) files for viewing the data in the Integrative Genomics Viewer (IGV) genome browser. Numerous peak detection algorithms have been proposed recently for analyzing the ChIP-seq datasets, and they provide more or less similar results. In this study, MACS software with default parameters (bandwidth, 300 bp; mfold, 32; p-value of 1.00e-05) was used to call peaks representing enriched binding sites.	GeneChips were scanned using the Hewlett-Packard GeneArray Scanner G2500A.	treated with 10 Î¼M dexamethasone (DEX) or MOCK (equal volume of ethanol) for 2 h	total RNA was isolated using the RNeasy Plant Mini Kit (Qiagen)	5 g of seedlings were first cross-linked with 1% formaldehyde under vacuum, and then the samples were ground to powder in liquid nitrogen. The chromatin complexes were isolated and sonicated and then incubated with monoclonal FLAG antibodies (Sigma-Aldrich). The precipitated DNA was recovered and used to generate Illumina sequencing libraries according to the manufacturerÃ¢€™s instructions.	RNA quality was assessed with an Agilent 2100 Bioanalyzer, and hybridization to the Affymetrix GeneChip Arabidopsis ATH1 Genome Arrays was performed according to the manufacturerâ€™s instructions.
+Protocol Software											
+Protocol Hardware											
+Protocol Contact											
+Protocol Type	bioassay_data_transformation	hybridization	grow	grow	feature_extraction	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	nucleic_acid_extraction	labeling
+Protocol Term Source REF											
+Protocol Term Accession Number											
+Experimental Factor Name	VARIATION										
+Experimental Factor Type	variation										
+Experimental Factor Term Source REF											
+Experimental Factor Term Accession Number											
+Publication Title	Genome-wide binding site analysis of FAR-RED ELONGATED HYPOCOTYL3 reveals its novel function in Arabidopsis development.										
+Publication Author List	Ouyang X, Li J, Li G, Li B, Chen B, Shen H, Huang X, Mo X, Wan X, Lin R, Li S, Wang H, Deng XW										
+PubMed ID	21803941										
+Publication DOI	10.1105/tpc.111.085126										
+Publication Status											
+Publication Status Term Source REF											
+Publication Status Term Accession Number											
+Comment[SecondaryAccession]	GSE30713										
+Comment[GEOLastUpdateDate]	2012-05-08
+Comment[AEExperimentType]	ChIP-seq	transcription profiling by array									
+Comment[GEOReleaseDate]	2011-12-31
+Comment[ArrayExpressSubmissionDate]	2011-07-14
+SDRF File	E-GEOD-30713.hyb.sdrf.txt	E-GEOD-30713.seq.sdrf.txt

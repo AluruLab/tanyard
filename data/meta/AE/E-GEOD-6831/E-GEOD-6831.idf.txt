@@ -1,0 +1,51 @@
+Investigation Title	Transcription profiling of Arabidopsis systemic response to avirulent bacterial infection						
+Comment[Submitted Name]	Systemic response to avirulent bacterial infection						
+Experimental Design	unknown_experiment_design_type	transcription profiling by array					
+Experimental Design Term Source REF		EFO					
+Comment[AEExperimentType]	transcription profiling by array						
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis after inoculation with avirulent Pseudomonas syringae pv tomato						
+Comment[AEMIAMESCORE]	3						
+Comment[ArrayExpressReleaseDate]	2008-06-15						
+Comment[SecondaryAccession]	GSE6831						
+Comment[ArrayExpressAccession]	E-GEOD-6831						
+Comment[MAGETAB TimeStamp_Version]	2010-08-07 16:11:36 Last Changed Rev: 13058						
+Experimental Factor Name	INOCULATION						
+Experimental Factor Type	infect						
+Experimental Factor Term Source REF							
+Person Last Name	(NASC)						
+Person First Name	Nottingham Arabidopsis Stock Centre						
+Person Mid Initials							
+Person Email	affy@arabidopsis.info						
+Person Phone							
+Person Fax							
+Person Address	School of Biosciences, University of Nottingham, Nottingham Arabidopsis Stock Centre (NASC), Sutton Bonington Campus, Loughborough, LE12 5RD, United Kingdom						
+Person Affiliation	Nottingham Arabidopsis Stock Centre (NASC)						
+Person Roles	submitter						
+Person Roles Term Source REF							
+Quality Control Type							
+Quality Control Term Source REF							
+Replicate Type							
+Replicate Term Source REF							
+Normalization Type							
+Normalization Term Source REF							
+Date of Experiment							
+Public Release Date	2008-06-15						
+PubMed ID							
+Publication DOI							
+Publication Author List							
+Publication Title							
+Publication Status							
+Publication Status Term Source REF							
+Experiment Description	In the absence of adaptive immunity displayed by animals, plants respond locally to biotic challenge via inducible basal defense networks activated through recognition and response toconserved pathogen associated molecular patterns (PAMPs). In addition, immunity can be induced in tissues remote from infection sites via systemic acquired resistance (SAR), initiated following gene-for-gene recognition between plant resistance proteins and microbial effectors.The nature of the mobile signal and remotely activated networks responsible for establishing SAR remain unclear. Here we show that despite the absence of PAMP contact, systemically responding leaves rapidly activate a SAR transcriptional signature with strong similarity to local basal defense. Jasmonates have previously been implicated in systemic signalling in response to wounding and plant herbivory but not SAR. We present several lines of evidence that suggest jasmonates may also be central to SAR. Jasmonic acid (JA) rapidly accumulates in phloem exudates of leaves challenged with an avirulent strain of Pseudomonas syringae. In systemically responding leaves transcripts associated with jasmonate biosynthesis are upregulated and JA increases transiently. SAR can be mimicked by foliar JA application and is abrogated in mutants impaired in jasmonate synthesis or response. We conclude that, jasmonate signalling appears to mediate long-distance information transmission. Moreover, the systemic transcriptional response shares extraordinary overlap with local herbivory and wounding responses, indicating that jasmonates may be central to an evolutionarily conserved signalling network, which decodes multiple abiotic and biotic stress signals. Experimenter name: William Truman; Experimenter phone: +44 (0)1392 263789; Experimenter fax: +44 (0)1392 263434; Experimenter address: School of Biosciences; Experimenter address: Geoffrey Pope Building; Experimenter address: Stocker Road; Experimenter address: Exeter; Experimenter address: Devon; Experimenter zip/postal_code: EX4 4QD; Experimenter country: UK Experiment Overall Design: 9 samples were used in this experiment						
+Protocol Name	P-G6831-1	P-G6831-4	P-G6831-5	P-G6831-3	P-G6831-2	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6
+Protocol Type	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	nucleic_acid_extraction	labeling	hybridization	feature_extraction
+Protocol Description	Leaves were inoculated with virulent Pseudomonas syringae pv tomato DC3000. DC3000 cultures were grown overnight in 10 ml of Kings B solution (King et al., 1954) supplemented with antibiotics. Plants were inoculated with DC3000 containing the empty vector plasmid pVSP61 (Innes et al., 1993) Antibiotics rifampicin(50 lg ml)1) and kanamycin (25 lg ml)1) were used for selection of the bacterium and plasmid, respectively. Overnight cultures were washed once in 10 mM MgCl2 and final cell densities were adjusted to OD600 0.2. Both sides of a leaf were infiltrated on their abaxial surface with a needleless 1ml syringe. At least 5 leaves per plant were inoculated and 16 plants were pooled to make this sample.	Leaves were inoculated with Pseudomonas syringae pv tomato DC3000::hrpA- mutant. DC3000::hrpA- cultures were grown overnight in 10 ml of Kings B solution (King et al., 1954) supplemented with antibiotics. Plants were inoculated with DC3000::hrpA- containing the empty vector plasmid pVSP61 (Innes et al., 1993) Antibiotics rifampicin(50 lg ml)1) and kanamycin (25 lg ml)1) were used for selection of the bacterium and plasmid, respectively. Overnight cultures were washed once in 10 mM MgCl2 and final cell densities were adjusted to OD600 0.2. Both sides of a leaf were infiltrated on their abaxial surface with a needleless 1ml syringe. At least 5 leaves per plant were inoculated and 16 plants were pooled to make this sample.	Leaves were inoculated with avirulent Pseudomonas syringae pv tomato DC3000(avrRpm1). DC3000(avrRpm1) cultures were grown overnight in 10 ml of Kings B solution (King et al., 1954) supplemented with antibiotics. Plants were inoculated with DC3000 containing the vector plasmid pVSP61 (Innes et al., 1993) carrying the avirulence gene avrRpm1. Antibiotics rifampicin(50 lg ml)1) and kanamycin (25 lg ml)1) were used for selection of the bacterium and plasmid, respectively. Overnight cultures were washed once in 10 mM MgCl2 and final cell densities were adjusted to OD600 0.2. Both sides of a leaf were infiltrated on their abaxial surface with a needleless 1ml syringe. At least 5 leaves per plant were inoculated and 16 plants were pooled to make this sample.	standard NASC extraction protocol	standard NASC labeling protocol	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 
+Protocol Parameters							
+Protocol Hardware							
+Protocol Software						MicroArraySuite 5.0	MicroArraySuite 5.0
+Protocol Contact							
+Protocol Term Source REF						mo	
+SDRF File	E-GEOD-6831.sdrf.txt						
+Term Source Name	NCBI Taxonomy	The MGED Ontology	ArrayExpress	EFO	mo		
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php		
+Term Source Version							

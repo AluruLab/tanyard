@@ -1,0 +1,27 @@
+Comment[ArrayExpressAccession]	E-MTAB-896			
+Investigation Title	PARP inhibition			
+Comment[Submitted Name]	PARP inhibition			
+Experiment Description	PARP inhibition and the effect on Arabidopsis thaliana high light tolerance			
+Experimental Design	stimulus_or_stress_design	in_vitro_design		
+Comment[AEExperimentType]	transcription profiling by array			
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis thaliana leaves after treatment with 3-methoxybenzamide			
+Experimental Factor Name	COMPOUND	DOSE		
+Experimental Factor Type	compound	dose		
+Quality Control Type	dye_swap			
+Public Release Date	2012-05-01			
+Person Last Name	Schulz			
+Person First Name	Philipp			
+Person Mid Initials	B			
+Person Email	Philipp_Schulz@gmx.de; Matthew.Hannah@Bayer.com			
+Person Phone				
+Person Address				
+Person Affiliation				
+Person Roles	submitter			
+PubMed ID				
+Publication Author List	Philipp Schulz, Jenny Neukermans, Katrien Van Der Kelen, Per M�hlenbock, Frank Van Breusegem, Graham Noctor, Markus Teige, Michael Metzlaff, Matthew A. Hannah			
+Publication Title	Chemical PARP inhibition enhances growth of Arabidopsis and is correlated with reduced anthocyanin accumulation and activation of stress protective mechanisms 			
+Publication Status				
+Protocol Name	P-MTAB-24343	P-MTAB-24344	P-MTAB-24345	P-MTAB-24346
+Protocol Type	grow	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Protocol Description	Arabidopsis seedlings grown for 18 days in vitro on 1/2 MS	PARP inhibitor 3-Methoxybenzamide was applied within the media with final concentration of 0.2mM	Trizol/RNAeasy	Affymetrix IVT Express
+SDRF File	E-MTAB-896.sdrf.txt			

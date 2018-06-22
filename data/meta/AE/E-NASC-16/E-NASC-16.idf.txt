@@ -1,0 +1,48 @@
+Investigation Title	Transcription profiling of Arabidopsis UV-B responses in light grown plants: dimilarities to biotic dtress	
+Comment[Submitted Name]	Brueggemann: UV-B Responses in Light Grown Plants: Similarities to Biotic Stress	
+Experimental Design	stimulus_or_stress_design	transcription profiling by array	
+Experimental Design Term Source REF	mo	EFO	
+Comment[ArrayExpressReleaseDate]		
+Comment[AEMIAMESCORE]	3	
+Comment[ArrayExpressAccession]	E-NASC-16	
+Comment[MAGETAB TimeStamp_Version]	2010-10-15 15:31:50 Last Changed Rev: 14677	
+Experimental Factor Name	
+Experimental Factor Type	
+Experimental Factor Term Source REF	
+Person Last Name	unknown	Brueggemann	
+Person First Name	unknown	Julia	
+Person Mid Initials	
+Person Email		Julia.Brueggemann@hri.ac.uk	
+Person Phone	+44 (0)115 951 3091	01789 470 382	
+Person Fax	+44 (0)115 951 3297	01789 470 552	
+Person Address	Plant Science Division, School of Biosciences, University of Nottingham, Sutton Bonnington Campus, Loughborough LE12 5RD, UK	Horticulture Research International Wellesbourne Warwickshire  CV35 9EF UK 	
+Person Affiliation		Horticulture Research International	
+Person Roles		investigator;biosource_provider;submitter	
+Person Roles Term Source REF		mo	
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	
+PubMed ID	
+Publication DOI	
+Publication Author List	
+Publication Title	
+Publication Status	
+Publication Status Term Source REF	
+Experiment Description	UV-B (280-320 nm) exposure causes serious damage in plants, limiting their growth and survival, effects that are partly counteracted by repair mechanisms active in plants receiving accompanying visible radiation. Though no particular UV-B receptor has been identified to date, there is strong evidence to indicate that certain aspects of UV-B perception are receptor-mediated. Investigations of down-stream signalling events have thus far indicated broad similarities to pathogen-induced defence responses in plants. In order to identify genes in Arabidopsis that may be up- or down- regulated specifically in response to UV-B exposure and compare them to genes whose expression is altered in plants challenged by an avirulent isolate of Peronospora parasitica (downy mildew), we propose to analyse the transcriptional profiles for the following treatments: 1. UV-B Responses  "A-1" Columbia (Col-0) exposed to supplementary UV-B/UV-A* with a background of low photosynthetically active radiation (PAR of 20 micromol m-2 s-1) for 1.5 photoperiods (photoperiod = 12h). [UV-B treatment] "A-2" Col-0 exposed to supplementary UV-A and low PAR for 1.5 photoperiods [control for UV-B treatment] "A-3" Col-0 exposed to visible light only (low PAR) (no UV) for 1.5 photoperiods [control for UV effects in general].*  There are no pure sources of UV-B light available. 2. Pathogen Responses "A-4" Col-0 spray-inoculated with P. parasitica isolate HIKS-1 (recognised by the R-gene RPP7). After spraying, plants were kept covered in plant propagators and transferred to an 18 degreeC growth chamber. Samples for RNA extraction were taken 72h after inoculation.   "A-5" The viability of spores was also checked by parallel spraying of the susceptible mutant, Col-rpp7. [pathogen treatment] "A-6" Col-0 mock treated with water, covered and transferred to an 18 degree C growth chamber, 72h prior to sampling. [control for pathogen treatment] In all experiments, we are using RNA from leaves taken at the same time of day (6 h into the 12 h photoperiod) from 4.5-week old plants grown under 12h photoperiod. All treatments were normalised against PR-1 expression levels to ensure comparability between UV-B and pathogen treatments. Due to the difficulty in distinguishing between local and systemic induced responses in UV-B treated plants, we are using RNA from whole rosettes for both the UV-B and pathogen treatment for better comparability among treatments. The degree of similarity between these two sets of transcriptional changes will complement and help interpret our experimental data on changes in resistance to pathogens in plants pre-treated with UV-B. Moreover, the data set obtained would allow for identification of UV-B specific changes in gene expression including cis-acting UV-B-responsive promoter elements.	
+Protocol Name	NASCSampleTreatmentProt:314	NASCSampleTreatmentProt:316	NASCSampleTreatmentProt:315	NASCGrowProt:317	NASCGrowProt:691	NASCGrowProt:318	NASCExtractProtocol:12	NASCLabelProtocol:1	Affymetrix:Protocol:Hybridization-EukGE-WS2v4	Affymetrix:Protocol:Percentile	Affymetrix:Protocol:ExpressionStat	
+Protocol Type							nucleic_acid_extraction	labeling	hybridization	feature_extraction	bioassay_data_transformation	
+Protocol Description	  UV-B fluence rate (280nm-320nm): 4.5 micromol m-2 s-1 Background photosynthetically active radiation (400nm-700nm): 20 micromol m-2 s-1 Duration: 1.5 photoperiods (samples taken 6 hours into the second day of treatment with supplementary UV-B) 	 Duration: 1.5 photoperiods (samples taken 6 hours into the second day of treatment with supplementary UV-B) 	 Duration: 1.5 photoperiods (samples taken 6 hours into the second day of treatment with supplementary UV-B) 				Protocol:   	RNA samples were quality controlled using the Agilent 2100 Bioanalyzer. 100 pmol T7-(dT)24 primer (5'-GGCCAGTGAATTGTAATACGACTCACTATAGGGAGGCGG-(dT)24-3')  was hybridized with the Total RNA ( 8 - 12ug) at 70ÃÂ°C for 10 minutes.  First strand cDNA was synthesized by reverse transcription using 400 units SuperScript II Reverse Transcriptase in a reaction containing 50 mM Tris-HCl (pH 8.3), 75 mM KCl, 3 mM MgCl2, 10 mM dithiothreitol (DTT) and 0.5 mM dNTPs at 42C for 1 hour.  The reaction was then put on ice for 2 mins, followed by second strand cDNA synthesis.  130ul of the second strand reaction mix was added to the 20ul  first strand synthesis reaction. The second strand reaction mix  contained 40 units E. coli DNA polymerase I, 10 units E. coli DNA ligase, 2 units  E. coli RNase H and 0.2 mM dNTPs in a buffer containing 20 mMTris-HCl (pH 6.9), 90 mM KCl, 4.6 mM MgCl2, 10mM (NH4)SO4 and 0.15 mM ÃÂ-NAD+. The reaction was incubated at 16 C for 2 hours.  10 units T4 DNA Polymerase was added and the reaction incubated for a further 5 minutes at 16 C, then the reaction was terminated using EDTA.  The double-stranded cDNA was cleaned up using the cDNA Cleanup Spin Column supplied in the Affymetrix GeneChip Sample Cleanup Module.  The double-stranded cDNA was used as a template for in Vitro transcription of biotin-labeled cRNA using the ENZO BioArray RNA Transcript Labeling Kit supplied by Affymetrix.  The Transcript Labeling kit produces large amounts of hybridizable biotin-labeled RNA targets by in Vitro transcription from bacteriophage T7 RNA polymerase promoters.  The reaction mixture containing Biotin-Labeled ribonucleotides (ATP, GTP, CTP, UTP with Bio-UTP and Bio-CTP), DTT, RNase inhibitor mix and T7 RNA polymerase was incubated at 37 C for 5 hrs, gently mixing every 30 minutes during the incubation. This produced an average of 40ug biotin-labeled cRNA . The biotin-labeled cRNA  was cleaned up using the cRNA Cleanup Spin Column supplied in the Affymetrix GeneChip Sample Cleanup Module.  The quantity and quality of the cRNA was measured using the Agilent 2100 Bioanalyzer. The total amount of cRNA was calculated, the starting quantity of RNA subtracted to give the quantity of adjusted cRNA.  The cRNA was fragmented by metal-induced hydrolysis to break down full-length cRNA to 35-200 base fragments.  15ug of adjusted cRNA was used to prepare 300ul of hybridization cocktail of which 200ul was hybridized with the GeneChip.	Title: Fluidics Station Protocol. Description: 	Title: Affymetrix CEL Analysis (Percentile). Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 	
+Protocol Parameters				Stratification;Water;Nutrients;Medium;Lighting;Humidity;Temperature;location;Atmosphere;	location;Humidity;Atmosphere;Lighting;Temperature;Nutrients;Medium;Stratification;Water;	Humidity;Temperature;Lighting;Medium;Nutrients;Water;Stratification;Atmosphere;location;	
+Protocol Hardware	
+Protocol Software									MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact	
+Protocol Term Source REF											The MGED Ontology	
+SDRF File	E-NASC-16.sdrf.txt	
+Term Source Name	nasc		ncbitax	NCI_thesaurus	ArrayExpress	mo	EFO	The MGED Ontology	
+Term Source File	http://arabidopsis.info/catalogue.html		http://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html	ncithesaurus.obo.alt	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version									

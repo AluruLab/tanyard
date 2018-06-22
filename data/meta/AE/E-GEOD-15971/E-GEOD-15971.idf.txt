@@ -1,0 +1,27 @@
+Comment[ArrayExpressAccession]	E-GEOD-15971
+MAGE-TAB Version	1.1					
+Public Release Date	2015-12-31
+Investigation Title	The Arabidopsis DRYK, AtYAK1 regulates the development of the male gametophyte					
+Comment[Submitted Name]	The Arabidopsis DRYK, AtYAK1 regulates the development of the male gametophyte
+Experiment Description	Pollen is the male gametophyte of land plants. Proper development and maturation of pollen is necessary for the successful reproduction of seed plants. This process involves sophisticated coordination between sporophytic and gametophytic tissues in anthers. To advance the mechanistic studies of anther development, additional players need to be discovered for a comprehensive understanding of the underlying regulatory network. Here we show that the Arabidopsis dual specificity tyrosine phophorylated and regulated kinase (DRYK), AtYAK1, is essential for development of rosette leaves and the male but not female gametophyte in Arabidopsis. Arabidopsis mutant plants carrying a mutation in AtYAK1 produce developmentally stalled microspores, likely because of the defects in the two consecutive mitosis steps in the post-meiotic maturation process of pollen. The mutation of AtYAK1 has a significant effect on gene expression programs in developing pollen. Transcritpome analysis of atyak1 revealed downstream genes in families of protein kinases, transporters and transcription factors, which potentially contribute to pollen development. This study represents the first molecular characterization of DYRK in the plant kingdom. Our results also imply that the regulation of cytokinesis by DYRKs is evolutionally conserved in fungus, fruit fly, animals and plants. 2 biological replicates were performed for wt and 2 different alleles of ayak1 mutants (atyak1-1 and atyak1-2)					
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl				
+Person Last Name	Wu	Wu	Wu			
+Person First Name	Shu-Hsing	Yi-Chen	Shu-Hsing			
+Person Email	shuwu@gate.sinica.edu.tw					
+Person Affiliation	Institute of Plant and Microbial Biology, Academia Sinica					
+Person Phone	886-2-27871178					
+Person Fax	886-2-27871178					
+Person Address	Institute of Plant and Microbial Biology, Academia Sinica, 128, Sec 2, Academia Road, Taipei, Taiwan					
+Person Roles	submitter					
+Protocol Name	P-GSE15971-1	P-GSE15971-4	P-GSE15971-5	P-GSE15971-2	P-GSE15971-3	P-GSE15971-6
+Protocol Description	GCOS/MAS5.0. GeneChip Expression Analysis Technical Manual (Rev. 5) ID_REF =  VALUE = MAS5.0 Signal ABS_CALL = absence call DETECTION P-VALUE = p value	GeneChip Expression Analysis Technical Manual (Rev. 5)	GeneChip Expression Analysis Technical Manual (Rev. 5)	Mixed floral buds up to stage 13 (Smyth, 1990; MÃ¼ller, 1961; Bowman, 1991) from the primary inflorescence of the 42-d-old plants grown under the 12 L/ 12 D condition were collected for total RNA isolation.	Total RNA was isolated as described previously (Chang et al., 1993).	GeneChip Expression Analysis Technical Manual (Rev. 5)
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	genotype					
+Experimental Factor Type	genotype					
+Comment[SecondaryAccession]	GSE15971					
+Comment[GEOReleaseDate]	2015-12-31					
+Comment[ArrayExpressSubmissionDate]	2009-05-06					
+Comment[GEOLastUpdateDate]	2015-12-31					
+Comment[AEExperimentType]	transcription profiling by array					
+SDRF File	E-GEOD-15971.sdrf.txt

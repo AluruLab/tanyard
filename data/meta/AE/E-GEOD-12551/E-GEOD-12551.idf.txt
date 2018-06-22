@@ -1,0 +1,57 @@
+Comment[ArrayExpressAccession]	E-GEOD-12551
+Public Release Date	2009-03-02					
+Investigation Title	Inducible expression of trichome regulators, GL1 and GL3					
+Comment[Submitted Name]	Inducible expression of trichome regulators, GL1 and GL3
+Experiment Description	The development of trichomes (leaf hairs) from pluripotent epidermal cells in Arabidopsis provides a powerful system to investigate the regulatory motifs involved in plant cell differentiation. Genetic studies have revealed that a bHLH transcription factor, GL3, activates downstream genes required for trichome initiation by interacting with a R2R3-MYB protein, GL1. In order to investigate genome-wide regulatory functions of GL1 and GL3, we  performed genome-wide expression analyses using GR inducible systems of GL1 and GL3. Transgenic plants carrying pGL1::GL1-GR and pGL3::GL3-GR were treated with mock or Dex for 4 and 24 hours.					
+Date of Experiment						
+Term Source Name	EFO
+Term Source Version						
+Term Source File	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Morohashi	Morohashi	Davis	Lamb	Grotewold	
+Person First Name	Kengo	Kengo	Manli	Rebecca	Erich	
+Person Mid Initials						
+Person Email	morohashi.1@osu.edu					
+Person Affiliation	The Ohio State University					
+Person Phone	614-688-04954					
+Person Fax	614-292-5379					
+Person Address	Plant Cell and Molecular Biology, The Ohio State University, 1060 Carmack Rd, Columbus, OH, USA					
+Person Roles	submitter					
+Person Roles Term Source REF						
+Person Roles Term Accession Number						
+Normalization Type						
+Normalization Term Accession Number						
+Normalization Term Source REF						
+Replicate Type						
+Replicate Term Accession Number						
+Replicate Term Source REF						
+Experimental Design						
+Experimental Design Term Accession Number						
+Experimental Design Term Source REF						
+Quality Control Type						
+Quality Control Term Accession Number						
+Quality Control Term Source REF						
+Protocol Name	P-GSE12551-1	P-GSE12551-5	P-GSE12551-4	P-GSE12551-2	P-GSE12551-3	P-GSE12551-6
+Protocol Description	ID_REF = <br>VALUE = GCRMA normalized signal intensity	GeneChips are scanned in a GeneChip Scanner 3000 (Affymetrix Inc., USA) and CEL files are generated from DAT files using GeneChip® Operating Software (GCOS) software (Affymetrix Inc., USA). The probe set signals are generated using the RMA algorithm in ArrayAssist 3.4 (Stratagene) and are used to determine differential gene expression by pair-wise comparisons. The genes that are altered by two-fold either way are sorted and used for further interpretation of the microarray data.	For each array, 2.2 µg of cDNA is hybridized onto Arabidopsis ATH1 Genome GeneChips® (Affymetrix Inc., USA), designed in collaboration with TIGR, containing more than 22,500 probe sets representing approximately 24,000 genes. The array is based on information from the international Arabidopsis sequencing project that was formally completed in December, 2000. In parallel and subsequent to the genome's completion, TIGR reannotated the entire genome in a project funded by the National Science Foundation and the resulting data was used in the design of this array. Hybridization is allowed to continue for 16 hours at 45ºC followed by washing and staining of microarrays in a Fluidics Station 450 (Affymetrix Inc., USA).	RNA was extracted with Qiagen RNeasy Plant RNA extraction kit.	Following confirmation of RNA quality, Ovation™ Biotin RNA Amplification and Labeling System (NuGen Technologies, Inc., San Carlos, CA) is used to prepare amplified, biotin-labeled cDNA from total RNA for following manufacturer’s instructions. Briefly, first strand cDNA is synthesized from 25 ng of total RNA using a unique first strand DNA/RNA chimeric primer and reverse transcriptase. Following double strand cDNA generation, amplification of cDNA is achieved by utilizing an isothermal DNA amplification process that involves repeated SPIA™ DNA/RNA primer binding, DNA duplication, strand displacement and RNA cleavage. The amplified SPIA™ cDNA is purified and subjected to a two-step fragmentation and labeling process. The fragmented/biotinylated cDNA content is measured in a ND-1000 spectrophotometer and the quality was analyzed on an RNA 6000 Nano LabChip (Agilent) using Agilent Bioanalyzer 2100.	AffyGUI, normalized by GCRMA.
+Protocol Software						
+Protocol Hardware						
+Protocol Contact						
+Protocol Type	bioassay_data_transformation	image_aquisition	hybridization	nucleic_acid_extraction	labeling	feature_extraction
+Protocol Term Source REF						
+Protocol Term Accession Number						
+Experimental Factor Name						
+Experimental Factor Type						
+Experimental Factor Term Source REF						
+Experimental Factor Term Accession Number						
+Publication Title						
+Publication Author List						
+PubMed ID	19247443					
+Publication DOI						
+Publication Status						
+Publication Status Term Source REF						
+Publication Status Term Accession Number						
+Comment[SecondaryAccession]	GSE12551					
+Comment[GEOLastUpdateDate]	2011-03-01
+Comment[AEExperimentType]	transcription profiling by array					
+Comment[GEOReleaseDate]	2009-03-02
+Comment[ArrayExpressSubmissionDate]	2008-08-25
+SDRF File	E-GEOD-12551.sdrf.txt

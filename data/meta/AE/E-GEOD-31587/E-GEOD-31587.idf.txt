@@ -1,0 +1,58 @@
+Comment[ArrayExpressAccession]	E-GEOD-31587							
+Public Release Date	2012-03-31							
+Investigation Title	Expression data of Arabidopsis thaliana (Ler accession) phytochrome phyABCDE quintuple mutant and phyABDE quadruple mutant in response to red light, and their comparison to WT expression data							
+Comment[Submitted Name]	Expression data of Arabidopsis thaliana (Ler accession) phytochrome phyABCDE quintuple mutant and phyABDE quadruple mutant in response to red light, and their comparison to WT expression data							
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutants lacking all phytochromes in response to red light exposure							
+Experiment Description	Phytochromes are red/far-red light photoreceptors. We sought to test at the transcriptomic level if Arabidopsis mutants lacking all phytochromes (from phyA to phyE), or just retaining trace levels of phyC, had transcriptional response to red light exposure. phyABCDE and phyABDE mutants were grown for 4 days in darkness (D), or under continuous red light at 50 µmol m-2 s-1 (R50), or in darkness followed by 2 hr of red light exposure on day 4 (DR2h). Differentially expressed genes of the mutants in response to red light were compared to those of wild type obtained previously {Hu et al. (2009) Molecular Plant, 2: 166-182}. Three biological replicates were employed for dark and Rc-grown samples, and 2 biological replicates for DR2h samples, thus 8 samples were used for each mutant genotype. It needs to be pointed out that 5 of the 6 WT samples (from WT-D-2 to WT-R50-2) had previously been deposited with GEO accessions GSM226267, GSM226268, GSM226269, GSM226278 and GSM226279. Their cRNA samples were synthesized and labeled with the Affymetrix GeneChip® Expression Analysis kits (One-cycle target labeling and control reagents). They are included in this series of study for convenient comparison, with newly assigned accessions from GSM784837 to GSM784841. The more recent GeneChip 3' IVT Express Kit (Affymetrix) was used to synthesize and label aRNA for one new WT sample (WT-D-1)(GSM784836) and all mutant samples.							
+Date of Experiment								
+Term Source Name	EFO							
+Term Source Version								
+Term Source File	http://www.ebi.ac.uk/efo/efo.owl							
+Person Last Name	Hu	Hu	Lagarias					
+Person First Name	Wei	Wei	J					
+Person Mid Initials			C					
+Person Email	geo@ncbi.nlm.nih.gov							
+Person Affiliation	Univ of California at Davis							
+Person Phone								
+Person Fax								
+Person Address	Section of Molecular and Cellular Biology, Univ of California at Davis, One Shields Ave., Davis, CA, USA							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Person Roles Term Accession Number								
+Normalization Type								
+Normalization Term Accession Number								
+Normalization Term Source REF								
+Replicate Type								
+Replicate Term Accession Number								
+Replicate Term Source REF								
+Experimental Design								
+Experimental Design Term Accession Number								
+Experimental Design Term Source REF								
+Quality Control Type								
+Quality Control Term Accession Number								
+Quality Control Term Source REF								
+Protocol Name	P-GSE31587-1	P-GSE31587-6	P-GSE31587-3	P-GSE31587-8	P-GSE31587-7	P-GSE31587-2	P-GSE31587-4	P-GSE31587-5
+Protocol Description	ID_REF = <br>VALUE = RMA signal intensity	Fifteen micrograms (15 ug) of aRNA were fragmented, and used for hybridization for 16 hr at 45 degree on GeneChip Arabidopsis ATH1 Array in the Hybridization Oven 640. GeneChips were washed and stained in the Affymetrix Fluidics Station 450.	Surface sterilized seeds were sown on 1x MS salt medium solidified with 0.8% phytoagar, imbibed in darkness at 4 degree for 4 days, then exposed to white light for 3 hours to promote germination, and finally wrapped with aluminium foil for dark growth, or put into LED red light growth chamber for continuous red light growth (50 umol m-2 s-1 irradiance).	The data were analyzed in R/Bioconductor. Data were normalized with the 'RMA' function, ABS calls were obtained by Affymetrix GCOS algorithm, and statistical analysis were performed by LIMMA.	GeneChips were scanned using the 3000 GeneChip Scanner with Autoloader.	After 4 days of growth, during the subjective morning time, continuous red light-grown seedlings (R50) were directly harvested under red light, dark-grown seedlings (D) were harvested under safe dim green light (approximately 1 umol m-2 s-1 irradiance). For DR2h samples, dark-grown seedlings were exposed to red light (50 umol m-2 s-1 irradiance) for 2 hours before harvest under red light.	QIAGEN RNeasy Plant Mini kit was used to extract total RNA according to the manufacturer's instructions.	Biotinylated aRNA were prepared using the GeneChip 3' IVT Express Kit (Affymetrix) from 500ng total RNA according to the manufacturer's instructions.
+Protocol Software								
+Protocol Hardware								
+Protocol Contact								
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_acquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Protocol Term Source REF								
+Protocol Term Accession Number								
+Experimental Factor Name	genotype	light						
+Experimental Factor Type	genotype	light						
+Experimental Factor Term Source REF								
+Experimental Factor Term Accession Number								
+Publication Title	Unanticipated regulatory roles for Arabidopsis phytochromes revealed by null mutant analysis							
+Publication Author List	Hu W, Franklin KA, Sharrock RA, Jones MA, Harmer SL, Lagarias JC							
+PubMed ID	23302690							
+Publication DOI	10.1073/pnas.1221738110							
+Publication Status								
+Publication Status Term Source REF								
+Publication Status Term Accession Number								
+Comment[SecondaryAccession]	GSE31587							
+Comment[GEOLastUpdateDate]	2012-03-31							
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[GEOReleaseDate]	2012-03-30							
+Comment[ArrayExpressSubmissionDate]	2011-08-21							
+SDRF File	E-GEOD-31587.sdrf.txt							

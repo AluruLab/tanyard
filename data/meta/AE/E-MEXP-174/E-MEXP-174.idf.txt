@@ -1,0 +1,48 @@
+Investigation Title	Transcription profiling of Arabidopsis mutants mpk4 and ctr1	
+Comment[Submitted Name]	Global gene expression study of the Arabidopsis mutants mpk4 and ctr1	
+Experimental Design	individual_genetic_characteristics_design	transcription profiling by array	
+Experimental Design Term Source REF		EFO	
+Comment[ArrayExpressReleaseDate]	2005-08-01	
+Comment[AEMIAMESCORE]	3	
+Comment[ArrayExpressAccession]	E-MEXP-174	
+Comment[MAGETAB TimeStamp_Version]	2011-06-28 19:25:54 Last Changed Rev: 14857	
+Experimental Factor Name	genotype	
+Experimental Factor Type	genotype	
+Experimental Factor Term Source REF	
+Person Last Name	Nielsen	
+Person First Name	H. Bjoern	
+Person Mid Initials	
+Person Email	hbjorn+miame@cbs.dtu.dk	
+Person Phone	+45 45 25 24 89	
+Person Fax	
+Person Address	Center for Biological Sequence Analysis, BioCentrum-DTU, Technical University of Denmark, Kemitorvet, Building 208	
+Person Affiliation	CBS	
+Person Roles	submitter	
+Person Roles Term Source REF		
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2005-08-01	
+PubMed ID	17215350	
+Publication DOI	17215350	
+Publication Author List	Peter Brodersen, Morten Petersen, Henrik Bjorn Nielsen, Shijiang Zhu, Mari-Anne Newman, Kevan M. Shokat, Steffen Rietz, Jane Parker, John Mundy	
+Publication Title	Arabidopsis MAP kinase 4 regulates salicylic acid- and jasmonic acid/ethylene-dependent responses via EDS1 and PAD4	
+Publication Status	journal_article	
+Publication Status Term Source REF	mo	
+Experiment Description	Arabidopsis MPK4 is involved in the control of antagonism between salicylic acid (SA) and ethylene (ET)/jasmonic acid (JA) pathways in the plant innate immune system as a repressor of the SA pathway, but an activator of the ET/JA pathway. Here we and use comparative microarray analysis of ctr1, ctr1/mpk4, mpk4 and wild type to show that MPK4 is required for only a narrow subset of ET regulated genes.	
+Protocol Name	P-MEXP-5354	P-MEXP-5353	P-MEXP-5373	P-MEXP-5346	Affymetrix:Protocol:Hybridization-EukGE-WS2v4	P-AFFY-6	P-MEXP-5390	
+Protocol Type	specified_biomaterial_action	grow	nucleic_acid_extraction	labeling	hybridization	feature_extraction	bioassay_data_transformation	
+Protocol Description	Plant were treated as equaly as possible	plants was grown in a chamber with 16hr light (21C) and 8hr dark (16C).	Total RNA was isolated from leaves of 3 weaks old plants, using the  TRIzol protocol (invitrogen).	Total RNA was amplified and Biotin labeled using the Affymetrix Enzo Kit method Described in Affymetrix GeneChip Technical Analysis Manual	Title: Fluidics Station Protocol. Description: 	Title: Affymetrix CEL analysis. Description: 	Transformations: Gene expression intensities was normalized using R implementation of qspline (Workman et al., 2002; Gautier et al., 2004). An implementation in the statistical language R of the logit-t method (Lemon et al., 2003) applying two-way ANOVA was used to calculate statistical significance for differentially gene expression. Gene expression index values were calculated using the PM only R implementation of the Li and Wong (2001) method (Gautier et al., 2004). # Refs# # Workman C, Jensen LJ, Jarmer H, Berka R, Gautier L, Nielsen HB, Saxild HH, Nielsen C, Brunak S, Knudsen S. A new non-linear normalization method for reducing variability in DNA microarray experiments. Genome Biol. 2002 Aug 30;3(9):research0048.  # Gautier L, Cope L, Bolstad BM, Irizarry RA. (2004) affy--analysis of Affymetrix GeneChip data at the probe level. Bioinformatics, 20, 307-15.  Lemon WJ, Liyanarachchi S, You M, A high performance test of differential gene expression for oligonucleotide arrays. Genome Biology 2003, 4:R67 # Li C and Wong WH. (2001) Model-based analysis of oligonucleotide arrays: model validation, design issues and standard error application Genome biology, http://genomebiology.com/2001/2/8/research/0032.1	
+Protocol Parameters			Amplification;Extracted product;	Amount of nucleic acid labeled;Amplification;Label used;	
+Protocol Hardware	
+Protocol Software					MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact	
+Protocol Term Source REF			mo				mo	
+SDRF File	E-MEXP-174.sdrf.txt	
+Term Source Name	mo		The MGED Ontology	ncbitax	ArrayExpress	EFO	mo	
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version								

@@ -1,0 +1,58 @@
+Comment[ArrayExpressAccession]	E-GEOD-22836							
+Public Release Date	2010-12-01							
+Investigation Title	Identification of ORS1 target genes using inducible overexpression system							
+Comment[Submitted Name]	Identification of ORS1 target genes using inducible overexpression system							
+Experiment Description	The aim was to identify early target genes of the senescence-associated transcription factor: ORS1. For this purpose we used DEX-inducible system and studied the expression profile 5h after treatment using Affymetrix microarray.  Keywords: genetic modification Arabidopsis  46 day-old transgenic plants (Arabidopsis C24 background, inducible overexpression)  were sprayed with 30µM  DEX for 5h. As control mock (0.05% ethanol) treated  ORS1-inducible over-expression plants were used. Whole rosettes were harvested 5h after induction and used for expression profiling using Affymetrix near-full genome ATH1 arrays. Experiment performed in two biological replications.							
+Date of Experiment								
+Term Source Name	EFO							
+Term Source Version								
+Term Source File	http://efo.svn.sourceforge.net/viewvc/efo/trunk/src/efoinowl/efo.owl							
+Person Last Name	Balazadeh	Balazadeh	Mueller-Roeber					
+Person First Name	Salma	Salma	Bernd					
+Person Mid Initials								
+Person Email	balazadeh@mpimp-golm.mpg.de							
+Person Affiliation	MPIMP							
+Person Phone								
+Person Fax								
+Person Address	Stitt, MPIMP, Am Muehlenberg 1, Postdam, Germany							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Person Roles Term Accession Number								
+Normalization Type								
+Normalization Term Accession Number								
+Normalization Term Source REF								
+Replicate Type								
+Replicate Term Accession Number								
+Replicate Term Source REF								
+Experimental Design								
+Experimental Design Term Accession Number								
+Experimental Design Term Source REF								
+Quality Control Type								
+Quality Control Term Accession Number								
+Quality Control Term Source REF								
+Protocol Name	P-GSE22836-1	P-GSE22836-6	P-GSE22836-3	P-GSE22836-8	P-GSE22836-7	P-GSE22836-2	P-GSE22836-4	P-GSE22836-5
+Protocol Description	ID_REF = <br>VALUE = GCRMA normalized	performed by Atlas Biolabs	Transgenic plants were grown in soil and germinated under controlled condition in a growth chamber with a 16-h day lenght provided by fluorescent light at 80 or 120 µmol m2- s1- and a days/night temperature of 20/16 C°  and relative humidity 60/75%.	The data were analyzed with GCRMA (Wu et al., 2004).	performed by Atlas Biolabs	46 days-old transgenic Arabidopsis rosette were sprayed with 30µM DEX for 5 hours and then whole rosettes were carefully harvested. As control, 46 days-old transgenic Arabidopsis rosette were sprayed with 0.05% ethanol (mock) for 5 hours.	RNA extraction performed using Rneasy Plant MiniKit (Qiagene)	Labling procedure performed using MessageAmpTM II-Biotin Enhanced Kit
+Protocol Software								
+Protocol Hardware								
+Protocol Contact								
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Protocol Term Source REF								
+Protocol Term Accession Number								
+Experimental Factor Name	COMPOUND							
+Experimental Factor Type	compound							
+Experimental Factor Term Source REF								
+Experimental Factor Term Accession Number								
+Publication Title								
+Publication Author List								
+PubMed ID								
+Publication DOI								
+Publication Status								
+Publication Status Term Source REF								
+Publication Status Term Accession Number								
+Comment[SecondaryAccession]	GSE22836							
+Comment[GEOLastUpdateDate]	2010-09-21							
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis with inducible ORS1 expression after treatment with dexamethasone							
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[GEOReleaseDate]	2010-12-01							
+Comment[ArrayExpressSubmissionDate]	2010-07-07							
+SDRF File	E-GEOD-22836.sdrf.txt							

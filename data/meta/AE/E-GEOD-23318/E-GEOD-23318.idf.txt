@@ -1,0 +1,25 @@
+Comment[ArrayExpressAccession]	E-GEOD-23318
+MAGE-TAB Version	1.1					
+Public Release Date	2013-09-29
+Investigation Title	Expression array from mature leaves in the genus Arabidopsis					
+Comment[Submitted Name]	Expression array from mature leaves in the genus Arabidopsis
+Experiment Description	We compared the expression between inter-specific hybrids (A. thaliana-A. lyrata, A. thaliana-A. halleri) and mid parent values of their parental lines. Mature leaves in A. thaliana (Col), A. lyrata ssp. lyrata, A. halleri ssp. gemmifera and interspecific hybrid between A. thaliana and A. lyrata and between A. thaliana and A. halleri					
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl				
+Person Last Name	Fujimoto	Fujimoto				
+Person First Name	Ryo	Ryo				
+Person Email	ryo.fujimoto@csiro.au					
+Person Affiliation	CSIRO					
+Person Address	CSIRO, Cnr Clunies Ross St & Barry Dr, Canberra, ACT, Australia					
+Person Roles	submitter					
+Protocol Name	P-GSE23318-1	P-GSE23318-4	P-GSE23318-5	P-GSE23318-2	P-GSE23318-3	P-GSE23318-6
+Protocol Description	GCOS/MAS5 standard processing ID_REF =  VALUE = Signal ABS_CALL = indicating whether the transcript was present (P), absent (A), or marginal (M) DETECTION P-VALUE = 	Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 500 ng total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).	Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45C on GeneChip Arabidopsis ATH1 array. GeneChips were washed and stained in the Affymetrix Fluidics Station 400.	Controlled enviromental condition (22C) under fluorescent lights and a 16h/8h (day/light) photoperiod.	Total RNA was isolated from mature leaves using SV Total RNA Isolation system (Promega)	GeneChips were scanned using the Hewlett-Packard GeneArray Scanner G2500A.
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	ORGANISM					
+Experimental Factor Type	organism					
+Comment[SecondaryAccession]	GSE23318					
+Comment[GEOReleaseDate]	2013-09-29					
+Comment[ArrayExpressSubmissionDate]	2010-07-29					
+Comment[GEOLastUpdateDate]	2013-09-29					
+Comment[AEExperimentType]	transcription profiling by array					
+SDRF File	E-GEOD-23318.sdrf.txt

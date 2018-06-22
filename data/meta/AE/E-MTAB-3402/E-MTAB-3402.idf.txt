@@ -1,0 +1,35 @@
+Comment[ArrayExpressAccession]	E-MTAB-3402
+MAGE-TAB Version	1.1
+Investigation Title	Response of clavata 2-7 mutant to Ralstonia solanacearum.
+Comment[Submitted Name]	Response of clavata 2-7 mutant to Ralstonia solanacearum.
+Experiment Description	In this experiment, we compared transcriptome of one knock out mutants in the CLV2 gene (clv2-7) to his wild type Col-0 when challenged with the virulent GMI1000 strain of Ralstonia solanacearum. This mutant shows a significant delay of symptom appearance. The experiment was conducted on roots and leaves of 4 week old plants harvested at the time of inoculation and when the first symptoms appeared on the susceptible wild type (4 days after inoculation - 25% of wilted leaves: disease index 1, D1).
+Experimental Design	disease state design	genetic modification design
+Experimental Design Term Source REF	EFO	EFO
+Experimental Design Term Accession Number	EFO_0001756	EFO_0001758
+Experimental Factor Name	organism part	genotype	disease staging	replicate
+Experimental Factor Type	organism part	genotype	disease staging	replicate
+Experimental Factor Term Source REF	EFO	EFO	EFO	
+Experimental Factor Term Accession Number	EFO_0000635	EFO_0000513	EFO_0000410	
+Person Last Name	Barlet
+Person First Name	Xavier
+Person Mid Initials	
+Person Email	xavier.barlet@toulouse.inra.fr
+Person Phone	
+Person Fax	
+Person Address	INRA 24, chemin de Borde Rouge  BP 22657 F-31326 Castanet-Tolosan cedex France
+Person Affiliation	Laboratoire des Interactions Plantes Microorganismes (LIPM)  UMR INRA 994 / CNRS 2594
+Person Roles	submitter
+Date of Experiment	2011-06-14
+Public Release Date	2015-08-14
+Protocol Name	P-MTAB-43773	P-MTAB-43774	P-MTAB-43775	P-MTAB-43776	P-MTAB-43777
+Protocol Type	growth protocol	treatment protocol	nucleic acid extraction protocol	nucleic acid labeling protocol	nucleic acid hybridization to array protocol
+Protocol Term Source REF	EFO	EFO	EFO	EFO	EFO
+Protocol Term Accession Number	EFO_0003789	EFO_0003969	EFO_0002944	EFO_0003813	EFO_0003815
+Protocol Description	9h/22°C day - 15h/22°C night - 70% HR - for 4 weeks - 400µE/m²/s	4 week old plants were inoculated with 1.00E+07 CFU/ml Rd15 as described in Deslandes L, Pileur F, Liaubet L, Camut S, Can C, Williams K, Holub E, Beynon J, Arlat M, Marco Y. 1998. Genetic characterization of RRS1, a recessive locus in Arabidopsis thaliana that confers resistance to the bacterial soilborne pathogen Ralstonia solanacearum. Molecular Plant Microbe Interactions 11: 659–667	Macherey Nagel NucleoSpin RNA II Extraction kit	Labelled using protocol described in manual \Affymetrix GeneChip Expression Analysis Technical Manual\	Biotin Labelled cRNA using \Affymetrix GeneChip Hybridization, Wash and Stain Kit\, according to guidelines set out by Affymetrix, Santa Clara, CA
+Protocol Hardware					
+Protocol Software					
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/
+Term Source Version		
+Comment[AEExperimentType]	transcription profiling by array
+SDRF File	E-MTAB-3402.sdrf.txt

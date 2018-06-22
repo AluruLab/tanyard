@@ -1,0 +1,25 @@
+Comment[ArrayExpressAccession]	E-GEOD-50857
+MAGE-TAB Version	1.1						
+Public Release Date	2013-09-14
+Investigation Title	Expression data from Arabidopsis wild-type, sicy-192, and sicy-192 gun1-101 plants						
+Comment[Submitted Name]	Expression data from Arabidopsis wild-type, sicy-192, and sicy-192 gun1-101 plants
+Experiment Description	Plastid gene expression (PGE) acts as a signal that regulates the expression of photosynthesis-associated nuclear genes (PhANGs) via GENOMES UNCOUPLED1 (GUN1)-dependent retrograde signaling. We recently isolated Arabidopsis sugar-inducible cotyledon yellow-192 (sicy-192), a gain-of-function mutant of plastidic invertase (INV-E), and showed that following the treatment of this mutant with sucrose, the expression of PhANGs decreased while that of nitrate reductase 1 (NIA1) increased. Plastid-encoded RNA polymerase (PEP)-dependent PGE was markedly suppressed in the sicy-192 mutant by the sucrose treatment.  A double mutant of sicy-192 and gun1-101, a null mutant of GUN1, revealed that metabolic perturbation in the sucrose-treated sicy-192 mutant was, at least in part, dependent on GUN1. To confirm whether there is a relationship between plastid sugar metabolism and nuclear gene expression, we performed a microarray analysis using Suc-treated 3 genotypes consisting of wild-type, sicy-192, and sicy-192 gun1-101 plants. Wild-type, sicy-192, and sicy-192 gun1-101 plants were grown on MS medium containing 100 mM sucrose in a growth chamber kept at 25Â°C during 16 h of light (100 Âµmol/m2/s) and at 22Â°C during 8 h of darkness for 4 days. At 4 days of age, cotyledons were collected as samples for microarray analysis.						
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Maruta	Yoshimura	Shigeoka				
+Person First Name	Takanori	Kazuya	Shigeru				
+Person Email	geo@ncbi.nlm.nih.gov						
+Person Affiliation	Shimane university						
+Person Address	Shimane university, 1060 Nishikawatsu, Matsue, Japan						
+Person Roles	submitter						
+Protocol Name	P-GSE50857-1	P-GSE50857-5	P-GSE50857-6	P-GSE50857-2	P-GSE50857-3	P-GSE50857-4	P-GSE50857-7
+Protocol Description	Raw data were processed using Affymetrix Gene Chip Operating Software (GCOS; Version 1.4.0.036). ID_REF =  VALUE = MAS5 Signal ABS_CALL = indicating whether the transcript was present (P), absent (A), or marginal (M) DETECTION P-VALUE = 	Total RNA samples were reverse-transcribed, yielding double-strand cDNA, which was transcribed in vitro in the presence of biotin-labeled nucleotides with an IVT Labeling Kit (Affymetrix Inc., Santa Clara, CA), and purified.	Labeled cRNA was fragmented and hybridized to Affymetrix ATH1 GeneChip arrays for 16 h at 45°C according to Affymetrix protocols.	At 4 days of age, cotyledons were collected as samples.	Wild-type, sicy-192, and sicy-192 gun1-101 plants were grown on MS medium containing 100 mM sucrose in a growth chamber kept at 25°C during 16 h of light (100 µmol/m2/s) and at 22°C during 8 h of darkness for 4 days.	Total RNA was semi-automatically purified from various organs of Arabidopsis plants using a QuickGene RNA cultured cell Kit and QuickGene-Mini80 (FUJIFILM corporation, Tokyo, Japan). The quality and purity of the RNA were confirmed for microarray analysis with an Ultrospec 2100 pro (GE Healthcare UK Ltd, Amersham Place, England).	Arrays were washed on an Affymetrix Fluidics Station 450 and measured for fluorescence intensity with an Affymetrix GeneChip Scanner 3000.
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	GENOTYPE						
+Experimental Factor Type	genotype						
+Comment[SecondaryAccession]	GSE50857						
+Comment[GEOReleaseDate]	2013-09-14						
+Comment[ArrayExpressSubmissionDate]	2013-09-13						
+Comment[GEOLastUpdateDate]	2013-09-15						
+Comment[AEExperimentType]	transcription profiling by array						
+SDRF File	E-GEOD-50857.sdrf.txt

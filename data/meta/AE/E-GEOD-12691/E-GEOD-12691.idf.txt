@@ -1,0 +1,52 @@
+Investigation Title	RNAi profiling of Arabidopsis knocked down and overexpressing CIN-TCP genes					
+Comment[Submitted Name]	Knockdown and overexpression of CIN-TCP genes					
+Experimental Design	unknown_experiment_design_type	RNAi profiling by array				
+Experimental Design Term Source REF		EFO				
+Comment[AEExperimentType]	RNAi profiling by array					
+Comment[AEExperimentDisplayName]	RNAi profiling by array of Arabidopsis with miR-mediated knockdown of CIN-TCP genes or expressing TCP4 under the control of the BLS promoter					
+Comment[ArrayExpressReleaseDate]	2008-10-25					
+Comment[SecondaryAccession]	GSE12691					
+Comment[AEMIAMESCORE]	3					
+Comment[ArrayExpressAccession]	E-GEOD-12691					
+Comment[MAGETAB TimeStamp_Version]	2010-07-30 05:31:13 Last Changed Rev: 13058					
+Experimental Factor Name	GENOTYPE	AGE				
+Experimental Factor Type	genotype	age				
+Experimental Factor Term Source REF						
+Person Last Name	Efroni					
+Person First Name	Idan					
+Person Mid Initials	D.					
+Person Email	idane@weizmann.ac.il					
+Person Phone						
+Person Fax						
+Person Address	Weizmann Institute, Weizmann, Rehovot, 76100, Israel					
+Person Affiliation	Weizmann Institute					
+Person Roles	submitter					
+Person Roles Term Source REF	The MGED Ontology					
+Quality Control Type						
+Quality Control Term Source REF						
+Replicate Type						
+Replicate Term Source REF						
+Normalization Type						
+Normalization Term Source REF						
+Date of Experiment						
+Public Release Date	2008-10-25					
+PubMed ID	18805992					
+Publication DOI	10.1105/tpc.107.057521					
+Publication Author List	Efroni I, Blum E, Goldshmidt A, Eshed Y.					
+Publication Title	A protracted and dynamic maturation schedule underlies Arabidopsis leaf development					
+Publication Status	published					
+Publication Status Term Source REF	EFO					
+Publication Status Term Accession Number	EFO_0001796					
+Experiment Description	Leaf development has been monitored chiefly by following anatomical markers. Analysis of transcriptome dynamics during leaf maturation revealed multiple expression patterns that rise or fall with age or that display age specific peaks. These were used to formulate a digital differentiation index (DDI), based on a set of selected markers with informative expression during leaf ontogeny. The leaf-based DDI reliably predicted the developmental state of leaf samples from diverse sources and was independent of mitotic cell division transcripts or propensity of the specific cell type. When calibrated by informative root markers, the same algorithm accurately diagnosed dissected root samples. We used the DDI to characterize plants with reduced activities of multiple CINCINNATA (CIN)-TCP growth regulators. These plants had giant curled leaves made up of small cells with abnormal shape, low DDI scores and low expression of mitosis markers, depicting the primary role of CIN-TCPs as promoters of differentiation. Delayed activity of several CIN-TCPs resulted in abnormally large but flat leaves with regular cells. The application of DDI has therefore portrayed the CIN-TCPs as heterochronic regulators that permit the development of a flexible and robust leaf form through an ordered and protracted maturation schedule. Experiment Overall Design: Vegetative apices of arabidopsis plants from modified CIN-TCP activity were collected.  Experiment Overall Design: 1. Overexpression of an artificial microRNA targeting TCP5, TCP13 and TCP17 Experiment Overall Design: 2. Overexpression of the endogenous microRNA 319b targeting TCP2, TCP3, TCP4, TCP10 and TCP24 Experiment Overall Design: 3. the combination of the two microRNA, knocking down the eight CIN-TCP Experiment Overall Design: 4. Overexpression of TCP4 under the leaf specific BLS promoter					
+Protocol Name	P-G12691-1	P-G12691-3	P-G12691-2	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6	
+Protocol Type	grow	nucleic_acid_extraction	labeling	hybridization	feature_extraction	
+Protocol Description	Soil grown at short days (10 hours light), 20C	Using qiagen RNAEasy kit, according to manufacturer protocol	Standard affymetrix protocol	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	
+Protocol Parameters						
+Protocol Hardware						
+Protocol Software				MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact						
+Protocol Term Source REF				mo		
+SDRF File	E-GEOD-12691.sdrf.txt					
+Term Source Name	NCBI Taxonomy	The MGED Ontology	ArrayExpress	EFO	The MGED Ontology	mo
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version						

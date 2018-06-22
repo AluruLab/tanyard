@@ -1,0 +1,49 @@
+Investigation Title	Transcription profiling of Arabidopsis Ler/Kas-2 incompatible verses compatible lines	
+Comment[Submitted Name]	Ler x Kas-2 incompatible lines	
+Experimental Design	genetic_modification_design	co-expression_design	transcription profiling by array	
+Experimental Design Term Source REF	The MGED Ontology	The MGED Ontology	EFO	
+Comment[AEMIAMESCORE]	5	
+Comment[SecondaryAccession]		
+Comment[ArrayExpressReleaseDate]	2010-08-19	
+Comment[ArrayExpressAccession]	E-MEXP-2569	
+Comment[MAGETAB TimeStamp_Version]	2010-11-04 09:44:38 Last Changed Rev: 14857	
+Experimental Factor Name	GENOTYPE	
+Experimental Factor Type	genotype	
+Experimental Factor Term Source REF	
+Person Last Name	Alcazar	
+Person First Name	Ruben	
+Person Mid Initials	
+Person Email	alcazar@mpiz-koeln.mpg.de	
+Person Phone	221 5062 468	
+Person Fax	
+Person Address	Plant Breeding and Genetics, Carl-von-Linne Weg, 10, Cologne, NRW, 50829, Germany	
+Person Affiliation	Max Planck Institute for Plant Breeding Research	
+Person Roles	submitter	
+Person Roles Term Source REF	The MGED Ontology	
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2010-08-19	
+PubMed ID	21037570	
+Publication DOI	21037570	
+Publication Author List	Alcázar R, García AV, Kronholm I, de Meaux J, Koornneef M, Parker JE,  Reymond M	
+Publication Title	Natural variation at Strubbelig Receptor Kinase 3 drives immune-triggered incompatibilities between Arabidopsis thaliana accessions	
+Publication Status	not yet submitted	
+Publication Status Term Source REF	The MGED Ontology	
+Experiment Description	Transcription profiling Ler/Kas-2 incompatible versus compatible lines	
+Protocol Name	P-MTAB-12425	P-MTAB-12426	P-MTAB-12427	P-AFFY-2	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6	Affymetrix:Protocol:ExpressionStat	Affymetrix:Protocol:MAS4:ExpressionCall	
+Protocol Type	grow	pool	nucleic_acid_extraction	labeling	hybridization	feature_extraction	bioassay_data_transformation	bioassay_data_transformation	
+Protocol Description	Plants were germinated and grown on soil in growth chambers (Percival Scientific) under 12h dark/ 12 h light cycles at 14°C/ 16°C and 70% relative humidity.<br>(Parameters: time unit = seconds, min temperature = 14, max temperature = 16, temperature unit = C)	RNA samples were extracted in triplicate from pooled samples of five plants per genotype.	Total RNA extraction was performed with TRIzol (Invitrogen) and further purified with RNeasy Plant Mini Kit columns (Qiagen). <br>(Parameters: Extracted product = total_RNA, Amplification = none)						
+Protocol Parameters	
+Protocol Hardware	
+Protocol Software					MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 4.0	
+Protocol Contact	
+Protocol Term Source REF					mo		The MGED Ontology	mo	
+SDRF File	E-MEXP-2569.sdrf.txt	
+Term Source Name	EFO		The MGED Ontology	ArrayExpress	The MGED Ontology	EFO	mo	
+Term Source File	http://www.ebi.ac.uk/efo/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version								

@@ -1,0 +1,34 @@
+Comment[ArrayExpressAccession]	E-MEXP-3867		
+Investigation Title	Genome-wide analysis of genes regulated in U11U12-65k mutant		
+Comment[Submitted Name]	Genome-wide analysis of genes regulated in U11U12-65k mutant		
+Comment[AEExperimentDisplayName]	Transcription profiling by array of A. thaliana U11U12-65k mutant vs Col-0 wild type to investigate differently regulated genes		
+Comment[MIAMExpressLogin]	hskang		
+Comment[MIAMExpressSubmissionID]	8686		
+Experiment Description	The experiment was designed to compare the genes differently regulated in Arabidopsis U11U12-65K mutant compared with wild type 		
+Experimental Design	in_vivo_design	co-expression_design	transcript_identification_design
+Comment[AEExperimentType]	transcription profiling by array		
+Experimental Factor Name	genotype		
+Experimental Factor Type	genotype		
+Person Last Name	Kang		
+Person First Name	Hunseung		
+Person Email	hskang@jnu.ac.kr		
+Person Phone	+82-62-530-2181		
+Person Affiliation	Chonnam National University		
+Person Address	Plant Biotechnology, 300 Yongbong-dong, Buk-gu, Gwangju, CN, 500-757, South Korea		
+Person Roles	submitter		
+Person Roles Term Source REF	MGED Ontology		
+Quality Control Type			
+Public Release Date	2014-03-13		
+Comment[ArrayExpressSubmissionDate]	2013-03-13 02:40:59		
+PubmedID	24606192		
+Publication DOI	10.1111/tpj.12498		
+Publication Title	The Arabidopsis U11/U12-65K Is an Indispensible Component of Minor Spliceosome and Plays a Crucial Role in U12 Intron Splicing and Plant Development		
+Publication Author List	Jung HJ, Kang H		
+Publication Status	published		
+Protocol Name	P-MTAB-31626	P-MTAB-31627	
+Protocol Description	Total RNAs were extracted using the Plant RNeasy extraction kit (Qiagen).<br>(Parameters: Extracted product = total_RNA, Amplification = none)	The wild-type (Col-0) and mutant plants were grown in soil for 5 weeks under long-day conditions.	
+Protocol Type	nucleic_acid_extraction	grow	
+Protocol Term Source REF	MGED Ontology	MGED Ontology	
+Term Source Name	MGED Ontology	ArrayExpress	
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	
+SDRF File	E-MEXP-3867.sdrf.txt		

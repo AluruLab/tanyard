@@ -1,0 +1,52 @@
+Investigation Title	Transcription profiling of Arabidopsis  ap1-1 and cal-1 mutations and expressing a fusion between AGAMOUS and the rat glucocorticoid receptor (35S:AGGR) during early flower development in Arabidopsis					
+Comment[Submitted Name]	Target genes of AGAMOUS during early flower development in Arabidopsis					
+Experimental Design	unknown_experiment_design_type	transcription profiling by array				
+Experimental Design Term Source REF		EFO				
+Comment[AEExperimentType]	transcription profiling by array					
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for ap1 and cal1 after treatment with dexamethasone					
+Comment[ArrayExpressReleaseDate]	2008-06-16					
+Comment[SecondaryAccession]	GSE9605					
+Comment[AEMIAMESCORE]	4					
+Comment[ArrayExpressAccession]	E-GEOD-9605					
+Comment[MAGETAB TimeStamp_Version]	2010-08-09 14:53:00 Last Changed Rev: 13058					
+Experimental Factor Name	COMPOUND	SAMPLING TIME POINT				
+Experimental Factor Type	compound	sampling_time_point				
+Experimental Factor Term Source REF						
+Person Last Name	Sablowski					
+Person First Name	Robert					
+Person Mid Initials						
+Person Email	robert.sablowski@bbsrc.ac.uk					
+Person Phone						
+Person Fax						
+Person Address	CDB, JIC, The John Innes Centre, NORWICH, NR4 7UH, United Kingdom					
+Person Affiliation	JIC					
+Person Roles	submitter					
+Person Roles Term Source REF	The MGED Ontology					
+Quality Control Type						
+Quality Control Term Source REF						
+Replicate Type						
+Replicate Term Source REF						
+Normalization Type						
+Normalization Term Source REF						
+Date of Experiment						
+Public Release Date	2008-06-16					
+PubMed ID	15634696					
+Publication DOI	10.1242/dev.01600					
+Publication Author List	Concepción Gómez-Mena, Stefan de Folter, Maria Manuela R Costa, Gerco C Angenent, Robert Sablowski					
+Publication Title	Transcriptional program controlled by the floral homeotic gene AGAMOUS during early organogenesis.					
+Publication Status	published					
+Publication Status Term Source REF	EFO					
+Publication Status Term Accession Number	EFO_0001796					
+Experiment Description	Floral organs, whose identity is determined by specific combinations of homeotic genes, originate  from a group of undifferentiated cells called the floral meristem. In Arabidopsis, the homeotic gene AGAMOUS (AG) terminates meristem activity and promotes development of stamens and carpels. To understand the program of gene expression activated by AG, we followed genome-wide expression during early stamen and carpel development. Experiment Overall Design: Described in Gomez-Mena et al, 2005, Development 132: 429-438. Briefly, synchronous development of stamens and carpels was initiated by steroid treatment of plants homozygous for the ap1-1 and cal-1 mutations and expressing a fusion between AGAMOUS and the rat glucocorticoid receptor (35S:AGGR). RNA was extracted one, three and seven days after steroid treatment; two independent steroid-treated samples and two independent untreated controls were used for each time point.					
+Protocol Name	P-G9605-1	P-G9605-2	P-G9605-4	P-G9605-3	Affymetrix:Protocol:Hybridization-EukGE-WS2v4	P-AFFY-6
+Protocol Type	grow	specified_biomaterial_action	nucleic_acid_extraction	labeling	hybridization	feature_extraction
+Protocol Description	Plants were grown on a mix of vermiculite:soil:sand at 18Â&deg;C with 16 hours light/8 hours dark cycles.	Dexamethasone (Sigma, stock solution 10 mM in ethanol) was used at a final concentration of 10 Î¼M in Silwet L-77 0.015%, applied directly on the inflorescence tips; for mock treatments, the solution contained the same amount of ethanol (0.1%) and Silwet L-77. After treatment, RNA was extracted from inflorescence apices and stored at -70 C until activation of AGGR was confirmed (2 weeks later).	Total RNA was extracted using TRI reagent (Sigma) according to the manufacturerâs instructions. For array hybridisation, the RNA was cleaned up with RNeasy columns (Qiagen) and precipitated to increase final concentration.	Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 6 ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).	Title: Fluidics Station Protocol. Description: 	Title: Affymetrix CEL analysis. Description: 
+Protocol Parameters						
+Protocol Hardware						
+Protocol Software					MicroArraySuite 5.0	MicroArraySuite 5.0
+Protocol Contact						
+Protocol Term Source REF						
+SDRF File	E-GEOD-9605.sdrf.txt					
+Term Source Name	NCBI Taxonomy		The MGED Ontology	ArrayExpress	EFO	The MGED Ontology
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version						

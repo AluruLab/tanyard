@@ -1,0 +1,49 @@
+Investigation Title	Transcription profiling of Arabdopsis eto1 JMT mutants	
+Comment[Submitted Name]	eto1 JMT	
+Experimental Design	growth_condition_design	co-expression_design	all_pairs	transcription profiling by array	
+Experimental Design Term Source REF	The MGED Ontology	The MGED Ontology		EFO	
+Comment[AEMIAMESCORE]	4	
+Comment[SecondaryAccession]		
+Comment[ArrayExpressReleaseDate]	2010-04-01	
+Comment[ArrayExpressAccession]	E-MEXP-2182	
+Comment[MAGETAB TimeStamp_Version]	2010-08-10 11:25:47 Last Changed Rev: 13058	
+Experimental Factor Name	GENOTYPE	
+Experimental Factor Type	genotype	
+Experimental Factor Term Source REF	
+Person Last Name	Cheong	
+Person First Name	Jong-Joo	
+Person Mid Initials	
+Person Email	cheongjj@snu.ac.kr	
+Person Phone	82-2-880-4649	
+Person Fax	82-2-873-3112	
+Person Address	Center for Agricultural Biotechnology, Room A-7119, 200-dong, Sillim-Kwanak, Seoul, Seoul, 151-921, South Korea	
+Person Affiliation	Seoul National University	
+Person Roles	submitter	
+Person Roles Term Source REF	The MGED Ontology	
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2010-04-01	
+PubMed ID	
+Publication DOI	
+Publication Author List	
+Publication Title	
+Publication Status	
+Publication Status Term Source REF	
+Experiment Description	Comparison of global gene expression of eto1 JMT under light or dark condition	
+Protocol Name	P-MTAB-4225	P-MTAB-4226	P-MTAB-4229	P-MTAB-4227	P-MTAB-4223	P-MTAB-4224	P-MTAB-4222	P-MTAB-4228	P-AFFY-2	Affymetrix:Protocol:Hybridization-EukGE-WS2v3	P-AFFY-6	Affymetrix:Protocol:ExpressionStat	
+Protocol Type	pool	pool	grow	grow	specified_biomaterial_action	specified_biomaterial_action	nucleic_acid_extraction	nucleic_acid_extraction	labeling	hybridization	feature_extraction	bioassay_data_transformation	
+Protocol Description	Seedlings grown in the same plate were pooled.	Seedlings grown in the same plate were pooled.	Arabidopsis seedlings were grown under light condition.<br>(Parameters: start time = 7, time unit = days, min temperature = 22, temperature unit = C, media = MS media)	Arabidopsis seedlings were grown under complete darkness.<br>(Parameters: start time = 7, time unit = days, min temperature = 22, temperature unit = C, media = MS media)	Arabidopsis seeds were germinated and grown under light condition for 7 days.<br><br>	Arabidopsis seeds were germinated and grown under complete darkness for 7 days.	Total RNAs were extracted by using Trizol Reagent.<br><br><br>(Parameters: Extracted product = total_RNA, Amplification = none)	Total RNAs were extracted by using Trizol Reagent.<br>(Parameters: Extracted product = total_RNA, Amplification = none)	Title: Affymetrix in vitro transcription. Description: 	Title: Affymetrix EukGE-WS2v3 Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 	
+Protocol Parameters	
+Protocol Hardware	
+Protocol Software										MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact	
+Protocol Term Source REF	The MGED Ontology	The MGED Ontology								mo		The MGED Ontology	
+SDRF File	E-MEXP-2182.sdrf.txt	
+Term Source Name	EFO		The MGED Ontology	NCBI Taxonomy	tair_dev:1.27	ArrayExpress	The MGED Ontology	EFO	mo	
+Term Source File	http://www.ebi.ac.uk/efo/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://www.arabidopsis.org/info/ontologies/	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version					1.27					

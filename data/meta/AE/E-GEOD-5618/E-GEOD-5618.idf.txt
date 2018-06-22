@@ -1,0 +1,51 @@
+Investigation Title	Transcription profiling of Arabidopsis wild type and two knockout alleles of At-CAMTA				
+Comment[Submitted Name]	Comparative transcriptome analysis of wild type and two knockout alleles of At-CAMTA				
+Experimental Design	unknown_experiment_design_type	transcription profiling by array			
+Experimental Design Term Source REF		EFO			
+Comment[AEExperimentType]	transcription profiling by array				
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for At-CAMTA				
+Comment[ArrayExpressReleaseDate]	2008-06-13				
+Comment[SecondaryAccession]	GSE5618				
+Comment[AEMIAMESCORE]	4				
+Comment[ArrayExpressAccession]	E-GEOD-5618				
+Comment[MAGETAB TimeStamp_Version]	2010-08-06 16:42:33 Last Changed Rev: 13058				
+Experimental Factor Name	ECOTYPE	GENOTYPE	ORGANISM PART		
+Experimental Factor Type	ecotype	genotype	organism_part		
+Experimental Factor Term Source REF					
+Person Last Name	(NASC)				
+Person First Name	Nottingham Arabidopsis Stock Centre				
+Person Mid Initials					
+Person Email	affy@arabidopsis.info				
+Person Phone					
+Person Fax					
+Person Address	School of Biosciences, University of Nottingham, Nottingham Arabidopsis Stock Centre (NASC), Sutton Bonington Campus, Loughborough, LE12 5RD, United Kingdom				
+Person Affiliation	Nottingham Arabidopsis Stock Centre (NASC)				
+Person Roles	submitter				
+Person Roles Term Source REF					
+Quality Control Type					
+Quality Control Term Source REF					
+Replicate Type					
+Replicate Term Source REF					
+Normalization Type					
+Normalization Term Source REF					
+Date of Experiment					
+Public Release Date	2008-06-13				
+PubMed ID					
+Publication DOI					
+Publication Author List					
+Publication Title					
+Publication Status					
+Publication Status Term Source REF					
+Experiment Description	Calcium has been shown to be an important signalling molecule in the transduction of abiotic stress signals in Arabidopsis thaliana. Alteration of the calcium signature through the use of inhibitors has been shown to result in changes in the expression of certain downstream abiotic stress-induced genes. However, the communication of this signal through specific calcium-sensitive intermediate molecules has remained poorly elucidated. Various candidate molecules exist and including calcinurin, calcium-dependent protein kinases and calmodulin. Recently, a screen of an Arabidopsis thaliana cDNA expression library with calmodulin resulted in the isolation of the protein designated calmodulin-binding transcriptional activator or AtCAMTA that may function as one of these calcium-sensitive intermediate molecules. The Arabidopsis genome contains six CAMTA genes (AtCAMTA1-6), all of which are expressed in varying tissues throughout development. AtCAMTA1 was shown to function as a transcriptional activator through the expression of a chimeric protein consisting of the bacteria LexA protein fused to various segments of AtCAMTA expressed in yeast. In order to identify putative target genes of AtCAMTA1 in Arabidopsis we plan to analyse the transcriptome of AtCAMTA1 loss-of-function mutants. The gene expression pattern of two previously characterised alleles of AtCAMTA1 will be compared to wild type. Experimenter name = Sarah Scrase-Field; Experimenter phone = 01865 275062; Experimenter fax = 01865 275074; Experimenter department = University of Oxford; Experimenter address = Department of Plants Sciences; Experimenter address = University of Oxford; Experimenter address = South Parks Road; Experimenter address = Oxford; Experimenter zip/postal_code = OX1 3RB; Experimenter country = UK Experiment Overall Design: 4 samples were used in this experiment				
+Protocol Name	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6			
+Protocol Type	hybridization	feature_extraction			
+Protocol Description	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 			
+Protocol Parameters					
+Protocol Hardware					
+Protocol Software	MicroArraySuite 5.0	MicroArraySuite 5.0			
+Protocol Contact					
+Protocol Term Source REF	mo				
+SDRF File	E-GEOD-5618.sdrf.txt				
+Term Source Name	NCBI Taxonomy	The MGED Ontology	ArrayExpress	EFO	mo
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version					

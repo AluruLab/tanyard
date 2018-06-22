@@ -1,0 +1,34 @@
+Comment[ArrayExpressAccession]	E-MEXP-3781		
+Investigation Title	Genome-wide gene expression analysis of DEWAX OX plant lines compared to wild type		
+Comment[Submitted Name]	Genome-wide gene expression analysis of DEWAX OX plant lines compared to wild type		
+Comment[AEExperimentDisplayName]	Transcription profiling by array of A. thaliana columbia and DEWAX OX plants line stems to investigate genome-wide gene expression analysis		
+Comment[MIAMExpressLogin]	hobao03		
+Comment[MIAMExpressSubmissionID]	8532		
+Experiment Description	The experiment was designed to enable comparison between columbia and DEWAX OX plants line Arabidopsis stems		
+Experimental Design	in_vivo_design	co-expression_design	development_or_differentiation_design
+Comment[AEExperimentType]	transcription profiling by array		
+Experimental Factor Name	genotype		
+Experimental Factor Type	genotype		
+Person Last Name	Go		
+Person First Name	Young Sam		
+Person Email	hobao03@naver.com		
+Person Phone	82-62-530-0683		
+Person Affiliation	Chonnam National University		
+Person Address	Plant Biotechnology, 300 Yongbong-dong, Gwangju, Buk-gu, 500-757, South Korea		
+Person Roles	submitter		
+Person Roles Term Source REF	MGED Ontology		
+Quality Control Type			
+Public Release Date	2013-12-01		
+Comment[ArrayExpressSubmissionDate]	2012-12-04 01:30:33		
+PubmedID	24692420		
+Publication DOI	 10.1105/tpc.114.123307		
+Publication Title	Arabidopsis Cuticular Wax Biosynthesis Is Negatively Regulated by the DEWAX Gene Encoding an AP2/ERF-Type Transcription Factor		
+Publication Author List	Go YS, Kim H, Kim HJ, Suh MC		
+Publication Status	published		
+Protocol Name	P-MTAB-29901	P-MTAB-29902	P-MTAB-29903
+Protocol Description	All Arabidopsis thaliana plants (ecotype Columbia-0 and DEWAX OX transgenic lines in the Columbia-0 background) were grown in pots on a soil mixture (3:2:1 mixture of peat moss-enriched soil:vermiculite:perlite). seeds were cold-treated for 3d at 4 C in the dark before being transferred to a controlled growth room under long-day conditions (16-/8-h light/dark cycle) at 22 to 23 C and relative 50% humidity.  (Parameters: start time = 35, time unit = days, min temperature = 23, temperature unit = C, media = soil mixture)	Total RNAs were isolated from Arabidopsis stems using a Nucleospinﾮ RNA Plant Extraction Kit (MACHEREY-NAGEL, GERMONY) according to the instructions of the manufacturer. (Parameters: Extracted product = total RNA, Amplification = none)	Equal amounts of RNA from trilpicate sample were pooled
+Protocol Type	grow	nucleic_acid_extraction	pool
+Protocol Term Source REF	MGED Ontology	MGED Ontology	MGED Ontology
+Term Source Name	MGED Ontology	ArrayExpress	
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	
+SDRF File	E-MEXP-3781.sdrf.txt		

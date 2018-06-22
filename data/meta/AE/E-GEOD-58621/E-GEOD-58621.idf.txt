@@ -1,0 +1,26 @@
+Comment[ArrayExpressAccession]	E-GEOD-58621
+MAGE-TAB Version	1.1						
+Public Release Date	2014-06-19
+Investigation Title	Expression data from Arabidopsis seedlings heat-stressed in light and dark environment						
+Comment[Submitted Name]	Expression data from Arabidopsis seedlings heat-stressed in light and dark environment
+Experiment Description	This SuperSeries is composed of the SubSeries listed below. Refer to individual Series						
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Song						
+Person First Name	Junyi						
+Person Email	283693514@qq.com						
+Person Affiliation	National University of Defense Techonolgy						
+Person Phone	+86 15243695017						
+Person Address	National University of Defense Techonolgy, Deya Road 888, changsha, China						
+Person Roles	submitter						
+Protocol Name	P-GSE58621-1	P-GSE58621-5	P-GSE58621-6	P-GSE58621-2	P-GSE58621-3	P-GSE58621-4	P-GSE58621-7
+Protocol Description	The data were analyzed with Robust Multichip Analysis (RMA) algorithm using Affymetrix default analysis settings and global scaling as normalization method. ID_REF =  VALUE = log2 RMA signal intensity	Biotinylated cRNA were prepared according to the standard Affymetrix protocol.	Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45C on GeneChip. GeneChips were washed and stained in the Affymetrix Fluidics Station 450.	for HS groups, the treatment was 37℃ for 30min	Arabidopsis (Arabidopsis thaliana) plants of ecotype Col-0 were used for all experiments. Sterilized seeds were grown in Murashige & Skoog solid medium within glass plates. After a 72 h vernalization at 4℃ in dark condition, plats were transferred to the growth camber (ambient temperature of 23℃, relative humidity of approximately 70%, and a photoperiod of 16 h light approximately 100 μmol m-2s-1 alternating with 8 h darkness).	Trizol extraction of total RNA was performed according to the manufacturer's instructions.	GeneChips were scanned by using Affymetrix� GeneChip Command Console (AGCC) which installed in GeneChip� Scanner 3000 7G.
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	DEVELOPMENTAL STAGE						
+Experimental Factor Type	developmental stage						
+Comment[SecondaryAccession]	GSE58621						
+Comment[GEOReleaseDate]	2014-06-19						
+Comment[ArrayExpressSubmissionDate]	2014-06-18						
+Comment[GEOLastUpdateDate]	2014-06-21						
+Comment[AEExperimentType]	transcription profiling by array						
+SDRF File	E-GEOD-58621.sdrf.txt

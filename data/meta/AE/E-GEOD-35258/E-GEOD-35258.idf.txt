@@ -1,0 +1,57 @@
+Comment[ArrayExpressAccession]	E-GEOD-35258							
+Public Release Date	2012-02-03							
+Investigation Title	Comparison of low water potential (drought)-regulated gene expression in wild type (Col-0) and the hai1-2 (At5g59220) mutant							
+Comment[Submitted Name]	Comparison of low water potential (drought)-regulated gene expression in wild type (Col-0) and the hai1-2 (At5g59220) mutant							
+Experiment Description	The Clade A PP2C Highly ABA-Induced1 (HAI1, At5g59220) is strongly up-regulated by low water potential in an ABA-dependent manner.  Using knockout mutants of hai1, we found that HAI1 functions as a negative regulator of low water potential-induced proline and osmoregulatory solute accumulation.  We also found a relatively weak and limited interaction of HAI1 with the RCAR/PYL family of ABA receptors.  This, plus its induced expression, suggest that HAI1 remains active during stress and attenuates specific aspects of drought response.  Microarray experiments were used to identify genes differentially expressed in hai1-2 (SALK_108282) versus wild type under both unstress control conditions and after low water potential (i.e., drought, water deficit).  A relatively long term (96 h) low water potential treatment was used as phenotypes of hai1-2 were most apparent after this longer term low water potential treatment. Seven-day-old seedlings of wild type (Col-0) or hai1-2 were transferred from agar plates of control media to low water potential stress (PEG-infused agar plates at -1.2 MPa) or to fresh control media (-0.25 Mpa). Samples (whole seedlings) were collected 96 h after transfer. Three independent experiments were conducted with one sample of each treatment (wild type stress and control, hai1-2 stress and control) collected from each experiment.							
+Date of Experiment								
+Term Source Name	EFO							
+Term Source Version								
+Term Source File	http://www.ebi.ac.uk/efo/efo.owl							
+Person Last Name	Paul	Badiger	Thao	Verslues				
+Person First Name	Verslues	Bhaskara	Nguyen	Paul				
+Person Mid Initials		G	T	E				
+Person Email	geo@ncbi.nlm.nih.gov							
+Person Affiliation	Institute of Plant and Microbial Biology, Academi Sinica							
+Person Phone								
+Person Fax								
+Person Address	Institute of Plant and Microbial Biology, Academi Sinica, 128 Sec. 2, Academia Rd, Nankang, Taipei 11529 Taiwan, R.O.C., Taipei, Taiwan							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Person Roles Term Accession Number								
+Normalization Type								
+Normalization Term Accession Number								
+Normalization Term Source REF								
+Replicate Type								
+Replicate Term Accession Number								
+Replicate Term Source REF								
+Experimental Design								
+Experimental Design Term Accession Number								
+Experimental Design Term Source REF								
+Quality Control Type								
+Quality Control Term Accession Number								
+Quality Control Term Source REF								
+Protocol Name	P-GSE35258-1	P-GSE35258-6	P-GSE35258-3	P-GSE35258-8	P-GSE35258-7	P-GSE35258-2	P-GSE35258-4	P-GSE35258-5
+Protocol Description	ID_REF = <br>VALUE = MAS5.0 signal intensity<br>ABS_CALL = <br>Detection p-value = 	Following fragmentation, 10 ug of cRNA were hybridized for 16.5 hr at 45C on the GeneChip ATH1 Genome Array. GeneChips were washed and stained in the Affymetrix Fluidics Station 450.	Seedlings were grown on agar plates containing half-strength MS salts and 2 mM MES buffer. No sugar was added to the media.  Plates were positioned vertically for seeding growth along the surface of the agar and were kept in a growth chamber at 25 C, continuous light at 85-100 micromol photons m-2 sec-1 and high (80-90%) relative humidity.	The data were analyzed with Microarray Suite version 5.0 (MAS 5.0) using Affymetrix default analysis settings and global scaling as normalization method. The trimmed mean target intensity of each array was arbitrarily set to 500.	GeneChips were scanned using Affymetrix GeneChip Scanner 3000 7G.	Seven-day-old seedlings were transferred from agar plates of control media to agar plates of fresh control media (water potential -0.25 MPa) or low water potential agar plates (-1.2 MPa).  Low water potential plates were prepared by overlaying a solution of polyethylene glycol (molecular weight 8000) on the control agar plates and equilibrating overnight.  Details of PEG-agar plate preparation can be found in Verslues et al., Plant J 45:523-539 2006.  After transfer to treatment plates, seedlings were returned to growth chamber for 96 h before sample collection.	Total RNA was extracted using the RNeasy Plant Mini Kit (Qiagen) according to the manufacturer's protocol.	Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 10 ug total RNA (Expression Analysis Technical Manual, 701021 Rev. 5, Affymetrix).
+Protocol Software								
+Protocol Hardware								
+Protocol Contact								
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_acquisition	specified_biomaterial_action	nucleic_acid_extraction	labelling
+Protocol Term Source REF								
+Protocol Term Accession Number								
+Experimental Factor Name	genotype	growth condition						
+Experimental Factor Type	genotype	growth condition						
+Experimental Factor Term Source REF								
+Experimental Factor Term Accession Number								
+Publication Title	Unique drought resistance functions of the highly ABA-induced clade A protein phosphatase 2Cs							
+Publication Author List	Bhaskara GB, Nguyen TT, Verslues PE							
+PubMed ID	22829320							
+Publication DOI	10.1104/pp.112.202408							
+Publication Status								
+Publication Status Term Source REF								
+Publication Status Term Accession Number								
+Comment[SecondaryAccession]	GSE35258							
+Comment[GEOLastUpdateDate]	2012-02-03							
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[GEOReleaseDate]	2012-02-03							
+Comment[ArrayExpressSubmissionDate]	2012-01-22							
+SDRF File	E-GEOD-35258.sdrf.txt							

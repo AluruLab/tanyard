@@ -1,0 +1,58 @@
+Comment[ArrayExpressAccession]	E-GEOD-25444							
+Public Release Date	2011-05-25							
+Investigation Title	Differential gene expression in ref6-1							
+Comment[Submitted Name]	Differential gene expression in ref6-1							
+Experiment Description	We demonstrate that REF6/JMJ12 (RELATIVE OF EARLY FLOWERING 6/Jumonji domain-containing protein 12) is an H3K27me3 and H3K27me2 demethylase. Plants overexpressing REF6/JMJ12 resemble mutants defective in H3K27me3-mediated gene silencing. Genetic interaction tests indicate that REF6/JMJ12 acts downstream of H3K27me3 methyltransferases. Moreover, loss of REF6/JMJ12 leads to ectopic and increased H3K27me3 and decreased mRNA expression of a large spectrum of genes involved in development and hormone responses to stimuli. Expression array to identify differentially expressed genes in ref6-1.  For genome-wide expression analysis of ref6/jmj12, two replicates of Col and ref6/jmj12 samples (RNA from 10-day-old whole seedlings on MS plates in long day conditions at 23 degrees) were analyzed on an Affymetrix ATH1 chip by an Affymetrix service facility (CapitalBio Corporation) according to the manufacturer's protocols. Genes showing a 20.6-fold change with a q-value < 0.05 were considered as differentially expressed.							
+Date of Experiment								
+Term Source Name	EFO							
+Term Source Version								
+Term Source File	http://bar.ebi.ac.uk:8080/trac/browser/branches/curator/ExperimentalFactorOntology/ExFactorInOWL/currentrelease/eforelease/efo.owl							
+Person Last Name	Lu	Lu	Cui	Cao				
+Person First Name	Falong	Falong	Xia	Xiaofeng				
+Person Mid Initials								
+Person Email	falonglu@gmail.com							
+Person Affiliation	Institute of Genetics and Developmental Biology, CAS							
+Person Phone								
+Person Fax								
+Person Address	Institute of Genetics and Developmental Biology, CAS, Beicheng West Road, Beijing, China							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Person Roles Term Accession Number								
+Normalization Type								
+Normalization Term Accession Number								
+Normalization Term Source REF								
+Replicate Type								
+Replicate Term Accession Number								
+Replicate Term Source REF								
+Experimental Design								
+Experimental Design Term Accession Number								
+Experimental Design Term Source REF								
+Quality Control Type								
+Quality Control Term Accession Number								
+Quality Control Term Source REF								
+Protocol Name	P-GSE25444-1	P-GSE25444-6	P-GSE25444-3	P-GSE25444-8	P-GSE25444-7	P-GSE25444-2	P-GSE25444-4	P-GSE25444-5
+Protocol Description	ID_REF = <br>VALUE = dchip2008 intensity value<br>ABS_CALL = 	Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45C on a GeneChip Arabidopsis ATH1 Genome Array. GeneChips were washed and stained in the Affymetrix Fluidics Station 450.	The seeds of the indicated genotype were surface steriled, planted on an MS plate, and grown at 23°C under long day (16h light, 8h dark) conditions for ten days before harvest.	Gcos1.4 (GeneChip Operating Software) was used for single array analysis. Invariant set Normalization and Model-base Expression index in dchip2008 package were used for further expression analysis.	GeneChips were scanned using the Affymetrix GeneChip Scanner 3000.	No treatment applied.	Trizol extraction of total RNA was performed according to the manufacturer's instructions.	Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 10 ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+Protocol Software								
+Protocol Hardware								
+Protocol Contact								
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Protocol Term Source REF								
+Protocol Term Accession Number								
+Experimental Factor Name	GENOTYPE							
+Experimental Factor Type	genotype							
+Experimental Factor Term Source REF								
+Experimental Factor Term Accession Number								
+Publication Title	Arabidopsis REF6 is a histone H3 lysine 27 demethylase							
+Publication Author List	Lu F, Cui X, Zhang S, Jenuwein T, Cao X.							
+PubMed ID	21642989							
+Publication DOI	10.1038/ng.854							
+Publication Status	published							
+Publication Status Term Source REF	EFO							
+Publication Status Term Accession Number	EFO_0001796							
+Comment[SecondaryAccession]	GSE25444							
+Comment[GEOLastUpdateDate]	2011-05-25							
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for ref6							
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[GEOReleaseDate]	2011-05-24							
+Comment[ArrayExpressSubmissionDate]	2010-11-17							
+SDRF File	E-GEOD-25444.sdrf.txt							

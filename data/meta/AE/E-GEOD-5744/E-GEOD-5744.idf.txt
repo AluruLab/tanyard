@@ -1,0 +1,51 @@
+Investigation Title	Transcription profiling of Arabidopsis response to potassium starvation in roots					
+Comment[Submitted Name]	Response to potassium starvation in roots					
+Experimental Design	unknown_experiment_design_type	transcription profiling by array				
+Experimental Design Term Source REF		EFO				
+Comment[AEExperimentType]	transcription profiling by array					
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis after potassium starvation					
+Comment[ArrayExpressReleaseDate]	2008-06-14					
+Comment[SecondaryAccession]	GSE5744					
+Comment[AEMIAMESCORE]	4					
+Comment[ArrayExpressAccession]	E-GEOD-5744					
+Comment[MAGETAB TimeStamp_Version]	2010-08-06 17:27:18 Last Changed Rev: 13058					
+Experimental Factor Name	GROWTH CONDITION					
+Experimental Factor Type	growth_condition					
+Experimental Factor Term Source REF						
+Person Last Name	(NASC)					
+Person First Name	Nottingham Arabidopsis Stock Centre					
+Person Mid Initials						
+Person Email	affy@arabidopsis.info					
+Person Phone						
+Person Fax						
+Person Address	School of Biosciences, University of Nottingham, Nottingham Arabidopsis Stock Centre (NASC), Sutton Bonington Campus, Loughborough, LE12 5RD, United Kingdom					
+Person Affiliation	Nottingham Arabidopsis Stock Centre (NASC)					
+Person Roles	submitter					
+Person Roles Term Source REF						
+Quality Control Type						
+Quality Control Term Source REF						
+Replicate Type						
+Replicate Term Source REF						
+Normalization Type						
+Normalization Term Source REF						
+Date of Experiment						
+Public Release Date	2008-06-14					
+PubMed ID						
+Publication DOI						
+Publication Author List						
+Publication Title						
+Publication Status						
+Publication Status Term Source REF						
+Experiment Description	This experiment was annotated by TAIR (http://arabidopsis.org). This experiment studies the response of gene expression in roots of 25-35 day old plants grown on hydroponics after 6, 48 and 96 hours of potassium starvation. RNA from roots was extracted after transfer to control (control) or potassium free nutrient solution respectively (starvation). Experimenter name = Julian Schroeder; Experimenter phone = 619-534-7759; Experimenter fax = 619-534-7108; Experimenter department = J Schroeder Laboratory; Experimenter institute = University of California-San Diego; Experimenter address = Biology Department; Experimenter address = University of California-San Diego; Experimenter address = La Jolla; Experimenter zip/postal_code = CA 92093-0116; Experimenter country = USA Experiment Overall Design: 4 samples were used in this experiment					
+Protocol Name	P-G5744-3	P-G5744-2	P-G5744-4	P-G5744-1	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6
+Protocol Type	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	hybridization	feature_extraction
+Protocol Description	Plants were transferred from control to potassium free nutrient solution (1.0 mM Ca(NO3)2, 0.5 mM H3PO4, 1.25 mM HNO3, 0.5 mM MgSO4, 20 uM FeNaEDTA, 0.5 uM CuSO4, 0.5 uM MnSO4, 10 uM H3BO3, 0.05 uM Na2MoO4, 0.25 uM NaCl, 0.5 uM ZnSO4) (exp. variable) for 48 hours (exp. variable)	Plants were transferred from control to control nutrient solution (1.0 mM Ca(NO3)2, 0.5 mM KH2PO4, 1.25 mM KNO3, 0.5 mM MgSO4, 20 uM FeNaEDTA, 0.5 uM CuSO4, 0.5 uM MnSO4, 10 uM H3BO3, 0.05 uM Na2MoO4, 0.25 uM NaCl, 0.5 uM ZnSO4) (exp. variable) for 96 hours (exp. variable)	Plants were transferred from control to potassium free nutrient solution (1.0 mM Ca(NO3)2, 0.5 mM H3PO4, 1.25 mM HNO3, 0.5 mM MgSO4, 20 uM FeNaEDTA, 0.5 uM CuSO4, 0.5 uM MnSO4, 10 uM H3BO3, 0.05 uM Na2MoO4, 0.25 uM NaCl, 0.5 uM ZnSO4) (exp. Variable) for 96 hours (exp. variable)	Plants were transferred from control to control nutrient solution (1.0 mM Ca(NO3)2, 0.5 mM KH2PO4, 1.25 mM KNO3, 0.5 mM MgSO4, 20 uM FeNaEDTA, 0.5 uM CuSO4, 0.5 uM MnSO4, 10 uM H3BO3, 0.05 uM Na2MoO4, 0.25 uM NaCl, 0.5 uM ZnSO4) (exp. Variable) for 48 hours (exp. Variable)	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 
+Protocol Parameters						
+Protocol Hardware						
+Protocol Software					MicroArraySuite 5.0	MicroArraySuite 5.0
+Protocol Contact						
+Protocol Term Source REF					mo	
+SDRF File	E-GEOD-5744.sdrf.txt					
+Term Source Name	NCBI Taxonomy	The MGED Ontology	ArrayExpress	EFO	mo	
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version						

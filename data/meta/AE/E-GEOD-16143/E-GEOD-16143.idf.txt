@@ -1,0 +1,53 @@
+Investigation Title	Ectopic expression of MYB46 identifies transcriptional regulatory genes in secondary wall biosynthesis in Arabidopsis							
+Comment[Submitted Name]	Ectopic expression of MYB46 identifies transcriptional regulatory genes in secondary wall biosynthesis in Arabidopsis							
+Experimental Design	transcription profiling by array							
+Experimental Design Term Source REF	EFO							
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis after treatment with dexamethasone							
+Comment[SecondaryAccession]								
+Comment[SecondaryAccession]	GSE16143							
+Comment[ArrayExpressReleaseDate]	2010-05-27							
+Comment[AEMIAMESCORE]	4							
+Comment[ArrayExpressAccession]	E-GEOD-16143							
+Comment[MAGETAB TimeStamp_Version]	2010-08-02 15:56:46 Last Changed Rev: 13058							
+Experimental Factor Name	COMPOUND	TREATMENT TIME						
+Experimental Factor Type	compound	time						
+Experimental Factor Term Source REF								
+Person Last Name	Ko	Han						
+Person First Name	Jae-Heung	Kyung-Hwan						
+Person Mid Initials								
+Person Email	ko@msu.edu							
+Person Phone	517-353-1961							
+Person Fax	517-432-1143							
+Person Address	Forestry, Michigan State University, 126 Natural Resources, East Lansing, Michigan, United States							
+Person Affiliation	Michigan State University							
+Person Roles	submitter							
+Person Roles Term Source REF	The MGED Ontology							
+Quality Control Type								
+Quality Control Term Source REF								
+Replicate Type								
+Replicate Term Source REF								
+Normalization Type								
+Normalization Term Source REF								
+Date of Experiment								
+Public Release Date	2010-05-27							
+PubMed ID	19674407							
+Publication DOI	10.1111/j.1365-313X.2009.03989.x							
+Publication Author List	Ko JH, Kim WC, Han KH							
+Publication Title	Ectopic expression of MYB46 identifies transcriptional regulatory genes involved in secondary wall biosynthesis in Arabidopsis.							
+Publication Status	published							
+Publication Status Term Source REF	EFO							
+Publication Status Term Accession Number	EFO_0001796							
+Experiment Description	MYB46 functions as a transcriptional switch that turns on the genes necessary for secondary wall biosynthesis. Elucidating the transcriptional regulatory network immediately downstream of MYB46 is crucial to our understanding of the molecular and biochemical processes involved in the biosynthesis and deposition of secondary walls in plants. The transcription factors identified here may include direct activators of secondary wall biosynthesis genes. The current study discovered novel hierarchical relationships among the transcription factors involved in the transcriptional regulation of secondary wall biosynthesis and generated several testable hypotheses. To gain insights into the MYB46-mediated transcriptional regulation, we first established an inducible secondary wall thickening system in Arabidopsis by expressing MYB46 under the control of dexamethasone inducible promoter. Then, we used ATH1 GeneChip microarray to obtain a series of time-course transcriptome profiles with regard to the induction of secondary wall development.							
+Protocol Name	P-GSE16143-4	P-GSE16143-2	P-GSE16143-3	P-GSE16143-5	P-GSE16143-6	P-GSE16143-7	P-GSE16143-8	P-GSE16143-1
+Protocol Type	nucleic_acid_extraction	specified_biomaterial_action	grow	labeling	hybridization	image_aquisition	feature_extraction	bioassay_data_transformation
+Protocol Description	Trizol extraction of total RNA was performed according to the manufacturer's instructions.	DEX (dexamethasone, Sigma) treatment was performed to the transgenic Arabidopsis (inducible expression of MYB46) plants were grown on soil for 14 days. DEX was dissolved in water to 1 mM stock and applied with spray at 10 ÂµM with 0.02% silwet surfactant. In relevant experiments, control plants were treated with the same concentration of surfactant in water. After treatment, young rosette leaves (5th ~7th leaf) without petiole were harvested at the indicated times and frozen immediately with liquid N2, then stored until used.	The transgenic Arabidopsis (inducible expression of MYB46) plants were grown on soil in a growth chamber (16 h light/ 8 h dark) at 23 Â°C, after stratification.	Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 10 ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).	Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45C on GeneChip Drosophila Genome Array. GeneChips were washed and stained in the Affymetrix Fluidics Station 400.	GeneChips were scanned using the Hewlett-Packard GeneArray Scanner G2500A.	The data were analyzed with Microarray Suite version 5.0 (MAS 5.0) using Affymetrix default analysis settings and global scaling as normalization method. The trimmed mean target intensity of each array was arbitrarily set to 100.	ID_REF = <br>VALUE = Signal<br>ABS_CALL = indicating whether the transcript was present (P), absent (A), or marginal (M)<br>DETECTION P-VALUE =
+Protocol Parameters								
+Protocol Hardware								
+Protocol Software								
+Protocol Contact								
+Protocol Term Source REF							The MGED Ontology	The MGED Ontology
+SDRF File	E-GEOD-16143.sdrf.txt							
+Term Source Name	NCBI Taxonomy		The MGED Ontology	ArrayExpress	EFO	The MGED Ontology		
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php		
+Term Source Version								

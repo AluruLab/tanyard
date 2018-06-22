@@ -1,0 +1,57 @@
+Comment[ArrayExpressAccession]	E-GEOD-33402
+Public Release Date	2011-11-03							
+Investigation Title	Exogenous slaicylic acid (SA) treatment of Arabidopsis thaliana Col-0							
+Comment[Submitted Name]	Exogenous slaicylic acid (SA) treatment of Arabidopsis thaliana Col-0
+Experiment Description	0.5 mM SA plus 0.02% Silwet or 0.02% Silwet (control) was sprayed on leaves of 3.5 week old Arabidopsis plants.  Samples were harvested at 0 (prior to treatment) , 3, 6, 12, and 24 hours post treatment.  A subset of these samples were processed. Arabidopsis plants grown in parallel under standardized conditions were treated with SA + Silwet or Silwet alone (control).  Only mature leaves of the same developmental age were harvested using leaves from 2-4 plants, totalling ~0.2 grams per sample.  Plants were not resampled.  In our hands, experimental replicates are highly reproducible.  This was an exploratory experiment to look for candidate genes impacted by exogenous SA treatment.  We were only able to process a subset of samples and chose to process key time points, sacrificing replicates at each time point.							
+Date of Experiment								
+Term Source Name	EFO
+Term Source Version								
+Term Source File	http://www.ebi.ac.uk/efo/efo.owl							
+Person Last Name	Wildermuth	Wildermuth	Harrower					
+Person First Name	Mary	Mary	Jennifer					
+Person Mid Initials	C	C						
+Person Email	mwildermuth@berkeley.edu							
+Person Affiliation	University of California Berkeley							
+Person Phone	510-643-4861							
+Person Fax								
+Person Address	Plant and Microbial Biology, University of California Berkeley, 221 Koshland Hall MC3102, Berkeley, CA, USA							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Person Roles Term Accession Number								
+Normalization Type								
+Normalization Term Accession Number								
+Normalization Term Source REF								
+Replicate Type								
+Replicate Term Accession Number								
+Replicate Term Source REF								
+Experimental Design								
+Experimental Design Term Accession Number								
+Experimental Design Term Source REF								
+Quality Control Type								
+Quality Control Term Accession Number								
+Quality Control Term Source REF								
+Protocol Name	P-GSE33402-1	P-GSE33402-6	P-GSE33402-3	P-GSE33402-8	P-GSE33402-7	P-GSE33402-2	P-GSE33402-4	P-GSE33402-5
+Protocol Description	ID_REF = <br>VALUE = RMA normalized log2 expression	Microarray hybridizations to Affymetrix Arabidopsis ATH1 GeneChips were performed according to the protocol given in the Affymetrix GeneChip Expression Analysis Technical Manual 701025 rev 1 at Functional Genomics Laboratory, UC Berkeley.	Arabidopsis seeds were stratified in 0.1% agarose for 3-5 days and planted in boxes containing Metromix 200 soil. Seeds were equally distributed in each box using a template, with 12 plants per box.  The flats (6 boxes per flat) were covered with plastic trays for 1 week and then uncovered. Flats were watered from below and fertilized at 2-1/2 weeks. Plants were grown in Percival AR66L growth chambers at 22°C, 70% RH, 12 h photoperiod with photosynthetically active radiation=180 µE m-2 s-1.	Log2 (expression values) were extracted using robust multi-array analysis (RMA) implemented in the function rma() in the Bioconductor software package affy. Background correction was performed by correcting PM (perfect match) only, to reduce noise from signal intensity. Quantile normalization was performed to make the distributions of signal intensities uniform across chips.	GeneChips were scanned using the GeneChip® Scanner 3000 7G at the Univeristy of California, Berkeley, Functional Genomics lab.	At 3.5 weeks, a subset of boxes was treated with 0.5 mM SA + 0.02% Silwet or 0.02% Silwet alone.  A fine spray of the solution was sprayed on the plant leaves in a given box.  For each sample, 0.2 g of fully expanded mature leaves of similar age were excised from 2-4 plants and immediately frozen in liquid nitrogen.  Samples were collected at 3, 6, 12, 24, and 48 hours post treatment. An untreated sample was also collected just prior to treatment. Biological replicates were collected but not processed.	Total RNA was extracted using the RNAEasy kit from Qiagen according to the manufacturer's instructions.  Optional treatment with DNAse I was performed. RNA quality was determined by the A260/A280 ratio and by its profile on an Agilent 2100 Bioanalyzer.	Target labeling was performed according to the protocols given in the Affymetrix GeneChip Expression Analysis Technical Manual 701025 rev 1 at the Functional Genomics Laboratory, UC Berkeley.
+Protocol Software								
+Protocol Hardware								
+Protocol Contact								
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Protocol Term Source REF								
+Protocol Term Accession Number								
+Experimental Factor Name	TREATMENT							
+Experimental Factor Type	treatment							
+Experimental Factor Term Source REF								
+Experimental Factor Term Accession Number								
+Publication Title								
+Publication Author List								
+PubMed ID								
+Publication DOI								
+Publication Status								
+Publication Status Term Source REF								
+Publication Status Term Accession Number								
+Comment[SecondaryAccession]	GSE33402							
+Comment[GEOLastUpdateDate]	2011-11-04
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[GEOReleaseDate]	2011-11-03
+Comment[ArrayExpressSubmissionDate]	2011-11-02
+SDRF File	E-GEOD-33402.sdrf.txt

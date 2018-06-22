@@ -1,0 +1,52 @@
+Investigation Title	Transcription profiling of Arabidopsis steroid inducible RGA expressor transgenic to identify RGA downstream genes					
+Comment[Submitted Name]	Identification of RGA downstream genes by using steroid-inducible system					
+Experimental Design	unknown_experiment_design_type	transcription profiling by array				
+Experimental Design Term Source REF		EFO				
+Comment[AEExperimentType]	transcription profiling by array					
+Comment[AEExperimentDisplayName]	"Transcription profiling by array of Arabidopsis mutant for ga1, rga and rgl and with dexamethasone-induced expressing of RGA"					
+Comment[SecondaryAccession]	GSE10019					
+Comment[ArrayExpressReleaseDate]	2008-06-18					
+Comment[AEMIAMESCORE]	4					
+Comment[ArrayExpressAccession]	E-GEOD-10019					
+Comment[MAGETAB TimeStamp_Version]	2010-07-29 16:27:00 Last Changed Rev: 13058					
+Experimental Factor Name	compound	genotype				
+Experimental Factor Type	compound	genotype				
+Experimental Factor Term Source REF						
+Person Last Name	Yu					
+Person First Name	Hao					
+Person Mid Initials						
+Person Email	dbsyuhao@nus.edu.sg					
+Person Phone						
+Person Fax						
+Person Address	"Plant Functional Genomics Lab, Biological Sciences, National University of Singapore, Lower Kent Ridge Road, Singapore, 117543, Singapore"					
+Person Affiliation	National University of Singapore					
+Person Roles	submitter					
+Person Roles Term Source REF	The MGED Ontology					
+Quality Control Type						
+Quality Control Term Source REF						
+Replicate Type						
+Replicate Term Source REF						
+Normalization Type						
+Normalization Term Source REF						
+Date of Experiment						
+Public Release Date	2008-06-18					
+PubMed ID	18502975					
+Publication DOI	10.1104/pp.108.121301					
+Publication Author List	"Hu Hou, Lee Shen, Han Tao,  Yu"					
+Publication Title	Global Identification of DELLA Target Genes during Arabidopsis Flower Development.					
+Publication Status	published					
+Publication Status Term Source REF	EFO					
+Publication Status Term Accession Number	EFO_0001796					
+Experiment Description	"To understand the transcriptional program controlled by RGA, we took advantage of a functional steroid-inducible RGA proteins system in combination with microarray analysis to identify RGA target genes. Experiment Overall Design: We firstly compared the transcriptomes in ga1-3rgargl2RGA-GR inflorescence without flowers later than stage 12 induced by dexamesone- relative to mock-treatment, which revealed the differentially expressed genes corresponding to the RGA protein activity induced by dexamesone.As negative controls to exclude unexpected effects of transgenic T-DNA and Dex itself, RNAs derived from nontransgenic plants (ga1-3 rga rgl2) inflorescences treated with Dex were used. Three sets of biological independent replicates were collected."					
+Protocol Name	P-G10019-2	P-G10019-1	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6	Affymetrix:Protocol:ExpressionStat	
+Protocol Type	nucleic_acid_extraction	labeling	hybridization	feature_extraction	bioassay_data_transformation	
+Protocol Description	Total RNAs were extracted by using RNeasy Plant Mini Kit (Qiagen)	"According to the manufacturer's instructions (Affymetrix, Santa Clara, California, USA)"	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 	
+Protocol Parameters						
+Protocol Hardware						
+Protocol Software			MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact						
+Protocol Term Source REF			mo		The MGED Ontology	
+SDRF File	E-GEOD-10019.sdrf.txt					
+Term Source Name	NCBI Taxonomy	The MGED Ontology	ArrayExpress	EFO	The MGED Ontology	mo
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version						

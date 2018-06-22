@@ -1,0 +1,30 @@
+Comment[ArrayExpressAccession]	E-GEOD-27855							
+MAGE-TAB Version	1.1							
+Public Release Date	2013-03-30							
+Investigation Title	Genome wide expression analysis of EST-induced EBE-XVE  using Affymetrix ATH1 array							
+Comment[Submitted Name]	Genome wide expression analysis of EST-induced EBE-XVE  using Affymetrix ATH1 array							
+Experiment Description	Global transcriptome patterns were determined in XVE-14 and wild-type seedlings induced for 45 min b-estradiol in order to identify the genes early regulated by EBE transcription factor. We used microarrays to identify genes differentially expressed in EST-inducible EBE over-expression line #14 compared to wild-type plants, 45 min after 2µM EST induction. Three independent biological replications were performed. In order to identify potential direct/early target genes of EBE transcription factor, estradiol inducible overexpression system was used. Three week old Arabidopsis EBE-XVE (line 14) and WT seedlings were treated with ß-estradiol (2µM) for 45 min. RNA was isolated from shoot and subjected to hybridization on Affymetrix microarrays. Experiment was performed in 3 biological replications and genes differentially expressed between estradiol treated EBE-XVE and WT plants were identified as potential early targets of EBE.							
+Term Source Name	ArrayExpress	EFO						
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl						
+Person Last Name	Mehrnia							
+Person First Name	Mohammad							
+Person Email	mehrnia@mpimp-golm.mpg.de							
+Person Affiliation	Max-Planck-Institut für Molekulare Pflanzenphysiologie							
+Person Phone	0049 331 567 8155							
+Person Address	Stitt, Max-Planck-Institut für Molekulare Pflanzenphysiologie, Am Muhlenberg 1, Potsdam, Brandenburg, Germany							
+Person Roles	submitter							
+Protocol Name	P-GSE27855-1	P-GSE27855-6	P-GSE27855-3	P-GSE27855-8	P-GSE27855-7	P-GSE27855-2	P-GSE27855-4	P-GSE27855-5
+Protocol Description	ID_REF =  VALUE = RMA signal	Labelling, hybridisation, washing, staining, and scanning procedures were performed by an Affymetrix authorized service provider (ATLAS Biolabs, Berlin, Germany) as described in the Affymetrix technical manual	EBE-XVE and wild-type (control) seeds were cultured on MS agar plates at 22˚C under a 16-h day (140 �mol m-2 s-1) / 8-h night regime.	Raw data (CEL files) obtained from RNA hybridisation experiments were normalized with the affyPLM package from the Bioconductor software project (Gentleman et al., 2004) using the GCRMA that uses GC content of probes in normalization with RMA (Robust Multiple array Average) and gives one value for each probe set instead of keeping probe level information (Wu et al., 2004). The transcriptional changes were determined by subtracting the normalized signal intensity of the control samples from that of induced samples.	Labelling, hybridisation, washing, staining, and scanning procedures were performed by an Affymetrix authorized service provider (ATLAS Biolabs, Berlin, Germany) as described in the Affymetrix technical manual	After three weeks, seedlings were transferred to MS liquid medium while shaking. Sixteen hours later, β-estradiol (Sigma-Aldrich) was added to the medium to a final concentration of 2 μM. Subsequently, shoots were harvested at 45 min after estradiol addition.	Trizol extraction of total RNA was performed according to the manufacturer's instructions.	Labelling, hybridisation, washing, staining, and scanning procedures were performed by an Affymetrix authorized service provider (ATLAS Biolabs, Berlin, Germany) as described in the Affymetrix technical manual
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Experimental Factor Name	genotype							
+Experimental Factor Type	genotype							
+Comment[SecondaryAccession]	GSE27855							
+Comment[GEOReleaseDate]	2013-03-30							
+Comment[ArrayExpressSubmissionDate]	2011-03-09							
+Comment[GEOLastUpdateDate]	2013-04-01							
+Comment[AEExperimentType]	transcription profiling by array							
+SDRF File	E-GEOD-27855.sdrf.txt							
+Publication Title	EBE, an AP2/ERF transcription factor highly expressed in proliferating cells, affects shoot architecture in Arabidopsis.							
+Publication Author List	Mehrnia M, Balazadeh S, Zanor MI, Mueller-Roeber B.							
+PubMed ID	23616605							
+Publication DOI	10.1104/pp.113.214049							

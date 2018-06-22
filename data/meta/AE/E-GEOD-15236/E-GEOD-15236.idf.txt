@@ -1,0 +1,35 @@
+Comment[ArrayExpressAccession]	E-GEOD-15236				
+Investigation Title	Transcription profiling of Arabidopsis Mediator complex mutant pft1/med25 and wildtype infected with Fusarium oxysporum				
+Comment[Submitted Name]	Expression profiling of the Arabidopsis Mediator complex mutant pft1/med25 and wildtype infected with Fusarium oxysporum				
+Publication Title	The Mediator Complex Subunit PFT1 Is a Key Regulator of Jasmonate-Dependent Defense in Arabidopsis.				
+Publication Author List	Kidd BN, Edgar CI, Kumar KK, Aitken EA, Schenk PM, Manners JM, Kazan K.				
+Publication DOI	10.1105/tpc.109.066910				
+PubMed ID	19671879				
+Publication Status	published				
+Publication Status Term Source REF	EFO				
+Publication Status Term Accession Number	EFO_0007916				
+Experimental Design	disease state design	genotype design			
+Experimental Design Term Source REF					
+Person Last Name	Kidd				
+Person First Name	Brendan				
+Person Email	brendan.kidd@csiro.au				
+Person Address	Plant Industry, CSIRO, 306 Carmody Road, St Lucia, 4067, Australia				
+Person Affiliation	CSIRO				
+Person Roles	submitter				
+Public Release Date	2009-09-05				
+Comment[ArrayExpressSubmissionDate]	2009-03-15				
+Comment[GEOReleaseDate]	2009-08-24				
+Comment[SecondaryAccession]	GSE15236				
+Experiment Description	The Mediator complex is an evolutionary conserved multiprotein complex that plays an essential role in initiating and regulating transcription. Its function is to act as a universal adaptor between RNA Polymerase II and DNA-bound transcription factors to translate regulatory information from activators and repressors to the transcriptional machinery. We have found that the PFT1 gene (which encodes the MED25 subunit of the Mediator complex) is required for the uncompromised expression of both salicylic acid- and jasmonate-dependent defense genes as well as resistance to the leaf-infecting fungal pathogens, Alternaria brassicicola and Botrytis cinerea in Arabidopsis. Surprisingly, we found that the pft1/med25 mutant showed increased resistance to the root infecting pathogen Fusarium oxysporum and that this resistance was independent of classical defense genes. In addition, the over-expression of PFT1 led to increased susceptibility to F. oxysporum. Therefore, to explore this phenomenon further, we wished to use whole genome transcript profiling to identify which genes may be playing a role in pft1/med25-mediated resistance to F. oxysporum. Experiment Overall Design: We grew both WT and pft1/med25 plants for four weeks in soil. After four weeks we treated the plants by root-dipping in either water or a F. oxysporum spore suspension before replanting them back into soil. There were four independent replicates of each treatment and each replicate contained 20 plants each. The treatments were WT (mock): pft1 (mock): WT (infected): pft1 (infected). Each replicate (16 in total) was harvested after 48 hours and the resulting RNA was used for hybridization to an Affymetrix ATH1 chip.				
+Protocol Name	P-G15236-1	P-G15236-3	P-G15236-4	P-G15236-5	P-G15236-2
+Protocol Type	grow	labeling	bioassay_data_transformation	nucleic_acid_extraction	specified_biomaterial_action
+Protocol Description	Plants were grown under short day conditions (8hrs light, 24C and 21C day night cycle) in plastic trays (30 cells 5cmx5cm) with two plants per cell for 4 weeks before treatment.	The RNA was labelled, hybridized, washed and scanned by the AGRF (Australian Genome Research Facility - http://www.agrf.org.au) according to Affymetrix requirements.	The data was analyzed using GenespringGX 7.3.1. The raw CEL files were pre-processed using the RMA algorithm and the resulting expression values were normalized per chip to the median across all chips.	Total RNA was extracted using the RNeasy Plant Mini Kit (Qiagen) according to the manfacturer's instructions.	Treatment involved gently uprooting the plants from the soil, rinsing the roots with distilled water to remove excess soil and then incubating in either a F. oxysporum spore suspension (1 million spores/ml resuspended in water) or distilled water (mock) for 15 seconds before replanting in soil. Plants were moved to hotter, long day conditions (16hr light, 28C and 21C day night cycle) to promote infection and harvested 48 hours after treatment.
+Protocol Parameters					
+Protocol Software					
+SDRF File	E-GEOD-15236.sdrf.txt				
+Term Source Name	EFO				
+Term Source File	http://efo.svn.sourceforge.net/viewvc/efo/trunk/src/efoinowl/efo.owl				
+Experimental Factor Name	genotype	infect			
+Experimental Factor Type	genotype	infect			
+Comment[AEExperimentType]	transcription profiling by array				
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for pft1 after infection with Fusarium oxysporum				

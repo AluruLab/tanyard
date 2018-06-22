@@ -1,0 +1,48 @@
+Investigation Title	Transcription profiling of Arabidopsis shoots, roots and cell cultures	
+Comment[Submitted Name]	Millar_Athal_cells	
+Experimental Design	development_or_differentiation_design	transcription profiling by array	
+Experimental Design Term Source REF	mo:1.3.1.1	EFO	
+Comment[ArrayExpressReleaseDate]	2008-07-19	
+Comment[AEMIAMESCORE]	5	
+Comment[ArrayExpressAccession]	E-ATMX-31	
+Comment[MAGETAB TimeStamp_Version]	2010-07-29 14:37:41 Last Changed Rev: 13058	
+Experimental Factor Name	organ/cell type	
+Experimental Factor Type	organism_part	
+Experimental Factor Term Source REF	
+Person Last Name	Lee	
+Person First Name	Chun Pong	
+Person Mid Initials	
+Person Email	leec30@student.uwa.edu.au	
+Person Phone	6448 4435	
+Person Fax	
+Person Address	M310, 35 Stirling Highway, Crawley	
+Person Affiliation	Centre of Excellence in Plant Energy Biology	
+Person Roles	submitter	
+Person Roles Term Source REF	The MGED Ontology	
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2008-07-19	
+PubMed ID	18385124	
+Publication DOI	18385124	
+Publication Author List	Lee, Chun Pong; Eubel, Holger; O Toole, Nicholas; Millar, A. Harvey	
+Publication Title	Heterogeneity of the Mitochondrial Proteome for Photosynthetic and Non-photosynthetic Arabidopsis Metabolism	
+Publication Status	journal_article	
+Publication Status Term Source REF	The MGED Ontology	
+Experiment Description	Microarray analysis of the changes in transcript abundance in cell culture and shoot	
+Protocol Name	P-CAGE-26460	P-CAGE-26459	P-CAGE-26461	P-CAGE-26462	P-CAGE-26463	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6	Affymetrix:Protocol:ExpressionStat	
+Protocol Type	grow	grow	grow	nucleic_acid_extraction	labeling	hybridization	feature_extraction	bioassay_data_transformation	
+Protocol Description	Conditions for the hydroponic culture were adapted from Schlesier et al. (2003) with slight modifications. Approximately 50-100 wild type Arabidopsis thaliana seeds (ecotype Columbia) were surface-sterilized in 70% ethanol for 2 min followed by 15 min incubation in 5% bleach/0.1% Tween 20, inverting 5 times every 5 minutes. Seeds were then washed five times with sterilized water, and were carefully dispensed on a stainless steel wire mesh platform (mesh size 1 mm; 4 cm x 4 cmm x 2 cm) layered previously with 1% sterilized agarose in a round plastic vessel (diameter 68 mm, height 76 mm) containing approximately 60 ml liquid media (¼-strength Murashige & Skoog medium without vitamins, ¼-strength Gamborg B5 vitamins solution, 2mM MES, 0.5% [w/v] sucrose, pH 5.8). Arabidopsis plants were grown under 16/8 hr light/dark period with light intensity 100-125 umolm-2s-1 at 20oC over three weeks. Liquid medium was regularly replaced with freshly made liquid medium every seven days.	Arabidopsis cell suspension was cultured in growth medium (1x Murashige & Skoog medium without vitamins, 3% sucrose, 0.5mg/l naphthaleneacetic acid, 0.05mg/l kinetin, pH 5.8) in the dark for 7 days	Detached roots harvested from hydroponic cultures were inoculated in growth medium (1xGamborgs B5 salt with vitamins, 3% [w/v] sucrose, pH 5.8) in the dark at 22oC for 5-6 weeks with constant shaking (95 rpm).	Total RNA was isolated using RNeasy plant mini protocol and RNase free DNase kit (QIAGEN, Clifton Hill, Victoria, Australia). The quality of isolated RNA was assessed by spectrophotometric analysis of A260/A280 ratio using ND-1000 UV-Vis Spectrophotometer (NanoDrop Technologies, Wilmingon, DE, USA) and qualitative analysis using an Agilent 2100 Bioanalyzer (Agilent Technologies, Palo Alto, CA, USA).	The mRNA in 5 &#956;g of total cellular RNA was converted to double-stranded cDNA using Superscript II with a T7-(dT) primer using One-Cycle cDNA Synthesis Kit (Affymetrix). The cDNA was in vitro transcribed to complementary RNA (cRNA) by incorporating biotin-UTP using the GeneChip IVT Labeling Kit (Affymetrix)	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 	
+Protocol Parameters	media;light source;night temperature;night humidity;light hours;light intensity;day temperature;day humidity;	media;night humidity;light hours;light intensity;light source;day temperature;day humidity;night temperature;	day humidity;night temperature;day temperature;light intensity;light source;night humidity;light hours;media;	Extracted product;Amplification;	Used Label;Amount of nucleic acid labeled;Amplification;	
+Protocol Hardware	
+Protocol Software						MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact	
+Protocol Term Source REF						mo		The MGED Ontology	
+SDRF File	E-ATMX-31.sdrf.txt	
+Term Source Name	NCBI Taxonomy		Plant Ontology	The MGED Ontology	ArrayExpress	mo:1.3.1.1	EFO	The MGED Ontology	mo	
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://www.plantontology.org/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version						1.3.1.1				

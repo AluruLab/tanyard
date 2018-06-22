@@ -1,0 +1,50 @@
+Investigation Title	Transcription profiling of Arabidopsis control vs. 35S:AtRALF1-1	
+Comment[Submitted Name]	Control vs. 35S:AtRALF1-1	
+Experimental Design	individual_genetic_characteristics_design	transcription profiling by array	
+Experimental Design Term Source REF		EFO	
+Comment[AEMIAMESCORE]	4	
+Comment[ArrayExpressReleaseDate]	2008-06-14	
+Comment[SecondaryAccession]	GSE641	
+Comment[SecondaryAccession]	GDS617	
+Comment[ArrayExpressAccession]	E-GEOD-641	
+Comment[MAGETAB TimeStamp_Version]	2010-08-06 20:15:14 Last Changed Rev: 13058	
+Experimental Factor Name	Genotype	
+Experimental Factor Type	genotype	
+Experimental Factor Term Source REF	
+Person Last Name	de Moura	
+Person First Name	Daniel Scherer	
+Person Mid Initials	
+Person Email	daniel_moura54@hotmail.com	
+Person Phone	
+Person Fax	
+Person Address	Clarence "Bud" Ryan, Institute of Biological Chemistry,  , Pullman, 99164-6340, USA	
+Person Affiliation	Institute of Biological Chemistry	
+Person Roles	submitter	
+Person Roles Term Source REF		
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2008-06-14	
+PubMed ID	
+Publication DOI	
+Publication Author List	
+Publication Title	
+Publication Status	
+Publication Status Term Source REF	
+Experiment Description	This series (two repeats) compares the transcriptional changes caused by the overexpression of the AtRALF1-1 cDNA.  AtRALF1-1 is one of the nine Arabidopsis isoforms of the polypeptide hormone RALF (PNAS 98, 12843).	
+Protocol Name	
+Protocol Type	
+Protocol Description	
+Protocol Parameters	
+Protocol Hardware	
+Protocol Software	
+Protocol Contact	
+Protocol Term Source REF	
+SDRF File	E-GEOD-641.sdrf.txt	
+Term Source Name	NCBI Taxonomy	The MGED Ontology	ArrayExpress		EFO	
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress		http://www.ebi.ac.uk/efo/	
+Term Source Version						

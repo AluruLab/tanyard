@@ -1,0 +1,52 @@
+Investigation Title	Transcription profiling of Arabidopsis seedlings treated with auxin vs. controls				
+Comment[Submitted Name]	Auxin-mediated gene expression				
+Experimental Design	unknown_experiment_design_type	transcription profiling by array			
+Experimental Design Term Source REF		EFO			
+Comment[AEExperimentType]	transcription profiling by array				
+Comment[AEExperimentDisplayName]	"Transcription profiling by array of Arabidopsis mutant for arf19, arf2, axr3, iaa5, iaa6, iaa19, iaa17 or nph4 after treatment with indole-3-acetic acid"				
+Comment[ArrayExpressReleaseDate]	2008-06-14				
+Comment[SecondaryAccession]	GSE630				
+Comment[AEMIAMESCORE]	4				
+Comment[ArrayExpressAccession]	E-GEOD-630				
+Comment[MAGETAB TimeStamp_Version]	2010-08-06 21:12:25 Last Changed Rev: 13058				
+Experimental Factor Name	genotype	growth condition			
+Experimental Factor Type	genotype	growth condition			
+Experimental Factor Term Source REF					
+Person Last Name	Okushima				
+Person First Name	Yoko				
+Person Mid Initials					
+Person Email	okushima@bs.naist.jp				
+Person Phone					
+Person Fax					
+Person Address	"Athanasios Theologis Lab., Plant and Microbial Biology, Plant Gene Expression Center, U. C. Berkeley, 800 Buchanan St., Albany, 94710, USA"				
+Person Affiliation	"Plant Gene Expression Center, U. C. Berkeley"				
+Person Roles	submitter				
+Person Roles Term Source REF					
+Quality Control Type					
+Quality Control Term Source REF					
+Replicate Type					
+Replicate Term Source REF					
+Normalization Type					
+Normalization Term Source REF					
+Date of Experiment					
+Public Release Date	2008-06-14				
+PubMed ID	15960614	15659631			
+Publication DOI	10.1111/j.1365-313X.2005.02426.x	10.1105/tpc.104.028316			
+Publication Author List	"Okushima Y, Mitina I, Quach HL, Theologis A."	"Okushima Y, Overvoorde PJ, Arima K, Alonso JM, Chan A, Chang C, Ecker JR, Hughes B, Lui A, Nguyen D, Onodera C, Quach H, Smith A, Yu G, Theologis A."			
+Publication Title	AUXIN RESPONSE FACTOR 2 (ARF2): a pleiotropic developmental regulator.	Functional genomic analysis of the AUXIN RESPONSE FACTOR gene family members in Arabidopsis thaliana: unique and overlapping functions of ARF7 and ARF19.			
+Publication Status	published	published			
+Publication Status Term Source REF	EFO	EFO			
+Publication Status Term Accession Number	EFO_0001796	EFO_0001796			
+Experiment Description	Global gene expression data from 7-day old light-grown liquid cultured seedlings treated with or without auxin (5ÂµM IAA) for 2 h.				
+Protocol Name	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6			
+Protocol Type	hybridization	feature_extraction			
+Protocol Description	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 			
+Protocol Parameters					
+Protocol Hardware					
+Protocol Software	MicroArraySuite 5.0	MicroArraySuite 5.0			
+Protocol Contact					
+Protocol Term Source REF	mo				
+SDRF File	E-GEOD-630.sdrf.txt				
+Term Source Name	NCBI Taxonomy	The MGED Ontology	ArrayExpress	EFO	mo
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version					

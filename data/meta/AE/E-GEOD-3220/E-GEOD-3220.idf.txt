@@ -1,0 +1,50 @@
+Investigation Title	Transcription profiling of Arabidopsis wild type and pen3 mutant plants inoculated with powdery mildew organisms Erysiphe cichoracearum or Blumeria graminis hordei	
+Comment[Submitted Name]	Arabidopsis pen3 mutant and wild type Col-O comparison under host inoculation, nonhost inoculation and no inoculation.	
+Experimental Design	individual_genetic_characteristics_design	disease_state_design	co-expression_design	transcription profiling by array	
+Experimental Design Term Source REF		mo	mo	EFO	
+Comment[ArrayExpressReleaseDate]	2007-10-04	
+Comment[SecondaryAccession]	GSE3220	
+Comment[AEMIAMESCORE]	4	
+Comment[SecondaryAccession]	GDS1785	
+Comment[ArrayExpressAccession]	E-GEOD-3220	
+Comment[MAGETAB TimeStamp_Version]	2010-08-04 20:41:41 Last Changed Rev: 13058	
+Experimental Factor Name	DiseaseState	Genotype	
+Experimental Factor Type	infect	genotype	
+Experimental Factor Term Source REF	
+Person Last Name	Somerville	
+Person First Name	Shauna	
+Person Mid Initials	
+Person Email	shauna@andrew2.stanford.edu	
+Person Phone	
+Person Fax	
+Person Address	Plant Biology,Carnegie Institution of Washington,260 Panama Street,Stanford,94305,USA	
+Person Affiliation	Carnegie Institution of Washington	
+Person Roles	submitter	
+Person Roles Term Source REF	The MGED Ontology	
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2007-10-04	
+PubMed ID	16473969	
+Publication DOI	16473969	
+Publication Author List	Monica Stein, Jan Dittgen, Clara Sanchez-Rodriguez, Bi-Huei Hou, Antonio Molina, Paul Schulze-Lefert, Volker Lipka, Shauna Somerville	
+Publication Title	Arabidopsis PEN3/PDR8, an ATP binding cassette transporter, contributes to nonhost resistance to inappropriate pathogens that enter by direct penetration.	
+Publication Status	journal_article	
+Publication Status Term Source REF	The MGED Ontology	
+Experiment Description	Arabidopsis is a host to the fungal powdery mildew pathogen, Erysiphe cichoracearum, and a nonhost to Blumeria graminis f.sp. hordei, the powdery mildew pathogenic on barley. A screen for mutants that allowed increased entry by this inappropriate or nonhost pathogen on Arabidopsis led to the identification of PEN3. While pen3 mutants permitted both increased penetration and increased hyphal growth by B. g. hordei, they were unexpectedly resistant to E. cichoracearum. This resistance was correlated with the appearance of chlorotic patches and was salicylic acid-dependent. Consistent with this observation, microarray analysis revealed that the salicylic acid defense pathway was hyper-induced in pen3 relative to wild type following inoculation with either E. cichoracearum or B. g. hordei. The pen3 phenotypes result from a loss of function of AtPDR8, a ubiquitously and highly expressed ATP binding cassette transporter. PEN3 protein tagged with green fluorescent protein localized to the plasma membrane in uninfected cells. In infected leaves, the protein concentrated to high levels at infection sites and surrounded fungal penetration pegs. We hypothesize that PEN3 may be involved in exporting toxic substrates to sites of infection and that accumulation of these substrates intracellularly in the pen3 mutant may secondarily activate the salicylic acid pathway. Experiment Overall Design: Three week-old wild-type Col and mutant pen3 Arabidopsis thaliana plants were inoculated with Erysiphe cichoracearum, Blumeria graminis hordei, or not inoculated.  1 day post inoculation 16 rosettes were harvested per replicate. 4 replicates were perfomerd per treatment.	
+Protocol Name	P-G3220-1	P-G3220-6	P-G3220-2	P-G3220-3	
+Protocol Type	specified_biomaterial_action	grow	nucleic_acid_extraction	labeling	
+Protocol Description	Growth Conditions and Treatments:  Three week-old wild-type Col and mutant pen3 Arabidopsis thaliana plants were inoculated with Erysiphe cichoracearum, Blumeria graminis hordei, or not inoculated.  1 day post inoculation 16 rosettes were harvested per replicate. 4 replicates were perfomerd per treatment.	Plants were grown and inoculated as described (Nishimura et al., 2003, Science, 301, 969-972).	Total RNA was extracted from the plants using a modified Trizol method (Chomczynski and Sashi, 1987) (see also Protocols Manual at the AFGC web page http://www.arabidopsis.org/info/2010_projects/comp_proj/AFGC/RevisedAFGC/AFGC_Protocols_Dec_2001L.pdf) and purified with a silica membrane column (Qiagen, RNeasy).	Fifteen micrograms biotinylated complementary RNA (cRNA) was prepared.	
+Protocol Parameters	
+Protocol Hardware	
+Protocol Software	
+Protocol Contact	
+Protocol Term Source REF	
+SDRF File	E-GEOD-3220.sdrf.txt	
+Term Source Name	NCBI Taxonomy		mo	EFO	The MGED Ontology	ArrayExpress	mo	EFO	The MGED Ontology	
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version										

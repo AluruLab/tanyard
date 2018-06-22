@@ -1,0 +1,49 @@
+Investigation Title	Transcription profiling of Arabidopsis 3 week old plant leaves Overexpressing of TELOMERASE ACTIVATOR 1 (TAC1) vs controls	
+Comment[Submitted Name]	Overexpression of TELOMERASE ACTIVATOR 1 (TAC1)	
+Experimental Design	unknown_experiment_design_type	transcription profiling by array	
+Experimental Design Term Source REF		EFO	
+Comment[ArrayExpressReleaseDate]	2008-06-14	
+Comment[SecondaryAccession]	GSE5896	
+Comment[AEMIAMESCORE]	2	
+Comment[ArrayExpressAccession]	E-GEOD-5896	
+Comment[MAGETAB TimeStamp_Version]	2010-08-06 18:01:50 Last Changed Rev: 13058	
+Experimental Factor Name	
+Experimental Factor Type	
+Experimental Factor Term Source REF	
+Person Last Name	McKnight	
+Person First Name	Thomas	
+Person Mid Initials	D.	
+Person Email	mcknight@bio.tamu.edu	
+Person Phone	
+Person Fax	
+Person Address	Biology, Texas A&M University, 3258 TAMU, College Station, 77843, USA	
+Person Affiliation	Texas A&M University	
+Person Roles	submitter	
+Person Roles Term Source REF		
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2008-06-14	
+PubMed ID	17220202	
+Publication DOI	17220202	
+Publication Author List	Shuxin Ren, Kranthi K Mandadi, Amy L Boedeker, Keerti S Rathore, Thomas D McKnight	
+Publication Title	Regulation of telomerase in Arabidopsis by BT2, an apparent target of TELOMERASE ACTIVATOR1.	
+Publication Status	journal_article	
+Publication Status Term Source REF	The MGED Ontology	
+Experiment Description	The goal of this investigation was to identify putative targets of the TELOMERASE ACTIVATOR 1 transcription factor. Experiment Overall Design: Total RNA was isolated from leaves of 3 week old plants.  We used three biological replicates of wild type (Columbia) and the tac1-1D activation tagged line (Ren et al., 2004. Plant Cell 16; 2910-2922).	
+Protocol Name	P-G5896-2	P-G5896-1	P-G5896-4	P-G5896-3	
+Protocol Type	specified_biomaterial_action	grow	nucleic_acid_extraction	labeling	
+Protocol Description	NONE	Plants were harvested after 3 weeks growth in a growth chamber (16hr/8 hr light/dark cycle; 21C/18C temperature cycle; 70% relative humidity).	Triazol	Standard Affymetrix Protocol	
+Protocol Parameters	
+Protocol Hardware	
+Protocol Software	
+Protocol Contact	
+Protocol Term Source REF	
+SDRF File	E-GEOD-5896.sdrf.txt	
+Term Source Name	NCBI Taxonomy		The MGED Ontology	ArrayExpress	EFO	The MGED Ontology	
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version							

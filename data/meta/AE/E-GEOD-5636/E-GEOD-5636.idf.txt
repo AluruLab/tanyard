@@ -1,0 +1,51 @@
+Investigation Title	Transcription profiling of Arabidopsis treated with different ambient light and CO2 concentrations																											
+Comment[Submitted Name]	Systemic signalling of irradiance and CO2 concentration in Arabidopsis (Treatment 1: Ambient CO2 and Ambient Light)																											
+Experimental Design	unknown_experiment_design_type	transcription profiling by array																										
+Experimental Design Term Source REF		EFO																										
+Comment[AEExperimentType]	transcription profiling by array																											
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis grown in ambient carbon dioxide and ambient light																											
+Comment[ArrayExpressReleaseDate]	14/06/2008																											
+Comment[SecondaryAccession]	GSE5636																											
+Comment[AEMIAMESCORE]	3																											
+Comment[ArrayExpressAccession]	E-GEOD-5636																											
+Comment[MAGETAB TimeStamp_Version]	2010-08-06 17:19:55 Last Changed Rev: 13058																											
+Experimental Factor Name	organism part	time																										
+Experimental Factor Type	organism part	time																										
+Experimental Factor Term Source REF																												
+Person Last Name	(NASC)																											
+Person First Name	Nottingham Arabidopsis Stock Centre																											
+Person Mid Initials																												
+Person Email	affy@arabidopsis.info																											
+Person Phone																												
+Person Fax																												
+Person Address	"School of Biosciences, University of Nottingham, Nottingham Arabidopsis Stock Centre (NASC), Sutton Bonington Campus, Loughborough, LE12 5RD, United Kingdom"																											
+Person Affiliation	Nottingham Arabidopsis Stock Centre (NASC)																											
+Person Roles	submitter																											
+Person Roles Term Source REF																												
+Quality Control Type																												
+Quality Control Term Source REF																												
+Replicate Type																												
+Replicate Term Source REF																												
+Normalization Type																												
+Normalization Term Source REF																												
+Date of Experiment																												
+Public Release Date	2008-06-14																											
+PubMed ID																												
+Publication DOI																												
+Publication Author List																												
+Publication Title																												
+Publication Status																												
+Publication Status Term Source REF																												
+Experiment Description	"We were awarded a BBSRC grant about a year ago to undertake some affymetrix gene chip profiling of light and CO2 systemic signalling in Arabidopsis.  The design of the proposed experiment is given below and the appropriate funding has been provided by the BBSRC. The aim of the project is to identify the temporal profile of those genes that respond to light and CO2 systemic signals in developing leaves.  Moreover, as thes two signals have opposing effects on leaf development to ascertain whether they involve similar or parallel signalling pathways. The experiment is to examine the effect of exposing mature leaves to high CO2 or low light or both on the gene expression profile of developing leaves.  We already have data for maize that changes in gene expression profile occur within 4h and that there are a variety of temporal responses that differ between individual gene transcripts.  We have also demonstrated that Arabidopsis leaf development is altered by these systemmic signals and that lesions in the jasmonate and ethylene signalling pathways block these responses. Our experimental design is shown below:; We have 4 treatments and 7 timepoints. (0, 2, 4, 12, 24, 48, 96 h); We would sample from 5 individual plants that would be pooled for each RNA preparation. This would require 28 chips and this would include extra replication of the 0 time-point control (deemed by many as nessary). Experimental details:; All plants were germinated for 7 days under the following conditions:; Humax multi-purpose compost, ambient carbon dioxide (370 ppm) and ambient light (250 Âµmol/m/s), constant temperature of 20Â°C and a 10 h photoperiod (8 am until 6 pm). After a week the the seedlings were potted up into 104-cell plug trays for a further 2 weeks and then potted up into 10 cm pots and the bottom part of the signalling cuvette system attached (see Lake et al., Nature 10th May 2001 Vol. 411, pp 154). Twenty four, 4 week old plants, then had the top part of the signalling system attached, trapping leaf insertions 5-13. Humidified, ambient air was passed through them at 500 mls/min via an oil-free air compressor. The three target leaves (19-21) were then marked with non-toxic, acrylic paint. After a 24 h period (the plants were sealed into the cuvettes  from 10 am until 10am) of adjustment, the experiment was started by harvesting the target leaves from 4 plants and immediately freezing the tissue in liquid nitrogen to give the 0 h sample before RNA extraction. The remaining 20 plants were divided into 4 groups of five and given one of the following treatments:; Ambient carbon dioxide/ambient light (Control) (A); Elevated carbon dioxide (750 ppm)/ambient light (E); Ambient carbon dioxide/low light (50 Âµmol/m/s) (AS); Elevated carbon dioxide/low light (ES); - For the Elevated CO2, elevated CO2 was pumped in using a CT room next door set to same temperature but with a CO2 cylinder inside and the same pump as used in the ambient room to supply the elevated CO2 laden, humidified air into the signalling room using rubber tubing. - Shade treatment consisted of neutral density filter (Cat. 210 0.6ND, Lee Filters) that had a hole cut in the middle to allow the middle developing leaves to grow through. A timecourse of 2, 4, 12, 24, 48 and 96 h were carried out each using a batch of 24 plants. This whole process was repeated with another batch of 24 plants at the same developmental stage to give a 2, 4, 12, 24, 48 and 96 hour sample from each of the four treatments. The whole timecourse was then repeated 4 times. For the mature leaves:; We had 8 chips left over so we devised this little experiment to assess the gene changes that were occurring in the enclosed, treated, mature leaves that were signalling the environment to the young developing leaves. Experimenter name = Simon Coupe; Experimenter phone = 0114 222 4115; Experimenter fax = 0114 222 0002; Experimenter institute = University of Sheffield; Experimenter address = Animal and Plant Sciences; Experimenter address = University of Sheffield; Experimenter address = Western Bank; Experimenter address = Sheffield; Experimenter zip/postal_code = S10 2TN; Experimenter country = UK Experiment Overall Design: 26 samples were used in this experiment"																											
+Protocol Name	P-G5636-7	P-G5636-14	P-G5636-15	P-G5636-2	P-G5636-23	P-G5636-1	P-G5636-20	P-G5636-26	P-G5636-19	P-G5636-5	P-G5636-22	P-G5636-4	P-G5636-16	P-G5636-13	P-G5636-8	P-G5636-12	P-G5636-6	P-G5636-18	P-G5636-24	P-G5636-21	P-G5636-9	P-G5636-11	P-G5636-25	P-G5636-3	P-G5636-17	P-G5636-10	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6
+Protocol Type	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	hybridization	feature_extraction
+Protocol Description	"This sample is rep 2, 2h A."	"This sample is rep 3, 4h A."	"This sample is rep 3, 12h A."	"This sample is from the 4h A treatment, rep 1."	"This sample is rep 4, 48h A."	"This sample is from the 2h A treatment, rep 1."	"This sample is rep 4, 4h A."	This sample is taken from the mature leaves of plants that have had the above treatments for 24h. This sample is Rep 2 24 h Am.	"This sample is rep 4, 2h A."	"This sample is from the 48h A treatment, rep 1."	"This sample is rep 4, 24h A."	"This sample is from the 24h A treatment, rep 1."	"This sample is rep 3, 24h A."	"This sample is rep 3, 2h A."	"This sample is rep 2, 4h A."	"This sample is rep 2, 96h A."	"This sample is from the 96h A treatment, rep 1."	"This sample is rep 3, 96h A."	"This sample is rep 4, 96h A."	"This sample is rep 4, 12h A."	"This sample is rep 2, 12h A."	"This sample is rep 2, 48h A."	This sample is taken from the mature leaves of plants that have had the above treatments for 24h. This sample is Rep 1 24 h Am.	"This sample is from the 12h A treatment, rep 1."	"This sample is rep 3, 48h A."	"This sample is rep 2, 24h A."	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 
+Protocol Parameters																												
+Protocol Hardware																												
+Protocol Software																											MicroArraySuite 5.0	MicroArraySuite 5.0
+Protocol Contact																												
+Protocol Term Source REF																											mo	
+SDRF File	E-GEOD-5636.sdrf.txt																											
+Term Source Name	NCBI Taxonomy	The MGED Ontology	ArrayExpress	EFO	mo																							
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php																							
+Term Source Version																												

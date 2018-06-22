@@ -1,0 +1,51 @@
+Investigation Title	Transcription profiling of Arabidopsis sfr6 freezing-sensitive mutant and cls8 chilling sensitive mutant to investigate the molecular basis of chilling and freezing stress						
+Comment[Submitted Name]	The molecular basis of chilling and freezing stress						
+Experimental Design	unknown_experiment_design_type	transcription profiling by array					
+Experimental Design Term Source REF		EFO					
+Comment[AEExperimentType]	transcription profiling by array						
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for sfr6 or cls8 after growth at 20°C or 4°C						
+Comment[ArrayExpressReleaseDate]	2008-06-14						
+Comment[SecondaryAccession]	GSE6167						
+Comment[AEMIAMESCORE]	4						
+Comment[ArrayExpressAccession]	E-GEOD-6167						
+Comment[MAGETAB TimeStamp_Version]	2010-08-06 19:13:14 Last Changed Rev: 13058						
+Experimental Factor Name	GENOTYPE	TEMPERATURE					
+Experimental Factor Type	genotype	temperature					
+Experimental Factor Term Source REF							
+Person Last Name	(NASC)						
+Person First Name	Nottingham Arabidopsis Stock Centre						
+Person Mid Initials							
+Person Email	affy@arabidopsis.info						
+Person Phone							
+Person Fax							
+Person Address	School of Biosciences, University of Nottingham, Nottingham Arabidopsis Stock Centre (NASC), Sutton Bonington Campus, Loughborough, LE12 5RD, United Kingdom						
+Person Affiliation	Nottingham Arabidopsis Stock Centre (NASC)						
+Person Roles	submitter						
+Person Roles Term Source REF							
+Quality Control Type							
+Quality Control Term Source REF							
+Replicate Type							
+Replicate Term Source REF							
+Normalization Type							
+Normalization Term Source REF							
+Date of Experiment							
+Public Release Date	2008-06-14						
+PubMed ID							
+Publication DOI							
+Publication Author List							
+Publication Title							
+Publication Status							
+Publication Status Term Source REF							
+Experiment Description	Our analysis of the sfr6 freezing-sensitive mutant (Knight, H., Veale, E., Warren, G. J. and Knight, M. R. (1999).  Plant Cell 11, 875-886.) and cls8 (unpublished) chilling-sensitive mutant of Arabidopsis, has revealed that the expression of certain cold-regulated genes is aberrant in both these mutants.  In order to understand the molecular basis of chilling and freezing stress in Arabidopsis and also to determine commonalities and differences between these 2 different physiological stress-tolerance processes, we request transcriptome analysis for both of these mutants compared to wild type in one experiment, upon cold treatment and at ambient conditions.  The sfr6 mutant shows the most severe phenotype with respect to cold gene expression, but is tolerant to chilling (Knight, H., Veale, E., Warren, G. J. and Knight, M. R. (1999).  Plant Cell 11, 875-886.).  However, it is unable to cold acclimate and hence is sensitive to freezing.  The cls8 mutant, on the other hand, has a relatively mild phenotype relative to the cold-regulated genes we have examined, but is very sensitive to chilling temperatures (15 to 10 degree centigrade).  It is thus likely that in cls8 we have not yet identified the genes which are most affected, and which account for the physiological phenotype.  Both sfr6 and cls8 have been fine-mapped and are close to being cloned.  The cls8 mutant has an altered calcium signature in response to cold which means it is likely to be affected in early signalling, e.g. cold perception itself.We will compare the expression profiles of genes in sfr6, cls8 and Columbia (parental line for both mutants), both at ambient, and after treatment with cold (5 degrees) for 3 hours.  This timepoint is designed to ÂcaptureÂ both rapidly responding genes e.g. CBF/DREB1 transcription factors, and also more slow genes e.g. COR genes (KIN1/2 and LTI78).  Pilot northerns confirm that this time point is suitable.This analysis will provide new insight into 2 novel genes required for tolerance to low temperature in Arabidopsis, and additionally will determine the nature of overlap between the separate processes of chilling and freezing tolerance. Experiment Overall Design: Number of plants pooled:40-60						
+Protocol Name	P-G6167-2	P-G6167-5	P-G6167-1	P-G6167-4	P-G6167-3	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6
+Protocol Type	specified_biomaterial_action	specified_biomaterial_action	grow	nucleic_acid_extraction	labeling	hybridization	feature_extraction
+Protocol Description	At 7 days old the plate on which the plants were growing was transferred to a growth chamber at 20 degrees C under light conditions. Tissue was harvested after 3h. ; Performer: Marc,,Knight	At 7 days old the plate on which the plants were growing was transferred to a growth chamber at 4 degrees C under light conditions. Tissue was harvested after 3h. ; Performer: Marc,,Knight	unknown; Parameter location = Growth Room; Parameter Atmosphere = Normal; Parameter Humidity = not specified; Parameter Temperature = 20 C; Parameter Lighting = not specified; Parameter Medium = MS; Parameter Treatment = No; Parameter Nutrients = No; Parameter Water = N/A; Parameter Stratification = 4 days at 4 C; Performer: Marc,,Knight	Qiagen / Trizol; Protocol: Qiagen RNAeasy kit protocol ; Protocol Type = nucleic_acid_extraction; Performer: Marc,,Knight	Preparation of biotin-labeled cRNA; RNA samples were quality controlled using the Agilent 2100 Bioanalyzer. 100 pmol T7-(dT)24 primer (5'-GGCCAGTGAATTGTAATACGACTCACTATAGGGAGGCGG-(dT)24-3')  was hybridized with the Total RNA ( 8 - 12ug) at 70Â&deg;C for 10 minutes. First strand cDNA was synthesized by reverse transcription using 400 units SuperScript II Reverse Transcriptase in a reaction containing 50 mM Tris-HCl (pH 8.3), 75 mM KCl, 3 mM MgCl2, 10 mM dithiothreitol (DTT) and 0.5 mM dNTPs at 42C for 1 hour.  The reaction was then put on ice for 2 mins, followed by second strand cDNA synthesis.  130ul of the second strand reaction mix was added to the 20ul  first strand synthesis reaction. The second strand reaction mix  contained 40 units E. coli DNA polymerase I, 10 units E. coli DNA ligase, 2 units  E. coli RNase H and 0.2 mM dNTPs in a buffer containing 20 mMTris-HCl (pH 6.9), 90 mM KCl, 4.6 mM MgCl2, 10mM (NH4)SO4 and 0.15 mM Ã-NAD+. The reaction was incubated at 16 C for 2 hours.  10 units T4 DNA Polymerase was added and the reaction incubated for a further 5 minutes at 16 C, then the reaction was terminated using EDTA.  The double-stranded cDNA was cleaned up using the cDNA Cleanup Spin Column supplied in the Affymetrix GeneChip Sample Cleanup Module.  The double-stranded cDNA was used as a template for in Vitro transcription of biotin-labeled cRNA using the ENZO BioArray RNA Transcript Labeling Kit supplied by Affymetrix.  The Transcript Labeling kit produces large amounts of hybridizable biotin-labeled RNA targets by in Vitro transcription from bacteriophage T7 RNA polymerase promoters.  The reaction mixture containing Biotin-Labeled ribonucleotides (ATP, GTP, CTP, UTP with Bio-UTP and Bio-CTP), DTT, RNase inhibitor mix and T7 RNA polymerase was incubated at 37 C for 5 hrs, gently mixing every 30 minutes during the incubation. This produced an average of 40ug biotin-labeled cRNA . The biotin-labeled cRNA  was cleaned up using the cRNA Cleanup Spin Column supplied in the Affymetrix GeneChip Sample Cleanup Module.  The quantity and quality of the cRNA was measured using the Agilent 2100 Bioanalyzer. The total amount of cRNA was calculated, the starting quantity of RNA subtracted to give the quantity of adjusted cRNA.  The cRNA was fragmented by metal-induced hydrolysis to break down full-length cRNA to 35-200 base fragments.  15ug of adjusted cRNA was used to prepare 300ul of hybridization cocktail of which 200ul was hybridized with the GeneChip.   ; Protocol Type = labeling; Performers: John,Y,Okyere, Janet,,Higgins	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 
+Protocol Parameters							
+Protocol Hardware							
+Protocol Software						MicroArraySuite 5.0	MicroArraySuite 5.0
+Protocol Contact							
+Protocol Term Source REF						mo	
+SDRF File	E-GEOD-6167.sdrf.txt						
+Term Source Name	NCBI Taxonomy		The MGED Ontology	ArrayExpress	EFO	mo	
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version							

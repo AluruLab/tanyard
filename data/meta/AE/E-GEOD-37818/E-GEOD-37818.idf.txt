@@ -1,0 +1,57 @@
+Comment[ArrayExpressAccession]	E-GEOD-37818
+Public Release Date	2012-05-14							
+Investigation Title	Expression data in WT and erf6 mutant under high-light treatment							
+Comment[Submitted Name]	Expression data in WT and erf6 mutant under high-light treatment
+Experiment Description	Reactive oxygen species (ROS) have been characterized as both important signaling molecules and universal stressors that mediate many developmental and physiological responses. So far, details of the transcriptional mechanism of ROS-responsive genes are still largely unknown. In the study reported herein, we identified eight potential ROS-responsive cis-acting elements (ROSEs) from the promoters of genes upregulated by ROS. We also found that the APETALA2 (AP2/EREBP)-type transcription factor ERF6 could bind specifically to the ROSE7/GCC box. Co-expression of ERF6 enhanced luciferase activity driven by ROSE7. ERF6 interacted physically with mitogen-activated protein kinase 6 (MPK6), and also served as a substrate of MPK6. MPK6-mediated ERF6 phosphorylation at both Ser 266 and Ser 269 affected the dynamic alternation of ERF6 protein, which resulted in changes in ROS-responsive gene transcription. These data might provide new insight into the mechanisms that regulate ROS-responsive gene transcription via a complex of MPK6, ERF6, and the ROSE7/GCC box. To identifiy the ERF6 regualted genes under ROS and HL treatment. Three-week old Col-0 and erf6-1 mutant plants before and after exposed to 2000 umol m-2s-1 illumination for 2 h were used for RNA extracted hybridization on Affymetrix microarrays.							
+Date of Experiment								
+Term Source Name	EFO
+Term Source Version								
+Term Source File	http://www.ebi.ac.uk/efo/efo.owl							
+Person Last Name	Song	Pengcheng	Yanyan	Chun-Peng				
+Person First Name	Chun-Peng	Wang	Du	Song				
+Person Mid Initials								
+Person Email	songcp@henu.edu.cn							
+Person Affiliation	Henan University							
+Person Phone	+86 378 3880007							
+Person Fax								
+Person Address	Henan University, 85 Minglun street, Kaifeng, Henan, China							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Person Roles Term Accession Number								
+Normalization Type								
+Normalization Term Accession Number								
+Normalization Term Source REF								
+Replicate Type								
+Replicate Term Accession Number								
+Replicate Term Source REF								
+Experimental Design								
+Experimental Design Term Accession Number								
+Experimental Design Term Source REF								
+Quality Control Type								
+Quality Control Term Accession Number								
+Quality Control Term Source REF								
+Protocol Name	P-GSE37818-1	P-GSE37818-6	P-GSE37818-5	P-GSE37818-2	P-GSE37818-8	P-GSE37818-3	P-GSE37818-4	P-GSE37818-7
+Protocol Description	ID_REF = <br>VALUE = MAS5-calculated Signal intensity<br>ABS_CALL = the call in an absolute analysis that indicates if the transcript was present (P), absent (A), marginal (M), or no call (NC)<br>DETECTION P-VALUE = 'detection p-value', p-value that indicates the significance level of the detection call	GeneChips were scanned using the Hewlett-Packard GeneArray Scanner G2500A.	Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45C on GeneChip Drosophila Genome Array. GeneChips were washed and stained in the Affymetrix Fluidics Station 400.	n/a	2000 umol m-2s-1 illumination for 2 h	Trizol extraction of total RNA was performed according to the manufacturer's instructions	Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 6 ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).	The data were analyzed with Microarray Suite version 5.0 (MAS 5.0) using Affymetrix default analysis settings and global scaling as normalization method. The trimmed mean target intensity of each array was arbitrarily set to 100.
+Protocol Software								
+Protocol Hardware								
+Protocol Contact								
+Protocol Type	bioassay_data_transformation	image_aquisition	hybridization	specified_biomaterial_action	specified_biomaterial_action	nucleic_acid_extraction	labeling	feature_extraction
+Protocol Term Source REF								
+Protocol Term Accession Number								
+Experimental Factor Name	TREATMENT	GENOTYPE						
+Experimental Factor Type	treatment	genotype						
+Experimental Factor Term Source REF								
+Experimental Factor Term Accession Number								
+Publication Title								
+Publication Author List								
+PubMed ID								
+Publication DOI								
+Publication Status								
+Publication Status Term Source REF								
+Publication Status Term Accession Number								
+Comment[SecondaryAccession]	GSE37818							
+Comment[GEOLastUpdateDate]	2012-05-14
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[GEOReleaseDate]	2012-05-13
+Comment[ArrayExpressSubmissionDate]	2012-05-06
+SDRF File	E-GEOD-37818.sdrf.txt

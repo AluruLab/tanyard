@@ -1,0 +1,29 @@
+Comment[ArrayExpressAccession]	E-GEOD-41884							
+MAGE-TAB Version	1.1							
+Public Release Date	2013-04-01							
+Investigation Title	Expression data from Arabidopsis thaliana seedlings with altered enzymes activity of the tetrapyrrole biosynthesis pathway							
+Comment[Submitted Name]	Expression data from Arabidopsis thaliana seedlings with altered enzymes activity of the tetrapyrrole biosynthesis pathway							
+Experiment Description	The CHLD and CHLM genes encode proteins involved in tetrapyrrole biosynthesis pathway. It was proposed that intermediates like magnesium protoporphyrin might play a role in retrograde plastid-to-nucleus signaling. In the present work we provide evidence that altered enzymes activity of the tetrapyrrole biosynthesis pathway are causing changes in gene expression of over 200 nuclear genes. The expression of the CHLD gene was diminished after inducing the RNAi system by spraying dexamethasone. The expression of the CHLM gene was increased after inducing the overexpressor system by spraying ß-estradiol.							
+Term Source Name	ArrayExpress	EFO						
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl						
+Person Last Name	Schlicke	Grimm	Schlicke					
+Person First Name	Hagen	Bernhard	Hagen					
+Person Email	hagen.schlicke@cms.hu-berlin.de							
+Person Affiliation	Humboldt University Berlin							
+Person Address	Institute of Biology, Humboldt University Berlin, Philippstr. 13, building 12, Berlin, Germany							
+Person Roles	submitter							
+Protocol Name	P-GSE41884-1	P-GSE41884-6	P-GSE41884-3	P-GSE41884-8	P-GSE41884-7	P-GSE41884-2	P-GSE41884-4	P-GSE41884-5
+Protocol Description	ID_REF =  VALUE = log2 RMA signal intensity	Following fragmentation, 12.5 ug of cRNA were hybridized for 16 hr at 45C on GeneChip ATH1 array. GeneChips were washed and stained in the Affymetrix Fluidics Station 400. Hybridisation was performed at KFB Regensburg, Germany.	Seedlings were grown on soil in a 10h light 14h dark rhytmn at 23°C after 3 days of stratification.	The data were analyzed with Affymetrix GeneChip Command Console and Expression Console Software. Primary data presented here were analysed at KFB Regensburg, Germany.	GeneChips were scanned using the GeneChip Scanner 3000. Scaning was performed at KFB Regensburg, Germany.	One set of seedlings was treated with 20ug/ml dexamethasone (dex).The other set of seedlings was treated with 20uM ß-estradiol.	Extraction of total RNA was performed using InviTrap� Spin Plant RNA Mini Kit (Invitek, Germany) according to the manufacturer's instructions.	Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 100 ng total RNA (GeneChip 3'IVT Kit, Affymetrix 2008). Labeling was performed at KFB Regensburg, Germany.
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Experimental Factor Name	phenotype	compound						
+Experimental Factor Type	phenotype	compound						
+Comment[SecondaryAccession]	GSE41884							
+Comment[GEOReleaseDate]	2013-04-01							
+Comment[ArrayExpressSubmissionDate]	2012-10-28							
+Comment[GEOLastUpdateDate]	2013-04-01							
+Comment[AEExperimentType]	transcription profiling by array							
+SDRF File	E-GEOD-41884.sdrf.txt							
+Publication Title	Meta-analysis of retrograde signaling in Arabidopsis thaliana reveals a core module of genes embedded in complex cellular signaling networks.							
+Publication Author List	Gläßer C, Haberer G, Finkemeier I, Pfannschmidt T, Kleine T, Leister D, Dietz KJ, Häusler RE, Grimm B, Mayer KF.							
+PubMed ID	24719466							
+Publication DOI	10.1093/mp/ssu042							

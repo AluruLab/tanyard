@@ -1,0 +1,57 @@
+Comment[ArrayExpressAccession]	E-GEOD-35062
+Public Release Date	2012-05-02												
+Investigation Title	Phytochrome Interacting Factors 4 and 5												
+Comment[Submitted Name]	Phytochrome Interacting Factors 4 and 5
+Experiment Description	This SuperSeries is composed of the following subset Series: GSE35057: Phytochrome Interacting Factor 4 and 5 regulate different set of genes in high and low red/far-red light GSE35059: ChIP-Seq analysis of Phytochrome Interacting Factor 5 DNA binding in low R/FR condition Refer to individual Series												
+Date of Experiment													
+Term Source Name	EFO
+Term Source Version													
+Term Source File	http://www.ebi.ac.uk/efo/efo.owl												
+Person Last Name	Kohnen												
+Person First Name	Markus												
+Person Mid Initials	Volker												
+Person Email	Markus.Kohnen@unil.ch												
+Person Affiliation	Universit√© de Lausanne												
+Person Phone													
+Person Fax													
+Person Address	Center for Integrative Genomics (CIG), Universit√© de Lausanne, Genopode Building, Lausanne, Vaud, Switzerland												
+Person Roles	submitter												
+Person Roles Term Source REF													
+Person Roles Term Accession Number													
+Normalization Type													
+Normalization Term Accession Number													
+Normalization Term Source REF													
+Replicate Type													
+Replicate Term Accession Number													
+Replicate Term Source REF													
+Experimental Design													
+Experimental Design Term Accession Number													
+Experimental Design Term Source REF													
+Quality Control Type													
+Quality Control Term Accession Number													
+Quality Control Term Source REF													
+Protocol Name	P-GSE35062-1	P-GSE35062-6	P-GSE35062-10	P-GSE35062-3	P-GSE35062-13	P-GSE35062-12	P-GSE35062-8	P-GSE35062-7	P-GSE35062-2	P-GSE35062-9	P-GSE35062-11	P-GSE35062-4	P-GSE35062-5
+Protocol Description	ID_REF = <br>VALUE = log2 RMA signal	Arabidopsis ATH1 Genome Array (Affymetrix, Santa Clara, CA, USA) were hybridized with 11 microgramme of labeled, amplified cRNA , washed, stained and scanned according to the protocol described in Affymetrix GeneChipÆ Expression Analysis Manual (Fluidics protocol EukGeWS2v5_450)	Seeds were plated on half MS and kept in the dark for 3 days at 4∞C. Seedlings were then transferred to white light with high R/FR ratio in 12:12 LD circles for 14 days.	Fifty seeds were plated on half MS and kept in the dark and cold for 3 days. Seedlings were grown under high R/FR conditions in 12:12 LD circles for 14 days.	Reads were mapped to the Arabidopsis thaliana genome (TAIR8, www.arabidopsis.org) using bowtie (version 0.12.7) and filtered for uniquely mapping reads. Peak were detected with the Model-based Analysis of ChIP-Seq (MACS) algorithm (http://liulab.dfci.harvard.edu/MACS/). Genome Build: PH2_m1.bam: TAIR8 PH2_m1_btb_chrom.bed: TAIR8	Reads were mapped to the Arabidopsis thaliana genome (TAIR8, www.arabidopsis.org) using bowtie (version 0.12.7) and filtered for uniquely mapping reads. Peak were detected with the Model-based Analysis of ChIP-Seq (MACS) algorithm (http://liulab.dfci.harvard.edu/MACS/). Genome Build: PM1_m1.bam: TAIR8 PM1_m1_btb_chrom.bed: TAIR8	Normalized expression signals were calculated from Affymetrix CEL files using RMA (Irizarry et al., 2003).	Scanning was done on an Affymetrix GeneChip Scanner 7G	After 1h high R/FR treatment in the morning plants were transferred to low R/FR (supplemental FR) or kept in high R/FR for additional 2h.	After 2h high R/FR treatment in the morning, seedlings were transferred to low R/FR (supplemental FR) for additional 2h before protein extraction.	Seedlings were ground in cold mortar with protein extraction buffer (50 mM TrisHCl (pH 7.5); 100 mM NaCl; 10% glycerol; 0.1% NP-40; 1 mM DTT; 1 √ó protease inhibitors (Sigma); 50 ŒºM MG132). Soluble proteins were incubated with 40 Œºl of EZview red anti FlagM2 affinity gel (Sigma) beads for 1 h and 30 min at 4∞C. After four washes in the protein extraction buffer, specifically bound proteins were eluted with Laemmli buffer. HRP-conjugated anti-HA antibodies (Roche) were used to detect proteins.	Seedlings were flash-frozen in liquid nitrogen, ground using a tissulyser (Qiagen) 2 times 30s, 30Hz without extraction buffer. RNAs were extracted using the Nucleo Spin for plant RNA kit (Machery-Nagel) following the manufacturer recommendations.	300ng of total RNA were amplified and labeled using the Message Amp II-biotin Enhanced reagents (Ambion; catalog #AM1791). Labeling, hybridization and scanning of the samples were performed as described by Affymetrix (www.affymetrix.com).
+Protocol Software													
+Protocol Hardware													
+Protocol Contact													
+Protocol Type	bioassay_data_transformation	hybridization	grow	grow	feature_extraction	feature_extraction	feature_extraction	image_aquisition	specified_biomaterial_action	specified_biomaterial_action	nucleic_acid_extraction	nucleic_acid_extraction	labeling
+Protocol Term Source REF													
+Protocol Term Accession Number													
+Experimental Factor Name	TREATMENT	GENOTYPE	AGE										
+Experimental Factor Type	treatment	genotype	age										
+Experimental Factor Term Source REF													
+Experimental Factor Term Accession Number													
+Publication Title													
+Publication Author List													
+PubMed ID													
+Publication DOI													
+Publication Status													
+Publication Status Term Source REF													
+Publication Status Term Accession Number													
+Comment[SecondaryAccession]	GSE35062												
+Comment[GEOLastUpdateDate]	2012-05-02
+Comment[AEExperimentType]	transcription profiling by array	ChIP-seq											
+Comment[GEOReleaseDate]	2012-05-01
+Comment[ArrayExpressSubmissionDate]	2012-01-12
+SDRF File	E-GEOD-35062.hyb.sdrf.txt	E-GEOD-35062.seq.sdrf.txt

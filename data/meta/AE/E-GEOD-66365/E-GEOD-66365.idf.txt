@@ -1,0 +1,29 @@
+Comment[ArrayExpressAccession]	E-GEOD-66365
+MAGE-TAB Version	1.1						
+Public Release Date	2016-06-10
+Investigation Title	Transcriptomic responses of cat2-2 and shr-6 cat2-2 to photorespiratory conditions						
+Comment[Submitted Name]	Transcriptomic responses of cat2-2 and shr-6 cat2-2 to photorespiratory conditions
+Experiment Description	Hydrogen peroxide (H2O2) is a potent signaling molecule influencing various aspects of plant growth and development. Its limited lifetime and specific production sites in the plant cell necessitate the existence of specialized mechanisms that relay H2O2-encoded information. To discover such mechanisms, we focused on peroxisomal H2O2 production triggered by enhanced photorespiration in Arabidopsis mutants lacking catalase activity (cat2-2), and looked for second-site mutations that attenuate the negative effects (Fv'/Fm' decline and lesion formation) of H2O2 build up. A mutation residing in the GRAS family transcriptional regulator SHORT-ROOT (SHR) was found to underlie the increased performance of cat2-2 knock-outs under photorespiratory stress. In contrast to shr, introduction of the scr mutation in cat2-2 background did not improve the photorespiratory performance of plants lacking peroxisomal catalase. The absence of SHR negatively affected the activity of the photorespiratory enzymes glycolate oxidase and catalase, which was accompanied with elevated glycolate content and inability to accumulate glycine under conditions promoting photorespiration. The transcriptome signature of cat2-2 shr-6 double mutants exposed to photorespiratory stress lacked jasmonate-dependent signaling components, otherwise induced in cat2-2. The photorespiratory phenotype of cat2-2 was found to be modulated by exogenous sugars both in the presence and absence of shr. Taken together, these findings highlight a crucial role for SHR in H2O2 signal transduction and stress tolerance. Three-week-old cat2-2 and shr-6/cat2-2 plants were exposed to photorespiratory conditions. Rosettes were sampled in three biological replicates before (T = 0) and after 24 hours (T = 24H) of the treatment. Total RNA was extracted with Spectrum Plant Total RNA Kit (Sigma) and submitted to Arabidopsis ATH1 microarray hybridization.						
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Waszczak	Waszczak	Kerchev	Willems	Van Breusegem		
+Person First Name	Cezary	Cezary	Pavel	Patrick	Frank		
+Person Email	cezary.waszczak@helsinki.fi						
+Person Affiliation	University of Helsinki						
+Person Address	Dept. of Biosciences, University of Helsinki, Viikinkaari 1, Helsinki, Finland						
+Person Roles	submitter						
+Protocol Name	P-GSE66365-1	P-GSE66365-5	P-GSE66365-6	P-GSE66365-2	P-GSE66365-3	P-GSE66365-4	P-GSE66365-7
+Protocol Description	Background correction, normalization and calculation of expression values were performed with Robust Multi-array Average method. ID_REF =  VALUE = Log2 RMA signal	RNA concentration and purity were determined spectrophotometrically using the NanoDrop ND-1000 (NanoDrop Technologies) and RNA integrity was assessed using a Bioanalyser 2100 (Agilent). Per sample, an amount of 100 ng of total RNA spiked with bacterial RNA transcript positive controls (Affymetrix) was amplified and labeled using the GeneChip 3' IVT express kit (Affymetrix). All steps were carried out according to the manufacturer's protocol (Affymetrix).	A mixture of purified and fragmented biotinylated aRNA and hybridisation controls (Affymetrix) was hybridised on Affymetrix' Arabidopsis ATH1 Genome arrays followed by staining and washing in a GeneChipÂ® Fluidics Station 450 (Affymetrix) according to the manufacturerâs procedures.	After 21 days of growth, the surgical tape that sealed the plates (Micropore) was replaced by two layers of parafilm M (Bemis) to restrict gas exchange, then plants were transferred to a continuous light regime 100 Î¼molâ¢mâ2â¢sâ1) for 24 hours. Shoot tissue was sampled in three biological replicates before (T = 0) and after 24 hours (T = 24H) of the treatment. Each replicate consisted of at least 15 rosettes.	Arabidopsis thaliana plants were grown on Petri dishes (150 x 25 mm, Becton-Dickinson, USA) on full-strength Murashige and Skoog agar solidified medium supplemented with 1% sucrose, 100 mg/L myo-inositol, nicotinic acid 0.5 mg/L, pyridoxine 0.5 mg/L, thiamine 1 mg/L at 21Â°C and long day 16h light (100 Î¼molâ¢mâ2â¢sâ1)/8h dark conditions. Each plate contained approx. 30 cat2-2 and 30 shr-6 cat2-2 plants.	RNA was extracted with Spectrum Plant Total RNA Kit (Sigma).	To assess the raw probe signal intensities, chips were scanned using a GeneChipÂ® scanner 3000 (Affymetrix).
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	treatment	time	age				
+Experimental Factor Type	treatment	time	age				
+Publication Title	The ROS Wheel: refining ROS transcriptional footprints in Arabidopsis.						
+Publication Author List	Willems P, Mhamdi A, Simon S, Storme V, Kerchev PI, Noctor G, Gevaert K, Van Breusegem F						
+PubMed ID	27246095						
+Publication DOI	10.1104/pp.16.00420						
+Comment[SecondaryAccession]	GSE66365						
+Comment[GEOReleaseDate]	2016-06-10						
+Comment[ArrayExpressSubmissionDate]	2015-02-27						
+Comment[GEOLastUpdateDate]	2016-06-11						
+Comment[AEExperimentType]	transcription profiling by array						
+SDRF File	E-GEOD-66365.sdrf.txt

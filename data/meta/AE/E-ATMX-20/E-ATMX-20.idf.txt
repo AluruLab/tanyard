@@ -1,0 +1,50 @@
+Investigation Title	Transcription profiling wild type and Zat10 overexpressing Arabidopsis plants							
+Comment[Submitted Name]	Pogson - A.thaliana - Zat10 overexpression							
+Experimental Design	genetic_modification_design	transcription profiling by array						
+Experimental Design Term Source REF	mo	EFO						
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis overexpressing Zat10 under the control of the 35S promoter							
+Comment[ArrayExpressReleaseDate]	2008-02-05							
+Comment[AEMIAMESCORE]	5							
+Comment[ArrayExpressAccession]	E-ATMX-20							
+Comment[MAGETAB TimeStamp_Version]	2010-07-29 14:34:07 Last Changed Rev: 13058							
+Experimental Factor Name	genotype							
+Experimental Factor Type	genotype							
+Experimental Factor Term Source REF								
+Person Last Name	Howell							
+Person First Name	Kate							
+Person Mid Initials	A							
+Person Email	kooks@cyllene.uwa.edu.au							
+Person Phone	+61-8-6488-2112							
+Person Fax								
+Person Address	"35 Stirling Hwy, Crawley"							
+Person Affiliation	ARC Centre of Excellence in Plant Energy Biology							
+Person Roles	submitter							
+Person Roles Term Source REF	The MGED Ontology							
+Quality Control Type	biological_replicate							
+Quality Control Term Source REF	The MGED Ontology							
+Replicate Type								
+Replicate Term Source REF								
+Normalization Type								
+Normalization Term Source REF								
+Date of Experiment								
+Public Release Date	2008-02-05							
+PubMed ID	18156220							
+Publication DOI	10.1105/tpc.106.045898							
+Publication Author List	"Rossel JB, Wilson PB, Hussain D, Woo NS, Gordon MJ, Mewett OP, Howell KA, Whelan J, Kazan K, Pogson BJ."							
+Publication Title	Systemic and Intracellular Responses to Photooxidative Stress in Arabidopsis							
+Publication Status	published							
+Publication Status Term Source REF	EFO							
+Experiment Description	The effect of overexpression of Zat10 in Arabidopsis leaf tissue							
+Protocol Name	P-CAGE-25569	P-CAGE-25628	P-CAGE-25574	P-CAGE-25572	Affymetrix:Protocol:Hybridization-FS450_0004	P-AFFY-6	Affymetrix:Protocol:ExpressionStat	
+Protocol Type	grow	specified_biomaterial_action	nucleic_acid_extraction	labeling	hybridization	feature_extraction	bioassay_data_transformation	
+Protocol Description	"Plants were grown in 12 hour days, 90-160 uE and ~24C until 4 weeks old in soil. Plants were watered every 2-3 days and fertilized with 0.5X Hoaglands every fortnight."	The 35S:ZAT10 construct was made by cloning the PCR amplified ZAT10 (At1g27730) coding sequence from Col-0 into HindIII digested and blunt-ended binary vector containing the double CaMV 35S promoter. The resulting binary vector was transformed into Agrobacterium tumefaciens which was used for floral dip transformation of wild type (Col-0). Kanamycin resistant transformants were selected on MS medium and transferred to soil for further characterization.	Total RNA was isolated using the RNeasy Plant Mini Protocol (QIAGEN) including an on-column DNase treatment using the RNase-free DNase set (QIAGEN) according to the manufacturers instructions. The quality of the RNA was verified using an Agilent Bioanalyzer and spectrophotometric analysis to determine concentration and the A260 to A280 and A260 to A230 ratios. 	"Preparation of labelled cRNA from 1-5 ug of total RNA was carried out exactly as described in the Affymetrix GeneChip Expression Analysis Technical Manual, using the Affymetrix One-Cycle Target Labeling and Control Reagents."		Title: Affymetrix CEL analysis. Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 	
+Protocol Parameters	light hours;light intensity;night temperature;night humidity;day temperature;day humidity;media;light source;		Amplification;Extracted product;	Used Label;Amplification;				
+Protocol Hardware								
+Protocol Software						MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact								
+Protocol Term Source REF		mo		mo			The MGED Ontology	
+SDRF File	E-ATMX-20.sdrf.txt							
+Term Source Name	NCBI Taxonomy		po_development_and_growth_ontology1.1	The MGED Ontology	ArrayExpress	The MGED Ontology	mo	EFO
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/			http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/
+Term Source Version								

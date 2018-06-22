@@ -1,0 +1,49 @@
+Investigation Title	Transcription profiling of Arabidopsis loss of function mutant AtLEJ1	
+Comment[Submitted Name]	The transcriptional changes induced by AtLEJ1 gene expression	
+Experimental Design	unknown_experiment_design_type	transcription profiling by array	
+Experimental Design Term Source REF		EFO	
+Comment[SecondaryAccession]	GSE5449	
+Comment[ArrayExpressReleaseDate]	2009-01-13	
+Comment[AEMIAMESCORE]	3	
+Comment[ArrayExpressAccession]	E-GEOD-5449	
+Comment[MAGETAB TimeStamp_Version]	2010-08-06 16:32:59 Last Changed Rev: 13058	
+Experimental Factor Name	
+Experimental Factor Type	
+Experimental Factor Term Source REF	
+Person Last Name	Wook	
+Person First Name	Jung Kwang	
+Person Mid Initials	
+Person Email	ssamt77@korea.ac.kr	
+Person Phone	
+Person Fax	
+Person Address	Korea university, Anam-dong 1-ga, Seoul, 136-701, Korea	
+Person Affiliation	Korea university	
+Person Roles	submitter	
+Person Roles Term Source REF		
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2009-01-13	
+PubMed ID	
+Publication DOI	
+Publication Author List	
+Publication Title	
+Publication Status	
+Publication Status Term Source REF	
+Experiment Description	The loss-of-function mutant of AtLEJ1 had well-developed anther cells and showed an increased accumulation of JA and ET in its flower bud clusters. Conversely, overexpression of AtLEJ1 caused a delay in the development of the floral organs, arrested anther cell development and secondary cell-wall biosynthesis in the endothecium cells, and reduced JA and ET contents in the flower bud clusters, resulting in male-sterility through anther indehiscence. We used microarrays to gain a comprehensive understanding of the transcriptional changes induced by AtLEJ1 gene expression, Experiment Overall Design: We performed a full genome microarray analysis (ATH1 Affymetrix chips) with the wild type, 35S:AtLEJ1/5-8 line and atlej1 mutant. Total RNAs were obtained separately from unopened flower buds at stages 1~12, when the anthers are not yet opened, and from open flowers at stages 13~14, when anthesis occurs.	
+Protocol Name	P-G5449-1	P-G5449-4	P-G5449-3	P-G5449-2	
+Protocol Type	grow	grow	nucleic_acid_extraction	labeling	
+Protocol Description	unopened flower buds of 5-week-old wild-type grown under LD conditions at 24?.	open flowers of 5-week-old wild-type grown under LD conditions at 24?.	Trizol extraction of total RNA was performed according to the manufacturer's instructions. And then purified with the RNeasy Mini kit.	Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 5 microg total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).	
+Protocol Parameters	
+Protocol Hardware	
+Protocol Software	
+Protocol Contact	
+Protocol Term Source REF	
+SDRF File	E-GEOD-5449.sdrf.txt	
+Term Source Name	NCBI Taxonomy	The MGED Ontology	ArrayExpress	EFO	
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	
+Term Source Version					

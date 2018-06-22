@@ -1,0 +1,48 @@
+Investigation Title	Transcription profiling of Arabidopsis infected with the nematode of HHeterodera schachtii 	
+Comment[Submitted Name]	Plant gene expression associated with susceptibility to nematodes, NASCExperimentId:41	
+Experimental Design	transcription profiling by array	
+Experimental Design Term Source REF	EFO	
+Comment[ArrayExpressReleaseDate]		
+Comment[AEMIAMESCORE]	3	
+Comment[ArrayExpressAccession]	E-NASC-3	
+Comment[MAGETAB TimeStamp_Version]	2010-10-14 01:37:01 Last Changed Rev: 14677	
+Experimental Factor Name	Heterodera schachtii (nematode) infection	
+Experimental Factor Type	disease_state	
+Experimental Factor Term Source REF	
+Person Last Name	unknown	Urwin	
+Person First Name	unknown	Peter Edward	
+Person Mid Initials	
+Person Email		p.e.urwin@leeds.ac.uk	
+Person Phone	+44 (0)115 951 3091	0113 343 3035/2909	
+Person Fax	+44 (0)115 951 3297	0113 343 3144	
+Person Address	Plant Science Division, School of Biosciences, University of Nottingham, Sutton Bonnington Campus, Loughborough LE12 5RD, UK	Centre for Plant Science University of Leeds Leeds  LS2 9JT U.K. 	
+Person Affiliation		University of Leeds	
+Person Roles		investigator;biosource_provider;submitter	
+Person Roles Term Source REF		mo	
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	
+PubMed ID	
+Publication DOI	
+Publication Author List	
+Publication Title	
+Publication Status	
+Publication Status Term Source REF	
+Experiment Description	Background Heterodera schachtiia is an economically important plant parasitic nematode that forms a syncytium from a cell superficial to the formed vascular bundle by progressive recruitment of other cells into the structure. The pattern of plant gene expression changes dramatically inside the syncytium. The pathogen probably plays a major role in defining the plant response by choice of initial plant cell during precise behaviour in planta and/or by the secretions it releases. The modified plant cells enable a high feeding rate by the female nematode so enhancing its rate of development and subsequent daily egg production. Arabidopsis is widely used as a model plant to characterise molecular responses to nematodes (e.g. Sijmons et al., 1991 Plant J. 1:245-254.). A complete overview of the changes in plant gene expression when sedentary nematodes establish has not yet been gained using Arabidopsis or any other host plant. Experimental Approaches Our initial studies will focus on the H. schachtii/Arabidopsis interaction. To assure reliable microarray screening care has been taken to minimise extraneous differences between samples (see "Growth conditions" section). At 21 days (Growth stage 3.2-3.5 Boyes et al., 2001 Plant Cell 13:1499-1510) Arabidopsis plants were challenged with rigorously sterilised, infective nematodes of H. schachtii as before (Urwin et al., (1997) Plant Journal 12: 455-461.). 35 sterile J2s were pipetted onto small ~0.5mm2 squares of sterile GF/A filter paper. The GF/A paper was left in direct contact with the zone of elongation on 3 lateral roots per plant for 48 hours. Control plants were mock inoculated with sterile water. Sections of root containing syncytia have been excised from the thin and transparent roots of Arabidopsis and collected into RNAlater solution (Ambion) at 21 days post infection (Growth Stage 6.1 Boyes et al. 2001). The female nematode has been removed with watch-maker's forceps. Equivalent sections of root have been harvested from non-infected plants. Material has been collected from c. 1000 plants for each of the two samples and the uninfected material serves as an internal control. Total RNA has been prepared from the reference and test root material using an RNeasy plant RNA preparation kit (Qiagen) according to methods required by GARNET.	
+Protocol Name	NASCSampleTreatmentProt:207	NASCGrowProt:206	NASCExtractProtocol:1	NASCLabelProtocol:1	Affymetrix:Protocol:Hybridization-EukGE-WS2v4	Affymetrix:Protocol:Percentile	Affymetrix:Protocol:ExpressionStat	
+Protocol Type			nucleic_acid_extraction	labeling	hybridization	feature_extraction	bioassay_data_transformation	
+Protocol Description	At 21 days germination (Growth Stage 3.4/3.5) Arabidopsis plants were challenged with rigorously sterilised,infective nematodes of H. schachtii as before (Urwin et al., (1997) Plant Journal 12: 455-461). 35 sterile J2s were pipetted onto small ~0.5 mm2 squares of sterile GF/A filter paper. The GF/A paper was left in direct contact with the zone of elongation on 3 lateral roots per plant for 48 hours. Sections of root containing syncytia have been excised from the thin and transparent roots of Arabidopsis and collected into RNAlater solution (Ambion) at 21 days post infection (Growth Stage 6.1). The female nematode has been removed. 		Protocol: Qiagen RNAeasy kit protocol 	RNA samples were quality controlled using the Agilent 2100 Bioanalyzer. 100 pmol T7-(dT)24 primer (5'-GGCCAGTGAATTGTAATACGACTCACTATAGGGAGGCGG-(dT)24-3')  was hybridized with the Total RNA ( 8 - 12ug) at 70ÃÂ°C for 10 minutes.  First strand cDNA was synthesized by reverse transcription using 400 units SuperScript II Reverse Transcriptase in a reaction containing 50 mM Tris-HCl (pH 8.3), 75 mM KCl, 3 mM MgCl2, 10 mM dithiothreitol (DTT) and 0.5 mM dNTPs at 42C for 1 hour.  The reaction was then put on ice for 2 mins, followed by second strand cDNA synthesis.  130ul of the second strand reaction mix was added to the 20ul  first strand synthesis reaction. The second strand reaction mix  contained 40 units E. coli DNA polymerase I, 10 units E. coli DNA ligase, 2 units  E. coli RNase H and 0.2 mM dNTPs in a buffer containing 20 mMTris-HCl (pH 6.9), 90 mM KCl, 4.6 mM MgCl2, 10mM (NH4)SO4 and 0.15 mM ÃÂ-NAD+. The reaction was incubated at 16 C for 2 hours.  10 units T4 DNA Polymerase was added and the reaction incubated for a further 5 minutes at 16 C, then the reaction was terminated using EDTA.  The double-stranded cDNA was cleaned up using the cDNA Cleanup Spin Column supplied in the Affymetrix GeneChip Sample Cleanup Module.  The double-stranded cDNA was used as a template for in Vitro transcription of biotin-labeled cRNA using the ENZO BioArray RNA Transcript Labeling Kit supplied by Affymetrix.  The Transcript Labeling kit produces large amounts of hybridizable biotin-labeled RNA targets by in Vitro transcription from bacteriophage T7 RNA polymerase promoters.  The reaction mixture containing Biotin-Labeled ribonucleotides (ATP, GTP, CTP, UTP with Bio-UTP and Bio-CTP), DTT, RNase inhibitor mix and T7 RNA polymerase was incubated at 37 C for 5 hrs, gently mixing every 30 minutes during the incubation. This produced an average of 40ug biotin-labeled cRNA . The biotin-labeled cRNA  was cleaned up using the cRNA Cleanup Spin Column supplied in the Affymetrix GeneChip Sample Cleanup Module.  The quantity and quality of the cRNA was measured using the Agilent 2100 Bioanalyzer. The total amount of cRNA was calculated, the starting quantity of RNA subtracted to give the quantity of adjusted cRNA.  The cRNA was fragmented by metal-induced hydrolysis to break down full-length cRNA to 35-200 base fragments.  15ug of adjusted cRNA was used to prepare 300ul of hybridization cocktail of which 200ul was hybridized with the GeneChip.	Title: Fluidics Station Protocol. Description: 	Title: Affymetrix CEL Analysis (Percentile). Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 	
+Protocol Parameters		Nutrients;Medium;location;Water;Stratification;Humidity;Atmosphere;Temperature;Lighting;	
+Protocol Hardware	
+Protocol Software					MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact	
+Protocol Term Source REF							The MGED Ontology	
+SDRF File	E-NASC-3.sdrf.txt	
+Term Source Name	ncbitax		ArrayExpress	mo	EFO	mo	The MGED Ontology	
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html		http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version								

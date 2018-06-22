@@ -1,0 +1,50 @@
+Investigation Title	ATX1_apex							
+Comment[Submitted Name]	ATX1_apex							
+Experimental Design	strain_or_line_design	transcription profiling by array						
+Experimental Design Term Source REF	The MGED Ontology	EFO						
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for atx1							
+Comment[ArrayExpressReleaseDate]	2006-06-01							
+Comment[AEMIAMESCORE]	5							
+Comment[ArrayExpressAccession]	E-MEXP-502							
+Comment[MAGETAB TimeStamp_Version]	2010-08-11 14:35:10 Last Changed Rev: 13058							
+Experimental Factor Name	genotype							
+Experimental Factor Type	genotype							
+Experimental Factor Term Source REF								
+Person Last Name	Grossniklaus	Inze	Van Hummelen	Pien	Fleury			
+Person First Name	Ueli	Dirk	Paul	Stephane	Delphine			
+Person Mid Initials								
+Person Email			tom.bogaert@vib.be					
+Person Phone			+32 (0)16 34 79 33					
+Person Fax			+32 (0)16 34 79 40					
+Person Address			Herestraat 49					
+Person Affiliation	Institute of plant biology Zurich university	VIB-PSB Ghent university	"Micro Array Facility, VIB"	Institute of plant biology Zurich university	VIB-PSB Ghent university			
+Person Roles			submitter	biomaterial_provider				
+Person Roles Term Source REF				The MGED Ontology				
+Quality Control Type	biological_replicate							
+Quality Control Term Source REF	The MGED Ontology							
+Replicate Type								
+Replicate Term Source REF								
+Normalization Type								
+Normalization Term Source REF								
+Date of Experiment								
+Public Release Date	2006-06-01							
+PubMed ID	18375656							
+Publication DOI	10.1105/tpc.108.058172							
+Publication Author List	"Pien S, Fleury D, Mylne JS, Crevillen P, Inze D, Avramova Z, Dean C, Grossniklaus U"							
+Publication Title	Arabidopsis ATX1 is necessary for epigenetic activation of FLC via histone 3 lysine 4 tri-methylation							
+Publication Status	published							
+Publication Status Term Source REF	EFO							
+Experiment Description	"Analysis of the gene expression profile of the atx1 mutant of Arabidopsis thaliana compared to the wild-type, using apices tissue of in in vitro plants and Affymetrix ATH1 chips."							
+Protocol Name	P-MEXP-9154	P-MEXP-7779	P-MEXP-9156	P-MEXP-7781	P-MEXP-8074	Affymetrix:Protocol:Hybridization-EukGE-WS2v5	P-AFFY-6	P-MEXP-15672
+Protocol Type	specified_biomaterial_action	grow	nucleic_acid_extraction	pool	labeling	hybridization	feature_extraction	bioassay_data_transformation
+Protocol Description	"Plants of the wild-type Col and the atx1 mutant(Nottingham Seed Stock Center (NASC) code is ?). The shoot apex of plants (comprising shoot apex meristem, first and second leaf primordia at petiole-less stage) were harvested at the growth stage 1.0 removing the cotyledons and the hypocotyls and at least 4 hours after the beginning of the photoperiod when photosynthetic and metabolic activities of plants are stable (Boyes et al., 2001).  "	"The growth chamber conditions were: 16/8 hrs (d/n) with white light (Neon tubes, cool white), 100 ÂµEm-Â²h-1 PAR and 20 Â°C.  60 seeds were sowed in per 150 x 25 mm round dish, sealed with Urgopore tape and placed in darkness at 4oC for 3 days."	"Total RNA was isolated using Qiagen RNeasy mini-kit (QIAGEN GmbH, Hilden, Germany)"	"The experimental design comprised 3 replicates of each genotype, one replicate corresponding to one RNA extraction on a independent pool of about 150 plant apex. "	"Affymetrix  Labelling protocol for ARE-ATH1 array  The labelling protocol is applicable for use with the GeneChip ARE-ATH1 when starting with a minimal amount of 5ug total RNA.  The protocol is derived from the ÂGeneChipÂ® Expression Analysis Technical ManualÂ (Section 2 Eukaryotic sample and array processing). The document can be found at the affymetrix website: http://www.affymetrix.com/support/downloads/manuals/expression_s2_manual.pdf   Within this document (expression_s2_manual.pdf), the following sections are applicable for the labelling protocol:  2.1.3 Eukaryotic Target Preparation 2.1.7 - 2.1.8 Reagents and Materials Required 2.1.13 - 2.1.18 One-Cycle cDNA Synthesis  2.1.32 - 2.1.33 Cleanup of Double Stranded cDNA for Both the One-Cycle and Two-Cycle Target Labelling Assays 2.1.34 - 2.1.35 Synthesis of Biotin-Labelled cRNA for both the One-Cycle and Two-Cycle Target Labelling Assays. 2.1.36 2.1.38Â Cleanup and Quantification of Biotin-Labelled cRNA 2.1.39 Â 2.1.40 Fragmenting the cRNA for Target Preparation "	Title: Affymetrix EukGE-WS2v5 Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	"Expression data calculated with RMA method (Bioconductor; Bioinformatics 20, 307 315)."
+Protocol Parameters		media;stop time;start time;min temperature;	Amplification;Extracted product;		Amount of nucleic acid labeled;Label used;Amplification;			
+Protocol Hardware								
+Protocol Software						MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact								
+Protocol Term Source REF	The MGED Ontology			The MGED Ontology	The MGED Ontology			The MGED Ontology
+SDRF File	E-MEXP-502.sdrf.txt							
+Term Source Name	ArrayExpress	The MGED Ontology	EFO					
+Term Source File	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/					
+Term Source Version								

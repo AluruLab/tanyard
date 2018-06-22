@@ -1,0 +1,26 @@
+Comment[ArrayExpressAccession]	E-GEOD-47715
+MAGE-TAB Version	1.1								
+Public Release Date	2015-12-23
+Investigation Title	Expression data from Arabidopsis root tips rRBr mutant								
+Comment[Submitted Name]	Expression data from Arabidopsis root tips rRBr mutant
+Experiment Description	The RETINOBLASTOMAâRELATED (RBR) is a key regulator of cell proliferation and differentiation in plants, and plays an important role in maintenance of the stem cell niche in the root. We used microarray analysis to characterize the transcriptional response of Arabidopsis thaliana root tips from rRBr mutant (7 samples) against Col-0 wild type (6 samples) after 4, 6 and 10 das. Using the Affymetrix ATH1 GeneChips, we followed the transcriptional dynamics underlying the phenotypic changes due to RBR silencing we have analysed the rRbr line at early time points of development (4, 6 and 10 das) and compared to Col-0 wild-type. Biological replicates were performed for each sample and hybridized to the chips.								
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl							
+Person Last Name	Sanchez-Perez	Horvath	Wachsman	Kornet	Sanchez-Perez	Krijnen	Rutjens	Bogre	Scheres
+Person First Name	Gabino	Beatrix	Guy	Noor	Gabino	Maaike	Bas	Laszlo	Ben
+Person Mid Initials		M			F				
+Person Email	gabino.sanchezperez@wur.nl								
+Person Affiliation	Wageningen University								
+Person Address	Bioscience, Wageningen University, Droevendaalsesteeg 1, Wageningen, Netherlands								
+Person Roles	submitter								
+Protocol Name	P-GSE47715-1	P-GSE47715-5	P-GSE47715-6	P-GSE47715-2	P-GSE47715-3	P-GSE47715-4	P-GSE47715-7		
+Protocol Description	GeneChip intensities were background-corrected, normalized and summarized by RMA method (Irizarry et al., 2003), using the Affy package from Bioconductor. ID_REF =  VALUE = RMA signal	One Cycle Affymetrix Labeling kit	Affymetrix standard protocol	Germination of seeds, Col0 and rRBr, for the different time points started at the same time under the same conditions and were repeated three times. The phenotypic changes were followed in each experiment via Lugol staining. As the changes occur mainly in the stem cell niche we have dissected the root tips carefully under the microscope and collected material between 20-40mg.	Seeds were sterilized in a sealed container with 100 ml bleach supplemented by 3 ml of 37% hydrochloric acid for 2 to 5 h, and then suspended in 0.1% agarose and plated on a growth medium consisting of Murashige and Skoog salts, 1% Suc, 1.2% plant agar, MES, pH 5.8 and 50 Î¼g/ml ampicilin, stratified for 2 d in a 4Â°C, and grown vertically in long-day conditions (16 h light followed by 8 h of dark).	Qiagen Rneasy plant minikit	Affymetrix GeneChip Scanner 3000		
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol		
+Experimental Factor Name	developmental stage	genotype							
+Experimental Factor Type	developmental stage	genotype							
+Comment[SecondaryAccession]	GSE47715								
+Comment[GEOReleaseDate]	2015-12-23								
+Comment[ArrayExpressSubmissionDate]	2013-06-06								
+Comment[GEOLastUpdateDate]	2015-12-23								
+Comment[AEExperimentType]	transcription profiling by array								
+SDRF File	E-GEOD-47715.sdrf.txt

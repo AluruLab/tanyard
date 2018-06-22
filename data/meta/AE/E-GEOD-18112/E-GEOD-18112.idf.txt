@@ -1,0 +1,28 @@
+Comment[ArrayExpressAccession]	E-GEOD-18112
+Investigation Title	Transcription profiling of Arabidopsis seed maturation/ drying of altered Lys metabolism genotype
+Comment[Submitted Name]	Seed maturation/ drying of altered Lys metabolism genotype
+Publication Title
+Publication Author List
+Publication DOI
+PubMed ID
+Experimental Design	unknown_experiment_design_type	transcription profiling by array
+Experimental Design Term Source REF		EFO
+Person Last Name	Ruthie
+Person First Name	Ruthie
+Person Email	ruthie.angelovici@weizmann.ac.il
+Person Address	Plant Science , Weizmann Institute of Science, PO Box 26, Rehovot , 76100, Israel 
+Person Affiliation	Weizmann Institute of Science
+Person Roles	submitter
+Public Release Date	2009-09-25
+Comment[ArrayExpressSubmissionDate]	2009-09-15
+Comment[GEOReleaseDate]	2009-09-20
+Comment[SecondaryAccession]	GSE18112
+Experiment Description	In order to elucidate transcriptional and metabolic networks associated with Lys metabolism, we utilized developing seeds as a system in which Lys synthesis could be stimulated developmentally without application of chemicals and coupled this to a T-DNA insertion knockout mutation impaired in Lys catabolism. This seed-specific metabolic perturbation stimulated Lys accumulation starting from the initiation of storage reserve accumulation. Our results revealed that the response of seed metabolism to the inducible alteration of Lys metabolism was relatively minor, however, that which was observable operated in a modular manner. They also demonstrated that Lys metabolism is strongly associated with the operation of the TCA cycle, whilst largely disconnected from other metabolic networks. In contrast, the inducible alteration of Lys metabolism was strongly associated with gene networks, stimulating the expression of hundreds of genes controlling anabolic processes that are associated with plant performance and vigor, whilst suppressing a small number of genes associated with plant stress interactions. The most pronounced effect of the developmentally-inducible alteration of Lys metabolism was an induction of expression of a large set of genes encoding ribosomal proteins as well as genes encoding translation initiation and elongation factors, all of which are associated with protein synthesis. With respect to metabolic regulation, the inducible alteration of Lys metabolism was primarily associated with altered expression of genes belonging to networks of amino acids and sugar metabolism. The combined data are discussed within the context of network interactions both between and within metabolic and transcriptional control systems.  Experiment Overall Design: Arabidopsis thaliana (WS) seeds of the WT and KD genotype (Zhu and Galili, 2003)were germinated on soil and grown  in the greenhouse (23oC). Flowers were marked and at given time intervals following flowering (14DAF to Dry ). Maturing siliques were collected, then seeds were dissected from  siliques . Mature seeds were collected at the end of the desiccation period and stored at 4ºC. Two repeats were collected from each time point. Three to five thousands seeds were harvested for each extraction. 
+Protocol Name	P-G18112-1	P-G18112-3	P-G18112-2	P-G18112-4
+Protocol Type	grow	bioassay_data_transformation	labeling	nucleic_acid_extraction
+Protocol Description	Long day regime (~16h of light & 8h of dark), grown in greenhouse, ~23 degree.	RMA- using Partek genomic suite	Standard Affymetrix protocol	Total RNA was isolated as previously described  in Ruuska and Ohlrogge, 2001 and was treated with DNAase RQ-1 (Promega) then RNA was amplified using 2-cycle Affimetrix labelling using the standard Affymetrix protocol
+Protocol Parameters				
+Protocol Software				
+SDRF File	E-GEOD-18112.sdrf.txt
+Term Source Name	EFO
+Term Source File	http://efo.svn.sourceforge.net/viewvc/efo/trunk/src/efoinowl/efo.owl

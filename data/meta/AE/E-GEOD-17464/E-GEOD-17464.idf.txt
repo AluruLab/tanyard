@@ -1,0 +1,38 @@
+Investigation Title	"Transcription profiling of Arabidopsis thaliana mutants treated with flg22, Alternaria brassicicola, Methyl jasmonate and Pst DC3000 bacteria"					
+Comment[Submitted Name]	"Arabidopsis mutants treated with flg22, Alternaria brassicicola, Methyl jasmonate and Pst DC3000 bacteria"					
+Experimental Design	unknown_experiment_design_type	transcription profiling by array				
+Experimental Design Term Source REF		EFO				
+Comment[AEExperimentType]	transcription profiling by array					
+Comment[AEExperimentDisplayName]	"Transcription profiling by array of Arabidopsis DELLA mutants after treatment with flg22, methyl jasmonate, Alternaria brassicicola or Pseudomonas syringae pv. tomato DC3000"					
+Comment[AEMIAMESCORE]	4					
+Comment[SecondaryAccession]	GSE17464					
+Comment[ArrayExpressReleaseDate]	2010-03-02					
+Comment[ArrayExpressAccession]	E-GEOD-17464					
+Comment[MAGETAB TimeStamp_Version]	2010-08-03 14:08:20 Last Changed Rev: 13058					
+Experimental Factor Name	treatment	time	genotype			
+Experimental Factor Type	treatment	time	genotype			
+Experimental Factor Term Source REF						
+Person Last Name	MacLean					
+Person First Name	Daniel					
+Person Mid Initials						
+Person Email	dan.maclean@sainsbury-laboratory.ac.uk					
+Person Phone						
+Person Fax						
+Person Address	"Bioinformatics, The Sainsbury Laboratory, Colney Lane, Norwich, NR4 7UH, United Kingdom"					
+Person Affiliation	The Sainsbury Laboratory					
+Person Roles	submitter					
+Person Roles Term Source REF	The MGED Ontology					
+Public Release Date	2010-03-02					
+Experiment Description	"Gibberellin (GA) promotes plant growth by destabilizing DELLA proteins. DELLA proteins integrate multiple hormonal and environmental stress responses. We investigated the role of GA and DELLA proteins in plant defence. We used microarrays to detail the global programme of gene expression controlled by DELLA proteins and identified distinct classes of differentially regulated genes in response to pathogens, hormones or pathogen elicitors. Experiment Overall Design: Five weeks old short day grown Arabidopsis leaf discs were used to treat with flg22 and samples were collected after 1 hour and 2 hour time points. For Alternaria brassicicola, five weeks old plants were drop inoculated with 4x 5Âµl droplets of Alternaria brassicicola spores (5x105 spores/ml) and samples were collected 3 days post inoculation. Five weeks old plants were infiltrated with Pst DC3000 (2x105cfu/ml) bacteria and samples were collected after 12 hours post infiltration. For methyl jasmonate treatments, five weeks old plants were sprayed with 10ÂµM Methyl Jasmonate solution, covered with plastic bags and samples were collected after one hour."					
+Protocol Name	P-G17464-1	P-G17464-2	P-G17464-5	P-G17464-3	P-AFFY-6	P-G17464-4
+Protocol Type	grow	specified_biomaterial_action	nucleic_acid_extraction	labeling	feature_extraction	bioassay_data_transformation
+Protocol Description	"Plants were grown in SANYO cabinets under short day conditions (8h light, 16h dark), 120Î¼E light intensity."	"Five weeks old short day grown Arabidopsis leaf discs were used to treat with 100nM flg22 and samples were collected after 1 hour and 2 hour time points. For Alternaria brassicicola, five weeks old plants were drop inoculated with 4x 5Âµl droplets of Alternaria brassicicola spores (5x105 spores/ml) and samples were collected 3 days post inoculation. Five weeks old plants were infiltrated with Pst DC3000 (2x105cfu/ml) bacteria and samples were collected after 12 hours post infiltration. For methyl jasmonate treatments, five weeks old plants were sprayed with 10ÂµM Methyl Jasmonate solution, covered with plastic bags and samples were collected after one hour."	RNA was extracted using Qiagen Rneasy plant mini kit according to the manufacturer's instructions.	"Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 5ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix)."	Title: Affymetrix CEL analysis. Description: 	"background corrected using RMA, quantile normalized, values summarised by median-polish"
+Protocol Parameters						
+Protocol Hardware						
+Protocol Software					MicroArraySuite 5.0	
+Protocol Contact						
+Protocol Term Source REF						The MGED Ontology
+SDRF File	E-GEOD-17464.sdrf.txt					
+Term Source Name	NCBI Taxonomy		The MGED Ontology	ArrayExpress	EFO	The MGED Ontology
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version						

@@ -1,0 +1,57 @@
+Comment[ArrayExpressAccession]	E-GEOD-39384
+Public Release Date	2012-07-16							
+Investigation Title	The AtGenExpress: Basic hormone treatment of seedlings in Arabidopsis							
+Comment[Submitted Name]	The AtGenExpress: Basic hormone treatment of seedlings in Arabidopsis
+Experiment Description	Arabidopsis seedlings of the wild-type or hormone mutants were treated with plant hormones. 72 samples were analyzed by Affymetrix GeneChip, ATH1							
+Date of Experiment								
+Term Source Name	EFO
+Term Source Version								
+Term Source File	http://www.ebi.ac.uk/efo/efo.owl							
+Person Last Name	Shimada	Shimada						
+Person First Name	Yukihisa	Yukihisa						
+Person Mid Initials								
+Person Email	yshimada@yokohama-cu.ac.jp							
+Person Affiliation	Yokohama City University							
+Person Phone								
+Person Fax								
+Person Address	Kihara Institute for Biological Science, Yokohama City University, Maiokacho, Totsuka, Yokohama, Kanagawa, Japan							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Person Roles Term Accession Number								
+Normalization Type								
+Normalization Term Accession Number								
+Normalization Term Source REF								
+Replicate Type								
+Replicate Term Accession Number								
+Replicate Term Source REF								
+Experimental Design								
+Experimental Design Term Accession Number								
+Experimental Design Term Source REF								
+Quality Control Type								
+Quality Control Term Accession Number								
+Quality Control Term Source REF								
+Protocol Name	P-GSE39384-1	P-GSE39384-6	P-GSE39384-3	P-GSE39384-8	P-GSE39384-7	P-GSE39384-2	P-GSE39384-4	P-GSE39384-5
+Protocol Description	ID_REF = <br>VALUE = Signal<br>ABS_CALL = indicating whether the transcript was present (P), absent (A), or marginal (M)<br>DETECTION P-VALUE = 	Affymetrix standard protocol	Seedlings were grown for 7 days at 22 degrees.	MAS5.0	Affymetrix Gene Array Scanner 2500A with the original setting (This means that scanning steps are conducted at a high level of sensitivity to focus on those genes that function in hormone signaling, because their transcripts are relatively less abundant. Under these conditions, signals of highly abundant transcripts may reach saturation)	Seedlings were treated with plant hormones for 30 min, 1 h, or 3 h.	guanidine-hydrochloride method	One-cycle target labeling reagents (Affymetrix)
+Protocol Software								
+Protocol Hardware								
+Protocol Contact								
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Protocol Term Source REF								
+Protocol Term Accession Number								
+Experimental Factor Name	TREATMENT	TIME	ECOTYPE					
+Experimental Factor Type	treatment	time	ecotype					
+Experimental Factor Term Source REF								
+Experimental Factor Term Accession Number								
+Publication Title								
+Publication Author List								
+PubMed ID								
+Publication DOI								
+Publication Status								
+Publication Status Term Source REF								
+Publication Status Term Accession Number								
+Comment[SecondaryAccession]	GSE39384							
+Comment[GEOLastUpdateDate]	2012-07-17
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[GEOReleaseDate]	2012-07-15
+Comment[ArrayExpressSubmissionDate]	2012-07-15
+SDRF File	E-GEOD-39384.sdrf.txt

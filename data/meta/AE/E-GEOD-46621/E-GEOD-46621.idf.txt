@@ -1,0 +1,30 @@
+Comment[ArrayExpressAccession]	E-GEOD-46621						
+MAGE-TAB Version	1.1						
+Public Release Date	2013-08-02						
+Investigation Title	Expression data from Arabidopsis thaliana seedlings						
+Comment[Submitted Name]	Expression data from Arabidopsis thaliana seedlings						
+Comment[AEExperimentDisplayName]	RNA-seq of Arabidopsis seedlings with or without light pulses treatment in the middle of day or night against untreated controls to study how the light pulses control the phase of the circadian clock						
+Experiment Description	Light pulses at the end of the day or night be able to control the phase of the circadian clock. Pulses in the middle of the night has not effect on the circadian oscilations. To understand how the circadian clock gate the light signal in the middle of the night we used microarrays to characterize the light effect in the whole expression profile. Plants of Arabidopsis thalina (Columbia ecotype) were grown in 12/12 light/dark cicles for 15 days and then were tranfer to continuous dark . Plants were slplit in two groups. First group recieved 1hr light pulse in the middle of the night (Night treatment), second group recieve 1hr light pulse in the middle of the subjective day (Day Treatment). Samples of both groups were collected without light pulse named as a control.						
+Term Source Name	ArrayExpress	EFO					
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Yanovsky	Rugnone	Yanovsky				
+Person First Name	Marcelo	Matias	Marcelo				
+Person Email	myanovsky@leloir.org.ar						
+Person Affiliation	Fundación Instituto Leloir. IIBBA- CONICET						
+Person Address	Fundación Instituto Leloir. IIBBA- CONICET, Av. Patricias Argentinas 435, Buenos Aires, Ciudad Autonoma de Buenos Aires, Argentina						
+Person Roles	submitter						
+Protocol Name	P-GSE46621-1	P-GSE46621-5	P-GSE46621-6	P-GSE46621-2	P-GSE46621-3	P-GSE46621-4	P-GSE46621-7
+Protocol Description	The data were analyzed with Microarray Suite version 5.0 (MAS 5.0) using Affymetrix default analysis settings and global scaling as normalization method. The trimmed mean target intensity of each array was arbitrarily set to 100. ID_REF =  VALUE = MAS5.0 signal intensity DETECTION P-VALUE = 	Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 5 ug total RNA (Analysis Technical Manual, 2005, Affymetrix).	Following fragmentation, 15 ug of cRNA were hybridized for 16 hr at 45C on Arabidopsis Genome ATH1 Array were washed and stained in the Affymetrix Fluidics Station 450.	1hr white light pulse during middle of the night (CT=6) or middle of the subjective day (CT=18). Control samples were collected without light pulse treatment.	15 days old plant were grown in 12/12 white light/dark cycles and then were transfered to countinuos dark free running conditions.	Total RNA extraction was performed using RNaeasy Mini kit system according to the manufacturer's instructions.	GeneChips were scanned using the Affymetrix Scanner 3000 7G
+Protocol Type	normalization data transformation protocol	nucleic acid labeling protocol	nucleic acid hybridization to array protocol	treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning and feature extraction protocol
+Experimental Factor Name	growth condition						
+Experimental Factor Type	growth condition						
+Publication Title	LNK genes integrate light and clock signaling networks at the core of the Arabidopsis oscillator.						
+Publication Author List	Rugnone ML, Faigón Soverna A, Sanchez SE, Schlaen RG, Hernando CE, Seymour DK, Mancini E, Chernomoretz A, Weigel D, Más P, Yanovsky MJ						
+PubMed ID	23818596						
+Publication DOI	10.1073/pnas.1302170110						
+Comment[SecondaryAccession]	GSE46621						
+Comment[GEOReleaseDate]	2013-08-02						
+Comment[ArrayExpressSubmissionDate]	2013-05-03						
+Comment[GEOLastUpdateDate]	2013-08-02						
+Comment[AEExperimentType]	transcription profiling by array						
+SDRF File	E-GEOD-46621.sdrf.txt						

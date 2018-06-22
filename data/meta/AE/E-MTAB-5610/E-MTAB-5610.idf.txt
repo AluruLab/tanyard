@@ -1,0 +1,37 @@
+Comment[ArrayExpressAccession]	E-MTAB-5610				
+MAGE-TAB Version	1.1				
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis roots infected with the cyst nematode H. schachtii				
+Investigation Title	Nematode infection migratory stage				
+Comment[Submitted Name]	Nematode infection migratory stage				
+Experiment Description	This experiment analyzes the changes in expression of twelve days old Arabidopsis roots at ten hours post inoculation upon cyst nematode H. schachtii infection.				
+Experimental Factor Name	infect				
+Experimental Factor Type	infect				
+Experimental Factor Term Source REF					
+Experimental Factor Term Accession Number					
+Person Last Name	Siddique				
+Person First Name	Shahid				
+Person Mid Initials					
+Person Email	siddique@uni-bonn.de				
+Person Phone					
+Person Fax					
+Person Address					
+Person Affiliation					
+Person Roles	submitter				
+Public Release Date	2017-03-23				
+Protocol Name	P-MTAB-54855	P-MTAB-54856	P-MTAB-54857	P-MTAB-54858	P-MTAB-54859
+Protocol Type	growth protocol	sample collection protocol	nucleic acid extraction protocol	nucleic acid labeling protocol	nucleic acid hybridization to array protocol
+Protocol Term Source REF	EFO	EFO	EFO	EFO	EFO
+Protocol Term Accession Number	EFO_0003789	EFO_0005518	EFO_0002944	EFO_0003813	EFO_0003815
+Protocol Description	Arabidopsis thaliana seeds were sterilized with 0.6% sodium hypochlorite and grown in Petri dishes containing agar medium supplemented with modified Knop's nutrient medium under sterile conditions. 	Ten hours after inoculation with H. schachtii, small root segments containing nematodes with moving stylets were marked under the binocular. Movement of stylet indicates the migration phase of nematodes. The infected area around nematode head was then dissected. Corresponding root segments from uninfected plants were used as a control.	RNA was extracted using a Nucleospin RNA extraction kit (Macherey-Nagel, Durren, Germany) according to the manufacturerâs instructions. The quality and quantity of RNA was analysed using an Agilent Bioanalyzer (Agilent Technologies, Santa Clara, CA, USA) and a Nanodrop (Thermo Fisher Scientific, Waltham, MA, USA) respectively. 	The cDNA synthesis was performed with NuGENâs Applause 3âAmp System (NuGEN, San Carlos, CA, USA) according to the manufacturersâ instructions. NuGENâs Encore Biotin Module (NuGEN) was used to fragment cDNA. 	Hybridization, washing and scanning were performed according to the Affymetrix 30 GeneChip Expression Analysis Technical Manual (Affymetrix, Santa Clara, CA, USA). Three chips each were hybridized with control and infected samples, with each microarray representing an independent biological replicate. The primary data analysis was performed with the Affymetrix Expression Console v1 software using the MAS5 algorithm.
+Protocol Hardware					
+Protocol Software					
+Term Source Name	ArrayExpress	EFO			
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/			
+Term Source Version					
+Comment[AEExperimentType]	transcription profiling by array				
+SDRF File	E-MTAB-5610.sdrf.txt				
+Publication Title	Arabidopsis leucine-rich repeat receptor–like kinase NILR1 is required for induction of innate immunity to parasitic nematodes				
+Publication Author List	Badou Mendy, Mary Wanjiku Wang’ombe, Zoran S. Radakovic, Julia Holbein, Muhammad Ilyas, Divykriti Chopra, Nick Holton, Cyril Zipfel, Florian M. W. Grundler , Shahid Siddique				
+Publication DOI	10.1371/journal.ppat.1006284				
+PubMed ID	28406987				
+Comment[RelatedExperiment]	E-MTAB-5607				

@@ -1,0 +1,50 @@
+Investigation Title	Genome-wide expression analysis of ahk mutants compared to Col-0 wild-type								
+Comment[Submitted Name]	Genome-wide expression analysis of ahk mutants compared to Col-0 wild-type								
+Experimental Design	in_vivo_design	co-expression_design	genetic_modification_design	transcription profiling by array					
+Experimental Design Term Source REF		mo	mo	EFO					
+Comment[AEExperimentType]	transcription profiling by array								
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis ahk mutants								
+Comment[ArrayExpressReleaseDate]	2008-08-31								
+Comment[AEMIAMESCORE]	5								
+Comment[ArrayExpressAccession]	E-MEXP-1262								
+Comment[MAGETAB TimeStamp_Version]	2010-08-09 20:50:21 Last Changed Rev: 13058								
+Experimental Factor Name	genotype								
+Experimental Factor Type	genotype								
+Experimental Factor Term Source REF									
+Person Last Name	Lee								
+Person First Name	Dong Ju								
+Person Mid Initials									
+Person Email	leedongju@gmail.com								
+Person Phone	082-010-8214-0117								
+Person Fax									
+Person Address	300 Yongbong-dong								
+Person Affiliation	Agricultural Plant Stress Research Center								
+Person Roles	submitter								
+Person Roles Term Source REF	The MGED Ontology								
+Quality Control Type									
+Quality Control Term Source REF									
+Replicate Type									
+Replicate Term Source REF									
+Normalization Type									
+Normalization Term Source REF									
+Date of Experiment									
+Public Release Date	2008-08-31								
+PubMed ID									
+Publication DOI									
+Publication Author List									
+Publication Title									
+Publication Status									
+Publication Status Term Source REF									
+Experiment Description	"The experiment was designed to enable comparison between Columbia and ahk2/ahk3, ahk3/ahk4 double and ahk2/ahk3/ahk4 triple mutants Arabidopsis seedlings"								
+Protocol Name	P-MEXP-91416	P-MEXP-91417	P-AFFY-2	Affymetrix:Protocol:Hybridization-FS450_0004[]	Affymetrix:Protocol:Hybridization-EukGE-WS2v4_450[]	P-AFFY-6	Affymetrix:Protocol:MAS4:ExpressionCall	Affymetrix:Protocol:ExpressionStat	
+Protocol Type	grow	nucleic_acid_extraction	labeling	hybridization	hybridization	feature_extraction	bioassay_data_transformation	bioassay_data_transformation	
+Protocol Description	"The Columbia (Col-0) ecotype of Arabidopsis thaliana was used as the wild type. ahk2/ahk3, ahk3/ahk4 double and ahk2/ahk3/ahk4 triple mutants were used as the mutant type. The plants (col-0 and ahk mutants) were grown for 12 days under long-day conditions (16h light/ 8h dark) on the 1/2 Murashige Skoog medium plate."	"Each RNA sample is obtanied from seedlings of Arabidopsis. The frozen plant tissue (~100 mg) was ground in tiny mortars dipped in liquid nitrogen. The frozen powder was carefully transfered into 1.5 ml microcentrifuge tubes using small funnels and rubber spatulas also cooled with liquid nitrogen. Total RNA was extracted using RNeasy Mini kit (Qiagen GmbH, Hilden, Germany), according to the manufacturer's instructions and purified with an RNeasy mini kit (Qiagen, 74104)."	Title: Affymetrix in vitro transcription. Description: 			Title: Affymetrix CEL analysis. Description: 	Title: Affymetrix CHP Analysis (ExpressionCall). Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 	
+Protocol Parameters		Amplification;Extracted product;							
+Protocol Hardware									
+Protocol Software				MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 4.0	MicroArraySuite 5.0	
+Protocol Contact									
+Protocol Term Source REF							mo	The MGED Ontology	
+SDRF File	E-MEXP-1262.sdrf.txt								
+Term Source Name	The MGED Ontology	mo		NCBI Taxonomy	tair_dev:1.27	ArrayExpress	mo	EFO	The MGED Ontology
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://mged.sourceforge.net/ontologies/MGEDontology.php		http://www.ncbi.nlm.nih.gov/Taxonomy/	http://www.arabidopsis.org/info/ontologies/	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version					1.27				

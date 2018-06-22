@@ -1,0 +1,51 @@
+Investigation Title	Transcription profiling of Arabidopsis FNR1 mutants from different ecotypes					
+Comment[Submitted Name]	FNR1 mutation against ecotype variation					
+Experimental Design	unknown_experiment_design_type	transcription profiling by array				
+Experimental Design Term Source REF		EFO				
+Comment[AEExperimentType]	transcription profiling by array					
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis Columbia and Wassilewskija ecotypes mutant for fnr1					
+Comment[AEMIAMESCORE]	4					
+Comment[ArrayExpressReleaseDate]	2008-10-26					
+Comment[SecondaryAccession]	GSE9402					
+Comment[ArrayExpressAccession]	E-GEOD-9402					
+Comment[MAGETAB TimeStamp_Version]	2010-08-09 13:38:26 Last Changed Rev: 13058					
+Experimental Factor Name	GENOTYPE	ECOTYPE				
+Experimental Factor Type	genotype	ecotype				
+Experimental Factor Term Source REF						
+Person Last Name	Hanke					
+Person First Name	Guy Thomas					
+Person Mid Initials						
+Person Email	guyhanke@yahoo.co.uk					
+Person Phone						
+Person Fax						
+Person Address	Regulation of Biological Reactions, Institute for Protein Research, Osaka University, 3-2 Yamadaoka, suita, 565 0871, Japan					
+Person Affiliation	Osaka University					
+Person Roles	submitter					
+Person Roles Term Source REF	The MGED Ontology					
+Quality Control Type						
+Quality Control Term Source REF						
+Replicate Type						
+Replicate Term Source REF						
+Normalization Type						
+Normalization Term Source REF						
+Date of Experiment						
+Public Release Date	2008-10-26					
+PubMed ID						
+Publication DOI						
+Publication Author List						
+Publication Title						
+Publication Status						
+Publication Status Term Source REF						
+Experiment Description	The mechanism by which plants regulate channeling of photosynthetically derived electrons into different areas of chloroplast metabolism remains obscure. In higher plants, these electrons are made accessible to stromal enzymes, or cyclic electron flow, as reduced ferredoxin (Fd), or NADPH. We investigated how the specific loss of an Arabidopsis (Arabidopsis thaliana) ferredoxin:NADPH reductase (FNR) isoprotein affected channeling of photosynthetic electrons into NADPH and Fd dependent metabolism. Affymetrix gene chip comparison of transcript changes in these mutants against two different ecotype backgrounds indicates that stress signaling is perturbed, and experiments revealed that the mutants are more susceptible to oxidative stress. Experiment Overall Design: We isolated arabidopsis mutants of the FNR1 gene in different ecotypes, extracted RNA from these and respective wild type plants and hybridised it to Affymetrix microarrays					
+Protocol Name	P-G9402-1	P-G9402-3	P-G9402-2	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6	Affymetrix:Protocol:ExpressionStat
+Protocol Type	grow	nucleic_acid_extraction	labeling	hybridization	feature_extraction	bioassay_data_transformation
+Protocol Description	plants were grown on peat based soil (pH 6.5) under approximately 100 Î¼mol quanta  m-2 s-1 in an 8 h light/16 h dark cycle at 21 Â&deg;C.	RNAiso(TaKaRa Bio) extraction of total RNA was performed according to the manufacturer's instructions.	cDNA were synthesized by GeneChip T7-Oligo(dT) Promoter Primer Kitï¼Affymetrix) and TaKaRa cDNA Synthesis Kit ï¼TaKaRa Bioï¼ from 3ug total RNA. Biotinylated cRNA were synthesized by IVT Labeling Kit(Affymetrix)	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 
+Protocol Parameters						
+Protocol Hardware						
+Protocol Software				MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 5.0
+Protocol Contact						
+Protocol Term Source REF				mo		
+SDRF File	E-GEOD-9402.sdrf.txt					
+Term Source Name	NCBI Taxonomy	The MGED Ontology	ArrayExpress	EFO	The MGED Ontology	mo
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version						

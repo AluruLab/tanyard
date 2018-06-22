@@ -1,0 +1,49 @@
+Investigation Title	Transcription profiling of Arabidopsis Brassinosteroid mutant (bzr1-1D and det2) analysis	
+Comment[Submitted Name]	Brassinosteroid mutant (bzr1-1D and det2) analysis	
+Experimental Design	unknown_experiment_design_type	transcription profiling by array	
+Experimental Design Term Source REF		EFO	
+Comment[AEMIAMESCORE]	3	
+Comment[ArrayExpressReleaseDate]	2008-06-12	
+Comment[SecondaryAccession]	GSE2696	
+Comment[ArrayExpressAccession]	E-GEOD-2696	
+Comment[MAGETAB TimeStamp_Version]	2010-08-04 17:13:08 Last Changed Rev: 13058	
+Experimental Factor Name	
+Experimental Factor Type	
+Experimental Factor Term Source REF	
+Person Last Name	Gendron	
+Person First Name	Joshua Martin	
+Person Mid Initials	
+Person Email	jgendron@stanford.edu	
+Person Phone	
+Person Fax	
+Person Address	Wang, Plant Biology, Carnegie Institution of Washington/Stanford University, 260 Panama Rd., Stanford, 94037, USA	
+Person Affiliation	Carnegie Institution of Washington/Stanford University	
+Person Roles	submitter	
+Person Roles Term Source REF	The MGED Ontology	
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2008-06-12	
+PubMed ID	15681342	
+Publication DOI	15681342	
+Publication Author List	Jun-Xian He, Joshua M Gendron, Yu Sun, Srinivas S L Gampala, Nathan Gendron, Catherine Qing Sun, Zhi-Yong Wang	
+Publication Title	BZR1 is a transcriptional repressor with dual roles in brassinosteroid homeostasis and growth responses.	
+Publication Status	journal_article	
+Publication Status Term Source REF	The MGED Ontology	
+Experiment Description	Brassinosteroid (BR) homeostasis and signaling are crucial for normal growth; and development of plants. BR signaling through cell-surface receptor; kinases and intracellular components leads to dephosphorylation and; accumulation of the nuclear protein BZR1. How BR signaling regulates gene; expression, however, remains unknown. Here we show that BZR1 is a; transcriptional repressor that has a previously unknown DNA binding domain; and binds directly to the promoters of feedback-regulated BR biosynthetic; genes. To identify additional BZR1-regulated genes and to understand the; BR-regulated transcriptional pathways, we examined the effects of bzr1-1D; and det2 mutations on the expression of BR-regulated genes by using the; Arabidopsis full-genome oligo microarray (Affymetrix). Microarray analyses; identified additional potential targets of BZR1 and illustrated, together; with physiological studies, that BZR1 coordinates BR homeostasis and; signaling by playing dual roles in regulating BR biosynthesis and downstream; growth responses.	
+Protocol Name	
+Protocol Type	
+Protocol Description	
+Protocol Parameters	
+Protocol Hardware	
+Protocol Software	
+Protocol Contact	
+Protocol Term Source REF	
+SDRF File	E-GEOD-2696.sdrf.txt	
+Term Source Name	NCBI Taxonomy	The MGED Ontology	ArrayExpress	EFO	The MGED Ontology	
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version						

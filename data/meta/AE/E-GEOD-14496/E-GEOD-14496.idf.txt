@@ -1,0 +1,57 @@
+Comment[ArrayExpressAccession]	E-GEOD-14496
+Public Release Date	2009-12-15						
+Investigation Title	A combinatorial Interplay Among the ACC Synthase Isoforms Regulates Ethylene Biosynthesis in Arabidopsis thaliana						
+Comment[Submitted Name]	A combinatorial Interplay Among the ACC Synthase Isoforms Regulates Ethylene Biosynthesis in Arabidopsis thaliana
+Experiment Description	ACC Synthase (ACS) is the key regulatory enzyme in the ethylene biosynthesis in plants. It catalyzes the conversion of s-adenosylmethionine (SAM) to 1-aminocyclopropane-1-carboxylic acid (ACC), the precursor of ethylene. Arabidopsis has nine ACS genes. The goal of the project is to inactivate each gene by insertional mutagenesis and amiRNA technology and eventually construct a null ACS mutant. We have been recently able to achieve this goal. Furthermore, we wanted to know how inactivation of individual ACS genes affects global gene expression.  Keywords: ACS mutant comprrison; global gene expression. Triplicate samples of 10-day light grown seedling from each ACS mutant was used for microarray analysis.						
+Date of Experiment							
+Term Source Name	EFO
+Term Source Version							
+Term Source File	http://www.ebi.ac.uk/efo/efo.owl						
+Person Last Name	Tsuchisaka	Tsuchisaka	Yu	Theologis			
+Person First Name	Atsunari	Atsunari	Guixia	Athanasios			
+Person Mid Initials							
+Person Email	guixiay@yahoo.com						
+Person Affiliation	University of California, Berkeley / USDA						
+Person Phone	510-559-5924						
+Person Fax							
+Person Address	Plant Gene Expression Center, University of California, Berkeley / USDA, 800 Buchanan St., Albany, CA, USA						
+Person Roles	submitter						
+Person Roles Term Source REF							
+Person Roles Term Accession Number							
+Normalization Type							
+Normalization Term Accession Number							
+Normalization Term Source REF							
+Replicate Type							
+Replicate Term Accession Number							
+Replicate Term Source REF							
+Experimental Design							
+Experimental Design Term Accession Number							
+Experimental Design Term Source REF							
+Quality Control Type							
+Quality Control Term Accession Number							
+Quality Control Term Source REF							
+Protocol Name	P-GSE14496-1	P-GSE14496-6	P-GSE14496-5	P-GSE14496-3	P-GSE14496-2	P-GSE14496-4	P-GSE14496-7
+Protocol Description	ID_REF = <br>VALUE = Expression estimated by RMA	GeneChips were scanned with the default settings using the GeneChip® Scanner 3000 7G.	10 microgram of cRNA were hybridized to the GeneChip® Arabidopsis ATH1 Genome Array chip according to the protocols provided by the manufacturer. GeneChips were scanned with the default settings using the > GeneChip® Scanner 3000 7G.	Total RNA was prepared using RNAqueous RNA isolation kit with Plant RNA isolation aid (Ambion, Austin, TX). After LiCl precipitation, RNA was purified using RNeasy columns (Qiagen, Valencia, CA) and re-precipitated with LiCl. RNA pellets were washed with 70% EtOH (three times), and resuspended in DEPC-treated water.	Seeds were surface sterilized for 8min in 5% sodium hypochlorite, 0.15% Tween 20, excessively rinsed in distilled water, and germinated on MS medium (0.8% Select Agar (Life Technologies, Inc., Rockville, MD), 0.5X Murashige-Skoog (MS) salts (Life Technologies, Inc.), 0.5mM MES, pH5.7, 1% sucrose, 1X B5 vitamins. After cold treatment at 4 ï‚°C for 2 days, the plates were incubated at 25 ï‚°C under 16h light / 8h for 10 days.	Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 10 ug total RNA	RMA
+Protocol Software							
+Protocol Hardware							
+Protocol Contact							
+Protocol Type	bioassay_data_transformation	image_aquisition	hybridization	nucleic_acid_extraction	grow	labeling	feature_extraction
+Protocol Term Source REF							
+Protocol Term Accession Number							
+Experimental Factor Name							
+Experimental Factor Type							
+Experimental Factor Term Source REF							
+Experimental Factor Term Accession Number							
+Publication Title	A combinatorial interplay among the 1-aminocyclopropane-1-carboxylate isoforms regulates ethylene biosynthesis in Arabidopsis thaliana.						
+Publication Author List	Tsuchisaka A, Yu G, Jin H, Alonso JM, Ecker JR, Zhang X, Gao S, Theologis A						
+PubMed ID	19752216						
+Publication DOI	10.1534/genetics.109.107102						
+Publication Status							
+Publication Status Term Source REF							
+Publication Status Term Accession Number							
+Comment[SecondaryAccession]	GSE14496						
+Comment[GEOLastUpdateDate]	2012-03-20
+Comment[AEExperimentType]	transcription profiling by array						
+Comment[GEOReleaseDate]	2009-12-15
+Comment[ArrayExpressSubmissionDate]	2009-01-21
+SDRF File	E-GEOD-14496.sdrf.txt

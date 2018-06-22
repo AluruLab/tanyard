@@ -1,0 +1,27 @@
+Comment[ArrayExpressAccession]	E-GEOD-30702						
+MAGE-TAB Version	1.1						
+Public Release Date	2013-12-31						
+Investigation Title	Expression data from Arabidopsis GR-REVOLUTA and KANADI1-GR transgenic seedlings						
+Comment[Submitted Name]	Expression data from Arabidopsis GR-REVOLUTA and KANADI1-GR transgenic seedlings						
+Experiment Description	The REVOLUTA and KANADI1 transcription factors act in opposite directions to control polarity in Arabidopsis. By analyzing mRNA profiles following activation of REVOLUTA or KANADI1 proteins we identified genes regulated by both transcription factors, focusing on those regulated in opposite directions. To coordinate transcriptional responses for microarray analysis, we constructed transgenic seedlings with the REV or KAN1 transcription factor fused to a glucocorticoid receptor (GR) domain. The GR domain tethers the transcription factor in the cytoplasm, and treatment with dexamethasone (DEX) allows movement into the nucleus. Transgenic seedlings and wild-type controls were grown simultaneously in liquid culture, treated with dexamethasone for 0min, 30min, 60min, or 120min, and total RNA was extracted and hybridized to Affymetrix arrays. Treatment: Dexamethasone Biological replicates						
+Term Source Name	ArrayExpress	EFO					
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Reinhart	Reinhart					
+Person First Name	Brenda	Brenda					
+Person Mid Initials		J					
+Person Email	bjreinhart@yahoo.com						
+Person Affiliation	Carnegie Institution						
+Person Address	Plant Biology, Carnegie Institution, 260 Panama Street, Stanford, CA, USA						
+Person Roles	submitter						
+Protocol Name	P-GSE30702-1	P-GSE30702-5	P-GSE30702-6	P-GSE30702-2	P-GSE30702-3	P-GSE30702-4	P-GSE30702-7
+Protocol Description	The data were analyzed with Genspring10 using GC-RMA and normalized to the mean of the Columbia 0 minute timepoints. ID_REF =  VALUE = Normalized log2 ratio (test sample/median of Col_0min samples)	Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 15�g total RNA.	20�g of cRNA was fragmented and hybridized on GeneChip Arabidopsis ATH1 Arrays for 16 hr at 45˚C. Chips were washed and stained in the Affymetrix GeneChip Fluidics Station 400.	Dexamethasone was added to the liquid medium for a final concentration of 50�M and the tissue was flash-frozen at 30min, 60min, or 120min post-treatment. For the 0min samples, tissue was flash-frozen just before dexamethasone addition to the other samples.	For each sample, 50 seeds were sterilized in 0.6 % bleach and 0.07% SDS, cold-treated at 4˚C for 48hrs, and grown at 22˚C in 50 ml of MS medium with 1% sucrose for 7 days before treatment. 35S::GR-REV and 35S::KAN1-GR samples were grown at different times, with simultaneously grown Columbia wild-type controls for each (wild-type biorep 1-3 were grown on the same day as 35S:GR-REV, wild-type biorep 4-6 were grown on the same day as 35S:KAN1-GR). A sample was prepared in a separate flask for each timepoint rather than sampling over time from a single treated flask.	Total RNA was prepared using RNeasy columns from frozen, ground tissue according to the manufacturer (Qiagen). Qiashredder columns were used, with no more than 100mg of tissue per column. DNA was removed from the samples using the Ambion DNA-free kit according to the manufacturer's instructions.	Chips were scanned on an Agilent GeneArray Scanner G2500A and images were analyzed with Affymetrix GeneChip Operating Software.
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	genotype	time	block				
+Experimental Factor Type	genotype	time	block				
+Comment[SecondaryAccession]	GSE30702						
+Comment[GEOReleaseDate]	2013-12-31						
+Comment[ArrayExpressSubmissionDate]	2011-07-15						
+Comment[GEOLastUpdateDate]	2014-01-01						
+Comment[AEExperimentType]	transcription profiling by array						
+Comment[AdditionalFile:Data1]	GSE30702_ANOVA_matrix.txt						
+SDRF File	E-GEOD-30702.sdrf.txt						

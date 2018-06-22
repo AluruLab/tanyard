@@ -1,0 +1,52 @@
+Investigation Title	Transcription profiling of Arabidopsis 3 week-old camta3-1 mutant (HF5 and HF9), camta3-2 mutant (HF6 and HF10) and wild type-WT (HF7 and HF8)				
+Comment[AdditionalFile:XLS]	E-GEOD-10568.hybs.xls				
+Comment[Submitted Name]	camta3 mutant versus wild type microarray analysis				
+Experimental Design	unknown_experiment_design_type	transcription profiling by array			
+Experimental Design Term Source REF		EFO			
+Comment[AEExperimentType]	transcription profiling by array				
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for camta3				
+Comment[ArrayExpressReleaseDate]	2008-04-07				
+Comment[SecondaryAccession]	GSE10568				
+Comment[AEMIAMESCORE]	3				
+Comment[ArrayExpressAccession]	E-GEOD-10568				
+Comment[MAGETAB TimeStamp_Version]	2010-07-29 20:16:03 Last Changed Rev: 13058				
+Experimental Factor Name	GENOTYPE				
+Experimental Factor Type	genotype				
+Experimental Factor Term Source REF					
+Person Last Name	Galon-Wolfenson				
+Person First Name	yael				
+Person Mid Initials					
+Person Email	galonyae@post.tau.ac.il				
+Person Phone					
+Person Fax					
+Person Address	Plant Sciences, Tel Aviv University, tel aviv university, Tel Aviv, 69978, Israel				
+Person Affiliation	Tel Aviv University				
+Person Roles	submitter				
+Person Roles Term Source REF	The MGED Ontology				
+Quality Control Type					
+Quality Control Term Source REF					
+Replicate Type					
+Replicate Term Source REF					
+Normalization Type					
+Normalization Term Source REF					
+Date of Experiment					
+Public Release Date	2008-04-07				
+PubMed ID					
+Publication DOI					
+Publication Author List					
+Publication Title					
+Publication Status					
+Publication Status Term Source REF					
+Experiment Description	camta3-1, camta3-2 and WT microarray experiments, statistical and bioinformatics analysis Experiment Overall Design: Two biological replicates were taken for 3âweek-old camta3-1 mutant (HF5 and HF9), camta3-2 mutant (HF6 and HF10) and wild type-WT (HF7 and HF8)				
+Protocol Name	P-10568-3	P-10568-2	P-10568-1	P-AFFY-6	Affymetrix:Protocol:ExpressionStat
+Protocol Type	nucleic_acid_extraction	labeling	hybridization	feature_extraction	bioassay_data_transformation
+Protocol Description	Two biological replicates were taken for 3â"week-old camta3-1 mutant (HF5 and HF9), camta3-2 mutant (HF6 and HF10) and wild type-WT (HF7 and HF8). Total RNA was extracted using RNeasy mini kit (Qiagene).	10 Î¼g of RNA was subjected to reverse transcription to synthesize cDNA probes using standard Affymetrix procedures	standard Affymetrix procedures	Title: Affymetrix CEL analysis. Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 
+Protocol Parameters					
+Protocol Hardware					
+Protocol Software				MicroArraySuite 5.0	MicroArraySuite 5.0
+Protocol Contact					
+Protocol Term Source REF					The MGED Ontology
+SDRF File	E-GEOD-10568.sdrf.txt				
+Term Source Name	NCBI Taxonomy	The MGED Ontology	ArrayExpress	EFO	The MGED Ontology
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version					

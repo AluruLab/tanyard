@@ -1,0 +1,45 @@
+Investigation Title	Transcription profiling of Arabidopsis response to Phytophthora infestans - AtGenExpress							
+Comment[Submitted Name]	AtGenExpress: Response to Phytophthora infestans							
+Experimental Design	unknown_experiment_design_type	transcription profiling by array						
+Experimental Design Term Source REF		EFO						
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis after infection with Phytophthera infestans							
+Comment[AEMIAMESCORE]	4							
+Comment[ArrayExpressReleaseDate]	2008-06-13							
+Comment[SecondaryAccession]	GSE5616							
+Comment[ArrayExpressAccession]	E-GEOD-5616							
+Comment[MAGETAB TimeStamp_Version]	2010-08-06 17:00:39 Last Changed Rev: 13058							
+Experimental Factor Name	infect	time						
+Experimental Factor Type	infect	time						
+Experimental Factor Term Source REF								
+Person Last Name	(NASC)							
+Person First Name	Nottingham Arabidopsis Stock Centre							
+Person Mid Initials								
+Person Email	affy@arabidopsis.info							
+Person Phone								
+Person Fax								
+Person Address	"School of Biosciences, University of Nottingham, Nottingham Arabidopsis Stock Centre (NASC), Sutton Bonington Campus, Loughborough, LE12 5RD, United Kingdom"							
+Person Affiliation	Nottingham Arabidopsis Stock Centre (NASC)							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Quality Control Type								
+Quality Control Term Source REF								
+Replicate Type								
+Replicate Term Source REF								
+Normalization Type								
+Normalization Term Source REF								
+Date of Experiment								
+Public Release Date	2008-06-13							
+Experiment Description	"AtGenExpress:  A multinational coordinated effort to uncover the transcriptome of the multicellular model organism Arabidopsis thaliana (Hybridisations done at NASC); The activity of genes and their encoded products can be regulated in several ways, but transcription is the primary level, since all other modes of regulation (RNA splicing, RNA and protein stability, etc.) are dependent on a gene being transcribed in the first place. The importance of transcriptional regulation has been underscored by the recent flood of global expression analyses, which have confirmed that transcriptional co-regulation of genes that act together is the norm, not the exception. Moreover, many studies suggest that evolutionary change is driven in large part by modifications of transcriptional programs. An essential first step toward deciphering the transcriptional code is to determine the expression pattern of all genes. With this goal in mind, an international effort to develop a gene expression atlas of Arabidopsis has been underway since fall 2003. This project, dubbed AtGenExpress, is funded by the DFG, and will provide the Arabidopsis community with access to a large set of Affymetrix microarray data. As part of this collaboration, we have generated expression data from 80 biologicaly different samples in triplicate. Series 2: Base line experiment for pathogen infection. Growth and infection conditions: Seeds will be stratified for 3 days at 4Â°C and sown on soil. Plants are grown at 22Â°C under a 8/16 hour light/dark regime in Percival growth chambers. All pathogen treatments will be performed on leaves of 5-weeks old plants. Bacterial infiltrations will be performed with 10-8 cfu/ml in 10 mM MgCl2. 5x105 spores of Phytophthora infestans in water will be applied to leaf surfaces. LPS (100 Âµg/ml), HrpZ (1 ÂµM), NPP1 (2 ÂµM) or flagellin (1 ÂµM flg22) will be applied in water. Experiments should be performed in triplicate at the time points indicated below. Experimenter name = Dierk Scheel  , Frederic Brunner  , Lore Westphal; Experimenter institute = AtGenExpress Experiment Overall Design: 18 samples were used in this experiment"							
+Protocol Name	P-G5616-4	P-G5616-2	P-G5616-5	P-G5616-3	P-G5616-1	P-G5616-6	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6
+Protocol Type	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	hybridization	feature_extraction
+Protocol Description	Plants were moved to growth chamber with 20&deg;C day / 18&deg;C night for treatment. As many Phytophthora infestans drops (10 000 spores/drop) on leaves as possible. Trays covered with lid after treatment. Leaves harvested 6 hours post-treatment.	Plants were moved to growth chamber with 20&deg;C day / 18&deg;C night for treatment. As many Water drops on leaves as possible. Trays covered with lid after treatment. Leaves harvested 12 hours post-treatment.	Plants were moved to growth chamber with 20&deg;C day / 18&deg;C night for treatment. As many Phytophthora infestans drops (10 000 spores/drop) on leaves as possible. Trays covered with lid after treatment. Leaves harvested 12 hours post-treatment.	Plants were moved to growth chamber with 20&deg;C day / 18&deg;C night for treatment. As many Water drops on leaves as possible. Trays covered with lid after treatment. Leaves harvested 24 hours post-treatment.	Plants were moved to growth chamber with 20&deg;C day / 18&deg;C night for treatment. As many Water drops on leaves as possible. Trays covered with lid after treatment. Leaves harvested 6 hours post-treatment.	Plants were moved to growth chamber with 20&deg;C day / 18&deg;C night for treatment. As many Phytophthora infestans drops (10 000 spores/drop) on leaves as possible. Trays covered with lid after treatment. Leaves harvested 24 hours post-treatment.	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 
+Protocol Parameters								
+Protocol Hardware								
+Protocol Software							MicroArraySuite 5.0	MicroArraySuite 5.0
+Protocol Contact								
+Protocol Term Source REF							mo	
+SDRF File	E-GEOD-5616.sdrf.txt							
+Term Source Name	NCBI Taxonomy	The MGED Ontology	ArrayExpress	EFO	mo			
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php			
+Term Source Version								

@@ -1,0 +1,23 @@
+Comment[ArrayExpressAccession]	E-GEOD-55906
+MAGE-TAB Version	1.1						
+Public Release Date	2015-02-28
+Investigation Title	Expression data from WT (Ws-2), CBF1,2,3, and CBF2Δc (a truncated CBF2) overexpression						
+Comment[Submitted Name]	Expression data from WT (Ws-2), CBF1,2,3, and CBF2Δc (a truncated CBF2) overexpression
+Experiment Description	CBF1, CBF2 and CBF3 regulons comprise nearly identical gene sets The vast majority of CBF2 regulon genes were down-regulated less that 50% by overexpression of CBF2Δc, a truncated version of CBF2 We used Affymetrix GeneChips to examine the CBF regulons of plants overexpressing CBF1, CBF2, CBF3 and a truncated version of CBF2, CBF2Δc.						
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Park	Gilmour	Park	Thomashow			
+Person First Name	Sunchung	Sarah	Sunchung	Michael			
+Person Email	parksu16@msu.edu						
+Person Affiliation	Michigan State University						
+Person Address	Plant Research Lab, Michigan State University, 612 Wilson Road, Rm310, East Lansing, MI, USA						
+Person Roles	submitter						
+Protocol Name	P-GSE55906-1	P-GSE55906-5	P-GSE55906-6	P-GSE55906-2	P-GSE55906-3	P-GSE55906-4	P-GSE55906-7
+Protocol Description	The data were analyzed with LIMMA package of Bioconductor using GC-RMA normalization procedure. ID_REF =  VALUE = GCRMA-normalized log2 expression signal	RNA was amplified and biotinylated using a MessageAmp kit (Ambion) according to the manufacturer's protocol	Hybridization and washing were carried out according to the Gene Chip manufacturer's protocol (Affymetrix)	Cold treatment was for 24 h at 4⁰C under constant light of ~35 �mol m-2 sec-1	Plants were grown on Gamborg's B-5 medium solidified with agar at 22⁰C under constant light at ~100 μmol m-2 sec-1 for 11 d	RNA was extracted using the RNeasy plant mini kit (Qiagen)	Scan protocols were carried out according to the Gene Chip manufacturer's protocol (Affymetrix)
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Comment[SecondaryAccession]	GSE55906						
+Comment[GEOReleaseDate]	2015-02-28						
+Comment[ArrayExpressSubmissionDate]	2014-03-14						
+Comment[GEOLastUpdateDate]	2015-02-28						
+Comment[AEExperimentType]	transcription profiling by array						
+SDRF File	E-GEOD-55906.sdrf.txt

@@ -1,0 +1,51 @@
+Investigation Title	Gibberellin (GA) Treatment of Arabidopsis Root Tips						
+Comment[Submitted Name]	Gibberellin (GA) Treatment of Arabidopsis Root Tips						
+Experimental Design	transcription profiling by array						
+Experimental Design Term Source REF	EFO						
+Comment[AEExperimentType]	transcription profiling by array						
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis root tips after treatment with gibberellin						
+Comment[AEMIAMESCORE]	4						
+Comment[SecondaryAccession]	GSE20223						
+Comment[ArrayExpressReleaseDate]	2010-04-28						
+Comment[ArrayExpressAccession]	E-GEOD-20223						
+Comment[MAGETAB TimeStamp_Version]	2010-08-04 03:43:07 Last Changed Rev: 13058						
+Experimental Factor Name	COMPOUND	TREATMENT TIME	GENOTYPE				
+Experimental Factor Type	compound	time	genotype				
+Experimental Factor Term Source REF							
+Person Last Name	(NASC)	Griffiths					
+Person First Name	Nottingham Arabidopsis Stock Centre	Jayne					
+Person Mid Initials							
+Person Email	affy@arabidopsis.info						
+Person Phone							
+Person Fax							
+Person Address	School of Biosciences, University of Nottingham, Nottingham Arabidopsis Stock Centre (NASC), Sutton Bonington Campus, Loughborough, LE12 5RD, United Kingdom						
+Person Affiliation	Nottingham Arabidopsis Stock Centre (NASC)						
+Person Roles	submitter						
+Person Roles Term Source REF	The MGED Ontology						
+Quality Control Type							
+Quality Control Term Source REF							
+Replicate Type							
+Replicate Term Source REF							
+Normalization Type							
+Normalization Term Source REF							
+Date of Experiment							
+Public Release Date	2010-04-28						
+PubMed ID							
+Publication DOI							
+Publication Author List							
+Publication Title							
+Publication Status							
+Publication Status Term Source REF							
+Experiment Description	The plant hormone gibberellin (GA) represents an important regulator of growth and development. Early transcriptional events controlled by GA are not well characterised. Previous microarray studies have identified genes responsive to GA treatment in the whole seedling. The whole seedling represents many tissues where subtle effects of GA treatment in specific tissues may be masked. When treated with GA, an effect on the growth rate of roots was observed. More specifically, the shorter root of a GA-deficient plant can be rescued to wild-type length by the application of GA. This experiment was designed to identify GA-regulated genes in the root tips of Arabidopsis. The use of a GA-deficient mutant provides a greater potential to identify genes responding to GA treatment. Root tips are ideally suited for the quick uptake of the hormone treatment. There will be two biological replicates which will each consist of a control treatment at 0 minutes and 2 hours, as well as the experimental GA-treated 2 hour time point. This system provides an opportunity to compare gene expression between treated and non-treated root tips and allow the identification of early GA-responsive genes. 6 samples were used in this experiment.						
+Protocol Name	P-GSE20223-3	P-GSE20223-2	P-GSE20223-4	P-GSE20223-5	P-GSE20223-6	P-GSE20223-7	P-GSE20223-1
+Protocol Type	nucleic_acid_extraction	grow	labeling	hybridization	image_aquisition	feature_extraction	bioassay_data_transformation
+Protocol Description	Qiagen RNAeasy kit protocol	Roots were grown on 100mm x 100mm square plates stood at an angle of 70Âº from the horizontal. Plants were grown on 0.7% Gelrite (Duchefa), 0.05% MES (Sigma), 1x Murashige and Skoog (Duchefa), 1% Sucrose (Duchefa) at pH 5.8. Plants were grown in continuous light and harvested when they were 7 days old.	Labelled using protocol described in manual "Affymetrix GeneChip Expression Analysis Technical Manual", One-Cycle target labelling	Biotin Labelled cRNA using "Affymetrix GeneChip Hybridization, Wash and Stain Kit", according to guidelines set out by Affymetrix, Santa Clara, CA	Scanned according to guidelines set out by Affymetrix, Santa Clara, CA.	Raw data from the microarrays was normalized at probe-level using MAS5 algorithm. The detection calls (present, marginal, absent) for each probe set was obtained using the GCOS system	ID_REF = <br>VALUE = MAS5.0-calculated signal intensity<br>ABS_CALL = the call in an absolute analysis that indicates if the transcript was present (P), absent (A), or marginal (M)<br>DETECTION P-VALUE = p-value that indicates the significance level of the detection call
+Protocol Parameters							
+Protocol Hardware							
+Protocol Software							
+Protocol Contact							
+Protocol Term Source REF						The MGED Ontology	The MGED Ontology
+SDRF File	E-GEOD-20223.sdrf.txt						
+Term Source Name	NCBI Taxonomy		The MGED Ontology	ArrayExpress	EFO	The MGED Ontology	
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version							

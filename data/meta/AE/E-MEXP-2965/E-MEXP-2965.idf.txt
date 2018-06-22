@@ -1,0 +1,52 @@
+Investigation Title	Transcription profiling of Arabidopsis plants overexpressing MYB96 gene and myb96 knock-out mutant						
+Comment[Submitted Name]	Transcription profiling of Arabidopsis plants overexpressing MYB96 gene and myb96 knock-out mutant						
+Experimental Design	genetic_modification_design	co-expression_design	replicate_design	transcription profiling by array			
+Experimental Design Term Source REF	The MGED Ontology	The MGED Ontology	The MGED Ontology	EFO			
+Comment[AEExperimentType]	transcription profiling by array						
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis overexpressing MYB96 or myb96 knock out mutants						
+Comment[SecondaryAccession]							
+Comment[ArrayExpressReleaseDate]	2011-10-30						
+Comment[AEMIAMESCORE]	4						
+Comment[ArrayExpressAccession]	E-MEXP-2965						
+Comment[MAGETAB TimeStamp_Version]	2010-11-11 16:43:17 Last Changed Rev: 14857						
+Experimental Factor Name	genotype						
+Experimental Factor Type	genotype						
+Experimental Factor Term Source REF							
+Person Last Name	Seo						
+Person First Name	Pil Joon						
+Person Mid Initials							
+Person Email	pjseo1@gmail.com						
+Person Phone	82-2-880-4360						
+Person Fax							
+Person Address	"Chemistry, 503 - 102, Department of Chemistry, Seoul National University, 599 Gwanak-ro, Gwanak-gu, Seoul, 151-742, Korea, Seoul, Seoul, 151-742, South Korea"						
+Person Affiliation	Seoul National University						
+Person Roles	submitter						
+Person Roles Term Source REF	The MGED Ontology						
+Quality Control Type	biological_replicate						
+Quality Control Term Source REF	The MGED Ontology						
+Replicate Type							
+Replicate Term Source REF							
+Normalization Type							
+Normalization Term Source REF							
+Date of Experiment							
+Public Release Date	2011-10-30						
+PubMed ID	21398568						
+Publication DOI	10.1105/tpc.111.083485						
+Publication Author List	"Seo PJ, Lee SB, Suh MC, Park MJ, Go YS, Park CM"						
+Publication Title	The MYB96 transcription factor regulates cuticular wax biosynthesis under drought conditions in Arabidopsis						
+Publication Status	published						
+Publication Status Term Source REF	EFO						
+Publication Status Term Accession Number	EFO_0001796						
+Experiment Description	"The Arabidopsis MYB96 transcription factor plays a role in abscisic acid (ABA)-mediated drought response. To obtain clues as to how MYB96 promotes drought tolerance, we carried out microarray assays using the Affymetrix GeneChip. Experiment Design: Total RNAs were isolated from whole plants of two-week-old seedling of mutant plants overexpressing MYB96, MYB96-deficient mutants, and wild-types. Three independent biological replicates were performed for each sample."						
+Protocol Name	P-MTAB-17741	P-MTAB-17742	P-AFFY-12	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6		
+Protocol Type	nucleic_acid_extraction	grow	labeling	hybridization	feature_extraction		
+Protocol Description	"Total RNAs were extracted using the RNeasy Plant Mini Kit (Qiagen). The total RNA samples were pretreated with an RNase-free DNase I and cleaned up using the Plant Total RNA Isolation Kit (Qiagen). (Parameters: Extracted product = total_RNA, Amplification = none)"	"Plants were grown on 1/2 X Murashige and Skoog-agar plates at 22C under long day conditions (16-h light and 8-h dark). White light illumination (120 micro mol photons m-2s-1) was provided by fluorescent FLR40D/A tubes (Osram, Seoul, Korea).(Parameters: time unit = seconds, temperature unit = C)"	URL: http://www.affymetrix.com/support/technical/manual.affx   <br>Affy_whole_transcript_labelling.pdf   <br>This document describes Affymetrix recommended labeling protocols for use with GeneChip Exon Arrays.				
+Protocol Parameters							
+Protocol Hardware							
+Protocol Software				MicroArraySuite 5.0	MicroArraySuite 5.0		
+Protocol Contact							
+Protocol Term Source REF	The MGED Ontology	The MGED Ontology		mo			
+SDRF File	E-MEXP-2965.sdrf.txt						
+Term Source Name	The MGED Ontology	tair_dev:1.27	EFO	ArrayExpress	The MGED Ontology	EFO	mo
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.arabidopsis.org/info/ontologies/	http://www.ebi.ac.uk/efo/	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version			1.27				

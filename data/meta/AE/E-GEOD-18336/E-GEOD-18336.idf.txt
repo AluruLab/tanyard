@@ -1,0 +1,58 @@
+Comment[ArrayExpressAccession]	E-GEOD-18336					
+Public Release Date	2010-09-30					
+Investigation Title	Effect of AAF overexpression on the leaves before bolting					
+Comment[Submitted Name]	Effect of AAF overexpression on the leaves before bolting					
+Experiment Description	Analysis of leaves from 3-week old transgenic plants overexpressing AAF, which is a senescence-associated gene. Overexpression of AAF promoted leaf senescence and accumulation of reactive oxygen species (ROS) in transgenic plants. Results provide insight in the role of AAF in ROS homeostasis and the function in leaf senescence.  3-week-old plants of Col-0 (wild type, as control) and AAF-OX (overexpression line) were grown in long day condition (16hr light/8hr dark). Rosette leaves of Col-0 and AAF-OX were used for total RNA extraction and cDNA synthesis. cDNA labeling, array hybridization, and scanning followed standard Affymetrix expression array protocol. Two independent sets of microarray analyses were performed in this study. 					
+Date of Experiment						
+Term Source Name	EFO					
+Term Source Version						
+Term Source File	http://efo.svn.sourceforge.net/viewvc/efo/trunk/src/efoinowl/efo.owl					
+Person Last Name	WANG	Chen	Wang			
+Person First Name	Kevin Long-Chi	Guan-Hong	Long-Chi			
+Person Mid Initials			K			
+Person Email	lwang@gate.sinica.edu.tw					
+Person Affiliation	Academia Sinica					
+Person Phone	886227871181					
+Person Fax	886227827954					
+Person Address	Institute of Plant and Microbial Biology, Academia Sinica, 128 Section 2, Academia Road, Taipei, Taiwan					
+Person Roles	submitter					
+Person Roles Term Source REF						
+Person Roles Term Accession Number						
+Normalization Type						
+Normalization Term Accession Number						
+Normalization Term Source REF						
+Replicate Type						
+Replicate Term Accession Number						
+Replicate Term Source REF						
+Experimental Design						
+Experimental Design Term Accession Number						
+Experimental Design Term Source REF						
+Quality Control Type						
+Quality Control Term Accession Number						
+Quality Control Term Source REF						
+Protocol Name	P-GSE18336-1	P-GSE18336-5	P-GSE18336-4	P-GSE18336-2	P-GSE18336-3	P-GSE18336-6
+Protocol Description	ID_REF = <br>VALUE = Intensity signal<br>ABS_CALL = Absence call<br>DETECTION P-VALUE = Detection P-value	Standard Affymetrix GeneChip scanning protocol	Standard Affymetrix GeneChip hybridization protocol	Pine Tree Method, for preparation of total RNA from plant tissues. Plant Molecular Biology Reporter(1993) 11: 113-116	Standard Affymetrix GeneChip labeling protocol	MAS5.0
+Protocol Software						
+Protocol Hardware						
+Protocol Contact						
+Protocol Type	bioassay_data_transformation	image_aquisition	hybridization	nucleic_acid_extraction	labeling	feature_extraction
+Protocol Term Source REF						
+Protocol Term Accession Number						
+Experimental Factor Name	GENOTYPE					
+Experimental Factor Type	genotype					
+Experimental Factor Term Source REF						
+Experimental Factor Term Accession Number						
+Publication Title	Role of ARABIDOPSIS A-FIFTEEN in regulating leaf senescence involves response to reactive oxygen species and is dependent on ETHYLENE INSENSITIVE2.					
+Publication Author List	Chen GH, Liu CP, Chen SC, Wang LC.					
+PubMed ID	21940719					
+Publication DOI	10.1093/jxb/err278					
+Publication Status	published					
+Publication Status Term Source REF	EFO					
+Publication Status Term Accession Number	EFO_0001796					
+Comment[SecondaryAccession]	GSE18336					
+Comment[GEOLastUpdateDate]	2009-09-30					
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis overexpressing AAF					
+Comment[AEExperimentType]	transcription profiling by array					
+Comment[GEOReleaseDate]	2010-09-29					
+Comment[ArrayExpressSubmissionDate]	2009-09-29					
+SDRF File	E-GEOD-18336.sdrf.txt					

@@ -1,0 +1,52 @@
+Investigation Title	Transcription profiling of Arabidopsis roots - transcriptional and posttranscriptional regulation of transcription factor expression					
+Comment[Submitted Name]	Transcriptional and posttranscriptional regulation of transcription factor expression in Arabidopsis roots.					
+Experimental Design	unknown_experiment_design_type	transcription profiling by array				
+Experimental Design Term Source REF		EFO				
+Comment[AEExperimentType]	transcription profiling by array					
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis root tissues					
+Comment[AEMIAMESCORE]	4					
+Comment[SecondaryAccession]	GSE16468					
+Comment[ArrayExpressReleaseDate]	2009-06-23					
+Comment[ArrayExpressAccession]	E-GEOD-16468					
+Comment[MAGETAB TimeStamp_Version]	2010-08-02 17:55:01 Last Changed Rev: 13058					
+Experimental Factor Name	ORGANISM PART					
+Experimental Factor Type	organism_part					
+Experimental Factor Term Source REF						
+Person Last Name	Lee					
+Person First Name	Ji-Young					
+Person Mid Initials						
+Person Email	jl924@cornell.edu					
+Person Phone						
+Person Fax						
+Person Address	Boyce Thompson Institute, Tower Rd., Ithaca, 14853, USA					
+Person Affiliation	Boyce Thompson Institute					
+Person Roles	submitter					
+Person Roles Term Source REF	The MGED Ontology					
+Quality Control Type						
+Quality Control Term Source REF						
+Replicate Type						
+Replicate Term Source REF						
+Normalization Type						
+Normalization Term Source REF						
+Date of Experiment						
+Public Release Date	2009-06-23					
+PubMed ID	16581911					
+Publication DOI	10.1073/pnas.0510607103					
+Publication Author List	Ji-Young Lee, Juliette Colinas, Jean Y Wang, Daniel Mace, Uwe Ohler, Philip N Benfey					
+Publication Title	Transcriptional and posttranscriptional regulation of transcription factor expression in Arabidopsis roots.					
+Publication Status	published					
+Publication Status Term Source REF	EFO					
+Publication Status Term Accession Number	EFO_0001796					
+Experiment Description	Understanding how the expression of transcription factor (TF) genes is modulated is essential for reconstructing gene regulatory networks. There is increasing evidence that sequences other than upstream noncoding can contribute to modulating gene expression, but how frequently they do so remains unclear. Here, we investigated the regulation of TFs expressed in a tissue-enriched manner in Arabidopsis roots. For 61 TFs, we created GFP reporter constructs driven by each TF's upstream noncoding sequence (including the 5'UTR) fused to the GFP reporter gene alone or together with the TF's coding sequence. We compared the visually detectable GFP patterns with endogenous mRNA expression patterns, as defined by a genome-wide microarray root expression map. Experiment Overall Design: To obtain a comprehensive non-overlapping root expression map which would be compared with promoter GFP fusion lines by imaging, we identified three cell type specific GFP marker lines and profiled transcripts in selected cell types using a cell sorting-microarray technique.					
+Protocol Name	P-G16468-1	P-G16468-2	P-G16468-4	P-G16468-3	P-AFFY-6	Affymetrix:Protocol:ExpressionStat
+Protocol Type	grow	specified_biomaterial_action	nucleic_acid_extraction	labeling	feature_extraction	bioassay_data_transformation
+Protocol Description	Seedlings were grown vertically for 6 days at 22 degree under 16 hours of day and 8 hours of night.	Seeds were surface sterilized with 50% Bleach and 0.1% Tween for 5 minutes and then rinsed 3 times with sterile water. Seeds were stratified at 4ËC for 2 days before being planted on standard media. Standard media is 1X concentration Murashige and Skoog salt mixture (Caisson laboratories), 0.5g/L MES, 1% sucrose, 1% agar and adjusted to pH 5.7 with KOH. Nylon mesh was placed on top of the solidified media and seeds were evenly placed on the mesh in two rows. About 1cm long root tips were harvested and placed in the protoplast solution as described in Birnbaum et al. (2005) Nat. Methods. GFP expressing protoplasts  were isolated from Fluorescence Activated Cell Sorter to collect total RNA.	RNA was extracted using the RNAeasy Micro Kit (Qiagen GmbH)	Biotinylated cRNA was prepared using the two-cycle amplification protocol by Affymetrix.	Title: Affymetrix CEL analysis. Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 
+Protocol Parameters						
+Protocol Hardware						
+Protocol Software					MicroArraySuite 5.0	MicroArraySuite 5.0
+Protocol Contact						
+Protocol Term Source REF						The MGED Ontology
+SDRF File	E-GEOD-16468.sdrf.txt					
+Term Source Name	NCBI Taxonomy		The MGED Ontology	ArrayExpress	EFO	The MGED Ontology
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version						

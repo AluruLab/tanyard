@@ -1,0 +1,49 @@
+Investigation Title	Transcription profiling by array of Arabidopsis cell suspensions after treatment with methyl jasmonate						
+Comment[Submitted Name]	Goossens - A. thaliana cells - Jasmonate						
+Experimental Design	time_series_design	stimulus_or_stress_design	compound_treatment_design	co-expression_design	transcription profiling by array		
+Experimental Design Term Source REF	mo	mo	mo	mo	EFO		
+Comment[AEExperimentType]	transcription profiling by array						
+Comment[ArrayExpressReleaseDate]	2007-12-30						
+Comment[AEMIAMESCORE]	5						
+Comment[ArrayExpressAccession]	E-ATMX-13						
+Comment[MAGETAB TimeStamp_Version]	2010-07-29 14:45:18 Last Changed Rev: 13058						
+Experimental Factor Name	compound	time					
+Experimental Factor Type	compound	time					
+Experimental Factor Term Source REF							
+Person Last Name	Pauwels						
+Person First Name	Laurens						
+Person Mid Initials							
+Person Email	lapau@psb.ugent.be						
+Person Phone	+32(9)3313855						
+Person Fax							
+Person Address	Technologiepark 927						
+Person Affiliation	Plant Systems Biology						
+Person Roles	submitter						
+Person Roles Term Source REF	The MGED Ontology						
+Quality Control Type							
+Quality Control Term Source REF							
+Replicate Type							
+Replicate Term Source REF							
+Normalization Type							
+Normalization Term Source REF							
+Date of Experiment							
+Public Release Date	2007-12-30						
+PubMed ID	18216250						
+Publication DOI	18216250						
+Publication Author List	"Pauwels, Laurens; Morreel, Kris; De Witte, Emilie; Lammertyn, Freya; Van Montagu, Marc; Boerjan, Wout; Inze, Dirk; Goossens, Alain"						
+Publication Title	Mapping methyl jasmonate-mediated transcriptional reprogramming of metabolism and cell cycle progression in cultured Arabidopsis cells						
+Publication Status	journal_article						
+Publication Status Term Source REF	The MGED Ontology						
+Experiment Description	"The transcriptional response of Arabidopsis thaliana cell suspensions following treatment with the stress hormone methyl jasmonate (MeJA) was monitored over time 16 hours after subcultivation. Three time points were included: 30 minutes, 2 hours and 6 hours after elicitation with 50µm MeJA or DMSO as a control."						
+Protocol Name	P-CAGE-25383	P-CAGE-25384	P-AFFY-2	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6	P-CAGE-25473	
+Protocol Type	specified_biomaterial_action	nucleic_acid_extraction	labeling	hybridization	feature_extraction	bioassay_data_transformation	
+Protocol Description	"Samples were vacuum-filtered, immediately frozen in liquid nitrogen, ground and stored at -80."	Total RNA was isolated from 50 mg ground cells using TRIzol (Invitrogen) according to the manufacturers instructions.	Title: Affymetrix in vitro transcription. Description: 	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	"Raw data were transformed using the robust multiarray analysis algorithm (rma) as implemented in the BioConductor affy package. Default background correction, normalization, and summary expression methods were used. "	
+Protocol Parameters		Extracted product;Amplification;					
+Protocol Hardware							
+Protocol Software				MicroArraySuite 5.0	MicroArraySuite 5.0		
+Protocol Contact							
+Protocol Term Source REF				mo		The MGED Ontology	
+SDRF File	E-ATMX-13.sdrf.txt						
+Term Source Name	NCBI Taxonomy		The MGED Ontology	ArrayExpress	mo	EFO	The MGED Ontology
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version							

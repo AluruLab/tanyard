@@ -1,0 +1,29 @@
+Comment[ArrayExpressAccession]	E-GEOD-54573					
+MAGE-TAB Version	1.1					
+Public Release Date	2014-01-31					
+Investigation Title	Identification of target genes of translation-dependent signalling in Arabidopsis					
+Comment[Submitted Name]	Identification of target genes of translation-dependent signalling in Arabidopsis					
+Experiment Description	Changes ins organellar gene expression trigger retrograde signalling. Prolyl-tRNA synthetase (PRORS1) is located in chloroplasts and mitochondria. Thus, prors1-2 mutants are impaired in chloroplast and mitochondrial gene expression. The effects of the prors1-2 mutation on the global transcriptome were investigated with microarray analyses. RNA was extracted from Col-0 (WT, 4-weeks-old) and prors1-2 (38-d-old) leaves of the same developmental stage					
+Term Source Name	ArrayExpress	EFO				
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl				
+Person Last Name	Kleine	Leister	Kleine			
+Person First Name	Tatjana	Dario	Tatjana			
+Person Email	tatjana.kleine@lrz.uni-muenchen.de					
+Person Affiliation	Ludwig-Maximilians-Universität München					
+Person Address	Biologie I, Botanik, Ludwig-Maximilians-Universität München, Großhaderner Straße 2, Planegg, Germany					
+Person Roles	submitter					
+Protocol Name	P-GSE54573-1	P-GSE54573-4	P-GSE54573-5	P-GSE54573-2	P-GSE54573-3	P-GSE54573-6
+Protocol Description	Normalization was done with gcRMA implemented in Flexarray. ID_REF =  VALUE = signal intensity	Biotinlylated cRNA were prepared according to the standard Affymetrix protocol from 5 ug total RNA (Expression Analysis Technical Manual, Affymetrix).	Hybridisation, washing, staining, and scanning procedures were performed as described in the Affymetrix technical manual. A Hybridisation Oven 640 was used	A. thaliana plants were grown on potting soil (Stender) under controlled growth chamber conditions (16 h/8 h light/dark cycles with ~100 umol photons m-2 s-1 on leaf surfaces). Wuxal Super fertilizer (8% N, 8% P2O5, and 6% K2O; MANNA) was used according to the manufacturer’s instructions.	RNA was extracted with the Rneasy Kit (QIAGEN) according to the manufacturer’s instructions	A GeneChip Scanner 3000 was used according to the Affymetrix protocol
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	genotype					
+Experimental Factor Type	genotype					
+Comment[SecondaryAccession]	GSE54573					
+Comment[GEOReleaseDate]	2014-01-31					
+Comment[ArrayExpressSubmissionDate]	2014-01-30					
+Comment[GEOLastUpdateDate]	2014-01-31					
+Comment[AEExperimentType]	transcription profiling by array					
+Pubmed ID	24874869					
+Publication Title	Identification of target genes and transcription factors implicated in translation-dependent retrograde signaling in Arabidopsis.					
+Publication Author List	Leister D, Romani I, Mittermayr L, Paieri F, Fenino E, Kleine T.					
+Publication Status	published					
+SDRF File	E-GEOD-54573.sdrf.txt					

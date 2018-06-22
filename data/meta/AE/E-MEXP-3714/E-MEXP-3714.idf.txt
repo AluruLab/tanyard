@@ -1,0 +1,30 @@
+Comment[ArrayExpressAccession]	E-MEXP-3714						
+Investigation Title	Transcription profiling by array of genes regulated by ahk2 ahk3 in response to cold in Arabidopsis thaliana						
+Comment[Submitted Name]	Transcription profiling by array of genes regulated by ahk2 ahk3 in response to cold in Arabidopsis thaliana						
+Comment[AEExperimentDisplayName]	Transcription profiling by array of genes regulated by ahk2 ahk3 in response to cold in Arabidopsis thaliana						
+Comment[MIAMExpressLogin]	jungmkim						
+Comment[MIAMExpressSubmissionID]	8389						
+Experiment Description	The experiment was designed to enable comparison of ahk2 ahk3 double mutant in response to cold compared with wild types.						
+Experimental Design	in_vivo_design	co-expression_design	growth_condition_design				
+Comment[AEExperimentType]	transcription profiling by array						
+Experimental Factor Name	temperature	genotype					
+Experimental Factor Type	temperature	genotype					
+Person Last Name	JEON						
+Person First Name	JIN						
+Person Email	goodsaramdl@hanmail.net						
+Person Phone	82-62-530-2042						
+Person Affiliation	Chonnam national university						
+Person Address	"Plant biotechnology, 333 yongbongro, buk-gu, Gwang-ju, Gwang-ju, 500-757, South Korea"						
+Person Roles	submitter						
+Person Roles Term Source REF	MGED Ontology						
+Quality Control Type							
+Public Release Date	2013-08-14						
+Comment[ArrayExpressSubmissionDate]	15/08/2012 14:28						
+Publication Status	not yet submitted						
+Protocol Name	P-MTAB-28026	P-MTAB-28027	P-MTAB-28028	P-MTAB-28029	P-MTAB-28030	P-MTAB-28031	P-MTAB-28032
+Protocol Description	"Total RNA was isolated using RNeasy Mini Kit columns (Qiagen, Hilden, Germany). RNA quality was assessed by Agilent 2100 bioanalyser using the RNA 6000 Nano Chip (Agilent Technologies, Amstelveen, The Netherlands), and quantity was determined by ND-1000 Spectrophotometer (NanoDrop Technologies, Inc., DE, USA).(Parameters: Extracted product = total_RNA, Amplification = PCR)"	Equal amounts of RNA from triplicate samples were pooled.	"Arabidopsis thaliana was grown on germination agar plates containing 0.5x Murashige-Skoog (MS) media with vitamins, 1.5% sucrose, 2.5 mM Mes, pH 5.7, and 0.8% agar at 23C with a 16-h photoperiod for 11 days(Parameters: time unit = hours, temperature unit = C, media = 1/2 MS media)"	"Arabidopsis thaliana was grown on germination agar plates containing 0.5x Murashige-Skoog (MS) media with vitamins, 1.5% sucrose, 2.5 mM Mes, pH 5.7, and 0.8% agar at 23C with a 16-h photoperiod for 11 days. For cold treatment, the light-grown seedlings were incubated at 1C for 2 h with white fluorescent light. (Parameters: time unit = seconds, temperature unit = C, media = 1/2 MS media)"	"Total RNA was isolated using RNeasy Mini Kit columns (Qiagen, Hilden, Germany). RNA quality was assessed by Agilent 2100 bioanalyser using the RNA 6000 Nano Chip (Agilent Technologies, Amstelveen, The Netherlands), and quantity was determined by ND-1000 Spectrophotometer (NanoDrop Technologies, Inc., DE, USA).(Parameters: Extracted product = total_RNA, Amplification = PCR)"	"Affymetrix CEL analysis(Parameters: Scanning hardware = GeneChip Scanner 3000 [Affymetrix], Scanning software = MAS/GCOS/GREX [Affymetrix])"	Equal amounts of RNA from triplicate samples were pooled.
+Protocol Type	nucleic_acid_extraction	pool	grow	grow	nucleic_acid_extraction	image_acquisition	pool
+Protocol Term Source REF	MGED Ontology	MGED Ontology	MGED Ontology	MGED Ontology	MGED Ontology	MGED Ontology	MGED Ontology
+Term Source Name	MGED Ontology	ArrayExpress					
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress					
+SDRF File	E-MEXP-3714.sdrf.txt						

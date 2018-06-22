@@ -1,0 +1,26 @@
+Comment[ArrayExpressAccession]	E-GEOD-54676
+MAGE-TAB Version	1.1							
+Public Release Date	2014-08-30
+Investigation Title	Transcription factor ATAF1 integrates carbon starvation responses with trehalose metabolism							
+Comment[Submitted Name]	Transcription factor ATAF1 integrates carbon starvation responses with trehalose metabolism
+Experiment Description	Global transcriptome patterns were obtained from ATAF1-IOE seedlings at 1 h, 2 h and 5 h after estradiol induction or mock treatment, and from mature ATAF1-IOE leaves at 5 h after estradiol induction or mock treatment. To identify genes rapidly responding to elevated ATAF1 expression estradiol induction experiments were performed on ATAF1-IOE seedlings after 1 h, 2 h and 5 h of ATAF1 induction. In addition, expression profiles were obtained from mature leaves after 5 h of ATAF1 induction.							
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl						
+Person Last Name	Balazadeh	Garapati	Feil	Lunn	Van Dijck	Mueller-Roeber	Balazadeh	
+Person First Name	Salma	Prashanth	Regina	John	Patrick	Bernd	Salma	
+Person Mid Initials				E				
+Person Email	balazadeh@mpimp-golm.mpg.de							
+Person Affiliation	MPIMP							
+Person Address	Stitt, MPIMP, Am Muehlenberg 1, Postdam, Germany							
+Person Roles	submitter							
+Protocol Name	P-GSE54676-1	P-GSE54676-5	P-GSE54676-6	P-GSE54676-2	P-GSE54676-8	P-GSE54676-3	P-GSE54676-4	P-GSE54676-7
+Protocol Description	MAS 5.0 ID_REF =  VALUE = log2 MAS 5.0 signal	Labelling, hybridisation, washing, staining, and scanning procedures were performed by an Affymetrix authorized service provider (ATLAS Biolabs, Berlin, Germany) as described in the Affymetrix technical manual	Labelling, hybridisation, washing, staining, and scanning procedures were performed by an Affymetrix authorized service provider (ATLAS Biolabs, Berlin, Germany) as described in the Affymetrix technical manual	After two weeks, seedlings were transferred to half-strength liquid MS medium containing 10 Î¼M Î²-estradiol (treatment) or 0.1% ethanol (mock) for 5 h. Subsequently, seedlings were harvested at 1 h, 2 h and 5 h after estradiol addition. In the case of mature leaves, after 2 weeks of growth in soil, opposing leaves of a whorl were excised and incubated in half-strength liquid MS medium containing 10 Î¼M estradiol (treatment) or 0.1% ethanol (mock) for 5 h.	The two-week-old Arabidopsis seedlings were carefully transferred from plates to pots in a growth chamber with a 16-h day (120 Î¼mol m-2 s-1) and a day/night temperature of 22/16°C and 60/75% RH. The plants were allowed to grow for 2 weeks.	Seeds were surface-sterilized for 1 min in 70% ethanol and then in sterilisation solution (20% sodium hypochlorite) for 30 min. After sterilization, the seeds were sown on half-strength MS medium (Murashige and Skoog, 1962), supplemented with 1% (w/v) sucrose and hygromycin, and solidified with 0.7% (w/v) phytoagar. After imbibition, the seeds were stratified at 4°C for 3 days. The seeds were germinated at 22°C under a 16-h day (140 µmol m-2 s-1) / 8-h night regime. The two-week-old Arabidopsis seedlings were carefully removed from plates and subjected to EST or mock treatments for 1 h, 2 h and 5 h.	RNeasy Plant Mini Kit (Qiagen)	Labelling, hybridisation, washing, staining, and scanning procedures were performed by an Affymetrix authorized service provider (ATLAS Biolabs, Berlin, Germany) as described in the Affymetrix technical manual
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	TREATMENT	TIME	AGE	ORGANISM PART				
+Experimental Factor Type	treatment	time	age	organism part				
+Comment[SecondaryAccession]	GSE54676							
+Comment[GEOReleaseDate]	2014-08-30							
+Comment[ArrayExpressSubmissionDate]	2014-02-04							
+Comment[GEOLastUpdateDate]	2014-08-31							
+Comment[AEExperimentType]	transcription profiling by array							
+SDRF File	E-GEOD-54676.sdrf.txt

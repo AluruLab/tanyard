@@ -1,0 +1,52 @@
+Investigation Title	Transcriptional profiling after inhibition of cellulose synthesis by TA and IXB in Arabidopsis thaliana suspension cells							
+Comment[Submitted Name]	Transcriptional profiling after inhibition of cellulose synthesis by TA and IXB in Arabidopsis thaliana suspension cells							
+Experimental Design	compound_treatment_design	transcription profiling by array						
+Experimental Design Term Source REF		EFO						
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[AEExperimentDisplayName]	Transcriptional profiling after inhibition of cellulose synthesis by thaxtomin and isoxaben in Arabidopsis thaliana suspension cells							
+Comment[SecondaryAccession]	GSE17824							
+Comment[ArrayExpressReleaseDate]	2009-09-15							
+Comment[AEMIAMESCORE]	4							
+Comment[ArrayExpressAccession]	E-GEOD-17824							
+Comment[MAGETAB TimeStamp_Version]	2010-08-03 12:53:38 Last Changed Rev: 13058							
+Experimental Factor Name	compound	dose						
+Experimental Factor Type	compound	dose						
+Experimental Factor Term Source REF								
+Person Last Name	Beaudoin							
+Person First Name	Nathalie							
+Person Mid Initials								
+Person Email	Nathalie.Beaudoin@usherbrooke.ca							
+Person Phone								
+Person Fax								
+Person Address	"Departement de Biologie, Faculte des Sciences, Universite de Sherbrooke, 2500, Blvd Universite, Sherbrooke, J1K 2R1, CANADA"							
+Person Affiliation	Universite de Sherbrooke							
+Person Roles	submitter							
+Person Roles Term Source REF	The MGED Ontology							
+Quality Control Type								
+Quality Control Term Source REF								
+Replicate Type								
+Replicate Term Source REF								
+Normalization Type								
+Normalization Term Source REF								
+Date of Experiment								
+Public Release Date	2009-09-15							
+PubMed ID	19198845							
+Publication DOI	10.1007/s00299-009-0670-x							
+Publication Author List	"Isabelle Duval, Nathalie Beaudoin"							
+Publication Title	Transcriptional profiling in response to inhibition of cellulose synthesis by thaxtomin A and isoxaben in Arabidopsis thaliana suspension cells.							
+Publication Status	published							
+Publication Status Term Source REF	EFO							
+Publication Status Term Accession Number	EFO_0001796							
+Experiment Description	"Transcriptional profiling after inhibition of cellulose synthesis by thaxtomin A and isoxaben in Arabidopsis thaliana suspension cells; Perturbations in the cellulose content of the plant cell wall lead to global modifications in cellular homeostasis, as seen in cellulose synthase mutants or after inhibiting cellulose synthesis. In particular, application of inhibitors of cellulose synthesis such as thaxtomin A (TA) and isoxaben (IXB) initiates a programmed cell death (PCD) in Arabidopsis thaliana suspension cells that is dependent on de novo gene transcription. To further understand how TA and IXB activate PCD, a whole genome microarray analysis was performed on mRNA isolated from Arabidopsis suspension cells exposed to TA and IXB. More than 75% of the genes upregulated by TA were also upregulated by IXB, including genes encoding cell wall-related and calcium-binding proteins, defence/stress-related transcription factors, signalling components and cell death-related proteins. Comparisons with published transcriptional analyses revealed an important subset of genes generally induced in response to various biotic and abiotic stress. Experiment Overall Design: TA,  IXB and methanol (control) were added to Arabidopsis thaliana suspension cells three days after sub-culture. Cells were harvested for RNA isolation and frozen in liquid nitrogen after 6 hours of contact with the inhibitors. Samples consisted of four replicates for each condition.  A total of 12 Affymetrix GeneChipsÂ® were used in this study, which correspond to 12 RNA samples from the four biological replicates for each of the TA, IXB or methanol addition."							
+Protocol Name	P-G17824-2	P-G17824-6	P-G17824-1	P-G17824-5	P-G17824-3	P-AFFY-6	P-G17824-4	P-G17824-7
+Protocol Type	specified_biomaterial_action	specified_biomaterial_action	grow	nucleic_acid_extraction	labeling	feature_extraction	bioassay_data_transformation	bioassay_data_transformation
+Protocol Description	"TA diluted in methanol (10 mM) was added to Arabidopsis cell suspensions at a final concentration of 2 ÂµM. The same volume of methanol (20 ÂµL) was added to all cells. Treatments were carried out the third day after sub-culture, at the beginning of the exponential phase. Samples consisted of four replicates for each condition, and each replicate was the combination of two 250 mL flasks containing 100 mL of cells pooled together before freezing in liquid N2 after 6 h of contact with the inhibitor."	"IXB (1 mM in methanol; Crescent Chemicals Co., Inc., Islandia, NY, USA) was added at a final concentration of 100 nM. The same volume of methanol (20 ÂµL) was added to all cells. Treatments were carried out the third day after sub-culture, at the beginning of the exponential phase. Samples consisted of four replicates for each condition, and each replicate was the combination of two 250 mL flasks containing 100 mL of cells pooled together before freezing in liquid N2 after 6 h of contact with the inhibitor."	"Arabidopsis thaliana ecotype Landsberg erecta suspension cultured cells were grown in Murashige and Skoog (MS) medium (pH 5.7, 0.6 g L-1 MES) supplemented with B5 vitamins and 1 mg L-1 2,4-D. Cells were maintained in the dark under continuous shaking (gyratory shaker) at 120 rpm at 21ÂºC. Suspensions of 100 mL were sub-cultured weekly in 250mL flasks using 3:7 dilution."	"Cells were vacuum-filtered. Then 500Â mg were ground in liquid N2 and mixed vigorously with hot extraction buffer consisting in one part of RNA buffer (100Â mM Tris pHÂ 8, 10Â mM EDTA, 100Â mM LiCl, 1% SDS) and one part of equilibrated phenol heated at 80Â°C. Samples were extracted with chloroform/isoamyl alcohol (24:1) and RNA was precipitated from the supernatant with 4Â M LiCl. Pellets were resuspended in DEPC-treated water and extracted with phenol/chloroform/isoamyl alcohol (25:24:1). RNA was precipitated from the aqueous phase with 3Â M sodium acetate and ethanol. RNA pellets were dissolved in DEPC-treated water."	"Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 10 Âµg total RNA (Expression Analysis Technical Manual, 2001, Affymetrix)."	Title: Affymetrix CEL analysis. Description: 	Robust Multichip Average (RMA) via FlexArray software package (http://genomequebec.mcgill.ca/FlexArray). Data for TA treatment were processed separately from IXB treatment.	Robust Multichip Average (RMA) via FlexArray software package (http://genomequebec.mcgill.ca/FlexArray).  Data for IXB treatment were processed separately from TA treatment.
+Protocol Parameters								
+Protocol Hardware								
+Protocol Software						MicroArraySuite 5.0		
+Protocol Contact								
+Protocol Term Source REF							The MGED Ontology	The MGED Ontology
+SDRF File	E-GEOD-17824.sdrf.txt							
+Term Source Name	NCBI Taxonomy		The MGED Ontology	ArrayExpress	EFO	The MGED Ontology		
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php		
+Term Source Version								

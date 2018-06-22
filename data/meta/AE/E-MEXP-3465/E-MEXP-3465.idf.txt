@@ -1,0 +1,31 @@
+Comment[ArrayExpressAccession]	E-MEXP-3465						
+Investigation Title	The embryonic leaf identity gene FUSCA3 also regulates vegetative phase transitions by negatively regulating ethylene action in Arabidopsis						
+Comment[Submitted Name]	The embryonic leaf identity gene FUSCA3 also regulates vegetative phase transitions by negatively regulating ethylene action in Arabidopsis						
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis with ectopic expression of FUS3						
+Comment[MIAMExpressLogin]	shelleylumba						
+Comment[MIAMExpressSubmissionID]	7927						
+Experiment Description	The embryonic temporal regulator FUSCA3 (FUS3) plays major roles in the establishment of embryonic leaf identity and regulation of developmental timing. Loss-of-function mutations of this B3-domain transcription factor result in replacement of cotyledons with leaves and precocious germination, while constitutive misexpression causes the conversion of leaves into cotyledon-like organs and delays vegetative and reproductive phase transitions. To identify downstream targets of FUS3 involved in vegetative phase transitions, we performed microarray analysis on seedlings that transiently activate FUS3 using the AtML1:FUS3-GR-DEX inducible system. Using this construct, FUS3 is ectopically expressed in the ML1 or epidermal layer and becomes activated upon addition of dexamethasone. We found that activation of FUS3 after germination dampens the expression of genes involved in the biosynthesis and response to the plant hormone ethylene, while a loss-of-function fus3 mutant shows many phenotypes consistent with increased ethylene signaling. This FUS3-dependent regulation of ethylene signaling also impinges on timing functions outside of embryogenesis. Loss of FUS3 function results in accelerated vegetative phase change and this is again partially dependent on functional ethylene action. This alteration in vegetative phase transition is dependent on both embryonic and vegetative FUS3 function, suggesting that this important transcriptional regulator controls both embryonic and vegetative developmental timing. This study indicates that the embryonic regulator FUS3 not only regulates the embryonic-to-vegetative phase transition through hormonal regulation, but also functions postembryonically to modulate vegetative phase transitions by negatively regulating ethylene action.						
+Experimental Design	strain_or_line_design	in_vivo_design	co-expression_design	time_series_design	development_or_differentiation_design	growth_condition_design	
+Comment[AEExperimentType]	transcription profiling by array						
+Experimental Factor Name	SamplingTimePoint	Dose	Compound				
+Experimental Factor Type	sampling_time_point	dose	compound				
+Person Last Name	Lumba						
+Person First Name	Shelley						
+Person Email	shelley.lumba@utoronto.ca						
+Person Phone	416 978-0837						
+Person Affiliation	University of Toronto						
+Person Address	Cell and Systems Biology, 25 Willcocks St. Room 4055, Toronto, ON, M5S 3B2, Canada						
+Person Roles	submitter						
+Person Roles Term Source REF	MGED Ontology						
+Quality Control Type	biological_replicate						
+Public Release Date	2011-12-11						
+Comment[ArrayExpressSubmissionDate]	2011-12-02 18:55:40						
+Publication Title	The embryonic leaf identity gene FUSCA3 also regulates vegetative phase transitions by negatively regulating ethylene action in Arabidopsis						
+Publication Status	submitted						
+Protocol Name	P-MTAB-24228	P-MTAB-24229	P-MTAB-24230	P-AFFY-2	P-AFFY-6	Affymetrix:Protocol:Hybridization-Unknown	Affymetrix:Protocol:MAS4:ExpressionCall
+Protocol Description	Wild-type Columbia seeds transformed with the ML1:FUS3:GR construct were sterilized by vigorously shaking in 800 uL of 20% bleach (7:3) for 5 minutes and rinsed 5X in sterilized water. Seeds were sown on filter paper placed above 0.5X MS 0.8% agar media plates and imbibed for five days at 4 degrees C. To minimize the effects of biological variation, we followed a pooling strategy after Zhu et al. (2003) in which approximately 100 individual plants per replicate experiment were harvested and pooled before RNA extraction and hybridization. The seedlings were then transferred to 20 degrees C for five days. Shoot tissue from seedlings were collected for RNA isolation (Day 5). The remaining seedlings on the filter paper were transferred to either MS plates consisting of 1 ﾵM DEX or the same amount of DMSO. Two and four days after the transfer, shoot tissue was collected from seedlings to obtain RNA samples for Day 7 and Day 9, respectively. The above protocol was repeated to obtain replicate samples.<br>(Parameters: time unit = seconds, temperature unit = C, media = 1/2 x MS)	Five-day old seedlings on the filter paper were transferred to either MS plates consisting of 1 ﾵM DEX or the same amount of DMSO. Two and four days after the transfer, shoot tissue was collected from seedlings to obtain RNA samples for Day 7 and Day 9, respectively. 	Five, seven and nine-day old seedlings were ground in liquid nitrogen. Total RNA was extracted by a Trizol-based method.  (Parameters: Extracted product = total_RNA, Amplification = none)	P-AFFY-2	P-AFFY-6	Affymetrix:Protocol:Hybridization-Unknown	Affymetrix:Protocol:MAS4:ExpressionCall
+Protocol Type	grow	specified_biomaterial_action	nucleic_acid_extraction	labelling	image_acquisition	hybridization	bioassay_data_transformation
+Protocol Term Source REF	MGED Ontology	MGED Ontology	MGED Ontology	ArrayExpress	ArrayExpress	ArrayExpress	ArrayExpress
+Term Source Name	MGED Ontology	ArrayExpress					
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress					
+SDRF File	E-MEXP-3465.sdrf.txt						

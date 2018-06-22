@@ -1,0 +1,50 @@
+Investigation Title	Genome-wide gene expression analysis of lbd mutants compared to wild type							
+Comment[Submitted Name]	Genome-wide gene expression analysis of lbd mutants compared to wild type							
+Comment[AEExperimentDisplayName]	"Transcription profiling by array of Arabidopsis lbd16, lbd18 single and lbd16 lbd18 double mutant seedlings"							
+Comment[AEExperimentType]	transcription profiling by array							
+Experimental Design	in_vivo_design	co-expression_design	genetic_modification_design	transcription profiling by array				
+Experimental Design Term Source REF		mo	mo	EFO				
+Comment[AEMIAMESCORE]	5							
+Comment[ArrayExpressReleaseDate]	2011-06-01							
+Comment[ArrayExpressAccession]	E-MEXP-1399							
+Comment[MAGETAB TimeStamp_Version]	2010-08-09 21:44:51 Last Changed Rev: 13058							
+Experimental Factor Name	genotype							
+Experimental Factor Type	genotype							
+Experimental Factor Term Source REF								
+Person Last Name	hanwoo							
+Person First Name	Lee							
+Person Mid Initials								
+Person Email	blackox3911@hanmail.net							
+Person Phone	82-62-530-2042							
+Person Fax								
+Person Address	"chonnam national university 300 Yongbong-dong, Buk-gu, Gwangju"							
+Person Affiliation	Agricultural Plant Stress Research Center							
+Person Roles	submitter							
+Person Roles Term Source REF	The MGED Ontology							
+Quality Control Type								
+Quality Control Term Source REF								
+Replicate Type								
+Replicate Term Source REF								
+Normalization Type								
+Normalization Term Source REF								
+Date of Experiment								
+Public Release Date	2011-06-01							
+PubMed ID								
+Publication DOI								
+Publication Author List								
+Publication Title								
+Publication Status								
+Publication Status Term Source REF								
+Experiment Description	"The Columbia (Col-0) ecotype of Arabidopsis thaliana was used as wild type. lbd16, lbd18 single and lbd16 lbd18 double mutants were used as mutants. "							
+Protocol Name	P-MEXP-121966	P-MEXP-121968	P-MEXP-121967	P-AFFY-2	Affymetrix:Protocol:Hybridization-FS450_0004[]	P-AFFY-6	Affymetrix:Protocol:MAS4:ExpressionCall	Affymetrix:Protocol:ExpressionStat
+Protocol Type	grow	nucleic_acid_extraction	pool	labeling	hybridization	feature_extraction	bioassay_data_transformation	bioassay_data_transformation
+Protocol Description	"The Columbia (Col-0) ecotype of Arabidopsis thaliana was used as wild type. lbd16, lbd18 single and lbd16 lbd18 double mutants were used as mutants. The plants were grown for 12 days under long-day conditions (16h light/ 8h dark) on the ½ Murashige Skoog(MS) medium containing vitamins, 1.5% sucrose, 2.5 mM Mes, pH 5.7, and 0.8% agar."	"Each RNA sample is obtained from seedlings of Arabidopsis. The frozen plant tissue (~100 mg) was ground in tiny mortars dipped in liquid nitrogen. The frozen powder was carefully transfered into 1.5 ml microcentrifuge tubes using small funnels and rubber spatulas also cooled with liquid nitrogen. Total RNA was extracted using RNeasy Mini kit (Qiagen GmbH, Hilden, Germany) according to the manufacturer's instructions and purified with an RNeasy minelute cleanup kit (Qiagen)."	Equal amounts of RNA from triplicate samples were pooled.	Title: Affymetrix in vitro transcription. Description: 		Title: Affymetrix CEL analysis. Description: 	Title: Affymetrix CHP Analysis (ExpressionCall). Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 
+Protocol Parameters		Amplification;Extracted product;						
+Protocol Hardware								
+Protocol Software					MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 4.0	MicroArraySuite 5.0
+Protocol Contact								
+Protocol Term Source REF			The MGED Ontology				mo	The MGED Ontology
+SDRF File	E-MEXP-1399.sdrf.txt							
+Term Source Name	The MGED Ontology		NCBI Taxonomy	tair_dev:1.27	ArrayExpress	mo	EFO	The MGED Ontology
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php		http://www.ncbi.nlm.nih.gov/Taxonomy/	http://www.arabidopsis.org/info/ontologies/	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version				1.27				

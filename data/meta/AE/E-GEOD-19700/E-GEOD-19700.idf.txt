@@ -1,0 +1,37 @@
+Investigation Title	Time of day shapes the Arabidopsis drought transcriptomes							
+Comment[Submitted Name]	Time of day shapes the Arabidopsis drought transcriptomes							
+Experimental Design	transcription profiling by array							
+Experimental Design Term Source REF	EFO							
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis after drought conditions sampled at different times of day							
+Comment[AEMIAMESCORE]	4							
+Comment[SecondaryAccession]	GSE19700							
+Comment[ArrayExpressReleaseDate]	2010-07-30							
+Comment[ArrayExpressAccession]	E-GEOD-19700							
+Comment[MAGETAB TimeStamp_Version]	2010-10-16 00:27:56 Last Changed Rev: 14677							
+Experimental Factor Name	growth condition	time						
+Experimental Factor Type	growth condition	time						
+Person Last Name	Campbell	Campbell	Wilkins	Braeutigam				
+Person First Name	Malcolm	Malcolm	Olivia	Katharina				
+Person Mid Initials	M	M.						
+Person Email		malcolm.campbell@utoronto.ca						
+Person Address		3058ESC, Cell & Systems Biology, University of Toronto, 25 Willcocks Street, Toronto, M5S 3B2, Canada						
+Person Affiliation		University of Toronto						
+Person Roles		submitter						
+Person Roles Term Source REF		The MGED Ontology						
+Public Release Date	2010-07-30							
+PubMed ID	20553421							
+Publication DOI	10.1111/j.1365-313X.2010.04274.x							
+Publication Author List	Wilkins O, Bräutigam K, Campbell MM							
+Publication Title	Time of day shapes Arabidopsis drought transcriptomes.							
+Publication Status	published							
+Publication Status Term Source REF	EFO							
+Publication Status Term Accession Number	EFO_0001796							
+Experiment Description	Under natural conditions, plants experience episodes of drought for periods of days or longer. Plants respond to drought stress by reconfiguring their transcriptome activity. Transcriptome changes in response to drought are dynamic, and are likely to be shaped by mitigating factors such as diel signals. To gain insights into the dynamics of transcriptome reconfiguration in response to gradual soil drying, the drought-induced transcriptomes of Arabidopsis thaliana were examined at four time points over a single diel period â midday, late day, midnight, and pre-dawn. A core set of genes was identified that was responsive to drought, independent of the time of day at which they were measured. Strikingly, the magnitude of the drought-induced changes for these genes varied in a time-of-day-dependent manner.  An additional set of time-of-day-specific drought-responsive genes were also identified. The diurnal patterns of transcript accumulation for these genes was strongly influenced by drought stress. This study indicates that analysis of a single time point would miss suites of drought-responsive genes that are revealed through assessment of the dynamics of diurnal changes, emphasizing the value of characterizing multiple time-of-day-specific drought transcriptomes. 24 arrays total. 4 time points (midday, late day, midnight, pre-dawn). 2 water regimes (well-watered, water-limited). 3 biological replicates per treatment.							
+Protocol Name	P-GSE19700-2	P-GSE19700-3	P-GSE19700-4	P-GSE19700-5	P-GSE19700-6	P-GSE19700-7	P-GSE19700-8	P-GSE19700-1
+Protocol Type	treatment protocol	growth protocol	nucleic acid extraction protocol	nucleic acid labeling protocol	nucleic acid hybridization to array protocol	array scanning and feature extraction protocol	array scanning and feature extraction protocol	normalization data transformation protocol
+Protocol Description	After 28 days of growth without water limitation, no further input of water was given to 50% of plants. The other 50% were watered as before.	Col-0 seeds were planted on Sunshine mix #1. Seeds were cold stratified for 3 days, then transferred to growth chambers with a 12h photoperiod. Plants were watered every other morning with tap water.	Trizol, as per manufacturer's instructions.	Affymetrix protocol: Eukaryotic target preparation: One-cycle target labeling assay.	Affymetrix protocol: Eukaryotic target preparation: Eukaryotic target hybridization.	Affymetrix protocol: GeneChip Scanner 3000 7G Affymetrix 00-0073.	GC-RMA in BioConductor.	ID_REF = <br>VALUE = log2 GC-RMA signal
+Protocol Term Source REF	EFO	EFO	EFO	EFO	EFO	EFO	EFO	EFO
+SDRF File	E-GEOD-19700.sdrf.txt							
+Term Source Name	The MGED Ontology	ArrayExpress	EFO					
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/					

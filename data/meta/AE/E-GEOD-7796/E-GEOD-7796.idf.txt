@@ -1,0 +1,51 @@
+Investigation Title	Transcription profiling of Arabidopsis thaliana with reduced HSP90 levels					
+Comment[Submitted Name]	Phenotypic Diversity and Altered Environmental Plasticity in Arabidopsis thaliana with Reduced HSP90 Levels					
+Experimental Design	unknown_experiment_design_type	transcription profiling by array				
+Experimental Design Term Source REF		EFO				
+Comment[AEExperimentType]	transcription profiling by array					
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for hsp90 or after RNAi-mediated knockdown of hsp90 expression					
+Comment[ArrayExpressReleaseDate]	2008-06-15					
+Comment[SecondaryAccession]	GSE7796					
+Comment[AEMIAMESCORE]	4					
+Comment[ArrayExpressAccession]	E-GEOD-7796					
+Comment[MAGETAB TimeStamp_Version]	2010-08-07 22:16:11 Last Changed Rev: 13058					
+Experimental Factor Name	genotype					
+Experimental Factor Type	genotype					
+Experimental Factor Term Source REF						
+Person Last Name	Sangster					
+Person First Name	Todd					
+Person Mid Initials	A.					
+Person Email	queitsch@u.washington.edu					
+Person Phone						
+Person Fax						
+Person Address	Whitehead Institute, Nine Cambridge Center, Cambridge, 02141, USA					
+Person Affiliation	Whitehead Institute					
+Person Roles	submitter					
+Person Roles Term Source REF						
+Quality Control Type						
+Quality Control Term Source REF						
+Replicate Type						
+Replicate Term Source REF						
+Normalization Type						
+Normalization Term Source REF						
+Date of Experiment						
+Public Release Date	2008-06-15					
+PubMed ID	17653275					
+Publication DOI	10.1371/journal.pone.0000648					
+Publication Author List						
+Publication Title	Phenotypic diversity and altered environmental plasticity in Arabidopsis thaliana with reduced Hsp90 levels.					
+Publication Status	published					
+Publication Status Term Source REF	EFO					
+Experiment Description	The molecular chaperone HSP90 aids the maturation of a diverse but select set of metastable protein clients, many of which are key to a variety of signal transduction pathways.  HSP90 function has been best investigated in animal and fungal systems, where inhibition of the chaperone has exceptionally diverse effects, ranging from reversing oncogenic transformation to facilitating the acquisition of drug resistance.  Inhibition of HSP90 in the model plant Arabidopsis thaliana uncovers novel morphologies dependent on normally cryptic genetic variation and increases stochastic variation inherent to developmental processes.  The biochemical activity of HSP90 is strictly conserved between animals and plants.   However, the substrates and pathways dependent on HSP90 in plants are poorly understood.  Progress has been impeded by reliance on light-sensitive HSP90 inhibitors due to redundancy in the A. thaliana HSP90 gene family.  Here we present phenotypic and genome-wide expression analyses of A. thaliana with constitutively reduced HSP90 levels achieved by RNAi targeting.  HSP90 reduction affects a variety of quantitative life-history traits, including flowering time and total seed set, and decreases developmental stability.  Further, by quantitative analysis of morphological phenotypes, we demonstrate that HSP90-reduction increases phenotypic diversity in both seedlings and adult plants.  Several morphologies are synergistically affected by HSP90 and growth temperature.  Genome-wide expression analyses also suggest a central role for HSP90 in the genesis and maintenance of plastic responses.  The expression results are substantiated by examination of the response of HSP90-reduced plants to attack by caterpillars of the generalist herbivore Trichoplusia ni.  HSP90 reduction potentiates a more robust herbivore defense response.  In sum, we propose that HSP90 exerts global effects on the environmental responsiveness of plants to many different stimuli.  The comprehensive set of HSP90-reduced lines described here is a vital instrument to further examine the role of HSP90 as a central interface between organism, development, and environment. Experiment Overall Design: Three differerent experiments were performed.  One experiment included lines RNAi-A1, RNAi-A3, and Control-2, with two biological replicates and one technical replicate per line.   The second included lines RNAi-A2, RNAi-B1, RNAi-C1, Control-1, and Control-3, with three biological replicates per line.  The third included the three single-isoform T-DNA insertion lines, along with the Col-0 control, with three biological replicates per line.  See Sangster et al. "Phenotypic Diversity and Altered Environmental Plasticity in Arabidopsis thaliana with Reduced HSP90 Levels" for details of construct construction and further experimental rationale.					
+Protocol Name	P-G7796-2	P-G7796-3	P-G7796-1	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6	
+Protocol Type	nucleic_acid_extraction	nucleic_acid_extraction	labeling	hybridization	feature_extraction	
+Protocol Description	Total RNA was isolated using the SV Total RNA Isolation kit (Promega) protocol on the ground tissue, omitting the DNase treatment in the manufacturerâs protocol.  Eluted total RNA was treated with RQ1 Rnase-free DNase (Promega).  A 65Â&deg;C, 15 min incubation step inactivated the enzyme, instead of the kitâs Stop Solution.  Multiple identical RNA isolations were pooled and concentrated with the (Qiagen) RNeasy  (Qiagen) cleanup protocol.	Total RNA was isolated using the SV Total RNA Isolation kit (Promega) protocol on the ground tissue, omitting the DNase treatment in the manufacturerâs protocol.  Eluted total RNA was treated with RQ1 Rnase-free DNase (Promega).  A 65 C, 15 min incubation step inactivated the enzyme, instead of the kitâs Stop Solution.  Multiple identical RNA isolations were pooled and concentrated with the RNeasy (Qiagen) cleanup protocol.	Standard Affymetrix One-Cycle Eukaryotic Target Labeling Assay (http://www.affymetrix.com/support/technical/manual/expression_manual.affx)	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	
+Protocol Parameters						
+Protocol Hardware						
+Protocol Software				MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact						
+Protocol Term Source REF				mo		
+SDRF File	E-GEOD-7796.sdrf.txt					
+Term Source Name	NCBI Taxonomy	The MGED Ontology	ArrayExpress	EFO	The MGED Ontology	mo
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version						

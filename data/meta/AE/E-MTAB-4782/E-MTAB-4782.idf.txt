@@ -1,0 +1,70 @@
+MAGE-TAB Version	1.1
+Investigation Title	Transcriptome changes associated with relief of sly1-2 seed dormancy through after-ripening or overexpression of the gibberellin-receptor GID1b
+
+Experimental Design	growth condition design	genotype design
+Experimental Design Term Source REF	EFO	EFO
+Experimental Design Term Accession Number	EFO_0001759	EFO_0001748
+
+Experimental Factor Name	environmental history	genotype	sampling time point
+Experimental Factor Type	environmental history	genotype	sampling time point
+Experimental Factor Term Source REF	EFO	EFO	
+Experimental Factor Term Accession Number	EFO_0004444	EFO_0000513	
+
+Person Last Name	Steber	Nelson
+Person First Name	Camille	Sven
+Person Mid Initials	M	K
+Person Email	csteber@wsu.edu	Sven.Nelson100@email.wsu.edu
+Person Phone	(509) 335-2887	
+Person Fax		
+Person Affiliation	USDA-ARS, Wheat Health, Genetics, and Quality Research Unit, Pullman, Washington, USA  Department of Crop and Soil Science, Washington State University, Pullman, Washington, USA 99164-6420  Molecular Plant Sciences Program, Washington State University, Pullman, Washington, USA 99164-6420	Molecular Plant Sciences Program, Washington State University, Pullman, Washington, USA 99164-6420  USDA-ARS, Plant Genetics Research Unit, 205 Curtis Hall, University of Missouri, Columbia, MO 65211
+Person Address		
+Person Roles	investigator	data analyst;experiment performer;submitter
+Person Roles Term Source REF		
+Person Roles Term Accession Number		
+
+Quality Control Type
+Quality Control Term Source REF
+Quality Control Term Accession Number
+
+Replicate Type
+Replicate Term Source REF
+Replicate Term Accession Number
+
+Normalization Type
+Normalization Term Source REF
+Normalization Term Accession Number
+
+Date of Experiment	2011-08-05
+Public Release Date	2017-05-09
+
+PubMed ID	28628628
+Publication DOI	10.1371/journal.pone.0179143
+Publication Author List	Sven K. Nelson and Camille M. Steber
+Publication Title	Transcriptional mechanisms associated with seed dormancy and dormancy loss in the gibberellin-insensitive sly1-2 mutant of Arabidopsis thaliana
+Publication Status	in preparation
+Publication Status Term Source REF	
+Publication Status Term Accession Number	
+
+Experiment Description	Seed dormancy is the inability for seeds to germinate even under favorable conditions.  In the Arabidopsis Landsberg <i>erecta</i> (L<i>er</i>) ecotype, 2 weeks of dry storage, called after-ripening, is sufficient to relieve seed dormancy.  Such seed is referred to as after-ripened (AR) and has a high rate of germination when imbibed.  While widespread transcriptome changes have been previously observed with seed dormancy loss, this experiment was designed to characterize transcriptional changes associated with the increased seed dormancy and dormancy loss of the gibberellin (GA) hormone-insensitive <i>sleepy1-2</i> (<i>sly1-2</i>) mutant.  The <i>SLY1</i> gene encodes the F-box subunit of an SCF E3 ubiquitin ligase needed for GA-triggered proteolysis of DELLA repressors of seed germination.  In the <i>sly1-2</i> mutant, GA-directed DELLA proteolysis cannot occur leading to DELLA protein accumulation and increased dormancy.  <i>sly1-2</i> mutant seeds are fully dormant at 2 weeks of dry storage (0% germination), but germinate well with very long after-ripening (51% germination after 19 months).  <i>sly1-2</i> seed germination can also be rescued by overexpression of the GA receptor, <i>GA-INSENSITIVE DWARF1b</i> (<i>GID1b-OE</i>), which resulted in 74% germination at 2 weeks of dry storage.  In this experiment, we compared seeds of wild-type L<i>er</i> at 2 weeks of dry storage (non-dormant), dormant <i>sly1-2</i> (2 weeks of dry storage; <i>sly1-2</i>(D)), long after-ripened <i>sly1-2</i> (non-dormant, 19 months of dry storage; <i>sly1-2</i>(AR)), and <i>sly1-2 GID1b-OE</i> (non-dormant, 2 weeks of dry storage).  Samples were collected at two imbibition timepoints: 1) a 0h timepoint after 4 days at 4°C, and 2) a 12h timepoint after 4 days at 4°C followed by 12 hours in the light at 22°C.  These timepoints were selected to capture the transcriptomes at an early and late time in Phase II of imbibition.  Using this experimental design we were able to determine transcriptome differences associated with seed dormancy in the <i>sly1-2</i> mutation (L<i>er</i> wt vs <i>sly1-2</i>(D)), and changes associated with <i>sly1-2</i> dormancy loss through dry after-ripening (<i>sly1-2</i>(AR) vs <i>sly1-2</i>(D)) or through <i>GID1b</i>-overexpression (<i>sly1-2 GID1b-OE</i> vs <i>sly1-2</i>(D)).  Seeds for L<i>er</i> wt, <i>sly1-2</i>(D), and <i>sly1-2 GID1b-OE</i> were grown alongside each other under the same conditions and after-ripened for 2 weeks.  Seeds from <i>sly1-2</i>(AR) were grown under the same conditions in advance of the other lines to allow for the long after-ripening requirement.  RNA was extracted using a phenol-chloroform-based extraction from three biological replicates per treatment.
+
+Protocol Name	P-MTAB-50207	P-MTAB-50211	P-MTAB-50212	P-MTAB-50210	P-MTAB-50208	P-MTAB-50209
+Protocol Type	sample collection protocol	nucleic acid hybridization to array protocol	array scanning and feature extraction protocol	nucleic acid labeling protocol	nucleic acid extraction protocol	normalization data transformation protocol
+Protocol Term Source REF	EFO	EFO	EFO	EFO	EFO	EFO
+Protocol Term Accession Number	EFO_0005518	EFO_0003815	EFO_0003814	EFO_0003813	EFO_0002944	EFO_0003816
+Protocol Description	In this experiment, we compared seeds of wild-type L<i>er</i> at 2 weeks of dry storage (non-dormant), dormant <i>sly1-2</i> (2 weeks of dry storage; <i>sly1-2</i>(D)), long after-ripened <i>sly1-2</i> (non-dormant, 11 months of dry storage; <i>sly1-2</i>(AR)), and <i>sly1-2 GID1b-OE</i> (non-dormant, 2 weeks of dry storage). For RNA extraction, 20 mg of dry seed per sample was sown on filter paper moistened with sterile 0.5× MS salts buffered with 5mM MES, pH 5.5.  Seeds were collected at two timepoints: 1) a 0h timepoint harvested immediately after cold stratification for 4 d at 4°C in the dark, and 2) a 12h timepoint incubated 12h in the light at 22°C following the 4 d cold stratification at 4°C.	The 3.75 µgs of cDNA was fragmented and biotinylated and that entire amount was hybridized to the GeneChip Arabidopsis ATH1 Genome Array.	GeneChips were scanned according to Affymetrix protocols.	Amplification and labeling was performed using the Applause 3’-Amp System (p/n 5100-24) and the Encore Biotin Module (p/n 4200-12) from the company NuGEN.  Based on the manufacturer’s protocols, we started with 200 ng of total RNA for the 3’-amp kit and 3.75 µg of amplified cDNA (generated from the amp kit) was used as the input for the Biotin module.	RNA isolation was performed using a phenol-chloroform extraction developed for tough tissues such as Arabidopsis seeds based on Oñate-Sánchez and Vicente-Carbajosa (2008) with an additional chloroform extraction and the use of Phase Lock (5-PRIME) gel tubes to allow complete recovery of the aqueous phase without risk of organic phase contamination.	Data analysis of raw CEL files was performed using the LIMMA package as part of the Bioconductor suite of tools in the R statistical programming environment (Gentleman et al., 2004; Smyth, 2005; R Core Team, 2014).  Background correction and normalization was performed by Robust Multi-array Average (RMA), control probesets were removed, and significance was determined by False Discovery Rate (FDR) with α = 0.05 (Benjamini and Hochberg, 1995; Irizarry et al., 2003).
+Protocol Parameters						
+Protocol Hardware						
+Protocol Software						
+Protocol Contact						
+
+Term Source Name	EFO	ArrayExpress
+Term Source File	http://www.ebi.ac.uk/efo/	http://www.ebi.ac.uk/arrayexpress/
+Term Source Version	2.38
+
+SDRF File	E-MTAB-4782.sdrf.txt
+Comment [Submitted Name]	Transcriptome changes associated with relief of sly1-2 seed dormancy through after-ripening or overexpression of the gibberellin-receptor GID1b
+Comment [AEMIAMEScore]	5
+Comment [AEExperimentType]	transcription profiling by array
+Comment[ArrayExpressAccession]	E-MTAB-4782
+Comment [AEExperimentDisplayName]	Transcriptome changes associated with relief of sly1-2 seed dormancy through after-ripening or overexpression of the gibberellin-receptor GID1b
+Comment [RelatedExperiment]	E-MTAB-6135

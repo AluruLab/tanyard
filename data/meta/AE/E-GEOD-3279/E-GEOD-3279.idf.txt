@@ -1,0 +1,49 @@
+Investigation Title	Transcription profiling of Arabidopsis SOC1 gain of function mutants	
+Comment[Submitted Name]	Gain-of-function mutants of SOC1 vs soc1-2	
+Experimental Design	unknown_experiment_design_type	transcription profiling by array	
+Experimental Design Term Source REF		EFO	
+Comment[AEMIAMESCORE]	3	
+Comment[ArrayExpressReleaseDate]	2008-06-12	
+Comment[SecondaryAccession]	GSE3279	
+Comment[ArrayExpressAccession]	E-GEOD-3279	
+Comment[MAGETAB TimeStamp_Version]	2010-08-04 20:39:32 Last Changed Rev: 13058	
+Experimental Factor Name	
+Experimental Factor Type	
+Experimental Factor Term Source REF	
+Person Last Name	Lee	
+Person First Name	Horim	
+Person Mid Initials	
+Person Email	soc1@hotmail.com	
+Person Phone	
+Person Fax	
+Person Address	Plant Developmental Genetics, Biological Sciences, Seoul National University, San56-1, Seoul National University, Shillim-dong, Kwanak-gu, Seoul, 151-742, Korea	
+Person Affiliation	Seoul National University	
+Person Roles	submitter	
+Person Roles Term Source REF	The MGED Ontology	
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2008-06-12	
+PubMed ID	
+Publication DOI	
+Publication Author List	
+Publication Title	
+Publication Status	
+Publication Status Term Source REF	
+Experiment Description	To find downstream target of SOC1, we attemted global expression profiles in gain-of-function mutants of SOC1; To find downstream target of SOC1, we attemted global expression profiles in soc1-101D: ; Expt. 1 GSM73643, GSM73646; Expt. 2 GSM73647, GSM73648; Expt. 3 GSM73649, GSM73650; To find downstream target of SOC1, we attemted global expression profiles in soc1-2: GSM73649, GSM73651; To find downstream target of SOC1, we attemted global expression profiles in gain-of-function mutants of SOC1: ; GSM73643, GSM73646, GSM73647, GSM73648, GSM73649, GSM73650 Experiment Overall Design: To more completely identify the downstream targets of SOC1, we attemted to compare the expression profiles of g-o-f mutant of SOC1 with the results of soc1-2 mutant	
+Protocol Name	P-G3279-3	P-G3279-2	P-G3279-1	
+Protocol Type	grow	grow	grow	
+Protocol Description	soc1-2 was grown in long days (16L:8D) for 7 days after germination at 21 degree Celcius	soc1-101D was grown in long days (16L:8D) for 7 days after germination at 21 degree Celcius	Col was grown in long days (16L:8D) for 7 days after germination at 21 degree Celcius	
+Protocol Parameters	
+Protocol Hardware	
+Protocol Software	
+Protocol Contact	
+Protocol Term Source REF	
+SDRF File	E-GEOD-3279.sdrf.txt	
+Term Source Name	NCBI Taxonomy	The MGED Ontology	ArrayExpress	EFO	The MGED Ontology	
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version						

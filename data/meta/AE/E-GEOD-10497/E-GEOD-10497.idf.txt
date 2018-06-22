@@ -1,0 +1,52 @@
+Investigation Title	Transcription profiling of Arabidopsis root developmental zones after iron deficiency (-Fe) treatment						
+Comment[Submitted Name]	Expression analysis of root developmental zones after iron deficiency (-Fe) treatment						
+Experimental Design	unknown_experiment_design_type	transcription profiling by array					
+Experimental Design Term Source REF		EFO					
+Comment[AEExperimentType]	transcription profiling by array						
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis root developmental zones after iron deprivation						
+Comment[AEMIAMESCORE]	4						
+Comment[ArrayExpressReleaseDate]	2008-06-11						
+Comment[SecondaryAccession]	GSE10497						
+Comment[ArrayExpressAccession]	E-GEOD-10497						
+Comment[MAGETAB TimeStamp_Version]	2010-07-29 20:00:29 Last Changed Rev: 13058						
+Experimental Factor Name	ORGANISM PART	GROWTH CONDITION					
+Experimental Factor Type	organism_part	growth_condition					
+Experimental Factor Term Source REF							
+Person Last Name	Long						
+Person First Name	Terri Anita						
+Person Mid Initials							
+Person Email	tlong@duke.edu						
+Person Phone							
+Person Fax							
+Person Address	Philip Benfey, Biology, Duke University, Box 90338, Durham, 27707, USA						
+Person Affiliation	Duke University						
+Person Roles	submitter						
+Person Roles Term Source REF	The MGED Ontology						
+Quality Control Type							
+Quality Control Term Source REF							
+Replicate Type							
+Replicate Term Source REF							
+Normalization Type							
+Normalization Term Source REF							
+Date of Experiment							
+Public Release Date	2008-06-11						
+PubMed ID	18436742						
+Publication DOI	10.1126/science.1153795						
+Publication Author List	Dinneny JR, Long TA, Wang JY, Jung JW, Mace D, Pointer S, Barron C, Brady SM, Schiefelbein J, Benfey PN.						
+Publication Title	Cell Identity Mediates the Response of Arabidopsis Roots to Abiotic Stress.						
+Publication Status	published						
+Publication Status Term Source REF	EFO						
+Publication Status Term Accession Number	EFO_0001796						
+Experiment Description	To gain a genome-scale understanding of the role that developmental processes play in regulating stimulus response, we examined the effect of -Fe stress on gene expression along the longitudinal axis of the root.  Since roots grow from stem cells located near the tip, the position of cells along the longitudinal axis can be used as a proxy for developmental time, with distance from the root tip correlating with increased differentiation.  To estimate the role developmental stage plays in regulating salt response, roots were dissected into four longitudinal zones (LZ data set) after transfer to standard or -Fe media and transcriptionally profiled. Little is known about how developmental cues affect the way cells interpret their environment.  Here we characterize the transcriptional response of different cell layers and developmental stages of the Arabidopsis root to high salinity and find that transcriptional responses are highly constrained by developmental parameters.  These transcriptional changes lead to the differential regulation of specific biological functions in subsets of cell-layers, several of which correspond to observable physiological changes.  We show that known stress pathways primarily control semi-ubiquitous responses and use mutants that disrupt epidermal patterning to reveal cell-layer specific and inter-cell-layer effects.  By performing a similar analysis using iron-deprivation we identify common cell-type specific stress responses and environment-independent biological functions that define each cell type. Experiment Overall Design: Roots were grown under standard conditions for 5 days then transfered to standard media or iron deficient (-Fe) conditions (0.3mM Ferrozine in MS media containing no ferrous sulfate).  24 hours after transferring seedlings, roots were cut into 4 regions using a razor blade.  The first cut was made ~150 Âµm from the root tip at the point where the shape of the root transitions from conical to cylindrical (Zone 1).  The second cut was made ~200 Âµm above the first cut, at the point were the root becomes less optically dense, which marks the approximate end of the meristematic zone (Zone 2).  The third cut was made ~200-300 Âµm above the second cut, just below the region where root hairs begin to emerge (Zone 3).  The fourth cut was made ~1 mm above the third cut (Zone 4).						
+Protocol Name	P-G10497-1	P-G10497-2	P-G10497-4	P-G10497-3	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6	Affymetrix:Protocol:ExpressionStat
+Protocol Type	grow	specified_biomaterial_action	nucleic_acid_extraction	labeling	hybridization	feature_extraction	bioassay_data_transformation
+Protocol Description	Seeds were surface sterilized for 2 minutes in 70% ethanol, the ethanol was removed, then replaced with 30% Bleach and 0.02% Triton X-100 for 15 minutes. Seeds were rinsed 3 times with sterile water, stratified for 4ËC for 2 days, then placed on standard media. Standard media is 1X Murashige and Skoog salt mixture in which ferrous sulfate is replaced with 100mM Fe(III)-EDTA, 0.5g/L MES, 1% sucrose, 1% agar and adjusted to pH 5.7 with KOH.  â"Fe media is 1X Murashige and Skoog salt mixture in which ferrous sulfate is replaced with 0.3mM Ferrozine.   Nylon mesh was placed on top of the solidified media and seeds were evenly placed on the mesh in a single row at a density of ~2/cm for all experiments.	Seedlings were grown for 5 days before transfer to standard media or standard -Fe media.  24 hours after transferring seedlings to media, roots were cut into 4 regions using a razor blade.	Approximately 15 roots were dissected for each replicate and pooled.  Samples were collected into RNA extraction buffer and briefly sonicated to disrupt the tissue.  RNA was extracted using the RNAeasy Micro Kit (Qiagen GmbH).	Fragmented cRNA probes were prepared using the two-cycle amplification protocol by Affymetrix.	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 
+Protocol Parameters							
+Protocol Hardware							
+Protocol Software					MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 5.0
+Protocol Contact							
+Protocol Term Source REF					mo		The MGED Ontology
+SDRF File	E-GEOD-10497.sdrf.txt						
+Term Source Name	NCBI Taxonomy		The MGED Ontology	ArrayExpress	EFO	The MGED Ontology	mo
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version							

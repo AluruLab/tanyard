@@ -1,0 +1,52 @@
+Investigation Title	Transcription profiling of Arabidopsis response to aluminum stress					
+Comment[Submitted Name]	Microarray Analysis of Arabidopsis Genome Response to Aluminum Stress					
+Experimental Design	unknown_experiment_design_type	transcription profiling by array				
+Experimental Design Term Source REF		EFO				
+Comment[AEExperimentType]	transcription profiling by array					
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis grown in medium containing aluminium sulphate					
+Comment[ArrayExpressReleaseDate]	2008-06-15					
+Comment[SecondaryAccession]	GSE7334					
+Comment[AEMIAMESCORE]	4					
+Comment[ArrayExpressAccession]	E-GEOD-7334					
+Comment[MAGETAB TimeStamp_Version]	2010-08-07 18:03:43 Last Changed Rev: 13058					
+Experimental Factor Name	GROWTH CONDITION					
+Experimental Factor Type	growth_condition					
+Experimental Factor Term Source REF						
+Person Last Name	Goodwin					
+Person First Name	Shirlean					
+Person Mid Initials	B.					
+Person Email	sgoodwin@memphis.edu					
+Person Phone						
+Person Fax						
+Person Address	Feinstone Center for Genomic Research, Biology, University of Memphis, 3774 Walker Ave, Memphis, 38152, USA					
+Person Affiliation	University of Memphis					
+Person Roles	submitter					
+Person Roles Term Source REF						
+Quality Control Type						
+Quality Control Term Source REF						
+Replicate Type						
+Replicate Term Source REF						
+Normalization Type						
+Normalization Term Source REF						
+Date of Experiment						
+Public Release Date	2008-06-15					
+PubMed ID						
+Publication DOI	10.1007/s10535-009-0012-4					
+Publication Author List	S. B. Goodwin and T. R. Sutter					
+Publication Title	Microarray analysis of Arabidopsis genome response to aluminum stress 					
+Publication Status	published					
+Publication Status Term Source REF	EFO					
+Publication Status Term Accession Number	EFO_0001796					
+Experiment Description	To better understand the mechanisms involved in aluminum (Al) toxicity and tolerance in plants, microarray technology was used to evaluate changes in gene expression in Arabidopsis thaliana under Al stress. With the use of Affymetrix Arabidopsis ATH1 Genechip, a comparison of RNA expression profiles was made between control and Al-treated Arabidopsis seedlings. A total of 256 genes were identified as Al-responsive. Ninety-four genes were shown to be up-regulated and 162 were down-regulated; comprising 1.1% of the 24,000 Arabidopsis genes. Real-time RT-PCR was used to confirm the microarray data. RNAs associated with known protein functions were classified into categories. The analysis showed that a large number of transcription factors and several putative signaling components were up-regulated by aluminum. Chloroplast structural and photosynthetic genes were, in general, down-regulated. A number of previously identified Al-responsive genes showed similar expression pattern changes in this study. For example, GST, Auxin-regulated, Peroxidase, and Chitinase, were found to be up-regulated by Al-stress, whereas, genes such as Wali 3 and Wali 4, were down-regulated. We also identified several up-regulated genes involved in vacuolar signaling, sorting and docking. Three genes were also up-regulated by Al-stress, Ras GTP-binding protein, ABC-cassette binding, and the AtELP1 receptor genes, have previously been documented as responsive to drought and/or oxidative stress and may play important roles the detoxification of Al ions by transportation and storage into root vacuoles. Ultrastructural changes in the roots tips cells of Arabidopsis were evaluated using TEM and EDXMA with SEM. Results using combined TEM and SEM-EDXMA showed that Al accumulattion in the root tip of Arabidopsis was detectable. The coupling these techniques can be useful for measuring Al in situ in cellular and sub cellular section of plant roots. SUBMITTER_CITATION: Goodwin, S., Sutter, TR.: (2008) Microarray Analysis of Arabidopsis Genome Response to Aluminum Stress. Biologia Plantarum 52 (2): 191 - 196. Experiment Overall Design: 2 biological replications for a total of 4 Affymetrix GeneChips, control and Al-treated, total RNA was extracted from 100 pooled Arabidopsis seedlings for each GeneChip.					
+Protocol Name	P-G7334-1	P-G7334-3	P-G7334-2	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6	Affymetrix:Protocol:ExpressionStat
+Protocol Type	specified_biomaterial_action	nucleic_acid_extraction	labeling	hybridization	feature_extraction	bioassay_data_transformation
+Protocol Description	Seedlings with 2- to 3 cm root length were removed from agar plates and submerged in 1000 ml flasks containing 500 ml of modified one-sixth MS liquid medium containing 50 micromolar aluminum and 1% sucrose added as a carbon source for 16 hr.	100 seedlings were harvested at following 16 hr Al or mock treatment.Tissue was ground to a fine powder in liquid nitrogen using a pestle and mortar and total RNA was extracted using the following method. Each 0.5 to 1 g of powdered tissue were added to 5 cm3 of STAT-60 (Tel-Test, TX). The mixture was homogenized and stored on ice for 10 min. Chloroform/isoamyl (24:1, v:v) ETOH was added to the homogenate and centrifuged at 12000g for 30 min (40C). Following the transfer of the aqueous phase to a fresh tube, RNA was precipitated with isopropanol overnight at â"200C, pelleted by centrifugation at 12000g for 30 min (40C), and resuspended 0.1 cm3 of RNase-free water. Total RNA was quantified using Beckman Spectrophotometer, and qualified by running 1 Î¼g cm-1 of each sample onto a RNA Lab-On-A-Chip using a Agilent Bioanalyzer 2100 (Agilent technologies, Mountain View, CA).	Briefly, total RNA (8 mg) was synthesized to cDNA using the Superscript Double-Stranded cDNA synthesis kit (Invitrogen Corp, Carlsbad, CA) and poly dT-nucleotide primers that contain a sequence recognized by T7 RNA polymerase. The newly synthesized cDNA was used as a template to generate biotin-labeled invitro transcribed (IVT) cRNA using the Bio-Array High Yield RNA transcript labeling kit (Enzo Diagnostics, Inc, Farmingdale, NY).	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 
+Protocol Parameters						
+Protocol Hardware						
+Protocol Software				MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 5.0
+Protocol Contact						
+Protocol Term Source REF				mo		
+SDRF File	E-GEOD-7334.sdrf.txt					
+Term Source Name	NCBI Taxonomy	The MGED Ontology	ArrayExpress	EFO	mo	
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version						

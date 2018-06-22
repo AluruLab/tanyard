@@ -1,0 +1,48 @@
+Investigation Title	Transcription profiling of Arabidopsis mutants (elo2, elo3, drl1-2 and ang4) vs the wild type Ler strain	
+Comment[Submitted Name]	Elongator_apex	
+Experimental Design	strain_or_line_design	genetic_modification_design	transcription profiling by array	transcription profiling by array	
+Experimental Design Term Source REF	mo	mo	EFO	EFO	
+Comment[ArrayExpressReleaseDate]	2005-04-06	
+Comment[AEMIAMESCORE]	4	
+Comment[ArrayExpressAccession]	E-MEXP-300	
+Comment[MAGETAB TimeStamp_Version]	2011-01-23 09:35:55 Last Changed Rev: 14857	
+Experimental Factor Name	genotype	
+Experimental Factor Type	genotype	
+Experimental Factor Term Source REF	
+Person Last Name	Nelissen	Fleury	Bruno	Robles	De Veylder	Cnops	Traas	Micol	Van Montagu	InzÃ©	Van Lijsebettens	Van Hummelen	
+Person First Name	Hilde	Delphine	Leonardo	Pedro	Lieven	Gerda	Jan	JosÃ© Luis	Marc	Dirk	Mieke	Paul	
+Person Mid Initials	
+Person Email												tom.bogaert@vib.be	
+Person Phone												+32 (0)16 34 79 33	
+Person Fax												+32 (0)16 34 79 40	
+Person Address												Herestraat 49	
+Person Affiliation												Micro Array Facility	
+Person Roles												submitter	
+Person Roles Term Source REF													
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2005-04-06	
+PubMed ID	20080602	
+Publication DOI	20080602	
+Publication Author List	Nelissen H, De Groeve S, Fleury D, Neyt P, Bruno L, Bitonti MB, Vandenbussche F, Van der Straeten D, Yamaguchi T, Tsukaya H, Witters E, De Jaeger G, Houben A, Van Lijsebettens M	
+Publication Title	Plant Elongater regulates auxin-related genes during RNA polymerase II transcription elongation	
+Publication Status	journal_article	
+Publication Status Term Source REF	The MGED Ontology	
+Experiment Description	The goal is to compare each mutant (elo2, elo3, drl1-2 and ang4) to the wild-type Ler. The experimental design comprised 3 replicates of each genotype, one replicate corresponding to one RNA extraction on a independent pool of plants. 	
+Protocol Name	P-MEXP-7779	P-MEXP-7780	P-MEXP-7781	P-MEXP-7782	P-MEXP-8074	P-MEXP-7784	P-AFFY-6	P-MEXP-7785	Affymetrix:Protocol:ExpressionStat	
+Protocol Type	grow	specified_biomaterial_action	pool	nucleic_acid_extraction	labeling	hybridization	feature_extraction	bioassay_data_transformation	bioassay_data_transformation	
+Protocol Description	The growth chamber conditions were: 16/8 hrs (d/n) with white light (Neon tubes, cool white), 100 ÂµEm-Â²h-1 PAR and 20 Â°C.  60 seeds were sowed in per 150 x 25 mm round dish, sealed with Urgopore tape and placed in darkness at 4oC for 3 days.	Plants of the wild-type Landsberg erecta Ler and 4 narrow leaf mutants elongata2, elongata3, elongata4, angusta4 (Berna et al., 1999) and drl1-2 (Nelissen et al., 2003)(Nottingham Seed Stock Center (NASC) code is N9360).  The shoot apex of plants (comprising shoot apex meristem, first and second leaf primordia at petiole-less stage) were harvested at the growth stage 1.0 removing the cotyledons and the hypocotyls and at least 4 hours after the beginning of the photoperiod when photosynthetic and metabolic activities of plants are stable (Boyes et al., 2001). The age of the plants at the harvesting step were between 11 and 18 days after sowing depending of the delay in mutant development. 	The experimental design comprised 3 replicates of each genotype, one replicate corresponding to one RNA extraction on a independent pool of about 150 plant apex. 	Total RNA was isolated using Trizol Reagent (Life Technologies Gaithersburg MD, USA)	Affymetrix  Labelling protocol for ARE-ATH1 array  The labelling protocol is applicable for use with the GeneChip ARE-ATH1 when starting with a minimal amount of 5ug total RNA.  The protocol is derived from the ÂGeneChipÂ® Expression Analysis Technical ManualÂ (Section 2 Eukaryotic sample and array processing). The document can be found at the affymetrix website: http://www.affymetrix.com/support/downloads/manuals/expression_s2_manual.pdf   Within this document (expression_s2_manual.pdf), the following sections are applicable for the labelling protocol:  2.1.3 Eukaryotic Target Preparation 2.1.7 - 2.1.8 Reagents and Materials Required 2.1.13 - 2.1.18 One-Cycle cDNA Synthesis  2.1.32 - 2.1.33 Cleanup of Double Stranded cDNA for Both the One-Cycle and Two-Cycle Target Labelling Assays 2.1.34 - 2.1.35 Synthesis of Biotin-Labelled cRNA for both the One-Cycle and Two-Cycle Target Labelling Assays. 2.1.36 2.1.38Â Cleanup and Quantification of Biotin-Labelled cRNA 2.1.39 Â 2.1.40 Fragmenting the cRNA for Target Preparation 	Affymetrix  Hybridisation protocol for ARE-ATH1 array  The hybridisation protocol is derived from the ÂGeneChipÂ® Expression Analysis Technical ManualÂ (Section 2 Eukaryotic sample and array processing). The document can be found at the affymetrix website: http://www.affymetrix.com/support/downloads/manuals/expression_s2_manual.pdf   Within this document (expression_s2_manual.pdf), the following sections are applicable for the hybridization protocol:  2.2.3 Eukaryotic Target Hybridization 2.2.5 Reagents and Materials Required 2.2.6 Reagent Preparation 2.2.7-2.2.8 Eukaryotic Target Hybridization 2.3.3 Eukaryotic Arrays: Washing and staining 2.3.5 Reagents and Materials Required 2.3.6 Reagent Preparation 2.3.7 - 2.3.8 Experiment and Fluidics Station Setup 2.3.9 -2.3.14 Probe Array Wash and Stain	Title: Affymetrix CEL analysis. Description: 	Data were normalized using the Affy library from Bioconductor. First all the CEL files of the were read, by means of ReadAffy. Subsequently the data were normalized using the GCRMA procedure.  ex: R procedure using Bioconductor > library(affy) > Data<-ReadAffy(widget=T) > Data AffyBatch object size of arrays=712x712 features (23768 kb) cdf=ATH1-121501 (22810 affyids) number of samples=6 number of genes=22810 annotation=ath1121501 > library(gcrma) > eset1<-gcrma(Data) Computing affinities.Done. Adjusting for optical effect......Done. Adjusting for non-specific binding......Done. Normalizing Calculating Expression 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 	
+Protocol Parameters	min temperature;media;start time;stop time;			Extracted product;Amplification;	Amount of nucleic acid labeled;Amplification;Label used;	Wash A3 Temperature (C);Number of Wash A3 Cycles;Mixes per Wash A3 Cycle;Holding Temperature (C);Mixes per Wash A2 Cycle;Second Stain Time (seconds);Third Stain Time (seconds);Wash A3 Recovery Mixes;Stain Temperature (C);Mixes per Wash B Cycle;Number of Wash B Cycles;Wash B Temperature (C);Number of Wash A2 Cycles;Wash A2 Temperature (C);Wash A2 Recovery Mixes;First Stain Time (seconds);Wash A1 Recovery Mixes;Wash B Recovery Mixes;Mixes per Wash A1 Cycle;Number of Wash A1 Cycles;Wash A1 Temperature (C);	
+Protocol Hardware	
+Protocol Software							MicroArraySuite 5.0		MicroArraySuite 5.0	
+Protocol Contact	
+Protocol Term Source REF			mo	mo	mo	mo		mo	
+SDRF File	E-MEXP-300.sdrf.txt	
+Term Source Name	mo		ncbitax	ArrayExpress	mo	EFO	The MGED Ontology	
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php		http://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version								

@@ -1,0 +1,31 @@
+Comment[ArrayExpressAccession]	E-GEOD-42415					
+MAGE-TAB Version	1.1					
+Public Release Date	2012-11-21					
+Investigation Title	Transcriptomics of Axillary Bud Outgrowth Regulation by Shade Signals in Arabidopsis					
+Comment[Submitted Name]	Transcriptomics of Axillary Bud Outgrowth Regulation by Shade Signals in Arabidopsis					
+Comment[AEExperimentDispalyName]	Transcription profiling by array of Arabidopsis axillary buds under low R/FR (0.08) and high R/FR (0.08 to 3.5) ratio to study the responses to the ratio of red to far-red light					
+Experiment Description	Aims: To determine the changes in the Arabidopsis axillary bud transcriptome in response to changes in the red light (R) to far red light (FR) ratio (R:FR). Background: The branching habit of plants is a key determinant of overall plant form and function with great relevance to modern agriculture. Shade signals transduced by phytochromes are major regulators of axillary bud outgrowth, and in turn control branching in both natural and agricultural environments. To continue our investigations into the regulation of branching by R:FR, we have developed a system using supplemental FR LEDs to tightly control the outgrowth of Arabidopsis axillary buds. Depending on the position of the bud in the rosette, outgrowth is either repressed (uppermost bud) or rapidly promoted (bud in the axil of the third leaf down) by the transition from low to high R:FR. Treatment: Two separate experiments were conducted to evaluate the effects of R:FR on transcriptome changes in the uppermost rosette bud (bud n) and the axillary bud in the axil of the third leaf from the top (bud n-2). WT Col-60000 was used as the experimental material. Plants were grown individually in 25 by 50 mm tubes and watered and fertilized optimally. Plants were grown in a split growth chamber (providing uniform temperature and PPFD but allowing for differential R:FR) with 18 h photoperiods (185 ­Moles m-2 s-1 PPFD provided by T12 VHO CW fluorescent lamps) and 24 C/18 C day/night temperatures. One day after sowing, the R:FR was reduced on both sides of the chamber from 3.5 to 0.08 using FR LEDs fixed in clear overhead arrays. Prior to anthesis, the plants were matched and split into two treatment groups. In experiment 1, the FR source for one of the groups was switched off at 12:00 pm on the day of anthesis, causing the R:FR to increase to 3.5. Unelongated axillary buds in the axil of the uppermost leaves (approx. 2.5 mm long) were harvested for RNA preparation from both groups (low and transiently increased R:FR) 3 h after changing the R:FR. Each treatment was composed of three biological replicates, each containing buds from about 15-18 plants. Experiment 2 was conducted exactly the same as experiment 1, except the R:FR was altered 3 days after anthesis and the unelongated axillary buds in the axils of the third leaves down (approx. 1 mm long) were harvested for RNA preparation. 12 samples (3 bud n and low R:FR, 3 bud n and high R:FR, 3 bud n-2 and low R:FR, 3 bud n-2 and high R:FR) were used in this experiment.					
+Term Source Name	ArrayExpress	EFO				
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl				
+Person Last Name	nasc	Finlayson				
+Person First Name	nasc	Scott				
+Person Email	affy@arabidopsis.org.uk					
+Person Affiliation	NASC					
+Person Phone	1159513091					
+Person Address	Plant&Crop Sciences, NASC, Sutton bonington Campus, Loughborough, United Kingdom					
+Person Roles	submitter					
+Protocol Name	P-GSE42415-1	P-GSE42415-5	P-GSE42415-4	P-GSE42415-2	P-GSE42415-3	P-GSE42415-6
+Protocol Description	ID_REF =  VALUE = MAS5.0 signal ABS_CALL = the call in an absolute analysis that indicates if the transcript was present (P), absent (A), or marginal (M) DETECTION P-VALUE = p-value that indicates the significance level of the detection call	Scanned according to the guidelines set out by Affymetrix, Santa Clara, CA.	Biotin-labelled cRNA using the Affymetrix GeneChip Hybridization, Wash and Stain Kit according to the guidelines set out by Affymetrix, Santa Clara, CA.	Qiagen RNeasy kit protocol.	Labelled using the protocol described in the Affymetrix manual 3' IVT Express Kit User Manual	Raw data from the microarrays was normalized at probe-level using the MAS5 algorithm. The detection calls (present, marginal, absent) for each probe set was obtained using the GCOS system.
+Protocol Type	bioassay_data_transformation	image_acquisition	hybridization	nucleic_acid_extraction	labeling	feature_extraction
+Experimental Factor Name	sampling site	light				
+Experimental Factor Type	sampling site	light				
+Comment[SecondaryAccession]	GSE42415					
+Comment[GEOReleaseDate]	2012-11-21					
+Comment[ArrayExpressSubmissionDate]	2012-11-20					
+Comment[GEOLastUpdateDate]	2012-12-20					
+Comment[AEExperimentType]	transcription profiling by array					
+Publication Title	Abscisic Acid Regulates Axillary Bud Outgrowth Responses to the Ratio of Red to Far-Red Light					
+Publication Author List	Reddy SK, Holalu SV, Casal JJ, Finlayson SA					
+PubMed ID	23929720					
+Publication DOI	10.1104/pp.113.221895					
+SDRF File	E-GEOD-42415.sdrf.txt					

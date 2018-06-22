@@ -1,0 +1,51 @@
+Investigation Title	Transcription profiling of Arabidopsis pollen and stamen with induced DEMETER expression to identify					
+Comment[Submitted Name]	Identification of putative Arabidopsis DEMETER target genes by GeneChip Analysis					
+Experimental Design	unknown_experiment_design_type	transcription profiling by array				
+Experimental Design Term Source REF		EFO				
+Comment[AEExperimentType]	transcription profiling by array					
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis pollen and stamen expressing DEMETER					
+Comment[AEMIAMESCORE]	4					
+Comment[ArrayExpressReleaseDate]	2008-06-16					
+Comment[SecondaryAccession]	GSE9408					
+Comment[ArrayExpressAccession]	E-GEOD-9408					
+Comment[MAGETAB TimeStamp_Version]	2010-08-09 13:39:26 Last Changed Rev: 13058					
+Experimental Factor Name	ORGANISM PART	GENOTYPE				
+Experimental Factor Type	organism_part	genotype				
+Experimental Factor Term Source REF						
+Person Last Name	Le					
+Person First Name	Brandon					
+Person Mid Initials						
+Person Email	ble@ucla.edu					
+Person Phone						
+Person Fax						
+Person Address	Molecular, Cell and Developmental Biology, University of California, Los Angeles, 621 Charles E Young Drive South, Los Angeles, 90095, USA					
+Person Affiliation	University of California, Los Angeles					
+Person Roles	submitter					
+Person Roles Term Source REF	The MGED Ontology					
+Quality Control Type						
+Quality Control Term Source REF						
+Replicate Type						
+Replicate Term Source REF						
+Normalization Type						
+Normalization Term Source REF						
+Date of Experiment						
+Public Release Date	2008-06-16					
+PubMed ID						
+Publication DOI						
+Publication Author List						
+Publication Title						
+Publication Status						
+Publication Status Term Source REF						
+Experiment Description	We used Affymetrix Arabidopsis ATH1 GeneChip to profile RNAs active in wild type columbia (glabrous) and CaMV::DME pollen and stamens. Experiment Overall Design: DME is not active in wild type pollen and stamen.  DME was induced in pollen and stamen by a cauliflower mosaic virus promoter (CaMV).  RNA profiles from wild type and CaMV::DME pollen and stamens were compared using Affymetrix ATH1 GeneChip.					
+Protocol Name	P-G9408-1	P-G9408-3	P-G9408-2	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6	
+Protocol Type	grow	nucleic_acid_extraction	labeling	hybridization	feature_extraction	
+Protocol Description	Plants were grown in standard green house conditions using a 16:8 light-dark cycle.	Total RNA was extracted using TRIzol (Invitrogen) and poly(A)+ RNA was selected using Dynabeads mRNA Purification kit (Dynal Inc) according to the manufacturers.	Fifteen micrograms of total RNA was poly(A)+ selected using Dynabeads mRNA purification kit (Dynal Inc.).  Double-stranded cDNAs were generated using Superscript Choice System (Invitrogen).  Biotinylated cRNAs were synthesized with the ENZO BioArray High Yield RNA Transcript Labeling Kit (Enzo Life Sciences).	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	
+Protocol Parameters						
+Protocol Hardware						
+Protocol Software				MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact						
+Protocol Term Source REF				mo		
+SDRF File	E-GEOD-9408.sdrf.txt					
+Term Source Name	NCBI Taxonomy	The MGED Ontology	ArrayExpress	EFO	The MGED Ontology	mo
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version						

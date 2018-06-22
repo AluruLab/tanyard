@@ -1,0 +1,51 @@
+Investigation Title	Transcription profiling of Arabidopsis mutant REVOLUTA (HDZIPIII) to identify downstream targets									
+Comment[Submitted Name]	Experiment to identify downstream targets of Arabidopsis REVOLUTA (HDZIPIII) transcription factor.									
+Experimental Design	unknown_experiment_design_type	transcription profiling by array								
+Experimental Design Term Source REF		EFO								
+Comment[AEExperimentType]	transcription profiling by array									
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for revoluta									
+Comment[AEMIAMESCORE]	3									
+Comment[ArrayExpressReleaseDate]	2008-06-15									
+Comment[SecondaryAccession]	GSE7003									
+Comment[ArrayExpressAccession]	E-GEOD-7003									
+Comment[MAGETAB TimeStamp_Version]	2010-08-07 16:28:11 Last Changed Rev: 13058									
+Experimental Factor Name	GENOTYPE	COMPOUND								
+Experimental Factor Type	genotype	compound								
+Experimental Factor Term Source REF										
+Person Last Name	Barton									
+Person First Name	M Kathryn									
+Person Mid Initials										
+Person Email	kbarton@stanford.edu									
+Person Phone										
+Person Fax										
+Person Address	Dept. of Plant Biology, Carnegie Institution, 260 Panama Street, Palo Alto , 94025, USA									
+Person Affiliation	Carnegie Institution									
+Person Roles	submitter									
+Person Roles Term Source REF										
+Quality Control Type										
+Quality Control Term Source REF										
+Replicate Type										
+Replicate Term Source REF										
+Normalization Type										
+Normalization Term Source REF										
+Date of Experiment										
+Public Release Date	2008-06-15									
+PubMed ID	18055602									
+Publication DOI	10.1105/tpc.107.055772 									
+Publication Author List	Stephan Wenkel, John Emery, Bi-Huei Hou, Matthew M S Evans, M K Barton									
+Publication Title	A feedback regulatory module formed by LITTLE ZIPPER and HD-ZIPIII genes.									
+Publication Status	journal_article									
+Publication Status Term Source REF	The MGED Ontology									
+Experiment Description	The establishment of ad/abaxial polarity is a fundamental event in plant development.  It is critical for correct polar development of the leaf (the upper portion of the leaf is chloroplast rich and optimized for light capture while the lower portion is optimized for gas exchange) and for creating an environment that allows the formation of new meristems (centers of stem cell growth).  Class III homeodomain-leucine zipper (HD-ZIPIII) proteins are conserved plant proteins that act as potent regulators of ad/abaxial polarity.   HD-ZIPIII protein activity promotes the development of upper (adaxial) leaf fates and meristem formation; in its absence lower (abaxial) leaf fates develop and meristems fail to form.   A network of regulatory factors controls the establishment of ad/abaxial leaf fates.  However, this network is incomplete and how these factors control one another is poorly understood.  Here we report a new family of plant genes, the LITTLE ZIPPER (ZPR) genes (consisting principally of a stretch of leucine zipper similar to the leucine zipper in HD-ZIPIII proteins) that are transcriptionally up-regulated by HD-ZIPIII activity.  Furthermore, we show that the ZPR proteins interact with and repress HD-ZIPIII activity, thus forming a negative feedback loop.  Our results suggest that HD-ZIPIII proteins exist in active homodimers and, together with the ZPR proteins, in inactive heterodimers.   The newly discovered HD-ZIPIII/ZPR regulatory module would not only serve to dampen the effect of fluctuations in HD-ZIPIII protein levels but more importantly would provide a point of regulation - control over the ratio of inactive heterodimers to active homodimers - that could be influenced by other components of the pathway.  For instance, the binding of a small hydrophobic molecule to the conserved (yet little understood) START domain present in the HD-ZIPIII proteins may influence the type of dimer formed.     Published in:; Wenkel, S., Emery, J., Hou, B.-H., Evans, M.M.S. and M.K. Barton, 2007, A Feedback Regulatory Module Formed by LITTLE ZIPPER and HD-ZIPIII Genes.  Plant Cell 2007 Experiment Overall Design:  One of the five Arabidopsis HD-ZIPIII proteins, REVOLUTA, was placed under glucocorticoid control by fusing the glucocorticoid receptor (GR) domain to its amino terminus.   This gene fusion was placed under the control of the highly and constitutively expressed viral CaMV35S promoter.  Since the HD-ZIPIII genes are controlled by microRNAs, it was also necessary to introduce mutations that disrupted the microRNA complementary sequence.  Transgenic Arabidopsis seedlings carrying this construct (GR-REV) as well as wild-type seedlings were grown in liquid culture for ten days.  At this point, one flask each of wt and transgenic seedlings was treated with carrier alone (ethanol) and one flask each of wt and transgenic seedlings was treated with dexamethasone.  RNA was harvested from these samples after one hour, labeled and hybridized to Affymetrix microarrays.									
+Protocol Name	P-G7003-1	P-G7003-8	P-G7003-7	P-G7003-5	P-G7003-2	P-G7003-4	P-G7003-6	P-G7003-3	Affymetrix:Protocol:Hybridization-EukGE-WS2v5	P-AFFY-6
+Protocol Type	grow	grow	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	nucleic_acid_extraction	labeling	labeling	hybridization	feature_extraction
+Protocol Description	Seedlings were grown in liquid culture, in 50 ml MS salts plus glucose in 250 ml flasks, 100 seeds per flask.  Flasks were shaken gently on a rotator under fluorescent lights (24 hour, 22 degrees).  Seeds were stratified at 4 degrees in water for 2 days prior to adding to culture medium.	Seedlings were grown in liquid culture, in 50 ml MS salts plus glucose in 250 ml flasks, 100 seeds per flask. Flasks were shaken gently on a rotator under fluorescent lights (24 hour, 22 degrees). Seeds were stratified at 4 degrees in water for 2 days prior to adding to culture medium.	Seedlings were treated with dexamethasone in ethanol to a final concentration of 0.1% ethanol and 50 micrograms per ml dexamethasone for one hour before tissue was harvested and quick frozen.	Seedlings were mock treated with 0.1% ethanol for one hour before tissue was harvested and quick frozen.	Seedlings were mock treated with carrier alone (ethanol) to a final concentration of 0.1% ethanol for one hour before tissue was harvested and quick frozen.	RNA was isolated from 100 mg of tissue using a QIAGEN RNeasy plant miniprep kit.	Twenty micrograms biotinylated cRNA was prepared from the purified total RNA using standard Affymetrix protocols.	standard Affymetrix protocol	Title: Affymetrix EukGE-WS2v5 Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 
+Protocol Parameters										
+Protocol Hardware										
+Protocol Software									MicroArraySuite 5.0	MicroArraySuite 5.0
+Protocol Contact										
+Protocol Term Source REF										
+SDRF File	E-GEOD-7003.sdrf.txt									
+Term Source Name	NCBI Taxonomy		The MGED Ontology	ArrayExpress	EFO	The MGED Ontology				
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php				
+Term Source Version										

@@ -1,0 +1,28 @@
+Comment[ArrayExpressAccession]	E-GEOD-62163
+MAGE-TAB Version	1.1						
+Public Release Date	2014-10-09
+Investigation Title	Brassinosteroid-mediated gene expression changes in Arabidipsis during heat stress						
+Comment[Submitted Name]	Brassinosteroid-mediated gene expression changes in Arabidipsis during heat stress
+Experiment Description	Global analysis of brassinosteroid (BR)-mediated gene expression under abiotic stress identifies BR associated mechanisms of stress tolerance, and new stress-related genes We used the Arabidopsis Affymetrix ATH1 array to analyze gene expression in a synthetic BR, 24-epibrassinolide (EBR)-treated and untreated Arabidopsis seedlings before, during and after heat stress (HS) treatment. Microarray expression profiles were generated from EBR-treated (E; 1 ÂµM EBR for 21 days) and untreated (C; 0.01% ethanol for 21 days) Arabidopsis seedlings under no-stress (0 h), HS (1 h and 3 h) at 43Â°C conditions. Additionally, a recovery for 6 h (6 hR) at 22Â°C after exposure to 3h HS at 43Â°C was also included						
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Divi	Divi	Rahman	Krishna			
+Person First Name	Uday	Uday	Tawhidur	Priti			
+Person Mid Initials		K					
+Person Email	uday.divi@csiro.au						
+Person Affiliation	The Commonwealth Scientific and Industrial Research Organisation						
+Person Address	Agriculture Flagship, The Commonwealth Scientific and Industrial Research Organisation, Clunies Ross St., Canberra, ACT, Australia						
+Person Roles	submitter						
+Protocol Name	P-GSE62163-1	P-GSE62163-5	P-GSE62163-6	P-GSE62163-2	P-GSE62163-3	P-GSE62163-4	P-GSE62163-7
+Protocol Description	The data were analyzed with Microarray Suite version 5.0 (MAS 5.0) using Affymetrix default analysis settings following parameters were used for statistical analysis Summarization Algorithm: GCRMA Technology: Affymetrix.GeneChip.ATH1-121501 Normalization: Quantile Baseline Transformation: Median of all samples Statistical Analysis p-value cut-off: 0.05 Selected Test :  2way ANOVA p-value computation:       Asymptotic Multiple Testing Correction:   Benjamini-Hochberg Files with differential expression analysis are available on the series record.   To get a good grasp on changes during stress, we restricted our focus to no-stress (0 h) and HS (1 h and 3 h) conditions for differential expression analysis. Hence, gene expression change data at 6h R is not included ID_REF =  VALUE = average GC-RMA of three biological replicates	Probe preparation and array hybridization were performed according to Affymetrix GeneChip Techincal Analysis Manual (Affymetrix, Santa Clara, CA, USA) at the London Regional Genomics Centre (LRGC; Robarts Research Institute, London, ON, Canada; http://www.lrgc.ca).	Biotin-labeled complimentary RNA (cRNA) was hybridized to Arabidopsis ATH1 GeneChips for 16 h at 45°C.	Heat stress was given to 21-day-old seedlings by exposing to 43°C for 1 h and 3 h. Seedlings exposed to 43°C for 3 h were allowed to recover at 22°C for a period of 6 h	Arabidopsis ecotype Columbia (Col) seedlings were grown for 21 days on 1X Murashige and Skoog (MS) nutrient medium (Sigma, St. Louis) supplemented with either 1 µM EBR or 0.01% ethanol	Plant tissue above the medium was collected from unstressed (0 h), heat stressed (1 h and 3 h) and recovering (6 hR) seedlings and quick-frozen for RNA extraction. To minimize the effect of variation among seedlings, plant material from at least 30 seedlings was pooled for each treatment.	GeneChips were scanned with the Affymetrix GeneChip Scanner 3000
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Comment[SecondaryAccession]	GSE62163						
+Comment[GEOReleaseDate]	2014-10-09						
+Comment[ArrayExpressSubmissionDate]	2014-10-08						
+Comment[GEOLastUpdateDate]	2014-10-09						
+Comment[AEExperimentType]	transcription profiling by array						
+Comment[AdditionalFile:Data1]	GSE62163_Fold_change_0C_v_0E.txt						
+Comment[AdditionalFile:Data2]	GSE62163_Fold_change_1C_v_1E.txt						
+Comment[AdditionalFile:Data3]	GSE62163_Fold_change_3C_v_3E.txt						
+Comment[AdditionalFile:Data4]	GSE62163_Fold_change_all_v_0C.txt						
+SDRF File	E-GEOD-62163.sdrf.txt

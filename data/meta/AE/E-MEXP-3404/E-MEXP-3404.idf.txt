@@ -1,0 +1,30 @@
+Comment[ArrayExpressAccession]	E-MEXP-3404							
+Investigation Title	Transcriptional profiling by array of Arabidopsis ABA auxotroph to identify early downstream targets of transcription in response to a small dose of abscisic acid (ABA)							
+Comment[Submitted Name]	ABA-Inducible Gene Expression in an ABA auxotroph							
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis after treatment with cycloheximide and abscisic acid							
+Comment[MIAMExpressLogin]	shelleylumba							
+Comment[MIAMExpressSubmissionID]	7841							
+Experiment Description	 Abscisic acid (ABA) is a plant hormone that is important in responding to various environmental stresses. Using an ABA auxotroph in Arabidopsis (aba2-2) as the plant material, we would like to identify early downstream targets of transcription in response to a small dose of ABA, 1 uM. We also added cycloheximide to preferentially obtain immediate targets of ABA addition. We believe that using a sensitized background of an ABA auxotroph would yield a set of genes that are very closely regulated by ABA at the transcriptional level. This data set will be used for network analysis of ABA signaling. 							
+Experimental Design	in_vivo_design	co-expression_design	compound_treatment_design					
+Comment[AEExperimentType]	transcription profiling by array							
+Experimental Factor Name	TREATMENT							
+Experimental Factor Type	treatment							
+Person Last Name	Lumba							
+Person First Name	Shelley							
+Person Email	shelley.lumba@utoronto.ca							
+Person Phone	416 978-0837							
+Person Affiliation	University of Toronto							
+Person Address	Cell and Systems Biology, 25 Willcocks St. Room 4055, Toronto, ON, M5S 3B2, Canada							
+Person Roles	submitter							
+Person Roles Term Source REF	MGED Ontology							
+Quality Control Type	biological_replicate							
+Public Release Date	2011-10-30							
+Comment[ArrayExpressSubmissionDate]	2011-10-26 20:52:14							
+Publication Status	not yet submitted							
+Protocol Name	P-MTAB-23573	P-MTAB-23574	P-MTAB-23575	P-MTAB-23576	P-AFFY-2	P-AFFY-6	Affymetrix:Protocol:MAS4:ExpressionCall	Affymetrix:Protocol:Hybridization-Unknown
+Protocol Description	Seeds were sterilized by vigorously shaking in 800 uL of 20% bleach (7:3) for 5 minutes and rinsed 5X in sterilized water. Seeds were sown on 0.5X MS 0.8% agar media plates and stratified for 4 days at 4C. After four days, the plates were transferred to room temperature under constant light. After 11 days, seedlings were transferred to a 0.5X MS 0.8% agar media plate containing either 10 uM cycloheximide or 10 uM cycloheximide and 1 uM ABA for 6 hours. After 6 hours, seedlings grown in both conditions were harvested from which RNA was extracted.<br>(Parameters: time unit = seconds, temperature unit = C, media = 1/2 X MS)	After 11 days of growth at room temperature and constant light, seedlings were transferred to a 0.5X MS 0.8% agar media plate containing either 10 uM cycloheximide or 10 uM cycloheximide and 1 uM ABA for 6 hours.	Eleven-day old seedlings were ground in liquid nitrogen. Total RNA was extracted by a Trizol-based method.  <br>(Parameters: Extracted product = total_RNA, Amplification = none)	The top 2% and bottom 2% of signal intensities are excluded, then the mean is calculated. The original signal values  are scaled such that the mean (TGT value) is made equal to 500	Title: Affymetrix CEL analysis. Description: 	Title: Affymetrix CEL analysis. Description: 		Title: Affymetrix Generic Hybridization. Description: 
+Protocol Type	grow	specified_biomaterial_action	nucleic_acid_extraction	bioassay_data_transformation	feature_extraction	feature_extraction	bioassay_data_transformation	hybridization
+Protocol Term Source REF	MGED Ontology	MGED Ontology	MGED Ontology	MGED Ontology			ArrayExpress	ArrayExpress
+Term Source Name	MGED Ontology	ArrayExpress						
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress						
+SDRF File	E-MEXP-3404.sdrf.txt							

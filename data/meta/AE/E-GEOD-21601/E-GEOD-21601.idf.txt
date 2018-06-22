@@ -1,0 +1,58 @@
+Comment[ArrayExpressAccession]	E-GEOD-21601							
+Public Release Date	2010-08-25							
+Investigation Title	Expression data from Arabidopsis thaliana							
+Comment[Submitted Name]	Expression data from Arabidopsis thaliana							
+Experiment Description	Nitrogen and light are two major regulators of plant metabolism and development.  While genes involved in the control of each of these signals have begun to be identified, regulators that integrate gene responses to nitrogen and light signals have yet to be determined. Here, we evaluate the role of bZIP1, a transcription factor involved in light and nitrogen sensing, by exposing wild-type (WT) and bZIP1 T-DNA null mutant plants to a combinatorial space of N and L treatment conditions.  We use ANOVA analysis combined with clustering and Boolean modeling, to evaluate the role of bZIP1 in mediating L and N signaling genome-wide. Arabidopsis thaliana were growth on basal MS salts (custom-made; GIBCO) with 0.5 mM KNO3, 3 mM sucrose and 0.8% BactoAgar at pH 5.7.  After 14 days under long-day (16 h light: 8 h dark) conditions with light intensity of 50 μE.m-2.s-1 and at 22°C, plants were transferred to new plates containing 20 mM KNO3 and 20 mM NH4NO3 (referred here as 1xN: concentrations in MS media) in the absence or presence of light for 2 h at the start of their light cycle.							
+Date of Experiment								
+Term Source Name	EFO							
+Term Source Version								
+Term Source File	http://www.ebi.ac.uk/efo							
+Person Last Name	Obertello	Obertello	Krouk	Katari	Runko	Coruzzi		
+Person First Name	Mariana	Mariana	Gabriel	Manpreet	Suzan	Gloria		
+Person Mid Initials								
+Person Email	mo47@nyu.edu							
+Person Affiliation	New York University							
+Person Phone								
+Person Fax								
+Person Address	Department of Biology, New York University, 100 Washington Square East, New York, USA							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Person Roles Term Accession Number								
+Normalization Type								
+Normalization Term Accession Number								
+Normalization Term Source REF								
+Replicate Type								
+Replicate Term Accession Number								
+Replicate Term Source REF								
+Experimental Design	genetic modification design							
+Experimental Design Term Accession Number								
+Experimental Design Term Source REF	EFO							
+Quality Control Type								
+Quality Control Term Accession Number								
+Quality Control Term Source REF								
+Protocol Name	P-GSE21601-1	P-GSE21601-6	P-GSE21601-3	P-GSE21601-8	P-GSE21601-7	P-GSE21601-2	P-GSE21601-4	P-GSE21601-5
+Protocol Description	ID_REF = <br>VALUE = MAS5.0 signal intensity	We used 15 µg of labeled cRNA to hybridize the Arabidopsis ATH1 Affymetrix gene chip for 16 h at 42°C. Washing, staining and scanning were performed as recommended by Affymetrix. 	Arabidopsis thaliana (var. Columbia Col-0) was used as parental line. The mutant plant with a knock-out in the bZIP1 gene, named bzip1-1, contains a T-DNA insertion in the unique exon of the gene (At5g49450). Arabidopsis seeds were placed for 2 days in the dark at 4°C to synchronize germination. Seeds were surface sterilized and then sowed into plates containing a sterile mesh over the agar surface to facilitate their transfer into the treatment plates. Plates contained basal MS salts (custom-made; GIBCO) with 0.5 mM KNO3, 3 mM sucrose and 0.8% BactoAgar at pH 5.7.	All microarray data was processed with Microarray Analysis Suite 5.0 software (MASv5.0).  MASv5.0 Affymetrix call (Absent, Marginal or Present) were used to keep only probes having at least a Marginal/Present call in one of the 24 hybridization.  Such a procedure facilitated the elimination of transcripts with very low signals in both treatments (declared “absent”).	Scanning were performed as recommended by Affymetrix. 	After 14 days under long-day (16 h light: 8 h dark) conditions with light intensity of 50 μE.m-2.s-1 and at 22°C, plants were transferred to new plates containing 20 mM KNO3 and 20 mM NH4NO3 (referred here as 1xN: concentrations in MS media) in the absence or presence of light for 2 h at the start of their light cycle. Control plants were transferred toward a fresh media complemented with KCl, also in the absence or presence of light as a mock treatment.  Light – dark treatment were done by simply leaving the treatment plates in the growth chamber or by covering them with double aluminium foil (dark treatment) for two hours. After treatment, whole seedlings were harvest and immediately frozen in liquid nitrogen.	RNA was isolated from whole plants using Trizol reagent according to the intructions of the manufacturer (15596; Invitrogen).	Biotin-labeled cRNA was synthesized using the Enzo BioArray HighYield RNA Transcript Labeling Kit (Enzo, New York, NY). 
+Protocol Software								
+Protocol Hardware								
+Protocol Contact								
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Protocol Term Source REF								
+Protocol Term Accession Number								
+Experimental Factor Name	genotype							
+Experimental Factor Type	genotype							
+Experimental Factor Term Source REF								
+Experimental Factor Term Accession Number								
+Publication Title	Modeling the global effect of the basic-leucine zipper transcription factor 1 (bZIP1) on nitrogen and light regulation in Arabidopsis.							
+Publication Author List	Obertello M, Krouk G, Katari MS, Runko SJ, Coruzzi GM							
+PubMed ID	20704717							
+Publication DOI	10.1186/1752-0509-4-111							
+Publication Status	published							
+Publication Status Term Source REF	EFO							
+Publication Status Term Accession Number	EFO_0001796							
+Comment[SecondaryAccession]	GSE21601							
+Comment[GEOLastUpdateDate]	2010-08-24							
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis knocked out for bZIP1							
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[GEOReleaseDate]	2010-08-24							
+Comment[ArrayExpressSubmissionDate]	2010-04-28							
+SDRF File	E-GEOD-21601.sdrf.txt							

@@ -1,0 +1,50 @@
+Investigation Title	Transcription profiling of Arabidopsis wild type and ice1 mutant plants exposed to cold treatment	
+Comment[Submitted Name]	ICE1 regulation of the Arabidopsis Cold-Responsive Transcriptome	
+Experimental Design	time_series_design	individual_genetic_characteristics_design	co-expression_design	growth_condition_design	transcription profiling by array	
+Experimental Design Term Source REF	mo		mo	mo	EFO	
+Comment[ArrayExpressReleaseDate]	2007-07-13	
+Comment[SecondaryAccession]	GSE3326	
+Comment[AEMIAMESCORE]	4	
+Comment[SecondaryAccession]	GDS1502	
+Comment[ArrayExpressAccession]	E-GEOD-3326	
+Comment[MAGETAB TimeStamp_Version]	2010-08-04 21:14:27 Last Changed Rev: 13058	
+Experimental Factor Name	GrowthCondition	Genotype	Time	
+Experimental Factor Type	growth_condition	genotype	time	
+Experimental Factor Term Source REF	
+Person Last Name	Zhu	
+Person First Name	Jian-Kang	
+Person Mid Initials	
+Person Email	jian-kang.zhu@ucr.edu	
+Person Phone	
+Person Fax	
+Person Address	Botany and Plant Sciences,University of California,2150 Batchelor Hall,Riverside,92521,USA	
+Person Affiliation	University of California	
+Person Roles	submitter	
+Person Roles Term Source REF	The MGED Ontology	
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2007-07-13	
+PubMed ID	16214899	
+Publication DOI	16214899	
+Publication Author List	Byeong-ha Lee,David A Henderson,Jian-Kang Zhu	
+Publication Title	The Arabidopsis cold-responsive transcriptome and its regulation by ICE1.	
+Publication Status	journal_article	
+Publication Status Term Source REF	The MGED Ontology	
+Experiment Description	To understand the gene network that controls plant tolerance to cold stress, we carried out a near full genome transcript expression profiling in Arabidopsis using Affymetrix GeneChips that contain approximately 24,000 genes.  For microarray analysis, Arabidopsis seedlings were cold treated at 0 C for 0 h, 3 h, 6 h, and 24 h.  A total of 939 genes were statistically determined to be cold-regulated with 655 being up-regulated and 284 down-regulated.  A large number of the early cold-responsive genes encode transcription factors that likely control late-responsive genes, which implies a multitude of transcriptional cascades.  In addition, many genes involved in post-transcriptional and chromatin level regulation were also cold regulated suggesting their involvement in cold responsive gene regulation.  A number of genes important for the biosynthesis or signaling of plant hormones, such as abscisic acid, gibberellic acid and auxin, are regulated by cold stress, which is of potential importance in coordinating cold tolerance with growth and development.  We compared the cold-responsive transcriptomes of wild type and ice1, a mutant defective in an upstream transcription factor required for chilling and freezing tolerance.  The transcript levels of many cold-responsive genes were altered in the ice1 mutant not only during cold stress conditions, but also before cold treatments.  Our study provides a global picture of the Arabidopsis cold-responsive transcriptome and its control by ICE1, and thus will be valuable for understanding gene regulation under cold stress and the molecular mechanisms of cold tolerance. Experiment Overall Design: Two replicates for each time point of 0 hours, 3 hours, 6 hours and 24 hours of cold treatment for the wildtype (control) and ice1 (mutant).	
+Protocol Name	P-G3326-3	P-G3326-1	P-G3326-2	P-G3326-10	P-G3326-9	P-G3326-8	P-G3326-4	P-G3326-5	Affymetrix:Protocol:Hybridization-EukGE-WS2v4	P-G3326-6	P-AFFY-6	
+Protocol Type	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	grow	grow	grow	nucleic_acid_extraction	labeling	hybridization	hybridization	feature_extraction	
+Protocol Description	Treated at 0C for 24 hours just prior to harvesting.	Treated at 0C for 3 hours just prior to harvesting.	Treated at 0C for 6 hours just prior to harvesting.	The wild-type and ice1 mutant seeds were plated on MS agar plates supplemented with 3% sucrose. Seedlings were grown at 22C with 16-h light and 8-h dark cycles for 2 weeks before being treated.	The wild-type and ice1 mutant seeds were plated on MS agar plates supplemented with 3% sucrose. Seedlings were grown at 22C with 16-h light and 8-h dark cycles for 2 weeks before being harvested.	The wild-type and ice1 mutant seeds were plated on MS agar plates supplemented with 3% sucrose.  Seedlings were grown at 22C with 16-h light and 8-h dark cycles for 2 weeks before being harvested.	RNeasy Plant Mini Kit, Qiagen	Followed users manual: http://www.affymetrix.com/support/downloads/manuals/expression_s21_manual.pdf	Title: Fluidics Station Protocol. Description: 	Followed users manual: http://www.affymetrix.com/support/downloads/manuals/expression_s21_manual.pdf	Title: Affymetrix CEL analysis. Description: 	
+Protocol Parameters	
+Protocol Hardware	
+Protocol Software									MicroArraySuite 5.0		MicroArraySuite 5.0	
+Protocol Contact	
+Protocol Term Source REF	
+SDRF File	E-GEOD-3326.sdrf.txt	
+Term Source Name	NCBI Taxonomy		mo	The MGED Ontology	ArrayExpress	mo	EFO	The MGED Ontology	
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version									

@@ -1,0 +1,51 @@
+Investigation Title	Transcription profiling of flg22 treatment in Arabidopsis thaliana Ecotype Landsberg vs fls2-17 mutant								
+Comment[Submitted Name]	flg22 treatment								
+Experimental Design	stimulus_or_stress_design	transcription profiling by array							
+Experimental Design Term Source REF	mo	EFO							
+Comment[AEExperimentType]	transcription profiling by array								
+Comment[AEExperimentDisplayName]	Transcription profiing by array of Arabidopsis mutant for fls2 after treatment with flg22								
+Comment[ArrayExpressReleaseDate]	2004-08-01								
+Comment[AEMIAMESCORE]	4								
+Comment[ArrayExpressAccession]	E-MEXP-81								
+Comment[MAGETAB TimeStamp_Version]	2010-10-15 13:51:04 Last Changed Rev: 14677								
+Experimental Factor Name	GENOTYPE	COMPOUND							
+Experimental Factor Type	genotype	compound							
+Experimental Factor Term Source REF									
+Person Last Name	Oakeley	Angliker							
+Person First Name	Edward	Herbert							
+Person Mid Initials	J								
+Person Email	oakeley@fmi.ch								
+Person Phone	616976986								
+Person Fax									
+Person Address	Maulbeerstrasse 66								
+Person Affiliation	Friedrich Miescher Institute for Biomedical Research	Friedrich Miescher Institute for Biomedical Research							
+Person Roles	submitter	investigator							
+Person Roles Term Source REF	mo	mo							
+Quality Control Type									
+Quality Control Term Source REF									
+Replicate Type									
+Replicate Term Source REF									
+Normalization Type									
+Normalization Term Source REF									
+Date of Experiment									
+Public Release Date	2004-08-01								
+PubMed ID	17215350								
+Publication DOI	10.1073/pnas.0605423104								
+Publication Author List	Truman W, Bennett MH, Kubigsteltig I, Turnbull C, Grant M								
+Publication Title	Arabidopsis systemic immunity uses conserved defense signaling pathways and is mediated by jasmonates.								
+Publication Status	published								
+Publication Status Term Source REF	EFO								
+Publication Status Term Accession Number	EFO_0001796								
+Experiment Description	Effect of flg22 treatment in Arabidopsis thaliana Ecotype Landsberg versus fls2-17 mutant								
+Protocol Name	P-MEXP-2721	P-MEXP-2722	P-MEXP-962	P-MEXP-963	Affymetrix:Protocol:Hybridization-EukGE-WS2v4	P-AFFY-6	Affymetrix:Protocol:ExpressionStat		
+Protocol Type	grow	specified_biomaterial_action	nucleic_acid_extraction	labeling	hybridization	feature_extraction	bioassay_data_transformation		
+Protocol Description	After a 48-hour treatment at 4°C, A. thaliana Landsberg erecta (Ler-0) and fls2-17 seeds were grown for 12 days on plates containing 1x MS medium (Duchefa), 1% sucrose and 1% agar under continuous light conditions of 60 µE m-2 sec-1 (Biolux lamps) at 22°C. Seedlings were then transferred to liquid MS medium (two seedlings per 500 µl of medium in wells of 24-well-plates). Two days after transfer the medium was supplied with flg22 peptide to a final concentration of 10 µM. Plantlets were collected 30 min after treatment, frozen in liquid nitrogen and stored at -80°C.	After a 48-hour treatment at 4°C, A. thaliana Landsberg erecta (Ler-0) and fls2-17 seeds were grown for 12 days on plates containing 1x MS medium (Duchefa), 1% sucrose and 1% agar under continuous light conditions of 60 µE m-2 sec-1 (Biolux lamps) at 22°C. Seedlings were then transferred to liquid MS medium (two seedlings per 500 µl of medium in wells of 24-well-plates). Two days after transfer the medium was supplied with flg22 peptide to a final concentration of 10 µM. Plantlets were collected 30 min after treatment, frozen in liquid nitrogen and stored at -80°C.	Total RNA was prepared using TRIZOL reagent (Life Technologies) and purified on RNeasy Miniprep columns (Qiagen) according to the manufacturers' instructions.	10 µg of total RNA was reverse transcribed using the SuperScript Choice system for cDNA synthesis (Life Technologies) according to the protocol recommended by Affymetrix. The oligonucleotide used for priming was 5?-ggccagtgaattgtaatacgactcactatagggaggcgg-(t)24-3? (Genset Oligo). Double-stranded cDNA was cleaned by phenol:chloroform extraction and the aqueous phase removed by centrifugation through Phase-lock Gel (Eppendorf). In vitro transcription was performed on 1 µg of cDNA using the Enzo BioArray High Yield RNA transcript labelling kit (Enzo Diagnostics). The cRNA was cleaned using RNAeasy clean-up columns (Qiagen). The cRNA was fragmented by heating in 40 mM Tris-acetate pH 8.1, 100 mM KOAc, 30 mM MgOAc.	Title: Fluidics Station Protocol. Description: 	Title: Affymetrix CEL analysis. Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 		
+Protocol Parameters	min temperature;max temperature;start Time;		Amplification;Extracted product;	Amplification;Label used;Amount of nucleic acid labeled;					
+Protocol Hardware									
+Protocol Software					MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 5.0		
+Protocol Contact									
+Protocol Term Source REF							The MGED Ontology		
+SDRF File	E-MEXP-81.sdrf.txt								
+Term Source Name	mo		ncbitax	tair_dev:1.27	nasc	ArrayExpress	mo	EFO	The MGED Ontology
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php		http://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html	http://www.arabidopsis.org/info/ontologies/	http://arabidopsis.info/catalogue.html	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version				1.27					

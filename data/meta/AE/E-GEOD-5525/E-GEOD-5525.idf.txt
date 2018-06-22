@@ -1,0 +1,52 @@
+Investigation Title	Transcription profiling of Arabidopsis during pathogen and insect attack						
+Comment[Submitted Name]	Transcriptome changes of Arabidopsis during pathogen and insect attack						
+Experimental Design	unknown_experiment_design_type	transcription profiling by array					
+Experimental Design Term Source REF		EFO					
+Comment[AEExperimentType]	transcription profiling by array						
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis after exposure to various pathogens and insects						
+Comment[AEMIAMESCORE]	4						
+Comment[ArrayExpressReleaseDate]	2008-06-13						
+Comment[SecondaryAccession]	GSE5525						
+Comment[ArrayExpressAccession]	E-GEOD-5525						
+Comment[MAGETAB TimeStamp_Version]	2010-08-06 16:41:27 Last Changed Rev: 13058						
+Experimental Factor Name	GENOTYPE	TREATMENT					
+Experimental Factor Type	genotype	treatment					
+Experimental Factor Term Source REF							
+Person Last Name	(NASC)						
+Person First Name	Nottingham Arabidopsis Stock Centre						
+Person Mid Initials							
+Person Email	affy@arabidopsis.info						
+Person Phone							
+Person Fax							
+Person Address	School of Biosciences, University of Nottingham, Nottingham Arabidopsis Stock Centre (NASC), Sutton Bonington Campus, Loughborough, LE12 5RD, United Kingdom						
+Person Affiliation	Nottingham Arabidopsis Stock Centre (NASC)						
+Person Roles	submitter						
+Person Roles Term Source REF							
+Quality Control Type							
+Quality Control Term Source REF							
+Replicate Type							
+Replicate Term Source REF							
+Normalization Type							
+Normalization Term Source REF							
+Date of Experiment							
+Public Release Date	2008-06-13						
+PubMed ID	16167763						
+Publication DOI	10.1094/MPMI-18-0923						
+Publication Author List	Martin De Vos, Vivian R Van Oosten, Remco M P Van Poecke, Johan A Van Pelt, Maria J Pozo, Martin J Mueller, Antony J Buchala, Jean-Pierre Métraux, L C Van Loon, Marcel Dicke, Corné M J Pieterse						
+Publication Title	Signal signature and transcriptome changes of Arabidopsis during pathogen and insect attack.						
+Publication Status	published						
+Publication Status Term Source REF	EFO						
+Publication Status Term Accession Number	EFO_0001796						
+Experiment Description	Plant defenses against pathogens and insects are regulated differentially by cross-communicating signaling pathways in which salicylic acid (SA), jasmonic acid (JA) and ethylene (ET) play key roles. To understand how plants integrate pathogen- and insect-induced signals into specific defense responses, we monitored the dynamics of SA, JA, and ET signaling in Arabidopsis after attack by a set of microbial pathogens and herbivorous insects with different modes of attack. Arabidopsis plants were exposed to a pathogenic leaf bacterium (Pseudomonas syringae pv. tomato), a pathogenic leaf fungus (Alternaria brassicicola), tissue-chewing caterpillars (Pieris rapae), cell-content-feeding thrips (Frankliniella occidentalis), or phloem-feeding aphids (Myzus persicae). Monitoring the signal signature in each plant-attacker combination showed that the kinetics of SA, JA, and ET production varies greatly in both quantity and timing. Analysis of global gene expression profiles demonstrated that the signal signature characteristic of each Arabidopsis-attacker combination is orchestrated into a surprisingly complex set of transcriptional alterations in which, in all cases, stress-related genes are overrepresented. Comparison of the transcript profiles revealed that consistent changes induced by pathogens and insects with very different modes of attack can show considerable overlap. Of all consistent changes induced by A. brassicicola, P. rapae, and F. occidentalis, more than 50% were also induced consistently by P. syringae. Notably, although these four attackers all stimulated JA biosynthesis, the majority of the changes in JA-responsive gene expression were attacker-specific. All together our study shows that SA, JA, and ET play a primary role in the orchestration of the plant's defense response, but other regulatory mechanisms, such as pathway cross-talk or additional attacker-induced signals, eventually shape the highly complex attacker-specific defense response. In the experimental set up we intended to select for genes that showed a more than 2-fold change in the same direction(up or down)at two time points after pathogen or insect attack. The results are described in the following paper:; De Vos, M., Van Oosten, V.R., Van Poecke, R.M.P., Van Pelt, J.A., Pozo, M.J., Mueller, M.J., Buchala, A.J., Metraux, J.-P., Van Loon, L.C., Dicke, M. and Pieterse, C.M.J. (2005). Signal signature and transcriptome changes in Arabidopsis upon pathogen and insect attack. Molecular Plant-Microbe Interactions. Experimenter name = Corne Pieterse; Experimenter phone = +31 30 253 3013; Experimenter fax = +31 30 251 8366; Experimenter department = Section Phytopathology; Experimenter institute = Utrecht University; Experimenter address = Department of Biology; Experimenter address = Utrecht University; Experimenter address = Sorbonnelaan 16; Experimenter address = Utrecht; Experimenter zip/postal_code = 3584CA; Experimenter country = The Netherlands Experiment Overall Design: 14 samples were used in this experiment						
+Protocol Name	P-G5525-3	P-G5525-4	P-G5525-2	P-G5525-5	P-G5525-1	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6
+Protocol Type	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	hybridization	feature_extraction
+Protocol Description	Tissue-chewing larvae of the small cabbage white butterfly Pieris rapae were reared on Brussels sprout plants (Brassica oleracea gemmifera cv. Cyrus) in a growth chamber with a 16-h day and 8-h night cycle (21Â&deg;C; 50-70% relative humidity), as described previously (Van Poecke et al., 2001). Infestation of Arabidopsis Col-0 plants was carried out by transferring five first-instar larvae of P. rapae to each plant using a fine paintbrush.	The population of the Western flower thrips Frankliniella occidentalis originated from a greenhouse infestation on chrysanthemum. This virus-free population was reared on Phaseolus vulgaris cv. Prelude pods, supplied with Pinus pollen, in glass jars that were placed at 25Â&deg;C in a growth chamber with a 16-h day and 8-h night cycle as described (Kindt et al., 2003). Thrips infestations were performed by transferring 20 larvae of F. occidentalis to each Arabidopsis Col-0 plant.	Bioassays with the fungal leaf pathogen Alternaria brassicicola strain MUCL 20297 were carried out as described by Ton et al. (MPMI, 2002). Briefly, A. brassicicola was grown on potato dextrose agar plates for 2 weeks at 22Â&deg;C. Subsequently, conidia were collected as described by Broekaert et al. (1990). Five-week-old susceptible pad3-1 plants were challenge inoculated by applying 3-Â&#956;L drops of 10 mM MgSO4 containing 106 spores per mL onto all fully expanded leaves of 5-week-old plants.	Phloem-feeding green peach aphids (Myzus persicae) were maintained on Brassica chinensis L. cv. Granaat under greenhouse conditions (25Â&deg;C; 50-70% relative humidity). The 16-h light period prevented sexual reproduction, keeping the population clonal. Arabidopsis Col-0 plants were infested with M. persicae by transferring 40 nymphs and apterous adults to each plant (Van Poecke et al., 2003).	P. syringae pv. tomato DC3000 with the plasmid pV288 carrying avirulence gene avrRpt2 (Kunkel et al., 1993) was cultured overnight at 28Â&deg;C in liquid King's medium B, supplemented with 25 mg.L-1  kanamycin to select for the plasmid. Subsequently, bacterial cells were collected by centrifugation and resuspended in 10 mM MgSO4 to a final density of 107 cfu.mL-1. Wild-type Col-0 plants were inoculated by pressure infiltrating a suspension of P. syringae pv. tomato DC3000(avrRpt2) at 107 cfu.mL-1 into all fully expanded leaves of 5-week-old plants.	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 
+Protocol Parameters							
+Protocol Hardware							
+Protocol Software						MicroArraySuite 5.0	MicroArraySuite 5.0
+Protocol Contact							
+Protocol Term Source REF						mo	
+SDRF File	E-GEOD-5525.sdrf.txt						
+Term Source Name	NCBI Taxonomy	The MGED Ontology	ArrayExpress	EFO	The MGED Ontology	mo	
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version							

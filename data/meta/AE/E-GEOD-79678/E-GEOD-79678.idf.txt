@@ -1,0 +1,31 @@
+Comment[ArrayExpressAccession]	E-GEOD-79678						
+MAGE-TAB Version	1.1						
+Public Release Date	2016-06-26						
+Investigation Title	Influence of human P53 on plant gene expression						
+Comment[Submitted Name]	Influence of human P53 on plant gene expression						
+Experiment Description	Mammalian p53 is a super tumor suppressor and plays a key role in guarding genome from DNA damage. However, p53 has not been found in plants which do not bear cancer although they constantly expose to ionizing radiation of ultraviolet light. Here we introduced p53 into the model plant Arabidopsis and examined p53-conferred phenotype in plant. Most strikingly, p53 caused early senescence and fasciation. We used microarrays to identify differentially expressed genes 10-day-old wild type (Col-0) and 35S:P53-transgenic plants. Replicates are derived from three independent biological experiments.						
+Term Source Name	ArrayExpress	EFO					
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Wang	Wang					
+Person First Name	Shui	Shui					
+Person Email	shuiwang@shnu.edu.cn						
+Person Affiliation	Shanghai Normal University						
+Person Phone	86-18017760981						
+Person Address	College of Life and Environmental Sciences, Shanghai Normal University, 100 Guilin Rd, Shanghai, Shanghai, China						
+Person Roles	submitter						
+Protocol Name	P-GSE79678-1	P-GSE79678-5	P-GSE79678-6	P-GSE79678-2	P-GSE79678-3	P-GSE79678-4	P-GSE79678-7
+Protocol Description	The raw data refer to the linear data which has been summarized using a summarization algorithm (RMA16, PLIER 16 and Iterative PLIER 16). All summarization algorithms also do variance stabilization by adding 16.The normalized data are generated after the log transformation and baseline transformation step. ID_REF =  VALUE = normalized	RNA probes were labelled using the Ambion MessageAmp Premier.	Following fragmentation, 10 ug of cRNA were hybridized on Affymetrix ATH1 GeneChip (Santa Clara, CA, U.S.A).	10-day-old wild type (Col-0) and 35S:P53-transgenic plants. Replicates are derived from three independent biological experiments.	Arabidopsis seedlings were grown at 21-24 degreeC, 16-hour day length, 60% relative humidity	Total RNA was isolated from the frozen material using Invitrogen TRIzol.	GeneChips were scanned using the Axon Genepix Scanner (Genepix 4000B).
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	genotype						
+Experimental Factor Type	genotype						
+Comment[SecondaryAccession]	GSE79678						
+Comment[GEOReleaseDate]	2016-06-26						
+Comment[ArrayExpressSubmissionDate]	2016-03-29						
+Comment[GEOLastUpdateDate]	2016-07-01						
+Comment[AEExperimentType]	transcription profiling by array						
+Publication Title	Influence of Human p53 on Plant Development						
+Publication Author List	Ma H, Song T, Wang T, Wang S						
+PubMed ID	27648563						
+Publication DOI	10.1371/journal.pone.0162840						
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis p53-transgenic seedlings						
+SDRF File	E-GEOD-79678.sdrf.txt						

@@ -1,0 +1,51 @@
+Investigation Title	Transcription profiling of Arabidopsis aba3-1 suppressor mutants																	
+Comment[Submitted Name]	affy_aba_ath1-Characterization of aba3-1 suppressor mutants																	
+Experimental Design	unknown_experiment_design_type	transcription profiling by array																
+Experimental Design Term Source REF		EFO																
+Comment[AEExperimentType]	transcription profiling by array																	
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for aba3																	
+Comment[AEMIAMESCORE]	3																	
+Comment[SecondaryAccession]	GSE7961																	
+Comment[ArrayExpressReleaseDate]	2008-10-25																	
+Comment[ArrayExpressAccession]	E-GEOD-7961																	
+Comment[MAGETAB TimeStamp_Version]	2010-08-07 22:25:58 Last Changed Rev: 13058																	
+Experimental Factor Name	GENOTYPE																	
+Experimental Factor Type	genotype																	
+Experimental Factor Term Source REF																		
+Person Last Name	balzergue																	
+Person First Name	sandrine																	
+Person Mid Initials																		
+Person Email	balzerg@evry.irna.fr																	
+Person Phone																		
+Person Fax																		
+Person Address	URGV, INRA, 2 Rue Gaston Crémieux, Evry, 91000, France																	
+Person Affiliation	INRA																	
+Person Roles	submitter																	
+Person Roles Term Source REF																		
+Quality Control Type																		
+Quality Control Term Source REF																		
+Replicate Type																		
+Replicate Term Source REF																		
+Normalization Type																		
+Normalization Term Source REF																		
+Date of Experiment																		
+Public Release Date	2008-10-25																	
+PubMed ID																		
+Publication DOI																		
+Publication Author List																		
+Publication Title																		
+Publication Status																		
+Publication Status Term Source REF																		
+Experiment Description	affy_aba_ath1 - affy_aba_ath1 - In order to identify new genes implicated in ABA signalisation pathways, we have carried out a screen for suppressor mutants of the ABA deficient mutant aba3-1. Infrared thermography was used to identify plants whose cold leaf phenotype was reverted. The transcriptome analysis of four recessive suppressor mutants was undertaken to determine which genes are differentially expressed compared to the wild type or aba3-1. Such genes could represent the mutated gene itself or indicate signalling or response pathways affected by the mutation-comparison of four suppressor mutants (g-radiation induced) to wild type and the ABA deficient mutant aba3-1 Experiment Overall Design: 12 arrays - ATH1																	
+Protocol Name	P-G7961-2	P-G7961-1	P-G7961-10	P-G7961-13	P-G7961-12	P-G7961-9	P-G7961-5	P-G7961-15	P-G7961-11	P-G7961-4	P-G7961-14	P-G7961-6	P-G7961-8	P-G7961-7	P-G7961-16	P-G7961-3	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6
+Protocol Type	specified_biomaterial_action	grow	grow	nucleic_acid_extraction	nucleic_acid_extraction	nucleic_acid_extraction	nucleic_acid_extraction	nucleic_acid_extraction	nucleic_acid_extraction	nucleic_acid_extraction	nucleic_acid_extraction	nucleic_acid_extraction	nucleic_acid_extraction	nucleic_acid_extraction	nucleic_acid_extraction	labeling	hybridization	feature_extraction
+Protocol Description	no treatment	aerial - compost/ 70 per cent/ 21degreeC/ 8h00 light 16h00 dark	aerial - compost/ 70per cent/ 21degreeC/ 8h00 light 16h00 dark	S14-150_2:6.8ug.	aba3-1_2:12ug.	S82-2_1:10ug.	aba3-1_1:12.4ug.	S58-2_2:5.1ug.	wt_2:10ug.	wt_1:8.4ug.	S15-118_2:11.8ug.	S14-150_1:15ug.	S58-2_1:10ug.	S15-118_1:10.8ug.	S82-2_2:12.1ug.	labelling Biotin direct, amplification=yes, RNAa 20 ug.	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 
+Protocol Parameters																		
+Protocol Hardware																		
+Protocol Software																	MicroArraySuite 5.0	MicroArraySuite 5.0
+Protocol Contact																		
+Protocol Term Source REF																	mo	
+SDRF File	E-GEOD-7961.sdrf.txt																	
+Term Source Name	NCBI Taxonomy		The MGED Ontology	ArrayExpress	EFO	mo												
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php												
+Term Source Version																		

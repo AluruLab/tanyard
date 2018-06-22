@@ -1,0 +1,50 @@
+Investigation Title	Transcription profiling of Arabidopsis leaves reponse to DTT to examine the effect of redox on gene expression	
+Comment[Submitted Name]	effect of redox on gene expression	
+Experimental Design	compound_treatment_design	transcription profiling by array	
+Experimental Design Term Source REF	mo	EFO	
+Comment[ArrayExpressReleaseDate]	2008-06-12	
+Comment[SecondaryAccession]	GSE4021	
+Comment[SecondaryAccession]	GDS2363	
+Comment[AEMIAMESCORE]	3	
+Comment[ArrayExpressAccession]	E-GEOD-4021	
+Comment[MAGETAB TimeStamp_Version]	2010-08-05 12:31:11 Last Changed Rev: 13058	
+Experimental Factor Name	Compound	
+Experimental Factor Type	compound	
+Experimental Factor Term Source REF	
+Person Last Name	van Dongen	
+Person First Name	Joost	
+Person Mid Initials	T.	
+Person Email	dongen@mpimp-golm.mpg.de	
+Person Phone	
+Person Fax	
+Person Address	AG Geigenberger, Metabolic Networks, Max Planck Institute of Molecular Plant Physiology, Am Muehlenberg 1, Potsdam, D-14476, Germany	
+Person Affiliation	Max Planck Institute of Molecular Plant Physiology	
+Person Roles	submitter	
+Person Roles Term Source REF	The MGED Ontology	
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2008-06-12	
+PubMed ID	16648214	
+Publication DOI	16648214	
+Publication Author List	Anna Kolbe, Sandra N Oliver, Alisdair R Fernie, Mark Stitt, Joost T van Dongen, Peter Geigenberger	
+Publication Title	Combined transcript and metabolite profiling of Arabidopsis leaves reveals fundamental effects of the thiol-disulfide status on plant metabolism.	
+Publication Status	journal_article	
+Publication Status Term Source REF	The MGED Ontology	
+Experiment Description	In this study, we used GC-MS analysis in combination with flux analysis and the Affymetrix ATH1 GeneChip to survey the metabolome and transcriptome of Arabidopsis leaves in response to manipulation of the thiol-disulfide status. Feeding low concentrations of the sulfhydryl reagent dithiothreitol (DTT) for one hour at the end of the dark period led to post-translational redox-activation of ADP-glucose pyrophosphorylase and major alterations in leaf carbon partitioning, including an increased flux into major respiratory pathways, starch- cell-wall-, and amino-acid synthesis and a reduced flux to sucrose. This was accompanied by a decrease in the levels of hexose-phosphates, while metabolites in the second half of the TCA cycle and various amino acids increased, indicating a stimulation of anaplerotic fluxes reliant on Î±-ketoglutarate. There was also an increase in shikimate as a precursor of secondary plant products and marked changes in the levels of the minor sugars involved in ascorbate synthesis and cell wall metabolism. Transcript profiling revealed a relatively small number of changes in the levels of transcripts coding for components of redox-regulation, transport processes and cell wall, protein and amino acid metabolism, while there were no major alterations in transcript levels coding for enzymes involved in central metabolic pathways. These results provide a global picture of the effect of redox and reveal the utility of transcript and metabolite profiling as systemic strategies to uncover the occurrence of redox-modulation in vivo. Experiment Overall Design: Leaf discs were incubated with or without 5mM DTT for one hour to affect the redox status of the cells. The effect of this treatment on global gene expression was analysed using affymetrix ATH1 microarrays. The experiments contains one control (-DTT) and one treatment (+DTT) and is performed with 2 biological replicas.	
+Protocol Name	P-G4021-2	P-G4021-1	P-G4021-4	P-G4021-3	
+Protocol Type	specified_biomaterial_action	grow	nucleic_acid_extraction	labeling	
+Protocol Description	Source leaf discs taken at the end of the night from non-flowering plants. Discs were incubated in the dark for one hour in 2mM MES buffer, pH 6.5 with (treatment) or without (control) 5mM dithiotreitol (DTT). After incubation discs were snap-frozen in liquid nitrogen.	Plants were grown in a phytotron with a 14h day / 10h night. Temperature: 20Â&deg;C / 16Â&deg;C. Humidity: 60% / 75%. Lightintensity: .	Total RNA extraction using TRIzol Total RNA Isolation Reagent, according to the protocol supplied by the manufacturer GibcoBRL Life-Technologies.	10Â&#956;g total RNA was biotin labelled	
+Protocol Parameters	
+Protocol Hardware	
+Protocol Software	
+Protocol Contact	
+Protocol Term Source REF	
+SDRF File	E-GEOD-4021.sdrf.txt	
+Term Source Name	NCBI Taxonomy		The MGED Ontology	ArrayExpress	NCI_thesaurus	mo	EFO	The MGED Ontology	
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	ncithesaurus.obo.alt	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version									

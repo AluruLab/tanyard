@@ -1,0 +1,51 @@
+Investigation Title	Transcription profiling of Arabidopsis - effect of AtHRE1 and AtHRE2 overexpression in normoxia and hypoxia												
+Comment[Submitted Name]	Effect of AtHRE1 and AtHRE2 overexpression in normoxia and hypoxia												
+Experimental Design	unknown_experiment_design_type	transcription profiling by array											
+Experimental Design Term Source REF		EFO											
+Comment[AEExperimentType]	transcription profiling by array												
+Comment[AEExperimentDisplayName]	Transcription profiling by array Arabidopsis expressing HRE1 or HRE2 under the control of the 35S promoter after exposure to hypoxia												
+Comment[AEMIAMESCORE]	3												
+Comment[SecondaryAccession]	GSE17099												
+Comment[ArrayExpressReleaseDate]	2009-11-10												
+Comment[ArrayExpressAccession]	E-GEOD-17099												
+Comment[MAGETAB TimeStamp_Version]	2010-08-03 11:18:38 Last Changed Rev: 13058												
+Experimental Factor Name	GENOTYPE	GROWTH CONDITION											
+Experimental Factor Type	genotype	growth_condition											
+Experimental Factor Term Source REF													
+Person Last Name	Perata												
+Person First Name	Pierdomenico												
+Person Mid Initials													
+Person Email	p.perata@sssup.it												
+Person Phone													
+Person Fax													
+Person Address	Plant Physiology, Crop Physiology Center, Sant'Anna School of Advanced Studies, Via Mariscoglio 34, Pisa, 56124, Italy												
+Person Affiliation	Sant'Anna School of Advanced Studies												
+Person Roles	submitter												
+Person Roles Term Source REF	The MGED Ontology												
+Quality Control Type													
+Quality Control Term Source REF													
+Replicate Type													
+Replicate Term Source REF													
+Normalization Type													
+Normalization Term Source REF													
+Date of Experiment													
+Public Release Date	2009-11-10												
+PubMed ID													
+Publication DOI													
+Publication Author List													
+Publication Title													
+Publication Status													
+Publication Status Term Source REF													
+Experiment Description	HRE1 and HRE2 are two ERF transcription factors induced by low oxygen. In this work we analyzed the effect of ectopic expression of HRE1 and HRE2 on the arabidopsis transcriptome in aerobic and hypoxic (1% O2) conditions. While HRE1 has a moderate effect on the expression of anaerobic genes under hypoxia, HRE2 does not affect them either under aerobic or hypoxic conditions. Experiment Overall Design: We treated Arabidopsis seedling Col-0 (wt) and transgenic 35S::HRE1 and 35S::HRE2 , 7-day old, germinated in 12/12 light/dark photoperiod with: Experiment Overall Design: -Control (23Â°C, dark, 21% O2, 4h). Experiment Overall Design: -Hypoxia (23Â°C, dark, 1% O2, 4h). Experiment Overall Design: Two biological replicates for each condition.												
+Protocol Name	P-G17099-2	P-G17099-9	P-G17099-7	P-G17099-10	P-G17099-12	P-G17099-11	P-G17099-1	P-G17099-6	P-G17099-5	P-G17099-8	P-G17099-3	P-AFFY-6	P-G17099-4
+Protocol Type	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	grow	grow	nucleic_acid_extraction	nucleic_acid_extraction	labeling	feature_extraction	bioassay_data_transformation
+Protocol Description	This sample represents aerobic transgenic 35S::HRE1. Arabidopsis seedlings, 7d-old.	This sample represents hypoxic transgenic 35S::HRE2. Arabidopsis seedlings, 7d-old.	This sample represents aerobic transgenic 35S::HRE2. Arabidopsis seedlings, 7d-old.	This sample represents aerobic wt Col-0. Arabidopsis seedlings, 7d-old.	This sample represents hypoxic 35S::HRE1 Col-0. Arabidopsis seedlings, 7d-old.	This sample represents hypoxic wt Col-0. Arabidopsis seedlings, 7d-old.	Arabidopsis thaliana, Columbia-0 ecotype, was used in all experiments. Seeds were sterilized with ethanol 70% (1 min),  0.85% sodium hypochlorite (10 min) and rinsed with sterile water (6 times). Seedlings were grown on  Murashige and Skoog half-strength medium (agar 0.8%) containing 30 mM sucrose. The plates were incubated in the dark at 4Â°C for two days (vernalization, to promote homogeneous germination) and then transferred to 23Â°C for seven days under light/dark 12/12 photoperiod before the treatments. Seedlings were grown under aerobic conditions.	Arabidopsis thaliana, Columbia-0 ecotype, was used in all experiments. Seeds were sterilized with ethanol 70% (1 min), 0.85% sodium hypochlorite (10 min) and rinsed with sterile water (6 times). Seedlings were grown on Murashige and Skoog half-strength medium (agar 0.8%) containing 30 mM sucrose. The plates were incubated in the dark at 4Â°C for two days (vernalization, to promote homogeneous germination) and then transferred to 23Â°C for seven days under light/dark 12/12 photoperiod before the treatments. Seedlings were grown under aerobic conditions.	Total RNA was extracted from whole 7-day old plants using the RNeasy kit (Qiagen). RNA quality was assessed by agarose gel electrophoresis and spectrophotometry. RNA was processed for use on Affymetrix  Arabidopsis Genome GeneChip arrays.	Total RNA was extracted from whole 7-day old plants using the RNeasy kit (Qiagen). RNA quality was assessed by agarose gel electrophoresis and spectrophotometry. RNA was processed for use on Affymetrix Arabidopsis Genome GeneChip arrays.	Affymetrix standard labeling protocol	Title: Affymetrix CEL analysis. Description: 	GC-RMA algorithm
+Protocol Parameters													
+Protocol Hardware													
+Protocol Software												MicroArraySuite 5.0	
+Protocol Contact													
+Protocol Term Source REF													The MGED Ontology
+SDRF File	E-GEOD-17099.sdrf.txt												
+Term Source Name	NCBI Taxonomy		The MGED Ontology	ArrayExpress	EFO	The MGED Ontology							
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php							
+Term Source Version													

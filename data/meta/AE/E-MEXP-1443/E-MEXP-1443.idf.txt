@@ -1,0 +1,49 @@
+Investigation Title	Transcription profiling by array of Arabidopsis guard cells and mesophyll cells in response to ABA treatment								
+Comment[Submitted Name]	SchroederGuardCellGC1								
+Experimental Design	replicate_design	compound_treatment_design	cell_type_comparison_design	co-expression_design	transcription profiling by array				
+Experimental Design Term Source REF	mo	mo	mo	mo	EFO				
+Comment[AEExperimentType]	transcription profiling by array								
+Comment[ArrayExpressReleaseDate]	2008-02-02								
+Comment[AEMIAMESCORE]	5								
+Comment[ArrayExpressAccession]	E-MEXP-1443								
+Comment[MAGETAB TimeStamp_Version]	2011-06-30 20:51:12 Last Changed Rev: 14857								
+Experimental Factor Name	compound	dose	protocol +/- inhibitor	cell type					
+Experimental Factor Type	compound	dose	treatment	cell_type					
+Experimental Factor Term Source REF									
+Person Last Name	Yang								
+Person First Name	Yingzhen								
+Person Mid Initials									
+Person Email	yiyang@biomail.ucsd.edu								
+Person Phone	858-245-0203								
+Person Fax									
+Person Address	9500 Gilman Drive								
+Person Affiliation	Developmental Biology								
+Person Roles	submitter								
+Person Roles Term Source REF									
+Quality Control Type	biological_replicate								
+Quality Control Term Source REF	The MGED Ontology								
+Replicate Type									
+Replicate Term Source REF									
+Normalization Type									
+Normalization Term Source REF									
+Date of Experiment									
+Public Release Date	2008-02-02								
+PubMed ID	18284694								
+Publication DOI	18284694								
+Publication Author List	"Yingzhen Yang, Alex Costa, Nathalie Leonhardt, Robert S Siegel, and Julian I Schroeder"								
+Publication Title	Isolation of a strong Arabidopsis guard cell promoter and its potential as a research tool								
+Publication Status	journal_article								
+Publication Status Term Source REF	The MGED Ontology								
+Experiment Description	Transcriptional profiling of guard cells and mesophyll cells in response to ABA treatment								
+Protocol Name	P-MEXP-133453	P-MEXP-133454	P-MEXP-133456	P-AFFY-2	Affymetrix:Protocol:Hybridization-EukGE-WS2v4[]	Affymetrix:Protocol:Hybridization-EukGE-WS2v4_450[]	P-AFFY-6	Affymetrix:Protocol:MAS4:ExpressionCall	Affymetrix:Protocol:ExpressionStat
+Protocol Type	grow	specified_biomaterial_action	nucleic_acid_extraction	labeling	hybridization	hybridization	feature_extraction	bioassay_data_transformation	bioassay_data_transformation
+Protocol Description	"Wild-type Arabidopsis plants, ecotype Columbia, were grown in soil in a plant growth room with 16-h-light (80uE light fluence rate) and 8-h-dark cycle at 20 oC and 40% humidity. After 5 to 6 weeks, plants were sprayed with 100 uM ABA or with water 4h before cell isolation at the same time of day, after 1h light, to eliminate variation as a result of diurnal changes in gene expression."	5-6 week old Arabidopsis plants were sprayed with 100uM ABA or water after 1 h light in the morning. Guard cell protoplasts and mesophyll cell protoplasts were isolated simultaneously four hours after the treatment. 	"Total RNA was extracted from guard cell or mesophyll protoplasts using the Trizol reagent according to the manufacturer's instruction. Where indicated, to prevent changes of gene expression during protoplast isolation, two different transcription inhibitors, actinomycin D (33 mg/L) and cordycepin (100 mg/L), were used in all procedures of the isolation, including the first step of blending."	Title: Affymetrix in vitro transcription. Description: 	Title: Affymetrix EukGE-WS2v4 Hybridization. Description: 		Title: Affymetrix CEL analysis. Description: 	Title: Affymetrix CHP Analysis (ExpressionCall). Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 
+Protocol Parameters	media;min temperature;stop time;start time;		Extracted product;Amplification;						
+Protocol Hardware									
+Protocol Software					MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 4.0	MicroArraySuite 5.0
+Protocol Contact									
+Protocol Term Source REF					mo			mo	
+SDRF File	E-MEXP-1443.sdrf.txt								
+Term Source Name	mo		EFO	The MGED Ontology	po	ArrayExpress	The MGED Ontology	mo	EFO
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php		http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.plantontology.org	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/
+Term Source Version									

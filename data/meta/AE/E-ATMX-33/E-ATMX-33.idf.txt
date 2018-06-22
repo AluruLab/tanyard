@@ -1,0 +1,49 @@
+Investigation Title	Transcription profiling of Arabidopsis trichomes from wild type, and tryptychon and glabra3 mutant plants						
+Comment[Submitted Name]	Schnittger Arabidopsis Expression profiling of mature trichomes						
+Experimental Design	organism_part_comparison_design	co-expression_design	transcription profiling by array				
+Experimental Design Term Source REF	mo	mo	EFO				
+Comment[AEExperimentType]	transcription profiling by array						
+Comment[ArrayExpressReleaseDate]	2008-09-23						
+Comment[AEMIAMESCORE]	5						
+Comment[ArrayExpressAccession]	E-ATMX-33						
+Comment[MAGETAB TimeStamp_Version]	2010-07-29 14:42:13 Last Changed Rev: 13058						
+Experimental Factor Name	organism part	genotype					
+Experimental Factor Type	organism part	genotype					
+Experimental Factor Term Source REF							
+Person Last Name	Jakoby						
+Person First Name	Marc						
+Person Mid Initials	J						
+Person Email	jakoby@mpiz-koeln.mpg.de						
+Person Phone	+49-221-5062627						
+Person Fax							
+Person Address	Gyrhofstr. 13						
+Person Affiliation	Botany III						
+Person Roles	submitter						
+Person Roles Term Source REF	The MGED Ontology						
+Quality Control Type							
+Quality Control Term Source REF							
+Replicate Type							
+Replicate Term Source REF							
+Normalization Type							
+Normalization Term Source REF							
+Date of Experiment							
+Public Release Date	2008-09-23						
+PubMed ID	18805951						
+Publication DOI	10.1104/pp.108.126979						
+Publication Author List	Jakoby MJ, Falkenhan D, Mader MT, Brininstool G, Wischnitzki E, Platz N, Hudson A, Hülskamp M, Larkin J, Schnittger A.						
+Publication Title	Transcriptional profiling of mature Arabidopsis trichomes reveals that NOECK encodes the MIXTA-like transcriptional regulator MYB106						
+Publication Status	published						
+Publication Status Term Source REF	EFO						
+Experiment Description	Expression analysis of mature Arabidopsis trichomes in Col-0 and two mutants, triptychon (try-JC) and glabra3 (gl3-3)						
+Protocol Name	P-CAGE-26661	P-CAGE-26662	P-CAGE-26666	P-AFFY-2	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6	P-CAGE-26665
+Protocol Type	grow	nucleic_acid_extraction	nucleic_acid_extraction	labeling	hybridization	feature_extraction	bioassay_data_transformation
+Protocol Description	Seeds were sown on soil and pots were stored at 4 °C for 3 days. Plants for profiling experiments were grown in a climate chamber for 13 days at a 10 h light / 14 h dark cycle at 23 °C.	Primary leaves were attached to slides with double sided tape and frozen on dry ice. Trichomes were clipped off at their stem leaving their base on the leaf in order to avoid contamination with adjacent epidermal or mesophyll cells using extra fine forceps and immediately transferred to RLT buffer (Qiagen, Hilden, Germany). RNA was isolated using the RNeasy Micro kit (Qiagen). RNA was quantified with an Agilent Bioanalyzer and the Nano6000 chips. 50 to 100 ng of total RNA were used as starting material for the RNA amplifications following the Affymetrix protocol for the amplification of eucaryote RNA.	Primary leaves were attached to slides with double sided tape and frozen on dry ice and the trichomes were removed with a small brush. Leaves were removed from the slides, washed shortly in water and transferred to RLT buffer. RNA was isolated using the RNeasy Micro kit (Qiagen). 	Title: Affymetrix in vitro transcription. Description: 	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	All statistical analyses of the microarray data were conducted in R (www.r-project.org) employing BioConductor (www.bioconductor.org) facilities. Probesets of the triplicates were summarized with the MAS-5.0 algorithm. Probesets with a differences between the Col-0 trichome samples higher than two-fold were excluded from the analysis. The MAS 5.-0 summaries of the remaining 18,459 probesets of the Col-0 trichome GeneChips and of the gl3-3 and try-JC mutant triplicates were normalized against the mean of the leaves whose trichomes were removed (LwoT) control group employing a LOESS smoother operating on logarithmic M-A scale [Cleveland, 1979].
+Protocol Parameters	light hours;light intensity;light source;day temperature;day humidity;media;night temperature;night humidity;	Extracted product;Amplification;	Extracted product;Amplification;				
+Protocol Hardware							
+Protocol Software					MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact							
+Protocol Term Source REF					mo		The MGED Ontology
+SDRF File	E-ATMX-33.sdrf.txt						
+Term Source Name	NCBI Taxonomy	abrc_stock	The MGED Ontology	ArrayExpress	mo	EFO	The MGED Ontology
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://www.arabidopsis.org/servlets/Search?action=new_search&type=germplasm	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version							

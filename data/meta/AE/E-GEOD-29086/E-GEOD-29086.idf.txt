@@ -1,0 +1,58 @@
+Comment[ArrayExpressAccession]	E-GEOD-29086							
+Public Release Date	2011-10-05							
+Investigation Title	Arabidopsis root Fe deficiency transcriptome							
+Comment[Submitted Name]	Arabidopsis root Fe deficiency transcriptome							
+Experiment Description	Fe deficiency stimulates a coordinated response involving reduction, transport and redistribution of Fe in the roots. The expression of genes regulated by Fe deficiency in the two contrasting Arabidopsis thaliana ecotypes, Tsu-1 and Kas-1, shows that different ecotypes can respond in diverse ways, with different Fe regulated overrepresented categories. We use microarrays to analyze the Fe deficiency responses of contrasting Arabidopsis thaliana ecotypes (Tsu-1 and Kas-1). Arabidopsis thaliana roots from the Kas-1 and Tsu-1 ecotypes were exposed to complete or -Fe nutrient solutions and collected after 24 and 48 h for RNA extraction and hybridization on Affymetrix microarrays. Experiments were done using three biological replicates.							
+Date of Experiment								
+Term Source Name	EFO							
+Term Source Version								
+Term Source File	http://www.ebi.ac.uk/efo/efo.owl							
+Person Last Name	Waters	Waters	Stein					
+Person First Name	Brian	Brian	Ricardo					
+Person Mid Initials	M	M	J					
+Person Email	bwaters2@unl.edu							
+Person Affiliation	University of Nebraska-Lincoln							
+Person Phone	402-472-0153							
+Person Fax	402-472-8650							
+Person Address	Agronomy and Horticulture, University of Nebraska-Lincoln, 279 Plant Sciences Hall, Lincoln, Nebraska, USA							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Person Roles Term Accession Number								
+Normalization Type								
+Normalization Term Accession Number								
+Normalization Term Source REF								
+Replicate Type								
+Replicate Term Accession Number								
+Replicate Term Source REF								
+Experimental Design								
+Experimental Design Term Accession Number								
+Experimental Design Term Source REF								
+Quality Control Type								
+Quality Control Term Accession Number								
+Quality Control Term Source REF								
+Protocol Name	P-GSE29086-1	P-GSE29086-6	P-GSE29086-3	P-GSE29086-8	P-GSE29086-7	P-GSE29086-2	P-GSE29086-4	P-GSE29086-5
+Protocol Description	ID_REF = <br>VALUE = MAS5.0 signal intensity<br>ABS_CALL = <br>DETECTION P-VALUE = 	Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45C on GeneChip Drosophila Genome Array. GeneChips were washed and stained in the Affymetrix Fluidics Station 400.	Seeds were planted onto rockwool loosely packed into 1.5 ml centrifuge tubes with the bottoms removed. The tubes were floated in foam rafts in containers of nutrient solution. After 10 days, seedlings were transferred to holes in lids of containers contain nutrient solution with constant aeration for an additional 14 days before treatments.	The data was analyzed with GeneSpringX (Agilent) using the MAS5 algorithm	GeneChips were scanned using the Hewlett-Packard GeneArray Scanner G2500A.	Roots were collected after 24 or 48 h of exposure to complete (with 50 micromolar of Fe-EDDHA) or –Fe (without added Fe) solutions.	Quiagen RNeasy  extraction of total RNA was performed according to the manufacturer's instructions.	Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 5 ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+Protocol Software								
+Protocol Hardware								
+Protocol Contact								
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_acquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Protocol Term Source REF								
+Protocol Term Accession Number								
+Experimental Factor Name	time	ecotype	growth condition					
+Experimental Factor Type	time	ecotype	growth condition					
+Experimental Factor Term Source REF								
+Experimental Factor Term Accession Number								
+Publication Title	Use of natural variation reveals core genes in the transcriptome of iron-deficient Arabidopsis thaliana roots							
+Publication Author List	Stein RJ, Waters BM							
+PubMed ID	22039296							
+Publication DOI	10.1093/jxb/err343							
+Publication Status	published							
+Publication Status Term Source REF	EFO							
+Publication Status Term Accession Number	EFO_0001796							
+Comment[SecondaryAccession]	GSE29086							
+Comment[GEOLastUpdateDate]	2011-10-06							
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis Kas-1 and Tsu-1 ecotypes in response to iron deficiency							
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[GEOReleaseDate]	2011-10-04							
+Comment[ArrayExpressSubmissionDate]	2011-05-04							
+SDRF File	E-GEOD-29086.sdrf.txt							

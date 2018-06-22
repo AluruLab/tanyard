@@ -1,0 +1,51 @@
+Investigation Title	Transcription profiling of Arabidopsis shoot apices from wild type Ler and mutant ron1-1 plants					
+Comment[Submitted Name]	Transcription profiling of Arabidopsis mutant ron1-1 vs the wild type Ler					
+Experimental Design	genetic modification design					
+Experimental Design Term Source REF	EFO					
+Comment[AEExperimentType]	transcription profiling by array					
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for ron1					
+Comment[AEMIAMESCORE]	4					
+Comment[ArrayExpressReleaseDate]	2009-11-16					
+Comment[SecondaryAccession]						
+Comment[ArrayExpressAccession]	E-TABM-566					
+Comment[MAGETAB TimeStamp_Version]	2010-08-12 19:28:53 Last Changed Rev: 13058					
+Experimental Factor Name	genotype					
+Experimental Factor Type	genotype					
+Experimental Factor Term Source REF						
+Person Last Name	FLEURY					
+Person First Name	DELPHINE					
+Person Mid Initials						
+Person Email	delphine.fleury@acpfg.com.au					
+Person Phone						
+Person Fax						
+Person Address	DEPARTMENT OF PLANT SYSTEMS BIOLOGY, Ghent University Technologiepark 927, 9052 Gent, BELGIUM					
+Person Affiliation	VIB					
+Person Roles	submitter					
+Person Roles Term Source REF						
+Quality Control Type						
+Quality Control Term Source REF						
+Replicate Type						
+Replicate Term Source REF						
+Normalization Type						
+Normalization Term Source REF						
+Date of Experiment						
+Public Release Date	2009-11-16					
+PubMed ID	20044451					
+Publication DOI	10.1104/pp.109.149369					
+Publication Author List	Robles P, Fleury D, Candela H, Cnops G, Alonso-Peral MM, Anami S, Falcone A, Caldana C, Willmitzer L, Ponce MR, Van Lijsebettens M, Micol JL.					
+Publication Title	The RON1/FRY1/SAL1 Gene Is Required for Leaf Morphogenesis and Venation Patterning in Arabidopsis					
+Publication Status	published					
+Publication Status Term Source REF	EFO					
+Experiment Description	Transcription profiling of Arabidopsis mutant ron1-1 vs the wild type Ler					
+Protocol Name	P-MEXP-7779	P-MEXP-7780	P-MEXP-7782	P-MEXP-8074	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6
+Protocol Type	grow	specified_biomaterial_action	nucleic_acid_extraction	labeling	hybridization	feature_extraction
+Protocol Description	The growth chamber conditions were: 16/8 hrs (d/n) with white light (Neon tubes, cool white), 100 ÂµEm-Â²h-1 PAR and 20 Â°C.  60 seeds were sowed in per 150 x 25 mm round dish, sealed with Urgopore tape and placed in darkness at 4oC for 3 days.	Plants of the wild-type Landsberg erecta Ler and 4 narrow leaf mutants elongata2, elongata3, elongata4, angusta4 (Berna et al., 1999) and drl1-2 (Nelissen et al., 2003)(Nottingham Seed Stock Center (NASC) code is N9360).  The shoot apex of plants (comprising shoot apex meristem, first and second leaf primordia at petiole-less stage) were harvested at the growth stage 1.0 removing the cotyledons and the hypocotyls and at least 4 hours after the beginning of the photoperiod when photosynthetic and metabolic activities of plants are stable (Boyes et al., 2001). The age of the plants at the harvesting step were between 11 and 18 days after sowing depending of the delay in mutant development. 	Total RNA was isolated using Trizol Reagent (Life Technologies Gaithersburg MD, USA)	Affymetrix  Labelling protocol for ARE-ATH1 array  The labelling protocol is applicable for use with the GeneChip ARE-ATH1 when starting with a minimal amount of 5ug total RNA.  The protocol is derived from the ÂGeneChipÂ® Expression Analysis Technical ManualÂ (Section 2 Eukaryotic sample and array processing). The document can be found at the affymetrix website: http://www.affymetrix.com/support/downloads/manuals/expression_s2_manual.pdf   Within this document (expression_s2_manual.pdf), the following sections are applicable for the labelling protocol:  2.1.3 Eukaryotic Target Preparation 2.1.7 - 2.1.8 Reagents and Materials Required 2.1.13 - 2.1.18 One-Cycle cDNA Synthesis  2.1.32 - 2.1.33 Cleanup of Double Stranded cDNA for Both the One-Cycle and Two-Cycle Target Labelling Assays 2.1.34 - 2.1.35 Synthesis of Biotin-Labelled cRNA for both the One-Cycle and Two-Cycle Target Labelling Assays. 2.1.36 2.1.38Â Cleanup and Quantification of Biotin-Labelled cRNA 2.1.39 Â 2.1.40 Fragmenting the cRNA for Target Preparation 	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 
+Protocol Parameters						
+Protocol Hardware						
+Protocol Software					MicroArraySuite 5.0	MicroArraySuite 5.0
+Protocol Contact						
+Protocol Term Source REF						
+SDRF File	E-TABM-566.sdrf.txt					
+Term Source Name	EFO					
+Term Source File	http://www.ebi.ac.uk/efo/					
+Term Source Version						

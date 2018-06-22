@@ -1,0 +1,58 @@
+Comment[ArrayExpressAccession]	E-GEOD-11538								
+Public Release Date	2010-12-07								
+Investigation Title	The association between gene expression and whole genome histone H3K4 mono-, di, and trimethylation: expression data								
+Comment[Submitted Name]	The association between gene expression and whole genome histone H3K4 mono-, di, and trimethylation: expression data								
+Experiment Description	These microarrays are part of a study where a comparison was made between the change in transcription and H3K4 mono-, di-, and tri-methylation levels (via ChIP-seq) in the Arabidopsis thaliana genome when plants are subjected to water deficit stress. Water deficit stress causes a large number of genes to change their transcript levels, which provided a large set of genes to examine for corresponding chromatine changes.  Keywords: stress response Arabidopsis thaliana RNA was isolated from control (watered) and treatment (water-deficit) samples for analysis on microarrays with three biological reps.								
+Date of Experiment									
+Term Source Name	EFO								
+Term Source Version									
+Term Source File	http://www.ebi.ac.uk/efo								
+Person Last Name	Riethoven	van Dijk	Riethoven	Yang	Laczko	Chen	Xia	Ladunga	Fromm
+Person First Name	Jean-Jack	Karin	Jean-Jack	Jingyi	Peter	Han	Yuannan	Istvan	Michael
+Person Mid Initials	M.		M						E
+Person Email	jriethoven@unl.edu								
+Person Affiliation	University of Nebraska-Lincoln								
+Person Phone									
+Person Fax	+1 (402) 472 3139								
+Person Address	Beadle Center for Biotechnology, University of Nebraska-Lincoln, 1901 Vine Street, Lincoln, NE, USA								
+Person Roles	submitter								
+Person Roles Term Source REF									
+Person Roles Term Accession Number									
+Normalization Type									
+Normalization Term Accession Number									
+Normalization Term Source REF									
+Replicate Type									
+Replicate Term Accession Number									
+Replicate Term Source REF									
+Experimental Design	growth condition design								
+Experimental Design Term Accession Number									
+Experimental Design Term Source REF	EFO								
+Quality Control Type									
+Quality Control Term Accession Number									
+Quality Control Term Source REF									
+Protocol Name	P-GSE11538-1	P-GSE11538-5	P-GSE11538-4	P-GSE11538-2	P-GSE11538-3	P-GSE11538-6			
+Protocol Description	ID_REF = <br>VALUE = Rosetta Resolver proprietary within-array normalised intensities<br>DETECTION P-VALUE = 	GeneChips were scanned using the Affymetrix GeneChip Scanner 3000 7G; Pixel size: 1.56 um; Filter: 570 nm	Following fragmentation, 15 ug of cRNA were hybridized for 16 hr at 45C, refer to GeneChip Expression Analysis Technical Manual (www.affymetrix.com). GeneChips were washed and stained with streptavidin-phycoerythrin conjugate on an Affymetrix Fluidics Station 450	Trizol extraction of total RNA was performed according to the manufacturer's instructions.	Biotinylated cRNA were prepared according to the standard Affymetrix protocol (reaction at 37C for 16h) from 15 ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).	The data was analysed using Rosetta Resolver 6.0, creating ratio-experiments  using control reps as one pool, and treatment reps as the other pool.  Resulting log ratios and p-values are calculated using Rosetta's proprietary ratio error model.			
+Protocol Software									
+Protocol Hardware									
+Protocol Contact									
+Protocol Type	bioassay_data_transformation	image_aquisition	hybridization	nucleic_acid_extraction	labeling	feature_extraction			
+Protocol Term Source REF									
+Protocol Term Accession Number									
+Experimental Factor Name	growth condition								
+Experimental Factor Type	growth condition								
+Experimental Factor Term Source REF									
+Experimental Factor Term Accession Number									
+Publication Title	Dynamic changes in genome-wide histone H3 lysine 4 methylation patterns in response to dehydration stress in Arabidopsis thaliana.								
+Publication Author List	van Dijk K, Ding Y, Malkaram S, Riethoven JJ, Liu R, Yang J, Laczko P, Chen H, Xia Y, Ladunga I, Avramova Z, Fromm M								
+PubMed ID	21050490								
+Publication DOI	10.1186/1471-2229-10-238								
+Publication Status	published								
+Publication Status Term Source REF	EFO								
+Publication Status Term Accession Number	EFO_0001796								
+Comment[SecondaryAccession]	GSE11538								
+Comment[GEOLastUpdateDate]	2010-12-07								
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis after water deprivation								
+Comment[AEExperimentType]	transcription profiling by array								
+Comment[GEOReleaseDate]	2010-12-07								
+Comment[ArrayExpressSubmissionDate]	2008-05-21								
+SDRF File	E-GEOD-11538.sdrf.txt								

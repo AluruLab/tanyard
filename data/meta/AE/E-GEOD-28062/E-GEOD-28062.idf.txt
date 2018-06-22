@@ -1,0 +1,58 @@
+Comment[ArrayExpressAccession]	E-GEOD-28062							
+Public Release Date	2011-05-11							
+Investigation Title	LEAFY target genes reveal a link between flower development and biotic stimulus response (III)							
+Comment[Submitted Name]	LEAFY target genes reveal a link between flower development and biotic stimulus response (III)							
+Experiment Description	The transition from vegetative growth to flower formation is critical for the survival of flowering plants. The plant-specific transcription factor LEAFY (LFY) has central, evolutionarily conserved roles in this process, both in the formation of the first flower and later in floral patterning. We performed genome-wide binding and expression studies to elucidate the molecular mechanisms by which LFY executes these roles. Our study reveals that LFY directs an intricate regulatory network in control of floral homeotic gene expression and, unexpectedly, controls the expression of genes regulating the response to external stimuli in Arabidopsis. We further show that LFY dampens responses to a bacterial MAMP (microbe-associated molecular pattern) and to pathogen challenge. Our findings suggest a molecular mechanism for the coordination of reproductive stage development and disease response programs in plants. Regulation of these distinct survival programs by a single transcription factor may ensure optimal allocation of plant resources for reproductive fitness. Expression array analysis used to identify genes differentially expressed upon LFY induction in 9-day-old shoot apices. Expression array analysis of 9-day-old 35S::LFY-GR dexamethasone-treated seedlings compared to 9-day-old WT dexamethasone-treated seedlings. Four biological replicate samples.							
+Date of Experiment								
+Term Source Name	EFO							
+Term Source Version								
+Term Source File	http://bar.ebi.ac.uk:8080/trac/browser/branches/curator/ExperimentalFactorOntology/ExFactorInOWL/currentrelease/eforelease/efo.owl							
+Person Last Name	Winter	Winter	Wagner					
+Person First Name	Cara	Cara	Doris					
+Person Mid Initials	Michele	M						
+Person Email	caramw@mail.med.upenn.edu							
+Person Affiliation	University of Pennsylvania							
+Person Phone								
+Person Fax								
+Person Address	University of Pennsylvania, 421 Curie Blvd., Philadelphia, USA							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Person Roles Term Accession Number								
+Normalization Type								
+Normalization Term Accession Number								
+Normalization Term Source REF								
+Replicate Type								
+Replicate Term Accession Number								
+Replicate Term Source REF								
+Experimental Design								
+Experimental Design Term Accession Number								
+Experimental Design Term Source REF								
+Quality Control Type								
+Quality Control Term Accession Number								
+Quality Control Term Source REF								
+Protocol Name	P-GSE28062-1	P-GSE28062-6	P-GSE28062-3	P-GSE28062-8	P-GSE28062-7	P-GSE28062-2	P-GSE28062-4	P-GSE28062-5
+Protocol Description	ID_REF = <br>VALUE = log2 gcrma normalized signal intensities	Hybridization to the Affymetrix Arabidopsis ATH1 array was performed at the University of Pennsylvania Microarray Core Facility using standard Affymetrix protocols.	Seeds cold-treated for 7 days at 4°C were grown in inductive conditions (continuous light or 16 hour long-day light conditions) at 23°C at a fluence rate of 45 μmol/m2 sec on 0.5x Murashige and Skoog plates	Microarray data were processed using Bioconductor packages in R. Data were gcRMA normalized (Wu et al., 2004). Non-specific filtering was performed with the MAS5.0 algorithm for genes that were ‘Present’ in at least 2 of 4 arrays in at least one treatment group (genotype) (McClintick and Edenberg, 2006). Differentially expressed genes were identified using LIMMA (Smyth, 2004).	Scanning was performed at the University of Pennsylvania Microarray Core Facility using standard Affymetrix protocols.	35S::LFY-GR and WT seedlings were treated with 10uM dexamethasone, 0.1% ethanol, for 4 hours essentially as described (Wagner et al., 1999).	RNA was extracted from four independent pools of apices using TRI-Reagent followed by column purification (RNeasy kit; QIAGEN).	RNA was amplified and labeled using NuGEN's Ovation™ RNA kits according to the manufacturer's instructions.
+Protocol Software								
+Protocol Hardware								
+Protocol Contact								
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Protocol Term Source REF								
+Protocol Term Accession Number								
+Experimental Factor Name	genotype							
+Experimental Factor Type	genotype							
+Experimental Factor Term Source REF								
+Experimental Factor Term Accession Number								
+Publication Title	LEAFY Target Genes Reveal Floral Regulatory Logic, cis Motifs, and a Link to Biotic Stimulus Response.							
+Publication Author List	Winter CM, Austin RS, Blanvillain-Baufumé S, Reback MA, Monniaux M, Wu MF, Sang Y, Yamaguchi A, Yamaguchi N, Parker JE, Parcy F, Jensen ST, Li H, Wagner D							
+PubMed ID	21497757							
+Publication DOI	10.1016/j.devcel.2011.03.019							
+Publication Status	published							
+Publication Status Term Source REF	EFO							
+Publication Status Term Accession Number	EFO_0001796							
+Comment[SecondaryAccession]	GSE28062							
+Comment[GEOLastUpdateDate]	2011-05-10							
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis expressing LEAFY under the control of the 35S promoter							
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[GEOReleaseDate]	2011-05-10							
+Comment[ArrayExpressSubmissionDate]	2011-03-21							
+SDRF File	E-GEOD-28062.sdrf.txt							

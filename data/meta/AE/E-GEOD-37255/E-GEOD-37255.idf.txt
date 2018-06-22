@@ -1,0 +1,57 @@
+Comment[ArrayExpressAccession]	E-GEOD-37255
+Public Release Date	2012-04-13							
+Investigation Title	Arabidopsis thaliana wild-type and pskr1-5 transcriptome upon the compatible interaction with Hyaloperonospora arabidopsidis							
+Comment[Submitted Name]	Arabidopsis thaliana wild-type and pskr1-5 transcriptome upon the compatible interaction with Hyaloperonospora arabidopsidis
+Experiment Description	We used Arabidopsis full-genome microarrays to characterize plant transcript accumulations in wild-type plants and pskr1-5 mutants, 3 days after water treatment and inoculation with the biotrophic oomycete downy mildew pathogen, Hyaloperonospora arabidopsidis. In two independent experiments, cotyledons from the wild-type Wassilewskija (WS) ecotype and from the pskr1-5 mutant were treated with water, or inoculated with the H. arabidopsidis isolate Emwa1 to establish a compatible interaction. Affymetrix ATH1 microarrays were used to profile Arabidopsis transcript accumulations at 3 days after onset of treatment.							
+Date of Experiment								
+Term Source Name	EFO
+Term Source Version								
+Term Source File	http://www.ebi.ac.uk/efo/efo.owl							
+Person Last Name	Keller	Rodiuc	Favery	Keller				
+Person First Name	Harald	N	B	H				
+Person Mid Initials								
+Person Email	keller@sophia.inra.fr							
+Person Affiliation	INRA							
+Person Phone	33-492386594							
+Person Fax	33-492386587							
+Person Address	UMR-ISA, INRA, 400 route des Chappes, Sophia Antipolis, France							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Person Roles Term Accession Number								
+Normalization Type								
+Normalization Term Accession Number								
+Normalization Term Source REF								
+Replicate Type								
+Replicate Term Accession Number								
+Replicate Term Source REF								
+Experimental Design								
+Experimental Design Term Accession Number								
+Experimental Design Term Source REF								
+Quality Control Type								
+Quality Control Term Accession Number								
+Quality Control Term Source REF								
+Protocol Name	P-GSE37255-1	P-GSE37255-6	P-GSE37255-3	P-GSE37255-8	P-GSE37255-7	P-GSE37255-2	P-GSE37255-4	P-GSE37255-5
+Protocol Description	ID_REF = <br>VALUE = RMA log2 Signal intensity	standard Affymetrix protocol	Seeds from A. thaliana ecotype Wassilewskija (WS) were sown on a soil/sand mixture, stratified for 3 days at 4 °C, and then grown under a 12 h photoperiod in a growth chamber at 20 °C.	Background adjustment, quantile normalization, and summarization of raw data were performed with the Affymetrix Power Tools APT1.14.4 software package.	standard Affymetrix protocol	For infection, 10-day-old plants were spray-inoculated to saturation with a spore suspension of 40,000 spores/ml (strain Emwa1)	In two independent experiments, cotyledons from the ecotype Wassilewskija (Ws-4) wild-type or pskr1-5 mutant plants were treated with water, or inoculated with H. arabidopsidis to establish a compatible interaction. Total RNA was extracted from about 100 mg of these tissues according to a procedure described (Laroche-Raynal et al., Plant Science Letters 35, 139-146,1984).	standard Affymetrix protocol
+Protocol Software								
+Protocol Hardware								
+Protocol Contact								
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Protocol Term Source REF								
+Protocol Term Accession Number								
+Experimental Factor Name	GENOTYPE	INFECTION						
+Experimental Factor Type	genotype	infection						
+Experimental Factor Term Source REF								
+Experimental Factor Term Accession Number								
+Publication Title								
+Publication Author List								
+PubMed ID								
+Publication DOI								
+Publication Status								
+Publication Status Term Source REF								
+Publication Status Term Accession Number								
+Comment[SecondaryAccession]	GSE37255							
+Comment[GEOLastUpdateDate]	2012-04-14
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[GEOReleaseDate]	2012-04-12
+Comment[ArrayExpressSubmissionDate]	2012-04-12
+SDRF File	E-GEOD-37255.sdrf.txt

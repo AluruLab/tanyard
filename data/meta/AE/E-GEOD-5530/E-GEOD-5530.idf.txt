@@ -1,0 +1,45 @@
+Investigation Title	Transcription profiling of Arabidopsis under hydrogen peroxide stress overexpressing Zat12				
+Comment[Submitted Name]	Hydrogen peroxide stress and Zat12 over-expression in Arabidopsis.				
+Experimental Design	unknown_experiment_design_type	transcription profiling by array			
+Experimental Design Term Source REF		EFO			
+Comment[AEExperimentType]	transcription profiling by array				
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis over-expressing Zat12 after treatment with hydrogen peroxide				
+Comment[AEMIAMESCORE]	3				
+Comment[ArrayExpressReleaseDate]	2008-06-13				
+Comment[SecondaryAccession]	GSE5530				
+Comment[ArrayExpressAccession]	E-GEOD-5530				
+Comment[MAGETAB TimeStamp_Version]	2011-01-22 21:15:41 Last Changed Rev: 14857				
+Experimental Factor Name	genotype	growth condition			
+Experimental Factor Type	genotype	growth condition			
+Experimental Factor Term Source REF					
+Person Last Name	(NASC)				
+Person First Name	Nottingham Arabidopsis Stock Centre				
+Person Mid Initials					
+Person Email	affy@arabidopsis.info				
+Person Phone					
+Person Fax					
+Person Address	"School of Biosciences, University of Nottingham, Nottingham Arabidopsis Stock Centre (NASC), Sutton Bonington Campus, Loughborough, LE12 5RD, United Kingdom"				
+Person Affiliation	Nottingham Arabidopsis Stock Centre (NASC)				
+Person Roles	submitter				
+Person Roles Term Source REF					
+Quality Control Type					
+Quality Control Term Source REF					
+Replicate Type					
+Replicate Term Source REF					
+Normalization Type					
+Normalization Term Source REF					
+Date of Experiment					
+Public Release Date	2008-06-13				
+Experiment Description	"In this experiment we tested the transcriptome of transgenic Arabidopsis seedlings (5-day-old) constitutively expressing the zinc-finger protein Zat12 (At5g59820) under the control of the 35S-CaMV promoter (Zat12). The transcriptome of these seedlings was compared to that of wild type seedlings grown under the same conditions (WT) and to that of wild type seedlings grown under the same conditions and subjected to a hydrogen peroxide stress (WT+H2O2). Hydrogen peroxide treatment was performed by applying 20 mM hydrogen peroxide for 1 hour. In parallel to these experiments transgenic plants expressing Zat12 were subjected to a similar hydrogen peroxide stress (Zat12+H2O2). All treatments were performed with similar size and age seedlings grown in liquid culture (MS) and sampled at the same time as described by Davletova et al., 2005. Experimenter name = Ron Mittler; Experimenter phone = 1-775-784-1384; Experimenter fax = 1-775-784-1650; Experimenter department = Dept. of Biochemistry; Experimenter institute = University of Nevada; Experimenter address = MS200; Experimenter address = Reno; Experimenter address = Nevada; Experimenter zip/postal_code = 89557; Experimenter country = USA Experiment Overall Design: 12 samples were used in this experiment"				
+Protocol Name	P-G5530-1	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6		
+Protocol Type	specified_biomaterial_action	hybridization	feature_extraction		
+Protocol Description	20 mM hydrogen peroxide for 1 hour	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 		
+Protocol Parameters					
+Protocol Hardware					
+Protocol Software		MicroArraySuite 5.0	MicroArraySuite 5.0		
+Protocol Contact					
+Protocol Term Source REF		mo			
+SDRF File	E-GEOD-5530.sdrf.txt				
+Term Source Name	EFO	The MGED Ontology	ArrayExpress	EFO	mo
+Term Source File	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version					

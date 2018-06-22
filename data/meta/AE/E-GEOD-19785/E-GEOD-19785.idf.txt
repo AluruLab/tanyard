@@ -1,0 +1,57 @@
+Comment[ArrayExpressAccession]	E-GEOD-19785
+Public Release Date	2011-12-23							
+Investigation Title	Expression data from Arabidopsis and Maize leaves							
+Comment[Submitted Name]	Expression data from Arabidopsis and Maize leaves
+Experiment Description	Many animal and plant species exhibit increased growth rates, reach larger sizes and, in the cases of crops and farm animals, produce higher yields when bred as hybrids between genetically differing strains, a phenomenon known as hybrid vigour or heterosis.  Despite the importance of heterosis, and its extensive genetic analysis, there has been little understanding of its molecular basis.  We aimed to determine whether characteristics of the leaf transcriptome, as an indicator of the innate functional genetic architecture of a plant line, could be used as markers to predict heterosis and the performance of hybrids, a methodology we term Association Transcriptomics. Relationships between transcript abundance of specific genes and the values of heterosis and heterosis-dependent traits were identified and mathematical models were constructed that relate gene expression characteristics in inbred lines of Arabidopsis thaliana and maize with vegetative biomass and for grain yield, respectively, in corresponding hybrids. Plants used for transcriptome analysis were grown from seeds for 2 weeks.  Aerial parts above the coleoptiles were excised, weighed and frozen in liquid nitrogen.  All plants were harvested as close as practicable to the middle of the photoperiod. Plants used for transcriptome analysis were grown from seeds for 2 weeks. Maize seeds were first imbibed in distilled water for 2 days in glasshouse conditions to break dormancy, before transfer to peat and sand P7 pots. They were grown in long day glass house conditions (16 hours photoperiod) at 22 degrees Celsius.  Aerial parts above the coleoptiles were excised, weighed and frozen in liquid nitrogen.  All plants were harvested as close as practicable to the middle of the photoperiod.  Plants for yield trials were grown in the field at Clayton, NC, U.S.A. in 2005.  Forty plants of each hybrid were grown in duplicate 0.0007 hectare plots.							
+Date of Experiment								
+Term Source Name	EFO
+Term Source Version								
+Term Source File	http://www.ebi.ac.uk/efo/efo.owl							
+Person Last Name	Magusin	Magusin						
+Person First Name	Andreas	Andreas						
+Person Mid Initials								
+Person Email	andreas.magusin@bbsrc.ac.uk							
+Person Affiliation	John Innes Centre							
+Person Phone								
+Person Fax								
+Person Address	Computational and Systems Biology, John Innes Centre, Norwich Research Park, Norwich, United Kingdom							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Person Roles Term Accession Number								
+Normalization Type								
+Normalization Term Accession Number								
+Normalization Term Source REF								
+Replicate Type								
+Replicate Term Accession Number								
+Replicate Term Source REF								
+Experimental Design								
+Experimental Design Term Accession Number								
+Experimental Design Term Source REF								
+Quality Control Type								
+Quality Control Term Accession Number								
+Quality Control Term Source REF								
+Protocol Name	P-GSE19785-1	P-GSE19785-6	P-GSE19785-5	P-GSE19785-3	P-GSE19785-8	P-GSE19785-2	P-GSE19785-4	P-GSE19785-7
+Protocol Description	ID_REF = <br>VALUE = MAS5.0 signal intensity	Scanning (GeneArray® 2500) was carried out according to the Affymetrix Manual II.	Hybridisation overnight at 45 degrees Celsius and 60RPM (Hybridisation Oven 640), washing and staining (GeneChip® Fluidics Station 450, using the EukGEws2_450 Antibody amplification protocol)	Approximately 200mg of plant tissue was ground to a fine powder using liquid nitrogen in a baked pre-cooled mortar, and using a chilled spatula, transferred to labelled chilled 1.5ml tube. To these tubes 1ml of TRI Reagent (Sigma-Aldrich, Saint Louis USA) was added, then shaken to suspend the tissue. After a 5 minute incubation at room temperature 0.2ml of chloroform was added, and thoroughly mixed with the TRI Reagent by inverting the tubes for around 15 seconds, followed by 2-3 minutes incubation at room temperature. The tubes were centrifuged at 12000rpm for 15 minutes and the upper aqueous phase transferred to a clean, labelled tube.  0.5ml of isopropanol was then added to the tubes, which were inverted repeatedly for 30 seconds to precipitate the RNA, followed by a10 minute incubation at room temperature. The tubes were then were centrifuged at 12000rpm for 10 minutes at 4 degrees Celsius, revealing a white pellet on the side of the tube. The supernatant was poured off of the pellet, and the lip of the tube gently blotted with tissue paper. 1ml 75% ethanol was added and the tubes shaken to detach the pellet from the side of the tube, followed by centrifugation at 7500rpm for 5 minutes. Again the supernatant was poured off of the pellet, which was quickly spun down again and any remaining liquid removed using a pipette. The pellet was then dried in a laminar flow hood, before 50 microliters of DEPC treated water (Severn Biotech Ltd. Kidderminster, UK) was added to dissolve the pellet.  Sample concentrations were determined using an Eppendorf BioPhotometer (Eppendorf UK Limited. Cambridge. UK), and RNA quality was determined by running out 1microlitre on a 1% agarose gel for 1 hour.  RNA from replicated plants were then pooled according concentration in order to ensure an equal contribution of each replicate.  The pooled samples were then cleaned using Qiagen Rneasy columns (Qiagen Sciences. Maryland. USA) following the protocol on page 79 of the Rneasy Mini Handbook (06/2001), before again determining the concentrations using an Eppendorf BioPhotometer, and analysis of 1l on a 1% agarose gel for confirmation of quality.	Plants used for transcriptome analysis were grown from seeds for 2 weeks. Maize seeds were first imbibed in distilled water for 2 days in glasshouse conditions to break dormancy, before transfer to peat and sand P7 pots. They were grown in long day glass house conditions (16 hours photoperiod) at 22 degrees Celsius.  Aerial parts above the coleoptiles were excised, weighed and frozen in liquid nitrogen.  All plants were harvested as close as practicable to the middle of the photoperiod.  Plants for yield trials were grown in the field at Clayton, NC, U.S.A. in 2005.  Forty plants of each hybrid were grown in duplicate 0.0007 hectare plots.	Plants used for transcriptome analysis were grown from seeds for 2 weeks.  All plants were harvested as close as practicable to the middle of the photoperiod.	cRNA production was performed according to the Affymetrix Manual II with the following modifications:  11microlitres of cDNA was used as a template to produce biotinylated cRNA using half the recommended volumes of the ENZO BioArray High Yield RNA Transcript Labelling Kit. Labelled cRNAs were purified following the “Cleanup and Quantification of Biotin-Labelled cRNA” protocol (Affymetrix Manual II). cRNA quality was assessed by on Agilent RNA6000nano LabChips® (Agilent Technology 2100 Bioanalyzer Version A.01.20 SI211). 20µg of cRNA was fragmented according to the Affymetrix Manual II.	Microarray suite 5.0 (Affymetrix) was used for image analysis and to determine probe signal intensities. The average intensity of each microarray was scaled to 100. Further calculations were performed in GeneSpring® software (version 5.1). Within-chip normalisation was carried out across all processed arrays, to the 50th percentile of the signal values of each microarray. Similarly, each probe set was then normalised to the 50th percentile across all the microarrays. A cut-off value of 10 was imposed on the raw signal value.
+Protocol Software								
+Protocol Hardware								
+Protocol Contact								
+Protocol Type	bioassay_data_transformation	image_aquisition	hybridization	nucleic_acid_extraction	grow	grow	labeling	feature_extraction
+Protocol Term Source REF								
+Protocol Term Accession Number								
+Experimental Factor Name	ORGANISM							
+Experimental Factor Type	Organism							
+Experimental Factor Term Source REF								
+Experimental Factor Term Accession Number								
+Publication Title								
+Publication Author List								
+PubMed ID								
+Publication DOI								
+Publication Status								
+Publication Status Term Source REF								
+Publication Status Term Accession Number								
+Comment[SecondaryAccession]	GSE19785							
+Comment[GEOLastUpdateDate]	2011-12-23
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[GEOReleaseDate]	2011-12-23
+Comment[ArrayExpressSubmissionDate]	2010-01-07
+SDRF File	E-GEOD-19785.sdrf.txt

@@ -1,0 +1,32 @@
+Comment[ArrayExpressAccession]	E-GEOD-36011							
+MAGE-TAB Version	1.1							
+Public Release Date	2013-01-28							
+Investigation Title	Cyclin-dependent protein kinase E;1 (CDKE;1) is an essential component for mitochondrial retrograde signalling in Arabidopsis thaliana							
+Comment[Submitted Name]	Cyclin-dependent protein kinase E;1 (CDKE;1) is an essential component for mitochondrial retrograde signalling in Arabidopsis thaliana							
+Experiment Description	Stresses that target mitochondrial function lead to altered transcriptional responses for 100-1000s of genes genome wide, and are signalled via retrograde signalling pathways within the cell. rao1 mutants contain a mutation in a gene encoding a Cyclin-Dependant Kinase E;1 and cannot induce stress responsive genes (such as the mitochondrial alternative oxidase 1a) in response to mitochondrial dysfunction. We sought to define the global gene network regulated through RAO1 function in response to mitochondrial stress (mimicked through treatment of plants with antimycin A - a specific inhibitor of complex III in the mitochondrial electron transfer chain). We have defined global stress responses that are positively and negatively mediated by RAO1 function, as well as global stress responses to antimycin A treatment that are regulated independently of RAO1. We used Affymetrix microarray to characterise global gene expression profiles for mutant plants with compromised mitochondrial retrograde signalling under stress (rao1 mutants), to define the genome wide transcriptional network regulated through RAO1 function. rao1 and wild type 14-day-old seedlings (the optimal stage as defined by forward genetic screens that identifed rao1 mutants) grown on GamborgB5 plates were treated by spraying plants with 50 µM antimycin A  (an elicitor of mitochondrial retrograde signalling) while mock control samples were sprayed with deionised water. Samples were collected after 3hr of treatment for global expression profiling.							
+Term Source Name	ArrayExpress	EFO						
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl						
+Person Last Name	Ng	Ng	Giraud					
+Person First Name	Sophia 	Sophia	Estelle					
+Person Mid Initials	Jinq Tyan							
+Person Email	jinqtyan@gmail.com							
+Person Affiliation	ARC CoE PEB, UWA							
+Person Phone	61864884434							
+Person Address	ARC CoE PEB, UWA, 35, Stirling Hwy, Crawley, WA, Australia							
+Person Roles	submitter							
+Protocol Name	P-GSE36011-1	P-GSE36011-6	P-GSE36011-3	P-GSE36011-8	P-GSE36011-7	P-GSE36011-2	P-GSE36011-4	P-GSE36011-5
+Protocol Description	ID_REF =  VALUE = GC-RMA signal intensity	Following fragmentation, 10 ug of labelled aRNA were hybridized for 16 hr at 45C on GeneChip ATH1 Arabidopsis Expression Array. GeneChips were washed and stained in the Affymetrix Fluidics Station 450.	Seedlings were grown on GamborgB5 medium supplemented with 3 % sucrose under 16 h light/ 8h dark regime at 22 C (after 48 hr stratification at dark, at 4 C)	The data were analyzed with GC - Robust Multi-array Average (GC-RMA) using Affymetrix default analysis settings and global scaling as normalization method. The trimmed mean target intensity of each array was arbitrarily set to 500.	GeneChips were scanned using a Affymetrix GeneChip Scanner 3000 (7G)	Seedlings were sprayed either with deionised water (mock) or 50 uM antimycin A (Sigma) and put back to normal growth conditions for 3 hr before tissues were collected.	Qiagen RNeasy plant mini kit (Qiagen) according to manufacturer's instruction. On column Qiagen DNase digestion according to manufacturer's instruction.	Biotinylated aRNA were prepared according to the standard Affymetrix protocol from 400 ng total RNA input (Expression Analysis Technical Manual, 2001, Affymetrix).
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_acquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Experimental Factor Name	genotype	compound	dose					
+Experimental Factor Type	genotype	compound	dose					
+Publication Title	Cyclin-dependent Kinase E1 (CDKE1) Provides a Cellular Switch in Plants between Growth and Stress Responses.							
+Publication Author List	Ng S, Giraud E, Duncan O, Law SR, Wang Y, Xu L, Narsai R, Carrie C, Walker H, Day DA, Blanco NE, Strand A, Whelan J, Ivanova A							
+PubMed ID	23229550							
+Publication DOI	10.1074/jbc.M112.416727							
+Comment[SecondaryAccession]	GSE36011							
+Comment[GEOReleaseDate]	2013-01-28							
+Comment[ArrayExpressSubmissionDate]	2012-02-22							
+Comment[GEOLastUpdateDate]	2013-01-30							
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis Col:LUC and rao1 mutants under 3 hour stress treatment with antimycin A							
+SDRF File	E-GEOD-36011.sdrf.txt							

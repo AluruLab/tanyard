@@ -1,0 +1,51 @@
+Investigation Title	Transcription profiling of Arabidopsis sni1 and wild type			
+Comment[Submitted Name]	Comparison of transcriptional profiles between sni1 and wild type			
+Experimental Design	unknown_experiment_design_type	transcription profiling by array		
+Experimental Design Term Source REF		EFO		
+Comment[AEExperimentType]	transcription profiling by array			
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for sni1			
+Comment[AEMIAMESCORE]	3			
+Comment[ArrayExpressReleaseDate]	2008-06-15			
+Comment[SecondaryAccession]	GSE6827			
+Comment[ArrayExpressAccession]	E-GEOD-6827			
+Comment[MAGETAB TimeStamp_Version]	2010-08-07 16:07:04 Last Changed Rev: 13058			
+Experimental Factor Name	genotype			
+Experimental Factor Type	genotype			
+Experimental Factor Term Source REF				
+Person Last Name	(NASC)			
+Person First Name	Nottingham Arabidopsis Stock Centre			
+Person Mid Initials				
+Person Email	affy@arabidopsis.info			
+Person Phone				
+Person Fax				
+Person Address	School of Biosciences, University of Nottingham, Nottingham Arabidopsis Stock Centre (NASC), Sutton Bonington Campus, Loughborough, LE12 5RD, United Kingdom			
+Person Affiliation	Nottingham Arabidopsis Stock Centre (NASC)			
+Person Roles	submitter			
+Person Roles Term Source REF				
+Quality Control Type				
+Quality Control Term Source REF				
+Replicate Type				
+Replicate Term Source REF				
+Normalization Type				
+Normalization Term Source REF				
+Date of Experiment				
+Public Release Date	2008-06-15			
+PubMed ID				
+Publication DOI				
+Publication Author List				
+Publication Title				
+Publication Status				
+Publication Status Term Source REF				
+Experiment Description	Microarray experiment was performed using 4-week old plants to compare transcriptional profiles between sni1 (suppressor of npr1) and wild type (Col-0).  Three biological replicates were included. Experimenter name: Wendy Durrant; Experimenter phone: 1(919)613-8175; Experimenter fax: 1(919)613-8177; Experimenter department: Durrant Lab; Experimenter institute: Duke University; Experimenter address: Rm. B354, LSRC Bldg. Experimenter address: Research Dr. Experimenter address: Duke University; Experimenter address: Durham, NC; Experimenter zip/postal_code: 27708; Experimenter country: USA Experiment Overall Design: 6 samples were used in this experiment			
+Protocol Name	P-G6827-2	P-G6827-1	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6
+Protocol Type	nucleic_acid_extraction	labeling	hybridization	feature_extraction
+Protocol Description	standard NASC extraction protocol	standard NASC labeling protocol	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 
+Protocol Parameters				
+Protocol Hardware				
+Protocol Software			MicroArraySuite 5.0	MicroArraySuite 5.0
+Protocol Contact				
+Protocol Term Source REF				
+SDRF File	E-GEOD-6827.sdrf.txt			
+Term Source Name	EFO			
+Term Source File	http://www.ebi.ac.uk/efo/			
+Term Source Version				

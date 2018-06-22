@@ -1,0 +1,51 @@
+Investigation Title	Transcription profiling of Arabidopsis wild type Col-0, cry1 and hfr1 plants in response to dark and blue light treatment						
+Comment[Submitted Name]	HFR1 is Crucial for Transcriptome Regulation in the CRY1-mediated Early Response to Blue Light in Arabidopsis thaliana						
+Experimental Design	genetic modification design						
+Experimental Design Term Source REF	EFO						
+Comment[AEExperimentType]	transcription profiling by array						
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for cry1 or hfr1						
+Comment[AEMIAMESCORE]	4						
+Comment[SecondaryAccession]							
+Comment[ArrayExpressReleaseDate]	2008-10-29						
+Comment[ArrayExpressAccession]	E-MEXP-1784						
+Comment[MAGETAB TimeStamp_Version]	2010-08-09 23:58:43 Last Changed Rev: 13058						
+Experimental Factor Name	genotype						
+Experimental Factor Type	genotype						
+Experimental Factor Term Source REF							
+Person Last Name	Zhang						
+Person First Name	Xiao-Ning						
+Person Mid Initials							
+Person Email	xnzhang@umd.edu						
+Person Phone	301-405-6932						
+Person Fax							
+Person Address	Room 2127 HJ Patterson Hall, College-Park, MD, 20742, USA						
+Person Affiliation	University of Maryland						
+Person Roles	submitter						
+Person Roles Term Source REF							
+Quality Control Type							
+Quality Control Term Source REF							
+Replicate Type							
+Replicate Term Source REF							
+Normalization Type							
+Normalization Term Source REF							
+Date of Experiment							
+Public Release Date	2008-10-29						
+PubMed ID	18974779						
+Publication DOI	10.1371/journal.pone.0003563						
+Publication Author List	Zhang XN, Wu Y, Tobias JW, Brunk BP, Deitzer GF, Liu D.						
+Publication Title	HFR1 is crucial for transcriptome regulation in the cryptochrome 1-mediated early response to blue light in Arabidopsis thaliana						
+Publication Status	published						
+Publication Status Term Source REF	EFO						
+Experiment Description	micrarray profiling on Arabidopsis thaliana col-0, cry1 and hfr1 in response to dark and 1 h blue light treatment						
+Protocol Name	P-MTAB-1580	P-MTAB-1579	P-MTAB-1578	P-MTAB-1581	P-MTAB-1582	P-AFFY-6	P-MTAB-1585
+Protocol Type	nucleic_acid_extraction	specified_biomaterial_action	grow	labeling	hybridization	feature_extraction	bioassay_data_transformation
+Protocol Description	Seedlings were ground to fine powder in liquid N2. About 100 mg of the fine powder were used for total RNA extraction using RNeasy Mini Kit as the manufactures described in the handbook.<br><br><br>(Parameters: Extracted product = total_RNA, Amplification = none)	Seedlings were grown in the dark for 4 days followed by 1 h blue light (50 ?mol m-2s-1) treatment. The dark treated seedlings were kept in the dark before harvest.	seeds were surface sterilized, plated on MS medium containing 3% Sucrose and 0.8% agar and stratified in the dark at 4 ºC for 4 days before monochromatic light treatment at 22 ºC.<br>(Parameters: start time = 0, stop time = 1, time unit = hours, min temperature = 22, temperature unit = C, media = MS+3% Sucrose)	To prepare probe RNA for microarray hybridization, 5 ?g of total RNA was primed with 100 pmol oligo dT(24) primer containing a 5 T7 RNA polymerase promoter sequence. First strand cDNA was synthesized using 200 units of SuperScript II RNase H- Reverse Transcriptase (Invitrogen) at 42 ºC for 2 hr. Second strand synthesis was performed  using a cocktail (10 units E. coli DNA ligase, 40 units DNA polymerase I, 2 units RNase H), with the second strand buffer (invitrogen) and incubated at 16 ºC for 2 hr, followed by another 5 min incubation at 16 ºC after adding 10 units T4 DNA polymerase  to each reaction.  The reaction was then terminated by 10 µL 0.5 M EDTA. The (ds)-cDNA product was further purified using an equal volume of phenol: chloroform: isoamyl alcohol (25:24:1, saturated with 10 mM Tris-HCl pH 8.0/1 mM EDTA) on a phase lock gel and then precipitated  by adding 0.5 volume of RNase free 7.5 M NH4Ac and 2.5 volumes of 20 ºC RNase free 100% ethanol.  The purified cDNA was used as a template for generating biotinylated cRNA probes via BioArray High Yield RNA transcription labeling kit (T7) (Enzo) at 37 ºC for 5 hrs. The biotin labeled cRNA was purified by Qiagen RNeasy spin columns then fragmented at 94 ºC for 35 min to produce cRNA oligomers about 50  200 bp long.<br>(Parameters: Amount of nucleic acid labeled = 5, Amplification = none, Mass unit = Micro gram)	www.affymetrix.com/support/technical/manuals.affx<br>(Parameters: Chamber type = Affymetrix- GeneChip Hyb Oven 640, Quantity of label target used = 20, Mass unit = Micro gram, time = 16, Tiny time unit = hours, Volume = 100, Volume unit = Micro litre, temperature = 45)	Title: Affymetrix CEL analysis. Description: 	RMA normalization is shown by the average of the three replicates of each identifier in raw data.
+Protocol Parameters							
+Protocol Hardware							
+Protocol Software						MicroArraySuite 5.0	
+Protocol Contact							
+Protocol Term Source REF							
+SDRF File	E-MEXP-1784.sdrf.txt						
+Term Source Name	EFO						
+Term Source File	http://www.ebi.ac.uk/efo/						
+Term Source Version							

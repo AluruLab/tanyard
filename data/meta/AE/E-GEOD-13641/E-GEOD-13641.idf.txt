@@ -1,0 +1,32 @@
+Comment[ArrayExpressAccession]	E-GEOD-13641						
+Investigation Title	Transcription profiling of Rorippa root  (Brassicaceae) species and their F1 hybrid after complete submergence						
+Comment[Submitted Name]	Root transcript profiles of two Rorippa (Brassicaceae) species and their F1 hybrid after complete submergence						
+Publication Title							
+Publication Author List							
+Publication DOI							
+PubMed ID							
+Experimental Design	unknown_experiment_design_type	comparative genomic hybridization by array					
+Experimental Design Term Source REF		EFO					
+Person Last Name	Boonman						
+Person First Name	Alex						
+Person Address	Experimental Plant Systematics, IBED, Universiteit van Amsterdam, Kruislaan 318, Amsterdam, 1098 SM, the Netherlands						
+Person Affiliation	Universiteit van Amsterdam						
+Person Email	boonman@science.uva.nl						
+Person Roles	submitter						
+Public Release Date	2009-12-04						
+Comment[ArrayExpressSubmissionDate]	2008-11-18						
+Comment[GEOReleaseDate]	2009-12-01						
+Comment[SecondaryAccession]	GSE13641						
+Experiment Description	Complete submergence represses photosynthesis and aerobic respiration causing rapid mortality in most terrestrial plants, but some species have evolved traits allowing them to survive prolonged flooding. Here, we studied the response to submergence of two species and their F1 hybrid in the genus Rorippa, which is related to the model Arabidopsis. We showed that these species have high tolerance to complete, deep submergence, but R. sylvestris survived longer than R. amphibia and the F1 hybrid. While the former restricted growth upon submergence, the latter two genotypes showed induced stem and petiole elongation and had higher aerenchyma contents, indicative of a low oxygen escape strategy. Arabidopsis GeneChip microarrays were used for whole-genome transcript profiling of roots of young plants exposed to air or a 24-h submergence treatment, using a probe mask based on hybridisation of genomic DNA of both species to the arrays. The induction by the submergence treatment of genes involved in glycolysis and fermentation and repression of many energy consuming pathways was similar to the response to low oxygen of Arabidopsis and rice. Notably, sucrose synthases, glycolysis and fermentation genes were more strongly induced in the less tolerant R. amphibia than in R. sylvestris, which might indicate faster carbohydrate consumption of the former, while some genes involved in hydrogen peroxide scavenging were strongly and specifically induced in the latter. F1 hybrids showed a generally weaker response to submergence and an additive mode of gene action, which did not change by the submergence treatment. Experiment Overall Design: We used replicated clones of Rorippa amphibia, Rorippa sylvestris and their F1 hybrid. Plants were grown on sand in pots for three weeks, completely submerged in rain water for 24 h, or kept in air as a control. Three biological controls were collected per genotype, each consisting of a pool of three individuals. Roots were separated from the shoots, quickly rinsed and immediately frozen and used for RNA extraction and hybridization to Arabidopsis Ath1 GeneChips. Genomic DNA of Rorippa amphibia and Rorippa sylvestris was also hybridized to the GeneChips in order to filter out badly performing probes due to sequence divergences from Arabidopsis.						
+Protocol Name	P-G13641-6	P-G13641-3	P-G13641-2	P-G13641-7	P-G13641-1	P-G13641-4	P-G13641-5
+Protocol Type	labeling	labeling	specified_biomaterial_action	nucleic_acid_extraction	grow	bioassay_data_transformation	nucleic_acid_extraction
+Protocol Description	500 ng DNA was amplified and labeled using the Bioprime DNA labelling kit (Invitrogen). Nanodrop and Bioanalyzer evaluation was used.	Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 1 ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).	Control plants were placed individually in opaque 16 liter plastic bucketsin the greenhouse and submerged plants were placed in the same buckets filled with rain water. Treatment started at noon and lasted 24 hours. No supplemental lighting was given, water was not stirred or replaced, plants were completely submerged during the treatment. Individuals were randomly assigned to either the control or submerged condition and to a position in the greenhouse.	Genomic DNA was extracted using the Qiagen DNeasy Plant Mini Kit. Nanodrop and Bioanalyzer evaluation was used.	Rhizomes of each genotype were surface sterilized, cut into pieces and placed on agar medium in a light cabinet for 11 days for sprouts to develop. Individual meristems were excised and placed on pots filled with sand and supplemented with complete nutrient solution in a greenhouse. Plants were grown under natural daylight in the greenhouse for a further three weeks until the start of treatment	The data were analyzed with Genespring GX using the Robust Multichip Average (RMA) algorith and quantile normalization. A probe mask was applied based on the genomic DNA hybridisations and using a genomic DNA hybridisation intensity threshold of 80	Total RNA was extracted from frozen, homogenized material using the Qiagen RNeasy Plant Mini kit according to the manufacturer's instructions
+Protocol Parameters							
+Protocol Software							
+SDRF File	E-GEOD-13641.sdrf.txt						
+Term Source Name	EFO						
+Term Source File	http://efo.svn.sourceforge.net/viewvc/efo/trunk/src/efoinowl/efo.owl						
+Experimental Factor Name	GROWTH CONDITION	ORGANISM					
+Experimental Factor Type	growth_condition	organism					
+Comment[AEExperimentType]	transcription profiling by array						
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Rorippa amphibia, Rorippa sylvestris or their F1 hybrid after growth in air or submerged using the Affymetrix Arabidopsis ATH1-121501 array						

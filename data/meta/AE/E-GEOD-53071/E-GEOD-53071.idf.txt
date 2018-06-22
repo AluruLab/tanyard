@@ -1,0 +1,29 @@
+Comment[ArrayExpressAccession]	E-GEOD-53071						
+MAGE-TAB Version	1.1						
+Public Release Date	2013-12-07						
+Investigation Title	Measurement of temperature affects on Arabidopsis transcription and decay rates						
+Comment[Submitted Name]	Measurement of temperature affects on Arabidopsis transcription and decay rates						
+Experiment Description	The goal of this study is to measure Arabidopsis mRNA transcription and mRNA decay rates genome wide at two temperatures, and thus to calculate the temperature coefficient of both processes. Sensing and response to ambient temperature is important for controlling growth and development of many organisms, in part by regulating mRNA levels. mRNA abundance can change with temperature, but it is unclear whether this results from changes to transcription or decay rates and whether passive or active temperature regulation is involved.  Results  Using a base analogue labelling method we directly measured the temperature coefficient (Q10) of mRNA synthesis and degradation rates of the Arabidopsis transcriptome. We show that for most genes transcript levels are buffered against passive increases in transcription rates by balancing passive increases in the rate of decay. Strikingly, for temperature-responsive transcripts, increasing temperature raises transcript abundance primarily by promoting faster transcription relative to decay and not vice versa, suggesting a global transcriptional mechanism process exists for the activethat controls of mRNA abundance by temperature/ The design of this expreiment is thus: at time zero (dawn) 3 biological replicate samples were harvested, and then the base analogue 4-thiouracil (4SU) was added to three remaining biological replicate samples. At time T these were harvested and the latter biotinylated and separated into 4SU-containing (labelled) and 4SU non-containing (unlabelled) fractions by passage through a streptavidin column. Total RNA for both timepoints was hybridisaed on the chips, as were the separated fractions from time T, giving 12 chips in total. This design was  repeated at a second temperature, giving 24 hybridisations. The two tempertaures were 27C and 17C and time T was 1 hour after dawn at 27C and two hours after dawn at 17C.						
+Term Source Name	ArrayExpress	EFO					
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Penfield	Penfield	Sidaway-Lee				
+Person First Name	Steven	Steven	Kate				
+Person Email	geo@ncbi.nlm.nih.gov						
+Person Affiliation	University or Exeter						
+Person Address	Biosciences, University or Exeter, Stocker Raod, Exeter, United Kingdom						
+Person Roles	submitter						
+Protocol Name	P-GSE53071-1	P-GSE53071-5	P-GSE53071-6	P-GSE53071-2	P-GSE53071-3	P-GSE53071-4	P-GSE53071-7
+Protocol Description	MAS 5.0 ID_REF =  VALUE = MAS 5.0 signal ABS_CALL =  DETECTION P-VALUE = 	Affymetrix GeneChip IVT labelling kit	GeneChipﾮ Hybridization, Wash, and Stain Kit standard protocol	1.5mM 4SU was added to indicated samples at time 0h.	Plants were germinated at 22ﾰC for three days, grown at the experimental temperature for 7 days on 0.9% MS agar plates in 12 hour white light 12 hour dark cycles. Plants were floated on MS medium 12 hours before the expeimental start time (time 0h).	RNA was extracted uding Qiagen Plant Rneasy mini kit	GeneChipﾮ Scanner 3000, ACOS
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	time	temperature	treatment				
+Experimental Factor Type	time	temperature	treatment				
+Comment[SecondaryAccession]	GSE53071						
+Comment[GEOReleaseDate]	2013-12-07						
+Comment[ArrayExpressSubmissionDate]	2013-12-06						
+Comment[GEOLastUpdateDate]	2014-01-09						
+Comment[AEExperimentType]	transcription profiling by array						
+SDRF File	E-GEOD-53071.sdrf.txt						
+Publication Title	Direct measurement of transcription rates reveals multiple mechanisms for configuration of the Arabidopsis ambient temperature response.						
+Publication Author List	Sidaway-Lee K, Costa MJ, Rand DA, Finkenstadt B, Penfield S						
+PubMed ID	24580780						
+Publication DOI	10.1186/gb-2014-15-3-r45						

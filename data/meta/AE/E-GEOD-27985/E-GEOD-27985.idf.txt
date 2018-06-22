@@ -1,0 +1,58 @@
+Comment[ArrayExpressAccession]	E-GEOD-27985											
+Public Release Date	2012-03-07											
+Investigation Title	Microarray analysis of  Arabidopsis Col-0 and catalase 2 mutant define interactions between CO2, daylength and H2O2											
+Comment[Submitted Name]	Microarray analysis of  Arabidopsis Col-0 and catalase 2 mutant define interactions between CO2, daylength and H2O2											
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis catalase 2 mutant in response to CO2 level and photoperiod											
+Experiment Description	Growth daylength, ambient CO2 level, and intracellular hydrogen peroxide (H2O2) availability all impact plant function by modulating signalling pathways, but interactions between them remain unclear. Using a whole-genome transcriptomics approach, we exploited the conditional photorespiratory nature of the catalase-deficient cat2 mutant to identify gene expression patterns responding to these three factors. Arabidopsis Col-0 and cat2 grown for 5 weeks in high CO2 in short days (SD) were transferred to air in SD or long days (LD), and microarray analysis was performed. Of more than 500 genes differentially expressed in Col-0 between high CO2 and transfer to air in SD, the response of about one-third was attenuated by transfer to air in LD. H2O2-responsive genes in cat2 were highly dependent on daylength. The majority of H2O2-induced genes were more strongly up-regulated after transfer to air in SD than to LD, while a smaller number showed an opposing pattern. Responses of other H2O2-dependent genes indicate redox-modulation of the daylength control of fundamental cell processes. The overall analysis provides evidence that (1) CO2 level modulates stress-associated gene expression; (2) both CO2 and H2O2 interact with daylength and photoreceptor signalling pathways; and (3) cellular signalling pathways may be primed to respond to increased H2O2 in a daylength-determined manner. Two genotypes x five conditions experiment, including Arabidopsis Col0WT and cat2-1 plants grown in soil for 5 weeks in a 8h light/16h dark (short day) regime at high CO2 concentration (3000 ppm CO2) and subsequently transferred to air (400 ppm CO2) in a short day or long day (16h light/8h dark) regime for 2 and 4 days. Three biological replicates were used that consist each of a pool of two leaves from different plants. Each sample was hybridized to one Genechip® Arabidopsis ATH1 Genome Array (Affymetrix).											
+Date of Experiment												
+Term Source Name	EFO											
+Term Source Version												
+Term Source File	http://www.ebi.ac.uk/efo/efo.owl											
+Person Last Name	Allemeersch	Queval	Neukermans	Vanderauwera	Van Breusegem	Noctor						
+Person First Name	Joke	Guillaume	Jenny	Sandy	Frank	Graham						
+Person Mid Initials												
+Person Email	nucleomics.bioinformatics@vib.be											
+Person Affiliation	Flanders Institute for Biotechnology (VIB)											
+Person Phone	+32(0)16 37 31 26											
+Person Fax	+32(0)16 37 31 29											
+Person Address	Nucleomics Core, Flanders Institute for Biotechnology (VIB), Herestraat 49 Box 816, Leuven, Belgium											
+Person Roles	submitter											
+Person Roles Term Source REF												
+Person Roles Term Accession Number												
+Normalization Type												
+Normalization Term Accession Number												
+Normalization Term Source REF												
+Replicate Type												
+Replicate Term Accession Number												
+Replicate Term Source REF												
+Experimental Design												
+Experimental Design Term Accession Number												
+Experimental Design Term Source REF												
+Quality Control Type												
+Quality Control Term Accession Number												
+Quality Control Term Source REF												
+Protocol Name	P-GSE27985-1	P-GSE27985-6	P-GSE27985-3	P-GSE27985-8	P-GSE27985-7	P-GSE27985-9	P-GSE27985-10	P-GSE27985-12	P-GSE27985-2	P-GSE27985-11	P-GSE27985-4	P-GSE27985-5
+Protocol Description	ID_REF = <br>VALUE = log2 RMA normalized signal<br>ABS_CALL = the MAS 5.0 detection call in an absolute analysis that indicates if the transcript was present (P), absent (A), marginal (M), or no call (NC)<br>DETECTION P-VALUE = 'detection p-value', p-value that indicates the significance level of the detection call	Following fragmentation, 10 microg of cRNA were hybridized for 16 hr at 45 C and at 60 rounds/min. The GeneChips were washed and stained in the Affymetrix Fluidics Station 400 and 450.	Plants were grown for five weeks in soil at high CO2 concentration (3000 ppm) in a short day regime (8h light/16h dark), 20 C/18 C, 65% relative humidity, 200 umol.m-2.s-1 irradiance at the leaf surface.	RMA-normalized expression values as obtained with the affy package of BioConductor. The reported values are on log2-scale.	GeneChips were scanned using the GeneChip Scanner 3000 7G.	Transfer to air (400 ppm CO2) for 4 days in short day regime (8h light/16h dark)	Transfer to air (400 ppm CO2) for 2 days in long day regime (16h light/8h dark)	No transfer to air	Transfer to air (400 ppm CO2) for 2 days in short day regime (8h light/16h dark)	Transfer to air (400 ppm CO2) for 4 days in long day regime (16h light/8h dark)	RNA was isolated using TRIzol Reagent (Invitrogen, Carlsbad, CA) and further purified using Qiagen RNeasy MiniElute Columns. Concentration and quality of the RNA was determined with a Nanodrop ND 1000 spectrophotometer and quality was examined using the RNA 6000 Nano Assay (Agilent Technologies 2100 Bioanalyzer).	Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 2 microg total RNA.
+Protocol Software												
+Protocol Hardware												
+Protocol Contact												
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_acquisition	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Protocol Term Source REF												
+Protocol Term Accession Number												
+Experimental Factor Name	growth condition	genotype										
+Experimental Factor Type	growth condition	genotype										
+Experimental Factor Term Source REF												
+Experimental Factor Term Accession Number												
+Publication Title	Day length is a key regulator of transcriptomic responses to both CO(2) and H(2)O(2) in Arabidopsis.											
+Publication Author List	Queval G, Neukermans J, Vanderauwera S, Van Breusegem F, Noctor G											
+PubMed ID	21631535											
+Publication DOI	10.1111/j.1365-3040.2011.02368.x											
+Publication Status												
+Publication Status Term Source REF												
+Publication Status Term Accession Number												
+Comment[SecondaryAccession]	GSE27985											
+Comment[GEOLastUpdateDate]	2012-03-23											
+Comment[AEExperimentType]	transcription profiling by array											
+Comment[GEOReleaseDate]	2012-03-07											
+Comment[ArrayExpressSubmissionDate]	2011-03-16											
+SDRF File	E-GEOD-27985.sdrf.txt											

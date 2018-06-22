@@ -1,0 +1,48 @@
+Investigation Title	Transcription profiling of Arabidopsis distal leaves directly exposed to and shaded from high light levels	
+Comment[Submitted Name]	Pogson - A.thaliana - high light systemic signaling	
+Experimental Design	stimulus_or_stress_design	transcription profiling by array	
+Experimental Design Term Source REF	mo	EFO	
+Comment[ArrayExpressReleaseDate]	2007-10-31	
+Comment[AEMIAMESCORE]	5	
+Comment[ArrayExpressAccession]	E-ATMX-19	
+Comment[MAGETAB TimeStamp_Version]	2010-07-29 14:37:33 Last Changed Rev: 13058	
+Experimental Factor Name	light intensity	
+Experimental Factor Type	light	
+Experimental Factor Term Source REF	
+Person Last Name	Howell	
+Person First Name	Kate	
+Person Mid Initials	A	
+Person Email	kooks@cyllene.uwa.edu.au	
+Person Phone	+61-8-6488-2112	
+Person Fax	
+Person Address	35 Stirling Hwy, Crawley	
+Person Affiliation	ARC Centre of Excellence in Plant Energy Biology	
+Person Roles	submitter	
+Person Roles Term Source REF	The MGED Ontology	
+Quality Control Type	biological_replicate	
+Quality Control Term Source REF	The MGED Ontology	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2007-10-31	
+PubMed ID	18156220	
+Publication DOI	18156220	
+Publication Author List	Rossel, Jan Bart; Wilson, Pip B.; Hussain, Dawar; Woo, Nick S.; Gordon, Matthew J.; Mewett, Osman P.; Howell, Katharine A.; Whelan, Jim; Kazan, Kemal; Pogson, Barry J.	
+Publication Title	Systemic and Intracellular Responses to Photooxidative Stress in Arabidopsis	
+Publication Status	journal_article	
+Publication Status Term Source REF	The MGED Ontology	
+Experiment Description	Effect of high light on directly exposed and shaded, distal Arabidopsis leaf tissue	
+Protocol Name	P-CAGE-25569	P-CAGE-25570	P-CAGE-25574	P-CAGE-25572	Affymetrix:Protocol:Hybridization-FS450_0004	P-AFFY-6	Affymetrix:Protocol:ExpressionStat	
+Protocol Type	grow	specified_biomaterial_action	nucleic_acid_extraction	labeling	hybridization	feature_extraction	bioassay_data_transformation	
+Protocol Description	Plants were grown in 12 hour days, 90-160 uE and ~24C until 4 weeks old in soil. Plants were watered every 2-3 days and fertilized with 0.5X Hoaglands every fortnight.	Plants were exposed to 30 minutes of high light stress 1 hour after lights were turned on (dawn). High light was filtered 1300-1600 uE, at 28C and plants were well hydrated before and during the experiment. Shades were used to cover ~2/3 of the rosette such that the light intensity under the shade was 40-70 uE. Rosette leaves were collected from exposed and shaded (distal) areas.	Total RNA was isolated using the RNeasy Plant Mini Protocol (QIAGEN) including an on-column DNase treatment using the RNase-free DNase set (QIAGEN) according to the manufacturers instructions. The quality of the RNA was verified using an Agilent Bioanalyzer and spectrophotometric analysis to determine concentration and the A260 to A280 and A260 to A230 ratios. 	Preparation of labelled cRNA from 1-5 ug of total RNA was carried out exactly as described in the Affymetrix GeneChip Expression Analysis Technical Manual, using the Affymetrix One-Cycle Target Labeling and Control Reagents.		Title: Affymetrix CEL analysis. Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 	
+Protocol Parameters	light intensity;light hours;media;light source;day humidity;day temperature;night humidity;night temperature;		Extracted product;Amplification;	Used Label;Amplification;	
+Protocol Hardware	
+Protocol Software						MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact	
+Protocol Term Source REF		mo		mo			The MGED Ontology	
+SDRF File	E-ATMX-19.sdrf.txt	
+Term Source Name	NCBI Taxonomy		po_development_and_growth_ontology1.1	The MGED Ontology	ArrayExpress	The MGED Ontology	mo	EFO	
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/			http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	
+Term Source Version									

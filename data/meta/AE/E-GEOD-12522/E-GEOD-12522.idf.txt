@@ -1,0 +1,52 @@
+Investigation Title	Transcription profiling of Arabidopsis wild type and gl3 egl3 trichomeless mutant green seedling tissues				
+Comment[Submitted Name]	Comparison of gene expression between wild type and gl3 egl3 trichomeless mutant green seedling tissues				
+Experimental Design	unknown_experiment_design_type	transcription profiling by array			
+Experimental Design Term Source REF		EFO			
+Comment[AEExperimentType]	transcription profiling by array				
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for gl3 and egl3				
+Comment[SecondaryAccession]	GSE12522				
+Comment[ArrayExpressReleaseDate]	2009-03-07				
+Comment[AEMIAMESCORE]	4				
+Comment[ArrayExpressAccession]	E-GEOD-12522				
+Comment[MAGETAB TimeStamp_Version]	2010-07-30 04:47:19 Last Changed Rev: 13058				
+Experimental Factor Name	GENOTYPE				
+Experimental Factor Type	genotype				
+Experimental Factor Term Source REF					
+Person Last Name	Morohashi				
+Person First Name	Kengo				
+Person Mid Initials					
+Person Email	morohashi.1@osu.edu				
+Person Phone					
+Person Fax					
+Person Address	Erich Grotewold, Plant Cell and Molecular Biology, The Ohio State University, 1060 Carmack Rd, Columbus, 43210, USA				
+Person Affiliation	The Ohio State University				
+Person Roles	submitter				
+Person Roles Term Source REF	The MGED Ontology				
+Quality Control Type					
+Quality Control Term Source REF					
+Replicate Type					
+Replicate Term Source REF					
+Normalization Type					
+Normalization Term Source REF					
+Date of Experiment					
+Public Release Date	2009-03-07				
+PubMed ID	19247443				
+Publication DOI	10.1371/journal.pgen.1000396				
+Publication Author List	Kengo Morohashi, Erich Grotewold				
+Publication Title	A systems approach reveals regulatory circuitry for Arabidopsis trichome initiation by the GL3 and GL1 selectors.				
+Publication Status	published				
+Publication Status Term Source REF	EFO				
+Publication Status Term Accession Number	EFO_0001796				
+Experiment Description	The development of trichomes (leaf hairs) from pluripotent epidermal cells in Arabidopsis provides a powerful system to investigate the regulatory motifs involved in plant cell differentiation. Genetic studies have revealed that a bHLH transcription factor, GL3, activates downstream genes required for trichome initiation by interacting with a R2R3-MYB protein, GL1. We have taken advantage of several mutants in the trichome developmental pathway and gene expression analyses to identify a set of genes expressed predominantly in Arabidopsis trichomes. Experiment Overall Design: We compared the gene expression between the wild type and trichome mutant, gl3 egl3 using green tissue (not include root).				
+Protocol Name	P-G12522-2	P-G12522-1	P-AFFY-6		
+Protocol Type	nucleic_acid_extraction	labeling	feature_extraction		
+Protocol Description	RNA was extracted with Qiagen RNeasy Plant RNA extraction kit.	Following confirmation of RNA quality, Ovationâ¢ Biotin RNA Amplification and Labeling System (NuGen Technologies, Inc., San Carlos, CA) is used to prepare amplified, biotin-labeled cDNA from total RNA for following manufacturerâs instructions. Briefly, first strand cDNA is synthesized from 25 ng of total RNA using a unique first strand DNA/RNA chimeric primer and reverse transcriptase. Following double strand cDNA generation, amplification of cDNA is achieved by utilizing an isothermal DNA amplification process that involves repeated SPIAâ¢ DNA/RNA primer binding, DNA duplication, strand displacement and RNA cleavage. The amplified SPIAâ¢ cDNA is purified and subjected to a two-step fragmentation and labeling process. The fragmented/biotinylated cDNA content is measured in a ND-1000 spectrophotometer and the quality was analyzed on an RNA 6000 Nano LabChip (Agilent) using Agilent Bioanalyzer 2100.	Title: Affymetrix CEL analysis. Description: 		
+Protocol Parameters					
+Protocol Hardware					
+Protocol Software			MicroArraySuite 5.0		
+Protocol Contact					
+Protocol Term Source REF					
+SDRF File	E-GEOD-12522.sdrf.txt				
+Term Source Name	NCBI Taxonomy	The MGED Ontology	ArrayExpress	EFO	The MGED Ontology
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version					

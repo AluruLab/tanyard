@@ -1,0 +1,32 @@
+Comment[ArrayExpressAccession]	E-MTAB-1597
+MAGE-TAB Version	1.1																											
+Investigation Title	Dark grown Arabidopsis seedlings treated with cytokinin																											
+Comment[Submitted Name]	Dark grown Arabidopsis seedlings treated with cytokinin
+Experiment Description	Arabidopsis seed lings were grown in dark for 10 days on MS media and treated with DMSO (control) or 1 µM of BA for either 45 or 120 minutes to look for changes in genes profiles																											
+Experimental Design	compound_treatment_design	time_series_design	in_vitro_design	co-expression_design																								
+Comment[AEExperimentType]	transcription profiling by array																											
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis seedlings grown in dark with or without benzyladenine treatment at different time points																											
+Experimental Factor Name	dose	compound	time																									
+Experimental Factor Type	dose	compound	time																									
+Quality Control Type	biological replicate																											
+Quality Control Term Source REF	EFO																											
+Public Release Date	2013-03-28																											
+Person Last Name	Bhargava	Kieber																										
+Person First Name	Apurva	Joseph																										
+Person Mid Initials																												
+Person Email	apurv@ad.unc.edu	jkieber@unc.edu																										
+Person Phone																												
+Person Address	Office 4144 Genome Sciences Building, UNC Department of Biology, Coker Hall, CB #3280, 120 South Road, Chapel Hill, NC 27599-3280	Office 4163 Genome Sciences Building, UNC Department of Biology, Coker Hall, CB #3280, 120 South Road, Chapel Hill, NC 27599-3280																										
+Person Affiliation	University of North Carolina at Chapel Hill	University of North Carolina at Chapel Hill																										
+Person Roles	submitter	principal investigator																										
+PubMed ID	23524861																											
+Publication Author List	Apurva Bhargava, Ivory Clabaugh, Jenn P. To, Bridey B. Maxwell, Yi-Hsuan Chiang, G. Eric Schaller, Ann Loraine and Joseph J Kieber																											
+Publication Title	Identification of Cytokinin Responsive Genes Using Microarray Meta-analysis and RNA-seq in Arabidopsis thaliana																											
+Publication Status	published																											
+Protocol Name	P-MTAB-32099	P-MTAB-32100	P-MTAB-32101
+Protocol Type	growth protocol	treatment protocol	nucleic acid extraction protocol																									
+Protocol Description	Arabidopsis thaliana seedlings were grown on MS media for 10 days in dark at 22 degrees C.	Seedlings were treated by immersion in dimethylsulphoxide (DMSO, control) or BA (1 µM) for either 45 minutes or 120 minutes in dark on shaker	Qiagen RNA extraction kit was used as per manufacturer's instruction																									
+Protocol Term Source REF	EFO	EFO	EFO																									
+Term Source Name	EFO	ArrayExpress
+Term Source File	http://www.ebi.ac.uk/efo	http://www.ebi.ac.uk/arrayexpress																										
+SDRF File	E-MTAB-1597.sdrf.txt

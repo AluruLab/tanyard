@@ -1,0 +1,49 @@
+Investigation Title	Global gene expression analysis of Arabidopsis Col-0 under normal and low oxygen conditions	
+Comment[Submitted Name]	Global gene expression analysis of Arabidopsis Col-0 under normal and low oxygen conditions	
+Experimental Design	transcription profiling by array	
+Experimental Design Term Source REF	EFO	
+Comment[SecondaryAccession]	GSE21504	
+Comment[ArrayExpressReleaseDate]	2010-05-07	
+Comment[AEMIAMESCORE]	5	
+Comment[ArrayExpressAccession]	E-GEOD-21504	
+Comment[MAGETAB TimeStamp_Version]	2010-08-04 06:23:42 Last Changed Rev: 13058	
+Experimental Factor Name	TREATMENT	
+Experimental Factor Type	treatment	
+Experimental Factor Term Source REF	
+Person Last Name	Llewellyn	Christianson	Dennis	Wilson	Moldovan	
+Person First Name	Danny	Jed	Elizabeth	Iain	Dov	
+Person Mid Initials	J		S	W	
+Person Email		jedchris@gmail.com	
+Person Phone	
+Person Fax	
+Person Address		CSIRO Plant Industry, Clunies Ross Road, Acton, 2601, Australia	
+Person Affiliation		CSIRO Plant Industry	
+Person Roles		submitter	
+Person Roles Term Source REF		The MGED Ontology	
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2010-05-07	
+PubMed ID	
+Publication DOI	
+Publication Author List	
+Publication Title	
+Publication Status	
+Publication Status Term Source REF	
+Experiment Description	Global gene expression was compared between root RNA samples from three-week-old Arabidopsis Col-0 plants subjected to 0.1% oxygen (balance nitrogen) or ambient atmospheric conditions. Three-week-old Arabidopsis seedlings (4-6 leaves) of ecotype Col-0 were used. Two biological replicates were used for each treatment, and for each biological replicate, five Arabidopsis seedlings grown on the same petri dish were bulked. RNA was extracted from root tissue excised post-treatment. Treatment consisted of moving plants grown on solid MS media containing 3% sucrose to liquid MS media containing 3% sucrose for 24 hours, after which plates were placed in anaerobic cannisters covered in aluminum foil. Cannisters containing plants in the 0.1% oxygen treatment group were flushed with a 0.1% oxygen gas mixture and then sealed, while cannisters in the control group were left unsealed. Treatment lasted 5 hours before plant tissue was harvested and RNA extracted.	
+Protocol Name	P-GSE21504-3	P-GSE21504-2	P-GSE21504-4	P-GSE21504-5	P-GSE21504-6	P-GSE21504-7	P-GSE21504-8	P-GSE21504-1	
+Protocol Type	grow	specified_biomaterial_action	nucleic_acid_extraction	labeling	hybridization	image_aquisition	feature_extraction	bioassay_data_transformation	
+Protocol Description	Plants were kept in a growth room at 22Â°C with a day:night period of 16:8-hrs and fluorescent lighting levels of ~75uE. Plants were grown on MS media with 3% sucrose and 0.8% agar and transferred to liquid MS media containing 3% sucrose one day prior to sampling.	Plants in the low oxygen treatment group were placed in anaerobic microbial chambers (Oxoid, Adelaide, SA, Australia) and the chambers were flushed with a gas mixture of 0.1% oxygen, balance nitrogen at a flow rate of ~10L/min. for 20 minutes. Chambers were then sealed, and plants were left in the 0.1% oxygen atmosphere for five hours. Plants in the control group were placed in cannisters that were left unsealed.	Root tissue was excised from plants and was flash frozen and ground in liquid nitrogen. Trizol extraction of total RNA was performed according to the manufacturer's instructions.	Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 7 ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).	Following fragmentation, cRNA was hybridized to the ATH1 Arabidopsis Array. GeneChips were washed and stained in the Affymetrix Fluidics Station 450.	GeneChips were scanned using the Affymetrix GeneChip scanner 3000 7G.	The data was analysed using the limma Bioconductor package in R. Array data was normalized using the EXPRESSO function (Gautier et al., 2005). A robust multi-chip average was calculated using quantile normalization, background correction and the median polish method as recommended by (Bolstad et al., 2003) and (Irizarry et al., 2003).	ID_REF = <br>VALUE = Log2-transformed RMA-normalized expression values	
+Protocol Parameters	
+Protocol Hardware	
+Protocol Software	
+Protocol Contact	
+Protocol Term Source REF							The MGED Ontology	The MGED Ontology	
+SDRF File	E-GEOD-21504.sdrf.txt	
+Term Source Name	NCBI Taxonomy		The MGED Ontology	ArrayExpress	EFO	The MGED Ontology	
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version							

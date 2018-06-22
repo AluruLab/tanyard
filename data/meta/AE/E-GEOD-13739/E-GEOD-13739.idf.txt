@@ -1,0 +1,52 @@
+Investigation Title	Transcription profiling of Golovinomyces orontii time course with Col-0 and eds16-1					
+Comment[Submitted Name]	Golovinomyces orontii time course with Col-0 and eds16-1					
+Experimental Design	unknown_experiment_design_type	transcription profiling by array				
+Experimental Design Term Source REF		EFO				
+Comment[AEExperimentType]	transcription profiling by array					
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for eds16 after infection with Golovinomyces orontii					
+Comment[AEMIAMESCORE]	4					
+Comment[SecondaryAccession]	GSE13739					
+Comment[ArrayExpressReleaseDate]	2009-02-21					
+Comment[ArrayExpressAccession]	E-GEOD-13739					
+Comment[MAGETAB TimeStamp_Version]	2010-07-30 13:35:45 Last Changed Rev: 13058					
+Experimental Factor Name	genotype	infection	time			
+Experimental Factor Type	genotype	infect	time			
+Experimental Factor Term Source REF						
+Person Last Name	Wildermuth					
+Person First Name	Mary					
+Person Mid Initials	C.					
+Person Email	wildermuth@nature.berkeley.edu					
+Person Phone						
+Person Fax						
+Person Address	"Plant and Microbial Biology, University of California Berkeley, 221 Koshland Hall MC3102, Berkeley, 94720, USA"					
+Person Affiliation	University of California Berkeley					
+Person Roles	submitter					
+Person Roles Term Source REF	The MGED Ontology					
+Quality Control Type						
+Quality Control Term Source REF						
+Replicate Type						
+Replicate Term Source REF						
+Normalization Type						
+Normalization Term Source REF						
+Date of Experiment						
+Public Release Date	2009-02-21					
+PubMed ID	19176722					
+Publication DOI	10.1104/pp.108.132985					
+Publication Author List	"Tai Chandran, Dewdney Hather, Burgess Denoux, Speed Ausubel,  Wildermuth"					
+Publication Title	Temporal Global Expression Data Reveals Known and Novel Salicylate-Impacted Processes and Regulators Mediating Powdery Mildew Growth and Reproduction on Arabidopsis.					
+Publication Status	published					
+Publication Status Term Source REF	EFO					
+Publication Status Term Accession Number	EFO_0001796					
+Experiment Description	"Salicylic acid (SA) is a critical molecule mediating plant innate immunity with an important role limiting the growth and reproduction of the virulent powdery mildew (PM) Golovinomyces orontii on Arabidopsis thaliana. To investigate this later phase of the PM interaction, and the role played by SA, we performed replicated global expression profiling for wild type and SA biosynthetic mutant ics1 Arabidopsis from 0 to 7 days post infection. We found that ICS1-impacted genes comprise 3.8% of profiled genes with known molecular markers of Arabidopsis defense ranked very highly by the multivariate empirical Bayes statistic (T2 statistic ((Tai and Speed, 2006)). Functional analyses of T2-selected genes identified statistically significant PM-impacted processes including photosynthesis, cell wall modification, and alkaloid metabolism that are ICS1-independent. ICS1-impacted processes include redox, vacuolar transport/secretion, and signaling. Our data also supports a role for ICS1 (SA) in iron and calcium homeostasis and identifies components of SA crosstalk with other phytohormones. Through our analysis, 39 novel PMâimpacted transcriptional regulators were identified. Insertion mutants in one of these regulators, PUX2, results in significantly reduced reproduction of the powdery mildew in a cell death independent manner. Though little is known about PUX2, PUX1 acts as a negative regulator of Arabidopsis CDC48 (Rancour et al., 2004; Park et al., 2007), an essential AAA-ATPase chaperone that mediates diverse cellular activities including homotypic fusion of ER and Golgi membranes, ER-associated protein degradation, cell cycle progression, and apoptosis. Future work will elucidate the functional role of the novel regulator PUX2 in PM  resistance. Experiment Overall Design: Arabidopsis whole leaves were harvested at 6h, 1 day, 3 days, 5 days and 7 days after Golovinomyces orontii infection for RNA extraction and hybridization to Affymetrix Arabidopsis ATH1 microarrays. Gene expression profiles were obtained for wild type Columbia-0 and enhanced disease susceptibility mutant eds16-1, a null isochorismate synthase 1 (At1g74710) mutant. In parallel, uninfected samples were collected at 0 hr and 7days from wild type and mutant plants.  The experiment includes 4 biological replicates."					
+Protocol Name	P-G13739-2	P-G13739-1	P-G13739-4	P-G13739-3	P-AFFY-6	
+Protocol Type	specified_biomaterial_action	grow	nucleic_acid_extraction	labeling	feature_extraction	
+Protocol Description	"At four weeks, a subset of boxes was infected with a moderately heavy innoculum of G.orontii using a settling tower. Moderately heavy innoculum is 2-3 fully G.O.-infected leaves with conidia 10-14 dpi.  Infected plants were placed in a separate Percival growth chamber under the same conditions as the pathogen-free Percival. Infections, with the exception of the 6 hr timepoint, were performed at 2:30 pm to standardize experiments and minimize circadian effects. Samples were harvested at 0 h (just prior to infection), 6 hpi, 1 dpi, 3 dpi, 5 dpi, and 7 dpi. An uninfected 7 dpi sample was also collected.  For each sample, three fully expanded mature leaves were excised per plant, with leaves from two randomly selected plants used to prepare a single RNA sample.  Three independent experiments were performed with triplicate samples collected for each datapoint within each experiment.  Four biological replicates were processed.  One from each of the three separate experiments and an additional biological replicate from Experiment 2."	"Arabidopsis seeds were stratified in 0.1% agarose for 3-5 days and planted in boxes containing Metromix 200 soil. Seeds were equally distributed in each box using a template, with 9 plants per box, alternating wild type and mutant.  The flats (6 boxes per flat) were covered with plastic trays for 1 week and then uncovered. Flats were watered from below and fertilized at 2-1/2 weeks. Plants were grown in Percival AR66L growth chambers at 22Â°C, 80% RH, 14 h photoperiod with photosynthetically active radiation=150 ÂµE m-2 s-1."	Total RNA was extracted using the Qiagen RNeasy Plant RNA Miniprep kit according to the manufacturer's instructions.  Samples were split in two before homogenization and repooled before loading on the RNA-binding column.  RNA quality was determined by the A260/A280 ratio and by its profile on an Agilent 2100 Bioanalyzer.	Target labeling was performed according to the protocol given in the Affymetrix GeneChip Expression Analysis Technical Manual 701025 rev 1.	Title: Affymetrix CEL analysis. Description: 	
+Protocol Parameters						
+Protocol Hardware						
+Protocol Software					MicroArraySuite 5.0	
+Protocol Contact						
+Protocol Term Source REF						
+SDRF File	E-GEOD-13739.sdrf.txt					
+Term Source Name	NCBI Taxonomy		The MGED Ontology	ArrayExpress	EFO	The MGED Ontology
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version						

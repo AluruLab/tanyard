@@ -1,0 +1,27 @@
+Comment[ArrayExpressAccession]	E-GEOD-61898
+MAGE-TAB Version	1.1					
+Public Release Date	2015-02-01
+Investigation Title	Polysome profiling in CIRCADIAN CLOCK ASSOCIATED 1-overexpressing (CCA1-ox) Arabidopsis thaliana over a 24-hour diurnal cycle					
+Comment[Submitted Name]	Polysome profiling in CIRCADIAN CLOCK ASSOCIATED 1-overexpressing (CCA1-ox) Arabidopsis thaliana over a 24-hour diurnal cycle
+Experiment Description	Circadian control of gene expression has been established in plants at the transcriptional level, but relatively little is known about circadian control of translation.  We used polysome profiling to characterize regulation of transcription and translation over a 24-hour diurnal cycle in Arabidopsis, both in wild type and in plants with a disrupted clock due to constitutive overexpression of the CIRCADIAN CLOCK ASSOCIATED 1 gene (CCA1-ox, AGI AT2G46830). 10 day-old wild type and CCA1-ox (described in Cell. 1998 Jun 26;93(7):1207-17) Arabidopsis seedlings were harvested at 6am (Zeitgeber time ZT0), 12pm (ZT6), 6pm (ZT12), and 12am (ZT18), with 3 replicates for each time and genotype.					
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl				
+Person Last Name	von Arnim	von Arnim	Ernest	Missra		
+Person First Name	Albrecht	Albrecht	Ben	Anamika		
+Person Mid Initials	G					
+Person Email	vonarnim@utk.edu					
+Person Affiliation	The University of Tennessee					
+Person Phone	1-865-974-6206					
+Person Address	Biochemistry, Cellular and Molecular Biology, The University of Tennessee, M407 Walters Life Science Building, Knoxville, TN, USA					
+Person Roles	submitter					
+Protocol Name	P-GSE61898-1	P-GSE61898-4	P-GSE61898-5	P-GSE61898-2	P-GSE61898-3	P-GSE61898-6
+Protocol Description	The data were analyzed using R version 3.1.  Normalization was performed using the gcrma function from the gcrma package from Bioconductor (version 2.36), and absolute calls (columns labeled ABS_CALL)  were generated using the mas5calls function from the affy package (version 1.42.3), all with default settings.  AGI annotations (column labeled AGI) were matched with Affymetrix probe IDs using the ath1121501.db package from Bioconductor (version 2.14).    Translation state (TL) was calculated as (2*small polysomal + 7*large polysomal)/(non-polysomal + small polysomal + large polysomal) after back-transforming the log2 values. ID_REF =  VALUE = log2 GC-RMA signal ABS_CALL = 	Biotinylated cRNA was prepared according to the standard Affymetrix protocol from total and polysome-fractionated RNA (Expression Analysis Technical Manual, 2001, Affymetrix) after priming cDNA synthesis with oligo(dT).	cRNA was hybridized for 16 hr at 45C on the GeneChip Arabidopsis ATH1 Genome Array. GeneChips were washed and stained with streptavidin-phycoerythrin (Invitrogen-Molecular Probes, Carlsbad, CA, USA), followed by a wash with biotinylated antibody goat IgG and another staining with streptavidin-phycoerythrin.	Plants were grown on agar plates with full strength Murashige and Skoog salts, pH 5.7, 1% sucrose, in a 16-hour light/8-hour dark cycle (lights on at 6am) for 10 days.	RNA extraction, polysome fractionation, and microarray hybridization were performed as described previously (Genome Biol. 2007;8(4):R60)	GeneChips were scanned using the GeneChip 7G high-resolution scanner.
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	molecule subtype	harvested at				
+Experimental Factor Type	molecule subtype	harvested at				
+Comment[SecondaryAccession]	GSE61898					
+Comment[GEOReleaseDate]	2015-02-01					
+Comment[ArrayExpressSubmissionDate]	2014-09-30					
+Comment[GEOLastUpdateDate]	2015-02-01					
+Comment[AEExperimentType]	transcription profiling by array					
+SDRF File	E-GEOD-61898.sdrf.txt

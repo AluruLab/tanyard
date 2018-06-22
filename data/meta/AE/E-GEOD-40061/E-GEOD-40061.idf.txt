@@ -1,0 +1,57 @@
+Comment[ArrayExpressAccession]	E-GEOD-40061							
+Public Release Date	2012-08-12							
+Investigation Title	Role of CAMTA1 gene under drought stress							
+Comment[Submitted Name]	Role of CAMTA1 gene under drought stress							
+Experiment Description	The CAMTA1 mutant and Col-0 were studied under water and drought condition. The camta1 showed stunted primary root growth under osmotic stress. The expression analysis revealed drought recovery as major indicative pathway along with membrane and chloroplast related protein in  camta1 under drought stress. Large number of positively regulated genes were related to osmotic balance, transporters, AP2 and ABA. We used Affymetrix expression analysis to validate the role of CAMTA1 under drought stress. The RNA of Col-0 and camta1 mutant were isolated in water and drought condition.The ATH1 gene chip was used for expression analysis.							
+Date of Experiment								
+Term Source Name	EFO							
+Term Source Version								
+Term Source File	http://www.ebi.ac.uk/efo/efo.owl							
+Person Last Name	sawant	Pandey	Ranjan	Pant	Sawant			
+Person First Name	samir	Neha	Alok	Poonam	Samir			
+Person Mid Initials	v				V			
+Person Email	samirsawant@nbri.res.in							
+Person Affiliation	national botanical research institute							
+Person Phone	+91-522-2297947							
+Person Fax	+91-522-2205839							
+Person Address	CPMB & GE, national botanical research institute, rana pratap marg, lucknow, India							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Person Roles Term Accession Number								
+Normalization Type								
+Normalization Term Accession Number								
+Normalization Term Source REF								
+Replicate Type								
+Replicate Term Accession Number								
+Replicate Term Source REF								
+Experimental Design								
+Experimental Design Term Accession Number								
+Experimental Design Term Source REF								
+Quality Control Type								
+Quality Control Term Accession Number								
+Quality Control Term Source REF								
+Protocol Name	P-GSE40061-1	P-GSE40061-6	P-GSE40061-3	P-GSE40061-8	P-GSE40061-7	P-GSE40061-2	P-GSE40061-4	P-GSE40061-5
+Protocol Description	ID_REF = <br>VALUE = Signal<br>ABS_CALL = indicating whether the transcript was present (P), absent (A), or marginal (M)<br>DETECTION P-VALUE = 	According to affymatrix gene chip instruction manual using Fluidisc station 450.	1 month old Arabidopsis plant	The data were analyzed with Microarray Suite version 5.0 (MAS 5.0) using Affymetrix default analysis settings and global scaling as normalization method.	GeneChips were scanned using Affymatrix gene chip scanner.	Plant sample collected under water and drought condition	Total RNA isolated from plant total RNA sigma kit	Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 250 ng total RNA.
+Protocol Software								
+Protocol Hardware								
+Protocol Contact								
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_acquisition	specified_biomaterial_action	nucleic_acid_extraction	labelling
+Protocol Term Source REF								
+Protocol Term Accession Number								
+Experimental Factor Name	genotype	organism part	growth condition					
+Experimental Factor Type	genotype	organism part	growth condition					
+Experimental Factor Term Source REF								
+Experimental Factor Term Accession Number								
+Publication Title	CAMTA 1 regulates drought responses in Arabidopsis thaliana							
+Publication Author List	Pandey N, Ranjan A, Pant P, Tripathi RK, Ateek F, Pandey HP, Patre UV, Sawant SV							
+PubMed ID	23547968							
+Publication DOI	10.1186/1471-2164-14-216							
+Publication Status								
+Publication Status Term Source REF								
+Publication Status Term Accession Number								
+Comment[SecondaryAccession]	GSE40061							
+Comment[GEOLastUpdateDate]	2012-08-13							
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[GEOReleaseDate]	2012-08-11							
+Comment[ArrayExpressSubmissionDate]	2012-08-11							
+SDRF File	E-GEOD-40061.sdrf.txt							

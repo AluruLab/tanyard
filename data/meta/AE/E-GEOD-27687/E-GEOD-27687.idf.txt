@@ -1,0 +1,58 @@
+Comment[ArrayExpressAccession]	E-GEOD-27687								
+Public Release Date	2011-08-31								
+Investigation Title	Early effects of cdkf;1 RNAPII CTD Serine-7 kinase mutation on regulation of transcription in 7 days old Arabidopsis seedlings								
+Comment[Submitted Name]	Early effects of cdkf;1 RNAPII CTD Serine-7 kinase mutation on regulation of transcription in 7 days old Arabidopsis seedlings								
+Experiment Description	"Serine phosphorylation of conserved Y1S2P3T4S5P6S7 repeats of RNA polymerase II carboxy-terminal domain (RNAPII CTD) plays a central role in the regulation of transcription and co-transcriptional RNA processing. Maintenance of CTD phosphoserine-7 mark in Arabidopsis requires the CDKF;1 kinase, which mediates in vivo activation of downstream-acting CDKD CTD kinase family. Knockout mutations of CDKF;1 lead to over 50% reduction of RNAPII CTD Ser-7 phosphorylation as early as 7 days after germination in seedlings. The transcript profiling experiment aimed at determining how early changes in CTD Ser-7 phosphorylation affect global regulation of transcription. We used Affymetrix ATH1-121501 Genome Array to compare global transcript levels in wild type and cdkf;1-2 mutant seedlings 7 days after germination. Wild type and cdkf;1-2 mutant Arabidopsis (Col-0) seedlings were grown in solid MSAR medium (Koncz, C., Martini, N., Szabados, L., Hrouda, M., Bachmair, A., and Schell, J. (1994). Specialized vectors for gene tagging and expression studies. In: Plant Molecular Biology Manual, Gelvin,S., and Schilperoort, B. (eds.), Kluwer Academic Publishers, Dordrecht-Boston-London, B2, 1-22.) containing ½ concentration of macro elements and 0.5% sucrose in Petri-dishes at 22°C, 120 mol/m2s light intensity and 8h light/16h dark period. Seedling were collected at 4h after the start of the light period in liquid nitrogen for RNA preparation."								
+Date of Experiment									
+Term Source Name	EFO								
+Term Source Version									
+Term Source File	http://www.ebi.ac.uk/efo/efo.owl								
+Person Last Name	Koncz	Hajheidari	Huettel	Koncz					
+Person First Name	Csaba	Mohsen	Bruno	Csaba					
+Person Mid Initials									
+Person Email	koncz@mpiz-koeln.mpg.de								
+Person Affiliation	Max-Planck Institute for Plant Breeding Research								
+Person Phone	+49-221-5062230								
+Person Fax	+49-221-5062213								
+Person Address	"Max-Planck Institute for Plant Breeding Research, Carl-von-Linne-Weg 10, Cologne, Germany"								
+Person Roles	submitter								
+Person Roles Term Source REF									
+Person Roles Term Accession Number									
+Normalization Type									
+Normalization Term Accession Number									
+Normalization Term Source REF									
+Replicate Type									
+Replicate Term Accession Number									
+Replicate Term Source REF									
+Experimental Design	genetic modification design	transcription profiling by array							
+Experimental Design Term Accession Number									
+Experimental Design Term Source REF									
+Quality Control Type									
+Quality Control Term Accession Number									
+Quality Control Term Source REF									
+Protocol Name	P-GSE27687-1	P-GSE27687-6	P-GSE27687-3	P-GSE27687-8	P-GSE27687-7	P-GSE27687-2	P-GSE27687-9	P-GSE27687-4	P-GSE27687-5
+Protocol Description	"ID_REF = <br>VALUE = Signal<br>ABS_CALL = indicating whether the transcript was present (P), absent (A), or marginal (M)<br>DETECTION P-VALUE = "	"After amplification and fragmentation, 12.5 μg of cRNA was hybridized for 16 hr at 45°C on GeneChip ATH1-121501 Genome Array. GeneChips were washed and stained with Fluidics Script FS450_004 in the Affymetrix Fluidics Station 450."	"Seedlings were grown in solid MSAR medium (Koncz, C., Martini, N., Szabados, L., Hrouda, M., Bachmair, A., and Schell, J. (1994). Specialized vectors for gene tagging and expression studies. In: Plant Molecular Biology Manual, Gelvin,S., and Schilperoort, B. (eds.), Kluwer Academic Publishers, Dordrecht-Boston-London, B2, 1-22.) containing ½ concentration of macro elements and 0.5% sucrose in Petri-dishes at 22°C, 120 mol/m2s light intensity and 8h light/16h dark period."	The data was analyzed with Affymetrix GeneChip Operating Software (GCOS) version 1.4 using Affymetrix default analysis settings and global scaling as normalization method.	GeneChips were scanned using the GeneChip Scanner 3000 7G.	Whole seedling were collected at 4h after the start of the light period using a photoperiod of 8h light and 16h dark with 120 mol/m2s light intensity at 22°C  for RNA preparation.	Whole seedling were collected at 4h after the start of the light period using a photoperiod of 8h light and 16h dark with 120 mol/m2s light intensity at 22°C for RNA preparation.	Total RNA was isolated with RNeasy Mini kit supplied with RNase-Free DNase set (Qiagen) according to the manufacturer's instructions.	"Biotinylated cRNA was prepared according to the standard Ambion protocol from 1 μg total RNA (MessageAmp II-Biotin Enhanced Kit, 2008, Ambion)."
+Protocol Software									
+Protocol Hardware									
+Protocol Contact									
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_aquisition	specified_biomaterial_action	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Protocol Term Source REF									
+Protocol Term Accession Number									
+Experimental Factor Name	genotype								
+Experimental Factor Type	genotype								
+Experimental Factor Term Source REF									
+Experimental Factor Term Accession Number									
+Publication Title									
+Publication Author List									
+PubMed ID									
+Publication DOI									
+Publication Status									
+Publication Status Term Source REF									
+Publication Status Term Accession Number									
+Comment[SecondaryAccession]	GSE27687								
+Comment[GEOLastUpdateDate]	2011-09-01								
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis cdkf;1-2 mutant								
+Comment[AEExperimentType]	transcription profiling by array								
+Comment[GEOReleaseDate]	2011-08-30								
+Comment[ArrayExpressSubmissionDate]	2011-03-04								
+SDRF File	E-GEOD-27687.sdrf.txt								

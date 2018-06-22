@@ -1,0 +1,47 @@
+Investigation Title	Transcription profiling of Arabidopsis CAF-1 mutants	
+Comment[Submitted Name]	Hennig Arabidopsis CAF-1 mutants	
+Experimental Design	individual_genetic_characteristics_design	transcription profiling by array	
+Experimental Design Term Source REF		EFO	
+Comment[AEMIAMESCORE]	4	
+Comment[ArrayExpressAccession]	E-MEXP-694	
+Comment[MAGETAB TimeStamp_Version]	2010-08-11 15:31:17 Last Changed Rev: 13058	
+Experimental Factor Name	ecotype	genotype	
+Experimental Factor Type	ecotype	genotype	
+Experimental Factor Term Source REF	
+Person Last Name	Gruissem	Exner	Probst	Hennig	Schonrock	
+Person First Name	Wilhelm	Vivien	Aline	Lars	Nicole	
+Person Mid Initials	
+Person Email				lhennig@ethz.ch	
+Person Phone				41 44 632 2244	
+Person Fax	
+Person Address	
+Person Affiliation	ETH Zurich	ETH Zurich	University of Geneva	Institute of Plant Sciences, ETH Zurich	ETH Zurich	
+Person Roles				submitter	
+Person Roles Term Source REF					
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	
+PubMed ID	16452472	
+Publication DOI	16452472	
+Publication Author List	Nicole Schonrock; Vivien Exner; Aline Probst; Wilhelm Gruissem; Lars Hennig	
+Publication Title	Functional Genomic Analysis of CAF-1 Mutants in Arabidopsis thaliana	
+Publication Status	journal_article	
+Publication Status Term Source REF	
+Experiment Description	Comparison of Arabidopsis mutants lacking CAF-1 subunits	
+Protocol Name	P-MEXP-22992	P-MEXP-16111	P-MEXP-16147	P-AFFY-2	Affymetrix:Protocol:Hybridization-EukGE-WS2v3	P-AFFY-6	P-MEXP-16148	
+Protocol Type	grow	nucleic_acid_extraction	pool	labeling	hybridization	feature_extraction	bioassay_data_transformation	
+Protocol Description	Seedlings of Arabidopsis thaliana (L.) Heynh. were grown on MS medium in growth chambers at 21 C under long day photoperiods (16 h light, 8 h darkness). 	RNA was extracted using TRIzol (Invitrogen) according to manufacturers protocol followed by a clean-up on Quiagen RNeasy columns.	Seedlings were pooled from 3 individual plates for each replicate.	Title: Affymetrix in vitro transcription. Description: 	Title: Affymetrix EukGE-WS2v3 Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	GCRMA as included in the R package.	
+Protocol Parameters	min temperature;max temperature;	Extracted product;Amplification;	
+Protocol Hardware	
+Protocol Software					MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact	
+Protocol Term Source REF					mo		The MGED Ontology	
+SDRF File	E-MEXP-694.sdrf.txt	
+Term Source Name	mo		ncbitax	tair_dev:1.27	The MGED Ontology	ArrayExpress	EFO	mo	The MGED Ontology	
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php		http://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html	http://www.arabidopsis.org/info/ontologies/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version				1.27						

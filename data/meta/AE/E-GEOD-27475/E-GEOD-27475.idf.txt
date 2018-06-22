@@ -1,0 +1,58 @@
+Comment[ArrayExpressAccession]	E-GEOD-27475							
+Public Release Date	2011-02-24							
+Investigation Title	Expression data from wild-type and AtERF73/HRE1 knock-down line under hypoxia in Arabidopsis seedlings							
+Comment[Submitted Name]	Expression data from wild-type and AtERF73/HRE1 knock-down line under hypoxia in Arabidopsis seedlings							
+Experiment Description	"To mimic natural flooding conditions, we have adopted an “open system” treatment, in which only roots are subjected to hypoxia treatment.  Using microarray analysis, we identified a number of AP2/ERF genes in Arabidopsis that are induced at different stages of hypoxia treatment. we performed microarray analysis to compare gene expression profiles of wild-type and AtERF73/HRE1-RNAi20 upon normaxic or hypoxic condition, in which AtERF73/HRE1 expression was severely knocked down. Arabidopsis Affymetrix GeneChip arrays were probed with RNAs isolated from roots of untreated plants (controls) and plants treated with hypoxia for 6 h."							
+Date of Experiment								
+Term Source Name	EFO							
+Term Source Version								
+Term Source File	http://www.ebi.ac.uk/efo							
+Person Last Name	Chin-Ying	Yang						
+Person First Name	Yang	Chin-Ying						
+Person Mid Initials								
+Person Email	emily0318@yahoo.com.tw							
+Person Affiliation	Agriculture Biotechnology Research Center Academia Sinica							
+Person Phone								
+Person Fax								
+Person Address	"Agriculture Biotechnology Research Center Academia Sinica, No. 128, Sec. 2, Academia Road, Nankang, Taipei, Taiwan"							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Person Roles Term Accession Number								
+Normalization Type								
+Normalization Term Accession Number								
+Normalization Term Source REF								
+Replicate Type								
+Replicate Term Accession Number								
+Replicate Term Source REF								
+Experimental Design								
+Experimental Design Term Accession Number								
+Experimental Design Term Source REF								
+Quality Control Type								
+Quality Control Term Accession Number								
+Quality Control Term Source REF								
+Protocol Name	P-GSE27475-1	P-GSE27475-6	P-GSE27475-3	P-GSE27475-8	P-GSE27475-7	P-GSE27475-2	P-GSE27475-4	P-GSE27475-5
+Protocol Description	ID_REF = <br>VALUE = MAS5.0 signal intensity<br>ABS_CALL = <br>DETECTION P-VALUE = 	"Following fragmentation, 10 ug of cRNA were hybridized for 16.5 hr at 45C on GeneChip Affymetrix Arabidopsis ATH1 Genome Array. GeneChips were washed and stained in the Affymetrix Fluidics Station 450."	All seeds were sterilized and kept for 3 d at 4ºC in the dark to break dormancy.  Seeds were germinated on 0.8% (w/v) agar plates containing 1/2 Murashige and Skoog (MS) medium supplemented with 0.5% (w/v) sucrose at pH5.7.  The plates were incubated at 22ºC under a 16-h light (81 μmol s-1 m-2)/8-h dark cycle in a growth chamber for 14 d.	The data were analyzed with Microarray Suite version 5.0 (MAS 5.0) using Affymetrix default analysis settings and global scaling as normalization method. The trimmed mean target intensity of each array was arbitrarily set to 500.	GeneChips were scanned using Affymetrix GeneChip Scanner 3000 7G	"For hypoxia treatment, 14-d-old Arabidopsis seedlings were pretreatment on the wet filter paper containing 1/2 MS solution supplemented with 0.5% (w/v) sucrose at pH5.7 for 1 hour in the dark then placed into a floating platform with roots dipped into 1/2 MS solution contain 0.5% (w/v) sucrose at pH5.7, which was constantly supplied with 3% (v/v) oxygen and 97% (v/v) nitrogen in the dark for the times indicated."	Total RNA samples were isolated from frozen tissue of Arabidopsis using the TRIzol reagent (Invitrogen).	"Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 10 ug total RNA (Expression Analysis Technical Manual, 701021 Rev. 5, Affymetrix)."
+Protocol Software								
+Protocol Hardware								
+Protocol Contact								
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Protocol Term Source REF								
+Protocol Term Accession Number								
+Experimental Factor Name	growth condition	genotype						
+Experimental Factor Type	growth condition	genotype						
+Experimental Factor Term Source REF								
+Experimental Factor Term Accession Number								
+Publication Title	The AP2/ERF transcription factor AtERF73/HRE1 modulates ethylene responses during hypoxia in Arabidopsis							
+Publication Author List	"Yang CY, Hsu FC, Li JP, Wang NN, Shih MC."							
+PubMed ID	21398256							
+Publication DOI	10.1104/pp.111.172486							
+Publication Status	published							
+Publication Status Term Source REF	EFO							
+Publication Status Term Accession Number	EFO_0001796							
+Comment[SecondaryAccession]	GSE27475							
+Comment[GEOLastUpdateDate]	2011-03-01							
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis with RNAi-mediated knockdown of AtERF73/HRE1 after growth in hypoxic conditions							
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[GEOReleaseDate]	2011-02-24							
+Comment[ArrayExpressSubmissionDate]	2011-02-23							
+SDRF File	E-GEOD-27475.sdrf.txt							

@@ -1,0 +1,57 @@
+Comment[ArrayExpressAccession]	E-GEOD-24169							
+Public Release Date	2011-03-31							
+Investigation Title	Finding direct target genes of VND7							
+Comment[Submitted Name]	Finding direct target genes of VND7							
+Experiment Description	Direct target genes of VND7 were explored with inducible expression system using glucocorticoid receptor (GR). Transgenic plants expressing 35S:VND7-VP16-GR were treated with dexamethazone (DEX) and/or protein synthesis inhibitor cycloheximide (CHX). A number of genes related to the formation of vascular vessel was induced by DEX even in the presence of CHX. Total RNAs of the transgenic plants expressing 35S:VND7-VP16-GR treated with DEX plus CHX and those treated with CHX only were compared.  As a control experiment, transgenic plants harboring empty vector were treated similarly and the total RNAs were compared similarly to identify genes merely induced by DEX treatment itself.							
+Date of Experiment								
+Term Source Name	EFO							
+Term Source Version								
+Term Source File	http://www.ebi.ac.uk/efo/efo.owl							
+Person Last Name	Mitsuda	Yamaguchi	Ohtani	Demura	Mitsuda			
+Person First Name	Nobuitaka	Masatoshi	Misato	Taku	Nobutaka			
+Person Mid Initials								
+Person Email	nobutaka.mitsuda@aist.go.jp							
+Person Affiliation	National Institute of Advanced Industrial Science and Technology							
+Person Phone								
+Person Fax								
+Person Address	Gene Function Research Center, National Institute of Advanced Industrial Science and Technology, Central 4 Higashi 1-1-1, Tsukuba, Ibaraki, Japan							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Person Roles Term Accession Number								
+Normalization Type								
+Normalization Term Accession Number								
+Normalization Term Source REF								
+Replicate Type								
+Replicate Term Accession Number								
+Replicate Term Source REF								
+Experimental Design								
+Experimental Design Term Accession Number								
+Experimental Design Term Source REF								
+Quality Control Type								
+Quality Control Term Accession Number								
+Quality Control Term Source REF								
+Protocol Name	P-GSE24169-1	P-GSE24169-6	P-GSE24169-3	P-GSE24169-8	P-GSE24169-7	P-GSE24169-2	P-GSE24169-4	P-GSE24169-5
+Protocol Description	ID_REF = <br>VALUE = Ln value of MAS5.0 signal intensity divided by median value of all non-control probe sets.	Following fragmentation, 15 ug of cRNA were hybridized for 16 hr at 45C on GeneChip. GeneChips were washed and stained in the Affymetrix Fluidics Station 450.	Seedlings were grown in MS agar medium in 16 hrs light at 23 centigrade degree.	The data were analyzed with Microarray Suite version 5.0 (MAS 5.0) using Affymetrix default analysis settings and global scaling as normalization method. All signals were divided by median value of all probe sets.	GeneChips were scanned using the Affymetrix GeneChip Scanner 3000.	Ten-day-old seedlings grown on a medium were soaked with sterilized water containing 10 µM cycloheximide (CHX), a protein synthesis inhibitor, for 2 hours. After removal of the solution, the seedlings were soaked with sterilized water containing CHX and with or without 10 µM DEX for 4 hours.	Total RNA was extracted using Nucleospin RNA Plant System (Macherey-Nagel) following instruction.	Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 10 ug total RNA.
+Protocol Software								
+Protocol Hardware								
+Protocol Contact								
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_acquisition	specified_biomaterial_action	nucleic_acid_extraction	labelling
+Protocol Term Source REF								
+Protocol Term Accession Number								
+Experimental Factor Name	growth condition	genotype						
+Experimental Factor Type	growth condition	genotype						
+Experimental Factor Term Source REF								
+Experimental Factor Term Accession Number								
+Publication Title	VASCULAR-RELATED NAC-DOMAIN7 directly regulates the expression of a broad range of genes for xylem vessel formation							
+Publication Author List	Yamaguchi M, Mitsuda N, Ohtani M, Ohme-Takagi M, Kato K, Demura T							
+PubMed ID	21284754							
+Publication DOI	10.1111/j.1365-313X.2011.04514.x							
+Publication Status								
+Publication Status Term Source REF								
+Publication Status Term Accession Number								
+Comment[SecondaryAccession]	GSE24169							
+Comment[GEOLastUpdateDate]	2011-04-01							
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[GEOReleaseDate]	2011-03-30							
+Comment[ArrayExpressSubmissionDate]	2010-09-15							
+SDRF File	E-GEOD-24169.sdrf.txt							

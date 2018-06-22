@@ -1,0 +1,28 @@
+Comment[ArrayExpressAccession]	E-GEOD-18007
+Investigation Title	Transcription profiling of Arabidopsis TOC1-ox transcriptional networks
+Comment[Submitted Name]	Genome-wide analysis of TOC1-ox transcriptional networks
+Publication Title
+Publication Author List
+Publication DOI
+PubMed ID
+Experimental Design	unknown_experiment_design_type	transcription profiling by array
+Experimental Design Term Source REF		EFO
+Person Last Name	Mas
+Person First Name	Paloma
+Person Email	pmmgmc@cid.csic.es
+Person Address	Genetica Molecular, Consorcio CSIC-IRTA-UAB (CRAG), C/ Jordi Girona 18-26, Barcelona, 08034, Spain
+Person Affiliation	Consorcio CSIC-IRTA-UAB (CRAG)
+Person Roles	submitter
+Public Release Date	2009-09-18
+Comment[ArrayExpressSubmissionDate]	2009-09-08
+Comment[GEOReleaseDate]	2009-09-09
+Comment[SecondaryAccession]	GSE18007
+Experiment Description	To gain insights into the mechanisms of TOC1 function in the Arabidopsis circadian clock we performed transcriptional profiling of Wild-Type (WT) and and TOC1 overexpressor plants (TOC1-ox). Experiment Overall Design: Comparisons of WT and TOC1-ox. Three biological replicates synchronized under 12-hour light:12-hour dark (LD) cycles for 12 days. Samples were collected at Zeitgeber Time 15 (ZT15).
+Protocol Name	P-G18007-3	P-G18007-4	P-G18007-2	P-G18007-1	P-G18007-5
+Protocol Type	labeling	bioassay_data_transformation	specified_biomaterial_action	grow	nucleic_acid_extraction
+Protocol Description	Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 1 ug total RNA (Expression Analysis Technical Manual Rev. 3, 2005, Affymetrix).	Carmaweb software (https://carmaweb.genome.tugraz.at) was used for data processing with the gcRMA algorythm for normalization. Differentially expressed genes were identified using the empirical Bayes moderated t statistics from the LiMMA package. Genes with an FDR < 5% were selected as misregulated in TOC1-ox	Samples were collected at Zeitgeber Time 15 (ZT15).	Seedlings were grown on MS3 medium under 12-hour light:12-hour dark (LD) cycles for 12 days.	Total RNA extractions were performed with Pure Link Total RNA Purification System (Invitrogen).
+Protocol Parameters					
+Protocol Software					
+SDRF File	E-GEOD-18007.sdrf.txt
+Term Source Name	EFO
+Term Source File	http://efo.svn.sourceforge.net/viewvc/efo/trunk/src/efoinowl/efo.owl

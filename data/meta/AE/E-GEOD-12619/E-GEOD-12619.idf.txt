@@ -1,0 +1,52 @@
+Investigation Title	Transcription profiling of Arabidopsis of til1-1 mutant plants heat shock response				
+Comment[Submitted Name]	Heat shock response of til1-1 mutant plants				
+Experimental Design	unknown_experiment_design_type	transcription profiling by array			
+Experimental Design Term Source REF		EFO			
+Comment[AEExperimentType]	transcription profiling by array				
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for til1 after heat shock treatment				
+Comment[SecondaryAccession]	GSE12619				
+Comment[ArrayExpressReleaseDate]	2009-09-15				
+Comment[AEMIAMESCORE]	3				
+Comment[ArrayExpressAccession]	E-GEOD-12619				
+Comment[MAGETAB TimeStamp_Version]	2010-07-30 05:14:19 Last Changed Rev: 13058				
+Experimental Factor Name	GENOTYPE	TEMPERATURE			
+Experimental Factor Type	genotype	temperature			
+Experimental Factor Term Source REF					
+Person Last Name	Charng				
+Person First Name	Yee-yung				
+Person Mid Initials					
+Person Email	yycharng@gate.sinica.edu.tw				
+Person Phone					
+Person Fax					
+Person Address	Yee-yung Charng, Inst. BioAgric. Sci., Academia Sinica, 128, Academia Rd. Sec. 2, Taipei, 11529, Taiwan, R.O.C.				
+Person Affiliation	Academia Sinica				
+Person Roles	submitter				
+Person Roles Term Source REF	The MGED Ontology				
+Quality Control Type					
+Quality Control Term Source REF					
+Replicate Type					
+Replicate Term Source REF					
+Normalization Type					
+Normalization Term Source REF					
+Date of Experiment					
+Public Release Date	2009-09-15				
+PubMed ID	19302169				
+Publication DOI	10.1111/j.1365-3040.2009.01972.x				
+Publication Author List	Chi WT, Fung RW, Liu HC, Hsu CC, Charng YY				
+Publication Title	Temperature-induced lipocalin is required for basal and acquired thermotolerance in Arabidopsis				
+Publication Status	published				
+Publication Status Term Source REF	EFO				
+Publication Status Term Accession Number	EFO_0001796				
+Experiment Description	Several lipocalin genes from higher plants were shown to be responsive to both high and low temperature stresses and have been named as temperature-induced lipocalin (Til).  In this study, a reverse genetic approach was taken to elucidate the role of Arabidopsis Til1 (At5g58070) in thermotolerance.  We showed that Til1 proteins was constitutively expressed and increased significantly after heat shock treatment.  A T-DNA knockout line of Til1, designated as til1-1, could not produce Til1 and showed severe defects in basal and acquired thermotolerance.  Introducing a wild type copy of Til1 gene into til1-1 complemented the mutant phenotype.  Over-expression of Til1 in the wild type plant did not enhance thermotolerance.  Til1 is peripherally associated with plasma membrane, suggesting a regulatory or protective role of this protein in membrane function.  Transcriptomic analysis showed that the heat shock response in til1-1 was not altered as compared to the wild type plants.  The temperature threshold for heat shock protein induction was not affected by the level of Til1.  Ion leakage analysis revealed no significant difference in membrane stability between the wild type and til1-1 seedlings.  These results suggested that Til1 is not involved in regulating membrane fluidity or stability.  Nevertheless, the level of malondialdehyde was significantly higher in til1-1 than in the wild type after severe heat treatment.  The mutant plants were also more sensitive than the wild type to tert-butyl hydroperoxide, a reagent that induces lipid peroxidation.  Taken together, our data indicate that Til1 is an essential component for thermotolerance probably by acting against lipid peroxidation induced by severe heat stress.  Experiment Overall Design: Total RNA was isolated from the seedlings of 7-d old wild-type and til1-1 mutant seedlings (a pool of about 100 plants per treatment in duplicates) harvested immediately after heat shock treatment. In this experiment, total 8 chips were used, 1 each for 2 biological replicates of the control and HS-treated samples for the wild type and mutant plants.				
+Protocol Name	P-G12619-3	P-G12619-1	P-AFFY-6	P-G12619-2	
+Protocol Type	nucleic_acid_extraction	labeling	feature_extraction	bioassay_data_transformation	
+Protocol Description	Qiagen RNA extraction kit	According to standard Affymetrix protocols.	Title: Affymetrix CEL analysis. Description: 	GCOS; normalized by global scaling	
+Protocol Parameters					
+Protocol Hardware					
+Protocol Software			MicroArraySuite 5.0		
+Protocol Contact					
+Protocol Term Source REF				The MGED Ontology	
+SDRF File	E-GEOD-12619.sdrf.txt				
+Term Source Name	NCBI Taxonomy	The MGED Ontology	ArrayExpress	EFO	The MGED Ontology
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version					

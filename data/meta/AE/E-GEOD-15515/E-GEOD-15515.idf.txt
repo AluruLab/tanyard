@@ -1,0 +1,51 @@
+Investigation Title	Transcription profiling of Arabidopsis differentiating leaf cells and dedifferentiating protoplasts of Ler and kyp mutant					
+Comment[Submitted Name]	Transcriptome Profiles of  Differentiated arabidopsis Leaf Cells and Dedifferentiating Protoplasts of Ler and kyp mutant					
+Experimental Design	unknown_experiment_design_type	transcription profiling by array				
+Experimental Design Term Source REF		EFO				
+Comment[AEExperimentType]	transcription profiling by array					
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis leaf cells and protoplasts mutant for kyp					
+Comment[SecondaryAccession]	GSE15515					
+Comment[ArrayExpressReleaseDate]	2009-04-11					
+Comment[AEMIAMESCORE]	4					
+Comment[ArrayExpressAccession]	E-GEOD-15515					
+Comment[MAGETAB TimeStamp_Version]	2010-08-02 13:13:05 Last Changed Rev: 13058					
+Experimental Factor Name	GENOTYPE	CELL TYPE				
+Experimental Factor Type	genotype	cell_type				
+Experimental Factor Term Source REF						
+Person Last Name	plaschkes					
+Person First Name	inbar					
+Person Mid Initials						
+Person Email	inbar.plaschkes@gmail.com					
+Person Phone						
+Person Fax						
+Person Address	NIBN-BGU, BGU univarsity, beer sheva, 84105, israel					
+Person Affiliation	NIBN-BGU					
+Person Roles	submitter					
+Person Roles Term Source REF	The MGED Ontology					
+Quality Control Type						
+Quality Control Term Source REF						
+Replicate Type						
+Replicate Term Source REF						
+Normalization Type						
+Normalization Term Source REF						
+Date of Experiment						
+Public Release Date	2009-04-11					
+PubMed ID						
+Publication DOI						
+Publication Author List						
+Publication Title						
+Publication Status						
+Publication Status Term Source REF						
+Experiment Description	Dedifferentiation signifies the capacity of somatic cells to acquire stem cell-likeproperties. This process characterizes the transition of differentiated plant cells toprotoplasts (plant cells devoid of cell walls), a transition accompanied by widespreadchromatin decondensation. Transcriptome profiling of dedifferentiating cells revealedstriking similarities with senescing cells; both display a large increase in the expressionof genes of specific transcription factor (TF) families including ANAC, WRKY, bZIPand C2H2. We further showed that leaves induced to senesce by exposure to dark displaycharacteristic features of dedifferentiating cells including widespread chromatindecondensation, disruption of the nucleolus and condensation of rRNA genes.Considering that premature senescence can be induced by various stress conditions, ourresults suggest that plant cells response to certain stresses converges on cellulardedifferentiation whereby cells first acquire stem cell-like state prior to acquisition of anew cell fate (e.g., reentry into the cell cycle, or death). Experiment Overall Design: Labeled cRNA was prepared and hybridized to Affymetrix ATH1 GeneChips, 4 biological repeats (2 Ler and 2 kyp-2) for protoplasts and 3 biological repeats for leaves (2 Ler and 1 kyp-2). Experiment Overall Design: Partek data processing results linked below as supplementary file.					
+Protocol Name	P-G15515-1	P-G15515-2	P-G15515-4	P-G15515-3	P-AFFY-6	
+Protocol Type	grow	specified_biomaterial_action	nucleic_acid_extraction	labeling	feature_extraction	
+Protocol Description	Seeds of Arabidopsis thaliana Landsberg erecta (Ler) ecotype and kyp-2 mutant were sown and incubated at 4oC for 4 days and then grown under long-day conditions (14 h light) at 21oC	Protoplasts were isolated from 5-6 week-old plants by incubating rosette leaves for 12-14 hours in N&M medium containing 1% cellulase âonozukaâ R-10 and 0.25% macerozyme R10 (Yakult Honsha Co., Ltd., Japan). Protoplasts were separated by centrifugation, washed once with CPW medium and precipitated by centrifugation at low speed for 5 min.	Total RNAs were prepared from leaves and protoplasts using RNeasy Plant Mini Kit according to the manufacturerâs protocol (Qiagen)	The probe Preparation, cDNA synthesis, cRNA reactions and hybridizationaccording to Affymetrix GeneChipÂ®  Expression Analysis Technical Manual was carried out in the Weizmann Institute microarray unit.	Title: Affymetrix CEL analysis. Description: 	
+Protocol Parameters						
+Protocol Hardware						
+Protocol Software					MicroArraySuite 5.0	
+Protocol Contact						
+Protocol Term Source REF						
+SDRF File	E-GEOD-15515.sdrf.txt					
+Term Source Name	NCBI Taxonomy		The MGED Ontology	ArrayExpress	EFO	The MGED Ontology
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version						

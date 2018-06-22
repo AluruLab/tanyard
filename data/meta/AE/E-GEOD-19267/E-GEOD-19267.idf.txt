@@ -1,0 +1,58 @@
+Comment[ArrayExpressAccession]	E-GEOD-19267						
+Public Release Date	2009-12-09						
+Investigation Title	Analysis of anther development by identifying downstream genes controlled by MS35/MYB26						
+Comment[Submitted Name]	Analysis of anther development by identifying downstream genes controlled by MS35/MYB26						
+Experiment Description	MALE STERILITY 35 (MS35/ MYB26) is a R2R3-type MYB transcription factor (Steiner-Large et al., 2003). MS35 is suggested to be a key regulator in the process of lignified secondary thickening in the anther endothecium which provides mechanical force for anther dehiscence (Dawson et al., 1999). The ms35 mutant bears non-dehiscent anthers and thus exhibits a male sterile phenotype. This microarray experiment aims to identify genes controlled by MS35 and thus establish the precise role MS35 plays during anther development. We have demonstrated that MS35 is expressed in the anther during pollen mitotic divisions. Comparisons of gene expression will be carried out between anthers from the Ler.gl (wild-type control) and ms35.gl (mutant) to identify genes with altered expression due to the ms35 mutation. The use of the gl marker will enable a prompt identification of the ms35 mutant amongst the segregating population. The wild-type control line was chosen to be Ler.gl which ensures that the changes of gene expression are not due to the gl mutation. Plants were grown in growth chambers at 22h of daylight (167 umol.m2.sec-1) at 24 C and 2h of night at 24 C. Developmental stages of anthers were defined by bud position and DAPI staining. As soon as the plants showed three fertile or sterile siliques, anther and filaments were collected from both lines at Pollen Mitosis I (PM I), bicellular, and PM II stage, separately. RNA was extracted using RNeasy Mini Kit (Qiagen, USA) and digested with DNase to eliminate genomic DNA contamination. The identified genes will be further analysed using bioinformatics and genomic (knockout) resources that are available for Arabidopsis. 12 samples were used in this experiment.						
+Date of Experiment							
+Term Source Name	EFO						
+Term Source Version							
+Term Source File	http://www.ebi.ac.uk/efo						
+Person Last Name	Nottingham Arabidopsis Stock Centre (NASC)	Song					
+Person First Name		Jie					
+Person Mid Initials							
+Person Email	affy@arabidopsis.info						
+Person Affiliation	Nottingham Arabidopsis Stock Centre (NASC)						
+Person Phone	+44 (0)115 951 3237						
+Person Fax	+44 (0)115 951 3297						
+Person Address	School of Biosciences, University of Nottingham, Nottingham Arabidopsis Stock Centre (NASC), Sutton Bonington Campus, Loughborough, United Kingdom						
+Person Roles	submitter						
+Person Roles Term Source REF							
+Person Roles Term Accession Number							
+Normalization Type							
+Normalization Term Accession Number							
+Normalization Term Source REF							
+Replicate Type							
+Replicate Term Accession Number							
+Replicate Term Source REF							
+Experimental Design							
+Experimental Design Term Accession Number							
+Experimental Design Term Source REF							
+Quality Control Type							
+Quality Control Term Accession Number							
+Quality Control Term Source REF							
+Protocol Name	P-GSE19267-1	P-GSE19267-6	P-GSE19267-5	P-GSE19267-3	P-GSE19267-2	P-GSE19267-4	P-GSE19267-7
+Protocol Description	ID_REF = <br>VALUE = MAS5.0 signal intensity<br>ABS_CALL = the call in an absolute analysis that indicates if the transcript was present (P), absent (A), or marginal (M)<br>DETECTION P-VALUE = p-value that indicates the significance level of the detection call	Scanned according to guidelines set out by Affymetrix, Santa Clara, CA.	Biotin Labelled cRNA using &quot;Affymetrix GeneChip Hybridization, Wash and Stain Kit&quot;, according to guidelines set out by Affymetrix, Santa Clara, CA	Qiagen RNAeasy kit protocol	Plants were grown in growth rooms at 22h of daylight at 22 C and 2h of night at 22 C	Labelled using protocol described in manual &quot;Affymetrix GeneChip Expression Analysis Technical Manual&quot;, One-Cycle target labelling	Raw data from the microarrays was normalized at probe-level using MAS5 algorithm. The detection calls (present, marginal, absent) for each probe set was obtained using the GCOS system
+Protocol Software							
+Protocol Hardware							
+Protocol Contact							
+Protocol Type	bioassay_data_transformation	image_aquisition	hybridization	nucleic_acid_extraction	grow	labeling	feature_extraction
+Protocol Term Source REF							
+Protocol Term Accession Number							
+Experimental Factor Name	DEVELOPMENTAL STAGE	GENOTYPE					
+Experimental Factor Type	developmental_stage	genotype					
+Experimental Factor Term Source REF							
+Experimental Factor Term Accession Number							
+Publication Title							
+Publication Author List							
+PubMed ID							
+Publication DOI							
+Publication Status							
+Publication Status Term Source REF							
+Publication Status Term Accession Number							
+Comment[SecondaryAccession]	GSE19267						
+Comment[GEOLastUpdateDate]	2011-03-01						
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for ms35						
+Comment[AEExperimentType]	transcription profiling by array						
+Comment[GEOReleaseDate]	2009-12-10						
+Comment[ArrayExpressSubmissionDate]	2009-12-02						
+SDRF File	E-GEOD-19267.sdrf.txt						

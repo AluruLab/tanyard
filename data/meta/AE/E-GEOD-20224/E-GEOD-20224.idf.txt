@@ -1,0 +1,49 @@
+Investigation Title	Gametophytic transcription factors	
+Comment[Submitted Name]	Gametophytic transcription factors	
+Experimental Design	transcription profiling by array	
+Experimental Design Term Source REF	EFO	
+Comment[AEMIAMESCORE]	4	
+Comment[SecondaryAccession]	GSE20224	
+Comment[ArrayExpressReleaseDate]	2010-04-28	
+Comment[ArrayExpressAccession]	E-GEOD-20224	
+Comment[MAGETAB TimeStamp_Version]	2010-08-04 03:42:35 Last Changed Rev: 13058	
+Experimental Factor Name	STOCK CODE	
+Experimental Factor Type	stock code	
+Experimental Factor Term Source REF	
+Person Last Name	(NASC)	Honys	
+Person First Name	Nottingham Arabidopsis Stock Centre	David	
+Person Mid Initials	
+Person Email	affy@arabidopsis.info	
+Person Phone	
+Person Fax	
+Person Address	School of Biosciences, University of Nottingham, Nottingham Arabidopsis Stock Centre (NASC), Sutton Bonington Campus, Loughborough, LE12 5RD, United Kingdom	
+Person Affiliation	Nottingham Arabidopsis Stock Centre (NASC)	
+Person Roles	submitter	
+Person Roles Term Source REF	The MGED Ontology	
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2010-04-28	
+PubMed ID	
+Publication DOI	
+Publication Author List	
+Publication Title	
+Publication Status	
+Publication Status Term Source REF	
+Experiment Description	Following our initial transcriptomic analyses of the male gametophyte development (Honys and Twell, Genome Biol 5:R85, 2004), we identified several candidate genes for the function of transcriptional regulators of the male gametophyte development. Two transcription factors with verified function (bZIP and C2H2 ZF) were selected for the identification of their regulons. Mature pollen was isolated as published previously (Honys and Twell Plant Physiol 132:640-652, 2003) from Col-0 wild type plants and T-DNA insertion mutants (SAIL) homozygous for tested genes. 6 samples were used in this experiment.	
+Protocol Name	P-GSE20224-3	P-GSE20224-2	P-GSE20224-4	P-GSE20224-5	P-GSE20224-6	P-GSE20224-7	P-GSE20224-1	
+Protocol Type	nucleic_acid_extraction	grow	labeling	hybridization	image_aquisition	feature_extraction	bioassay_data_transformation	
+Protocol Description	Qiagen RNAeasy kit protocol	Plants were grown in compost in a growth room as described (Honys and Twell, Plant Physiology 132: 640-652, 2003).	Labelled using protocol described in manual "Affymetrix GeneChip Expression Analysis Technical Manual", One-Cycle target labelling	Biotin Labelled cRNA using "Affymetrix GeneChip Hybridization, Wash and Stain Kit", according to guidelines set out by Affymetrix, Santa Clara, CA	Scanned according to guidelines set out by Affymetrix, Santa Clara, CA.	Raw data from the microarrays was normalized at probe-level using MAS5 algorithm. The detection calls (present, marginal, absent) for each probe set was obtained using the GCOS system	ID_REF = <br>VALUE = MAS5.0-calculated signal intensity<br>ABS_CALL = the call in an absolute analysis that indicates if the transcript was present (P), absent (A), or marginal (M)<br>DETECTION P-VALUE = p-value that indicates the significance level of the detection call	
+Protocol Parameters	
+Protocol Hardware	
+Protocol Software	
+Protocol Contact	
+Protocol Term Source REF						The MGED Ontology	The MGED Ontology	
+SDRF File	E-GEOD-20224.sdrf.txt	
+Term Source Name	NCBI Taxonomy		The MGED Ontology	ArrayExpress	EFO	The MGED Ontology	
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version							

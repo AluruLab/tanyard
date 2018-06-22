@@ -1,0 +1,49 @@
+Investigation Title	Transcription profiling of Arabidopsis plants treated with indole-3-acetic acid (IAA) or IAA plus dexamethasone									
+Comment[Submitted Name]	Auxin-response genes regulated by IAA1									
+Experimental Design	cellular_process_design	transcript_identification_design	in_vivo_design	compound_treatment_design	co-expression_design	transcription profiling by array				
+Experimental Design Term Source REF				mo	mo	EFO				
+Comment[ArrayExpressReleaseDate]	2008-08-31									
+Comment[AEMIAMESCORE]	5									
+Comment[ArrayExpressAccession]	E-MEXP-1256									
+Comment[MAGETAB TimeStamp_Version]	2010-08-09 20:44:43 Last Changed Rev: 13058									
+Experimental Factor Name	compound									
+Experimental Factor Type	compound									
+Experimental Factor Term Source REF										
+Person Last Name	Lee									
+Person First Name	Dong Ju									
+Person Mid Initials										
+Person Email	leedongju@gmail.com									
+Person Phone	082-010-8214-0117									
+Person Fax										
+Person Address	300 Yongbong-dong									
+Person Affiliation	Agricultural Plant Stress Research Center									
+Person Roles	submitter									
+Person Roles Term Source REF	The MGED Ontology									
+Quality Control Type										
+Quality Control Term Source REF										
+Replicate Type										
+Replicate Term Source REF										
+Normalization Type										
+Normalization Term Source REF										
+Date of Experiment										
+Public Release Date	2008-08-31									
+PubMed ID	19654206									
+Publication DOI	19654206									
+Publication Author List	Lee, Dong Ju; Park, Jong Wha; Lee, Han Woo; Kim, Jungmook									
+Publication Title	Genome-wide analysis of the auxin-responsive transcriptome downstream of iaa1 and its expression analysis reveal the diversity and complexity of auxin-regulated gene expression									
+Publication Status	journal_article									
+Publication Status Term Source REF	The MGED Ontology									
+Experiment Description	The iaa1 mutant protein impaired a variety of auxin responses by acting as a negative regulator of auxin-responsive pathway.									
+Protocol Name	P-MEXP-90837	P-MEXP-90838	P-MEXP-90839	P-AFFY-2	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6	Affymetrix:Protocol:MAS4:ExpressionCall	Affymetrix:Protocol:ExpressionStat		
+Protocol Type	grow	specified_biomaterial_action	nucleic_acid_extraction	labeling	hybridization	feature_extraction	bioassay_data_transformation	bioassay_data_transformation		
+Protocol Description	Arabidopsis thaliana seedlings were grown for 7 d at 16-h photoperiod on the 3MM Whatman filter paper on top of the agar plate containing 0.5x Murashige Skoog (MS) media salts with vitamins, 1.5% sucrose, 2.5 mM Mes, pH 5.7, and 0.8% phytoagar at 23 C	The filter paper with the seedlings was then transferred to the plate containing plant hormone or chemicals at 20 uM for IAA or 10 uM for DEX or 50 uM cycloheximide, and incubated for a given period of time with gentle shaking in the light at 23 C.	Total RNA was isolated from young seedlings with an RNeasy plant mini kit (Qiagen). Five micrograms of RNA were used to make biotin-labeled cRNA products.  	Title: Affymetrix in vitro transcription. Description: 	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	Title: Affymetrix CHP Analysis (ExpressionCall). Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 		
+Protocol Parameters			Extracted product;Amplification;							
+Protocol Hardware										
+Protocol Software					MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 4.0	MicroArraySuite 5.0		
+Protocol Contact										
+Protocol Term Source REF					mo		mo	The MGED Ontology		
+SDRF File	E-MEXP-1256.sdrf.txt									
+Term Source Name	The MGED Ontology		NCBI Taxonomy	mo	tair_dev:1.27	ArrayExpress	NCI_thesaurus	mo	EFO	The MGED Ontology
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php		http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.arabidopsis.org/info/ontologies/	http://www.ebi.ac.uk/arrayexpress	ncithesaurus.obo.alt	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version					1.27					
+Comment[AEExperimentType]	transcription profiling by array									

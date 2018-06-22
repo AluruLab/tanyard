@@ -1,0 +1,28 @@
+Comment[ArrayExpressAccession]	E-GEOD-31837
+MAGE-TAB Version	1.1									
+Public Release Date	2012-12-16
+Investigation Title	Changes in mRNA Stability Associated with Cold Stress in Arabidopsis Cells									
+Comment[Submitted Name]	Changes in mRNA Stability Associated with Cold Stress in Arabidopsis Cells
+Experiment Description	Control of mRNA half-life is a powerful strategy to adjust individual mRNA levels to various stress conditions, because the mRNA degradation rate controls not only the steady-state mRNA level but also the transition speed of mRNA levels. Here, we analyzed mRNA half-life changes in response to cold stress in Arabidopsis cells using genome-wide analysis, in which mRNA half-life measurements and transcriptome analysis were combined. Half-lives of average transcripts were determined to be elongated under cold conditions. Taking this general shift into account, we identified more than a thousand transcripts that were classified as relatively stabilized or relatively destabilized. The relatively stabilized class was predominantly observed in functional categories that included various regulators involved in transcriptional, post-transcriptional and post-translational processes. On the other hand, the relatively destabilized class was enriched in categories related to stress and hormonal response proteins, supporting the idea that rapid decay of mRNA is advanta- geous for swift responses to stress. In addition, pentatricopeptide repeat, cyclin-like F-box and Myb transcription factor protein families were significantly over-represented in the relatively destabilized class. The global analysis presented here demonstrates not only the importance of mRNA turn-over control in the cold stress response but also several structural characteristics that might be important in the control of mRNA stability. To demonstrate the importance of mRNA stability control in cold stress response, we investigated global changes in mRNA half-lives in response to cold treatment by micaroarray using Arabidopsis suspension cell cultures (T87 cells). Control cells were collected prior to transcriptional inhibitor (cordycepin) treatment (0 h), and 1 and 3 h after the start of cordycepin treatment. For cold-treated cells, 6 h samples were also used for microarray analyses. The experiments were performed with triplicate sets for each time point.									
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl								
+Person Last Name	Mineta	Chiba	Mineta	Hirai	Suzuki	Kanaya	Takahashi	Onouchi	Yamaguchi	Naito
+Person First Name	Katsuhiko	Yukako	Katsuhiko	Masami	Yuya	Shigehiro	Hiro	Hitoshi	Junji	Satoshi
+Person Mid Initials				Y						
+Person Email	kmineta@ist.hokudai.ac.jp									
+Person Affiliation	Hokkaido University									
+Person Address	Graduate school of Information Science and Technology, Hokkaido University, N14W9 Kita, Sapporo, Hokkaido, Japan									
+Person Roles	submitter									
+Protocol Name	P-GSE31837-1	P-GSE31837-6	P-GSE31837-3	P-GSE31837-8	P-GSE31837-7	P-GSE31837-2	P-GSE31837-4	P-GSE31837-5		
+Protocol Description	ID_REF =  VALUE = RMA signal normalized with poly(A) control	All procedures were carried out following the Affymetrix GeneChip Expression Analysis Technical Manual.	Arabidopsis T87 suspension cells derived from Col-0 ecotype were grown in JPL media (Axelos et al.,Plant Physiol. Biochem. 30, p123-128, 1992) at 22°C under constant light (80 umolm-2s-1) with orbital shaking (120 rpm).	Data were analyzed by Bioconductor of R. To extract the expression level of the probe set, the Robust Multichip Average (RMA) method implemented in the Affy package was used. Log-transformed RMA value was delogged and then normalized with the average expression level of poly(A) RNA controls derived from Bacillus subtilis genes.	All procedures were carried out following the Affymetrix GeneChip Expression Analysis Technical Manual.	Cells at seven days after subculturing were used as control cells. Cold treated cells were then exposed to cold stress by transferring into a growth chamber at 4°C under dim lights (40 umolm-2s-1) for 24 hours.	Total RNA was extracted from the cells by using RNeasy Plant Mini kit (Qiagen), and purified and concentrated with RNeasy MinElute Cleanup kit (Qiagen).	All procedures were carried out following the Affymetrix GeneChip Expression Analysis Technical Manual.		
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling		
+Publication Title	Changes in mRNA Stability Associated with Cold Stress in Arabidopsis Cells.									
+Publication Author List	Chiba Y, Mineta K, Hirai MY, Suzuki Y, Kanaya S, Takahashi H, Onouchi H, Yamaguchi J, Naito S									
+PubMed ID	23220693									
+Publication DOI	10.1093/pcp/pcs164									
+Comment[SecondaryAccession]	GSE31837									
+Comment[GEOReleaseDate]	2012-12-16									
+Comment[ArrayExpressSubmissionDate]	2011-09-01									
+Comment[GEOLastUpdateDate]	2012-12-20									
+Comment[AEExperimentType]	transcription profiling by array									
+SDRF File	E-GEOD-31837.sdrf.txt

@@ -1,0 +1,50 @@
+Investigation Title	Transcription profiling of Arabidopsis male-sterile opr3 mutant stamens treated with jasmonate or its precursor, 12-oxophytodienoic acid								
+Comment[Submitted Name]	Transcriptional regulators of stamen development in Arabidopsis identified by transcriptional profiling								
+Experimental Design	time_series_design	individual_genetic_characteristics_design	compound_treatment_design	co-expression_design					
+Experimental Design Term Source REF	mo		mo	mo					
+Comment[AEExperimentType]	transcription profiling by array								
+Comment[ArrayExpressReleaseDate]	2007-10-04								
+Comment[SecondaryAccession]	GSE4733								
+Comment[AEMIAMESCORE]	5								
+Comment[ArrayExpressAccession]	E-GEOD-4733								
+Comment[MAGETAB TimeStamp_Version]	2010-08-05 17:34:11 Last Changed Rev: 13058								
+Experimental Factor Name	genotype	compound	time						
+Experimental Factor Type	genotype	compound	time						
+Experimental Factor Term Source REF									
+Person Last Name	Mandaokar								
+Person First Name	Ajin								
+Person Mid Initials	D.								
+Person Email	ajin@mail.wsu.edu								
+Person Phone									
+Person Fax									
+Person Address	Browse lab, Institute of Biological Chemistry, Washington State University, 447, Clark hall, Pullman, 99164-6340, USA								
+Person Affiliation	Washington State University								
+Person Roles	submitter								
+Person Roles Term Source REF	The MGED Ontology								
+Quality Control Type									
+Quality Control Term Source REF									
+Replicate Type									
+Replicate Term Source REF									
+Normalization Type									
+Normalization Term Source REF									
+Date of Experiment									
+Public Release Date	2007-10-04								
+PubMed ID	16805732								
+Publication DOI	10.1111/j.1365-313X.2006.02756.x								
+Publication Author List	Ajin Mandaokar, Bryan Thines, Byongchul Shin, B Markus Lange, Goh Choi, Yeon J Koo, Yung J Yoo, Yang D Choi, Giltsu Choi, John Browse								
+Publication Title	Transcriptional regulators of stamen development in Arabidopsis identified by transcriptional profiling.								
+Publication Status	published								
+Publication Status Term Source REF	EFO								
+Experiment Description	In Arabidopsis, jasmonate is required for stamen and pollen maturation.  Mutants deficient in jasmonate synthesis, such as opr3, are male-sterile but become fertile when jasmonate is applied to developing flower buds. We have used ATH1 oligonucleotide arrays to follow gene expression in opr3 stamens for 22 hours following jasmonate treatment.  In these experiments, a total of 821 genes were specifically induced by jasmonate and 480 repressed.  Comparisons with data from previous studies indicate that these genes constitute a stamen-specific jasmonate transcriptome, with a large proportion (70%) of the genes expressed in the sporophytic tissue but not in the pollen.  Bioinformatics tools allowed us to associate many of the induced genes with metabolic pathways that are likely up-regulated during jasmonate-induced maturation.  Our pathway analysis led to the identification of specific genes within larger families of homologues that apparently encode stamen-specific isozymes.  Extensive additional analysis of our dataset identified 13 transcription factors that may be key regulators of the stamen maturation processes triggered by jasmonate.  Two of these transcription factors, MYB21 and MYB24, are the only members of subgroup 19 of the R2R3 family of MYB proteins.  A myb21 mutant obtained by reverse genetics exhibited shorter anther filaments, delayed anther dehiscence and greatly reduced male fertility.  A myb24 mutant was phenotypically wild type, but production of a myb21Â myb24 double mutant indicated that introduction of the myb24 mutation exacerbated all three aspects of the myb21 phenotype.  Exogenous jasmonate could not restore fertility to myb21 or myb21Â myb24 mutant plants.  Together with the data from transcriptional profiling, these results indicate that MYB21 and MYB24 are induced by jasmonate and mediate important aspects of the jasmonate response during stamen development. Experiment Overall Design: Three replicates for opr3 at each time point of 0 hour, 30 minutes, 2 hours, 8 hours and 22 hourss of either JA or OPDA treatment. One replicate of wild-type stamens. <br><br>Note that data files GSM106833.txt and GSM106907.txt as downloaded from GEO are identical.								
+Protocol Name	P-G4733-18	P-G4733-3	P-G4733-8	P-G4733-13	P-G4733-14	Affymetrix:Protocol:Hybridization-EukGE-WS2v4	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6	
+Protocol Type	grow	specified_biomaterial_action	specified_biomaterial_action	nucleic_acid_extraction	labeling	hybridization	hybridization	feature_extraction	
+Protocol Description	Plants were grown on soil under continuous illumination of 130 mmol m-2s-1 at 22 0C.	Flower buds at developmental stage 12 from opr3 mutants were treated with 0.03% methyl jasmonate and stamens were harvested 30 minutes, 2, 8 or 22 hours after treatment and immediately frozen in liquid nitrogen	Flower buds at developmental stage 12 from opr3 mutants were treated with 0.03% 12-oxophytodienoic acid (OPDA) and stamens were harvested 30 minutes, 2, 8 or 22 hours after treatment and immediately frozen in liquid nitrogen	Total RNA was isolated from stamens (stage 12 of flower development) using Trizol reagent following instructions from the manufacturer (Invitrogen Corporation, Carlsbad, CA) and was then purified on RNeasy columns (Qiagen, Valencia, CA).	Labeling and hybridization of RNA was carried out according to standard Affymetrix protocols (Affymetrix, Santa Clara, CA).  In brief, ten micrograms of total RNA for each replicate was converted to cDNA, from which biotinylated cRNA target was synthesized.  The resulting cRNA was purified on RNeasy columns and then fragmented for hybridization to ATH1 Arabidopsis GeneChips (Affymetrix, Santa Clara, CA).	Title: Fluidics Station Protocol. Description: 	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	
+Protocol Parameters									
+Protocol Hardware									
+Protocol Software						MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact									
+Protocol Term Source REF							mo		
+SDRF File	E-GEOD-4733.sdrf.txt								
+Term Source Name		EFO	mo	NCBI Taxonomy	The MGED Ontology	ArrayExpress	mo	EFO	The MGED Ontology
+Term Source File		http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version									

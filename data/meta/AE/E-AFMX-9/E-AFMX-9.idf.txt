@@ -1,0 +1,48 @@
+Investigation Title	Transcription profiling of 80 Arabidopsis tissues/cells (AtGenExpress data) see also E-TABM-17 for a re-annotated set with CEL files for download	
+Comment[Submitted Name]	Weigel: Expression Atlas of Arabidosis Development	
+Experimental Design	development_or_differentiation_design	organism_part_comparison_design	strain_or_line_design	transcription profiling by array	
+Experimental Design Term Source REF	mo:1.3.1.1	mo	mo	EFO	
+Comment[ArrayExpressReleaseDate]		
+Comment[AEMIAMESCORE]	4	
+Comment[ArrayExpressAccession]	E-AFMX-9	
+Comment[MAGETAB TimeStamp_Version]	2010-10-13 21:59:50 Last Changed Rev: 14677	
+Experimental Factor Name	Ecotype	OrganismPart	
+Experimental Factor Type	ecotype	organism_part	
+Experimental Factor Term Source REF	
+Person Last Name	Weigel	Lohmann	Schmid	
+Person First Name	Detlef	Jan	Markus	
+Person Mid Initials	
+Person Email	
+Person Phone	
+Person Fax	
+Person Address	
+Person Affiliation	Department of Molecular Biology, Max Planck Institute for Developmental Biology, D-72076 Tübingen, Germany	Department of Molecular Biology, Max Planck Institute for Developmental Biology, D-72076 Tübingen, Germany	Department of Molecular Biology, Max Planck Institute for Developmental Biology, D-72076 Tübingen, Germany	
+Person Roles	submitter	
+Person Roles Term Source REF		
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	
+PubMed ID	15806101	
+Publication DOI	15806101	
+Publication Author List	Markus Schmid, Timothy S Davison, Stefan R Henz, Utz J Pape, Monika Demar, Martin Vingron, Bernhard Scholkopf, Detlef Weigel, Jan U Lohmann	
+Publication Title	A gene expression map of Arabidopsis thaliana development	
+Publication Status	journal_article	
+Publication Status Term Source REF	mo	
+Experiment Description	The activity of genes and their encoded products can be regulated in several ways, but transcription is the primary level, since all other modes of regulation (RNA splicing, RNA and protein stability, etc.) are dependent on a gene being transcribed in the first place. The importance of transcriptional regulation has been underscored by the recent flood of global expression analyses, which have confirmed that transcriptional co-regulation of genes that act together is the norm, not the exception. Moreover, many studies suggest that evolutionary change is driven in large part by modifications of transcriptional programs. An essential first step toward deciphering the transcriptional code is to determine the expression pattern of all genes. With this goal in mind, an international effort to develop a gene expression atlas of Arabidopsis has been underway since fall 2003. This project, dubbed AtGenExpress, is funded by the DFG, and will provide the Arabidopsis community with access to a large set of Affymetrix microarray data. As part of this collaboration, we have generated expression data from 80 biologicaly different samples in triplicate. The focus of this data set is on different tissues and different developmental stages in wild type Columbia (Col-0) and various mutants.	
+Protocol Name	P-AFFY-1	P-AFFY-2	Affymetrix:Protocol:Hybridization-EukGE-WS2v4	Affymetrix:Protocol:Percentile	
+Protocol Type	nucleic_acid_extraction	labeling	hybridization	feature_extraction	
+Protocol Description	Title: Trizol extraction. Description: 	Title: Affymetrix in vitro transcription. Description: 	Title: Fluidics Station Protocol. Description: 	Title: Affymetrix CEL Analysis (Percentile). Description: 	
+Protocol Parameters	
+Protocol Hardware	
+Protocol Software			MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact	
+Protocol Term Source REF	
+SDRF File	E-AFMX-9.sdrf.txt	
+Term Source Name	mo	po	po_structure_ontology1.1	ncbitax	ArrayExpress	nasc		mo:1.3.1.1	mo	EFO	
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.plantontology.org		http://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html	http://www.ebi.ac.uk/arrayexpress	http://arabidopsis.info/catalogue.html		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	
+Term Source Version								1.3.1.1			

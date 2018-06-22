@@ -1,0 +1,57 @@
+Comment[ArrayExpressAccession]	E-GEOD-34924
+Public Release Date	2012-05-01							
+Investigation Title	Analysis of a N-6 adenosine methylation deficient plant							
+Comment[Submitted Name]	Analysis of a N-6 adenosine methylation deficient plant
+Experiment Description	The embryo lethal adenosine methylase tDNA knockout line SALK_074069 was partially complemented with its cDNA driven by the embryo specific ABI3 promoter (A6 lines). The plants have reduced adenosine methylation and show pleiotropic phenotypes. Rosette leaves were harvested from 3 week old plants, both wild-type and mutant plants in triplicate and analysed using the Affymetrix ATH1 array. The 3rd to 6th rosette leaves were harvested in triplicate from 3 week old wild-type and mutant plants (A6). Total RNA was extracted and hybridised to the Affymetrix ATH1 array.							
+Date of Experiment								
+Term Source Name	EFO
+Term Source Version								
+Term Source File	http://www.ebi.ac.uk/efo/efo.owl							
+Person Last Name	Graham	Bodi	Zhong	Mehra	Song	Graham	May	Fray
+Person First Name	Neil	Z	S	S	J	N	S	R
+Person Mid Initials								
+Person Email	neil.graham@nottingham.ac.uk							
+Person Affiliation	University of Nottingham							
+Person Phone	01159516373							
+Person Fax								
+Person Address	Plant and Crop Sciences, University of Nottingham, Sutton Bonington Campus, Loughborough, Leicestershire, United Kingdom							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Person Roles Term Accession Number								
+Normalization Type								
+Normalization Term Accession Number								
+Normalization Term Source REF								
+Replicate Type								
+Replicate Term Accession Number								
+Replicate Term Source REF								
+Experimental Design								
+Experimental Design Term Accession Number								
+Experimental Design Term Source REF								
+Quality Control Type								
+Quality Control Term Accession Number								
+Quality Control Term Source REF								
+Protocol Name	P-GSE34924-1	P-GSE34924-6	P-GSE34924-5	P-GSE34924-3	P-GSE34924-2	P-GSE34924-4	P-GSE34924-7	
+Protocol Description	ID_REF = <br>VALUE = RMA pre-normalised and normalised to the median of the gene signal across all samples in Log2 scale.	Scanning was performed accordinf to manufactures' instruction using an Affymetrix 3000 7G scanner	Samples were hybridised at the NASC microarray core facility according to manufactures' instructions. GeneChips were washed and stained in the Affymetrix Fluidics station 450.	RNA was extracted using the QIAGEN Rneasy kit	Plants were grown in a growth chamber with 20 hr light, 4 hr dark cycle at 20 degree C.	Labelling was performed using the Affymetrix 3' IVT express kit as per manufactures' instructions	RNA data was analysed using Genespring GX 11 software (Agilent technologies) using the RMA probe sumarisation algorithm. Each gene signal was then normalised to the median of the gene signal across all samples	
+Protocol Software								
+Protocol Hardware								
+Protocol Contact								
+Protocol Type	bioassay_data_transformation	image_aquisition	hybridization	nucleic_acid_extraction	grow	labeling	feature_extraction	
+Protocol Term Source REF								
+Protocol Term Accession Number								
+Experimental Factor Name	LINE							
+Experimental Factor Type	line							
+Experimental Factor Term Source REF								
+Experimental Factor Term Accession Number								
+Publication Title								
+Publication Author List								
+PubMed ID								
+Publication DOI								
+Publication Status								
+Publication Status Term Source REF								
+Publication Status Term Accession Number								
+Comment[SecondaryAccession]	GSE34924							
+Comment[GEOLastUpdateDate]	2012-05-02
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[GEOReleaseDate]	2012-04-30
+Comment[ArrayExpressSubmissionDate]	2012-01-06
+SDRF File	E-GEOD-34924.sdrf.txt

@@ -1,0 +1,52 @@
+Investigation Title	Transcription profiling of Arabidopsis exposed to low red:far red light treatment at 16 and 22 degrees									
+Comment[Submitted Name]	Low R:FR treatment at 16 and 22 degrees									
+Experimental Design	unknown_experiment_design_type	transcription profiling by array								
+Experimental Design Term Source REF		EFO								
+Comment[AEExperimentType]	transcription profiling by array									
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for phyA after exposure to low red:far-red light treatment									
+Comment[AEMIAMESCORE]	3									
+Comment[ArrayExpressReleaseDate]	2008-06-16									
+Comment[SecondaryAccession]	GSE8745									
+Comment[ArrayExpressAccession]	E-GEOD-8745									
+Comment[MAGETAB TimeStamp_Version]	2010-08-09 10:59:07 Last Changed Rev: 13058									
+Experimental Factor Name	GENOTYPE	GROWTH CONDITION	TEMPERATURE							
+Experimental Factor Type	genotype	growth_condition	temperature							
+Experimental Factor Term Source REF										
+Person Last Name	Franklin									
+Person First Name	Keara									
+Person Mid Initials										
+Person Email	kaf5@le.ac.uk									
+Person Phone										
+Person Fax										
+Person Address	331, Biology, University of Leicester, University Road, Leicester, LE1 7RH, United Kingdom									
+Person Affiliation	University of Leicester									
+Person Roles	submitter									
+Person Roles Term Source REF	The MGED Ontology									
+Quality Control Type										
+Quality Control Term Source REF										
+Replicate Type										
+Replicate Term Source REF										
+Normalization Type										
+Normalization Term Source REF										
+Date of Experiment										
+Public Release Date	2008-06-16									
+PubMed ID	17965713									
+Publication DOI	10.1038/ng.2007.3									
+Publication Author List	Keara A Franklin, Garry C Whitelam									
+Publication Title	Light-quality regulation of freezing tolerance in Arabidopsis thaliana.									
+Publication Status	published									
+Publication Status Term Source REF	EFO									
+Publication Status Term Accession Number	EFO_0001796									
+Experiment Description	The purpose of this experiment was to identify genes responding differently to a 24 h low red to far red ratio (R:FR) treatment in plants grown at 16 and 22 degrees Experiment Overall Design: Microarrays were used as a gene discovery tool to identify genes showing differential regulation by low R:FR at 2 growth temperatures. Plants subject to a 24 h low R:FR light treatment were compared with control plants maintained in high R:FR. This experiment was carried out at two growth temperatures, 16oC and 22oC.									
+Protocol Name	P-G8745-7	P-G8745-2	P-G8745-8	P-G8745-6	P-G8745-5	P-G8745-1	P-G8745-4	P-G8745-3	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6
+Protocol Type	specified_biomaterial_action	specified_biomaterial_action	grow	grow	grow	grow	nucleic_acid_extraction	labeling	hybridization	feature_extraction
+Protocol Description	4-day-old seedlings were treated with low R:FR (0.1) for 24 h before harvesting	None	Seedlings were grown for 4 days on soil in 100Â&#956;molm-2s-1 of white light (R:FR 4.4) at 22 degrees before transfer to low R:FR (R:FR 0.1) for 24 h.	Seedlings were grown for 4 days on soil in 100Â&#956;molm-2s-1 of white light (R:FR 4.4) at 16 degrees before transfer to low R:FR (R:FR 0.1) for 24 h.	Seedlings were grown for 5 days on soil in 100Â&#956;molm-2s-1 of white light (R:FR 4.4) at 22 degrees.	Seedlings were grown for 5 days on soil in 100Â&#956;molm-2s-1 of white light (R:FR 4.4) at 16 degrees.	RNA was extracted from cotyledon (and a small amount of hypocotyl) tissue using RNeasy kits (Qiagen) followed by extraction with acid phenol chloroform and precipitation with ethanol to a concentration > 3mg/ml.	Labelling was carried out by the John Innes Centre Genome Laboratory (http://jicgenomelab.co.uk) according to Affymetrix standard protocols (http://www.affymetrix.com).	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 
+Protocol Parameters										
+Protocol Hardware										
+Protocol Software									MicroArraySuite 5.0	MicroArraySuite 5.0
+Protocol Contact										
+Protocol Term Source REF									mo	
+SDRF File	E-GEOD-8745.sdrf.txt									
+Term Source Name	NCBI Taxonomy		The MGED Ontology	ArrayExpress	EFO	The MGED Ontology	mo			
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://mged.sourceforge.net/ontologies/MGEDontology.php			
+Term Source Version										

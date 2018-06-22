@@ -1,0 +1,52 @@
+Investigation Title	"Transcription profiling of Arabidopsis Col-0, ARF10 and mARF10 plants to identify genes regulated by ARF10 in germinating seeds"					
+Comment[Submitted Name]	microRNA160 resistant AUXIN RESPONSE FACTOR10 (mARF10) germinating seeds					
+Experimental Design	genetic modividation design	transcription profiling by array				
+Experimental Design Term Source REF		EFO				
+Comment[AEExperimentType]	transcription profiling by array					
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis with microRNA160-resistant arf10					
+Comment[AEMIAMESCORE]	4					
+Comment[ArrayExpressReleaseDate]	2008-06-15					
+Comment[SecondaryAccession]	GSE7227					
+Comment[ArrayExpressAccession]	E-GEOD-7227					
+Comment[MAGETAB TimeStamp_Version]	2010-08-07 17:47:59 Last Changed Rev: 13058					
+Experimental Factor Name	genotype					
+Experimental Factor Type	genotype					
+Experimental Factor Term Source REF						
+Person Last Name	Nonogaki					
+Person First Name	Hiro					
+Person Mid Initials						
+Person Email	hiro.nonogaki@oregonstate.edu					
+Person Phone						
+Person Fax						
+Person Address	"Hiro Nonogaki, Horticulture, Oregon State University, 4017 ALS Bldg, Dept. of Horticulture, Oregon State University, Corvallis, 97331, USA"					
+Person Affiliation	Oregon State University					
+Person Roles	submitter					
+Person Roles Term Source REF						
+Quality Control Type						
+Quality Control Term Source REF						
+Replicate Type						
+Replicate Term Source REF						
+Normalization Type						
+Normalization Term Source REF						
+Date of Experiment						
+Public Release Date	2008-06-15					
+PubMed ID	17672844					
+Publication DOI	10.1111/j.1365-313X.2007.03218.x					
+Publication Author List	"Po-Pu Liu, Taiowa A Montgomery, Noah Fahlgren, Kristin D Kasschau, Hiroyuki Nonogaki, James C Carrington"					
+Publication Title	Repression of AUXIN RESPONSE FACTOR10 by microRNA160 is critical for seed germination and post-germination stages.					
+Publication Status	published					
+Publication Status Term Source REF	EFO					
+Publication Status Term Accession Number	EFO_0001796					
+Experiment Description	"The expression profiles were determined using Affymetrix ATH1 arrays. Comparisons among the Col-0, ARF10 and mARF10 sample groups allow the identification of genes regulated by ARF10. Experiment Overall Design: Germinating seeds (22 hr imbibition) from three independent biological replicates of Col-0, ARF10 and mARF10 samples, which contain three independent seed lots each, were analyzed."					
+Protocol Name	P-G7227-2	P-G7227-1	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6	Affymetrix:Protocol:ExpressionStat	
+Protocol Type	nucleic_acid_extraction	labeling	hybridization	feature_extraction	bioassay_data_transformation	
+Protocol Description	"Total RNA was extracted from germinating seeds (22 hr imbibition) using standard phenol-SDS extraction as described before (Sambrook et al., 1989), and then checked for RNA integrity with Agilent Bioanalyzer 2100 (Agilent Technologies, Inc., Palo Alto, CA, USA). Five Î¼g of total RNA was used to produce double-strand cDNAs which were transcribed to aRNAs (amplified RNA)."	"aRNAs were labeled with biotin-11-CTP and biotin-16-UTP in vitro according to the MessageAmpTM aRNA Amplification Kit Instruction Manual (Ambion Inc., Austin, TX, USA)"	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 	
+Protocol Parameters						
+Protocol Hardware						
+Protocol Software			MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact						
+Protocol Term Source REF			mo			
+SDRF File	E-GEOD-7227.sdrf.txt					
+Term Source Name	NCBI Taxonomy	The MGED Ontology	ArrayExpress	EFO	The MGED Ontology	mo
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version						

@@ -1,0 +1,52 @@
+Investigation Title	Transcription profiling of Arabidopsis thaliana six days after infection with Agrobacterium tumefaciens								
+Comment[Submitted Name]	Arabidopsis thaliana six days after infection with Agrobacterium tumefaciens								
+Experimental Design	disease state design								
+Experimental Design Term Source REF	EFO								
+Comment[AEExperimentType]	transcription profiling by array								
+Comment[AEExperimentDisplayName]	Transcription profiling by array of injured Arabidopsis after infection with different strains of Agrobacterium tumefaciens								
+Comment[AEMIAMESCORE]	3								
+Comment[SecondaryAccession]	GSE13930								
+Comment[ArrayExpressReleaseDate]	2009-12-02								
+Comment[ArrayExpressAccession]	E-GEOD-13930								
+Comment[MAGETAB TimeStamp_Version]	2010-10-16 16:54:20 Last Changed Rev: 14677								
+Experimental Factor Name	infect								
+Experimental Factor Type	infect								
+Experimental Factor Term Source REF									
+Person Last Name	Deeken								
+Person First Name	Rosalia								
+Person Mid Initials									
+Person Email	deeken@botanik.uni-wuerzburg.de								
+Person Phone									
+Person Fax									
+Person Address	Prof. Hedrich, Botany I; Plant Molecular Physiology & Biophysics, University of Wuerzburg, Julius-von-Sachs-Institute, Julius-von-Sachs-Platz 2, Wuerzburg, 97072, Germany								
+Person Affiliation	University of Wuerzburg, Julius-von-Sachs-Institute								
+Person Roles	submitter								
+Person Roles Term Source REF									
+Quality Control Type									
+Quality Control Term Source REF									
+Replicate Type									
+Replicate Term Source REF									
+Normalization Type									
+Normalization Term Source REF									
+Date of Experiment									
+Public Release Date	2009-12-02								
+PubMed ID	17172353								
+Publication DOI	10.1105/tpc.106.044743								
+Publication Author List	Deeken R, Engelmann JC, Efetova M, Czirjak T, Müller T, Kaiser WM, Tietz O, Krischke M, Mueller MJ, Palme K, Dandekar T, Hedrich R.								
+Publication Title	An integrated view of gene expression and solute profiles of Arabidopsis tumors: a genome-wide approach.								
+Publication Status	published								
+Publication Status Term Source REF	EFO								
+Publication Status Term Accession Number	EFO_0001796								
+Experiment Description	This study focuses on responses of the host plant to infection and transformation with Agrobacterium tumefaciens. Genome wide changes in gene expression were integrated with the alterations in metabolite levels six days after inoculation of agrobacteria. Plants were infected with the virulent strain C58, harboring a T-DNA, or with strain GV3101, containing a disarmed Ti-plasmid. This allows discrimination between signals which derive from the bacterial pathogen and the T-DNA encoded genes. Experiment Overall Design: The bases of Arabidopsis thaliana (WS-2) inflorescence stalks were wounded and immediately infected with Agrobacterium tumefaciens or mock-infected for six days. Stalks of intact plants were inoculated with the oncogenic strain C58 (C58 6dpi 1 to 3) or the non-virulent strain GV3101 (GV3101 6dpi 1 to 3) to provide conditions close to nature. The gene expression data of three independent experiments of infected material were compared with three non-infected samples (reference 6dpi 1 to 3). Differential gene expression was determined by applying the LIMMA package (Linear Models for Microarray Data; Smyth, G.K. (2004) Applic. Genet. Mol. Biol. 3, Article 3; http://www.bepress.com/sagmb/vol3/iss1/art3/).								
+Protocol Name	P-G13930-2	P-G13930-8	P-G13930-7	P-G13930-1	P-G13930-6	P-G13930-5	P-G13930-3	P-AFFY-6	P-G13930-4
+Protocol Type	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	grow	grow	nucleic_acid_extraction	labeling	feature_extraction	bioassay_data_transformation
+Protocol Description	The base of the first emerging main inflorescence stalk (3-5 cm) of intact plants was wounded with a syringe needle, mock-inoculated, and grown for another six days.	The base of the first emerging main inflorescence stalk (3-5 cm) of intact plants was wounded with a syringe needle and inoculated with A. tumefaciens strain GV3101. Agrobacteria were scratched from the surface of an agar plate with a bent pipette tip by preventing contamination with medium and evenly spread on the wounded inflorescence stalk area immediately after wounding. Inoculated plants were grown for another six days.	The base of the first emerging main inflorescence stalk (3-5 cm) of intact plants was wounded with a syringe needle and inoculated with A. tumefaciens strain C58. Agrobacteria were scratched from the surface of an agar plate with a bent pipette tip by preventing contamination with medium and evenly spread on the wounded inflorescence stalk area immediately after wounding. Inoculated plants were grown for another six days.	Arabidopsis thaliana plants were cultivated in a growth chamber under short-day conditions (8 h of light, 120 ÂµE) at 22Â°C and 16Â°C during the dark period (16 h).	Arabidopsis thaliana plants (ecotype WS-2) were cultivated in growth chambers under short-day conditions (8 h of light, 120 ÂµE) at 22Â°C and 16Â°C during the dark period (16 h). Agrobacteria were grown on YEB plates over night.	Total RNA was extracted, including digestion of DNA, from plant tissue samples by using the RNeasy Plant Mini Kit according to manufacturerâs protocol (Qiagen, Hilden, Germany).	Affymetrix protocol.	Title: Affymetrix CEL analysis. Description: 	VSN (variance stabilization normalization, reference: Huber et al. (2002) Bioinformatics 18: suppl. 1, S96-S104)
+Protocol Parameters									
+Protocol Hardware									
+Protocol Software								MicroArraySuite 5.0	
+Protocol Contact									
+Protocol Term Source REF									
+SDRF File	E-GEOD-13930.sdrf.txt								
+Term Source Name	EFO								
+Term Source File	http://www.ebi.ac.uk/efo/								
+Term Source Version									

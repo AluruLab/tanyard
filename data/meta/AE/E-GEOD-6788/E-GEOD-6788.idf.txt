@@ -1,0 +1,52 @@
+Investigation Title	Transcription profiling of Arabidopsis albino mutant DS 13-2198-1						
+Comment[Submitted Name]	Expression data of an albino mutant DS 13-2198-1						
+Experimental Design	unknown_experiment_design_type	transcription profiling by array					
+Experimental Design Term Source REF		EFO					
+Comment[AEExperimentType]	transcription profiling by array						
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis albino plants from the DS 13-2198-1 line						
+Comment[ArrayExpressReleaseDate]	2008-06-15						
+Comment[SecondaryAccession]	GSE6788						
+Comment[AEMIAMESCORE]	3						
+Comment[ArrayExpressAccession]	E-GEOD-6788						
+Comment[MAGETAB TimeStamp_Version]	2010-08-07 16:03:45 Last Changed Rev: 13058						
+Experimental Factor Name	PHENOTYPE						
+Experimental Factor Type	phenotype						
+Experimental Factor Term Source REF							
+Person Last Name	Hirayama						
+Person First Name	Takashi						
+Person Mid Initials							
+Person Email	hirayama@gsc.riken.jp						
+Person Phone							
+Person Fax							
+Person Address	Environmental Molecular Biology, RIKEN Yokohama Institute, RIKEN, 1-7-29 Suehiro, Tsururumi, Yokohama, 230-0045, Japan						
+Person Affiliation	RIKEN						
+Person Roles	submitter						
+Person Roles Term Source REF							
+Quality Control Type							
+Quality Control Term Source REF							
+Replicate Type							
+Replicate Term Source REF							
+Normalization Type							
+Normalization Term Source REF							
+Date of Experiment							
+Public Release Date	2008-06-15						
+PubMed ID	17468106						
+Publication DOI	10.1074/jbc.M700549200						
+Publication Author List	Chunjie Tian, Eisuke Chikayama, Yuuri Tsuboi, Takashi Kuromori, Kazuo Shinozaki, Jun Kikuchi, Takashi Hirayama						
+Publication Title	Top-down phenomics of Arabidopsis thaliana: metabolic profiling by one- and two-dimensional nuclear magnetic resonance spectroscopy and transcriptome analysis of albino mutants.						
+Publication Status	published						
+Publication Status Term Source REF	EFO						
+Publication Status Term Accession Number	EFO_0001796						
+Experiment Description	The effect Ds insertion mutation in Ds13-2198-1 line on the gene expression profiles was investigated. The genes for photosynthesis and some transcriptional factors were upregulated while genes for metabolism were downregulated. Experiment Overall Design: To investigate the effect of an strong albino mutation, the genome wide gene expression profiles of plants were examined. Segregants with normal phenotype and albino phenotype obtained from the heterotalic parental line were grown on the same 1/2 MS plate for 3 weeks.						
+Protocol Name	P-G6788-1	P-G6788-2	P-G6788-4	P-G6788-3	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6	
+Protocol Type	grow	specified_biomaterial_action	nucleic_acid_extraction	labeling	hybridization	feature_extraction	
+Protocol Description	The plates were kept in a growth chamber with a conditions; 23Â&deg;C, 16 hr light and 8 hr dark cycles	grown on 1/2 MS plant containing 2% sucrose	Total RNA was extracted from frozen tissue using TRIzol reagent (Invitrogen) and purified using a RNease MinElute Cleanup Kit (Qiagen).	First-strand of cDNA was synthesized using 16 Â&#956;g of total RNA and SuperScript Double-stranded cDNA Synthesis kit (Invitrogen). The labeled cRNA was synthesized using BioArray RNA Transcripts Labeling Kit (T7) (ENZO Life Sciences inc.). After labeling, the cRNA was digested partially by incubating in 40 mM Tris-acetate, pH8.0, 100 mM KOAc, 30 mM MgOAc, at 94Â&deg;C for 35 min. Then 30 Â&#956;g cRNA was used for microarrary hybridization.	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	
+Protocol Parameters							
+Protocol Hardware							
+Protocol Software					MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact							
+Protocol Term Source REF					mo		
+SDRF File	E-GEOD-6788.sdrf.txt						
+Term Source Name	NCBI Taxonomy		The MGED Ontology	ArrayExpress	EFO	The MGED Ontology	mo
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version							

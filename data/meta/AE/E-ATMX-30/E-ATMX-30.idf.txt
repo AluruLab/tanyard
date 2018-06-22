@@ -1,0 +1,51 @@
+Investigation Title	Transcription profiling of Arabidopsis wild type, AtMYB44 knock-out and AtMYB44 over-expressing plants treated with NaCl									
+Comment[Submitted Name]	Cheong A. thaliana 250mM NaCl treatment									
+Experimental Design	compound_treatment_design	transcription profiling by array								
+Experimental Design Term Source REF	mo	EFO								
+Comment[AEExperimentType]	transcription profiling by array									
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for AtMYB44 or overexpressing AtMYB44 under the control of the 35S promoter after treatment with NaCl									
+Comment[ArrayExpressReleaseDate]	2007-12-31									
+Comment[AEMIAMESCORE]	4									
+Comment[ArrayExpressAccession]	E-ATMX-30									
+Comment[MAGETAB TimeStamp_Version]	2010-07-29 14:42:16 Last Changed Rev: 13058									
+Experimental Factor Name	GENOTYPE	COMPOUND								
+Experimental Factor Type	genotype	compound								
+Experimental Factor Term Source REF										
+Person Last Name	Cheong									
+Person First Name	Jong-Joo									
+Person Mid Initials										
+Person Email	cheongjj@snu.ac.kr									
+Person Phone	82-2-880-4649									
+Person Fax										
+Person Address	Room A-7112 Bldg 200									
+Person Affiliation	Center for Agricultural Biotechnology									
+Person Roles	submitter									
+Person Roles Term Source REF										
+Quality Control Type	biological_replicate									
+Quality Control Term Source REF	The MGED Ontology									
+Replicate Type										
+Replicate Term Source REF										
+Normalization Type										
+Normalization Term Source REF										
+Date of Experiment										
+Public Release Date	2007-12-31									
+PubMed ID	18162593									
+Publication DOI	10.1104/pp.107.110981									
+Publication Author List	Jung C, Seo JS, Han SW, Koo YJ, Kim CH, Song SI, Nahm BH, Choi YD, Cheong JJ.									
+Publication Title	Overexpression of AtMYB44 Enhances Stomatal Closure to Confer Abiotic Stress Tolerance in Transgenic Arabidopsis									
+Publication Status	published									
+Publication Status Term Source REF	EFO									
+Publication Status Term Accession Number	EFO_0001796									
+Experiment Description	screening of AtMYB44-responsive genes under 250mM NaCl treatment									
+Protocol Name	P-CAGE-26294	P-CAGE-26293	P-CAGE-24580	P-CAGE-24583	P-CAGE-26295	Affymetrix:Protocol:Hybridization-FS450_0004	Affymetrix:Protocol:Hybridization-EukGE-WS2v5_450	Affymetrix:Protocol:Hybridization-EukGE-WS2v4_450	P-AFFY-6	Affymetrix:Protocol:ExpressionStat
+Protocol Type	specified_biomaterial_action	specified_biomaterial_action	grow	nucleic_acid_extraction	labeling	hybridization	hybridization	hybridization	feature_extraction	bioassay_data_transformation
+Protocol Description	No NaCl treatment, only water supply	Treated with 250mM NaCl solution for 24 hr	Arabidopsis plants were sown in potting mix,BIO-PLUG2 purchased from Hungnongseed Co. (Seoul,Korea)and grown at 21ºC(day)/23ºC(night) and 60% relative humidity under a cycle of regime fluorescent light at 200 uEinsteins/m2/sec (16 hr) and dark (8 hr).	Total RNAs were isolated from the rosette leaves of individual plants using the Concert Plant RNA Purification Reagent (Invitrogen) and purified using the RNeasy Mini Kit (Qiagen). Concentration of total RNA was measured by spectrophotometer (Hitachi, Japan).Ten micrograms of total RNA was converted to the first strand DNA using the SuperScript II reverse transcriptase (Invitrogen) with a T7-oligo (dT)24 primer containing T7 RNA polymerase promoter sequence (GenoTech, Korea). Then, double-stranded cDNA was synthesized using SuperScript Choice system.	Biotinylated complementary RNA (cRNA) was synthesized from 1 µg of cDNA by in vitro transcription using a BioArray High Yield RNA transcript labeling kit (Enzo Diagnostics, NY, USA). Labeled cRNA was purified using an RNeasy mini kit and was fragmented by heating at 94oC for 35 min in a buffer containing 40 mM Tris-acetate (pH 8.1), 100 mM KOAc, and 30 mM MgOAc to produce a distribution of RNA fragments ranging in size from approximately 35 to 200 nucleotides.			Title: Affymetrix EukGE-WS2v4_450 Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 
+Protocol Parameters			light hours;night humidity;media;light source;light intensity;day temperature;day humidity;night temperature;	Amplification;Extracted product;	Amplification;Used Label;					
+Protocol Hardware										
+Protocol Software							MicroArraySuite 5.0		MicroArraySuite 5.0	MicroArraySuite 5.0
+Protocol Contact										
+Protocol Term Source REF								mo		The MGED Ontology
+SDRF File	E-ATMX-30.sdrf.txt									
+Term Source Name		mo	NCBI Taxonomy	abrc_stock	The MGED Ontology	ArrayExpress	The MGED Ontology	mo	EFO	
+Term Source File		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://www.arabidopsis.org/servlets/Search?action=new_search&type=germplasm	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	
+Term Source Version										

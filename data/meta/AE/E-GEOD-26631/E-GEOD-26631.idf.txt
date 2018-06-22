@@ -1,0 +1,57 @@
+Comment[ArrayExpressAccession]	E-GEOD-26631
+Public Release Date	2011-12-22							
+Investigation Title	Effect of biotin deficiency on gene expression in Aravbidopsis leaves							
+Comment[Submitted Name]	Effect of biotin deficiency on gene expression in Aravbidopsis leaves
+Experiment Description	In addition to its essential metabolic functions biotin is suggested a critical role in regulating gene expression. The first committed enzyme in biotin biosynthesis in Arabidopsis, 7-keto-8-aminopelargonic acid synthase is encoded by At5g04620 (BIO4). We isolated a novel T-DNA insertion mutant of BIO4 (bio4-1) showing a spontaneous cell death phenotype that could be rescued both by exogenous biotin and genetic complementation. The bio4-1 plants exhibited massive accumulation of hydrogen peroxide. The T-DNA insertion in the bio4-1 mutant contains a Methionine Sulfoxide Reductase B9 (AT4G21850) under a constitutive 35S CaMV promoter. To dissect the specific effects of biotin defiency on gene expression on a genome wide scale, we compared expression of wt Col-0 leaves with bio4-1 mutants and bio4-1 mutants complemented with D-biotin. Expression in leaves of Col-0 wt, bio4-1 mutants with a T-DNA insertion in the 5`-UTR of BIO4, and bio4-1 mutants complemented with watering with 200ÂµM D-biotin.							
+Date of Experiment								
+Term Source Name	EFO
+Term Source Version								
+Term Source File	http://www.ebi.ac.uk/efo/efo.owl							
+Person Last Name	Brader	Brader	Li	Helenius	Kariola	Palva		
+Person First Name	GÃ¼nter	GÃ¼nter	Jing	Elina	Tarja	E-Tapio		
+Person Mid Initials								
+Person Email	guenter.brader@ait.ac.at							
+Person Affiliation	Austrian Institute of Technology							
+Person Phone								
+Person Fax								
+Person Address	Health & Environment Department, Austrian Institute of Technology, AIT, Seibersdorf, Austria							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Person Roles Term Accession Number								
+Normalization Type								
+Normalization Term Accession Number								
+Normalization Term Source REF								
+Replicate Type								
+Replicate Term Accession Number								
+Replicate Term Source REF								
+Experimental Design								
+Experimental Design Term Accession Number								
+Experimental Design Term Source REF								
+Quality Control Type								
+Quality Control Term Accession Number								
+Quality Control Term Source REF								
+Protocol Name	P-GSE26631-1	P-GSE26631-6	P-GSE26631-3	P-GSE26631-8	P-GSE26631-7	P-GSE26631-2	P-GSE26631-4	P-GSE26631-5
+Protocol Description	ID_REF = <br>VALUE = RMA corrected expression values	Hybridisation was performed according to the Affymetrix GeneChip Technical Analysis Manual at the NASC's International Affymetrix Service	The seeds were stored at +4ºC, and were kept in the dark in water at +4ºC for 2 days before move to growth room. Seeds were then germinated on MS/2 (Sigma-Aldrich, St. Louis, MO) plates and one-week-old seedlings transferred to soil (1:1 peat: vermiculite; Finnpeat B2, KekkilÃ¤ Oyj, Tuusula, Finland). The plants were grown in a growth room with a temperature of 23ºC (day)/19 ºC (night) and a relative humidity of 50-60%. The photoperiod was 12 h of light and 12 h of dark. The light intensity was 220-280 µmol s-2 m-2 .	The data were analyzed with the R-package using AffylmGUI; Robust multiarray average (RMA) normalization has been performed.	GeneChips were scanned using the Agilent 2500A GeneArray Scanner at the NASC's International Affymetrix Service	After transfer to soil plants were watered once a week either with 1L water for a tray containing 28 pot with 1 plant each or with 1L 200µM d-biotin. Samples were collected from rosette leaves of five week old plants and each sample was pooled from 5 individuals.	Qiagen's RNeasy Plant mini kit's protocol according to the instructions of the manufacturer with additional precipitation step for the final eluate (1/10 vol 3 M NaAc pH 5.2 and 1 vol isopropanol added, incubation at -20 C for 2 h, centrifuge 13000 rpm 30 min, wash with 70% EtOH, drying, resuspension in DEPC treated MQ water. RNA integrity was checked with Agilent Bioanalyzer 2100 using Agilent RNA 6000 Pico Gene chips.	Biotinylated cRNA were prepared using Affymetrix Enzo Kit from 3 ug total RNA and performed at the NASC's International Affymetrix Service
+Protocol Software								
+Protocol Hardware								
+Protocol Contact								
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Protocol Term Source REF								
+Protocol Term Accession Number								
+Experimental Factor Name	VARIATION							
+Experimental Factor Type	variation							
+Experimental Factor Term Source REF								
+Experimental Factor Term Accession Number								
+Publication Title	Biotin deficiency causes spontaneous cell death and activation of defense signaling.							
+Publication Author List	Li J, Brader G, Helenius E, Kariola T, Palva ET							
+PubMed ID	22126457							
+Publication DOI	10.1111/j.1365-313X.2011.04871.x							
+Publication Status								
+Publication Status Term Source REF								
+Publication Status Term Accession Number								
+Comment[SecondaryAccession]	GSE26631							
+Comment[GEOLastUpdateDate]	2012-03-22
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[GEOReleaseDate]	2011-12-22
+Comment[ArrayExpressSubmissionDate]	2011-01-14
+SDRF File	E-GEOD-26631.sdrf.txt

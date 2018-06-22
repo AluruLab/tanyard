@@ -1,0 +1,51 @@
+Investigation Title	Gene expression from Arabidopsis  under high light conditions							
+Comment[Submitted Name]	Gene expression from Arabidopsis  under high light conditions							
+Experimental Design	transcription profiling by array							
+Experimental Design Term Source REF	EFO							
+Comment[SecondaryAccession]								
+Comment[SecondaryAccession]	GSE22671							
+Comment[ArrayExpressReleaseDate]	2010-07-29							
+Comment[AEMIAMESCORE]	4							
+Comment[ArrayExpressAccession]	E-GEOD-22671							
+Comment[MAGETAB TimeStamp_Version]	2010-10-15 17:31:42 Last Changed Rev: 14677							
+Experimental Factor Name	environmental stress							
+Experimental Factor Type	environmental stress							
+Experimental Factor Term Source REF								
+Person Last Name	Dopazo	Arellano	GARCIA	Revuelta	Lorenzo	Osuna	Garcia-Garcia	Gonzalez-Perez
+Person First Name	Joaquin	Juan	FRANCISCO	Jose	Oscar	Daniel	Francisco	Sergio
+Person Mid Initials		B	GARCIA	L				
+Person Email			fgarcia@cipf.es					
+Person Phone								
+Person Fax								
+Person Address			Bionformatics and Genomics, CIPF, Av Autopista del Saler, 16, Valencia, Spain					
+Person Affiliation			CIPF					
+Person Roles			submitter					
+Person Roles Term Source REF			The MGED Ontology					
+Quality Control Type								
+Quality Control Term Source REF								
+Replicate Type								
+Replicate Term Source REF								
+Normalization Type								
+Normalization Term Source REF								
+Date of Experiment								
+Public Release Date	2010-07-29							
+PubMed ID	21531897							
+Publication DOI	10.1104/pp.111.177766							
+Publication Author List	González-Pérez S, Gutiérrez J, García-García F, Osuna D, Dopazo J, Lorenzo Ó, Revuelta JL, Arellano JB							
+Publication Title	Early transcriptional defense responses in Arabidopsis cell suspension culture under high-light conditions.							
+Publication Status								
+Publication Status Term Source REF								
+Experiment Description	We have investigated the genomic response of Arabidopsis cell suspension culture under high light. Our main goal has been twofold: first, to establish whether chloroplasts in Arabidopsis cell suspension culture are functional and, as such, can act as sensors of adverse external stimuli leading to the activation of genomic defence responses in a manner similar to that described in whole plants exposed to a wide range of environmental stresses and; second, to distinguish which of the ROS that would be probably generated in the chloroplasts is predominant. Our functional genomic analysis has led us to conclude that singlet oxygen is the major ROS in Arabidopsis cell suspension culture under high light stress and that singlet oxygen production is responsible for a genomic activation associated with the biosynthesis and signalling pathway of several phytohormones that ultimately triggers accelerated cell death. After the ninth day of growth, a volume of 200 mL of Arabidopsis cell suspension culture with a cell density of approximately 150-200 mg/mL was placed in a glass vessel surrounded by a water bath to maintain constant temperature during the light treatment. Nine microarray experiments were designed and classified as follows: control 1Ã¢ÂÂ3 (50 microE/m2/s), 1-h dark 1Ã¢ÂÂ3 and high light 1Ã¢ÂÂ3 (1800 microE/m2/s); where 1Ã¢ÂÂ3 stands for the number of biological replicates. After each treatment, sample RNA was extracted and its quality evaluated. The transcriptomic analysis was performed using Affymetrix GeneChip Arabidopsis genome ATH1 arrays.							
+Protocol Name	P-GSE22671-3	P-GSE22671-2	P-GSE22671-4	P-GSE22671-5	P-GSE22671-6	P-GSE22671-7	P-GSE22671-8	P-GSE22671-1
+Protocol Type	grow	specified_biomaterial_action	nucleic_acid_extraction	labeling	hybridization	image_aquisition	feature_extraction	bioassay_data_transformation
+Protocol Description	Arabidopsis cell suspension culture was maintained in 200 mL of liquid growth medium (Jouannea and Peaudlen, 1967; Axelos et al., 1992) by gentle agitation at 120 rpm at 24 ÃÂºC under continuous illumination (50 microE/m2/s) in an incubator shaker. Cells were sub-cultured with a 1/20 dilution factor every 7 days.	An incubation of 30 min at high light or 1-h at dark were selected as the optimum time to monitor the changes in the transcription profile in the microarray experiments.	Total RNA was extracted with the acid guanidine isothiocyanate-phenol-chloroform method using Trizol reagent. Total RNA was treated with TURBO DNase  to eliminate traces of contaminating genomic DNA.	Biotin-labelled cRNA was produced by in vitro transcription using GeneChipÃÂ® 3' IVT Express Kit. The biotin-labelled cRNA was degraded by alkaline digestion and used for hybridization with ATH1 arrays.	Technical steps as target hybridization, washing and staining of the arrays were performed sequentially as described in the Affymetrix GeneChip expression analysis technical manual using the Affymetrix once-cycle target labelling and control reagents, an Affymetrix GeneChip hybridization oven 640, and Affymetrix Fluidics Station 450	Microarrays were scanned using Affymetrix GenChip Scanner 3000 7G.	Data was standardized from R  using the affy Bioconductor package. Methods: Robust Multi-array Average and quantile normalization.	ID_REF = <br>VALUE = RMA signal intensity
+Protocol Parameters								
+Protocol Hardware								
+Protocol Software								
+Protocol Contact								
+Protocol Term Source REF	The MGED Ontology	The MGED Ontology	The MGED Ontology	The MGED Ontology	The MGED Ontology		The MGED Ontology	The MGED Ontology
+SDRF File	E-GEOD-22671.sdrf.txt							
+Term Source Name	NCBI Taxonomy		The MGED Ontology	ArrayExpress	EFO	The MGED Ontology		
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php		
+Term Source Version								
+Comment[AEExperimentType]	transcription profiling by array							

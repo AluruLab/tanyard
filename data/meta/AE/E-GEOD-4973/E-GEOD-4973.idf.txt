@@ -1,0 +1,49 @@
+Investigation Title	Transcription profiling of Arabidopsis thaliana tritrophic interaction	
+Comment[Submitted Name]	Expression data from Arabidopsis thaliana tritrophic interaction experiment	
+Experimental Design	unknown_experiment_design_type	transcription profiling by array	
+Experimental Design Term Source REF		EFO	
+Comment[SecondaryAccession]	GSE4973	
+Comment[ArrayExpressReleaseDate]	2008-11-29	
+Comment[AEMIAMESCORE]	3	
+Comment[ArrayExpressAccession]	E-GEOD-4973	
+Comment[MAGETAB TimeStamp_Version]	2010-08-05 19:33:13 Last Changed Rev: 13058	
+Experimental Factor Name	
+Experimental Factor Type	
+Experimental Factor Term Source REF	
+Person Last Name	Jameson	
+Person First Name	Daniel	
+Person Mid Initials	
+Person Email	daniel.jameson@manchester.ac.uk	
+Person Phone	
+Person Fax	
+Person Address	Preziosi, Faculty of Life Sciences, University of Manchester, 3.614 Stopford Building, Manchester, M13 9PT, United Kingdom	
+Person Affiliation	University of Manchester	
+Person Roles	submitter	
+Person Roles Term Source REF	The MGED Ontology	
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2008-11-29	
+PubMed ID	
+Publication DOI	
+Publication Author List	
+Publication Title	
+Publication Status	
+Publication Status Term Source REF	
+Experiment Description	Multi-species interactions are a major force in the evolution and dynamics of ecosystems. These interactions may occur either when species affect each other directly or when they interact indirectly via an intermediary species. Direct interactions between species are best understood, but indirect interactions may also often be strong enough to alter the evolutionary trajectories of the target species. Little is known about the genetic basis of direct interactions within an ecosystem and even less data is available for indirect interactions. This experiment uses a simple model ecosystem to build a view at the transcriptome level of how interactions between plants (Arabidopsis) and rhizosphere bacteria (Pseudomonas) are altered by biotic stressors (insect herbivores) and abiotic stressors (UV-B). Experiment Overall Design: Arabidopsis plants were established and then split into two cohorts at 15 days. One group were innoculated with Pseudomonas aeruginosa strain 7NR and the other not. 21 days later half of each of these groups were subjected to UV-B treatment for seven days. After this period each of the four groups of plants were further subdivided and infested with aphids, caterpillars or left alone. 24 hours after infestation the plants were harvested, individuals pooled and total RNA extracted giving 12 unique conditions. Five replicates were performed in series, yielding a total of 60 samples.	
+Protocol Name	P-G4973-1	P-G4973-2	P-G4973-4	P-G4973-3	
+Protocol Type	grow	specified_biomaterial_action	nucleic_acid_extraction	labeling	
+Protocol Description	Arabidopsis thaliana seeds were ethanol sterilised (70% EtOH, 5 ddsH2O rinses), vernalised at 4oC for 3 days and then sown on plates containing sterile 1.0% phytagel-MS basal medium (Murashige and Skoog 1962) without sucrose, pH to 5.6-5.8. Plated seeds were vernalised for a further four days before being transferred to the growth chamber (Environmental control chamber  Model no. AR66L, Percieval Scientific Inc. USA). Light regime was 8/16hrs day/night (provided by 32 W Fluorescent bulbs- # F32T8/TL741, Philips giving ~ 256 PAR/uMoles). Temperature was 21oC for day and 18oC at night. The relative humidity was set to 60+10%. On day 15 after transfer to the growth chamber plates were flooded with 1 OD of Pseudomonas aeruginosa strain 7NR cell suspension in 10 mM of Magnesium sulphate and incubated at room temperature for one hour. Fifteen seedlings per tray were transplanted to half size seed trays filled with autoclaved (twice with the gap of 3 days at 120 for 20 minutes) John Innes Compost No: 1. Plants were exposed to the UV-B (9 KJ m-2 day-1) for 7 days at day 21 after transplantation. 28 days after transplantation plants were infested with two caterpillars (Tricoplusia ni) of size 0.5-1cm for 24 hours.	15 individual plants from same tray snap frozen in NO2(l) and pooled.	Total RNA was extracted using RNeasy plant mini kit for plants, following manufacturer's instructions (QIAGEN Ltd., UK). RNA samples were cleaned of contaminating DNA by on-column DNAse treatment using RNase free DNase set (QIAGEN) while using the cleanup column included in the kit.	Fifteen micrograms of total RNA was converted to first-strand cDNA in the following 20 uL reaction: 4 ul of  5 first strand cDNA buffer(1x), 1 ul T7 (dT)24(100pmol), 2ul  0.1M DTT (10mM DTT) (Invitrogen), 1ul 10mM dNTP mix (500 uM each)  and  2ul  of 400 U Superscript II (Invitrogen). The mixture was incubated at 42  for 1 h  after which the second strand cDNA synthesis was performed in the following 150 ul reaction mixture: 20 ul first strand cDNA, 91ul  of DEPC Water, 30ul of 5x Second strand cDNA buffer(1x), 3ul of 10mM dNTP mix (200uM each) 1ul (10U/ul) E.Coli DNA ligase(10U), 4ul (10U/ul) E.Coli DNA Pol. I (40U) and 1ul (2U/ul ) E. Coli RNase H (2U). The mixture was incubated at 16 for 2 h. The resulted double stranded  cDNA was cleaned up using GeneChip sample clean up module before labelling with biotin.  Labelling was done with Affymetrix labelling kit using the following components in 40 ul reaction mix: 6ul  of  template DNA, 14ul DH2O,  4ul 10X IVT labeling buffer, 12ul IVT labeling NTP mix and 4ul  IVT labelling enzyme mix. The mixture was incubated at 37 for 16 h. Labeled cRNAs were cleaned by using GeneChip sample clean up module. Fragmentation was carried out using 15ug of cRNA (1-21ul) with 6ul.5X fragmentation buffer. The final volume was adjusted using RNase-free water and incubated at 94 for 35 min. Hybridization was performed by following Affymetrix Eukaryotic target hybridization protocol.	
+Protocol Parameters	
+Protocol Hardware	
+Protocol Software	
+Protocol Contact	
+Protocol Term Source REF	
+SDRF File	E-GEOD-4973.sdrf.txt	
+Term Source Name	NCBI Taxonomy		The MGED Ontology	ArrayExpress	EFO	The MGED Ontology	
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version							

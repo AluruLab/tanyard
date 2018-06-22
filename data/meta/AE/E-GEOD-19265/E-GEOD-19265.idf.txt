@@ -1,0 +1,58 @@
+Comment[ArrayExpressAccession]	E-GEOD-19265						
+Public Release Date	2009-12-09						
+Investigation Title	Determining the downstream genetic targets of the transcription factor AtGLK1						
+Comment[Submitted Name]	Determining the downstream genetic targets of the transcription factor AtGLK1						
+Experiment Description	Aim: To discover the target genes of Golden2-like transcription factors in Arabidopsis. Background: The Golden2-like (GLK) family of transcription factors is essential for proper chloroplast development in several plant species. In Arabidopsis, there are two largely redundant GLK genes, GLK1 and GLK2. Double mutant plants are pale green and reduced in stature. Their most notable chloroplast-related phenotype is impaired thylakoid membrane appression and reduction in steady-state levels of Photosystem II components. GLK proteins group within the GARP family of myb transcription factors; however, the genes they regulate remain unknown. Experimental Design: We have employed a two-component dexamethasone-inducible expression system [1]. An overexpressed fusion protein comprising the glucocorticoid receptor (GR), the lac repressor and the Gal4 activation domain resides in the plant cytoplasm. This protein, termed LHGR-N, enters the nucleus once dexamethasone binds to the GR domain. It then activates transcription from the lac operator promoter sequences present on separate transgenes which carry the cDNA to be induced. Since overexpression of either GLK1 or GLK2 is sufficient to complement the mutant phenotype, we reasoned that induction of expression of GLK1 and GLK2 cDNAs in the glk1;glk2 double mutant background should allow determination of their downstream genetic targets. In the first case, we decided to focus on GLK1 only. Genetic lines: Plants carrying a single copy of the LHGR-N transgene, conferring kanamycin resistance, were crossed with glk1;glk2 double mutant plants. A single homozygous F3 line was selected on the basis of pale green mutant phenotype and kanamycin resistance. This line was transformed with a construct carrying the GLK1 cDNA downstream of six repeats of the lac operator (pOp6) and a single CaMV minimal promoter. This construct confers hygromycin resistance. Transformants were confirmed by PCR and Southern blot, before being selected on the basis of transcript accumulation following induction by dexamethasone. The line with the strongest induction response was chosen for microarray experiments. Tissues: Approx. 100 10-day-old seedlings were grown on MS plates and transferred to 100 ml liquid MS for two further days prior to induction. Whole seedlings were harvested. Treatment: Either a) 10 uM dexamethasone dissolved in DMSO (INDUCED samples) or b) 0.1% v/v DMSO (CONTROL samples). Samples were harvested 4 and 24 hours post-treatment. Separate vessels were used for each time point and treatment. Two complete replicates were performed. Reference1. Craft, J. et al. (2005) Plant J. 41 899-918. 10 samples were used in this experiment.						
+Date of Experiment							
+Term Source Name	EFO						
+Term Source Version							
+Term Source File	http://bar.ebi.ac.uk:8080/trac/browser/branches/curator/ExperimentalFactorOntology/ExFactorInOWL/currentrelease/eforelease/efo.owl						
+Person Last Name	Nottingham Arabidopsis Stock Centre (NASC)	Waters					
+Person First Name		Mark					
+Person Mid Initials							
+Person Email	affy@arabidopsis.info						
+Person Affiliation	Nottingham Arabidopsis Stock Centre (NASC)						
+Person Phone	+44 (0)115 951 3237						
+Person Fax	+44 (0)115 951 3297						
+Person Address	School of Biosciences, University of Nottingham, Nottingham Arabidopsis Stock Centre (NASC), Sutton Bonington Campus, Loughborough, United Kingdom						
+Person Roles	submitter						
+Person Roles Term Source REF							
+Person Roles Term Accession Number							
+Normalization Type							
+Normalization Term Accession Number							
+Normalization Term Source REF							
+Replicate Type							
+Replicate Term Accession Number							
+Replicate Term Source REF							
+Experimental Design							
+Experimental Design Term Accession Number							
+Experimental Design Term Source REF							
+Quality Control Type							
+Quality Control Term Accession Number							
+Quality Control Term Source REF							
+Protocol Name	P-GSE19265-1	P-GSE19265-6	P-GSE19265-5	P-GSE19265-3	P-GSE19265-2	P-GSE19265-4	P-GSE19265-7
+Protocol Description	ID_REF = <br>VALUE = MAS5.0 signal intensity<br>ABS_CALL = the call in an absolute analysis that indicates if the transcript was present (P), absent (A), or marginal (M)<br>DETECTION P-VALUE = p-value that indicates the significance level of the detection call	Scanned according to guidelines set out by Affymetrix, Santa Clara, CA.	Biotin Labelled cRNA using &quot;Affymetrix GeneChip Hybridization, Wash and Stain Kit&quot;, according to guidelines set out by Affymetrix, Santa Clara, CA	Qiagen RNAeasy kit protocol	Seed was surface-sterilised and spread on MS plates supplemented with 1.5% (w/v) sucrose, 0.7% (w/v) agar, 1x Gamborg's vitamins and 20 ug/ml hygromycin B. The plates were sealed, stratified for three days and transferred to an artificial growth room held at a constant 20C, with a 16h/8h light/dark cycle. Light was provided by fluorescent tubes, generating 85 umol/m2/s PAR. After ten days, seedlings were transferred from the plates into liquid MS media in a sterile Petri dish, in order to separate the seedlings. Using forceps, individual plants of a similar growth stage (first pair of leaves > 1 mm or Stage 1.02 as defined by Boyes et al., 2001) were selected and placed into 100 ml liquid MS medium in a 250 ml conical flask. Approximately 100 seedlings were transferred, and the flask was sealed with a foam bung. The flask was returned to the growth room and shaken at 76 rpm to provide aeration and adequate mixing. After 48 hours, the seedlings were harvested by filtering through one layer of cheesecloth, and quickly dabbing dry between two pieces of 3MM chromoatography paper. The seedlings were then flash-frozen in liquid nitrogen.	Labelled using protocol described in manual &quot;Affymetrix GeneChip Expression Analysis Technical Manual&quot;, One-Cycle target labelling	Raw data from the microarrays was normalized at probe-level using MAS5 algorithm. The detection calls (present, marginal, absent) for each probe set was obtained using the GCOS system
+Protocol Software							
+Protocol Hardware							
+Protocol Contact							
+Protocol Type	bioassay_data_transformation	image_aquisition	hybridization	nucleic_acid_extraction	grow	labeling	feature_extraction
+Protocol Term Source REF							
+Protocol Term Accession Number							
+Experimental Factor Name	COMPOUND	TREATMENT TIME					
+Experimental Factor Type	compound	time					
+Experimental Factor Term Source REF							
+Experimental Factor Term Accession Number							
+Publication Title							
+Publication Author List							
+PubMed ID							
+Publication DOI							
+Publication Status							
+Publication Status Term Source REF							
+Publication Status Term Accession Number							
+Comment[SecondaryAccession]	GSE19265						
+Comment[GEOLastUpdateDate]	2011-03-01						
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for glk1 and glk2 expressing GLK1 via LHGR-N dexamethasone induction						
+Comment[AEExperimentType]	transcription profiling by array						
+Comment[GEOReleaseDate]	2009-12-10						
+Comment[ArrayExpressSubmissionDate]	2009-12-02						
+SDRF File	E-GEOD-19265.sdrf.txt						

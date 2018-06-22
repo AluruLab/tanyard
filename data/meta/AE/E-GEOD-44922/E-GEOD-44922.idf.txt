@@ -1,0 +1,29 @@
+Comment[ArrayExpressAccession]	E-GEOD-44922
+MAGE-TAB Version	1.1						
+Public Release Date	2014-01-16
+Investigation Title	The purine metabolite allantoin enhances abiotic stress tolerance through synergistic activation of abscisic acid metabolism						
+Comment[Submitted Name]	The purine metabolite allantoin enhances abiotic stress tolerance through synergistic activation of abscisic acid metabolism
+Experiment Description	Purine catabolism is regarded as a housekeeping function that remobilizes nitrogen for plant growth and development. However, emerging evidence suggests that certain purine metabolites might contribute to stress protection of plants. Here, we show that in Arabidopsis, the intermediary metabolite allantoin plays a role in abiotic stress tolerance via activation of abscisic acid (ABA) metabolism. The aln loss-of-function of ALN, encoding allantoinase, results in increased allantoin accumulation, genome-wide up-regulation of stress-related genes, and enhanced tolerance to drought-shock and osmotic stress in aln mutant seedlings. This phenotype is not caused by a general response to purine catabolism inhibition, but rather results from a specific effect of allantoin. Allantoin activates ABA production both through increased transcription of NCED3, encoding a key enzyme in ABA biosynthesis, and through post-translational activation via high-molecular-weight complex formation of BG1, a ß-glucosidase hydrolyzing glucose-conjugated ABA. Exogenous application of allantoin to wild-type plants also activates the two ABA-producing pathways that lead to ABA accumulation and stress-responsive gene expression, but this effect is abrogated in ABA-deficient and BG1-knockout mutants. We propose that purine catabolism functions not only in nitrogen metabolism, but also in stress tolerance by influencing ABA production, which is mediated by the possible regulatory action of allantoin. Compared analysis of the transcriptomes of 2-week-old Arabidopsis seedlings from an allantoin-accumulating mutant genotype versus wild type background Col-0 (2 independent biological replicates per genotype). The allantoin-accumulating mutant in Col-0 background was the aln-1 mutant allele in allantoinase (ALN) (abbreviated as aln).						
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Sakamoto	Watanabe	Sakamoto				
+Person First Name	Atsushi	Shunsuke	Atsushi				
+Person Email	geo@ncbi.nlm.nih.gov						
+Person Affiliation	Hiroshima University						
+Person Address	Graduate School of Science, Hiroshima University, 1-3-1 Kagamiyama, Higashi-Hiroshima, Japan						
+Person Roles	submitter						
+Protocol Name	P-GSE44922-1	P-GSE44922-5	P-GSE44922-6	P-GSE44922-2	P-GSE44922-3	P-GSE44922-4	P-GSE44922-7
+Protocol Description	Image data were normalized with MAS5 statistical algorithms using GeneSpring GX software ver. 11 (Agilent technology), and the normalized gene expression data were used to identify enrich gene ontology (GO) using GeneSpring GX ver. 11 (Agilent technology). ID_REF =  VALUE = GeneSpring centered MAS5.0 signal intensity	Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 250 nanograms of total RNA using GeneChip 3' IVT Express Kit (Affymetrix).	Following fragmentation, 15 micrograms of cRNA were hybridized for 16 h at 45C on ATH1 microarrays (Affymetrix) in the Affymetrix GeneChip hybridization oven. GeneChips were washed and stained in the Affymetrix Fluidics Station 450.	Aerial parts of the seedlings were harvested 2 weeks after germination.	Seeds were germinated and the seedlings were grown aseptically on solid 1/2MS media plus 1% sucrose at 22C under long-day (16 h light / 8 h darkness) photoperiodic conditions.	Guanidinium thiocyanate extraction of total RNA followed by spin column purification was performed using NucleoSpin RNA II (Macherey-Nagel).	GeneChips were scanned using the Affymetrix GeneChip Scanner 3000 7G.
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	GENOTYPE						
+Experimental Factor Type	genotype						
+Publication Title	The purine metabolite allantoin enhances abiotic stress tolerance through synergistic activation of abscisic acid metabolism.						
+Publication Author List	Watanabe S, Matsumoto M, Hakomori Y, Takagi H, Shimada H, Sakamoto A						
+PubMed ID	24182190						
+Publication DOI	10.1111/pce.12218						
+Comment[SecondaryAccession]	GSE44922						
+Comment[GEOReleaseDate]	2014-01-16						
+Comment[ArrayExpressSubmissionDate]	2013-03-06						
+Comment[GEOLastUpdateDate]	2014-01-18						
+Comment[AEExperimentType]	transcription profiling by array						
+SDRF File	E-GEOD-44922.sdrf.txt

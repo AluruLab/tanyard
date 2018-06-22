@@ -1,0 +1,25 @@
+Comment[ArrayExpressAccession]	E-MTAB-1078
+Investigation Title	Transcription profiling  to investigate the photoperiodic control of starch mobilisation in Arabidopsis thaliana																				
+Comment[Submitted Name]	Transcription profiling  to investigate the photoperiodic control of starch mobilisation in Arabidopsis thaliana
+Experiment Description	In order to identify genes specifically involved in the photoperiodic control of the mobilisation programme for starch reserve in Arabidopsis thaliana transcription profiling was performed on the following genotypes Columbia wild type (Col-0), CO overexpressor (35S::CO), CO muntant (co-10), GBSSI mutant (gbs-1), aps1 mutant (aps1) and Columbia with sucrose. The different Arabidopsis thaliana genotype seedlings were cultivated in long day conditions (16 h day/ 8 h dark) at 22 C in controlled environment cabinets for two weeks. Samples were collected at ZT 4, immediately frozen in liquid nitrogen and processed.																				
+Experimental Design	development_or_differentiation_design	array_platform_comparison_design	co-expression_design																		
+Comment[AEExperimentType]	transcription profiling by array																				
+Comment[AEExperimentDisplayName]	Transcriptional profiling by array of Arabidopsis thaliana seedlings (aerial parts) to study the photoperiodic control of starch mobilisation																				
+Experimental Factor Name	GENOTYPE																				
+Experimental Factor Type	genotype																				
+Quality Control Type	biological_replicate																				
+Public Release Date	2013-04-10																				
+Person Last Name	Ortiz	Albi 	Lucas-Reina 	Said 	Romero-Campero	Cano 	Ruiz 	Romero 	Valverde												
+Person First Name	Isabel 	Tomas 	Eva 	Fatima 	Francisco	Beatriz 	Teresa 	Jose 	Federico												
+Person Mid Initials				E	J			M													
+Person Email	isabel.ortiz@ibvf.csic.es 	talbiro@ibvf.csic.es 	eva.lucas@ibvf.csic.es  	fatima.said@ibvf.cisc.es 	fran@us.es 	beatriz.cano@ibvf.csic.es 	teresa@ibvf.csic.es 	jmromero@us.es 	federico@ibvf.csic.es												
+Person Affiliation	Institute for Plant Biochemistry and Photosynthesis, CSIC, University of Seville	Institute for Plant Biochemistry and Photosynthesis, CSIC, University of Seville	Institute for Plant Biochemistry and Photosynthesis, CSIC	Institute for Plant Biochemistry and Photosynthesis, CSIC	Department of Computer Science and Artificial Intelligence, University of Seville	Institute for Plant Biochemistry and Photosynthesis, CSIC	Institute for Plant Biochemistry and Photosynthesis, CSIC, University of Seville	Institute for Plant Biochemistry and Photosynthesis, CSIC, University of Seville	Institute for Plant Biochemistry and Photosynthesis, CSIC												
+Person Roles	submitter	submitter	submitter	submitter	submitter	submitter	submitter	submitter	submitter												
+Publication Author List	Isabel Ortiz, Tomas Albi, Eva Lucas-Reina, Fatima E. Said, Francisco J. Romero-Campero, Beatriz Cano, Teresa Ruiz, Jose M. Romero, Federico Valverde																				
+Publication Title	Photoperiodic control of starch mobilization in Arabidopsis thaliana																				
+Publication Status	in preparation																				
+Protocol Name	P-MTAB-26250	P-MTAB-26251	P-MTAB-26252	P-MTAB-26253	Affymetrix:Protocol:Scan	P-MTAB-26254
+Protocol Type	grow	nucleic_acid_extraction	labeling	hybridization	image_acquisition_protocol	bioassay_data_transformation															
+Protocol Description	Arabidopsis thaliana wild type ecotype (Col-0) and genotypes 35S::CO, co-10, aps1 y gbs-1 seedlings were cultivated in agar plates in long day conditions (16 h day/ 8 h dark) at 22 C in controlled environment cabinets for two weeks. Samples were collected at ZT 4 and immediately frozen in liquid nitrogen and processed.	Three independent sets of seedling plates (fully expanded cotyledons) of each line were sampled for RNA extraction, following the Trizol method (Chomczynski and Sacchi, 1987). The total RNA extracted from each sample was further purified using an RNeasy Mini Kit (Qiagen) according to the kit manual.	pdf of the protocol can be downloaded at TAIR http://www.arabidopsis.org Protocol:501712557	The cDNA was hybridized to the Affymetrix expression array ATH1-121501 as described by the manufacturer (Affymetrix, http://www.affymetrix.com)		Microarray data was processed from CEL files with FIESTA@BioinfoGP, an interactive server for analyzing DNA microarray experiments with replicates (http://bioinfogp.cnb.csic.es/tools/FIESTA) and using the R package Bioconductor (http://www.bioconductor.org/) for quality control, background correction, normalization and calculation of the expression levels. Three different biological replicates were used for each genotype.															
+Protocol Software						FIESTA@BioinfoGP, Bioconductor R package															
+SDRF File	E-MTAB-1078.sdrf.txt

@@ -1,0 +1,31 @@
+Comment[ArrayExpressAccession]	E-MEXP-3267
+Investigation Title	Ruberti A.thaliana Shade Avoidance Response wt and phyA																													
+Comment[Submitted Name]	Ruberti A.thaliana Shade Avoidance Response wt and phyA
+Comment[AEExperimentDisplayName]	Ruberti A.thaliana Shade Avoidance Response wt and phyA																													
+Comment[MIAMExpressLogin]	ruberti																													
+Comment[MIAMExpressSubmissionID]	4746																													
+Experiment Description	Aim of the experiment is the identification of genes differentially regulated in phyA seedlings relative to wild type after prolonged exposure to low R/FR. To this end, gene expression changes were analysed in Arabidopsis wild-type and phyA knock-out mutant seedlings exposed to low R/FR light. The experiment was designed to enable comparison between the different genotypes exposed or not exposed to low R/FR light.																													
+Experimental Design	co-expression_design	genetic_modification_design	all_pairs																											
+Comment[AEExperimentType]	transcription profiling by array																													
+Experimental Factor Name	GENOTYPE	TIME																												
+Experimental Factor Type	genotype	time																												
+Person Last Name	Ruberti																													
+Person First Name	Ida																													
+Person Email	ida.ruberti@uniroma1.it																													
+Person Phone	+390649912211																													
+Person Fax	+390649912500																													
+Person Affiliation	National Research Council																													
+Person Address	Institute of Molecular Biology and Pathology, P.le Aldo Moro 5, Rome, Rome, 00185, Italy																													
+Person Roles	submitter																													
+Person Roles Term Source REF	MGED Ontology																													
+Quality Control Type																														
+Public Release Date	2011-12-31																													
+Comment[ArrayExpressSubmissionDate]	2011-06-20 10:12:46																													
+Publication Status	not yet submitted																													
+Protocol Name	P-MTAB-21445	P-MTAB-21446	P-MTAB-21447	P-MTAB-21448	P-MTAB-21449	P-MTAB-21450
+Protocol Description	15 µg of cRNA was used in a 300 µl hybridization containing added hybridization controls. 200 µl of mixture was hybridized on arrays for 16 h at 45°C. Standard post hybridization wash and double-stain protocols (EukGE-WS2v4) were used on an Affymetrix GeneChip Fluidics Station 400.<br>(Parameters: Chamber type = Affymetrix- GeneChip Hyb Oven 640, Quantity of label target used = 15, Mass unit = Micro gram, time = 16, Tiny time unit = hours, Volume = 200, Volume unit = Micro litre, temperature = 45)	RNAs from two biological replicates were used to prepare hybridization probes according to Affymetrix one-cycle protocol. 5 µg of total RNA was used in a reverse transcription reaction (SuperScript II; Invitrogen, Paisley, UK) to generate first-strand cDNA. After second-strand synthesis, double-strand cDNA was used in an in vitro transcription (IVT) reaction to generate biotinylated cRNA (ENZO BioArray HighYield RNA Transcript Labeling Kit; ENZO Diagnostics, Farmingdale, NY). Size distribution of the cRNA and fragmented cRNA, respectively, was assessed using an Agilent 2100 Bioanalyzer with a RNA 6000 Nano Assay.<br>(Parameters: Amount of nucleic acid labeled = 5, Label used = biotin, Amplification = none, Mass unit = Micro gram)	Seedlings were grown in a growth chamber (E30-LED, Percival Scientific Inc., USA), at 21°C temperature, 75% humidity, 16 h light/8 h dark cycles.<br>(Parameters: start time = 8, time unit = days, min temperature = 21, temperature unit = C)	Total RNA was isolated using the RNeasy Plant Mini Kit (Qiagen, Germany). Each sample consists of a pool of 200 individuals. Two sets of samples were collected from independent experiments.<br>(Parameters: Extracted product = total_RNA, Amplification = none)	Arabidopsis seedlings were exposed to high R/FR light and then to low R/FR light for a period of time. Light outputs in high R/FR were: 670 nm (Red) 96 mmoles m-2s-1; 735 nm (Far Red) 21 mmoles m-2s-1; 470 nm (Blue) 15 mmoles m-2s-1. Light outputs in low R/FR were: 670 nm, 12 mmoles m-2s-1; 735 nm, 105 mmoles m-2s-1; 470 nm, 15 mmoles m-2s-1. 7-day-old wild-type and phyA seedlings were either maintained in high R/FR or transferred to low R/FR for 1 day, and then harvested.	Standard Affymetrix GeneChip array scan on an Affymetrix GeneChip scanner 3000.<br>(Parameters: Scanning hardware = GeneChip Scanner 3000 [Affymetrix], Scanning software = Scanning software)																								
+Protocol Type	hybridization	labeling	grow	nucleic_acid_extraction	specified_biomaterial_action	image_acquisition																								
+Protocol Term Source REF	MGED Ontology	MGED Ontology	MGED Ontology	MGED Ontology	MGED Ontology	MGED Ontology																								
+Term Source Name	MGED Ontology
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php																													
+SDRF File	E-MEXP-3267.sdrf.txt

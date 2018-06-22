@@ -1,0 +1,52 @@
+Investigation Title	Transcription profiling of Arabidopsis brm-101 and syd-2 mutants 10 day old seedlings				
+Comment[Submitted Name]	Identification of differentially expressed genes in brm-101 and syd-2 mutants				
+Experimental Design	unknown_experiment_design_type	transcription profiling by array			
+Experimental Design Term Source REF		EFO			
+Comment[AEExperimentType]	transcription profiling by array				
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for brm or syd				
+Comment[ArrayExpressReleaseDate]	2008-06-14				
+Comment[SecondaryAccession]	GSE5806				
+Comment[AEMIAMESCORE]	4				
+Comment[ArrayExpressAccession]	E-GEOD-5806				
+Comment[MAGETAB TimeStamp_Version]	2010-08-06 17:39:05 Last Changed Rev: 13058				
+Experimental Factor Name	GENOTYPE				
+Experimental Factor Type	genotype				
+Experimental Factor Term Source REF					
+Person Last Name	Wagner				
+Person First Name	Doris				
+Person Mid Initials					
+Person Email	wagnerdo@sas.upenn.edu				
+Person Phone					
+Person Fax					
+Person Address	Biology,University of Pennsylvania, ,Philadelphia,19104,USA				
+Person Affiliation	University of Pennsylvania				
+Person Roles	submitter				
+Person Roles Term Source REF					
+Quality Control Type					
+Quality Control Term Source REF					
+Replicate Type					
+Replicate Term Source REF					
+Normalization Type					
+Normalization Term Source REF					
+Date of Experiment					
+Public Release Date	2008-06-14				
+PubMed ID	17293567				
+Publication DOI	10.1105/tpc.106.048272				
+Publication Author List	Bezhani S, Winter C, Hershman S, Wagner JD, Kennedy JF, Kwon CS, Pfluger J, Su Y, Wagner D.				
+Publication Title	Unique, shared, and redundant roles for the Arabidopsis SWI/SNF chromatin remodeling ATPases BRAHMA and SPLAYED				
+Publication Status	published				
+Publication Status Term Source REF	EFO				
+Publication Status Term Accession Number	EFO_0001796				
+Experiment Description	Global analysis of gene expression in 10 day old brm-101 and syd-2 mutant seedlings compared to wild type Landsberg erecta seedlings.  Experiment Overall Design: 3 genotypes (2 mutant, 1 wild type), 2 replicates each				
+Protocol Name	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6			
+Protocol Type	hybridization	feature_extraction			
+Protocol Description	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 			
+Protocol Parameters					
+Protocol Hardware					
+Protocol Software	MicroArraySuite 5.0	MicroArraySuite 5.0			
+Protocol Contact					
+Protocol Term Source REF	mo				
+SDRF File	E-GEOD-5806.sdrf.txt				
+Term Source Name	NCBI Taxonomy	The MGED Ontology	ArrayExpress	EFO	mo
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version					

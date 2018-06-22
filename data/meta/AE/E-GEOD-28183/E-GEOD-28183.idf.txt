@@ -1,0 +1,57 @@
+Comment[ArrayExpressAccession]	E-GEOD-28183
+Public Release Date	2011-03-25
+Investigation Title	Expression data in double knockout of HsfA1d and HsfA1e Arabidopsis mutants (KO-HsfA1d/A1e) at 30 min under high-light stress							
+Comment[Submitted Name]	Expression data in double knockout of HsfA1d and HsfA1e Arabidopsis mutants (KO-HsfA1d/A1e) at 30 min under high-light stress
+Experiment Description	The transcript levels of 560 genes were decreased (less than two-fold), while those of 312 genes were increased (more than two-fold) in the KO-HsfA1d/A1e plants compared with the wild-type plants.  The transcript levels of  HsfA2, HsfA7a, HsfA7b, HsfB1, and HsfB2a were down-regulated in the KO-HsfA1d/A1e Arabidopsis thaliana ecotype Columbia plants were grown (16 h light, 25°C/8 h dark, 22°C) on MS medium under a light intensity of 100 µE m-2 sec-1.  Two-week-old seedlings were subjected to high-light stress (400 µE m-2 sec-1, 25°C).							
+Date of Experiment								
+Term Source Name	EFO
+Term Source Version								
+Term Source File	http://bar.ebi.ac.uk:8080/trac/browser/branches/curator/ExperimentalFactorOntology/ExFactorInOWL/currentrelease/eforelease/efo.owl							
+Person Last Name	Yabuta	Nishizawa-Yokoi	Nosaka					
+Person First Name	Yukinori	Ayako	Ryota					
+Person Mid Initials								
+Person Email	geo@ncbi.nlm.nih.gov							
+Person Affiliation	Tottori University							
+Person Phone								
+Person Fax								
+Person Address	Tottori University, 4-101 Koyama-Minami, Tottori, Japan							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Person Roles Term Accession Number								
+Normalization Type								
+Normalization Term Accession Number								
+Normalization Term Source REF								
+Replicate Type								
+Replicate Term Accession Number								
+Replicate Term Source REF								
+Experimental Design								
+Experimental Design Term Accession Number								
+Experimental Design Term Source REF								
+Quality Control Type								
+Quality Control Term Accession Number								
+Quality Control Term Source REF								
+Protocol Name	P-GSE28183-1	P-GSE28183-6	P-GSE28183-3	P-GSE28183-8	P-GSE28183-7	P-GSE28183-2	P-GSE28183-4	P-GSE28183-5
+Protocol Description	ID_REF = <br>VALUE = Expression ConsoleTM Version 1.1 signal intensity	Following fragmentation, 12.5 ug of cRNA were hybridized for 16 hr at 45℃ on GeneChip Arabidopsis ATH1 Genome Array. GeneChips were washed and stained in the Affymetrix Fluidics Station 450.	The wild-type plants and KO-HsfA1d/A1e mutants were grown (16 h light, 25°C/8 h dark, 22°C) on MS medium under a light intensity of 100 µE m-2 sec-1.	The data were analyzed with Expression ConsoleTM Version 1.1 using Affymetrix default analysis settings and global scaling as normalization method.	GeneChips were scanned using the Affymetrix GeneChip Scanner 3000.	Two-week-old seedlings were subjected to light intensity stress (400 µE m-2 sec-1, 25°C) for 30 min.	Sepasol-RNA I extraction of total RNA was performed according to the manufacturer's instructions.	Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 100 ng total RNA (GeneChip 3'IVT Express User Manual, Affymetrix).
+Protocol Software								
+Protocol Hardware								
+Protocol Contact								
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Protocol Term Source REF								
+Protocol Term Accession Number								
+Experimental Factor Name	GENOTYPE							
+Experimental Factor Type	genotype							
+Experimental Factor Term Source REF								
+Experimental Factor Term Accession Number								
+Publication Title								
+Publication Author List								
+PubMed ID								
+Publication DOI								
+Publication Status								
+Publication Status Term Source REF								
+Publication Status Term Accession Number								
+Comment[SecondaryAccession]	GSE28183							
+Comment[GEOLastUpdateDate]	2011-04-10
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[GEOReleaseDate]	2011-03-26
+Comment[ArrayExpressSubmissionDate]	2011-03-25
+SDRF File	E-GEOD-28183.sdrf.txt

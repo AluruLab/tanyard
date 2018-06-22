@@ -1,0 +1,53 @@
+Investigation Title	Auxin mediated gene expression in WT, arf7, arf19 and arf7 arf19 mutants				
+Comment[Submitted Name]	Auxin mediated gene expression in WT, arf7, arf19 and arf7 arf19 mutants				
+Experimental Design	transcription profiling by array				
+Experimental Design Term Source REF	EFO				
+Comment[AEExperimentType]	transcription profiling by array				
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for nph4 or arf19 or both after treatment with indole-3-acetic acid				
+Comment[SecondaryAccession]	GSE627				
+Comment[ArrayExpressReleaseDate]	2010-06-09				
+Comment[AEMIAMESCORE]	4				
+Comment[Publication DOI]	10.1105/tpc.104.028316				
+Comment[ArrayExpressAccession]	E-GEOD-627				
+Comment[MAGETAB TimeStamp_Version]	2010-08-06 20:08:34 Last Changed Rev: 13058				
+Experimental Factor Name	genotype	compound			
+Experimental Factor Type	genotype	compound			
+Experimental Factor Term Source REF					
+Person Last Name	Theologis	Okushima			
+Person First Name	Athanasios	Yoko			
+Person Mid Initials					
+Person Email		okushima@bs.naist.jp			
+Person Phone		510-559-5921			
+Person Fax		510-559-5678			
+Person Address		Plant and Microbial Biology, Plant Gene Expression Center, U. C. Berkeley, 800 Buchanan St., Albany, CA, USA			
+Person Affiliation		Plant Gene Expression Center, U. C. Berkeley			
+Person Roles		submitter			
+Person Roles Term Source REF					
+Quality Control Type					
+Quality Control Term Source REF					
+Replicate Type					
+Replicate Term Source REF					
+Normalization Type					
+Normalization Term Source REF					
+Date of Experiment					
+Public Release Date	2010-06-09				
+PubMed ID	15659631				
+Publication DOI	10.1105/tpc.104.028316 				
+Publication Author List	Okushima Y, Overvoorde PJ, Arima K, Alonso JM, Chan A, Chang C, Ecker JR, Hughes B, Lui A, Nguyen D, Onodera C, Quach H, Smith A, Yu G, Theologis A				
+Publication Title	Functional genomic analysis of the AUXIN RESPONSE FACTOR gene family members in Arabidopsis thaliana: unique and overlapping functions of ARF7 and ARF19.				
+Publication Status	published				
+Publication Status Term Source REF	EFO				
+Publication Status Term Accession Number	EFO_0001796				
+Experiment Description	RNA samples were extracted from liquid cultured seedlings treated with or without auxin (5ÂµM IAA) for 2 h.  Lines used for this study: Columbia wild-type nph4-1(arf7) single mutant arf19-1 single mutant nph4-1 arf19-1 double mutant  Treatment: Control (EtOH) Auxin treated (5ÂµM IAA) Keywords = Auxin Keywords = Auxin response factor Keywords: parallel sample				
+Protocol Name	P-AFFY-6	P-GSE627-1			
+Protocol Type	feature_extraction	bioassay_data_transformation			
+Protocol Description	Title: Affymetrix CEL analysis. Description: 	ID_REF = <br>VALUE = Expression estimate by Robust Multiarray Analysis (RMA) procedure			
+Protocol Parameters					
+Protocol Hardware					
+Protocol Software	MicroArraySuite 5.0				
+Protocol Contact					
+Protocol Term Source REF					
+SDRF File	E-GEOD-627.sdrf.txt				
+Term Source Name	NCBI Taxonomy	The MGED Ontology	ArrayExpress	EFO	The MGED Ontology
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version					

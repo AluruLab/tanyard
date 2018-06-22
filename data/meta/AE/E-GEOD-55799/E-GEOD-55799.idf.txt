@@ -1,0 +1,30 @@
+Comment[ArrayExpressAccession]	E-GEOD-55799
+MAGE-TAB Version	1.1					
+Public Release Date	2014-03-11
+Investigation Title	Expression data from  Arabidopsis wild type and cdm1 young floral buds					
+Comment[Submitted Name]	Expression data from  Arabidopsis wild type and cdm1 young floral buds
+Experiment Description	We used microarray analysis to examine transcriptomic changes in cdm1 mutant, identifying genes potentially regulated by CDM1 by comparing gene expression between cdm1 and wild type young floral buds. Among 375 genes that showed differential expression (P-value <0.05) with >1.5-fold changes between wild type and cdm1, 185 genes were down-regulated by 1.5 to 7.10-folds, whereas 190 genes were up-regulated by 1.5 to 5.82-folds. Wild type and cdm1 young floral buds were used to isolate total RNA, with two biological replicates for each. Microarray analysis was performed using 500ng of total RNA per sample as described in the Genechip Expression Analysis Technical Manual.					
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl				
+Person Last Name	Lu	Lu	Ma			
+Person First Name	Pingli	Pingli	Hong			
+Person Email	pinglilu@fudan.edu.cn					
+Person Affiliation	Fudan University					
+Person Phone	86-21-55665635					
+Person Address	School of Life Sciences, Fudan University, 220 Handan Road, Shanghai, China					
+Person Roles	submitter					
+Protocol Name	P-GSE55799-1	P-GSE55799-4	P-GSE55799-5	P-GSE55799-2	P-GSE55799-3	P-GSE55799-6
+Protocol Description	The data were analyzed by using robust multi-array averaging (RMA, including background subtraction, summarization by median polish and quantile normalization) with the R/Bioconductor package affy. and then converted to logarithm base 2. ID_REF =  VALUE = log2 RMA signal	Standard Affymetrix protocol using 500 ng of total RNA	Standard Affymetrix protocol	Seeds were directly sown into pots containing 100g soil mixture of Metro-Mix 360 soil (Sun Gro Horticulture Canada Ltd) and Turface profile greens grade (Profile Products LLC) in 3:2 ratio by volume, with a maximum water-holding capacity of 100g (defined as 100% soil moisture). Seeds were stratified in a cold room for 2 d at 4 ℃ in the dark. After stratification, the pots with seeds were transferred into a Conviron growth chamber (Conviron Inc), which was set at our normal conditions (22 ℃, 16h day/8h night photoperied, ~300 μmol m-2 s-1 photon flux, 60% humidity) until just after flowering (bolting) when some of the plants were subjected to moderate drought stress.	Total RNA was isolated from unopened flower buds using RNeasy columns following instructions from the manufacturer (Qiagen, Valencia, CA, USA).	Standard Affymetrix protocol
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	GENOTYPE					
+Experimental Factor Type	genotype					
+Publication Title	The Arabidopsis CALLOSE DEFECTIVE MICROSPORE1 Gene Is Required for Male Fertility through Regulating Callose Metabolism during Microsporogenesis.					
+Publication Author List	Lu P, Chai M, Yang J, Ning G, Wang G, Ma H					
+PubMed ID	24567187					
+Publication DOI	10.1104/pp.113.233387					
+Comment[SecondaryAccession]	GSE55799					
+Comment[GEOReleaseDate]	2014-03-11					
+Comment[ArrayExpressSubmissionDate]	2014-03-11					
+Comment[GEOLastUpdateDate]	2014-03-12					
+Comment[AEExperimentType]	transcription profiling by array					
+SDRF File	E-GEOD-55799.sdrf.txt

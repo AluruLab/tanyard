@@ -1,0 +1,58 @@
+Comment[ArrayExpressAccession]	E-GEOD-32659							
+Public Release Date	2011-11-01							
+Investigation Title	Expression data from arabidopsis root in response to boron toxicity							
+Comment[Submitted Name]	Expression data from arabidopsis root in response to boron toxicity							
+Comment[AEExperimentDisplayName]	Expression data from arabidopsis root in response to boron toxicity							
+Experiment Description	"Boron is an essential micronutrient for plants and is taken up in the form of boric acid (BA). Despite this, a high BA concentration is toxic for the plants, inhibiting root growth and is thus a significant problem in semi-arid areas in the world. In this work, we report the molecular basis for the inhibition of root growth caused by boron. We used microarrays to detail the global gene expression underlying boron toxicity in roots. 5-day-old arabidopsis plants were transferred to medium with high boron concentration (½ MS medium supplemented with 5mM BA) and control conditions (½ MS medium). We determined that 5 mM BA is the minimum concentration that produces the maximum effect, stunting root growth by ~50% after 5 days as compared with control conditions. We analyzed the transcript profiles in roots by microarray analysis (Affymetrix ATH1 Genome Array). We compared the transcripts obtained at 12 hrs of BA treatment."							
+Date of Experiment								
+Term Source Name	EFO							
+Term Source Version								
+Term Source File	http://www.ebi.ac.uk/efo/efo.owl							
+Person Last Name	Vega	Aquea	Federici	Moscoso	Vega	Jullian	Haseloff	Arce-Johnson
+Person First Name	Andrea	Felipe	Fernan	Cristian	Andrea	Pastor	Jim	Patricio
+Person Mid Initials								
+Person Email	avegac@puc.cl							
+Person Affiliation	Pontificia Universidad Catolica de Chile							
+Person Phone								
+Person Fax								
+Person Address	"Pontificia Universidad Catolica de Chile, Alameda 340, Santiago, Chile"							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Person Roles Term Accession Number								
+Normalization Type								
+Normalization Term Accession Number								
+Normalization Term Source REF								
+Replicate Type								
+Replicate Term Accession Number								
+Replicate Term Source REF								
+Experimental Design	transcription profiling by array							
+Experimental Design Term Accession Number								
+Experimental Design Term Source REF								
+Quality Control Type								
+Quality Control Term Accession Number								
+Quality Control Term Source REF								
+Protocol Name	P-GSE32659-1	P-GSE32659-6	P-GSE32659-5	P-GSE32659-3	P-GSE32659-2	P-GSE32659-4	P-GSE32659-7	
+Protocol Description	ID_REF = <br>VALUE = RMA expression values (log2-transformed)	Array scanning was carried out with the GeneChip® scanner 300 and image analysis was performed using the GeneChip® Operating Software.	"Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45C on GeneChip® Arabidopsis ATH1 Genome Array. GeneChips were washed and stained in the Affymetrix Fluidics Station 450."	Trizol extraction of total RNA was performed according to the manufacturer's instructions.	"Arabidopsis seeds were surface-sterilized and germinated on an agar-solidified nutrient medium in Petri dishes. The nutrient medium was based on half Murashige-Skoog salts (MS) and the final pH was adjusted to 5,7. The seeds were vernalized at 4ºC for 2 d. Petri dishes were placed into a growth chamber, positioned vertically and kept under controlled environmental conditions at 22ºC and a 16/8 h day/night regime. After five days, seedlings were transferred to 1/2 MS plates containing BA (H3BO3, 5mM)"	"Biotinylated aRNA were prepared according to the standard Affymetrix protocol from 0.5 ug total RNA (GeneChip® 3’ IVT Express Kit User Manuall, 2008, Affymetrix)."	The data were processed and normalized by RMA using the R package known as “affy”.	
+Protocol Software								
+Protocol Hardware								
+Protocol Contact								
+Protocol Type	bioassay_data_transformation	image_aquisition	hybridization	nucleic_acid_extraction	grow	labeling	feature_extraction	
+Protocol Term Source REF								
+Protocol Term Accession Number								
+Experimental Factor Name	compound	dose						
+Experimental Factor Type	compound	dose						
+Experimental Factor Term Source REF								
+Experimental Factor Term Accession Number								
+Publication Title	A molecular framework for the inhibition of Arabidopsis root growth in response to boron toxicity.							
+Publication Author List	"Aquea F, Federici F, Moscoso C, Vega A, Jullian P, Haseloff J, Arce-Johnson P."							
+PubMed ID	21988710							
+Publication DOI								
+Publication Status								
+Publication Status Term Source REF								
+Publication Status Term Accession Number								
+Comment[SecondaryAccession]	GSE32659							
+Comment[GEOLastUpdateDate]	2011-11-02							
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[GEOReleaseDate]	2011-11-01							
+Comment[ArrayExpressSubmissionDate]	2011-10-05							
+SDRF File	E-GEOD-32659.sdrf.txt							

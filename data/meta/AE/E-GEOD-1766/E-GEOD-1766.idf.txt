@@ -1,0 +1,49 @@
+Investigation Title	Transcription profiling of Arabidopsis seedlings treated with 6-Benzyl adenine - time series	
+Comment[Submitted Name]	Time course of Arabidopsis seedlings treated with 6-Benzyl adenine	
+Experimental Design	unknown_experiment_design_type	transcription profiling by array	
+Experimental Design Term Source REF		EFO	
+Comment[ArrayExpressReleaseDate]	2008-06-11	
+Comment[SecondaryAccession]	GSE1766	
+Comment[AEMIAMESCORE]	3	
+Comment[ArrayExpressAccession]	E-GEOD-1766	
+Comment[MAGETAB TimeStamp_Version]	2010-08-03 12:20:12 Last Changed Rev: 13058	
+Experimental Factor Name	
+Experimental Factor Type	
+Experimental Factor Term Source REF	
+Person Last Name	Brenner	
+Person First Name	Wolfram	
+Person Mid Initials	
+Person Email	brenner@molgen.mpg.de	
+Person Phone	
+Person Fax	
+Person Address	SchmÃ¼lling, Applied Genetics, Institute of Biology, Albrecht-Thaer-Weg 6, Berlin, 14195, Germany	
+Person Affiliation	Institute of Biology	
+Person Roles	submitter	
+Person Roles Term Source REF	The MGED Ontology	
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2008-06-11	
+PubMed ID	16212609	
+Publication DOI	16212609	
+Publication Author List	Wolfram G Brenner, Georgy A Romanov, Ireen Köllmer, Lukas Bürkle, Thomas Schmülling	
+Publication Title	Immediate-early and delayed cytokinin response genes of Arabidopsis thaliana identified by genome-wide expression profiling reveal novel cytokinin-sensitive processes and suggest cytokinin action through transcriptional cascades.	
+Publication Status	journal_article	
+Publication Status Term Source REF	The MGED Ontology	
+Experiment Description	Time course of Arabidopsis seedlings treated with 6-Benzyl adenine dissolved in diluted KOH for 15 min or 2 hours	
+Protocol Name	
+Protocol Type	
+Protocol Description	
+Protocol Parameters	
+Protocol Hardware	
+Protocol Software	
+Protocol Contact	
+Protocol Term Source REF	
+SDRF File	E-GEOD-1766.sdrf.txt	
+Term Source Name	NCBI Taxonomy	The MGED Ontology	ArrayExpress	EFO	The MGED Ontology	
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version						

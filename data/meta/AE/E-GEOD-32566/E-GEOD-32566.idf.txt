@@ -1,0 +1,30 @@
+Comment[ArrayExpressAccession]	E-GEOD-32566						
+MAGE-TAB Version	1.1						
+Public Release Date	2013-04-25						
+Investigation Title	Exogenous Sulfide Reverses the Alteration of Transcriptional Profiling of the des1-1 Mutant (Arabidopsis thaliana)						
+Comment[Submitted Name]	Exogenous Sulfide Reverses the Alteration of Transcriptional Profiling of the des1-1 Mutant (Arabidopsis thaliana)						
+Experiment Description	Arabidopsis thaliana cells contain different O-acetylserine(thiol)lyase (OASTL) enzymes that catalyze the biosynthesis of cysteine. Recently, we have deeply investigated about one of the minor OASTL-like protein located in the cytosol, named DES1, highlighting some important clues about its metabolic function. We have demonstrated that DES1 catalyzes the desulfuration of L-cysteine to sulfide plus ammonia and pyruvate, instead of the biosynthesis of Cys, and thus, is a novel L-cysteine desulfhydrase (EC 4.4.1.1). The functionality of DES1 is being revealed by the phenotype of the T-DNA insertion mutants des1-1 and des1-2. We have performed a comparative transcriptomic analysis on leaves of the des1-1 and Col-0 wild type plants grown for 30 days under long-day conditions. The normalized data from the replicates showed differential expression of 1614 genes in the des1-1 mutant, with 701 genes down-regulated and 913 genes up-regulated by more than twofold, with a False Discovery Rate (FDR) of < 0.05 and an intensity signal restriction of lgSignal >7. This des1-1 transcriptional profile show a strong alteration when compared to a previous comparative transcriptomic analysis performed on leaves of the des1-1 and Col-0 wild type plants grown for 20 days under identical long-day conditions (GSE 19244). We have also performed a comparative transcriptomic analysis on leaves of the des1-1 and Col-0 wild type plants grown for 20 days and treated with sodium sulfide for 10 additional days. The comparison of the transcriptional profile of des1-1+Na2S versus Col-0+Na2S clearly shows that exogenous sulfide reversed the transcriptional level differences between the mutant and the wild type to reach similar transcriptional patterns as the array GSE19244. Our results suggest a role of sulfide as transcriptional regulator in the des1-1 mutant background. Using the Affymetrix ATH1 GeneChips, we performed two comparative transcriptomic analyses on leaves of the des1-1 and Col-0 wild type plants grown on soil under long-day conditions. One was performed on plants grown for 30 days and the other on plants grown for 20 days and treated for 10 additional days with 200 mM Na2S. Three biological replicates were performed for each sample and hybridized to the chips. We made the comparison of des1-1 versus wild-type and des1-1+Na2S versus wild-type+Na2S to classify the differently expressed genes in the mutant plant.						
+Term Source Name	ArrayExpress	EFO					
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Gotor	Álvarez	García	Romero	Gotor		
+Person First Name	Cecilia	Consolación	Irene	Luis	Cecilia		
+Person Mid Initials				C			
+Person Email	geo@ncbi.nlm.nih.gov						
+Person Affiliation	Instituto de Bioquímica Vegetal y Fotosíntesis						
+Person Address	Instituto de Bioquímica Vegetal y Fotosíntesis, Avda. Américo Vespucio, 49, Sevilla, Spain						
+Person Roles	submitter						
+Protocol Name	P-GSE32566-1	P-GSE32566-5	P-GSE32566-6	P-GSE32566-2	P-GSE32566-3	P-GSE32566-4	P-GSE32566-7
+Protocol Description	GeneChip intensities were background-corrected, normalized and sumarized by RMA method, using the “Affy” package from Bioconductor. ID_REF =  VALUE = Log2 RMA signal	Biotinylated cRNA was prepared according to the standard Affymetrix protocol from 500 ng total RNA (GeneChip 3' IVT Express Kit).	Following fragmentation, 10 ug of biotinylated cRNA were hybridized to Affymetrix chips (ATH1). Each sample was added to a hybridization solution containing 100mM 2-(N-morpholino)ethanesulfonic acid, 1 M Na+, and 20mM of EDTA in the presence of 0.01% of Tween-20 to a final cRNA concentration of 0.05 ug/ml. Hybridization was performed for 16 h at 45°C . Each microarray was washed and stained with streptavidin-phycoerythrin in a Fluidics station 450 (Affymetrix).	After growing for 20 days, plants were separated into two batches; one irrigated with water and the other with 200 mM Na2S for 10 additional days.	Arabidopsis thaliana (accession Col-0) and the des1-1 mutant (SALK_103855 ) were grown in soil under a photoperiod of 16 h of white light (120 μE m-2 s-1) at 20°C and 8 h dark at 18°C.	RNA was prepared using TRIzol (Invitrogen) and the RNeasy Mini Kit (Qiagen). RNA was quantified and the RNA quality was assessed with a 2100 Bioanalyzer from Agilent Technologies	GeneChips were scanned using the Affymetrix GeneChip Scanner 3000 7G
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	compound	genotype					
+Experimental Factor Type	compound	genotype					
+Comment[SecondaryAccession]	GSE32566						
+Comment[GEOReleaseDate]	2013-04-25						
+Comment[ArrayExpressSubmissionDate]	2011-10-03						
+Comment[GEOLastUpdateDate]	2013-04-26						
+Comment[AEExperimentType]	transcription profiling by array						
+SDRF File	E-GEOD-32566.sdrf.txt						
+Publication Title	Cysteine-generated sulfide in the cytosol negatively regulates autophagy and modulates the transcriptional profile in Arabidopsis.						
+Publication Author List	Álvarez C, García I, Moreno I, Pérez-Pérez ME, Crespo JL, Romero LC, Gotor C						
+PubMed ID	23144183						
+Publication DOI	10.1105/tpc.112.105403						

@@ -1,0 +1,34 @@
+Comment[ArrayExpressAccession]	E-MEXP-3602		
+Investigation Title	nrb4 alleles		
+Comment[Submitted Name]	nrb4 alleles		
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis thaliana plants with different nrb4 alleles		
+Comment[MIAMExpressLogin]	ptornero		
+Comment[MIAMExpressSubmissionID]	8212		
+Experiment Description	Plants of Arabidopsis thaliana (ecotype Col-0, nrb4-2 and nrb4-4) were grown in phytochambers in short day conditions during three weeks. Then, samples from different pots were mixed, and the RNA extracted. 		
+Experimental Design	reference_design	co-expression_design	genetic_modification_design
+Comment[AEExperimentType]	transcription profiling by array		
+Experimental Factor Name	genotype		
+Experimental Factor Type	genotype		
+Person Last Name	Tornero		
+Person First Name	Pablo		
+Person Email	ptornero@ibmcp.upv.es		
+Person Phone	(+34)963879377		
+Person Affiliation	IBMCP (UPV-CSIC)		
+Person Address	Stress, Camino de Vera s/n, Valencia, Valencia, 46022, Spain		
+Person Roles	submitter		
+Person Roles Term Source REF	MGED Ontology		
+Quality Control Type	biological_replicate		
+Public Release Date	2012-12-31		
+Comment[ArrayExpressSubmissionDate]	2012-04-11 14:38		
+Publication Status	not yet submitted		
+Protocol Name	P-MTAB-26173	P-MTAB-26175	P-MTAB-26176
+Protocol Description	The normalization was done with the package &quot;affy&quot; of &quot;R&quot;. The function used was &quot;rma(Data)&quot;.	Total RNA was isolated with Trizol (Invitrogen, San Diego, CA, USA) following the manufacturerﾒs recommendation. Following extraction, an additional step of column purification with RNeasy Mini Kit (Qiagen, Valencia, CA, USA) was added to ensure the purity of the RNA.  <br>(Parameters: Extracted product = total_RNA, Amplification = none)	Plants of Arabidopsis thaliana, ecotype Col-0.<br><br>Seeds were sowed in soil and kept at 4 C for 2 days (stratification).<br><br>After stratification, the pots are transferred to growth conditions, in a walk-in chamber.<br><br>The conditions of grow are:<br><br>Light from 10 am to 6 pm, at 21 C<br><br>Dark from 6 pm to 10 am, at 19 C.<br><br>No humidity control.<br><br><br><br><br>(Parameters: time unit = seconds, temperature unit = C)
+Protocol Type	bioassay_data_transformation	nucleic_acid_extraction	grow
+Protocol Term Source REF	MGED Ontology	MGED Ontology	MGED Ontology
+Term Source Name	MGED Ontology	ArrayExpress	
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	
+SDRF File	E-MEXP-3602.sdrf.txt		
+Publication Title	Non-recognition-of-BTH4, an Arabidopsis mediator subunit homolog, is necessary for development and response to salicylic acid		
+Publication Author List	Canet JV, Dobón A, Tornero P		
+PubMed ID	23064321		
+Publication DOI	10.1105/tpc.112.103028		

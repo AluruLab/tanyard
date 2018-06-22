@@ -1,0 +1,57 @@
+Comment[ArrayExpressAccession]	E-GEOD-14053
+Public Release Date	2010-12-11									
+Investigation Title	Expression data from trichomes and pavement cells									
+Comment[Submitted Name]	Expression data from trichomes and pavement cells
+Experiment Description	Comparison of cell sap from trichomes and pavement cells.  We performed a detailed transcriptome analysis of cell sap from leaf epidermal cell types using the Affymetrix Ath1 chip. Trichome and pavement cell sap was collected from leaves of 5 week old plants.									
+Date of Experiment										
+Term Source Name	EFO
+Term Source Version										
+Term Source File	http://www.ebi.ac.uk/efo/efo.owl									
+Person Last Name	Ebert	Ebert	Zoeller	Rautengarten	Jakoby	Schnittger	Niehl	Fisahn		
+Person First Name	Berit	Berit	Daniela	Carsten	Marc	Arp	Annette	Joachim		
+Person Mid Initials										
+Person Email	ebert@mpimp-golm.mpg.de									
+Person Affiliation	Max-Planck Institute of Molecular Plant Physiology									
+Person Phone										
+Person Fax										
+Person Address	Willmitzer, Max-Planck Institute of Molecular Plant Physiology, Am Mühlenberg 1, Golm, Germany									
+Person Roles	submitter									
+Person Roles Term Source REF										
+Person Roles Term Accession Number										
+Normalization Type										
+Normalization Term Accession Number										
+Normalization Term Source REF										
+Replicate Type										
+Replicate Term Accession Number										
+Replicate Term Source REF										
+Experimental Design										
+Experimental Design Term Accession Number										
+Experimental Design Term Source REF										
+Quality Control Type										
+Quality Control Term Accession Number										
+Quality Control Term Source REF										
+Protocol Name	P-GSE14053-1	P-GSE14053-7	P-GSE14053-3	P-GSE14053-9	P-GSE14053-8	P-GSE14053-10	P-GSE14053-2	P-GSE14053-4	P-GSE14053-6	P-GSE14053-5
+Protocol Description	ID_REF = <br>VALUE = RMA log2 expression measures	standard Affymetrix protocol	Arabidopsis plants were cultivated in growth chambers at 20oC/18°C under a 16 h light/8 h dark cycle until seed set.	The data were analyzed with Bioconductor using the RMA normalization procedure	standard Affymetrix protocol	Pavement cells of Arabidopsis leaves were sampled using microcapilaries as described in Brandt et al., 1999	Trichome cells of Arabidopsis leaves were sampled using microcapilaries as described in Brandt et al., 1999	Extraction of total RNA was performed using the Quiagen Micro RNA Kit according to the manufacturer's instructions	The GeneChip Expression 3' Amplification reagents for IVT labeling Kit according to the manufacturer’s was then used to synthesize biotin-labeled cRNA from template cDNA by in vitro transcription.	Amplification (one round) was performed using the ArcturusRiboAmp Kit, labelling and hybridisation were performed with the GeneChip Expression 3' Amplification reagents for IVT labeling Kit according to the manufacturer’s (Affymetrix, CA)
+Protocol Software										
+Protocol Hardware										
+Protocol Contact										
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_aquisition	specified_biomaterial_action	specified_biomaterial_action	nucleic_acid_extraction	labeling	labeling
+Protocol Term Source REF										
+Protocol Term Accession Number										
+Experimental Factor Name										
+Experimental Factor Type										
+Experimental Factor Term Source REF										
+Experimental Factor Term Accession Number										
+Publication Title										
+Publication Author List										
+PubMed ID										
+Publication DOI										
+Publication Status										
+Publication Status Term Source REF										
+Publication Status Term Accession Number										
+Comment[SecondaryAccession]	GSE14053									
+Comment[GEOLastUpdateDate]	2010-12-11
+Comment[AEExperimentType]	transcription profiling by array									
+Comment[GEOReleaseDate]	2010-12-11
+Comment[ArrayExpressSubmissionDate]	2008-12-19
+SDRF File	E-GEOD-14053.sdrf.txt

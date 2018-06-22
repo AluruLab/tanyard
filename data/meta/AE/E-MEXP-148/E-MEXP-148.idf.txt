@@ -1,0 +1,50 @@
+Investigation Title	Transcription profiling of Arabidopsis axillary bud dormancy in wild type and branching mutants										
+Comment[Submitted Name]	Axillary bud dormancy										
+Experimental Design	development_or_differentiation_design	transcription profiling by array									
+Experimental Design Term Source REF	mo:1.3.1.1	EFO									
+Comment[AEExperimentType]	transcription profiling by array										
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for axr or max after treatment with auxin										
+Comment[ArrayExpressReleaseDate]	2004-12-31										
+Comment[AEMIAMESCORE]	5										
+Comment[ArrayExpressAccession]	E-MEXP-148										
+Comment[MAGETAB TimeStamp_Version]	2011-01-23 06:56:43 Last Changed Rev: 14857										
+Experimental Factor Name	DEVELOPMENTAL STAGE	GENOTYPE	COMPOUND								
+Experimental Factor Type	developmental_stage	genotype	compound								
+Experimental Factor Term Source REF											
+Person Last Name	Kamiya	Tatematsu	Nambara	Barton	Ward	Leyser					
+Person First Name	Yuji	Kiyoshi	Eiji	Geraint	Sally	Ottoline					
+Person Mid Initials					P						
+Person Email					spw6@york.ac.uk						
+Person Phone					01904 328683						
+Person Fax					01904 328682						
+Person Address					Heslington						
+Person Affiliation	RIKEN, Japan	RIKEN, Japan	RIKEN, Japan	University of York	Department of Biology	University of York					
+Person Roles					submitter						
+Person Roles Term Source REF					mo						
+Quality Control Type											
+Quality Control Term Source REF											
+Replicate Type											
+Replicate Term Source REF											
+Normalization Type											
+Normalization Term Source REF											
+Date of Experiment											
+Public Release Date	2004-12-31										
+PubMed ID											
+Publication DOI											
+Publication Author List	Sally Ward; Kiyoshi Tatematsu; Geraint Barton; Eiji Nambara; Yuji Kamiya; Ottoline Leyser										
+Publication Title	A hormonally-specified growth checkpoint regulates axillary bud growth in Arabidopsis thaliana.										
+Publication Status											
+Publication Status Term Source REF											
+Experiment Description	Study of axillary bud dormancy in wildtype and branching mutants of Arabidopsis thaliana.										
+Protocol Name	P-MEXP-4777	P-MEXP-4776	P-MEXP-4844	P-MEXP-4778	P-MEXP-4781	P-MEXP-4780	P-MEXP-4779	P-MEXP-4782	Affymetrix:Protocol:Hybridization-EukGE-WS2v4[]	P-AFFY-6	Affymetrix:Protocol:ExpressionStat
+Protocol Type	grow	grow	specified_biomaterial_action	specified_biomaterial_action	nucleic_acid_extraction	pool	pool	labeling	hybridization	feature_extraction	bioassay_data_transformation
+Protocol Description	Wildtype columbia and mutant max1, max2, max4 and axr1-12 Arabidopsis thaliana buds were all collected using this method. Seed were sown 1 per cell in shallow trays containing 40 4 x 4 cm cells then they were cold treated for 3 days. The soil used was Levingtons F2 compost treated with the systemic insecticide Intercept WG. Following cold treatment the plants were grown in a plant growth room temperature 21C, 16 hour days, 60uMol/m2/second light with approximately 60% relative humidity. They were watered with tap water as required. Axillary buds of two sizes were harvested from secondary and tertiary cauline and rosette branches into  liquid nitrogen. Buds of less than 1.5mm elongated were described as dormant and small and buds greater than 1.5mm but less than 10mm were described as active and big.	This experiment was carried out on wildtype Columbia ecotype Arabidopsis thaliana plants Seed were sown in sterile Weck jars, 6 per jar, containing 50 mls of ATS media plus 1% sucrose and 1% agar. After a 2 day cold  treatment they were then put into a plant growth room with 16 hour daylight, temperature 21C, 60uMol/m2/second light and approximately 60% humidity. At around 17 days to 3 weeks after sowing the plants they bolted and when the bolt was approximately 3cm long with one or two axillary buds formed on the stem they were removed from the jars. A nodal segment with approximately 1cm of stem flanking the less than 1.5mm elongated node was dissected and the ends inserted across a trough that had been cut into the agar in a square petri dish. The petri dish was pre-prepared by pouring 50 mls of ATS media with 1% sucrose and 1% agar. When set a 1cm trough was cut through the middle of the plate. Half of the plates then had 1-naphthyleneacetic acid (auxin) added to the apical agar block to a final concentration of 1uM. Half of the nodal segments were incubated with apical auxin and half with no auxin. The plates were then placed vertically in  the growth room as described above. After three days incubation the buds were harvested into liquid nitrogen. Reference for this method is Chatfield et al. (2000) Plant J. 24:159-169. 	Axillary buds were harvested from secondary and tertiary cauline and rosette branches into an Eppendorf floating on liquid nitrogen. Buds of two size categories were harvested. Firstly, small or dormant buds of less than 1.5 mm elongated and secondly, big or active buds  of greater than 1.5 mm elongation but less than 1cm.	Small Arabidopsis axillary buds (less than 1.5mm in length), supported on excised nodal stem segments, were incubated either in the presence or abscence of 1uM 1-naphthyleneacetic acid (NAA a synthetic auxin) supplied through the apical end of the stem. Apical NAA inhibits bud outgrowth as compared to untreated controls. Buds were harvested after three days treatment.	RNA was extracted from the frozen axillary buds using a Qiagen plant RNeasy kit. The RNA was given the optional DNase treatment before being finally purified and eluted in 30ul of water	Axillary buds were collected of two different sizes, less than 1.5mm (dormant or small) and greater than 1.5mm but less than 10mm (active or big), from wildtype Columbia plants and a number of different branching mutants. For each genotype 8 x 40 plants were grown to harvest the buds from. Buds were pooled at the time of harvest with a tube of buds being collected for both bud sizes from each  genotype.	Axillary buds were pooled from approximately 360 excised nodal segments for each treatment. Pooling was carried out at the stage of bud harvest when all buds from a treatment were collected into the same tube.	Five ug of total RNA was labelled according to Affymetrix technical manual. First strand synthesis was carried out using a T7-(dT)24 primer (supplied by Proligo) and Superscript II RT from Invitrogen according to manufacturers instructions. Following a 1 hour incubation at 37C second strand synthesis was carried out at 16C for 2 hours. The cDNA was  purified through a column (Affymetrix) and eluted in 14uL water. 10uL was then used in a biotin labelling reaction using a BioArray High Yield transcript labeling kit from Enzo (supplied by Affymetrix) to produce biotin-labeled cRNA. Following labeling at 37C for 4 hours the cRNA was purified through a Qiagen RNeasy column and quantified.  Fifteen ug of labeled cRNA was then fragmented at 94C for 35 minutes in a 40uL reaction and all of this was used in the hybridisation reaction.	Title: Affymetrix EukGE-WS2v4 Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 
+Protocol Parameters					Amplification;Extracted product;			Label used;Amplification;			
+Protocol Hardware											
+Protocol Software									MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 5.0
+Protocol Contact											
+Protocol Term Source REF						mo	mo		mo		
+SDRF File	E-MEXP-148.sdrf.txt										
+Term Source Name	NCI_thesaurus		mo	ncbitax	tair	ArrayExpress	mo:1.3.1.1	EFO	mo		
+Term Source File	ncithesaurus.obo.alt		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html	http://arabidopsis.org	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php		
+Term Source Version							1.3.1.1				

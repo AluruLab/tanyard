@@ -1,0 +1,25 @@
+Comment[ArrayExpressAccession]	E-GEOD-50679
+MAGE-TAB Version	1.1						
+Public Release Date	2014-07-30
+Investigation Title	Fine-tuning of the anaerobic response in plants relies on trihelix protein repression of the oxygen sensing machinery						
+Comment[Submitted Name]	Fine-tuning of the anaerobic response in plants relies on trihelix protein repression of the oxygen sensing machinery
+Experiment Description	This study analyzes transcriptomic data of Arabidopsis thaliana Col-0 and overexpression lines of Hypoxia Response Attenuator (HRA1; At3g10040) with Col-0 background (OE-HRA1). Two independent transgenic lines of OE-HRA1 were considered as biological replicates (OE-HRA1#1 and OE-HRA1#2). Seven-day-old seedlings were treated either with or without hypoxia (low oxygen) stress for 2 hours. This dataset includes CEL files, RMA signal values and MAS5 P/M/A calls from total mRNA populations. Quantitative profiling of cellular mRNAs was accomplished with the Affymetrix ATH1 platform. 8 samples, 2 genotypes (Col-0 and OE-HRA1), 2 conditions (2 h non-stress and 2 h hypoxia stress), 2 independent biological replicate experiments						
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Lee	Lee	Bailey-Serres				
+Person First Name	Seung Cho	Seung Cho	Julia				
+Person Email	slee064@ucr.edu						
+Person Affiliation	University of California Riverside						
+Person Address	Botany & Plant Sciences, University of California Riverside, 2150 Batchelor Hall, Riverside, CA, USA						
+Person Roles	submitter						
+Protocol Name	P-GSE50679-1	P-GSE50679-5	P-GSE50679-6	P-GSE50679-2	P-GSE50679-3	P-GSE50679-4	P-GSE50679-7
+Protocol Description	CEL files from the Affymetrix Chips were processed by use of the R program (http://cran.at.r-project.org/) and Bioconductor packages (http://www.bioconductor.org/). The Robust Multi-chip Average (RMA) normalization was performed using the default settings of the corresponding R function. Present, Marginal or Absent (P/M/A) calls were computed with the affy MAS5.0 package . ID_REF =  VALUE = log2 normalized ABS_CALL = 	biotin	Hybridization of 12 Î¼g of biotin-labeled cRNA to each Arabidopsis ATH1 Genome Array (GeneChip System®, Affymetrix) chips were performed at 45 °C for 16 h, in the Affymetrix GeneChip Workstation (hybridization oven 640, Fluidics Station 450), using 10 µg of Biotin-labeled aRNA, according to the manufacturer's protocol.	Plates with 7-d-old seedlings were transferred to Lucite chambers where they were deprived of air by displacement for argon gas (99.9%) for 2 hours. The hypoxic stress (2HS) treatment was applied under dim light (5 to 7 Î¼mol photons m-2 s-1) at the end of light cycle. For non-stress (2NS) treatment, MS plates were placed for 2 hours in the Lucite chambers that were open to ambient air.	Arabidopsis seeds were sterilized, stratified for 3 days at 4 °C and grown on solid MS media [0.43 % (w/v) Murashigi Skoog (MS) salts (Sigma)], 0.4 % (w/v) Phytagel (Sigma), 1 % (w/v) sucrose, pH 5.7) in a vertical orientation in a growth chamber (Model # CU36L5, Percival Scientific, Perry, IA) under a long day cycle (16 h light at ~80 Î¼mol photons m-2 s-1 and 8 h darkness) at 23°C for 7 days before treatments.	Total RNA was extracted from frozen pulverized plant tissues using QIAGEN RNeasy Plant Mini kit according to the manufacture's protocol. RNase-Free DNase treatment was conducted during the column purification process.	GeneChips were scanned using the Affymetrix GeneChip Scanner 3000 7G.
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	TREATMENT	GENOTYPE					
+Experimental Factor Type	treatment	genotype					
+Comment[SecondaryAccession]	GSE50679						
+Comment[GEOReleaseDate]	2014-07-30						
+Comment[ArrayExpressSubmissionDate]	2013-09-06						
+Comment[GEOLastUpdateDate]	2014-07-31						
+Comment[AEExperimentType]	transcription profiling by array						
+SDRF File	E-GEOD-50679.sdrf.txt

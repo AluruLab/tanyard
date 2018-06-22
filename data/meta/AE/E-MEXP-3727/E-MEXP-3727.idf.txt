@@ -1,0 +1,31 @@
+Comment[ArrayExpressAccession]	E-MEXP-3727
+Investigation Title	tps1-2_apices																											
+Comment[Submitted Name]	tps1-2_apices
+Comment[AEExperimentDisplayName]	tps1-2_apices																											
+Comment[MIAMExpressLogin]	maschmid																											
+Comment[MIAMExpressSubmissionID]	8418																											
+Experiment Description	To monitor gene expression changes pre floral transition and during early flower development col-0 and tps1-2 GVG::TPS1 (von Dijken, 2004) plants were grown under SD (8 hr light, 16 hr dark) for 21 days. Plants were then shifted to LD (16 hr light, 8 hr dark) conditions to induce flowering. RNA was isolated from micro-dissected apical tissue harvested 0 and 5 days after the shift to LD and double-stranded cDNA was synthesized. Biotinylated cRNA probes were prepared and hybridized to the Affymetrix ATH1 array in duplicate (biological replicates). 																											
+Experimental Design	time_series_design	co-expression_design	development_or_differentiation_design	replicate_design																								
+Comment[AEExperimentType]	transcription profiling by array																											
+Experimental Factor Name	Age	Genotype	Time																									
+Experimental Factor Type	age	genotype	time																									
+Person Last Name	Schmid																											
+Person First Name	Markus																											
+Person Email	Markus.Schmid@tuebingen.mpg.de																											
+Person Phone	+49-7071-6011412																											
+Person Fax	+49-7071-6011416																											
+Person Affiliation	Max Planck Institute for Developmental Biology																											
+Person Address	Molecular Biology, Spemannstr. 37-39, Tuebingen,  Baden Würtenberg, 72076, Germany																											
+Person Roles	submitter																											
+Person Roles Term Source REF	MGED Ontology																											
+Quality Control Type	biological_replicate																											
+Public Release Date	2013-09-04																											
+Comment[ArrayExpressSubmissionDate]	2012-09-04 14:31:15																											
+Publication Status	not yet submitted																											
+Protocol Name	P-MTAB-28221	P-MTAB-28222	P-MTAB-28223	P-AFFY-2	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6
+Protocol Description	Arabidopsis thaliana plants were grown at 23°C and 65% rel. humidity on soil. Light conditions: Mixture of Cool White and Gro-Lux Wide Spectrum fluorescent lights, with a fluence rate of 125 to 175 µmol m-2 s-1. <br><br><br>(Parameters: time unit = days, temperature unit = C)	Total RNA was isolated from plant material using Plant RNeasy columns (Qiagen) according to the manufacturers instructions.<br>(Parameters: Extracted product = total_RNA, Amplification = none)	Plants were shifted from short day (SD; 8hr light, 16 hr darkness) to long day (LD; 16 hr light, 8 hr darkness) to synchronously induce flowering.	labeling	hybridization	image_acquisition																						
+Protocol Type	grow	nucleic_acid_extraction	specified_biomaterial_action																									
+Protocol Term Source REF	MGED Ontology	MGED Ontology	MGED Ontology	ArrayExpress	ArrayExpress	ArrayExpress																						
+Term Source Name	MGED Ontology	ArrayExpress
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress																										
+SDRF File	E-MEXP-3727.sdrf.txt

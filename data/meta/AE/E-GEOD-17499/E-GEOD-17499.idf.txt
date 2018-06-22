@@ -1,0 +1,57 @@
+Comment[ArrayExpressAccession]	E-GEOD-17499							
+Public Release Date	2010-09-20							
+Investigation Title	Expression data from 2-week-old Arabidopsis untreated seedlings grown under a short day condition							
+Comment[Submitted Name]	Expression data from 2-week-old Arabidopsis untreated seedlings grown under a short day condition							
+Experiment Description	The Arabidopsis thaliana defense regulator EDM2 was previously shown to be specifically required for disease resistance to the pathogenic oomycete Hyaloperonospora parasitica aradidopsis mediated by the R protein RPP7. We found EDM2 to have a promoting effect on several distinct developmental processes, such as leaf pavement cell development, vegetative phase change or the floral transition. We further identified the atypical protein kinase WNK8 to physically interact with EDM2 in nuclei. Microarray data support regulatory interactions between WNK8 and EDM2 as well as their functional association with the autonomous floral promotion pathway. To assess interactions between EDM2 and WNK8 at the transcriptome level, we profiled transcript patterns of Col-0, edm2-2, wnk8-1, wnk8-2, wnk8-3 and an edm2-2 complementation line pXVE:HA-EDM2-a seedlings using Affymetrix ATH1 whole genome arrays. Plant materials were grown under short day conditions for 2 weeks. Total RNA was isolated from untreated seedlings and hybridized to the GeneChip following the manufacturer's instructions. Each genotype has three independent biological replicates.							
+Date of Experiment								
+Term Source Name	EFO							
+Term Source Version								
+Term Source File	http://www.ebi.ac.uk/efo/efo.owl							
+Person Last Name	Tsuchiya	Tsuchiya	Eulgem					
+Person First Name	Tokuji	Tokuji	Thomas					
+Person Mid Initials								
+Person Email	tokujit@ucr.edu							
+Person Affiliation	University of California at Riverside							
+Person Phone								
+Person Fax								
+Person Address	Botany and Plant Sciences, University of California at Riverside, 3220 Batchelor Hall, University of California at Riverside, Riverside, CA, USA							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Person Roles Term Accession Number								
+Normalization Type								
+Normalization Term Accession Number								
+Normalization Term Source REF								
+Replicate Type								
+Replicate Term Accession Number								
+Replicate Term Source REF								
+Experimental Design								
+Experimental Design Term Accession Number								
+Experimental Design Term Source REF								
+Quality Control Type								
+Quality Control Term Accession Number								
+Quality Control Term Source REF								
+Protocol Name	P-GSE17499-1	P-GSE17499-6	P-GSE17499-3	P-GSE17499-8	P-GSE17499-7	P-GSE17499-2	P-GSE17499-4	P-GSE17499-5
+Protocol Description	ID_REF = <br>VALUE = log2 RMA signal intensity	Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45C on GeneChip Drosophila Genome Array. GeneChips were washed and stained in the Affymetrix Fluidics Station 450.	Arabidopsis plants were grown at 22 °C under short day conditions (8 hr light/16 hr dark)	Data was processed in the statistical programming environment R using Bioconductor packages. Raw expression values were normalized using the robust multichip averaging algorithm.	GeneChips were scanned using the GeneChip Scanner 3000 with 7G upgrade	Untreated.	Total RNA was isolated from seedlings using TRIzol Reagenet (Invitrogen) and further purified with RNeasy Plant mini kit columns (Qiagen) according to the protocols supplied by the manufacturers.	Biotinylated cRNA were prepared according to the standard 1 cycle Affymetrix protocol from 6 ug total RNA (Expression Analysis Technical Manua, REV3, Affymetrix).
+Protocol Software								
+Protocol Hardware								
+Protocol Contact								
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Protocol Term Source REF								
+Protocol Term Accession Number								
+Experimental Factor Name	genotype							
+Experimental Factor Type	genotype							
+Experimental Factor Term Source REF								
+Experimental Factor Term Accession Number								
+Publication Title	Co-option of EDM2 to distinct regulatory modules in Arabidopsis thaliana development							
+Publication Author List	Tsuchiya T, Eulgem T							
+PubMed ID	20840782							
+Publication DOI	10.1186/1471-2229-10-203							
+Publication Status								
+Publication Status Term Source REF								
+Publication Status Term Accession Number								
+Comment[SecondaryAccession]	GSE17499							
+Comment[GEOLastUpdateDate]	2010-09-20							
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[GEOReleaseDate]	2010-09-19							
+Comment[ArrayExpressSubmissionDate]	2009-08-03							
+SDRF File	E-GEOD-17499.sdrf.txt							

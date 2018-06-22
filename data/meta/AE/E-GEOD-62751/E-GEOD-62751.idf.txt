@@ -1,0 +1,25 @@
+Comment[ArrayExpressAccession]	E-GEOD-62751
+MAGE-TAB Version	1.1						
+Public Release Date	2014-10-28
+Investigation Title	Arabidopsis thaliana Col-0 leaf and root transcriptome response to Agrobacterium tumefaciens C58						
+Comment[Submitted Name]	Arabidopsis thaliana Col-0 leaf and root transcriptome response to Agrobacterium tumefaciens C58
+Experiment Description	This SuperSeries is composed of the SubSeries listed below. Refer to individual Series						
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Yuan						
+Person First Name	Ze-Chun						
+Person Email	ze-chun.yuan@AGR.GC.ca						
+Person Affiliation	Southern Crop Protection and Food Research Center, Agricultre and Agri-Foods Canada						
+Person Address	Microbiology, Southern Crop Protection and Food Research Center, Agricultre and Agri-Foods Canada, 1391 Sanford Street, London, Ontario, Canada						
+Person Roles	submitter						
+Protocol Name	P-GSE62751-1	P-GSE62751-5	P-GSE62751-6	P-GSE62751-2	P-GSE62751-3	P-GSE62751-4	P-GSE62751-7
+Protocol Description	The data were analzyed using the Affymetrix Command Console v3.2.4 using the RMA algorithm. ID_REF =  VALUE = RMA signal	Single stranded amplified RNA (aRNA) was prepared from 500 ng of total RNA as per the Affymetrix 3' IVT Express kit manual (Affymetrix, Santa Clara, CA).	12.5μg of fragmented end-labeled aRNA was hybridized for 16 hours at 45�C to Arabidopsis Genome ATH1 arrays for five cycles in 2x SSC and three cylces in 0.1x SSC.	Seedlings were inoculated with Agrobacterium tumefaciens C58 (5μL at an OD600 1.5) and cocultivated for 8 hours.	Arabidopsis seedlings were spotted onto semi-solid Murashige-Skoog plates for germination and growth in 16/8 hour light-dark periods with 24/18 degrees celsius. At 3 weeks, seedlings were transferd into hydroponic system and sustained by liquid MS media.	Qiagen Plant RNeasy column based extraction was performed according to the manufacturere's protocol.	GeneChips were scanned using a GeneChip Scanner 3000 7G.
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	organism part						
+Experimental Factor Type	organism part						
+Comment[SecondaryAccession]	GSE62751						
+Comment[GEOReleaseDate]	2014-10-28						
+Comment[ArrayExpressSubmissionDate]	2014-10-27						
+Comment[GEOLastUpdateDate]	2014-10-29						
+Comment[AEExperimentType]	transcription profiling by array						
+SDRF File	E-GEOD-62751.sdrf.txt

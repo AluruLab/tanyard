@@ -1,0 +1,57 @@
+Comment[ArrayExpressAccession]	E-GEOD-22951
+Public Release Date	2011-12-31							
+Investigation Title	Transcript profiling of three genotypes by ultraviolet-B (UV-B) radiation							
+Comment[Submitted Name]	Transcript profiling of three genotypes by ultraviolet-B (UV-B) radiation
+Experiment Description	Due to ever increasing environmental deterioration it is likely that influx of solar UV-B radiation (280-320 nm) will increase further due to the depletion of stratospheric ozone. Given this fact it becomes essential that we better understand both rapid and adaptive responses of plants to UV-B imposed stress. Here we compare the transcriptmic responses of wild type Arabidopsis to that of Arabidopsis mutants impaired in flavonoid (TRANSPARENT TESTA4 [tt4] or sinapoyl-malate (sinapoylglucose accumulator 1 [sng1]) biosynthesis, to a short, 24h exposure to this photo-oxidative stress. In control experiments we subjected the same genotypes to 24h treatments of continuous light. Total 18 samples; number of biological replicates, n = 3 each; 2 different light treatments; three genotypes							
+Date of Experiment								
+Term Source Name	EFO
+Term Source Version								
+Term Source File	http://www.ebi.ac.uk/efo/efo.owl							
+Person Last Name	Kusano	Kusano	Otsuki					
+Person First Name	Miyako	Miyako	Hitomi					
+Person Mid Initials								
+Person Email	mkusano005@psc.riken.jp							
+Person Affiliation	RIKEN, PSC							
+Person Phone	+81-45-503-9442							
+Person Fax	+81-45-503-9489							
+Person Address	Metabolomics research group, RIKEN, PSC, 1-7-22, Suehiro, Tsurumi, Yokohama, Kanagawa, Japan							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Person Roles Term Accession Number								
+Normalization Type								
+Normalization Term Accession Number								
+Normalization Term Source REF								
+Replicate Type								
+Replicate Term Accession Number								
+Replicate Term Source REF								
+Experimental Design								
+Experimental Design Term Accession Number								
+Experimental Design Term Source REF								
+Quality Control Type								
+Quality Control Term Accession Number								
+Quality Control Term Source REF								
+Protocol Name	P-GSE22951-1	P-GSE22951-6	P-GSE22951-3	P-GSE22951-8	P-GSE22951-7	P-GSE22951-2	P-GSE22951-4	P-GSE22951-5
+Protocol Description	ID_REF = <br>VALUE = Signal<br>ABS_CALL = indicating whether the transcript was present (P), absent (A), or marginal (M)<br>DETECTION P-VALUE = 	Standard Affymetrix procedures	16 h light, 8 h dark, 22°C	GCOS1.2	Standard Affymetrix procedures	two different light treatments	Total RNA was prepared using RNeasy Plant Mini Kit (Qiagen) according to the manufacturer's instructions.	Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 10 μg of total RNA.
+Protocol Software								
+Protocol Hardware								
+Protocol Contact								
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Protocol Term Source REF								
+Protocol Term Accession Number								
+Experimental Factor Name	STRESS	GENOTYPE/VARIATION						
+Experimental Factor Type	stress	genotype/variation						
+Experimental Factor Term Source REF								
+Experimental Factor Term Accession Number								
+Publication Title								
+Publication Author List								
+PubMed ID								
+Publication DOI								
+Publication Status								
+Publication Status Term Source REF								
+Publication Status Term Accession Number								
+Comment[SecondaryAccession]	GSE22951							
+Comment[GEOLastUpdateDate]	2012-01-01
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[GEOReleaseDate]	2011-12-31
+Comment[ArrayExpressSubmissionDate]	2010-07-14
+SDRF File	E-GEOD-22951.sdrf.txt

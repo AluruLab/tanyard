@@ -1,0 +1,52 @@
+Investigation Title	Transcription profiling by array of Arabidopsis expressing Cladosporium fulvum virulence protein Avr2					
+Comment[Submitted Name]	C. fulvum Avr2					
+Experimental Design	genetic modification design	transcription profiling by array				
+Experimental Design Term Source REF		EFO				
+Comment[AEExperimentType]	transcription profiling by array					
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis expressing Cladosporium fulvum virulence protein Avr2					
+Comment[ArrayExpressReleaseDate]	2008-10-26					
+Comment[SecondaryAccession]	GSE10801					
+Comment[AEMIAMESCORE]	3					
+Comment[ArrayExpressAccession]	E-GEOD-10801					
+Comment[MAGETAB TimeStamp_Version]	2010-07-29 22:13:01 Last Changed Rev: 13058					
+Experimental Factor Name	genotype					
+Experimental Factor Type	genotype					
+Experimental Factor Term Source REF						
+Person Last Name	Thomma					
+Person First Name	Bart					
+Person Mid Initials						
+Person Email	Bart.thomma@wur.nl					
+Person Phone						
+Person Fax						
+Person Address	"Phytopathology, Plant Sciences, Wageningen University, Binnenhaven 5, Wageningen, 6709 PD, The Netherlands"					
+Person Affiliation	Wageningen University					
+Person Roles	submitter					
+Person Roles Term Source REF	The MGED Ontology					
+Quality Control Type						
+Quality Control Term Source REF						
+Replicate Type						
+Replicate Term Source REF						
+Normalization Type						
+Normalization Term Source REF						
+Date of Experiment						
+Public Release Date	2008-10-26					
+PubMed ID	18660430					
+Publication DOI	10.1105/tpc.108.059394					
+Publication Author List	"H Peter van Esse, John W Van't Klooster, Melvin D Bolton, Koste A Yadeta, Peter van Baarlen, Sjef Boeren, Jacques Vervoort, Pierre J G M de Wit, Bart P H J Thomma"					
+Publication Title	The Cladosporium fulvum virulence protein Avr2 inhibits host proteases required for basal defense.					
+Publication Status	published					
+Publication Status Term Source REF	EFO					
+Publication Status Term Accession Number	EFO_0001796					
+Experiment Description	Heterologous expression of the fungal pathogen Cladosporium fulvum Avr2 in Arabidopsis plants. Experiment Overall Design: Samples used for microarray analyses were replicated three times in independent experiments and each replication consisted of 10 Avr2-expressing Arabidopsis plants and 10 Col-0 plants grown for four weeks under standard greenhouse conditions					
+Protocol Name	P-G10801-2	P-G10801-1	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6	Affymetrix:Protocol:ExpressionStat	
+Protocol Type	nucleic_acid_extraction	labeling	hybridization	feature_extraction	bioassay_data_transformation	
+Protocol Description	Trizol+Machery nagel Kit	Affymetrix 1 cycle target	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 	
+Protocol Parameters						
+Protocol Hardware						
+Protocol Software			MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact						
+Protocol Term Source REF			mo		The MGED Ontology	
+SDRF File	E-GEOD-10801.sdrf.txt					
+Term Source Name	NCBI Taxonomy	The MGED Ontology	ArrayExpress	EFO	The MGED Ontology	mo
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version						

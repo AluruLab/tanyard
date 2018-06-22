@@ -1,0 +1,37 @@
+Comment[ArrayExpressAccession]	E-MEXP-3293					
+Investigation Title	Transcriptomic characterization of a synergistic genetic interaction during carpel margin meristem development					
+Comment[Submitted Name]	Transcriptomic characterization of a synergistic genetic interaction during carpel margin meristem development					
+Comment[AEExperimentType]	transcription profiling by array					
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for ant1 and seu3					
+Comment[MIAMExpressLogin]	anwynn2					
+Comment[MIAMExpressSubmissionID]	7650					
+Experiment Description	We were testing the expression differences of seuss, aintegumenta, and double mutants in stage 8-10 dissected carpels from Arabidopsis thaliana. 					
+Experimental Design	organism_part_comparison_design	co-expression_design	individual_genetic_characteristics_design	replicate_design		
+Experimental Factor Name	genotype					
+Experimental Factor Type	genotype					
+Person Last Name	Wynn					
+Person First Name	April					
+Person Mid Initials	N					
+Person Email	anwynn2@ncsu.edu					
+Person Phone	919-513-0462					
+Person Affiliation	NC State University					
+Person Address	Genetics, Campus Box 7614, Raleigh, North Carolina, 27695-76, USA					
+Person Roles	submitter					
+Person Roles Term Source REF	MGED Ontology					
+Quality Control Type	spike_quality_control	biological_replicate				
+Public Release Date	2011-08-01					
+Comment[ArrayExpressSubmissionDate]	2011-06-30 21:42:23					
+Pubmed ID	22031826					
+Publication DOI	10.1371/journal.pone.0026231					
+Publication Author List	Wynn AN, Rueschhoff EE, Franks RG.					
+Publication Title	Transcriptomic characterization of a synergistic genetic interaction during carpel margin meristem development in Arabidopsis thaliana.					
+Publication Status	published					
+Publication Status Term Source REF	EFO					
+Publication Status Term Accession Number	EFO_0001796					
+Protocol Name	P-MTAB-21664	P-MTAB-21665	P-AFFY-2	P-AFFY-6	Affymetrix:Protocol:Hybridization-Unknown	Affymetrix:Protocol:ExpressionStat
+Protocol Description	We used Plant RNeasy from Qiagen for all RNA extractions. <br>(Parameters: Extracted product = total_RNA, Amplification = none)	Grow in growth chamber. Randomize location of trays with in the growth chamber to manage a location of growth effect. <br>(Parameters: start time = 5, stop time = 8, time unit = weeks, min temperature = 18, max temperature = 24, temperature unit = C, media = soil with vermiculite)				
+Protocol Type	nucleic_acid_extraction	grow	feature_extraction	feature_extraction	hybridization	bioassay_data_transformation
+Protocol Term Source REF	MGED Ontology	MGED Ontology				
+Term Source Name	MGED Ontology	ArrayExpress	EFO			
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk			
+SDRF File	E-MEXP-3293.sdrf.txt					

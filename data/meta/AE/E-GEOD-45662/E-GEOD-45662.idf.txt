@@ -1,0 +1,30 @@
+Comment[ArrayExpressAccession]	E-GEOD-45662
+MAGE-TAB Version	1.1							
+Public Release Date	2013-04-02
+Investigation Title	Expression data from arabidopsis wild type (Col-0) and JAV1 RNAi plant							
+Comment[Submitted Name]	Expression data from arabidopsis wild type (Col-0) and JAV1 RNAi plant
+Experiment Description	JAV1 functions as a negative regulator to control plant defense. Defense-related genes were highly induced in JAV1 RNAi plants compared to wild-type plants in response to wounding or jasmonate treatments. We used microarrays to detail the global programme of gene expression underlying JAV1 effects on expression of genes involving in defense response, lipid metabolism and regulating transcription. For the Affymetrix microarray assay with 100 uM MeJA treatment, 21-day-old seedlings grown in MS medium were treated with 100 μM MeJA for various time periods (0, 1, and 4 hours). For the Affymetrix microarray assay with wounding treatment, JAV1 RNAi line Ri17 versus wild-type was utilized after mechanical wounding for various time periods. Four rosette leaves from 21-day-old plants were crushed across the midrib with a forceps. About 30% of each leaf was damaged. Wounded leaves were harvested at various time periods (0, 0.5, and 1 hour) for RNA extraction. Control plants were untreated and leaves were harvested for RNA extraction.							
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl						
+Person Last Name	Xie	Hu	Zhou	Xie				
+Person First Name	Daoxin	Po	Wu	Daoxin				
+Person Email	hup06@mails.tsinghua.edu.cn							
+Person Affiliation	tsinghua univercity							
+Person Address	tsinghua univercity, tsinghua univercity, Beijing, China							
+Person Roles	submitter							
+Protocol Name	P-GSE45662-1	P-GSE45662-6	P-GSE45662-3	P-GSE45662-8	P-GSE45662-7	P-GSE45662-2	P-GSE45662-4	P-GSE45662-5
+Protocol Description	ID_REF =  VALUE = signal	Following fragmentation, cRNA were hybridized for 16 hr at 45℃ on GeneChip Arabidopsis Array. GeneChips were washed and stained in the Affymetrix Fluidics Station 400.	21-day-old Arabidopsis seedlings grown in MS medium.	The data were analyzed with GCOS. Each experiment was represented by two biological replicates. The correction and normalization of the expression data were performed by calculating Pearson’s coefficient. Criteria for selection of differentially expressed genes at one time point were log ratio > 1. Only data from microarrays with very good technical quality were used for calculating and drawing cluster tree using Cluster Tree View soft (Alok Saldanha at Stanford University).	GeneChips were scanned using the SCAN3000.	For MeJA treatment, 21-day-old seedlings were treated with 100 μM MeJA for various time periods (0, 1, and 4 hours). treated leaves were harvested at various time periods. For wounding treatment, four rosette leaves from 21-day-old plants were crushed across the midrib with a forceps. About 30% of each leaf was damaged. Wounded leaves were harvested at various time periods (0, 0.5, and 1 hour) for RNA extraction.Control plants were untreated and leaves were harvested for RNA extraction.	Trizol extraction of total RNA was performed according to the manufacturer's instructions.	Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 8 ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Experimental Factor Name	GENOTYPE							
+Experimental Factor Type	genotype							
+Comment[SecondaryAccession]	GSE45662							
+Comment[GEOReleaseDate]	2013-04-02							
+Comment[ArrayExpressSubmissionDate]	2013-04-01							
+Comment[GEOLastUpdateDate]	2013-04-03							
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[AdditionalFile:Data1]	GSE45662_R17_JA-W_0_vs_Col-0_JA-W_0.txt							
+Comment[AdditionalFile:Data2]	GSE45662_R17_JA_1h_vs_Col-0_JA_1h.txt							
+Comment[AdditionalFile:Data3]	GSE45662_R17_JA_4h_vs_Col_-0_JA_4h.txt							
+Comment[AdditionalFile:Data4]	GSE45662_R17_W_30_vs_Col-0W_30.txt							
+Comment[AdditionalFile:Data5]	GSE45662_R17_W_60_vs_Col-0_W_60.txt							
+SDRF File	E-GEOD-45662.sdrf.txt

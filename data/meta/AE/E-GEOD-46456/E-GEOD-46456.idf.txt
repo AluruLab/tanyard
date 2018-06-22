@@ -1,0 +1,26 @@
+Comment[ArrayExpressAccession]	E-GEOD-46456					
+MAGE-TAB Version	1.1					
+Public Release Date	2014-07-01					
+Comment[AEExperimentDisplayName]	"Transcription profiling by array of Arabidopsis wild type, brassinosteroid insensitive1 mutant (bri1-5), long-hypocotyl mutant phytochrome B (gul2-1/phyB-77), and bri1-5 gul2-1 double mutant to study gene expression controlled by light and brassinosteroids"					
+Investigation Title	Analysis of gene expression controlled by light and brassinosteroids					
+Comment[Submitted Name]	Analysis of gene expression controlled by light and brassinosteroids					
+Experiment Description	"Plant photomorphogenesis and skotomorphogenesis depend on interplay of various plant hormones. Brassinosteroids (BRs) play crucial roles during hypocotyl establishment both in the light and darkness. Arabidopsis brassinosteroid insensitive1 (bri1-5) is a partial loss-of-function mutant, and the short-hypocotyl phenotype of bri1-5 is greatly suppressed by a long-hypocotyl mutant phytochrome B (pbyB-77) at the double mutant for the two in the light conditions to display additive phenotypes of both. To identify the genes responsible for this genetic interaction, we employed microarray analysis with the RNAs prepared from wild type, bri1-5, phyB-77, and bri1-5 phyB-77 double mutant. Microarray analysis supported the notion that PHYB acts upstream of BRs. Total RNAs were isolated from four different genotypes: wild type, bri1-5, gul2-1/phyB-77, bri1-5 gul2-1 double mutant, and the RNAs were subjected to microarray analysis using Affymetrix GenChip arrays. Three biological replicates for each genotype resulted in 12 experiments."					
+Term Source Name	ArrayExpress	EFO				
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl				
+Person Last Name	Choe	Choe	Kim	Cho	Park	
+Person First Name	Sunghwa	Sunghwa	Bokyung	Seoae	Taesung	
+Person Email	shchoe@snu.ac.kr					
+Person Affiliation	Seoul National University					
+Person Address	"Biological sciences, Seoul National University, Gwanak-Gu Shillim-Dong, Seoul, South Korea"					
+Person Roles	submitter					
+Protocol Name	P-GSE46456-1	P-GSE46456-4	P-GSE46456-5	P-GSE46456-2	P-GSE46456-3	P-GSE46456-6
+Protocol Description	"All raw data from each array were processed by background correction and quantile normalization using CodeLink from the R package (Gautier et al., 2004). In addition, all array data were processed to calculate the robust multi-array average (RMA) (Irizarry et al., 2003) using AFFY (Gautier et al., 2004). Expression values were computed by applying the RMA model of probespecific correction to perfect-match probes. These corrected probe values were then subjected to quantile normalization (Bolstad et al., 2003). The resulting RMA expression values were log2  ransformed. ID_REF =  VALUE = log2 RMA"	"Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 6 ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix)."	"Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45C on GeneChip Arabidopsis (ATH1) GenChip Array. GeneChips were washed and stained in the Affymetrix Fluidics Station 400."	Arabidopsis seedlings of each genotype were grown in controlled environment of growth chamber. Seedlings were grown for 7 days under continuous red light.	Total RNAs were prepared using Quiagen Rneasy kit	GeneChips were scanned using the Hewlett-Packard GeneArray Scanner G2500A.
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	genotype					
+Experimental Factor Type	genotype					
+Comment[SecondaryAccession]	GSE46456					
+Comment[GEOReleaseDate]	2014-07-01					
+Comment[ArrayExpressSubmissionDate]	2013-04-29					
+Comment[GEOLastUpdateDate]	2014-07-02					
+Comment[AEExperimentType]	transcription profiling by array					
+SDRF File	E-GEOD-46456.sdrf.txt					

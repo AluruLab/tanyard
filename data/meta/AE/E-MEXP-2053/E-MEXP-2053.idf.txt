@@ -1,0 +1,49 @@
+Investigation Title	Transcription profiling of Arabidopsis above ground tissues with altered expression levels of the wri1 gene	
+Comment[Submitted Name]	Transcription profiling of Arabidopsis above ground tissues altered expression levels of wri1 gene	
+Experimental Design	genetic_modification_design	co-expression_design	replicate_design	transcription profiling by array	
+Experimental Design Term Source REF	The MGED Ontology	The MGED Ontology	The MGED Ontology	EFO	
+Comment[SecondaryAccession]		
+Comment[ArrayExpressReleaseDate]	2009-03-20	
+Comment[AEMIAMESCORE]	4	
+Comment[ArrayExpressAccession]	E-MEXP-2053	
+Comment[MAGETAB TimeStamp_Version]	2010-09-07 00:10:52 Last Changed Rev: 13833	
+Experimental Factor Name	GENOTYPE	
+Experimental Factor Type	genotype	
+Experimental Factor Term Source REF	
+Person Last Name	Maeo	
+Person First Name	Kenichiro	
+Person Mid Initials	
+Person Email	maeo@agr.nagoya-u.ac.jp	
+Person Phone	052-789-4098	
+Person Fax	
+Person Address	Lab. of Biochemistry, Grad. Sch. of Bioagri. Sci., chikusa, Furo-cho, Nagoya, Aichi, 464-8601, Japan	
+Person Affiliation	Nagoya Univ.	
+Person Roles	submitter	
+Person Roles Term Source REF	The MGED Ontology	
+Quality Control Type	biological_replicate	
+Quality Control Term Source REF	The MGED Ontology	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2009-03-20	
+PubMed ID	
+Publication DOI	
+Publication Author List	
+Publication Title	
+Publication Status	
+Publication Status Term Source REF	
+Experiment Description	Global gene expression patterns were compared among control sGsL, wri1, 35S-ASML1, Enh-ASML1 of A. thaliana using above ground tissues of 2 weeks-old plants.	
+Protocol Name	P-MTAB-3223	P-MTAB-3222	P-AFFY-2	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6	
+Protocol Type	nucleic_acid_extraction	grow	labeling	hybridization	feature_extraction	
+Protocol Description	Total RNAs used for microarray analyses were prepared from the aboveground tissues of 2-week-old plants of the sGsL, Enh-ASML1, and 35S-ASML1 lines using Trizol reagent (Invitrogen), and subsequently purified using an RNeasy Plant Mini Kit (Qiagen) as described.<br>(Parameters: Extracted product = total_RNA, Amplification = none)	Arabidopsis seeds were kept at 4ºC for 4 days, sterilized in sterile<br><br>water, and sown on 0.3% gellan gum plates containing Murashige-Skoog medium (pH 5.8), 100 mg/L myo-inositol, 10 mg/L thiamine-HCl, 1 mg/L nicotinic acid, 1 mg/L pyridoxine-HCl, and 1% sucrose. Plates were incubated in a growth chamber at 22ºC under continuous fluorescent light at an intensity of 50 ?mol/m2/s.<br>(Parameters: start time = 2, time unit = weeks, min temperature = 22, temperature unit = C)	Title: Affymetrix in vitro transcription. Description: 	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	
+Protocol Parameters	
+Protocol Hardware	
+Protocol Software				MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact	
+Protocol Term Source REF				mo	
+SDRF File	E-MEXP-2053.sdrf.txt	
+Term Source Name	The MGED Ontology		NCBI Taxonomy	tair_dev:1.27	ArrayExpress	The MGED Ontology	EFO	mo	
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php		http://www.ncbi.nlm.nih.gov/Taxonomy/	http://www.arabidopsis.org/info/ontologies/	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version				1.27					

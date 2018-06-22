@@ -1,0 +1,30 @@
+Comment[ArrayExpressAccession]	E-MEXP-3754
+Investigation Title	systemic signal																									
+Comment[Submitted Name]	systemic signal
+Comment[AEExperimentDisplayName]	Transcription profiling by array of A. thaliana wild type plants to investigate local stress responses (heat, high light or wounding)																									
+Comment[MIAMExpressLogin]	nsuzuki77																									
+Comment[MIAMExpressSubmissionID]	8462																									
+Experiment Description	Effects of local stress treatments (heat, high light or wounding) on transcripts in systemic tissues in Arabidopsis																									
+Experimental Design	co-expression_design	stimulus_or_stress_design	all_pairs																							
+Comment[AEExperimentType]	transcription profiling by array																									
+Experimental Factor Name	environmental stress																									
+Experimental Factor Type	environmental stress																									
+Person Last Name	Suzuki																									
+Person First Name	Nobuhiro																									
+Person Email	nsjoinlu@gmail.com																									
+Person Phone	940-369-7446																									
+Person Affiliation	University of North Texas																									
+Person Address	Biological Sciences, 1155 Union Circle #305220, Denton, TX, 76203, USA																									
+Person Roles	submitter																									
+Person Roles Term Source REF	MGED Ontology																									
+Quality Control Type																										
+Public Release Date	2013-10-08																									
+Comment[ArrayExpressSubmissionDate]	2012-10-08																									
+Publication Status	not yet submitted																									
+Protocol Name	P-MTAB-28780	P-MTAB-28781	P-MTAB-28782	P-MTAB-28780	P-AFFY-2	Affymetrix:Protocol:Hybridization-EukGE-WS2[]	P-AFFY-6	Affymetrix:Protocol:MAS4:ExpressionCall
+Protocol Description	Three independent biological replicates, each composed of leaves pooled from at least 28 different plants, were used per experimental condition.	Total RNA was extracted from 50 to 100mg of tissues using Trizol. RNA samples were then purified using RNeasy mini kit.<br>(Parameters: Extracted product = total_RNA, Amplification = none)	Two rosette leaves were treated with heat (40C), high light (1000uE) or wounding and meristems were sampled at 15 and 45min following stress treatment. Samples were also collected in parallel from plants that were exposed to control treatments corresponding to each stress. 	Arabidopsis Col-0 plants were grown on peat pellet for 3 weeks under controlled conditions (21C, 16h light).<br>(Parameters: time unit = seconds, temperature unit = C)	labeling	hybridization	image_acquisition	bioassay_data_transformation																		
+Protocol Type	pool	nucleic_acid_extraction	specified_biomaterial_action	grow																						
+Protocol Term Source REF	MGED Ontology	MGED Ontology	MGED Ontology	MGED Ontology	ArrayExpress	ArrayExpress	ArrayExpress	ArrayExpress																		
+Term Source Name	MGED Ontology	ArrayExpress
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress																								
+SDRF File	E-MEXP-3754.sdrf.txt

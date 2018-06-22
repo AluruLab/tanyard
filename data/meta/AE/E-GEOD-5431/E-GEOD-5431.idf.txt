@@ -1,0 +1,50 @@
+Investigation Title	Transcription profiling of Arabidopsis with post-transcriptionally silenced Myosin XI-K	
+Comment[Submitted Name]	Expression profiling of A.thaliana with the posttranscriptionally silenced Myosin XI-K	
+Experimental Design	cellular_modification_design	transcription profiling by array	
+Experimental Design Term Source REF		EFO	
+Comment[ArrayExpressReleaseDate]	2008-06-13	
+Comment[SecondaryAccession]	GSE5431	
+Comment[SecondaryAccession]	GDS2262	
+Comment[AEMIAMESCORE]	4	
+Comment[ArrayExpressAccession]	E-GEOD-5431	
+Comment[MAGETAB TimeStamp_Version]	2010-08-06 16:07:49 Last Changed Rev: 13058	
+Experimental Factor Name	Compound	
+Experimental Factor Type	RNAi	
+Experimental Factor Term Source REF	
+Person Last Name	Peremyslov	
+Person First Name	Valera	
+Person Mid Initials	
+Person Email	peremisv@bcc.orst.edu	
+Person Phone	
+Person Fax	
+Person Address	Botany and Plant Pathology, Oregon State University, 2082 Cordley Hall, Corvallis, 97331, USA	
+Person Affiliation	Oregon State University	
+Person Roles	submitter	
+Person Roles Term Source REF		
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2008-06-13	
+PubMed ID	
+Publication DOI	
+Publication Author List	
+Publication Title	
+Publication Status	
+Publication Status Term Source REF	
+Experiment Description	This study was aimed to determine roles of individual myosins in organelle trafficking in plant cell.  Expression of Myosin XI-K was suppressed in transgenic A.thaliana by using RNAi approach. To ensure that the RNAi-induced gene silencing was specific and did not affect expression of other myosins, a microarray analysis was performed.  Experiment Overall Design: Total RNA was purified from A.thaliana plants transformed with an inverted repeat construct harbouring a sequence derived from Myosin XI-K ORF. 3 independent groups of plants were used for comparison of the expression profiles of 17 myosin RNAs to a control group comprised of plants constitutively expressing GUS ORF as a transgene.	
+Protocol Name	P-G5431-2	P-G5431-1	
+Protocol Type	nucleic_acid_extraction	labeling	
+Protocol Description	Total RNA was purified using RNeasy Plant Mini kit (QIAGEN). 5 mkg of total RNA was used to generate biotinylated complementary RNA (cRNA) using the One-Cycle Target Labeling protocol (Affymetrix, Santa Clara, CA) from the GeneChip Expression Analysis Technical Manual ( 701021 Rev. 5 ).	Biotinylated cRNA was synthesized from the double stranded cDNA using T7 RNA polymerase and a biotin-conjugated pseudouridine containing nucleotide mixture provided in the IVT Labeling Kit (Affymetrix, Santa Clara, CA) .	
+Protocol Parameters	
+Protocol Hardware	
+Protocol Software	
+Protocol Contact	
+Protocol Term Source REF	
+SDRF File	E-GEOD-5431.sdrf.txt	
+Term Source Name	NCBI Taxonomy	The MGED Ontology	ArrayExpress	EFO	
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	
+Term Source Version					

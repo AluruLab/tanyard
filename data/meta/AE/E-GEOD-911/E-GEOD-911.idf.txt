@@ -1,0 +1,53 @@
+Investigation Title	Transcription profiling of Arabidopsis LEAFY mutant seedlings treated with dexamethasone and/or cycloheximide									
+Comment[Submitted Name]	Identification of LEAFY targets during reproductive transition									
+Experimental Design	individual_genetic_characteristics_design	compound_treatment_design	co-expression_design	transcription profiling by array						
+Experimental Design Term Source REF		mo	mo	EFO						
+Comment[AEExperimentType]	transcription profiling by array									
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for LEAFY after treatment with dexamethasone and/or cycloheximide									
+Comment[ArrayExpressReleaseDate]	2007-07-12									
+Comment[SecondaryAccession]	GSE911									
+Comment[AEMIAMESCORE]	5									
+Comment[SecondaryAccession]	GDS515									
+Comment[ArrayExpressAccession]	E-GEOD-911									
+Comment[MAGETAB TimeStamp_Version]	2010-08-09 12:51:45 Last Changed Rev: 13058									
+Experimental Factor Name	TREATMENT	GENOTYPE								
+Experimental Factor Type	treatment	genotype								
+Experimental Factor Term Source REF										
+Person Last Name	Wagner									
+Person First Name	Doris									
+Person Mid Initials										
+Person Email	wagnerdo@sas.upenn.edu									
+Person Phone										
+Person Fax										
+Person Address	Biology,University of Pennsylvania, ,Philadelphia,19104,USA									
+Person Affiliation	University of Pennsylvania									
+Person Roles	submitter									
+Person Roles Term Source REF										
+Quality Control Type										
+Quality Control Term Source REF										
+Replicate Type										
+Replicate Term Source REF										
+Normalization Type										
+Normalization Term Source REF										
+Date of Experiment										
+Public Release Date	2007-07-12									
+PubMed ID	14736918									
+Publication DOI	10.1073/pnas.0307842100 									
+Publication Author List	Dilusha A William,Yanhui Su,Michael R Smith,Meina Lu,Don A Baldwin,Doris Wagner									
+Publication Title	Genomic identification of direct target genes of LEAFY.									
+Publication Status	published									
+Publication Status Term Source REF	EFO									
+Publication Status Term Accession Number	EFO_0001796									
+Experiment Description	Global analysis of gene expression in 9 day old LEAFY-GR, 35S::LFY or  Landsberg erecta seedlings treated with the steroid dexamethasone and/or the protein synthesis inhibitor cycloheximide.									
+Protocol Name	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6								
+Protocol Type	hybridization	feature_extraction								
+Protocol Description	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 								
+Protocol Parameters										
+Protocol Hardware										
+Protocol Software	MicroArraySuite 5.0	MicroArraySuite 5.0								
+Protocol Contact										
+Protocol Term Source REF	mo									
+SDRF File	E-GEOD-911.sdrf.txt									
+Term Source Name	NCBI Taxonomy	mo		tair_dev:1.27	The MGED Ontology	ArrayExpress	NCI_thesaurus	mo	EFO	The MGED Ontology
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php		http://www.arabidopsis.org/info/ontologies/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	ncithesaurus.obo.alt	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version				1.27						

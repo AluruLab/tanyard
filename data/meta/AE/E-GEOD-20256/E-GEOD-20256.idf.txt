@@ -1,0 +1,49 @@
+Investigation Title	Polycomb mutant seedlings	
+Comment[Submitted Name]	Polycomb mutant seedlings	
+Experimental Design	transcription profiling by array	
+Experimental Design Term Source REF	EFO	
+Comment[SecondaryAccession]	GSE20256	
+Comment[ArrayExpressReleaseDate]	2010-04-28	
+Comment[AEMIAMESCORE]	4	
+Comment[ArrayExpressAccession]	E-GEOD-20256	
+Comment[MAGETAB TimeStamp_Version]	2010-08-04 03:51:42 Last Changed Rev: 13058	
+Experimental Factor Name	STOCK CODE	GENOTYPE	
+Experimental Factor Type	stock code	genotype	
+Experimental Factor Term Source REF	
+Person Last Name	(NASC)	Goodrich	
+Person First Name	Nottingham Arabidopsis Stock Centre	Justin	
+Person Mid Initials	
+Person Email	affy@arabidopsis.info	
+Person Phone	
+Person Fax	
+Person Address	School of Biosciences, University of Nottingham, Nottingham Arabidopsis Stock Centre (NASC), Sutton Bonington Campus, Loughborough, LE12 5RD, United Kingdom	
+Person Affiliation	Nottingham Arabidopsis Stock Centre (NASC)	
+Person Roles	submitter	
+Person Roles Term Source REF	The MGED Ontology	
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2010-04-28	
+PubMed ID	
+Publication DOI	
+Publication Author List	
+Publication Title	
+Publication Status	
+Publication Status Term Source REF	
+Experiment Description	We have identified a histone methyltransferase gene CURLY LEAF (CLF), which is required to repress a floral homeotic gene AGAMOUS (AG).  CLF acts redundantly with a related gene SWINGER (SWN), so that clf swn double mutants have extreme, near lethal phenotypes in which expression of many target genes is disrupted.  To understand better when and where these genes act, we propose to use a system for generating mosaic plants in which marked sectors of cells are created that gain or lose CLF (or other Pc-G) gene function in SWN+ and swn- mutant backgrounds.  This will allow us to address questions such as whether the Pc-G genes are needed throughout development to silence their targets, whether they are needed once cell division has ceased, whether they can silence their targets once the targets have been activated, and whether genes that are epigenetically silenced by CLF are impervious to activating factors. Aim is to compare gene expression in wild-type and polycomb mutant seedlings. Comparison of bulked seedlings of four genotypes: wild-type (Columbia), clf-28, swn-7, clf-28 swn-7 double mutant. 8 samples were used in this experiment, 2 of each genotype. Tissue grown in tissue culture.	
+Protocol Name	P-GSE20256-2	P-GSE20256-3	P-GSE20256-4	P-GSE20256-5	P-GSE20256-6	P-GSE20256-7	P-GSE20256-1	
+Protocol Type	grow	nucleic_acid_extraction	labeling	hybridization	image_aquisition	feature_extraction	bioassay_data_transformation	
+Protocol Description	Seeds were sterilized in 70% ethanol 0.0125% Triton then washed in 90% ethanol. Seeds were plated on 9 cm 0.5g/l ms plates for 10 days for col, swn-7, and clf-28, and 12 days for the swn-7 clf-28 double mutant	Qiagen RNAeasy kit protocol	Labelled using protocol described in manual "Affymetrix GeneChip Expression Analysis Technical Manual", One-Cycle target labelling	Biotin Labelled cRNA using "Affymetrix GeneChip Hybridization, Wash and Stain Kit", according to guidelines set out by Affymetrix, Santa Clara, CA	Scanned according to guidelines set out by Affymetrix, Santa Clara, CA.	Raw data from the microarrays was normalized at probe-level using MAS5 algorithm. The detection calls (present, marginal, absent) for each probe set was obtained using the GCOS system	ID_REF = <br>VALUE = MAS5.0-calculated signal intensity<br>ABS_CALL = the call in an absolute analysis that indicates if the transcript was present (P), absent (A), or marginal (M)<br>DETECTION P-VALUE = p-value that indicates the significance level of the detection call	
+Protocol Parameters	
+Protocol Hardware	
+Protocol Software	
+Protocol Contact	
+Protocol Term Source REF						The MGED Ontology	The MGED Ontology	
+SDRF File	E-GEOD-20256.sdrf.txt	
+Term Source Name	NCBI Taxonomy		The MGED Ontology	ArrayExpress	EFO	The MGED Ontology	
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version							

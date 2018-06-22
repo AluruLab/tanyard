@@ -1,0 +1,57 @@
+Comment[ArrayExpressAccession]	E-GEOD-39385
+Public Release Date	2012-07-16							
+Investigation Title	The AtGenExpress: hormone inhibitor or other chemical treatment of seedlings in Arabidopsis							
+Comment[Submitted Name]	The AtGenExpress: hormone inhibitor or other chemical treatment of seedlings in Arabidopsis
+Experiment Description	Arabidopsis seedlings of the wild-type were treated with inhibitors. 60 samples were analyzed by Affymetrix GeneChip, ATH1. Sample correspondence between control (mock) and inhibitor treatment is described in brackets (F series or G series).							
+Date of Experiment								
+Term Source Name	EFO
+Term Source Version								
+Term Source File	http://www.ebi.ac.uk/efo/efo.owl							
+Person Last Name	Shimada	Shimada						
+Person First Name	Yukihisa	Yukihisa						
+Person Mid Initials								
+Person Email	yshimada@yokohama-cu.ac.jp							
+Person Affiliation	Yokohama City University							
+Person Phone								
+Person Fax								
+Person Address	Kihara Institute for Biological Science, Yokohama City University, Maiokacho, Totsuka, Yokohama, Kanagawa, Japan							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Person Roles Term Accession Number								
+Normalization Type								
+Normalization Term Accession Number								
+Normalization Term Source REF								
+Replicate Type								
+Replicate Term Accession Number								
+Replicate Term Source REF								
+Experimental Design								
+Experimental Design Term Accession Number								
+Experimental Design Term Source REF								
+Quality Control Type								
+Quality Control Term Accession Number								
+Quality Control Term Source REF								
+Protocol Name	P-GSE39385-1	P-GSE39385-6	P-GSE39385-3	P-GSE39385-8	P-GSE39385-7	P-GSE39385-2	P-GSE39385-4	P-GSE39385-5
+Protocol Description	ID_REF = <br>VALUE = MAS5<br>ABS_CALL = <br>Detection p-value = 	Affymetrix standard protocol	Seedlings were grown for 7 days at 23 degrees.	MAS5.0	Affymetrix Gene Array Scanner 2500A with the original setting (This means that scanning steps are conducted at a high level of sensitivity to focus on those genes that function in hormone signaling, because their transcripts are relatively less abundant. Under these conditions, signals of highly abundant transcripts may reach saturation)	Seedlings were treated with an inhibitor for 3 h or 12h.	guanidine-hydrochloride method	One-cycle target labeling reagents (Affymetrix)
+Protocol Software								
+Protocol Hardware								
+Protocol Contact								
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Protocol Term Source REF								
+Protocol Term Accession Number								
+Experimental Factor Name	TREATMENT	TIME						
+Experimental Factor Type	treatment	time						
+Experimental Factor Term Source REF								
+Experimental Factor Term Accession Number								
+Publication Title								
+Publication Author List								
+PubMed ID								
+Publication DOI								
+Publication Status								
+Publication Status Term Source REF								
+Publication Status Term Accession Number								
+Comment[SecondaryAccession]	GSE39385							
+Comment[GEOLastUpdateDate]	2012-07-17
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[GEOReleaseDate]	2012-07-15
+Comment[ArrayExpressSubmissionDate]	2012-07-15
+SDRF File	E-GEOD-39385.sdrf.txt

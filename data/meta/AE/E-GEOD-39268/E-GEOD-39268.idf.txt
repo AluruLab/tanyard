@@ -1,0 +1,32 @@
+Comment[ArrayExpressAccession]	E-GEOD-39268							
+MAGE-TAB Version	1.1							
+Public Release Date	2012-09-30							
+Investigation Title	Rosette iron deficiency transcript profiling in Arabidopsis thaliana ecotypes Kas-1 and Tsu-1							
+Comment[Submitted Name]	Rosette iron deficiency transcript profiling in Arabidopsis thaliana ecotypes Kas-1 and Tsu-1							
+Experiment Description	Iron (Fe) is an essential plant micronutrient, and its deficiency limits plant growth and development on alkaline soils.  Under Fe deficiency, plant responses include upregulation of genes involved in Fe uptake from the soil.  However, little is known about shoot responses to Fe deficiency.  Using microarrays to probe gene expression in Kas-1 and Tsu-1 ecotypes of Arabidopsis thaliana revealed conserved rosette gene expression responses to Fe deficiency. Fe regulated genes included known metal homeostasis-related genes, and a number of genes of unknown function. Kas and Tsu Arabidopsis seedlings were grown on complete media for 24 d, and then put on complete or -Fe media and collected after 24 and 48 h.							
+Term Source Name	ArrayExpress	EFO						
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl						
+Person Last Name	McInturf	Waters	McInturf	Stein				
+Person First Name	Samuel	Brian	Samuel	Ricardo				
+Person Mid Initials	Alonzo	M	A	J				
+Person Email	geo@ncbi.nlm.nih.gov							
+Person Affiliation	University of Nebraska -- Lincoln							
+Person Address	Agronomy and Horticulture, University of Nebraska -- Lincoln, 1875 North 38th street, Lincoln, Nebraska, USA							
+Person Roles	submitter							
+Protocol Name	P-GSE39268-1	P-GSE39268-6	P-GSE39268-3	P-GSE39268-8	P-GSE39268-7	P-GSE39268-2	P-GSE39268-4	P-GSE39268-5
+Protocol Description	ID_REF =  VALUE = log2 rma signal	Done according the manufacturer’s protocol	Seeds of Arabidopsis thaliana ecotypes Kas-1 and Tsu-1 were imbibed in 0.1% agar at 4degreesC for 72 h, planted onto rockwool, and grown on hydroponic solution. Lighting was provided at a photoperiod of 16 h of 150 umol m-2 s-1 4,100K fluorescent light. The ecotypes used are Kas-1 and Tsu-1 for our study, the citation of Schuler (2011) used Columbia-0.	R/Bioconductor. Normalized with rma	Done according the manufacturer’s protocol	24 d old plants were transferred to treatments of +Fe (50 uM Fe(III)-EDDHA) or -Fe for 24 or 48 h.	Total RNA was isolated from whole rosettes using the RNeasy Plant Kit (Qiagen), and quality was assessed using the Agilent Bioanalyzer 2100.	Done according the manufacturer’s protocol
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Experimental Factor Name	time	growth condition	ecotype	organism part				
+Experimental Factor Type	time	growth condition	ecotype	organism part				
+Publication Title	Rosette iron deficiency transcript and microRNA profiling reveals links between copper and iron homeostasis in Arabidopsis thaliana.							
+Publication Author List	Waters BM, McInturf SA, Stein RJ							
+PubMed ID	22962679							
+Publication DOI	10.1093/jxb/ers239							
+Experimental Design	time series design	growth condition design	strain or line design					
+Comment[SecondaryAccession]	GSE39268							
+Comment[GEOReleaseDate]	2012-09-30							
+Comment[ArrayExpressSubmissionDate]	2012-07-11							
+Comment[GEOLastUpdateDate]	2012-10-05							
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis Kas-1 and Tsu-1 grown in iron-deficient medium							
+Comment[AEExperimentType]	transcription profiling by array							
+SDRF File	E-GEOD-39268.sdrf.txt							

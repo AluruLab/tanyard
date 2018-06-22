@@ -1,0 +1,23 @@
+Comment[ArrayExpressAccession]	E-GEOD-62749
+MAGE-TAB Version	1.1						
+Public Release Date	2014-10-28
+Investigation Title	Arabidopsis thaliana Col-0 leaf transcriptome response to Agrobacterium tumefaciens C58						
+Comment[Submitted Name]	Arabidopsis thaliana Col-0 leaf transcriptome response to Agrobacterium tumefaciens C58
+Experiment Description	As sessile organisms, plants require dynamic pathways in order to recognize pathogens and coordinate plant defenses by signalling. Agrobacterium tumefaciens C58 is able to avoid triggering plant defenses prior to entering the cell, and therefore is only detected once infection has begun making Agrobacterium a plant pathogen to numerous plant species. Understanding plant responses to Agrobacterium will be useful in improving plant defenses and potentially may also improve plant transformation efficiency. Microarrays were utilized for detailing the global gene expression pattern in A. thaliana Col-0 leafs in response to A. tumefaciens C58 for the identification of differentially expressed genes. 3-week-old A.thaliana Col-0 seedlings were selected for growth in hydroponic systems. A. tumefaciens C58 was inoculated into the hydroponic system and co-cultivation persisted for 8 hours. Leaf tissue was seperated for RNA extraction and hybridization to the ATH1 Affymetrix microarray.						
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Yuan	Nathoo	Yuan				
+Person First Name	Ze-Chun	Naeem	Ze-Chun				
+Person Email	ze-chun.yuan@AGR.GC.ca						
+Person Affiliation	Southern Crop Protection and Food Research Center, Agricultre and Agri-Foods Canada						
+Person Address	Microbiology, Southern Crop Protection and Food Research Center, Agricultre and Agri-Foods Canada, 1391 Sanford Street, London, Ontario, Canada						
+Person Roles	submitter						
+Protocol Name	P-GSE62749-1	P-GSE62749-5	P-GSE62749-6	P-GSE62749-2	P-GSE62749-3	P-GSE62749-4	P-GSE62749-7
+Protocol Description	The data were analzyed using the Affymetrix Command Console v3.2.4 using the RMA algorithm. ID_REF =  VALUE = RMA signal	Single stranded amplified RNA (aRNA) was prepared from 500 ng of total RNA as per the Affymetrix 3' IVT Express kit manual (Affymetrix, Santa Clara, CA).	12.5μg of fragmented end-labeled aRNA was hybridized for 16 hours at 45�C to Arabidopsis Genome ATH1 arrays for five cycles in 2x SSC and three cylces in 0.1x SSC.	Seedlings were inoculated with Agrobacterium tumefaciens C58 (5μL at an OD600 1.5) and cocultivated for 8 hours.	Arabidopsis seedlings were spotted onto semi-solid Murashige-Skoog plates for germination and growth in 16/8 hour light-dark periods with 24/18 degrees celsius. At 3 weeks, seedlings were transferd into hydroponic system and sustained by liquid MS media.	Qiagen Plant RNeasy column based extraction was performed according to the manufacturere's protocol.	GeneChips were scanned using a GeneChip Scanner 3000 7G.
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Comment[SecondaryAccession]	GSE62749						
+Comment[GEOReleaseDate]	2014-10-28						
+Comment[ArrayExpressSubmissionDate]	2014-10-27						
+Comment[GEOLastUpdateDate]	2014-10-29						
+Comment[AEExperimentType]	transcription profiling by array						
+SDRF File	E-GEOD-62749.sdrf.txt

@@ -1,0 +1,49 @@
+Investigation Title	Transcription profiling of Arabidopsis thaliana response to the bacterial pathogen Pseudomonas syringae ES4326	
+Comment[Submitted Name]	Analysis of Arabidopsis thaliana gene expression in response to the bacterial pathogen Pseudomonas syringae ES4326	
+Experimental Design	unknown_experiment_design_type	transcription profiling by array	
+Experimental Design Term Source REF		EFO	
+Comment[AEMIAMESCORE]	2	
+Comment[ArrayExpressReleaseDate]	2008-06-13	
+Comment[SecondaryAccession]	GSE4429	
+Comment[ArrayExpressAccession]	E-GEOD-4429	
+Comment[MAGETAB TimeStamp_Version]	2010-08-05 15:04:36 Last Changed Rev: 13058	
+Experimental Factor Name	
+Experimental Factor Type	
+Experimental Factor Term Source REF	
+Person Last Name	Mitra	
+Person First Name	Raka Mustaphi	
+Person Mid Initials	
+Person Email	
+Person Phone	
+Person Fax	
+Person Address	Jane Glazebrook, Plant Biology, University of Minnesota, 1500 Gortner Avenue, Saint Paul, 55108, USA	
+Person Affiliation	University of Minnesota	
+Person Roles	submitter	
+Person Roles Term Source REF	The MGED Ontology	
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2008-06-13	
+PubMed ID	17181774	
+Publication DOI	17181774	
+Publication Author List	Masanao Sato, Raka M Mitra, John Coller, Dong Wang, Natalie W Spivey, Julia Dewdney, Carine Denoux, Jane Glazebrook, Fumiaki Katagiri	
+Publication Title	A high-performance, small-scale microarray for expression profiling of many samples in Arabidopsis-pathogen studies.	
+Publication Status	journal_article	
+Publication Status Term Source REF	The MGED Ontology	
+Experiment Description	In order to protect themselves from pathogens, plants activate a battery of defense pathways, many of which involve changes in gene expression.  We are interested in identifying plant genes that are differentially expressed in response to pathogen exposure, with the ultimate goal of studying the roles of these genes in plant defense. Experiment Overall Design: Whole plants are grown in soil, and individual leaves from 3-4 week old plants are injected with a bacterial suspension, or a mock (5mM MgSO4) control. Approximately five leaves are harvested 24 hours after inoculation and used for RNA preparation, labeling and Affymetrix hybridization.	
+Protocol Name	P-G4429-1	P-G4429-5	P-G4429-2	P-G4429-4	P-G4429-3	
+Protocol Type	grow	specified_biomaterial_action	specified_biomaterial_action	nucleic_acid_extraction	labeling	
+Protocol Description	Plants were grown in pots with BM-2 soil (Berger Peat Moss Ltd, Quebec, Canada) at a density of 9 plants per pot and kept at 22 degrees Celsius and 75% humidity with a 12 hour day length.	Individual leaves were injected in the morning using a needle-less syringe with 10E5 cfu cm-2 PsmES4326 (suspended in 5mM MgSO4) and harvested 24 hours later.	Individual leaves were injected in the morning using a needle-less syringe with 5mM MgSO4 and harvested 24 hours later.	Trizol (Invitrogen, USA)	Affymetrix One-Cycle Target Labeling Kit (Affymetrix, USA)	
+Protocol Parameters	
+Protocol Hardware	
+Protocol Software	
+Protocol Contact	
+Protocol Term Source REF	
+SDRF File	E-GEOD-4429.sdrf.txt	
+Term Source Name	NCBI Taxonomy		The MGED Ontology	ArrayExpress	EFO	The MGED Ontology	
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version							

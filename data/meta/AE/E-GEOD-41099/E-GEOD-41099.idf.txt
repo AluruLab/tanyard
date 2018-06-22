@@ -1,0 +1,30 @@
+Comment[ArrayExpressAccession]	E-GEOD-41099
+MAGE-TAB Version	1.1								
+Public Release Date	2012-09-25
+Investigation Title	Carbon-Deprivation-Driven Transcriptome Reprogramming in Detached Developmentally-Arresting Arabidopsis Inflorescences								
+Comment[Submitted Name]	Carbon-Deprivation-Driven Transcriptome Reprogramming in Detached Developmentally-Arresting Arabidopsis Inflorescences
+Experiment Description	Senescence is genetically-controlled and activated in mature tissues during ageing. However, immature plant tissues also display senescence-like symptoms when continuously exposed to adverse energy-depleting conditions. We used detached dark-held immature inflorescences of Arabidopsis thaliana to understand the metabolic reprogramming occurring in immature tissues transitioning from rapid growth to precocious senescence. Macroscopic growth of the detached inflorescences rapidly ceased upon placement in water in the dark at 21Â°C. Inflorescences were completely de-greened by 120 h of dark incubation and by 24 h had already lost 24% of their chlorophyll and 34% of their protein content. Comparative transcriptome profiling at 24 h revealed that inflorescences response at 24 h had a large carbon-deprivation component. Genes that positively regulate developmental senescence (ANAC092) and shade avoidance syndrome (PIF4 and PIF5) were up-regulated within 24 h. Mutations in these genes delayed de-greening of the inflorescences. Their up-regulation was suppressed in dark-held inflorescences by glucose treatment, which promoted macroscopic growth and development and inhibited de-greening of the inflorescences. Detached inflorescences held in the dark for 4 days were still able to re-initiat development to produce siliques upon being brought out to light indicating the transcriptional reprogramming at 24 h was adaptive and reversible. Our results suggest that the response of detached immature tissues to dark storage involves interactions between carbohydrate status sensing and light deprivation signaling and that the dark adaptive response of the tissues appears to utilize some of the same key regulators as developmental senescence. Detached arabidopsis inflorescences were harvested and either immediately snap-frozen in liquid nitrogen and stored at -80Â°C, or placed at 21Â°C on blotting paper moistened with water inside a 2-L black plastic container for RNA extraction and hybridization on Affymetrix microarrays. Ten inflorescences from 10 independent plants were pooled for each time point (0 h or 24 h).								
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl							
+Person Last Name	Trivellini	Trivellini	Jibran	Watson	Oâ€™Donoghue	Ferrante	Sullivan	Dijkwel	Hunter
+Person First Name	Alice	Alice	Rubina	Lyn	Erin	Antonio	Kerry	Paul	Donald
+Person Mid Initials				M				P	A
+Person Email	alice.trivellini@gmail.com								
+Person Affiliation	University of Pisa								
+Person Address	University of Pisa, Viale delle Piagge, Pisa, Italy								
+Person Roles	submitter								
+Protocol Name	P-GSE41099-1	P-GSE41099-6	P-GSE41099-3	P-GSE41099-8	P-GSE41099-7	P-GSE41099-2	P-GSE41099-4	P-GSE41099-5	
+Protocol Description	ID_REF =  VALUE = RMA normalized log2 expression	Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45C on GeneChip ATH1 Array. GeneChips were washed and stained in the Affymetrix Fluidics Station 400.	Seeds of A. thaliana ecotype Ler-0 were germinated and grown in a temperature-regulated growth chamber (20°C to 22°C, 4 AM:16-h light /8-h dark cycle, 100 Î¼mol m-2 s-1 white light and 60% relative humidity)	The microarray results were the average of two independent temporally separated biological experiments. The results were analyzed using ArrayStar software, version 3 (DNASTAR®, Madison, WI, USA) as described below. Analyses were based on two biological replicates per treatment (0 h vs. 24 h). Probe intensity data from the GeneChips were processed in a three-stage procedure using Robust Multichip Average (RMA) and Bolstadâ€™s algorithms (Bolstad, 2004). For this analysis a pre-processing RMA background correction method, a quantile normalization (Irizarry et al., 2003) and RMAâ€™s median polish summarization methods were used. Expression levels are based on log2 values.	Genechips were scanned using the Affymetrix 7G Scanner	Inflorescences were harvested by excising at the junction between the peduncle and the pedicel of the lowest most unopened floret at the base of the inflorescence. Detached inflorescences were harvested at 3:00 PM (11 h into day period), and either immediately snap-frozen in liquid nitrogen and stored at -80°C, or placed at 21°C on blotting paper moistened with 50 mL of nanopure water inside a 2-L black plastic container (0h and 24h).	Total RNA was isolated from the inflorescences using Trizol reagent (Invitrogen, Carlsbad, CA, USA) according to manufacturerâ€™s instructions, cleaned using an RNeasy Mini RNA isolation kit (Qiagen, Valencia, CA, USA).	Biotinylated cRNA were prepared according to the standard Affymetrix protocol.	
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling	
+Experimental Factor Name	TIME								
+Experimental Factor Type	time								
+Publication Title	Carbon-Deprivation-Driven Transcriptome Reprogramming in Detached Developmentally-Arresting Arabidopsis Inflorescences.								
+Publication Author List	Trivellini A, Jibran R, Watson LM, O'Donoghue E, Ferrante A, Sullivan K, Dijkwel P, Hunter DA								
+PubMed ID	22930749								
+Publication DOI	10.1104/pp.112.203083								
+Comment[SecondaryAccession]	GSE41099								
+Comment[GEOReleaseDate]	2012-09-25								
+Comment[ArrayExpressSubmissionDate]	2012-09-24								
+Comment[GEOLastUpdateDate]	2012-09-26								
+Comment[AEExperimentType]	transcription profiling by array								
+SDRF File	E-GEOD-41099.sdrf.txt

@@ -1,0 +1,58 @@
+Comment[ArrayExpressAccession]	E-GEOD-15939						
+Public Release Date	2009-06-01						
+Investigation Title	Transcript profiling in LTR mutants						
+Comment[Submitted Name]	Transcript profiling in LTR mutants						
+Experiment Description	STN7-dependent phosphorylation of an as yet unknown thylakoid protein triggers the signaling events associated with the  long-term acclimatory response (LTR). The LTR-associated signaling events regulate the expression of photosynthesis-related genes on the post-transcriptional level (nucleus), as indicated by transcript profiling in LTR mutants. 5 µg of total RNA of two to three biological replicates of the different pools (10 plants each pool) of rosette leaves of 4-week-old Col-0, Wassilewskija, stn7-1, psad1-1, stn7-1 psad1-1, psae1-3 and stn7-1 psae1-3 plants was processed and hybridized to a GeneChip Arabidopsis ATH1 Genome Array using the One-Cycle Target Labeling and Control Reagents according to the manufacturer’s instructions (Affymetrix); psad1 (2 replicates) psad1 stn7 (3 replicates) Col-0 (3 replicates) Ws (2 replicates) psae (2 replicates) psae stn7 (2 replicates) stn7 (3 replicates)						
+Date of Experiment							
+Term Source Name	EFO						
+Term Source Version							
+Term Source File	http://bar.ebi.ac.uk:8080/trac/browser/branches/curator/ExperimentalFactorOntology/ExFactorInOWL/currentrelease/eforelease/efo.owl						
+Person Last Name	Scharfenberg	Pesaresi	Leister				
+Person First Name	Michael	Paolo	Dario				
+Person Mid Initials							
+Person Email	scharfenberg@lrz.uni-muenchen.de						
+Person Affiliation	LMU München						
+Person Phone							
+Person Fax							
+Person Address	Botanik I, LMU München, Großhaderner Str. 2-4, Planegg, Bayern, Germany						
+Person Roles	submitter						
+Person Roles Term Source REF							
+Person Roles Term Accession Number							
+Normalization Type							
+Normalization Term Accession Number							
+Normalization Term Source REF							
+Replicate Type							
+Replicate Term Accession Number							
+Replicate Term Source REF							
+Experimental Design							
+Experimental Design Term Accession Number							
+Experimental Design Term Source REF							
+Quality Control Type							
+Quality Control Term Accession Number							
+Quality Control Term Source REF							
+Protocol Name	P-GSE15939-1	P-GSE15939-6	P-GSE15939-5	P-GSE15939-3	P-GSE15939-2	P-GSE15939-4	P-GSE15939-7
+Protocol Description	ID_REF = <br>VALUE = Signal<br>ABS_CALL = indicating whether the transcript was present (P), absent (A), or marginal (M)<br>DETECTION P-VALUE = 	Scanning procedure was performed as described in the Affymetrix technical manual	Hybridization procedure was performed as described in the Affymetrix technical manual	Trizol extraction of total RNA was performed according to the manufacturer's instructions.	All plants were grown as reported previously (Bonardi et al., 2005)	After second-strand synthesis, double-stranded cDNA was used in an in-vitro transcription reaction to generate biotinylated cRNA	Affymetrix GCOS/MAS5
+Protocol Software							
+Protocol Hardware							
+Protocol Contact							
+Protocol Type	bioassay_data_transformation	image_aquisition	hybridization	nucleic_acid_extraction	grow	labeling	feature_extraction
+Protocol Term Source REF							
+Protocol Term Accession Number							
+Experimental Factor Name	genotype						
+Experimental Factor Type	genotype						
+Experimental Factor Term Source REF							
+Experimental Factor Term Accession Number							
+Publication Title	Arabidopsis STN7 kinase provides a link between short- and long-term photosynthetic acclimation.						
+Publication Author List	Pesaresi P, Hertle A, Pribil M, Kleine T, Wagner R, Strissel H, Ihnatowicz A, Bonardi V, Scharfenberg M, Schneider A, Pfannschmidt T, Leister D						
+PubMed ID	19706797						
+Publication DOI	10.1105/tpc.108.064964						
+Publication Status	published						
+Publication Status Term Source REF	EFO						
+Publication Status Term Accession Number	EFO_0001796						
+Comment[SecondaryAccession]	GSE15939						
+Comment[GEOLastUpdateDate]	2011-03-01						
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for psae1, psad1 or stn7, or double mutant for psae1 and stn7 or psad1 and stn7						
+Comment[AEExperimentType]	transcription profiling by array						
+Comment[GEOReleaseDate]	2009-05-31						
+Comment[ArrayExpressSubmissionDate]	2009-05-03						
+SDRF File	E-GEOD-15939.sdrf.txt						

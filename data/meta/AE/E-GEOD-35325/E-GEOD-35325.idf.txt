@@ -1,0 +1,57 @@
+Comment[ArrayExpressAccession]	E-GEOD-35325
+Public Release Date	2012-01-25							
+Investigation Title	Volatiles of two growth-inhibiting rhizobacteria commonly enroll AtWRKY18 function							
+Comment[Submitted Name]	Volatiles of two growth-inhibiting rhizobacteria commonly enroll AtWRKY18 function
+Experiment Description	Volatiles of certain rhizobacteria can cause growth inhibitory effects on plants/ Arabidopsis thaliana. How these effects are initiated and which mechanisms are enrolled is not yet understood. Obviously the plant can survive/live with the bacteria in the soil, which suggest the existance of a regulatory mechanism/network that provide the possibility for coexistance with the bacteria. To shed light on this regulatory mechanism/network we performed a microarray anlaysis of Arabidopsis thaliana co-cultivated with two different rhizobacteria strains. In this study we used the ATH1 GeneChip microarray to investigate the  transcriptional response of 4 to 5 days old Arabidopsis thaliana seedlings at 6 h, 12 h and 24 h exposure to volatiles of the rhizobacteria Serratia plymuthica HRO-C48 or Stenotrophomonas maltophilia R3089. Seedlings from Arabidopsis thaliana were harvested at different time points at exposure to volatiles of two different strains of bacteria. Samples were taken at the start of the experiment (T0) and after 6, 12 and 24 hours (T6, T12, T24 respectively). Two biological replicates from pooled seedlings (from 5 plates, from the respective time points) were used for RNA extraction and hybridization on Affymetrix microarrays (ATH1 GeneChip; GEO accsession GPL198).							
+Date of Experiment								
+Term Source Name	EFO
+Term Source Version								
+Term Source File	http://www.ebi.ac.uk/efo/efo.owl							
+Person Last Name	Kilian	Wenke	Wanke	Kilian	Berendzen	Harter	Piechulla	
+Person First Name	Joachim	Katrin	Dierk	Joachim	Kenneth	Klaus	Birgit	
+Person Mid Initials					W			
+Person Email	joachim.kilian@zmbp.uni-tuebingen.de							
+Person Affiliation	University of Tuebingen							
+Person Phone	+ 49 (0) 7071 29 73087							
+Person Fax	+ 49 (0) 7071 29 3287							
+Person Address	ZMBP Plant Physiology, University of Tuebingen, Auf der Morgenstelle 1, Tuebingen, Germany							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Person Roles Term Accession Number								
+Normalization Type								
+Normalization Term Accession Number								
+Normalization Term Source REF								
+Replicate Type								
+Replicate Term Accession Number								
+Replicate Term Source REF								
+Experimental Design								
+Experimental Design Term Accession Number								
+Experimental Design Term Source REF								
+Quality Control Type								
+Quality Control Term Accession Number								
+Quality Control Term Source REF								
+Protocol Name	P-GSE35325-1	P-GSE35325-6	P-GSE35325-3	P-GSE35325-8	P-GSE35325-7	P-GSE35325-2	P-GSE35325-4	P-GSE35325-5
+Protocol Description	ID_REF = <br>VALUE = RMA signal intensity	After fragmentation of cRNA using the RNA Fragmentation Reagents (Ambion), 14,25 µg of cRNA was hybridized to Affymetrix Arabidopsis ATH1 Genome Array (ATH1-121501; GEO accession GPL198) according to manufacturers manual. GeneChips were washed and stained in the Affymetrix Fluidics Station 450 using the protocol 'EukGE-WS2V4'.	Surface sterilized seeds from Arabidopsis thaliana Col-0 (by ethanol (2 min 70 %), calcium hypochloride(5 min 1 %), washed 4 times with steril dH2O) were plated on 0.5 MS 0.8 % Agar split-dish plates. Plated seeds were stratified for  3 days at 4°C. Seed/Seedlings were grown under  22°C +/-2°C; 100 +/-10 µE/m-2/s-1; 16 h light/ 8 h dark; 50 +/-10 % humidity.	The data was anylysed with GeneSpring GX (vers. 7.3) from Agilent. Preprocessing was performed with included RMA Plugin.	GeneChips were scanned using the Affymetrix GeneChip® scanner GS3000 7G according to manufacturers manual.	After 3 days seedlings of the same developmental stage were selected (seedlings not meeting the dev. stage were removed from the plates). After 4 days seedlings were exposed to volatiles of bacteria (Serratia plymuthica HRO-C48 or Stenotrophomonas maltophilia R3089) by applying a bacteria culture of 10^7 CFU to the other half of the split-dish plates. Mock treated (with bacteria growth media) plates were also kept. For both mock treated and volatile-treated samples, pooled seedlings (from 5 diff. plates) from the respective time points were used for RNA extraction. Two biological replicates were performed.	For RNA extraction RNeasy Plant Mini kit was used ( according instructions from Quiagen).  Extracted RNA was precipitated: 96 µl RNA;  8 µl 3 M Sodium acetate (pH 5.2); 2 µl Glycogen(5 mg/ml); Ethanol 250 µl. Stored at -80°C for 15 days, than 30 min 13000 rpm 4°C. 2 times washing with 500 µl 70 % ethanol. Resuspended in 50 µl DEPC water. RNA quantity and integrity were assessed using RNA 6000 Nano LabChip Kit and the BioAnalyzer software (Agilent).	1 µg of total RNA were used to synthesize amplified labeled cRNA (MessageAmp™ II aRNA Amplification Kit; Ambion).
+Protocol Software								
+Protocol Hardware								
+Protocol Contact								
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Protocol Term Source REF								
+Protocol Term Accession Number								
+Experimental Factor Name	TIME	AGENT	AGE					
+Experimental Factor Type	time	agent	age					
+Experimental Factor Term Source REF								
+Experimental Factor Term Accession Number								
+Publication Title								
+Publication Author List								
+PubMed ID	22188129							
+Publication DOI								
+Publication Status								
+Publication Status Term Source REF								
+Publication Status Term Accession Number								
+Comment[SecondaryAccession]	GSE35325							
+Comment[GEOLastUpdateDate]	2012-01-25
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[GEOReleaseDate]	2012-01-25
+Comment[ArrayExpressSubmissionDate]	2012-01-25
+SDRF File	E-GEOD-35325.sdrf.txt

@@ -1,0 +1,41 @@
+Investigation Title	Micro-array analysis of gene expression in the Arabidopsis chr11-1 chr17-1 mutant							
+Comment[Submitted Name]	Micro-array analysis of gene expression in the Arabidopsis chr11-1 chr17-1 mutant							
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis chr11-1 chr17-1 mutants							
+Comment[AEExperimentType]	transcription profiling by array							
+Experimental Design	transcription profiling by array	genetic modification design						
+Experimental Design Term Source REF	EFO							
+Comment[SecondaryAccession]								
+Comment[SecondaryAccession]	GSE22159							
+Comment[ArrayExpressReleaseDate]	2010-06-23							
+Comment[AEMIAMESCORE]	4							
+Comment[ArrayExpressAccession]	E-GEOD-22159							
+Comment[MAGETAB TimeStamp_Version]	2010-08-04 15:00:17 Last Changed Rev: 13058							
+Experimental Factor Name	genotype							
+Experimental Factor Type	genotype							
+Experimental Factor Term Source REF								
+Person Last Name	Li	Xu						
+Person First Name	Guang	Lin						
+Person Email		xulin01@sibs.ac.cn						
+Person Phone		86-21-54924085						
+Person Fax		86-21-54924015						
+Person Address		Shanghai Institute of Plant Physiology and Ecology, Chinese Academy of Sciences, 300 Fenglin Road, Shanghai, China						
+Person Affiliation		Shanghai Institute of Plant Physiology and Ecology						
+Person Roles		submitter						
+Person Roles Term Source REF		The MGED Ontology						
+Public Release Date	2010-06-23							
+PubMed ID	22694359							
+Publication DOI								
+Publication Author List	Li G, Zhang J, Li J, Yang Z, Huang H, Xu L.							
+Publication Title	Imitation Switch chromatin remodeling factors and their interacting RINGLET proteins act together in controlling the plant vegetative phase in Arabidopsis.							
+Publication Status								
+Publication Status Term Source REF								
+Experiment Description	Chromatin remodeling factors of the Imitation Switch (ISWI) family play important roles in epigenetic regulations of gene expression in yeast and animals, whereas their function in plants remains elusive. Here we report characterization of the Arabidopsis ISWI genes CHR11 and CHR17. Double mutant chr11 chr17 displayed a dramatically reduced plant size with early flowering. In addition, epidermis of the double mutant leaves showed cell characteristics seen only in floral organs. These phenotypes resemble, at least partially, those of the Polycomb mutants curly leaf (clf) and like heterochromatin protein1 (lhp1). Microarray analysis revealed that a number of targets of the Polycomb pathway were derepressed in chr11 chr17 leaves. Furthermore, triple mutants combining chr11 chr17 with clf-29 or lhp1-6 both greatly enhanced clf-29 and lhp1-6 phenotypes, respectively. All these results strongly suggest that the ISWI family genes in Arabidopsis may function in gene silencing via the Polycomb pathway Leaves from 15-day-old seedlings of wild-type Col-0 and chr11-1 chr17-1 were used for RNA preparation.In the experiment data,A refers to Col-0, and B refers to chr11-1 chr17-1.							
+Protocol Name	P-GSE22159-2	P-GSE22159-4	P-GSE22159-3	P-GSE22159-5	P-GSE22159-6	P-GSE22159-7	P-GSE22159-8	P-GSE22159-1
+Protocol Type	specified_biomaterial_action	nucleic_acid_extraction	grow	labeling	hybridization	image_aquisition	feature_extraction	bioassay_data_transformation
+Protocol Description	no treatment	Extract and purify the total RNA by the Qiagen RNeasy Mini Kit.Reverse Transcription to Synthesize First-Strand cDNA is primed with  T7 oligo(dT) primer to synthesize cDNA containing a T7 promoter sequence.Second-Strand cDNA Synthesis converts the single-stranded cDNA into  a double-stranded DNA (dsDNA) template for transcription. The reaction employs DNA polymerase and RNase H to simultaneously degrade the RNA  and synthesize second strand cDNA.	16 h light, 8 h dark, 21 degrees C	In Vitro Transcription to Synthesize Biotin-Modified aRNA with IVT Labeling Master Mix generates multiple copies of biotin-modified aRNA from  the double-stranded cDNA templates; this is the amplification step.aRNA Purification removes unincorporated NTPs, salts, enzymes, and  inorganic phosphate to improve the stability of the biotin-modified aRNA.	Fragmentation of the labeled aRNA prepares the target for hybridization to GeneChip(r) 3' expression arrays with GeneChip(r) hybridization oven 640.	Wash and stain the arrays with GeneChip(r) fluidics station 450, Scan the arrays with the GeneArray scanner 3000 by the GeneChip(r) Operating  Software (GCOS) or Command Console(r) (AGCC) Software.	RMA data were obtained by using Partek GS 6.4.	ID_REF = <br>VALUE = RMA signal intensity
+Protocol Parameters								
+Protocol Term Source REF	The MGED Ontology	The MGED Ontology	The MGED Ontology	The MGED Ontology	The MGED Ontology		The MGED Ontology	The MGED Ontology
+SDRF File	E-GEOD-22159.sdrf.txt							
+Term Source Name	NCBI Taxonomy	The MGED Ontology	ArrayExpress	EFO				
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/				
+Term Source Version								

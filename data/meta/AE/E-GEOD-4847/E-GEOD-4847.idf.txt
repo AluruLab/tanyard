@@ -1,0 +1,52 @@
+Investigation Title	Transcription profiling of Arabidopsis tocopherol deficient seedlings					
+Comment[Submitted Name]	Expression data from tocopherol deficient seedlings of Arabidopsis					
+Experimental Design	individual_genetic_characteristics_design	genotype_comparison_design	transcription profiling by array			
+Experimental Design Term Source REF			EFO			
+Comment[AEExperimentType]	transcription profiling by array					
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for vte1 or vte2					
+Comment[AEMIAMESCORE]	5					
+Comment[SecondaryAccession]	GSE4847					
+Comment[SecondaryAccession]	GDS2572					
+Comment[ArrayExpressReleaseDate]	2009-04-10					
+Comment[ArrayExpressAccession]	E-GEOD-4847					
+Comment[MAGETAB TimeStamp_Version]	2010-08-05 18:02:31 Last Changed Rev: 13058					
+Experimental Factor Name	genotype	age				
+Experimental Factor Type	genotype	age				
+Experimental Factor Term Source REF						
+Person Last Name	Sattler					
+Person First Name	Scott					
+Person Mid Initials	E.					
+Person Email	sattler4@msu.edu					
+Person Phone						
+Person Fax						
+Person Address	Dean DellaPenna, Biochemistry and Molecular Boliogy, Michigan State University, room 201 Biochem Bldg, East Lansing, 48824, USA					
+Person Affiliation	Michigan State University					
+Person Roles	submitter					
+Person Roles Term Source REF	The MGED Ontology					
+Quality Control Type						
+Quality Control Term Source REF						
+Replicate Type						
+Replicate Term Source REF						
+Normalization Type						
+Normalization Term Source REF						
+Date of Experiment						
+Public Release Date	2009-04-10					
+PubMed ID	17194769					
+Publication DOI	10.1105/tpc.106.044065 					
+Publication Author List	Scott E Sattler, Laurent Mène-Saffrané, Edward E Farmer, Markus Krischke, Martin J Mueller, Dean DellaPenna					
+Publication Title	Nonenzymatic lipid peroxidation reprograms gene expression and activates defense markers in Arabidopsis tocopherol-deficient mutants.					
+Publication Status	published					
+Publication Status Term Source REF	EFO					
+Experiment Description	Tocopherols (Vitamin E) are lipophilic antioxidants that are synthesized by all plants and are particularly abundant in seeds.  Two tocopherol deficient mutant loci were used to examine how tocopherol deficiency impacts global gene expression during the critical peroid of germination and early seedling development when tocopherols are essential.  vte1 lacks all tocopherols, but accumulates the tocopherol pathway intermediate DMPBQ,.  vte2 which lacks all tocopherols and pathway intermediates. We used microarrays to examine the global gene expression in early seedlings and identify distinct classes of genes whose expression is affected by tocopherol deficient mutants vte1 and vte2. Experiment Overall Design: Arabidopsis seedlings were grown on media containing MS salts at 22C and RNA was extracted from 1 (1D)and 3 (3D)day old seedlings following cold treatment to break dormancy and synchronize germination (5 days at 6C) .   We sought to compare the two tocopherol deficient mutants vte1 (VTE1) and vte2 (VTE2) with each other and the corresponding wild-type background Columbia-0 (COL).					
+Protocol Name	P-G4847-1	P-G4847-2	P-G4847-4	P-G4847-3	P-AFFY-6	
+Protocol Type	grow	specified_biomaterial_action	nucleic_acid_extraction	labeling	feature_extraction	
+Protocol Description	seedlings were germinate under 12hr photoperiod (100 photons umol m-1 s-1) at 22C following 5 days at 6C to break dormancy.	seedlings were grown on Petri plates containing 0.5X Murashige and Skoog basal medium (MS salts; Sigma, St. Louis, MO) and 1.0% phytoagar.	Approximately 100 mg of seedlings were frozen in liquid nitrogen and total RNA was extracted using the RNAqueous RNA extraction kit and the Plant RNA Isolation Aid (Ambion, Austin, TX) following the manufacturer's protocol.	Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 15 microg total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).	Title: Affymetrix CEL analysis. Description: 	
+Protocol Parameters						
+Protocol Hardware						
+Protocol Software					MicroArraySuite 5.0	
+Protocol Contact						
+Protocol Term Source REF						
+SDRF File	E-GEOD-4847.sdrf.txt					
+Term Source Name		The MGED Ontology	NCBI Taxonomy	ArrayExpress	EFO	The MGED Ontology
+Term Source File		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version						

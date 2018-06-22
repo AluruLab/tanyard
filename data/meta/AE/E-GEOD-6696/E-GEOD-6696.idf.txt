@@ -1,0 +1,52 @@
+Investigation Title	Transcription profiling of Arabidopsis pollen germination and tube growth 				
+Comment[Submitted Name]	Transcriptome analyses show changes in gene expression to accompany pollen germination and tube growth in Arabidopsis				
+Experimental Design	unknown_experiment_design_type	transcription profiling by array			
+Experimental Design Term Source REF		EFO			
+Comment[AEExperimentType]	transcription profiling by array				
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis pollen grains and pollen tubes				
+Comment[AEMIAMESCORE]	4				
+Comment[ArrayExpressReleaseDate]	2008-10-25				
+Comment[SecondaryAccession]	GSE6696				
+Comment[ArrayExpressAccession]	E-GEOD-6696				
+Comment[MAGETAB TimeStamp_Version]	2010-08-06 22:06:04 Last Changed Rev: 13058				
+Experimental Factor Name	ORGANISM PART				
+Experimental Factor Type	organism_part				
+Experimental Factor Term Source REF					
+Person Last Name	Wu				
+Person First Name	Wei-Hua				
+Person Mid Initials					
+Person Email	wuwh@public3.bta.net.cn				
+Person Phone					
+Person Fax					
+Person Address	Wu Wei-Hua's Lab, College of Biological Sciences, China Agricultural University, No.2 Yuanmingyuan West Road, Beijing, 100094, China				
+Person Affiliation	China Agricultural University				
+Person Roles	submitter				
+Person Roles Term Source REF					
+Quality Control Type					
+Quality Control Term Source REF					
+Replicate Type					
+Replicate Term Source REF					
+Normalization Type					
+Normalization Term Source REF					
+Date of Experiment					
+Public Release Date	2008-10-25				
+PubMed ID	18775970				
+Publication DOI	10.1104/pp.108.126375 				
+Publication Author List	Wang Y, Zhang WZ, Song LF, Zou JJ, Su Z, Wu WH.				
+Publication Title	Transcriptome analyses show changes in gene expression to accompany pollen germination and tube growth in Arabidopsis.				
+Publication Status	published				
+Publication Status Term Source REF	EFO				
+Publication Status Term Accession Number	EFO_0001796				
+Experiment Description	Pollen germination, along with pollen tube growth, is an essential process for the reproduction of flowering plants.  The germinating pollen with tip-growth characteristics provides an ideal model system for the study of cell growth and morphogenesis.  As an essential step towards a detailed understanding of this important process, the objective of this study was to comprehensively analyze the transcriptome changes during pollen germination and pollen tube growth.  Using Affymetrix Arabidopsis ATH1 Genome Arrays, this study is the first to show the changes in the transcriptome from desiccated mature pollen grains to hydrated pollen grains and then to pollen tubes of Arabidopsis thaliana.  The number of expressed genes, either for total expressed genes or for specifically expressed genes, increased significantly from desiccated mature pollen to hydrated pollen and again to growing pollen tubes, which is consistent with the finding that pollen germination and tube growth was significantly inhibited in vitro by a transcriptional inhibitor.  The results of GO analyses showed that expression of genes related to cell rescue, transcription, signal transduction and cellular transport were significantly changed, especially for up-regulation, during pollen germination and tube growth, respectively.  In particular, genes of the CaM/CML, CHX and Hsp families showed the most significant changes during pollen germination and tube growth.  These results demonstrate that the overall transcription of genes, both in the number of expressed genes and in the levels of transcription, was increased.  Furthermore, the appearance of many novel transcripts during pollen germination as well as tube growth indicates that these newly expressed genes may function in this complex process. SUBMITTER_CITATION: Yi Wang, Wen-Zheng Zhang, Lian-Fen Song, Jun-Jie Zou, Zhen Su, and Wei-Hua Wu. Transcriptome analyses show changes in gene expression to accompany pollen germination and tube growth in Arabidopsis. Plant Physiol. September 5, 2008; 10.1104/pp.108.126375 Experiment Overall Design: Three samples are analyzed in this experiment.  They are desiccated mature pollen grains (MP), hydrated pollen grains (HP) and growing pollen tubes (PT) of Arabidopsis thaliana, respectively.  Each sample has two biological replicates, so that there are 6 data sets of ATH1 array in this experiment.				
+Protocol Name	P-G6696-1	P-G6696-3	P-G6696-2	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6
+Protocol Type	grow	nucleic_acid_extraction	labeling	hybridization	feature_extraction
+Protocol Description	Arabidopsis thaliana (ecotype Columbia) plants were grown in mixed soil in a growth chamber.  The light intensity was 120-150 umol m-2 s-1 for a 16 h daily light period and day/night temperatures were 22âÂ±2â and 18âÂ±2â, respectively.  Plants were watered once every 5 days with tap water and the relative humidity in the growth chamber was kept near 70%.	The total RNA was extracted using the TRIzol reagent (Invitrogen).  RNA concentration, purity and integrity were determined and confirmed by using an Eppendorf Biophotometer (Eppendorf) and electrophoresis.  The total RNA was further purified using RNeasy Mini Kit (Qiagen).	Eight ug of purified total RNA was used to generate first-strand cDNA in a reverse transcription reaction (One-Cycle Target Labeling and Control Reagents, Affymetrix).  After second-strand synthesis, the double-stranded cDNA were used to generate cRNA via in vitro transcriptional reaction.  The cRNA was labeled with biotin and 20 ug of this cRNA was fragmented.  Size distribution of the cRNA and fragmented cRNA was assessed using an Eppendorf Biophotometer (Eppendorf) and electrophoresis.	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 
+Protocol Parameters					
+Protocol Hardware					
+Protocol Software				MicroArraySuite 5.0	MicroArraySuite 5.0
+Protocol Contact					
+Protocol Term Source REF				mo	
+SDRF File	E-GEOD-6696.sdrf.txt				
+Term Source Name	NCBI Taxonomy	The MGED Ontology	ArrayExpress	EFO	mo
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version					

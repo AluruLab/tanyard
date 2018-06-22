@@ -1,0 +1,53 @@
+Investigation Title	Transcription profiling of Arabidopsis thaliana rosettes during chilling										
+Comment[AdditionalFile:XLS]	E-GEOD-10522.hybs.xls										
+Comment[Submitted Name]	Expression data of Arabidopsis thaliana rosettes during chilling										
+Experimental Design	unknown_experiment_design_type	transcription profiling by array									
+Experimental Design Term Source REF		EFO									
+Comment[AEExperimentType]	transcription profiling by array										
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis after exposure to low temperatures										
+Comment[AEMIAMESCORE]	3										
+Comment[ArrayExpressReleaseDate]	2008-04-09										
+Comment[SecondaryAccession]	GSE10522										
+Comment[ArrayExpressAccession]	E-GEOD-10522										
+Comment[MAGETAB TimeStamp_Version]	2010-07-29 20:30:48 Last Changed Rev: 13058										
+Experimental Factor Name	TEMPERATURE	TREATMENT TIME									
+Experimental Factor Type	temperature	time									
+Experimental Factor Term Source REF											
+Person Last Name	Usadel										
+Person First Name	Björn										
+Person Mid Initials											
+Person Email	usadel@mpimp-golm.mpg.de										
+Person Phone											
+Person Fax											
+Person Address	Max Planck Institute of Molecular Plant Physiology, Am Mühlenberg 1, Potsdam, 14476, Germany										
+Person Affiliation	Max Planck Institute of Molecular Plant Physiology										
+Person Roles	submitter										
+Person Roles Term Source REF	The MGED Ontology										
+Quality Control Type											
+Quality Control Term Source REF											
+Replicate Type											
+Replicate Term Source REF											
+Normalization Type											
+Normalization Term Source REF											
+Date of Experiment											
+Public Release Date	2008-04-09										
+PubMed ID	18088337										
+Publication DOI	10.1111/j.1365-3040.2007.01763.x										
+Publication Author List	Björn Usadel, Oliver E Bläsing, Yves Gibon, Fabien Poree, Melanie Höhne, Manuela Günter, Richard Trethewey, Beate Kamlage, Hendrik Poorter, Mark Stitt										
+Publication Title	Multilevel genomic analysis of the response of transcripts, enzyme activities and metabolites in Arabidopsis rosettes to a progressive decrease of temperature in the non-freezing range.										
+Publication Status	published										
+Publication Status Term Source REF	EFO										
+Publication Status Term Accession Number	EFO_0001796										
+Experiment Description	To investigate the response of Arabidopsis thaliana plants to non-freezing, cool temperatures, we subjected four week old plants to various chilling temperatures at defined times during the diurnal cycle to control for diurnal effects on transcription. From the same plants, metabolites and enzyme activities were measured as well. Interestingly a gradual change could be observed over a wide range of temperatures. Some of which could be attributed to the CBF program. Experiment Overall Design: Arabidopsis thaliana rosettes from 4 week old plants at a time point four hours into the light-period were transfered to various "chilling" temperatures (20 [control], 17, 14, 12, 10 and 8Â°C] and harvested after 6 or 78 hours (both 10 hours into the light period). Experiment Overall Design: 6 continuous treatments X 2 timepoints X 2 replicates										
+Protocol Name	P-10522-3	P-10522-10	P-10522-7	P-10522-8	P-10522-2	P-10522-6	P-10522-9	P-10522-5	P-10522-4	P-10522-1	P-AFFY-6
+Protocol Type	specified_biomaterial_action	grow	grow	grow	grow	grow	grow	nucleic_acid_extraction	labeling	hybridization	feature_extraction
+Protocol Description	Plants were harvested in the vegetative state with 3 rosettes per sample, and typically at least 5 replicate samples. Rosettes were transferred into liquid nitrogen 10h into the light period	Arabidopis thaliana ecotype Col-0 was grown on soil in a 12h light/12h dark cycle,at a light intensity of 130umol*m-2 s-1 and at a constant temperature of 20Â&deg;C. At the age of 4 weeks plants were moved to 8C 4 hours into the light period.	Arabidopis thaliana ecotype Col-0 was grown on soil in a 12h light/12h dark cycle,at a light intensity of 130umol*m-2 s-1 and at a constant temperature of 20Â&deg;C. At the age of 4 weeks plants were moved to 14C 4 hours into the light period.	Arabidopis thaliana ecotype Col-0 was grown on soil in a 12h light/12h dark cycle,at a light intensity of 130umol*m-2 s-1 and at a constant temperature of 20Â&deg;C. At the age of 4 weeks plants were moved to 12C 4 hours into the light period.	Arabidopis thaliana ecotype Col-0 was grown on soil in a 12h light/12h dark cycle,at a light intensity of 130umol*m-2 s-1 and at a constant temperature of 20Â&deg;C. At the age of 4 weeks plants were moved to 20C 4 hours into the light period.	Arabidopis thaliana ecotype Col-0 was grown on soil in a 12h light/12h dark cycle,at a light intensity of 130umol*m-2 s-1 and at a constant temperature of 20Â&deg;C. At the age of 4 weeks plants were moved to 17C 4 hours into the light period.	Arabidopis thaliana ecotype Col-0 was grown on soil in a 12h light/12h dark cycle,at a light intensity of 130umol*m-2 s-1 and at a constant temperature of 20Â&deg;C. At the age of 4 weeks plants were moved to 10C 4 hours into the light period.	Trizol extraction	Approximately 10 Â&#956;g of total RNA was processed to produce biotinylated cRNA targets.	standard Affymetrix procedures	Title: Affymetrix CEL analysis. Description: 
+Protocol Parameters											
+Protocol Hardware											
+Protocol Software											MicroArraySuite 5.0
+Protocol Contact											
+Protocol Term Source REF											
+SDRF File	E-GEOD-10522.sdrf.txt										
+Term Source Name	NCBI Taxonomy		The MGED Ontology	ArrayExpress	EFO	The MGED Ontology					
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php					
+Term Source Version											

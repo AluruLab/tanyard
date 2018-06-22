@@ -1,0 +1,30 @@
+Comment[ArrayExpressAccession]	E-GEOD-41136							
+MAGE-TAB Version	1.1							
+Public Release Date	2013-01-30							
+Investigation Title	Arabidopsis transcription factor ANAC017 is a necessary and central control point for normal transcriptome changes in response to reactive oxygen signals, such as H2O2, and specific mitochondrial retrograde stress signals							
+Comment[Submitted Name]	Arabidopsis transcription factor ANAC017 is a necessary and central control point for normal transcriptome changes in response to reactive oxygen signals, such as H2O2, and specific mitochondrial retrograde stress signals							
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis to investogate reactive oxygen signals and specific mitochondrial retrograde stress signals							
+Experiment Description	Stresses that target mitochondrial function lead to altered transcriptional responses for 100-1000s of genes genome wide, and are signalled via retrograde communication pathways within the cell. rao2 mutants contain a mutation in the NAC family transcription factor ANAC017 and cannot induce stress responsive genes (such as the mitochondrial alternative oxidase 1a) in response to mitochondrial dysfunction. We sought to define the global gene network regulated through RAO2 function in response to mitochondrial stress (mimicked through treatment of plants with antimycin A - a specific inhibitor of complex III in the mitochondrial electron transfer chain), and non-specific stress signals such as hydrogen peroxide. We have defined global stress responses that are positively and negatively mediated by RAO2 function, and show that greater than 80% of transcripts that are differentially regulated under H2O2 stress require proper functioning of ANAC017 for a normal stress responses. We used Affymetrix microarray to characterise global gene expression profiles for mutant plants with compromised mitochondrial retrograde signalling (rao2 mutants), to define the genome wide transcriptional network regulated through RAO1 function under mitochondrial stress and hydrogen peroxide stress. rao2 EMS lines, independent T-DNA knock-out lines for ANAC017 (anac017-1), ANAC017 gain of function mutants (anac017-2) and wild type seedlings were grown for 14 days, the optimal stage as defined by forward genetic screens that identifed rao2 mutants. Seedlings were grown on GamborgB5 plates and treated by spraying plants with 50 µM antimycin A (an elicitor of mitochondrial retrograde signalling) or 20mM hydrogen peroxide while mock control samples were sprayed with deionised water. Samples were collected after 3hr of treatment for global expression profiling.							
+Term Source Name	ArrayExpress	EFO						
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl						
+Person Last Name	Giraud	Giraud	Ng					
+Person First Name	Estelle	Estelle	Sophia					
+Person Email	estelle.giraud@uwa.edu.au							
+Person Affiliation	University of Western Australia							
+Person Address	ARC CoE Plant Energy Biology, University of Western Australia, UWA 35 Stirling Highway Crawley, Perth, WA, Australia							
+Person Roles	submitter							
+Protocol Name	P-GSE41136-1	P-GSE41136-6	P-GSE41136-3	P-GSE41136-8	P-GSE41136-7	P-GSE41136-2	P-GSE41136-4	P-GSE41136-5
+Protocol Description	ID_REF =  VALUE = linear fluorescence intensity	Following fragmentation, 10 ug of labelled aRNA were hybridized for 16 hr at 45C on GeneChip ATH1 Arabidopsis Expression Array. GeneChips were washed and stained in the Affymetrix Fluidics Station 450.	Seedlings were grown on GamborgB5 medium supplemented with 3 % sucrose under 16 h light/ 8h dark regime at 22 ﾰC (after 48 hr stratification at dark, at 4ﾰC)	The data were analyzed with GC - Robust Multi-array Average (GC-RMA) using Affymetrix default analysis settings and global scaling as normalization method. The trimmed mean target intensity of each array was arbitrarily set to 500.	GeneChips were scanned using a Affymetrix GeneChip Scanner 3000 (7G)	Seedlings were sprayed either with deionised water (mock), 20mM hydrogen peroxide or 50 ﾵM antimycin A (Sigma) at 4 hours into the light cycle and put back to normal growth conditions for 3 hr before all green leaf tissue was collected.	Qiagen RNeasy plant mini kit (Qiagen) according to manufacturer's instruction. On column Qiagen DNase digestion according to manufacturer's instruction.	Biotinylated aRNA were prepared according to the standard Affymetrix protocol from 400 ng total RNA input (Expression Analysis Technical Manual, 2001, Affymetrix).
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Experimental Factor Name	compound	genotype	dose					
+Experimental Factor Type	compound	genotype	dose					
+Comment[SecondaryAccession]	GSE41136							
+Comment[GEOReleaseDate]	2013-01-30							
+Comment[ArrayExpressSubmissionDate]	2012-09-25							
+Comment[GEOLastUpdateDate]	2013-02-01							
+Comment[AEExperimentType]	transcription profiling by array							
+SDRF File	E-GEOD-41136.sdrf.txt							
+Publication Title	A membrane-bound NAC transcription factor, ANAC017, mediates mitochondrial retrograde signaling in Arabidopsis.							
+Publication Author List	Ng S, Ivanova A, Duncan O, Law SR, Van Aken O, De Clercq I, Wang Y, Carrie C, Xu L, Kmiec B, Walker H, Van Breusegem F, Whelan J, Giraud E.							
+PubMed ID	24045017							
+Publication DOI	10.1105/tpc.113.113985							

@@ -1,0 +1,34 @@
+Comment[ArrayExpressAccession]	E-MEXP-3309		
+Investigation Title	An increase in the abundance of Tim23 in Arabidopsis thaliana results in  the disruption of complex I and activation of mitochondrial biogenesis.		
+Comment[Submitted Name]	An increase in the abundance of Tim23 in Arabidopsis thaliana results in  the disruption of complex I and activation of mitochondrial biogenesis.		
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis tim23 knock-out and over-expressing plants compared to wild-type		
+Comment[MIAMExpressLogin]	egiraud		
+Comment[MIAMExpressSubmissionID]	7685		
+Experiment Description	Analysis of changes in global transcript abundance profiles of 2 week old tim23 OE (overexpressor) and tim23 KO (knock-out) mutant Arabidopsis plants complared to wild-type (Col-0) using Affymetrix GeneChipﾙ Arabidopsis ATH1 Genome Arrays. 		
+Experimental Design	in_vitro_design	co-expression_design	genetic_modification_design
+Comment[AEExperimentType]	transcription profiling by array		
+Experimental Factor Name	genotype		
+Experimental Factor Type	genotype		
+Person Last Name	Giraud		
+Person First Name	Estelle		
+Person Mid Initials	J		
+Person Email	estelle.giraud@uwa.edu.au		
+Person Phone	61864884468		
+Person Affiliation	University of Western Australia		
+Person Address	ARC CoE Plant Energy Biology, 35 Stirling Highway Nedlands, Perth, Western Australia, 6009, Australia		
+Person Roles	submitter		
+Person Roles Term Source REF	MGED Ontology		
+Quality Control Type			
+Public Release Date	2011-09-01		
+Comment[ArrayExpressSubmissionDate]	2011-07-14		
+Protocol Name	P-MTAB-21886	P-MTAB-21887	
+Protocol Description	Arabidopsis plants, ecotype Columbia, and T-DNA insertional lines were sown in individual pots in soil media and stratified at 4ﾺC for 48 hours before being transfered to long day growth conditions (16 hours light and 8 hours dark cycle) at a light intensity of 150 uEinsteins, 22ﾺC, 55% relative humidity and watered as needed. <br>(Parameters: start time = 16, time unit = days, min temperature = 22, temperature unit = C, media = Soil mix in pots)	Leaf samples were collected, snap frozen and ground under liquid nitrogen. Total RNA was isolated using the RNeasy Plant Mini Kit(Qiagen) according to manufacturer's instructions, quality was verified using a Bioanalyzer and spectrophotometric analysis was carried out to determine the A260:A280 and A260:A230 ratios to ensure both ratios were between 1.9 - 2.1<br>(Parameters: Extracted product = total_RNA, Amplification = none)	
+Protocol Type	grow	nucleic_acid_extraction	
+Protocol Term Source REF	MGED Ontology	MGED Ontology	
+Term Source Name	MGED Ontology	ArrayExpress	
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	
+SDRF File	E-MEXP-3309.sdrf.txt		
+Publication Title	Dual location of the mitochondrial preprotein transporters B14.7 and Tim23-2 in complex I and the TIM17:23 complex in Arabidopsis links mitochondrial activity and biogenesis.		
+Publication Author List	Wang Y, Carrie C, Giraud E, Elhafez D, Narsai R, Duncan O, Whelan J, Murcha MW.		
+PubMed ID	22730406		
+Publication DOI	10.1105/tpc.112.098731		

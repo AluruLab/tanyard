@@ -1,0 +1,31 @@
+Comment[ArrayExpressAccession]	E-GEOD-26206							
+MAGE-TAB Version	1.1							
+Public Release Date	2013-02-01							
+Investigation Title	Expression data in whole Arabidopsis seedlings after treatment with Rhizoctonia solani AG8 and AG2-1							
+Comment[Submitted Name]	Expression data in whole Arabidopsis seedlings after treatment with Rhizoctonia solani AG8 and AG2-1							
+Experiment Description	Rhizoctonia solani is an economically important soil-borne necrotrophic fungal pathogen, with a broad host range and for which little effective resistance exists in crop plants.  Arabidopsis is resistant to the R. solani AG8 isolate but susceptible to R. solani AG2-1.  Affymetrix microarray analysis was performed to determine genes that are affected in common and specifically by AG8 and AG2-1. 3 biological samples were taken from 3 treatments: non-infected control, R. solani AG8 infection and R. solani AG2-1 infection.							
+Term Source Name	ArrayExpress	EFO						
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl						
+Person Last Name	Foley	Foley	Gleason	Anderson	Hamann	Singh		
+Person First Name	Rhonda	Rhonda	Cynthia	Jonathan	Thorsten	Karam		
+Person Mid Initials		C						
+Person Email	rhonda.foley@csiro.au							
+Person Affiliation	CSIRO							
+Person Phone	61(0)893336635							
+Person Address	Plant Industry, CSIRO, Underwood Ave, Floreat, Australia							
+Person Roles	submitter							
+Protocol Name	P-GSE26206-1	P-GSE26206-6	P-GSE26206-3	P-GSE26206-8	P-GSE26206-7	P-GSE26206-2	P-GSE26206-4	P-GSE26206-5
+Protocol Description	ID_REF =  VALUE = RMA expression value	cRNA was hybridized to the GeneChip Arabidopsis ATH1 Genome Array using a GeneChip instrument system with scanner 3000 7G and autoloader for expression array processing and analysis, following the manufacturer's protocol. Hybridization was performed at the Australian Genome Research Facility Ltd. (Melbourne, Victoria, Australia).	Col-0 seedlings were grown on vertical MS plates.	The raw data files underwent background correction, normalization, probe specific correction, and summary value computation using the Robust Multichip Average (RMA) method in the Bioconductor package.	GeneChips were scanned on an Affymetrix GeneChip scanner 3000 7G.	One-week-old seedlings grown on vertical MS plates were treated by touching the root/crown region by a toothpick containing mycelia from R. solani grown on PDA. At the same time, GSTF8::luciferase transgenic plants were grown on MS plates with luciferin, and luciferase activity was measured at day 0, 3, 4, 5, 6, 7 and 10 days. Based on a measurement of maximum GSTF8::luciferase activity, whole seedlings were collected seven days after treatment. Three biological replicates were used for each treatment.	Three biological repeats of 100mg seedling tissue from the non-infected control, AG8- and AG2-1-treated plants were obtained. RNA was extracted using the Qiagen RNA easy kit following the manufacturer’s protocol.	Whole plant RNA (15ug for each sample) was sent to the Australian Genome Research Facility Ltd. (Melbourne, Victoria, Australia) for labelling. Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 2 ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Experimental Factor Name	infect							
+Experimental Factor Type	infect							
+Comment[SecondaryAccession]	GSE26206							
+Comment[GEOReleaseDate]	2013-02-01							
+Comment[ArrayExpressSubmissionDate]	2010-12-20							
+Comment[GEOLastUpdateDate]	2013-02-02							
+Comment[AEExperimentType]	transcription profiling by array							
+SDRF File	E-GEOD-26206.sdrf.txt							
+Publication Title	Genetic and genomic analysis of Rhizoctonia solani interactions with Arabidopsis; evidence of resistance mediated through NADPH oxidases.							
+Publication Author List	Foley RC, Gleason CA, Anderson JP, Hamann T, Singh KB.							
+PubMed ID	23451091							
+Publication DOI	10.1371/journal.pone.0056814							

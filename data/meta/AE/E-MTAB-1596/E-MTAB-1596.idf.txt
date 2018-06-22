@@ -1,0 +1,32 @@
+Comment[ArrayExpressAccession]	E-MTAB-1596		
+MAGE-TAB Version	1.1		
+Investigation Title	Arabidopsis seedlings and cytokinin		
+Comment[Submitted Name]	Arabidopsis seedlings and cytokinin		
+Experiment Description	Aim of this experiment was to look at the gene expression differences in the benzyladenine-treated and untreated Arabidopsis seedlings grown in light		
+Experimental Design	compound_treatment_design	in_vitro_design	co-expression_design
+Comment[AEExperimentType]	transcription profiling by array		
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis seedlings grown in constant light with or without benzyladenine treatment		
+Experimental Factor Name	compound	dose	
+Experimental Factor Type	compound	dose	
+Quality Control Type	biological replicate		
+Quality Control Term Source REF	EFO		
+Public Release Date	2013-03-27		
+Person Last Name	Bhargava	Kieber	Schaller
+Person First Name	Apurva	Joseph	G. Eric
+Person Mid Initials			
+Person Email	apurv@ad.unc.edu	jkieber@unc.edu	george.e.schaller@dartmouth.edu
+Person Phone			
+Person Address	Office 4144 Genome Sciences Building, UNC Department of Biology, Coker Hall, CB #3280, 120 South Road, Chapel Hill, NC 27599-3280	Office 4163 Genome Sciences Building, UNC Department of Biology, Coker Hall, CB #3280, 120 South Road, Chapel Hill, NC 27599-3280	Room 318, Gilman Life Sciences Building,Department of Biological Sciences, Dartmouth College, Hanover NH. 03755
+Person Affiliation	University of North Carolina at Chapel Hill	University of North Carolina at Chapel Hill	Dartmouth College
+Person Roles	submitter		principal investigator
+PubMed ID	23524861		
+Publication Author List	Apurva Bhargava, Ivory Clabaugh, Jenn P. To, Bridey B. Maxwell, Yi-Hsuan Chiang, G. Eric Schaller, Ann Loraine and Joseph J Kieber		
+Publication Title	Identification of Cytokinin Responsive Genes Using Microarray Meta-analysis and RNA-seq in Arabidopsis thaliana		
+Publication Status	online first		
+Protocol Name	P-MTAB-32075	P-MTAB-32076	P-MTAB-32077
+Protocol Type	growth protocol	treatment protocol	nucleic acid extraction protocol
+Protocol Description	Arabidopsis seedlings were grown on MS media for 14 days	The seedlings were immersed in MS (liquid) +10 uM BA for 60 minutes. Control samples where immersed in dimethylsulphoxide (DMSO) for 60 minutes.	Total RNA was isolated using the RNeasy plant kit according to the manufacturer's instructions (Qiagen)
+Protocol Term Source REF	EFO	EFO	EFO
+Term Source Name	EFO	ArrayExpress	
+Term Source File	http://www.ebi.ac.uk/efo	http://www.ebi.ac.uk/arrayexpress	
+SDRF File	E-MTAB-1596.sdrf.txt		

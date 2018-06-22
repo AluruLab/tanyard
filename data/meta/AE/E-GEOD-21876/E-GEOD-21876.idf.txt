@@ -1,0 +1,58 @@
+Comment[ArrayExpressAccession]	E-GEOD-21876							
+Public Release Date	2010-11-12							
+Investigation Title	Transcriptional regulation of ROS controls the transition from proliferation to differentiation in the root							
+Comment[Submitted Name]	Transcriptional regulation of ROS controls the transition from proliferation to differentiation in the root							
+Experiment Description	We isolated the meristematic and elongation zones of Col-0, upb1-1 mutant and 35S::UPB1-3YFP/upb1-1 plants by micro-dissection and extracted RNA from each section independently. To identify genes that might mediate UPB1 function we conducted a series of microarray experiments. The spatial distribution of the UPB1 protein suggested that it might exert a different effect on gene expression in the meristematic and elongation zones. Therefore, we isolated the meristematic and elongation zones by micro-dissection and extracted RNA from each section independently. Total RNA was isolated from approximately 60 meristem- and elongation zones of Col-0, upb1-1 and 35S::UPB1-3YFP #2 6 day old plants. Two biological replicates were performed for each experiment.							
+Date of Experiment								
+Term Source Name	EFO							
+Term Source Version								
+Term Source File	http://www.ebi.ac.uk/efo/efo.owl							
+Person Last Name	TSUKAGOSHI	Tsukagoshi	Busch					
+Person First Name	HIRONAKA	Hironaka	Wolfgang					
+Person Mid Initials								
+Person Email	geo@ncbi.nlm.nih.gov							
+Person Affiliation	Duke university							
+Person Phone								
+Person Fax								
+Person Address	Biology, Duke university, 4128 FFSC Building, Durham, NC, USA							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Person Roles Term Accession Number								
+Normalization Type								
+Normalization Term Accession Number								
+Normalization Term Source REF								
+Replicate Type								
+Replicate Term Accession Number								
+Replicate Term Source REF								
+Experimental Design								
+Experimental Design Term Accession Number								
+Experimental Design Term Source REF								
+Quality Control Type								
+Quality Control Term Accession Number								
+Quality Control Term Source REF								
+Protocol Name	P-GSE21876-1	P-GSE21876-6	P-GSE21876-3	P-GSE21876-8	P-GSE21876-7	P-GSE21876-2	P-GSE21876-4	P-GSE21876-5
+Protocol Description	ID_REF = <br>VALUE = Signal<br>ABS_CALL = indicating whether the transcript was present (P), absent (A), or marginal (M)<br>DETECTION P-VALUE = 	Samples were submitted to Duke Microarray Facility (Durham, NC) for hybridization to Affymetrix ATH1 microarrays.	Seeds were surface sterilized for 5 minutes in 30% Bleach and 0.02% Triton X-100 for 15 minutes. Seeds were rinsed 3 times with sterile water, stratified for 4˚C for 2 days, then placed on standard media. Standard media is 1X Murashige and Skoog salt mixture, 1% sucrose, 1% agar and adjusted to pH 5.7 with KOH and seeds were planted at 5 seeds/cm in two rows.	MAS5	Samples were submitted to Duke Microarray Facility (Durham, NC) for hybridization to Affymetrix ATH1 microarrays.	Seedlings were grown for 6 days.  Roots were cut into the meristematic and elongation zone with a razor blade under microscope and collected into RNA extraction buffer.  Approximately 60 roots were collected per replicate, with two biological replicates being performed per sample.  Samples were briefly sonicated to disrupt the tissue.	Approximately 60 roots were collected per replicate.  Samples were briefly sonicated to disrupt the tissue.  RNA was extracted using the RNAeasy Micro Kit (Qiagen).	Fragmented cRNA probes were prepared using the two-cycle amplification protocol by Affymetrix.
+Protocol Software								
+Protocol Hardware								
+Protocol Contact								
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Protocol Term Source REF								
+Protocol Term Accession Number								
+Experimental Factor Name	ORGANISM PART	GENOTYPE						
+Experimental Factor Type	organism_part	genotype						
+Experimental Factor Term Source REF								
+Experimental Factor Term Accession Number								
+Publication Title	Transcriptional regulation of ROS controls transition from proliferation to differentiation in the root							
+Publication Author List	Tsukagoshi H, Busch W, Benfey PN							
+PubMed ID	21074051							
+Publication DOI	10.1016/j.cell.2010.10.020							
+Publication Status	published							
+Publication Status Term Source REF	EFO							
+Publication Status Term Accession Number	EFO_0001796							
+Comment[SecondaryAccession]	GSE21876							
+Comment[GEOLastUpdateDate]	2010-11-02							
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for upb1 or expressing UPB1-3YFP under the control of the 35S promoter							
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[GEOReleaseDate]	2010-11-12							
+Comment[ArrayExpressSubmissionDate]	2010-05-16							
+SDRF File	E-GEOD-21876.sdrf.txt							

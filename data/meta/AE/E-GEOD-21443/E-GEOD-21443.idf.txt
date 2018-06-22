@@ -1,0 +1,54 @@
+Investigation Title	Expression analysis of the response to wild-type and pye-1 mutants to iron sufficient or iron deficient conditions							
+Comment[Submitted Name]	Expression analysis of the response to wild-type and pye-1 mutants to iron sufficient or iron deficient conditions							
+Experimental Design	transcription profiling by array							
+Experimental Design Term Source REF	EFO							
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for pye after iron deprivation							
+Comment[SecondaryAccession]								
+Comment[SecondaryAccession]	GSE21443							
+Comment[ArrayExpressReleaseDate]	2010-10-12							
+Comment[AEMIAMESCORE]	4							
+Comment[Publication DOI]	10.1105/tpc.110.074096							
+Comment[ArrayExpressAccession]	E-GEOD-21443							
+Comment[MAGETAB TimeStamp_Version]	2010-10-22 05:59:33 Last Changed Rev: 14857							
+Experimental Factor Name	GENOTYPE	GROWTH CONDITION						
+Experimental Factor Type	genotype	growth_condition						
+Experimental Factor Term Source REF								
+Person Last Name	Long	Benfey	Long					
+Person First Name	Terri	Philip	Terri					
+Person Mid Initials	Anita	N	A					
+Person Email	tlong@duke.edu							
+Person Phone	919-613-8202							
+Person Fax	919-613-8177							
+Person Address	Biology, Duke University, Box 90338, Durham, NC, USA							
+Person Affiliation	Duke University							
+Person Roles	submitter							
+Person Roles Term Source REF	The MGED Ontology							
+Quality Control Type								
+Quality Control Term Source REF								
+Replicate Type								
+Replicate Term Source REF								
+Normalization Type								
+Normalization Term Source REF								
+Date of Experiment								
+Public Release Date	2010-10-12							
+PubMed ID	20675571							
+Publication DOI	10.1105/tpc.110.074096							
+Publication Author List	Long TA, Tsukagoshi H, Busch W, Lahner B, Salt DE, Benfey PN							
+Publication Title	The bHLH transcription factor POPEYE regulates response to iron deficiency in Arabidopsis roots.							
+Publication Status	published							
+Publication Status Term Source REF	EFO							
+Publication Status Term Accession Number	EFO_0001796							
+Experiment Description	Transcriptional profile of whole roots of wild-type and pye-1 mutants exposed to 24 hours -Fe were generated Global population increases and climate change underscore the need for better comprehension of how plants acquire and process nutrients such as iron. A systems biology approach was taken to elucidate novel regulatory mechanisms involved in plant responses to iron deficiency (-Fe). Using cell-type specific transcriptional profiling we identified a pericycle-specific iron deficiency response, and a previously uncharacterized transcription factor, POPEYE (PYE), that plays an important role in this response. Functional analysis of PYE suggests that it positively regulates growth and development under iron deficient conditions. ChIP-on-chip analysis and transcriptional profiling reveal that PYE helps maintain iron homeostasis by directly and indirectly regulating the expression of ferric reductases, metal ion transporters, iron storage proteins, and other key iron homeostasis genes. In addition to PYE, we also identified a second protein BRUTUS (BTS), which appears to negatively regulate the response to iron deficiency. BTS is a unique putative E3 ligase protein, with metal ion binding and DNA binding domains. PYE and BTS are tightly co-regulated and physically interact with PYE paralogs, one of which is thought to positively regulate expression of genes involved in iron homeostasis. We propose that iron content is sensed within the pericycle where PYE, perhaps in conjunction with BTS and other regulatory proteins, is then activated to control a regulatory network involved in maintaining proper iron distribution in plants.  Keywords: Expression analysis To determine how loss of PYE expression affects the transcriptional profile of whole roots, pye-1 mutants and wild-type seeds were germinated under standard growth conditions then transferred to standard media (control, MS media) or iron deficient media (-Fe, 0.3mM Ferrozine in MS media containing no ferrous sulfate). After 24 hours of exposure to +Fe or -Fe whole roots were collected and analyzed.							
+Protocol Name	P-GSE21443-3	P-GSE21443-2	P-GSE21443-4	P-GSE21443-5	P-GSE21443-6	P-GSE21443-7	P-GSE21443-8	P-GSE21443-1
+Protocol Type	grow	specified_biomaterial_action	nucleic_acid_extraction	labeling	hybridization	image_aquisition	feature_extraction	bioassay_data_transformation
+Protocol Description	Seeds were surface sterilized for 2 minutes in 70% ethanol, the ethanol was removed, then replaced with 30% Bleach and 0.02% Triton X-100 for 15 minutes. Seeds were rinsed 3 times with sterile water, stratified for 4ËC for 2 days, then placed on standard media. Standard media is 1X Murashige and Skoog salt mixture in which ferrous sulfate is replaced with 100mM Fe(III)-EDTA, 0.5g/L MES, 1% sucrose, 1% agar and adjusted to pH 5.7 with KOH.  âFe media is 1X Murashige and Skoog salt mixture in which ferrous sulfate is replaced with 0.3mM Ferrozine. Nylon mesh was placed on top of the solidified media and seeds were planted at ~20 seeds/cm in two rows.	Samples were prepared as in Birnbaum et al. (2005) Nat. Methods for roots grown under standard conditions. Roots were transferred to +Fe or -Fe media for 24 hours. Roots were then cut with a razor blade 0.5 mm below the root/hypocotyl junction and collected into RNA extraction buffer.  Approximately 320 roots were collected per replicate, with two biological replicates being performed per line.	RNA was extracted using the RNAeasy Micro Kit (Qiagen GmbH).	Fragmented cRNA probes were prepared using the one-cycle amplification protocol by Affymetrix.	Samples were submitted to Expression Analysis Inc. (Durham, NC) for hybridization to Affymetrix ATH1 microarrays.	Samples were submitted to Expression Analysis Inc. (Durham, NC) for hybridization to Affymetrix ATH1 microarrays.	MAS5 algorithm	ID_REF = <br>VALUE = Signal<br>ABS_CALL = indicating whether the transcript was present (P), absent (A), or marginal (M)<br>DETECTION P-VALUE =
+Protocol Parameters								
+Protocol Hardware								
+Protocol Software								
+Protocol Contact								
+Protocol Term Source REF	The MGED Ontology	The MGED Ontology	The MGED Ontology	The MGED Ontology	The MGED Ontology		The MGED Ontology	The MGED Ontology
+SDRF File	E-GEOD-21443.sdrf.txt							
+Term Source Name	EFO		The MGED Ontology	ArrayExpress	EFO	The MGED Ontology		
+Term Source File	http://www.ebi.ac.uk/efo/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php		
+Term Source Version								

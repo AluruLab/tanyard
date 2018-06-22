@@ -1,0 +1,26 @@
+Comment[ArrayExpressAccession]	E-GEOD-47884
+MAGE-TAB Version	1.1						
+Public Release Date	2013-06-13
+Investigation Title	Expression data from torpedo-stage embryos from different Arabidopsis accessions						
+Comment[Submitted Name]	Expression data from torpedo-stage embryos from different Arabidopsis accessions
+Experiment Description	The zll/ago10 mutant from Arabidopsis shows different expressivity of shoot stem cell defects in different Arabidopsis accessions. We used microarrays to identify changes in embryo gene expression associated with differences in zll expressivity. Microarrays from ZLL-dependent (Ler-1, Fe-1, Bay-0 and Nw-0) and ZLL-independent (Col-0, Van-0, Ts-1) accessions were compared (always using a minimum of 3 arrays in each group) in different combinations to identify differentially expressed genes.						
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Tucker	Tucker	Laux				
+Person First Name	Matthew	Matthew	Thomas				
+Person Mid Initials	R	R					
+Person Email	matthew.tucker@adelaide.edu.au						
+Person Affiliation	University of Adelaide						
+Person Address	Centre of Excellence in Plant Cell Walls, University of Adelaide, Hartley Grove, Waite Campus, Urrbrae, SA, Australia						
+Person Roles	submitter						
+Protocol Name	P-GSE47884-1	P-GSE47884-5	P-GSE47884-6	P-GSE47884-2	P-GSE47884-3	P-GSE47884-4	P-GSE47884-7
+Protocol Description	Expression analysis and normalisation was performed in R using the RMA package following a previously established pipeline (D'Onofrio et al. Funct Plant Biol 2009). ID_REF =  VALUE = RMA-normalized signal intensity	Samples were labelled according to the Small Sample Labelling Protocol according to ATLAS Biolabs (Berlin, Germany) and Affymetrix instructions (http://rtsf.msu.edu/small_sample_labeling.pdf).	A standard Affymetrix hybridisation protocol was used at ATLAS Biolabs, Berlin, Germany.	Embryos were extracted fom seeds using syringe tips in an eyeglass containing 1xPBS, above an ice-filled petri dish. Samples were left on ice for less than 1 hr before snap freezing in liquid nitrogen.	Wild type plants were grown under standard laboratory conditions according to Laux et al. 1996, Development.	Total RNA was extracted using the Plant RNeasy Kit (Qiagen) according to manufacturer's instructions.	A Hewlett-Packard scanner was used at ATLAS Biolabs, Berlin, Germany.
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	ZLL DEPENDENCY	ACCESSION					
+Experimental Factor Type	zll dependency	accession					
+Comment[SecondaryAccession]	GSE47884						
+Comment[GEOReleaseDate]	2013-06-13						
+Comment[ArrayExpressSubmissionDate]	2013-06-12						
+Comment[GEOLastUpdateDate]	2013-06-14						
+Comment[AEExperimentType]	transcription profiling by array						
+SDRF File	E-GEOD-47884.sdrf.txt

@@ -1,0 +1,52 @@
+Investigation Title	Expression data from Arabipdosis msh1 recA3 double mutant under heat stress							
+Comment[Submitted Name]	Expression data from Arabipdosis msh1 recA3 double mutant under heat stress							
+Experimental Design	genetic modification design							
+Experimental Design Term Source REF	EFO							
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis msh1 recA3 double mutants under heat stress							
+Comment[AEMIAMESCORE]	4							
+Comment[SecondaryAccession]	GSE19603							
+Comment[ArrayExpressReleaseDate]	2010-04-12							
+Comment[Publication DOI]	10.1104/pp.109.152827							
+Comment[ArrayExpressAccession]	E-GEOD-19603							
+Comment[MAGETAB TimeStamp_Version]	2010-08-04 01:52:12 Last Changed Rev: 13058							
+Experimental Factor Name	genotype	environmental stress						
+Experimental Factor Type	genotype	environmental stress						
+Experimental Factor Term Source REF								
+Person Last Name	Davila	Shedge						
+Person First Name	Jaime	Vikas						
+Person Mid Initials								
+Person Email	jdavila2@unl.edu							
+Person Phone								
+Person Fax								
+Person Address	Plant Science Innovation Center, University of Nebraska, 1901 Vine Street, Lincoln, NE, USA							
+Person Affiliation	University of Nebraska							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Quality Control Type								
+Quality Control Term Source REF								
+Replicate Type								
+Replicate Term Source REF								
+Normalization Type								
+Normalization Term Source REF								
+Date of Experiment								
+Public Release Date	2010-04-12							
+PubMed ID	20139171							
+Publication DOI	10.1104/pp.109.152827							
+Publication Author List	Shedge V, Davila J, Arrieta-Montiel MP, Mohammed S, Mackenzie SA							
+Publication Title	Extensive rearrangement of the Arabidopsis mitochondrial genome elicits cellular conditions for thermotolerance.							
+Publication Status	published							
+Publication Status Term Source REF	EFO							
+Experiment Description	In Arabidposis thaliana, the msh1 recA3 double mutant shows an extensive mitochondrial genome rearrangement and displays pronounced thermotolerance. We use microarray analysis to characterize genes and their response in the double mutant to a heat shock experiment in which plants were exposed to a temperature of 37 C for 2 hours. Wild type and double mutant plant were exposed to a temperature of 37 C for 2 hours and RNA samples were collected for the wild type and the double mutant before and after the heat shock.							
+Protocol Name	P-GSE19603-2	P-GSE19603-3	P-GSE19603-4	P-GSE19603-5	P-GSE19603-6	P-GSE19603-7	P-GSE19603-8	P-GSE19603-1
+Protocol Type	specified_biomaterial_action	grow	nucleic_acid_extraction	labeling	hybridization	image_aquisition	feature_extraction	bioassay_data_transformation
+Protocol Description	For heat treatment experiments, 8-week-old plants were first transferred to a chamber (Percival Scientific) where they were subjected to heat stress at 37C for approximately 24 hours.	Cold treated seeds were sown directly on soil (Metro Mix 360) and kept in growth chambers at 8- hour daylength at 24 C for 8 weeks and then transferred to a growth chamber with 16-hour daylength at 24 C.	total RNA was extracted from above-ground parts of 8-week-old Col-0 plants and msh1 recA3 double mutant plants (Col-0 background) using TRIzol (Invitrogen) extraction procedure followed by purification on Rneasy columns (Qiagen).	According to Affymetrix instructions	RNA was hybridized to individual Affymetrix GeneChip oligonucleotide ATH1 array using manufacturers instructions	According to Affymetrix instructions	Expression data from Affymetrix genechips were normalized using the Robust Multichip Average (RMA) method using Bioconductorâs affy package in the R language	ID_REF = <br>VALUE = RMA signal intensity
+Protocol Parameters								
+Protocol Hardware								
+Protocol Software								
+Protocol Contact								
+Protocol Term Source REF								
+SDRF File	E-GEOD-19603.sdrf.txt							
+Term Source Name	EFO							
+Term Source File	http://www.ebi.ac.uk/efo/							
+Term Source Version								

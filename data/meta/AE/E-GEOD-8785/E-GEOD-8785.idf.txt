@@ -1,0 +1,52 @@
+Investigation Title	Transcription profiling of Arabidopsis early gibberellin responses and DELLA protein direct targets (GEO Super Series)													
+Comment[Submitted Name]	Early gibberellin responses and DELLA protein direct targets in Arabidopsis													
+Experimental Design	unknown_experiment_design_type	transcription profiling by array												
+Experimental Design Term Source REF		EFO												
+Comment[AEExperimentType]	transcription profiling by array													
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for ga1 treated with GA4 or expressing rga-delta17 treated with GA4 and dexamethasone													
+Comment[AEMIAMESCORE]	3													
+Comment[ArrayExpressReleaseDate]	2008-06-16													
+Comment[SecondaryAccession]	GSE8785													
+Comment[ArrayExpressAccession]	E-GEOD-8785													
+Comment[MAGETAB TimeStamp_Version]	2010-08-09 11:39:03 Last Changed Rev: 13058													
+Experimental Factor Name	TREATMENT	TREATMENT TIME	GENOTYPE											
+Experimental Factor Type	treatment	time	genotype											
+Experimental Factor Term Source REF														
+Person Last Name	Zentella													
+Person First Name	Rodolfo													
+Person Mid Initials														
+Person Email	zentella@duke.edu													
+Person Phone														
+Person Fax														
+Person Address	Biology, Duke University, Box 90338, Science Dr, Durham, 27708, USA													
+Person Affiliation	Duke University													
+Person Roles	submitter													
+Person Roles Term Source REF	The MGED Ontology													
+Quality Control Type														
+Quality Control Term Source REF														
+Replicate Type														
+Replicate Term Source REF														
+Normalization Type														
+Normalization Term Source REF														
+Date of Experiment														
+Public Release Date	2008-06-16													
+PubMed ID	17933900													
+Publication DOI	10.1105/tpc.107.054999 													
+Publication Author List	Rodolfo Zentella, Zhong-Lin Zhang, Mehea Park, Stephen G Thomas, Akira Endo, Kohji Murase, Christine M Fleet, Yusuke Jikumaru, Eiji Nambara, Yuji Kamiya, Tai-Ping Sun													
+Publication Title	Global analysis of della direct targets in early gibberellin signaling in Arabidopsis.													
+Publication Status	published													
+Publication Status Term Source REF	EFO													
+Publication Status Term Accession Number	EFO_0001796													
+Experiment Description	This SuperSeries is composed of the following subset Series:; GSE8739: Early gibberellin responses in Arabidopsis; GSE8741: DELLA protein direct targets in Arabidopsis Experiment Overall Design: Refer to individual Series													
+Protocol Name	P-G8785-5	P-G8785-2	P-G8785-11	P-G8785-9	P-G8785-7	P-G8785-10	P-G8785-1	P-G8785-6	P-G8785-4	P-G8785-3	P-G8785-8	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6	Affymetrix:Protocol:ExpressionStat
+Protocol Type	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	grow	grow	nucleic_acid_extraction	labeling	labeling	hybridization	feature_extraction	bioassay_data_transformation
+Protocol Description	Whole seedlings were sprayed with 2 uM GA4 with a fine mister and shoots were collected 1h after treatment by cutting with a razor blade.	Whole seedlings were sprayed with water with a fine mister and shoots were collected 1h after treatment by cutting with a razor blade.	Whole seedlings were sprayed with 2 uM GA4 with a fine mister, 16 h prior to the experiment. On the day of the experiment, the seedlings were resprayed with 2 uM GA4 plus 10 uM DEX and shoots were collected 4h after treatment by cutting with a razor blade.	Whole seedlings were sprayed with 2 uM GA4 with a fine mister, 16 h prior to the experiment. On the day of the experiment, the seedlings were resprayed with 2 uM GA4 and shoots were collected 4h after treatment by cutting with a razor blade.	Whole seedlings were sprayed with 2 uM GA4 with a fine mister, 16 h prior to the experiment. On the day of the experiment, the seedlings were resprayed with 2 uM GA4 and shoots were collected 2h after treatment by cutting with a razor blade.	Whole seedlings were sprayed with 2 uM GA4 with a fine mister, 16 h prior to the experiment. On the day of the experiment, the seedlings were resprayed with 2 uM GA4 plus 10 uM DEX and shoots were collected 2h after treatment by cutting with a razor blade.	Seeds were germinated on MS agar plates supplemented with 2% sucrose on a piece of nylon mesh as support. Seedlings were grown vertically for 8 days under continuous light at 22C.	Seeds were germinated on MS agar plates supplemented with 2% sucrose on a piece of nylon mesh as support. Seedlings were grown vertically for 8 days under continuous light at 22C. On day 7, seedlings were pretreated with 2 micromolar GA4 in maximize gibberellin responses. On day 8, seedlings were sprayed with either 2 uM GA4 (mock) or a combination of 2 uM GA and 10 uM DEX. Tissue was collected after 2h and 4h.	Qiagen RNeasy Plant minikit was used to extract RNA from 100 mg of tissue	Standard protocol from Affymetrix for One-Cycle cDNA Synthesis	Standard protocol from Affymetrix	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 
+Protocol Parameters														
+Protocol Hardware														
+Protocol Software												MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 5.0
+Protocol Contact														
+Protocol Term Source REF												mo		The MGED Ontology
+SDRF File	E-GEOD-8785.sdrf.txt													
+Term Source Name	NCBI Taxonomy		The MGED Ontology	ArrayExpress	EFO	The MGED Ontology	mo							
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://mged.sourceforge.net/ontologies/MGEDontology.php							
+Term Source Version														

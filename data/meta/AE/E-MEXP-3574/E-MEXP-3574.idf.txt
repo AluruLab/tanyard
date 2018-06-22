@@ -1,0 +1,32 @@
+Comment[ArrayExpressAccession]	E-MEXP-3574
+Investigation Title	Histidine-Kinase Activity of the Ethylene Receptor ETR1 Facilitates the Ethylene Response in Arabidopsis			
+Comment[Submitted Name]	Histidine-Kinase Activity of the Ethylene Receptor ETR1 Facilitates the Ethylene Response in Arabidopsis
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis wild type ETR1 or kinase-inactive ETR1 plants in response to ethylene. T-DNA introduced transgene: tETR1-H/G2 or tETR1-wt			
+Comment[MIAMExpressLogin]	Schaller			
+Comment[MIAMExpressSubmissionID]	8151			
+Experiment Description	Ethylene response in Arabidopsis with wild-type or kinase-inactive ETR1			
+Experimental Design	co-expression_design	growth_condition_design	genetic_modification_design	replicate_design
+Comment[AEExperimentType]	transcription profiling by array			
+Experimental Factor Name	GENOTYPE	COMPOUND	DOSE	
+Experimental Factor Type	genotype	compound	dose	
+Person Last Name	Schaller			
+Person First Name	George			
+Person Mid Initials	E			
+Person Email	george.e.schaller@dartmouth.edu			
+Person Phone	603-646-2525			
+Person Affiliation	Dartmouth College			
+Person Address	Biological Sciences, Life Sciences Center, Hanover, NH, 03755, USA		
+Person Roles	submitter		
+Person Roles Term Source REF	MGED Ontology		
+Quality Control Type	biological_replicate		
+Public Release Date	2012-04-01		
+Comment[ArrayExpressSubmissionDate]	2012-02-28 20:32		
+Publication Title	Histidine-Kinase Activity of the Ethylene Receptor ETR1 Facilitates the Ethylene Response in Arabidopsis		
+Publication Status	submitted		
+Protocol Name	P-MTAB-25630	P-MTAB-25631	P-MTAB-25632
+Protocol Description	Total RNA was isolated using the RNeasy plant kit according to the manufacture'’s instructions (QIAGEN, Valencia, CA). The nucleic acid integrity was assessed by evaluating ribosomal RNA bands on agarose gels, and its quality was determined by calculating the 260/280 and 260/230 spectrophotometric ratios. When necessary, the RNA was cleaned further by phenol/chloroform/iso-amyl alcohol (25:24:1) extraction, followed by precipitation with 0.15 M sodium acetate, 50% (v/v) isopropanol.<br>(Parameters: Extracted product = total_RNA, Amplification = none)	Seeds were grown on Petri dishes containing one-half-strength Murashige and Skoog basal media with Gamborg’s vitamins (pH 5.75; Sigma, St. Louis) and 0.8% (w/v) agar. Aminoethylvinyl-Gly (5 uM) was included in the growth media to inhibit ethylene biosynthesis by the seedlings. After a 2-d cold treatment at 4 C, plates were brought to 22 C and exposed to light for 16 hours. Plates were then placed in 4-L chambers and seedlings grown in the dark. Seedlings were examined after 4 d, time 0 corresponding to when the plates were removed from 4 C and brought to 22 C. <br>(Parameters: start time = 4, time unit = days, min temperature = 22, temperature unit = C)	Seedlings were grown in sealed containers in the presence or absence of 1 uL/L ethylene. To examine the growth of seedlings in the absence of ethylene, hydrocarbon-free air was passed through the chamber to remove trace amounts of ethylene synthesized by the seedlings. 
+Protocol Type	nucleic_acid_extraction	grow	specified_biomaterial_action
+Protocol Term Source REF	MGED Ontology	MGED Ontology	MGED Ontology
+Term Source Name	MGED Ontology	ArrayExpress
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	
+SDRF File	E-MEXP-3574.sdrf.txt

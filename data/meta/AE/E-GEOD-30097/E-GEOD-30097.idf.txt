@@ -1,0 +1,57 @@
+Comment[ArrayExpressAccession]	E-GEOD-30097
+Public Release Date	2011-11-23							
+Investigation Title	Time-course expression analysis of the low pH (pH 4.6)  response in  Arabidopsis whole roots							
+Comment[Submitted Name]	Time-course expression analysis of the low pH (pH 4.6)  response in  Arabidopsis whole roots
+Experiment Description	We preformed at time-course of the expression of whole Arabidopsis roots for 30 minutes, 1H, 3H, 6H 12H, 24H, and 48H after transfer to low pH (pH 4.6). Controls at the standard pH (pH 5.7) were included at each time-point. We combined these data with 13 other datasests and performed a meta-analysis to ask whether a universal stress response exists in Arabidopsis roots. Stress responses in plants are tightly coordinated with developmental processes, but the interaction between these pathways is poorly understood. Here we use genome-wide assays at high spatial and temporal resolution to understand the processes that lnk development and stress in the Arabidopsis root. Our meta-analysis finds little evidence for a universal stress response. Common stress responses appear to exists and, analagous to animal systems, many of them show cell-type specificity, suggesting a convergent evolutionary theme in multicellular organisms. Common stress responses may be mediated by cell identity regulators, as mutations in these genes resulted in altered responses to stress. Our results reveal surprising linkages between stress and development at cellular resolution, and show the power of multiple genome-wide datasets to elucidate biological processes. 28 samples: 7 time points, with two replicates for each timepoint for both the control (pH 5.7) and treatment (pH 4.6)							
+Date of Experiment								
+Term Source Name	EFO
+Term Source Version								
+Term Source File	http://www.ebi.ac.uk/efo/efo.owl							
+Person Last Name	Iyer-Pascuzzi	Iyer-Pascuzzi	Benfey					
+Person First Name	Anjali	Anjali	Philip					
+Person Mid Initials	S	S	N					
+Person Email	asi2@duke.edu							
+Person Affiliation	Duke University							
+Person Phone								
+Person Fax								
+Person Address	Biology, Duke University, Box 90338, Durham, NC, USA							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Person Roles Term Accession Number								
+Normalization Type								
+Normalization Term Accession Number								
+Normalization Term Source REF								
+Replicate Type								
+Replicate Term Accession Number								
+Replicate Term Source REF								
+Experimental Design								
+Experimental Design Term Accession Number								
+Experimental Design Term Source REF								
+Quality Control Type								
+Quality Control Term Accession Number								
+Quality Control Term Source REF								
+Protocol Name	P-GSE30097-1	P-GSE30097-6	P-GSE30097-3	P-GSE30097-8	P-GSE30097-7	P-GSE30097-2	P-GSE30097-4	P-GSE30097-5
+Protocol Description	ID_REF = <br>VALUE = Signal<br>ABS_CALL = indicating whether the transcript was present (P), absent (A), or marginal (M)<br>DETECTION P-VALUE = 	hybs with fragmented cRNA were preformed by Expression Analysis (Durham, NC)	Seedlings were grown for 5 days on standard (pH 5.7) media before transfer either to standard or low pH (pH 4.6) media for the indicated time	CHP files contain MAS 5.0 probe set summarizations using Affymetrix default analysis settings and global scaling as normalization method. The mean target intensity of each array was set to 250.	scans were preformed by Expression Analysis (Durham, NC)	Seeds were surface sterilized with 50% Bleach and 0.1% Tween for 5 minutes and then rinsed 3 times with sterile water. Seeds were stratified at 4˚C for 2 days before being planted on media containing 1X concentration Murashige and Skoog salt mixture (Caisson laboratories), 0.5g/L MES, 1% sucrose, 1% agar and adjusted to pH 5.7 with KOH. At 5 days, seedlings were transferred to standard pH (pH 5.7) or low pH (pH 4.6) media for the indicated time. Low pH media is 1X concentration Murashige and Skoog salt mixture (Caisson laboratories), 3mM DMG, 1% sucrose, 1% agar and adjusted to pH 4.6 with KOH. Standard pH is the same except pH is adjusted to 5.7.	Total RNA was extracted with Qiagen Rneasy Plant mini kit according to manufacturer's instructions	Biotinylated cRNA were prepared according to the standard Affymetrix one-cycle protocol from 1 ug total RNA
+Protocol Software								
+Protocol Hardware								
+Protocol Contact								
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Protocol Term Source REF								
+Protocol Term Accession Number								
+Experimental Factor Name	TREATMENT							
+Experimental Factor Type	treatment							
+Experimental Factor Term Source REF								
+Experimental Factor Term Accession Number								
+Publication Title								
+Publication Author List								
+PubMed ID	22014526							
+Publication DOI								
+Publication Status								
+Publication Status Term Source REF								
+Publication Status Term Accession Number								
+Comment[SecondaryAccession]	GSE30097							
+Comment[GEOLastUpdateDate]	2011-11-24
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[GEOReleaseDate]	2011-11-23
+Comment[ArrayExpressSubmissionDate]	2011-06-19
+SDRF File	E-GEOD-30097.sdrf.txt

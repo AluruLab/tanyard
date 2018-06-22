@@ -1,0 +1,49 @@
+Investigation Title	Transcription profiling of Arabidopsis ecotype Columbia leaf tissue processed for trichome isolation	
+Comment[Submitted Name]	Columbia processed leaf	
+Experimental Design	cell_type_comparison_design	co-expression_design	organism_part_comparison_design	replicate_design	transcription profiling by array	
+Experimental Design Term Source REF	The MGED Ontology	The MGED Ontology	The MGED Ontology	The MGED Ontology	EFO	
+Comment[AEMIAMESCORE]	4	
+Comment[SecondaryAccession]		
+Comment[ArrayExpressReleaseDate]	2009-02-04	
+Comment[ArrayExpressAccession]	E-MEXP-2014	
+Comment[MAGETAB TimeStamp_Version]	2010-08-10 10:32:02 Last Changed Rev: 13058	
+Experimental Factor Name	ECOTYPE	ORGANISM_PART	
+Experimental Factor Type	ecotype	organism_part	
+Experimental Factor Term Source REF	
+Person Last Name	Marks	
+Person First Name	Michael	
+Person Mid Initials	D	
+Person Email	marks004@umn.edu	
+Person Phone	612-625-6737	
+Person Fax	
+Person Address	Plant Biology, 250 Biological Sciences Center, 1445 Gortner Ave, Minneapolis, Minnesota, 55108, USA	
+Person Affiliation	University of Minnesota	
+Person Roles	submitter	
+Person Roles Term Source REF	The MGED Ontology	
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2009-02-04	
+PubMed ID	
+Publication DOI	
+Publication Author List	Marks, M. David; Wenger, Jonathan P.; Gilding, Edward; Jilk, Ross; Dixon, Richard A.	
+Publication Title	Transcriptome Analysis of Arabidopsis Wild-Type and gl3-sst sim Trichomes Identifies Four Additional Genes Required for Trichome Development	
+Publication Status	
+Publication Status Term Source REF	
+Experiment Description	Transcriptional profiling of leaf tissue processed for trichome isolation.	
+Protocol Name	P-MTAB-3116	P-MTAB-3118	P-MTAB-3119	P-MTAB-3117	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6	
+Protocol Type	grow	nucleic_acid_extraction	specified_biomaterial_action	labeling	hybridization	feature_extraction	
+Protocol Description	Growth of plants (taken from Marks et al., 2007, The Plant Journal, 56:3.)<br><br><br><br>To minimize contaminating potting medium and to speed the isolation of plant material, Arabidopsis plants were grown on flats containing Sunshine LP5 potting medium (Sun Gro Horticulture, http://www.sungro.com/) overlaid with perforated metal plates (Figure 1). Plants were grown under continuous illumination at 22°C. After approximately 4 weeks, seedlings were harvested by shaving the plants off the metal plates with razor blades. Seedlings were rinsed twice in tap water to remove extraneous debris. <br>(Parameters: start time = 28, time unit = days, min temperature = 22, temperature unit = C, media = Sunshine LP5 potting medium)	RNA, DNA, and protein isolation (taken from Marks et al., 2007, The Plant Journal, 56:3.)<br><br><br><br>Trichomes destined for RNA isolation were placed in a solution of RNAlater (Ambion, http://www.ambion.com/) and subjected to a vacuum for 510 min for infiltration. Trichomes were stored in RNAlater for up to a month or more at 4°C. For RNA isolation, up to 100 mg (approximate wet weight) of trichomes was moved to a 1.5-ml microfuge tube and centrifuged for 30 sec at 350 g. Residual RNAlater was then removed. RNA was isolated from the trichome pellet using the Plant RNeasy kit (Qiagen, http://www.qiagen.com/) with one modification. The trichome pellet was resuspended in 100 ?l of supplied RLT buffer and then frozen solid in liquid nitrogen. As the pellet thawed, it was ground to a fine paste using a small pestle. An additional 350 ?l of RLT was added and then the RNA was isolated following the kit's instructions. After isolation the RNA was subjected to DNase treatment using TurboDNAse (Ambion) and then concentrated using a RNA MinElute spin column (Qiagen). RNA was eluted in a small volume and stored at ?80°C.<br><br><br>(Parameters: Extracted product = total_RNA, Amplification = none)	Trichome isolation (taken from Marks et al., 2007, The Plant Journal, 56:3.)<br><br><br><br>Seedlings were stuffed (approximately 1.5 g per tube) into 50-ml test tubes (Greiner Bio-One, http://www.greinerbioone.com/) containing approximately 50 mg of 60/80 ?m glass beads (Alltech, part number 5420, http://www.discoverysciences.com/) and 15 ml of a solution containing 50 mm ethylene glycol-bis (2-aminoethylether)-N,N,N',N'-tetraacetic acid (EGTA pH 7.5 with KOH; Sigma-Aldrich, http://www.sigma-aldrich.com) and 1× modified phosphate-buffered saline (PBS). The PBS solution was essentially made as described in Sambrook et al. (1989) with the exception that all potassium salts were used. Tubes containing the seedlings were mixed at maximum speed (four cycles of 30 sec on and 30 sec rest on ice) on a Genie 2 vortex (Scientific Industries, http://www.scientificindustries.com/). It was important not to overload the seedlings in the tubes to the point that they could not freely rotate during mixing. Up to 12 tubes of seedlings were processed at the same time. The processed seedlings were collected in a 500-ml beaker and the solution was strained through four layers of screen door mesh (Home Depot, http://www.homedepot.com/) into a flask. The seedlings in the beaker were rinsed several times with the PBS solution (no EGTA) to free trichomes trapped in the plant material. The rinse solutions were filtered and combined in the flask with the original filtrate. The resulting solution was sieved through a 100-?m cell strainer (Falcon-Becton Dickinson, http;//http://www.bdbiosciences.com/). Trichomes ensnared on the mesh were rinsed with several milliliters of PBS, and then the cell strainer was inverted into a small Petri dish. Approximately 10 ml of PBS solution was used to dislodge the trichomes from the filter. Any remaining plant debris that co-purified with the trichomes was removed with fine forceps. The solution containing the trichomes was transferred to a 15-ml centrifuge tube and spun at 150 g for 1.5 min. The supernatant was carefully removed, leaving the trichomes ready for downstream processing. Five grams of seedlings was sufficient to isolate approximately 15 000 trichomes, as quantified with a hemocytometer.<br><br><br><br>	Labeling (taken from Marks et al., 2007, The Plant Journal, 56:3.)<br><br><br><br>The MesageAmp II-Biotin Enchanced kit (Ambion) was used following kit directions to convert total trichome or leaf RNA into biotin-labeled aRNAs. During this procedure a single round of T7 polymerase-driven amplification was used to generate the biotin-labeled aRNA. As little as 300 ng was sufficient to generate over 15 ?g of probe. For hybridization, 15 ?g of aRNA was fragmented using the supplied fragmentation buffer and the resulting products were sent to the University of Minnesota BioMedical Genomics Center for hybridization to Affymetrix ATH1 Genchips (Affymetrix, http://www.affymetrix.com/). <br>(Parameters: Amount of nucleic acid labeled = 300, Mass unit = Nano gram, Amplification = RNA polymerases)	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	
+Protocol Parameters	
+Protocol Hardware	
+Protocol Software					MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact	
+Protocol Term Source REF					mo	
+SDRF File	E-MEXP-2014.sdrf.txt	
+Term Source Name	The MGED Ontology		NCBI Taxonomy	po	NCI_thesaurus	ArrayExpress	The MGED Ontology	EFO	mo	
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php		http://www.ncbi.nlm.nih.gov/Taxonomy/	http://www.plantontology.org	ncithesaurus.obo.alt	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version										

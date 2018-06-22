@@ -1,0 +1,52 @@
+Investigation Title	Transcription profiling of Arabidopsis etiolated seedlings, light-treated seedlings, leaves and flowers hybridized to ATH1 and AGRONOMICS1 arrays									
+Comment[Submitted Name]	AGRONOMICS1_TSU_2									
+Experimental Design	array_platform_variation_design	growth_condition_design	tiling_path_design	co-expression_design	organism_part_comparison_design	transcription profiling by array				
+Experimental Design Term Source REF		The MGED Ontology		The MGED Ontology	The MGED Ontology	EFO				
+Comment[AEExperimentType]	transcription profiling by array									
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis after growing in dark or light conditions									
+Comment[SecondaryAccession]										
+Comment[ArrayExpressReleaseDate]	2010-01-01									
+Comment[AEMIAMESCORE]	3									
+Comment[ArrayExpressAccession]	E-MEXP-2472									
+Comment[MAGETAB TimeStamp_Version]	2010-08-10 13:02:51 Last Changed Rev: 13058									
+Experimental Factor Name	GROWTH CONDITION	AGE	ORGANISM PART							
+Experimental Factor Type	growth_condition	age	organism_part							
+Experimental Factor Term Source REF										
+Person Last Name	Hennig									
+Person First Name	Lars									
+Person Mid Initials										
+Person Email	lhennig@ethz.ch									
+Person Phone	41 44 632 2244									
+Person Fax										
+Person Address	Zurich, ETH Center, LFW E17, 8092, Switzerland									
+Person Affiliation	ETH Zurich									
+Person Roles	submitter									
+Person Roles Term Source REF	The MGED Ontology									
+Quality Control Type										
+Quality Control Term Source REF										
+Replicate Type										
+Replicate Term Source REF										
+Normalization Type										
+Normalization Term Source REF										
+Date of Experiment										
+Public Release Date	2010-01-01									
+PubMed ID	20032078									
+Publication DOI	10.1104/pp.109.150185 									
+Publication Author List	Rehrauer, Hubert; Aquino, Catharine; Gruissem, Wilhelm; Henz, Stefan R.; Hilson, Pierre; Laubinger, Sascha; Naouar, Naira; Patrignani, Andrea; Rombauts, Stephane; Shu, Huan; Van de Peer, Yves; Vuylsteke, Marnik; Weigel, Detlef; Zeller, Georg; Hennig, Lars									
+Publication Title	AGRONOMICS1: A New Resource for Arabidopsis Transcriptome Profiling									
+Publication Status	published									
+Publication Status Term Source REF	EFO									
+Publication Status Term Accession Number	EFO_0001796									
+Experiment Description	RNA from etiolated seedlings, light-treated seedlings, leaves and flowers was hybridized to ATH1 and AGRONOMICS1 arrays.									
+Protocol Name	P-MTAB-8114	P-MTAB-8115	P-MTAB-8116	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6					
+Protocol Type	nucleic_acid_extraction	grow	labeling	hybridization	feature_extraction					
+Protocol Description	Total RNA was isolated using the Qiagen Plant RNeasy MiniKit (Quiagen, Hilden, Germany) according to the manufacturers instruction. The quality of the isolated RNA was determined with a NanoDrop ND 1000 (NanoDrop Technologies, Delaware, USA) and a Bioanalyzer 2100 (Agilent, Waldbronn, Germany). Only samples with a 260 nm/280 nm ratio between 1.82.1 and a 28S/18S ratio within 1.52 were processed further.<br>(Parameters: Extracted product = total_RNA, Amplification = none)	Seedlings of Arabidopsis thaliana (L.) Heynh. (accession Columbia) were grown on half-strength MS medium for 4 days at 23 C in complete darkness and then transferred for 4 h to constant cool-white light (light-treated seedlings) or kept in darkness (dark-grown seedlings) before whole seedlings (~50 per sample) were harvested.<br>(Parameters: time unit = seconds, min temperature = 23, temperature unit = C, media = 1/2 MS)	One-Cycle cDNA Synthesis Kit (Affymetrix, P/N 900431, Santa Clara, CA) <br>(Parameters: Amount of nucleic acid labeled = 2, Amplification = RNA polymerases, Mass unit = Micro gram)	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 					
+Protocol Parameters										
+Protocol Hardware										
+Protocol Software				MicroArraySuite 5.0	MicroArraySuite 5.0					
+Protocol Contact										
+Protocol Term Source REF				mo						
+SDRF File	E-MEXP-2472.sdrf.txt									
+Term Source Name	Plant Ontology	po	NCBI Taxonomy	tair_dev:1.27	NCI_thesaurus	The MGED Ontology	ArrayExpress	The MGED Ontology	EFO	mo
+Term Source File	http://www.plantontology.org/	http://www.plantontology.org	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://www.arabidopsis.org/info/ontologies/	ncithesaurus.obo.alt	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version					1.27					

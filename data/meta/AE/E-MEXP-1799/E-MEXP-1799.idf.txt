@@ -1,0 +1,49 @@
+Investigation Title	Transcription profiling of Arabidopsis Bur-0 and Pf-0 ecotypes grown at 23 or 27 degrees C to compare expression profiles between greenworms and wildtype looking plants	
+Comment[Submitted Name]	Triplet expansion_Arabidopsis	
+Experimental Design	growth_condition_design	strain_or_line_design	co-expression_design	replicate_design	transcription profiling by array	
+Experimental Design Term Source REF	The MGED Ontology	The MGED Ontology	The MGED Ontology	The MGED Ontology	EFO	
+Comment[ArrayExpressReleaseDate]	2009-01-01	
+Comment[SecondaryAccession]		
+Comment[AEMIAMESCORE]	5	
+Comment[ArrayExpressAccession]	E-MEXP-1799	
+Comment[MAGETAB TimeStamp_Version]	2010-08-09 23:57:53 Last Changed Rev: 13058	
+Experimental Factor Name	ECOTYPE	TEMPERATURE	DISEASE	
+Experimental Factor Type	ecotype	temperature	disease_state	
+Experimental Factor Term Source REF	
+Person Last Name	Balasubramanian	
+Person First Name	Sureshkumar	
+Person Mid Initials	
+Person Email	esskay@tuebingen.mpg.de	
+Person Phone	+49-7071-6011418	
+Person Fax	
+Person Address	Spemannstrasse 37-39, Tuebingen, Baden-Wuttemburg, D-72076, Germany	
+Person Affiliation	Max-Planck Institute for Developmental Biology	
+Person Roles	submitter	
+Person Roles Term Source REF	The MGED Ontology	
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2009-01-01	
+PubMed ID	
+Publication DOI	
+Publication Author List	
+Publication Title	A triplet expansion associated genetic defect in Arabidopsis thaliana	
+Publication Status	
+Publication Status Term Source REF	
+Experiment Description	Comparison of expression profiles between greenworms and wildtype looking plants	
+Protocol Name	P-MTAB-1702	P-MTAB-1701	P-MTAB-1703	P-AFFY-2	Affymetrix:Protocol:Hybridization-EukGE-WS2v4[]	P-AFFY-6	Affymetrix:Protocol:ExpressionStat	
+Protocol Type	nucleic_acid_extraction	grow	specified_biomaterial_action	labeling	hybridization	feature_extraction	bioassay_data_transformation	
+Protocol Description	RNA was extracted from 25 pooled shoot apices from corresponding samples using the Qiagen RNA extraction kit<br>(Parameters: Extracted product = total_RNA, Amplification = none)	Plants were grown at 27ï¾ºC or 23ï¾ºC in short days for 4 weeks and the meristem tissue along with young leaves was used for RNA extraction. <br>(Parameters: start time = 4, time unit = weeks, temperature unit = C, media = Soil). Apices from 25 plants per genotype/treatment were pooled and RNA was extracted	Plants grown at 23ï¾ºC or 27ï¾ºC short days for 4 weeks were carefully dissected and the meristematic tissue along with young leaves was used for RNA extraction and subsequent array hybridisation.	Title: Affymetrix in vitro transcription. Description: 	Title: Affymetrix EukGE-WS2v4 Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 	
+Protocol Parameters	
+Protocol Hardware	
+Protocol Software					MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact	
+Protocol Term Source REF					mo		The MGED Ontology	
+SDRF File	E-MEXP-1799.sdrf.txt	
+Term Source Name	EFO		NCBI Taxonomy	NCI_thesaurus	The MGED Ontology	ArrayExpress	The MGED Ontology	EFO	mo	
+Term Source File	http://www.ebi.ac.uk/efo/		http://www.ncbi.nlm.nih.gov/Taxonomy/	ncithesaurus.obo.alt	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version										

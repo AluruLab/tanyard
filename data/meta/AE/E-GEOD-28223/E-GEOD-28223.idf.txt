@@ -1,0 +1,58 @@
+Comment[ArrayExpressAccession]	E-GEOD-28223								
+Public Release Date	2011-03-29								
+Investigation Title	eif3k/WT polysome loading								
+Comment[Submitted Name]	eif3k/WT polysome loading								
+Experiment Description	To understand the contribution of the k subunit of eukaryotic transcription factor 3 (eif3k) to the translation of specific mRNAs, we compared the polysome loading states and overall transcript levels of wild type Arabidopsis and the eif3k T-DNA insertion mutant by Affymetrix arrays. We analyzed the polysome loading states of wild type Arabidopsis and the eif3k mutant using the Arabidopsis Affymetrix ATH1 array. Data from 3 biological replicates were collected.								
+Date of Experiment									
+Term Source Name	EFO								
+Term Source Version									
+Term Source File	http://www.ebi.ac.uk/efo								
+Person Last Name	von Arnim	Kim	von Arnim						
+Person First Name	Albrecht	Byung-Hoon	Albrecht						
+Person Mid Initials									
+Person Email	vonarnim@utk.edu								
+Person Affiliation	the University of Tennessee								
+Person Phone	1-865-974-6206								
+Person Fax									
+Person Address	Biochemistry, Cellular and Molecular Biology, the University of Tennessee, M407 Walters Life Sciences Building, Knoxville , TN, USA								
+Person Roles	submitter								
+Person Roles Term Source REF									
+Person Roles Term Accession Number									
+Normalization Type									
+Normalization Term Accession Number									
+Normalization Term Source REF									
+Replicate Type									
+Replicate Term Accession Number									
+Replicate Term Source REF									
+Experimental Design									
+Experimental Design Term Accession Number									
+Experimental Design Term Source REF									
+Quality Control Type									
+Quality Control Term Accession Number									
+Quality Control Term Source REF									
+Protocol Name	P-GSE28223-1	P-GSE28223-8	P-GSE28223-7	P-GSE28223-4	P-GSE28223-5	P-GSE28223-3	P-GSE28223-2	P-GSE28223-6	P-GSE28223-9
+Protocol Description	ID_REF = <br>VALUE = Log2 GCRMA normalized signal	Array scanning was performed according to the manufacturer's instructions (Affymetrix) by the  Affymetrix Microarray Core Facility of the University of Tennessee.	cDNA samples were hybridized to the Affymetrix ATH1 array (July 01, 2002) according to the manufacturer's protocol (Affymetrix) by the  Affymetrix Microarry Core Facility of the University of Tennessee. Probe set ID, Locus and Description refer to the Arabidopsis thaliana genome release TAIR 9 (June 19, 2009).		Polysome gradient and RNA purification were carried out essentially as decribed in Kim et al. (2007) Genome Biology 8:R60 (PMID 17439654). The top 6 fractions were pooled as non-polysomal (NP), and the bottom 6 fractions were pooled as polysomal (PL).	Harvest method: Under room light, flood seedlings with liquid Nitrogen and scrape off into liquid nitrogen with spatula; Timing: 4 hours after light on.	Medium: GM medium with 1% sucrose and 0.8% agar, in petri plates wrapped with parafilm that was pierced to allow gas exchange; Light: 16 h long day, from fluorescent bulbs at ~80umole/m2/second; Temperature: 22degreeC.	cDNA were generated and labeled according to the standard protocol by the  Affymetrix Microarray Core Facility of the University of Tennessee, Knoxville.	Data were GCRMA normalized. TL states (Log(2)[PL/NP]) were calculated (=Log(2)PL - Log(2)NP).
+Protocol Software									
+Protocol Hardware									
+Protocol Contact									
+Protocol Type	bioassay_data_transformation	image_acquisition	hybridization	nucleic_acid_extraction	nucleic_acid_extraction	nucleic_acid_extraction	grow	labeling	feature_extraction
+Protocol Term Source REF									
+Protocol Term Accession Number									
+Experimental Factor Name	genotype	RNA							
+Experimental Factor Type	genotype	RNA							
+Experimental Factor Term Source REF									
+Experimental Factor Term Accession Number									
+Publication Title	The global translation profile in a ribosomal protein mutant resembles that of an eIF3 mutant								
+Publication Author List	Tiruneh BS, Kim BH, Gallie DR, Roy B, von Arnim AG								
+PubMed ID	24377433								
+Publication DOI	10.1186/1741-7007-11-123								
+Publication Status									
+Publication Status Term Source REF									
+Publication Status Term Accession Number									
+Comment[SecondaryAccession]	GSE28223								
+Comment[GEOLastUpdateDate]	2011-04-10								
+Comment[AEExperimentDisplayName]	Transcription profiling by array of polysomal and non-polysomal RNA from Arabidopsis mutant for eif3k								
+Comment[AEExperimentType]	transcription profiling by array								
+Comment[GEOReleaseDate]	2011-03-28								
+Comment[ArrayExpressSubmissionDate]	2011-03-28								
+SDRF File	E-GEOD-28223.sdrf.txt								

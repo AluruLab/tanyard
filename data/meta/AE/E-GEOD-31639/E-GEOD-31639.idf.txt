@@ -1,0 +1,58 @@
+Comment[ArrayExpressAccession]	E-GEOD-31639							
+Public Release Date	2012-01-01							
+Investigation Title	Identify differentially expressed genes in 14-day-old pkl seedlings							
+Comment[Submitted Name]	Identify differentially expressed genes in 14-day-old pkl seedlings							
+Comment[AEExperimentDisplayName]	Identify differentially expressed genes in 14-day-old pkl seedlings							
+Experiment Description	"CHD3 proteins are ATP-dependent chromatin remodeling factors that are components of diverse multisubunit complexes that can either repress or activate gene expression. In plants, the CHD3 protein PICKLE (PKL) is necessary for repression of seed-specific genes during germination and promotes deposition of the repressive epigenetic mark trimethylation of histone H3 lysine 27 (H3K27me3). It is unknown, however, if PKL acts directly at H3K27me3-enriched loci.  We undertook a microarray analysis of 14-day-old plants and found that PKL continues to play an important role in expression of H3K27me3-enriched genes and in specification of developmental identity after germination. We used microarray to identify genes that are differentialy expressed in 14-day-old pkl seedlings and used chormatin immunoprecipitation to identify genes that are the direct targets of PKL. Wild-type (Col-0) and pkl-1 seedlings were grown on 1/2 MS plates with constant light and harvsted after 14-day growth. Three biological replicates."							
+Date of Experiment								
+Term Source Name	EFO							
+Term Source Version								
+Term Source File	http://www.ebi.ac.uk/efo/efo.owl							
+Person Last Name	Zhang	Ogas	Feil	Zhang				
+Person First Name	Heng	Joe	Ann	Heng				
+Person Mid Initials								
+Person Email	hengzhang@gmail.com							
+Person Affiliation	Purdue University							
+Person Phone								
+Person Fax								
+Person Address	"Purdue University, 625 Agricultural Mall Dr, West Lafayette, IN, USA"							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Person Roles Term Accession Number								
+Normalization Type								
+Normalization Term Accession Number								
+Normalization Term Source REF								
+Replicate Type								
+Replicate Term Accession Number								
+Replicate Term Source REF								
+Experimental Design								
+Experimental Design Term Accession Number								
+Experimental Design Term Source REF								
+Quality Control Type								
+Quality Control Term Accession Number								
+Quality Control Term Source REF								
+Protocol Name	P-GSE31639-1	P-GSE31639-6	P-GSE31639-3	P-GSE31639-8	P-GSE31639-7	P-GSE31639-2	P-GSE31639-4	P-GSE31639-5
+Protocol Description	ID_REF = <br>VALUE = gcrma signal	Standard Affymetrix protocol	Surface sterilized seeds were individually plated on 1/2 MS plates with 0.9% agar. Seedlings were grown in a CU36L5 incubator under 24-hour illumination.	Data were processed using the gcrma package from Bioconductor.	Standard Affymetrix protocol	"None other than surface sterilization (33% bleach, 0.1% Triton X-100)"	RNA extracted using Ambion RNAqueous kit as described in the product manual.	Standard Affymetrix protocol
+Protocol Software								
+Protocol Hardware								
+Protocol Contact								
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Protocol Term Source REF								
+Protocol Term Accession Number								
+Experimental Factor Name	genotype							
+Experimental Factor Type	genotype							
+Experimental Factor Term Source REF								
+Experimental Factor Term Accession Number								
+Publication Title	The CHD3 remodeler PICKLE associates with genes enriched for trimethylation of histone H3 lysine 27.							
+Publication Author List	"Zhang H, Bishop B, Ringenberg W, Muir WM, Ogas J."							
+PubMed ID	22452853							
+Publication DOI								
+Publication Status								
+Publication Status Term Source REF								
+Publication Status Term Accession Number								
+Comment[SecondaryAccession]	GSE31639							
+Comment[GEOLastUpdateDate]	2012-01-02							
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[GEOReleaseDate]	2012-01-01							
+Comment[ArrayExpressSubmissionDate]	2011-08-23							
+SDRF File	E-GEOD-31639.sdrf.txt							

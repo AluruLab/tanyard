@@ -1,0 +1,38 @@
+Investigation Title	"Differentiation of Arabidopsis guard cells: analysis of the networks incorporating the basic helix-loop helix transcription factor, FAMA"							
+Comment[Submitted Name]	"Differentiation of Arabidopsis guard cells: analysis of the networks incorporating the basic helix-loop helix transcription factor, FAMA"							
+Experimental Design	transcription profiling by array							
+Experimental Design Term Source REF	EFO							
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis seedlings after estrogen-mediated induction of FAMA							
+Comment[ArrayExpressReleaseDate]	2010-05-28							
+Comment[SecondaryAccession]	GSE21786							
+Comment[AEMIAMESCORE]	4							
+Comment[ArrayExpressAccession]	E-GEOD-21786							
+Comment[MAGETAB TimeStamp_Version]	2010-08-04 07:04:32 Last Changed Rev: 13058							
+Experimental Factor Name	treatment	hours post induction	age					
+Experimental Factor Type	treatment	time	age					
+Experimental Factor Term Source REF								
+Person Last Name	Bergmann	Ohashi-Ito						
+Person First Name	Dominique	Kyoko						
+Person Mid Initials	C							
+Person Email	dbergmann@stanford.edu	kyoko@biol.s.u-tokyo.ac.jp						
+Person Phone		-10226						
+Person Fax		-10225						
+Person Address	"Biological Sciences, Stanford University, 371 Serra Mall, Stanford, CA, USA"	"biological sciences, the university of tokyo, 7-3-1 hongo bunkyo-ku, tokyo, JAPAN"						
+Person Affiliation	Stanford University							
+Person Roles	submitter							
+Person Roles Term Source REF	The MGED Ontology							
+Public Release Date	2010-05-28							
+Experiment Description	"In plants, formation of functional stomatal guard cells is a highly regulated event so that this cell differentiation model constitutes an interesting genetic system to explore cell differentiation in response to cell cycle controllers or cell fate determinants such as transcription factors. The latest acting bHLH in the stomatal lineage circuit is FAMA that appears to be absolutely required to promote stomatal development by controlling the GMC to GC transition. In order for FAMA to trigger guard cell development, it probably initiates a gene activation cascade leading to cell differentiation and cessation of cell division. To identify and characterize FAMA inducible genes, transcriptome analysis using the Affymetrix ATH1 micro-array chip was carried out on inducible FAMA gain of function plants at 4hrs and 48 hrs post-induction. Transgenic plants with an estrogen-inducible FAMA expression cassette were used in a timecourse experiment to identify genes that were differentially regulated by FAMA. Two time points were analyzed, 4 hours and 48 hours post-induction. Seedlings were grown on vertically oriented plates in a 22 Â°C incubator under 24 hours light for 5 days. Plants were then transfered with forcepts to plates containing MS + Sucrose + 10 ÂµM estrogen (or new MS + sucrose plates for controls). After 4h or 48h on new plates, samples were collected, frozen in liquid nitrogen and stored at â80 degree until enough material was obtained to do all RNA extractions in the same week. The Rneasy Plant Mini Kit (QIAGEN) for RNA isolation, and samples were labelled with standard kits, etc (get info) and hybridized to Affymetrix Ath1 array chips. 15 samples."							
+Protocol Name	P-GSE21786-4	P-GSE21786-3	P-GSE21786-2	P-GSE21786-5	P-GSE21786-6	P-GSE21786-7	P-GSE21786-8	P-GSE21786-1
+Protocol Type	nucleic_acid_extraction	grow	specified_biomaterial_action	labeling	hybridization	image_aquisition	feature_extraction	bioassay_data_transformation
+Protocol Description	"After 4h or 48h on new plates, samples were collected, frozen in liquid nitrogen and stored at -80 degree Celsius until enough material was obtained to do all RNA extractions in the same week.  RNA was isolated with the RNeasy Plant Mini Kit (Qiagen)."	"Sterilized seeds were sowed on MS + Sucrose plates, then keep at 4C for 3 days. Seedlings were grown on vertically oriented plates in a 22 C incubator under 24 hours light for 5 days."	Seedlings were transfered with forcepts to plates conatinin MS + Sucrose + 10 Î¼M estrogen  (or new MS + sucrose plates for controls).	Biotinylated complementary RNA (cRNA) was prepared with the bioarray high yield transcript labeling kit (Enzo)	20 Âµg of the resulting cRNA was used to hybridize to each ATH1 Arabidopsis GeneChip (Affymetrix) using the manufacturerâs protocols.	standard Affymetrix protocol	The array images were analyzed with the Affymetrix Microarray Suite 5.0 with the target intensity set to 500.	ID_REF = <br>VALUE = MAS 5.0 signal<br>ABS_CALL = <br>DETECTION P-VALUE =
+Protocol Parameters								
+Protocol Hardware								
+Protocol Software								
+Protocol Contact								
+Protocol Term Source REF							The MGED Ontology	The MGED Ontology
+SDRF File	E-GEOD-21786.sdrf.txt							
+Term Source Name	NCBI Taxonomy		The MGED Ontology	ArrayExpress	EFO	The MGED Ontology		
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php		
+Term Source Version								

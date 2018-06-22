@@ -1,0 +1,52 @@
+Investigation Title	Transcription profiling of Arabidopsis FACS sorted root specific cell types after nitrogen treatment						
+Comment[Submitted Name]	Cell-specific nitrogen responses in the Arabidopsis root						
+Experimental Design	unknown_experiment_design_type	transcription profiling by array					
+Experimental Design Term Source REF		EFO					
+Comment[AEExperimentType]	transcription profiling by array						
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis root cells after treatment with KNO3						
+Comment[ArrayExpressReleaseDate]	2008-06-15						
+Comment[SecondaryAccession]	GSE7631						
+Comment[AEMIAMESCORE]	4						
+Comment[ArrayExpressAccession]	E-GEOD-7631						
+Comment[MAGETAB TimeStamp_Version]	2010-10-15 11:58:52 Last Changed Rev: 14677						
+Experimental Factor Name	organism part	compound					
+Experimental Factor Type	organism part	compound					
+Experimental Factor Term Source REF							
+Person Last Name	Birnbaum						
+Person First Name	Kenneth David						
+Person Mid Initials							
+Person Email	ken.birnbaum@nyu.edu						
+Person Phone							
+Person Fax							
+Person Address	Birnbaum, Biology, New York University, 1009 Silver Building, 100 Washington Square East, New York, 10003, USA						
+Person Affiliation	New York University						
+Person Roles	submitter						
+Person Roles Term Source REF	The MGED Ontology						
+Quality Control Type							
+Quality Control Term Source REF							
+Replicate Type							
+Replicate Term Source REF							
+Normalization Type							
+Normalization Term Source REF							
+Date of Experiment							
+Public Release Date	2008-06-15						
+PubMed ID	18180456						
+Publication DOI	10.1073/pnas.0709559105						
+Publication Author List	Gifford ML, Dean A, Gutierrez RA, Coruzzi GM, Birnbaum KD						
+Publication Title	Cell-specific nitrogen responses mediate developmental plasticity						
+Publication Status	published						
+Publication Status Term Source REF	EFO						
+Publication Status Term Accession Number	EFO_0001796						
+Experiment Description	The organs of multicellular species are comprised of cell types that must function together to perform specific tasks. One critical organ function is responding to internal or external change but little is known about how responses are tailored to specific cell types or coordinated among them on a global level. Here we use cellular profiling of five Arabidopsis root cell types in response to a limiting resource, nitrogen, to uncover a vast and predominantly cell-specific response that was largely undetectable using traditional methods. These methods reveal a new class of cell-specific nitrogen responses. As a proof-of-principle, we dissected one cell-specific response circuit that mediates nitrogen-induced changes in root branching from pericycle cells. Thus, cellular response profiling links gene modules to discrete functions in specific cell types. Experiment Overall Design: The whole experiment was carried out in triplicate with 84 chips in total (28 experiments).  The nitrogen response in 5 FACS-sorted root cell types (LRC, lateral root cap; EpiC, epidermis and cortex; EndoP, endodermis and pericycle; Peri, pericycle; Stele, stele), protoplasts and Col-0 whole roots was assayed using microarrays.  5mM KNO3 was used as a nitrogen treatment for 2 hours.  5mM KCl was used as a control treatment for the same length of time. 1mM MSX in combination with 5mM KNO3 (or with 5mM KCl as a control) was used to block the assimilation of KNO3, and 5mM Gln added to restore it in order to separate KNO3 effects from assimilated-nitrogen effects. 5mM KNO3 was either maintained in the protoplast-generating solution (continuous treat) or not (transitory treat) to test how to best preserve the cellular nitrogen-response during the 1 hr protoplast generating procedure. As controls we used protoplasts, whole roots frozen directly after the 2hr treatment or 3.5hr treatment, or whole roots incubated in protoplast-generating solution (minus enzymes; transitory or continuous treated) and then frozen. After FACS-sorting or mock FACS-sorting cells were frozen.						
+Protocol Name	P-G7631-2	P-G7631-1	P-G7631-4	P-G7631-3	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6	
+Protocol Type	specified_biomaterial_action	grow	nucleic_acid_extraction	labeling	hybridization	feature_extraction	
+Protocol Description	At dawn on 12th day plants were either transitory/continuous nitrogen-treated (KNO3 to 5mM added) or KCl treated (KCl to 5mM added) as a control treatment for 2 hrs.  To isolate single cell types (LRC, EpiC, EndoP, Peri, Stele) cells were incubated in a solution containing cell-wall digesting enzymes and then Fluorescence Activated Cell Sorting (FACS) sorted as Birnbaum et al (2005) Nature Methods 2: 615-619.  To isolate mock FACS-sorted protoplasts the same proceedure was followed but the cells were not FACS-sorted, instead the protoplasts were incubated on ice for the time it takes to FACS-sort (1 hour).  After FACS or mock-FACS cell sorting cells were frozen using liquid nitrogen.  5mM KNO3 was either maintained in the protoplast-generating solution (continuous treat) or not (transitory treat) to test how to best preserve the cellular nitrogen-response during the 1 hr protoplast generating procedure.  As well as the 'protoplasts' controls we harvested whole roots that were either frozen using liquid nitrogen directly after the 2hr treatment or 3.5hr treatment, or whole roots incubated in protoplast-generating solultion (minus enzymes; transitory or continuous treated) and then frozen.  1mM MSX in combination with 5mM KNO3 (or with 5mM KCl as a control), or also with 5mM glutamine (Gln) for 2 hrs was used to block and then release the block of the assimilation of KNO3 in order to seperate KNO3 effects from assimilated-nitrogen effects in FACS-sorted pericycle cells.	Plants were grown for 12 days in long day (16hr light/8hr dark) 22 oC conditions in a Percival (Percival Scientific).  Plants were grown hydroponically in basal MS containing no nitrogen except 0.5mM ammonium succinate and 3mM sucrose.  All plant lines are in the Col-0 background.	Total RNA was either extracted using the Plant RNAeasy kit (Qiagen, Hilden, Germany) for cell samples (LRC, EpiC, EndoP, Peri, Stele, Protoplasts), or for whole root samples using TRIzol reagent (Invitrogen, Carlsbad, CA).  Protocols were followed according to manufacturer's instructions.	Biotinylated cRNA from all isolated cell samples (LRC, EpiC, EndoP, Peri, Stele) were prepared according to the standard two-cycle Affymetrix protocol from 50 ng total RNA, or from all whole root samples and protoplast samples according to the standard one-cycle Affymetrix protocol from 1 ug total RNA.	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	
+Protocol Parameters							
+Protocol Hardware							
+Protocol Software					MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact							
+Protocol Term Source REF					mo		
+SDRF File	E-GEOD-7631.sdrf.txt						
+Term Source Name	NCBI Taxonomy		The MGED Ontology	ArrayExpress	EFO	The MGED Ontology	mo
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version							

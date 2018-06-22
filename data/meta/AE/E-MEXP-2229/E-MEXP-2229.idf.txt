@@ -1,0 +1,51 @@
+Investigation Title	Transcription profiling of Arabidopsis XW119 seedlings 0-4 hours after ethanol induction				
+Comment[Submitted Name]	XW119 Ethanol induction				
+Experimental Design	time series design	compound treatment design			
+Experimental Design Term Source REF					
+Comment[SecondaryAccession]					
+Comment[ArrayExpressReleaseDate]	2010-04-19				
+Comment[AEMIAMESCORE]	4				
+Comment[ArrayExpressAccession]	E-MEXP-2229				
+Comment[MAGETAB TimeStamp_Version]	2010-08-10 11:44:33 Last Changed Rev: 13058				
+Comment[AEExperimentType]	transcription profiling by array				
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis XW119 seedlings after induction with ethanol				
+Experimental Factor Name	compound	time			
+Experimental Factor Type	compound	time			
+Experimental Factor Term Source REF					
+Person Last Name	Wu				
+Person First Name	Xuelin				
+Person Mid Initials					
+Person Email	xuelinwu@usc.edu				
+Person Phone	001-213-740-2165				
+Person Fax					
+Person Address	Molecular and computational Biology, 1050 Childs Way, RRI 201, Los Angeles, California, 90089-2910, USA				
+Person Affiliation	University of Southern California				
+Person Roles	submitter				
+Person Roles Term Source REF					
+Quality Control Type					
+Quality Control Term Source REF					
+Replicate Type					
+Replicate Term Source REF					
+Normalization Type					
+Normalization Term Source REF					
+Date of Experiment					
+Public Release Date	2010-04-19				
+PubMed ID	20110319				
+Publication DOI	10.1242/dev.041426				
+Publication Author List	Skylar A, Hong F, Chory J, Weigel D, Wu X.				
+Publication Title	STIMPY mediates cytokinin signaling during shoot meristem establishment in Arabidopsis seedlings				
+Publication Status	published				
+Publication Status Term Source REF					
+Experiment Description	4-day-old XW119 seedlings were treated with 2% Ethanol on MS agar plates under light, and samples were collected at 0, 1, 2, 4 hours.				
+Protocol Name	P-MTAB-4556	P-AFFY-2	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6	Affymetrix:Protocol:MAS4:ExpressionCall
+Protocol Type	nucleic_acid_extraction	labeling	hybridization	feature_extraction	bioassay_data_transformation
+Protocol Description	no protocol description provided	Title: Affymetrix in vitro transcription. Description: 	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	Title: Affymetrix CHP Analysis (ExpressionCall). Description: 
+Protocol Parameters					
+Protocol Hardware					
+Protocol Software			MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 4.0
+Protocol Contact					
+Protocol Term Source REF					
+SDRF File	E-MEXP-2229.sdrf.txt				
+Term Source Name	EFO				
+Term Source File	http://www.ebi.ac.uk/efo/				
+Term Source Version					

@@ -1,0 +1,50 @@
+Investigation Title	Transcription profiling of Arabidopsis plants inducibly expressing LEC2:GR or ttg:GR to identify primary and secondary targets of the LEC2 transcription factor									
+Comment[Submitted Name]	URGV Arabidopsis Lec2									
+Experimental Design	genetic_modification_design	transcription profiling by array								
+Experimental Design Term Source REF	mo	EFO								
+Comment[AEExperimentType]	transcription profiling by array									
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis with inducible expression of LEC2 or ttg after treatment with dexamethasone and/or cycloheximide									
+Comment[ArrayExpressReleaseDate]	2007-01-01									
+Comment[AEMIAMESCORE]	4									
+Comment[ArrayExpressAccession]	E-MEXP-807									
+Comment[MAGETAB TimeStamp_Version]	2010-09-07 23:54:57 Last Changed Rev: 13833									
+Experimental Factor Name	compound1	individual	dose1	genotype	compound2	dose2				
+Experimental Factor Type	compound	individual	dose	genotype	compound	dose				
+Experimental Factor Term Source REF										
+Person Last Name	balzergue									
+Person First Name	Sandrine									
+Person Mid Initials										
+Person Email	balzerg@evry.inra.fr									
+Person Phone	160874528									
+Person Fax	160874510									
+Person Address	2 rue gaston cremieux									
+Person Affiliation	genomiqe vegetale									
+Person Roles	submitter									
+Person Roles Term Source REF	The MGED Ontology									
+Quality Control Type										
+Quality Control Term Source REF										
+Replicate Type										
+Replicate Term Source REF										
+Normalization Type										
+Normalization Term Source REF										
+Date of Experiment										
+Public Release Date	2007-01-01									
+PubMed ID										
+Publication DOI										
+Publication Author List										
+Publication Title										
+Publication Status										
+Publication Status Term Source REF										
+Experiment Description	Comparison of various inductibles constructions of arabidopsis treated by differents solutions. The aim of this project is to determine the primary and secondary targets of the LEC2 transcrition factor.  The induction by the dexamethasone allows the expression of constructions LEC2:GR or ttg:GR introduced into transforming plants.The dexamethasone induces the expression of the contruct which carries the receptor to the glucocorticoïde (GR.).  The cycloheximide is a inhibitor of the translation and allows, coupled with the dexamethasome, the identification of the primary targets only.  The LEC2_GR25 and LEC2_GR31 constructs are two independents transforming plants of the cDNA-LEC2_GR construct.  Both were used in order to have an idea of the variability of the data transcriptome obtained. The ttg_GR construct is used here as control ; ttg is another transcription factor, thus if induction with the dexamethasone works well,  the targets induced in the two mutants will be different.   									
+Protocol Name	P-MEXP-29400	P-MEXP-29399	P-MEXP-29406	P-MEXP-29461	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6				
+Protocol Type	specified_biomaterial_action	grow	nucleic_acid_extraction	labeling	hybridization	feature_extraction				
+Protocol Description	Fifteen-day old plantlets were exposed for 6 h to four different treatments: 1. Water, 2. Dexamethasone (DEX 10-4M), 3. Cycloheximide (Cyclo 10-4M) and 4. Dexamethasone + Cycloheximide (DEX + Cyclo). The first was used as negative control; the second served to identify the genes induced by LEC2; the third is a control to check cycloheximide effects and could separate them from the fourth treatment, which consisted in an induction by dexamethasone together with cycloheximide to get the direct LEC2 targets.  The plantlets were extracted from gelose, crude treated in 12 wells titration plates and then dissected so that material collected consisted only in leaves to avoid the possible reminiscence of seed transcripts in cotyledons. The material was immediately frozen in liquid nitrogen. Then a RNA extraction and finally an RT-PCR were performed prior to chip hybridization.	In vitro culture is performed sowing sterile seeds over the Gambord B5 culture medium (micro- and macro-elements and vitamins at 3.1 g.l-1; Duchef, Haarlem, Neatherlands) containing 1% (p/v) of agarose. To overcome seed dormancy and to synchronize germination, stratification has to be perform, seeds have to stay 72 h at 4Â°C in darkness. Plantlets were grown for  15 days in 10cm petri dishes in a growth cabinet (60% hygrometry, 16 h light at 250 Î¼mol.s-1.m-1, 20Â°C). 	RNeasy Plant Mini Kit; purification of up to 100 ug total RNA from plants; 20 RNeasy Mini Spin Columns, 20 QIAshredder Mini Spin Columns, Collection Tubes (1.5 ml and 2 ml), RNase-free Reagents and Buffers. CatN° 74903	GeneChip® One-Cycle cDNA Synthesis Kit(Manufactured by Invitrogen for Affymetrix. all necessary reagents in one convenient kit for synthesis of double-stranded cDNA containing the T7 promoter sequence from 1 to 15 µg of total RNA; The resultant cDNA is then purified and serves as a template in the subsequent in vitro transcription (IVT) reaction for complementary RNA (cRNA) amplification and biotin labeling to hybridize to GeneChip® arrays.	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 				
+Protocol Parameters			Extracted product;Amplification;	Amplification;Label used;						
+Protocol Hardware										
+Protocol Software					MicroArraySuite 5.0	MicroArraySuite 5.0				
+Protocol Contact										
+Protocol Term Source REF	mo				mo					
+SDRF File	E-MEXP-807.sdrf.txt									
+Term Source Name	The MGED Ontology		tair_dev:1.27	mo	ncbitax	ArrayExpress	NCI_thesaurus	mo	EFO	The MGED Ontology
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php		http://www.arabidopsis.org/info/ontologies/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html	http://www.ebi.ac.uk/arrayexpress	ncithesaurus.obo.alt	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version			1.27							

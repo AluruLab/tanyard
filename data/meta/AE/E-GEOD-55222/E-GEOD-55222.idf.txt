@@ -1,0 +1,31 @@
+Comment[ArrayExpressAccession]	E-GEOD-55222						
+MAGE-TAB Version	1.1						
+Public Release Date	2014-08-25						
+Investigation Title	Targets of ALTERED PHLOEM DEVELOPMENT (APL)						
+Comment[Submitted Name]	Targets of ALTERED PHLOEM DEVELOPMENT (APL)						
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis phloem from Altered Phloem Development (APL) mutants and wild type controls						
+Experiment Description	We profiled transcripts from sorted phloem cells of wild-type and apl mutants to identify the genes regulated by APL in phloem. We profiled transcripts from sorted phloem cells of wild-type and apl mutants to identify the genes regulated by APL in phloem. Three biological replicates for control WT and apl mutants were used in thes study. Root tissue was protoplasted and sorted using fluorescence-activated cell sorting (FACS). Total RNA was extracted from GFP+ protoplasts.						
+Term Source Name	ArrayExpress	EFO					
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Helariutta	Satu	Lindgren	De Rybel	Beeckman	Ykä	
+Person First Name	Ykä	L	O	B	T	Helariutta	
+Person Email	yrjo.helariutta@helsinki.fi						
+Person Affiliation	Institute of Biotechnology						
+Person Phone	+358-9-19159422						
+Person Address	University of Helsinki, Institute of Biotechnology, Viikinkaari 1, Helsinki, Finland						
+Person Roles	submitter						
+Protocol Name	P-GSE55222-1	P-GSE55222-5	P-GSE55222-6	P-GSE55222-2	P-GSE55222-3	P-GSE55222-4	P-GSE55222-7
+Protocol Description	standard Affymetrix protocol, Scanning and Data-processing was done according to the protocols of the VIB nucleomics core facility (http://www.nucleomics.be). ID_REF =  VALUE = MAS 5.0 signal	Labeling and hybridisation was done according to Affymetrics protocols (http://www.affymetrix.com)	Labeling and hybridisation was done according to Affymetrics protocols (http://www.affymetrix.com)	Root tissues were protoplasted according to [Iyer-Pascuzzi, A. S. & Benfey, P. N. Fluorescence-activated cell sorting in plant developmental biology. Methods Mol Biol. 655, 313-319 (2010)].	Plants were grown on square plates (Greiner Labortechnik) with solid medium derived from standard MS medium incubated in a growth chamber under continuous light (110 μE.m-2.s-1 photosynthetically active radiation, supplied by cool-white fluorescent tungsten tubes; Osram) at 22�C.	Root tissues were protoplasted according to [Iyer-Pascuzzi, A. S. & Benfey, P. N. Fluorescence-activated cell sorting in plant developmental biology. Methods Mol Biol. 655, 313-319 (2010)].	standard Affymetrix protocol, Scanning and Data-processing was done according to the protocols of the VIB nucleomics core facility (http://www.nucleomics.be).
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	genotype						
+Experimental Factor Type	genotype						
+Publication Title	Plant development. Arabidopsis NAC45/86 direct sieve element morphogenesis culminating in enucleation.						
+Publication Author List	Furuta KM, Yadav SR, Lehesranta S, Belevich I, Miyashima S, Heo JO, Vatén A, Lindgren O, De Rybel B, Van Isterdael G, Somervuo P, Lichtenberger R, Rocha R, Thitamadee S, Tähtiharju S, Auvinen P, Beeckman T, Jokitalo E, Helariutta Y						
+PubMed ID	25081480						
+Publication DOI	10.1126/science.1253736						
+Comment[SecondaryAccession]	GSE55222						
+Comment[GEOReleaseDate]	2014-08-25						
+Comment[ArrayExpressSubmissionDate]	2014-02-20						
+Comment[GEOLastUpdateDate]	2014-08-26						
+Comment[AEExperimentType]	transcription profiling by array						
+SDRF File	E-GEOD-55222.sdrf.txt						

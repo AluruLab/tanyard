@@ -1,0 +1,57 @@
+Comment[ArrayExpressAccession]	E-GEOD-38282
+Public Release Date	2012-05-26							
+Investigation Title	Expression data from aerial parts of 14-day-old wild-type and GFP-TIE1-15 Arabidopsis seedlings							
+Comment[Submitted Name]	Expression data from aerial parts of 14-day-old wild-type and GFP-TIE1-15 Arabidopsis seedlings
+Experiment Description	TIE1 regulates leaf development by repressing leaf differentiation because the semi-dominant mutant tie1-D by activation tagging displays small and hyponastic leaves and the differentiation of leaf epidermal cells is delayed in the tie1-D mutant, whereas disruption of TIE1 causes epinastic leaves with early differentiated epidermal cells. We used microarrays to investigate the molecular base underpinning the phenotypes of TIE1-overexpressing plants. Aerial parts of 14-day-old seedlings from wild-type and GFP-TIE1-15 were collected for RNA extraction and hybridization on Affymetrix microarrays.							
+Date of Experiment								
+Term Source Name	EFO
+Term Source Version								
+Term Source File	http://www.ebi.ac.uk/efo/efo.owl							
+Person Last Name	tao	Tao	Qu	Qin				
+Person First Name	qing	Qing	Li	Genji				
+Person Mid Initials			J					
+Person Email	litgreen@pku.edu.cn							
+Person Affiliation	Peking University							
+Person Phone								
+Person Fax								
+Person Address	Biotechnology, Peking University, 5th,Yi he yuan road, hai dian district,Beijing,China, Beijing, China							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Person Roles Term Accession Number								
+Normalization Type								
+Normalization Term Accession Number								
+Normalization Term Source REF								
+Replicate Type								
+Replicate Term Accession Number								
+Replicate Term Source REF								
+Experimental Design								
+Experimental Design Term Accession Number								
+Experimental Design Term Source REF								
+Quality Control Type								
+Quality Control Term Accession Number								
+Quality Control Term Source REF								
+Protocol Name	P-GSE38282-1	P-GSE38282-6	P-GSE38282-3	P-GSE38282-8	P-GSE38282-7	P-GSE38282-2	P-GSE38282-4	P-GSE38282-5
+Protocol Description	ID_REF = <br>VALUE = MAS5.0 signal intensity<br>ABS_CALL = the call in an absolute analysis that indicates if the transcript was present (P), absent (A), or marginal (M)<br>DETECTION P-VALUE = p-value that indicates the significance level of the detection call	Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45C on Arabidopsis ATH1 Genome Arrays. The standard wash and double-stain protocols (EukGE-WS2v5-450) were applied using an Affymetrix GeneChip Fluidics Station 450.	Arabidopsis seeds from wild-type and GFP-TIE1-15 were placed on half-strength Murashige and Skoog (1/2 MS) medium. The plates were put in 4 °C refrigerator for 3 days to complete synchronization before being placed at 22±2 °C under long day conditions (16-h light and 8-h dark) for 14 days.	The scanned arrays were analyzed first with Affymetrix GCOS 1.0 (MAS 5.0) software to generate detection calls. Both data sets were normalized using Affymetrix GCOS software, and the TGT value was set to 100.	The arrays were scanned on an Affymetrix GeneChip scanner 3000.	Aerial parts of the 14-day-old seedlings were excised from the seedlings and collected for total RNA extraction.	The QIAgen RNeasy Total RNA Extraction Kit was used to extract total RNA according to the manufacturer's instructions.	Biotin-labeled cRNA were prepared according to the standard Affymetrix protocol from 5 ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+Protocol Software								
+Protocol Hardware								
+Protocol Contact								
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Protocol Term Source REF								
+Protocol Term Accession Number								
+Experimental Factor Name	GENOTYPE							
+Experimental Factor Type	genotype							
+Experimental Factor Term Source REF								
+Experimental Factor Term Accession Number								
+Publication Title								
+Publication Author List								
+PubMed ID								
+Publication DOI								
+Publication Status								
+Publication Status Term Source REF								
+Publication Status Term Accession Number								
+Comment[SecondaryAccession]	GSE38282							
+Comment[GEOLastUpdateDate]	2012-05-28
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[GEOReleaseDate]	2012-05-25
+Comment[ArrayExpressSubmissionDate]	2012-05-25
+SDRF File	E-GEOD-38282.sdrf.txt

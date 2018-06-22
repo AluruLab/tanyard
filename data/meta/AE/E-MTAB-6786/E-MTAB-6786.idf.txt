@@ -1,0 +1,68 @@
+MAGE-TAB Version	1.1
+Investigation Title	Transcription profiling by array of Arabidopsis thaliana shoots treated with either DEX or CHX to identify STM-regulated target genes
+
+Experimental Design	compound treatment design
+Experimental Design Term Source REF	EFO
+Experimental Design Term Accession Number	EFO:0001755
+
+Experimental Factor Name	dose	compound
+Experimental Factor Type	dose	compound
+Experimental Factor Term Source REF	EFO
+Experimental Factor Term Accession Number	EFO_0000428
+
+Person Last Name	Scofield
+Person First Name	Simon
+Person Mid Initials
+Person Email	ScofieldS@cardiff.ac.uk
+Person Phone
+Person Fax
+Person Affiliation	School of Biosciences Cardiff University
+Person Address	Sir Martin Evans Building Museum Avenue, Cardiff, CF10 3AX
+Person Roles	submitter
+Person Roles Term Source REF
+Person Roles Term Accession Number
+
+Quality Control Type
+Quality Control Term Source REF
+Quality Control Term Accession Number
+
+Replicate Type
+Replicate Term Source REF
+Replicate Term Accession Number
+
+Normalization Type
+Normalization Term Source REF
+Normalization Term Accession Number
+
+Date of Experiment	2012-05-16
+Public Release Date	2018-05-29
+
+PubMed ID
+Publication DOI
+Publication Author List
+Publication Title
+Publication Status
+Publication Status Term Source REF
+Publication Status Term Accession Number
+
+Experiment Description	Global expression of the Arabidopsis transcriptional regulator SHOOT MERISTEMLESS (STM) in a 35S:STM-GR transgenic line was induced for 3 hours with dexamethasone (DEX) compared to mock-induced (DMSO) control. Additionally,to identify direct targets, plants were treated with the protein synthesis inhibitor cycloheximide (CHX) together with DEX, compared to CHX treatment alone.
+
+Protocol Name	P-MTAB-74042	P-MTAB-74043	P-MTAB-74041	P-MTAB-74046	P-MTAB-74047	P-MTAB-74044	P-MTAB-74045	P-MTAB-74049	P-MTAB-74048	P-MTAB-74050
+Protocol Type	growth protocol	nucleic acid extraction protocol	sample collection protocol	array scanning and feature extraction protocol	treatment protocol	nucleic acid labeling protocol	nucleic acid hybridization to array protocol	conversion protocol	normalization data transformation protocol	dissection protocol
+Protocol Term Source REF	EFO	EFO	EFO	EFO	EFO	EFO	EFO	EFO	EFO	EFO
+Protocol Term Accession Number	EFO_0003789	EFO_0002944	EFO_0005518	EFO_0003814	EFO_0003969	EFO_0003813	EFO_0003815	EFO_0005520	EFO_0003816	EFO_0005519
+Protocol Description	Plants were sown on GM medium (MS salts + 1% sucrose)and grown for 9 days under continuous white light at 22 degrees celsius. Chemical treatments were performed 3 hours prior to sample harvesting.	RNA extracted with Tripure and LiCL precipitation. Dissolved in water.	For each sample, shoot tissue from 9 plants was collected and ground in liquid N2.	Standard Affymetrix array scanning and MAS5 extraction	Chemical treatments were performed 3 hours before harvesting. DEX and CHX were added at a concentration of 60 micromolar. Equivalent volume of DMSO was used in mock treated control.	As per Affymetrix instructions	As per Affymetrix instructions	Standard affymetrix protocols.	Standard affymetrix protocols.	Shoot tissue was separated from root tissue with forceps.
+Protocol Parameters
+Protocol Hardware
+Protocol Software
+Protocol Contact
+
+Term Source Name	EFO	ArrayExpress
+Term Source File	http://www.ebi.ac.uk/efo/	http://www.ebi.ac.uk/arrayexpress/
+Term Source Version	2.81
+
+SDRF File	E-MTAB-6786.sdrf.txt
+Comment [Submitted Name]	Transcription profiling by array of Arabidopsis thaliana shoots treated with either DEX or CHX to identify STM-regulated target genes
+Comment [AEExperimentType]	transcription profiling by array
+Comment[ArrayExpressAccession]	E-MTAB-6786
+Comment [RelatedExperiment]	E-MTAB-6123

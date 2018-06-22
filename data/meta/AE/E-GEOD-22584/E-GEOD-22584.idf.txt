@@ -1,0 +1,52 @@
+Investigation Title	Microarray analysis of gene expression in the Arabidopsis rlt1-1 rlt2-1 mutant							
+Comment[Submitted Name]	Microarray analysis of gene expression in the Arabidopsis rlt1-1 rlt2-1 mutant							
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis rlt1-1 rlt2-1 mutants							
+Comment[AEExperimentType]	transcription profiling by array							
+Experimental Design	transcription profiling by array	genetic modification design						
+Experimental Design Term Source REF	EFO							
+Comment[AEMIAMESCORE]	4							
+Comment[SecondaryAccession]								
+Comment[SecondaryAccession]	GSE22584							
+Comment[ArrayExpressReleaseDate]	2010-07-29							
+Comment[ArrayExpressAccession]	E-GEOD-22584							
+Comment[MAGETAB TimeStamp_Version]	2010-10-15 13:21:35 Last Changed Rev: 14677							
+Experimental Factor Name	genotype							
+Experimental Factor Type	genotype							
+Experimental Factor Term Source REF								
+Person Last Name	Xu	XU	Zhang					
+Person First Name	Lin	Lin	Jiawei					
+Person Mid Initials								
+Person Email		xulin01@sibs.ac.cn						
+Person Phone		86-21-54924085						
+Person Fax		86-21-54924015						
+Person Address		"Shanghai Institute of Plant Physiology and Ecology, Chinese Academy of Sciences, 300 Fenglin Road, Shanghai, China"						
+Person Affiliation		Shanghai Institute of Plant Physiology and Ecology						
+Person Roles		submitter						
+Person Roles Term Source REF		The MGED Ontology						
+Quality Control Type								
+Quality Control Term Source REF								
+Replicate Type								
+Replicate Term Source REF								
+Normalization Type								
+Normalization Term Source REF								
+Date of Experiment								
+Public Release Date	2010-07-29							
+PubMed ID	22694359							
+Publication DOI								
+Publication Author List	"Li G, Zhang J, Li J, Yang Z, Huang H, Xu L."							
+Publication Title	Imitation Switch chromatin remodeling factors and their interacting RINGLET proteins act together in controlling the plant vegetative phase in Arabidopsis.							
+Publication Status								
+Publication Status Term Source REF								
+Experiment Description	"The Arabidopsis thaliana Imitation Switch (AtISWI) subfamily of ATP-dependent chromatin remodeling factors play essential roles in plant development. Here we show that the DDT domain transcription factor RINGLET (RLT) form a complex with AtISWI. RLT1 physically interacts with CHR11 in yeast cells. Single mutants rlt1-1 and rlt2-1 show no obvious developmental defects, while the rlt1-1 rlt2-1 double mutant phenocopies the AtISWI mutant chr11-1 chr17-1. In addtion, the RLT-ISWI complex selectively represses SEPALLATA, FRUITFULL and SUPPRESSOR OF OVEREXPRESSION OF CO 1, but not AGAMOUS and PISTILLATA in leaves. Leaves from 15-day-old seedlings of wild-type Col-0 and rlt1-1 rlt2-1 were used for RNA preparation.In the experiment data,3a3b refers to rlt1-1 rlt2-1."							
+Protocol Name	P-GSE22584-2	P-GSE22584-4	P-GSE22584-3	P-GSE22584-5	P-GSE22584-6	P-GSE22584-7	P-GSE22584-8	P-GSE22584-1
+Protocol Type	specified_biomaterial_action	nucleic_acid_extraction	grow	labeling	hybridization	image_aquisition	feature_extraction	bioassay_data_transformation
+Protocol Description	no treatment	Extract and purify the total RNA by the Qiagen RNeasy Mini Kit.Reverse Transcription to Synthesize First-Strand cDNA is primed with  T7 oligo(dT) primer to synthesize cDNA containing a T7 promoter sequence.Second-Strand cDNA Synthesis converts the single-stranded cDNA into  a double-stranded DNA (dsDNA) template for transcription. The reaction employs DNA polymerase and RNase H to simultaneously degrade the RNA  and synthesize second strand cDNA.	"16 h light, 8 h dark, 21Â°C"	"In Vitro Transcription to Synthesize Biotin-Modified aRNA with IVT Labeling Master Mix generates multiple copies of biotin-modified aRNA from  the double-stranded cDNA templates; this is the amplification step.aRNA Purification removes unincorporated NTPs, salts, enzymes, and  inorganic phosphate to improve the stability of the biotin-modified aRNA."	Fragmentation of the labeled aRNA prepares the target for hybridization to GeneChipÂ® 3â expression arrays with GeneChipÂ® hybridization oven 640.	"Wash and stain the arrays with GeneChipÂ® fluidics station 450, Scan the arrays with the GeneArray scanner 3000 by the GeneChipÂ® Operating  Software (GCOS) or Command ConsoleÂ® (AGCC) Software."	RMA data were obtained by using Partek GS 6.4.	ID_REF = <br>VALUE = RMA signal
+Protocol Parameters								
+Protocol Hardware								
+Protocol Software								
+Protocol Contact								
+Protocol Term Source REF	The MGED Ontology	The MGED Ontology	The MGED Ontology	The MGED Ontology	The MGED Ontology		The MGED Ontology	The MGED Ontology
+SDRF File	E-GEOD-22584.sdrf.txt							
+Term Source Name	NCBI Taxonomy		The MGED Ontology	ArrayExpress	EFO	The MGED Ontology		
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php		
+Term Source Version								

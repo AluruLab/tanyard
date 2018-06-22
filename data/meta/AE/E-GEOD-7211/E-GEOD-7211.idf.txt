@@ -1,0 +1,51 @@
+Investigation Title	A polyadenylation factor subunit implicated in regulating oxidative stress responses in Arabidopsis thaliana				
+Comment[Submitted Name]	A polyadenylation factor subunit implicated in regulating oxidative stress responses in Arabidopsis thaliana				
+Experimental Design	unknown_experiment_design_type	transcription profiling by array			
+Experimental Design Term Source REF		EFO			
+Comment[AEExperimentType]	transcription profiling by array				
+Comment[AEExperimentDisplayName]	A polyadenylation factor subunit implicated in regulating oxidative stress responses in Arabidopsis thaliana				
+Comment[AEMIAMESCORE]	4				
+Comment[ArrayExpressReleaseDate]	2008-06-15				
+Comment[SecondaryAccession]	GSE7211				
+Comment[ArrayExpressAccession]	E-GEOD-7211				
+Comment[MAGETAB TimeStamp_Version]	2010-08-07 17:45:17 Last Changed Rev: 13058				
+Experimental Factor Name	genotype				
+Experimental Factor Type	genotype				
+Experimental Factor Term Source REF					
+Person Last Name	Hunt				
+Person First Name	Arthur				
+Person Mid Initials	G.				
+Person Email	aghunt00@uky.edu				
+Person Phone					
+Person Fax					
+Person Address	"Dept. of Plant and Soil Sciences, University of Kentucky, 301A Plant Science Building, Lexington, 40546-0312, USA"				
+Person Affiliation	University of Kentucky				
+Person Roles	submitter				
+Person Roles Term Source REF					
+Quality Control Type					
+Quality Control Term Source REF					
+Replicate Type					
+Replicate Term Source REF					
+Normalization Type					
+Normalization Term Source REF					
+Date of Experiment					
+Public Release Date	2008-06-15				
+PubMed ID					
+Publication DOI					
+Publication Author List					
+Publication Title					
+Publication Status					
+Publication Status Term Source REF					
+Experiment Description	"The oxt6 mutant is an oxidative stress-tolerant Arabidopsis mutant that is deficient in a polyadenylation factor subunit.  Expression analysis suggests that impaired poly(A) site choice is responsible for the stress-tolerant phenotype. We used microarrays to understand the link between the polyadenylation defect and stress tolerance. Experiment Overall Design: Arabidopsis plants (the wild-type, oxt6 mutant, and two independent oxt6 transformants each carrying a gene encoding just the smaller of the two At1g30460-encoded proteins) were seeded and grown in soil.  Plants were harvested for RNA isolation after 30 days; for this, six samples derived from 10-15 plants were prepared for each line.  Ten samples were selected for study â three wild-type, three oxt6, and two from each of the complemented lines.  Analysis of independent complemented plants minimizes the possible effects that may arise due to T-DNA insertion."				
+Protocol Name	P-G7211-1	P-G7211-3	P-G7211-2	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6
+Protocol Type	grow	nucleic_acid_extraction	labeling	hybridization	feature_extraction
+Protocol Description	"Arabidopsis plants were seeded and grown in soil at 22-26 Â&deg;C in an 8 hr light/16 hr dark regime (under Phillips F40CW 34W fluorescent lights, with an intensity of 55 Â&#956;mol m-2 sec-1)."	"RNA was isolated using the Invitrogen Trizol Reagent (cat 15596-018) and further purified with the Qiagen RNeasy Plant Mini Kit (cat 74903), and tested for quality by gel electrophoresis and inspection of the stable RNA bands."	Biotinylated cRNA was prepared according to the standard Affymetrix protocol from 4 ug total RNA.	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 
+Protocol Parameters					
+Protocol Hardware					
+Protocol Software				MicroArraySuite 5.0	MicroArraySuite 5.0
+Protocol Contact					
+Protocol Term Source REF				mo	
+SDRF File	E-GEOD-7211.sdrf.txt				
+Term Source Name	NCBI Taxonomy	The MGED Ontology	ArrayExpress	EFO	mo
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version					

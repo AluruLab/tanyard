@@ -1,0 +1,58 @@
+Comment[ArrayExpressAccession]	E-GEOD-24214																
+Public Release Date	2011-08-29																
+Investigation Title	affy_l2bctv_ath-Expression viral protein L2 BCTV in Arabidopsis thaliana																
+Comment[Submitted Name]	affy_l2bctv_ath-Expression viral protein L2 BCTV in Arabidopsis thaliana																
+Experiment Description	"affy_l2bctv_ath - affy_l2bctv_ath - Geminivirus diseases are among the most important economic impact on crops, including beans, cassava, cotton, cucurbits, corn, peppers and tomatoes. Geminiviruses have a genome composed of one or two molecules of single-stranded DNA, depending on mono or bipartite. The BCTV genome consists of a single strand of DNA that contains six reading frames for proteins CP, V2, Rep, C2, Ren, and C4. To determine the mechanism by which C2 of BCTV induce genes, we performed transgenic Arabidopsis expressing BCTV C2. We are interesting to study the difference between the wild type and two mutants. -10 days old plants were grown in MS at 24 degrees in long day. We used the different lines: wt, L2.4 mutants and L2.5 mutants. We performed three repetitions each.  Keywords: gene knock in (transgenic) 9 arrays - ATH1"																
+Date of Experiment																	
+Term Source Name	EFO																
+Term Source Version																	
+Term Source File	http://www.ebi.ac.uk/efo/efo.owl																
+Person Last Name	huguet	Huguet	Rodriguez Bejarano	Balzergue	Martin-Magniette												
+Person First Name	stephanie	Stephanie	Eduardo	Sandrine	Marie-Laure												
+Person Mid Initials																	
+Person Email	huguet@evry.inra.fr																
+Person Affiliation	inra																
+Person Phone																	
+Person Fax																	
+Person Address	"inra, 2 rue gaston cremieux, evry, France"																
+Person Roles	submitter																
+Person Roles Term Source REF																	
+Person Roles Term Accession Number																	
+Normalization Type																	
+Normalization Term Accession Number																	
+Normalization Term Source REF																	
+Replicate Type																	
+Replicate Term Accession Number																	
+Replicate Term Source REF																	
+Experimental Design	genetic modification design	transcription profiling by array															
+Experimental Design Term Accession Number																	
+Experimental Design Term Source REF																	
+Quality Control Type																	
+Quality Control Term Accession Number																	
+Quality Control Term Source REF																	
+Protocol Name	P-GSE24214-1	P-GSE24214-6	P-GSE24214-14	P-GSE24214-3	P-GSE24214-8	P-GSE24214-7	P-GSE24214-2	P-GSE24214-10	P-GSE24214-16	P-GSE24214-17	P-GSE24214-13	P-GSE24214-11	P-GSE24214-15	P-GSE24214-4	P-GSE24214-12	P-GSE24214-9	P-GSE24214-5
+Protocol Description	ID_REF = ID number<br>VALUE = Normalized data by GCRMA	labelled extract quantity: 15ug	aerial - -Media: MS Temperatura: 24 ºC Light: 18 hours	aerial - Media: MS Temperatura: 24 ºC Light: 18 hours	"The data were normalized with the gcrma algorithm (Irizarry et al., 2003), available in the Bioconductor package (Gentleman and Carey, 2002)."	"GCOS, Biotin:pmt voltage 570nm,650V,laser power 1"	no treatment	l24_3:15ug.	wt_3:15ug.	wt_1:15ug.	l24_1:15ug.	l24_2:15ug.	wt_2:15ug.	l25_3:15ug.	l25_2:15ug.	l25_1:15ug.	"labelling Biotin direct, amplification=yes, cRNA 20 ug."
+Protocol Software																	
+Protocol Hardware																	
+Protocol Contact																	
+Protocol Type	bioassay_data_transformation	hybridization	grow	grow	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	nucleic_acid_extraction	nucleic_acid_extraction	nucleic_acid_extraction	nucleic_acid_extraction	nucleic_acid_extraction	nucleic_acid_extraction	nucleic_acid_extraction	nucleic_acid_extraction	labeling
+Protocol Term Source REF																	
+Protocol Term Accession Number																	
+Experimental Factor Name	genotype																
+Experimental Factor Type	genotype																
+Experimental Factor Term Source REF																	
+Experimental Factor Term Accession Number																	
+Publication Title																	
+Publication Author List																	
+PubMed ID																	
+Publication DOI																	
+Publication Status																	
+Publication Status Term Source REF																	
+Publication Status Term Accession Number																	
+Comment[SecondaryAccession]	GSE24214																
+Comment[GEOLastUpdateDate]	2011-08-30																
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis expressing mutant forms of beet curly-top virus L2 protein																
+Comment[AEExperimentType]	transcription profiling by array																
+Comment[GEOReleaseDate]	2011-08-28																
+Comment[ArrayExpressSubmissionDate]	2010-09-19																
+SDRF File	E-GEOD-24214.sdrf.txt																

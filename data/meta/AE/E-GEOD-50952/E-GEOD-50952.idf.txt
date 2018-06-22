@@ -1,0 +1,31 @@
+Comment[ArrayExpressAccession]	E-GEOD-50952						
+MAGE-TAB Version	1.1						
+Public Release Date	2015-05-16						
+Investigation Title	Expression data from wildtype and spy-3 roots						
+Comment[Submitted Name]	Expression data from wildtype and spy-3 roots						
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis roots from spy-3 mutant to understand how SPY regulates root cortex proliferation						
+Experiment Description	SPY is an O-linked N-acetylglucosamine transferase involved in many signaling and developmental processes in Arabidopsis. SPY also has a role in root development. In the spy mutant, a middle cortex is produced prematurely. To understand how SPY regulates root cortex proliferation, we sought to identify the genes affected by the spy mutation in the root. The transciptomes from the root of one-week-old seedlings, Col or spy-3 mutant, were compared. The seedlings were grown on a nylon membrane placed on 1X MS agar medium and the plates are positionally vertically in a Pecival growth chamber with 16 hr light and 8 hr dark. Three biological replicates were performed.						
+Term Source Name	ArrayExpress	EFO					
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Cui	Cui					
+Person First Name	Hongchang	Hongchang					
+Person Email	hcui@bio.fsu.edu						
+Person Affiliation	Florida State University						
+Person Phone	850-645-1967						
+Person Address	Biological Science, Florida State University, 319 Stadium Dr., Tallahassee, FL, USA						
+Person Roles	submitter						
+Protocol Name	P-GSE50952-1	P-GSE50952-5	P-GSE50952-6	P-GSE50952-2	P-GSE50952-3	P-GSE50952-4	P-GSE50952-7
+Protocol Description	The raw data was analyzed using the MAS5 and ANOVA method. ID_REF =  VALUE = MAS5.0 signal intensity ABS_CALL =  DETECTION P-VALUE = 	Total RNA was converted into cDNA using the Invitrogen Transcriptase III Kit; Biotin-labelled cRNA was then prepared from the cDNA templates and fragmentted using the Affymetrix cRNA amplification system.	Hybridization was performed by the Expression Analysis company, following the standard protocols recommended by they vendor.	After 7 days of germination, the roots were collected and snap frozen in liquid nitrogen.	Seeds were sterilized for 10 minutes in 10% bleach containing 0.1% Tween 20. After washing with water for 3 times, the seeds were sown on a nylon mesh placed on agar MS medium in a 100 mm x 100 mm square plate, and the seeds were allowed to germinate vertically in a Percival growth chamber with 16 hrs light, 8 hrs dark, at 22C.	0.1 g root tissue were grounded in liquid nitrogen and total RNA was extracted using the Qiagen Plant RNeasy Kit.	Scanning was done by the Expression Analysis company.
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	genotype						
+Experimental Factor Type	genotype						
+Publication Title	SPINDLY, ERECTA, and its ligand STOMAGEN have a role in redox-mediated cortex proliferation in the Arabidopsis root						
+Publication Author List	Cui H, Kong D, Wei P, Hao Y, Torii KU, Lee JS4, Li J						
+PubMed ID	25267734						
+Publication DOI	10.1093/mp/ssu106						
+Comment[SecondaryAccession]	GSE50952						
+Comment[GEOReleaseDate]	2015-05-16						
+Comment[ArrayExpressSubmissionDate]	2013-09-17						
+Comment[GEOLastUpdateDate]	2015-05-16						
+Comment[AEExperimentType]	transcription profiling by array						
+SDRF File	E-GEOD-50952.sdrf.txt						

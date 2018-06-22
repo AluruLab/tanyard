@@ -1,0 +1,58 @@
+Comment[ArrayExpressAccession]	E-GEOD-27669							
+Public Release Date	2011-05-02							
+Investigation Title	Expression data from Arabidopsis Col-0 expressing FLAG-SUB1A or FLAG-SUB1C rice ERFs							
+Comment[Submitted Name]	Expression data from Arabidopsis Col-0 expressing FLAG-SUB1A or FLAG-SUB1C rice ERFs							
+Experiment Description	In rice (Oryza sativa L.), the haplotype at the multigenic SUBMERGENCE 1 (SUB1) locus determines survival of prolonged submergence. SUB1 encodes two or three group VII Ethylene Response Factor (ERF) family transcription factors, SUB1A, SUB1B and SUB1C. A highly submergence-inducible SUB1A allele is present in lines that are submergence tolerant. This gene is the determinant of submergence tolerance. Here, the heterologous ectopic expression of rice SUB1A and SUB1C in Arabidopsis thaliana was employed to assess the transcriptional network mobilized by ectopic expression of SUB1A and SUB1C. Arabidopsis thaliana Col-0 plants were stably transformed with constructs allowing the expression of 35S:FLAG-SUB1A and 35S:FLAG-SUB1C. Affymetrix ATH1 arrays were hybridized with RNA isolated from 7-day-old whole seedlings at midday (growth chamber, 0.5X MS-agar plates, 1 %(w/v) sucrose, 23 ºC, 16 h light/ 8 h dark, 125 uE m-2 s-1). Two biological replicates each.							
+Date of Experiment								
+Term Source Name	EFO							
+Term Source Version								
+Term Source File	http://bar.ebi.ac.uk:8080/trac/browser/branches/curator/ExperimentalFactorOntology/ExFactorInOWL/currentrelease/eforelease/efo.owl							
+Person Last Name	Pena-Castro	Bailey-Serres	Peña-Castro					
+Person First Name	Julian	J	J					
+Person Mid Initials	M		M					
+Person Email	julianp@prodigy.net.mx							
+Person Affiliation	Universidad del Papaloapan							
+Person Phone	2878717813							
+Person Fax								
+Person Address	Biotechnology, Universidad del Papaloapan, Circuito Central 200, Tuxtepec, OAX, South America, Mexico							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Person Roles Term Accession Number								
+Normalization Type								
+Normalization Term Accession Number								
+Normalization Term Source REF								
+Replicate Type								
+Replicate Term Accession Number								
+Replicate Term Source REF								
+Experimental Design								
+Experimental Design Term Accession Number								
+Experimental Design Term Source REF								
+Quality Control Type								
+Quality Control Term Accession Number								
+Quality Control Term Source REF								
+Protocol Name	P-GSE27669-1	P-GSE27669-6	P-GSE27669-3	P-GSE27669-8	P-GSE27669-7	P-GSE27669-2	P-GSE27669-4	P-GSE27669-5
+Protocol Description	ID_REF = <br>VALUE = RMA-normalized expression value	Hybridization to ATH1 GeneChips was performed following the manufacturer’s method (Affymetrix) at the Genomics Core Facility, University of California, Riverside.	Arabidopsis seeds were sterilized and stratified in water for 3 d at 4 ºC, germinated on 1X Murashige Skoog (MS) agar medium (0.43% [w/v] MS salts, pH 5.75) additionally containing 1% (w/v) sucrose in vertically oriented plates in a growth chamber (23 ºC, 16 h light/ 8 h dark, 125 uE m-2 s-1), and after 7 d of growth they were collected at midday, frozen in liquid nitrogen, and stored at -80C until further processing.	Data was analyzed from CEL files using Robin (RMA model) (Lohse et al., 2010 [PMID 20388663]).	Arrays were scanned using the ScanArray Express (Perkin-Elmer).	No treatment was applied.	Total RNA extraction was performed using TRIzol reagent (Invitrogen), followed by further purification on RNeasy columns (Qiagen). RNA integrity was assessed by electrophoresis with a 2100 Bioanalyzer (Agilent).	Intact RNA (100 ng) was labeled using the GeneChip 3' IVT Express kit.
+Protocol Software								
+Protocol Hardware								
+Protocol Contact								
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Protocol Term Source REF								
+Protocol Term Accession Number								
+Experimental Factor Name	GENOTYPE							
+Experimental Factor Type	genotype							
+Experimental Factor Term Source REF								
+Experimental Factor Term Accession Number								
+Publication Title	Expression of rice SUB1A and SUB1C transcription factors in Arabidopsis uncovers flowering inhibition as a submergence-tolerance mechanism.							
+Publication Author List	Peña-Castro JM, van Zanten M, Lee SC, Patel MR, Voesenek LA, Fukao T, Bailey-Serres J							
+PubMed ID	21481028							
+Publication DOI	10.1111/j.1365-313X.2011.04605.x							
+Publication Status	published							
+Publication Status Term Source REF	EFO							
+Publication Status Term Accession Number	EFO_0001796							
+Comment[SecondaryAccession]	GSE27669							
+Comment[GEOLastUpdateDate]	2011-05-02							
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis expressing rice genes SUB1A or SUB1B under the control of the 35S promoter							
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[GEOReleaseDate]	2011-05-01							
+Comment[ArrayExpressSubmissionDate]	2011-03-03							
+SDRF File	E-GEOD-27669.sdrf.txt							

@@ -1,0 +1,31 @@
+Comment[ArrayExpressAccession]	E-GEOD-68439						
+MAGE-TAB Version	1.1						
+Public Release Date	2015-07-22						
+Investigation Title	Osmotic stress induces phosphorylation of histone H3 at threonine 3 in pericentromeric regions of Arabidopsis thaliana [expression]						
+Comment[Submitted Name]	Osmotic stress induces phosphorylation of histone H3 at threonine 3 in pericentromeric regions of Arabidopsis thaliana [expression]						
+Experiment Description	Histone phosphorylation plays key roles in stress-induced transcriptional reprogramming in metazoans but its function(s) in land plants has remained relatively unexplored. Here we report that an Arabidopsis mutant defective in At3g03940 and At5g18190, encoding closely related Ser/Thr protein kinases, shows pleiotropic phenotypes including dwarfism and hypersensitivity to osmotic/salt stress. The double mutant has reduced global levels of phosphorylated histone H3 threonine 3 (H3T3ph), which are not enhanced, unlike the response in the wild type, by drought-like treatments. Genome-wide analyses revealed increased H3T3ph, slight enhancement in trimethylated histone H3 lysine 4 (H3K4me3), and a modest decrease in histone H3 occupancy in pericentromeric/knob regions of wild type plants under osmotic stress. However, despite these changes in heterochromatin, transposons and repeats remained largely transcriptionally repressed. In contrast, this reorganization of heterochromatin was mostly absent in the double mutant, which even under normal conditions exhibited lower H3T3ph levels in pericentromeric regions, and a few transposons and repeat sequences showed modest transcriptional activation. Interestingly, within actively transcribed protein-coding genes, H3T3ph density was minimal in 5’ genic regions, coincidental with a peak of H3K4me3 accumulation. This pattern was not affected in the double mutant, implying the existence of additional H3T3 protein kinases in Arabidopsis. Our results suggest that At3g03940 and At5g18190 are involved in the phosphorylation of H3T3 in pericentromeric/knob regions and that this repressive epigenetic mark may be important for maintaining proper heterochromatic organization and, possibly, chromosome function(s). Columbia-0 and double mutant at3g03940/at518190 knockdown plants were grown in 12 hr light for 3 weeks in pots in well-watered state. RNA was isolated from rosettes in triplicate for analysis on microarray.						
+Term Source Name	ArrayExpress	EFO					
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Riethoven	Wang	Mollano	Xu	Zhang	Riethoven	Cerutti
+Person First Name	Jean-Jack	Zhen	Armando	Jianping	Chi	Jean-Jack	Heriberto
+Person Mid Initials	M.		C			M	
+Person Email	jeanjack@unl.edu						
+Person Affiliation	University of Nebraska-Lincoln						
+Person Address	Beadle Center for Biotechnology, University of Nebraska-Lincoln, 1901 Vine Street, Lincoln, NE, USA						
+Person Roles	submitter						
+Protocol Name	P-GSE68439-1	P-GSE68439-4	P-GSE68439-5	P-GSE68439-2	P-GSE68439-3	P-GSE68439-6	
+Protocol Description	The data was analysed using R  2.9.0 with Bioconductor 2.4. Arrays were normalised via RMA and mutant DM was compared to the control Col0 via the limma package. Benjamini-Hochberg adjusted p-values were used as significance measurement. ID_REF =  VALUE = R/Bioconductor RMA within-array normalised log2 intensities.	Biotinylated cRNA were prepared according to the standard Affymetrix protocol (reaction at 37C for 16h) from 15 ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).	Following fragmentation, 15 ug of cRNA were hybridized for 16 hr at 45C, refer to GeneChip Expression Analysis Technical Manual (www.affymetrix.com). GeneChips were washed and stained with streptavidin-phycoerythrin conjugate on an Affymetrix Fluidics Station 450	Columbia-0 and double mutant at3g03940/at518190 knockdown plants were grown in 12 hr light for 3 weeks in pots in well-watered state	Trizol extraction of total RNA was performed according to the manufacturer's (Invitrogen) instructions.	GeneChips were scanned using the Affymetrix GeneChip Scanner 3000 7G; Pixel size: 1.56 um; Filter: 570 nm	
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol	
+Experimental Factor Name	genotype						
+Experimental Factor Type	genotype						
+Publication Title	Osmotic stress induces phosphorylation of histone H3 at threonine 3 in pericentromeric regions of Arabidopsis thaliana.						
+Publication Author List	Wang Z, Casas-Mollano JA, Xu J, Riethoven JJ, Zhang C, Cerutti H						
+PubMed ID	26100864						
+Publication DOI	10.1073/pnas.1423325112						
+Comment[SecondaryAccession]	GSE68439						
+Comment[GEOReleaseDate]	2015-07-22						
+Comment[ArrayExpressSubmissionDate]	2015-04-30						
+Comment[GEOLastUpdateDate]	2015-07-22						
+Comment[AEExperimentType]	transcription profiling by array						
+Comment[AdditionalFile:Data1]	GSE68439_limma_DMvsCTR.txt						
+SDRF File	E-GEOD-68439.sdrf.txt						

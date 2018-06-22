@@ -1,0 +1,37 @@
+Comment[ArrayExpressAccession]	E-GEOD-19520							
+Public Release Date	2010-12-06							
+Investigation Title	Transcriptome analysis of Arabidopsis thaliana G protein subunit mutants in response to abscisic acid (ABA)							
+Comment[Submitted Name]	Transcriptome analysis of Arabidopsis thaliana G protein subunit mutants in response to abscisic acid (ABA)							
+Experiment Description	Heterotrimeric G proteins mediate crucial and diverse signaling pathways in eukaryotes. To gain insights into the regulatory modes of the G protein and the co-regulatory modes of the G protein and the stress hormone abscisic acid (ABA), we generated and analyzed gene expression in G protein subunit single and double mutants of the model plant Arabidopsis thaliana. Through a Boolean modeling approach, our analysis reveals novel modes of heterotrimeric G protein action.   Keywords: transcriptome analysis; G protein subunit mutants;  abscisic acid (ABA) Microarray data were generated from four genotypes (wild type, gpa1-4 mutant, agb1-2 mutant, agb1-2 gpa1-4 double mutant) with or without ABA treatment. Arabidopsis plants were grown in growth chambers with an 8 hr light/16hr dark. Three hundred Arabidopsis leaves excised from 60-70 five-week-old plants were used as the starting material for each guard cell microarray. Ten mature leaves taken from 3-4 plants grown side-by side with the plants for guard cell isolation were used for each leaf sample. Excised leaf and isolated guard cell samples were treated with ABA (50 μM) or EtOH (solvent control) for 3 hrs. For each type of sample (guard cells or leaves), three independent biological replicates were performed, resulting in a total of 48 microarray hybridizations (2 sample types ´ 4 genotypes ´ two treatments ´3 replicates).							
+Term Source Name	EFO							
+Term Source File	http://www.ebi.ac.uk/efo							
+Person Last Name	Assmann	Assmann						
+Person First Name	Sarah	Sarah						
+Person Mid Initials	M.	M						
+Person Email	sma3@psu.edu							
+Person Affiliation	Pennsylvania State University							
+Person Phone	814-863-9579							
+Person Fax	814-865-9131							
+Person Address	Biology, Pennsylvania State University, 210 Mueller Laboratory, University Park, State College, PA, USA							
+Person Roles	submitter							
+Protocol Name	P-GSE19520-1	P-GSE19520-6	P-GSE19520-3	P-GSE19520-8	P-GSE19520-7	P-GSE19520-2	P-GSE19520-4	P-GSE19520-5
+Protocol Description	ID_REF = <br>VALUE = RMA normalized log2 signal intensity	Standard Affymetrix procedures	Arabidopsis plants were grown in growth chambers with an 8 hr light/16hr dark, 20oC/18oC cycle, with light intensity of 120 µmol m-2s-1.	The RMA method implemented in the affy package in the bioconductor project (http://bioconductor.org/packages/release/bioc/html/affy.html) was used to normalize the data for the entire probe sets using default parameters (PMID: 14960456).	Standard Affymetrix procedures	Leaves were incubated in ddH2O containing 50 micromolar ABA for 3 hours	Three hundred Arabidopsis leaves excised from 60-70 five-week-old plants were used as the starting material for each guard cell microarray. Ten mature leaves taken from 3-4 plants grown side-by side with the plants for guard cell isolation were used for each leaf sample. Total RNA was isolated from each sample using Trizol reagent (Invitrogen). Trizol-isolated RNA was further purified using the Plant RNeasy kit (Qiagen, Valencia, CA).	RNA samples exhibiting a 25S/18S ratio >1.4 and no significant degradation in Bioanalyzer profiles (Agilent Technology, Palo Alto, CA) were used for cDNA and then cRNA synthesis.
+Protocol Type	normalization data transformation protocol	nucleic acid hybridization to array protocol	growth protocol	array scanning and feature extraction protocol	array scanning and feature extraction protocol	treatment protocol	nucleic acid extraction protocol	nucleic acid labeling protocol
+Protocol Term Source REF	EFO	EFO	EFO	EFO	EFO	EFO	EFO	EFO
+Protocol Term Accession Number								
+Experimental Factor Name	organism part	genotype	compound	dose				
+Experimental Factor Type	organism part	genotype	compound	dose				
+Publication Title	Boolean modeling of transcriptome data reveals novel modes of heterotrimeric G-protein action.							
+Publication Author List	Pandey S, Wang RS, Wilson L, Li S, Zhao Z, Gookin TE, Assmann SM, Albert R							
+PubMed ID	20531402							
+Publication DOI	10.1038/msb.2010.28							
+Publication Status	published							
+Publication Status Term Source REF	EFO							
+Publication Status Term Accession Number	EFO_0001796							
+Comment[SecondaryAccession]	GSE19520							
+Comment[GEOLastUpdateDate]	2010-12-06							
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for agb1 and/or gpa1 after treatment with abscisic acid							
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[GEOReleaseDate]	2010-12-06							
+Comment[ArrayExpressSubmissionDate]	2009-12-16							
+SDRF File	E-GEOD-19520.sdrf.txt							

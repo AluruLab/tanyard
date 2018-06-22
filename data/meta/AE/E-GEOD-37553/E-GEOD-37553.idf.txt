@@ -1,0 +1,58 @@
+Comment[ArrayExpressAccession]	E-GEOD-37553															
+Public Release Date	2012-04-26															
+Investigation Title	Expression data from LCM-captured Arabidopsis root cells after challenge with Meloidogyne incognita															
+Comment[Submitted Name]	Expression data from LCM-captured Arabidopsis root cells after challenge with Meloidogyne incognita															
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis root cells infested with Meloidogyne incognita 14 or 21 days after inoculation															
+Experiment Description	The differentiation of specialized feeding sites in Arabidopsis root cells in response to nematode infestation involves substantial cellular reprogramming of host cells that is not well characterized at the molecular level. Expression data was generated from Arabidopsis root cells undergoing giant cell formation due to nematode infestation and from non-infested control root cells. Cells were laser captured 14 and 21 days after infestation. Samples, collected 14 days post infestation, consisted of three biological replicates per treatment (control root cells or giant cells). RNA samples were isolated from ~150 control cells or from ~80 giant cells using the PicoPure RNA Isolation Kit (Arcturus, Mountain View, USA). RNA amplifications were carried out with the NuGEN WT-Ovation Pico kit. GSM546568-GSM546577: Control and giant cells collected 21 days post infestation.															
+Date of Experiment																
+Term Source Name	EFO															
+Term Source Version																
+Term Source File	http://www.ebi.ac.uk/efo/efo.owl															
+Person Last Name	McIntyre	Morse	Carballo	Taylor	McIntyre											
+Person First Name	Lauren	Alison	Valentina	Christopher	Lauren											
+Person Mid Initials		M		G	M											
+Person Email	mcintyre@ufl.edu															
+Person Affiliation	University of Florida															
+Person Phone	352-273-8024															
+Person Fax	352-273-8284															
+Person Address	Department of Molecular Genetics and Microbiology, University of Florida, 2033 Mowry Rd, Gainesville, FL, USA															
+Person Roles	submitter															
+Person Roles Term Source REF																
+Person Roles Term Accession Number																
+Normalization Type																
+Normalization Term Accession Number																
+Normalization Term Source REF																
+Replicate Type																
+Replicate Term Accession Number																
+Replicate Term Source REF																
+Experimental Design																
+Experimental Design Term Accession Number																
+Experimental Design Term Source REF																
+Quality Control Type																
+Quality Control Term Accession Number																
+Quality Control Term Source REF																
+Protocol Name	P-GSE37553-2	P-GSE37553-1	P-GSE37553-14	P-GSE37553-7	P-GSE37553-4	P-GSE37553-9	P-GSE37553-15	P-GSE37553-8	P-GSE37553-3	P-GSE37553-10	P-GSE37553-16	P-GSE37553-11	P-GSE37553-5	P-GSE37553-12	P-GSE37553-13	P-GSE37553-6
+Protocol Description	ID_REF = probe_set_ID<br>VALUE = MAS5-calculated signal intensity<br>ABS_CALL = call that indicates if the transcript was present (P), absent (A) or marginal (M)<br>DETECTION P-VALUE = p-value that indicates the significance level of the detection call	ID_REF = probe_set_ID<br>VALUE = MAS5 calculated signal intensity<br>ABS_CALL = call that indicates if the transcript was present (P), absent (A) or marginal (M)<br>DETECTION P-VALUE = p-value that indicates the significance level of the detection call	The hybridization mixture was prepared according to NuGEN and Affymetrix procedures and hybridized to GeneChip Arabidopsis ATH1 Arrays.	Hybridization mixture was prepared according to NuGEN and Affymetrix procedures and hybridized to GeneChip Arabidopsis ATH1 Arrays.	Arabidopsis seedlings were grown for infestation with Meloidogyne incognita nematodes according to Hammes et al. Plant J. 2006 48:414-426. Briefly, Arabidopsis seeds were sterilized and sown, five seeds per plate, 30 plates total, in a medium containing 2% sucrose, 0.3% Gamborg’s basal salts, and 0.6 % Phytagel, pH 6.1. Plates were placed at a 45o angle in a short-day chamber.	Data were quantified with the Expression Console (Affymetrix) software application using the MAS5 algorithm	Data were quantified with the Expression Console (Affymetrix) software application using the MAS5 algorithm.	GeneChips were scanned at the University of Pennsylvania School of Medicine Microarray Facility according to standard manufacturer protocols.	Arabidopsis seedlings were infested with Meloidogyne incognita nematodes according to Hammes et al. Plant J. 2006 48:414-426. Briefly, 3 week old Arabidopsis seedlings, 5 per plate, were inoculated with 1,000 M. incognita stage 2 juveniles and placed at an angle in a clear acrylic humid box in a short-day chamber. Twenty-one days after inoculation, control root cells not undergoing giant cell formation (~13,000,000 um2 area) were captured from non-infested regions of the infested root. Control root cells were catapulted using the AutoLPC method directly to P.A.L.M. Adhesive caps.	Arabidopsis seedlings were infested with Meloidogyne incognita nematodes according to Hammes et al. Plant J. 2006 48:414-426. Briefly, 3 week old Arabidopsis seedlings, 5 per plate, were inoculated with 1,000 M. incognita stage 2 juveniles and placed at an angle in a clear acrylic humid box in a short-day chamber. Twenty-one days after inoculation, root cells undergoing giant cell formation (~5,000,000 um2 area) were captured from infested regions of the root. Giant cells were catapulted using the AutoLPC method directly to P.A.L.M. Adhesive caps.	Arabidopsis seedlings were infested with Meloidogyne incognita nematodes according to Hammes et al. Plant J. 2006 48:414-426. Briefly, 3-week-old Arabidopsis seedlings, 5 per plate, were inoculated with 1,000 M. incognita stage 2 juveniles and placed at an angle in a clear acrylic humid box in a short-day chamber. Fourteen days after inoculation, root cells undergoing giant cell formation (~5,000,000 um2 area, ~80 cells) were captured from infested regions of the root. Giant cells were catapulted using the AutoLPC method directly to P.A.L.M. Adhesive caps.	Arabidopsis seedlings were infested with Meloidogyne incognita nematodes according to Hammes et al. Plant J. 2006 48:414-426. Briefly, 3-week-old Arabidopsis seedlings, 5 per plate, were inoculated with 1,000 M. incognita stage 2 juveniles and placed at an angle in a clear acrylic humid box in a short-day chamber. Fourteen days after inoculation, control root cells not undergoing giant cell formation (~13,000,000 um2 area, ~150 cells) were captured from non-infested regions of the infested root. Control root cells were catapulted using the AutoLPC method directly to P.A.L.M. Adhesive caps.	Total RNA amplified according to NuGEN WT-Ovation Pico kit instructions.	Total RNA was isolated using the PicoPure RNA isolation kit (Arcturus, Mountain View, CA, USA) with the optional DNase treatment, according to the manufacturer's instructions. RNA was amplified according to NuGEN WT-Ovation Pico kit instructions.	NuGEN FL module.	NuGEN FL module
+Protocol Software																
+Protocol Hardware																
+Protocol Contact																
+Protocol Type	bioassay_data_transformation	bioassay_data_transformation	hybridization	hybridization	grow	feature_extraction	feature_extraction	image_acquisition	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	nucleic_acid_extraction	nucleic_acid_extraction	labeling	labeling
+Protocol Term Source REF																
+Protocol Term Accession Number																
+Experimental Factor Name	time	sampling site														
+Experimental Factor Type	time	sampling site														
+Experimental Factor Term Source REF																
+Experimental Factor Term Accession Number																
+Publication Title																
+Publication Author List																
+PubMed ID																
+Publication DOI																
+Publication Status																
+Publication Status Term Source REF																
+Publication Status Term Accession Number																
+Comment[SecondaryAccession]	GSE37553															
+Comment[GEOLastUpdateDate]	2012-04-27															
+Comment[AEExperimentType]	transcription profiling by array															
+Comment[GEOReleaseDate]	2012-04-25															
+Comment[ArrayExpressSubmissionDate]	2012-04-23															
+SDRF File	E-GEOD-37553.sdrf.txt															

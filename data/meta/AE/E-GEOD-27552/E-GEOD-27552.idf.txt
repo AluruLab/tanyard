@@ -1,0 +1,57 @@
+Comment[ArrayExpressAccession]	E-GEOD-27552
+Public Release Date	2012-03-09													
+Investigation Title	Physiological genomics of response to soil drying in diverse Arabidopsis accessions													
+Comment[Submitted Name]	Physiological genomics of response to soil drying in diverse Arabidopsis accessions
+Experiment Description	This SuperSeries is composed of the following subset Series: GSE27548: cRNA hybridizations of 10 Spring annual accessions of Arabidopsis thaliana under well-watered and mild soil drying GSE27549: Genomic dna hybridizations of 10 Spring annual accessions of Arabidopsis thaliana GSE27550: cRNA hybridizations of 18 accessions of Arabidopsis thaliana under well-watered and mild soil drying GSE27551: Genomic dna hybridizations of 8 winter annual accessions of Arabidopsis thaliana Refer to individual Series													
+Date of Experiment														
+Term Source Name	EFO
+Term Source Version														
+Term Source File	http://www.ebi.ac.uk/efo/efo.owl													
+Person Last Name	Des Marais													
+Person First Name	David													
+Person Mid Initials	Lee													
+Person Email	geo@ncbi.nlm.nih.gov													
+Person Affiliation	The University of Texas at Austin													
+Person Phone														
+Person Fax														
+Person Address	Integrative Biology, The University of Texas at Austin, 1 University Station C0930, Austin, TX, USA													
+Person Roles	submitter													
+Person Roles Term Source REF														
+Person Roles Term Accession Number														
+Normalization Type														
+Normalization Term Accession Number														
+Normalization Term Source REF														
+Replicate Type														
+Replicate Term Accession Number														
+Replicate Term Source REF														
+Experimental Design														
+Experimental Design Term Accession Number														
+Experimental Design Term Source REF														
+Quality Control Type														
+Quality Control Term Accession Number														
+Quality Control Term Source REF														
+Protocol Name	P-GSE27552-1	P-GSE27552-13	P-GSE27552-6	P-GSE27552-10	P-GSE27552-3	P-GSE27552-14	P-GSE27552-8	P-GSE27552-7	P-GSE27552-2	P-GSE27552-9	P-GSE27552-11	P-GSE27552-4	P-GSE27552-12	P-GSE27552-5
+Protocol Description	ID_REF = <br>VALUE = RMA normalized signal intensity	standard Affymetrix protocol	standard Affymetrix protocol using Affymetrix Model 640 hybridization oven	standard Arabidopsis growth conditions in a Percival growth chamber - 16L/8D, 21 degrees day, 18 degrees night	Arabidopsis accessions were grown in 6x6x5-cm plastic pots filled with ~150 ml Profile™ porous ceramic rooting media. Plants were thinned to one per pot and were grown and treatments applied in a controlled environment chamber with 10-h photoperiod of 330 �mol m-2 s-1 photosynthetic photon flux density. Daytime/nighttime temperatures were 23/18 C with 60% relative humidity. During growth all plants were fertilized with a complete, modified Hoagland's nutrient solution every two days and watered daily.	Microarray Suite 5, data processed with JMP Genomics, R statistics RMA background correction, log2 transformation, quantile normalized individual probe data are provided in the supplementary file on the Series record. Analysis of individual probe-level data was performed in order to remove probes from the array that hybridized differently between accessions for related gene expression analysis.	Microarray Suite 5, data processed with JMP Genomics, R statistics RMA in R, custom CDF file, filtering of SFP	Affymetrix GeneChip Scanner 3000, GCOS v1.3	During the drydown treatment each pot was weighed daily at ‘pre-dawn’ (WTpot&soil) and distilled water was added by pipette at the base of the rosette to bring the percent water remaining (WatRem%) in each pot to the target level for that day (e.g. 90% on day one, 80% on day two, etc.) until a final drying treatment level of ~50% was reached by all pots on the fifth day. A major goal of the slow drydown treatment was to allow the intact, growing plants to acclimate to the imposed soil moisture stress. WatRem% was calculated as 100*(WTpot&soil-DWpot&soil)/( FCpot&soil- DWpot&soil). Wet (control) pots were treated identically, except WatRem% was maintained near 90% for the entire drydown period.	no treatment	Qiagen Dneasy Plant Mini prep	Qiagen RNAasy Plant Mini prep, samples initially harvested in RNAlater	Biotin labeling, Invitrogen Bioprime kit, following Borevitz 2005	biotin-labeled targets (cRNA) using a MessageAmp™ II-based protocol
+Protocol Software														
+Protocol Hardware														
+Protocol Contact														
+Protocol Type	bioassay_data_transformation	hybridization	hybridization	grow	grow	feature_extraction	feature_extraction	image_aquisition	specified_biomaterial_action	specified_biomaterial_action	nucleic_acid_extraction	nucleic_acid_extraction	labeling	labeling
+Protocol Term Source REF														
+Protocol Term Accession Number														
+Experimental Factor Name	TREATMENT	ECOTYPE	ORGANISM PART	ACCESSION										
+Experimental Factor Type	treatment	ecotype	organism part	accession										
+Experimental Factor Term Source REF														
+Experimental Factor Term Accession Number														
+Publication Title	Physiological genomics of response to soil drying in diverse Arabidopsis accessions.													
+Publication Author List	Des Marais DL, McKay JK, Richards JH, Sen S, Wayne T, Juenger TE													
+PubMed ID	22408074													
+Publication DOI	10.1105/tpc.112.096180													
+Publication Status														
+Publication Status Term Source REF														
+Publication Status Term Accession Number														
+Comment[SecondaryAccession]	GSE27552													
+Comment[GEOLastUpdateDate]	2012-03-23
+Comment[AEExperimentType]	transcription profiling by array	other												
+Comment[GEOReleaseDate]	2012-03-09
+Comment[ArrayExpressSubmissionDate]	2011-02-27
+SDRF File	E-GEOD-27552.sdrf.txt

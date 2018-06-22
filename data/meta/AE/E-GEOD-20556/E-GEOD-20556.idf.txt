@@ -1,0 +1,50 @@
+Investigation Title	Karrikin responses in Arabidopsis thaliana seed							
+Comment[Submitted Name]	Karrikin responses in Arabidopsis thaliana seed							
+Experimental Design	transcription profiling by array							
+Experimental Design Term Source REF	EFO							
+Comment[AEMIAMESCORE]	4							
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[SecondaryAccession]	GSE20556							
+Comment[ArrayExpressReleaseDate]	2010-03-06							
+Comment[ArrayExpressAccession]	E-GEOD-20556							
+Comment[MAGETAB TimeStamp_Version]	2010-08-04 04:56:53 Last Changed Rev: 13058							
+Experimental Factor Name	genotype	compound	dose					
+Experimental Factor Type	genotype	compound	dose					
+Experimental Factor Term Source REF								
+Person Last Name	Smith	Nelson						
+Person First Name	Steven	David						
+Person Mid Initials	M	C						
+Person Email		dcnelson@uga.edu						
+Person Phone								
+Person Fax								
+Person Address		Plant Energy Biology, University of Western Australia, The University of Western Australia - M316, Crawley, WA, Australia						
+Person Affiliation		University of Western Australia						
+Person Roles		submitter						
+Person Roles Term Source REF		The MGED Ontology						
+Quality Control Type								
+Quality Control Term Source REF								
+Replicate Type								
+Replicate Term Source REF								
+Normalization Type								
+Normalization Term Source REF								
+Date of Experiment								
+Public Release Date	2010-03-06							
+PubMed ID	20351290							
+Publication DOI	10.1073/pnas.0911635107							
+Publication Author List	Nelson DC, Flematti GR, Riseborough JA, Ghisalberti EL, Dixon KW, Smith SM							
+Publication Title	Karrikins enhance light responses during germination and seedling development in Arabidopsis thaliana							
+Publication Status								
+Publication Status Term Source REF								
+Experiment Description	Karrikins promote seed germination in Arabidopsis thaliana. Completion of germination (protrusion of the radicle) is not observed until ~72 h in dormant wildtype seed under these conditions. We used microarrays to examine karrikin-induced transcriptional changes after 24 h of imbibition. Transcriptional changes may indicate events leading to karrikin-induced germination or karrikin-specific markers. Primary dormant seed of wildtype (which can germinate and is promoted by KAR1) and ga1-3 (which cannot germinate, and is not promoted by KAR1) were imbibed on water-agar or 1 uM KAR1 in the light at 20 C and assayed for gene expression after 24 h. Three or four biological replicates per genotype/treatment.							
+Protocol Name	P-GSE20556-4	P-GSE20556-3	P-GSE20556-2	P-GSE20556-5	P-GSE20556-6	P-GSE20556-7	P-GSE20556-8	P-GSE20556-1
+Protocol Type	nucleic_acid_extraction	grow	specified_biomaterial_action	labeling	hybridization	image_acquisition	feature_extraction	bioassay_data_transformation
+Protocol Description	Total RNA was extracted from seed using Ambion RNAqueous kit with Plant RNA Isolation Aid. Before column purification, solubilized seed mixture was extracted with chloroform:isoamyl alcohol (24:1) to further remove polysaccharide and phenolic contaminants. RNA quality was confirmed using Agilent BioAnalyzer RNA 6000 Nano chips.	Primary dormant seed was collected from plants grown in continuous light (100 uE) and stored at -80C to preserve dormancy. Distinct seed batches were harvested and assayed.	Seed was imbibed 24 h on 0.8% water-agar with or without 1 uM KAR1 at 20C under 100 uE white light.	Biotinylated cRNA was prepared using Affymetrix Gene Expression 3' Amplification one cycle target labeling kit with 7 ug total RNA using manufacturer's protocol.	Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45C on GeneChip Arabidopsis ATH1 Genome Array. GeneChips were washed and stained in the Affymetrix Fluidics Station 450 with GeneChip Hybridization Wash and Stain Kit.	GeneChips were scanned using the Affymetrix GeneChip Scanner and Affymetrix GCOS software.	The data were analyzed with Avadis software using standard GC-RMA normalization.	ID_REF = <br>VALUE = GC-RMA signal intensity
+Protocol Parameters								
+Protocol Hardware								
+Protocol Software								
+Protocol Contact								
+Protocol Term Source REF							The MGED Ontology	The MGED Ontology
+SDRF File	E-GEOD-20556.sdrf.txt							
+Term Source Name	NCBI Taxonomy		The MGED Ontology	ArrayExpress	EFO	The MGED Ontology		
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php		
+Term Source Version								

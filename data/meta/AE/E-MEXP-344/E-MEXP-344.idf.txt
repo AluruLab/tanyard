@@ -1,0 +1,48 @@
+Investigation Title	Transcription profiling of 5 to 7 days old Arabidopsis thaliana seedlings of wild type (Col-0) and the cytokinin deficient transgenic line 35S:CKX1 	
+Comment[Submitted Name]	Cytokinin induction and deficiency	
+Experimental Design	compound_treatment_design	individual_genetic_characteristics_design	time_series_design	transcription profiling by array	
+Experimental Design Term Source REF	mo		mo	EFO	
+Comment[ArrayExpressReleaseDate]	2005-07-31	
+Comment[AEMIAMESCORE]	5	
+Comment[ArrayExpressAccession]	E-MEXP-344	
+Comment[MAGETAB TimeStamp_Version]	2010-10-16 05:22:03 Last Changed Rev: 14677	
+Experimental Factor Name	time	compound	strain_or_line	
+Experimental Factor Type	time	compound_treatment_design	strain_or_line	
+Experimental Factor Term Source REF	
+Person Last Name	Brenner	
+Person First Name	Wolfram	
+Person Mid Initials	G	
+Person Email	wbrenne@zedat.fu-berlin.de	
+Person Phone	+49-30-8413-1697	
+Person Fax	
+Person Address	Ihnestrasse 73	
+Person Affiliation	Schmülling	
+Person Roles	submitter	
+Person Roles Term Source REF		
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2005-07-31	
+PubMed ID	
+Publication DOI	
+Publication Author List	
+Publication Title	
+Publication Status	
+Publication Status Term Source REF	
+Experiment Description	5 to 7 days old Arabidopsis thaliana seedlings of wildtype (Col-0) and the cytokinin deficient transgenic line 35S:CKX1 (Werner et al. Plant Cell 15, 2532) at growth stage 1.00 (Boyes scale) grown in liquid medium were induced witn 5 µM 6-Benzylaminopurine for different periods of time in order to find cytokinin-related changes in gene expression.	
+Protocol Name	P-MEXP-8707	P-MEXP-8709	P-MEXP-8710	P-MEXP-8706	P-MEXP-8711	P-MEXP-8712	Affymetrix:Protocol:Hybridization-EukGE-WS2v4[]	Affymetrix:Protocol:Percentile	Affymetrix:Protocol:ExpressionStat	
+Protocol Type	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	grow	nucleic_acid_extraction	labeling	hybridization	feature_extraction	bioassay_data_transformation	
+Protocol Description	Seedlings were treated for 2 hours with 1.13 mM KCl in liquid MS. The timing of the treatment was such that the plants were harvested between 6 and 8 hours after the onset of light. 	Seedlings were treated for 15 minutes with 5 µM 6-benzylaminopurine, 1.13 mM KCl in liquid MS. The timing of the treatment was such that the plants were harvested between 6 and 8 hours after the onset of light.	Seedlings were treated for 2 hours with 5 µM 6-Benzylaminopurine, 1.13 mM KCl in liquid MS. The timing of the treatment was such that the plants were harvested between 6 and 8 hours after the onset of light.	Arabidopsis thaliana ecotype Col-0 wild type plants and transgenic homozygote 35S:CKX1 plants (Werner et al. Plant Cell 15, 2532) were used. The plants were grown in liquid MS in Petri dishes in a growth cabinet at 24 °C and light/dark periods of 16/8 hours to growth stage 1.00 (Boyes et al. Plant Cell 13, 1499).	Total RNA was extracted from seedlings with the TRIzol method. TRIzol reagent (38% phenol, 0.8 M guanidinium thiocyanate, 0.4 M ammonium thiocyanate, 0.1 M sodium acetate, pH5, 5% glycerol), was made as described in the GIBCO TRIzol manual of Invitrogen (Invitrogen, Karlsruhe, Germany). RNA was precipitated by the modified salt precipitation method for proteoglycan and polysaccharide contamination as described in the GIBCO troubleshooting guide. The total RNA was further purified using RNeasy mini columns including the on-column DNase digestion as described in appendix D (Qiagen RNeasy Mini Handbook, 3rd edition; Qiagen, Hilden, Germany). The purified RNA was quantified by 260/280/230 nm UV light absorption with a Nanodrop ND-1000 spectrophotometer (Nanodrop Technologies, Wilmington, DE, USA). An additional quality control was performed using non-denaturing agarose gel electrophoresis. 	cDNA was synthesized from 5 µg of purified total RNA with SuperScriptII (Invitrogen), and a mixture of RNase H, E. coli DNA polymerase I, and E. coli DNA ligase (Invitrogen). The cDNA was purified using the QIAquick PCR purification procedure (Qiagen). The double-stranded cDNA was used as a template in the Bioarray High Yield Transcript Labeling reaction (Enzo, Farmingdale, NY, USA) resulting in biotin-labeled cRNA. The labeled cRNA was purified using the RNeasy cleanup protocol (Qiagen) and quantified by absorbance at 260 nm. 20 µg of biotin-labeled cRNA was fragmented for 35 min at 94 °C in fragmentation buffer (40 mM Tris-acetate, pH 8.1, 125 mM KOAc, and 30 mM MgOAc).  	Title: Affymetrix EukGE-WS2v4 Hybridization. Description: 	Title: Affymetrix CEL Analysis (Percentile). Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 	
+Protocol Parameters				start time;stop time;min temperature;media;	Extracted product;Amplification;	Amplification;Label used;Amount of nucleic acid labeled;	
+Protocol Hardware	
+Protocol Software							MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact	
+Protocol Term Source REF					mo	mo	mo		The MGED Ontology	
+SDRF File	E-MEXP-344.sdrf.txt	
+Term Source Name	mo		tair_anat:1.2	ncbitax	nasc	ArrayExpress	mo	EFO	The MGED Ontology	
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php		http://www.arabidopsis.org/info/ontologies/	http://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html	http://arabidopsis.info/catalogue.html	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version			1.2							

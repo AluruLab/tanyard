@@ -1,0 +1,27 @@
+Comment[ArrayExpressAccession]	E-MTAB-542										
+Investigation Title	HrpB-mediated biological control of Ralstonia solanacearum in Arabidopsis thaliana										
+Comment[Submitted Name]	HrpB-mediated biological control of Ralstonia solanacearum in Arabidopsis thaliana										
+Experiment Description	Microarray analysis was performed on the aerial parts of 5 plants collected 24 hours after water treatment or inoculation by the Ralstonia solanacearum hrpB strain (avirulent strain) and 5 days (25% of wilted leaves) after challenge inoculation with the GMI1000 virulent R. solanacearum strain. We compared trancriptome expression level of protected plants (hrpB prinoculation) versus non protected plants (water treatment), 24H after treatment and 5 days (25% of wilted leaves) after challenge inoculation with the GMI1000 virulent R. solanacearum strain										
+Experimental Design	co-expression_design	disease_state_design									
+Comment[AEExperimentType]	transcription profiling by array										
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis plants inccoculated with Ralstonia solanacearum hrpB strain (avirulent strain) and 5 days (25% of wilted leaves) after challenge inoculation with the GMI1000 virulent R. solanacearum strain										
+Experimental Factor Name	GROWTH CONDITION	HARVESTING TIME	AGE	INDIVIDUAL							
+Experimental Factor Type	growth_condition	time	age	individual							
+Quality Control Type	biological_replicate										
+Public Release Date	2011-06-01										
+Person Last Name	MARCO	BARLET									
+Person First Name	Yves	Xavier									
+Person Mid Initials											
+Person Email	yves.marco@toulouse.inra.fr	xavier.barlet@toulouse.inra.fr									
+Person Phone	+33 (0)5 61 28 55 09	+33 (0)5 61 28 53 21									
+Person Address	Chemin de Borde Rouge, BP52627, 31326 Castanet-Tolosan cedex 	Chemin de Borde Rouge, BP52627, 31326 Castanet-Tolosan cedex 									
+Person Affiliation	Laboratoire des Interactions Plantes Microorganismes (LIPM), UMR CNRS/INRA 2594/441	Laboratoire des Interactions Plantes Microorganismes (LIPM), UMR CNRS/INRA 2594/441									
+Person Roles	submitter	investigator									
+PubMed ID											
+Publication Author List	Feng D. X., Tasset C., Hanemian M., Barlet X., Hu J., Tr�mousaygue D., Deslandes L., Marco Y.										
+Publication Title	Molecular Mechanisms of Biological Control on Arabidopsis thaliana / Ralstonia solanacearum pathosystem										
+Publication Status	Submitted										
+Protocol Name	P-MTAB-19105	P-MTAB-19106	P-MTAB-19107	P-MTAB-19108	P-MTAB-19109	P-MTAB-19110	P-MTAB-19111	P-MTAB-19112	P-MTAB-19113	P-MTAB-19114	P-MTAB-19115
+Protocol Type	grow	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	RNA_extraction	labeling	hybridization	image_acquisition	bioassay_data_transformation	bioassay_data_transformation
+Protocol Description	Seeds were sown on MS medium (Murashige and Skoog 1962). Plantlets grown for 8 days at 20�C in a growth chamber were then transferred to Jiffy pots (Jiffy France, Lyon, France) and grown for 3 weeks at 22�C in short day conditions (10 h/14 h light/dark) under constant light at 500 �E s-1 m-2. After hrpB inoculation, the plants were transfered in a growth chamber at 26�C (16 h/8 h light/dark, constant light at 200 �E s-1 m-2)	Plants were mock inoculated with water and challenged with the virulent GMI1000 strain, 24h later. Time 24h	Mock inoculation with water and challenged with the virulent GMI1000 strain, 24h later. Samples were harvested 5 days later at the first symptoms appearance.	Plants were root-inoculated by the hrpB strain and challenged by the virulent GMI1000 strain, 24 hours later. Time 24h	Root-inoculation by the hrpB strain and challenged by the virulent GMI1000 strain, 24 hours later. Samples were harvested 5 days later.	Total RNA was isolated from frozen tissues using the NucleoSpin RNAII kit (Macherey-Nagel, GmbH&Co.KG, D�ren, Germany) according to the manufacturer�s recommendations	Affymetrix microarray platform of the IGBMC and G�nopole Alsace-Lorraine (http://www-microarrays.u-strasbg.fr)	Affymetrix microarray platform of the IGBMC and G�nopole Alsace-Lorraine (http://www-microarrays.u-strasbg.fr)	Affymetrix microarray platform of the IGBMC and G�nopole Alsace-Lorraine (http://www-microarrays.u-strasbg.fr)	RMA normalization (Irizarry et al., 2003) implemented in Bioconductor packages. Expression levels are Log base 2.	A statistical analysis (pairwise comparison) was performed with the LIMMA package using an empirical Bayes linear modelling approach (Smyth, 2004, 2005) and p-values were adjusted by the Benjamini and Hochberg method which controls the False Discovery Rate (FDR) (Benjamini & Hochberg, 1995).
+SDRF File	E-MTAB-542.sdrf.txt										

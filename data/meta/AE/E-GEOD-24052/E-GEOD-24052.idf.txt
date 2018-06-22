@@ -1,0 +1,58 @@
+Comment[ArrayExpressAccession]	E-GEOD-24052							
+Public Release Date	2010-12-10							
+Investigation Title	Expression data in whole Arabidopsis seedlings after treatment with the herbicide dicamba							
+Comment[Submitted Name]	Expression data in whole Arabidopsis seedlings after treatment with the herbicide dicamba							
+Experiment Description	Dicamba is an auxin-like herbicide that can stimulate the production of ethylene and ABA biosynthesis.  The subsequent stomatal closure and build-up of reactive oxygen species is hypothesized to contribute to plant death. In order to further understand the herbicide dicamba's mode of action at the molecular level, we used microarrays to dissect global gene expression in Arabidopsis seedlings 10 hrs after dicamba treatment. 4 day old Arabidopsis seedlings (a Columbia line containing a -800GSTF8::LUC reporter) were flooded with water or 7mM dicamba  for 40 minutes before the treatment was poured off.  Ten hours after the start of the treatment, whole seedlings were collected							
+Date of Experiment								
+Term Source Name	EFO							
+Term Source Version								
+Term Source File	http://efo.svn.sourceforge.net/viewvc/efo/trunk/src/efoinowl/efo.owl							
+Person Last Name	Gleason	Gleason	Singh					
+Person First Name	Cynthia	Cynthia	Karam					
+Person Mid Initials			B					
+Person Email	cynthia.gleason@csiro.au							
+Person Affiliation	CSIRO							
+Person Phone	+61 08 9333 6358							
+Person Fax								
+Person Address	Plant Industry, CSIRO, Private Bag #5, Wembley, WA, Australia							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Person Roles Term Accession Number								
+Normalization Type								
+Normalization Term Accession Number								
+Normalization Term Source REF								
+Replicate Type								
+Replicate Term Accession Number								
+Replicate Term Source REF								
+Experimental Design								
+Experimental Design Term Accession Number								
+Experimental Design Term Source REF								
+Quality Control Type								
+Quality Control Term Accession Number								
+Quality Control Term Source REF								
+Protocol Name	P-GSE24052-1	P-GSE24052-6	P-GSE24052-3	P-GSE24052-8	P-GSE24052-7	P-GSE24052-2	P-GSE24052-4	P-GSE24052-5
+Protocol Description	ID_REF = <br>VALUE = RMA  expression value (signal intensity)	cRNA was hybridized to the GeneChip® Arabidopsis ATH1 Genome Array using a Genechip instrument system with scanner 3000 7G and autoloader for expression array processing and analysis, following manufacturer's protocol.  Labeling, hybing and scanning were	WT (a Columbia line containing a -800GSTF8::LUC reporter) Arabidopsis seeds were surface sterilzed and sown on MS-media plates.  Plates were vernalized 3 days at 4C in dark before being transferred to controlled growth room set at 21ºCwith a 16 hour ligh	The raw data files underwent background correction, normalization, probe specific correction, and summary value computation using the Robust Multichip Average (RMA) method in the Bioconductor package.  To find the differentially expressed genes we utilized the limma package for R to calculate the Log2 fold change, the moderate t-statistic, B value, and the adjusted p value (BenjaminiHochberg FDR) for each array probe.	Genechips were scanned Affymetrix GeneChip scanner 3000 7G	Plates were flooded with water or 7 mM dicamba (Cadence 0.325 g/mole, Syngenta) for 40 minutes.  The treatments were poured off and the plates incubated for an additional 9 hr 20 min at RT.	RNA was extracted using the Qiagen RNeasy Mini Kit, following the manufacturer’s instructions.	Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 2 ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+Protocol Software								
+Protocol Hardware								
+Protocol Contact								
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_acquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Protocol Term Source REF								
+Protocol Term Accession Number								
+Experimental Factor Name	compound	dose						
+Experimental Factor Type	compound	dose						
+Experimental Factor Term Source REF								
+Experimental Factor Term Accession Number								
+Publication Title	Mutant analysis in Arabidopsis provides insight into the molecular mode of action of the auxinic herbicide dicamba							
+Publication Author List	Gleason C, Foley RC, Singh KB							
+PubMed ID	21408147							
+Publication DOI	10.1371/journal.pone.0017245							
+Publication Status								
+Publication Status Term Source REF								
+Publication Status Term Accession Number								
+Comment[SecondaryAccession]	GSE24052							
+Comment[GEOLastUpdateDate]	2010-12-10							
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis after treatment with dicamba							
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[GEOReleaseDate]	2010-12-10							
+Comment[ArrayExpressSubmissionDate]	2010-09-08							
+SDRF File	E-GEOD-24052.sdrf.txt							

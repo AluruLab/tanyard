@@ -1,0 +1,58 @@
+Comment[ArrayExpressAccession]	E-GEOD-18624							
+Public Release Date	2010-01-08							
+Investigation Title	H2A.Z - Containing Nucleosomes Mediate the Thermosensory Response in Arabidopsis							
+Comment[Submitted Name]	H2A.Z - Containing Nucleosomes Mediate the Thermosensory Response in Arabidopsis							
+Experiment Description	We isolated mutants in Arabidopsis with enhanced ambient temperature response. Microarray analysis was performed to understand the extent to which ambient temperature transcriptome is perturbed in the mutants in comparison with the WT at non inductive 12 ºC and after shift to inductive 27 ºC for 2 h and 24 h. We performed global transcript profiling to understand the regulation of of gene expression underlying ambient temperature response. Sterilized wild type Arabidopsis Col-0 as well as the arp6-10 mutant seeds were plated on half-strength MS plates without sugar. Plates were incubated at 4 ºC in dark  for 48 hours before transfering to 20 ºC  with light. 5 day old seedlings were transfered to 12 ºC incubaor with continuous light for 3 days befroe shifting to 27 ºC. Samples (Whole seedlings) were collected before shifting (0 h) and 2 h and 24 h after shifting to 27 ºC by immediately freezing in liquid nitrogen.							
+Date of Experiment								
+Term Source Name	EFO							
+Term Source Version								
+Term Source File	http://efo.svn.sourceforge.net/viewvc/efo/trunk/src/efoinowl/efo.owl							
+Person Last Name	Kumar	Kumar	Wigge					
+Person First Name	Vinod	S	Philip					
+Person Mid Initials		V	A					
+Person Email	vinod.kumar@bbsrc.ac.uk							
+Person Affiliation	John Innes Centre							
+Person Phone								
+Person Fax								
+Person Address	Cell and Developmental Biology, John Innes Centre, Norwich Research Park, Norwich, United Kingdom							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Person Roles Term Accession Number								
+Normalization Type								
+Normalization Term Accession Number								
+Normalization Term Source REF								
+Replicate Type								
+Replicate Term Accession Number								
+Replicate Term Source REF								
+Experimental Design								
+Experimental Design Term Accession Number								
+Experimental Design Term Source REF								
+Quality Control Type								
+Quality Control Term Accession Number								
+Quality Control Term Source REF								
+Protocol Name	P-GSE18624-1	P-GSE18624-6	P-GSE18624-3	P-GSE18624-8	P-GSE18624-7	P-GSE18624-2	P-GSE18624-4	P-GSE18624-5
+Protocol Description	ID_REF = <br>VALUE = MAS 5 signal<br>ABS_CALL = <br>DETECTION P-VALUE = 	Following fragmentation, 1µ ug of cRNA were hybridized for 16 hr at 45 ºC Arabidopsis ATH1 microarray. GeneChips were washed and stained in the Affymetrix Fluidics Station.	Sterilized wild type Arabidopsis Col-0 as well as the arp6-10 mutant seeds were plated on half-strength MS plates without sugar. Plates were incubated at 4 ºC in dark  for 48 hours before transfering to 20 ºC  with light. 5 day old seedlings were transfered to 12 ºC incubaor with continuous light for 3 days befroe shifting to 27 ºC.	Quality checks and data analyses were carried out using Affymetrix GeneChip® Operating Software(GCOS) and quality reporter	GeneChips were scanned using the Affymetrix GeneChip® Scanner 3000	A set of seedlings incubated at 12 ºC were shifted to 27 ºC. Samples (Whole seedlings) were collected before shifting (0 h) and 2 h and 24 h after shifting to 27 ºC by immediately freezing in liquid nitrogen.	Trizol extraction of total RNA was performed according to the manufacturer's instructions.	Biotinylated cRNA were prepared according to the standard Affymetrix GeneChip® protocol (Affymetrix) from 1µg total RNA.
+Protocol Software								
+Protocol Hardware								
+Protocol Contact								
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Protocol Term Source REF								
+Protocol Term Accession Number								
+Experimental Factor Name	GENOTYPE	TEMPERATURE	TREATMENT TIME					
+Experimental Factor Type	genotype	temperature	time					
+Experimental Factor Term Source REF								
+Experimental Factor Term Accession Number								
+Publication Title	H2A.Z-containing nucleosomes mediate the thermosensory response in Arabidopsis.							
+Publication Author List	Kumar SV, Wigge PA							
+PubMed ID	20079334							
+Publication DOI	10.1016/j.cell.2009.11.006							
+Publication Status	published							
+Publication Status Term Source REF	EFO							
+Publication Status Term Accession Number	EFO_0001796							
+Comment[SecondaryAccession]	GSE18624							
+Comment[GEOLastUpdateDate]	2010-01-19							
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for arp6 after heat stress treatment							
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[GEOReleaseDate]	2010-01-08							
+Comment[ArrayExpressSubmissionDate]	2009-10-18							
+SDRF File	E-GEOD-18624.sdrf.txt							

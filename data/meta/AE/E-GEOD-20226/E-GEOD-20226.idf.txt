@@ -1,0 +1,49 @@
+Investigation Title	Arabidopsis thaliana/Phytophthora parasitica compatible interaction transcriptome	
+Comment[Submitted Name]	Arabidopsis thaliana/Phytophthora parasitica compatible interaction transcriptome	
+Experimental Design	transcription profiling by array	
+Experimental Design Term Source REF	EFO	
+Comment[SecondaryAccession]	GSE20226	
+Comment[ArrayExpressReleaseDate]	2010-04-28	
+Comment[AEMIAMESCORE]	4	
+Comment[ArrayExpressAccession]	E-GEOD-20226	
+Comment[MAGETAB TimeStamp_Version]	2010-08-04 03:50:10 Last Changed Rev: 13058	
+Experimental Factor Name	TIME	
+Experimental Factor Type	time	
+Experimental Factor Term Source REF	
+Person Last Name	(NASC)	Attard	
+Person First Name	Nottingham Arabidopsis Stock Centre	Agnes	
+Person Mid Initials	
+Person Email	affy@arabidopsis.info	
+Person Phone	
+Person Fax	
+Person Address	School of Biosciences, University of Nottingham, Nottingham Arabidopsis Stock Centre (NASC), Sutton Bonington Campus, Loughborough, LE12 5RD, United Kingdom	
+Person Affiliation	Nottingham Arabidopsis Stock Centre (NASC)	
+Person Roles	submitter	
+Person Roles Term Source REF	The MGED Ontology	
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2010-04-28	
+PubMed ID	
+Publication DOI	
+Publication Author List	
+Publication Title	
+Publication Status	
+Publication Status Term Source REF	
+Experiment Description	Oomycetes from the genus Phytophthora are fungus-like plant pathogens that are devastating for agriculture and natural ecosystems. Due to particular physiological characteristics, no treatments against diseases caused by oomycetes are presently available. To develop such treatments, it appears essential to dissect the molecular mechanisms that determine the interaction between Phytophthora species and host plants. The present project is focused on the molecular mechanisms that underlie the compatible plant-oomycete interaction and plant disease. The laboratory developed a novel interaction system involving the model plant, Arabidopsis thaliana, and Phytophthora parasitica, a soil-borne pathogen infecting a wide host range, thus representing the majority of Phytophthora species. A characteristic feature of the compatible Arabidopsis/P. parasitica interaction is an extended biotrophic phase, before infection becomes necrotrophic. Because the initial biotrophic phase is extremely short on natural (e.g. solanaceous) hosts, the Arabidopsis system provides the opportunity to analyze, for both interaction partners, the molecular events that determine the initiation of infection and the switch to necrotrophy. The present project aims at analyzing the compatible interaction between A. thaliana roots and P. parasitica. The Affymetrix A. thaliana full genome chip will be used to characterize modulations of the transcriptome occurring over a period of 24h from the onset of plant root infection to the beginning of necrotrophy. Parallel to this study, a custom-designed P. parasitica biochip will enable analyzing of P. parasitica gene expression during the same stages. 10 samples were used in this experiment.	
+Protocol Name	P-GSE20226-3	P-GSE20226-9	P-GSE20226-2	P-GSE20226-4	P-GSE20226-5	P-GSE20226-6	P-GSE20226-7	P-GSE20226-8	P-GSE20226-1	
+Protocol Type	grow	specified_biomaterial_action	specified_biomaterial_action	nucleic_acid_extraction	labeling	hybridization	image_aquisition	feature_extraction	bioassay_data_transformation	
+Protocol Description	Seeds were grown on 1x Murashige and Skoog agar medium (MS; 4.4 gL-1, Sigma Chemical Compagny, MO, USA) supplemented with 10 gL-1 saccharose (Prolabo) and 20 gL-1 agar (difco Agar, Dedon, Dickinson and compagnie, MD, USA). 15-day-old plants were transferred to new square Petri dishes containing a strip of 1 x MS agar Medium and underneath 10 ml of 0.1 x MS medium. Plants were grown under 8h photoperiod at 25C for 1 month.	A. thaliana roots were inoculated with Phytophthora parasitica 310 strain (10^6 zoospores per Petri dish).	Mock-inoculated roots.	Qiagen RNAeasy kit protocol	Labelled using protocol described in manual "Affymetrix GeneChip Expression Analysis Technical Manual", One-Cycle target labelling	Biotin Labelled cRNA using "Affymetrix GeneChip Hybridization, Wash and Stain Kit", according to guidelines set out by Affymetrix, Santa Clara, CA	Scanned according to guidelines set out by Affymetrix, Santa Clara, CA.	Raw data from the microarrays was normalized at probe-level using MAS5 algorithm. The detection calls (present, marginal, absent) for each probe set was obtained using the GCOS system	ID_REF = <br>VALUE = MAS5.0-calculated signal intensity<br>ABS_CALL = the call in an absolute analysis that indicates if the transcript was present (P), absent (A), or marginal (M)<br>DETECTION P-VALUE = p-value that indicates the significance level of the detection call	
+Protocol Parameters	
+Protocol Hardware	
+Protocol Software	
+Protocol Contact	
+Protocol Term Source REF								The MGED Ontology	The MGED Ontology	
+SDRF File	E-GEOD-20226.sdrf.txt	
+Term Source Name	NCBI Taxonomy		The MGED Ontology	ArrayExpress	EFO	The MGED Ontology	
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version							

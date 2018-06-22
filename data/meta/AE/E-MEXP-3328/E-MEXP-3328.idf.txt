@@ -1,0 +1,35 @@
+Comment[ArrayExpressAccession]	E-MEXP-3328		
+Investigation Title	LETM2 is required for translation of mitochondrial encoded transcripts and is controlled by maternal epigenetic pathways in Arabidopsis thaliana		
+Comment[Submitted Name]	LETM2 is required for translation of mitochondrial encoded transcripts and is controlled by maternal epigenetic pathways in Arabidopsis thaliana		
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis wild-type seedlings and either single or double knock-out mutants of LETM1 or LETM2		
+Comment[MIAMExpressLogin]	egiraud		
+Comment[MIAMExpressSubmissionID]	7736		
+Experiment Description	Arabidopsis ATH1 Genome Arrays were used to analyse changes in transcript abundance between Col-0 (wild-type) Arabidopsis seedlings and either single T-DNA insertional KO mutants of LETM1 (At3g59820)(T-DNA lines; SALK_067558C (letm1-1) and SALK_058471 (letm1-2)) or LETM2 (At1g65540) (T-DNA line; SALK_068877 (letm2-1)). Additionally, letm1 and letm2 knock out Arabidopsis lines were crossed to generate double mutants, however a double knock-out of these two genes results in an embryo lethal phenotype. Hemizygous plants were generated that were homozygous knock out for LETM1 and heterozygous knock out for LETM2, and visa versa, termed (letm1(-/-)LETM2(+/-) and (LETM1(+/-)letm2(-/-) respectively. Note that (letm1(-/-)LETM2(+/-) displays a mild developmental defective phenotype in the first 10-14 days of growth, while (LETM1(+/-)letm2(-/-) shows no phenotype. Microarray analysis was carried out on all three single homozygous knock out lines, and also on both combinations of the hemizygous mutation between the two genes, and compared with a wild-type Col-0 control to gain insight into global transcript abundance changes in these mutant lines. Arrays were performed in triplicate for each genotype, from RNA isolated from 3 independent pools of 5-10 Arabidopsis seedlings at 10 days old.		
+Experimental Design	in_vitro_design	co-expression_design	genetic_modification_design
+Comment[AEExperimentType]	transcription profiling by array		
+Experimental Factor Name	genotype		
+Experimental Factor Type	genotype		
+Person Last Name	Giraud		
+Person First Name	Estelle		
+Person Mid Initials	J		
+Person Email	estelle.giraud@uwa.edu.au		
+Person Phone	61864884468		
+Person Affiliation	University of Western Australia		
+Person Address	ARC CoE Plant Energy Biology, 35 Stirling Highway Nedlands, Perth, Western Australia, 6009, Australia		
+Person Roles	submitter		
+Person Roles Term Source REF	MGED Ontology		
+Quality Control Type			
+Public Release Date	2012-06-01		
+Comment[ArrayExpressSubmissionDate]	2011-08-11		
+Publication Title	LETM proteins play a role in the accumulation of mitochondrially encoded proteins in Arabidopsis thaliana and AtLETM2 displays parent of origin effects		
+Publication Author List	Zhang B, Carrie C, Ivanova A, Narsai R, Murcha MW, Duncan O, Wang Y, Law SR, Albrecht V, Pogson B, Giraud E, Van Aken O, Whelan J		
+PubMed ID	23043101		
+Publication DOI	10.1074/jbc.M112.383836		
+Publication Status	published		
+Protocol Name	P-MTAB-22400	P-MTAB-22401	
+Protocol Description	Arabidopsis plants, ecotype Columbia, and T-DNA insertional lines were sown in individual pots in soil media and stratified at 4ﾺC for 48 hours before being transfered to long day growth conditions (16 hours light and 8 hours dark cycle) at a light intensity of 150 uEinsteins, 22ﾺC, 55% relative humidity and watered as needed. <br>(Parameters: start time = 16, time unit = days, min temperature = 22, temperature unit = C, media = Soil mix in pots)	Leaf samples were collected, snap frozen and ground under liquid nitrogen. Total RNA was isolated using the RNeasy Plant Mini Kit(Qiagen) according to manufacturer's instructions, quality was verified using a Bioanalyzer and spectrophotometric analysis was carried out to determine the A260:A280 and A260:A230 ratios to ensure both ratios were between 1.9 - 2.1<br>(Parameters: Extracted product = total_RNA, Amplification = none)	
+Protocol Type	grow	nucleic_acid_extraction	
+Protocol Term Source REF	MGED Ontology	MGED Ontology	
+Term Source Name	MGED Ontology	ArrayExpress	
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	
+SDRF File	E-MEXP-3328.sdrf.txt		

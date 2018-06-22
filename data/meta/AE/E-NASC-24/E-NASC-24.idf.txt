@@ -1,0 +1,48 @@
+Investigation Title	Transcription profiling of Arabidopsis AtrbohB null mutant in response to heat	
+Comment[Submitted Name]	Evans: Molecular basis of respiratory burst-mediated thermotolerance in Arabidopsis	
+Experimental Design	strain_or_line_design	transcription profiling by array	
+Experimental Design Term Source REF	mo	EFO	
+Comment[ArrayExpressReleaseDate]		
+Comment[AEMIAMESCORE]	3	
+Comment[ArrayExpressAccession]	E-NASC-24	
+Comment[MAGETAB TimeStamp_Version]	2010-10-15 14:02:01 Last Changed Rev: 14677	
+Experimental Factor Name	strain_or_line	temperature	
+Experimental Factor Type	strain_or_line	temperature	
+Experimental Factor Term Source REF	
+Person Last Name	unknown	Evans	
+Person First Name	unknown	Nicky	
+Person Mid Initials	
+Person Email		nicola.evans@plants.ox.ac.uk	
+Person Phone	+44 (0)115 951 3091	01865 275062	
+Person Fax	+44 (0)115 951 3297	01865 275074	
+Person Address	Plant Science Division, School of Biosciences, University of Nottingham, Sutton Bonnington Campus, Loughborough LE12 5RD, UK	Department of Plant Sciences University of Oxford South Parks Road Oxford OX1 3RB UK 	
+Person Affiliation		University of Oxford	
+Person Roles		biosource_provider;investigator;submitter	
+Person Roles Term Source REF		mo	
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	
+PubMed ID	
+Publication DOI	
+Publication Author List	
+Publication Title	
+Publication Status	
+Publication Status Term Source REF	
+Experiment Description	We have been determining signalling components essential for heat tolerance in Arabidopsis thaliana (Larkindale, J., and Knight, M.R. (2002). Protection against heat stress-induced oxidative damage in Arabidopsis involves calcium, abscisic acid, ethylene, and salicylic acid. Plant Physiol 128, 682-695).  We have most recently found that a heat-induced respiratory burst is necessary for tolerance to high temperatures in Arabidopsis (Larkindale, Torres, Jones and Knight, unpublished).  We have observed that one of the Arabidopsis respiratory burst homologues, AtrbohB, is necessary for the generation of this AOS burst in response to heat, and consequently we have also found that an AtrbohB null mutant shows reduced tolerance to heating (Larkindale, Torres, Jones and Knight, unpublished).  This mutant also shows reduced expression of genes from the HSP90 family (Evans, Larkindale and Knight, unpublished).This application is for transcriptomic analysis of the AtrbohB null mutant in response to heat, in order to understand which genes are activated as a result of heat-induced respiratory bursts in Arabidopsis and also which genes are necessary for physiological thermotolerance in Arabidopsis.  The experiment will involve 6 samples (chips), 3 from wild type Columbia and 3 from the AtrbohB null mutant.  Seedlings will be treated at 20, 30 and 40 degrees centigrade for 1 hour, RNA extracted and submitted to microarray analysis.  One hour treatment has been shown to display clear differences in HSP90 expression and physiological damage, and the temperatures chosen because 30 degrees is a temperature at which acquired thermotolerance can be initiated (thus genes involved in this process can be monitored) and 40 degrees is a temperature at which we observe physiological damage, and gives good discrimination between mutant and wild type.	
+Protocol Name	NASCSampleTreatmentProt:478	NASCGrowProt:477	NASCSampleTreatmentProt:473	NASCGrowProt:476	NASCGrowProt:475	NASCSampleTreatmentProt:474	NASCExtractProtocol:1	NASCLabelProtocol:1	Affymetrix:Protocol:Hybridization-EukGE-WS2v4	Affymetrix:Protocol:Percentile	Affymetrix:Protocol:ExpressionStat	
+Protocol Type							nucleic_acid_extraction	labeling	hybridization	feature_extraction	bioassay_data_transformation	
+Protocol Description	Seedlings were floated on distilled water at 40 degrees centigrade, then blotted on tissue and frozen in liquid nitrogen. 	Plants were grown in 16 hour days at lighting intensity of 80 microEinsteins in Growth rooms in MS media. 90 plants were pooled per sample.	Seedlings were floated on distilled water at 20 degrees centigrade, then blotted on tissue and frozen in liquid nitrogen. 	Plants were grown in 16 hour days at lighting intensity of 80 microEinsteins in Growth rooms in MS media. 90 plants were pooled per sample.	Plants were grown in 16 hour days at lighting intensity of 80 microEinsteins in Growth rooms in MS media. 90 plants were pooled per sample.	Seedlings were floated on distilled water at 30 degrees centigrade, then blotted on tissue and frozen in liquid nitrogen. 	Protocol: Qiagen RNAeasy kit protocol 	RNA samples were quality controlled using the Agilent 2100 Bioanalyzer. 100 pmol T7-(dT)24 primer (5'-GGCCAGTGAATTGTAATACGACTCACTATAGGGAGGCGG-(dT)24-3')  was hybridized with the Total RNA ( 8 - 12ug) at 70ÃÂ°C for 10 minutes.  First strand cDNA was synthesized by reverse transcription using 400 units SuperScript II Reverse Transcriptase in a reaction containing 50 mM Tris-HCl (pH 8.3), 75 mM KCl, 3 mM MgCl2, 10 mM dithiothreitol (DTT) and 0.5 mM dNTPs at 42C for 1 hour.  The reaction was then put on ice for 2 mins, followed by second strand cDNA synthesis.  130ul of the second strand reaction mix was added to the 20ul  first strand synthesis reaction. The second strand reaction mix  contained 40 units E. coli DNA polymerase I, 10 units E. coli DNA ligase, 2 units  E. coli RNase H and 0.2 mM dNTPs in a buffer containing 20 mMTris-HCl (pH 6.9), 90 mM KCl, 4.6 mM MgCl2, 10mM (NH4)SO4 and 0.15 mM ÃÂ-NAD+. The reaction was incubated at 16 C for 2 hours.  10 units T4 DNA Polymerase was added and the reaction incubated for a further 5 minutes at 16 C, then the reaction was terminated using EDTA.  The double-stranded cDNA was cleaned up using the cDNA Cleanup Spin Column supplied in the Affymetrix GeneChip Sample Cleanup Module.  The double-stranded cDNA was used as a template for in Vitro transcription of biotin-labeled cRNA using the ENZO BioArray RNA Transcript Labeling Kit supplied by Affymetrix.  The Transcript Labeling kit produces large amounts of hybridizable biotin-labeled RNA targets by in Vitro transcription from bacteriophage T7 RNA polymerase promoters.  The reaction mixture containing Biotin-Labeled ribonucleotides (ATP, GTP, CTP, UTP with Bio-UTP and Bio-CTP), DTT, RNase inhibitor mix and T7 RNA polymerase was incubated at 37 C for 5 hrs, gently mixing every 30 minutes during the incubation. This produced an average of 40ug biotin-labeled cRNA . The biotin-labeled cRNA  was cleaned up using the cRNA Cleanup Spin Column supplied in the Affymetrix GeneChip Sample Cleanup Module.  The quantity and quality of the cRNA was measured using the Agilent 2100 Bioanalyzer. The total amount of cRNA was calculated, the starting quantity of RNA subtracted to give the quantity of adjusted cRNA.  The cRNA was fragmented by metal-induced hydrolysis to break down full-length cRNA to 35-200 base fragments.  15ug of adjusted cRNA was used to prepare 300ul of hybridization cocktail of which 200ul was hybridized with the GeneChip.	Title: Fluidics Station Protocol. Description: 	Title: Affymetrix CEL Analysis (Percentile). Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 	
+Protocol Parameters		Medium;Location;Lighting;		Lighting;Medium;Location;	Medium;Lighting;Location;	
+Protocol Hardware	
+Protocol Software									MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact	
+Protocol Term Source REF											The MGED Ontology	
+SDRF File	E-NASC-24.sdrf.txt	
+Term Source Name	nasc		The MGED Ontology	ncbitax	mo	ArrayExpress	mo	EFO	The MGED Ontology	
+Term Source File	http://arabidopsis.info/catalogue.html		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version										

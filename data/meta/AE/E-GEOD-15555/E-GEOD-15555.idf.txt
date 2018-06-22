@@ -1,0 +1,57 @@
+Comment[ArrayExpressAccession]	E-GEOD-15555
+Public Release Date	2009-04-10					
+Investigation Title	ngatha mutant inflorescences					
+Comment[Submitted Name]	ngatha mutant inflorescences
+Experiment Description	Floral organ identities are specified by few transcription factors which act as master regulators. Subsequently, specification of organ axes programs the distribution of distinct tissue types within the organs that themselves develop unique identities. The C-class, AGAMOUS-clade MADS box genes are primary promoters of the gynoecium which is divided into a distal style and a subtending ovary along the apical-basal axis. We show that members of a clade of B3-domain transcription factors, NGATHA1 to NGA4 (NGA1-4), are expressed distally in all lateral organs, and all four have a redundant and essential role in style development. Loss of all four genes results in gynoecia where style is replaced by valve-like projections and a reduction in style-specific SHATTERPROOF1 (SHP1) expression. In agreement, floral misexpression of NGA1 promotes ectopic style and SHP1 expression. STYLISH1, an auxin biosynthesis inducer, conditionally activated NGA genes, which in turn, promoted distal expression of other STY genes in a putative positive feed back loop. Inhibited auxin transport or lack of YABBY1 gene activities resulted in a basally expanded style domain and broader expression of NGA genes. We speculate that early gynoecium factors delimit NGA gene response to an auxin-based signal, elicited by STY gene activity, to restrict the activation of style program to a late and distal carpel domain.  RNA was extracted from inflorescences of 30 day old plants using Qiagen RNAEasy kit. cRNA was synthesized and hybridized to Affymetrix ATH1 array according to manufacture recommendation. Seven repeats of wild type, two repeats of nga quadruple mutants and two repeats of 35S:amiR-NGA164a were collected. Signal values were obtained and normalized using the GC-RMA protocol, using R 2.7.2 (www.r-project.org) and Bioconductor 2.2 (www.bioconductor.org/). Average correlation values between repeats was 0.985, while the average correlation between wild type and mutant samples was only 0.972. As the average correlation between samples the nga quadruple mutants and 35S:amiR-NGA164a plants was 0.984, and given the identical phenotype, we grouped the two genotypes together.					
+Date of Experiment						
+Term Source Name	EFO
+Term Source Version						
+Term Source File	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Efroni	Alvarez	Goldshmidt	Efroni	Bowman	Eshed
+Person First Name	Idan	John	Alexander	Idan	John	Yuval
+Person Mid Initials	D.	P				
+Person Email	idane@weizmann.ac.il					
+Person Affiliation	Weizmann Institute					
+Person Phone						
+Person Fax						
+Person Address	Weizmann Institute, Weizmann, Rehovot, Israel					
+Person Roles	submitter					
+Person Roles Term Source REF						
+Person Roles Term Accession Number						
+Normalization Type						
+Normalization Term Accession Number						
+Normalization Term Source REF						
+Replicate Type						
+Replicate Term Accession Number						
+Replicate Term Source REF						
+Experimental Design						
+Experimental Design Term Accession Number						
+Experimental Design Term Source REF						
+Quality Control Type						
+Quality Control Term Accession Number						
+Quality Control Term Source REF						
+Protocol Name	P-GSE15555-1	P-GSE15555-5	P-GSE15555-4	P-GSE15555-2	P-GSE15555-3	P-GSE15555-6
+Protocol Description	ID_REF = <br>VALUE = GC-RMA signal	Standard affymetrix protocol 	Standard affymetrix protocol 	Using qiagen RNAEasy kit, according to manufacturer protocol	Standard affymetrix protocol 	Values obtained using using the GC-RMA protocol, using R 2.7.2 (www.r-project.org) and Bioconductor 2.2 (www.bioconductor.org/).
+Protocol Software						
+Protocol Hardware						
+Protocol Contact						
+Protocol Type	bioassay_data_transformation	image_aquisition	hybridization	nucleic_acid_extraction	labeling	feature_extraction
+Protocol Term Source REF						
+Protocol Term Accession Number						
+Experimental Factor Name	GENOTYPE					
+Experimental Factor Type	genotype					
+Experimental Factor Term Source REF						
+Experimental Factor Term Accession Number						
+Publication Title						
+Publication Author List						
+PubMed ID	19435933					
+Publication DOI						
+Publication Status						
+Publication Status Term Source REF						
+Publication Status Term Accession Number						
+Comment[SecondaryAccession]	GSE15555					
+Comment[GEOLastUpdateDate]	2011-03-01
+Comment[AEExperimentType]	transcription profiling by array					
+Comment[GEOReleaseDate]	2009-04-09
+Comment[ArrayExpressSubmissionDate]	2009-04-04
+SDRF File	E-GEOD-15555.sdrf.txt

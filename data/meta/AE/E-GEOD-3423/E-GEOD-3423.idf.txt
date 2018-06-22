@@ -1,0 +1,51 @@
+Investigation Title	Transcription profiling of Arabidopsis leaf gene expression after growth under low light and low CO2					
+Comment[Submitted Name]	Carbon fixation (endogenous sugar) and light-dependent gene expression					
+Experimental Design	unknown_experiment_design_type	transcription profiling by array				
+Experimental Design Term Source REF		EFO				
+Comment[AEExperimentType]	transcription profiling by array					
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis after growth in low light and low carbon dioxide					
+Comment[AEMIAMESCORE]	4					
+Comment[ArrayExpressReleaseDate]	2008-06-12					
+Comment[SecondaryAccession]	GSE3423					
+Comment[ArrayExpressAccession]	E-GEOD-3423					
+Comment[MAGETAB TimeStamp_Version]	2010-08-04 21:30:13 Last Changed Rev: 13058					
+Experimental Factor Name	GROWTH CONDITION					
+Experimental Factor Type	growth_condition					
+Experimental Factor Term Source REF						
+Person Last Name	Bläsing					
+Person First Name	Oliver					
+Person Mid Initials	E.					
+Person Email	blaesing@mpimp-golm.mpg.de					
+Person Phone						
+Person Fax						
+Person Address	Stitt,Abt. Stitt,Max-Planck-Institut Molekulare Pflanzenphysiologie,Am MÃ¼hlenberg 1,Potsdam-Golm,D-14476,Germany					
+Person Affiliation	Max-Planck-Institut Molekulare Pflanzenphysiologie					
+Person Roles	submitter					
+Person Roles Term Source REF	The MGED Ontology					
+Quality Control Type						
+Quality Control Term Source REF						
+Replicate Type						
+Replicate Term Source REF						
+Normalization Type						
+Normalization Term Source REF						
+Date of Experiment						
+Public Release Date	2008-06-12					
+PubMed ID						
+Publication DOI						
+Publication Author List						
+Publication Title						
+Publication Status						
+Publication Status Term Source REF						
+Experiment Description	Internal sugar and light specific dependent regulation of leaf gene expression was addressed by changing [CO2] to lower than compensation point [CO2] in combination with light or prolonged darkness. Plants were grown on soil in a 12/12 h light/dark rhythm at 20Â°C day and night and under normal [CO2]. 5 weeks after germination, the above-ground rosettes of the non-flowering plants were harvested, 12 plants per sample. Plants were harvested 4hrs after the end of night (i) under low (< 50 ppm) [CO2] and 150 ÂµE fluorescent light , (ii) under normal [CO2] and light, and, (iii) under low [CO2] and prolonged darkness. The low [CO2] treatment started 30 min before the end of night and stopped with harvesting. Experiment Overall Design: 2 biological replicates of plants under 3 treatments (4hrs low CO2+light, 4hrs low CO2+prolonged darkness, and 4hrs normal CO2+light).					
+Protocol Name	P-G3423-2	P-G3423-1	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6		
+Protocol Type	nucleic_acid_extraction	labeling	hybridization	feature_extraction		
+Protocol Description	4 x 3 rosettes were harvested and directly frozen by liquid nitrogen, inside the growth chamber. The material of 15 rosettes was ground in liquid nitrogen.Total RNA was extracted from 250 mg fresh weight using 5 ml TriZol. Organic compounts were removed by 2 chloroform extractions. Precipitation was done with sodium chloride/sodium citrate/2-propanol over night at 4Â&deg;C. Ethanol wash of RNA pellet was done twice with 75% Ethanol. Total RNA was dissolved in pure H2O.	Approximately 10 Â&#956;g of total RNA was processed to produce biotinylated cRNA targets.	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 		
+Protocol Parameters						
+Protocol Hardware						
+Protocol Software			MicroArraySuite 5.0	MicroArraySuite 5.0		
+Protocol Contact						
+Protocol Term Source REF			mo			
+SDRF File	E-GEOD-3423.sdrf.txt					
+Term Source Name	NCBI Taxonomy	The MGED Ontology	ArrayExpress	EFO	The MGED Ontology	mo
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version						

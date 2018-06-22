@@ -1,0 +1,23 @@
+Comment[ArrayExpressAccession]	E-GEOD-64253
+MAGE-TAB Version	1.1						
+Public Release Date	2014-12-17
+Investigation Title	Transcriptional profiling of the Arabidopsis root quiescent center						
+Comment[Submitted Name]	Transcriptional profiling of the Arabidopsis root quiescent center
+Experiment Description	The Arabidopsis quiescent center (QC) is a small group of cells with low mitotic activity located at the center of the root stem cell niche. Its transcriptional profile was previously analyzed using two repeats of cells FACS isolated using the AGL42 marker. To get more power in analyzing QC transcriptional profile, we generated three additional samples of the QC, using the QC-specific marker WOX5. Three replicates of FACS-sorted GFP-positive cells from WOX5:GFP roots.						
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Efroni	Yuan	Birnbaum				
+Person First Name	Idan	Shuai	Kenneth				
+Person Email	ie10@nyu.edu						
+Person Affiliation	NYU						
+Person Address	NYU, 12 Waverly Place, New York, USA						
+Person Roles	submitter						
+Protocol Name	P-GSE64253-1	P-GSE64253-5	P-GSE64253-6	P-GSE64253-2	P-GSE64253-3	P-GSE64253-4	P-GSE64253-7
+Protocol Description	Data was MAS5 normalized. ID_REF =  VALUE = MAS5 expression levels (scaling factor of 250)	RNA was amplified and labeled using the WT-Ovation Pico RNA Amplification System and FL-Ovation cDNA Biotin Module V2, respectively (NuGEN Technologies).	Labeled cDNA was hybridized on an Arabidopsis full-genome ATH-121501 microarray using a Hybridization Control Kit and GeneChip Hybridization, Wash, and Stain Kit on a GeneChip Fluidics Station 450 (Affymetrix), according to manufacturer protocols.	Protoplasts were sorted directly into RNA extraction buffer.	Seeds were sterilized in 50% Chlorox and 1-2 drops of 10% Tween-20, imbibed at 4ºC in the dark in sterile water for 2-3 days, and germinated on plates containing 0.5X Murashige and Skoog (MS) salt mixture (Sigma) supplemented with 1% sucrose and 0.5 g/L 2-(N-morpholino) ethane-sulfonic acid (MES) pH 5.7-5.8 in 1% agar. Plates were incubated in a near vertical position at 22ºC and 70% humidity in a cycle of 18 hour light/6 hour dark.	RNA was extracted using the RNeasy Micro Kit with DNase treatment according to the instructions of the manufacturer (Qiagen). RNA quality and quantity were assessed using the Bioanalyzer (Agilent Technologies).	Chips were scanned using a GeneChip Scanner (Affymetrix) according to manufacturer protocols.
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Comment[SecondaryAccession]	GSE64253						
+Comment[GEOReleaseDate]	2014-12-17						
+Comment[ArrayExpressSubmissionDate]	2014-12-16						
+Comment[GEOLastUpdateDate]	2014-12-17						
+Comment[AEExperimentType]	transcription profiling by array						
+SDRF File	E-GEOD-64253.sdrf.txt

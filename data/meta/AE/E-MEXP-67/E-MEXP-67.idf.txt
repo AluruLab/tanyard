@@ -1,0 +1,50 @@
+Investigation Title	Transcription profiling of Col and CHY-10 mutant in Arabidopsis under cold stress								
+Comment[Submitted Name]	CHY1-10								
+Experimental Design	stimulus_or_stress_design	transcription profiling by array							
+Experimental Design Term Source REF	mo	EFO							
+Comment[AEExperimentType]	transcription profiling by array								
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for chy1 under cold stress								
+Comment[ArrayExpressReleaseDate]	2004-05-07								
+Comment[AEMIAMESCORE]	4								
+Comment[ArrayExpressAccession]	E-MEXP-67								
+Comment[MAGETAB TimeStamp_Version]	2010-08-11 15:14:58 Last Changed Rev: 13058								
+Experimental Factor Name	TEMPERATURE	GENOTYPE							
+Experimental Factor Type	temperature	genotype							
+Experimental Factor Term Source REF									
+Person Last Name	Zhu	Zolman	Stevenson	Lee	Bartel	Dong			
+Person First Name	Jian-Kang	Bethany	Becky	Byeong-ha	Bonnie	Chun-hai			
+Person Mid Initials		K							
+Person Email	jian-kang.zhu@ucr.edu								
+Person Phone	909-827-7117								
+Person Fax	909-827-7115								
+Person Address	2150 Batchelor Hall								
+Person Affiliation	Botany and Plant Sciences	Rice University	University of California	University of Arizona	Rice University	University of California			
+Person Roles	submitter								
+Person Roles Term Source REF	mo								
+Quality Control Type									
+Quality Control Term Source REF									
+Replicate Type									
+Replicate Term Source REF									
+Normalization Type									
+Normalization Term Source REF									
+Date of Experiment									
+Public Release Date	2004-05-07								
+PubMed ID									
+Publication DOI									
+Publication Author List	Chun-hai Dong; Bethany Zolman; Bonnie Bartel; Byeong-ha Lee; Becky Stevenson; Jian-Kang Zhu								
+Publication Title	Disruption of Arabidopsis CHY1 impairs cold-regulated gene expression and reveals the need for functional peroxisomes in plant responses to chilling stress and darkness-induced starvation								
+Publication Status									
+Publication Status Term Source REF									
+Experiment Description	Effect of cold treatment in Arabidopsis thaliana Ecotype Columbia versus CHY1 mutant								
+Protocol Name	P-MEXP-3789	P-MEXP-3790	P-MEXP-3796	P-MEXP-3794	P-MEXP-3791	P-MEXP-3787	Affymetrix:Protocol:Hybridization-EukGE-WS2v4	Affymetrix:Protocol:Percentile	Affymetrix:Protocol:ExpressionStat
+Protocol Type	grow	specified_biomaterial_action	specified_biomaterial_action	nucleic_acid_extraction	pool	labeling	hybridization	feature_extraction	bioassay_data_transformation
+Protocol Description	Seedlings were sown on moistend Metro Mix 350 media.  They were the covered with a clear plastic lid (to retain humidity) and stratafied for 48 hours at 4C.  They were then placed at 22C in a Percival model AR66L growth chamber with full lighting.  After two to three days the cover was removed and plants were sub-irrigated with deionized water as needed.	On day 14 after germination plants were moved from the Percival chamber and placed in the dark in another chamber set at 0C.  They were kept there for 24 hours then harvested and stored at -80C until used for RNA extraction.	Plants were grown the entire time at 22C in a Percival model AR66L chamber.	Total RNA extracted with TRIzol reagent (Invitrogen) according to the manufacturers instructions and purified with an RNeasy Mini Kit (Qiagen).  	Populations from several pots were pooled to obtain sufficient material.  	followed manufacturer's manual. http://www.affymetrix.com/support/downloads/manuals/expression_s21_manual.pdf	Title: Fluidics Station Protocol. Description: 	Title: Affymetrix CEL Analysis (Percentile). Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 
+Protocol Parameters	media;min temperature;			Extracted product;Amplification;		Amount of nucleic acid labeled;Amplification;Label used;			
+Protocol Hardware									
+Protocol Software							MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 5.0
+Protocol Contact									
+Protocol Term Source REF					mo				The MGED Ontology
+SDRF File	E-MEXP-67.sdrf.txt								
+Term Source Name	mo		ncbitax	ArrayExpress	mo	EFO	The MGED Ontology		
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php		http://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php		
+Term Source Version									

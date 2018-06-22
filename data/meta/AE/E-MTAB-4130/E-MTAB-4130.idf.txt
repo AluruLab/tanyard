@@ -1,0 +1,69 @@
+MAGE-TAB Version	1.1
+Investigation Title	Early effects of the photoperiodic induction of flowering on the root transcriptome.
+
+Experimental Design	time series design	growth condition design
+Experimental Design Term Source REF	EFO	EFO
+Experimental Design Term Accession Number	EFO_0001779	EFO_0001759
+
+Experimental Factor Name	growth condition	sampling time point
+Experimental Factor Type	growth condition	sampling time point
+Experimental Factor Term Source REF	EFO	EFO
+Experimental Factor Term Accession Number	EFO_0000523	EFO_0000689
+
+Person Last Name	BouchÃ©	PÃ©rilleux	Tocquin
+Person First Name	FrÃ©dÃ©ric	Claire	Pierre
+Person Mid Initials			
+Person Email	bouche.fred@gmail.com	cperilleux@ulg.ac.be	ptocquin@ulg.ac.be
+Person Phone			
+Person Fax			
+Person Affiliation	Laboratory of Plant Physiology - PhytoSYSTEMS Department of Life Sciences - Faculty of Sciences University of LieÌge Belgium	Laboratory of Plant Physiology - PhytoSYSTEMS Department of Life Sciences - Faculty of Sciences University of LiÃ¨ge Belgium	Laboratory of Plant Physiology - PhytoSYSTEMS Department of Life Sciences - Faculty of Sciences University of LiÃ¨ge Belgium
+Person Address	Laboratory of Plant Physiology Sart Tilman Campus Â· Quartier ValleÌe 1 4, Chemin de la ValleÌe, 4000 LieÌge Belgium	Laboratory of Plant Physiology Sart Tilman Campus Â· Quartier VallÃ©e 1 4, Chemin de la VallÃ©e, 4000 LiÃ¨ge Belgium	Laboratory of Plant Physiology Sart Tilman Campus Â· Quartier VallÃ©e 1 4, Chemin de la VallÃ©e, 4000 LiÃ¨ge Belgium
+Person Roles	submitter		
+Person Roles Term Source REF	
+Person Roles Term Accession Number			
+
+Quality Control Type
+Quality Control Term Source REF
+Quality Control Term Accession Number
+
+Replicate Type
+Replicate Term Source REF
+Replicate Term Accession Number
+
+Normalization Type
+Normalization Term Source REF
+Normalization Term Accession Number
+
+Date of Experiment	2010-08-24
+Public Release Date	2016-06-30
+
+PubMed ID
+Publication DOI
+Publication Author List
+Publication Title
+Publication Status
+Publication Status Term Source REF
+Publication Status Term Accession Number
+
+Experiment Description	The induction of flowering by the photoperiodic pathway (i.e. an increase in daylength) involves the production of systemic signals that induce the transition to reproductive development. In order to evaluate the early events occurring in the roots during the photoperiodic induction of flowering, we harvested the roots of 7 week-old Col-0 Arabidopsis thaliana plants grown plants exposed to a single 22-hour long day. Control plants were maintained under 8-hour short days. Plants were grown in hydroponics and roots tissues were harvested 16 and 22 hours after the beginning of the light period.
+
+Protocol Name	P-MTAB-47882	P-MTAB-47876	P-MTAB-47877	P-MTAB-47878	P-MTAB-47879	P-MTAB-47880	P-MTAB-47881
+Protocol Type	normalization data transformation protocol	sample collection protocol	growth protocol	nucleic acid extraction protocol	nucleic acid labeling protocol	nucleic acid hybridization to array protocol	array scanning and feature extraction protocol
+Protocol Term Source REF	EFO	EFO	EFO	EFO	EFO	EFO	EFO
+Protocol Term Accession Number	EFO_0003816	EFO_0005518	EFO_0003789	EFO_0002944	EFO_0003813	EFO_0003815	EFO_0003814
+Protocol Description	Bioinformatic analyses were performed using R programming language (R Core Team). We analysed raw microarray (â.CELâ  les) data using the limma package (Ritchie et al., 2015). Data were GCRMA-normalized, and probesets were  filtered for an absolute expression level of at least 100 in â¥ 20 % of the arrays. We  fitted the data to a linear model using the ebayes() function and corrected the p-value for multiple testing using Benjamini and Hochbergâs method (Benjamini and Hochberg, 1995). We considered genes as being differentially expressed when the adjusted p-value was â¤ 0.01 and fold change â¥ 2.	Roots of 18 individual plants were harvested 16h and 22h after the beginning of the inductive 22-h LD and pooled. Sampling at the same times in 8-h SD happened during the dark period and were performed under dim green light. Roots were stored at -80Â°C until used.	Plants were grown in hydroponic device made of black containers and accessories (http://www.araponics.com). Nutrient solution was a mix of commercial stocks (0.5 ml l-1 FloraMicro, FloraGro and FloraBloom; http://www.generalhydroponics.com). Light was provided by fluorescent white tubes at 60 ÂµE.m-2.s-1 PPFD; temperature was 20Â°C (day/night) and air relative humidity 70%. Flowering was induced by a single 22-h LD after 7 weeks of growth in 8-h SD.	Tissues were ground in liquid nitrogen, and RNA was extracted with TRizol according to manufacturerâs instructions (www.lifetechnologies.com).  The quality of the RNA samples was assessed using the Experion(tm) automated electrophoresis system (www.bio-rad.com). All samples used for microarray analysis had an RNA quality indicator (RQI) of 10.	The RNA samples were labeled using 3â IVT Expressed kit according to the manufacturerâs instructions (Affymetrix, www.affymetrix.com).	15 Âµg of fragmented cRNA was used in a 300-Âµl hybridization mixture containing added hybridization controls. 200 Âµl was hybridized on arrays for 16 h at 45Â°C. Standard post-hybridization wash and double-stain protocols (EukGE-WS2v5_450) were used on an Affymetrix GeneChip Fluidics Station 450. ATH1 GeneChip hybridizations, were performed by the GIGA Genomics facility (GIGA, University of LiÃ¨ge, Belgium).	Three biological replicates obtained from independent experiments were hybridized on ATH1 Genome arrays (Affymetrix).The array scanning were performed by the GIGA Genomics facility (GIGA, University of LiÃ¨ge, Belgium), using a GeneChipÂ® Scanner 3000 7G (Affymetrix).
+Protocol Parameters							
+Protocol Hardware							
+Protocol Software	R						
+Protocol Contact							
+
+Term Source Name	EFO	ArrayExpress
+Term Source File	http://www.ebi.ac.uk/efo/	http://www.ebi.ac.uk/arrayexpress/
+Term Source Version	2.38
+
+SDRF File	E-MTAB-4130.sdrf.txt
+Comment [Submitted Name]	Early effects of the photoperiodic induction of flowering on the root transcriptome.
+Comment [AEMIAMEScore]	5
+Comment [AEExperimentType]	transcription profiling by array
+Comment[ArrayExpressAccession]	E-MTAB-4130
+Comment [AEExperimentDisplayName]	Transcription profiling by array of  Arabidopsis thaliana roots following the photoperiodic induction of flowering

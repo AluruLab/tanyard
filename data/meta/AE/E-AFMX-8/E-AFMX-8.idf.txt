@@ -1,0 +1,48 @@
+Investigation Title	Transcription profiling of Arabidopsis micro-dissected apical tissue harvested 0, 3, 5, and 7 days after the shift to LD from SD	
+Comment[Submitted Name]	Schmidt: Dissection of Floral Induction Pathways Using Global Expression Analysis	
+Experimental Design	growth_condition_design	strain_or_line_design	genetic_modification_design	transcription profiling by array	
+Experimental Design Term Source REF	mo	mo	mo	EFO	
+Comment[ArrayExpressReleaseDate]		
+Comment[AEMIAMESCORE]	4	
+Comment[ArrayExpressAccession]	E-AFMX-8	
+Comment[MAGETAB TimeStamp_Version]	2010-07-29 15:06:28 Last Changed Rev: 13058	
+Experimental Factor Name	treatment	replicate	ecotype	genotype	photoperiod	duration	
+Experimental Factor Type	growth_condition	replicate	ecotype	genotype	light	duration	
+Experimental Factor Term Source REF	
+Person Last Name	Weigel	Lohmann	Schmid	
+Person First Name	Detlef	Jan	Markus	
+Person Mid Initials	
+Person Email	
+Person Phone	
+Person Fax	
+Person Address	
+Person Affiliation	Department of Molecular Biology, Max Planck Institute for Developmental Biology, D-72076 Tübingen, Germany	Department of Molecular Biology, Max Planck Institute for Developmental Biology, D-72076 Tübingen, Germany	Department of Molecular Biology, Max Planck Institute for Developmental Biology, D-72076 Tübingen, Germany	
+Person Roles	submitter	
+Person Roles Term Source REF		
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	
+PubMed ID	14573523	
+Publication DOI	14573523	
+Publication Author List	Schmid, M.,Uhlenhaut, N. H.,Godard, F.,Demar, M.,Bressan, R.,Weigel, D.,Lohmann, J. U.	
+Publication Title	Dissection of floral induction pathways using global expression analysis.	
+Publication Status	journal_article	
+Publication Status Term Source REF	mo	
+Experiment Description	Floral transition and flower development are regulated by numerous environmental and endogenous signals, which are integrated at a relatively small number of floral integrators, such as FLOWERING LOCUS T (FT) and SUPPRESSOR OF CONSTANS OVEREXPRESSION 1 (SOC1). Of the environmental factors, photoperiod is regarded the most important one in promoting floral transition in Arabidopsis thaliana and most labstrains will flower earlier under long day (LD) conditions than under short day (SD) conditions. Arabidopsis is therefore considered a facultative LD plant. To monitor gene expression changes during floral transition and early flower development plants were grown under SD (9 hr light, 15 hr dark) for 30 days. Plants were then shifted to LD (16 hr light, 8 hr dark) conditions to induce flowering. RNA was isolated from micro-dissected apical tissue harvested 0, 3, 5, and 7 days after the shift to LD and double-stranded cDNA was synthesized. Biotinylated cRNA probes were prepared and hybridized to the Affymetrix ATH1 array in duplicate (biological replicates). To study floral transition, we not only analyzed response of wildtype Landsberg erecta (Ler) plants, but also the effect of mutants in the flowering time genes CONSTANS (CO; co-2) and FT (ft-2). Early flower development was analyzed by comparing Col-0 wildtype plants with the meristem identity mutant lfy-12 (Col-0).	
+Protocol Name	P-AFFY-1	P-AFFY-2	Affymetrix:Protocol:Hybridization-EukGE-WS2v4	Affymetrix:Protocol:Percentile	
+Protocol Type	nucleic_acid_extraction	labeling	hybridization	feature_extraction	
+Protocol Description	Title: Trizol extraction. Description: 	Title: Affymetrix in vitro transcription. Description: 	Title: Fluidics Station Protocol. Description: 	Title: Affymetrix CEL Analysis (Percentile). Description: 	
+Protocol Parameters	
+Protocol Hardware	
+Protocol Software			MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact	
+Protocol Term Source REF	
+SDRF File	E-AFMX-8.sdrf.txt	
+Term Source Name	mo	ncbitax	ArrayExpress	mo	EFO	
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	
+Term Source Version						

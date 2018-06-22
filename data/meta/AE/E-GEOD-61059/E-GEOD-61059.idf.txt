@@ -1,0 +1,30 @@
+Comment[ArrayExpressAccession]	E-GEOD-61059						
+MAGE-TAB Version	1.1						
+Public Release Date	2015-06-22						
+Investigation Title	Gated SA effect on transcriptome						
+Comment[Submitted Name]	Gated SA effect on transcriptome						
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis seedlings treated with salycilic acid at ZT24 (subjective morning) or ZT36 (evening)						
+Experiment Description	We used microarrays to identify genes that respond to salycilic acid (SA) differently during the subjective morning and subjective night. 23-day-old wild type Arabidopsis seedlings. 24 samples total. Three biological replicates were used						
+Term Source Name	ArrayExpress	EFO					
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Dong	Zhou	Wang	Dong			
+Person First Name	Xinnian	Mian	Wei	Xinnian			
+Person Email	xdong@duke.edu						
+Person Affiliation	Duke University						
+Person Address	Department of Biology, Duke University, 4204 Science Drive, Durham, NC, USA						
+Person Roles	submitter						
+Protocol Name	P-GSE61059-1	P-GSE61059-5	P-GSE61059-6	P-GSE61059-2	P-GSE61059-3	P-GSE61059-4	P-GSE61059-7
+Protocol Description	The data were normalized with RMA algorithm using Gene-Spring GX default analysis settings ID_REF =  VALUE = RMA signal intensity	RNA probes were labelled using the Ambion MessageAmp Premier.	aRNA were hybridized to GeneChip®in Affymetrix GeneChip® hybridization oven 645, washed in Affymetrix GeneChip® Fluidics Station 450	23-day-old wild type treated with water or 1 mM SA at ZT24 or ZT36. Three biological replicates were used.	Arabidopsis seedlings were grown at 21-24°C, 12-hour day length, 60% relative humidity. The seedlings were transfer to constant light condition for 24 hours before treatment and left in constant light condition after treatment	Total RNA was isolated from the frozen material using Invitrogen TRIzol.	GeneChips were scanned using Affymetrix GeneChip® Scanner 7G
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	treatment	time					
+Experimental Factor Type	treatment	time					
+Publication Title	Redox rhythm reinforces the circadian clock to gate immune response						
+Publication Author List	Zhou M, Wang W, Karapetyan S, Mwimba M, Marqués J, Buchler NE, Dong X						
+Pubmed ID	26098366						
+Publication DOI	10.1038/nature14449						
+Comment[SecondaryAccession]	GSE61059						
+Comment[GEOReleaseDate]	2015-06-22						
+Comment[ArrayExpressSubmissionDate]	2014-09-03						
+Comment[GEOLastUpdateDate]	2015-06-23						
+Comment[AEExperimentType]	transcription profiling by array						
+SDRF File	E-GEOD-61059.sdrf.txt						

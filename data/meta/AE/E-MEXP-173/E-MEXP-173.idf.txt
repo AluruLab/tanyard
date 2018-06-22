@@ -1,0 +1,48 @@
+Investigation Title	"Transcription profiling of Arabidopsis wild type, 35S:mks1 and mpk4 plants"							
+Comment[Submitted Name]	"Global gene expression study of Arabidopsis wild-type, 35S:mks1 and mpk4 plants"							
+Experimental Design	transcription profiling by array	individual_genetic_characteristics_design	transcription profiling by array	transcription profiling by array				
+Experimental Design Term Source REF	EFO		EFO	EFO				
+Comment[ArrayExpressReleaseDate]	2005-09-01							
+Comment[AEMIAMESCORE]	3							
+Comment[ArrayExpressAccession]	E-MEXP-173							
+Comment[MAGETAB TimeStamp_Version]	2011-06-28 19:22:05 Last Changed Rev: 14857							
+Experimental Factor Name	genotype	genotype						
+Experimental Factor Type	genotype	genotype						
+Experimental Factor Term Source REF								
+Person Last Name	Nielsen							
+Person First Name	H. Bjoern							
+Person Mid Initials								
+Person Email	hbjorn+miame@cbs.dtu.dk							
+Person Phone	+45 45 25 24 89							
+Person Fax								
+Person Address	"Center for Biological Sequence Analysis, BioCentrum-DTU, Technical University of Denmark, Kemitorvet, Building 208"							
+Person Affiliation	CBS							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Quality Control Type								
+Quality Control Term Source REF								
+Replicate Type								
+Replicate Term Source REF								
+Normalization Type								
+Normalization Term Source REF								
+Date of Experiment								
+Public Release Date	2005-09-01							
+PubMed ID								
+Publication DOI								
+Publication Author List	"Erik Andreasson, Thomas Jenkins, Peter Brodersen, Stephan Thorgrimsen, Nikolaj H T Petersen, Shijiang Zhu, Jin-Long Qiu, Pernille Micheelsen, Anne Rocher, Morten Petersen, Mari-Anne Newman, Henrik Bjorn Nielsen, Heribert Hirt, Imre Somssich, Ole Mattsson, and John Mundy"							
+Publication Title	The MAP kinase substrate MKS1 is a regulator of plant defense responses							
+Publication Status								
+Publication Status Term Source REF								
+Experiment Description	"In plants, MAPKs are implicated in signalling cascades regulating immediate as well as systemic responses to pathogens. Arabidopsis MAP kinase 4 (MPK4) negatively regulates systemic acquired resistance (SAR) accompanied by the expression of pathogenesis-related (PR) genes. MPK4 interacts with and phosphorylates MKS1. Plants that over-express MKS1 exhibit constitutive SAR. RNA was independently isolated three times from each of the three genotypes, wild-type, mpk4 and 35S:mks1 and hybridized to nine Affymetrix ATH1 GeneChips."							
+Protocol Name	P-MEXP-5354	P-MEXP-5353	P-MEXP-5373	P-MEXP-5346	P-MEXP-5345	Affymetrix:Protocol:Hybridization-EukGE-WS2v4	P-AFFY-6	P-MEXP-5382
+Protocol Type	specified_biomaterial_action	grow	nucleic_acid_extraction	labeling	labeling	hybridization	feature_extraction	bioassay_data_transformation
+Protocol Description	Plant were treated as equaly as possible	plants was grown in a chamber with 16hr light (21C) and 8hr dark (16C).	"Total RNA was isolated from leaves of 3 weaks old plants, using the  TRIzol protocol (invitrogen)."	Total RNA was amplified and Biotin labeled using the Affymetrix Enzo Kit method Described in Affymetrix GeneChip Technical Analysis Manual	"Biotin Labelled cRNA using Affymetrix Enzo Kit (in-vitro transcription method, Affymetrix GeneChip Technical Analysis Manual)"	Title: Fluidics Station Protocol. Description: 	Title: Affymetrix CEL analysis. Description: 	"Transformations:  Gene expression intensities was normalized using R implementation of qspline (Workman et al., 2002; Gautier et al., 2004). An implementation in the statistical language R of the logit-t method (Lemon et al., 2003) applying one-way ANOVA instead of t-test was used to calculate statistical significance for differentially gene expression. only the 800 most significant genes are shown. Gene expression index values were calculated using the PM only R implementation of the Li and Wong (2001) method (Gautier et al., 2004).   # Refs# # Workman C, Jensen LJ, Jarmer H, Berka R, Gautier L, Nielsen HB, Saxild HH, Nielsen C, Brunak S, Knudsen S. A new non-linear normalization method for reducing variability in DNA microarray experiments. Genome Biol. 2002 Aug 30;3(9):research0048.  # Gautier L, Cope L, Bolstad BM, Irizarry RA. (2004) affy--analysis of Affymetrix GeneChip data at the probe level. Bioinformatics, 20, 307-15.  Lemon WJ, Liyanarachchi S, You M, A high performance test of differential gene expression for oligonucleotide arrays. Genome Biology 2003, 4:R67  # Li C and Wong WH. (2001) Model-based analysis of oligonucleotide arrays: model validation, design issues and standard error application Genome biology, http://genomebiology.com/2001/2/8/research/0032.1  "
+Protocol Parameters			Amplification;Extracted product;	Label used;Amount of nucleic acid labeled;Amplification;	Amplification;Label used;Amount of nucleic acid labeled;			
+Protocol Hardware								
+Protocol Software						MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact								
+Protocol Term Source REF			mo					mo
+SDRF File	E-MEXP-173.sdrf.txt							
+Term Source Name	mo		ncbitax	ArrayExpress	EFO	mo		
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php		http://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php		
+Term Source Version								

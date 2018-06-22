@@ -1,0 +1,48 @@
+Investigation Title	Transcription profiling of Arabidopsis sperm cells compared to FACS-sorted mature pollen grains and seedlings	
+Comment[Submitted Name]	IGC Arabidopsis thaliana sperm cells	
+Experimental Design	organism_part_comparison_design	cell_type_comparison_design	transcription profiling by array	
+Experimental Design Term Source REF	mo	mo	EFO	
+Comment[ArrayExpressReleaseDate]	2008-08-01	
+Comment[AEMIAMESCORE]	4	
+Comment[ArrayExpressAccession]	E-ATMX-35	
+Comment[MAGETAB TimeStamp_Version]	2010-07-29 14:33:20 Last Changed Rev: 13058	
+Experimental Factor Name	cell type	
+Experimental Factor Type	organism_part	
+Experimental Factor Term Source REF	
+Person Last Name	Becker	
+Person First Name	Jorg	
+Person Mid Initials	D	
+Person Email	jbecker@igc.gulbenkian.pt	
+Person Phone	00351214464526	
+Person Fax	
+Person Address	Rua da Quinta Grande No 6	
+Person Affiliation	Affymetrix Core Facility	
+Person Roles	submitter	
+Person Roles Term Source REF	The MGED Ontology	
+Quality Control Type	biological_replicate	
+Quality Control Term Source REF	The MGED Ontology	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2008-08-01	
+PubMed ID	18667720	
+Publication DOI	18667720	
+Publication Author List	Borges, Filipe; Gomes, Gabriela; Gardner, Rui; Moreno, Nuno; McCormick, Sheila; Feijo, Jose A.; Becker, Jorg D.	
+Publication Title	Comparative Transcriptomics of Arabidopsis Sperm Cells	
+Publication Status	journal_article	
+Publication Status Term Source REF	The MGED Ontology	
+Experiment Description	Comparative transcriptional profiling of FACS-sorted Arabidopsis thaliana sperm cells versus FACS-sorted mature pollen grains and seedlings	
+Protocol Name	P-MEXP-7920	P-CAGE-26805	P-MEXP-7914	P-MEXP-7913	P-MEXP-7912	P-CAGE-26807	P-CAGE-26806	P-CAGE-26808	P-CAGE-26812	P-AFFY-6	
+Protocol Type	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	grow	grow	pool	nucleic_acid_extraction	labeling	hybridization	feature_extraction	
+Protocol Description	Samples were collected and transferred directly to liquid nitrogen and the tissues/cells were grinded to a fine powder using mortar and pestle. 	Isolation of Arabidopsis Sperm Cells To obtain sperm cells from mature pollen, freshly opened flowers from the transgenic line AtGEX2::eGFP were collected and placed in a humid chamber at room temperature for 1 hour to hydrate. The sperm extraction buffer (1.3 mM H3BO3, 3.6 mM CaCl2, 0.74 mM KH2PO4, 438 mM sucrose, 7 mM MOPS, 0.83 mM MgSO4, in double distilled water), was adjusted to pH 6.0 with NaOH, filter-sterilized (0.22 µm filtration, 150 mL Bottle Top Filter with a 45 mm neck (Corning Incorporated, New York, USA) and vacuum-degassed. Inflorescences were immersed and mixed in 500 mL of sperm extraction buffer, until the pollen grains were released, yielding a yellowish solution. To remove flowers and other plant tissues, the solution was filtered through Miracloth (Calbiochem®, USA), then the pollen was concentrated by passing the filtrate through a 10µm pore size mesh filter (SEFAR AG, Heiden, Switzerland) using a vacuum pump (KNF Aero Mat, USA). This material collected on the filter was subsequently washed with 1-2mL of buffer, to release pollen and impurities, and then filtered through a 28µm mesh filter (SEFAR AG, Heiden, Switzerland) to dispose of debris larger than pollen. Pollen grains were disrupted using a 2ml glass homogenizer (Kontes Glass Company, Tissue Grind Pestle SC and Tissue Grind Tube S2, Vineland, New Jersey, USA), by 3 circular movements up and down, using 2 mL of sperm extraction buffer at a time. The resulting solution contained free sperm cells as well as burst and intact pollen grains, and was filtered through a 15µm pore size mesh filter (SEFAR AG, Heiden, Switzerland) in order to eliminate most of the debris and the remaining intact pollen grains. Sperm cells were incubated with 1µM DRAQ5TM (Biostatus Limited, Alexis Corporation, Lausen, Switzerland) in order to stain DNA, and the sample was stored at 4ºC before fluorescence-activated cell sorting.   Fluorescence Activated Cell Sorting Fluorescence-activated sperm cell sorting was performed in a Moflo High-Speed Cell Sorter (Dako-Cytomation Inc. Fort Collins, CO, USA), using a 100 &#61549;m ceramic nozzle with 30 psi sheath pressure, a 488 nm laser line from a Coherent Sapphire 488-200 CDRH laser for eGFP excitation, and a 632.8 nm laser line from a Spectra-Physics 107B 25mW HeNe laser to excite DRAQ5. GFP and DRAQ5 were detected using a 530/40 nm and a 700/75 nm HQ band pass filter, respectively. Sperm extraction buffer was used as the sheath solution, both for hydrodynamic stability and subsequent analysis of sorted sperm cells. For subsequent RNA extraction, sperm cells were sorted directly into RNeasy extraction buffer RLT (Qiagen, Germany). 	Isolation and purification of hydrated pollen grains by flowcytometric cell sorting were carried out as described in: Becker JD, Boavida LC, Carneiro J, Haury M, Feijó JA: Transcriptional profiling of Arabidopsis tissues reveals the unique characteristics of the pollen transcriptome. Plant Physiology 133: 713-725 (2003).  	For the seedling samples, seeds were surface-sterilized and then spread on Petri dishes containing B-5 medium (Duchefa, Haarlem, The Netherlands) solidified with 0.8% phytagar (Duchefa, Haarlem, The Netherlands). The seeds were cold-treated for 3 days at 4°C to ensure uniform germination. The plates were transferred to short-day conditions (8 h of light at 21°C-23°C) and grown in a horizontal position for 7 days. Per seedling sample more than 25 seedlings from five Petri dishes were collected after 7 days of growth.	Plants for the leaf, flower, silique and pollen samples were grown on soil for 12 weeks in short-day conditions (8 h of light at 21°C-23°C) and then changed to long-day conditions (16 h light) to induce flowering. After bolting more than 20 rosette leaves from different plants per leaf sample were collected. Flowers and siliques were harvested two weeks later. 20 siliques and flowers, respectively, from different plants were pooled per sample.	Twelve 4 week-old seedlings of Arabidopsis ecotype Col-0 were grown on solid medium (B-5 with 0.8% phytoagar; Duchefa, Haarlem, The Netherlands) and pooled for RNA extraction	Total RNA was extracted using the RNeasy Micro Kit (Qiagen, Hilden, Germany)according to the manufacturers protocol.	Total RNA from sperm cells, pollen and seedlings was extracted using the RNeasy Micro Kit (Qiagen, Germany).  RNA integrity was assessed using an Agilent 2100 Bioanalyser with a RNA 6000 Nano Assay (Agilent Technologies, Palo Alto, CA). RNA was processed for use on Affymetrix Arabidopsis ATH1 Genome Arrays (Santa Clara, CA, USA) according to the manufacturers Two-Cycle Target Labeling Assay. Briefly, 16 ng of total RNA containing spiked-in Poly-A RNA controls (GeneChip Expression GeneChip Eukaryotic Poly-A RNA Control Kit; Affymetrix) was used in a reverse transcription reaction (Two-Cycle DNA synthesis kit; Affymetrix) to generate first-strand cDNA. After second-strand synthesis, double-stranded cDNA was used in an in vitro transcription (IVT) reaction to generate cRNA (MEGAscript T7 kit; Ambion, Austin, TX). The cRNA obtained was used for a second round of cDNA and cRNA synthesis, resulting in biotinylated cRNA (GeneChip Expression 3-Amplification Reagents for IVT-Labeling; Affymetrix). The size distribution of the cRNA and fragmented cRNA, respectively, was assessed using an Agilent 2100 Bioanalyzer with a RNA 6000 Nano Assay. Fifteen micrograms of fragmented cRNA was used in a 300-µl hybridization containing added hybridization controls. 200 µl of the mixture was hybridized on arrays for 16 h at 45°C. Standard post-hybridization washes and double-stain protocols (FS450_0004) were used on an Affymetrix GeneChip Fluidics Station 450, in conjunction with the GeneChip Hybridization Wash and Stain kit (Affymetrix). Arrays were scanned on an Affymetrix GeneChip scanner 3000 7G.	GeneChip Fluidics Station 450: Protocol FS450_0004  Wash A1 Recovery Mixes: 0 Wahs A1 Temperature (C): 25 Number of Wash A1 Cycles: 10 Mixes per Wash A1 Cycle: 2 Wash B Recovery Mixes: 0 Wash B Temperature: 50 Number of Wash B Cycles: 4 Mixes per Wash B Cycle: 15 Stain Temperature (C): 25 First Stain Time (seconds): 600 Wash A2 Recovery Mixes: 0 Wahs A2 Temperature (C): 25 Number of Wash A2 Cycles: 10 Mixes per Wash A2 Cycle: 4 Second Stain Time (seconds): 600 Third Stain Time (seconds): 600 Wash A2 Recovery Mixes: 0	Title: Affymetrix CEL analysis. Description: 	
+Protocol Parameters							Amplification;Extracted product;	Amount of nucleic acid labeled;Amplification;Used Label;	
+Protocol Hardware	
+Protocol Software										MicroArraySuite 5.0	
+Protocol Contact	
+Protocol Term Source REF						The MGED Ontology	
+SDRF File	E-ATMX-35.sdrf.txt	
+Term Source Name	nasc		NCI_thesaurus	po_structure_ontology1.1	NCBI Taxonomy	po_development_and_growth_ontology1.1	The MGED Ontology	ArrayExpress	The MGED Ontology	mo	EFO	
+Term Source File	http://arabidopsis.info/catalogue.html		ncithesaurus.obo.alt		http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	
+Term Source Version												

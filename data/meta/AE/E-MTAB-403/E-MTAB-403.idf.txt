@@ -1,0 +1,51 @@
+Investigation Title	Transcription profiling by array of Arabidopsis leaves exposed to excess light and DBMIB					
+Comment[Submitted Name]	Arabidopsis excess light and DBMIB response					
+Experimental Design	in_vivo_design	stimulus_or_stress_design	transcription profiling by array			
+Experimental Design Term Source REF		The MGED Ontology	EFO			
+Comment[AEExperimentType]	transcription profiling by array					
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis leaves exposed to excess light and DBMIB					
+Comment[SecondaryAccession]						
+Comment[ArrayExpressReleaseDate]	2010-12-31					
+Comment[AEMIAMESCORE]	4					
+Comment[ArrayExpressAccession]	E-MTAB-403					
+Comment[MAGETAB TimeStamp_Version]	2010-10-07 12:37:09 Last Changed Rev: 13833					
+Experimental Factor Name	growth condition	compound	dose	time		
+Experimental Factor Type	growth condition	compound	dose	time		
+Experimental Factor Term Source REF						
+Person Last Name	Mockler					
+Person First Name	Todd					
+Person Mid Initials						
+Person Email	tmockler@cgrb.oregonstate.edu					
+Person Phone	541-737-5207					
+Person Fax	541-737-3573					
+Person Address	"Botany and Plant Pathology, Oregon State University, Corvallis, Oregon, 97331-8530, USA"					
+Person Affiliation	Oregon State University					
+Person Roles	submitter					
+Person Roles Term Source REF	The MGED Ontology					
+Quality Control Type	biological_replicate					
+Quality Control Term Source REF	The MGED Ontology					
+Replicate Type						
+Replicate Term Source REF						
+Normalization Type						
+Normalization Term Source REF						
+Date of Experiment						
+Public Release Date	2010-12-31					
+PubMed ID	23918368					
+Publication DOI	10.1073/pnas.1311632110					
+Publication Author List	"Jung HS, Crisp PA, Estavillo GM, Cole B, Hong F, Mockler TC, Pogson BJ, Chory J."					
+Publication Title	Subset of heat-shock transcription factors required for the early response of Arabidopsis to excess light.					
+Publication Status	published					
+Publication Status Term Source REF	EFO					
+Experiment Description	Arabidopsis (Arabidopsis thaliana) leaf was exposed to excess light for 30 min and 2 hours or to 24 µM DBMIB for 30 min and 2 hours. Expression levels relative to low light (LL) were determined					
+Protocol Name	P-MTAB-17302	P-AFFY-2	Affymetrix:Protocol:Hybridization-EukGE-WS2v5_450	P-AFFY-6		
+Protocol Type	specified_biomaterial_action	labeling	hybridization	feature_extraction		
+Protocol Description	Arabidopsis (Arabidopsis thaliana) leaf was exposed to excess light for 30 min and 2 hours or to 24 µM 3-methyl-6-isopropyl-p-benzoquinone (DBMIB) for 30 min and 2 hours. Expression levels relative to low light (LL) were determined					
+Protocol Parameters						
+Protocol Hardware						
+Protocol Software			MicroArraySuite 5.0	MicroArraySuite 5.0		
+Protocol Contact						
+Protocol Term Source REF	The MGED Ontology					
+SDRF File	E-MTAB-403.sdrf.txt					
+Term Source Name	NCBI Taxonomy	po	The MGED Ontology	ArrayExpress	The MGED Ontology	EFO
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://www.plantontology.org	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/
+Term Source Version						

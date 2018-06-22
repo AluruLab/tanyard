@@ -1,0 +1,26 @@
+Comment[ArrayExpressAccession]	E-GEOD-51626
+MAGE-TAB Version	1.1						
+Public Release Date	2013-12-24
+Investigation Title	Role of NPR1 in SA mediated transcription						
+Comment[Submitted Name]	Role of NPR1 in SA mediated transcription
+Experiment Description	Affymetrix expression analysis was used to validate the role of NPR1 in SA mediated transcription. The RNA of col-0 and npr1-1 mutant were isolated after 24hr water and SA treatment.The ATH1 gene chip was used for expression analysis.						
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Sawant	Sawant	Bag	Singh	Bhardwaj		
+Person First Name	Samir	Samir	Sumit	Mala	Archana		
+Person Mid Initials			K				
+Person Email	samirsawant@nbri.res.in						
+Person Affiliation	National Botanical Research Institute						
+Person Address	Centre of Plant Molecular Biology, National Botanical Research Institute, Rana Pratap Marg, Lucknow, U.P, India, India						
+Person Roles	submitter						
+Protocol Name	P-GSE51626-1	P-GSE51626-5	P-GSE51626-6	P-GSE51626-2	P-GSE51626-3	P-GSE51626-4	P-GSE51626-7
+Protocol Description	affymetrix-algorithm-name = rma program-name = Expression Console ID_REF =  VALUE = RMA signal	Biotinylated cRNA were prepared according to the standard Affymetrix protocol using 250 ng total RNA.	According to affymatrix gene chip instruction manual using Fluidisc station 450.	After two weeks of growth, the medium was exchanged with either water or 2mM SA and 24h incubation was given in light at 22±2∫C.	Seed sterilization and plant growth conditions were followed as reported earlier (Hardtke and Deng, 2000) for both Arabidopsis thaliana Col-0 and npr1-1 mutant. All seeds were grown in vitro in MS medium by keeping them on a mesh at 4∞C for 2 days for stratification before placing them in the growth chamber. A. thaliana plants were grown under controlled environmental conditions (22±1∫C, 120 ÔÅ≠mol m-2 sec-1, 16h light/8h dark cycle).	Total RNA was isolated from complete seedlings using Sigma SpectrumÆ Plant total RNA kit (STRN 250)	GeneChips were scanned using Affymatrix gene chip scanner.
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	COMPOUND	GENOTYPE					
+Experimental Factor Type	compound	genotype					
+Comment[SecondaryAccession]	GSE51626						
+Comment[GEOReleaseDate]	2013-12-24						
+Comment[ArrayExpressSubmissionDate]	2013-10-23						
+Comment[GEOLastUpdateDate]	2013-12-25						
+Comment[AEExperimentType]	transcription profiling by array						
+SDRF File	E-GEOD-51626.sdrf.txt

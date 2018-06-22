@@ -1,0 +1,27 @@
+Comment[ArrayExpressAccession]	E-GEOD-58370
+MAGE-TAB Version	1.1						
+Public Release Date	2014-06-10
+Investigation Title	The Enzyme-Like Domain of Arabidopsis Nuclear Beta-Amylases is Critical During DNA Sequence Recognition and Transcriptional Activation						
+Comment[Submitted Name]	The Enzyme-Like Domain of Arabidopsis Nuclear Beta-Amylases is Critical During DNA Sequence Recognition and Transcriptional Activation
+Experiment Description	Plant BZR1-BAM transcription factors contain a Î²-amylase (BAM)-like domain, characteristic of proteins involved in starch breakdown. The enzyme-derived domains appear to be non-catalytic, but determine the function of the Arabidopsis thaliana BZR1-BAMs (BAM7 and BAM8) during transcriptional initiation. Microarray experiments with plants overexpressing different mutant versions of the proteins show that only functional BZR1-BAM variants deregulate gene expression and cause leaf developmental abnormalities. Transcriptional changes caused by overexpression of the BZR1 domain alone indicate that the BAM domain increases selectivity for the preferred cis-regulatory element BBRE (BZR1-BAM Responsive Element). In this study, we used the ATH1 GeneChip microarray to investigate transcript abundance in different Arabidopsis thaliana genotypes. Arabidopsis thaliana (accession Columbia) were grown in a nutrient-rich, medium-grade, peat-based compost in Percival AR95 growth chambers (CLF Plant Climatics) at a constant temperature of 20Â°C, 70% humidity and a 12-h light period with constant, uniform light intensity of 150 Î¼molâ€¢m-2â€¢s-1. Three-week-old plants were harvested 4 h after onset of the light period and immediately frozen in liquid nitrogen. Fourteen individual plants were pooled per replicate.						
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Wanke	Soyk	Å imkovÃ¡	Brand	Wanke	Zeeman	
+Person First Name	Dierk	Sebastian	KlÃ¡ra	Luise	Dierk	Samuel	
+Person Mid Initials						C	
+Person Email	dierk.wanke@zmbp.uni-tuebingen.de						
+Person Affiliation	University of Tuebingen						
+Person Address	Plant Physiology, University of Tuebingen, Auf der Morgenstelle 32, Tuebingen, Germany						
+Person Roles	submitter						
+Protocol Name	P-GSE58370-1	P-GSE58370-5	P-GSE58370-6	P-GSE58370-2	P-GSE58370-3	P-GSE58370-4	P-GSE58370-7
+Protocol Description	The data was analysed with GeneSpring GX (vers. 7.3) from Agilent. Preprocessing was performed with included RMA Plugin. ID_REF =  VALUE = RMA signal intensity	1µg of total RNA were used to synthesize amplified labeled cRNA (MessageAmpâ„¢ II aRNA Biotin Amplification Kit; Ambion).	After fragmentation of cRNA using the RNA Fragmentation Reagents (Ambion), 13.5 µg of cRNA was hybridized to Affymetrix Arabidopsis ATH1 Genome Array (ATH1-121501) according to manufacturer's manual. GeneChips were washed and stained in the Affymetrix Fluidics Station 450 using the protocol 'EukGE-WS2V4'.	No treatment was applied.	Arabidopsis thaliana (accession Columbia) were grown in a nutrient-rich, medium-grade, peat-based compost in Percival AR95 growth chambers (CLF Plant Climatics) at a constant temperature of 20°C, 70% humidity and a 12-h light period with constant, uniform light intensity of 150 Î¼molâ€¢m-2â€¢s-1.	For RNA extraction, RNeasy Plant Mini kit was used (according to instructions from Qiagen). Extracted RNA was precipitated ?ul RNA; 8 µl 3 M Sodium acetate (pH 5.2); 2 µl Glycogen(5mg/ml); -80°C? how long? than 30 min 13000 rpm 4°C. 2 times washing with 70% ethanol. resuspended in DEPC water. RNA quantity and integrity were assessed using RNA 6000 Nano LabChip Kit and the BioAnalyzer software (Agilent).	GeneChips were scanned using the Affymetrix GeneChip® scanner GS3000 7G according to manufacturer's manual.
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	GENOTYPE						
+Experimental Factor Type	genotype						
+PubMed ID	24748042						
+Comment[SecondaryAccession]	GSE58370						
+Comment[GEOReleaseDate]	2014-06-10						
+Comment[ArrayExpressSubmissionDate]	2014-06-10						
+Comment[GEOLastUpdateDate]	2014-06-12						
+Comment[AEExperimentType]	transcription profiling by array						
+SDRF File	E-GEOD-58370.sdrf.txt

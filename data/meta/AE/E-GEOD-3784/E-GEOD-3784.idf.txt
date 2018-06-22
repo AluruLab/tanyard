@@ -1,0 +1,49 @@
+Investigation Title	Transcription profiling of Arabidopsis seed germination in presence and absence of histone deaceatylase inhibitor, Trichostain A (TSA).	
+Comment[Submitted Name]	Seed germination in presence and absence of histone deaceatylase inhibitor, Trichostain A (TSA).	
+Experimental Design	unknown_experiment_design_type	transcription profiling by array	
+Experimental Design Term Source REF		EFO	
+Comment[AEMIAMESCORE]	3	
+Comment[ArrayExpressReleaseDate]	2008-06-12	
+Comment[SecondaryAccession]	GSE3784	
+Comment[ArrayExpressAccession]	E-GEOD-3784	
+Comment[MAGETAB TimeStamp_Version]	2010-08-05 11:23:56 Last Changed Rev: 13058	
+Experimental Factor Name	
+Experimental Factor Type	
+Experimental Factor Term Source REF	
+Person Last Name	Tai	
+Person First Name	Helen	
+Person Mid Initials	H.	
+Person Email	htai@nrcan.gc.ca, taihelen@yahoo.com	
+Person Phone	
+Person Fax	
+Person Address	Natural Resources Canada, Canadian Forest Service, 1350 Regent St., Fredericton, E3B 5P7, Canada	
+Person Affiliation	Canadian Forest Service	
+Person Roles	submitter	
+Person Roles Term Source REF	The MGED Ontology	
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2008-06-12	
+PubMed ID	16307366	
+Publication DOI	16307366	
+Publication Author List	Helen H Tai, George C C Tai, Tannis Beardmore	
+Publication Title	Dynamic histone acetylation of late embryonic genes during seed germination.	
+Publication Status	journal_article	
+Publication Status Term Source REF	The MGED Ontology	
+Experiment Description	Histone acetylation is involved in the regulation of gene expression in plants and eukaryotes.  Histone deacetylases (HDACs) are enzymes that catalyze the removal of acetyl groups from histones, which is associated with the repression of gene expression.  To study the role of histone acetylation in the regulation of gene expression during seed germination, trichostatin A (TSA), a specific inhibitor of histone deacetylase, was used to treat imbibing Arabidopsis thaliana seeds.  GeneChip arrays were used to show that TSA induces up-regulation of 45 genes and down-regulation of 27 genes during seed germination.   Eight TSA-up-regulated genes were selected for further analysis - RAB18, RD29B, ATEM1, HSP70 and four late embryogenesis abundant protein genes (LEA).  A gene expression time course shows that these eight genes are expressed at high levels in the dry seed and repressed upon seed imbibition at an exponential rate.  In the presence of TSA, the onset of repression of the eight genes is not affected but the final level of repressed expression is elevated.  Chromatin immunoprecipitation and HDAC assays show that there is a transient histone deacetylation event during seed germination at one day after imbibition, which serves as a key developmental signal that affects the repression of the eight genes.     Experiment Overall Design: Three samples:  Unimbibed seeds, untreated imbibed seeds, TSA-treated imbibed seeds.	
+Protocol Name	P-G3784-2	P-G3784-1	P-G3784-4	P-G3784-3	
+Protocol Type	specified_biomaterial_action	grow	nucleic_acid_extraction	labeling	
+Protocol Description	Seeds from Arabidopsis thaliana ecotype Columbia were surface sterilized and sown on nylon membranes on Murashige and Skoog (MS) media (Murashige and Skoog, 1962) containing 0.8% agar with and without 10 mM Trichostatin A (TSA) (Sigma Chemical Co., USA) in 10 cm Petri dishes with 10 ml media/dish.	Seeds were germinated under 16 h light conditions.	Tai, H.H., Pelletier, C., Beardmore, T. (2004) Total RNA isolation from Picea marianna dry seed. Plant Molecular Biology Reporter 22: 93.	http://www.affymetrix.com/support/technical/manual/expression_manual.affx	
+Protocol Parameters	
+Protocol Hardware	
+Protocol Software	
+Protocol Contact	
+Protocol Term Source REF	
+SDRF File	E-GEOD-3784.sdrf.txt	
+Term Source Name	NCBI Taxonomy		The MGED Ontology	ArrayExpress	EFO	The MGED Ontology	
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version							

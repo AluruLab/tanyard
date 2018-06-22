@@ -1,0 +1,49 @@
+Investigation Title	Transcription profiling of Arabidopsis life cycle	
+Comment[Submitted Name]	Transcript Profiling of Arabidopsis Plant Life Cycle	
+Experimental Design	unknown_experiment_design_type	transcription profiling by array	
+Experimental Design Term Source REF		EFO	
+Comment[ArrayExpressReleaseDate]	2008-06-15	
+Comment[SecondaryAccession]	GSE680	
+Comment[AEMIAMESCORE]	4	
+Comment[ArrayExpressAccession]	E-GEOD-680	
+Comment[MAGETAB TimeStamp_Version]	2011-01-23 00:48:37 Last Changed Rev: 14857	
+Experimental Factor Name	
+Experimental Factor Type	
+Experimental Factor Term Source REF	
+Person Last Name	Le	
+Person First Name	Brandon	
+Person Mid Initials	
+Person Email	ble@ucla.edu	
+Person Phone	
+Person Fax	
+Person Address	Molecular, Cell and Developmental Biology, University of California, Los Angeles, 621 Charles E Young Drive South, Los Angeles, 90095, USA	
+Person Affiliation	University of California, Los Angeles	
+Person Roles	submitter	
+Person Roles Term Source REF		
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2008-06-15	
+PubMed ID	
+Publication DOI	
+Publication Author List	
+Publication Title	
+Publication Status	
+Publication Status Term Source REF	
+Experiment Description	This series contain all stages Arabidopsis plant development.  Stages of development includes unfertilized ovule, 24-Hr post-fertilization seed, globular stage seed, cotyledon stage seed, mature green seed, post-mature green seed, post-germination seedling, rosette leaf, root, stem, and floral bud.	
+Protocol Name	P-G680-1	P-G680-3	P-G680-2	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6	
+Protocol Type	grow	nucleic_acid_extraction	labeling	hybridization	feature_extraction	
+Protocol Description	Plants were grown in a Conviron chamber under continuous light with fluorescent lamps at 20oC and 50% - 70% relative humidity.	Total RNA was extracted using the Hot Borate Method [Stones et. al. PNAS vol 98 no 20: 11806-11811 (2001)]	Biotinylated cRNA were prepared using the ENZO BioArray High Yield RNA Transcript Labeling Kit (Farmingdale, NY).	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	
+Protocol Parameters	
+Protocol Hardware	
+Protocol Software				MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact	
+Protocol Term Source REF				mo	
+SDRF File	E-GEOD-680.sdrf.txt	
+Term Source Name	EFO	The MGED Ontology	ArrayExpress	EFO	mo	
+Term Source File	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version						

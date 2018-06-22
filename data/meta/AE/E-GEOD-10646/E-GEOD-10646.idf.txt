@@ -1,0 +1,52 @@
+Investigation Title	"Transcription profiling of Arabidopsis mkk1, mkk2 and mkk1/2 knockout treated with the saliicylic acid analog BTH"						
+Comment[Submitted Name]	"BTH treated mkk1, mkk2 and mkk1/2 knockout mutant"						
+Experimental Design	unknown_experiment_design_type	transcription profiling by array					
+Experimental Design Term Source REF		EFO					
+Comment[AEExperimentType]	transcription profiling by array						
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for mkk1 and/or mkk2 after treatment with BTH						
+Comment[ArrayExpressReleaseDate]	2008-06-11						
+Comment[SecondaryAccession]	GSE10646						
+Comment[AEMIAMESCORE]	3						
+Comment[ArrayExpressAccession]	E-GEOD-10646						
+Comment[MAGETAB TimeStamp_Version]	2010-07-29 21:28:26 Last Changed Rev: 13058						
+Experimental Factor Name	genotype	compound					
+Experimental Factor Type	genotype	compound					
+Experimental Factor Term Source REF							
+Person Last Name	Nielsen						
+Person First Name	Henrik Bjørn						
+Person Mid Initials							
+Person Email	hbjorn@cbs.dtu.dk						
+Person Phone							
+Person Fax							
+Person Address	"Center for Biological Sequence Analysis, Department of Systems Biology, Technical University of Denmark, Kemitorvet, Building 208,, Kgs. Lyngby, DK-2800, Denmark"						
+Person Affiliation	Technical University of Denmark						
+Person Roles	submitter						
+Person Roles Term Source REF	The MGED Ontology						
+Quality Control Type							
+Quality Control Term Source REF							
+Replicate Type							
+Replicate Term Source REF							
+Normalization Type							
+Normalization Term Source REF							
+Date of Experiment							
+Public Release Date	2008-06-11						
+PubMed ID	18599650						
+Publication DOI	10.1104/pp.108.120006						
+Publication Author List	"Qiu JL, Zhou L, Yun BW, Nielsen HB, Fiil BK, Petersen K, Mackinlay J, Loake GJ, Mundy J, Morris PC."						
+Publication Title	"Arabidopsis mitogen-activated protein kinase kinases MKK1 and MKK2 have overlapping functions in defense signaling mediated by MEKK1, MPK4, and MKS1."						
+Publication Status	published						
+Publication Status Term Source REF	EFO						
+Publication Status Term Accession Number	EFO_0001796						
+Experiment Description	"Gene Expression profiling of the Arabidopsis thaliana MAP Kinase Kinases 1 (mkk1), MAP Kinase Kinases 2 (mkk2) knockout mutants and the double mutant mkk1/mkk2 before and 24 hours after treatment with the salicylic acid analog BTH, was measured by hybridisation to an Affymetrix ATH1 GeneChip. Experiment Overall Design: Whole Arabidopsis thaliana mkk1, mkk2 and mkk1/mkk2 knockout mutants and wild type plants (Col-0) were sampled in triplicates before and 24 hours after BTH treatment."						
+Protocol Name	P-G10646-2	P-G10646-5	P-G10646-1	P-G10646-4	P-G10646-3	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6
+Protocol Type	specified_biomaterial_action	specified_biomaterial_action	grow	nucleic_acid_extraction	labeling	hybridization	feature_extraction
+Protocol Description	control treatment	Spraying with 100Â&#956;M BTH	"Plants were grown in soil (K-jord, Weibull, Sweden) supplemented with 20% vermiculite (skamol), 20% Perlite (Nordisk Perlit Aps), and 0.3% fertilizer (Osmocote Plus, Scotts Europe B.V) either in the green house or in Percival Scientific growth chambers under or short days (8h light; 16h dark) with day temperature of 21Â&deg;C day and night temperature of 16Â&deg;C."	"Total RNA was extracted using Trizol Reagent (Ambion, Austin, TX, USA)."	Samples were amplified and labeled using the MessageAmpâ¢ II-Biotin Enhanced Kit (Ambion).	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 
+Protocol Parameters							
+Protocol Hardware							
+Protocol Software						MicroArraySuite 5.0	MicroArraySuite 5.0
+Protocol Contact							
+Protocol Term Source REF						mo	
+SDRF File	E-GEOD-10646.sdrf.txt						
+Term Source Name	NCBI Taxonomy		The MGED Ontology	ArrayExpress	EFO	The MGED Ontology	mo
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version							

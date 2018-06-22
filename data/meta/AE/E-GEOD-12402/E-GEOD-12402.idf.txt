@@ -1,0 +1,52 @@
+Investigation Title	Transcription profiling of Arabidopsis seed compartments at the pre-globular stage						
+Comment[Submitted Name]	Expression data from Arabidopsis seed compartments at the pre-globular stage						
+Experimental Design	unknown_experiment_design_type	transcription profiling by array					
+Experimental Design Term Source REF		EFO					
+Comment[AEExperimentType]	transcription profiling by array						
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis seed compartments at the pre-globular stage						
+Comment[ArrayExpressReleaseDate]	2008-10-21						
+Comment[SecondaryAccession]	GSE12402						
+Comment[AEMIAMESCORE]	4						
+Comment[ArrayExpressAccession]	E-GEOD-12402						
+Comment[MAGETAB TimeStamp_Version]	2010-07-30 04:49:15 Last Changed Rev: 13058						
+Experimental Factor Name	ORGANISM PART						
+Experimental Factor Type	organism_part						
+Experimental Factor Term Source REF							
+Person Last Name	Kirkbride						
+Person First Name	Ryan Christopher						
+Person Mid Initials							
+Person Email	rkirkbride@ucdavis.edu						
+Person Phone							
+Person Fax							
+Person Address	Harada , Plant Biology, University of California, Davis, One Shields Avenue, Davis, 95616, United States						
+Person Affiliation	University of California, Davis						
+Person Roles	submitter						
+Person Roles Term Source REF	The MGED Ontology						
+Quality Control Type							
+Quality Control Term Source REF							
+Replicate Type							
+Replicate Term Source REF							
+Normalization Type							
+Normalization Term Source REF							
+Date of Experiment							
+Public Release Date	2008-10-21						
+PubMed ID	20702726						
+Publication DOI	10.1104/pp.110.162123						
+Publication Author List	Zuber H, Davidian JC, Aubert G, Aimé D, Belghazi M, Lugan R, Heintz D, Wirtz M, Hell R, Thompson R, Gallardo K.						
+Publication Title	The seed composition of Arabidopsis mutants for the group 3 sulfate transporters indicates a role in sulfate translocation within developing seeds.						
+Publication Status	published						
+Publication Status Term Source REF	EFO						
+Publication Status Term Accession Number	EFO_0001796						
+Experiment Description	We collected pre-globular stage seed compartments from 7-micron paraffin sections using the Leica LMD6000 system in order to identify the mRNAs present in different compartments of seeds containing pre-globular-stage embryos was identified as those seeds containing embryo propers made up of  between 2 and 8 cells. For the purposes of this study we captured 6 compartments: embyro proper, micropylar endosperm, peripheral endosperm, chalazal endosperm, chalazal seed coat and general seed coat. Serial sections of entire seeds were also captured for comparison. Experiment Overall Design: Pre-globular stage seed compartments or whole seeds were isolated using the LMD6000 system. Total RNA was amplified and hybridized with Affymetrix ATH1 Arabidopsis array for 14 samples (embryo proper, micropylar endosperm, peripheral endosperm, chalazal endosperm, general seed coat, chalazal seed coat, whole seeds, 2 biological replicates each).						
+Protocol Name	P-G12402-2	P-G12402-1	P-G12402-4	P-G12402-3	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6	Affymetrix:Protocol:ExpressionStat
+Protocol Type	specified_biomaterial_action	grow	nucleic_acid_extraction	labeling	hybridization	feature_extraction	bioassay_data_transformation
+Protocol Description	Siliques between 1.0 and 1.1 cm containing pre-globular stage seeds were collected from 38-46 day old plants.  Siliques were sub-divided and fixed in 3:1 (v/v) ethanol to acetic acid and embedded in paraffin.  Microdissection of compartments was carried out on sections using a Leica LMD6000 system.	Plants were grown in a Conviron chamber under continuous light with fluorescent lamps at 20Â&deg;C and 50% - 70% relative humidity.	Total RNA was extracted using the RNaqueous Micro-Kit (Ambion, Austin, TX) using a modified protocol incorporating an on-column DNase treatment (Qiagen RNase-Free DNase Set) during column washes.	2 to 5 ng of total RNA was amplified using the WT-Ovation Pico RNA Amplification System (NuGEN, San Carlos, CA). cDNAs were fragmented and labeled with NuGEN FL-Ovationâ¢ cDNA Biotin Module V2.	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 
+Protocol Parameters							
+Protocol Hardware							
+Protocol Software					MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 5.0
+Protocol Contact							
+Protocol Term Source REF					mo		The MGED Ontology
+SDRF File	E-GEOD-12402.sdrf.txt						
+Term Source Name	NCBI Taxonomy		The MGED Ontology	ArrayExpress	EFO	The MGED Ontology	mo
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version							

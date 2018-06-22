@@ -1,0 +1,30 @@
+Comment[ArrayExpressAccession]	E-GEOD-30910						
+MAGE-TAB Version	1.1						
+Public Release Date	2013-07-22						
+Investigation Title	AtbZIP16 integrates light and hormone signaling pathways to regulate Arabidopsis early seedling development						
+Comment[Submitted Name]	AtbZIP16 integrates light and hormone signaling pathways to regulate Arabidopsis early seedling development						
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis early seedling development						
+Experiment Description	In response to environmental light signals, transcriptomic adjustment plays an important role in Arabidopsis seed germination and seedling development. G-box cis-element is commonly present in promoters of genes positively or negatively responding to the light signal. For the pursuit of additional transcriptional regulator modulating light-mediated transcriptome changes, we have identified AtbZIP16, a basic region/leucine zipper motif transcription factor, via G-box DNA affinity chromatography. We have confirmed that AtbZIP16 possesses G-box-specific binding activity. Analyses of atbzip16 mutants indicate that AtbZIP16 is a negative regulator in phyB-mediated inhibition of cell elongation, but a positive regulator in phytochrome-mediated seed germination process. Transcriptomic analysis supports that AtbZIP16 is primarily a transcriptional repressor regulating light-, GA- and ABA-responsive genes. Chromatin immunoprecipitation study revealed that AtbZIP16 could directly target RGL2, a DELLA gene, and indirectly repress the expression of PIL5 gene, which encodes a bHLH protein inhibiting seed germination in Arabidopsis. Our study indicated that, through repressing the expression of RGL2 and the antagonizing the expression of PIL5, AtbZIP16 functions to promote seed germination and hypocotyl elongation during early stages of Arabidopsis seedling development. In response to environmental light signals, transcriptomic adjustment plays an important role in Arabidopsis seed germination and seedling development. G-box cis-element is commonly present in promoters of genes positively or negatively responding to the light signal. For the pursuit of additional transcriptional regulator modulating light-mediated transcriptome changes, we have identified AtbZIP16, a basic region/leucine zipper motif transcription factor, via G-box DNA affinity chromatography. We have confirmed that AtbZIP16 possesses G-box-specific binding activity. Analyses of atbzip16 mutants indicate that AtbZIP16 is a negative regulator in phyB-mediated inhibition of cell elongation, but a positive regulator in phytochrome-mediated seed germination process. Transcriptomic analysis supports that AtbZIP16 is primarily a transcriptional repressor regulating light-, GA- and ABA-responsive genes. Chromatin immunoprecipitation study revealed that AtbZIP16 could directly target RGL2, a DELLA gene, and indirectly repress the expression of PIL5 gene, which encodes a bHLH protein inhibiting seed germination in Arabidopsis. Our study indicated that, through repressing the expression of RGL2 and the antagonizing the expression of PIL5, AtbZIP16 functions to promote seed germination and hypocotyl elongation during early stages of Arabidopsis seedling development. Three biological replicates for 4-d-old seedlings grown under dark or red-light and long-day (0.5 μmole m-2 sec-1) contitions.						
+Term Source Name	ArrayExpress	EFO					
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Hsieh	Hsieh	Wu				
+Person First Name	Wen-Ping	Wen-Ping	Shu-Hsing				
+Person Email	tina1103@gate.sinica.edu.tw						
+Person Affiliation	Academia Sinica						
+Person Address	Academia Sinica, 128 Academia Road, Section 2, Nankang, Taipei, Taiwan						
+Person Roles	submitter						
+Protocol Name	P-GSE30910-1	P-GSE30910-5	P-GSE30910-6	P-GSE30910-2	P-GSE30910-3	P-GSE30910-4	P-GSE30910-7
+Protocol Description	The data were analyzed with Microarray Suite version 5.0 (MAS 5.0) using Affymetrix default analysis settings and global scaling as normalization method. The trimmed mean target intensity of each array was arbitrarily set to 500. ID_REF =  VALUE = MAS5.0 signal intensity ABS_CALL =  DETECTION P-VALUE = 	Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 10 ug total RNA (Expression Analysis Technical Manual, 701021 Rev. 5, Affymetrix).	Following fragmentation, 10 ug of cRNA were hybridized for 16.5 hr at 45C on GeneChip Arabidopsis ATH1 Genome Array. GeneChips were washed and stained in the Affymetrix Fluidics Station 450.	Seedlings were grown under dark or red-light and long-day (0.5 μmole m-2 sec-1) contitions for 4 days.	Seeds were surface sterilized and plated on 1/2 MS (0.8% agar, pH 5.7) plates.	Total RNA was isolated as described previously [(Chang et al, Plant J 54, 205 (2008)]. Polysome RNA was isolated through a sucrose gradient and purified with phenol/chloroform extraction, LiCl precipitation and dissolved in RNase-free H2O.	GeneChips were scanned using Affymetrix GeneChip Scanner 3000 7G
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	light	genotype					
+Experimental Factor Type	light	genotype					
+Comment[SecondaryAccession]	GSE30910						
+Comment[GEOReleaseDate]	2013-07-22						
+Comment[ArrayExpressSubmissionDate]	2011-07-25						
+Comment[GEOLastUpdateDate]	2013-07-22						
+Comment[AEExperimentType]	transcription profiling by array						
+SDRF File	E-GEOD-30910.sdrf.txt						
+Publication Title	Arabidopsis bZIP16 transcription factor integrates light and hormone signaling pathways to regulate early seedling development.						
+Publication Author List	Hsieh WP, Hsieh HL, Wu SH						
+PubMed ID	23104829						
+Publication DOI	10.1105/tpc.112.105478						

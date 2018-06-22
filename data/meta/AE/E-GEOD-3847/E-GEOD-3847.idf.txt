@@ -1,0 +1,50 @@
+Investigation Title	Transcription profiling of Brassica oleracea seedlings subjected to phototropic or gravitropic stimuli	
+Comment[Submitted Name]	Tropic-stimulus induced changes in gene expression	
+Experimental Design	co-expression_design	growth_condition_design	transcription profiling by array	
+Experimental Design Term Source REF	mo	mo	EFO	
+Comment[ArrayExpressReleaseDate]	2007-07-10	
+Comment[SecondaryAccession]	GSE3847	
+Comment[AEMIAMESCORE]	4	
+Comment[SecondaryAccession]	GDS1689	
+Comment[ArrayExpressAccession]	E-GEOD-3847	
+Comment[MAGETAB TimeStamp_Version]	2010-08-05 12:03:12 Last Changed Rev: 13058	
+Experimental Factor Name	GrowthCondition	
+Experimental Factor Type	growth_condition	
+Experimental Factor Term Source REF	
+Person Last Name	Liscum	
+Person First Name	Emmanuel	
+Person Mid Initials	
+Person Email	liscume@missouri.edu	
+Person Phone	
+Person Fax	
+Person Address	Life Sciences Center,Biological Sciences,University of Missouri,Rollin Rd,Columbia,65211,USA	
+Person Affiliation	University of Missouri	
+Person Roles	submitter	
+Person Roles Term Source REF	The MGED Ontology	
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2007-07-10	
+PubMed ID	16371470	
+Publication DOI	16371470	
+Publication Author List	C Alex Esmon,Amanda G Tinsley,Karin Ljung,Goran Sandberg,Leonard B Hearne,Emmanuel Liscum	
+Publication Title	A gradient of auxin and auxin-dependent transcription precedes tropic growth responses.	
+Publication Status	journal_article	
+Publication Status Term Source REF	The MGED Ontology	
+Experiment Description	Plants, although sessile, can reorient growth axes in response to changing environmental conditions.  Phototropism and gravitropism represent adaptive growth responses induced by changes in light direction and growth axis orientation relative to gravitational direction, respectively.  The nearly 80-year-old Cholodny-Went theory Went, F.W. & Thimann, K.V. Phytohormones (1937) (Macmillan, New York) predicts that formation of a gradient of the plant morphogen auxin is central to the establishment of tropic curvature.  Loss of tropic responses in seedling stems of Arabidopsis thaliana mutants lacking the auxin-regulated transcriptional activator NPH4/ARF7 has further suggested that a gradient of gene expression represents an essential output from the auxin gradient.  Yet, the molecular identities of such output components, which are likely to encode proteins directly involved in growth control, have remained elusive.  Here we report the discovery of a suite of tropic stimulus-induced (TSI) genes in Brassica oleracea that are responsive to an auxin gradient, and exhibit morphologically graded expression concomitant with, or before, observable curvature responses.  These results provide compelling molecular support for the Cholodny-Went theory, and suggest that morphologically-graded transcription represents an important mechanism for interpreting tropically-stimulated gradients of auxin.  Intriguingly, two of the TSI genes, EXPA1 and EXPA8, encode enzymes involved in cell wall extension, a response prerequisite for differential growth leading to curvatures, and are upregulated prior to curvature in the flank that will elongate.  This observation suggests that morphologically-graded transcription likely leads to the graded expression of proteins whose activities can directly regulate the establishment and modulation of tropic curvatures. Experiment Overall Design: A 15Â° ophthalmic scalpel (Feather, Osaka, Japan) was used to isolate tissue flanks (~1 cm in length, see Fig. 1A) from etiolated B. oleracea seedlings that had received one of three treatments: 1) a mock stimulation; 2) a 2 h phototropic stimulation; or 3) a 2 h gravitropic stimulation.  Only the outer third of the hypocotyl was collected for each flank section, and opposing flanks were collected into separate pools.  Hence there were five distinct tissue samples (two flanks for each of two tropic stimulations plus one set of control flanks) with each sample being generated and collected in triplicate for a total of fifteen biological samples.  Tissue flanks were immediately quick frozen in liquid N2 and stored at â80Â°C until RNAs were isolated.  Total RNA was extracted from frozen tissue using the RNeasy kit (Qiagen, Valencia, CA), followed by cRNA synthesis (ENZO Diagnostics, Farmingdale, NY).  cRNA probe generation, as well as microarray hybridization, washing and scanning were performed as described by manufacturer protocols (Affymetrix, Santa Clara, CA).	
+Protocol Name	P-G3847-5	P-G3847-2	P-G3847-6	P-G3847-1	P-G3847-4	P-G3847-3	P-G3847-7	
+Protocol Type	nucleic_acid_extraction	nucleic_acid_extraction	nucleic_acid_extraction	nucleic_acid_extraction	nucleic_acid_extraction	nucleic_acid_extraction	labeling	
+Protocol Description	Approximately 100 3-day-old B. oleracea seedlings that has been gravity stimulated were trisected into top flanks, vasculature, and bottom  flanks. The top and bottom flanks were collected and Total RNA was extracted from the tissue  using an RNeasy kit (Qiagen).	Approximately 100 3-day-old B. oleracea seedlings that has been stimulated with unidirectional blue-light were trisected into lit flanks, vasculature, and shaded flanks. The shaded flanks were collected and Total RNA was extracted from the tissue  using an RNeasy kit (Qiagen).	Approximately 100 3-day-old dark grown, unstimulated B. oleracea seedlings were trisected into left and right flanks and vasculature. The flanks were collected and Total RNA was extracted from the tissue  using an RNeasy kit (Qiagen).	Approximately 100 3-day-old B. oleracea seedlings that has been stimulated with unidirectional blue-light were trisected into lit flanks, vasculature, and shaded flanks. The lit and shaded flanks were collected and Total RNA was extracted from the tissue  using an RNeasy kit (Qiagen).	Approximately 100 3-day-old B. oleracea seedlings that has been gravity stimulated were trisected into top flanks, vasculature, and bottom flanks. The  top and shaded flanks were collected and Total RNA was extracted from the tissue  using an RNeasy kit (Qiagen).	Approximately 100 3-day-old B. oleracea seedlings that has been gravity stimulated were trisected into top flanks, vasculature, and bottom flanks. The top and shaded flanks were collected and Total RNA was extracted from the tissue  using an RNeasy kit (Qiagen).	Approximately 20 Â&#956;g of total RNA was processed to produce biotinylated cRNA targets.	
+Protocol Parameters	
+Protocol Hardware	
+Protocol Software	
+Protocol Contact	
+Protocol Term Source REF	
+SDRF File	E-GEOD-3847.sdrf.txt	
+Term Source Name	mo	po	tair_dev:1.27	The MGED Ontology	ArrayExpress	mo	EFO	The MGED Ontology	
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.plantontology.org	http://www.arabidopsis.org/info/ontologies/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version			1.27						

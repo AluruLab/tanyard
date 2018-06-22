@@ -1,0 +1,51 @@
+Investigation Title	Transcription profiling of Arabidopsis srk2cf mutant plants under drought stress for 0, 1 and 4 hours							
+Comment[Submitted Name]	Transcription profiling of Arabidopsis srk2cf  mutant under drought stress							
+Experimental Design	time_series_design	genetic_modification_design	stimulus_or_stress_design	in_vivo_design	co-expression_design	replicate_design	transcription profiling by array	
+Experimental Design Term Source REF	The MGED Ontology	The MGED Ontology	The MGED Ontology		The MGED Ontology	The MGED Ontology	EFO	
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis srk2cf mutants in a drought stress time course.							
+Comment[SecondaryAccession]								
+Comment[ArrayExpressReleaseDate]	2009-10-15							
+Comment[AEMIAMESCORE]	5							
+Comment[ArrayExpressAccession]	E-MEXP-2377							
+Comment[MAGETAB TimeStamp_Version]	2010-08-10 12:44:31 Last Changed Rev: 13058							
+Experimental Factor Name	growth condition	time	genotype					
+Experimental Factor Type	growth condition	time	genotype					
+Experimental Factor Term Source REF								
+Person Last Name	Mizoguchi							
+Person First Name	Masahide							
+Person Mid Initials								
+Person Email	mizoguti@rtc.riken.jp							
+Person Phone	-5143							
+Person Fax								
+Person Address	Gene Discovery Research Team, 3-1-1, Kouyadai, Tsukuba, Ibaraki, 305-0074, Japan							
+Person Affiliation	RIKEN Plant Science Center							
+Person Roles	submitter							
+Person Roles Term Source REF	The MGED Ontology							
+Quality Control Type								
+Quality Control Term Source REF								
+Replicate Type								
+Replicate Term Source REF								
+Normalization Type								
+Normalization Term Source REF								
+Date of Experiment								
+Public Release Date	2009-10-15							
+PubMed ID	20375108							
+Publication DOI	10.1093/pcp/pcq041							
+Publication Author List	Mizoguchi, Masahide; Umezawa, Taishi; Nakashima, Kazuo; Kidokoro, Satoshi; Takasaki, Hironori; Fujita, Yasunari; Yamaguchi-Shinozaki, Kazuko; Shinozaki, Kazuo							
+Publication Title	Two Closely Related Subclass II SnRK2 Protein Kinases Cooperatively Regulate Drought-Inducible Gene Expression							
+Publication Status	published							
+Publication Status Term Source REF	EFO							
+Experiment Description	Microarray experiments were performed using Arabidopsis wild type plants (Col-0) and srk2cf double knockout mutants to investigate functions of two osmotic stress-activated protein kinases, SRK2C and SRK2F. Transcription profiles of wild type and mutants were compared under drought stress for 0, 1 and 4 h.							
+Protocol Name	P-MTAB-5478	P-MTAB-5479	P-MTAB-5477	P-AFFY-2	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6	Affymetrix:Protocol:ExpressionStat	
+Protocol Type	grow	nucleic_acid_extraction	specified_biomaterial_action	labeling	hybridization	feature_extraction	bioassay_data_transformation	
+Protocol Description	The plates were kept in a growth chamber with a conditions; 22 C, 16 hr light and 8 hr dark cycles for 2 weeks.<br>(Parameters: time unit = seconds, temperature unit = C, media = MS-3% sucrose)	Total RNA was extracted from frozen tissue using TRIzol reagent (Invitrogen) and purified using a RNease MinElute Cleanup Kit (Qiagen). <br>(Parameters: Extracted product = total_RNA, Amplification = none)	2-week old seedlings grown on agar plates were exposed to drought stress	Title: Affymetrix in vitro transcription. Description: 	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 	
+Protocol Parameters								
+Protocol Hardware								
+Protocol Software					MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact								
+Protocol Term Source REF					mo		The MGED Ontology	
+SDRF File	E-MEXP-2377.sdrf.txt							
+Term Source Name	NCBI Taxonomy		The MGED Ontology	tair_dev:1.27	ArrayExpress	The MGED Ontology	EFO	mo
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.arabidopsis.org/info/ontologies/	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version				1.27				

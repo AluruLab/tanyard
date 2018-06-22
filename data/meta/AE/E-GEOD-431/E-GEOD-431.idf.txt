@@ -1,0 +1,40 @@
+Investigation Title	Transcription profiling of Arabidopsis callose synthase deficient (pmr4-1) mutant and wild type plants infected with powdery mildew		
+Comment[Submitted Name]	pmr4 vs. wild-type (May, 2003)		
+Experimental Design	disease_state_design	strain_or_line_design	co-expression_design
+Experimental Design Term Source REF	The MGED Ontology	The MGED Ontology	The MGED Ontology
+Comment[ArrayExpressReleaseDate]	2007-07-13		
+Comment[SecondaryAccession]	GSE431		
+Comment[AEMIAMESCORE]	5		
+Comment[SecondaryAccession]	GDS417		
+Comment[ArrayExpressAccession]	E-GEOD-431		
+Comment[MAGETAB TimeStamp_Version]	2010-08-05 14:40:02 Last Changed Rev: 13058		
+Comment[AEExperimentType]	transcription profiling by array		
+Experimental Factor Name	infect	genotype	
+Experimental Factor Type	infect	genotype	
+Experimental Factor Term Source REF			
+Person Last Name	Somerville		
+Person First Name	Shauna		
+Person Mid Initials			
+Person Email	shauna@andrew2.stanford.edu		
+Person Phone			
+Person Fax			
+Person Address	Plant Biology,Carnegie Institution of Washington,260 Panama Street,Stanford,94305,USA		
+Person Affiliation	Carnegie Institution of Washington		
+Person Roles	submitter		
+Person Roles Term Source REF	The MGED Ontology		
+Public Release Date	2007-07-13		
+PubMed ID	12920300		
+Publication DOI	10.1126/science.1086716		
+Publication Author List	Marc T Nishimura,Monica Stein,Bi-Huei Hou,John P Vogel,Herb Edwards,Shauna C Somerville		
+Publication Title	Loss of a callose synthase results in salicylic acid-dependent disease resistance.		
+Publication Status	journal_article		
+Publication Status Term Source REF	The MGED Ontology		
+Experiment Description	There were two genotypes:,(1) Columbia-0, wild-type (C),(2)  pmr4-1 mutant (P), callose synthase deficient mutant (Vogel and Somerville (2000) Proc. Natl. Acad. Sci., USA 97: 1897).,There were two treatments:,(1) uninoculated (U),(2) 3 days after inoculation with the powdery mildew pathogen, Erysiphe cichoracearum, race UCSC (I).,There were four biological replicates, labeled 1, 2, 3 or 4.,Examples of the sample labels are:,CU1 = Columbia-0, uninoculated, replicate 1,CI2 = Columbia-0, 3 days after inoculation with powdery mildew, replicate 2,PU3 = pmr4-1, uninoculated, replicate 3,PI4 = pmr4-1, 3 days after inoculation with powdery mildew, replicate 4.,In total, there were 16 Affymetrix ATH1 GeneChips (2 genotypes x 2 treatments x 4 biological replicates).		
+Protocol Name	P-G431-1		
+Protocol Type	treatment protocol		
+Protocol Description	Growth Conditions and Inoculations: All experiments were performed as previously described (Vogel and Somerville, 2000, Proc. Natl. Acad. 97: 1897-1902). Arabidopsis thaliana and Hybrid Kuta squash (Park Seed, Greenwood, SC) were grown in growth chambers at 22o C with a 14 hr photoperiod and a light intensity of approximately 125 µEinsteins m-2 s-1 provided by Phillips F32T8 fluorescent lamps. Powdery mildew (Erysiphe cichoracearum UCSC1) was cultured on squash for 10-12 days and was then applied to Arabidopsis using 1.3 m settling towers. Plants were 3 weeks old at the time of inoculation. <br> RNA and Microarray Methods: Total RNA was extracted from the plants using the Trizol method (Invitrogen, Ramonell et al. (2002) Mol. Plant Pathol. 3: 301) and purified with a silica membrane column (Qiagen, RNeasy). Twenty micrograms biotinylated complementary RNA (cRNA) was prepared as described (Hernan et al. (2003) Cancer Res. 63, 140) from the purified total RNA. The resulting cRNA was used to hybridize ATH1 Arabidopsis GeneChips (Affymetrix) using the manufacturer’s protocols. <br> The array images were analyzed with the Affymetrix Microarray Suite 5.0 software with the target intensity set to 500. These data were imported into GeneSpring 4.2. To remove chip-to-chip signal variation, the reference data set, consisting of the intensity values for each gene averaged over four replicates of Columbia-1, uninoculated, was normalized by the intensity values of the top 50th percentile of genes on this array. The normalized values for the reference data set (Normalized Value of Control) are reported along with the intensity values for this array. <br> Keywords = callose <br>  Keywords = defense <br>  Keywords = disease <br>  Keywords = host-pathogen interaction <br>  Keywords = mutant <br> Keywords = powdery mildew <br> Keywords = salicylic acid <br> Lot batch = 1000854		
+Protocol Term Source REF	EFO		
+SDRF File	E-GEOD-431.sdrf.txt		
+Term Source Name	The MGED Ontology	ArrayExpress	EFO
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/
+Term Source Version			

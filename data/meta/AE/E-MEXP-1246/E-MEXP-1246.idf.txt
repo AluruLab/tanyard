@@ -1,0 +1,50 @@
+Investigation Title	Arabidopsis thaliana embryo sac transcriptome						
+Comment[Submitted Name]	Arabidopsis thaliana embryo sac transcriptome						
+Experimental Design	individual_genetic_characteristics_design	replicate_design	co-expression_design	transcription profiling by array			
+Experimental Design Term Source REF		mo	mo	EFO			
+Comment[AEExperimentType]	transcription profiling by array						
+Comment[AEExperimentDisplayName]	Arabidopsis thaliana embryo sac transcriptome						
+Comment[ArrayExpressReleaseDate]	2007-10-02						
+Comment[AEMIAMESCORE]	5						
+Comment[ArrayExpressAccession]	E-MEXP-1246						
+Comment[MAGETAB TimeStamp_Version]	2010-08-09 20:30:17 Last Changed Rev: 13058						
+Experimental Factor Name	genotype						
+Experimental Factor Type	genotype						
+Experimental Factor Term Source REF							
+Person Last Name	Johnston						
+Person First Name	Amal						
+Person Mid Initials	J						
+Person Email	ajohnston@ethz.ch						
+Person Phone	41-44-634-8353						
+Person Fax							
+Person Address	Zollikerstrasse 107						
+Person Affiliation	Plant Biotechnology						
+Person Roles	submitter						
+Person Roles Term Source REF	The MGED Ontology						
+Quality Control Type	biological_replicate						
+Quality Control Term Source REF	The MGED Ontology						
+Replicate Type							
+Replicate Term Source REF							
+Normalization Type							
+Normalization Term Source REF							
+Date of Experiment							
+Public Release Date	2007-10-02						
+PubMed ID	17915010						
+Publication DOI	10.1186/gb-2007-8-10-r204						
+Publication Author List	"Johnston AJ, Meier P, Gheyselinck J, Wuest SE, Federer M, Schlagenhauf E, Becker JD, Grossniklaus U"						
+Publication Title	Genetic subtraction profiling identifies genes essential for Arabidopsis reproduction and reveals interaction between the female gametophyte and the maternal sporophyte						
+Publication Status	published						
+Publication Status Term Source REF	EFO						
+Experiment Description	"differential expression between wild-type pistils of Arabidopsis thaliana at late 11 to late 12 floral stages, and similar stage pistils of coatlique mutant which lacks a functional embryo sac"						
+Protocol Name	P-MEXP-88477	P-MEXP-88478	P-MEXP-89695	P-AFFY-2	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6	Affymetrix:Protocol:ExpressionStat
+Protocol Type	specified_biomaterial_action	grow	nucleic_acid_extraction	labeling	hybridization	feature_extraction	bioassay_data_transformation
+Protocol Description	"We isolated the pistils at a stage between late 11 to late 12 floral stages. The gynoecia were dissected out of the flowers with a syringe needle (BD Micro-Fine, Franklin Lakes, USA) under a dissection scope (Leica Microsystem, Bensheim, Germany) and placed into a RNA protecting solution (RNA-Later, Ambion Inc., Austin, USA). In order to get statistically relevant data, three replicate tissue samples of wild-type and coa were harvested and extracted. Each tissue sample represented approximately 100 to 200 gynoecia, which yielded on average of 30 µg total RNA, a sufficient amount for the Affmetrix Gene Chip© hybridization procedure (manufacturers instructions)."	"The coatlique (coa) mutant was identified in Arabidopsis thaliana var. Landsberg (erecta mutant) (Ler) background and Ler was used as a wild-type control in the microarray experiments. Prior to transplanting, seeds were sown on Murashige and Skoog media (1% sucrose and 0.9% agar, pH 5.7) supplemented with appropriate selection markers and stratified for two days at 4°C. The seeds were germinated and grown for up to 15 days under 16-h-light/8-h-dark cycles at 22°C. Plants were then transplanted into soil (ED73 with Bims, Universal Erde, Germany) and grown in green house conditions under a 16 hours photoperiod at 22°C and 60% to 70% relative humidity."	"RNA was extracted from the gynoecia using TRIZOL according to the manufacturers instructions (Invitrogen-Life Technologies, Paisley, UK). The RNA was purified on an RNA column (RNAeasy, Qiagen, Basel Switzerland) according to the manufacturers instructions. At least 15 ug of each total RNA sample (each sample is hybridized on a separate chip) was used to start the cDNA synthesis."	Title: Affymetrix in vitro transcription. Description: 	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 
+Protocol Parameters			Amplification;Extracted product;				
+Protocol Hardware							
+Protocol Software					MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 5.0
+Protocol Contact							
+Protocol Term Source REF					mo		The MGED Ontology
+SDRF File	E-MEXP-1246.sdrf.txt						
+Term Source Name	NCBI Taxonomy	ArrayExpress	The MGED Ontology	mo	EFO	PO	
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://www.plantontology.org/	
+Term Source Version							

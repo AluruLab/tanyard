@@ -1,0 +1,51 @@
+Investigation Title	Transcription profiling of Arabidopsis wild type and TROL (AT4G01050) knock-out plants						
+Comment[Submitted Name]	The novel chloroplast thylakoid protein TROL is essential for efficient photosynthetic linear electron flow						
+Experimental Design	genetic modification design	in_vivo_design	co-expression_design				
+Experimental Design Term Source REF	EFO						
+Comment[AEExperimentType]	transcription profiling by array						
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis TROL knock-out plants						
+Comment[AEMIAMESCORE]	5						
+Comment[SecondaryAccession]							
+Comment[ArrayExpressReleaseDate]	2009-08-20						
+Comment[ArrayExpressAccession]	E-MEXP-1783						
+Comment[MAGETAB TimeStamp_Version]	2010-08-09 23:46:11 Last Changed Rev: 13058						
+Experimental Factor Name	genotype						
+Experimental Factor Type	genotype						
+Experimental Factor Term Source REF							
+Person Last Name	Tomasic						
+Person First Name	Ana						
+Person Mid Initials							
+Person Email	atomasic@irb.hr						
+Person Phone	+385 1 4561 019						
+Person Fax	+385 1 4561 177						
+Person Address	Bijenicka cesta 54, Zagreb, Europe, 10 000, Croatia						
+Person Affiliation	Institut Rudjer Boskovic						
+Person Roles	submitter						
+Person Roles Term Source REF							
+Quality Control Type							
+Quality Control Term Source REF							
+Replicate Type							
+Replicate Term Source REF							
+Normalization Type							
+Normalization Term Source REF							
+Date of Experiment							
+Public Release Date	2009-08-20						
+PubMed ID							
+Publication DOI							
+Publication Author List							
+Publication Title							
+Publication Status							
+Publication Status Term Source REF							
+Experiment Description	Here we describe TROL (thylakoid rhodanese-like protein), a nuclear-encoded component of thylakoid membranes that is required for sustaining efficient linear electron flow in vascular plants. Thus, TROL might represent a missing thylakoid membrane linker for the assembly of a ternary complex between FNR, ferredoxin and NADP+. Such a complex is necessary for maintaining photosynthetic redox poise and balancing between several alternative electron-transport pathways of oxygenic photosynthesis. TROL inactivation modulates the expression of 638 nuclear genes, revealing a novel retrograde signaling pathway. Chloroplasts are the major source of NADPH which is exported to the cytosol where it participates in various redox-dependent processes. TROL is most likely the first element in a metabolic signaling pathway which influences the expression of a large set of stress related genes. Among them are O-methyltransferases and anthocyanin 5-aromatic acyltransferase which are highly upregulated. Microarray analysis was performed in order to identify metabolic networks and pathways regulated by the deficient protein TROL. Comparing ATH1 Affymetrix data results, 317 genes were down-regulated and 321 genes were classified as up-regulated, amongst which mostly affected enzymes were catalyses, oxigenases, monooxygenases and reductases involved in the process of photosynthesis.						
+Protocol Name	P-MTAB-1572	P-MTAB-1573	P-MTAB-1571	P-AFFY-2	Affymetrix:Protocol:Hybridization-EukGE-WS2v4[]	P-AFFY-6	P-MTAB-1570
+Protocol Type	grow	specified_biomaterial_action	nucleic_acid_extraction	labeling	hybridization	feature_extraction	bioassay_data_transformation
+Protocol Description	Arabidopsis thaliana (L.) ecotype Columbia (Col-0) and transgenic seeds (SAIL_27_B04)  were grown on soil using Arasystem at 20 °C under 80 ?mol photons m-2 s-1, a 16 hr photoperiod, 60% (day) and 70% (night) humidity. All the samples for experiment were grown at the same time and under the same conditions (light/temperature/media).<br>(Parameters: time unit = seconds, temperature unit = C)	Plants were grown in growth chamber under following conditions: 80 mmolPHOTONSm-2s-1 of light, 20ºC through day (16h, 60% of humidity), 18ºC over night (8h, 70% of humidity). Tissues used for RNA isolation were rosette leaves. Total RNA samples were isolated in three replicates from the control group leaves, wild-type plants (Arabidopsis thaliana ecotype Columbia) and experimental homozygous mutant plants (TROL deficient). A set of 3 biological replicates were generated for each treatment. Wild-type and knock-out (transgenic Arabidopsis plants) extracted samples were submitted to Affymetrix platform to evaluate the expression of genes in the Arabidopsis genome.	Total RNA was extracted from the 4 weeks old wild-type and TROL deficient Arabidopsis rosette leaves using spin columns (QIAGEN RNeasy Plant Mini Prep Kit), followed by DNase treatment. Genomic DNA contamination was removed during the RNA isolation. We have used a DNase designed for on-column digestion (Qiagen´s RNase-Free DNase Set). Qiagen RNeasy Plant kit was used to extract RNA from approximately 100 mg of Col wild type and mutant leaves. Purified RNA concentrations were determined by measuring the absorbance at 260 nm in a spectrophotometer using quartz cuvettes (Ab260/Ab280 ratio should be between 1.8-2.1). Electrophoresis profile of RNA samples was assessed by formaldehyde agarose gel (1 % agarose, 1 x MOPS, 0.6 % formaldehyde) using EtBr in a loading buffer (1 x MOPS, 50 % formamide, 6 % formaldehyde, 6.5 % glycerol, 0.015 % BPB, 0.01 % EtBr). <br>(Parameters: Extracted product = total_RNA, Amplification = none)	Title: Affymetrix in vitro transcription. Description: 	Title: Affymetrix EukGE-WS2v4 Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	Transgenic and wild-type plants were analyzed with the Affymetrix ATH1 GeneChip which contains 22,810 Arabidopsis probe sets to evaluate the expression of genes in the Arabidopsis genome. Signals from three mutant and three wild-type samples (n=3) were analyzed by GeneChip Operating (GCOS) software. Microarray signals were made comparable by scaling the average overall signal intensity of all probe sets to a target signal (TGT) of 100 (global scaling/normalization method, Affymetrix GeneChip Operating (GCOS) software). Genes with a significant difference in 66% of the perfect match to mismatch probes were called present (detection p-value < 0.005, GCOS Single Array Analysis mode).
+Protocol Parameters							
+Protocol Hardware							
+Protocol Software					MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact							
+Protocol Term Source REF							
+SDRF File	E-MEXP-1783.sdrf.txt						
+Term Source Name	EFO						
+Term Source File	http://www.ebi.ac.uk/efo/						
+Term Source Version							

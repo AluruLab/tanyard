@@ -1,0 +1,31 @@
+Comment[ArrayExpressAccession]	E-MEXP-3733
+Investigation Title	Transcription profiling by array of Arabidopsis ABA-deficient mutant aba1-6 after infection with Plectosphaerella cucumerina																								
+Comment[Submitted Name]	Transcription profiling by array of Arabidopsis ABA-deficient mutant aba1-6 after infection with Plectosphaerella cucumerina
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis ABA-deficient mutant aba1-6 after infection with Plectosphaerella cucumerina																								
+Comment[MIAMExpressLogin]	andrea.sanchezv																								
+Comment[MIAMExpressSubmissionID]	8311																								
+Experiment Description	Transcription profiling of Arabidopsis ABA-deficient mutant aba1-6 after infection with Plectosphaerella cucumerina																								
+Experimental Design	co-expression_design	genetic modification design	replicate_design	disease state design																					
+Comment[AEExperimentType]	transcription profiling by array																								
+Experimental Factor Name	DISEASE_STATE	GENOTYPE																							
+Experimental Factor Type	disease_state	genotype																							
+Person Last Name	Sanchez																								
+Person First Name	Andrea																								
+Person Email	andrea.sanchezv@upm.es																								
+Person Phone	31317483412																								
+Person Affiliation	Wageningen University																								
+Person Address	Phytopathology, Droevendaalsesteeg 1, Wageningen, NL, 6708DB, Netherlands																								
+Person Roles	submitter																								
+Person Roles Term Source REF	MGED Ontology																								
+Quality Control Type	biological_replicate																								
+Public Release Date	2012-09-30																								
+Comment[ArrayExpressSubmissionDate]	2012-09-10 17:28																								
+Publication Title	Disruption of abscisic acid signalling constitutively activates Arabidopsis resistance to the necrotrophic fungus Plectosphaerella cucumerina																								
+Publication Status	submitted																								
+Protocol Name	P-MTAB-28287	P-MTAB-28288	P-MTAB-28289	P-MTAB-28290
+Protocol Description	RNA extraction described in Berrocal-lobo et al, 2002 (Parameters: Extracted product = total_RNA, Amplification = none)	Three-week-old Arabidopsis plants were spray-inoculated with a spore suspension (4 x 10^6 spores/ml) of PcBMM (0.6 ml per pot containing 5 plants). After inoculation, plants were transferred to a growth chamber with a 10 h day/14 h night photoperiod, a temperature of 24C day/22C night, and light intensity was maintained at 120–150 umol m-2 s-1. Inoculated plants were kept under high humidity in covered traits.	GenePix 4000B Microarray Scanner was performed according to the manufacturer (Parameters: Scanning hardware = GenePix 4000B [Axon Instruments], Scanning software = GenePix [Axon Instruments])	Arabidopsis thaliana plants were grown in phytochambers on a sterilized mixture of soil and vermiculite (3:1) with a 10 h day/14 h night photoperiod, a temperature of 22C day/20C night and 50% relative humidity . Light intensity was fixed to 120–150 umol m-2 s-1 (Hernández-Blanco et al., 2007) (Parameters: time unit = seconds, temperature unit = C)																					
+Protocol Type	nucleic_acid_extraction	specified_biomaterial_action	image_acquisition	grow																					
+Protocol Term Source REF	MGED Ontology	MGED Ontology	MGED Ontology	MGED Ontology																					
+Term Source Name	MGED Ontology	ArrayExpress
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress																							
+SDRF File	E-MEXP-3733.sdrf.txt

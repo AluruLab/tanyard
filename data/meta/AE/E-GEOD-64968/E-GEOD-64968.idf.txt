@@ -1,0 +1,25 @@
+Comment[ArrayExpressAccession]	E-GEOD-64968
+MAGE-TAB Version	1.1						
+Public Release Date	2015-01-15
+Investigation Title	Expression data from Arabidopsis wild-type (Col-0) and KO-nudx19  plants, which lacks nudix hydrolase 19, a NADPH hydrolase						
+Comment[Submitted Name]	Expression data from Arabidopsis wild-type (Col-0) and KO-nudx19  plants, which lacks nudix hydrolase 19, a NADPH hydrolase
+Experiment Description	The NADPH status, which is regulated by AtNUDX19, a NADPH pyrophosphohydrolase, is involved in the regulation of stress and hormonal responses. To clarify how the status is involved in the regulation, we performed a microarray analysis using 3-week-old wild-type and KO-nudx19 leaves grown under normal light conditions. Wild-type and KO-nudx19 plants were grown on MS medium containing 3% sucrose in a growth chamber kept at 25Â°C during 16 h of light (100 Âµmol/m2/s) and at 22Â°C during 8 h of darkness for 1 week, and then transferred to and further grown on soil for 2 weeks in the same chamber. At 3 weeks, leaves were collected as samples for microarray analysis.						
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Maruta	Maruta	Yoshimura	Shigeoka			
+Person First Name	Takanori	Takanori	Kazuya	Shigeru			
+Person Email	geo@ncbi.nlm.nih.gov						
+Person Affiliation	Shimane university						
+Person Address	Shimane university, 1060 Nishikawatsu, Matsue, Japan						
+Person Roles	submitter						
+Protocol Name	P-GSE64968-1	P-GSE64968-5	P-GSE64968-6	P-GSE64968-2	P-GSE64968-3	P-GSE64968-4	P-GSE64968-7
+Protocol Description	Raw data were processed using Affymetrix Gene Chip Operating Software (GCOS; Version 1.4.0.036). ID_REF =  VALUE = MAS5 Signal ABS_CALL = indicating whether the transcript was present (P), absent (A), or marginal (M) DETECTION P-VALUE = 	Total RNA samples were reverse-transcribed, yielding double-strand cDNA, which was transcribed in vitro in the presence of biotin-labeled nucleotides with an IVT Labeling Kit (Affymetrix Inc., Santa Clara, CA), and purified.	Labeled cRNA was fragmented and hybridized to Affymetrix ATH1 GeneChip arrays for 16 h at 45°C according to Affymetrix protocols.	At 3 weeks, leaves were collected as samples for microarray analysis.	Wild-type and KO-nudx19 plants were grown on MS medium containing 3% sucrose in a growth chamber kept at 25°C during 16 h of light (100 µmol/m2/s) and at 22°C during 8 h of darkness for 1 week, and then transferred to and further grown on soil for 2 weeks in the same chamber.	Total RNA was semi-automatically purified from leaves using a QuickGene RNA cultured cell Kit and QuickGene-Mini80 (FUJIFILM corporation, Tokyo, Japan). The quality and purity of the RNA were confirmed for microarray analysis with an Ultrospec 2100 pro (GE Healthcare UK Ltd, Amersham Place, England).	Arrays were washed on an Affymetrix Fluidics Station 450 and measured for fluorescence intensity with an Affymetrix GeneChip Scanner 3000.
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	genotype						
+Experimental Factor Type	genotype						
+Comment[SecondaryAccession]	GSE64968						
+Comment[GEOReleaseDate]	2015-01-15						
+Comment[ArrayExpressSubmissionDate]	2015-01-14						
+Comment[GEOLastUpdateDate]	2015-01-15						
+Comment[AEExperimentType]	transcription profiling by array						
+SDRF File	E-GEOD-64968.sdrf.txt

@@ -1,0 +1,24 @@
+Comment[ArrayExpressAccession]	E-GEOD-47092
+MAGE-TAB Version	1.1						
+Public Release Date	2013-05-31
+Investigation Title	Effects of bacterium Burkholderia phytofirmans PsJN in Arabidopsis						
+Comment[Submitted Name]	Effects of bacterium Burkholderia phytofirmans PsJN in Arabidopsis
+Experiment Description	Plant growth promoting rhizobacteria (PGPR) induce positive effects in plants, such as increased growth or reduced stress susceptibility. The mechanisms behind PGPR/plant interaction are poorly understood, as most studies have described short- term responses on plants and only a few studies have analyzed plant molecular responses under PGPR colonization. Transcriptional profiles were determined by microarray analysis (Affymetrix ATH1 Genome Array) in Arabidopsis thaliana plants inoculated with the PGPR bacterial model Burkholderia phytofirmans PsJN Arabidopsis seeds were sown on square Petri dishes with half strength Murashige and Skoog medium (MS) 0.8% agar, and inoculated or not (control) with strain PsJN. To assess the effect of inactivated bacteria, an inoculum was heated at 95¬∞C for 20 min and then was used at the same dilution.Three biological replicates, consisting of ten plantlets of 13 days after sowing (DAS) each, for control and strain PsJN treatments, were used for global gene expression.						
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Vega	Poupin	Timmermann	Vega	ZunÃÉiga	GonzaÃÅlez	
+Person First Name	Andrea	Maria	Tania	Andrea	Ana	Bernardo	
+Person Mid Initials		J					
+Person Email	avegac@puc.cl						
+Person Affiliation	Pontificia Universidad Catolica de Chile						
+Person Address	Ciencias Vegetales, Pontificia Universidad Catolica de Chile, Vicu√±a Mackenna 4860, Santiago, Chile						
+Person Roles	submitter						
+Protocol Name	P-GSE47092-1	P-GSE47092-5	P-GSE47092-6	P-GSE47092-2	P-GSE47092-3	P-GSE47092-4	P-GSE47092-7
+Protocol Description	The data were processed and normalized by RMA using the R package known as ‚Äúaffy‚Äù. ID_REF =  VALUE = RMA expression values (log2-transformed)	Biotinylated aRNA were prepared according to the standard Affymetrix protocol from 0.5 ug total RNA (GeneChipÆ 3‚Äô IVT Express Kit User Manuall, 2008, Affymetrix).	Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45C on GeneChipÆ Arabidopsis ATH1 Genome Array. GeneChips were washed and stained in the Affymetrix Fluidics Station 450.	For treatment, B. phytofirmans PsJN, kindly provided by A. Sessitsch (AIT, Austria), was routinely grown in minimal saline medium, containing 10 mM fructose, in an orbital shaker (150 rpm) at 30∞C. Cell suspensions from each inoculum were then collected and adjusted to approximately 108 colony forming units per millilitre (CFU/ml), as determined by plate counting	Col-0 A. thaliana seedswere surface sterilized with 50% sodium hypochlorite (100% commercial laundry bleach) containing 0.1% Tween 20, rinsed three times with sterile water, and kept at 4∞C for 4 days to synchronize germination. Then, seeds were sown on square Petri dishes with half strength Murashige and Skoog medium (MS) 0.8% agar, inoculated or not with of strain PsJN (104 CFU/ml). To assess the effect of inactivated bacteria, an inoculum was heated at 95∞C for 20 min and then was used at a dilution of 104 CFU/ml. Mortality was corroborated by plate counting. Plates were placed vertically in a growth chamber at 22∞C with a photoperiod of 12 h of light and 12 h of dark. At day 13 after sowing (13 DAS) transcriptional profiles were determined.	Trizol extraction of total RNA was performed according to the manufacturer's instructions.	Array scanning was carried out with the GeneChipÆ scanner 300 and image analysis was performed using the GeneChipÆ Operating Software
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Comment[SecondaryAccession]	GSE47092						
+Comment[GEOReleaseDate]	2013-05-31						
+Comment[ArrayExpressSubmissionDate]	2013-05-20						
+Comment[GEOLastUpdateDate]	2013-06-01						
+Comment[AEExperimentType]	transcription profiling by array						
+SDRF File	E-GEOD-47092.sdrf.txt

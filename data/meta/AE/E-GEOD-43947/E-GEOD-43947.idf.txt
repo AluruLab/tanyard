@@ -1,0 +1,25 @@
+Comment[ArrayExpressAccession]	E-GEOD-43947
+MAGE-TAB Version	1.1						
+Public Release Date	2013-06-01
+Investigation Title	Expression data from Arabidopsis leaves after gamma irradiation of 200 Gy						
+Comment[Submitted Name]	Expression data from Arabidopsis leaves after gamma irradiation of 200 Gy
+Experiment Description	Arabidopsis cmt3 mutant showed neither DNA hypomethylation nor transcriptional activation of silenced repeats by gamma rays, which was found in wild type (WT). We used microarrays to compare the global transcriptional changes between the WT and cmt3 after the irradiation of 200 Gy. Transcriptions of transposition-related genes seemed to be differently affected in the WT and cmt3 by gamma rays, depending on the epigenetic codes of the genome. However, genome-wide transcriptions of the WT and cmt3 couldn't be positively correlated with the different levels of DNA methylation after the irradiation of 200 Gy. Rosette leaves from more than 10 plants were pooled for total RNA extraction and hybridization on Affymetrix Arabidopsis ATH1 genechips. We performed two independent array experiments using totally different biological replicates of WT and cmt3 mutant plants with or without gamma irradiation.						
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Kim	Kim	Kim				
+Person First Name	Jin-Hong	Jin-Hong	JiEun				
+Person Email	jhongkim@kaeri.re.kr						
+Person Affiliation	Korea Atomic Energy Research Institute						
+Person Address	Korea Atomic Energy Research Institute, 29 Geumgu-gil, Jeongeup, Jeonbuk, South Korea						
+Person Roles	submitter						
+Protocol Name	P-GSE43947-1	P-GSE43947-5	P-GSE43947-6	P-GSE43947-2	P-GSE43947-3	P-GSE43947-4	P-GSE43947-7
+Protocol Description	The scanned data were extracted through Affymetrix Command Console 1.1 software to generate raw CEL files. Expression data were generated from the CEL files using MAS5.0 algorithm in Affymetrix Expression Console 1.2 software. ID_REF =  VALUE = MAS5.0 signal intensity ABS_CALL =  DETECTION P-VALUE = 	Conversion of RNA into ds cDNA and generation of biotin-labeled cRNA from the ds cDNA were performed as recommended by the Affymetrix GeneChip® Expression Analysis Technical Manual.	Hybridization, washing, and staining of the biotin-labeled cRNA with GeneChip® Arabidopsis ATH1 Genome Array were performed as recommended by the Affymetrix GeneChip® Expression Analysis Technical Manual.	Rosette leaves were frozen immediately after detachment and ground in liquid nitrogen to fine powder.	Plants were grown in a growth chamber with a 16-h photoperiod at 22/18oC (day/night).	Total RNA was extracted from the leaf powder using RNeasy Plant Mini Kit (Qiagen) according to the supplierâ€™s recommendation Kit (Qiagen, Chatsworth, CA, USA) according to the supplierâ€™s recommendation. For complete DNA removal, RNase-Free DNase Set (Qiagen, Chatsworth, CA, USA) provided efficient on-column digestion Total RNA was extracted from leaves using RNeasy Plant Mini Kit	GeneChip arrays were scanned using Affymetrix GeneChip® Scanner 3000 7G.
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	DEVELOPMENTAL STAGE						
+Experimental Factor Type	developmental stage						
+Comment[SecondaryAccession]	GSE43947						
+Comment[GEOReleaseDate]	2013-06-01						
+Comment[ArrayExpressSubmissionDate]	2013-01-31						
+Comment[GEOLastUpdateDate]	2013-06-02						
+Comment[AEExperimentType]	transcription profiling by array						
+SDRF File	E-GEOD-43947.sdrf.txt

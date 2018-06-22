@@ -1,0 +1,57 @@
+Comment[ArrayExpressAccession]	E-GEOD-21611					
+Public Release Date	2010-09-12					
+Investigation Title	Oscillating gene expression determines competence for periodic branching in the Arabidopsis root					
+Comment[Submitted Name]	Oscillating gene expression determines competence for periodic branching in the Arabidopsis root					
+Experiment Description	The Oscillation Zone (OZ) of unsynchronized roots was dissected and divided into an upper (OZ2) and lower (OZ1) half . Samples were ordered according to DR5:GUS expression as analyzed by real time PCR to find periodic expression patterns Seedlings were grown for 5 days. 39 individual roots were dissected for RNA extraction. These microarray samples profile a specific region of the root tip designated as the Oscillation zone. Arrangement of the samples in the following order: OZ1-1, OZ1-4, OZ1-23, OZ1-14, OZ1-17, OZ1-2, OZ1-6, OZ1-13, OZ1-15, OZ1-16, OZ1-10, OZ1-32, OZ1-3, OZ1-31, OZ1-22, OZ1-35, OZ1-19, OZ1-9, OZ1-33, OZ1-20, OZ2-4, OZ2-23, OZ2-14, OZ2-6, OZ2-13, OZ2-15, OZ2-10, OZ2-32, OZ2-22, OZ2-35, OZ2-19, OZ2-9, OZ2-20, OZ2-36, OZ2-39, OZ2-21, OZ2-40, OZ2-38, OZ2-1, was used to identify periodic expression patterns.					
+Date of Experiment						
+Term Source Name	EFO					
+Term Source Version						
+Term Source File	http://efo.svn.sourceforge.net/viewvc/efo/trunk/src/efoinowl/efo.owl					
+Person Last Name	Moreno-Risueno	Moreno-Risueno	Benfey			
+Person First Name	Miguel	Miguel	Philip			
+Person Mid Initials	Angel	A	N			
+Person Email	mm141@duke.edu					
+Person Affiliation	Duke University					
+Person Phone	9196138203					
+Person Fax						
+Person Address	Biology, Duke University, 124 Science Dr, Durham , NC, USA					
+Person Roles	submitter					
+Person Roles Term Source REF						
+Person Roles Term Accession Number						
+Normalization Type						
+Normalization Term Accession Number						
+Normalization Term Source REF						
+Replicate Type						
+Replicate Term Accession Number						
+Replicate Term Source REF						
+Experimental Design						
+Experimental Design Term Accession Number						
+Experimental Design Term Source REF						
+Quality Control Type						
+Quality Control Term Accession Number						
+Quality Control Term Source REF						
+Protocol Name	P-GSE21611-1	P-GSE21611-5	P-GSE21611-4	P-GSE21611-2	P-GSE21611-3	P-GSE21611-6
+Protocol Description	ID_REF = <br>VALUE = MAS 5.0 signal<br>ABS_CALL = indicating whether the transcript was present (P), absent (A), or marginal (M)<br>DETECTION P-VALUE = 	see Affymetrix standard protocols	see Affymetrix standard protocols	see Affymetrix standard protocols	see Affymetrix standard protocols	MAS 5.0
+Protocol Software						
+Protocol Hardware						
+Protocol Contact						
+Protocol Type	bioassay_data_transformation	image_aquisition	hybridization	nucleic_acid_extraction	labeling	feature_extraction
+Protocol Term Source REF						
+Protocol Term Accession Number						
+Experimental Factor Name	PERIODIC ORDER	ORGANISM PART				
+Experimental Factor Type	individual	organism_part				
+Experimental Factor Term Source REF						
+Experimental Factor Term Accession Number						
+Publication Title	Oscillating gene expression determines competence for periodic Arabidopsis root branching.					
+Publication Author List	Moreno-Risueno MA, Van Norman JM, Moreno A, Zhang J, Ahnert SE, Benfey PN					
+PubMed ID	20829477					
+Publication DOI	10.1126/science.1191937					
+Publication Status	published					
+Publication Status Term Source REF	EFO					
+Publication Status Term Accession Number	EFO_0001796					
+Comment[SecondaryAccession]	GSE21611					
+Comment[GEOLastUpdateDate]	2010-09-11					
+Comment[AEExperimentType]	transcription profiling by array					
+Comment[GEOReleaseDate]	2010-09-11					
+Comment[ArrayExpressSubmissionDate]	2010-04-29					
+SDRF File	E-GEOD-21611.sdrf.txt					

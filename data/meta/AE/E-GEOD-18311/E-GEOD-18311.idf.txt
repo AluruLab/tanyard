@@ -1,0 +1,58 @@
+Comment[ArrayExpressAccession]	E-GEOD-18311							
+Public Release Date	2010-09-28							
+Investigation Title	Comparison of gene expression in wild type and angustifoila3 leaf primorida							
+Comment[Submitted Name]	Comparison of gene expression in wild type and angustifoila3 leaf primorida							
+Experiment Description	Development of a flat structure of leaves depend on active expansion of leaf blades mediated by cell proliferation. The angustifolia3 (an3) mutants of Arabidopsis thaliana are defective in cell proliferation in leaf primorida. AN3 encodes a transcription coactivator and interacts with a putative transcription factor AtGRF5. To investigate how AN3 control cell proliferation, we compared gene expression profiles between an3 and wild type. This analysis provide an insight into AN3-dependent cell proliferation pathway. Comparison between an3-4 and wild type. Two replicates for each sample. 							
+Date of Experiment								
+Term Source Name	EFO							
+Term Source Version								
+Term Source File	http://efo.svn.sourceforge.net/viewvc/efo/trunk/src/efoinowl/efo.owl							
+Person Last Name	Horiguchi	Horiguchi	Ishikawa	Kubo	Demura	Fukuda	Tsukaya	
+Person First Name	Gorou	Gorou	Naoko	Minoru	Taku	Hiroo	Hirokazu	
+Person Mid Initials								
+Person Email	ghori@rikkyo.ac.jp							
+Person Affiliation	Rikkyo University							
+Person Phone	+81-3-3985-4146							
+Person Fax	+81-3-3985-4146							
+Person Address	College of Science, Faculty of Life Science, Rikkyo University, 3-34-1, Nishi-Ikebukuro, Toshima-ku, Tokyo, Japan							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Person Roles Term Accession Number								
+Normalization Type								
+Normalization Term Accession Number								
+Normalization Term Source REF								
+Replicate Type								
+Replicate Term Accession Number								
+Replicate Term Source REF								
+Experimental Design								
+Experimental Design Term Accession Number								
+Experimental Design Term Source REF								
+Quality Control Type								
+Quality Control Term Accession Number								
+Quality Control Term Source REF								
+Protocol Name	P-GSE18311-1	P-GSE18311-6	P-GSE18311-3	P-GSE18311-8	P-GSE18311-7	P-GSE18311-2	P-GSE18311-4	P-GSE18311-5
+Protocol Description	ID_REF = <br>VALUE = signal<br>ABS_CALL = absent or present<br>DETECTION P-VALUE = 	Standard affymetrix protocol	Plants were grown at 22C under continuous light.	The data were analyzed with Microarray Suite version 5.0 (MAS 5.0) using Affymetrix default analysis settings and global scaling as normalization method.	Standard affymetrix protocol	Leaf primordia were transferred to liquid nitrogen before RNA extraction	Total RNA was prepared using RNeasy Plant Mini Kit (Qiagen) according to the manufacturer's instructions.	Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 10 microg total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+Protocol Software								
+Protocol Hardware								
+Protocol Contact								
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Protocol Term Source REF								
+Protocol Term Accession Number								
+Experimental Factor Name	GENOTYPE							
+Experimental Factor Type	genotype							
+Experimental Factor Term Source REF								
+Experimental Factor Term Accession Number								
+Publication Title								
+Publication Author List								
+PubMed ID								
+Publication DOI								
+Publication Status								
+Publication Status Term Source REF								
+Publication Status Term Accession Number								
+Comment[SecondaryAccession]	GSE18311							
+Comment[GEOLastUpdateDate]	2009-11-14							
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for an3							
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[GEOReleaseDate]	2010-09-27							
+Comment[ArrayExpressSubmissionDate]	2009-09-28							
+SDRF File	E-GEOD-18311.sdrf.txt							

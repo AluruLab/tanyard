@@ -1,0 +1,51 @@
+Investigation Title	Transcript profiling of Arabidopsis thaliana transgenic seedlings constitutively overexpressing UGT74E2 (35S::UGT74E2).						
+Comment[Submitted Name]	UGT74E2OE						
+Experimental Design	development_or_differentiation_design	in_vitro_design	co-expression_design	transcription profiling by array			
+Experimental Design Term Source REF	mo:1.3.1.1		The MGED Ontology	EFO			
+Comment[SecondaryAccession]							
+Comment[ArrayExpressReleaseDate]	2009-09-19						
+Comment[[AEExperimentDisplayName]	Transcript profiling by array of Arabidopsis thaliana transgenic seedlings constitutively overexpressing UGT74E2						
+Comment[AEExperimentType]	transcription profiling by array						
+Comment[AEMIAMESCORE]	5						
+Comment[ArrayExpressAccession]	E-MEXP-2358						
+Comment[MAGETAB TimeStamp_Version]	2010-10-14 08:51:48 Last Changed Rev: 14677						
+Experimental Factor Name	genotype						
+Experimental Factor Type	genotype						
+Experimental Factor Term Source REF							
+Person Last Name	Van Aken						
+Person First Name	Olivier						
+Person Mid Initials							
+Person Email	olake@cyllene.uwa.edu.au						
+Person Phone	+61/8/64882112						
+Person Fax							
+Person Address	ARC Plant Energy Biology, 35 Stirling highway, Crawley, Western Australia, 6009, Australia						
+Person Affiliation	University of Western Australia						
+Person Roles	submitter						
+Person Roles Term Source REF	The MGED Ontology						
+Quality Control Type	biological_replicate	spike_quality_control					
+Quality Control Term Source REF	The MGED Ontology	The MGED Ontology					
+Replicate Type							
+Replicate Term Source REF							
+Normalization Type							
+Normalization Term Source REF							
+Date of Experiment							
+Public Release Date	2009-09-19						
+PubMed ID	20798329						
+Publication DOI	10.1105/tpc.109.071316						
+Publication Author List	Tognetti VB, Van Aken O, Morreel K, Vandenbroucke K, van de Cotte B, De Clercq I, Chiwocha S, Fenske R, Prinsen E, Boerjan W, Genty B, Stubbs KA, Inzé D, Van Breusegem F						
+Publication Title	Perturbation of indole-3-butyric acid homeostasis by the UDP-glucosyltransferase UGT74E2 modulates Arabidopsis architecture and water stress tolerance						
+Publication Status							
+Publication Status Term Source REF							
+Experiment Description	Transcript profiling of transgenic Arabidopsis thaliana seedlings constitutively overexpressing UGT74E2 (35S::UGT74E2).						
+Protocol Name	P-MTAB-5369	P-MTAB-5370	P-AFFY-2	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6	Affymetrix:Protocol:ExpressionStat	
+Protocol Type	grow	nucleic_acid_extraction	labeling	hybridization	feature_extraction	bioassay_data_transformation	
+Protocol Description	Arabidopsis Col-0 and homozygous UGT74E2OE3.10 seeds were sown on half-strength MS plant medium (2.15 g/L MS basal medium (Duchefa, http://www.duchefa.com/), 0.5 g/L 2-(N-morpholino)ethanesulfonic acid, 0.1 g/L myo-inositol, 10 g/L sucrose, 7 g/L plant tissue culture agar (LabM, http://www.labm.com/), 0.5 mg/L nicotinic acid, 0.5 mg/L pyridoxine and 1 mg/L thiamine) at 21C and 65 uE m-2 sec-1 radiation in a 16-h light/8-h dark photoperiod in triplicate. Per triplicate, the plantlets were harvested at developmental stage 1.04 (Boyes et al., 2001). Total RNA was isolated with TRIzol reagent (Invitrogen). Each triplicate of Arabidopsis Col-0 and homozygous transgenic plants was hybridized to one Affymetrix chip (GeneChip, Arabidopsis ATH1 Genome Array; Affymetrix, http://www.affymetrix.com). For each hybridization, 5 ug of total RNA was used and analyzed with Affymetrix chips at the VIB Microarray Facility (Leuven, Belgium) under the manufacturer's conditions (http://https://www.affymetrix.com).<br>(Parameters: start time = 0, time unit = seconds, min temperature = 21, temperature unit = C, media = 1/2 strength Murashige-Skoog)	Total RNA was extracted from 100 mg of snap frozen homogenised Arabidopsis tissue using the Trizol RNA extraction reagent according to the manufacturer's description (Invitrogen)<br>(Parameters: Extracted product = total_RNA, Amplification = none)	Title: Affymetrix in vitro transcription. Description: 	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 	
+Protocol Parameters							
+Protocol Hardware							
+Protocol Software				MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact							
+Protocol Term Source REF				mo		The MGED Ontology	
+SDRF File	E-MEXP-2358.sdrf.txt						
+Term Source Name	NCBI Taxonomy	The MGED Ontology	ArrayExpress	The MGED Ontology	mo:1.3.1.1	EFO	mo
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version						1.3.1.1	

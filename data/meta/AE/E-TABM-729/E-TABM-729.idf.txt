@@ -1,0 +1,51 @@
+Investigation Title	Transcription profiling by array of Arabidopsis mutant for gia3					
+Comment[Submitted Name]	transcriptome of wild type (Ws) and gia3 mutants					
+Experimental Design	genetic_modification_design	co-expression_design	transcription profiling by array			
+Experimental Design Term Source REF	The MGED Ontology	The MGED Ontology	EFO			
+Comment[AEExperimentType]	transcription profiling by array					
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for gia3					
+Comment[AEMIAMESCORE]	4					
+Comment[ArrayExpressReleaseDate]	2010-06-30					
+Comment[SecondaryAccession]						
+Comment[ArrayExpressAccession]	E-TABM-729					
+Comment[MAGETAB TimeStamp_Version]	2010-08-13 11:49:16 Last Changed Rev: 13058					
+Experimental Factor Name	genotype					
+Experimental Factor Type	genotype					
+Experimental Factor Term Source REF						
+Person Last Name	Molina					
+Person First Name	Luis Lopez					
+Person Mid Initials						
+Person Email	Luis.LopezMolina@bioveg.unige.ch					
+Person Phone						
+Person Fax						
+Person Address	"DP BOTANIQUE & BIOLOGIE VEGET. Bureau : 2081B B&acirc;timent : SCIENCES 3 (1 A 4) Adr g&eacute;ogr : BOULEVARD D'YVOY 4 1205 GENEVE Adr courrier : SCIENCES II 1211 GENEVE 4, 1205 Geneva GE, Switzerland"					
+Person Affiliation	University of Geneva					
+Person Roles	investigator;submitter					
+Person Roles Term Source REF	The MGED Ontology					
+Quality Control Type	biological_replicate	spike_quality_control				
+Quality Control Term Source REF	The MGED Ontology	The MGED Ontology				
+Replicate Type						
+Replicate Term Source REF						
+Normalization Type						
+Normalization Term Source REF						
+Date of Experiment						
+Public Release Date	2010-06-30					
+PubMed ID	20022976					
+Publication DOI						
+Publication Author List	"Kinoshita N, Berr A, Belin C, Chappuis R, Nishizawa NK, Lopez-Molina L."					
+Publication Title	"Identification of growth insensitive to ABA3 (gia3), a recessive mutation affecting ABA Signaling for the control of early post-germination growth in Arabidopsis thaliana."					
+Publication Status						
+Publication Status Term Source REF						
+Experiment Description	"To compare the transcriptome of wild type (Ws) and gia3 mutants, 36hr upon seed stratification in a germination medium supplemented with ABA"					
+Protocol Name	P-TABM-3876	P-TABM-3877	P-TABM-3878	P-TABM-3879	P-AFFY-6	P-TABM-3882
+Protocol Type	specified_biomaterial_action	nucleic_acid_extraction	labeling	hybridization	feature_extraction	bioassay_data_transformation
+Protocol Description	Cell/Tissue Separation Technique: whole organism	"Nucleic Acid Extraction Method: LiCl precipitation, DNase, Qiagen Column ; Nucleic Acid Type: total_RNA ; Nucleic Acid Cleanup: Qiagen RNeasy Mini Columns ; Amplification Method: RNA polymerase - single round"	cDNA Synthesis: Affymetrix GeneChip One-Cycle cDNA Synthesis Kit ; cDNA Cleanup: Affymetrix GeneChip Sample Cleanup Module ; cRNA Synthesis: Affymetrix GeneChip Expression 3'-Amplification Kit for IVT Labeling ; cRNA Cleanup: Affymetrix GeneChip Sample Cleanup Module ; Spike Target Element: mRNA+Target ; Spiking Control: Affymetrix standard ; Dye: biotin	Washing/Staining Procedure: EukGE-WS2v4 ; Washing/Staining Instrumentation: Fluidics Station 450	Title: Affymetrix CEL analysis. Description: 	Data Processing/Normalization: Affymetrix GCOS/MAS algorithm used to generate probeset-level intensities in TXT metrics file.<br>GeneSpring RMA preprocessor and algorithm used to generate probeset-level intensities in RMA file.<br>GeneSpring GC-RMA preprocessor and algorithm to generate probeset-level intensities in GMA file.
+Protocol Parameters		Nucleic Acid Starting Amount;		Hybridization Temperature;Hybridization Concentration;Labeled Nucleic Acid Amount;Hybridization Time;Hybridization Volume;		
+Protocol Hardware						
+Protocol Software					MicroArraySuite 5.0	
+Protocol Contact						
+Protocol Term Source REF						
+SDRF File	E-TABM-729.sdrf.txt					
+Term Source Name	The MGED Ontology	EFO				
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/				
+Term Source Version						

@@ -1,0 +1,52 @@
+Investigation Title	Transcription profiling of effects of brassinolide on Arabidopsis yucca mutant and wild type seedlings								
+Comment[Submitted Name]	BR effects on WT and yucca seedlings								
+Experimental Design	strain_or_line_design	compound_treatment_design	co-expression_design	transcription profiling by array					
+Experimental Design Term Source REF	mo	mo	mo	EFO					
+Comment[AEExperimentType]	transcription profiling by array								
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for yucca after treatment with brassinolide								
+Comment[ArrayExpressReleaseDate]	2007-07-10								
+Comment[SecondaryAccession]	GSE862								
+Comment[AEMIAMESCORE]	4								
+Comment[SecondaryAccession]	GDS743								
+Comment[ArrayExpressAccession]	E-GEOD-862								
+Comment[MAGETAB TimeStamp_Version]	2010-08-09 10:40:01 Last Changed Rev: 13058								
+Experimental Factor Name	Genotype	Compound	Dose						
+Experimental Factor Type	genotype	compound	dose						
+Experimental Factor Term Source REF									
+Person Last Name	Nemhauser								
+Person First Name	Jennifer								
+Person Mid Initials									
+Person Email	nemhauser@salk.edu								
+Person Phone									
+Person Fax									
+Person Address	Chory,PBIO,Salk Institute, ,La Jolla,92037,USA								
+Person Affiliation	Salk Institute								
+Person Roles	submitter								
+Person Roles Term Source REF	The MGED Ontology								
+Quality Control Type									
+Quality Control Term Source REF									
+Replicate Type									
+Replicate Term Source REF									
+Normalization Type									
+Normalization Term Source REF									
+Date of Experiment									
+Public Release Date	2007-07-10								
+PubMed ID	15328536								
+Publication DOI	10.1371/journal.pbio.0020258								
+Publication Author List	Jennifer L Nemhauser,Todd C Mockler,Joanne Chory								
+Publication Title	Interdependency of brassinosteroid and auxin signaling in Arabidopsis.								
+Publication Status	published								
+Publication Status Term Source REF	EFO								
+Experiment Description	Ten-day old light-grown Arabidopsis seedlings were immersed in 1 ÂµM brassinolide in one-half-strength Murashige Minimal Organics Medium (Invitrogen, Carlsbad, CA) or media alone for 2.5 hours								
+Protocol Name									
+Protocol Type									
+Protocol Description									
+Protocol Parameters									
+Protocol Hardware									
+Protocol Software									
+Protocol Contact									
+Protocol Term Source REF									
+SDRF File	E-GEOD-862.sdrf.txt								
+Term Source Name		mo	NCBI Taxonomy	tair_dev:1.27	The MGED Ontology	ArrayExpress	mo	EFO	The MGED Ontology
+Term Source File		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://www.arabidopsis.org/info/ontologies/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version				1.27					

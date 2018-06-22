@@ -1,0 +1,49 @@
+Investigation Title	Transcription profiling of Arabidopsis Umkirch-1/Umkirch-3 hybrid plants compared to siblings carrying a microRNA targeting the Umkirch-3 allele of At5g41750								
+Comment[Submitted Name]	Umkirch-Rescue								
+Experimental Design	co-expression_design	genetic_modification_design	transcription profiling by array						
+Experimental Design Term Source REF	mo	mo	EFO						
+Comment[ArrayExpressReleaseDate]	2007-07-11								
+Comment[AEMIAMESCORE]	4								
+Comment[ArrayExpressAccession]	E-ATMX-26								
+Comment[MAGETAB TimeStamp_Version]	2010-07-29 14:31:10 Last Changed Rev: 13058								
+Comment[AEExperimentType]	transcription profiling by array								
+Experimental Factor Name	genotype								
+Experimental Factor Type	genotype								
+Experimental Factor Term Source REF									
+Person Last Name	Bomblies								
+Person First Name	Kirsten								
+Person Mid Initials									
+Person Email	kirsten.bomblies@tuebingen.mpg.de								
+Person Phone	4970716011407								
+Person Fax									
+Person Address	Spemannstrasse 37-39								
+Person Affiliation	Molecular Biology								
+Person Roles	submitter								
+Person Roles Term Source REF	The MGED Ontology								
+Quality Control Type									
+Quality Control Term Source REF									
+Replicate Type									
+Replicate Term Source REF									
+Normalization Type									
+Normalization Term Source REF									
+Date of Experiment									
+Public Release Date	2007-07-11								
+PubMed ID	17803357								
+Publication DOI	10.1371/journal.pbio.0050236								
+Publication Author List	Bomblies K, Lempe J, Epple P, Warthmann N, Lanz C, Dangl JL, Weigel D								
+Publication Title	Auto-immune response as a mechanism for a Bateson-Dobzhansky-Muller-type Incompatibility Syndrome in Plants								
+Publication Status									
+Publication Status Term Source REF									
+Experiment Description	Umkirch-1/Umkirch-3 hybrid plants (KB142-2) grown at 16 degreeC long day were compared with siblings carrying a microRNA targeting the Umkirch-3 allele of At5g41750. Plants were about 3 weeks old, and whole rosettes were harvested. Each sample is a pool of 8-10 individuals.								
+Protocol Name	P-CAGE-25828	P-CAGE-25829	P-CAGE-25830	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6				
+Protocol Type	grow	nucleic_acid_extraction	labeling	hybridization	feature_extraction				
+Protocol Description	Plants were grown at 16 degreeC (long days) and whole rosettes were harvested at 3 weeks of age. Long day = 16 hrs light, 8 hrs dark.	Total RNA was extracted using the Qiagen RNeasy plant kit.	1 ug starting RNA was used. Probes were labeled using the Message Amp II Biotin kit (Ambion).	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 				
+Protocol Parameters	light hours;night humidity;day humidity;day temperature;night temperature;light intensity;media;light source;	Amplification;Extracted product;	Used Label;Amount of nucleic acid labeled;Amplification;						
+Protocol Hardware									
+Protocol Software				MicroArraySuite 5.0	MicroArraySuite 5.0				
+Protocol Contact									
+Protocol Term Source REF				mo					
+SDRF File	E-ATMX-26.sdrf.txt								
+Term Source Name	nasc		NCBI Taxonomy	mo	The MGED Ontology	ArrayExpress	mo	EFO	The MGED Ontology
+Term Source File	http://arabidopsis.info/catalogue.html		http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version									

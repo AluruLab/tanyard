@@ -1,0 +1,50 @@
+Investigation Title	Transcription profiling by array of Arabidopsis cell cultures treated with rotenone						
+Comment[Submitted Name]	Complex I dysfunction redirects cellular and mitochondrial metabolism in Arabidopsis						
+Experimental Design	time_series_design	stimulus_or_stress_design	co-expression_design	replicate_design	transcription profiling by array		
+Experimental Design Term Source REF	The MGED Ontology	The MGED Ontology	The MGED Ontology	The MGED Ontology	EFO		
+Comment[AEExperimentType]	transcription profiling by array						
+Comment[AEMIAMESCORE]	5						
+Comment[SecondaryAccession]							
+Comment[ArrayExpressReleaseDate]	2008-09-26						
+Comment[ArrayExpressAccession]	E-MEXP-1797						
+Comment[MAGETAB TimeStamp_Version]	2010-08-10 00:05:09 Last Changed Rev: 13058						
+Experimental Factor Name	compound	dose	time				
+Experimental Factor Type	compound	dose	time				
+Experimental Factor Term Source REF							
+Person Last Name	Delannoy						
+Person First Name	Etienne						
+Person Mid Initials							
+Person Email	delannoy@cyllene.uwa.edu.au						
+Person Phone	61 8 64884433						
+Person Fax							
+Person Address	35 Stirling Hwy, Crawley, WA, 6009, Australia						
+Person Affiliation	University of Wetsern Australia						
+Person Roles	submitter						
+Person Roles Term Source REF	The MGED Ontology						
+Quality Control Type							
+Quality Control Term Source REF							
+Replicate Type							
+Replicate Term Source REF							
+Normalization Type							
+Normalization Term Source REF							
+Date of Experiment							
+Public Release Date	2008-09-26						
+PubMed ID	18784283						
+Publication DOI	10.1104/pp.108.125880						
+Publication Author List	Garmier M, Carroll AJ, Delannoy E, Vallet C, Day DA, Small ID, Millar AH						
+Publication Title	Complex I dysfunction redirects cellular and mitochondrial metabolism in Arabidopsis						
+Publication Status							
+Publication Status Term Source REF							
+Experiment Description	Effects of rotenone of Arabidopsis cell culture compared to methanol treatment as a control at 0, 3 and 12 hours post treatment						
+Protocol Name	P-MTAB-1693	P-MTAB-1694	P-MTAB-1695	P-AFFY-2	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6	Affymetrix:Protocol:MAS4:ExpressionCall
+Protocol Type	specified_biomaterial_action	nucleic_acid_extraction	grow	labeling	hybridization	feature_extraction	bioassay_data_transformation
+Protocol Description	Cell cultures (4 days after subculture) were treated with 40 µM (v/v) rotenone. Methanol (final volume 0.25% v/v) was also applied on cell cultures as a control. Cells were collected at intervals by filtration and washed with fresh MS medium.	Total RNA from treated and control samples was extracted using Qiagen plant RNeasy kit and genomic DNA was removed using DNAfree DNAse (Ambion). Complete removal of nuclear DNA was checked by PCR on diluted RNA.<br>(Parameters: Extracted product = total_RNA, Amplification = none)	A heterotrophic cell-suspension culture of Arabidopsis thaliana ecotype Landsberg erecta was maintained on Murashige and Skoog basal salt medium as described by Sweetlove et al. (2002). Cells was routinely grown at 22°C, under the light (100 µE.m-2.s-1) on an orbital shaker (130 rpm) and sub-cultured every 7 days by transferring a volume (about 20 mL) corresponding to 3.5 g of fresh cell weight to 100 mL of fresh MS medium in 250-mL flasks. Cell cultures used in the following experiments were then grown in the dark (22°C) with shaking (130 rpm) for 4 days. <br>(Parameters: start time = 0, stop time = 7, time unit = days, min temperature = 22, temperature unit = C, media = MS medium)	Title: Affymetrix in vitro transcription. Description: 	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	Title: Affymetrix CHP Analysis (ExpressionCall). Description: 
+Protocol Parameters							
+Protocol Hardware							
+Protocol Software					MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 4.0
+Protocol Contact							
+Protocol Term Source REF					mo		mo
+SDRF File	E-MEXP-1797.sdrf.txt						
+Term Source Name	NCBI Taxonomy		The MGED Ontology	ArrayExpress	The MGED Ontology	EFO	mo
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version							

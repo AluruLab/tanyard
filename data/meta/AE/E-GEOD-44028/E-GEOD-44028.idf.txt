@@ -1,0 +1,29 @@
+Comment[ArrayExpressAccession]	E-GEOD-44028
+MAGE-TAB Version	1.1							
+Public Release Date	2013-03-01
+Investigation Title	Analysis of genes regulated by AS1 and AS2							
+Comment[Submitted Name]	Analysis of genes regulated by AS1 and AS2
+Experiment Description	AS1 and AS2 encode MYB related protein and AS2-domain containing protein, respectively and may regulate transcription. These genes are involved in the determination of axes of leaves of Arabidopsis thaliana. To know the gene regulation in the leaf development, expression profile among wild-type, as1 and as2 mutants and AS2 overexpression plants were compaired. shoot apices from as1-1, as2-1, AS2 overexpressing, and wild type embryos							
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl						
+Person Last Name	Takahashi	Iwakawa	Takahashi	Machida				
+Person First Name	Hiro	Hidekazu	Hiro	Chiyoko				
+Person Email	geo@ncbi.nlm.nih.gov							
+Person Affiliation	Chiba University							
+Person Address	Chiba University, 648 Matsudo, Matsudo, Japan							
+Person Roles	submitter							
+Protocol Name	P-GSE44028-1	P-GSE44028-6	P-GSE44028-3	P-GSE44028-8	P-GSE44028-7	P-GSE44028-2	P-GSE44028-4	P-GSE44028-5
+Protocol Description	ID_REF =  VALUE = MAS5.0 signal intensity	Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45C on GeneChip ATH1. GeneChips were washed and stained in the Affymetrix Fluidics Station 400.	Plants were grown on soil under long day condition (16 hours light and 8 hours dark). for 14 days.	The data were analyzed with MSA5.0 using Affymetrix default analysis settings and global scaling as normalization method. The trimmed mean target intensity of each array was arbitrarily set to 200.	GeneChips were scanned using the GeneChipR Scanner 3000 7G system.	Shoot apices were harvested.	total RNAs were extracted using RNeasy (QIAGEN)	Biotinylated cRNA were prepared according to the standard Affymetrix protocol (Expression Analysis Technical Manual, 2001, Affymetrix).
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Experimental Factor Name	GENOTYPE							
+Experimental Factor Type	genotype							
+Publication Title	Meta-Analyses of Microarrays of Arabidopsis asymmetric leaves1 (as1), as2 and Their Modifying Mutants Reveal a Critical Role for the ETT Pathway in Stabilization of Adaxial-Abaxial Patterning and Cell Division During Leaf Development.							
+Publication Author List	Takahashi H, Iwakawa H, Ishibashi N, Kojima S, Matsumura Y, Prananingrum P, Iwasaki M, Takahashi A, Ikezaki M, Luo L, Kobayashi T, Machida Y, Machida C							
+PubMed ID	23396601							
+Publication DOI	10.1093/pcp/pct027							
+Comment[SecondaryAccession]	GSE44028							
+Comment[GEOReleaseDate]	2013-03-01							
+Comment[ArrayExpressSubmissionDate]	2013-02-02							
+Comment[GEOLastUpdateDate]	2013-03-10							
+Comment[AEExperimentType]	transcription profiling by array							
+SDRF File	E-GEOD-44028.sdrf.txt

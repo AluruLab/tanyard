@@ -1,0 +1,51 @@
+Comment[ArrayExpressAccession]	E-GEOD-27704							
+Public Release Date	2011-04-01							
+Investigation Title	Expression data from Arabidopsis thaliana seedlings with reduced synthesis of 5-aminolevulinic acid							
+Comment[Submitted Name]	Expression data from Arabidopsis thaliana seedlings with reduced synthesis of 5-aminolevulinic acid							
+Experiment Description	"5-aminolevulinic acid (ALA) is the common precursor of all biological synthezised tetrapyrroles. Inhibition of ALA synthesis results in decreased amounts of chlorophylls, heme, siroheme and phytochrome. It was previously shown that 4 out of 5 Arabidopsis mutants uncoupling nuclear gene expression from the physiological state of the chloroplast are affected in plant tetrapyrrole biosynthesis. It is common to all four mutants to show a reduced ALA formation. We investigate the impact of reduced plastidic ALA synthesis on nuclear gene expression by inhibition of ALA formation using gabaculin and compare these effects with  the gun4-1 mutant. Formation of 5-aminolevulinic acid was inhibited in Arabidopsis thaliana Col-0 seedlings by application of 10 µM gabaculin. Additionally the Arabidopsis gun4-1 mutant was investigated. Seedlings were etiolated for 3 days on MS medium in absence or presence of gabaculin and subsequently deetiolated for 6 hours. Total RNA was extracted and used for microarray hybridisation."							
+Date of Experiment								
+Term Source Name	EFO							
+Term Source Version								
+Term Source File	http://bar.ebi.ac.uk:8080/trac/browser/branches/curator/ExperimentalFactorOntology/ExFactorInOWL/currentrelease/eforelease/efo.owl							
+Person Last Name	Grimm	Grimm	Czarnecki					
+Person First Name	Bernhard	Bernhard	Olaf					
+Person Mid Initials								
+Person Email	bernhard.grimm@rz.hu-berlin.de							
+Person Affiliation	Humboldt University Berlin							
+Person Phone	-20936087							
+Person Fax	-20936318							
+Person Address	"Institute of Biology, Humboldt University Berlin, Philippstr. 13, building 12, Berlin, Berlin, Germany"							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Person Roles Term Accession Number								
+Normalization Type								
+Normalization Term Accession Number								
+Normalization Term Source REF								
+Replicate Type								
+Replicate Term Accession Number								
+Replicate Term Source REF								
+Experimental Design								
+Experimental Design Term Accession Number								
+Experimental Design Term Source REF								
+Quality Control Type								
+Quality Control Term Accession Number								
+Quality Control Term Source REF								
+Protocol Name	P-GSE27704-1	P-GSE27704-6	P-GSE27704-3	P-GSE27704-8	P-GSE27704-7	P-GSE27704-2	P-GSE27704-4	P-GSE27704-5
+Protocol Description	ID_REF = <br>VALUE = log2 RMA signal intensity	"Following fragmentation, 12.5 µg of cRNA were hybridized for 16 hr at 45C on GeneChip ATH1 array. GeneChips were washed and stained in the Affymetrix Fluidics Station 400. Hybridisation was performed at KFB Regensburg, Germany."	"Surface sterilised seedlings were plated on solid MS medium and etiolated for 3 days in darkness at 23°C. Subsequently, plates were illuminated for 6 hours at araound 100 µmol photons m2 s-1."	"The data were analyzed with Affymetrix GeneChip Command Console and Expression Console Software. Primary data presented here were analysed at KFB Regensburg, Germany."	"GeneChips were scanned using the GeneChip Scanner 3000. Scaning was performed at KFB Regensburg, Germany."	One set of seedlings was treated with 10 µM gabaculin. Gabaculin was supplied with the medium.	"Extraction of total RNA was performed using InviTrap® Spin Plant RNA Mini Kit (Invitek, Germany) according to the manufacturer's instructions."	"Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 100 ng total RNA (GeneChip 3'IVT Kit, Affymetrix 2008). Labeling was performed at KFB Regensburg, Germany."
+Protocol Software								
+Protocol Hardware								
+Protocol Contact								
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Protocol Term Source REF								
+Protocol Term Accession Number								
+Experimental Factor Name	genotype	growth condition						
+Experimental Factor Type	genotype	growth condition						
+Experimental Factor Term Source REF								
+Experimental Factor Term Accession Number								
+Comment[SecondaryAccession]	GSE27704							
+Comment[GEOLastUpdateDate]	2011-04-01							
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for gun4 or treated with gabaculin							
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[GEOReleaseDate]	2011-03-31							
+Comment[ArrayExpressSubmissionDate]	2011-03-07							
+SDRF File	E-GEOD-27704.sdrf.txt							

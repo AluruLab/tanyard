@@ -1,0 +1,58 @@
+Comment[ArrayExpressAccession]	E-GEOD-19244						
+Public Release Date	2011-11-23						
+Investigation Title	An O-acetylserine(thiol)lyase homolog regulates cysteine homeostasis in Arabidopsis thaliana						
+Comment[Submitted Name]	An O-acetylserine(thiol)lyase homolog regulates cysteine homeostasis in Arabidopsis thaliana						
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis des1-1 mutants						
+Experiment Description	"Cysteine occupies a central position in plant metabolism due to its biochemical functions. Arabidopsis thaliana cells contain different O-acetylserine(thiol)lyase (OASTL) enzymes that catalyze the biosynthesis of cysteine. Because they are localized in the cytosol, plastids and mitochondria, this results in multiple subcellular cysteine pools. Much progress has been made on the most abundant OASTL enzymes; however, information on the less abundant OASTL-like proteins has been scarce. To unequivocally establish the enzymatic reaction catalyzed by the minor cytosolic OASTL isoform CS-LIKE (AT5G28030), we expressed this enzyme in bacteria and characterized the purified recombinant protein. Our results demonstrate that CS-LIKE catalyzes the desulfuration of L-cysteine to sulfide plus ammonia and pyruvate. Thus, CS-LIKE is a novel L-cysteine desulfhydrase (EC 4.4.1.1), and we propose to designate it DES1. The impact and functionality of DES1 in cysteine metabolism was revealed by the phenotype of the T-DNA insertion mutants des1-1 and des1-2. Mutation of the DES1 gene leads to premature leaf senescence, as demonstrated by the increased expression of senescence-associated genes and transcription factors. Also, the absence of DES1 significantly reduces the total cysteine desulfuration activity in leaves, and there is a concomitant increase in the total cysteine content. As a consequence, the expression levels of sulfur-responsive genes are de-regulated, and the mutant plants show enhanced antioxidant defenses and tolerance to conditions that promote oxidative stress. Our results suggest that DES1 from Arabidopsis is an L-cysteine desulfhydrase involved in maintaining cysteine homeostasis, mainly at late developmental stages or under environmental perturbations. Using the Affymetrix ATH1 GeneChips, we performed a comparative transcriptomic analysis on leaves of the des1-1 and wild type plants grown on soil for three weeks. Three biological replicates were performed for each sample and hybridized to the chips. We made the comparison of des1-1 leaves versus wild-type leaves to classify the differently expressed genes in the mutant plant."						
+Date of Experiment							
+Term Source Name	EFO						
+Term Source Version							
+Term Source File	http://www.ebi.ac.uk/efo/efo.owl						
+Person Last Name	Gotor	Álvarez	Garcia	Romero	Gotor		
+Person First Name	Cecilia	Consolación	Irene	Luis	Cecilia		
+Person Mid Initials				C			
+Person Email	geo@ncbi.nlm.nih.gov						
+Person Affiliation	Instituto de Bioquímica Vegetal y Fotosíntesis						
+Person Phone							
+Person Fax							
+Person Address	"Instituto de Bioquímica Vegetal y Fotosíntesis, Avda. Américo Vespucio, 49, Sevilla, Spain"						
+Person Roles	submitter						
+Person Roles Term Source REF							
+Person Roles Term Accession Number							
+Normalization Type							
+Normalization Term Accession Number							
+Normalization Term Source REF							
+Replicate Type							
+Replicate Term Accession Number							
+Replicate Term Source REF							
+Experimental Design							
+Experimental Design Term Accession Number							
+Experimental Design Term Source REF							
+Quality Control Type							
+Quality Control Term Accession Number							
+Quality Control Term Source REF							
+Protocol Name	P-GSE19244-1	P-GSE19244-6	P-GSE19244-5	P-GSE19244-3	P-GSE19244-2	P-GSE19244-4	P-GSE19244-7
+Protocol Description	ID_REF = <br>VALUE = Log2 RMA signal	GeneChips were scanned using the Affymetrix GeneChip Scanner 3000 7G	"Following fragmentation, 15 µg of biotinylated cRNA were hybridized to Affymetrix chips (GeneChip Arabidopsis ATH1 Genome Array). Each sample was added to a hybridization solution containing 100mM 2-(N-morpholino)ethanesulfonic acid, 1 M Na+, and 20mM of EDT"	The leaves of 3-week-old plants were collected and RNA extracted from each sample. Total RNA was isolated with Trizol reagent (Invitrogen) followed by cleaning with the RNeasy Plant Mini Kit (Qiagen).	Arabidopsis thaliana (accession Col-0) and the des1-1 mutant (SALK_03855) were grown in soil supplemented with Hoagland media. Plants were grown under a photoperiod of 16 h of white light (120 μE m-2 s-1) at 20ºC and 8 h dark at 18ºC.	"Biotinylated cRNA was prepared according to the standard Affymetrix protocol from 4 µg total RNA (Expression Analysis Technical Manual, 2001, Affymetrix)."	"GeneChip intensities were background-corrected, normalized and sumarized by RMA method, using the “Affy” package from Bioconductor."
+Protocol Software							
+Protocol Hardware							
+Protocol Contact							
+Protocol Type	bioassay_data_transformation	image_aquisition	hybridization	nucleic_acid_extraction	grow	labeling	feature_extraction
+Protocol Term Source REF							
+Protocol Term Accession Number							
+Experimental Factor Name	genotype						
+Experimental Factor Type	genotype						
+Experimental Factor Term Source REF							
+Experimental Factor Term Accession Number							
+Publication Title	Cysteine homeostasis plays an essential role in plant immunity.						
+Publication Author List	"�lvarez C, Berm�dez M�, Romero LC, Gotor C, Garc�a I."						
+PubMed ID	21988475						
+Publication DOI							
+Publication Status							
+Publication Status Term Source REF							
+Publication Status Term Accession Number							
+Comment[SecondaryAccession]	GSE19244						
+Comment[GEOLastUpdateDate]	2011-11-23						
+Comment[AEExperimentType]	transcription profiling by array						
+Comment[GEOReleaseDate]	2011-11-23						
+Comment[ArrayExpressSubmissionDate]	2009-12-01						
+SDRF File	E-GEOD-19244.sdrf.txt						

@@ -1,0 +1,32 @@
+Comment[ArrayExpressAccession]	E-GEOD-51480						
+MAGE-TAB Version	1.1						
+Public Release Date	2014-01-01						
+Investigation Title	PAB/WT polysome loading and transcript levels (Arabidopsis thaliana)						
+Comment[Submitted Name]	PAB/WT polysome loading and transcript levels (Arabidopsis thaliana)						
+Experiment Description	To understand the contribution of the poly(A)binding protein to the translation of specific mRNAs, we compared the ribosome occupancy of mRNAs in wild type Arabidopsis and pab2 pab8 double mutant seedlings. The mutants continue to express the PAB4 paralog of PABP. RNA was fractionated using sucrose gradients into polysomal and nonpolysomal RNAs. We also determined overall total transcript levels.  We used Affymetrix ATH1 microarrays. Each plant sample was analyzed for the mRNA abundance in total mRNA (T), polysomal mRNA (PL), and nonpolysomal mRNA (NP). Four biological replicates were collected for polysomes and three for total RNA. The pab2 pab8 double mutant was compared with wild type.						
+Term Source Name	ArrayExpress	EFO					
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	von Arnim	Kim	von Arnim				
+Person First Name	Albrecht	Byunghoon	Albrecht				
+Person Mid Initials	G						
+Person Email	vonarnim@utk.edu						
+Person Affiliation	The University of Tennessee						
+Person Phone	1-865-974-6206						
+Person Address	Biochemistry, Cellular and Molecular Biology, The University of Tennessee, M407 Walters Life Science Building, Knoxville, TN, USA						
+Person Roles	submitter						
+Protocol Name	P-GSE51480-1	P-GSE51480-5	P-GSE51480-6	P-GSE51480-2	P-GSE51480-3	P-GSE51480-4	P-GSE51480-7
+Protocol Description	Raw signal intensities for each probe set were extracted from CEL files using RMA in R/Bioconductor (http://www.r-project.org/, version 2.13.2, released on 09/30/2011), and the affy package. MAS5.0 was used to assign P(resent) calls indicating reliable gene detection. ID_REF =  VALUE = Data are raw RMA signal intensities. These intensities are log(2) transformed values of the original hybridization signals.	Biotinylated cRNA were prepared according to the standard Affymetrix protocol.	Following fragmentation, cRNA were hybridized to Arabidopsis ATH1 Genome Arrays.	The pab2 pab8 mutant allele (Dufresne J Gen Virol 89: 2339-2348 (2008)) in the Columbia ecotype was grown alongside wild type Arabidopsis thaliana. Four biological replicates were grown at different times.	Seedlings were grown on agar plates containing full strength Murashige and Skoog salts, pH 5.7, and 1% sucrose for 10-12 days in continuous light at 22oC. Fluorescent light intensity was 80micromole/m2/sec.	Aerial parts of seedlings were harvested. Trizol extraction of total RNA was performed according to the manufacturer's instructions. Polysomal and nonpolysomal/monosomal RNAs were isolated using sucrose density gradients according to Kim et al. Genome Biology 8:R60 (2007).	Standard protocol and instrumentation
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	genotype	RNA					
+Experimental Factor Type	genotype	RNA					
+Comment[SecondaryAccession]	GSE51480						
+Comment[GEOReleaseDate]	2014-01-01						
+Comment[ArrayExpressSubmissionDate]	2013-10-21						
+Comment[GEOLastUpdateDate]	2014-01-02						
+Comment[AEExperimentType]	transcription profiling by array						
+Comment[AdditionalFile:Data1]	GSE51480_translation_state.txt						
+SDRF File	E-GEOD-51480.sdrf.txt						
+Publication Title	The global translation profile in a ribosomal protein mutant resembles that of an eIF3 mutant.						
+Publication Author List	Tiruneh BS, Kim BH, Gallie DR, Roy B, von Arnim AG						
+PubMed ID	24377433						
+Publication DOI	10.1186/1741-7007-11-123						

@@ -1,0 +1,51 @@
+Investigation Title	Transcription profiling of Arabidopsis species exposed to Zinc to investigate mechanisms of Zn tolerance			
+Comment[Submitted Name]	Newbury: Molecular bases of zinc tolerance and accumulation by Arabidopsis halleri			
+Experimental Design	unknown_experiment_design_type	transcription profiling by array		
+Experimental Design Term Source REF		EFO		
+Comment[AEExperimentType]	transcription profiling by array			
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis halleri after treatment with zinc			
+Comment[AEMIAMESCORE]	3			
+Comment[ArrayExpressReleaseDate]	2008-06-13			
+Comment[SecondaryAccession]	GSE5613			
+Comment[ArrayExpressAccession]	E-GEOD-5613			
+Comment[MAGETAB TimeStamp_Version]	2010-08-06 17:08:37 Last Changed Rev: 13058			
+Experimental Factor Name	COMPOUND			
+Experimental Factor Type	compound			
+Experimental Factor Term Source REF				
+Person Last Name	(NASC)			
+Person First Name	Nottingham Arabidopsis Stock Centre			
+Person Mid Initials				
+Person Email	affy@arabidopsis.info			
+Person Phone				
+Person Fax				
+Person Address	School of Biosciences, University of Nottingham, Nottingham Arabidopsis Stock Centre (NASC), Sutton Bonington Campus, Loughborough, LE12 5RD, United Kingdom			
+Person Affiliation	Nottingham Arabidopsis Stock Centre (NASC)			
+Person Roles	submitter			
+Person Roles Term Source REF				
+Quality Control Type				
+Quality Control Term Source REF				
+Replicate Type				
+Replicate Term Source REF				
+Normalization Type				
+Normalization Term Source REF				
+Date of Experiment				
+Public Release Date	2008-06-13			
+PubMed ID				
+Publication DOI				
+Publication Author List				
+Publication Title				
+Publication Status				
+Publication Status Term Source REF				
+Experiment Description	This application is from a NERC-funded consortium (Mark MacNair, Nick Smirnoff, Exeter) and (Brian Ford-Lloyd, John Newbury, Birmingham). Metal tolerance is one of the classic examples of micro-evolution. Despite extensive research the physiological bases of the adaptation in plants are largely unknown. Arabidopsis halleri is a zinc tolerant, zinc accumulating species whereas Arabidopsis petraea is non-accumulating and non-tolerant. The objective of our programme is to identify; a) those key genes that act to determine Zn tolerance and accumulation in Arabidopsis (and which account for the difference in performance of A. halleri and A. petraea grown in the presence of elevated Zn) and; b) those _downstream_ genes that are expressed as part of the tolerance or accumulation response. Phase 1: Total of 24 chips: Material ready by May 2003 The results will a) tell us how effectively material derived from other Arabidopsis species hybridises to the chips, and b) identify genes that are differentially expressed in the two species in the presence and absence of Zn stress (thus providing initial lists of genes that may be responsible for Zn tolerance or accumulation- but see phase 2)Â· A. halleri exposed to low and high Zn; root and leaf mRNAs extracted: 3 replicates of each: = 12 slidesÂ· A. petraea exposed to low and high Zn; root and leaf mRNAs extracted: 3 replicates of each: = 12 slides; Phase 2: Total of 48 chips: Material ready by September 2003; The results will tell us which genes, identified as having appropriate expression patterns, co-segregate with the Zn tolerance or accumulation phenotype and will provide firmer candidate genes for intensive study. Bulks will be produced from F3 progeny (from the halleri x petraea cross) following phentoypic analyses for Zn tolerance and accumulation.Â· A bulk of F3 progeny all exhibiting high Zn tolerance: exposed to low and high Zn; leaf and root mRNAs: 3 replicates: = 12 slidesÂ· A bulk of F3 progeny all exhibiting low Zn tolerance: exposed to low and high Zn; leaf and root mRNAs: 3 replicates: = 12 slidesÂ· A bulk of F3 progeny all exhibiting high Zn accumulation: exposed to low and high Zn; leaf and root mRNAs: 3 replicates: = 12 slidesÂ· A bulk of F3 progeny all exhibiting low Zn accumulation: exposed to low and high Zn; leaf and root mRNAs: 3 replicates: = 12 slides; Experimenter name = H. John Newbury; Experimenter phone = 0121 414 5581; Experimenter fax = 0121 414 5925; Experimenter department = Newbury lab; Experimenter institute = University of Birmingham; Experimenter address = School of Biosciences; Experimenter address = University of Birmingham; Experimenter address = Edgbaston; Experimenter address = Birmingham; Experimenter zip/postal_code = B15 2TT; Experimenter country = UK Experiment Overall Design: 24 samples were used in this experiment			
+Protocol Name	P-G5613-1	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6	
+Protocol Type	specified_biomaterial_action	hybridization	feature_extraction	
+Protocol Description	25um Zinc	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	
+Protocol Parameters				
+Protocol Hardware				
+Protocol Software		MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact				
+Protocol Term Source REF		mo		
+SDRF File	E-GEOD-5613.sdrf.txt			
+Term Source Name	The MGED Ontology	ArrayExpress	EFO	mo
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version				

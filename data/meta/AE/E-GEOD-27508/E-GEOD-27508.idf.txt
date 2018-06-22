@@ -1,0 +1,58 @@
+Comment[ArrayExpressAccession]	E-GEOD-27508							
+Public Release Date	2011-06-19							
+Investigation Title	Age-related change of callus formation capability in Arabidopsis hypocotyls							
+Comment[Submitted Name]	Age-related change of callus formation capability in Arabidopsis hypocotyls							
+Experiment Description	Transcriptional profiling of age-related change of callus formation capability in Arabidopsis hypocotyls Organogenesis in vitro consists of many aspects such as phytohormone perception, dedifferentiation of differentiated cell to acquire organogenic competence, and re-entry of quiescent cells into cell cycle.  In this study, we established an in vitro experimental system to study the age-dependent callus formation capacity in Arabidopsis.  Interestingly, mature (35- to 38-day-old) hypocotyl explants exhibited better callus-forming potential than that of juvenile (7- to 10-day-old), determined by callus growth rates.  To explore genome-wide expression changes underlying the phenomenon of age-dependent callus formation, a transcriptome-based analysis was performed.  Gene expression profiling indicated that age-dependent callus formation capacity was associated with changes in phytohormone (auxins, cytokinins, abscisic acid, brassinosteroids and gibberellins) homeostasis, epigenetic mechanism and the cell cycle regulation.  Besides, we identified two groups of genes involved in age-dependent callus formation capacity: (1) positive regulatory and (2) negative regulatory categories, i.e. genes that were significantly up- or down-regulated during callus formation derived from mature explants, respectively. One gene encoding DNA-binding protein (VARIANT IN METHYLATION 1, VIM1) belonging to the positive regulatory category was selected for functional analysis and assessment of age-dependent callus formation capacity.  Indeed, vim1 reduced the efficiency of callus formation in mature explants, but not in juvenile.  The result suggests that VIM1 plays an important role in regulating age-dependent callus formation capacity.  Taken together, the investigation will help to better understand the molecular regulatory mechanism of age-dependent callus formation. Comparison of young and mature Arabidopsis hypocotyls either with or without auxin treatment for 1 day							
+Date of Experiment								
+Term Source Name	EFO							
+Term Source Version								
+Term Source File	http://www.ebi.ac.uk/efo/efo.owl							
+Person Last Name	Fu	Chen	Fu	Lin	Lin	Huang		
+Person First Name	Shih-Feng	Chi-Chien	Shih-Feng	Chung-Yi	Wan-Chen	Hao-Jen		
+Person Mid Initials								
+Person Email	sff24@mail.ncku.edu.tw							
+Person Affiliation	National Cheng Kung University							
+Person Phone	+886-2757575-65539							
+Person Fax								
+Person Address	Life Sciences, National Cheng Kung University, No.1 University Road, Tainan, Tainan, Taiwan							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Person Roles Term Accession Number								
+Normalization Type								
+Normalization Term Accession Number								
+Normalization Term Source REF								
+Replicate Type								
+Replicate Term Accession Number								
+Replicate Term Source REF								
+Experimental Design								
+Experimental Design Term Accession Number								
+Experimental Design Term Source REF								
+Quality Control Type								
+Quality Control Term Accession Number								
+Quality Control Term Source REF								
+Protocol Name	P-GSE27508-1	P-GSE27508-6	P-GSE27508-3	P-GSE27508-8	P-GSE27508-7	P-GSE27508-2	P-GSE27508-4	P-GSE27508-5
+Protocol Description	ID_REF = <br>VALUE = log2 RMA signal	Following fragmentation, 10 ug of cRNA were hybridized for 16.5 hr at 45C on GeneChip ATH1 Genome Array. GeneChips were washed and stained in the Affymetrix Fluidics Station 450.	7-day-old seedlings or 35-day-old plants in full-strength MS	Affymetrix GeneChip assay were performed by the Affymetrix Gene Expression Service Lab (http://ipmb.sinica.edu.tw/affy/), supported by Academia Sinica, Taiwan. The CEL files were imported into GeneSpring and normalized by the RMA algorithm.	GeneChips were scanned using Affymetrix GeneChip Scanner 3000 7G	Either with or without auxin treatment for 1 day	Total RNA were extracted using QIAGEN RNeasy kit follwed by DNAse treatment. The RNA samples were further purified and concentrated by RNeasy MinElute Cleanup.	Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 10 ug total RNA (Expression Analysis Technical Manual, 701021 Rev. 5, Affymetrix).
+Protocol Software								
+Protocol Hardware								
+Protocol Contact								
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_acquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Protocol Term Source REF								
+Protocol Term Accession Number								
+Experimental Factor Name	age	growth condition						
+Experimental Factor Type	age	growth condition						
+Experimental Factor Term Source REF								
+Experimental Factor Term Accession Number								
+Publication Title	Transcriptome analysis of age-related gain of callus-forming capacity in Arabidopsis hypocotyls.							
+Publication Author List	Chen CC, Fu SF, Lee YI, Lin CY, Lin WC, Huang HJ							
+PubMed ID	22706032							
+Publication DOI	10.1093/pcp/pcs090							
+Publication Status								
+Publication Status Term Source REF								
+Publication Status Term Accession Number								
+Comment[SecondaryAccession]	GSE27508							
+Comment[GEOLastUpdateDate]	2011-06-21							
+Comment[AEExperimentDisplayName]	Transcription profiling by array of young and old hypocotyls from Arabidopsis after treatment with auxin							
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[GEOReleaseDate]	2011-06-18							
+Comment[ArrayExpressSubmissionDate]	2011-02-24							
+SDRF File	E-GEOD-27508.sdrf.txt							

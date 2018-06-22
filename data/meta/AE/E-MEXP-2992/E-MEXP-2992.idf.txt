@@ -1,0 +1,37 @@
+Comment[ArrayExpressAccession]	E-MEXP-2992		
+Investigation Title	Succinate dehydrogenase mutant plants		
+Comment[Submitted Name]	Succinate dehydrogenase mutant plants		
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for succinate dehydrogenase		
+Comment[MIAMExpressLogin]	dafuentes		
+Comment[MIAMExpressSubmissionID]	7134		
+Experiment Description	In this experiment we used leaves from 6-week-old Arabidopsis SDH1-1/sdh1-1 mutant and Wt plants (Ws). The leaves were collected in the middle of light period.		
+Experimental Design	co-expression_design	genetic_modification_design	
+Comment[AEExperimentType]	transcription profiling by array		
+Experimental Factor Name	genotype		
+Experimental Factor Type	genotype		
+Person Last Name	Fuentes		
+Person First Name	Daniela		
+Person Mid Initials	A		
+Person Email	dafuentf@puc.cl		
+Person Phone	5626862894		
+Person Affiliation	Pontificia Universidad Católica de Chile		
+Person Address	Molecular Genetics and Microbiology, Av. Portugal 49, Santiago, Santiago, 8330025, Chile		
+Person Roles	submitter		
+Person Roles Term Source REF	MGED Ontology		
+Quality Control Type	biological_replicate		
+Public Release Date	2010-12-31		
+Comment[ArrayExpressSubmissionDate]	2010-11-17 14:16		
+Pubmed ID	21921116		
+Publication DOI	10.1104/pp.111.183939		
+Publication Author List	Fuentes D, Meneses M, Nunes-Nesi A, Araújo WL, Tapia R, Gómez I, Holuigue L, Gutiérrez RA, Fernie AR, Jordana X		
+Publication Title	A deficiency in the flavoprotein of Arabidopsis mitochondrial complex II results in elevated photosynthesis and better growth in nitrogen-limiting conditions.		
+Publication Status	published		
+Publication Status Term Source REF	EFO		
+Publication Status Term Accession Number	EFO_0001796		
+Protocol Name	P-MTAB-17955	P-MTAB-17956	P-MTAB-17957
+Protocol Description	Seeds were cold treated for 48 h at 4ﾺC in darkness and then sterilized for 10 min with a solution of 10% (v/v) commercial bleach. After rinsing thoroughly with sterile distilled water, seeds were sown on one-half-concentrated Murashige and Skoog medium (MS), 1% (w/v) sucrose, solidified with 0.8% (w/v) agar and supplemented or not with 50 mg L-1 kanamycin. After two weeks in a 16 h/8 h day/night cycle, the seedlings were transferred to soil and grown at 22ﾰC, under an 8 h light/ 16 h dark cycle (short day conditions)during 4 weeks. (Parameters: start time = 6, time unit = weeks, min temperature = 22, temperature unit = C)	Total RNA was isolated from leaves of 6-week-old plants harvested in liquid nitrogen, using the TRIzol reagent according to the manufacturer protocol. (Parameters: Extracted product = total_RNA, Amplification = none)	In this experiment we used leaves from Heterozygous mutant SDH1-1/sdh1-1  and Wassilewskija (Ws)Arabidopsis plants. We used leaves from 6-week-old plants were collected in the middle of light period and frozen in liquid nitrogen. Triplicate independent biological replicates of microarray experiments were performed on the Arabidopsis ATH1.
+Protocol Type	grow	nucleic_acid_extraction	specified_biomaterial_action
+Protocol Term Source REF	MGED Ontology	MGED Ontology	MGED Ontology
+Term Source Name	MGED Ontology	ArrayExpress	EFO
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo
+SDRF File	E-MEXP-2992.sdrf.txt		

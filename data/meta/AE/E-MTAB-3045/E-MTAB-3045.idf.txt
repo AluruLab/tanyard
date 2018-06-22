@@ -1,0 +1,35 @@
+Comment[ArrayExpressAccession]	E-MTAB-3045
+MAGE-TAB Version	1.1		
+Investigation Title	Genome-wide transcriptome analysis of 35S::amiPPD line		
+Comment[Submitted Name]	Genome-wide transcriptome analysis of 35S::amiPPD line
+Comment[AEExperimentDisplayName]	Transcription profiling by array of first leaft pair of amiPPD mutant and wild type Arabidopsis plants		
+Experiment Description	To obtain more insight into the molecular changes associated with PPD down-regulation, RNA was extracted from the first leaf pair of ami-ppd and wild-type plants at 13 DAS (the time point at which differences in leaf area start to be visible), and subjected to micro-array transcript profiling.		
+Experimental Design	genetic modification design		
+Experimental Design Term Source REF	EFO		
+Experimental Design Term Accession Number	EFO_0001758		
+Experimental Factor Name	genotype		
+Experimental Factor Type	genotype		
+Experimental Factor Term Source REF	EFO		
+Experimental Factor Term Accession Number	EFO_0000513 		
+Person Last Name	submission	Gonzalez	Pauwels
+Person First Name	Plant Systems Biology data	Nathalie	Laurens
+Person Mid Initials			
+Person Email	datasub@psb.ugent.be	nagon@psb.ugent.be	lapau@psb.ugent.be
+Person Phone			
+Person Fax			
+Person Address	Technologiepark 927 9052 Gent Belgium	Technologiepark 927 9052 Gent Belgium	Technologiepark 927 9052 Gent Belgium
+Person Affiliation	Department of Plant Biotechnology and Bioinformatics, Ghent University, Gent, Belgium Department of Plant Systems Biology,VIB, Gent, Belgium	Department of Plant Biotechnology and Bioinformatics, Ghent University, Gent, Belgium Department of Plant Systems Biology,VIB, Gent, Belgium	Department of Plant Biotechnology and Bioinformatics, Ghent University, Gent, Belgium Department of Plant Systems Biology,VIB, Gent, Belgium
+Person Roles	institution;submitter	investigator	investigator
+Public Release Date	2016-10-28		
+Protocol Name	P-MTAB-41833	P-MTAB-41834	P-MTAB-41835
+Protocol Type	nucleic acid extraction protocol	nucleic acid labeling protocol	nucleic acid hybridization to array protocol
+Protocol Term Source REF	EFO	EFO	EFO
+Protocol Term Accession Number	EFO_0002944	EFO_0003813	EFO_0003815
+Protocol Description	Total RNAs were extracted using RNeasy plant mini kit (Qiagen) from the first leaf pair harvested at 13 days after stratification (DAS) of plants grown in vitro.	Standard affymetrix protocol	Standard affymetrix protocol
+Protocol Hardware			
+Protocol Software			
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/	
+Term Source Version			
+Comment[AEExperimentType]	transcription profiling by array		
+SDRF File	E-MTAB-3045.sdrf.txt

@@ -1,0 +1,49 @@
+Investigation Title	Transcription profiling of Arabidopsis wild type (Col) and stomata mutant	
+Comment[Submitted Name]	Gene expression comparison between Arabidopsis wild type (Col) and stomata mutant	
+Experimental Design	unknown_experiment_design_type	transcription profiling by array	
+Experimental Design Term Source REF		EFO	
+Comment[SecondaryAccession]	GSE12911	
+Comment[ArrayExpressReleaseDate]	2009-09-12	
+Comment[AEMIAMESCORE]	3	
+Comment[ArrayExpressAccession]	E-GEOD-12911	
+Comment[MAGETAB TimeStamp_Version]	2010-07-30 06:34:09 Last Changed Rev: 13058	
+Experimental Factor Name	
+Experimental Factor Type	
+Experimental Factor Term Source REF	
+Person Last Name	Xie	
+Person First Name	Zidian	
+Person Mid Initials	
+Person Email	xzd482@yahoo.com	
+Person Phone	
+Person Fax	
+Person Address	218 Rightmire hall, Dept. of Plant Cellular and Molecular Biology, The Ohio State University, 1060 Carmack Rd., Columbus, 43210, United States	
+Person Affiliation	The Ohio State University	
+Person Roles	submitter	
+Person Roles Term Source REF	The MGED Ontology	
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2009-09-12	
+PubMed ID	
+Publication DOI	
+Publication Author List	
+Publication Title	
+Publication Status	
+Publication Status Term Source REF	
+Experiment Description	As the gate for gas exchange and water vapor, stomata play an essential role in plant development. It has been a long time that many research focus on how the opening and closing of stomata is controlled. Until recently, studies on how stomata are formed in Arabidopsis just emerge. With a cluster of guard cells in one stomate in flp-1/myb88 mutant, it will be great interest to understand how FLP/MYB88 control stomata development. By taking advantaging of microarray technology, we intend to study a set of genes regulated by FLP/MYB88, which will facilitate us to better explore the biological functions of FLP/MYB88 in stomata development, even in the biotic or abiotic stresses. Experiment Overall Design: By comparing the gene expression differences between the wild type and stomata mutant--flp-1/myb88, we are trying to see which genes' transcripts are affected in flp-1/myb88 mutant.	
+Protocol Name	P-G12911-1	P-G12911-4	P-G12911-2	P-AFFY-6	P-G12911-3	
+Protocol Type	grow	nucleic_acid_extraction	labeling	feature_extraction	bioassay_data_transformation	
+Protocol Description	Constitutive light, 22 degree	RNA was extracted with Qiagen RNeasy Plant RNA extraction kit	Following confirmation of RNA quality, Ovationâ¢ Biotin RNA Amplification and Labeling System (NuGen Technologies, Inc., San Carlos, CA) is used to prepare amplified, biotin-labeled cDNA from total RNA for following manufacturerâs instructions. Briefly, first strand cDNA is synthesized from 25 ng of total RNA using a unique first strand DNA/RNA chimeric primer and reverse transcriptase. Following double strand cDNA generation, amplification of cDNA is achieved by utilizing an isothermal DNA amplification process that involves repeated SPIAâ¢ DNA/RNA primer binding, DNA duplication, strand displacement and RNA cleavage. The amplified SPIAâ¢ cDNA is purified and subjected to a two-step fragmentation and labeling process. The fragmented/biotinylated cDNA content is measured in a ND-1000 spectrophotometer and the quality was analyzed on an RNA 6000 Nano LabChip (Agilent) using Agilent Bioanalyzer 2100.	Title: Affymetrix CEL analysis. Description: 	Affy-GUI, normalized by RMA	
+Protocol Parameters	
+Protocol Hardware	
+Protocol Software				MicroArraySuite 5.0	
+Protocol Contact	
+Protocol Term Source REF					The MGED Ontology	
+SDRF File	E-GEOD-12911.sdrf.txt	
+Term Source Name	NCBI Taxonomy	The MGED Ontology	ArrayExpress	EFO	The MGED Ontology	
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version						

@@ -1,0 +1,31 @@
+Comment[ArrayExpressAccession]	E-MTAB-1354								
+Investigation Title	A timecourse of IAA treatment on the Arabidopsis root tip								
+Comment[Submitted Name]	A timecourse of IAA treatment on the Arabidopsis root tip								
+Experiment Description	A timecourse of IAA treatment on the Arabidopsis root tip								
+Experimental Design	time_series_design	in_vitro_design	co-expression_design						
+Comment[AEExperimentType]	transcription profiling by array								
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis root tips from arf7, arf19 double mutant and wild type plants in response to auxin								
+Experimental Factor Name	genotype	organism part	compound	time					
+Experimental Factor Type	genotype	organism part	compound	time					
+Quality Control Type									
+Public Release Date	2013-05-12								
+Person Last Name	Wilson								
+Person First Name	Michael								
+Person Mid Initials									
+Person Email	michael.wilson@nottingham.ac.uk								
+Person Phone	1159516108								
+Person Address	Plant Sciences Building, School of Biosciences								
+Person Affiliation	University of Nottingham								
+Person Roles	submitter								
+PubMed ID	26144255								
+Publication DOI	10.1038/ncomms8641								
+Publication Author List	Voß U, Wilson MH, Kenobi K, Gould PD, Robertson FC, Peer WA, Lucas M, Swarup K, Casimiro I, Holman TJ, Wells DM, Péret B, Goh T, Fukaki H, Hodgman TC, Laplaze L, Halliday KJ, Ljung K, Murphy AS, Hall AJ, Webb AA, Bennett MJ								
+Publication Title	The circadian clock rephases during lateral root organ initiation in Arabidopsis thaliana								
+Publication Status	published								
+Protocol Name	P-MTAB-29504	P-MTAB-29505	P-MTAB-29506	P-MTAB-29507	P-MTAB-29508	P-MTAB-29509	P-MTAB-29510	P-MTAB-29511	P-MTAB-29512
+Protocol Type	grow	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	nucleic_acid_extraction	labeling	hybridization	image_acquisition
+Protocol Description	Wild-type Col-0 and arf7-arf19 double knockout seedlings were grown vertically on 1 / 2 MS media supplemented with 1 % (w/v) PGP-type agarose (Park Scientific Ltd., UK) for six days in controlled environmental conditions of 24 C, continuous light of 150 umol m-1 s-1. Plants for seed propagation were grown simultaneous in controlled conditions with a 16h light (23 C), 8h dark (18 C) cycle. On day 6 the plates were placed in 3l tanks containing 0.5x MS and allowed to acclimate for 24 h	Plates were transferred into a 3L tank with 30 ul of ethanol vehicle added and left for 0 to 480 mins, after which approximately 50 roots were dissected into the meristem (MS) (from the root tip to the top of the lateral root cap, approximately 350 um from the root tip). Dissected samples were immediately frozen in liquid nitrogen.	Plates were transferred into a 3L tank with 30 ul of IAA added to a final concentration of 1 uM and left for 15 to 480 mins, after which approximately 50 roots were dissected into the meristem (MS) (from the root tip to the top of the lateral root cap, approximately 350 um from the root tip). Dissected samples were immediately frozen in liquid nitrogen.	Plates were transferred into a 3L tank with 30 ul of ethanol vehicle added to a final concentration of 1 uM and left for 0 to 480 mins, after which approximately 50 roots were dissected for the rapid elongation zone (EZ) (from the top of the lateral root cap to the first visible root hair bulge, approximately 850 um from the top of the lateral root cap). Dissected samples were immediately frozen in liquid nitrogen.	Plates were transferred into a 3L tank with 30 ul of IAA added to a final concentration of 1uM and left for 15 to 480 mins, after which approximately 50 roots were dissected for the rapid elongation zone (EZ) (from the top of the lateral root cap to the first visible root hair bulge, approximately 850 um from the top of the lateral root cap). Dissected samples were immediately frozen in liquid nitrogen.	RNA was extracted using the Qiagen MicroRNA Kit following the manufacturers recommended protocol (Qiagen, Crawley, UK). RNA was quantified using a Nanodrop ND100 spectrophotometer (Nanodrop, Wilimington, USA). All RNA samples were approximately 1 ug/ul in a total volume of 10 ul. For the two-cycle and IVT-E samples, RNA was diluted with RNase-free water to make a final concentration of 50 ng/ul (equivalent to 30 dissected root sections).	RNA labelling and hybridisation to Affymetrix ATH1 arrays were performed by the Nottingham Arabidopsis Stock Centre (NASC), according to manufacturers recommended protocol for the IVT-express kit< USA). All RNA samples were approximately 1 ug/ul in a total volume of 10 ul. For the two-cycle and IVT-E samples, RNA was diluted with RNase-free water to make a final concentration of 50 ng/ul (equivalent to 30 dissected root sections).	Hybridization was carried out according to manufacturer specifications.	Scanning was carried out according to manufacturer specifications.
+Protocol Term Source REF	ArrayExpress	ArrayExpress	ArrayExpress	ArrayExpress	ArrayExpress	ArrayExpress	ArrayExpress	ArrayExpress	ArrayExpress
+Term Source Name	ArrayExpress								
+Term Source File	http://www.ebi.ac.uk/ArrayExpress								
+SDRF File	E-MTAB-1354.sdrf.txt								

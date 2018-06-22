@@ -1,0 +1,31 @@
+Comment[ArrayExpressAccession]	E-GEOD-42896						
+MAGE-TAB Version	1.1						
+Public Release Date	2012-12-18						
+Investigation Title	Expression data from Arabidopsis seedlings upon LRIS using NAA (1-Naphthaleneacetic acid) or non-auxin-like lateral root inducer naxillin						
+Comment[Submitted Name]	Expression data from Arabidopsis seedlings upon LRIS using NAA (1-Naphthaleneacetic acid) or non-auxin-like lateral root inducer naxillin						
+Experiment Description	The acquisition of water and nutrients by plant roots is a fundamental aspect of agriculture and strongly depends on root architecture. Root branching and expansion of the root system is achieved through the development of lateral roots and is to a large extent controlled by the plant hormone auxin. However, the pleiotropic effects of auxin or auxin-like molecules on root systems complicate the study of lateral root development. Here we describe a small-molecule screen in Arabidopsis thaliana that identified naxillin as what is to our knowledge the first non-auxin-like molecule that promotes root branching. By using naxillin as a chemical tool, we identified a new function for root cap-specific conversion of the auxin precursor indole-3-butyric acid into the active auxin indole-3-acetic acid and uncovered the involvement of the root cap in root branching. Delivery of an auxin precursor in peripheral tissues such as the root cap might represent an important mechanism shaping root architecture. To further explore the specificity of naxillin for lateral root development, we compared the early effects of naxillin at the transcriptome level with NAA (1-Naphthaleneacetic acid) in roots of 3-day-old seedlings after 2-h and 6-h treatment. Arabidopsis thaliana (L). Heynh., Col-0 seeds were germinated vertically on solid medium derived from standard MS medium supplemented with 10 μM NPA (1-N-Naphthylphthalamic acid). Three days after germination, plants were transferred to 10 μM NAA (1-Naphthaleneacetic acid) or 50 μM naxillin for 2 and 6 hours. Plants were sampled before (Roots at T0, NPA) or after treatment (Roots at T1 and T2). RNA isolation was performed on 500 root sections (only root without meristems) for each sample. All sampling points were performed in three independent experiments.						
+Term Source Name	ArrayExpress	EFO					
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Allemeersch	De Rybel	Audenaert				
+Person First Name	Joke	Bert	Dominique				
+Person Email	joke.allemeersch@vib.be						
+Person Affiliation	Flanders Institute for Biotechnology (VIB)						
+Person Phone	+32(0)16 37 31 26						
+Person Fax	+32(0)16 37 31 29						
+Person Address	Nucleomics Core, Flanders Institute for Biotechnology (VIB), Herestraat 49 Box 816, Leuven, Belgium						
+Person Roles	submitter						
+Protocol Name	P-GSE42896-1	P-GSE42896-6	P-GSE42896-5	P-GSE42896-3	P-GSE42896-2	P-GSE42896-4	P-GSE42896-7
+Protocol Description	ID_REF =  VALUE = Log2 RMA expression value ABS_CALL = the MAS 5.0 detection call in an absolute analysis that indicates if the transcript was present (P), absent (A), marginal (M), or no call (NC) DETECTION P-VALUE = p-value that indicates the significance level of the detection call	To assess the raw probe signal intensities, chips were scanned using a GeneChipﾮ scanner 3000 (Affymetrix).	A mixture of purified and fragmented biotinylated cRNA and hybridisation controls (Affymetrix) was hybridised on Affymetrix ATH1 arrays followed by staining and washing in a GeneChipﾮ Fluidics Station 450 (Affymetrix) according to the manufacturer's procedures.	RNA was extracted with the RNeasy kit (Qiagen).	Arabidopsis thaliana (L). Heynh., Col-0 seeds were germinated vertically on solid.	RNA concentration and purity were determined spectrophotometrically using the NanoDrop ND-1000 (NanoDrop Technologies), and RNA integrity was assessed using a Bioanalyser 2100 (Agilent). Per sample, an amount of 2 ﾵg of total RNA spiked with bacterial RNA transcript positive controls (Affymetrix) was converted to double-stranded cDNA in a reverse transcription reaction. Subsequently, the sample was converted and amplified to antisense cRNA and labeled with biotin in an in vitro transcription reaction. All steps were carried out according to the manufacturer's protocol (Affymetrix). All amplification and labeling reactions were performed on a Biomek 3000 ArrayPlex Workstation (Beckman Coulter).	Data were normalized using RMA as implemented in the Affy package (version 1.36.0) of Bioconductor. Expression values are represented on a log2-scale.
+Protocol Type	bioassay_data_transformation	image_aquisition	hybridization	nucleic_acid_extraction	grow	labeling	feature_extraction
+Experimental Factor Name	time	compound					
+Experimental Factor Type	time	compound					
+Comment[SecondaryAccession]	GSE42896						
+Comment[GEOReleaseDate]	2012-12-18						
+Comment[ArrayExpressSubmissionDate]	2012-12-13						
+Comment[GEOLastUpdateDate]	2012-12-20						
+Comment[AEExperimentType]	transcription profiling by array						
+SDRF File	E-GEOD-42896.sdrf.txt						
+Publication Title	A role for the root cap in root branching revealed by the non-auxin probe naxillin.						
+Publication Author List	De Rybel B, Audenaert D, Xuan W, Overvoorde P, Strader LC, Kepinski S, Hoye R, Brisbois R, Parizot B, Vanneste S, Liu X, Gilday A, Graham IA, Nguyen L, Jansen L, Njo MF, Inzé D, Bartel B, Beeckman T						
+PubMed ID	22885787						
+Publication DOI	10.1038/nchembio.1044						

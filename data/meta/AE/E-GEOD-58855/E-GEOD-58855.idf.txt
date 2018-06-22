@@ -1,0 +1,30 @@
+Comment[ArrayExpressAccession]	E-GEOD-58855
+MAGE-TAB Version	1.1						
+Public Release Date	2015-04-06
+Investigation Title	A transcriptional map following the developmental trajectory of the Arabidopsis stomatal lineage						
+Comment[Submitted Name]	A transcriptional map following the developmental trajectory of the Arabidopsis stomatal lineage
+Experiment Description	Developmental transitions can be described in terms of morphology and individual genes expression patterns, but also in terms of global transcriptional and epigenetic changes. Most of the large-scale studies of such transitions, however, have only been possible in synchronized cell culture systems. Here we generate a cell type specific transcriptome of an adult stem-cell lineage in the Arabidopsis leaf using RNA sequencing and microarrays. RNA profiles of stomatal entry, commitment, and differentiating cells, as well as of mature stomata and the entire aerial epidermis give a comprehensive view of the developmental progression. To obtain pure cell populations corresponding to different stomatal lineage cell types we used Fluorescent Activated Cell Sorting (FACS) in combination with markers of early (SPCHp::SPCH-YFP, SSY), middle (MUTEp::nucGFP, MG), and late (FAMAp::GFP-FAMA, FGF) precursor stages, as well of mature stomata (enhancer trap E1728::GFP, E1728G) and a marker of the entire epidermis (ML1p::YFP-RCI2A, ML1Y). To minimize transcriptional differences due to age, all cell types were sorted from 14-day old aerial rosettes, and the specificity of expression pattern at this common time point confirmed via confocal microscopy. Total RNA was extracted from purified protoplasts (2,000 to 20,000 cells/replicate; 3 replicates/marker line) and transcript abundance measured using ATH1-121501 microarrays.						
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Bergmann	Adrian	Chang	Bargmann	Bergmann		
+Person First Name	Dominique	Jessika	Jessica	Bastiaan	Dominique		
+Person Mid Initials	C			O	C		
+Person Email	geo@ncbi.nlm.nih.gov						
+Person Affiliation	Stanford University						
+Person Address	Biology Department, Stanford University, 371 Serra Mall, Stanford, CA, USA						
+Person Roles	submitter						
+Protocol Name	P-GSE58855-1	P-GSE58855-5	P-GSE58855-6	P-GSE58855-2	P-GSE58855-3	P-GSE58855-4	P-GSE58855-7
+Protocol Description	The data were analyzed with the R Bioconductor package affy using following parameters: RMA background correction, quantile normalization across all arrays, no perfect match (PM) probe correction, and the median polish method for summarization. ID_REF =  VALUE = Expression is shown as log2 RMA-normalized signal intensity values.	RNA was reverse-transcribed and amplified using the Ovation Pico WTA System (NuGen) and cDNA was labeled with the Encore Biotin Module (NuGen).	Labeled cDNA was hybridized, washed and stained on an ATH1-121501 Arabidopsis full genome microarray using a Hybridization Control Kit (Affymetrix), a GeneChip Hybridization, Wash, and Stain Kit (Affymetrix), and a GeneChip Fluidics Station 450 (Affymetrix).	Arial tissue of seedlings was harvested and incubated in protoplasting solution for 2 hours.	Seedlings were grown for 14 days on 1/2 strength Murashige and Skoog (MS) medium supplemented with 1% (w/v) sucrose under long day (16-hours light, 8-hours dark) conditions at 25C.	GFP/YFP-positive protoplasts were identified with a FACS Aria II cell sorter and directly sorted into RNA extraction buffer. Total RNA of sorted protoplasts was extracted with the RNeasy Micro Kit (QIAGEN) including on column DNase treatment according to the manufacturer’s instructions. RNA quality was checked on a Bioanalyzer (Agilent).	GeneChips were scanned using a GeneChip Scanner (Affymetrix).
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	marker line						
+Experimental Factor Type	marker line						
+Publication Title	Transcriptome dynamics of the stomatal lineage: birth, amplification, and termination of a self-renewing population.						
+Publication Author List	Adrian J, Chang J, Ballenger CE, Bargmann BO, Alassimone J, Davies KA, Lau OS, Matos JL, Hachez C, Lanctot A, Vatï¿½n A, Birnbaum KD, Bergmann DC						
+PubMed ID	25850675						
+Publication DOI	10.1016/j.devcel.2015.01.025						
+Comment[SecondaryAccession]	GSE58855						
+Comment[GEOReleaseDate]	2015-04-06						
+Comment[ArrayExpressSubmissionDate]	2014-06-26						
+Comment[GEOLastUpdateDate]	2015-04-09						
+Comment[AEExperimentType]	transcription profiling by array						
+SDRF File	E-GEOD-58855.sdrf.txt

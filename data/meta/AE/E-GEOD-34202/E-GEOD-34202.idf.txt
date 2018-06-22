@@ -1,0 +1,27 @@
+Comment[ArrayExpressAccession]	E-GEOD-34202
+MAGE-TAB Version	1.1						
+Public Release Date	2015-04-01
+Investigation Title	Transcript profiling of Arabidopsis plasma membrane proton pump mutants						
+Comment[Submitted Name]	Transcript profiling of Arabidopsis plasma membrane proton pump mutants
+Experiment Description	Plasma membrane proton pump maintains proton electrochemical gradient and provides energy to secondary transporters. Arabidopsis mutant plants with reduced proton pump activity grow normal under ideal growth conditions; however their growth are reduced compared with wildtype plants when placed under the conditions that stress on protonmotive force (high external pH or high external potassium). Seedlings of wildtype, aha1, and aha2 mutant plants were grown under ideal growth condition. Total RNA from those seedlings were subjected to transcriptome analyses using Affymetrix Gene Chip.						
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Haruta	Haruta	Sussman				
+Person First Name	Miyoshi 	Miyoshi	Michael				
+Person Mid Initials			R				
+Person Email	haruta@wisc.edu						
+Person Affiliation	University of Wisconsin Madison						
+Person Phone	608-262-1779						
+Person Address	Biotechnology Center, University of Wisconsin Madison, 425 Henry Mall, Madison, WI, USA						
+Person Roles	submitter						
+Protocol Name	P-GSE34202-1	P-GSE34202-5	P-GSE34202-6	P-GSE34202-2	P-GSE34202-3	P-GSE34202-4	P-GSE34202-7
+Protocol Description	Data was extracted from the images scanned with GC3000 G7 using the Affymetrix Expression Console v1.1 software. ID_REF =  VALUE = MAS5.0 ABS_CALL =  DETECTION P-VALUE = 	RNA was labeled using Ambion MessageAmp Biotin II-Enhanced IVT kit. 14 hour IVT reaction at 37C.	Ten microgram of aRNA was hybridized to the ATH-1 Affymetrix expression array at 45C for 16 hours in Affymetrix 640 hybridization oven. Hybridization cocktail was prepared according to protocols provided in the Affymetrix Expression Analysis Technical Manual.	Seedlings were grown for five days under ideal growth condition	Seedlings were vertically grown on one-half strength Murashige and Skoog media	QIAGEN RNeasy Plant kit was used to extract total RNA	Gene Chip was scanned on Affymetrix GC3000 G7 scanner using the Affymetrix Command Console v2.0 software.
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	genotype						
+Experimental Factor Type	genotype						
+Comment[SecondaryAccession]	GSE34202						
+Comment[GEOReleaseDate]	2015-04-01						
+Comment[ArrayExpressSubmissionDate]	2011-12-06						
+Comment[GEOLastUpdateDate]	2015-04-01						
+Comment[AEExperimentType]	transcription profiling by array						
+SDRF File	E-GEOD-34202.sdrf.txt

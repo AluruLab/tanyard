@@ -1,0 +1,54 @@
+Comment[ArrayExpressAccession]	E-GEOD-22966							
+Public Release Date	2011-12-01							
+Investigation Title	A systemic view of coordinated root responses to NO3- heterogeneous environment in Arabidopsis							
+Comment[Submitted Name]	A systemic view of coordinated root responses to NO3- heterogeneous environment in Arabidopsis							
+Experiment Description	We investigated the morphological roots decisions of Arabidopsis in a NO3- heterogeneous medium. To do so, we used the Split-Root System which is an experimental set up to assess root decisions in nutrient heterogeneous medium. Split-root plants have been subjected to three different treatments. ‘Control KNO3’ plants received KNO3 on both sides of the root system (C.NO3) and ‘Control KCl’ plants received KCl on both sides (C.KCl) as a nitrogen deprivation treatment. 'Split' plants received KNO3 on one side (Sp.NO3) and KCl on the other side (Sp.KCl) of the root system to assess the root decision-making in a heterogeneous environment. We observed that the total lateral roots length in the Sp.NO3 and C.KCl compartments is induced as compared to C.NO3 and Sp.KCl compartments. This corresponds to a root proliferation response in strategic territories to compensate the nitrogen deprivation. To decipher the molecular basis of this morphological root response on day 4 after the beginning of the split-root treatment, we used a transcriptomic approach on roots at 2hours, 8 hours and 2 days after the beginning of the treatment. From our microarrays data, we have identified a global set of 150 genes for which the expression pattern match with the lateral roots responses. Among them, we selected 8 early marker genes of the root decisions, which allowed us to show that the shoots and the NO3- itself are essential for the decision. Finally, we tested the role of the cytokinins phytohormones as a NO3--derived systemic signal in the root decision. Interestingly, we have demonstrated that the systemic cytokinins are involved into the decision of inducing maker genes expression and making lateral roots in the Sp.NO3 compartment specifically. 36 samples were analyzed. They correspond to three biological repeats of the C.NO3, Sp.NO3, Sp.KCl and C.KCl root samples (12 samples) that we have collected at 2hours, 8 hours and 2 days (12 samples x 3 time points) after the beginning of the split-root treatment. We analyzed the normalized microarrays data by using a three way ANOVA. The three factors of the ANOVA are 1) presence/absence of NO3-, 2) split/control and 3) time. The measures of the significance of each probe were done by the Q-value method (q<0.2, panova<0.001). The genes differentially expressed between the C.NO3 and Sp.NO3 samples, and the C.KCl and Sp.KCl samples were determined by the post-hoc Tukey test (p<0.05).							
+Date of Experiment								
+Term Source Name	EFO							
+Term Source Version								
+Term Source File	http://www.ebi.ac.uk/efo/efo.owl							
+Person Last Name	Ruffel	Krouk	Coruzzi	Birnbaum				
+Person First Name	Sandrine	Gabriel	Gloria	Kenneth				
+Person Mid Initials				M				
+Person Email	sandrine0ruffel@gmail.com							
+Person Affiliation	New York University							
+Person Phone	2129954918							
+Person Fax								
+Person Address	Biology, New York University, 100 Washington Square East. 1009 Main Building, NYC, NY, USA							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Person Roles Term Accession Number								
+Normalization Type								
+Normalization Term Accession Number								
+Normalization Term Source REF								
+Replicate Type								
+Replicate Term Accession Number								
+Replicate Term Source REF								
+Experimental Design								
+Experimental Design Term Accession Number								
+Experimental Design Term Source REF								
+Quality Control Type								
+Quality Control Term Accession Number								
+Quality Control Term Source REF								
+Protocol Name	P-GSE22966-1	P-GSE22966-6	P-GSE22966-3	P-GSE22966-8	P-GSE22966-7	P-GSE22966-2	P-GSE22966-4	P-GSE22966-5
+Protocol Description	ID_REF = <br>VALUE = Normalized gene level expression values from MAS5.0v	Samples were hybridized using Affymetrix hybridization kit materials. Heat cocktails at 99degreeC for 5 minutes, then 42degreeC for 10 minutes centrifuge at max speed for 1 minute. Transfer 200μl of hyb solution to each array. Hybridize 16 hours at 45degreeC at 60rpm. Fluidics washing is EukGE-WS2v4_450.	Plants are grown on a custom-made basal Murashige and Skoog solid medium (no nitrogen, no sucrose), supplemented with 0.5 mM NH4-succinate, 0.1mM KNO3 and 3mM sucrose. After 8-10 days, the primary root was cut below the first two lateral roots and roots still grown on these plates for 4 more days. Then, each plant with two main roots was transferred on individual 10x10 cm plates containing the same 40 ml solid medium supplemented with 0.5mM NH4+-succinate as the nitrogen source. The solid medium was divided in two compartments by a trench to allow the physical separation of the two roots.	Data were processed using MAS5.0v	Affymetrix Gene ChIP Scanner 3000 7G	We selected the 12-14 days old plants with balanced roots on both sides and they were transferred on 12x12cm segmented agar plates containing either 5mM KNO3 or 5mM KCl on both sides for the controls or 5mM KNO3 on one side and 5mM KCl on the other side for the split. These plates contained 60 ml of solid basal MS medium supplemented with 0.3mM sucrose. The KNO3 or KCl compartments were obtained by spreading concentrated KNO3 and KCl solution on the solid medium 24 hr before the experiments to allow diffusion of the solutions	RNA extractions were carried out on roots collected at 2 hours, 8 hours and 2 days after the beginning of the split-root treatment with TRIzol (Invitrogen)	Samples were enzymatically fragmented and biotinylated using the IVT - labeling kit (Affymetrix)
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_acquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Protocol Term Source REF								
+Protocol Term Accession Number								
+Experimental Factor Name	growth condition	compound	dose	time				
+Experimental Factor Type	growth condition	compound	dose	time				
+Experimental Factor Term Source REF	EFO							
+Experimental Factor Term Accession Number	EFO_0000727							
+Publication Title	Nitrogen economics of root foraging: transitive closure of the nitrate-cytokinin relay and distinct systemic signaling for N supply vs. demand.							
+Publication Author List	Ruffel S, Krouk G, Ristova D, Shasha D, Birnbaum KD, Coruzzi GM							
+PubMed ID	22025711							
+Publication DOI	10.1073/pnas.1108684108							
+Publication Status								
+Publication Status Term Source REF								
+Publication Status Term Accession Number								
+Comment[SecondaryAccession]	GSE22966							
+Comment[GEOLastUpdateDate]	2012-03-22							
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[GEOReleaseDate]	2011-12-01							
+Comment[ArrayExpressSubmissionDate]	2010-07-14							
+SDRF File	E-GEOD-22966.sdrf.txt							

@@ -1,0 +1,58 @@
+Comment[ArrayExpressAccession]	E-GEOD-20232									
+Public Release Date	2010-07-09									
+Investigation Title	Cytokinin treatment on roots of seedlings									
+Comment[Submitted Name]	Cytokinin treatment on roots of seedlings									
+Experiment Description	According to the well-documented scenario with regard to the cytokinin-mediated phosphorelay signal transduction in Arabidopsis thaliana, certain members of the type-B ARR family are crucially implicated in the regulatory networks that are primarily propagated by the cytokinin-receptors (AHKs) in response to cytokinin. Nevertheless, clarification of the biological impact of these type-B ARR transcription factors is at a very early stage. Here we focused on a pair of highly homologous ARR10 and ARR12 genes by constructing an arr10 and arr12 double-null mutant. The mutant alleles used in this study were arr10-5 and arr12-1. arr10-5 is the SALK_098604 T-DNA insertion line, whose mutation was determined to be located in the fifth exon of the ARR10 coding sequence. arr12-1 is the SALK_054752 T-DNA insertion line, whose mutation was determined to be located in the third exon of the ARR12 coding sequence. The resulting mutant showed remarkable phenotypes with special reference to the cytokinin-action in roots (e.g., inhibition of root elongation, green callus formation from explants). Furthermore, we demonstrated that ARR10 and ARR12 are involved in the AHK-dependent signaling pathway that modulates the differentiation of root-vascular tissues (i.e., protoxylem-specification), suggesting that ARR10 and ARR12 are the prominent players that act redundantly in the AHK-dependent cytokinin signaling in roots. Keeping this in mind, we then collected the root-specific and combinatorial DNA microarray datasets with regard to the cytokinin-responsible genes by employing both the wild-type and arr10 arr12 double-mutant plants. In this study, wild-type and the arr10 arr12 mutant grown vertically on MS agar plates for 2 weeks were treated with 20 microM of the cytokinin trans-zeatin (TZ) or 0.02% DMSO (solvent for trans-zeatin solution) for 1h. These treated plant samples were divided into three portions, from which RNA samples were prepared separately from roots of seedlings with use of RNeasy Plant Mini Kit (Qiagen, Valencia, CA, U.S.A.). The quality of RNAs prepared was analyzed by Bioanalyzer 2100 (Agilent Technologies). These RNA samples were processed as recommended by the Affymetrix instruction (Affymetrix GeneChip Expression Analysis Technical Manual, Affymetrix). These datasets will provide us with bases for understanding the early response to cytokinin on roots of seedlings in Arabidopsis thaliana. 12 samples were used in this experiment.									
+Date of Experiment										
+Term Source Name	EFO									
+Term Source Version										
+Term Source File	http://efo.svn.sourceforge.net/viewvc/efo/trunk/src/efoinowl/efo.owl									
+Person Last Name	Nottingham Arabidopsis Stock Centre (NASC)	SAKAKIBARA								
+Person First Name		Hitoshi								
+Person Mid Initials										
+Person Email	affy@arabidopsis.info									
+Person Affiliation	Nottingham Arabidopsis Stock Centre (NASC)									
+Person Phone	+44 (0)115 951 3237									
+Person Fax	+44 (0)115 951 3297									
+Person Address	School of Biosciences, University of Nottingham, Nottingham Arabidopsis Stock Centre (NASC), Sutton Bonington Campus, Loughborough, United Kingdom									
+Person Roles	submitter									
+Person Roles Term Source REF										
+Person Roles Term Accession Number										
+Normalization Type										
+Normalization Term Accession Number										
+Normalization Term Source REF										
+Replicate Type										
+Replicate Term Accession Number										
+Replicate Term Source REF										
+Experimental Design										
+Experimental Design Term Accession Number										
+Experimental Design Term Source REF										
+Quality Control Type										
+Quality Control Term Accession Number										
+Quality Control Term Source REF										
+Protocol Name	P-GSE20232-1	P-GSE20232-6	P-GSE20232-5	P-GSE20232-3	P-GSE20232-2	P-GSE20232-4	P-GSE20232-8	P-GSE20232-7	P-GSE20232-9	P-GSE20232-10
+Protocol Description	ID_REF = <br>VALUE = MAS5.0-calculated signal intensity<br>ABS_CALL = the call in an absolute analysis that indicates if the transcript was present (P), absent (A), or marginal (M)<br>DETECTION P-VALUE = p-value that indicates the significance level of the detection call	Scanned according to guidelines set out by Affymetrix, Santa Clara, CA.	Biotin Labelled cRNA using &quot;Affymetrix GeneChip Hybridization, Wash and Stain Kit&quot;, according to guidelines set out by Affymetrix, Santa Clara, CA	Seedlings harvested and snap-frozen in liquid nitrogen and RNA extracted as described in the Qiagen RNAeasy kit.	Arabidopsis were grown vertically on MS agar plates for 2 weeks	Labelled using protocol described in manual &quot;Affymetrix GeneChip Expression Analysis Technical Manual&quot;, One-Cycle target labelling		Raw data from the microarrays was normalized at probe-level using MAS5 algorithm. The detection calls (present, marginal, absent) for each probe set was obtained using the GCOS system.	*** The CEL file for Sample GSM507130 is truncated. A complete CEL file was requested but not provided. ***	*** The CEL file for Sample GSM507136 is truncated. A complete CEL file was requested but not provided. ***
+Protocol Software										
+Protocol Hardware										
+Protocol Contact										
+Protocol Type	bioassay_data_transformation	image_aquisition	hybridization	nucleic_acid_extraction	grow	labeling	feature_extraction	feature_extraction	feature_extraction	feature_extraction
+Protocol Term Source REF										
+Protocol Term Accession Number										
+Experimental Factor Name	compound	genotype								
+Experimental Factor Type	compound	genotype								
+Experimental Factor Term Source REF										
+Experimental Factor Term Accession Number										
+Publication Title	Type-B ARR transcription factors, ARR10 and ARR12, are implicated in cytokinin-mediated regulation of protoxylem differentiation in roots of Arabidopsis thaliana.									
+Publication Author List	Yokoyama A, Yamashino T, Amano Y, Tajima Y, Imamura A, Sakakibara H, Mizuno T.									
+PubMed ID	17132632									
+Publication DOI	10.1093/pcp/pcl040									
+Publication Status										
+Publication Status Term Source REF										
+Publication Status Term Accession Number										
+Comment[SecondaryAccession]	GSE20232									
+Comment[GEOLastUpdateDate]	2010-07-07									
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for arr10 and arr12 after treatment with trans-zeatin									
+Comment[AEExperimentType]	transcription profiling by array									
+Comment[GEOReleaseDate]	2010-07-08									
+Comment[ArrayExpressSubmissionDate]	2010-02-09									
+SDRF File	E-GEOD-20232.sdrf.txt									

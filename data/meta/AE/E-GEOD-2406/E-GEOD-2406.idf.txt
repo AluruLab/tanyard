@@ -1,0 +1,50 @@
+Investigation Title	Transcription profiling of Arabidopsis Col-0 vs. AtAOX1a antisense treated plants	
+Comment[Submitted Name]	WTv.AOXantisense	
+Experimental Design	genetic_modification_design	transcription profiling by array	
+Experimental Design Term Source REF	mo	EFO	
+Comment[AEMIAMESCORE]	5	
+Comment[ArrayExpressReleaseDate]	2008-06-12	
+Comment[SecondaryAccession]	GSE2406	
+Comment[SecondaryAccession]	GDS1532	
+Comment[ArrayExpressAccession]	E-GEOD-2406	
+Comment[MAGETAB TimeStamp_Version]	2010-08-04 15:29:56 Last Changed Rev: 13058	
+Experimental Factor Name	StrainOrLine	
+Experimental Factor Type	genetic_modification	
+Experimental Factor Term Source REF	
+Person Last Name	Umbach	
+Person First Name	Ann	
+Person Mid Initials	L.	
+Person Email	umbacha@duke.edu	
+Person Phone	
+Person Fax	
+Person Address	Siedow lab, Biology Department/DCMB Group, Duke University, Box 91000, Durham, 27708-1000, USA	
+Person Affiliation	Duke University	
+Person Roles	submitter	
+Person Roles Term Source REF	The MGED Ontology	
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2008-06-12	
+PubMed ID	16299171	
+Publication DOI	16299171	
+Publication Author List	Ann L Umbach, Fabio Fiorani, James N Siedow	
+Publication Title	Characterization of transformed Arabidopsis with altered alternative oxidase levels and analysis of effects on reactive oxygen species in tissue.	
+Publication Status	journal_article	
+Publication Status Term Source REF	The MGED Ontology	
+Experiment Description	Leaf transcriptome comparison of untransformed Col-0 Arabidopsis plants with plants transformed to be anti-sense for AtAOX1a (alternative oxidase).  Two âbio-replicatesâ were sampled, for a total of four microarray chipsâCol-0 and anti-sense leaf tissue from a first planting (samples GSM45208 and GSM45231, respectively), and from a second planting made one week later (samples GSM45209 and GSM45278, respectively).  See sample descriptions for growth conditions and microarray procedure.	
+Protocol Name	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6	
+Protocol Type	hybridization	feature_extraction	
+Protocol Description	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	
+Protocol Parameters	
+Protocol Hardware	
+Protocol Software	MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact	
+Protocol Term Source REF	mo	
+SDRF File	E-GEOD-2406.sdrf.txt	
+Term Source Name	NCBI Taxonomy	The MGED Ontology	ArrayExpress	mo	EFO	The MGED Ontology	
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version							

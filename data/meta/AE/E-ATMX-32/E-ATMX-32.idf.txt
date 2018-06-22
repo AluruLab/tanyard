@@ -1,0 +1,48 @@
+Investigation Title	Transcription profiling of SALK_084897 or SAIL_303_D08 Arabidopsis plants grown under normal conditions or with moderate light and drough treatment applied	
+Comment[Submitted Name]	Whelan J. Arabidopsis aox1a light and drought	
+Experimental Design	stimulus_or_stress_design	strain_or_line_design	transcription profiling by array	
+Experimental Design Term Source REF	mo	mo	EFO	
+Comment[ArrayExpressReleaseDate]	2008-04-30	
+Comment[AEMIAMESCORE]	4	
+Comment[ArrayExpressAccession]	E-ATMX-32	
+Comment[MAGETAB TimeStamp_Version]	2010-07-29 14:40:32 Last Changed Rev: 13058	
+Experimental Factor Name	genotype	stress treatment	
+Experimental Factor Type	genotype	growth_condition	
+Experimental Factor Term Source REF	
+Person Last Name	Giraud	
+Person First Name	Estelle	
+Person Mid Initials	J	
+Person Email	giraue01@student.uwa.edu.au	
+Person Phone	+61 8 64884434	
+Person Fax	
+Person Address	University of Western Australia Stirling Hwy Nedlands	
+Person Affiliation	Biochemistry	
+Person Roles	submitter	
+Person Roles Term Source REF	The MGED Ontology	
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2008-04-30	
+PubMed ID	18424626	
+Publication DOI	18424626	
+Publication Author List	Giraud, Estelle; Ho, Lois H.M.; Clifton, Rachel; Carroll, Adam; Estavillo, Gonzalo; Tan, Yew-Foon; Howell, Katharine A.; Ivanova, Aneta; Pogson, Barry J.; Millar, A. Harvey; Whelan, James	
+Publication Title	The Absence of ALTERNATIVE OXIDASE1a in Arabidopsis Results in Acute Sensitivity to Combined Light and Drought Stress	
+Publication Status	journal_article	
+Publication Status Term Source REF	The MGED Ontology	
+Experiment Description	4 week old Arabidopsis plants, of ecotype Columbia, SALK_084897 or SAIL_303_D08 were either grown under normal conditions or grown under normal conditions for before having a moderate light and drought treatment applied. Light and drought treatment was applied by withholding water for 5 days prior to transfer to 300 uE m-2 s-1 light conditions. Samples were collected after 3 days of treatment or for the same age plants grown under normal conditions.	
+Protocol Name	P-CAGE-26587	P-CAGE-26586	P-CAGE-26588	P-AFFY-2	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6	Affymetrix:Protocol:MAS4:ExpressionCall	
+Protocol Type	specified_biomaterial_action	grow	nucleic_acid_extraction	labeling	hybridization	feature_extraction	bioassay_data_transformation	
+Protocol Description	Col-0, SALK_084897 and SAIL_303_D08 4 week old plants grown under normal conditions were not watered for 5 days, after which they were transfered to moderate light conditions (300 uE m-2 s-1) for 3 days, still withholding water.	Arabidopsis plants, ecotype Columbia, and T-DNA insertional lines SALK_084897 and SAIL_303_D08 were sown in individual pots in soil media and statified at 4ºC for 48 hours before being transfered to long day growth conditions (16 hours light and 8 hours dark cycle) at a light intensity of 100 uEinsteins, 22ºC, 55% relative humidity and watered as needed.  	Leaf samples were collected, snap frozen and ground under liquid nitrogen. Total RNA was isolated using the RNeasy Plant Mini Kit(Qiagen) according to manufacturer's instructions, quality was verified using a Bioanalyzer and spectrophotometric analysis was carried out to determine the A260:A280 and A260:A230 ratios 	Title: Affymetrix in vitro transcription. Description: 	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	Title: Affymetrix CHP Analysis (ExpressionCall). Description: 	
+Protocol Parameters		light source;day humidity;day temperature;light intensity;light hours;media;night temperature;night humidity;	Extracted product;Amplification;	
+Protocol Hardware	
+Protocol Software					MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 4.0	
+Protocol Contact	
+Protocol Term Source REF					mo		mo	
+SDRF File	E-ATMX-32.sdrf.txt	
+Term Source Name	NCBI Taxonomy		abrc_stock	The MGED Ontology	ArrayExpress	mo	EFO	The MGED Ontology	
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://www.arabidopsis.org/servlets/Search?action=new_search&type=germplasm	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version									

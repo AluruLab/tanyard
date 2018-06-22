@@ -1,0 +1,52 @@
+Investigation Title	Transcription profiling of Arabidopsis wild type and transgenic plants overexpressing rice topoisomerase6 genes					
+Comment[Submitted Name]	Gene expression in wild-type and transgenic plants overexpressing rice topoisomerase6 genes					
+Experimental Design	unknown_experiment_design_type	transcription profiling by array				
+Experimental Design Term Source REF		EFO				
+Comment[AEExperimentType]	transcription profiling by array					
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis overexpressing rice topoisomerase 6 genes					
+Comment[ArrayExpressReleaseDate]	2008-06-13					
+Comment[SecondaryAccession]	GSE5465					
+Comment[AEMIAMESCORE]	3					
+Comment[ArrayExpressAccession]	E-GEOD-5465					
+Comment[MAGETAB TimeStamp_Version]	2010-08-06 16:18:05 Last Changed Rev: 13058					
+Experimental Factor Name	GENOTYPE					
+Experimental Factor Type	genotype					
+Experimental Factor Term Source REF						
+Person Last Name	Jain					
+Person First Name	Mukesh					
+Person Mid Initials						
+Person Email	mjainanid@gmail.com					
+Person Phone						
+Person Fax						
+Person Address	Department of Plant Molecular Biology, Interdisciplinary Centre for Plant Genomics, University of Delhi South Campus, Benito Juarez Road, New Delhi, 110021, India					
+Person Affiliation	Interdisciplinary Centre for Plant Genomics, University of Delhi South Campus					
+Person Roles	submitter					
+Person Roles Term Source REF						
+Quality Control Type						
+Quality Control Term Source REF						
+Replicate Type						
+Replicate Term Source REF						
+Normalization Type						
+Normalization Term Source REF						
+Date of Experiment						
+Public Release Date	2008-06-13					
+PubMed ID	17116242					
+Publication DOI	10.1111/j.1742-4658.2006.05518.x					
+Publication Author List	Mukesh Jain, Akhilesh K Tyagi, Jitendra P Khurana					
+Publication Title	Overexpression of putative topoisomerase 6 genes from rice confers stress tolerance in transgenic Arabidopsis plants.					
+Publication Status	published					
+Publication Status Term Source REF	EFO					
+Publication Status Term Accession Number	EFO_0001796					
+Experiment Description	10-day-old wild-type and homozygous transgenic Arabidopsis seedlings (overexpressing OsTOP6A3 and OsTOP6B) grown under normal growth conditions were used for total RNA isolation. The 5 micrograms of each total RNA sample was processed for microarray analysis according to Affymetrix protocol.  Experiment Overall Design: The experiment involves the study of differential gene expression in transgenic Arabidopsis seedlings overexpressing rice topoisomerase 6 subunit A (OsTOP6A3) and subunit B (OsTOP6B) cDNAs as compared to wild-type.Two biological replicates for each sample were used for microarray analysis.					
+Protocol Name	P-G5465-1	P-G5465-2	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6		
+Protocol Type	grow	nucleic_acid_extraction	hybridization	feature_extraction		
+Protocol Description	Seeds were surface sterilized with 2% sodium hypochlorite and 0.01% triton X-100 for 5 min followed by rinsing in sterile water for 5 times. Seeds were then suspended in 0.1% agar solution and dispensed on 0.8% agar-gelled MS medium containing 2% sucrose. Plates were sealed and shifted to cold room for 72 h to break dormancy and facilitate uniform germination and then transferred to culture room under continuous illumination.	TRIzol reagent	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 		
+Protocol Parameters						
+Protocol Hardware						
+Protocol Software			MicroArraySuite 5.0	MicroArraySuite 5.0		
+Protocol Contact						
+Protocol Term Source REF			mo			
+SDRF File	E-GEOD-5465.sdrf.txt					
+Term Source Name	NCBI Taxonomy	The MGED Ontology	ArrayExpress	EFO	The MGED Ontology	mo
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version						

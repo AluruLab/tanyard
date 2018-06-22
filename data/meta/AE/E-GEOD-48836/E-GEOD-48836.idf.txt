@@ -1,0 +1,31 @@
+Comment[ArrayExpressAccession]	E-GEOD-48836						
+MAGE-TAB Version	1.1						
+Public Release Date	2013-11-04						
+Comment[AEExperimentDisplayName]	"Transcription profiling by array of root tips from Arabidopsis overexpressing ERF115, with mutated erf115 and wild-type controls"						
+Investigation Title	Transcript profiling of ERF115 transgenic Arabidopsis thaliana						
+Comment[Submitted Name]	Transcript profiling of ERF115 transgenic Arabidopsis thaliana						
+Experiment Description	"This experiment was set up in order to identify the (direct) transcriptional targets of the Ethylene Response Factor 115 (ERF115) transcription factor. Because ERF115 expression occurs in quiescent center (QC) cells and strong effects on the QC cells were observed in ERF115 overexpression plants, root tips were harvested for transcript profiling in order to focus on root meristem and QC specific transcriptional targets. Wild-type (Col-0 ecotype), erf115 mutant (SALK_021981) and ERF115 overexpressing (p35S:ERF115 ORF) root tips (three replicates each) were harvested and subjected to transcript profiling, using the Col-0 samples as control reference."						
+Term Source Name	ArrayExpress	EFO					
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Allemeersch	Heyman	Vanderauwera	De Veylder			
+Person First Name	Joke	Jefri	Sandy	Lieven			
+Person Email	joke.allemeersch@vib.be						
+Person Affiliation	Flanders Institute for Biotechnology (VIB)						
+Person Phone	+32(0)16 37 31 26						
+Person Address	"Nucleomics Core, Flanders Institute for Biotechnology (VIB), Herestraat 49 Box 816, Leuven, Belgium"						
+Person Roles	submitter						
+Protocol Name	P-GSE48836-1	P-GSE48836-5	P-GSE48836-6	P-GSE48836-2	P-GSE48836-3	P-GSE48836-4	P-GSE48836-7
+Protocol Description	"RMA-normalized expression values as obtained with the affy package version 1.36 of BioConductor. The reported values are on log2-scale. ID_REF =  VALUE = RMA-normalized expression values as obtained with the affy package version 1.36 of BioConductor. The reported values are on log2-scale. ABS_CALL = the MAS 5.0 detection call in an absolute analysis that indicates if the transcript was present (P), absent (A), marginal (M), or no call (NC) DETECTION P-VALUE = 'detection p-value', p-value that indicates the significance level of the detection call"	"RNA concentration and purity were determined spectrophotometrically using the Nanodrop ND-1000 (Nanodrop Technologies) and RNA integrity was assessed using a Bioanalyser 2100 (Agilent). Per sample, an amount of 100 ng of total RNA spiked with bacterial RNA transcript positive controls (Affymetrix) was amplified and labeled using the GeneChip 3' IVT express kit (Affymetrix). All steps were carried out according to the manufacturer's protocol (Affymetrix)."	A mixture of purified and fragmented biotinylated aRNA and hybridisation controls (Affymetrix) was hybridised on Affymetrix Arabidopsis ATH1 Genome arrays followed by staining and washing in a GeneChip(r) fluidics station 450 (Affymetrix) according to the manufacturer’s procedures.	Samples were not subjected to any specific kind of treament	"Seeds were vernalized for one week in -70 degrees and plated after bleach sterilization on vertical plates containing full strength MS medium. The medium was covered by sterilized nylon meshes (Prosep) prior to seed plating, plants were grown for five days in a long day/short night regime (16h light, 8h dark) at 21 degrees prior to harvesting."	"Root tips were excised using scalpels (facilitated by growth on the nylon meshes), immediately harvested into eppendorfs and flash frozen in liquid nitrogen. Root tips were grinded using a retch grinder by adding metal balls until the samples were pulverized. Total RNA was extracted as described by the Rneasy Mini Kit from Qiagen."	"To assess the raw probe signal intensities, chips were scanned using a GeneChip(r) scanner 3000 (Affymetrix)."
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	genotype						
+Experimental Factor Type	genotype						
+Publication Title	ERF115 Controls Root Quiescent Center Cell Division and Stem Cell Replenishment.						
+Publication Author List	"Heyman J, Cools T, Vandenbussche F, Heyndrickx KS, Van Leene J, Vercauteren I, Vanderauwera S, Vandepoele K, De Jaeger G, Van Der Straeten D, De Veylder L"						
+PubMed ID	24158907						
+Publication DOI	10.1126/science.1240667						
+Comment[SecondaryAccession]	GSE48836						
+Comment[GEOReleaseDate]	2013-11-04						
+Comment[ArrayExpressSubmissionDate]	2013-07-12						
+Comment[GEOLastUpdateDate]	2013-11-04						
+Comment[AEExperimentType]	transcription profiling by array						
+SDRF File	E-GEOD-48836.sdrf.txt						

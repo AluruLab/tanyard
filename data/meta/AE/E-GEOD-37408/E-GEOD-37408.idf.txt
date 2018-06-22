@@ -1,0 +1,32 @@
+Comment[ArrayExpressAccession]	E-GEOD-37408							
+MAGE-TAB Version	1.1							
+Public Release Date	2012-11-26							
+Investigation Title	Sucrose modulation of the Arabidopsis thaliana guard-cell transcriptome							
+Comment[Submitted Name]	Sucrose modulation of the Arabidopsis thaliana guard-cell transcriptome							
+Experiment Description	Microarrays were used to evaluate the effect of sucrose on gene expression in guard cells.  Strips of Arabidopsis leaves were incubated with sucrose or mannitol or no sugars, then the leaves were freeze dried and guard cells were dissected from the leaf strips and analyzed. RNA was extracted from guard cells dissected from leaf strips that had been treated with sucrose or with mannitol or no sugars as controls.  Triplicate biological replicates were prepared for the treatments and controls.  The RNA was amplified twice with T7 RNA polymerase and hybridized to Affymetrix ATH1 arrays.							
+Term Source Name	ArrayExpress	EFO						
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl						
+Person Last Name	Bates	Bates						
+Person First Name	George	George						
+Person Mid Initials	W.	W						
+Person Email	bates@bio.fsu.edu							
+Person Affiliation	Florida State University							
+Person Phone	850-644-5749							
+Person Address	Department of Biological Science, Florida State University, 89 Cheiftain Way, Tallahassee, FL, USA							
+Person Roles	submitter							
+Protocol Name	P-GSE37408-1	P-GSE37408-6	P-GSE37408-3	P-GSE37408-8	P-GSE37408-7	P-GSE37408-2	P-GSE37408-4	P-GSE37408-5
+Protocol Description	ID_REF =  VALUE = Log2 GCRMA signal intensity	Biotin-labeled RNA was fragmented, and hybridized to ATH1 GeneChips according to Affymetrix’s instructions (see Affymetrix user manuals P/N 702232 and P/N 702731). The arrays were washed and stained with R-phycoerythrin streptavidin in the GeneChip Fluidics Station 400.	rosette leaves from 8-10 week old plants grown at 22 degrees C, 60% RH, 150 microE per meter per sec fluorescent light, 8h light/16h dark diurnal cycles	The CEL files were imported in the R environment and analyzed by Bioconductor packages. Quality assessment for evaluation of the overall data coherence was performed with the Affy and AffyQCReport packages, and the raw data were background-corrected, and normalized by GCRMA	Arrays were scanned with a Hewlett Packard GeneArray Scanner.	1 mm wide leaf strips were floated on 150 mM sucrose or mannitol solutions containing 50 mM KCl and 0.1 mM CaCl2, vacuum inflitrated (25kPa for 30 sec), and incubated for 5 h at 22 degrees C, under fluorscent lights (30 microE per meter per sec). Leaf strips were blotted dry, frozen on liquid nitrogen, freeze dried for 4 days, and stored under vacuum at -20 degrees C. Guard cell pairs were manually dissected from the leaf strips under a dissecting microscope at 50X magnification.	RNA was isolated from samples of 50 to 100 guard cell pairs with the PicoPure RNA Isolation Kit (Arcturus) according to the manufacturer's instructions including treatment with DNase during the isolation.	RNA was amplified twice with the MessageAmp II aRNA Amplification Kit (Ambion) according to the manufacturer's instructions, biotin-11-UTP was included in the second round of amplification.
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Experimental Factor Name	genotype	compound						
+Experimental Factor Type	genotype	compound						
+Publication Title	A Comparative Study of the Arabidopsis thaliana Guard-Cell Transcriptome and Its Modulation by Sucrose.							
+Publication Author List	Bates GW, Rosenthal DM, Sun J, Chattopadhyay M, Peffer E, Yang J, Ort DR, Jones AM							
+PubMed ID	23185391							
+Publication DOI	10.1371/journal.pone.0049641							
+Comment[SecondaryAccession]	GSE37408							
+Comment[GEOReleaseDate]	2012-11-26							
+Comment[ArrayExpressSubmissionDate]	2012-04-18							
+Comment[GEOLastUpdateDate]	2012-12-20							
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[AdditionalFile:Data1]	GSE37408_matrix_GeneID.txt							
+SDRF File	E-GEOD-37408.sdrf.txt							

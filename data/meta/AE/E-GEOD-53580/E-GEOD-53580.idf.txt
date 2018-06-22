@@ -1,0 +1,29 @@
+Comment[ArrayExpressAccession]	E-GEOD-53580						
+MAGE-TAB Version	1.1						
+Public Release Date	2015-04-07						
+Investigation Title	Expression data from Arabidopsis C3H14/15 overexpressors, c3h14c3h15 double mutant vs wild type						
+Comment[Submitted Name]	Expression data from Arabidopsis C3H14/15 overexpressors, c3h14c3h15 double mutant vs wild type						
+Experiment Description	In plants, CCCH zinc finger proteins involved in secondary wall formation and anther development are poorly understood. We have functionally identified two homologous genes C3H14 and C3H15 and found that the two genes differentially regulate secondary wall formation and anther development. C3H14 contributes more to secondary wall thickening, whereas, C3H15 is more important for anther development. We performed microarray analyses on C3H14/15 overexpressors and c3h14c3h15 double mutant to to ientify differentially-expressed genes involved in the two developmental processes. Our microarray data show that C3H14 and C3H15 regulate the expression of a number of genes involved in various biological activities, particularly those associated with secondary wall metabolism and pollen formation.						
+Term Source Name	ArrayExpress	EFO					
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Guohua	Chai	Zhou				
+Person First Name	Chai	Guohua	Gongke				
+Person Email	chaigh@qibebt.ac.cn						
+Person Affiliation	Chinese Academy of Sciences						
+Person Address	Qingdao Institute of BioEnergy and Bioprocess Technology, Chinese Academy of Sciences, No.189 Songling Road, Laoshan District, Qingdao, Shandong, China						
+Person Roles	submitter						
+Protocol Name	P-GSE53580-1	P-GSE53580-5	P-GSE53580-6	P-GSE53580-2	P-GSE53580-3	P-GSE53580-4	P-GSE53580-7
+Protocol Description	The data were normalized using Robust Multi-array Average(RMA) . ID_REF =  VALUE = Normalized expression signal values.	Biotinylated cRNA were prepared from 200 ng total RNA using Affymetrix 3‚Äô IVT Express kit according to the standard Affymetrix protocol	Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45 degreeC on Arabidopsis ATH1 Genome Array. GeneChips were washed and stained in the Affymetrix Fluidics Station 450.	Total RNA was extracted from the base 4 cm part of inflorescence stems whose heights were between 12 and 17 cm of three independent wild type, C3H14/15 overexpressing lines and c3h14c3h15 double mutants.	Arabidopsis plants were grown side by side in the glasshouse with 22 degreeC and 16 h/8 h light/dark cycle.	Trizol extraction of total RNA was performed according to the manufacturer's instructions.	GeneChips were scanned using Affymetrix GeneChip Scanner 3000.
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	genotype						
+Experimental Factor Type	genotype						
+Publication Title	Arabidopsis C3H14 and C3H15 have overlapping roles in the regulation of secondary wall thickening and anther development.						
+Publication Author List	Chai G, Kong Y, Zhu M, Yu L, Qi G, Tang X, Wang Z, Cao Y, Yu C, Zhou G						
+PubMed ID	25732536						
+Publication DOI	10.1093/jxb/erv060						
+Comment[SecondaryAccession]	GSE53580						
+Comment[GEOReleaseDate]	2015-04-07						
+Comment[ArrayExpressSubmissionDate]	2013-12-23						
+Comment[GEOLastUpdateDate]	2015-04-07						
+Comment[AEExperimentType]	transcription profiling by array						
+SDRF File	E-GEOD-53580.sdrf.txt						

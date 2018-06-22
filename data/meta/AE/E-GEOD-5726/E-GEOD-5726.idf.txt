@@ -1,0 +1,51 @@
+Investigation Title	Transcription profiling of Arabidopsis seedling treated with norflurazon-induced photobleaching of chloroplasts							
+Comment[Submitted Name]	Seedling transcriptome affected by Norflurazon-induced photobleaching of chloroplasts							
+Experimental Design	unknown_experiment_design_type	transcription profiling by array						
+Experimental Design Term Source REF		EFO						
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis after treatment with norflurazon							
+Comment[AEMIAMESCORE]	4							
+Comment[ArrayExpressReleaseDate]	2008-06-14							
+Comment[SecondaryAccession]	GSE5726							
+Comment[ArrayExpressAccession]	E-GEOD-5726							
+Comment[MAGETAB TimeStamp_Version]	2010-08-06 17:23:48 Last Changed Rev: 13058							
+Experimental Factor Name	COMPOUND	GENOTYPE						
+Experimental Factor Type	compound	genotype						
+Experimental Factor Term Source REF								
+Person Last Name	(NASC)							
+Person First Name	Nottingham Arabidopsis Stock Centre							
+Person Mid Initials								
+Person Email	affy@arabidopsis.info							
+Person Phone								
+Person Fax								
+Person Address	School of Biosciences, University of Nottingham, Nottingham Arabidopsis Stock Centre (NASC), Sutton Bonington Campus, Loughborough, LE12 5RD, United Kingdom							
+Person Affiliation	Nottingham Arabidopsis Stock Centre (NASC)							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Quality Control Type								
+Quality Control Term Source REF								
+Replicate Type								
+Replicate Term Source REF								
+Normalization Type								
+Normalization Term Source REF								
+Date of Experiment								
+Public Release Date	2008-06-14							
+PubMed ID								
+Publication DOI								
+Publication Author List								
+Publication Title								
+Publication Status								
+Publication Status Term Source REF								
+Experiment Description	Regulation of expression of genes encoding chloroplast components is critical to the autotrophic plant and never more so than in the cotyledons of the de-etiolating seedling. Many chloroplast proteins are nuclear-encoded and a retrograde signal from the chloroplasts (the Plastid Signal) modulates nuclear transcription. However, not all chloroplast-targeted genes are subject to this control and not all plastid-dependent nuclear genes are chloroplast-targeted. We therefore aim to provide the most comprehensive screen yet of which genes are affected by plastid-signalling. To specifically knock-out positive plastid signalling in light-grown cotyledons, the herbicide Norflurazon (NF) is supplied in the growth medium, causing a carotenoid deficiency that leaves the chloroplasts vulnerable to photobleaching. This blocks the expression of a subset of nuclear genes, such as Lhcb and HEMA1. Two pairs of RNAs will directly compare the transcription in seedlings grown under continuous white light with and without NF. A third RNA will also be compared from a mutant that shows a degree of constitutive positive plastid signalling. These two mutants act synergistically to counteract the effect of NF on nuclear transcription. The gun1,gun5 double mutant maintains a significantly higher level of Lhcb and HEMA1 expression in the presence of photobeached chloroplasts than the NF-treated wild-type. This transcriptome set will therefore complement RNA1 (wild-type+NF) and indicate which of the genes identified from the RNA1/RNA2 comparison are subject to the particular gun1/gun5 plastid signalling pathway(s). The growth of conditions of the seedlings (namely on MS medium supplemented with 1.5% sucrose, for 3 days under continuous WL following 2 days germination in darkness) has been chosen from the results of our own recent studies using Northern blotting techniques that show these conditions to maximise the respective NF and gun mutant effects on Lhcb and HEMA1 gene expression. This experiment is part one of a two-part study to compare the transcriptional output of this NF-affected pathway with that of a newly discovered FR-mediated pathway. A subsequent array experiment will assess the nuclear response as affected by this FR/ phyA-input pathway and the two sets of array data will be compared and contrasted. Note:; Col-0 wild-type (NASC code N1092). gun1,gun5 double mutant(obtained from Enriquez Lopez-Juez, Royal Holloway, University of London.(Mochizuki et al. 2001 PNAS 98: 2053-2058). This line cannot be donated by us as it is the IP of Joanne Chory (SALK Institute, USA). Treatment = a herbicide (Norflurazon) application which leads to chloroplast photobleaching and hence down regulation of nuclear genes dependent on plastid signalling from intact chloroplasts. Experimenter name = Alex McCormac; Experimenter phone = 023 80594297; Experimenter fax = 023 80594319; Experimenter address = School of Biological Sciences; Experimenter address = Division of Cell Sciences; Experimenter address = University of Southampton; Experimenter address = Bassett Crescent East; Experimenter address = Southampton; Experimenter zip/postal_code = SO16 7PX; Experimenter country = UK Experiment Overall Design: 6 samples were used in this experiment							
+Protocol Name	P-G5726-3	P-G5726-6	P-G5726-1	P-G5726-2	P-G5726-4	P-G5726-5	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6
+Protocol Type	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	hybridization	feature_extraction
+Protocol Description	Seedlings of a double mutant line gun1,gun5 which had been treated with Norflurazon.	Seedlings of a double mutant line gun1,gun5 treated with Norflurazon.	WT seedlings treated with the herbicide Norflurazon.	WT seedlings which had not been treated with Norflurazon and therefore are the control sample.	Seedlings of WT which had been treated with Norflurazon.	Seedlings of WT which had not been treated with Norflurazon.	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 
+Protocol Parameters								
+Protocol Hardware								
+Protocol Software							MicroArraySuite 5.0	MicroArraySuite 5.0
+Protocol Contact								
+Protocol Term Source REF							mo	
+SDRF File	E-GEOD-5726.sdrf.txt							
+Term Source Name	NCBI Taxonomy	The MGED Ontology	ArrayExpress	EFO	mo			
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php			
+Term Source Version								

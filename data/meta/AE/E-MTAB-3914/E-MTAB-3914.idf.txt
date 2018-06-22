@@ -1,0 +1,35 @@
+Comment[ArrayExpressAccession]	E-MTAB-3914
+MAGE-TAB Version	1.1					
+Investigation Title	Transcript profiling of Arabidopsis thaliana swi3d mutant with inactivated SWI3D subunit of SWI/SNF complex					
+Comment[Submitted Name]	Transcript profiling of Arabidopsis thaliana swi3d mutant with inactivated SWI3D subunit of SWI/SNF complex
+Experiment Description	SWI3D subunit of SWI/SNF chromatin remodeling complexes (CRCs) is involved in the control of Arabidopsis development. We found, using microarray analysis that inactivation of SWI3D gene caused altered expression of genes belonging to various regulatory pathways, including metabolism, stress, response to hormone and development. On the basis of this experiment and our other data we concluded that Arabidopsis SWI3D modulates major regulatory pathways. This work was supported by the National Science Centre (NCN) grant No. 2011/01/B/NZ1/00053					
+Experimental Design	development or differentiation design					
+Experimental Design Term Source REF	EFO					
+Experimental Design Term Accession Number	EFO_0001746					
+Experimental Factor Name	genotype					
+Experimental Factor Type	genotype					
+Experimental Factor Term Source REF	EFO					
+Experimental Factor Term Accession Number						
+Person Last Name	Sacharowski	Gratkowska	Huettel	Sarnowska	Sarnowski	
+Person First Name	Sebastian	Dominika	Bruno	Elzbieta	Tomasz	
+Person Mid Initials		M		A	J	
+Person Email	sebastian.sacharowski@gmail.com	gratkowskad@gmail.com			tsarn@ibb.waw.pl	
+Person Phone						
+Person Fax						
+Person Address					Pawinskiego 5A, 02-106 Warsaw, Poland	
+Person Affiliation					Institute of Biochemistry and Biophysics PAS, Dept. of Protein Biosynthesis	
+Person Roles	experiment performer;submitter	data analyst	experiment performer	data analyst	submitter	
+Date of Experiment	2014-06-09					
+Public Release Date	2015-09-22					
+Protocol Name	P-MTAB-46615	P-MTAB-46616	P-MTAB-46617	P-MTAB-46618	P-MTAB-46619	P-MTAB-46620
+Protocol Type	sample collection protocol	growth protocol	nucleic acid extraction protocol	nucleic acid labeling protocol	nucleic acid hybridization to array protocol	normalization data transformation protocol
+Protocol Term Source REF	EFO	EFO	EFO	EFO	EFO	EFO
+Protocol Term Accession Number	EFO_0005518	EFO_0003789	EFO_0002944	EFO_0003813	EFO_0003815	EFO_0003816
+Protocol Description	Plants were frozen in LN immediately after harvesting and ground into a fine powder.	Plants were grown under long-day (LD) or short-day (SD) conditions (16h light/8h dark or 8h light/16h dark, respectively) at 22/19°C, 70% humidity.	RNA was extracted using RNeasy plant kit (Qiagen) and 150ng of total RNA were used to further analysis.	Nucleic acids were labeled by biotin-labeling with the IVT labeling kit (GeneChip 3'IVT Express; Affymetrix)	The labeled nucleic acids were hybridised to array for 16h as recommended by the supplier (Gene expression analysis manual; Affymetrix).	The data normalisation (RMA- summarisation method) was done using GeneSpring GX software according to guided workflow.
+Protocol Hardware						
+Protocol Software						
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/				
+Term Source Version						
+Comment[AEExperimentType]	transcription profiling by array					
+SDRF File	E-MTAB-3914.sdrf.txt

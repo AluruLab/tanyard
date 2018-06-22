@@ -1,0 +1,58 @@
+Comment[ArrayExpressAccession]	E-GEOD-23027							
+Public Release Date	2011-01-14							
+Investigation Title	Differential mRNA accumulation in Arabidopsis lacking the exoribonuclease XRN4 indicates a preference of the enzyme for specific mRNA sequences and functional categories							
+Comment[Submitted Name]	Differential mRNA accumulation in Arabidopsis lacking the exoribonuclease XRN4 indicates a preference of the enzyme for specific mRNA sequences and functional categories							
+Experiment Description	One of the major players controlling RNA decay is the cytoplasmic 5’ to 3’ exoribonuclease, which is conserved among eukaryotic organisms. In Arabidopsis, the 5’ to 3’ exoribonuclease XRN4 is involved in disease resistance, the response to ethylene, RNAi and miRNA-mediated RNA decay. Curiously, XRN4 appears to display selectivity among its substrates because certain 3’ cleavage products formed by miRNA-mediated decay, such as from ARF10 mRNA, accumulate in the xrn4 mutant, whereas others, such as from AGO1, do not. To examine the nature of this selectivity, transcripts that differentially accumulate in xrn4 were identified by combining PARE and Affymetrix arrays. Certain functional categories, such as stamen-associated proteins and hydrolases, were over-represented among transcripts decreased in xrn4, whereas transcripts encoding nuclear-encoded chloroplast-targeted proteins and nucleic acid-binding proteins were over-represented in transcripts increased in xrn4. To ascertain if RNA sequence influences the apparent XRN4 selectivity, a series of chimeric constructs were generated where the miRNA-complementary sites and different portions of the surrounding sequences from AGO1 and ARF10 were interchanged. Analysis of the resulting transgenic plants revealed that the presence of a 150 nucleotide sequence downstream of the ARF10 miRNA-complementary site conferred strong accumulation of the 3’ cleavage products in xrn4. In addition, sequence analysis of differentially accumulating transcripts led to the identification of 27 hexamer motifs that were over-represented in transcripts or miRNA-cleavage products accumulating in xrn4. Taken together, the data indicate that specific mRNA sequences, like those in ARF10, and mRNAs from select functional categories are attractive targets for XRN4-mediated decay.  Mixed-stage inflorescences from Col-0 and xrn4-5 plants were harvested.  Total RNA was extracted and hybridized to the ATH1 array to determine genes differentially expressed in xrn4-5 compared to Col-0. 2 replicates each.							
+Date of Experiment								
+Term Source Name	EFO							
+Term Source Version								
+Term Source File	http://efo.svn.sourceforge.net/viewvc/efo/trunk/src/efoinowl/efo.owl							
+Person Last Name	Rymarquis	Rymarquis	Souret	Green				
+Person First Name	Linda	Linda	Frederic	Pamela				
+Person Mid Initials		A	F	J				
+Person Email	rymarquis@dbi.udel.edu							
+Person Affiliation	University of Delaware							
+Person Phone								
+Person Fax								
+Person Address	University of Delaware, 15 Innovation way rm 241, Newark, DE, USA							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Person Roles Term Accession Number								
+Normalization Type								
+Normalization Term Accession Number								
+Normalization Term Source REF								
+Replicate Type								
+Replicate Term Accession Number								
+Replicate Term Source REF								
+Experimental Design								
+Experimental Design Term Accession Number								
+Experimental Design Term Source REF								
+Quality Control Type								
+Quality Control Term Accession Number								
+Quality Control Term Source REF								
+Protocol Name	P-GSE23027-1	P-GSE23027-6	P-GSE23027-3	P-GSE23027-8	P-GSE23027-7	P-GSE23027-2	P-GSE23027-4	P-GSE23027-5
+Protocol Description	ID_REF = <br>VALUE = Signal calculated by GCOS software<br>Detection p-value = 	Following fragmentation, 20 ug of cRNA were hybridized for 16 hr at 45C on the GeneChip ATH1 Array.	Mixed-stage Arabidopsis inflorescences were collected from Col-0 and xrn4-5 plants grown under long day conditions (16 hr light, 8 hr dark) at 21C.	Data were analyzed by the GCOS software package using Affymetrix default analysis settings and global scaling as the normalization method.	GeneChips were scanned using the Hewlett-Packard GeneArray Scanner.	Inflorescence tissue was harvested and frozen in liquid nitrogen.	Total RNA was extracted using the Qiagen RNeasy plant kit according to manufacturer's instructions.	Biotinylated cRNA were prepared from 15 ug total RNA using the GeneChip IVT labeling kit from Affymetrix.
+Protocol Software								
+Protocol Hardware								
+Protocol Contact								
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Protocol Term Source REF								
+Protocol Term Accession Number								
+Experimental Factor Name	GENOTYPE							
+Experimental Factor Type	genotype							
+Experimental Factor Term Source REF								
+Experimental Factor Term Accession Number								
+Publication Title	Evidence that XRN4, an Arabidopsis homolog of exoribonuclease XRN1, preferentially impacts transcripts with certain sequences or in particular functional categories.							
+Publication Author List	Rymarquis LA, Souret FF, Green PJ.							
+PubMed ID	21224377							
+Publication DOI	10.1261/rna.2467911							
+Publication Status	published							
+Publication Status Term Source REF	EFO							
+Publication Status Term Accession Number	EFO_0001796							
+Comment[SecondaryAccession]	GSE23027							
+Comment[GEOLastUpdateDate]	2011-01-16							
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for xrn4							
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[GEOReleaseDate]	2011-01-14							
+Comment[ArrayExpressSubmissionDate]	2010-07-19							
+SDRF File	E-GEOD-23027.sdrf.txt							

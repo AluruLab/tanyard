@@ -1,0 +1,34 @@
+Comment[ArrayExpressAccession]	E-MEXP-2880					
+Investigation Title	Transcription profiling by array of Arabidopsis in response to formaldehyde stress					
+Comment[Submitted Name]	cDNA microarray analysis of Arabidopsis thaliana in response to formaldehyde(HCHO) stress					
+Comment[AEExperimentType]	transcription profiling by array					
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis after treatment with formaldehyde					
+Publication Title	Physiological and transcriptional analysis of the effects of formaldehyde exposure on Arabidopsis thaliana					
+Publication Author List	Sha-Sha Wang, Zhong-Bang Song, Zhen Sun, Jing Zhang, Yan Mei, Hong-Juan Nian, Kun-Zhi Li and Li-Mei Chen					
+Publication DOI	10.1007/s11738-011-0889-3					
+PubMed ID						
+Experimental Design	in_vitro_design	co-expression_design	time_series_design	compound_treatment_design	transcription profiling by array	
+Experimental Design Term Source REF		MGED Ontology	MGED Ontology	MGED Ontology	EFO	
+Comment[MIAMExpressLogin]	vanessasteve					
+Comment[MIAMExpressSubmissionID]	6920					
+Experiment Description	We analyzed changes in gene expression of Arabidopsis in response to 2 mM formaldehyde (HCHO) stimulation using cDNA microarray in the present study. The aim of our study was to identify HCHO-responsive genes and clarify the molecular mechanisms underlying the response of Arabidopsis to HCHO stress. 					
+Experimental Factor Name	COMPOUND	DOSE	TREATMENT TIME			
+Experimental Factor Type	compound	dose	time			
+Person Last Name	Wang					
+Person First Name	Shasha					
+Person Email	vanessasteve@hotmail.com					
+Person Phone	-3802005					
+Person Affiliation	Kunming University of Science and Technology					
+Person Address	Biotechnology Research Center, Bailong Campus, Bailongsi, Bailong Road, Kunming, Yunnan, 650224, China					
+Person Roles	submitter					
+Person Roles Term Source REF	MGED Ontology					
+Quality Control Type						
+Public Release Date	2010-12-31					
+Comment[ArrayExpressSubmissionDate]	2010-19-08 06:26:00					
+Protocol Name	P-MTAB-16562	P-MTAB-16563	P-MTAB-16564	P-MTAB-16565	P-MTAB-16566	P-MTAB-16567
+Protocol Description	Total RNA (1 ﾵg to 15 ﾵg) or mRNA (0.2 ﾵg to 2 ﾵg) is first reverse transcribed using a T7-Oligo(dT) Promoter Primer in the first-strand cDNA synthesis reaction. Following RNase H-mediated second-strand cDNA synthesis, the double-stranded cDNA is purified and serves as a template in the subsequent in vitro transcription (IVT) reaction. The IVT reaction is carried out in the presence of T7 RNA Polymerase and a biotinylated nucleotide analog/ribonucleotide mix for complementary RNA (cRNA) amplification and biotin labeling. The biotinylated cRNA targets are then cleaned up, fragmented, and hybridized to GeneChip expression arrays.(Parameters: Amount of nucleic acid labeled = 15, Amplification = none, Mass unit = Micro gram)	Raw CEL files are normalized using the MAS5 algorithm.The single array analysis generates two characteristic values: the signal value which assigns a relative abundance to the transcript, and the p-value which indicates whether the signal is reliably detected or not.	TRIzol Reagent from Invitrogen Life Technologies has been used to isolate total RNA from Arabidopsis and poly-A mRNA has been successfully isolated using QIAGENﾒs Oligotex products. (Parameters: Extracted product = polyA_RNA, Amplification = none)	Both formaldehyde-treated sample and control sample were mixtures of seedlings treated for 0.5 h, 2 h, 4 h and 17 h.	0.5 g of Arabidopsis seedlings were dipped into 2 mM HCHO solution (50 ml) containing 5 mM KHCO3 and 0.1% MES for 0.5 h, 2 h, 4 h and 17 h under the same conditions. The plants treated in the same solution without HCHO were used as the control.	Sterilized seeds were initially geminated on Murashige and Skoog (MS) agar medium (pH 5.7) containing 1% sucrose and grown in a growth chamber at 25oC under constant light (100 mol m-2 s-1). Two weeks later, the seedlings were transferred to the same fresh medium and grown under the same conditions for another two weeks. (Parameters: start time = 4, time unit = weeks, min temperature = 25, temperature unit = C, media =  Murashige and Skoog (MS) agar medium (pH 5.7))
+Protocol Type	labeling	bioassay_data_transformation	nucleic_acid_extraction	pool	specified_biomaterial_action	grow
+Protocol Term Source REF	MGED Ontology	MGED Ontology	MGED Ontology	MGED Ontology	MGED Ontology	MGED Ontology
+Term Source Name	MGED Ontology	ArrayExpress			EFO	
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress				
+SDRF File	E-MEXP-2880.sdrf.txt					

@@ -1,0 +1,30 @@
+Comment[ArrayExpressAccession]	E-GEOD-53989
+MAGE-TAB Version	1.1						
+Public Release Date	2014-06-15
+Investigation Title	A genome-wide approach in Arabidopsis thaliana to assess the toxicity of cadmium sulfide quantum dots						
+Comment[Submitted Name]	A genome-wide approach in Arabidopsis thaliana to assess the toxicity of cadmium sulfide quantum dots
+Experiment Description	Cadmium sulfide quantum dots (CdS QDs) are widely used in novel equipment. The relevance of the research lies in the need to develop risk assessments for nanomaterials, using as basis a model plant species. Here a screen of Arabidopsis thaliana mutant lines was performed in an attempt to identify plants tolerant to CdS QDs. Two tolerant Ds insertion mutant lines (atnp01 and atnp02) were identified. A whole-genome microarray experiment showed how genes were regulated by CdS QDs. Most of the genes involved in the response to CdS QDs were related to detoxification and general metabolism. The two mutant lines treated with CdS QDs showed different patterns of gene expression. The genome-wide expression profile of seedlings of the two selected resistant mutants were acquired and compared to that of wild type seedlings using the Arabidopsis ATH1 Genome Array. The wild type seedlings were exposed to either 0 mg/L, 40 mg/L (1/2 MIC) or 80 mg/L (MIC wt) CdS QDs, and each of the resistant/tolerant mutant line plants to either 0 mg/L or 80 mg/L CdS QDs for 21 days.						
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	pagano	Pagano	Marmiroli	Savo Sardaro	Marmiroli		
+Person First Name	luca	Luca	Marta	Maria	Nelson		
+Person Mid Initials				L			
+Person Email	luca.pagano@nemo.unipr.it						
+Person Affiliation	University of Parma						
+Person Address	Life Sciences, University of Parma, Parco Area delle Scienze 11/A, Parma, Italy						
+Person Roles	submitter						
+Protocol Name	P-GSE53989-1	P-GSE53989-5	P-GSE53989-6	P-GSE53989-2	P-GSE53989-3	P-GSE53989-4	P-GSE53989-7
+Protocol Description	Raw microarray data were analyzed using the Affymetrix Program Suite Expression Console v1.1 (www.affymetrix.com/analysis/). A gene expression model was obtained from normalized CEL intensities based on a perfect match only model (RMA). The RMA algorithm used a robust multi-array average for background adjustment, normalization, and log2 transformation of signal intensities. ID_REF =  VALUE = Log2 RMA signal intensity	100 ng of total RNA were used for amplification, which was performed with the GeneChip 3' IVT Express Kit (Cat # 901228, Lot# 0907014, Affymetrix). For fragmentation, 15 Î¼g aRNA were used. aRNA were labeled with biotin. Biolitix AG (Witterswill, Switzerland).	Hybridization, washing and staining were performed according to the Affymetrix user manual. The hybridization cocktail was prepared using the Affymetrix GeneChip® Expression 3' Amplification Reagent Hybridization Controls (Cat# 900454; Lot# 4140132) and the Hybridization Module of GeneChip® Hybridization, Wash and Stain Kit (Cat# 900720; Lot# 4139834) and mixed with aRNA samples. Hybridization was performed over night for 16 hours in the GeneChip® Hybridization Oven 640. Washing and staining of the arrays were done in the GeneChip®Fluidics Station 450. Biolitix AG (Witterswill, Switzerland).	After 14 days, plants were transferred on Murashige and Skoog (MS) medium supplemented with 0 mg/L, 40 mg/L or 80 mg/L CdS QDs, for other 21 days at 24°C, a relative humidity of 30% and under a 16 h photoperiod.	Seeds were germinated on MS medium at 24°C, a relative humidity of 30% and under a 16 h photoperiod.	Total RNA was extracted from 0.1 g of plant material using a Sigma-Aldrich Spectrum Plant Total RNA kit.	Scanning was done with GeneChip® Scanner 3000 (Affymetrix). Biolitix AG (Witterswill, Switzerland).
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	TREATMENT	GENOTYPE					
+Experimental Factor Type	treatment	genotype					
+Publication Title	Genome-Wide Approach in Arabidopsis thaliana to Assess the Toxicity of Cadmium Sulfide Quantum Dots.						
+Publication Author List	Marmiroli M, Pagano L, Savo Sardaro ML, Villani M, Marmiroli N						
+PubMed ID	24673199						
+Publication DOI	10.1021/es404958r						
+Comment[SecondaryAccession]	GSE53989						
+Comment[GEOReleaseDate]	2014-06-15						
+Comment[ArrayExpressSubmissionDate]	2014-01-10						
+Comment[GEOLastUpdateDate]	2014-06-18						
+Comment[AEExperimentType]	transcription profiling by array						
+SDRF File	E-GEOD-53989.sdrf.txt

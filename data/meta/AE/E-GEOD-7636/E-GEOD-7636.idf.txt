@@ -1,0 +1,52 @@
+Investigation Title	Transcription profiling of Arabidopsis protoplasting and FACS sorting in roots						
+Comment[Submitted Name]	Expression analysis of the effect of protoplasting and FACS sorting in roots						
+Experimental Design	unknown_experiment_design_type	transcription profiling by array					
+Experimental Design Term Source REF		EFO					
+Comment[AEExperimentType]	transcription profiling by array						
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis whole roots and protoplasted FACS sorted root cells after treatment with NaCl						
+Comment[ArrayExpressReleaseDate]	2008-06-15						
+Comment[SecondaryAccession]	GSE7636						
+Comment[AEMIAMESCORE]	4						
+Comment[ArrayExpressAccession]	E-GEOD-7636						
+Comment[MAGETAB TimeStamp_Version]	2010-08-07 19:38:11 Last Changed Rev: 13058						
+Experimental Factor Name	ORGANISM PART						
+Experimental Factor Type	organism_part						
+Experimental Factor Term Source REF							
+Person Last Name	Dinneny						
+Person First Name	Jose Ramon						
+Person Mid Initials							
+Person Email	jdinneny@duke.edu						
+Person Phone							
+Person Fax							
+Person Address	Philip N. Benfey, Biology, Duke University, Box 90338, Durham, 27708, USA						
+Person Affiliation	Duke University						
+Person Roles	submitter						
+Person Roles Term Source REF							
+Quality Control Type							
+Quality Control Term Source REF							
+Replicate Type							
+Replicate Term Source REF							
+Normalization Type							
+Normalization Term Source REF							
+Date of Experiment							
+Public Release Date	2008-06-15						
+PubMed ID	18436742						
+Publication DOI	10.1126/science.1153795						
+Publication Author List	Dinneny JR, Long TA, Wang JY, Jung JW, Mace D, Pointer S, Barron C, Brady SM, Schiefelbein J, Benfey PN.						
+Publication Title	Cell Identity Mediates the Response of Arabidopsis Roots to Abiotic Stress.						
+Publication Status	published						
+Publication Status Term Source REF	EFO						
+Publication Status Term Accession Number	EFO_0001796						
+Experiment Description	In order to estimate the effects of protoplasting and FACS sorting procedures on salt regulated gene expression we generated expression profiles for whole roots that had been treated with salt for 1 hour and for roots that were protoplasted and FACS sorted after the initial 1 hour salt treatment. Cells are amazingly adept at integrating both external and internal cues to regulate transcriptional states.  While internal processes such as differentiation and cell-type specification are generally understood to have an important impact on gene expression, very little is known about how cells utilize these developmental cues to regulate responses to external stimuli.  Here we use the response to a well characterized environmental stress, high salinity, to obtain a global view of the role that cell identity plays in guiding transcriptional responses in the root of Arabidopsis.  Our analysis is based on three microarray data sets we have generated that explore transcriptional changes spatially among 6 cell layers and 4 longitudinal regions or temporally along 5 time points after salt treatment.  We show that the majority of the response to salt stress is cell-type specific resulting in the differential regulation of unique biological functions in subsets of cell layers.  To understand the regulatory mechanisms controlling these responses we have analyzed cis-element enrichment in the promoters of salt responsive genes and demonstrate that known stress regulatory elements likely control responses to salt occurring in multiple cell types.  Despite the extensive shift in transcriptional state that salt stress elicits, we are able to identify several biological processes that consistently define each cell layer and find that transcriptional regulators of cell-identity tend to exhibit robust cell-type specific expression.  Finally, using mutants that disrupt cell-type specification in the epidermis, we reveal cell autonomous and non-autonomous effects when cell identity is altered.  Together, these data elucidate a novel intersection between physiology and development and expand our understanding of how transcriptional states are regulated in a multi-cellular context. Experiment Overall Design: To estimate the effect that protoplasting and cell sorting has on the expression of salt regulated genes we prepared samples as in Birnbaum et al. (2005) Nat. Methods, except that all cells were collected after cell sorting.  Cells were collected from roots that had been treated with 140mM NaCl for 1hr prior to protoplasting.  Whole roots were also collected after a similar treatment regimen with NaCl.  Two replicates were performed per condition.						
+Protocol Name	P-G7636-2	P-G7636-1	P-G7636-4	P-G7636-3	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6	Affymetrix:Protocol:ExpressionStat
+Protocol Type	specified_biomaterial_action	grow	nucleic_acid_extraction	labeling	hybridization	feature_extraction	bioassay_data_transformation
+Protocol Description	Samples were prepared as in Birnbaum et al. (2005) except that roots were transferred to 140 mM NaCl for 1hr before protoplasting or harvested without protoplasting.  Protoplasted cells were passed through the FACS device with all cells being collected.	Seeds were surface sterilized with 50% Bleach and 0.1% Tween for 5 minutes and then rinsed 3 times with sterile water.  Seeds were stratified at 4ËC for 2 days before being planted on standard media.  Standard media is 1X concentration Murashige and Skoog salt mixture (Caisson laboratories), 0.5g/L MES, 1% sucrose, 1% agar and adjusted to pH 5.7 with KOH.  Salt media is standard media with varying amounts of NaCl added.  Nylon mesh was placed on top of the solidified media and seeds were evenly placed on the mesh at a density of ~20 seeds/cm in two rows.	RNA was extracted using the RNAeasy Micro Kit (Qiagen GmbH).	Fragmented cRNA probes were prepared using the two-cycle amplification protocol by Affymetrix.	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 
+Protocol Parameters							
+Protocol Hardware							
+Protocol Software					MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 5.0
+Protocol Contact							
+Protocol Term Source REF					mo		
+SDRF File	E-GEOD-7636.sdrf.txt						
+Term Source Name	NCBI Taxonomy		The MGED Ontology	ArrayExpress	EFO	The MGED Ontology	mo
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version							

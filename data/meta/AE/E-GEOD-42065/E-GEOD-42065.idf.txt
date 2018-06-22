@@ -1,0 +1,26 @@
+Comment[ArrayExpressAccession]	E-GEOD-42065
+MAGE-TAB Version	1.1														
+Public Release Date	2013-03-13
+Investigation Title	A key role for a glutathione transferase in multiple herbicide resistance in grass weeds														
+Comment[Submitted Name]	A key role for a glutathione transferase in multiple herbicide resistance in grass weeds
+Experiment Description	The gene encoding a protein (AmGSTF1) associated with multiple herbicide resistance (MHR) in black-grass was transgenically expressed in Arabidopsis thaliana.The goal of this study was to determine if AmGSTF1 could elicit an MHR phenotype in the transgenic host. Affymetix microarrays were used to detect changes in transcriptional regulation between amgstf1-expressors and wild-type Arabidopsis plants (ecotype Col0). Total RNA was isolated from amgstf1-expressors and wild-type Arabidopsis plants (ecotype Col0) respectively, grown under identical growth room conditions. Performed in biological triplicate.														
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl													
+Person Last Name	Wortley	Cummins	Wortley	Sabbadin	He	Coxon	Straker	Sellars	Knight	Edwards	Hughes	Kaundun	Hutchings	Steel	Edwards
+Person First Name	David	Ian	David	Federico	Zhesi	Christopher	Hannah	Jonathan	Kathryn	Lesley	David	Shiv	Sarah-Jane	Patrick	Robert
+Person Mid Initials			J			R	E					S		G	
+Person Email	geo@ncbi.nlm.nih.gov														
+Person Affiliation	University of York														
+Person Address	University of York, Wentworth Way, York, North Yorkshire, United Kingdom														
+Person Roles	submitter														
+Protocol Name	P-GSE42065-1	P-GSE42065-6	P-GSE42065-3	P-GSE42065-8	P-GSE42065-7	P-GSE42065-2	P-GSE42065-4	P-GSE42065-5							
+Protocol Description	ID_REF =  VALUE = MAS5 signal intensity	Affymetrix Eukaryotic Sample Processing protocol followed - 16 hours at 45oC in rotating hybridisation oven	Seeds were chilled for 72 hours at 4 °C prior to sowing on F2 compost and maintaining in growth rooms set to a 16-hour day length, 20 °C.	Affymetrix Expression Console software v1.1. MAS5.	Affymetrix GeneChip Command Console Scan Control 1.1.0.845. Affymetrix 450 Scanner.	For each replicate, ten leaves were floated on a solution containing 0.1 % Tween 20 + 0.1 % acetone and maintained for 4 hours in growth room conditions. After 4 hours had elapsed tissue was harvested, flash frozen using liquid nitrogen and stored at -80 °C.	Frozen tissue was ground to a fine powder in liquid nitrogen and total RNA extracted using the commercially available Rneasy mini kit (Qiagen).	Affymetrix Eukaryotic Sample Processing protocol followed - biotin labelling of antisense cRNA							
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling							
+Experimental Factor Name	TRANSGENE														
+Experimental Factor Type	transgene														
+Comment[SecondaryAccession]	GSE42065														
+Comment[GEOReleaseDate]	2013-03-13														
+Comment[ArrayExpressSubmissionDate]	2012-11-06														
+Comment[GEOLastUpdateDate]	2013-03-15														
+Comment[AEExperimentType]	transcription profiling by array														
+SDRF File	E-GEOD-42065.sdrf.txt

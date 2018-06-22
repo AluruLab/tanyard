@@ -1,0 +1,58 @@
+Comment[ArrayExpressAccession]	E-GEOD-8955											
+Public Release Date	2009-12-31											
+Investigation Title	atmyc2_cop1_mutant_light_ABA_treatment											
+Comment[Submitted Name]	atmyc2_cop1_mutant_light_ABA_treatment											
+Experiment Description	Although many regulatory components of light signaling have been functionally characterized, only a few of them have been reported to cross talk with other signaling cascades. In this study, we have analyzed the expression profiles of Arabidopsis genes in wild-type, atmyc2 mutant, cop1-6 mutant, and atmyc2 cop1-6 double mutant seedlings grown under constant dark, constant blue-light, and constant blue-light along with abscisic acid (ABA) to illustrate the interplay of negative regulators, AtMYC2 and COP1, in light and ABA signaling Keywords: Light and abscisic acid treatment Expression data for wild-type, atmyc2, cop1-6, and atmyc2 cop1-6 seedlings under constant dark, blue-light and blue-light along with abscisic acid Ten-day-old Arabidopsis (wild-type, atmyc2 mutant, cop1-6 mutant, and atmyc2 cop1-6 double mutant) seedlings grown under constant dark, constant blue-light (35 µmol/sec/m2), and constant blue-light along with ABA (0.5 µm) were used for RNA extraction and hybridization on Affymetrix microarrays. Two biological replicates of each sample were used for microarray analysis.											
+Date of Experiment												
+Term Source Name	EFO											
+Term Source Version												
+Term Source File	http://www.ebi.ac.uk/efo/efo.owl											
+Person Last Name	Chattopadhyay	Jain	Gangappa	Khurana	Chattopadhyay							
+Person First Name	Sudip	Mukesh	Sreeramaiah	Jitendra	Sudip							
+Person Mid Initials			N	P								
+Person Email	sudipchatto@yahoo.com											
+Person Affiliation	National Institute For Plant Genome Research											
+Person Phone	91-11-26178612											
+Person Fax												
+Person Address	National Institute For Plant Genome Research, Aruna Asaf Ali Marg, New Delhi, India											
+Person Roles	submitter											
+Person Roles Term Source REF												
+Person Roles Term Accession Number												
+Normalization Type												
+Normalization Term Accession Number												
+Normalization Term Source REF												
+Replicate Type												
+Replicate Term Accession Number												
+Replicate Term Source REF												
+Experimental Design												
+Experimental Design Term Accession Number												
+Experimental Design Term Source REF												
+Quality Control Type												
+Quality Control Term Accession Number												
+Quality Control Term Source REF												
+Protocol Name	P-GSE8955-1	P-GSE8955-6	P-GSE8955-10	P-GSE8955-12	P-GSE8955-3	P-GSE8955-8	P-GSE8955-7	P-GSE8955-11	P-GSE8955-2	P-GSE8955-9	P-GSE8955-4	P-GSE8955-5
+Protocol Description	ID_REF = Probe set ID<br>VALUE = GCOS 1.4 calculated signal intensity<br>ABS_CALL = The call in an absolute analysis that indicates if the transcript was present (P), absent (A), marginal (M), or no call (NC)<br>DETECTION P-VALUE = p-value indicates the significance level of the detection call	Following fragmentation, 10 ug of cRNA were hybridized for 16 h at 45 degree Celsius on Affymetrix ATH1 Arabidopsis Genome Array. GeneChips were washed and stained in the Affymetrix Fluidics Station 450 using script EukGE-WS2v4_450	Seeds were surface sterilized with 2% sodium hypochlorite, thoroughly washed with RO (reverse-osmosis) water and spread on MS plates. The plates were kept at 4 degree Celsius for 3-5 days for cold treatment and transferred to constant blue-light at 22 ± 1 degree Celsius	Seeds were surface sterilized with 2% sodium hypochlorite, thoroughly washed with RO (reverse-osmosis) water and spread on MS plates supplemented with abscisic acid (0.5 µm). The plates were kept at 4 degree Celsius for 3-5 days for cold treatment and transferred to constant blue-light at 22 ± 1 degree Celsius	Seeds were surface sterilized with 2% sodium hypochlorite, thoroughly washed with RO (reverse-osmosis) water and spread on MS plates. The plates were kept at 4 degree Celsius for 3-5 days for cold treatment and transferred to constant dark at 22 ± 1 degree Celsius	The data were analyzed with GeneChip Operating Software (GCOS 1.4) using Affymetrix default analysis settings and global scaling as normalization method. The mean target intensity of each array was arbitrarily set to 100	GeneChips were scanned using GeneChip Scanner 3000	Seedlings were grown under constant blue-light (35 µmol/sec/m2) and presence of abscisic acid (0.5 µm) for 10 days at 22 ± 1 degree Celsius	Seedlings were grown under constant dark for 10 days at 22 ± 1 degree Celsius	Seedlings were grown under constant blue-light (35 µmol/sec/m2) for 10 days at 22 ± 1 degree Celsius	Extraction of total RNA was performed using Trizol, according to the manufacturer's instructions	Biotinylated cRNA was prepared according to the standard Affymetrix protocol from 5 ug total RNA (Expression Analysis Technical Manual, Affymetrix).
+Protocol Software												
+Protocol Hardware												
+Protocol Contact												
+Protocol Type	bioassay_data_transformation	hybridization	grow	grow	grow	feature_extraction	image_aquisition	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Protocol Term Source REF												
+Protocol Term Accession Number												
+Experimental Factor Name	GENOTYPE	COMPOUND	GROWTH CONDITION									
+Experimental Factor Type	genotype	compound	growth_condition									
+Experimental Factor Term Source REF												
+Experimental Factor Term Accession Number												
+Publication Title												
+Publication Author List												
+PubMed ID												
+Publication DOI												
+Publication Status												
+Publication Status Term Source REF												
+Publication Status Term Accession Number												
+Comment[SecondaryAccession]	GSE8955											
+Comment[GEOLastUpdateDate]	2009-05-18											
+Comment[AEExperimentType]	transcription profiling by array											
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for atmyc2 and/or cop1 grown under constant blue-light or dark and treated with abscisic acid											
+Comment[GEOReleaseDate]	2009-12-31											
+Comment[ArrayExpressSubmissionDate]	2007-09-04											
+SDRF File	E-GEOD-8955.sdrf.txt											

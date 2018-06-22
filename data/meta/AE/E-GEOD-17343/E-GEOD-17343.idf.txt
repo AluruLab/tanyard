@@ -1,0 +1,52 @@
+Investigation Title	Transcription profiling of Arabidopsis pollen and semi in vivo- and in vitro-grown pollen tubes.								
+Comment[Submitted Name]	Expression data from Arabidopsis pollen and semi in vivo- and in vitro-grown pollen tubes.								
+Experimental Design	unknown_experiment_design_type	transcription profiling by array							
+Experimental Design Term Source REF		EFO							
+Comment[AEExperimentType]	transcription profiling by array								
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis pollen and pollen tubes grown in vitro and in vivo								
+Comment[AEMIAMESCORE]	4								
+Comment[SecondaryAccession]	GSE17343								
+Comment[ArrayExpressReleaseDate]	2009-08-15								
+Comment[ArrayExpressAccession]	E-GEOD-17343								
+Comment[MAGETAB TimeStamp_Version]	2010-08-03 11:33:52 Last Changed Rev: 13058								
+Experimental Factor Name	growth condition	time							
+Experimental Factor Type	growth condition	time							
+Experimental Factor Term Source REF									
+Person Last Name	PALANIVELU								
+Person First Name	RAVISHANKAR								
+Person Mid Initials									
+Person Email	rpalaniv@ag.arizona.edu								
+Person Phone									
+Person Fax									
+Person Address	"Palanivelu, Plant Sciences, University of Arizona, 1140 E. South Campus Drive P.O. Box 210036, Tucson, 85721, USA"								
+Person Affiliation	University of Arizona								
+Person Roles	submitter								
+Person Roles Term Source REF	The MGED Ontology								
+Quality Control Type									
+Quality Control Term Source REF									
+Replicate Type									
+Replicate Term Source REF									
+Normalization Type									
+Normalization Term Source REF									
+Date of Experiment									
+Public Release Date	2009-08-15								
+PubMed ID	19714218								
+Publication DOI	10.1371/journal.pgen.1000621								
+Publication Author List	"Qin Y, Leydon AR, Manziello A, Pandey R, Mount D, Denic S, Vasic B, Johnson MA, Palanivelu R."								
+Publication Title	"Penetration of the stigma and style elicits a novel transcriptome in pollen tubes, pointing to genes critical for growth in a pistil"								
+Publication Status	published								
+Publication Status Term Source REF	EFO								
+Publication Status Term Accession Number	EFO_0001796								
+Experiment Description	"Pollen tubes extend through pistil tissues and are guided to ovules where they release sperm for fertilization. Although pollen tubes can germinate and elongate in a synthetic medium, their trajectory is random and their growth rates are slower compared to growth in pistil tissues. Furthermore, interaction with the pistil renders pollen tubes competent to respond to guidance cues secreted by specialized cells within the ovule. The molecular basis for this potentiation of the pollen tube by the pistil remains uncharacterized. We used a surgical procedure to obtain large quantities of uncontaminated pollen tubes that grew through the pistil and defined their transcriptome by microarray analysis. We also characterized the transcriptome of in vitro-grown pollen tubes (for 0.5hours or 4hours) and dessicated mature pollen in Arabidopsis. Experiment Overall Design: Pollen and pollen tubes were collected as described in the protocols section for RNA extraction and hybridization on Affymetrix ATH1 Genechip microarrays."								
+Protocol Name	P-G17343-1	P-G17343-7	P-G17343-6	P-G17343-2	P-G17343-8	P-G17343-5	P-G17343-3	P-AFFY-6	P-G17343-4
+Protocol Type	grow	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	nucleic_acid_extraction	labeling	feature_extraction	bioassay_data_transformation
+Protocol Description	Arabidopsis plants (Col-0 accession) were grown in chambers at 21C under illumination (100 µmol m-2 s-1 with a 16-hour photoperiod). Wild-type pollen obtained from these plants were used to grow in vitro or semi in vivo pollen tubes which were then used for microarray experiments.	"Dry pollen grains were collected by a vacuum method into microfuge tubes containing 250 µl liquid pollen growth medium and incubated for 4 hours in a 24 C growth chamber to produce in vitro pollen tubes. Pollen tubes were centrifuged at 4,000 rpm for 5 minutes, the supernatant was removed and the microfuge tubes were frozen in liquid nitrogen and stored in -80 C until RNA isolation. Aliquots of pollen tube suspensions were observed under microscope to determine % pollen germination and pollen tube length. Pollen grains with emerging tubes equal to or longer than their diameters were considered germinated. After 4 hours of growth, 58.3±6.0% of the pollen grains germinated and formed tubes (average length of 383.8±32.1 µm)."	"Dry pollen grains were collected by a vacuum method into microfuge tubes containing 250 µl liquid pollen growth medium and incubated for 0.5 in a 24 C growth chamber to produce in vitro pollen tubes. Pollen tubes were centrifuged at 4,000 rpm for 5 minutes, the supernatant was removed and the microfuge tubes were frozen in liquid nitrogen and stored in -80 C until RNA isolation. Aliquots of pollen tube suspensions were observed under microscope to determine % pollen germination and pollen tube length. Pollen grains with emerging tubes equal to or longer than their diameters were considered germinated."	Dry pollen grains were collected by a vacuum method from stage 14-15 flowers and frozen in liquid nitrogen until RNA isolation.	Pollen tubes grown through the stigma and style were collected by a semi in vivo procedure. Pollinated pistils were placed vertically on solid pollen growth medium for one hour (establish growth into the pistil) before they were laid horizontally; tubes emerged from cut pistils after three hours of growth and were harvested as bundles after three hours of growth on the media surface. Bundles were excised at the point of emergence from the cut pistil and collected into liquid nitrogen-frozen microfuge tubes. Eight hundred pollen tube bundles (obtained from 800 cut pistil explants) were used for each of the three replicate RNA isolations. Pollen tube bundles were confirmed to be free of pistil tissue contamination by microscopy.	"Total RNA was extracted from dry pollen, 0.5h PT, 4h PT and SIV PT using the Qiagen RNeasy kit (http://www.qiagen.com). Total RNA (5 µg, dry pollen, 0.5h PT and 4h PT) and 2 µg (SIV PT) was prepared for microarray experiment as per the Affymetrix GeneChip Expression Analysis protocol (Part#701071, Rev 5, Affymetrix, Santa Clara, CA)."	"After first and second strand cDNA synthesis with total RNA, the cDNAs were used to generate cRNA labeled with biotin in an in vitro transcription reaction."	Title: Affymetrix CEL analysis. Description: 	"Signal intensities from each of the 15 arrays were converted to raw expression data (with Present, 'P', Absent, 'A' and Marginal, 'M' scores) using GeneChip Operating Software (GCOS) (Affymetrix, Santa Clara, CA)."
+Protocol Parameters									
+Protocol Hardware									
+Protocol Software								MicroArraySuite 5.0	
+Protocol Contact									
+Protocol Term Source REF									The MGED Ontology
+SDRF File	E-GEOD-17343.sdrf.txt								
+Term Source Name	NCBI Taxonomy	The MGED Ontology	ArrayExpress	EFO					
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/					
+Term Source Version									

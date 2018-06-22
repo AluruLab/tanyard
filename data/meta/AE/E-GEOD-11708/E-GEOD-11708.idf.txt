@@ -1,0 +1,52 @@
+Investigation Title	Transcription profiling of Arabidopsis Atss3 mutant and WT over short day diurnal cycle					
+Comment[Submitted Name]	Global gene expression in Atss3 mutant and WT over short day diurnal cycle					
+Experimental Design	unknown_experiment_design_type	transcription profiling by array				
+Experimental Design Term Source REF		EFO				
+Comment[AEExperimentType]	transcription profiling by array					
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for ss3 sampled at various diurnal time points					
+Comment[ArrayExpressReleaseDate]	2008-10-21					
+Comment[SecondaryAccession]	GSE11708					
+Comment[AEMIAMESCORE]	3					
+Comment[ArrayExpressAccession]	E-GEOD-11708					
+Comment[MAGETAB TimeStamp_Version]	2010-07-22 05:15:45 Last Changed Rev: 13058					
+Experimental Factor Name	GENOTYPE	SAMPLING TIME POINT				
+Experimental Factor Type	genotype	sampling_time_point				
+Experimental Factor Term Source REF						
+Person Last Name	Li					
+Person First Name	Ling					
+Person Mid Initials						
+Person Email	liling@iastate.edu					
+Person Phone						
+Person Fax						
+Person Address	Eve Wurtele, Department of Genetics, Development, and Cell Biology, Iowa State University, 433 Bessey Hall, Ames, 50011, US					
+Person Affiliation	Iowa State University					
+Person Roles	submitter					
+Person Roles Term Source REF	The MGED Ontology					
+Quality Control Type						
+Quality Control Term Source REF						
+Replicate Type						
+Replicate Term Source REF						
+Normalization Type						
+Normalization Term Source REF						
+Date of Experiment						
+Public Release Date	2008-10-21					
+PubMed ID	19154206					
+Publication DOI	10.1111/j.1365-313X.2009.03793.x					
+Publication Author List	Li L, Foster CM, Gan Q, Nettleton D, James MG, Myers AM, Wurtele ES.					
+Publication Title	Identification of the novel protein QQS as a component of the starch metabolic network in Arabidopsis leaves					
+Publication Status	published					
+Publication Status Term Source REF	EFO					
+Publication Status Term Accession Number	EFO_0001796					
+Experiment Description	The Atss3 mutant and WT plants were arranged according to a Randomized Complete Block Design. The plants were planted in rows with seven rows in each flat; two plants of the same genotype/pot. Plants were grown under a SD photoperiod (8 h light/16 h dark) in a growth chamber as described. Eight randomly selected rows were harvested for each time point from different flats. Plant material was harvested at five time points in the diurnal cycle (1, 4, 8.5, 12, and 16 h; Time 0 is the beginning of the light period); harvesting was conducted under a green safety light. Each sample consisted of rosette leaves (leaves 5 to 8, staged following Bowmann (1994); photosynthetically active (Stessman et al., 2002)) from sixteen six-week-old plants. Leaf samples were frozen in liquid N2 immediately after harvest and stored at -80ï°C for RNA extraction. The experiment was done twice and independent randomizations for plant growth and harvest were used for the two replicates. Experiment Overall Design: The Atss3 mutant and WT plants were arranged according to a Randomized Complete Block Design. The plants were planted in rows with seven rows in each flat; two plants of the same genotype/pot. Plants were grown under a SD photoperiod (8 h light/16 h dark) in a growth chamber as described. Eight randomly selected rows were harvested for each time point from different flats. Plant material was harvested at five time points in the diurnal cycle (1, 4, 8.5, 12, and 16 h; Time 0 is the beginning of the light period); harvesting was conducted under a green safety light. Each sample consisted of rosette leaves (leaves 5 to 8, staged following Bowmann (1994); photosynthetically active (Stessman et al., 2002)) from sixteen six-week-old plants. Leaf samples were frozen in liquid N2 immediately after harvest and stored at -80ï°C for RNA extraction. The experiment was done twice and independent randomizations for plant growth and harvest were used for the two replicates.					
+Protocol Name	P-G11708-2	P-G11708-1	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6	Affymetrix:Protocol:ExpressionStat	
+Protocol Type	nucleic_acid_extraction	labeling	hybridization	feature_extraction	bioassay_data_transformation	
+Protocol Description	Total RNA was extracted from leaves with GibcoBRL TRIzol reagent (Life Technologies) according to the protocol provided with the reagent and purified using a RNease Cleanup Kit (Qiagen).	biotin labeled.	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 	
+Protocol Parameters						
+Protocol Hardware						
+Protocol Software			MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact						
+Protocol Term Source REF			mo		The MGED Ontology	
+SDRF File	E-GEOD-11708.sdrf.txt					
+Term Source Name	NCBI Taxonomy	The MGED Ontology	ArrayExpress	EFO	The MGED Ontology	mo
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version						

@@ -1,0 +1,50 @@
+Investigation Title	Transcription profiling of Arabidopsis ARF6 and ARF8 mutants treated with indoleacetic acid (IAA)	
+Comment[Submitted Name]	Auxin induction in wild type and arf6 arf8 flowers	
+Experimental Design	individual_genetic_characteristics_design	compound_treatment_design	co-expression_design	transcription profiling by array	
+Experimental Design Term Source REF		mo	mo	EFO	
+Comment[ArrayExpressReleaseDate]	2007-07-11	
+Comment[SecondaryAccession]	GSE2847	
+Comment[AEMIAMESCORE]	5	
+Comment[SecondaryAccession]	GDS1408	
+Comment[ArrayExpressAccession]	E-GEOD-2847	
+Comment[MAGETAB TimeStamp_Version]	2010-08-04 18:01:40 Last Changed Rev: 13058	
+Experimental Factor Name	Compound	Genotype	
+Experimental Factor Type	compound	genotype	
+Experimental Factor Term Source REF	
+Person Last Name	Ellis	
+Person First Name	Christine	
+Person Mid Initials	
+Person Email	cellis@email.unc.edu	
+Person Phone	
+Person Fax	
+Person Address	University of North Carolina at Chapel Hill,121 Coker Hall,Chapel Hill,27599-3280,USA	
+Person Affiliation	University of North Carolina at Chapel Hill	
+Person Roles	submitter	
+Person Roles Term Source REF	The MGED Ontology	
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2007-07-11	
+PubMed ID	16107481	
+Publication DOI	16107481	
+Publication Author List	Punita Nagpal,Christine M Ellis,Hans Weber,Sara E Ploense,Lana S Barkawi,Thomas J Guilfoyle,Gretchen Hagen,Jose M Alonso,Jerry D Cohen,Edward E Farmer,Joseph R Ecker,Jason W Reed	
+Publication Title	Auxin response factors ARF6 and ARF8 promote jasmonic acid production and flower maturation.	
+Publication Status	journal_article	
+Publication Status Term Source REF	The MGED Ontology	
+Experiment Description	The aim of this study was to examine the roles of Auxin Response Factors (ARFs) in flower gene expression. Flowers from arf6 arf8 plants undergo a developmental arrest at approximately stage 12, just prior to flower opening. Wild-type, ARF6/arf6 arf8/arf8, and arf6 arf8 plants were treated with 10 uM indole-3-acetic acid for thirty minutes to identify genes that respond rapidly to auxin in an ARF6/ARF8-dependent manner.    Experiment Overall Design: Wild-type, ARF6/arf6 arf8/arf8, and arf6 arf8 plants were sprayed with 10 mM indole-3-acetic acid in 1% methanol, 0.05% Tween-20. Thirty minutes after treatment, flowers (stage 1-14) were collected, frozen in liquid nitrogen, and used for RNA extraction.	
+Protocol Name	P-G2847-7	P-G2847-3	P-G2847-2	P-G2847-4	P-G2847-5	P-G2847-6	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6	
+Protocol Type	grow	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	nucleic_acid_extraction	labeling	hybridization	feature_extraction	
+Protocol Description	Plants were grown under long day conditions for 6 weeks	Flowers, stage 1-14, sprayed with 1% methanol, 0.05% Tween-20 30 minutes prior to harvest	Flowers, stage 1-14, sprayed with 10 uM indole-3-acetic acid in 1% methanol, 0.05% Tween-20 30 minutes prior to harvest	Flowers, stage 1-14, sprayed with 10 uM indole-3-acetic acid in 1% methanol, 0.05% Tween-20	Total RNA was extracted from frozen tissue using TRIzol reagent (Invitrogen)	Approximately 7 Â&#956;g of total RNA was processed to produce biotinylated cRNA targets.	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	
+Protocol Parameters	
+Protocol Hardware	
+Protocol Software							MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact	
+Protocol Term Source REF							mo	
+SDRF File	E-GEOD-2847.sdrf.txt	
+Term Source Name	NCBI Taxonomy		mo	Plant Ontology	The MGED Ontology	ArrayExpress	chebi	mo	EFO	The MGED Ontology	
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.plantontology.org/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://ebi.ac.uk/chebi	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version											

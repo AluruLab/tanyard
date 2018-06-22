@@ -1,0 +1,58 @@
+Comment[ArrayExpressAccession]	E-GEOD-18417							
+Public Release Date	2010-01-01							
+Investigation Title	Arabidopsis transcriptome changes caused by ectopic production of a turtle riboflavin-binding protein							
+Comment[Submitted Name]	Arabidopsis transcriptome changes caused by ectopic production of a turtle riboflavin-binding protein							
+Experiment Description	Leaf contents of free riboflavin were modulated by ectopic expression of the turtle gene encoding riboflavin-binding protein (RfBP). Compared to Arabidopsis thaliana (L.) ecotype Col-0 (wild type), REAT (modified type) that constitutive express RfBP had 71%-77% less flavins of free form.  We used microarray to investigate the influence on plants due to the reduced free flavin. One modified line (REAT11) and wild type (WT) were tested by microarray, and the experiments data revealed that abundance of transcripts for 950 genes in REAT was altered compared to the wild type. Four samples were analyzed. Two WT and two REAT11 biological replicates were analyzed (one array each).							
+Date of Experiment								
+Term Source Name	EFO							
+Term Source Version								
+Term Source File	http://efo.svn.sourceforge.net/viewvc/efo/trunk/src/efoinowl/efo.owl							
+Person Last Name	Dong	Zhang	Deng	Dong				
+Person First Name	Hansong	Shujian	Sheng	Hansong				
+Person Mid Initials								
+Person Email	hsdong@njau.edu.cn							
+Person Affiliation	Nanjing Agricultural University							
+Person Phone								
+Person Fax								
+Person Address	Plant Pathology, Nanjing Agricultural University, Weigang NO.1, Nanjing, China							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Person Roles Term Accession Number								
+Normalization Type								
+Normalization Term Accession Number								
+Normalization Term Source REF								
+Replicate Type								
+Replicate Term Accession Number								
+Replicate Term Source REF								
+Experimental Design								
+Experimental Design Term Accession Number								
+Experimental Design Term Source REF								
+Quality Control Type								
+Quality Control Term Accession Number								
+Quality Control Term Source REF								
+Protocol Name	P-GSE18417-1	P-GSE18417-6	P-GSE18417-3	P-GSE18417-8	P-GSE18417-7	P-GSE18417-2	P-GSE18417-4	P-GSE18417-5
+Protocol Description	ID_REF = <br>VALUE = Signal<br>ABS_CALL = indicating whether the transcript was present (P), absent (A), or marginal (M)<br>DETECTION P-VALUE = 	Following fragmentation, 15 ug of cRNA were hybridized for 16 hr at 45 ℃ on GeneChip Arabidopsis Genome Array. GeneChips were washed and stained in the Affymetrix Fluidics Station 450.	For 35 d before use, wild type and transgenic plants grow in controlled environment chambers with 75% humidity and a 14-h-day (200 μE m−2 s−1 at 24°C) and 10-h-night (20°C) cycle.	The data were analyzed with GeneChip® Operating Software using Affymetrix default analysis settings and global scaling as normalization method.	GeneChips were scanned using the Gene array Scanner3000 7G.	Without treatment before RNA extraction.	Trizol extraction of total RNA was performed according to the manufacturer's instructions.	Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 5 ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).
+Protocol Software								
+Protocol Hardware								
+Protocol Contact								
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_aquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Protocol Term Source REF								
+Protocol Term Accession Number								
+Experimental Factor Name	GENOTYPE							
+Experimental Factor Type	genotype							
+Experimental Factor Term Source REF								
+Experimental Factor Term Accession Number								
+Publication Title								
+Publication Author List								
+PubMed ID								
+Publication DOI								
+Publication Status								
+Publication Status Term Source REF								
+Publication Status Term Accession Number								
+Comment[SecondaryAccession]	GSE18417							
+Comment[GEOLastUpdateDate]	2010-01-06							
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis overexpressing turtle RfBP							
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[GEOReleaseDate]	2010-01-01							
+Comment[ArrayExpressSubmissionDate]	2009-10-04							
+SDRF File	E-GEOD-18417.sdrf.txt							

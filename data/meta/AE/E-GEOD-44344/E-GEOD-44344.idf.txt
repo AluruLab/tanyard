@@ -1,0 +1,26 @@
+Comment[ArrayExpressAccession]	E-GEOD-44344
+MAGE-TAB Version	1.1							
+Public Release Date	2014-02-07
+Investigation Title	Effect of PCO1 overexpression							
+Comment[Submitted Name]	Effect of PCO1 overexpression
+Experiment Description	This SuperSeries is composed of the SubSeries listed below. Refer to individual Series							
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl						
+Person Last Name	Licausi	Weits	van Dongen	Licausi				
+Person First Name	Francesco	DaniÃ«l	Joost	Francesco				
+Person Mid Initials		A						
+Person Email	f.licausi@sssup.it							
+Person Affiliation	Scuola Superiore Sant'Anna							
+Person Address	Scuola Superiore Sant'Anna, Via Mariscolgio 34, Pisa, Italy							
+Person Roles	submitter							
+Protocol Name	P-GSE44344-1	P-GSE44344-5	P-GSE44344-6	P-GSE44344-2	P-GSE44344-8	P-GSE44344-3	P-GSE44344-4	P-GSE44344-7
+Protocol Description	RMA algorithm using RobinA software (PMID:22684630) ID_REF =  VALUE = log2 RMA signal	Affymetrix standard labeling protocol	Affymetrix standard hybridization protocol	Plants were harvested at 10am in the morning, 2h after the start of the day.	Plants were treated in the darkness at 5% O2 v/v in air for 4h at 10am in the morning, 2h after the start of the day	Seeds were sown in 6-cm diameter pots containing moisted Arabidopsis soil. The seeds were stratified at 4°C in the dark for 2 days and then the pots were moved in a growth chamber at short photoperiodic conditions (8h light 16 h darkness) with 18°C in the night and 22°C in the day.	Total RNA was extracted from whole 5-week old plants using the RNeasy kit (Qiagen). RNA quality was assessed by agarose gel electrophoresis and spectrophotometry. RNA was processed for use on Affymetrix Arabidopsis Genome GeneChip arrays.	Affymetrix standard scan protocol
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	GENOTYPE							
+Experimental Factor Type	genotype							
+Comment[SecondaryAccession]	GSE44344							
+Comment[GEOReleaseDate]	2014-02-07							
+Comment[ArrayExpressSubmissionDate]	2013-02-15							
+Comment[GEOLastUpdateDate]	2014-02-07							
+Comment[AEExperimentType]	transcription profiling by array							
+SDRF File	E-GEOD-44344.sdrf.txt

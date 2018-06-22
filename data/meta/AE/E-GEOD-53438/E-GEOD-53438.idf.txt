@@ -1,0 +1,26 @@
+Comment[ArrayExpressAccession]	E-GEOD-53438
+MAGE-TAB Version	1.1							
+Public Release Date	2014-06-17
+Investigation Title	Expression data from rGRF3, 35S:GIF1 and rGRF3x35S:GIF1 plants							
+Comment[Submitted Name]	Expression data from rGRF3, 35S:GIF1 and rGRF3x35S:GIF1 plants
+Experiment Description	The Growth Regulating Factors (GRFs) are plant specific transcription factors. They form complexes with GRF Interacting Factors (GIFs), a small family of transcriptional co-activators. In Arabidopsis thaliana, seven out of the nine GRFs are regulated by microRNA miR396. A detailed analysis of GRF3 revealed that a modified transgene, insensitive to the regulation of miR396, causes a strong increase in the number of cells in leaves, while an additional increase of GIF1 expression further enhances the number of cells synergistically. Genome-wide transcript profiling revealed that simultaneous increase of GRF3 and GIF1 levels causes additional effects in gene expression compared to either of the transgenes alone. We observed that GIF1 interacts in vivo with GRF3, as well as chromatin remodeling complexes, providing a mechanistic explanation for the additional activities of a GRF3-GIF1 complex. Interestingly, we found that the GRF system also regulates leaf longevity. Genetic and molecular analysis revealed that the functions of GRFs in leaf size and senescence can be uncoupled, demonstrating that the GRFs control different stages of leaf development. The results provide new insights into the functions of a complex regulatory network composed of microRNAs, transcription factors, and co-transcription factors. We used microarrays to obtain the transcription profile of plants overexpressing GRF3, GIF1 or both genes toghether. We compared the transcriptome of 35S:GIF1, rGRF3 and rGRF3x35S:GIF1 plants vs wild-type plants (Col-0 accession), using ATH1 Affymetrics microarrays. For these experiments we collected vegetative apices together with the leaf primordia from plants of 20 days growth in short-day. For each genotype (Col-0, rGRF3, 35S:GIF1 and rGRF3x35S:GIF1)  we collected two samples.							
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl						
+Person Last Name	Debernardi	Debernadi	Palatnik					
+Person First Name	Juan	Juan	Javier					
+Person Mid Initials	Manuel	M	F					
+Person Email	debernardi@ibr-conicet.gov.ar							
+Person Affiliation	IBR							
+Person Address	IBR, Ocampo y Esmeralda, Rosario, Santa Fe, Argentina							
+Person Roles	submitter							
+Protocol Name	P-GSE53438-1	P-GSE53438-2	P-GSE53438-6	P-GSE53438-7	P-GSE53438-3	P-GSE53438-4	P-GSE53438-5	P-GSE53438-8
+Protocol Description	The data were analyzed with Robina software (version_1.2.4), analysis strategy: Limma normalization method: gcrma ID_REF =  VALUE = Log2 GC-RMA signal	The data were analyzed with Robina software (version_1.2.4), analysis strategy: Limma normalization method: gcrma ID_REF =  VALUE = Log 2 GC-RMA signal	Affymetrix instructions	Affymetrix instructions	Vegetative apices together with the leaf primordia were dissected from plants of 20 days.	Plants were grown on soil medium in short photoperiods (8 h light/16 h dark) at 23 °C.	Total RNA was extracted from dissected vegetative apices using the RNeasy plant mini kit (QIAGEN).	Affymetrix instructions
+Protocol Type	normalization data transformation protocol	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	PHENOTYPE							
+Experimental Factor Type	phenotype							
+Comment[SecondaryAccession]	GSE53438							
+Comment[GEOReleaseDate]	2014-06-17							
+Comment[ArrayExpressSubmissionDate]	2013-12-18							
+Comment[GEOLastUpdateDate]	2014-06-19							
+Comment[AEExperimentType]	transcription profiling by array							
+SDRF File	E-GEOD-53438.sdrf.txt

@@ -1,0 +1,51 @@
+Investigation Title	Y.Sawada WT and bass					
+Comment[Submitted Name]	Y.Sawada WT and bass					
+Experimental Design	genetic_modification_design	co-expression_design	transcription profiling by array			
+Experimental Design Term Source REF	The MGED Ontology	The MGED Ontology	EFO			
+Comment[AEExperimentType]	transcription profiling by array					
+Comment[AEExperimentDisplayName]	Transcription profiling by array of leaves from BASS knock-out Arabidopsis plants					
+Comment[SecondaryAccession]						
+Comment[ArrayExpressReleaseDate]	2009-07-13					
+Comment[AEMIAMESCORE]	5					
+Comment[ArrayExpressAccession]	E-MEXP-2240					
+Comment[MAGETAB TimeStamp_Version]	2010-08-10 11:39:58 Last Changed Rev: 13058					
+Experimental Factor Name	genotype					
+Experimental Factor Type	genotype					
+Experimental Factor Term Source REF						
+Person Last Name	Sawada					
+Person First Name	Yuji					
+Person Mid Initials						
+Person Email	ysawada@psc.riken.jp					
+Person Phone	+81-45-503-9491					
+Person Fax	+81-45-503-9489					
+Person Address	"1-7-22 Suehiro-cho, Turumi-ku, Yokohama, Kanagawa, 230-0045, Japan"					
+Person Affiliation	RIKEN Yokohama Institute					
+Person Roles	submitter					
+Person Roles Term Source REF	The MGED Ontology					
+Quality Control Type	biological_replicate					
+Quality Control Term Source REF	The MGED Ontology					
+Replicate Type						
+Replicate Term Source REF						
+Normalization Type						
+Normalization Term Source REF						
+Date of Experiment						
+Public Release Date	2009-07-13					
+PubMed ID	19633020					
+Publication DOI	10.1093/pcp/pcp110					
+Publication Author List	"Sawada Y, Toyooka K, Kuwahara A, Sakata A, Nagano M, Saito K, Hirai MY."					
+Publication Title	Arabidopsis Bile Acid:Sodium Symporter Family Protein 5 is Involved in Methionine-Derived Glucosinolate Biosynthesis					
+Publication Status	published					
+Publication Status Term Source REF	EFO					
+Experiment Description	Comparing the gene expression patterns between wild type plant (Col_0) and BASS knock-out plants.					
+Protocol Name	P-MTAB-4640	P-MTAB-4641	P-AFFY-2	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6	Affymetrix:Protocol:ExpressionStat
+Protocol Type	nucleic_acid_extraction	pool	labeling	hybridization	feature_extraction	bioassay_data_transformation
+Protocol Description	"Each samples are preserved with grinding ball in 2-ml tube and stored at the deep freezer. Total RNA was isolated using RNeasy Kit (QIAGEN). 1. Grind sample under liquid nitrogen to a fine powder using Mixer Mill MM 301(Retsch). 2. Add 450 µl of Buffer RLT (1% 2-mercaptoethanol) to a maximum of 100 mg of tissue powder. Vortex vigorously. 3. Apply lysate to the QIAshredder spin column sitting in a 2-ml collection tube, and centrifuge for 2 min at maximum speed. Transfer flow-through fraction from QIAshredder to a new tube without disturbing the cell-debris pellet in the collection tube. 4. Add 0.5 volumes 100% ethanol to the cleared lysate and mix well by pipetting. 5.&#12288;Apply sample including any precipitate which may have formed,&#12288;onto an RNeasy mini spin column sitting in a 2-ml collection tube. Centrifuge for 15 sec at 8000 x g. 6. Pipet 700 µl Buffer RW1 onto the RNeasy column, and centrifuge for 15 sec at 8000 x g to wash. 7. Transfer RNeasy column into a new 2-ml collection tube. Pipet 500 µl Buffer RPE onto the RNeasy column, and centrifuge for 15 sec at 8000 x g. 8. Add 500 µl Buffer RPE to the RNeasy column, and centrifuge for 2 min at maximum speed to dry the RNeasy membrane. 9. Transfer RNeasy column into a new 1.5-ml collection tube, and pipet 30 of RNase-free water directly onto the RNeasy membrane. Centrifuge for 1 min at 8000 x g.<br>(Parameters: Extracted product = total_RNA, Amplification = none)"	The approx. 50-100 mg of leaves (3 weeks after germination) of wild-type and mutant Arabidopsis lines were extracted.	Title: Affymetrix in vitro transcription. Description: 	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 
+Protocol Parameters						
+Protocol Hardware						
+Protocol Software				MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 5.0
+Protocol Contact						
+Protocol Term Source REF		The MGED Ontology		The MGED Ontology		The MGED Ontology
+SDRF File	E-MEXP-2240.sdrf.txt					
+Term Source Name	The MGED Ontology	EFO				
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/				
+Term Source Version						

@@ -1,0 +1,58 @@
+Comment[ArrayExpressAccession]	E-GEOD-26199																				
+Public Release Date	2011-04-01																				
+Investigation Title	Comparative physiology and transcriptional networks underlying the heat shock response in Populus trichocarpa, Arabidopsis thaliana and Glycine max																				
+Comment[Submitted Name]	Comparative physiology and transcriptional networks underlying the heat shock response in Populus trichocarpa, Arabidopsis thaliana and Glycine max																				
+Experiment Description	This SuperSeries is composed of the following subset Series: GSE26195: Comparative physiology and transcriptional networks underlying the heat shock response in Populus trichocarpa, Arabidopsis thaliana and Glycine max [Populus] GSE26197: Comparative physiology and transcriptional networks underlying the heat shock response in Populus trichocarpa, Arabidopsis thaliana and Glycine max [Arabidopsis] GSE26198: Comparative physiology and transcriptional networks underlying the heat shock response in Populus trichocarpa, Arabidopsis thaliana and Glycine max [Soy] Refer to individual Series																				
+Date of Experiment																					
+Term Source Name	EFO																				
+Term Source Version																					
+Term Source File	http://bar.ebi.ac.uk:8080/trac/browser/branches/curator/ExperimentalFactorOntology/ExFactorInOWL/currentrelease/eforelease/efo.owl																				
+Person Last Name	Weston																				
+Person First Name	David																				
+Person Mid Initials	J																				
+Person Email	westondj@ornl.gov																				
+Person Affiliation	David Weston																				
+Person Phone	865 241-8323																				
+Person Fax	865 576-9939																				
+Person Address	Environmental Sciences Division, David Weston, Bldg. 1062 Rm. 210, Oak Ridge, TN, USA																				
+Person Roles	submitter																				
+Person Roles Term Source REF																					
+Person Roles Term Accession Number																					
+Normalization Type																					
+Normalization Term Accession Number																					
+Normalization Term Source REF																					
+Replicate Type																					
+Replicate Term Accession Number																					
+Replicate Term Source REF																					
+Experimental Design																					
+Experimental Design Term Accession Number																					
+Experimental Design Term Source REF																					
+Quality Control Type																					
+Quality Control Term Accession Number																					
+Quality Control Term Source REF																					
+Protocol Name	P-GSE26199-2	P-GSE26199-1	P-GSE26199-3	P-GSE26199-19	P-GSE26199-14	P-GSE26199-8	P-GSE26199-11	P-GSE26199-5	P-GSE26199-18	P-GSE26199-21	P-GSE26199-16	P-GSE26199-10	P-GSE26199-9	P-GSE26199-20	P-GSE26199-15	P-GSE26199-17	P-GSE26199-4	P-GSE26199-6	P-GSE26199-12	P-GSE26199-13	P-GSE26199-7
+Protocol Description	ID_REF = <br>VALUE = RMA data	ID_REF = <br>VALUE = Gene level values in the matrix table were generated using NimbleScan 2.5 after RMA nomalization.	ID_REF = <br>VALUE = MAS5 data<br>ABS_CALL = indicating whether the transcript was present (P), absent (A), or marginal (M)<br>DETECTION P-VALUE = 	Following fragmentation, cRNA was hybridized to the GeneChip Soybean array according to standard protocols (#PM702232; www.affymetrix.com).	Following fragmentation, cRNA was hybridized to the ATH1 Affymetrix slide according to standard protocols (#PM702232; www.affymetrix.com).	Hybridization was performed according to Roche protocols	Seeds of Arabidopsis thaliana (ecotype Col-0) were imbibed at 4 °C with distilled water for 4d to facilitate uniform germination.  The seeds were resuspended in 0.05% agarose after the cold treatment and planted in pots containing Fafard 3B mix (Conrad Fafard, Agawam, MA).  Plants were grown in a Conviron BDW80 walk-in growth chamber under the following growth conditions: 22 °C, 60% relative humidity, a 10 h photoperiod, and 350 μmol m-2s-1 light intensity. Plants were watered as needed and fertilized weekly using 125 ppm N of Jack's Professional	Dormant cuttings of black cottonwood (Populus trichocarpa clone 93-968) averaging ~0.5 cm diameter, 25 cm length, and 2-3 buds were rooted using 0.3% IBA and grown in a Conviron BDW80 walk-in growth chamber at 22 °C, 60% relative humidity, a 18 h photoperiod, and 350 μmol m-2s-1 light intensity. Plants were watered as needed and fertilized weekly according 250 ppm N using Jack's professional.	Soybean (Glycine max cv.Williams 82), were grown in pots containing Fafard 3B soil.  Plants were grown in a Conviron BDW80 walk-in growth chamber under the following growth conditions: 22 °C, 60% relative humidity, a 10 h photoperiod, and 350 μmol m-2s-1 light intensity. Plants were watered as needed and fertilized weekly using 125 ppm N of Jack's Professional	Signal values were determined using GeneChip MAS5.0 algorithm.	All data were analyzed using the limma package in the Bioconductor software (v.2.4). Gene level information for RMA normalized expression values are presented within the matrix for all samples analyzed.	Images of all scanned slides were aligned using NimbleScan version 2.5 and pair reports were created using the slide design file provided by Roche NimbleGen. An annotation package for this array was created using the pdInfoBuilder (v.2.4) Bioconductor open access package run in the R statistical framework (R Development Core Team, 2007).	Dried slides were scanned using an Agilent Scanner (Agilent Technologies, Santa Clara, CA) with a PMT gain of 100% at 5 µm resolution.	GeneChips were scanned using the GeneChip Scanner 3000 according to standard protocol (#PM702232; www.affymetrix.com).	GeneChips were scanned using the GeneChip Scanner 3000 according to standard protocol #PM702232; www.affymetrix.com.	Fully expanded leaf samples from 4 randomly collected plants per species were harvested at 4 physiological states as determined from prior gas exchange measurements (growth temperature - baseline, photosynthetic optimum, 20% inhibition of optimum and 30% inhibition of optimum). The temperature response curves were created by increasing temperature step-wise (2 °C per 10 mins) from 22 to 42 °C to the desired physiological state and waiting 20-30 mins for photosynthesis to stabilize before sampling. Each curve took 3-4 h to complete.	For the microarray analysis, fully expanded leaf samples from 4 randomly collected plants per species were harvested at 4 physiological states as determined from prior gas exchange measurements (growth temperature - baseline, photosynthetic optimum, 20% inhibition of optimum and 30% inhibition of optimum). The temperature response curves were created by increasing temperature step-wise (2 °C per 10 mins) from 22 to 42 °C to the desired physiological state and waiting 20-30 mins for photosynthesis to stabilize before sampling. Each curve took 3-4 h to complete.	total RNA was converted to ds cDNA using a SuperScript Double-Stranded cDNA Synthesis Kit (Invitrogen Corp) according to the protocol provided by Roche for NimbleGen high-density microarrays.	Total RNA was isolated from 100 mg of tissue using an RNeasy® Mini Kit (Qiagen Inc., CA) according to the manufacturer’s instructions.  An on-column DNase 1 treatment (Sigma-Aldrich) was used during RNA extraction to remove any potential genomic DNA contamination.	Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 6 ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).	RNase A cleanup, cDNA precipitation and sample labeling were carried out according Roche provided protocol
+Protocol Software																					
+Protocol Hardware																					
+Protocol Contact																					
+Protocol Type	bioassay_data_transformation	bioassay_data_transformation	bioassay_data_transformation	hybridization	hybridization	hybridization	grow	grow	grow	feature_extraction	feature_extraction	feature_extraction	image_aquisition	image_aquisition	image_aquisition	specified_biomaterial_action	specified_biomaterial_action	nucleic_acid_extraction	nucleic_acid_extraction	labeling	labeling
+Protocol Term Source REF																					
+Protocol Term Accession Number																					
+Experimental Factor Name	ORGANISM	GROWTH CONDITION	ECOTYPE																		
+Experimental Factor Type	organism	growth_condition	ecotype																		
+Experimental Factor Term Source REF																					
+Experimental Factor Term Accession Number																					
+Publication Title	Comparative physiology and transcriptional networks underlying the heat shock response in Populus trichocarpa, Arabidopsis thaliana and Glycine max.																				
+Publication Author List	Weston DJ, Karve AA, Gunter LE, Jawdy SS, Yang X, Allen SM, Wullschleger SD.																				
+PubMed ID	21554326																				
+Publication DOI	10.1111/j.1365-3040.2011.02347.x																				
+Publication Status	published																				
+Publication Status Term Source REF	EFO																				
+Publication Status Term Accession Number	EFO_0001796																				
+Comment[SecondaryAccession]	GSE26199																				
+Comment[GEOLastUpdateDate]	2011-04-01																				
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis thaliana, Populus trichocarpa and Glycine max after growth at different temperatures																				
+Comment[AEExperimentType]	transcription profiling by array																				
+Comment[GEOReleaseDate]	2011-03-31																				
+Comment[ArrayExpressSubmissionDate]	2010-12-20																				
+SDRF File	E-GEOD-26199.sdrf.txt																				

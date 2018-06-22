@@ -1,0 +1,49 @@
+Investigation Title	Expression data from Arabidopsis seed compartments at the bending coyledon stage	
+Comment[Submitted Name]	Expression data from Arabidopsis seed compartments at the bending coyledon stage	
+Experimental Design	transcription profiling by array	
+Experimental Design Term Source REF	EFO	
+Comment[SecondaryAccession]	GSE20039	
+Comment[ArrayExpressReleaseDate]	2010-02-21	
+Comment[AEMIAMESCORE]	5	
+Comment[ArrayExpressAccession]	E-GEOD-20039	
+Comment[MAGETAB TimeStamp_Version]	2010-08-04 03:05:15 Last Changed Rev: 13058	
+Experimental Factor Name	CELL TYPE	
+Experimental Factor Type	cell type	
+Experimental Factor Term Source REF	
+Person Last Name	Cheng	Golberg	Kirkbride	Pelletier	Hashimoto	Stone	Fei	Harada	Belmonte	Kirkbride	
+Person First Name	Chen	Robert	Ryan Christopher	Julie	Meryl	Sandra	Jiong	John	Mark	Ryan	
+Person Mid Initials		B			M	L		J	F	C	
+Person Email			rkirkbride@ucdavis.edu	
+Person Phone	
+Person Fax	
+Person Address			Harada , Plant Biology, University of California, Davis, One Shields Avenue, Davis, 95616, United States	
+Person Affiliation			University of California, Davis	
+Person Roles			submitter	
+Person Roles Term Source REF			The MGED Ontology	
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2010-02-21	
+PubMed ID	
+Publication DOI	
+Publication Author List	
+Publication Title	
+Publication Status	
+Publication Status Term Source REF	
+Experiment Description	We collected bending cotyledon seed compartments from 7 micron paraffin sections using the Leica LMD6000 system in order to identify the mRNAs present in different compartments from seeds containing linear cotyledon stage embryos. For the purposes of this study we captured 5 compartments: embyro proper, cellularized peripherial endosperm, chalazal endosperm, chalazal seed coat and seed coat, in addition to serial sections encompasing the entire linear cotyledon stage seed. Bending cotyledon stage seed compartments were isolated using the LMD6000 system. Total RNA was amplified and hybridized with Affymetrix ATH1 Arabidopsis array for 14 samples (embryo proper, micropylar endosperm, peripherial endosperm, chalazal endosperm, chalazal seed coat, seed coat and whole seeds, 2 biological replicates each).	
+Protocol Name	P-GSE20039-4	P-GSE20039-2	P-GSE20039-3	P-GSE20039-5	P-GSE20039-6	P-GSE20039-7	P-GSE20039-8	P-GSE20039-1	
+Protocol Type	nucleic_acid_extraction	specified_biomaterial_action	grow	labeling	hybridization	image_aquisition	feature_extraction	bioassay_data_transformation	
+Protocol Description	Total RNA was extracted using the RNaqueous Micro-Kit (Ambion, Austin, TX) using a modified protocol incorporating an on-column DNase treatment (Qiagen RNase-Free DNase Set) during column washes.	Siliques containing bending cotyledon stage seeds were collected from 38-46 day old plants. Siliques were sub-divided and fixed in 3:1 (v/v) ethanol to acetic acid and embedded in paraffin. Microdissection of compartments was carried out on sections using a Leica LMD6000 system.	Plants were grown in a Conviron chamber under continuous light with fluorescent lamps at 20Â°C and 50%-70% relative humidity.	5 to 6 ng of total RNA was amplified using the WT-Ovation Pico RNA Amplification System (NuGEN, San Carlos, CA). cDNAs were fragmented and labeled with NuGEN FL-Ovationâ¢ cDNA Biotin Module V2.	Following fragmentation, five micrograms of cDNA was hybridized for 18 hr at 45Â°C with the GeneChip ATH1 Arabidopsis Genome Array. GeneChips were washed and stained using the EukGE-WS2V4_450 protocol in the Affymetrix Fluidics Station 450.	GeneChips were scanned using the Affymetrix GeneChip Scanner 3000 7G System.	The data were analyzed with the Affymetrix GeneChip Operating system 1.4 (GCOS) using default analysis settings and global scaling as a normalization method. The mean target intensity of each array was set to 500.	ID_REF = <br>VALUE = GCOS1.4 normalized signal intensity<br>ABS_CALL = indicating whether the transcript was present (P), absent (A), or marginal (M)<br>DETECTION P-VALUE =	
+Protocol Parameters	
+Protocol Hardware	
+Protocol Software	
+Protocol Contact	
+Protocol Term Source REF							The MGED Ontology	The MGED Ontology	
+SDRF File	E-GEOD-20039.sdrf.txt	
+Term Source Name	NCBI Taxonomy		The MGED Ontology	ArrayExpress	EFO	The MGED Ontology	
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version							

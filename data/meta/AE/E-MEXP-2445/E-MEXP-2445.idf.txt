@@ -1,0 +1,49 @@
+Investigation Title	Transcription profiling of Arabidopsis wild type, MYB46 over-expressing, MYB83 over-expressing and myb46/myb83 double mutants to investigate the regulation mechanism of secondary cell wall synthesis during xylem vessel differentiation 	
+Comment[Submitted Name]	TD_Arabidopsis_MYB46 and MYB83	
+Experimental Design	genetic_modification_design	co-expression_design	normalization_testing_design	transcription profiling by array	
+Experimental Design Term Source REF	The MGED Ontology	The MGED Ontology		EFO	
+Comment[AEMIAMESCORE]	5	
+Comment[SecondaryAccession]		
+Comment[ArrayExpressReleaseDate]	2010-05-01	
+Comment[ArrayExpressAccession]	E-MEXP-2445	
+Comment[MAGETAB TimeStamp_Version]	2010-08-10 12:45:25 Last Changed Rev: 13058	
+Experimental Factor Name	GENOTYPE	
+Experimental Factor Type	genotype	
+Experimental Factor Term Source REF	
+Person Last Name	Nakano	
+Person First Name	Yoshimi	
+Person Mid Initials	
+Person Email	ynakano@psc.riken.jp	
+Person Phone	+81-45-503-9576	
+Person Fax	
+Person Address	Plant Science Center, 1-7-22 Suehiro-cho Tsurumi-ku, Yokohama, JAPAN, 230-0045, Japan	
+Person Affiliation	RIKEN	
+Person Roles	submitter	
+Person Roles Term Source REF	The MGED Ontology	
+Quality Control Type	biological_replicate	
+Quality Control Term Source REF	The MGED Ontology	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2010-05-01	
+PubMed ID	
+Publication DOI	
+Publication Author List	
+Publication Title	MYB46 and MYB83 are the main regulators for secondary cell wall formation of xylem vessels and xylem fibers in Arabidopsis	
+Publication Status	
+Publication Status Term Source REF	
+Experiment Description	To investigate the regulation mechanism of secondary cell wall synthesis during xylem vessel differentiation, we analyzed the function of two Arabidopsis MYB transcription factors, MYB46 and MYB83. Microarray analysis was performed for 11-day old seedlings of wild-type, MYB46 over-expressor, MYB83 over-expressor, and myb46 myb83 double mutant using Affymetrix ATH-1 Genome Array. Gene expressions in MYB46 over-expressor, MYB83 over-expressor, and myb46 myb83 double mutant were compared to those in wild-type.	
+Protocol Name	P-MTAB-5836	P-AFFY-2	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6	Affymetrix:Protocol:MAS4:ExpressionCall	
+Protocol Type	nucleic_acid_extraction	labeling	hybridization	feature_extraction	bioassay_data_transformation	
+Protocol Description	Total RNA extracted with RNeasy Plant Mini Kit(Qiagen, Hilden, Germany).<br>(Parameters: Extracted product = total_RNA, Amplification = none)	Title: Affymetrix in vitro transcription. Description: 	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	Title: Affymetrix CHP Analysis (ExpressionCall). Description: 	
+Protocol Parameters	
+Protocol Hardware	
+Protocol Software			MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 4.0	
+Protocol Contact	
+Protocol Term Source REF			mo		mo	
+SDRF File	E-MEXP-2445.sdrf.txt	
+Term Source Name	The MGED Ontology	NCBI Taxonomy		tair_dev:1.27	ArrayExpress	The MGED Ontology	EFO	mo	
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://www.arabidopsis.org/info/ontologies/	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version				1.27					

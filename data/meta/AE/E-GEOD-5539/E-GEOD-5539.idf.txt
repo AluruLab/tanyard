@@ -1,0 +1,51 @@
+Investigation Title	Over-expression of MBF1c enhances stress tolerance				
+Comment[Submitted Name]	Over-expression of MBF1c enhances stress tolerance				
+Experimental Design	unknown_experiment_design_type	transcription profiling by array			
+Experimental Design Term Source REF		EFO			
+Comment[AEExperimentType]	transcription profiling by array				
+Comment[AEExperimentDisplayName]	Over-expression of MBF1c enhances stress tolerance				
+Comment[ArrayExpressReleaseDate]	2008-06-13				
+Comment[SecondaryAccession]	GSE5539				
+Comment[AEMIAMESCORE]	4				
+Comment[ArrayExpressAccession]	E-GEOD-5539				
+Comment[MAGETAB TimeStamp_Version]	2010-08-06 16:32:27 Last Changed Rev: 13058				
+Experimental Factor Name	genotype				
+Experimental Factor Type	genotype				
+Experimental Factor Term Source REF					
+Person Last Name	(NASC)				
+Person First Name	Nottingham Arabidopsis Stock Centre				
+Person Mid Initials					
+Person Email	affy@arabidopsis.info				
+Person Phone					
+Person Fax					
+Person Address	"School of Biosciences, University of Nottingham, Nottingham Arabidopsis Stock Centre (NASC), Sutton Bonington Campus, Loughborough, LE12 5RD, United Kingdom"				
+Person Affiliation	Nottingham Arabidopsis Stock Centre (NASC)				
+Person Roles	submitter				
+Person Roles Term Source REF					
+Quality Control Type					
+Quality Control Term Source REF					
+Replicate Type					
+Replicate Term Source REF					
+Normalization Type					
+Normalization Term Source REF					
+Date of Experiment					
+Public Release Date	2008-06-13				
+PubMed ID	16244138				
+Publication DOI					
+Publication Author List	"Suzuki N, Rizhsky L, Liang H, Shuman J, Shulaev V, Mittler R."				
+Publication Title	Enhanced tolerance to environmental stress in transgenic plants expressing the transcriptional coactivator multiprotein bridging factor 1c.				
+Publication Status					
+Publication Status Term Source REF					
+Experiment Description	"Multiprotein bridging factor 1c MBF1c (At3g24500) is a stress-response transcription co-activator. To test the function of MBF1c, we over-expressed it in transgenic Arabidopsis plants using the 35S-CaMV promoter. T4 seeds form 3 independent lines were tested for their tolerance to biotic and abiotic stress conditions. Constitutive expression of MBF1c in Arabidopsis enhanced the tolerance of transgenic plants to bacterial infection, salinity, heat and osmotic stress. Moreover, the enhanced tolerance of transgenic plants to osmotic and heat stress was maintained even when these two stresses were combined. The expression of MBF1c in transgenic plants augmented the accumulation of a number of sugars and defense transcrtipts in response to heat stress. Transcriptome profiling and inhibitor studies suggest that MBF1c expression enhances the tolerance of transgenic plants to heat and osmotic stress by partially activating, or perturbing, the ethylene-response signal transduction pathway. MBF1 proteins could be used to enhance the tolerance of plants to different abiotic stresses. Suzuki et al., 2005 Plant Physiology, submitted. Experimenter name = Ron Mittler; Experimenter phone = 1-775-784-1384; Experimenter fax = 1-775-784-1650; Experimenter department = Dept. of Biochemistry; Experimenter institute = University of Nevada; Experimenter address = MS200; Experimenter address = Reno; Experimenter address = Nevada; Experimenter zip/postal_code = 89557; Experimenter country = USA Experiment Overall Design: 6 samples were used in this experiment"				
+Protocol Name	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6			
+Protocol Type	hybridization	feature_extraction			
+Protocol Description	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 			
+Protocol Parameters					
+Protocol Hardware					
+Protocol Software	MicroArraySuite 5.0	MicroArraySuite 5.0			
+Protocol Contact					
+Protocol Term Source REF	mo				
+SDRF File	E-GEOD-5539.sdrf.txt				
+Term Source Name	NCBI Taxonomy	The MGED Ontology	ArrayExpress	EFO	mo
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version					

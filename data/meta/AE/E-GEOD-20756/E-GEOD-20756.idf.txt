@@ -1,0 +1,58 @@
+Comment[ArrayExpressAccession]	E-GEOD-20756							
+Public Release Date	2011-02-28							
+Investigation Title	Interactions between reactive oxygen species stress and brassinosteroid hormone signaling in Arabidopsis seedlings							
+Comment[Submitted Name]	Interactions between reactive oxygen species stress and brassinosteroid hormone signaling in Arabidopsis seedlings							
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis seedlings treated with brassinolide							
+Experiment Description	We were interested in investigating the transcriptome responses to exogenous applications of brassinosteroid hormone when Arabidopsis seedlings are pre-stressed with a reactive oxygen species, hydrogen peroxide. We were interested in seeing which subsets of BR-responsive gene transcripts were most affected and how BR-responsive gene transcripts responded to increasing concentrations of hydrogen peroxide both as a whole and individually. Liquid culture Arabidopsis seedlings are grown under standard conditions. Hydrogen peroxide is added at various concentrations to pre-stress the seedlings. Following this pretreatment, the seedlings are then treated with brassinosteroid (BR) hormone (epi-brassinolide, BL). Following this treatment, seedlings are harvested and total RNA is extracted for genome-wide transcriptome analysis.							
+Date of Experiment								
+Term Source Name	EFO							
+Term Source Version								
+Term Source File	http://www.ebi.ac.uk/efo/efo.owl							
+Person Last Name	Huber	Larue	Huber					
+Person First Name	Steven	Clayton	Steven					
+Person Mid Initials	C.	T	C					
+Person Email	schuber1@life.uiuc.edu							
+Person Affiliation	USDA-ARS							
+Person Phone								
+Person Fax								
+Person Address	USDA-ARS, 1201 W. Gregory Drive, 197 ERML , Urbana, IL, USA							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Person Roles Term Accession Number								
+Normalization Type								
+Normalization Term Accession Number								
+Normalization Term Source REF								
+Replicate Type								
+Replicate Term Accession Number								
+Replicate Term Source REF								
+Experimental Design								
+Experimental Design Term Accession Number								
+Experimental Design Term Source REF								
+Quality Control Type								
+Quality Control Term Accession Number								
+Quality Control Term Source REF								
+Protocol Name	P-GSE20756-1	P-GSE20756-6	P-GSE20756-3	P-GSE20756-8	P-GSE20756-7	P-GSE20756-2	P-GSE20756-4	P-GSE20756-5
+Protocol Description	ID_REF = <br>VALUE = GCRMA log2 signal intensity	Purified, fragmented cRNA was hybridized to Affymetrix's ATH1-121501 Array using Affymetrix's GeneChip Fluidics Station 450, as per Affymetrix's instructions.	Arabidopsis seedlings were grown from seeds (pre-treated at 4C for 1 week in water) in standard Petri dishes using liquid media (1/2 strength MS media, pH 5.7 supplemented with 0.25% sucrose) for 12 days in long day conditions (16 hr light, 110 Microeinsteins m-2 sec-1, 22C).	Pre-processing was done using the GCRMA algorithm in R and Bioconductor packages.	GeneChips were scanned using an Affymetrix GeneChip Scanner 3000.	On day 12, seedlings were moved at midday to a darkened room for one hour. After 1hr, seedlings were pretreated with H2O2 diluted in liquid media to the final concentrations shown. Control treatments were media only. After 30min of pretreatment in the dark, the seedlings were additionally treated with epi-BL (Sigma) at 1uM final concentration (again, diluted in liquid media; control was liquid media plus an equal amount of EtOH that was used as the epi-BL solvent in the treatments). The seedlings were treated with the BL for one hour in the dark. The media was not exchanged, so the original H2O2 treatment was still present as well. At this point the seedlings were harvested and flash frozen in liquid nitrogen for RNA extraction.	Total RNA was isolated from whole seedlings using TRIzol reagent (Invitrogen) and purified using the RNeasy Midi Kit (Qiagen) according to manufacturer's instructions.	Biotin-labeled cRNA samples were made using Affymetrix GeneChip Expression 3'-Amplification Reagents (One-Cycle Target Labeling and Control Reagents package) according to the manufacturer's instructions.
+Protocol Software								
+Protocol Hardware								
+Protocol Contact								
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_acquisition	specified_biomaterial_action	nucleic_acid_extraction	labeling
+Protocol Term Source REF								
+Protocol Term Accession Number								
+Experimental Factor Name	compound							
+Experimental Factor Type	compound							
+Experimental Factor Term Source REF								
+Experimental Factor Term Accession Number								
+Publication Title								
+Publication Author List								
+PubMed ID								
+Publication DOI								
+Publication Status								
+Publication Status Term Source REF								
+Publication Status Term Accession Number								
+Comment[SecondaryAccession]	GSE20756							
+Comment[GEOLastUpdateDate]	2012-03-22							
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[GEOReleaseDate]	2011-02-28							
+Comment[ArrayExpressSubmissionDate]	2010-03-11							
+SDRF File	E-GEOD-20756.sdrf.txt							

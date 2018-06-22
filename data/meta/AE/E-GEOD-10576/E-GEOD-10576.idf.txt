@@ -1,0 +1,52 @@
+Investigation Title	Transcription profiling of Arabidopsis roots after Iron deficiency													
+Comment[Submitted Name]	Iron deficiency (-Fe) effect: Arabidopsis roots													
+Experimental Design	unknown_experiment_design_type	transcription profiling by array												
+Experimental Design Term Source REF		EFO												
+Comment[AEExperimentType]	transcription profiling by array													
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis root tissues and protoplasted cells after iron deprivation													
+Comment[AEMIAMESCORE]	4													
+Comment[ArrayExpressReleaseDate]	2008-06-11													
+Comment[SecondaryAccession]	GSE10576													
+Comment[ArrayExpressAccession]	E-GEOD-10576													
+Comment[MAGETAB TimeStamp_Version]	2010-07-29 21:50:23 Last Changed Rev: 13058													
+Experimental Factor Name	CELL TYPE	GROWTH CONDITION	TREATMENT TIME	ORGANISM PART										
+Experimental Factor Type	cell_type	growth_condition	time	organism_part										
+Experimental Factor Term Source REF														
+Person Last Name	Long													
+Person First Name	Terri Anita													
+Person Mid Initials														
+Person Email	tlong@duke.edu													
+Person Phone														
+Person Fax														
+Person Address	Philip Benfey, Biology, Duke University, Box 90338, Durham, 27707, USA													
+Person Affiliation	Duke University													
+Person Roles	submitter													
+Person Roles Term Source REF	The MGED Ontology													
+Quality Control Type														
+Quality Control Term Source REF														
+Replicate Type														
+Replicate Term Source REF														
+Normalization Type														
+Normalization Term Source REF														
+Date of Experiment														
+Public Release Date	2008-06-11													
+PubMed ID	18436742													
+Publication DOI	10.1126/science.1153795													
+Publication Author List	Dinneny JR, Long TA, Wang JY, Jung JW, Mace D, Pointer S, Barron C, Brady SM, Schiefelbein J, Benfey PN.													
+Publication Title	Cell Identity Mediates the Response of Arabidopsis Roots to Abiotic Stress.													
+Publication Status	published													
+Publication Status Term Source REF	EFO													
+Publication Status Term Accession Number	EFO_0001796													
+Experiment Description	This SuperSeries is composed of the following subset Series:; GSE10496: Expression analysis of the effect of protoplasting and FACS sorting in roots exposed to iron deficiency (-Fe); GSE10497: Expression analysis of root developmental zones after iron deficiency (-Fe) treatment; GSE10501: Expression analysis of root cell-types after iron deficiency (-Fe) treatment; GSE10502: Time course expression analysis of the iron deficiency (-Fe) response in Arabidopsis roots Experiment Overall Design: Refer to individual Series													
+Protocol Name	P-G10576-8	P-G10576-6	P-G10576-11	P-G10576-2	P-G10576-1	P-G10576-5	P-G10576-10	P-G10576-7	P-G10576-4	P-G10576-9	P-G10576-3	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6	Affymetrix:Protocol:ExpressionStat
+Protocol Type	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	grow	grow	nucleic_acid_extraction	nucleic_acid_extraction	nucleic_acid_extraction	labeling	labeling	hybridization	feature_extraction	bioassay_data_transformation
+Protocol Description	Seedlings were grown for 5 days before transfer to -Fe media.  Transfers were staggered such that all roots were harvested within 3 hours of each other on the sixth day of growth.  Roots were cut with a razor blade 0.5 mm below the root/hypocotyl junction and collected into RNA extraction buffer.  Approximately 320 roots were collected per replicate, with two biological replicates being performed per time point.  Samples were briefly sonicated to disrupt the tissue.	Seedlings were grown for 5 days before transfer to standard media or standard -Fe media.  24 hours after transferring seedlings to media, roots were cut into 4 regions using a razor blade.	Samples were prepared as in Birnbaum et al. (2005) Nat. Methods for roots grown under standard conditions.  For -Fe treated samples, roots were transferred to -Fe media for 24 hours before protoplasting.	Samples were prepared as in Birnbaum et al. (2005) except that roots were transferred to -Fe media for 24 hours before protoplasting or harvested without protoplasting.  Protoplasted cells were passed through the FACS device with all cells being collected.	Seeds were surface sterilized for 2 minutes in 70% ethanol, the ethanol was removed, then replaced with 30% Bleach and 0.02% Triton X-100 for 15 minutes. Seeds were rinsed 3 times with sterile water, stratified for 4ËC for 2 days, then placed on standard media. Standard media is 1X Murashige and Skoog salt mixture in which ferrous sulfate is replaced with 100mM Fe(III)-EDTA, 0.5g/L MES, 1% sucrose, 1% agar and adjusted to pH 5.7 with KOH.  â"Fe media is 1X Murashige and Skoog salt mixture in which ferrous sulfate is replaced with 0.3mM Ferrozine. Nylon mesh was placed on top of the solidified media and seeds were planted at ~20 seeds/cm in two rows.	Seeds were surface sterilized for 2 minutes in 70% ethanol, the ethanol was removed, then replaced with 30% Bleach and 0.02% Triton X-100 for 15 minutes. Seeds were rinsed 3 times with sterile water, stratified for 4ËC for 2 days, then placed on standard media. Standard media is 1X Murashige and Skoog salt mixture in which ferrous sulfate is replaced with 100mM Fe(III)-EDTA, 0.5g/L MES, 1% sucrose, 1% agar and adjusted to pH 5.7 with KOH.  â"Fe media is 1X Murashige and Skoog salt mixture in which ferrous sulfate is replaced with 0.3mM Ferrozine.   Nylon mesh was placed on top of the solidified media and seeds were evenly placed on the mesh in a single row at a density of ~2/cm for all experiments.	Approximately 320 roots were collected per replicate.  Samples were briefly sonicated to disrupt the tissue.  RNA was extracted using the RNAeasy Plant Mini Kit (Qiagen).	Approximately 15 roots were dissected for each replicate and pooled.  Samples were collected into RNA extraction buffer and briefly sonicated to disrupt the tissue.  RNA was extracted using the RNAeasy Micro Kit (Qiagen GmbH).	RNA was extracted using the RNAeasy Micro Kit (Qiagen GmbH).	Fragmented cRNA probes were prepared using the one-cycle amplification protocol by Affymetrix.	Fragmented cRNA probes were prepared using the two-cycle amplification protocol by Affymetrix.	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 
+Protocol Parameters														
+Protocol Hardware														
+Protocol Software												MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 5.0
+Protocol Contact														
+Protocol Term Source REF												mo		The MGED Ontology
+SDRF File	E-GEOD-10576.sdrf.txt													
+Term Source Name	NCBI Taxonomy		The MGED Ontology	ArrayExpress	EFO	The MGED Ontology	mo							
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://mged.sourceforge.net/ontologies/MGEDontology.php							
+Term Source Version														

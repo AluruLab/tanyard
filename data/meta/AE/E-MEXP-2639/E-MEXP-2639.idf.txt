@@ -1,0 +1,49 @@
+Investigation Title	Transcription profiling by array of Arabidopsis pxy mutants to investigate the compensatory mechanism that promotes vascular cell division in the absence of PXY 	
+Comment[Submitted Name]	AP2 Transcription Factors regulate plant vascular development	
+Experimental Design	in_vivo_design	strain_or_line_design	co-expression_design	transcription profiling by array	
+Experimental Design Term Source REF		The MGED Ontology	The MGED Ontology	EFO	
+Comment[SecondaryAccession]		
+Comment[ArrayExpressReleaseDate]	2010-10-01	
+Comment[AEMIAMESCORE]	5	
+Comment[ArrayExpressAccession]	E-MEXP-2639	
+Comment[MAGETAB TimeStamp_Version]	2010-08-10 13:32:58 Last Changed Rev: 13058	
+Experimental Factor Name	STRAIN_OR_LINE	
+Experimental Factor Type	strain_or_line	
+Experimental Factor Term Source REF	
+Person Last Name	Zeef	
+Person First Name	Leo	
+Person Mid Initials	
+Person Email	leo.zeef@man.ac.uk	
+Person Phone	0161 2750646	
+Person Fax	
+Person Address	Kilburn Building, Oxford Road, Manchester, Lancashire, M13 9PL, United Kingdom	
+Person Affiliation	
+Person Roles	submitter	
+Person Roles Term Source REF	The MGED Ontology	
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2010-10-01	
+PubMed ID	
+Publication DOI	
+Publication Author List	
+Publication Title	
+Publication Status	
+Publication Status Term Source REF	
+Experiment Description	In gain of function studies, phloem intercalated with xylem (PXY) signalling has previously been shown to promote vascular cell division. However, no reduction in vascular cell division has been reported in pxy mutants. This suggests that a compensatory mechanism promotes vascular cell division in the absence of PXY. To uncover this mechanism, the transcriptome of pxy mutants was compared to wild type counterparts.	
+Protocol Name	P-MTAB-13511	P-MTAB-13512	P-MTAB-13510	P-AFFY-2	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6	P-MTAB-13513	
+Protocol Type	pool	grow	nucleic_acid_extraction	labeling	hybridization	feature_extraction	bioassay_data_transformation	
+Protocol Description	Six inflorescence stems from the same pot were dissected out and the top half discarded. RNA was then isolated from the upper half of the remaining tissue using TRIzol Reagent (Invitrogen). i.e. 6 samples pooled per extract.	For comparison of wild type and pxy transcriptomes, previously described Col-0 (wild type) and pxy-3 (mutation of At5g61480) lines were used (Fisher K, Turner S (2007) PXY, a receptor-like kinase essential for maintaining polarity during plant vascular-tissue development. Current Biology 17: 1061-1066). For each replicate, plants were germinated on MS agar plates prior to transfer to soil (6 plants per 10cm pot), where they were grown on for 5 weeks under long day conditions. Pots were randomised and rotated daily. For each replicate, 6 inflorescence stems from one pot were dissected out and the top half discarded. RNA was then isolated from the upper half of the remaining tissue using TRIzol Reagent (Invitrogen).<br>(Parameters: time unit = seconds, min temperature = 22, temperature unit = C)	Six inflorescence stems from the same pot were dissected out and the top half discarded. RNA was then isolated from the upper half of the remaining tissue using TRIzol Reagent (Invitrogen).<br>(Parameters: Extracted product = total_RNA, Amplification = none)	Title: Affymetrix in vitro transcription. Description: 	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	Background correction,quantile normalization, and gene expression analysis were performed using RMA (Bolstad, B.M., Irizarry R. A., Astrand, M., and Speed, T.P. (2003)A Comparison of Normalization Methods for High Density Oligonucleotide Array Data Based on Bias and Variance. Bioinformatics 19(2):185-193).	
+Protocol Parameters	
+Protocol Hardware	
+Protocol Software					MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact	
+Protocol Term Source REF	The MGED Ontology				mo		The MGED Ontology	
+SDRF File	E-MEXP-2639.sdrf.txt	
+Term Source Name	ncbitax		The MGED Ontology	NCBI Taxonomy	ArrayExpress	The MGED Ontology	EFO	mo	
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version									

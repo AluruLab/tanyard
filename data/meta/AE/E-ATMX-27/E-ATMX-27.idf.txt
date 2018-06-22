@@ -1,0 +1,50 @@
+Investigation Title	Transcription profiling of Arabidopsis Bla-1/Hh-0 hybrids, and Mir-0/Se-0 hybrids and their parents grown at 16C in long day conditions							
+Comment[Submitted Name]	BH_MS_16C							
+Comment[AEExperimentDisplayName]	Transcription profiling of Arabidopsis Bla-1/Hh-0 hybrids, Mir-0/Se-0 hybrids and their corresponding parents							
+Experimental Design	reference_design	strain_or_line_design	co-expression_design	transcription profiling by array				
+Experimental Design Term Source REF	mo	mo	mo	EFO				
+Comment[ArrayExpressReleaseDate]	2007-07-11							
+Comment[AEMIAMESCORE]	4							
+Comment[ArrayExpressAccession]	E-ATMX-27							
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[MAGETAB TimeStamp_Version]	2010-07-29 14:41:20 Last Changed Rev: 13058							
+Experimental Factor Name	ecotype							
+Experimental Factor Type	ecotype							
+Experimental Factor Term Source REF								
+Person Last Name	Bomblies							
+Person First Name	Kirsten							
+Person Mid Initials								
+Person Email	kirsten.bomblies@tuebingen.mpg.de							
+Person Phone	4970716011407							
+Person Fax								
+Person Address	Spemannstrasse 37-39							
+Person Affiliation	Molecular Biology							
+Person Roles	submitter							
+Person Roles Term Source REF	The MGED Ontology							
+Quality Control Type								
+Quality Control Term Source REF								
+Replicate Type								
+Replicate Term Source REF								
+Normalization Type								
+Normalization Term Source REF								
+Date of Experiment								
+Public Release Date	2007-07-11							
+PubMed ID	17803357							
+Publication DOI	10.1371/journal.pbio.0050236							
+Publication Author List	Bomblies K, Lempe J, Epple P, Warthmann N, Lanz C, Dang JL, Weigel D							
+Publication Title	Auto-immune response as a mechanism for a Bateson-Dobzhansky-Muller-type Incompatibility Syndrome in Plants							
+Publication Status								
+Publication Status Term Source REF								
+Experiment Description	Bla-1, Hh-0 and their F1 hybrid, and Mir-0, Se-0 and their F1 hybrid were grown for 3 weeks at 16 degreC long days. Whole rosettes were harvested and pooled 8-10 per sample.							
+Protocol Name	P-CAGE-25828	P-CAGE-25829	P-CAGE-25830	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6			
+Protocol Type	grow	nucleic_acid_extraction	labeling	hybridization	feature_extraction			
+Protocol Description	Plants were grown at 16C (long days) and whole rosettes were harvested at 3 weeks of age. Long day = 16 hrs light, 8 hrs dark.	Total RNA was extracted using the Qiagen RNeasy plant kit.	1 ug starting RNA was used. Probes were labeled using the Message Amp II Biotin kit (Ambion).	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 			
+Protocol Parameters	day temperature;day humidity;light source;media;night temperature;night humidity;light hours;light intensity;	Extracted product;Amplification;	Amount of nucleic acid labeled;Amplification;Used Label;					
+Protocol Hardware								
+Protocol Software				MicroArraySuite 5.0	MicroArraySuite 5.0			
+Protocol Contact								
+Protocol Term Source REF				mo				
+SDRF File	E-ATMX-27.sdrf.txt							
+Term Source Name	NCBI Taxonomy		nasc	The MGED Ontology	ArrayExpress	mo	EFO	The MGED Ontology
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/		http://arabidopsis.info/catalogue.html	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version								

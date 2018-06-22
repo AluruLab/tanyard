@@ -1,0 +1,52 @@
+Investigation Title	Transcription profiling of Arabidopsis plants overexpressing a member of the DEVIL gene family.				
+Comment[Submitted Name]	Global expression profiling of Arabidopsis plants overexpressing a member of the DEVIL gene family.				
+Experimental Design	unknown_experiment_design_type	transcription profiling by array			
+Experimental Design Term Source REF		EFO			
+Comment[AEExperimentType]	transcription profiling by array				
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis overexpressing dvl4 after treatment with dexamethasone				
+Comment[AEMIAMESCORE]	4				
+Comment[SecondaryAccession]	GSE8975				
+Comment[ArrayExpressReleaseDate]	2009-08-09				
+Comment[ArrayExpressAccession]	E-GEOD-8975				
+Comment[MAGETAB TimeStamp_Version]	2010-08-09 12:07:20 Last Changed Rev: 13058				
+Experimental Factor Name	compound	genotype			
+Experimental Factor Type	compound	genotype			
+Experimental Factor Term Source REF					
+Person Last Name	Larue				
+Person First Name	Clayton				
+Person Mid Initials					
+Person Email	clayton.larue@ars.usda.gov				
+Person Phone					
+Person Fax					
+Person Address	"John Walker Lab, Dept of Biological Sciences, University of Missouri, Columbia, 304 Life Sciences Bldg, Columbia, 65211, USA"				
+Person Affiliation	"University of Missouri, Columbia"				
+Person Roles	submitter				
+Person Roles Term Source REF	The MGED Ontology				
+Quality Control Type					
+Quality Control Term Source REF					
+Replicate Type					
+Replicate Term Source REF					
+Normalization Type					
+Normalization Term Source REF					
+Date of Experiment					
+Public Release Date	2009-08-09				
+PubMed ID					
+Publication DOI	10.1007/s11105-009-0131-2				
+Publication Author List	"Clayton T. Larue, Jiangqi Wen and John C. Walker"				
+Publication Title	Interactions between a NAC-Domain Transcription Factor and the Putative Small Protein Encoding DVL/ROT Gene Family				
+Publication Status	published				
+Publication Status Term Source REF	EFO				
+Publication Status Term Accession Number	EFO_0001796				
+Experiment Description	"The DEVIL (DVL) family is a plant-specific family of genes that encode predicted small polypeptides (Wen, et al., 2004; Narita, et al., 2004). Overexpression of DVL family members in Arabidopsis results in pleiotropic developmental phenotypes including shortened stature, rounded rosette leaves, clustered inflorescences, shortened pedicles and horn-like protrusions at the distal end of siliques. Point mutations reveled that a conserved C-terminal domain is required for DVL overexpression phenotypes and is conserved in all family members. Based on the overexpression experiments, DVL family members are suggested to play important roles in plant development. In an attempt to uncover genes whose transcription was changed in response to DVL overexpression, we designed a microarray-based global profiling experiment. A transgenic Arabidopsis line that carried a GVG construct (glucocorticoid inducible) (Aoyama and Chua, 1997) driving the expression of DVL4 was generated and used in this experiment. This allowed for better identification of primary transcriptional responses to DVL overexpression. Experiments with transgenic lines in which DVL overexpression is driven by a constitutive promoter would add the complexity of secondary transcriptional responses as well. Computational analysis of the datasets generated in this experiment lead to the identification of genes that may be involved in responding to DVL overexpression. Experimentation is currently ongoing to investigate the role these genes play in plant development and the DVL overexpression phenotypes. Experiment Overall Design: To identify genes that are transcriptionally responsive to DVL overexpression, we used microarray analysis to globally profile different transgenic Arabidopsis lines in a Columbia (Col) background. A control line was transformed with the GVG construct, but without a coding sequence inserted in the multiple cloning site. This line was indistinguishable from Col Wt with and without dexamethazone (dex, a steroid that activates transcription of the coding sequence inserted in the GVG vector) treatment or mock treatment. This line is called the empty vector control. A second line was also transformed with the GVG construct containing the DVL4 coding sequence. Without dex treatment or mock treatment, this line was indistinguishable from Col Wt, but displayed a typical DVL overexpression phenotype with dex treatment. This line is called GVG DVL4. Experiment Overall Design: These lines were grown in standard growth chambers with 16hr days to the six rosette leaf stage (vegetative). The plants were then mock treated or dex treated and samples for RNA extraction were collected 10hrs post-treatment. Three different samples were treated and collected: Empty vector control with dex treatment; GVG DVL4 with mock treatment; and GVG DVL4 with dex treatment. All samples were collected as three biological replicates. Affymetrix Arabidopsis ATH1 Genome GeneChips were used for the global analysis. Computational analysis was completed using dChip software (www.dchip.org). The empty vector control with dex treatment can be used to correct for any transcriptional responses due to dex treatment alone."				
+Protocol Name	P-G8975-3	P-G8975-1	P-AFFY-6	P-G8975-2	
+Protocol Type	nucleic_acid_extraction	labeling	feature_extraction	bioassay_data_transformation	
+Protocol Description	Total RNA was isolated from the leaf samples using TRIzol reagent (Invitrogen) and purified using the RNeasy Midi Kit (Qiagen) according to manufacturer's instructions.	cDNA synthesis and labeling was completed according to chip manufacturer's instructions (Affymetrix).	Title: Affymetrix CEL analysis. Description: 	Data were processed using dChip software (www.dchip.org).	
+Protocol Parameters					
+Protocol Hardware					
+Protocol Software			MicroArraySuite 5.0		
+Protocol Contact					
+Protocol Term Source REF				The MGED Ontology	
+SDRF File	E-GEOD-8975.sdrf.txt				
+Term Source Name	NCBI Taxonomy	The MGED Ontology	ArrayExpress	EFO	The MGED Ontology
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version					

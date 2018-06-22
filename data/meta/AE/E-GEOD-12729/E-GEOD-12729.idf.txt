@@ -1,0 +1,42 @@
+Investigation Title	Transcription profiling of Arabidopsis transgenic seedlings overexpressing MINI ZINC FINGER 1 (MIF1)				
+Comment[Submitted Name]	Microarray analysis of MINI ZINC FINGER 1 (MIF1) overexpression transgenic Arabidopsis seedlings				
+Experimental Design	unknown_experiment_design_type	transcription profiling by array			
+Experimental Design Term Source REF		EFO			
+Comment[AEExperimentType]	transcription profiling by array				
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis expressing MIF1 under the control of the 35S promoter after growth in light or dark conditions				
+Comment[AEMIAMESCORE]	3				
+Comment[SecondaryAccession]	GSE12729				
+Comment[ArrayExpressReleaseDate]	2008-11-13				
+Comment[ArrayExpressAccession]	E-GEOD-12729				
+Comment[MAGETAB TimeStamp_Version]	2010-07-30 05:48:47 Last Changed Rev: 13058				
+Experimental Factor Name	genotype	growth condition			
+Experimental Factor Type	genotype	growth condition			
+Experimental Factor Term Source REF					
+Person Last Name	Hu				
+Person First Name	Wei				
+Person Email	hxm16@psu.edu				
+Person Address	"J Clark Lagarias, Section of Molecular and Cellular Biology, Univ of California at Davis, One Shields Ave., Davis, 95616, USA"				
+Person Affiliation	Univ of California at Davis				
+Person Roles	submitter				
+Person Roles Term Source REF	The MGED Ontology				
+Public Release Date	2008-11-13				
+PubMed ID	16412086				
+Publication DOI	10.1111/j.1365-313X.2005.02626.x				
+Publication Author List	"Wei Hu, Hong Ma"				
+Publication Title	Characterization of a novel putative zinc finger gene MIF1: involvement in multiple hormonal regulation of Arabidopsis development.				
+Publication Status	published				
+Publication Status Term Source REF	EFO				
+Publication Status Term Accession Number	EFO_0001796				
+Experiment Description	"Phytohormones play crucial roles in regulating many aspects of plant development. Although much has been learned about the effects of individual hormones, cross-talk between and integration of different hormonal signals are still not well understood. We present a study of MINI ZINC FINGER 1 (MIF1), a putative zinc finger protein from Arabidopsis, and suggest that it may be involved in integrating signals from multiple hormones. MIF1 homologs are highly conserved among seed plants, each characterized by a very short sequence containing a central putative zinc finger domain. Constitutive overexpression of MIF1 caused dramatic developmental defects, including dwarfism, reduced apical dominance, extreme longevity, dark-green leaves, altered flower morphology, poor fertility, reduced hypocotyl length, spoon-like cotyledons, reduced root growth, and ectopic root hairs on hypocotyls and cotyledons. In addition, 35S::MIF1 seedlings underwent constitutive photomorphogenesis in the dark, with root growth similar to that in the light. Furthermore, 35S::MIF1 seedlings were demonstrated to be non-responsive to gibberellin (GA) for cell elongation, hypersensitive to the GA synthesis inhibitor paclobutrazol (PAC) and abscisic acid (ABA), and hyposensitive to auxin, brassinosteroid and cytokinin, but normally responsive to ethylene. The de-etiolation defect could not be rescued by the hormones tested. Consistent with these observations, genome-scale expression profiling revealed that 35S::MIF1 seedlings exhibited decreased expression of genes involved in GA, auxin and brassinosteroid signaling as well as cell elongation/expansion, and increased expression of ABA-responsive genes. We propose that MIF1, or the protein(s) with which MIF1 interacts, is involved in mediating the control of plant development by multiple hormones. Experiment Overall Design: The experiment was designed to compared expression profiles of wild type (vector transformed Col) and 35S::MIF1 seedlings grown in the dark or white light. Twelve affymetrix ATH1 arrays were used for three biological replicates, six for comparison of light-grown seedlings and the other six for dark-grown seedlings. Wild-type seedlings were from three independent vector transformant lines(#1, #4 and #7). For the 35S::MIF1 transgenic seedlings, MIF1OE#124 was used for the first and second replicates, and MIF1OE#127 was used for the third replicate."				
+Protocol Name	P-G12729-2	P-G12729-1	P-AFFY-6		
+Protocol Type	nucleic_acid_extraction	labeling	feature_extraction		
+Protocol Description	Qiagen RNeasy Plant Mini Prep Kit	ds cDNA synthesis: SuperScript Choice System from Invitrogen ds cDNA cleanup: GeneChip Sample Cleanup Module from Affymetrix cRNA synthesis: Bioarray High-Yield RNA Transcript Labeling Kit from Enzo Biochem. UTP and CTP is biotinylated cRNA cleanup: GeneChip Sample Cleanup Module from Affymetrix	Affymetrix CEL analysis. 		
+Protocol Parameters					
+Protocol Hardware					
+Protocol Software			MicroArraySuite 5.0		
+Protocol Contact					
+Protocol Term Source REF					
+SDRF File	E-GEOD-12729.sdrf.txt				
+Term Source Name	NCBI Taxonomy	The MGED Ontology	ArrayExpress	EFO	The MGED Ontology
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version					

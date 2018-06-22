@@ -1,0 +1,49 @@
+Investigation Title	Transcription profiling of Arabidopsis diurnal gene expression in rosette leaves of the phosphoglucomutase mutant (Col-0)	
+Comment[Submitted Name]	Diurnal gene expression in rosette leaves of the phosphoglucomutase mutant (Col-0)	
+Experimental Design	unknown_experiment_design_type	transcription profiling by array	
+Experimental Design Term Source REF		EFO	
+Comment[AEMIAMESCORE]	4	
+Comment[ArrayExpressReleaseDate]	2008-06-12	
+Comment[SecondaryAccession]	GSE3424	
+Comment[ArrayExpressAccession]	E-GEOD-3424	
+Comment[MAGETAB TimeStamp_Version]	2010-08-04 21:34:21 Last Changed Rev: 13058	
+Experimental Factor Name	
+Experimental Factor Type	
+Experimental Factor Term Source REF	
+Person Last Name	BlÃ¤sing	
+Person First Name	Oliver	
+Person Mid Initials	E.	
+Person Email	blaesing@mpimp-golm.mpg.de	
+Person Phone	
+Person Fax	
+Person Address	Stitt,Abt. Stitt,Max-Planck-Institut Molekulare Pflanzenphysiologie,Am MÃ¼hlenberg 1,Potsdam-Golm,D-14476,Germany	
+Person Affiliation	Max-Planck-Institut Molekulare Pflanzenphysiologie	
+Person Roles	submitter	
+Person Roles Term Source REF	The MGED Ontology	
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2008-06-12	
+PubMed ID	
+Publication DOI	
+Publication Author List	
+Publication Title	
+Publication Status	
+Publication Status Term Source REF	
+Experiment Description	How do transcript levels of leaf-expressed genes change in a normal day-night cycle of the phosphoglucomutase (pgm) mutant? The interest is in genes that are regulated by the circadian clock and the diurnal component (i.e. light, metabolite changes). Plants were grown on soil in a 12/12 h light/dark rhythm at 20Â°C day and night. 5 weeks after germination the rosettes of the non-flowering plants were harvested, 15 plants per sample. Plants were harvested in series at 6 times every 4 hours, beginning with the end of the night (still in darkness). Experiment Overall Design: A diurnal time series (8 times) was analyzed.	
+Protocol Name	P-G3424-2	P-G3424-1	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6	
+Protocol Type	nucleic_acid_extraction	labeling	hybridization	feature_extraction	
+Protocol Description	5 x 3 rosettes were harvested and directly frozen by liquid nitrogen, inside the growth chamber. The material of 15 rosettes was ground in liquid nitrogen.Total RNA was extracted from 250 mg fresh weight using 5 ml TriZol. Organic compounts were removed by 2 chloroform extractions. Precipitation was done with sodium chloride/sodium citrate/2-propanol over night at 4Â&deg;C. Ethanol wash of RNA pellet was done twice with 75% Ethanol. Total RNA was dissolved in pure H2O.	Approximately 10 Â&#956;g of total RNA was processed to produce biotinylated cRNA targets.	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	
+Protocol Parameters	
+Protocol Hardware	
+Protocol Software			MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact	
+Protocol Term Source REF			mo	
+SDRF File	E-GEOD-3424.sdrf.txt	
+Term Source Name	NCBI Taxonomy	The MGED Ontology	ArrayExpress	EFO	The MGED Ontology	mo	
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version							

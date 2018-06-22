@@ -1,0 +1,32 @@
+Comment[ArrayExpressAccession]	E-GEOD-40518						
+MAGE-TAB Version	1.1						
+Public Release Date	2013-08-01						
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis trichome from 5th and 6th rosette leaves of gtl1-1 mutant and wild type controls						
+Investigation Title	Comparison of gene expression in Arabidopsis 5th and 6th rosette leaves  between gtl1-1 mutant and wild type						
+Comment[Submitted Name]	Comparison of gene expression in Arabidopsis trichome between gtl1-1 mutant and wild type						
+Experiment Description	"Total RNA from trichomes of fifth and sixth rosette leaves of three-week-old wild-type and gtl1-1 mutants (Figure 3B) were extracted. We found a total number of 1,759 genes, corresponding to 1,694 probes on the ATH1 chip, that show differential expression of at least 1.3-fold. Out of these 1,694 genes, 47.2% are positively regulated and 52.8% are negatively regulated by GTL1. Compared gene expressions in fifth and sixth rosette leaves of three-week-old wild-type and gtl1-1 mutants"						
+Term Source Name	ArrayExpress	EFO					
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Morohashi	Breuer	Morohashi	Grotewold	Sugimoto		
+Person First Name	Kengo	Christian	Kengo	Erich	Keiko		
+Person Email	morohashi.1@osu.edu						
+Person Affiliation	The Ohio State University						
+Person Phone	614-688-04954						
+Person Fax	614-292-5379						
+Person Address	"Plant Cell and Molecular Biology, The Ohio State University, 1060 Carmack Rd, Columbus, OH, USA"						
+Person Roles	submitter						
+Protocol Name	P-GSE40518-1	P-GSE40518-5	P-GSE40518-6	P-GSE40518-2	P-GSE40518-3	P-GSE40518-4	P-GSE40518-7
+Protocol Description	"Affy-GUI, normalized by GCRMA. ID_REF =  VALUE = log2 GCRMA"	"RNA probes were labeled using an Affymetrix 3' IVT Express Kit (Affymetrix, Japan)"	"Hybridized onto Arabidopsis ATH1 Genome GeneChips(r) (Affymetrix Inc., USA) according to manifucture's instruction (Affymetrix)."	N/A	"Plants were germinated and grown on plates containing Murashige and Skoog salts, pH 5.7, 1% sucrose (w/v), and 0.5% phytogel (w/v) in continuous light at 22 degrees C."	"Trichomes were removed with forceps from the fifth and sixth rosette leaves of three-week-old wild-type and gtl1-1 mutant plants according to a previously established protocol (Jakoby et al, 2008). Total RNA was extracted from three biological replicates by a Qiagen plant RNeasy kit, and treated with DNaseI (Takara Bio, Japan) following the manufacturer's instructions."	"GeneChips are scanned in a GeneChip Scanner 3000 (Affymetrix Inc., USA) and CEL files are generated from DAT files using GeneChip(r) Operating Software (GCOS) software (Affymetrix Inc., USA)."
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Experimental Factor Name	genotype						
+Experimental Factor Type	genotype						
+Publication Author List	"Breuer C, Morohashi K, Kawamura A, Takahashi N, Ishida T, Umeda M, Grotewold E, Sugimoto K."						
+Publication Title	Transcriptional repression of the APC/C activator CCS52A1 promotes active termination of cell growth						
+Publication DOI	10.1038/emboj.2012.294						
+PubMed ID	23143274						
+Comment[SecondaryAccession]	GSE40518						
+Comment[GEOReleaseDate]	2013-08-01						
+Comment[ArrayExpressSubmissionDate]	2012-08-31						
+Comment[GEOLastUpdateDate]	2013-08-03						
+Comment[AEExperimentType]	transcription profiling by array						
+SDRF File	E-GEOD-40518.sdrf.txt						

@@ -1,0 +1,28 @@
+Comment[ArrayExpressAccession]	E-GEOD-40861
+MAGE-TAB Version	1.1							
+Public Release Date	2012-10-31
+Investigation Title	Expression data of Arabidopsis pollen tube of an AGP6 AGP11 double null mutant							
+Comment[Submitted Name]	Expression data of Arabidopsis pollen tube of an AGP6 AGP11 double null mutant
+Experiment Description	Arabinogalactan proteins are proteoglycans known to have important roles during cell growth and development, namelly during pollen tube growth. A microarray experiment was performed on agp6 agp11 pollen tubes to search for genetic interactions in the context of pollen tube growth. RNA from wt and mutant pollen tubes was extracted after 8h of in vitro germination and hybridized on Affimetrix microarrays.							
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl						
+Person Last Name	Coimbra	Costa	Nobre	Becker	Masiero	Amorim	Pereira	Coimbra
+Person First Name	Sílvia	Mário	Margarida	Jörg	Simona	Maria	Luís	Sílvia
+Person Mid Initials			S			I	G	
+Person Email	scoimbra@fc.up.pt							
+Person Affiliation	University of Porto							
+Person Phone	351220402731							
+Person Fax	351220402799							
+Person Address	Biology, University of Porto, Rua do Campo Alegre, Porto, Portugal							
+Person Roles	submitter							
+Protocol Name	P-GSE40861-1	P-GSE40861-6	P-GSE40861-5	P-GSE40861-3	P-GSE40861-2	P-GSE40861-4	P-GSE40861-7	
+Protocol Description	ID_REF =  VALUE = dChip expression values after normalization and expression value computation.	Arrays were scanned on an Affymetrix GeneChip scanner 3000 7G.	15 �g of fragmented aRNA was used in a 300 �l hybridization cocktail containing added hybridization controls. 200 �l of mixture was hybridized on arrays for 16 h at 45 �C. Standard post hybridization wash and double-stain protocols (FS450_0004; GeneChip HWS kit, Affymetrix) were used on an Affymetrix GeneChip Fluidics Station 450.	Total RNA was extracted using the RNeasy Mini Kit from Qiagen.	Pollen was collected from newly opened flowers and germinated for 8h in the dark in growth medium (5 mM KCl, 5 mM CaCl2, 1 mM MgSO4, 0.01 % H3BO3, 10 % Sucrose, pH 7.4)	RNA was processed for use on Affymetrix (Santa Clara, CA, USA) GeneChip Arabidopsis ATH1 Genome Arrays, according to the manufacturer’s GeneChip 3’ IVT Express kit user manual. Briefly, 100 ng of total RNA containing spiked in Poly-A RNA controls was used in a reverse transcription reaction (GeneChip 3’ IVT Express Kit; Affymetrix) to generate first-strand cDNA. After second-strand synthesis, double-stranded cDNA was used in a 16 h in vitro transcription (IVT) reaction to generate aRNA (GeneChip 3’ IVT Express Kit; Affymetrix). Size distribution of the aRNA and fragmented aRNA, respectively, was assessed using an Agilent 2100 Bioanalyzer with a RNA 6000 Nano Assay.	Scanned arrays were analyzed first with Affymetrix Expression Console software to obtain Absent/Present calls and to assure that all quality parameters were in the recommended range. Subsequent analysis was carried out with DNA-Chip Analyzer (dChip) 2010 (http://www.dchip.org, Cheng Li Lab, Harvard). The 6 arrays were normalized to a baseline array with median CEL intensity by applying an Invariant Set Normalization Method. Normalized CEL intensities of the arrays were used to obtain model-based gene expression indices based on a PM (Perfect Match)-only model. Replicate data (triplicates) for the conditions were weighted gene-wise by using inverse squared standard error as weights. Genes compared were considered to be differentially expressed if the 90% lower confidence bound of the fold change between experiment and baseline was above 1.3. The lower confidence bound criterion means that we can be 90% confident that the fold change is a value between the lower confidence bound and a variable upper confidence bound.	
+Protocol Type	bioassay_data_transformation	image_aquisition	hybridization	nucleic_acid_extraction	grow	labeling	feature_extraction	
+Experimental Factor Name	VARIATION							
+Experimental Factor Type	variation							
+Comment[SecondaryAccession]	GSE40861							
+Comment[GEOReleaseDate]	2012-10-31							
+Comment[ArrayExpressSubmissionDate]	2012-09-13							
+Comment[GEOLastUpdateDate]	2012-11-01							
+Comment[AEExperimentType]	transcription profiling by array							
+SDRF File	E-GEOD-40861.sdrf.txt

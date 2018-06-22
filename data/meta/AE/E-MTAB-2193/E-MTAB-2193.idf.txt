@@ -1,0 +1,31 @@
+Comment[ArrayExpressAccession]	E-MTAB-2193
+MAGE-TAB Version	1.1																													
+Investigation Title	HEC1 transcriptional targets																													
+Comment[Submitted Name]	HEC1 transcriptional targets
+Experiment Description	Inflorescence apices of hec1,2,3 triple mutants and ethanol induced 35S:AlcR, AlcA:HEC1 plants were copared to wild-type or ethanol induced 35S:AlcR, AlcA:GUS apices, respectively.																													
+Experimental Design	genetic modification design	in_vivo_design	co-expression_design																											
+Comment[AEExperimentType]	transcription profiling by array																													
+Experimental Factor Name	genetic modification	genotype																												
+Experimental Factor Type	genetic modification	genotype																												
+Quality Control Type	biological replicate																													
+Quality Control Term Source REF	EFO																													
+Public Release Date	2014-05-01																													
+Person Last Name	Lohmann																													
+Person First Name	Jan																													
+Person Mid Initials	U																													
+Person Email	jlohmann@meristemania.org																													
+Person Phone																														
+Person Address	Im Neuenheimer Feld 230, 69120 Heidelberg																													
+Person Affiliation	Centre for Organismal Studies Heidelberg																													
+Person Roles	submitter																													
+PubMed ID																														
+Publication Author List	Christoph Schuster, Christophe Gaillochet, Anna Medzihradszky, Wolfgang Busch, Gabor Daum, Melanie Krebs, Andreas Kehle & Jan U. Lohmann																													
+Publication Title	A regulatory framework for shoot stem cell control																													
+Publication Status	under revision																													
+Protocol Name
+Protocol Type																														
+Protocol Description																														
+Protocol Term Source REF																														
+Term Source Name	EFO	ArrayExpress
+Term Source File	http://www.ebi.ac.uk/efo	http://www.ebi.ac.uk/arrayexpress																												
+SDRF File	E-MTAB-2193.sdrf.txt

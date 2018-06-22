@@ -1,0 +1,53 @@
+Investigation Title	Transcriptome analysis of CAX1/CAX3 double mutants						
+Comment[Submitted Name]	Transcriptome analysis of CAX1/CAX3 double mutants						
+Experimental Design	transcription profiling by array						
+Experimental Design Term Source REF	EFO						
+Comment[AEExperimentType]	transcription profiling by array						
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis cax1/cax3 double mutants						
+Comment[SecondaryAccession]							
+Comment[SecondaryAccession]	GSE23820						
+Comment[ArrayExpressReleaseDate]	2010-10-20						
+Comment[AEMIAMESCORE]	4						
+Comment[ArrayExpressAccession]	E-GEOD-23820						
+Comment[MAGETAB TimeStamp_Version]	2010-10-29 10:42:36 Last Changed Rev: 14857						
+Experimental Factor Name	genotype						
+Experimental Factor Type	genotype						
+Experimental Factor Term Source REF							
+Person Last Name	Conn	Baumann	Cheng	Gilliham	Hirschi		
+Person First Name	Simon	Ute	Ning-Hui	Matthew	Kendal		
+Person Mid Initials	J				D		
+Person Email		ute.baumann@adelaide.edu.au					
+Person Phone							
+Person Fax							
+Person Address		"Australian Centre for Plant Functional Genomics, University of Adelaide, Hartley Grove, Glen Osmond, 5064, Australia"					
+Person Affiliation		University of Adelaide					
+Person Roles		submitter					
+Person Roles Term Source REF		The MGED Ontology					
+Quality Control Type							
+Quality Control Term Source REF							
+Replicate Type							
+Replicate Term Source REF							
+Normalization Type							
+Normalization Term Source REF							
+Date of Experiment							
+Public Release Date	2010-10-20						
+PubMed ID	21258004						
+Publication DOI	10.1105/tpc.109.072769						
+Publication Author List	"Conn SJ, Gilliham M, Athman A, Schreiber AW, Baumann U, Moller I, Cheng NH, Stancombe MA, Hirschi KD, Webb AA, Burton R, Kaiser BN, Tyerman SD, Leigh RA."						
+Publication Title	"Cell-specific vacuolar calcium storage mediated by CAX1 regulates apoplastic calcium concentration, gas exchange, and plant productivity in Arabidopsis."						
+Publication Status	published						
+Publication Status Term Source REF	EFO						
+Publication Status Term Accession Number	EFO_0001796						
+Experiment Description	"As part of a larger study on Cell-specific vacuolar calcium compartmentation regulates apoplastic calcium concentration, gas exchange and plant productivity we compared the transcriptome of 40day old CAX1/CAX3 double mutants to Col-0 wildtype plants. comparative: mutant versus wild-type"						
+Protocol Name	P-GSE23820-3	P-GSE23820-2	P-GSE23820-4	P-GSE23820-5	P-GSE23820-6	P-GSE23820-7	P-GSE23820-1
+Protocol Type	nucleic_acid_extraction	grow	labeling	hybridization	image_aquisition	feature_extraction	bioassay_data_transformation
+Protocol Description	"Total RNA was isolated using an RNeasy Mini Kit (QIAGEN, Valencia, CA) following the manufacturer instructions."	"Wild type (Col-0 ecotype) and cax1cax3 double mutant lines were grown on 0.5X MS media supplemented with 0.5% Sucrose for 10 days (16hr day/8hr night) at an irradiance of 150 Âµmol photons m-2 s-1, and at 22Â°C. The 10-day-old seedlings were then transferred into soil (Sunshine Mix) and grown for 3 weeks until the cax1cax3 plants started to display necrotic lesions."	"Samples were labeled using the standard Affymetrix T7 oligo(dT) primer protocol. Five Âµg of total RNA was reverse transcribed to produce double-stranded cDNA. The cDNA product was used as a template for the vitro transcription reaction, producing biotin-labeled cRNA. The labeled cRNA was quantified using the NanoDropÂ® ND-1000 spectrophotometer. 15.0 Âµg of the labeled cRNA was fragmented and re-checked for concentration. A hybridization cocktail containing Affymetrix spike-in controls and fragmented labeled cRNA was loaded onto a GeneChipÂ® array."	"The array was hybridized overnight at 45Â°C with rotation at 60 rpm then washed and stained with a strepavidin, R-phycoerythrin conjugate stain. Signal amplification was done using biotinylated antistreptavidin. Microarrays experiments were performed at Baylor College of Medicine Microarray Core Facility ."	Affymetrix GeneChipÂ® Scanner 3000	"The images were analyzed and quality control metrics recorded using Affymetrix GCOS software version 1.1.2. Data were processed using the Bioconductor packages implemented in R. RMA background correction was applied to probe intensities, gene level expression were summarized from the corrected intensities and quantile normalized."	ID_REF = <br>VALUE = RMA normalized gene level expression values
+Protocol Parameters							
+Protocol Hardware							
+Protocol Software							
+Protocol Contact							
+Protocol Term Source REF	The MGED Ontology	The MGED Ontology	The MGED Ontology	The MGED Ontology		The MGED Ontology	The MGED Ontology
+SDRF File	E-GEOD-23820.sdrf.txt						
+Term Source Name	EFO		The MGED Ontology	ArrayExpress	EFO	The MGED Ontology	
+Term Source File	http://www.ebi.ac.uk/efo/		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version							

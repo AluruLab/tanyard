@@ -1,0 +1,23 @@
+Comment[ArrayExpressAccession]	E-GEOD-48676
+MAGE-TAB Version	1.1						
+Public Release Date	2013-07-11
+Investigation Title	Expression data from Arabidopsis leavs 10 min after wounding.						
+Comment[Submitted Name]	Expression data from Arabidopsis leavs 10 min after wounding.
+Experiment Description	Rapid responses to biotic and abiotic insults are crucial for plant survival. We examined the very early (10 min) wound transcriptome in order to increase our understanding regarding this critical intial phase of the plant response to stress. Our analysis revealed a rapid induction of stress-related transcripts that was distinct from the long term events which are dominated by jasmonic pathway responses. The transcriptome showed high correlation between the early wound response and other early but not late responses to innate immune interactions and other abiotic stresses. In addition those early responses were correlated with transcriptomes of response to singlet oxygen as displayed in the flu mutant. Singlet oxygen appears to be a signaling intermediate in the plant response to multiple stresses. 6 samples were analysed in total with 2 replicates from each type of treatment; control (unwounded plants), local (woundedd plants) and systemic (unwounded leaves from wounded plants).						
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Fluhr	Sibony-Benyamini	Mor	Fluhr			
+Person First Name	Robert	Hadas	Avishai	Robert			
+Person Email	Robert.fluhr@weizmann.ac.il						
+Person Affiliation	Weizmann institute of science						
+Person Address	Plant science, Weizmann institute of science, Hertzel st. 234, Rehovot, Israel						
+Person Roles	submitter						
+Protocol Name	P-GSE48676-1	P-GSE48676-5	P-GSE48676-6	P-GSE48676-2	P-GSE48676-3	P-GSE48676-4	P-GSE48676-7
+Protocol Description	Analyzed with Affymetrix Expression Console, algorithm used for analysis- RMA, program-version = 1.1.2800.19935 ID_REF =  VALUE = log2 (RMA signal)	Synthesis of cDNA was performed using the GeneChip Expression 3'-Amplification One-Cycle cDNA Synthesis Kit (Affymetrix, #900431). A starting amount of 6 ug total RNA was used for each sample. Purification of double-stranded cDNA was performed using the GeneChip Sample Clean-up Module (Affymetrix, #900371). Purified cRNA was enzymatically fragmented and biotinylated using GeneChip IVT Labeling Kit (Affymetrix, #900449).	Samples were hybridized using Affymetrix hybridization kit materials â€¢ Heat cocktails at 99° for 5 minutes, then 45° for 5 minutes centrifuge at max speed for 5 minutes (N.B. this deviates from Affy SOP). â€¢ Transfer 200 Î¼l of hyb solution to each array, then tape holes with parafilm. Hybridize 16 hours at 45° at 60rpmâ€¢ Fluidics washing protocol is FS450_0004.	Three rosette leaves of 5 weeks old plants were wounded by clamping them with tweezers across the midvein. 10 min after wounding a pool of local leaves (L) (wounded leaves from 3 plants ), a pool of systemic leaves (S) (unwounded leaves from 3 wounded plants) and a pool of control leaves (C) (a pool of leaves from 3 unwounded plants) were harvested and immersed in liquid nitrogen for subsequant RNA extraction and hybridization on Affymetrix microarrays.	Arabidopsis ( 5 weeks old plants) were grown in soil under white light illumination in a 10-h-light/14-h-dark cycle at 21°C.	Total RNA was extracted using the RNeasy Mini Kit (Qiagen,7 4904) according to manufacturer's instructions.	GeneChips were scanned using the Affymetrix Gene ChIP Scanner 3000 7G.
+Protocol Type	normalization data transformation protocol	labelling protocol	hybridization protocol	sample treatment protocol	growth protocol	nucleic acid extraction protocol	array scanning protocol
+Comment[SecondaryAccession]	GSE48676						
+Comment[GEOReleaseDate]	2013-07-11						
+Comment[ArrayExpressSubmissionDate]	2013-07-10						
+Comment[GEOLastUpdateDate]	2013-07-12						
+Comment[AEExperimentType]	transcription profiling by array						
+SDRF File	E-GEOD-48676.sdrf.txt

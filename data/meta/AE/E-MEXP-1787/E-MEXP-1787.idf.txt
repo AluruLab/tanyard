@@ -1,0 +1,38 @@
+Comment[ArrayExpressAccession]	E-MEXP-1787		
+Investigation Title	ccr1-1		
+Comment[Submitted Name]	ccr1-1		
+Comment[AEExperimentType]	transcription profiling by array		
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis ccr1 mutants		
+Publication Title	"Regulation of Carotenoid Composition and Shoot Branching in Arabidopsis by a Chromatin Modifying Histone Methyltransferase, SDG8"		
+Publication Author List	"Cazzonelli CI, Cuttriss AJ, Cossetto SB, Pye W, Crisp P, Whelan J, Finnegan EJ, Turnbull C, Pogson BJ."		
+Publication DOI	10.1105/tpc.108.063131		
+PubMed ID	19174535		
+Publication Status	published		
+Publication Status Term Source REF	EFO		
+Experimental Design	co-expression_design	genetic_modification_design	transcription profiling by array
+Experimental Design Term Source REF	MGED Ontology	MGED Ontology	EFO
+Comment[MIAMExpressLogin]	cazzonelli		
+Comment[MIAMExpressSubmissionID]	4995		
+Experiment Description	"Regulation of carotenoid composition and shoot branching in Arabidopsis by a chromatin modifying histone methyltransferase, SDG8<br>Comparison of transcript profiles between wild type Columbia and ccr1 (carotenoid and chloroplast regulatory) mutant, which contains a mutation in At1g77300 (SDG8) "		
+Experimental Factor Name	genotype		
+Experimental Factor Type	genotype		
+Person Last Name	Cazzonelli		
+Person First Name	Christopher		
+Person Mid Initials	I		
+Person Email	christopher.cazzonelli@anu.edu.au		
+Person Phone	02-61252663		
+Person Fax	02-61250313		
+Person Affiliation	Australian National University		
+Person Address	"Building 41 Linnaus Way, Canberra, ACT, 0200, Australia"		
+Person Roles	submitter		
+Person Roles Term Source REF	MGED Ontology		
+Quality Control Type	spike_quality_control	biological_replicate	
+Public Release Date	2009-10-01		
+Comment[ArrayExpressSubmissionDate]	2008-10-01		
+Protocol Name	P-MTAB-1866	P-MTAB-1867	P-MTAB-1868
+Protocol Description	WT versus ccr1-1 showing all raw data after MAS5 and GCRMA Probe level analysis and filtering for 1.5 Fold Change	"Seeds were sowed to soil in yates seedling trays and placed at 4 degree celcius in the dark for 2-3 days.  After vernalization plants were grown in soil under 16 hr of light per day at an intensity of 100 to 150 umolﾕm2ﾕsec1 at 21 degrees celcius as a standard condition.  Pooled leaf tissues were harvested after 10 days and used for microarray analysis.<br><br><br>(Parameters: time unit = seconds, min temperature = 21, max temperature = 22, temperature unit = C, media = Soil)"	"total RNA was isolated using the RNeasy Plant Mini Protocol (QIAGEN, Clifton Hill, Australia). The quality of the RNA was verified using an Agilent Bioanalyzer (Agilent Technologies, Palo Alto, CA) and spectrophotometric analysis to determine concentration and the A260 to A280 ratio.<br>(Parameters: Extracted product = total_RNA, Amplification = none)"
+Protocol Type	bioassay_data_transformation	grow	nucleic_acid_extraction
+Protocol Term Source REF	MGED Ontology	MGED Ontology	MGED Ontology
+Term Source Name	MGED Ontology	EFO	
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo	
+SDRF File	E-MEXP-1787.sdrf.txt		

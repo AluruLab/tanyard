@@ -1,0 +1,52 @@
+Investigation Title	Transcription profiling of Arabidopsis plants grown under diurnal or circadian conditions									
+Comment[Submitted Name]	Espinoza_Diurnal_Circadian_time_series									
+Experimental Design	time_series_design	growth_condition_design	co-expression_design	replicate_design	transcription profiling by array					
+Experimental Design Term Source REF	The MGED Ontology	The MGED Ontology	The MGED Ontology	The MGED Ontology	EFO					
+Comment[AEExperimentType]	transcription profiling by array									
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis grown in either a light/dark cycle or continuous light									
+Comment[SecondaryAccession]										
+Comment[ArrayExpressReleaseDate]	2010-12-20									
+Comment[AEMIAMESCORE]	5									
+Comment[ArrayExpressAccession]	E-MEXP-2526									
+Comment[MAGETAB TimeStamp_Version]	2010-08-10 13:50:22 Last Changed Rev: 13058									
+Experimental Factor Name	TIME	GROWTH CONDITION	TEMPERATURE							
+Experimental Factor Type	time	growth_condition	temperature							
+Experimental Factor Term Source REF										
+Person Last Name	Espinoza									
+Person First Name	Carmen									
+Person Mid Initials										
+Person Email	espinoza@mpimp-golm.mpg.de									
+Person Phone	+49 (0)331 567 8253									
+Person Fax										
+Person Address	Central Infrastructure Group Transcript Profiling, Am Mühlenberg 1, Potsdam, Brandenburg, D-14476, Germany									
+Person Affiliation	Max-Planck-Institute of Molecular Plant Physiology									
+Person Roles	submitter									
+Person Roles Term Source REF	The MGED Ontology									
+Quality Control Type										
+Quality Control Term Source REF										
+Replicate Type										
+Replicate Term Source REF										
+Normalization Type										
+Normalization Term Source REF										
+Date of Experiment										
+Public Release Date	2010-12-20									
+PubMed ID	21124901									
+Publication DOI	10.1371/journal.pone.0014101									
+Publication Author List	Espinoza C, Degenkolbe T, Caldana C, Zuther E, Leisse A, Willmitzer L, Hincha DK, Hannah MA.									
+Publication Title	Interaction with diurnal and circadian regulation results in dynamic metabolic and transcriptional changes during cold acclimation in Arabidopsis									
+Publication Status	published									
+Publication Status Term Source REF	EFO									
+Publication Status Term Accession Number	EFO_0001796									
+Experiment Description	Transcript profiling was performed on samples derived from plants grown under long day conditions. Time series were harvested under diurnal (L/D; light/dark cycles) at control temperature (20 C) and cold (4 C); and under circadian conditions (L/L; continuous light) at control temperature (20 C). Leaves were sampled at time 0 and after 2 h (to coincide with light-dark transitions) and then every 4 h until 58 h.									
+Protocol Name	P-MTAB-12076	P-MTAB-12075	P-MTAB-12077	P-MTAB-12072	P-MTAB-12074	P-MTAB-12070	P-MTAB-12071	P-MTAB-12069	P-AFFY-6	P-MTAB-12232
+Protocol Type	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	pool	grow	nucleic_acid_extraction	labeling	hybridization	feature_extraction	bioassay_data_transformation
+Protocol Description	Experiments were started when the rosette was mature (40-45 d after germination) and completed before the inflorescence reached 1 cm. <br><br>Col-0 plants were transferred to long days (16 h light/8 h dark) at a day/night air temperature of 20 C/18 C and 150 umol m-2 s-1 light.<br><br>Treatment was started 14 hours after dawn (ZT14), samples were taken at 0h, 2h, 6h and then every 4 hours.	Experiments were started when the rosette was mature (40-45 d after germination) and completed before the inflorescence reached 1 cm. <br><br>Col-0 plants were transfer to continuous light, at air temperature of 20 C/18 C and 150 umol m-2 s-1 light.<br><br>Treatment was started 14 hours after dawn (ZT14), samples were taken at 0h, 2h, 6h and then every 4 hours.	Experiments were started when the rosette was mature (40-45 d after germination) and completed before the inflorescence reached 1 cm. <br><br>Col-0 plants were transfer to long days (16 h light/8 h dark) at a day/night air temperature of 4 C and 90 umol m-2 s-1 light. <br><br>Treatment was started 14 hours after dawn (ZT14), samples were taken at 0h, 2h, 6h and then every 4 hours.	Five biological replicates at each timepoint were pooled before RNA extraction	Arabidopsis thaliana accession Columbia (Col-0) was initially grown on soil for four weeks in short days (8 h light/16 h dark) before transfer to long days (16 h light/8 h dark) at a day/night air temperature of 20 C/18 C and 150 umol m-2 s-1 light. Experiments were started when the rosette was mature (40-45 d after germination) and completed before the inflorescence reached 1 cm. <br>(Parameters: start time = 0, stop time = 6, time unit = weeks, min temperature = 18, max temperature = 20, temperature unit = C, media = soil)	RNA extraction was performed with the RNeasy kit (Qiagen, http://www.qiagen.com). <br><br>aRNA was synthesized with the MessageAmp II-Biotin Enhanced Amplification Kit (Ambion, http://www.ambion.com) using 1 µg total RNA and 7h in vitro transcription.<br>(Parameters: Extracted product = total_RNA, Amplification = OTHER: aRNA)	aRNA was labeled with biotin using the MessageAmp II-Biotin Enhanced Amplification Kit (Ambion, http://www.ambion.com, starting from 1 µg total RNA and 7h in vitro transcription<br>(Parameters: Amount of nucleic acid labeled = 1, Amplification = OTHER: aRNA, Mass unit = Micro gram)	Labeled aRNA was hybridized to Affymetrix ATH1 Genome arrays (ATH1) at ATLAS Biolabs (Berlin, Germany).<br>(Parameters: Chamber type = OTHER: hybridization performed at ATLAS Biolabs (Berlin, Germany), Quantity of label target used = 20, Mass unit = Micro gram, Tiny time unit = seconds, Volume unit = Nano litre, temperature = 45)	Title: Affymetrix CEL analysis. Description: 	The GCRMA algorithm was used to obtain expression estimates, based on Wu et al.,  J Am Stat Assoc, 99, 909-917 (2004)
+Protocol Parameters										
+Protocol Hardware										
+Protocol Software									MicroArraySuite 5.0	
+Protocol Contact										
+Protocol Term Source REF				The MGED Ontology						The MGED Ontology
+SDRF File	E-MEXP-2526.sdrf.txt									
+Term Source Name	NCBI Taxonomy	The MGED Ontology	ArrayExpress	The MGED Ontology	EFO					
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/					
+Term Source Version										

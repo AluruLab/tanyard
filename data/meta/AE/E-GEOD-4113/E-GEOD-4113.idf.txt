@@ -1,0 +1,52 @@
+Investigation Title	Arabidopsis plants with altered levels of alternative oxidase						
+Comment[Submitted Name]	Arabidopsis plants with altered levels of alternative oxidase						
+Comment[AEExperimentDisplayName]	Arabidopsis plants with altered levels of alternative oxidase						
+Comment[AEExperimentType]	transcription profiling by array						
+Experimental Design	co-expression_design	genetic_modification_design	transcription profiling by array				
+Experimental Design Term Source REF	mo	mo	EFO				
+Comment[ArrayExpressReleaseDate]	2007-06-28						
+Comment[SecondaryAccession]	GSE4113						
+Comment[AEMIAMESCORE]	5						
+Comment[SecondaryAccession]	GDS1694						
+Comment[ArrayExpressAccession]	E-GEOD-4113						
+Comment[MAGETAB TimeStamp_Version]	2010-08-05 13:20:59 Last Changed Rev: 13058						
+Experimental Factor Name	genotype						
+Experimental Factor Type	genotype						
+Experimental Factor Term Source REF							
+Person Last Name	Yu						
+Person First Name	Jianping						
+Person Mid Initials							
+Person Email	yujianpi@msu.edu						
+Person Phone							
+Person Fax							
+Person Address	"Plant Research Laboratory,Michigan State University,Michigan State University,East Lansing,48824,USA"						
+Person Affiliation	Michigan State University						
+Person Roles	submitter						
+Person Roles Term Source REF	The MGED Ontology						
+Quality Control Type							
+Quality Control Term Source REF							
+Replicate Type							
+Replicate Term Source REF							
+Normalization Type							
+Normalization Term Source REF							
+Date of Experiment							
+Public Release Date	2007-06-28						
+PubMed ID							
+Publication DOI							
+Publication Author List							
+Publication Title							
+Publication Status							
+Publication Status Term Source REF							
+Experiment Description	"In higher plants, various developmental and environmental conditions enhance expression of the mitochondrial alternative oxidase (AOX). In this work transgenic Arabidopsis thaliana plants were generated that either overexpress AOX or inhibit its synthesis. Gene expression following antimycin A treatment, which inhibits the cytochrome pathway in mitochondria, was studied in an AOX overexpressor line. The role of AOX in regulation of reactive oxygen species (ROS) in leaves was studied in the transgenic lines. The transgenic lines were also used to investigate the mitochondria-chloroplasts interaction in assays performed at three-times growth light. For most of the parameters measured AOX antisense lines and WT plants showed a very similar response whereas AOX sense lines differed in several aspects. An unexpected result was that AOX overexpressors had higher cellular ATP/ADP ratios as compared to WT and antisense lines. This was linked to decreased photosynthetic CO2-assimilation and O2-evolution, closed PSII reaction centers and altered Calvin cycle metabolite contents. We conclude that increased mitochondrial AOX capacity can lead to a drain of electrons from the chloroplasts causing an unfavorable redox status and thereby inhibit photosynthesis."						
+Protocol Name	Affymetrix:Protocol:Hybridization-EukGE-WS2v3	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6				
+Protocol Type	hybridization	hybridization	feature_extraction				
+Protocol Description	Title: Affymetrix EukGE-WS2v3 Hybridization. Description: 	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 				
+Protocol Parameters							
+Protocol Hardware							
+Protocol Software	MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 5.0				
+Protocol Contact							
+Protocol Term Source REF	mo	mo					
+SDRF File	E-GEOD-4113.sdrf.txt						
+Term Source Name	NCBI Taxonomy	po	The MGED Ontology	ArrayExpress	mo	EFO	The MGED Ontology
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://www.plantontology.org	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version							

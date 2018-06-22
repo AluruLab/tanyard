@@ -1,0 +1,52 @@
+Investigation Title	Transcription profiling of Arabidopsis thaliana Ler ecotype developmental series									
+Comment[Submitted Name]	Arabidopsis thaliana Ler developmental series									
+Experimental Design	unknown_experiment_design_type	transcription profiling by array								
+Experimental Design Term Source REF		EFO								
+Comment[AEExperimentType]	transcription profiling by array									
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis leaves and vegetative apices									
+Comment[ArrayExpressReleaseDate]	2008-10-25									
+Comment[SecondaryAccession]	GSE12676									
+Comment[AEMIAMESCORE]	3									
+Comment[ArrayExpressAccession]	E-GEOD-12676									
+Comment[MAGETAB TimeStamp_Version]	2011-01-21 21:45:55 Last Changed Rev: 14857									
+Experimental Factor Name	ORGANISM PART	DEVELOPMENTAL STAGE								
+Experimental Factor Type	organism_part	developmental_stage								
+Experimental Factor Term Source REF										
+Person Last Name	Efroni									
+Person First Name	Idan									
+Person Mid Initials	D.									
+Person Email	idane@weizmann.ac.il									
+Person Phone										
+Person Fax										
+Person Address	Weizmann Institute, Weizmann, Rehovot, 76100, Israel									
+Person Affiliation	Weizmann Institute									
+Person Roles	submitter									
+Person Roles Term Source REF										
+Quality Control Type										
+Quality Control Term Source REF										
+Replicate Type										
+Replicate Term Source REF										
+Normalization Type										
+Normalization Term Source REF										
+Date of Experiment										
+Public Release Date	2008-10-25									
+PubMed ID	18805992									
+Publication DOI	10.1105/tpc.107.057521									
+Publication Author List	Efroni I, Blum E, Goldshmidt A, Eshed Y.									
+Publication Title	A protracted and dynamic maturation schedule underlies Arabidopsis leaf development.									
+Publication Status	published									
+Publication Status Term Source REF	EFO									
+Publication Status Term Accession Number	EFO_0001796									
+Experiment Description	Leaf development has been monitored chiefly by following anatomical markers. Analysis of transcriptome dynamics during leaf maturation revealed multiple expression patterns that rise or fall with age or that display age specific peaks. These were used to formulate a digital differentiation index (DDI), based on a set of selected markers with informative expression during leaf ontogeny. The leaf-based DDI reliably predicted the developmental state of leaf samples from diverse sources and was independent of mitotic cell division transcripts or propensity of the specific cell type. To calibrate and test the DDI a series of Arabidopsis shoot development was used (Efroni et al, 2008) Experiment Overall Design: Four samples from different stages of shoot and leaf development taken from plants grown at short days (10 hours light at 20C), starting from 5 days after sowing (DAS) apices to 35 DAS fully expanded leaves. RNA was hybridized to affymatrix ATH1 arrays and done in duplicates.									
+Protocol Name	P-G12676-1	P-G12676-5	P-G12676-3	P-G12676-7	P-G12676-4	P-G12676-8	P-G12676-2	P-G12676-6	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6
+Protocol Type	grow	grow	nucleic_acid_extraction	nucleic_acid_extraction	nucleic_acid_extraction	nucleic_acid_extraction	labeling	labeling	hybridization	feature_extraction
+Protocol Description	Soil grown at short days	Soil grown in short days	Using qiagen RNAEasy kit, according to manufacturer protocol	RNA extracted with Qiagen RNAEasy kit according to manufacturer protocol	Using qiagen RNAEasy kit, accoriding to manufacturer protocol	RNA extracted using Qiagen RNAEasy kit according to manufacturer protocol	Standard affymetrix protocol	Standard Affymetrix protocol	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 
+Protocol Parameters										
+Protocol Hardware										
+Protocol Software									MicroArraySuite 5.0	MicroArraySuite 5.0
+Protocol Contact										
+Protocol Term Source REF									mo	
+SDRF File	E-GEOD-12676.sdrf.txt									
+Term Source Name	EFO	The MGED Ontology	ArrayExpress	EFO	mo					
+Term Source File	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php					
+Term Source Version										

@@ -1,0 +1,50 @@
+Investigation Title	Transcription profiling time series of Arabidopsis seedlings treated with the cellulose biosynthesis inhibitor isoxaben								
+Comment[Submitted Name]	Somerville Arabidopsis cell wall stress								
+Experimental Design	time_series_design	compound_treatment_design	transcription profiling by array						
+Experimental Design Term Source REF	mo	mo	EFO						
+Comment[AEExperimentType]	transcription profiling by array								
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis after treatment with isoxaben								
+Comment[ArrayExpressReleaseDate]	2008-01-08								
+Comment[AEMIAMESCORE]	4								
+Comment[ArrayExpressAccession]	E-MEXP-711								
+Comment[MAGETAB TimeStamp_Version]	2010-08-11 15:41:05 Last Changed Rev: 13058								
+Experimental Factor Name	sampling time point	compound	dose						
+Experimental Factor Type	sampling_time_point	compound	dose						
+Experimental Factor Term Source REF									
+Person Last Name	hamann								
+Person First Name	thorsten								
+Person Mid Initials									
+Person Email	thamann@stanford.edu								
+Person Phone	16503251521429								
+Person Fax									
+Person Address	260 panama road								
+Person Affiliation	plant biology								
+Person Roles	submitter								
+Person Roles Term Source REF	The MGED Ontology								
+Quality Control Type									
+Quality Control Term Source REF									
+Replicate Type									
+Replicate Term Source REF									
+Normalization Type									
+Normalization Term Source REF									
+Date of Experiment									
+Public Release Date	2008-01-08								
+PubMed ID	19036034								
+Publication DOI	10.1111/j.1365-313X.2008.03744.x								
+Publication Author List	Hamann T, Bennett M, Mansfield J, Somerville C.								
+Publication Title	Identification of cell-wall stress as a hexose-dependent and osmosensitive regulator of plant responses								
+Publication Status	published								
+Publication Status Term Source REF	EFO								
+Experiment Description	We are interested in understanding how plants respond to cell wall stress. The stress is created through inhibition of cellulose biosynthesis. Isoxaben is a drug that inhibits cellulose biosynthesis in a dose dependent manner. We used a concentration of 600 nM isoxaben which should inhibit appr. 80% of cellulose biosynthesis. We performed a time course experiment where seedlings were treated for 36h with isoxaben and in parrallel untreated seedlings were grown. At 8 different timepoints treated and untreated samples were harvested.								
+Protocol Name	P-MEXP-24223	P-MEXP-24224	P-MEXP-24225	P-AFFY-2	Affymetrix:Protocol:Hybridization-[]	Affymetrix:Protocol:Hybridization-EukGE-WS2v4	Affymetrix:Protocol:Hybridization-EukGE-WS2v4[]	P-AFFY-6	Affymetrix:Protocol:ExpressionStat
+Protocol Type	grow	specified_biomaterial_action	nucleic_acid_extraction	labeling	hybridization	hybridization	hybridization	feature_extraction	bioassay_data_transformation
+Protocol Description	For expression profiling experiments 25mg (per flask) of Arabidopsis thaliana ecotype Columbia seeds were surface sterilised with 70% ethanol and 5% calciumhypochloride for 45 minutes,  then cold treated for 3 days at 4º celsius.  They were grown for exactly 6 days in media containing 1% sucrose and 1/2 strength MS and pH adjusted to 5.7 using 1M KOH, on a shaker at 180 rpm under continuous fluorescent light (75µmol m-2s-1).    	At the start of treatment, media in the flasks was exchanged either against fresh media containing 600nM Isoxaben or fresh media without isoxaben. Samples (consisting of the content of one flask) were harvested from treated and untreated material at the following timepoints: 0h, 4h, 8h, 12h, 18h, 20h, 24h, 36h Upon harvest, plant material was washed with dd H2O, dried and frozen in liquid nitrogen.  Samples were stored at -80 degrees celsius until further processing. 	For isolation of total RNA samples were ground to fine powder in liquid nitrogen. Subsequently total RNA was isolated using the Qiagen RNeasy kit by following the kits instructions. 	Title: Affymetrix in vitro transcription. Description: 		Title: Fluidics Station Protocol. Description: 	Title: Affymetrix EukGE-WS2v4 Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	Title: Affymetrix CHP Analysis (ExpressionStat). Description: 
+Protocol Parameters	max temperature;min temperature;stop time;start time;		Amplification;Extracted product;						
+Protocol Hardware									
+Protocol Software					MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 5.0	MicroArraySuite 5.0
+Protocol Contact									
+Protocol Term Source REF							mo		The MGED Ontology
+SDRF File	E-MEXP-711.sdrf.txt								
+Term Source Name	The MGED Ontology		NCBI Taxonomy	tair_dev:1.27	ArrayExpress	mo	EFO	The MGED Ontology	
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php		http://www.ncbi.nlm.nih.gov/Taxonomy/	http://www.arabidopsis.org/info/ontologies/	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version				1.27					

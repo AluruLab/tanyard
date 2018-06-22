@@ -1,0 +1,50 @@
+Investigation Title	Transcription profiling time series of Arabidopsis floral induction pathway mutants following shift from short to long day length	
+Comment[Submitted Name]	Flower development	
+Experimental Design	individual_genetic_characteristics_design	co-expression_design	growth_condition_design	transcription profiling by array	
+Experimental Design Term Source REF		mo	mo	EFO	
+Comment[ArrayExpressReleaseDate]	2007-07-10	
+Comment[SecondaryAccession]	GSE576	
+Comment[AEMIAMESCORE]	4	
+Comment[SecondaryAccession]	GDS453	
+Comment[ArrayExpressAccession]	E-GEOD-576	
+Comment[MAGETAB TimeStamp_Version]	2010-08-06 18:30:03 Last Changed Rev: 13058	
+Experimental Factor Name	Genotype	Ecotype	Time	
+Experimental Factor Type	genotype	ecotype	time	
+Experimental Factor Term Source REF	
+Person Last Name	Schmid	
+Person First Name	Markus	
+Person Mid Initials	
+Person Email	Markus.Schmid@tuebingen.mpg.de	
+Person Phone	
+Person Fax	
+Person Address	Detlef Weigel,Molecular Biology,Max Planck Institute for Developmental Biology,Speemannstrasse 37-39,TÃ¼bingen,72076,Germany	
+Person Affiliation	Max Planck Institute for Developmental Biology	
+Person Roles	submitter	
+Person Roles Term Source REF		
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2007-07-10	
+PubMed ID	14573523	
+Publication DOI	14573523	
+Publication Author List	Markus Schmid,N Henriette Uhlenhaut,Francois Godard,Monika Demar,Ray Bressan,Detlef Weigel,Jan U Lohmann	
+Publication Title	Dissection of floral induction pathways using global expression analysis.	
+Publication Status	journal_article	
+Publication Status Term Source REF	The MGED Ontology	
+Experiment Description	Wild type and mutanat Arabiposis plants grown in short days (9L:15D) for 30 days at 21Â°C, then shifted to long days (16L:8D).,Genotypes:,Columbia wild type (Col-0),Landsberg erecta (Ler),leafy-12 (lfy-12, in Col-0),constans-2 (co-2, in Ler),flowering locus T-2 (ft-2, in Ler),Time points:,0, 3, 5, and 7 days after shift to long days	
+Protocol Name	
+Protocol Type	
+Protocol Description	
+Protocol Parameters	
+Protocol Hardware	
+Protocol Software	
+Protocol Contact	
+Protocol Term Source REF	
+SDRF File	E-GEOD-576.sdrf.txt	
+Term Source Name		mo	NCBI Taxonomy	The MGED Ontology	ArrayExpress	mo	EFO	The MGED Ontology	
+Term Source File		http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version									

@@ -1,0 +1,58 @@
+Comment[ArrayExpressAccession]	E-GEOD-18960						
+Public Release Date	2009-11-11						
+Investigation Title	Gene expression changes in Arabidopsis thaliana treated with Myzus persicae saliva						
+Comment[Submitted Name]	Gene expression changes in Arabidopsis thaliana treated with Myzus persicae saliva						
+Experiment Description	Reference: De Vos and Jander, 2009 - Plant, Cell, and Environment  Aim: Identification of genes responding to aphid saliva.  Background: During feeding on phloem sap aphids repeatedly salivate into the sieve element. It is thought that compounds in aphid saliva play a role in sustainable feeding. These compounds may include proteins and small molecules, which can function as virulence factors.  Growth conditions Plants:  Seeds of wild-type Arabidopsis thaliana (Col-0) were obtained from the were kept in 0.1% Phytagar (Invitrogen, Carlsbad, CA) for 24 h at 4°C prior to planting on Cornell mix with Osmocoat fertilizer. Plants were grown in Conviron growth chambers in 20- x 40-cm nursery flats at a photosynthetic photon flux density of 200 mmol m-2 s-1 and a 16-h photoperiod. The temperature in the chambers was 23°C and the relative humidity was 50%. Plants were grown for 3 weeks and used in experiments before flowering. Aphids:  All experiments were conducted with a tobacco-adapted red lineage of M. persicae. Aphids were raised on cabbage (Brassica oleracea) with a 16-h day (150 mmol m-2 s-1 at 24°C) and an 8-h night (19°C) at 50% relative humidity.  Experimental set-up/treatment: Fifty aphids were allowed to feed from 50 µL artificial diet, containing sucrose and amino acids (Kim and Jander, 2007) between two layers of Parafilm. After 24 h, artificial diet from 20 aphids and control (0 aphids) diet cups was collected and infiltrated into leaves of intact Arabidopsis plants using a 1-mL syringe without the needle. Plants for control diet and aphid saliva containing diet were grown in the same pot to allow for a paired comparison. Eighteen leaves (3 leaves from 6 plants) treated with control and aphid saliva containing diet were harvested and immediately frozen in liquid nitrogen. This experiment was repeated 3 times to function as independent biological replicates.  RNA extraction + processing: RNA was extracted using the Qiagen Plant RNeasy kit. RNA quality and quantity was assessed with an Agilent BioAnalyser 2100. Samples were processed by the Cornell Microarray facility. Whole genome gene expression profiling was done using Affymetrix ATH1 GeneChips.  Data analysis: Raw data from the microarrays was normalized at probe-level using gcRMA algorithm. The detection calls (present, marginal, absent) for each probe set was obtained using the GCOS system. Significance of gene expression was determined using the LIMMA (Smyth, 2004) program and raw p values of multiple tests were corrected using False Discovery Rate (FDR). 6 samples were used in this experiment						
+Date of Experiment							
+Term Source Name	EFO						
+Term Source Version							
+Term Source File	http://bar.ebi.ac.uk:8080/trac/browser/branches/curator/ExperimentalFactorOntology/ExFactorInOWL/currentrelease/eforelease/efo.owl						
+Person Last Name	Nottingham Arabidopsis Stock Centre (NASC)	De Vos					
+Person First Name		Martin					
+Person Mid Initials							
+Person Email	affy@arabidopsis.info						
+Person Affiliation	Nottingham Arabidopsis Stock Centre (NASC)						
+Person Phone	+44 (0)115 951 3237						
+Person Fax	+44 (0)115 951 3297						
+Person Address	School of Biosciences, University of Nottingham, Nottingham Arabidopsis Stock Centre (NASC), Sutton Bonington Campus, Loughborough, United Kingdom						
+Person Roles	submitter						
+Person Roles Term Source REF							
+Person Roles Term Accession Number							
+Normalization Type							
+Normalization Term Accession Number							
+Normalization Term Source REF							
+Replicate Type							
+Replicate Term Accession Number							
+Replicate Term Source REF							
+Experimental Design							
+Experimental Design Term Accession Number							
+Experimental Design Term Source REF							
+Quality Control Type							
+Quality Control Term Accession Number							
+Quality Control Term Source REF							
+Protocol Name	P-GSE18960-1	P-GSE18960-6	P-GSE18960-5	P-GSE18960-3	P-GSE18960-2	P-GSE18960-4	P-GSE18960-7
+Protocol Description	ID_REF = <br>VALUE = Signal<br>ABS_CALL = flag<br>DETECTION P-VALUE = flag	Scanned according to guidelines set out by Affymetrix, Santa Clara, CA.	Biotin Labelled cRNA using &quot;Affymetrix GeneChip Hybridization, Wash and Stain Kit&quot;, according to guidelines set out by Affymetrix, Santa Clara, CA	Qiagen RNAeasy kit protocol	Seeds of wild-type Arabidopsis (Arabidopsis thaliana) land race Columbia-0 (Col-0) were obtained from the Arabidopsis Biological Resource Center. Seeds were kept in 0.1% Phytagar (Invitrogen, Carlsbad, CA) for 24 h at 4°C prior to planting on Cornell mix (Landry, Chapple & Last, 1995) with Osmocoat fertilizer (Scotts). Plants were grown in Conviron growth chambers in 20- x 40-cm nursery flats at a photosynthetic photon flux density of 200 mmol m-2 s-1 and a 16-h photoperiod. The temperature in the chambers was 23°C and the relative humidity was 50%. Plants were grown for 3 weeks and used in experiments before flowering.	Labelled using protocol described in Affymetrix manual &quot;3' IVT Express Kit User Manual&quot;	Raw data from the microarrays was normalized at probe-level using MAS5 algorithm. The detection calls (present, marginal, absent) for each probe set was obtained using the GCOS system. Significance of gene expression was determined using the LIMMA (Smyth, 2004) program and raw p values of multiple tests were corrected using False Discovery Rate (FDR).
+Protocol Software							
+Protocol Hardware							
+Protocol Contact							
+Protocol Type	bioassay_data_transformation	image_aquisition	hybridization	nucleic_acid_extraction	grow	labeling	feature_extraction
+Protocol Term Source REF							
+Protocol Term Accession Number							
+Experimental Factor Name	REPLICATE	TREATMENT					
+Experimental Factor Type	replicate	treatment					
+Experimental Factor Term Source REF							
+Experimental Factor Term Accession Number							
+Publication Title							
+Publication Author List							
+PubMed ID							
+Publication DOI							
+Publication Status							
+Publication Status Term Source REF							
+Publication Status Term Accession Number							
+Comment[SecondaryAccession]	GSE18960						
+Comment[GEOLastUpdateDate]	2011-03-01						
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis after treatment with the saliva of Myzus persicae						
+Comment[AEExperimentType]	transcription profiling by array						
+Comment[GEOReleaseDate]	2009-11-12						
+Comment[ArrayExpressSubmissionDate]	2009-11-10						
+SDRF File	E-GEOD-18960.sdrf.txt						

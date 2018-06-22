@@ -1,0 +1,51 @@
+Investigation Title	Functional Genomics of Ozone Stress in Arabidopsis.				
+Comment[Submitted Name]	Functional Genomics of Ozone Stress in Arabidopsis.				
+Experimental Design	transcription profiling by array				
+Experimental Design Term Source REF	EFO				
+Comment[AEExperimentType]	transcription profiling by array				
+Comment[AEExperimentDisplayName]	Functional Genomics of Ozone Stress in Arabidopsis.				
+Comment[AEMIAMESCORE]	4				
+Comment[ArrayExpressReleaseDate]	2008-06-14				
+Comment[SecondaryAccession]	GSE5722				
+Comment[ArrayExpressAccession]	E-GEOD-5722				
+Comment[MAGETAB TimeStamp_Version]	2010-08-06 17:21:44 Last Changed Rev: 13058				
+Experimental Factor Name	growth condition				
+Experimental Factor Type	growth condition				
+Experimental Factor Term Source REF					
+Person Last Name	(NASC)				
+Person First Name	Nottingham Arabidopsis Stock Centre				
+Person Mid Initials					
+Person Email	affy@arabidopsis.info				
+Person Phone					
+Person Fax					
+Person Address	"School of Biosciences, University of Nottingham, Nottingham Arabidopsis Stock Centre (NASC), Sutton Bonington Campus, Loughborough, LE12 5RD, United Kingdom"				
+Person Affiliation	Nottingham Arabidopsis Stock Centre (NASC)				
+Person Roles	submitter				
+Person Roles Term Source REF					
+Quality Control Type					
+Quality Control Term Source REF					
+Replicate Type					
+Replicate Term Source REF					
+Normalization Type					
+Normalization Term Source REF					
+Date of Experiment					
+Public Release Date	2008-06-14				
+PubMed ID					
+Publication DOI					
+Publication Author List					
+Publication Title					
+Publication Status					
+Publication Status Term Source REF					
+Experiment Description	"Ozone is known to induce gene expression in plants. The roles of the induced genes and the molecular basis for the induction however largely remain to be elucidated. We will expose 2 week-old Arabidopsis seedlings to 200 ppb ozone for 1 h. RNA will be extracted from control and ozone-fumigated seedlings 3 h following the end of the fumigation period. The induction of the known anti-oxidant enzyme GST will be confirmed prior to submission of the RNA samples to GARNet. Changes in gene expression will be assessed by hybridising microarrays with fluorescently labelled cDNA prepared from control and ozone-fumigated seedlings. The role of selected genes will be inferred from their sequence and further established by over expression under the control of the 35S or cell-specific promoters and by searching for mutants among single transposon or T-DNA insertion collections. Plants will be analysed on the basis of traits that are known to be affected by ozone including growth, flowering and stomatal responses. In addition, the ozone calcium signature we have reported previously (Clayton et al.1999) will be studied by crossing transgenic or mutant plants with apoaequorin or yellow cameleon 2.1-transformed plants. Experimenter name = Eleri Short; Experimenter phone = 01524 593929; Experimenter fax = 01524 843854; Experimenter department = Department of Biological Sciences; Experimenter institute = Lancaster University; Experimenter address = Department of Biological Sciences; Experimenter address = Lancaster University; Experimenter address = Lancaster; Experimenter zip/postal_code = LA1 4YQ; Experimenter country = UK Experiment Overall Design: 6 samples were used in this experiment"				
+Protocol Name	P-G5722-1	P-G5722-2	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6	
+Protocol Type	specified_biomaterial_action	specified_biomaterial_action	hybridization	feature_extraction	
+Protocol Description	Fumigation with 500ppb Ozone for 6 hours from 10.30am in sealed chambers inside the growth cabinet. Flow rate was 910ml/min. The ozone was bubbled through water before entering fumigation chambers to humidify the gas. Seelings were fumigated in their growth plates and extracted immediately after fumigation.	Fumigation with scrubbed air (filtered through charcoal and purafill)  for 6 hours from 10.30am in sealed chambers inside the growth cabinet. Flow rate was 910ml/min. The air was bubbled through water before entering fumigation chambers to humidify the gas. Seelings were fumigated in their growth plates and RNA extracted immediately after fumigation.	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 	
+Protocol Parameters					
+Protocol Hardware					
+Protocol Software			MicroArraySuite 5.0	MicroArraySuite 5.0	
+Protocol Contact					
+Protocol Term Source REF			mo		
+SDRF File	E-GEOD-5722.sdrf.txt				
+Term Source Name	NCBI Taxonomy	The MGED Ontology	ArrayExpress	EFO	mo
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php
+Term Source Version					

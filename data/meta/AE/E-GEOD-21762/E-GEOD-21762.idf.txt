@@ -1,0 +1,50 @@
+Investigation Title	Microarray analysis of cross-talks between Jasmonate acid and ethylene signaling in Arabidopsis seedlings	
+Comment[Submitted Name]	Microarray analysis of cross-talks between Jasmonate acid and ethylene signaling in Arabidopsis seedlings	
+Experimental Design	transcription profiling by array	
+Experimental Design Term Source REF	EFO	
+Comment[AEMIAMESCORE]	4	
+Comment[SecondaryAccession]		
+Comment[SecondaryAccession]	GSE21762	
+Comment[ArrayExpressReleaseDate]	2010-05-28	
+Comment[ArrayExpressAccession]	E-GEOD-21762	
+Comment[MAGETAB TimeStamp_Version]	2010-08-04 06:58:43 Last Changed Rev: 13058	
+Experimental Factor Name	GENOTYPE	AGENT	
+Experimental Factor Type	genotype	agent	
+Experimental Factor Term Source REF	
+Person Last Name	Guo	Jiang	Zhu	
+Person First Name	Hongwei	Zhiqiang	Ziqiang	
+Person Mid Initials	
+Person Email	hongweig@pku.edu.cn	
+Person Phone	
+Person Fax	
+Person Address	College of life sciences, Peking University, No.5 Yiheyuan Road, Peking, P.R.China	
+Person Affiliation	Peking University	
+Person Roles	submitter	
+Person Roles Term Source REF	The MGED Ontology	
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2010-05-28	
+PubMed ID	
+Publication DOI	
+Publication Author List	
+Publication Title	
+Publication Status	
+Publication Status Term Source REF	
+Experiment Description	Jasmonate and ethylene are two important plant hormones contributing plant resistance to biotic stresses synergistically. Our experimental results showed that two ethylene activated transcription factors (EIN3/EIL1) integrated both jasmonate and ethylene signaling in multiple developmental and defense events. To understand the importance of EIN3/EIL1 in jasmonate signaling, we utilized microarray analysis to identify how much the jasmonate regulated genes are governed by EIN3/EIL1. Our results indicated that EIN3/EIL1 act sequentially in a cascade of transcriptional regulation initiated by jasmonate. Compare the JA regulated genes in Col-0, coi1-2 and ein3 eil1 to identify how much transcripts are dependent on COI1 or EIN3/EIL1	
+Protocol Name	P-GSE21762-2	P-GSE21762-3	P-GSE21762-4	P-GSE21762-5	P-GSE21762-6	P-GSE21762-7	P-GSE21762-8	P-GSE21762-1	
+Protocol Type	specified_biomaterial_action	grow	nucleic_acid_extraction	labeling	hybridization	image_aquisition	feature_extraction	bioassay_data_transformation	
+Protocol Description	7-day-old seedlings were treated with 100 uM MeJA or Mock (EtOH) for 4 hr	Seedlings were grown under long-day and 23 C on MS media	total RNA was extracted by Trizol method and was performed according to the manufacturer's instructions.	Biotinylated total RNA were prepared according to the standard Affymetrix protocol from 100ng total RNA (GeneChipÂ® Whole Transcript Sense Target Labeling Assay Manual).	This procedure used GeneChipÂ® hybridization, wash, and stain kit, three heating blocks are used: one at 65C, one at 99C, and the  third one at 45C	GeneChips were scanned using The GeneChipÂ® Scanner 3000 7G, and is controlled by GeneChipÂ® Operating Software (GCOS).	By using Expression Console software from Affymetrix performed RMA analysis and got QC report. *.CEL files as input in RMA method and by using Partek GS 6.4 software got RMA Data. Then ANOVA analysis was performed based on RMA Data.	ID_REF = <br>VALUE = RMA normalized signal	
+Protocol Parameters	
+Protocol Hardware	
+Protocol Software	
+Protocol Contact	
+Protocol Term Source REF							The MGED Ontology	The MGED Ontology	
+SDRF File	E-GEOD-21762.sdrf.txt	
+Term Source Name	The MGED Ontology		ArrayExpress	EFO	The MGED Ontology	
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php		http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	
+Term Source Version						

@@ -1,0 +1,58 @@
+Comment[ArrayExpressAccession]	E-GEOD-30492							
+Public Release Date	2011-07-31							
+Investigation Title	Transcriptomic characterization of a synergistic genetic interaction during carpel margin meristem development							
+Comment[Submitted Name]	Transcriptomic characterization of a synergistic genetic interaction during carpel margin meristem development							
+Experiment Description	We are interested in examining the transcriptional hierarchies that are required for proper formation and function of the carpel margin meristem in Arabidopsis thaliana. The carpel margin meristem (CMM) gives rise to the ovule primorida (which begin to form around flower stage 8).  We know that the loss of the seuss-3 (seu-3) and aintegumenta-1(ant-1) separately leads to a mild disruption of ovule formation, while the loss of both causes a complete loss of ovule formation. In this study we wanted to examine expression levels changed between each single mutant and the double mutant. We dissected out stage 8-10 carpel of each of the four genotypes (seu-3, ant-1, Col-0, seu-3 ant-1) pooling 15-25 carpels into one biological replicate. Then using 16 ATH1 arrays we hybridized, amplified and labeled cDNA to 16 arrays (4 replicates for each genotype). We then analyzed our data to reveal transcripts that went down in the double compared to either single mutant, and transcripts that went down more than additively in the double mutant compared to added level of the decrease of the single mutant levels. 16 arrays: 4 seuss-3, 4 aintegumenta-1, 4 Col-0, 4 seuss-3 aintegumenta-1.  Each biological replicate was a sample of 15-25 pooled stage 8-10 carpels manually dissected by hand.							
+Date of Experiment								
+Term Source Name	EFO							
+Term Source Version								
+Term Source File	http://www.ebi.ac.uk/efo/efo.owl							
+Person Last Name	Wynn	Wynn	Franks					
+Person First Name	April 	April	Robert					
+Person Mid Initials	N	N	G					
+Person Email	anwynn2@ncsu.edu							
+Person Affiliation	NC State University 							
+Person Phone	919-513-0462							
+Person Fax								
+Person Address	Genetics, NC State University , Campus Box 7614, Raleigh, NC, USA							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Person Roles Term Accession Number								
+Normalization Type								
+Normalization Term Accession Number								
+Normalization Term Source REF								
+Replicate Type								
+Replicate Term Accession Number								
+Replicate Term Source REF								
+Experimental Design								
+Experimental Design Term Accession Number								
+Experimental Design Term Source REF								
+Quality Control Type								
+Quality Control Term Accession Number								
+Quality Control Term Source REF								
+Protocol Name	P-GSE30492-1	P-GSE30492-6	P-GSE30492-3	P-GSE30492-8	P-GSE30492-7	P-GSE30492-2	P-GSE30492-4	P-GSE30492-5
+Protocol Description	ID_REF = <br>VALUE = Signal<br>ABS_CALL = indicating whether the transcript was present (P), absent (A), or marginal (M)<br>DETECTION P-VALUE = 	The hybridization cocktail was denatured at 99°C for 5 minutes, incubated at 45°C for 5 minutes and then injected into a GeneChip cartridge which was incubated at 45°C for at least 16 hours in a rotating oven at 60 rpm.  GeneChips were washed and stained using a Fluidics station 450 using protocol: EukGE-WS2v4_450. Samples processed by Expression Analysis (Durham, NC).	Plants were grown with long days (16 hrs) at 24 degrees C and randomized within the growth chamber.	The CHP files were generated in AGCC using the MAS 5.0 algorithm with a global scaling of 500. Samples were processed by Expression Analysis (Durham, NC).	Hardware: Affymetrix GC3000 scanner with 7G upgrade, Factory PMT settings. Software: AGCC version 3.1.1, CHP files were scaled using a target intensity of 500. Samples processed by Expression Analysis (Durham, NC).	All inforescence apices were collected from shoots that had produced between 10-20 mature (post anthesis) flowers below the inflorescenece apex.  Shoots younger or older than this were not used . Inforescence apices were collected and placed immediately in 100% ice-cold ethanol, then stored in ethanol at -20 degrees C until ready for dissection. Dissections of the inflorescence apices were completed within 6 days. Carpels/gynoecia from floral stages 8-10 were pooled with 15-25 gynoecia serving as one biological replicate.	Total RNA was extracted using the RNeasy Plant Mini Kit from Qiagen. Amplification, labeling, and fragmenting of the cDNA was carried out according to GeneChip 3' IVT Express Kit instructions from Affymetrix.	Amplification, labelling, and fragmenting of the cDNA was carried out according to GeneChip 3' IVT Express Kit instructions from Affymetrix.
+Protocol Software								
+Protocol Hardware								
+Protocol Contact								
+Protocol Type	bioassay_data_transformation	hybridization	grow	feature_extraction	image_acquisition	specified_biomaterial_action	nucleic_acid_extraction	labelling
+Protocol Term Source REF								
+Protocol Term Accession Number								
+Experimental Factor Name	genotype							
+Experimental Factor Type	genotype							
+Experimental Factor Term Source REF								
+Experimental Factor Term Accession Number								
+Publication Title	Transcriptomic characterization of a synergistic genetic interaction during carpel margin meristem development in Arabidopsis thaliana							
+Publication Author List	Wynn AN, Rueschhoff EE, Franks RG.							
+PubMed ID	22031826							
+Publication DOI	10.1371/journal.pone.0026231							
+Publication Status	published							
+Publication Status Term Source REF	EFO							
+Publication Status Term Accession Number	EFO_0001796							
+Comment[SecondaryAccession]	GSE30492							
+Comment[GEOLastUpdateDate]	2011-07-31							
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis mutant for seuss and/or aintegumenta							
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[GEOReleaseDate]	2011-07-30							
+Comment[ArrayExpressSubmissionDate]	2011-07-06							
+SDRF File	E-GEOD-30492.sdrf.txt							

@@ -1,0 +1,51 @@
+Investigation Title	Transcription profiling of Arabidopsis response to sulfate limitation - AtGeneExpress												
+Comment[Submitted Name]	AtGenExpress: Response to sulfate limitation												
+Experimental Design	unknown_experiment_design_type	transcription profiling by array											
+Experimental Design Term Source REF		EFO											
+Comment[AEExperimentType]	transcription profiling by array												
+Comment[AEExperimentDisplayName]	Transcription profiling by array of Arabidopsis after growth in medium lacking sulphate												
+Comment[AEMIAMESCORE]	3												
+Comment[ArrayExpressReleaseDate]	2008-06-14												
+Comment[SecondaryAccession]	GSE5688												
+Comment[ArrayExpressAccession]	E-GEOD-5688												
+Comment[MAGETAB TimeStamp_Version]	2010-10-14 13:58:11 Last Changed Rev: 14677												
+Experimental Factor Name	GROWTH CONDITION	TREATMENT TIME											
+Experimental Factor Type	growth_condition	time											
+Experimental Factor Term Source REF													
+Person Last Name	(NASC)												
+Person First Name	Nottingham Arabidopsis Stock Centre												
+Person Mid Initials													
+Person Email	affy@arabidopsis.info												
+Person Phone													
+Person Fax													
+Person Address	School of Biosciences, University of Nottingham, Nottingham Arabidopsis Stock Centre (NASC), Sutton Bonington Campus, Loughborough, LE12 5RD, United Kingdom												
+Person Affiliation	Nottingham Arabidopsis Stock Centre (NASC)												
+Person Roles	submitter												
+Person Roles Term Source REF	The MGED Ontology												
+Quality Control Type													
+Quality Control Term Source REF													
+Replicate Type													
+Replicate Term Source REF													
+Normalization Type													
+Normalization Term Source REF													
+Date of Experiment													
+Public Release Date	2008-06-14												
+PubMed ID													
+Publication DOI													
+Publication Author List													
+Publication Title													
+Publication Status													
+Publication Status Term Source REF													
+Experiment Description	AtGenExpress:  A multinational coordinated effort to uncover the transcriptome of the multicellular model organism Arabidopsis thaliana; The activity of genes and their encoded products can be regulated in several ways, but transcription is the primary level, since all other modes of regulation (RNA splicing, RNA and protein stability, etc.) are dependent on a gene being transcribed in the first place. The importance of transcriptional regulation has been underscored by the recent flood of global expression analyses, which have confirmed that transcriptional co-regulation of genes that act together is the norm, not the exception. Moreover, many studies suggest that evolutionary change is driven in large part by modifications of transcriptional programs. An essential first step toward deciphering the transcriptional code is to determine the expression pattern of all genes. With this goal in mind, an international effort to develop a gene expression atlas of Arabidopsis has been underway since fall 2003. This project, dubbed AtGenExpress, is funded by the DFG, and will provide the Arabidopsis community with access to a large set of Affymetrix microarray data. As part of this collaboration, we have generated expression data from 80 biologicaly different samples in triplicate. This experiment studies the effect of sulfate limitation in the roots of 10-day-old Arabidopsis seedlings from Columbia-0 ecotype; Experimenter name = Akiko Maruyama  , Hideki Takahashi; Experimenter institute = AtGenExpress Experiment Overall Design: 22 samples were used in this experiment												
+Protocol Name	P-G5688-1	P-G5688-6	P-G5688-4	P-G5688-8	P-G5688-2	P-G5688-11	P-G5688-10	P-G5688-5	P-G5688-9	P-G5688-7	P-G5688-3	Affymetrix:Protocol:Hybridization-Unknown	P-AFFY-6
+Protocol Type	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	hybridization	feature_extraction
+Protocol Description	Transferred to the MGRL agar medium containing 0uM sulfate for 12 hr	No treatment	Transferred to the MGRL agar medium containing 0uM sulfate for 4 hr	Transferred to the MGRL agar medium containing 1500uM sulfate for 24 hr	Transferred to the MGRL agar medium containing 0uM sulfate for 24 hr	Transferred to the MGRL agar medium containing 1500uM sulfate for 8 hr	Transferred to the MGRL agar medium containing 1500uM sulfate for 4 hr	Transferred to the MGRL agar medium containing 0uM sulfate for 8 hr	Transferred to the MGRL agar medium containing 1500uM sulfate for 2 hr	Transferred to the MGRL agar medium containing 1500uM sulfate for 12 hr	Transferred to the MGRL agar medium containing 0uM sulfate for 2 hr	Title: Affymetrix Generic Hybridization. Description: 	Title: Affymetrix CEL analysis. Description: 
+Protocol Parameters													
+Protocol Hardware													
+Protocol Software												MicroArraySuite 5.0	MicroArraySuite 5.0
+Protocol Contact													
+Protocol Term Source REF												mo	
+SDRF File	E-GEOD-5688.sdrf.txt												
+Term Source Name	NCBI Taxonomy	The MGED Ontology	ArrayExpress	EFO	The MGED Ontology	mo							
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	http://www.ebi.ac.uk/efo/	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://mged.sourceforge.net/ontologies/MGEDontology.php							
+Term Source Version													
