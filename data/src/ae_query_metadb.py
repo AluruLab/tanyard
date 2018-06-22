@@ -39,17 +39,39 @@ def ae_expt_pubmed(expt_node):
 def ae_expt_organism(expt_node):
     return ";".join(expt_node['organism'])
 
-def ae_sample_name(smnx): return smnx['source']['name']
+def ae_sample_name(smnx):
+    return smnx['source']['name']
 
-def ae_sample_attr_dict(smnx): 
-    return {**{ x['name'] : str(x['value']) for x in smnx['variable']  },
-            **{ x['category'] : x['value'] for x in smnx['characteristic'] }}
+def ae_sample_attr_dict(smnx):
+    var_dict = {}
+    if 'variable' in smnx:
+        var_dict = { x['name'] : str(x['value']) for x in smnx['variable']  }
+    char_dict = {}
+    if 'characteristic' in smnx:
+        char_dict = { x['category'] : x['value'] for x in smnx['characteristic'] }
+    return {**var_dict, **char_dict}
 
 def ae_sample_attrs(sm_attrs):
     return ";".join([ "{}: [{}]".format(x, y) 
                      for x, y in sm_attrs.items() ])
 
-def ae_sample_file(smnx): return ";".join([x['url'] for x in smnx['file']])
+def ae_sample_file(smnx, fxnd):
+    raw_files = ae_raw_files(fxnd)
+    fn_list = []
+    if 'file' in smnx:
+        if len(raw_files) == 1:
+            for x in smnx['file']:
+                try:
+                    if x['type'] == 'data' and x['name'] is not None:
+                        fn_list.append(raw_files[0] + "/" + x['name'])
+                except TypeError:
+                    print(x)
+        if len(fn_list) == 0:
+            for x in smnx['file']:
+                if 'url' in x:
+                    fn_list.append(x['url'])
+    return  ";".join(fn_list)
+
 
 def ae_expts_data(expts_json_file, samples_json_file, files_json_file):
     pp = pprint.PrettyPrinter(indent=4)
@@ -73,23 +95,22 @@ def ae_expts_data(expts_json_file, samples_json_file, files_json_file):
          'SeriesLink' : 'https://www.ebi.ac.uk/arrayexpress/experiments/{}'.format(
             acc_id),
          'SeriesOrganism' :  ae_expt_organism(exnd)}
-    except KeyError as ke:
+    except KeyError as kerr:
         pp.pprint(exnd)
-        raise
+        raise kerr
     for smx in smxnd:
         try:
             sm_attrs = ae_sample_attr_dict(smx)
             smp_data = {'SampleId' :  ae_sample_name(smx),
                         'SampleOrganism' :  sm_attrs['Organism'] if 'Organism' in sm_attrs else '',
                         'SampleAttributes' :  ae_sample_attrs(sm_attrs),
-                        'SampleFile' :  ae_sample_file(smx)}
+                        'SampleFile' :  ae_sample_file(smx, fxnd)}
             expts_data.append({**series_data, **smp_data})
-        except KeyError as ke:
+        except KeyError as kerr:
             print(acc_id)
-            print(ae_raw_files(fxnd))
             pp.pprint(smx)
             pp.pprint(exnd)
-            raise
+            raise kerr
     return expts_data
 
 def main(ae_file, meta_ae_dir, df_out_file):
@@ -105,11 +126,32 @@ def main(ae_file, meta_ae_dir, df_out_file):
            files_json_file_format.format(aeid, aeid)
         ) for aeid in aedf['Accession']]
     pdf = pd.DataFrame([item for sublist in ae_expts_full for item in sublist])
-    pdf.to_csv(df_out_file)
+    sel_cols = [
+         'SeriesId',
+         'SeriesTitle',
+         'SeriesExperimentType',
+         'SeriesDescription',
+         'SeriesSubmissionDate',
+         'SeriesUpdateDate',
+         'SeriesPubMedID',
+         'SeriesLink',
+         'SeriesOrganism',
+         'SampleId',
+         'SampleOrganism',
+         'SampleAttributes',
+         'SampleFile'
+            ]
+    pdf2 = pdf.drop_duplicates()
+    pdf3 = pdf2[sel_cols].sort_values(by=["SeriesId"])   
+
+    pdf3.to_csv(df_out_file)
 
 
 
 
-ae_file = "../tables/AE-ATH1.tsv"
-meta_ae_dir = "../meta/AE/"
+if __name__ == '__main__':
+    ae_file = "../tables/AE-ATH1.tsv"
+    meta_ae_dir = "../meta/AE/"
+    df_out_file = "../tables/AE-META-ATH1.csv"
+    main(ae_file, meta_ae_dir, df_out_file)
 
