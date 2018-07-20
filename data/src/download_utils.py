@@ -42,6 +42,7 @@ def download_ftp_file(ftp_url, local_filename):
     except urllib.error.URLError as uerr:
         if 'No such file or directory' in  uerr.reason:
             return 550
+        print(ftp_url)
         raise
     return 200
 
