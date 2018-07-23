@@ -19,6 +19,7 @@ gen_cel_image_df = function(cel_rdf){
     #lx = purrr::map2(cel_rdf$SampleCEL, cel_rdf$X,
     #        function(x,y) {
     lx = rep("NA", nlen)
+    lfn = rep("NA", nlen)
     for(idx in (1:nlen)){
             x = cel_rdf$SampleCEL[idx]
             y = cel_rdf$X[idx]
@@ -27,6 +28,7 @@ gen_cel_image_df = function(cel_rdf){
             px1 = str_replace(celfn, '.cel.gz', '.pdf');
             px2 = str_replace(px1, '.cel', '.pdf') ;
             rx = "NA"
+            lfn[idx] = px2
             if(file.exists(px2)){
                rx = "PDF FILE EXISTS";
                cat(rowid, ",IN,", celfn, ",OUT,", rx, "\n", sep="");
@@ -50,7 +52,10 @@ gen_cel_image_df = function(cel_rdf){
                      cat(rx, "\n");
                      lx[idx] = rx
                      next;
+                   } else {
+                     rx = "CONVERTED"
                    } 
+                       
                    cat(rx, "\n");
                    lx[idx] = rx
                } else {
@@ -62,7 +67,7 @@ gen_cel_image_df = function(cel_rdf){
     }
     #)
     #data.frame(RowId = cel_rdf$RowId, CEL = cel_rdf$SampleCEL, PDF = unlist(lx))
-    data.frame(RowId = cel_rdf$RowId, CEL = cel_rdf$SampleCEL, PDF = lx)
+    data.frame(RowId = cel_rdf$RowId, CEL = cel_rdf$SampleCEL, PDF = lfn, STATUS = lx)
 }
 
 gen_cel_image_file = function(in_file, out_file){

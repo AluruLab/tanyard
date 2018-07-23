@@ -4,6 +4,14 @@ import pathlib
 import pandas as pd
 import download_utils as DU
 
+def get_cel_url(url_entry):
+    clist = url_entry.split(';') 
+    for x in clist:
+        if x.lower().endswith('.cel') or x.lower().endswith('cel.gz'):
+           return x.strip()
+    return ""
+
+
 def download_single_cels(celdf, data_dir):
     ae_prefix_url = 'https://www.ebi.ac.uk/arrayexpress/files'
     rowid_lst = []
@@ -13,20 +21,21 @@ def download_single_cels(celdf, data_dir):
     file_lst = []
     rcode_lst = []
     for rid, dfrow in celdf.iterrows():
-        ext_name = ".cel" if dfrow.SampleFile.lower().endswith(".cel") else ".cel.gz"
+        cel_url = get_cel_url(dfrow.SampleFile)
+        ext_name = ".cel" if cel_url.lower().endswith(".cel") else ".cel.gz"
         series_dir = os.path.join(data_dir, dfrow.SeriesId)
         cel_fname = dfrow.SeriesId + "_" + str(dfrow.SampleId) + ext_name
         local_cel_file = os.path.join(series_dir, cel_fname)
-        if dfrow.SampleFile.startswith('ftp') and dfrow.SeriesId.startswith('E-'):
-            fxurl = dfrow.SampleFile
+        if cel_url.startswith('ftp') and dfrow.SeriesId.startswith('E-'):
+            fxurl = cel_url
             file_url = ae_prefix_url + fxurl[DU.third_last_of(fxurl, '/'):]
         else:
-            file_url = dfrow.SampleFile
+            file_url = cel_url
         if pathlib.Path(local_cel_file).is_file():
             rcode = 0
         else:
             DU.make_dir_path(series_dir)
-            rcode = DU.download_file(file_url, local_cel_file)
+            rcode = DU.download_file_wget(file_url, local_cel_file)
         rowid_lst.append(rid)
         series_lst.append(dfrow.SeriesId)
         sample_lst.append(dfrow.SampleId)
@@ -75,7 +84,8 @@ def print_classification(dx):
 
 
 def main(in_file, data_dir, out_status_file):
-    dx = pd.read_csv(in_file)
+    dx = pd.read_csv(in_file, encoding = "ISO-8859-1")
+    print_classification(dx)
     hsdf = dx.loc[DU.has_file, : ]
     vxdf = hsdf.loc[DU.has_no_semicolon, : ]
     ntxdf = vxdf.loc[DU.not_ends_with_text, : ]
