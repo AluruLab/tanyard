@@ -5,6 +5,7 @@ import os
 import os.path
 import argparse
 import requests
+import subprocess
 import pandas as pd
 
 def last_of(in_txt, sub):
@@ -50,6 +51,13 @@ def download_file(url, local_filename):
     if url.startswith('ftp'):
         return download_ftp_file(url, local_filename)
     return download_http_file(url, local_filename)
+
+def download_file_wget(url, local_filename):
+    rx = subprocess.run(["wget", url, "-nv", "-O", local_filename], stdout=subprocess.PIPE)
+    if rx == 0:
+        return 200
+    else:
+        return 550
 
 def starts_with(pdf, attr_id, pfx_txt):
     return pd.Series([True if x.startswith(pfx_txt) else False for x in pdf[attr_id]],
