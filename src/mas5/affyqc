@@ -1,0 +1,8 @@
+#!/bin/bash
+
+for i in $1/CEL/*; do
+    f=`basename $i`
+    echo "*** $f ***"
+    mkdir -p $1/QC/$f
+    Rscript affyqc.R "$1/QC/$f/$f"
+done

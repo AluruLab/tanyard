@@ -1,0 +1,26 @@
+#!/bin/bash
+
+shopt -s extglob
+
+CPU=8
+if [ "$#" -ne 1 ]; then
+csv2exp=/local/zola/tinge-mi/bin/csv2exp
+residuals=/local/zola/tinge-mi/bin/residuals
+fi
+
+if [ "$#" -ne 3 ]; then
+csv2exp=$2
+residuals=$3
+fi
+
+Rscript dirjustrma.R $1/CEL
+
+for i in $1/CEL/*; do
+    f=`basename $i`
+    echo "*** $f ***"
+    $csv2exp $i/$f.csv
+    mpiexec -np $CPU $residuals $i/$f.exp $i/$f.dres
+    Rscript ks.R $i/$f.dres $i/$f.ks
+    mkdir -p $1/QC/$f
+    mv $i/!(*.CEL) $1/QC/$f
+done
