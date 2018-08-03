@@ -1,6 +1,12 @@
 #!/bin/bash
 
+if [ "$#" -lt 1 ]; then
+     echo "Usage: summary <EXP_DIR>"
+     exit 0
+fi
+
 for i in $1/QC/*; do
+    f=`basename $i`
     echo "*** $i ***"
     Rscript summary.R $i
 done
@@ -10,15 +16,15 @@ clear
 totin=0
 tot=0
 
-for i in *; do
-    num=`cat $i/$i.sum | wc -l`
-    tot=$(( $tot + $num ))
-    frac=$(( 2 * $num ))
-    num=`cat $i/$i.ks | wc -l`
-    totin=$(( $totin + $num ))
-    if [ $num -lt $frac ]; then echo $i; fi
+for i in $1/QC/*; do
+    f=`basename $i`
+    nums=`cat $i/$f.sum | wc -l`
+    tot=$(( $tot + $nums ))
+    frac=$(( 2 * $nums ))
+    numk=`cat $i/$f.ks | wc -l`
+    totin=$(( $totin + $numk ))
+    if [ $numk -lt $frac ]; then echo $f; fi
+    echo "$nums out of $numk" > $i/$f.frac
 done
 
-cd ../../
-
-echo "Total $tot/$totin"
+echo "Total $tot/$totin" 

@@ -1,7 +1,6 @@
-#d = Sys.getenv("R_IN")
 
 compute_summary <- function(d){
-    fpx = paste(d,d, sep="/")
+    fpx = paste(d, basename(d), sep="/")
     Rle=read.table(paste(fpx, "rle", sep="."), head=F)
     Nuse=read.table(paste(fpx, "nuse", sep="."), head=F)
     Qc=read.table(paste(fpx, "qc", sep="."), head=F)
