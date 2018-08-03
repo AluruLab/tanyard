@@ -1,27 +1,23 @@
 library(affy)
 
-run_dirjustRMA = funciton(Wd){
-    setwd(Wd)
+run_dirjustRMA <- function(Wd){
 
-    Dirs=dir()
+    Dirs=dir(Wd, full.names=TRUE)
 
     for (d in Dirs) {
-        print(d)
-        setwd(d)
-        outfile=paste(d, "csv", sep=".")
-        Eset=justRMA()
+        outfile=paste(paste(d, basename(d), sep="/"), "csv", sep=".")
+        celfiles=list.celfiles(path=d)
+        print(paste(d, outfile))
+        Eset=justRMA(filenames=celfiles, celfile.path=d)
         D=exprs(Eset)
         D=2^D
         D=round(D, digits=5)
         write.table(D, file=outfile, sep="\t", quote=F)
-        setwd("..")
     }
 }
 
 
 args = commandArgs(trailingOnly=TRUE)
 if(length(args) == 1) {
-    cwx = getwd()
     run_dirjustRMA(args[1])
-    setwd(cwx)
 }

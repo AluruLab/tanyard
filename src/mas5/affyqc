@@ -1,8 +1,13 @@
 #!/bin/bash
 
+if [ "$#" -lt 1 ]; then
+     echo "Usage: affyqc <EXP_DIR>"
+     exit 0
+fi
+
 for i in $1/CEL/*; do
     f=`basename $i`
     echo "*** $f ***"
     mkdir -p $1/QC/$f
-    Rscript affyqc.R "$1/QC/$f/$f"
+    Rscript affyqc.R "$1/QC/$f/$f" $i
 done

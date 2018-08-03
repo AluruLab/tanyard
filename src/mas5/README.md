@@ -2,19 +2,24 @@ TINGe QC Steps:
 ===============
 
 Step 1 - Affymetrix QC
-./affyqc <EXP_DIR>
+
+    ./affyqc <EXP_DIR>
 
 Step 2 - RLE + NUSE
-./plmstat <EXP_DIR>
+
+    ./plmstat <EXP_DIR>
 
 Step 3 - Deleted residuals
-./delres <EXP_DIR>
+
+    ./delres <EXP_DIR>
 
 Step 4 - Summary
-./summary <EXP_DIR>
+
+     ./summary <EXP_DIR>
 
 Step 5 - Report from summary
-./report <EXP_DIR>
+
+    ./report <EXP_DIR>
 
 TINGe Normalization Steps:
 ==========================

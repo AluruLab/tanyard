@@ -49,7 +49,7 @@ if(length(args) == 1){
     run_plmstat(outfile=args[1],
                 celfiles=list.celfiles(full.names=TRUE))
 }
-if(length(args) > 1){
-    run_plmstat(outfile=args[1], celfiles = args[-1])
+if(length(args) == 2){
+    run_plmstat(outfile = args[1],
+                celfiles = list.celfiles(args[2], full.names=TRUE))
 }
-#outfile = Sys.getenv("R_OUT")
