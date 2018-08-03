@@ -31,6 +31,13 @@ def make_dir_path(dir_path):
         if ose.errno != errno.EEXIST:
             raise
 
+
+def copy_file(source_file, dest_file):
+    dest_dir = os.path.dirname(dest_file)
+    make_dir_path(dest_dir)
+    return shutil.copy(source_file, dest_file)
+
+
 def download_http_file(url, local_filename):
     req = requests.get(url, stream=True)
     with open(local_filename, 'wb') as outf:
