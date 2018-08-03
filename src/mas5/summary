@@ -1,0 +1,24 @@
+#!/bin/bash
+
+for i in $1/QC/*; do
+    echo "*** $i ***"
+    Rscript summary.R $i
+done
+
+clear
+
+totin=0
+tot=0
+
+for i in *; do
+    num=`cat $i/$i.sum | wc -l`
+    tot=$(( $tot + $num ))
+    frac=$(( 2 * $num ))
+    num=`cat $i/$i.ks | wc -l`
+    totin=$(( $totin + $num ))
+    if [ $num -lt $frac ]; then echo $i; fi
+done
+
+cd ../../
+
+echo "Total $tot/$totin"
