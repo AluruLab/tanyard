@@ -1,0 +1,31 @@
+#!/bin/bash
+#
+# Author: Jaroslaw Zola <jaroslaw.zola@gmail.com>
+
+if [ "$#" -lt 1 ]; then
+     echo "Usage: ./runqc <EXP_DIR>"
+     exit 0
+fi
+
+EXP_DIR=$1
+
+echo Step 1 - Affymetrix QC
+
+./affyqc $EXP_DIR
+
+echo Step 2 - RLE + NUSE
+
+./plmstat $EXP_DIR
+
+echo Step 3 - Deleted residuals
+
+./delres $EXP_DIR
+
+echo Step 4 - Summary
+
+./summary $EXP_DIR
+
+echo Step 5 - Report from summary
+
+./report $EXP_DIR
+

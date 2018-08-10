@@ -1,4 +1,6 @@
 #!/bin/bash
+#
+# Author: Jaroslaw Zola <jaroslaw.zola@gmail.com>
 
 if [ "$#" -lt 1 ]; then
      echo "Usage: report <EXP_DIR>"

@@ -1,3 +1,16 @@
+Input Data::
+============
+
+Files are organized in the folder structure 
+
+    <EXP_DIR>/CEL/<ACCESS_NAME_DIR>/<CEL_FILES>
+
+QC output is written to the folder
+
+    <EXP_DIR>/QC/<ACCESS_NAME_DIR>/<QC_FILES>
+
+All scripts take the <EXP_DIR> as input
+
 TINGe QC Steps:
 ===============
 

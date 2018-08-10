@@ -1,6 +1,13 @@
 #!/bin/bash
+#
+# Author: Jaroslaw Zola <jaroslaw.zola@gmail.com>
 
 shopt -s extglob
+
+if [ "$#" -lt 1 ]; then
+     echo "Usage: delres <EXP_DIR> [<CSV2EXP_PATH> <RESIDUALS_PATH>]"
+     exit 0
+fi
 
 CPU=8
 if [ "$#" -eq 1 ]; then

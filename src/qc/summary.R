@@ -1,4 +1,7 @@
 
+#
+# Author: Jaroslaw Zola <jaroslaw.zola@gmail.com>
+
 compute_summary <- function(d){
     fpx = paste(d, basename(d), sep="/")
     Rle=read.table(paste(fpx, "rle", sep="."), head=F)

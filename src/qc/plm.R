@@ -1,5 +1,7 @@
-library(affyPLM)
-library(RColorBrewer)
+#
+# Author: Jaroslaw Zola <jaroslaw.zola@gmail.com>
+suppressMessages(library(affyPLM))
+suppressMessages(library(RColorBrewer))
 
 generate_plots <- function(celfiles, outfile) {
     Cols=brewer.pal(12,"Set3")

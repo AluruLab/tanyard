@@ -1,4 +1,6 @@
-library(affy)
+#
+# Author: Jaroslaw Zola <jaroslaw.zola@gmail.com>
+suppressMessages(library(affy))
 
 run_dirjustRMA <- function(Wd){
 

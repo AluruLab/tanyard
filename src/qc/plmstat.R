@@ -1,4 +1,6 @@
-library(affyPLM)
+#
+# Author: Jaroslaw Zola <jaroslaw.zola@gmail.com>
+suppressMessages(library(affyPLM))
 
 run_plmstat = function(outfile, celfiles){
     Cel=ReadAffy(filenames=celfiles)

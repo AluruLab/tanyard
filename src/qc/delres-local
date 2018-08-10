@@ -1,0 +1,30 @@
+#!/bin/bash
+#
+# Author: Jaroslaw Zola <jaroslaw.zola@gmail.com>
+
+shopt -s extglob
+
+CPU=8
+if [ "$#" -eq 1 ]; then
+csv2exp=/local/zola/tinge-mi/bin/csv2exp
+residuals=/local/zola/tinge-mi/bin/residuals
+fi
+
+if [ "$#" -eq 3 ]; then
+csv2exp=$2
+residuals=$3
+fi
+
+#R_OUT=$1.csv R --no-save < ../../../justrma.R
+f=`basename $1`
+$csv2exp $1/$f.csv
+mpiexec -np $CPU $residuals $1/$f.exp $1/$f.dres
+Rscript ks.R $1/$f.dres $1/$f.ks
+mkdir -p $1/../../QC/$f
+#mv !(*.CEL) ../../QC/$1
+mv $1/$f.dres $1/../../QC/$f
+mv $1/$f.ks $1/../../QC/$f
+mv $1/$f.exp $1/../../QC/$f
+mv $1/$f.csv $1/../../QC/$f
+
+#mpdallexit

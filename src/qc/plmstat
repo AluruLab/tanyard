@@ -1,7 +1,9 @@
 #!/bin/bash
+#
+# Author: Jaroslaw Zola <jaroslaw.zola@gmail.com>
 
 if [ "$#" -lt 1 ]; then
-     echo "Usage: ./plmstat <EXP_DIR>"
+     echo "Usage: plmstat <EXP_DIR>"
      exit 0
 fi
 

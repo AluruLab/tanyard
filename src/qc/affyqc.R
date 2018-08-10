@@ -1,5 +1,7 @@
+#
+# Author: Jaroslaw Zola <jaroslaw.zola@gmail.com>
 
-library(simpleaffy)
+suppressMessages(library(simpleaffy))
 
 run_affyqc <- function(outfile, celfiles) {
 

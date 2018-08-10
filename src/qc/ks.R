@@ -1,3 +1,6 @@
+#
+# Author: Jaroslaw Zola <jaroslaw.zola@gmail.com>
+#
 run_kstest <- function(infile, outfile){
     D = read.table(infile, head=TRUE, row.names=1)
 
