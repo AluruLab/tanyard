@@ -1,0 +1,13 @@
+#!/bin/bash
+
+SUFFIX=$2
+
+mkdir -p $1/csv
+for i in $1/FINAL/*; do
+    f = `basename $i`
+    echo "*** $f ***"
+    ln -s $i/$f.$SUFFIX $1/csv/
+done
+
+#R_OUT=$1 R --no-save < ../../csv_combine.R
+Rscript csv_combine.R $1/csv $3

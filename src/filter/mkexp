@@ -1,0 +1,25 @@
+#!/bin/bash
+
+if [ "$#" -lt 1 ]; then
+     echo "Usage: mkexp <EXP_DIR> [<CSV2EXP_PATH> <PROBEID_TXT>]"
+     exit 0
+fi
+
+
+if [ "$#" -eq 1 ]; then
+csv2exp=/local/zola/tinge-mi/bin/csv2exp
+probe2id=/local/.DATA/sysbio/ATH1-Annotation/affy_ATH1_probe-id.txt
+fi
+if [ "$#" -eq 3 ]; then
+csv2exp=$2
+probe2id=$3
+fi
+
+$csv2exp --match --map $probe2id $1
+
+tmp=`mktemp`
+out=`dirname $1`/`basename $1 .csv`
+
+grep -v AFFX $out.exp > $tmp
+./exp-clean-ht $tmp $out.exp > $out.log
+rm $tmp
