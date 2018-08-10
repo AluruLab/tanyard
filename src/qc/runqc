@@ -29,3 +29,6 @@ echo Step 5 - Report from summary
 
 ./report $EXP_DIR
 
+echo Step 6 - Create FINAL DIR and links
+
+./mkfinal $EXP_DIR

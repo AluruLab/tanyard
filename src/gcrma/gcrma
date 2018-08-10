@@ -1,0 +1,17 @@
+#!/bin/bash
+#
+# Author: Jaroslaw Zola <jaroslaw.zola@gmail.com>
+
+if [ "$#" -lt 1 ]; then
+     echo "Usage: mas5 <EXP_DIR>"
+     exit 0
+fi
+
+for i in $1/FINAL/*; do
+    f = `basename $i`
+    echo "*** $f ***"
+    #cd $i
+    #R_OUT=$i.gcrma.csv R --no-save < ../../mas5.R
+    Rscript gcrma.R $i
+    #cd ..
+done

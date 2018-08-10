@@ -1,0 +1,17 @@
+#!/bin/bash
+#
+# Author: Jaroslaw Zola <jaroslaw.zola@gmail.com>
+
+if [ "$#" -lt 1 ]; then
+     echo "Usage: submean <EXP_DIR>"
+     exit 0
+fi
+
+for i in $1/FINAL/*; do
+    f = `basename $i`
+    echo "*** $f ***"
+    #cd $i
+    #R_IN=$i.mas5.csv R_OUT=$i.log2.csv R --no-save < ../../submean2.R
+    Rscript submean.R $i/$f.gcrma.csv $i/$f.gc.log2.csv
+    #cd ..
+done

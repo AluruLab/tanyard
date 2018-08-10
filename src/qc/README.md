@@ -1,15 +1,18 @@
-Input Data::
-============
+Data Organization:
+==================
 
-Files are organized in the folder structure 
+
+Files are organized in the folders 
 
     <EXP_DIR>/CEL/<ACCESS_NAME_DIR>/<CEL_FILES>
 
-QC output is written to the folder
+QC files are in the folder
 
     <EXP_DIR>/QC/<ACCESS_NAME_DIR>/<QC_FILES>
 
-All scripts take the <EXP_DIR> as input
+Final list of files are in the folders(s)
+
+    <EXP_DIR>/FINAL/<ACCESS_NAME_DIR>/<SOFT_LINK_TO_CEL_FILES>
 
 TINGe QC Steps:
 ===============
@@ -34,32 +37,7 @@ Step 5 - Report from summary
 
     ./report <EXP_DIR>
 
-TINGe Normalization Steps:
-==========================
-
 Step 6 - Create links
-./links <EXP_DIR>
 
-Step 7 - MAS-5
-cd .FINAL
-../mas5
+    ./mkfinal <EXP_DIR>
 
-Step 8 - Log2 mean adjustment
-cd .FINAL
-../submean2
-
-Step 9 - Merge into array
-cd .FINAL
-../combine <OUT_CSV>
-
-TINGe IQR Steps:
-==========================
-
-Step 10 - Quantile normalize
-R_IN=<IN_CSV> R_OUT=<OUT_CSV> R < quantile.R
-
-Step 11 - IQR filtering
-R_IN=<IN_CSV> R_OUT=<OUT_CSV> R_IQR=<IQR> R < iqr-filter.R
-
-Step 12 - Expression file generation
-./mkexp <IN_CSV>
