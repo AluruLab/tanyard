@@ -17,5 +17,7 @@ args = commandArgs(trailingOnly=TRUE)
 if(length(args) == 1){
     generate_plots(celfiles=list.celfiles(path=args[1],
                                           full.names=TRUE),
-                   outfile=paste(args[1], "RLE_NUSE.pdf", sep="/"))
+                   outfile=paste(args[1], 
+                           paste(basename(args[1]), "RLE_NUSE.pdf", sep="_"), 
+                         sep="/"))
 }

@@ -13,7 +13,7 @@ for i in $1/QC/*; do
     if [ $num -gt 0 ]; then
 	echo "reporting for $f: $num"
 	Rscript plm.R $1/CEL/$f
-	mv $1/CEL/$f/*.pdf $i
+	mv $1/CEL/$f/${f}_RLE_NUSE.pdf $i
     fi
 done
 
