@@ -9,11 +9,11 @@ fi
 
 for i in $1/QC/*; do
     f=`basename $i`
-    echo "*** $i ***"
+    echo "*** $f : $i ***"
     Rscript summary.R $i
 done
 
-clear
+#clear
 
 totin=0
 tot=0
@@ -29,4 +29,4 @@ for i in $1/QC/*; do
     echo "$nums out of $numk" > $i/$f.frac
 done
 
-echo "Total $tot/$totin" 
+echo Total "$tot/$totin" 
