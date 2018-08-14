@@ -8,8 +8,8 @@ generate_plots <- function(celfiles, outfile) {
     E=ReadAffy(filenames=celfiles)
     Pset=fitPLM(E)
     pdf(outfile, width=20)
-    RLE(Pset, main="Relative Log Expression", col=Cols)
-    NUSE(Pset, main="Normalized Unscaled Standard Errors", col=Cols)
+    RLE(Pset, main="Relative Log Expression", col=Cols, las=2, cex.axis=0.4)
+    NUSE(Pset, main="Normalized Unscaled Standard Errors", col=Cols, las=2, cex.axis=0.4)
     dev.off()
 }
 

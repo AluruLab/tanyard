@@ -7,12 +7,11 @@ rle_densityplot <- function(Wd, outfile, sfx){
     for (d in Dirs) {
       fin=paste(paste(d, basename(d), sep="/"), sfx, sep=".")
       x=read.table(fin, head=F)
-      y=append(y,x[,3])
-      if (max(abs(x[,3])) > 0.5) print(d)
+      y=append(y,x[,2])
+      if (max(abs(x[,2])) > 0.5) print(d)
     }
     trellis.device(device="pdf", file=outfile)
-    densityplot(y, main=paste("Density of IQR of ", sfx, sep=" "),
-                   xlab = paste(sfx, "values"))
+    densityplot(y)
 }
 
 args = commandArgs(trailingOnly=TRUE)
