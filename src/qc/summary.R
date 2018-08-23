@@ -2,12 +2,12 @@
 #
 # Author: Jaroslaw Zola <jaroslaw.zola@gmail.com>
 
-compute_summary <- function(d){
+compute_summary <- function(d, mth = 0.075, ith = 0.75, osfx="sum"){
     fpx = paste(d, basename(d), sep="/")
     Rle=read.table(paste(fpx, "rle", sep="."), head=F)
     Nuse=read.table(paste(fpx, "nuse", sep="."), head=F)
     Qc=read.table(paste(fpx, "qc", sep="."), head=F)
-    Ks=read.table(paste(fpx, "ks", sep="."), head=F)
+    #Ks=read.table(paste(fpx, "ks", sep="."), head=F)
 
     List=list()
     List1=list()
@@ -29,10 +29,10 @@ compute_summary <- function(d){
         Name=as.character(Rle[i,1])
         # if (abs(Rle[i,2]-Mean) > (1.75 * Sd)) List[Name]=Name
         # if (abs(Rle[i,3]-IQR_Mean) > (1.75 * IQR_Sd)) List[Name]=Name
-        if (abs(Rle[i,2]) > 0.075) List[Name]=Name
-        if (abs(Rle[i,3]) > 0.75) List[Name]=Name
-        if (abs(Rle[i,2]) > 0.075) List1[Name]=Name
-        if (abs(Rle[i,3]) > 0.75) List1[Name]=Name
+        if (abs(Rle[i,2]) > mth) List[Name]=Name
+        if (abs(Rle[i,3]) > ith) List[Name]=Name
+        if (abs(Rle[i,2]) > mth) List1[Name]=Name
+        if (abs(Rle[i,3]) > ith) List1[Name]=Name
     }
 
     # NUSE
@@ -47,10 +47,10 @@ compute_summary <- function(d){
         Name=as.character(Rle[i,1])
         # if (abs(Nuse[i,2]-Mean) > (1.75 * Sd)) List[Name]=Name
         # if (abs(Nuse[i,3]-IQR_Mean) > (1.75 * IQR_Sd)) List[Name]=Name
-        if (abs(Nuse[i,2]-1) > 0.075) List[Name]=Name
-        if (abs(Nuse[i,3]) > 0.75) List[Name]=Name
-        if (abs(Nuse[i,2]-1) > 0.075) List1[Name]=Name
-        if (abs(Nuse[i,3]) > 0.75) List1[Name]=Name
+        if (abs(Nuse[i,2]-1) > mth) List[Name]=Name
+        if (abs(Nuse[i,3]) > ith) List[Name]=Name
+        if (abs(Nuse[i,2]-1) > mth) List1[Name]=Name
+        if (abs(Nuse[i,3]) > ith) List1[Name]=Name
     }
 
     # QC BioB
@@ -73,14 +73,19 @@ compute_summary <- function(d){
     # And here we write
 
     Lv = as.vector(List)
-    write.table(Lv, paste(fpx, "sum", sep="."), col.names=F, row.names=F, quote=F, sep="\n")
+    write.table(Lv, paste(fpx, osfx, sep="."), col.names=F, row.names=F, quote=F, sep="\n")
     Lv1 = as.vector(List1)
-    write.table(Lv1, paste(fpx, "rmasum", sep="."), col.names=F, row.names=F, quote=F, sep="\n")
+    write.table(Lv1, paste(fpx, paste("rma", osfx, sep=""), sep="."),
+                col.names=F, row.names=F, quote=F, sep="\n")
     Lv2 = as.vector(List2)
-    write.table(Lv2, paste(fpx, "mas5sum", sep="."), col.names=F, row.names=F, quote=F, sep="\n")
+    write.table(Lv2, paste(fpx, paste("mas5", osfx, sep=""), sep="."),
+                col.names=F, row.names=F, quote=F, sep="\n")
 }
 
 args = commandArgs(trailingOnly=TRUE)
 if(length(args) == 1){
     compute_summary(d=args[1])
+}
+if(length(args) == 4){
+    compute_summary(d=args[1], mth=as.numeric(args[2]), ith=as.numeric(args[3]), osfx=args[4])
 }

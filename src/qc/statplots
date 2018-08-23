@@ -1,0 +1,15 @@
+#!/bin/bash
+#
+# Author: Sriram P C
+
+if [ "$#" -lt 1 ]; then
+     echo "Usage: statplots <EXP_DIR>"
+     exit 0
+fi
+
+f=`basename $1`
+mkdir -p $1/plots
+Rscript median-stat.R $1/QC $1/plots/$f-rle-median-density.pdf rle 0.09
+Rscript median-stat.R $1/QC $1/plots/$f-nuse-median-density.pdf nuse 1.09
+Rscript iqr-stat.R $1/QC $1/plots/$f-rle-iqr-density.pdf rle 0.75
+Rscript iqr-stat.R $1/QC $1/plots/$f-nuse-iqr-density.pdf nuse 0.75

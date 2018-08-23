@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Author: Jaroslaw Zola <jaroslaw.zola@gmail.com>
+# Author: Sriram P C
 
 if [ "$#" -lt 1 ]; then
      echo "Usage: summary <EXP_DIR>"
@@ -10,20 +10,22 @@ fi
 for i in $1/QC/*; do
     f=`basename $i`
     echo "*** $f : $i ***"
-    Rscript summary.R $i
+    Rscript summary.R $i 0.09 0.8 sum2
 done
+
+#clear
 
 totin=0
 tot=0
 
 for i in $1/QC/*; do
     f=`basename $i`
-    nums=`cat $i/$f.sum | wc -l`
+    nums=`cat $i/$f.sum2 | wc -l`
     tot=$(( $tot + $nums ))
     frac=$(( 2 * $nums ))
     ksf=$i/$f.ks
     if [ -f $ksf ]; then
-     numk=`cat $i/$f.ks | wc -l`
+     numk=`cat $ksf | wc -l`
     else
      numk=0
     fi

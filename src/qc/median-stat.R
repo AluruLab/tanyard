@@ -1,15 +1,19 @@
 #library(lattice)
 library(ggplot2)
 
-rle_densityplot <- function(Wd, outfile, sfx){
+rle_densityplot <- function(Wd, outfile, sfx, pth=0){
     Dirs=dir(Wd, full.names=TRUE)
     y=numeric(0)
 
     for (d in Dirs) {
       fin=paste(paste(d, basename(d), sep="/"), sfx, sep=".")
-      x=read.table(fin, head=F)
-      y=append(y,x[,2])
-      if (max(abs(x[,2])) > 0.5) print(d)
+      if(file.exists(fin)){
+        x=read.table(fin, head=F)
+        y=append(y,x[,2])
+        if (max(abs(x[,2])) > pth) { print(paste("MEDIAN >", pth, basename(d))) }
+      } else {
+        print(paste("Ignoring...", d))
+      }
     }
     #trellis.device(device="pdf", file=outfile)
     #densityplot(y)
@@ -26,4 +30,7 @@ rle_densityplot <- function(Wd, outfile, sfx){
 args = commandArgs(trailingOnly=TRUE)
 if(length(args) == 3) {
     rle_densityplot(args[1], args[2], args[3])
+}
+if(length(args) == 4) {
+    rle_densityplot(args[1], args[2], args[3], as.numeric(args[4]))
 }
