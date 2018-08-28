@@ -1,16 +1,4 @@
 ,ReturnCode,RowId,SampleCEL,SampleFile,SampleId,SeriesId
-0,0,0,/nv/hswarm1/schockalingam6/scratch/microarrays/E-NASC-75/E-NASC-75_1.cel,https://www.ebi.ac.uk/arrayexpress/files/E-NASC-75/E-NASC-75.raw.1.zip/Sakakibara_1-10_DMSO-treatment-mutant_Rep1_ATH1.cel,1,E-NASC-75
-1,0,1,/nv/hswarm1/schockalingam6/scratch/microarrays/E-NASC-75/E-NASC-75_2.cel,https://www.ebi.ac.uk/arrayexpress/files/E-NASC-75/E-NASC-75.raw.1.zip/Sakakibara_1-11_DMSO-treatment-mutant_Rep2_ATH1.cel,2,E-NASC-75
-2,0,2,/nv/hswarm1/schockalingam6/scratch/microarrays/E-NASC-75/E-NASC-75_3.cel,https://www.ebi.ac.uk/arrayexpress/files/E-NASC-75/E-NASC-75.raw.1.zip/Sakakibara_1-12_DMSO-treatment-mutant_Rep3_ATH1.cel,3,E-NASC-75
-3,0,3,/nv/hswarm1/schockalingam6/scratch/microarrays/E-NASC-75/E-NASC-75_4.cel,https://www.ebi.ac.uk/arrayexpress/files/E-NASC-75/E-NASC-75.raw.1.zip/Sakakibara_1-4_TZ-treatment-mutant_Rep1_ATH1.cel,4,E-NASC-75
-4,0,4,/nv/hswarm1/schockalingam6/scratch/microarrays/E-NASC-75/E-NASC-75_5.cel,https://www.ebi.ac.uk/arrayexpress/files/E-NASC-75/E-NASC-75.raw.1.zip/Sakakibara_1-5_TZ-treatment-mutant_Rep2_ATH1.cel,5,E-NASC-75
-5,0,5,/nv/hswarm1/schockalingam6/scratch/microarrays/E-NASC-75/E-NASC-75_6.cel,https://www.ebi.ac.uk/arrayexpress/files/E-NASC-75/E-NASC-75.raw.1.zip/Sakakibara_1-6_TZ-treatment-mutant_Rep3_ATH1.cel,6,E-NASC-75
-6,0,6,/nv/hswarm1/schockalingam6/scratch/microarrays/E-NASC-75/E-NASC-75_7.cel,https://www.ebi.ac.uk/arrayexpress/files/E-NASC-75/E-NASC-75.raw.1.zip/Sakakibara_1-7_DMSO-treatment-wild_Rep1_ATH1.cel,7,E-NASC-75
-7,0,7,/nv/hswarm1/schockalingam6/scratch/microarrays/E-NASC-75/E-NASC-75_8.cel,https://www.ebi.ac.uk/arrayexpress/files/E-NASC-75/E-NASC-75.raw.1.zip/Sakakibara_1-8_DMSO-treatment-wild_Rep2_ATH1.cel,8,E-NASC-75
-8,0,8,/nv/hswarm1/schockalingam6/scratch/microarrays/E-NASC-75/E-NASC-75_9.cel,https://www.ebi.ac.uk/arrayexpress/files/E-NASC-75/E-NASC-75.raw.1.zip/Sakakibara_1-9_DMSO-treatment-wild_Rep3_ATH1.cel,9,E-NASC-75
-9,0,9,/nv/hswarm1/schockalingam6/scratch/microarrays/E-NASC-75/E-NASC-75_10.cel,https://www.ebi.ac.uk/arrayexpress/files/E-NASC-75/E-NASC-75.raw.1.zip/Sakakibara_1-1_TZ-treatment-wild_Rep1_ATH1.cel,10,E-NASC-75
-10,0,10,/nv/hswarm1/schockalingam6/scratch/microarrays/E-NASC-75/E-NASC-75_11.cel,https://www.ebi.ac.uk/arrayexpress/files/E-NASC-75/E-NASC-75.raw.1.zip/Sakakibara_1-2_TZ-treatment-wild_Rep2_ATH1.cel,11,E-NASC-75
-11,0,11,/nv/hswarm1/schockalingam6/scratch/microarrays/E-NASC-75/E-NASC-75_12.cel,https://www.ebi.ac.uk/arrayexpress/files/E-NASC-75/E-NASC-75.raw.1.zip/Sakakibara_1-3_TZ-treatment-wild_Rep3_ATH1.cel,12,E-NASC-75
 12,0,12,/nv/hswarm1/schockalingam6/scratch/microarrays/E-ATMX-28/E-ATMX-28_1.cel,https://www.ebi.ac.uk/arrayexpress/files/E-ATMX-28/E-ATMX-28.raw.1.zip/C1.CEL,1,E-ATMX-28
 13,0,13,/nv/hswarm1/schockalingam6/scratch/microarrays/E-ATMX-28/E-ATMX-28_2.cel,https://www.ebi.ac.uk/arrayexpress/files/E-ATMX-28/E-ATMX-28.raw.1.zip/C2.CEL,2,E-ATMX-28
 14,0,14,/nv/hswarm1/schockalingam6/scratch/microarrays/E-ATMX-28/E-ATMX-28_3.cel,https://www.ebi.ac.uk/arrayexpress/files/E-ATMX-28/E-ATMX-28.raw.1.zip/M1.CEL,3,E-ATMX-28
