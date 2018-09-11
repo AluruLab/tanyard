@@ -5,23 +5,30 @@
 shopt -s extglob
 
 if [ "$#" -lt 1 ]; then
-     echo "Usage: delres <EXP_DIR> [<CSV2EXP_PATH> <RESIDUALS_PATH>]"
+     echo "Usage: delres <EXP_DIR> [<CSV2EXP_PATH> <RESIDUALS_PATH> <PATTERN>]"
      exit 0
 fi
 
 CPU=8
-if [ "$#" -eq 1 ]; then
 csv2exp=/nv/hswarm1/schockalingam6/data/tanyard/src/qc/csv2exp
 residuals=/nv/hswarm1/schockalingam6/data/tinge/build.cm/residuals
+if [ "$#" -gt 2 ]; then
+ if [ $2 != "-" ]; then
+  csv2exp=$2
+ fi
+ if [ $3 != "-" ]; then
+  residuals=$3
+ fi
 fi
-if [ "$#" -eq 3 ]; then
-csv2exp=$2
-residuals=$3
+echo args "$1 $csv2exp $residuals $4"
+if [ "$#" -lt 4 ]; then
+  Rscript dirjustrma.R $1/CEL
+else
+  Rscript dirjustrma.R $1/CEL $4
 fi
 
-Rscript dirjustrma.R $1/CEL
-
-for i in $1/CEL/*; do
+if [ "$#" -lt 4 ]; then
+ for i in $1/CEL/*; do
     f=`basename $i`
     echo "*** $f ***"
     $csv2exp $i/$f.csv
@@ -32,4 +39,20 @@ for i in $1/CEL/*; do
     mv $i/$f.ks $1/QC/$f
     mv $i/$f.exp $1/QC/$f
     mv $i/$f.csv $1/QC/$f
-done
+ done
+else
+ for i in $1/CEL/$4*; do
+    if [ -d $i ]; then
+     f=`basename $i`
+     echo "*** $f ***"
+     $csv2exp $i/$f.csv
+     mpirun -np $CPU $residuals $i/$f.exp $i/$f.dres
+     Rscript ks.R $i/$f.dres $i/$f.ks
+     mkdir -p $1/QC/$f
+     mv $i/$f.dres $1/QC/$f
+     mv $i/$f.ks $1/QC/$f
+     mv $i/$f.exp $1/QC/$f
+     mv $i/$f.csv $1/QC/$f
+    fi
+ done
+fi

@@ -3,22 +3,21 @@
 # Author: Sriram P C
 
 if [ "$#" -lt 1 ]; then
-     echo "Usage: summary <EXP_DIR>"
+     echo "Usage: summary <EXP_DIR> [<PATTERN>]"
      exit 0
 fi
-
-for i in $1/QC/*; do
-    f=`basename $i`
-    echo "*** $f : $i ***"
-    Rscript summary.R $i 0.09 0.8 sum2
-done
-
-#clear
 
 totin=0
 tot=0
 
-for i in $1/QC/*; do
+if [ "$#" -lt 2 ]; then 
+ for i in $1/QC/*; do
+    f=`basename $i`
+    echo "*** $f : $i ***"
+    Rscript summary.R $i 0.09 0.8 sum2
+ done
+
+ for i in $1/QC/*; do
     f=`basename $i`
     nums=`cat $i/$f.sum2 | wc -l`
     tot=$(( $tot + $nums ))
@@ -32,6 +31,32 @@ for i in $1/QC/*; do
     totin=$(( $totin + $numk ))
     if [ $numk -lt $frac ]; then echo $f; fi
     echo "$nums out of $numk" > $i/$f.frac
-done
+ done
+else
+ for i in $1/QC/$2*; do
+   if [ -d $i ]; then
+    f=`basename $i`
+    echo "*** $f : $i ***"
+    Rscript summary.R $i 0.09 0.8 sum2
+   fi
+ done
 
+ for i in $1/QC/$2*; do
+   if [ -d $i ]; then
+    f=`basename $i`
+    nums=`cat $i/$f.sum2 | wc -l`
+    tot=$(( $tot + $nums ))
+    frac=$(( 2 * $nums ))
+    ksf=$i/$f.ks
+    if [ -f $ksf ]; then
+     numk=`cat $ksf | wc -l`
+    else
+     numk=0
+    fi
+    totin=$(( $totin + $numk ))
+    if [ $numk -lt $frac ]; then echo $f; fi
+    echo "$nums out of $numk" > $i/$f.frac
+   fi
+ done
+fi
 echo Total "$tot/$totin" 

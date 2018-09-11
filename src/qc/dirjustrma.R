@@ -2,9 +2,10 @@
 # Author: Jaroslaw Zola <jaroslaw.zola@gmail.com>
 suppressMessages(library(affy))
 
-run_dirjustRMA <- function(Wd){
+run_dirjustRMA <- function(Wd, pat = NULL){
 
-    Dirs=dir(Wd, full.names=TRUE)
+    Dirs= if (is.null(pat)) { dir(Wd, full.names=TRUE) }
+          else { dir(Wd, pattern = pat, full.names=TRUE) }
 
     for (d in Dirs) {
         outfile=paste(paste(d, basename(d), sep="/"), "csv", sep=".")
@@ -22,4 +23,7 @@ run_dirjustRMA <- function(Wd){
 args = commandArgs(trailingOnly=TRUE)
 if(length(args) == 1) {
     run_dirjustRMA(args[1])
+}
+if(length(args) == 2) {
+    run_dirjustRMA(args[1], args[2])
 }

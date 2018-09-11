@@ -14,9 +14,11 @@ def update_nasc_status(celdf, data_dir):
     file_lst = []
     rcode_lst = []
     for rid, dfrow in celdf.iterrows():
-        if dfrow.SeriesId.startswith("NASC-"):
+        srs_id = str(dfrow.SeriesId)
+        if srs_id.startswith("NASC-"):
             ext_name = ".CEL"
             cel_fname = dfrow.SeriesId + "_" + str(dfrow.SampleId) + ext_name
+            series_dir = os.path.join(data_dir, dfrow.SeriesId)
             local_cel_file = os.path.join(series_dir, cel_fname)
             if pathlib.Path(local_cel_file).is_file():
                 rcode = 0
@@ -38,20 +40,20 @@ def update_nasc_status(celdf, data_dir):
 
 def main(in_file, data_dir, out_status_file):
     dx = pd.read_csv(in_file, encoding = "ISO-8859-1")
-    hsdf = dx.loc[DU.has_file, : ]
-    vxdf = hsdf.loc[DU.has_no_semicolon, : ]
-    ntxdf = vxdf.loc[DU.not_ends_with_text, : ]
-    celtxdf = ntxdf.loc[DU.not_ends_with_text, : ]
+    #hsdf = dx.loc[DU.has_file, : ]
+    #vxdf = hsdf.loc[DU.has_no_semicolon, : ]
+    #ntxdf = vxdf.loc[DU.not_ends_with_text, : ]
+    #celtxdf = ntxdf.loc[DU.not_ends_with_text, : ]
     #celtxaedf = celtxdf.loc[lambda df: DU.starts_with(df, 'SeriesId', 'E-'), : ]
     #celtxgedf = celtxdf.loc[lambda df: starts_with(df, 'SeriesId', 'GSE'), : ]
     #celtxae_ftpdf = celtxaedf.loc[lambda df: starts_with(df, 'SampleFile', 'ftp'), : ]
     #celtxae_httpdf = celtxaedf.loc[lambda df: starts_with(df, 'SampleFile', 'http'), : ]
-    hsmtxdf = hsdf.loc[DU.has_semicolon, : ]
+    #hsmtxdf = hsdf.loc[DU.has_semicolon, : ]
     #hsmlztxdf = hsmtxdf.loc[lambda df: DU.cel_count_eq_n(df, 0), :]
-    hsmlotxdf = hsmtxdf.loc[lambda df: DU.cel_count_eq_n(df, 1), :]
-    oneceldf = pd.concat([celtxdf, hsmlotxdf])
-    print(len(oneceldf))
-    retdf = update_nasc_status(oneceldf, data_dir)
+    #hsmlotxdf = hsmtxdf.loc[lambda df: DU.cel_count_eq_n(df, 1), :]
+    #oneceldf = pd.concat([celtxdf, hsmlotxdf])
+    print(len(dx))
+    retdf = update_nasc_status(dx, data_dir)
     retdf.to_csv(out_status_file)
 
 

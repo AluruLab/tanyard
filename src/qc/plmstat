@@ -7,10 +7,23 @@ if [ "$#" -lt 1 ]; then
      exit 0
 fi
 
-for i in $1/CEL/*; do
+if [ "$#" -eq 1 ]; then
+ for i in $1/CEL/*; do
     f=`basename $i`
     echo "*** $f ***"
     mkdir -p $1/QC/$f
     Rscript plmstat.R "$1/QC/$f/$f" $i
-done
+ done
+fi
 
+
+if [ "$#" -eq 2 ]; then
+ for i in $1/CEL/$2*; do
+    if [ -d $i ]; then
+     f=`basename $i`
+     echo "*** $f ***"
+     mkdir -p $1/QC/$f
+     Rscript plmstat.R "$1/QC/$f/$f" $i
+    fi
+ done
+fi

@@ -1,0 +1,88 @@
+#!/bin/bash
+
+if [ "$#" -lt 1 ]; then
+     echo "Usage: stat <EXP_DIR> <CLASS_TABLE> <DWN_STAT>"
+     echo "<CLASS_TABLE> initial table classified metada"
+     echo "<DWN_STAT>  download table"
+     echo "Lists the number of CEL files in each subdir of <EXP_DIR>/CEL/"
+     exit 0
+fi
+
+nclass=`gunzip -c $2 | tail -n +2 | wc -l`
+ndown=`tail -n +2 $3 | cut -d, -f2  | wc -l`
+wd=`pwd`
+ncopied=0
+cd $1/CEL
+for i in *; do
+    cd $i
+    numc=`ls *.CEL *.cel *.cel.gz *.Cel *.Cel.gz 2> /dev/null | wc -l`
+    ncopied=$(( $ncopied + $numc ))
+    cd ..
+done
+cd $wd
+
+
+totin=0
+totrj=0
+totltt=0
+for i in $1/QC/*; do
+    if [ -d $i ]; then
+     f=`basename $i`
+     nums=`cat $i/$f.sum2 | wc -l`
+     totrj=$(( $totrj + $nums ))
+     frac=$(( 2 * $nums ))
+     ksf=$i/$f.ks
+     if [ -f $ksf ]; then
+      numk=`cat $i/$f.ks | wc -l`
+     else
+      #echo `basename $i`
+      numk=0
+      numtt=`cat $i/$f.qc | wc -l`
+      totltt=$(( $totltt + $numtt ))
+     fi
+     totin=$(( $totin + $numk ))
+     #if [ $numk -lt $frac ]; then echo $f; fi
+   fi
+done
+
+f=`basename $1`
+tmissing=$(( $nclass  - $ndown ))
+tcorrupt=$(( $ndown  - $ncopied ))
+tremain=$(( $nclass - $tmissing -$tcorrupt ))
+#echo $tremain
+
+nfullwc=`cat $1/QC/full-list.txt | wc -l`
+# qc -rejected
+nuqcrwc=`cat $1/QC/qc-reject.txt  | sort | uniq | wc -l` 
+
+# adjusted qc reject
+cat $1/QC/qc-reject.txt $1/QC/man-accept.txt | sort | uniq -u > /tmp/qcl
+nuqclwc=`cat /tmp/qcl | wc -l` 
+
+# qcr + manual reject
+cat /tmp/qcl $1/QC/man-reject.txt | sort | uniq > /tmp/aqcl
+nqcmnwc=`cat /tmp/aqcl | wc -l`
+
+# unique accept(s) : accepted chips, but not duplicates
+sort $1/QC/gse-super.txt | uniq > /tmp/gsel
+sort $1/QC/man-accept.txt | uniq > /tmp/macl
+nmnacwc=`join -v2 /tmp/gsel /tmp/macl | wc -l` 
+
+# duplicates not rejected already
+nuqrjwc=`join -v2 /tmp/aqcl /tmp/gsel | wc -l` 
+
+# final
+nfinwc=$(( $nfullwc - $nqcmnwc - $nuqrjwc ))
+
+# qcr check
+sort $1/QC/qc-reject.txt | uniq > /tmp/qcr
+join -v2 /tmp/macl /tmp/qcr > /tmp/tadjq
+nt1=`cat /tmp/tadjq | wc -l`
+nt2=`cat /tmp/tadjq $1/QC/man-reject.txt | sort | uniq  | wc -l`
+nt3=`cat /tmp/tadjq $1/QC/man-reject.txt $1/QC/gse-super.txt | sort | uniq | wc -l`
+nt4=$(( $tremain - $nt3 ))
+
+echo "class           #db #miss  #cor  #rmn  #qcr #adjq #qc+m #udup  #acc  #fin  #trm #tajq #tqcf  #fnck"
+printf "%-12s %6d%6d%6d%6d" $f $nclass  $tmissing $tcorrupt $nfullwc
+printf "%6d%6d%6d%6d%6d%6d" $nuqcrwc $nuqclwc $nqcmnwc $nuqrjwc $nmnacwc $nfinwc 
+printf "%6d%6d%6d%6d%6d\n" $tremain $nt1 $nt2 $nt3 $nt4

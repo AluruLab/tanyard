@@ -1065,3 +1065,9 @@
 1063,0,1213,/nv/hswarm1/schockalingam6/scratch/microarrays/GSE10247/GSE10247_GSM258002.cel.gz,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM258nnn/GSM258002/suppl/GSM258002.CEL.gz,GSM258002,GSE10247
 1064,0,1214,/nv/hswarm1/schockalingam6/scratch/microarrays/GSE10247/GSE10247_GSM258003.cel.gz,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM258nnn/GSM258003/suppl/GSM258003.CEL.gz,GSM258003,GSE10247
 1065,0,1215,/nv/hswarm1/schockalingam6/scratch/microarrays/GSE10247/GSE10247_GSM258004.cel.gz,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM258nnn/GSM258004/suppl/GSM258004.CEL.gz,GSM258004,GSE10247
+0,0,1271,/nv/hswarm1/schockalingam6/scratch/microarrays/NASC-48/NASC-48_Honys_BCP1.CEL,NA,Honys_BCP1,NASC-48
+1,0,1272,/nv/hswarm1/schockalingam6/scratch/microarrays/NASC-48/NASC-48_Honys_BCP2.CEL,NA,Honys_BCP2,NASC-48
+2,0,1273,/nv/hswarm1/schockalingam6/scratch/microarrays/NASC-48/NASC-48_Honys_MPG1.CEL,NA,Honys_MPG1,NASC-48
+3,0,1274,/nv/hswarm1/schockalingam6/scratch/microarrays/NASC-48/NASC-48_Honys_TCP2.CEL,NA,Honys_TCP2,NASC-48
+4,0,1275,/nv/hswarm1/schockalingam6/scratch/microarrays/NASC-48/NASC-48_Honys_UNM1.CEL,NA,Honys_UNM1,NASC-48
+5,0,1276,/nv/hswarm1/schockalingam6/scratch/microarrays/NASC-48/NASC-48_Honys_UNM2.CEL,NA,Honys_UNM2,NASC-48

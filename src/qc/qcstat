@@ -1,0 +1,54 @@
+#!/bin/bash
+
+if [ "$#" -lt 1 ]; then
+     echo "Usage: stat <EXP_DIR> <CLASS_TABLE> <DWN_STAT>"
+     echo "<CLASS_TABLE> initial table classified metada"
+     echo "<DWN_STAT>  download table"
+     echo "Lists the number of CEL files in each subdir of <EXP_DIR>/CEL/"
+     exit 0
+fi
+
+nclass=`gunzip -c $2 | tail -n +2 | wc -l`
+ndown=`tail -n +2 $3 | cut -d, -f2  | wc -l`
+wd=`pwd`
+ncopied=0
+cd $1/CEL
+for i in *; do
+    cd $i
+    numc=`ls *.CEL *.cel *.cel.gz *.Cel *.Cel.gz 2> /dev/null | wc -l`
+    ncopied=$(( $ncopied + $numc ))
+    cd ..
+done
+cd $wd
+
+
+totin=0
+totrj=0
+totltt=0
+for i in $1/QC/*; do
+    if [ -d $i ]; then
+     f=`basename $i`
+     nums=`cat $i/$f.sum2 | wc -l`
+     totrj=$(( $totrj + $nums ))
+     frac=$(( 2 * $nums ))
+     ksf=$i/$f.ks
+     if [ -f $ksf ]; then
+      numk=`cat $i/$f.ks | wc -l`
+     else
+      #echo `basename $i`
+      numk=0
+      numtt=`cat $i/$f.qc | wc -l`
+      totltt=$(( $totltt + $numtt ))
+     fi
+     totin=$(( $totin + $numk ))
+     #if [ $numk -lt $frac ]; then echo $f; fi
+   fi
+done
+
+f=`basename $1`
+tmissing=$(( $nclass  - $ndown ))
+tcorrupt=$(( $ndown  - $ncopied ))
+tremain=$(( $totin - $totrj ))
+#echo $f $nclass $ndown $ncopied $totltt $totin
+
+echo $f $nclass  $tmissing $tcorrupt $totltt $totrj $tremain 
