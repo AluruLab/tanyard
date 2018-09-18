@@ -12,12 +12,15 @@ tot=0
 
 if [ "$#" -lt 2 ]; then 
  for i in $1/QC/*; do
+   if [ -d $i ]; then
     f=`basename $i`
     echo "*** $f : $i ***"
     Rscript summary.R $i
+   fi
  done
 
  for i in $1/QC/*; do
+   if [ -d $i ]; then
     f=`basename $i`
     nums=`cat $i/$f.sum | wc -l`
     tot=$(( $tot + $nums ))
@@ -31,6 +34,7 @@ if [ "$#" -lt 2 ]; then
     totin=$(( $totin + $numk ))
     if [ $numk -lt $frac ]; then echo $f; fi
     echo "$nums out of $numk" > $i/$f.frac
+   fi
  done
 else
  for i in $1/QC/$2*; do

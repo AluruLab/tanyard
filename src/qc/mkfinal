@@ -5,21 +5,59 @@ if [ "$#" -lt 1 ]; then
      exit 0
 fi
 
+cwd=`pwd`
+tmpfx=`mktemp`
+
+( ( sort $1/QC/man-accept.txt | uniq ; 
+    sort $1/QC/qc-reject.txt  | uniq )  | sort | uniq -u ;
+  cat $1/QC/man-reject.txt ;
+  cat $1/QC/gse-super.txt ) | sort | uniq  > $1/QC/final-reject.txt
+#wc -l $1/QC/final-reject.txt
+
+join -v2 $1/QC/final-reject.txt $1/QC/full-list.txt > $1/QC/final-accept.txt
+
+sed 's/$/\\\"\$/' $1/QC/final-accept.txt  > $tmpfx
+
+grep -f $tmpfx $1/QC/full-list.csv > $1/QC/final-list.csv
+
+#nt2=`cat /tmp/tadjq $1/QC/man-reject.txt | sort | uniq  | wc -l`
+#nt3=`cat /tmp/tadjq $1/QC/man-reject.txt $1/QC/gse-super.txt | sort | uniq | wc -l`
+
+ltz=`cat $1/QC/final-list.csv | wc -l`
+lta=`cat $1/QC/final-list.csv | cut -d, -f1 | uniq -c | sort | grep "      1 " |  cut -d'"' -f1 | paste -sd+ | bc`
+ltb=`cat $1/QC/final-list.csv | cut -d, -f1 | uniq -d -c | sort | grep "      2 " |  cut -d'"' -f1 | paste -sd+ | bc`
+if [ -z $lta ]; then
+lty=$(( $ltz - $ltb ))
+else
+lty=$(( $ltz - $lta -$ltb ))
+fi
+echo `basename $1` $ltz $lta $ltb $lty
+
+#ltx=`cat $1/QC/final-list.csv | cut -d, -f1 | uniq -d -c | sort | grep "      2 " |  cut -d' ' -f 7 | paste -sd+ | bc`
+tmpfy=`mktemp`
+
+cat $1/QC/final-list.csv | cut -d, -f1 | uniq -d -c | grep -v " 2 " | sort -n |  cut -d'"' -f 2 | sort > $tmpfy
+
 for i in $1/CEL/*; do
-    d=`basename $i`
-    mkdir -p $1/FINAL/$d
-    cd $i
-    for j in $i/*.CEL $i/*.Cel $i/*.cel $i/*.CEL.gz $i/*.Cel.gz $i/*.cel.gz ; do
-        f = `basename $j`
-        list=`grep $f $1/QC/$d/$d.sum`
-        if [ -z $list ]; then
-#    	    echo ">$j<"
-            ln -s $j $1/FINAL/$d/
-        fi
-    done
-    #cd ../../../
-    f=`ls -1 $1/FINAL/$d/*.CEL $1/FINAL/$d/*.cel $1/FINAL/$d/*.gz  2> /dev/null | wc -l`
-    if [ $f -lt 4 ]; then
-	rm -rf $1/FINAL/$d/*.CEL $1/FINAL/$d/*.cel $1/FINAL/$d/*.gz
-    fi
+   d=`basename $i`
+   list1=`grep $d $tmpfy`
+   #echo $list1
+   if [ -n "$list1" ]; then
+      #echo $d
+      mkdir -p $1/FINAL/$d
+      for j in $i/*.[cC][eE][lL]* ; do
+          f=$(basename "$j" | cut -d. -f1)
+          #echo $f
+          list=`grep -w "${f}" $1/QC/final-accept.txt`
+          if [ -n "$list" ]; then
+             echo ">$j<"
+             ln -s $j $1/FINAL/$d/
+          fi
+      done
+      #cd ../../../
+      #f=`ls -1 $1/FINAL/$d/*.CEL $1/FINAL/$d/*.cel $1/FINAL/$d/*.gz  2> /dev/null | wc -l`
+      #if [ $f -lt 4 ]; then
+      #   rm -rf $1/FINAL/$d/*.CEL $1/FINAL/$d/*.cel $1/FINAL/$d/*.gz
+      #fi
+   fi
 done
