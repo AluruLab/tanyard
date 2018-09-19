@@ -3,12 +3,12 @@
 # Author: Jaroslaw Zola <jaroslaw.zola@gmail.com>
 
 if [ "$#" -lt 1 ]; then
-     echo "Usage: mas5 <EXP_DIR>"
+     echo "Usage: gcrma <EXP_DIR>"
      exit 0
 fi
 
 for i in $1/FINAL/*; do
-    f = `basename $i`
+    f=`basename $i`
     echo "*** $f ***"
     #cd $i
     #R_OUT=$i.gcrma.csv R --no-save < ../../mas5.R

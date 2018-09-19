@@ -8,7 +8,7 @@ if [ "$#" -lt 1 ]; then
 fi
 
 for i in $1/FINAL/*; do
-    f = `basename $i`
+    f=`basename $i`
     echo "*** $f ***"
     #cd $i
     #R_IN=$i.mas5.csv R_OUT=$i.log2.csv R --no-save < ../../submean2.R

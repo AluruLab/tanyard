@@ -1,7 +1,6 @@
 
 suppressMessages(library(gcrma))
 
-#outfile = Sys.getenv("R_OUT")
 run_gcrma = function(outfile, celfiles){
     D = ReadAffy(filenames=celfiles)
     E = gcrma(D, GSB.adjust=FALSE)

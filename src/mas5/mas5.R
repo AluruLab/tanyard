@@ -1,7 +1,6 @@
 
 suppressMessages(library(affy))
 
-#outfile = Sys.getenv("R_OUT")
 run_mas5 = function(outfile, celfiles){
     D = ReadAffy(filenames=celfiles)
     E = mas5(D, sc=1000)
