@@ -1,19 +1,23 @@
 #!/bin/bash
 
 if [ "$#" -lt 1 ]; then
-     echo "Usage: mkexp <EXP_DIR> [<CSV2EXP_PATH> <PROBEID_TXT>]"
+     echo "Usage: mkexp <COMBINED_CSV_FILE> [<CSV2EXP_PATH> <PROBEID_TXT>]"
      exit 0
 fi
 
 
-if [ "$#" -eq 1 ]; then
-csv2exp=/local/zola/tinge-mi/bin/csv2exp
+csv2exp=./csv2exp
 probe2id=/local/.DATA/sysbio/ATH1-Annotation/affy_ATH1_probe-id.txt
+if [ "$#" -gt 2 ]; then
+ if [ $2 != "-" ]; then
+  csv2exp=$2
+ fi
+ if [ $3 != "-" ]; then
+  probe2id=$3
+ fi
 fi
-if [ "$#" -eq 3 ]; then
-csv2exp=$2
-probe2id=$3
-fi
+
+echo "input args: $1 $csv2exp $probe2id $4"
 
 $csv2exp --match --map $probe2id $1
 

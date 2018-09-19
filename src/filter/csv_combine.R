@@ -1,6 +1,6 @@
 
 csv_combine <- function(indir, outfile) {
-    files=list.files(path=indir, pattern=".*csv")
+    files=list.files(path=indir, pattern=".*csv", full.names=T)
     tab=read.table(files[1])
     for (i in files[-1]) {
         print(i)

@@ -13,6 +13,8 @@ function <- iqr_filter(){
 }
 
 args = commandArgs(trailingOnly=TRUE)
-if(length(args) == 2){
+if(length(args) == 3){
     iqr_filter(infile=args[1], outfile=args[2], iqrl=as.double(args[3]))
+} else {
+   print("Usage: Rscript iqr_filter.R <INFILE> <OUTFILE> <IQR_VALUE>")
 }

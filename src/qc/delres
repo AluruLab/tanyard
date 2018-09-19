@@ -10,7 +10,7 @@ if [ "$#" -lt 1 ]; then
 fi
 
 CPU=8
-csv2exp=/nv/hswarm1/schockalingam6/data/tanyard/src/qc/csv2exp
+csv2exp=./csv2exp
 residuals=/nv/hswarm1/schockalingam6/data/tinge/build.cm/residuals
 if [ "$#" -gt 2 ]; then
  if [ $2 != "-" ]; then

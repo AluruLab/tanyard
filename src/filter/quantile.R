@@ -2,8 +2,6 @@ library(affy)
 library(limma)
 
 # get arguments
-#infile = Sys.getenv("R_IN")
-#outfile = Sys.getenv("R_OUT")
 quantile_norm <- function(infile, outfile) {
     # get data layout
     D0 = read.table(infile, head=TRUE, row.names=1)
@@ -29,4 +27,6 @@ quantile_norm <- function(infile, outfile) {
 args = commandArgs(trailingOnly=TRUE)
 if(length(args) == 2){
     quantile_norm(infile=args[1], outfile=args[2])
+} else {
+   print("Usage: Rscript quantile.R <INFILE> <OUTFILE>")
 }
