@@ -1,0 +1,37 @@
+#!/usr/bin/perl
+
+use strict;
+use warnings;
+use List::MoreUtils qw(uniq);
+
+open(IN0, "< $ARGV[0]") or die "can't open input file\n";
+open(IN1, "< $ARGV[1]") or die "can't open input file\n";
+
+my %map0;
+my %map1;
+
+while (<IN0>) {
+  chomp($_);
+  my @line = split(' ', $_);
+  $map0{$line[0]} = $line[1];
+}
+
+while (<IN1>) {
+  chomp($_);
+  my @line = split(' ', $_);
+  $map1{$line[0]} = $line[1];
+}
+
+close(IN1);
+close(IN0);
+
+my $val0;
+my $val1;
+
+foreach my $key (keys %map0) {
+    $val0 = $map0{$key};
+    $val1 = $map1{$key};
+    $val0 = $val1 if (length($val0) < length($val1));
+    my $w0 = join(';', sort(split(';', $val0)));
+    print "$key\t$w0\n";
+}

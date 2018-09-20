@@ -1,0 +1,73 @@
+#!/usr/bin/perl
+
+use strict;
+use warnings;
+
+my %aliases;
+
+open(IN, "< $ARGV[0]") or die "can't open input file\n";
+
+# collect info about aliases
+while (<IN>) {
+  chomp($_);
+  my @line = split('\t', $_);
+  if ($line[0] =~ m/AT([0-9]|M)G[0-9]{5}/) {
+      if (not defined $aliases{$line[0]}) { $aliases{$line[0]} = $line[1]; }
+      else { $aliases{$line[0]} = "$aliases{$line[0]} /// $line[1]"; }
+  }
+}
+
+my %prefered;
+if (@ARGV == 2) {
+    open(PREF, "< $ARGV[1]");
+    while (<PREF>) {
+	chomp($_);
+	my @line = split('\t', $_);
+	$prefered{$line[1]} = 1;
+	if (not defined $aliases{$line[0]}) { $aliases{$line[0]} = $line[1]; }
+	else { $aliases{$line[0]} = "$aliases{$line[0]} /// $line[1]"; }
+    }
+    close(PREF);
+}
+
+# choose optimal name
+my $WANTED = -7;
+my $USED = 5;
+my $LENGTH = 1;
+my $CHARACTER = 1;
+
+my %names_used;
+
+foreach (keys %aliases) {
+    if ($aliases{$_} !~ m/\/\/\//) { $names_used{$aliases{$_}} = 1; }
+}
+
+foreach (keys %aliases) {
+    my $key = $_;
+    if ($aliases{$key} =~ m/\/\/\//) {
+	my @names = split(" /// ", $aliases{$key});
+	my %score;
+
+	foreach (@names) {
+	    $score{$_} =  $WANTED if (defined $prefered{$_});
+	    $score{$_} += $USED if (defined $names_used{$_});
+	    $score{$_} += (length($_) * $LENGTH);
+#	    print $_;
+	    my $count = $_ =~ s/([a-z]|\s|\t|;|-|\.|\[|\]|\#|\')/$1/g;
+	    $score{$_} += ($count * $CHARACTER);
+#	    print " -> $score{$_}\n";
+	}
+
+	$aliases{$key} = $names[0];
+	foreach(@names) {
+	    $aliases{$key} = $_ if ($score{$_} < $score{$aliases{$key}});
+	}
+	$names_used{$aliases{$key}} = 1;
+
+#	print "\n";
+    }
+}
+
+foreach (keys %aliases) { print "$_\t$aliases{$_}\n"; }
+
+close(IN);

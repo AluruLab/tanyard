@@ -1,0 +1,21 @@
+#!/usr/bin/perl
+
+use strict;
+use warnings;
+
+open(IN, "< $ARGV[0]") or die "can't open input file\n";
+
+while ((my $tmp = <IN>) =~ m/^#/) { }
+
+while (<IN>) {
+    chomp($_);
+    my @line = split(',"', $_);
+    my $agi = $line[25];
+    $line[0] =~ s/\"//g;
+    $agi =~ s/\"//g;
+    $agi =~ s/ \/\/\/ /;/g;
+    $agi =~ s/---/no_match/g;
+    print "$line[0]\t$agi\n";
+}
+
+close(IN);

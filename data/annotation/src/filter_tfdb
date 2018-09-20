@@ -1,0 +1,3 @@
+#!/bin/bash
+
+cat $1 | egrep -o AT[0-9]G[0-9]{5} | sort | uniq

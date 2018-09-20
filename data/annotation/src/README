@@ -1,0 +1,32 @@
+> anno_merge affy_map tair_map
+
+Merges probe to AGI maps into one (with the smallest possible number of
+no_match).
+
+
+> array_elements affy_ATH1_array_elements_file
+
+Maps probes to AGI based on TAIR mapping file.
+It is better to use Affymetrix annotation.
+See ath_annotation
+
+
+> ath_annotation ATH1-121501_annot_file
+
+Maps probes to AGI based on Affymetrix naXX.annot file.
+Seems to be more precise.
+
+
+> filter_aliases gene_aliases.DATE [preferred]
+
+Filters aliases using J. Zola's heuristic.
+
+
+> probe_aliases id2alias probe2id
+
+Assigns gene aliases to corresponding probes.
+
+
+> list_noa attribute probe2FEATURE
+
+Converts list to Cytoscape's noa file.
