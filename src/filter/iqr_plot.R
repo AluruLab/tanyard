@@ -1,3 +1,5 @@
+library(plyr)
+library(ggplot2)
 
 iqr.deriv.df <- function(gene.summary, binwidth = 0.01,
                         start = 0.01, end = 1.0) {
@@ -66,7 +68,7 @@ iqr.bar.plot <- function(iqr.df, delta=-0.075, binwidth=0.05,
                           end=end)
     tx.df$iqr = tx.df$iqr + delta
     tx.xlabel = paste("IQR (± ", binwidth/2, ")", sep ="")
-    ggplot(data=tx.df[tx.df$iqr > 0.38, ], aes(x=iqr, y=freq)) +
+    ggplot(data=tx.df[tx.df$iqr > 0.1, ], aes(x=iqr, y=freq)) +
         geom_bar(stat='identity', width=width) +
         xlab(tx.xlabel) +
         ylab("No. of Genes")
