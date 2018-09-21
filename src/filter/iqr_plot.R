@@ -101,13 +101,27 @@ iqr.plot <- function(csvfn, opdf, type = "bar"){
   eqdat = read.table(csvfn, row.names = 1, head = T)
   eqmat = as.matrix(eqdat)
   gsum = genes.iqr(eqmat)
-  p = iqr.bar.plot(gsum)
-  ggsave(opdf, plot=p, width = 6, height = 4, units = "in")
+  if(type == "all"){
+    p1 = iqr.bar.plot(gsum) 
+    p2 = iqr.line.plot(gsum) 
+    p3 = iqr.freq.plot(gsum) 
+    p4 = genes.iqr.plot(gsum) 
+    pdf(file=opdf)
+    multiplot(p1,p2,p3,p4, cols =2)
+    dev.off()
+  } else {
+    p = if(type == "bar"){ iqr.bar.plot(gsum) }
+        else if(type == "line") { iqr.line.plot(gsum) }
+        else if(type == "freq") { iqr.freq.plot(gsum) }
+    ggsave(opdf, plot=p, width = 6, height = 4, units = "in")
+  }
 }
 
 args = commandArgs(trailingOnly=TRUE)
 if(length(args) == 2){
     iqr.plot(csvfn=args[1], opdf=args[2])
+} else if(length(args) == 3){
+    iqr.plot(csvfn=args[1], opdf=args[2], type=args[3])
 } else {
    print("Usage: Rscript iqr_plot.R <INFILE> <OUT_PLOT>")
 }
