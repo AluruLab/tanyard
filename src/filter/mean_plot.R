@@ -49,116 +49,111 @@ multiplot <- function(..., plotlist=NULL, file, cols=1, layout=NULL) {
   }
 }
 
-genes.var <- function(eqmatrix, log2v=T){
-    gsm <- adply(eqmatrix, 1, var)
+genes.mean <- function(eqmatrix, log2v=T){
+    gsm <- adply(eqmatrix, 1, mean)
     #gsm$xs <- abs(gsm[,5] - gsm[,3])
     rownames(gsm) <- gsm$X1
-    colnames(gsm) = c("gene", "var")
+    colnames(gsm) = c("gene", "mean")
     if(log2v == TRUE){
-       gsm = gsm[(gsm$var > 0), ]
-       gsm$var = log2(gsm$var)
+       gsm = gsm[(gsm$mean > 0), ]
+       gsm$mean = log2(gsm$mean)
     }
     gsm
 }
 
 
-var.deriv.df <- function(gene.summary, binwidth = 0.01,
+mean.deriv.df <- function(gene.summary, binwidth = 0.01,
                         start = 0.01, end = 1.0) {
-  var.breaks <- seq(from = start, to=end, by = binwidth)
-  nbreaks <- length(var.breaks)
-  var.labels <- var.breaks[2:nbreaks]
-  var.tb <- table(cut(gene.summary$var,
-                      breaks=var.breaks,
-                      labels=var.labels))
-  var.df <- data.frame(var = var.labels, freq = as.vector(var.tb))
-  nrows <- nrow(var.df)
-  var.df$csum <- cumsum(var.df$freq)
-  var.df$slope <- (c(0, var.df$csum[2:nrows] - var.df$csum[1:(nrows - 1)])) /
-      rep(binwidth, nrows)
-  var.df$deriv <- - var.df$slope
-  var.df
+  mean.breaks <- seq(from = start, to=end, by = binwidth)
+  nbreaks <- length(mean.breaks)
+  mean.labels <- mean.breaks[2:nbreaks]
+  mean.tb <- table(cut(gene.summary$mean,
+                      breaks=mean.breaks,
+                      labels=mean.labels))
+  mean.df <- data.frame(mean = mean.labels, freq = as.vector(mean.tb))
+  mean.df
 }
 
 
-genes.var.plot <- function(gene.summary, start = 0, end = 2,
+genes.mean.plot <- function(gene.summary, start = 0, end = 2,
                            start.limit = 2000, max.limit = 23000){
     ggplot(gene.summary) +
         stat_bin(data = gene.summary, binwidth = 0.01,
-                 aes(x = var, y = 22810 - cumsum(..count..)), geom = "step") +
-        xlab("Var") +
+                 aes(x = mean, y = 22810 - cumsum(..count..)), geom = "step") +
+        xlab("Mean") +
         ylab("# Selected Genes") +
         scale_x_continuous(limits = c(start,end)) +
         scale_y_continuous(limits = c(start.limit, max.limit)) # + theme_bw()
 }
 
-var.bar.plot <- function(var.df, delta=0, binwidth=0.05,
+mean.bar.plot <- function(mean.df, delta=0, binwidth=0.05,
                          start=0.225, end=1.225, width=0.02){
-    tx.df <- if("freq" %in% colnames(var.df)) { var.df }
-             else { var.deriv.df(var.df, binwidth=binwidth, start=start, end=end) }
-    tx.df$var = tx.df$var + delta
-    tx.xlabel = paste("VAR (± ", binwidth/2, ")", sep ="")
-    ggplot(data=tx.df, aes(x=var, y=freq)) +
+    tx.df <- if("freq" %in% colnames(mean.df)) { mean.df }
+             else { mean.deriv.df(mean.df, binwidth=binwidth, start=start, end=end) }
+    tx.df$mean = tx.df$mean + delta
+    tx.xlabel = paste("MEAN (± ", binwidth/2, ")", sep ="")
+    ggplot(data=tx.df, aes(x=mean, y=freq)) +
         geom_bar(stat='identity', width=width) +
         xlab(tx.xlabel) +
         ylab("No. of Genes")
 
 }
 
-var.line.plot <- function(var.df, delta=-0.075, binwidth=0.05,
+mean.line.plot <- function(mean.df, delta=-0.075, binwidth=0.05,
                          start=0.225, end=1.225){
-    #tx.cdf <-  var.df[var.df$class==cls.name, ]
-    tx.df <- if("freq" %in% colnames(var.df)) { var.df }
-             else { var.deriv.df(var.df, binwidth=binwidth, start=start, end=end) }
-    tx.df$var = tx.df$var + delta
-    tx.xlabel = paste("var (± ", binwidth/2, ")", sep ="")
-    ggplot(data=tx.df, aes(x=var, y=freq)) +
+    #tx.cdf <-  mean.df[mean.df$class==cls.name, ]
+    tx.df <- if("freq" %in% colnames(mean.df)) { mean.df }
+             else { mean.deriv.df(mean.df, binwidth=binwidth, start=start, end=end) }
+    tx.df$mean = tx.df$mean + delta
+    tx.xlabel = paste("mean (± ", binwidth/2, ")", sep ="")
+    ggplot(data=tx.df, aes(x=mean, y=freq)) +
         geom_point() + geom_line() +
         xlab(tx.xlabel) +
         ylab("No. of Genes")
 
 }
 
-var.freq.plot <- function(var.df, binwidth=0.025,
+mean.freq.plot <- function(mean.df, binwidth=0.025,
                           start=0.225, end=1.25, width=0.02){
-  var.df = if("freq" %in% colnames(var.df)) { var.df }
-           else { var.deriv.df(var.df, binwidth=binwidth, start=start, end=end) }
-  tx.df = var.df[var.df$var <= end, ]
-  tx.xlabel = paste("var (± ", binwidth/2, ")", sep ="")
-  ggplot(data=tx.df, aes(x=var, y=freq)) +
+  mean.df = if("freq" %in% colnames(mean.df)) { mean.df }
+           else { mean.deriv.df(mean.df, binwidth=binwidth, start=start, end=end) }
+  tx.df = mean.df[mean.df$mean <= end, ]
+  tx.xlabel = paste("mean (± ", binwidth/2, ")", sep ="")
+  ggplot(data=tx.df, aes(x=mean, y=freq)) +
     geom_bar(stat='identity', width=width) +
     xlab(tx.xlabel) +
     ylab("No. of Genes")
 }
 
 
-var.plot <- function(csvfn, opdf, type = "bar", ... ){
+mean.plot <- function(csvfn, opdf, type = "bar", ... ){
   eqdat = read.table(csvfn, row.names = 1, head = T)
   eqmat = as.matrix(eqdat)
-  var.df = genes.var(eqmat, TRUE)
-  minv = min(var.df$var)
-  maxv = max(var.df$var)
+  mean.df = genes.mean(eqmat, FALSE)
+  minv = min(mean.df$mean)
+  maxv = max(mean.df$mean)
   if(type == "all"){
-    p1 = var.bar.plot(var.df, start=minv, end=maxv) 
-    p2 = var.line.plot(var.df, start=minv, end=maxv) 
-    p3 = var.freq.plot(var.df, start=minv, end=maxv) 
-    p4 = genes.var.plot(var.df, start=minv, end=maxv) 
+    p1 = mean.bar.plot(mean.df, start=minv, end=maxv) 
+    p2 = mean.line.plot(mean.df, start=minv, end=maxv) 
+    p3 = mean.freq.plot(mean.df, start=minv, end=maxv) 
+    p4 = genes.mean.plot(mean.df, start=minv, end=maxv) 
     pdf(file=opdf)
     multiplot(p1,p2,p3,p4, cols =2)
     dev.off()
   } else {
-    p = if(type == "bar"){ var.bar.plot(var.df, start=minv, end=maxv) }
-        else if(type == "line") { var.line.plot(var.df, start=minv, end=maxv) }
-        else if(type == "freq") { var.freq.plot(var.df, start=minv, end=maxv) }
-        else if(type == "genes") { genes.var.plot(var.df, start=minv, end=maxv) }
+    p = if(type == "bar"){ mean.bar.plot(mean.df, start=minv, end=maxv) }
+        else if(type == "line") { mean.line.plot(mean.df, start=minv, end=maxv) }
+        else if(type == "freq") { mean.freq.plot(mean.df, start=minv, end=maxv) }
+        else if(type == "genes") { genes.mean.plot(mean.df, start=minv, end=maxv) }
     ggsave(opdf, plot=p, width = 6, height = 4, units = "in")
   }
 }
 
 args = commandArgs(trailingOnly=TRUE)
 if(length(args) == 2){
-    var.plot(csvfn=args[1], opdf=args[2])
+    mean.plot(csvfn=args[1], opdf=args[2])
 } else if(length(args) == 3){
-    var.plot(csvfn=args[1], opdf=args[2], type=args[3])
+    mean.plot(csvfn=args[1], opdf=args[2], type=args[3])
 } else {
-   print("Usage: Rscript var_plot.R <INFILE> <OUT_PLOT>")
+   print("Usage: Rscript mean_plot.R <INFILE> <OUT_PLOT>")
 }
