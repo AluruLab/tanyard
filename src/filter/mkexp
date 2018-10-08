@@ -7,7 +7,7 @@ fi
 
 
 csv2exp=./csv2exp
-probe2id=/local/.DATA/sysbio/ATH1-Annotation/affy_ATH1_probe-id.txt
+probe2id=../../data/annotation/probe2idv2.20180920.tsv
 if [ "$#" -gt 2 ]; then
  if [ $2 != "-" ]; then
   csv2exp=$2

@@ -30,6 +30,10 @@ Step 11 - IQR filtering
 
     Rscript iqr_filter.R <IN_CSV> <OUT_CSV> <IQR>
 
-Step 12 - Expression file generation
 
+Step 12 - Make exp clean ht
+
+    make
+
+Step 13 - Expression file generation
     ./mkexp <IN_CSV>

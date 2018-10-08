@@ -79,9 +79,10 @@ genes.iqr.plot <- function(gene.summary, start.limit = 2000,
     ggplot(gene.summary) +
         stat_bin(data = gene.summary, binwidth = 0.01,
                  aes(x = iqr, y = 22810 - cumsum(..count..)), geom = "step") +
+        xlab("IQR") +
+        ylab("# Selected Genes") +
         scale_x_continuous(limits = c(0,2)) +
-        scale_y_continuous(limits = c(start.limit, max.limit)) +
-        theme_bw()
+        scale_y_continuous(limits = c(start.limit, max.limit)) # + theme_bw()
 }
 
 make.iqr.plot <- function(iqr.df,
@@ -113,8 +114,8 @@ columns.iqr.bar <- function(iqr.val,
 iqr.bar.plot <- function(iqr.df, delta=-0.075, binwidth=0.05,
                          start=0.225, end=1.225, width=0.02){
     #tx.cdf <-  iqr.df[iqr.df$class==cls.name, ]
-    tx.df <- iqr.deriv.df(iqr.df, binwidth=binwidth, start=start,
-                          end=end)
+    tx.df <- if("freq" %in% colnames(iqr.df)) { iqr.df }
+             else { iqr.deriv.df(iqr.df, binwidth=binwidth, start=start, end=end) }
     tx.df$iqr = tx.df$iqr + delta
     tx.xlabel = paste("IQR (± ", binwidth/2, ")", sep ="")
     ggplot(data=tx.df[tx.df$iqr > 0.1, ], aes(x=iqr, y=freq)) +
@@ -127,8 +128,8 @@ iqr.bar.plot <- function(iqr.df, delta=-0.075, binwidth=0.05,
 iqr.line.plot <- function(iqr.df, delta=-0.075, binwidth=0.05,
                          start=0.225, end=1.225){
     #tx.cdf <-  iqr.df[iqr.df$class==cls.name, ]
-    tx.df <- iqr.deriv.df(iqr.df, binwidth=binwidth, start=start,
-                          end=end)
+    tx.df <- if("freq" %in% colnames(iqr.df)) { iqr.df }
+             else { iqr.deriv.df(iqr.df, binwidth=binwidth, start=start, end=end) }
     tx.df$iqr = tx.df$iqr + delta
     tx.xlabel = paste("IQR (± ", binwidth/2, ")", sep ="")
     ggplot(data=tx.df[tx.df$freq > 0, ], aes(x=iqr, y=freq)) +
@@ -140,6 +141,8 @@ iqr.line.plot <- function(iqr.df, delta=-0.075, binwidth=0.05,
 
 iqr.freq.plot <- function(iqr.df, binwidth=0.025,
                           start=0.225, end=1.25, width=0.02){
+  iqr.df = if("freq" %in% colnames(iqr.df)) { iqr.df }
+           else { iqr.deriv.df(iqr.df, binwidth=binwidth, start=start, end=end) }
   tx.df = iqr.df[iqr.df$iqr <= end, ]
   tx.xlabel = paste("IQR (± ", binwidth/2, ")", sep ="")
   ggplot(data=tx.df[tx.df$iqr > 0.27, ], aes(x=iqr, y=freq)) +
@@ -148,22 +151,24 @@ iqr.freq.plot <- function(iqr.df, binwidth=0.025,
     ylab("No. of Genes")
 }
 
-iqr.plot <- function(csvfn, opdf, type = "bar"){
+iqr.plot <- function(csvfn, opdf, type = "bar", ... ){
   eqdat = read.table(csvfn, row.names = 1, head = T)
   eqmat = as.matrix(eqdat)
-  gsum = genes.iqr(eqmat)
+  iqr.df = genes.iqr(eqmat)
+  #iqr.df = iqr.deriv.df(gsum, ...)
   if(type == "all"){
-    p1 = iqr.bar.plot(gsum) 
-    p2 = iqr.line.plot(gsum) 
-    p3 = iqr.freq.plot(gsum) 
-    p4 = genes.iqr.plot(gsum) 
+    p1 = iqr.bar.plot(iqr.df) 
+    p2 = iqr.line.plot(iqr.df) 
+    p3 = iqr.freq.plot(iqr.df) 
+    p4 = genes.iqr.plot(iqr.df) 
     pdf(file=opdf)
     multiplot(p1,p2,p3,p4, cols =2)
     dev.off()
   } else {
-    p = if(type == "bar"){ iqr.bar.plot(gsum) }
-        else if(type == "line") { iqr.line.plot(gsum) }
-        else if(type == "freq") { iqr.freq.plot(gsum) }
+    p = if(type == "bar"){ iqr.bar.plot(iqr.df) }
+        else if(type == "line") { iqr.line.plot(iqr.df) }
+        else if(type == "freq") { iqr.freq.plot(iqr.df) }
+        else if(type == "genes") { genes.iqr.plot(iqr.df) }
     ggsave(opdf, plot=p, width = 6, height = 4, units = "in")
   }
 }
