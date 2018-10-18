@@ -1,18 +1,17 @@
 #!/bin/bash
 
 if [ "$#" -lt 3 ]; then
-     echo "Usage: links <EXP_DIR> <TISSUE1> <TISSUE2> ..."
+     echo "Usage: links <EXP_DIR> <TISSUE1_DIR> <TISSUE2_DIR> ..."
      exit 0
 fi
 
 mkdir -p $1/FINAL
 
-
-for tx in ${*:2}; do
+for tx in ${*:2} ; do
     tmpfy=`mktemp`
     echo $tmpfy
     cat ${tx}/QC/final-list.csv | cut -d, -f1 | uniq -d -c | grep -v " 2 " | sort -n |  cut -d'"' -f 2 | sort > $tmpfy
-    for i in ${tx}/CEL/*; do
+    for i in ${tx}/CEL/* ; do
         d=`basename $i`
         list1=`grep $d $tmpfy`
         #echo $list1
