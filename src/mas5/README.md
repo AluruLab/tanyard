@@ -14,7 +14,7 @@ Final list of files are in the folders(s)
     <EXP_DIR>/FINAL/<ACCESS_NAME_DIR>/<SOFT_LINK_TO_CEL_FILES>
 
 All scripts take the <EXP_DIR> as input; 
-Assumes that QC is completed and links are created.
+Assumes that QC is completed and links are created FINAL directory.
 
 TINGe Normalization Steps:
 ==========================
@@ -25,5 +25,5 @@ Step 2 - MAS-5
 
 Step 3 - Log2 mean adjustment
 
-    ./submean2 <FINAL_DIR>
+    ./submean2 <EXP_DIR>
 

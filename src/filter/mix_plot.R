@@ -106,7 +106,7 @@ if(length(args) == 2){
     multiplot(p1,p2, cols = 1)
     dev.off()
 } else {
-   print("Usage: Rscript mix_plot.R <INFILE_PREFIX> <OUT_PLOT>")
+   print("Usage: Rscript mix_plot.R <INFILE> <OUT_PLOT>")
 }
 
 #mod3 = densityMclust(gsm$var, G=1:3)
