@@ -33,12 +33,12 @@ mixt_filter_subset = function(infile, outfile,
 
 mixt_filter_sample = function(infile, outfile, 
                               nsample=20,
-                              start = 500, slab = 500){
+                              start = 1000, slab = 200){
     M = read.table(infile, head=T, row.names=1)
     #print()
     nsizes = rev(seq(start, dim(M)[2], by=slab))
     #ngenes = rep(0, length(nsizes))
-    ngenes = matrix(0, nrow = nsizes, ncol = nsample)
+    ngenes = matrix(0, nrow = length(nsizes), ncol = nsample)
     for(x in (1:length(nsizes))){
         for(y in (1:nsample)){
             sx = sample(1:dim(M)[2], nsizes[x])
