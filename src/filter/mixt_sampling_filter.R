@@ -63,6 +63,13 @@ if(length(args) == 2){
     mixt_filter_sample(infile=args[1],
                        outfile=args[2], 
                        nsample=as.numeric(args[3]))
+
+} else if(length(args) == 5){
+    mixt_filter_sample(infile=args[1],
+                       outfile=args[2], 
+                       nsample=as.numeric(args[3]),
+                       start=as.numeric(args[4]),
+                       slab=as.numeric(args[5]))
 } else {
    print("Usage: Rscript mixt_sampling_filter.R <INFILE> <OUTFILE> [<NSAMPLES>]")
 }

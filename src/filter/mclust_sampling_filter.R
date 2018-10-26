@@ -7,16 +7,18 @@ l2variance = function(eqdat){
     gsm
 }
 
+
 select_genes = function(eqdat, nk=3){
     gsm = l2variance(eqdat)
-    modx = densityMclust(gsm$var, G=(1:nk))
+    #modx = densityMclust(gsm$var, G=(1:nk))
+    modx = Mclust(gsm$var, G=(1:nk))
     rjmu = which.min(modx$parameters$mean)
     Midx = which(modx$classification != rjmu)
     Midx
 }
 
 mclust_filter_subset = function(infile, outfile, 
-                       start = 500, slab = 500){
+                       start = 1000, slab = 500){
     M = read.table(infile, head=T, row.names=1)
     #print()
     nsizes = rev(seq(start, dim(M)[2], by=slab))
