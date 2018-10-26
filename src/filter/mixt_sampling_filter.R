@@ -33,17 +33,26 @@ mixt_filter_subset = function(infile, outfile,
 
 mixt_filter_sample = function(infile, outfile, 
                               nsample=20,
-                              start = 1000, slab = 200){
+                              start = 1000,
+                              slab = 200,
+                              ntop = 5){
+    outdir = dirname(outfile)
     M = read.table(infile, head=T, row.names=1)
     #print()
     nsizes = rev(seq(start, dim(M)[2], by=slab))
     #ngenes = rep(0, length(nsizes))
+    topx = matrix(0, nrow = ntop + 1, ncol = dim(M)[1] + 1)
     ngenes = matrix(0, nrow = length(nsizes), ncol = nsample)
     for(x in (1:length(nsizes))){
         for(y in (1:nsample)){
             sx = sample(1:dim(M)[2], nsizes[x])
             Midx = select_genes(M[, sx])
             ngenes[x, y] = length(Midx)
+            # update best ntop
+            topx[ntop + 1, 1:(1 + length(Midx))] = c(length(Midx), Midx)
+            rsel = rank(topx[,1], ties.method="last") < (1 + ntop)
+            topx[1:ntop, ] = topx[rsel, ]
+            topx[ntop+1, ] = 0
         }
         print(c(nsizes[x], summary(ngenes[x,])))
         M =  M[, 1:nsizes[x]]
@@ -53,23 +62,30 @@ mixt_filter_sample = function(infile, outfile,
     )
     mdf$data = nsizes
     write.table(file=outfile, mdf, sep="\t", quote=F)
+    toutf = paste(outdir,
+                  paste("mixt-top-", x, ".csv", sep=""),
+                  sep="/")
+    write.table(file=toutf, topx, sep="\t")
 }
 
 args = commandArgs(trailingOnly=TRUE)
 if(length(args) == 2){
+    ofile = paste(args[2], "mixt-samples.csv", sep="/")
     mixt_filter_subset(infile=args[1],
-                       outfile=args[2])
+                       outfile=ofile)
 } else if(length(args) == 3){
+    ofile = paste(args[2], "mixt-samples.csv", sep="/")
     mixt_filter_sample(infile=args[1],
-                       outfile=args[2], 
+                       outfile=ofile, 
                        nsample=as.numeric(args[3]))
 
 } else if(length(args) == 5){
+    ofile = paste(args[2], "mixt-samples.csv", sep="/")
     mixt_filter_sample(infile=args[1],
-                       outfile=args[2], 
+                       outfile=ofile, 
                        nsample=as.numeric(args[3]),
                        start=as.numeric(args[4]),
                        slab=as.numeric(args[5]))
 } else {
-   print("Usage: Rscript mixt_sampling_filter.R <INFILE> <OUTFILE> [<NSAMPLES>]")
+   print("Usage: Rscript mixt_sampling_filter.R <INFILE> <OUTDIR> [<NSAMPLES>] [<START> <SLAB>]")
 }
