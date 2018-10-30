@@ -25,15 +25,38 @@ mixt_ngenes = c(
 "wholeplant"=15414
 )
 
+mixt.table = function(infile, tissue){
+    lx = read.table(infile, sep="\t")
+    lx
+}
+
+mixt.melt.table = function(infile, tissue) {
+    lx = read.table(infile, sep="\t")
+    ncols = dim(lx)[2]
+    lx = lx[,1:(ncols - 6)] 
+    nsamples = dim(lx)[2] - 1
+    tx = data.frame(t(c(ndata[tissue],
+                        mixt_ngenes[tissue],
+                        rep(NA, nsamples - 1))))
+    colnames(tx) = c("data", paste("S", 1:nsamples, sep="."))
+    lx = rbind(lx,tx)
+    lx$data = factor(lx$data)
+    mlx = melt(lx, value.name="ngenes")
+    mlx = mlx[!is.na(mlx$ngenes), ]
+    mlx
+}
+
 
 mixt.plot = function(infile, opdf, tissue) {
     print(sum(ndata))
     lx = read.table(infile, sep="\t")
-    lx = lx[,c(27, 1:20)] 
+    ncols = dim(lx)[2]
+    lx = lx[,1:(ncols - 6)] 
+    nsamples = dim(lx)[2] - 1
     tx = data.frame(t(c(ndata[tissue],
                         mixt_ngenes[tissue],
-                        rep(NA, 19))))
-    colnames(tx) = c("data", paste("V", 1:20, sep=""))
+                        rep(NA, nsamples - 1))))
+    colnames(tx) = c("data", paste("S", 1:nsamples, sep="."))
     lx = rbind(lx,tx)
     lx$data = factor(lx$data)
     mlx = melt(lx, value.name="ngenes")
