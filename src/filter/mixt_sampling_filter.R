@@ -1,11 +1,13 @@
 library(mixtools)
 library(doParallel)
-dp.ncores = 25
+dp.ncores = 1
 mixt_filter_sample = function(infile, outfile, 
                               nsample=20,
                               start = 1000,
                               slab = 200,
-                              ntop = 10){
+                              ntop = 10,
+                              end = NA) {
+ mx.maxit = 4000
 
  l2variance = function(eqdat){
     gvar = apply(eqdat, 1, var)
@@ -16,7 +18,7 @@ mixt_filter_sample = function(infile, outfile,
 
  select_genes = function(eqdat, nk=3){
     gsm = l2variance(eqdat)
-    emrk = normalmixEM(gsm$var, k=nk, maxit=2500)
+    emrk = normalmixEM(gsm$var, k=nk, maxit=4000)
     rjmu = which.min(emrk$mu)
     Midx = which(max.col(emrk$posterior) != rjmu)
     Midx
@@ -43,8 +45,7 @@ mixt_filter_sample = function(infile, outfile,
     dim(M)
  }
 
-
-  mixt_sample = function(M, nsz, ntop, nsample, outdir) {
+ mixt_sample = function(M, nsz, ntop, nsample, outdir) {
    dM = dim(M)
    topx = matrix(0, nrow = ntop + 1, ncol = dM[1] + 1)
    ngenes = rep(0, nsample)
@@ -66,10 +67,15 @@ mixt_filter_sample = function(infile, outfile,
    names(ngenes) = paste("S", 1:length(ngenes))
    c(data = nsz, ngenes, summary(ngenes))
  }
+
+
     outdir = dirname(outfile)
     M = read.table(infile, head=T, row.names=1)
     dM = dim(M)
-    nsizes = rev(seq(start, dM[2], by=slab))
+    nsizes = rev(seq(from=start, 
+                     to=if(is.na(end)){dM[2]}else{end},
+                     by=slab))
+    print(nsizes)
     ngenes = matrix(0, nrow = length(nsizes), ncol = nsample)
     # for(x in (1:length(nsizes)))
     cl = makeCluster(dp.ncores)
@@ -84,37 +90,38 @@ mixt_filter_sample = function(infile, outfile,
 }
 
 args = commandArgs(trailingOnly=TRUE)
-if(length(args) == 2){
-    ofile = paste(args[2], "mixt-samples.csv", sep="/")
-    mixt_filter_subset(infile=args[1],
-                       outfile=ofile)
-} else if(length(args) == 3){
-    ofile = paste(args[2], "mixt-samples.csv", sep="/")
+ofile = if(length(args) > 2) { paste(args[2], "mixt-samples.csv", sep="/") } else {NA}
+if(length(args) == 3){
     mixt_filter_sample(infile=args[1],
                        outfile=ofile, 
                        nsample=as.numeric(args[3]))
 
 } else if(length(args) == 4){
-    ofile = paste(args[2], "mixt-samples.csv", sep="/")
     mixt_filter_sample(infile=args[1],
                        outfile=ofile, 
                        nsample=as.numeric(args[3]),
                        start=as.numeric(args[4]))
 } else if(length(args) == 5){
-    ofile = paste(args[2], "mixt-samples.csv", sep="/")
     mixt_filter_sample(infile=args[1],
                        outfile=ofile, 
                        nsample=as.numeric(args[3]),
                        start=as.numeric(args[4]),
                        slab=as.numeric(args[5]))
 } else if(length(args) == 6){
-    ofile = paste(args[2], "mixt-samples.csv", sep="/")
     mixt_filter_sample(infile=args[1],
                        outfile=ofile, 
                        nsample=as.numeric(args[3]),
                        start=as.numeric(args[4]),
                        slab=as.numeric(args[5]),
                        ntop=as.numeric(args[6]))
+} else if(length(args) == 7){
+    mixt_filter_sample(infile=args[1],
+                       outfile=ofile, 
+                       nsample=as.numeric(args[3]),
+                       start=as.numeric(args[4]),
+                       slab=as.numeric(args[5]),
+                       ntop=as.numeric(args[6]),
+                       end=as.numeric(args[7]))
 } else {
-   print("Usage: Rscript mixt_sampling_filter.R <INFILE> <OUTDIR> [<NSAMPLES> <START> <SLAB> <NTOP>]")
+   print("Usage: Rscript mixt_sampling_filter.R <INFILE> <OUTDIR> [<NSAMPLES> <START> <SLAB> <NTOP> <END>]")
 }
