@@ -9,10 +9,11 @@ l2variance = function(eqdat){
     gsm
 }
 
-mixt_filter = function(infile, outfile){
+mixt_filter = function(infile, outfile, nk=3){
     M = read.table(infile, head=T, row.names=1)
     gsm = l2variance(M)
-    emrk = normalmixEM(gsm$var, k=3)
+    #emrk = normalmixEM(gsm$var, k=3)
+    emrk = normalmixEM(gsm$var, k=nk, maxit=4000)
     rjmu = which.min(emrk$mu)
     Midx = which(max.col(emrk$posterior) != rjmu)
     print(length(Midx))

@@ -1,6 +1,6 @@
 library(mixtools)
 library(doParallel)
-dp.ncores = 1
+dp.ncores = 26
 mixt_filter_sample = function(infile, outfile, 
                               nsample=20,
                               start = 1000,
@@ -47,14 +47,14 @@ mixt_filter_sample = function(infile, outfile,
 
  mixt_sample = function(M, nsz, ntop, nsample, outdir) {
    dM = dim(M)
-   topx = matrix(0, nrow = ntop + 1, ncol = dM[1] + 1)
+   topx = matrix(0, nrow = ntop + 1, ncol = dM[1] + 1 + dM[2] + 1)
    ngenes = rep(0, nsample)
    for(y in (1:nsample)) {
         sx = sample(1:dM[2], nsz)
         Midx = select_genes(M[, sx])
         ngenes[y] = length(Midx)
         # update best ntop
-        topx[ntop + 1, 1:(1 + length(Midx))] = c(length(Midx), Midx)
+        topx[ntop + 1, 1:(1 + length(Midx) + 1 + length(sx))] = c(length(Midx), Midx, length(sx), sx)
         rsel = (rank(t(topx[,1]), ties.method="last") > 1)
         topx[1:ntop, ] = topx[rsel, ]
         topx[ntop+1, ] = 0
@@ -90,7 +90,8 @@ mixt_filter_sample = function(infile, outfile,
 }
 
 args = commandArgs(trailingOnly=TRUE)
-ofile = if(length(args) > 2) { paste(args[2], "mixt-samples.csv", sep="/") } else {NA}
+#ofile = if(length(args) > 2) { paste(args[2], "mixt-samples.csv", sep="/") } else {NA}
+ofile = if(length(args) > 2) { args[2] } else {NA}
 if(length(args) == 3){
     mixt_filter_sample(infile=args[1],
                        outfile=ofile, 
