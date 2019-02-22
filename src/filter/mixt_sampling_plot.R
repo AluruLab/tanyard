@@ -59,19 +59,21 @@ ndata = c(
 "seedling1wk"=2834,
 "seedling2wk"=1841,
 "shoot"=1644,
-"wholeplant"=1017
+"wholeplant"=1017,
+"complete"=16838
 )
 
 mixt_ngenes = c(
-"flower"=16165,
-"leaf"=16279,
-"root"=15689,
-"rosette"=15225,
-"seed"=15668,
-"seedling1wk"=15345,
-"seedling2wk"=14114,
-"shoot"=15178,
-"wholeplant"=15414
+"flower"=16335,  # 16165,
+"leaf"=16459, #16279,
+"root"=15853, #15689,
+"rosette"=15387, #15225,
+"seed"=15836, #15668,
+"seedling1wk"=15503, #15345,
+"seedling2wk"=14255, #14114,
+"shoot"=15344, #15178,
+"wholeplant"=15567, #15414
+"complete"=16366
 )
 
 mixt.table = function(infile, tissue){
@@ -86,8 +88,8 @@ mixt.melt.table = function(infile, tissue,
     lx = lx[,1:(ncols - 6)] 
     nsamples = dim(lx)[2] - 1
     tx = data.frame(t(c(ndata[tissue],
-                        mixt_ngenes[tissue],
-                        rep(NA, nsamples - 1))))
+                    mixt_ngenes[tissue],
+                    rep(NA, nsamples - 1))))
     colnames(tx) = c("data", paste("S", 1:nsamples, sep="."))
     lx = rbind(lx,tx)
     lx$data = factor(lx$data)
@@ -98,7 +100,7 @@ mixt.melt.table = function(infile, tissue,
     mlx[, c("data", "ngenes")]
 }
 
-mixt.melt.summary = function(infile, tissue,
+mixt.melt.summary = function(infile, tissue, 
                              upth = 20000, dwth = 12000) {
     tx = mixt.melt.table(infile, tissue, upth, dwth) %>% 
             group_by(data) %>% 
@@ -110,9 +112,10 @@ mixt.melt.summary = function(infile, tissue,
     tx
 }
 
-mixt.summary.plot = function(infile, tissue){
+mixt.summary.plot = function(infile, tissue, fullpt=TRUE){
     tx = mixt.melt.summary(infile, tissue)
-    ggplot(data=tx[tx$data < max(tx$data),], aes(x=data)) +
+    if(fullpt) {
+      ggplot(data=tx[tx$data < max(tx$data),], aes(x=data)) +
         geom_point(aes(y=median, color="median")) +
         geom_smooth(aes(y=median, color="median")) + 
         geom_smooth(aes(y=mean, color="mean")) +
@@ -120,6 +123,14 @@ mixt.summary.plot = function(infile, tissue){
         annotate("point", x = ndata[tissue], 
                  y = mixt_ngenes[tissue]) +
         theme(legend.position="bottom")
+    } else {
+      ggplot(data=tx[tx$data < max(tx$data),], aes(x=data)) +
+        geom_point(aes(y=median, color="median")) +
+        geom_smooth(aes(y=median, color="median")) + 
+        geom_smooth(aes(y=mean, color="mean")) +
+        geom_point(aes(y=mean, color="mean")) + 
+        theme(legend.position="bottom")
+    }
 }
 
 mixt.boxplot = function(infile, tissue,
@@ -130,9 +141,9 @@ mixt.boxplot = function(infile, tissue,
         theme(axis.text.x = element_text(angle = 90))
 }
 
-mixt.full.plot = function(infile, opdf, tissue) {
+mixt.full.plot = function(infile, opdf, tissue, fullpt) {
     p1 = mixt.boxplot(infile, tissue)
-    p2 = mixt.summary.plot(infile, tissue)
+    p2 = mixt.summary.plot(infile, tissue, fullpt)
     # tx = mixt.melt.summary(infile, tissue)
     # p2 = ggplot(data=tx[tx$data < max(tx$data),], 
     #             aes(x=data)) +
@@ -163,7 +174,9 @@ args = commandArgs(trailingOnly=TRUE)
 if(length(args) == 3){
     mixt.plot(infile=args[1], opdf=args[2], tissue=args[3])
 } else if(length(args) == 4){
-    mixt.full.plot(infile=args[1], opdf=args[2], tissue=args[3])
+    mixt.full.plot(infile=args[1], opdf=args[2], tissue=args[3], fullpt=TRUE)
+} else if(length(args) == 5){
+    mixt.full.plot(infile=args[1], opdf=args[2], tissue=args[3], fullpt=FALSE)
 } else {
    print("Usage: Rscript mix_sampling_plot.R <INFILE> <OUT_PLOT> <TISSUE>")
 }
