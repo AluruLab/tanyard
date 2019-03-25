@@ -6,11 +6,14 @@ from data_utils import load_annotation, load_reveng_network, load_gsnetwork, map
 
 def eval_network(annot_file, net_file, gs_file, max_dist):
     annot_df = load_annotation(annot_file)
-    rv_net = load_reveng_network(net_file)
     gs_net = map_probes(load_gsnetwork(gs_file), annot_df)
-    rv_net_graph = nx.from_pandas_edgelist(rv_net, edge_attr='wt')
     gs_nedges = gs_net.shape[0]
     gs_nodes = set(gs_net.TFPROBE) | set(gs_net.TARGETPROBE)
+    rv_net = load_reveng_network(net_file)
+    rv_net_nodes = set(rv_net.source) | set(rv_net.target)
+    rv_common_nodes = sum((1 if x in rv_net_nodes else 0 for x in gs_nodes))
+    rv_net_graph = nx.from_pandas_edgelist(rv_net, edge_attr='wt')
+    gs_common_nodes = sum((1 if x in rv_net_graph else 0 for x in gs_nodes))
     gs_common_nodes = sum((1 if x in rv_net_graph else 0 for x in gs_nodes))
     gs_common_edges = sum((1 if (x in rv_net_graph and y in rv_net_graph) else 0 
                            for x,y in zip(gs_net.TFPROBE, gs_net.TARGETPROBE)))
@@ -28,6 +31,7 @@ def eval_network(annot_file, net_file, gs_file, max_dist):
                                            'DPCTY'  : [float(x)*100/gs_common_edges for x in dist_histogram],
                                            'GSNDS'  : [len(gs_nodes) for _ in range(max_dist+1)],
                                            'GSEDG'  : [gs_nedges for _ in range(max_dist+1)],
+                                           'RVRVN'  : [rv_common_nodes for _ in range(max_dist+1)],
                                            'GSRVN'  : [gs_common_nodes for _ in range(max_dist+1)],
                                            'GSRVE'  : [gs_common_edges for _ in range(max_dist+1)]})
     print(dist_histogram_df)

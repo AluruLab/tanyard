@@ -11,12 +11,12 @@ def common_network(annot_file, gs_file, network_files):
     common_df = None
     for net_file in network_files:
         rv_net = load_reveng_network(net_file)
-        rv_net_nodes = set(rv_net.source) | set(rv_net.source)
+        rv_net_nodes = set(rv_net.source) | set(rv_net.target)
         if common_df is None or common_df.shape[0] == 0:
-            common_df = gs_net.loc[(gs_net.TFPROBE in rv_net_nodes) & (gs_net.TARGETPROBE in rv_net_nodes) , :]
+            common_df = gs_net.loc[(gs_net.TFPROBE.isin(rv_net_nodes)) & (gs_net.TARGETPROBE.isin(rv_net_nodes)) , :]
         else:
-            common_df = common_df.loc[(common_df.TFPROBE in rv_net_nodes) & (common_df.TARGETPROBE in rv_net_nodes) , :]
-    print(common_df.shape)
+            common_df = common_df.loc[(common_df.TFPROBE.isin(rv_net_nodes)) & (common_df.TARGETPROBE.isin(rv_net_nodes)) , :]
+    return common_df.loc[:, ['TF', 'TARGET']]
 
 
 if __name__ == "__main__":
@@ -27,5 +27,8 @@ if __name__ == "__main__":
         help="gold standard network (tab seperated file of TF-TARGET interactions)")
     parser.add_argument("network_files", nargs="+",
         help="network build from a reverse engineering methods (currenlty supported: eda)")
+    parser.add_argument("-o", "--out_file", type=str,
+                        help="output_file")
     args = parser.parse_args()
-    common_network(args.annotation_file, args.gs_network_file, args.network_files)
+    common_df = common_network(args.annotation_file, args.gs_network_file, args.network_files)
+    common_df.to_csv(args.out_file, sep='\t', index=False)
