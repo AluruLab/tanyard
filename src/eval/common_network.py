@@ -28,7 +28,7 @@ if __name__ == "__main__":
     parser.add_argument("network_files", nargs="+",
         help="network build from a reverse engineering methods (currenlty supported: eda)")
     parser.add_argument("-o", "--out_file", type=str,
-                        help="output_file")
+                        help="output file in tab-seperated format")
     args = parser.parse_args()
     common_df = common_network(args.annotation_file, args.gs_network_file, args.network_files)
     common_df.to_csv(args.out_file, sep='\t', index=False)
