@@ -35,11 +35,11 @@ def load_reveng_network(net_file):
         return load_eda_network(net_file)
     return None
 
-def map_probes(gs_net, annot_df):
+def map_probes(gs_net, annot_df, how_join='inner'):
     annot_filter_df = annot_df.loc[annot_df.ID != 'no_match', :]
-    gs_net_mapped = gs_net.merge(annot_filter_df, left_on='TF', right_on='ID')
+    gs_net_mapped = gs_net.merge(annot_filter_df, left_on='TF', right_on='ID', how=how_join)
     gs_net_mapped.columns = ['TF', 'TARGET', 'TFID', 'TFPROBE']
     gs_net_mapped = gs_net_mapped.merge(annot_filter_df, left_on='TARGET',
-                                        right_on='ID')
+                                        right_on='ID', how=how_join)
     gs_net_mapped.columns = ['TF', 'TARGET', 'TFID', 'TFPROBE', 'TARGETID', 'TARGETPROBE']
     return gs_net_mapped
