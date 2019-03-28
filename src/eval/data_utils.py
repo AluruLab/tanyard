@@ -31,10 +31,11 @@ def load_gsnetwork(gs_file):
     """
     TAB seperated file w. header TF,TARGET
     """
-    return pd.read_csv(gs_file, sep="\t")
+    tdf = pd.read_csv(gs_file, sep="\t")
+    return tdf.loc[tdf.TF != tdf.TARGET, :]
 
 
-def load_eda_network(eda_file):
+def load_eda_network(eda_file, wt_attr_name='wt'):
     """
     Load network from eda file. Eda file lists the edges in the following format
 
@@ -45,12 +46,20 @@ def load_eda_network(eda_file):
 
     """
     tmp_df =  pd.read_csv(eda_file, sep=' ', usecols=[0,2,4], skiprows=[0],
-                          names=['source','target','wt'] )
-    tmp_rcds = [(x, y, z) if x < y else (y, x, z) for x, y, z in tmp_df.to_records()]
-    return pd.DataFrame(tmp_rcds, columns=['source','target','wt'])
+                          names=['source','target', wt_attr_name] )
+    tmp_rcds = [(x, y, z) if x < y else (y, x, z) for x, y, z in tmp_df.to_dict('split')['data']]
+    return pd.DataFrame(tmp_rcds, columns=['source','target', wt_attr_name])
 
 
-def load_adj_network(adj_file, comments=["#", ">"], delimiter="\t"):
+def load_tsv_network(tsv_file, wt_attr_name='wt'):
+    """
+    Load network with a tsv file;
+    """
+    tmp_df =  pd.read_csv(tsv_file, sep='\t', header=0)
+    return tmp_df.loc[:, ['source', 'target', wt_attr_name]]
+
+
+def load_adj_network(adj_file, wt_attr_name='wt', comments=["#", ">"], delimiter="\t"):
     """
     Load network with adjacency list;
     Adjacency file lists the target lists for each source node:
@@ -72,14 +81,16 @@ def load_adj_network(adj_file, comments=["#", ">"], delimiter="\t"):
                 tgt_length = (len(vlist) - 1) / 2
                 edge_list.append([(vlist[0], vlist[2*ix+1], float(vlist[2*ix+2])) for ix in range(tgt_length)])
     edge_list = [(x, y, z) if x < y else (y, x, z) for x, y, z in edge_list]
-    return pd.DataFrame(edge_list, columns=['source','target','wt'])
+    return pd.DataFrame(edge_list, columns=['source','target', wt_attr_name])
 
 
-def load_reveng_network(net_file):
+def load_reveng_network(net_file, wt_attr_name='wt'):
     if net_file.endswith(".eda"):
-        return load_eda_network(net_file)
+        return load_eda_network(net_file, wt_attr_name)
     elif net_file.endswith(".adj"):
-        return load_adj_network(net_file)
+        return load_adj_network(net_file, wt_attr_name)
+    elif net_file.endswith(".tsv"):
+        return load_tsv_network(net_file, wt_attr_name)
     else:
         return None
 
