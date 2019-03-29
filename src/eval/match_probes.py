@@ -38,16 +38,20 @@ def match_network_probes(annot_file, gs_file):
 
 
 if __name__ == "__main__":
+    prog_desc = """
+    Given a gold standard network with AGI ids, 
+    Network intersection is computed as the intersection of edges of the input networks,
+    after mapping to the annotation.
+    """
     parser = argparse.ArgumentParser()
     parser.add_argument("annotation_file",
         help="annotation file (a tab seperated file) mapping probe to ids")
     parser.add_argument("gs_network_file",
         help="gold standard network (tab seperated file of TF-TARGET interactions)")
-    parser.add_argument("-o", "--out_file", type=str,
+    parser.add_argument("-o", "--out_file", type=argparse.FileType('w'), required=True,
                         help="output file in tab-seperated format")
     args = parser.parse_args()
     match_df = match_network_probes(args.annotation_file,
                                     args.gs_network_file)
     #print(len(set(match_df.PROBE)))
-    if args.out_file:
-        match_df.to_csv(args.out_file, sep='\t', index=False)
+    match_df.to_csv(args.out_file, sep='\t', index=False)

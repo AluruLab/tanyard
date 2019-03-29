@@ -1,3 +1,4 @@
+import argparse
 import pandas as pd
 import networkx as nx
 import argparse
@@ -8,22 +9,20 @@ def common_network(annot_file, gs_file, network_files):
     annot_df = load_annotation(annot_file)
     gsnet_df = load_gsnetwork(gs_file)
     gs_net = map_probes(gsnet_df, annot_df)
-    common_df = None
+    common_nodes = set(gs_net.TFPROBE) | set(gs_net.TARGETPROBE)
     for net_file in network_files:
         rv_net = load_reveng_network(net_file)
         rv_net_nodes = set(rv_net.source) | set(rv_net.target)
-        if common_df is None or common_df.shape[0] == 0:
-            common_df = gs_net.loc[(gs_net.TFPROBE.isin(rv_net_nodes)) & (gs_net.TARGETPROBE.isin(rv_net_nodes)) , :]
-        else:
-            common_df = common_df.loc[(common_df.TFPROBE.isin(rv_net_nodes)) & (common_df.TARGETPROBE.isin(rv_net_nodes)) , :]
+        common_nodes = common_nodes & rv_net_nodes
+    common_df = gs_net.loc[(gs_net.TFPROBE.isin(common_nodes)) & (gs_net.TARGETPROBE.isin(common_nodes)) , :]
     return common_df.loc[:, ['TF', 'TARGET']]
 
 
 if __name__ == "__main__":
     prog_desc = """
-    Finds a common gold standard network as the intersection of input networks.
-    Network intersection is computed as the intersection of edges of the input networks,
-    after mapping to the annotation.
+    Finds a common gold standard network as the intersection of input network nodes.
+    Network intersection is computed as the intersection of nodes of the input networks,
+    in common with the gold standard networks, after mapping to the annotation.
     """
     parser = argparse.ArgumentParser(description=prog_desc)
     parser.add_argument("annotation_file",

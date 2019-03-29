@@ -24,7 +24,6 @@ def eval_network(annot_file, net_file, gs_file, max_dist):
     rv_common_nodes = sum((1 if x in rv_net_nodes else 0 for x in gs_nodes))
     rv_net_graph = nx.from_pandas_edgelist(rv_net, edge_attr='wt')
     gs_common_nodes = sum((1 if x in rv_net_graph else 0 for x in gs_nodes))
-    gs_common_nodes = sum((1 if x in rv_net_graph else 0 for x in gs_nodes))
     gs_common_edges = sum((1 if (x in rv_net_graph and y in rv_net_graph) else 0 
                            for x,y in zip(gs_net.TFPROBE, gs_net.TARGETPROBE)))
     gs_spath = [shortest_path(rv_net_graph, x, y) 
@@ -44,16 +43,13 @@ def eval_network(annot_file, net_file, gs_file, max_dist):
                 for a, b in zip(x, x[1:]):
                     spath_graph.add_edge(a, b)
     dist_histogram_df = pd.DataFrame(data={'DIST'   : [x for x in range(max_dist+1)],
-                                           'CNT.'   : dist_histogram,
-                                           'DPCTX'  : [float(x)*100/gs_nedges for x in dist_histogram],
-                                           'DPCTY'  : [float(x)*100/gs_common_edges for x in dist_histogram],
-                                           'SPCT '  : [float(x)*100/gs_nedges for x in dist_histogram],
-                                           'GSNDS'  : [float(x)*100/spath_graph.number_of_edges() for x in dist_histogram],
-                                           'SPEDG'  : [spath_graph.number_of_edges() for _ in range(max_dist+1)],
-                                           'SPNDS'  : [spath_graph.number_of_nodes() for _ in range(max_dist+1)],
-                                           'GSEDG'  : [gs_nedges for _ in range(max_dist+1)],
-                                           'GSRVN'  : [gs_common_nodes for _ in range(max_dist+1)],
-                                           'GSRVE'  : [gs_common_edges for _ in range(max_dist+1)]
+                                           'EDGN'   : dist_histogram,
+                                           'PCTGS'  : [float(x)*100/gs_nedges for x in dist_histogram],
+                                           'PCTCM'  : [float(x)*100/gs_common_edges for x in dist_histogram],
+                                           'PCTSP'   : [float(x)*100/spath_graph.number_of_edges() for x in dist_histogram],
+                                           'GRSP' : [(spath_graph.number_of_nodes(), spath_graph.number_of_edges()) for _ in ra
+                                           'GRGS'  : [(len(gs_nodes), gs_nedges) for _ in range(max_dist+1)],
+                                           'GRCM'  : [(str(gs_common_nodes), str(gs_common_edges)) for _ in range(max_dist+1)]
                                      })
     print(dist_histogram_df)
     return dist_histogram_df

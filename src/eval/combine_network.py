@@ -16,12 +16,18 @@ def combine_network(network_files, network_names=None):
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser()
+    prog_desc = """
+    Finds a union of input networks.
+    Network union is computed as the union of edges of the input networks.
+    Outputs a tab-seperated values with weights corresponding to each network
+    in a sperate column, and maximum and average weight.
+    """
+    parser = argparse.ArgumentParser(description=prog_desc)
     parser.add_argument("network_files", nargs="+",
-        help="network build from a reverse engineering methods (currenlty supported: eda)")
+        help="network build from a reverse engineering methods (currenlty supported: eda, adj, tsv)")
     parser.add_argument("-n", "--network_names", type=str,
-                        help="names of the network")
-    parser.add_argument("-o", "--out_file", type=str,
+                        help="comma seperated names of the network; should have as many names as the number of networks")
+    parser.add_argument("-o", "--out_file", type=argparse.FileType(mode='w'), required=True,
                         help="output file in tab-seperated format")
     args = parser.parse_args()
     if args.network_names:
@@ -31,7 +37,7 @@ if __name__ == "__main__":
            combine_df = combine_network(network_files, network_names)
        else:
            print("Length of network names should be equal to length of network files")
+           parser.print_usage()
     else:
        combine_df = combine_network(args.network_files)
-    if args.out_file:
-        combine_df.to_csv(args.out_file, sep='\t', index=False)
+    combine_df.to_csv(args.out_file, sep='\t', index=False)
