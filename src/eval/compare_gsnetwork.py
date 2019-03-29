@@ -21,7 +21,6 @@ def eval_network(annot_file, net_file, gs_file, max_dist):
     gs_nodes = set(gs_net.TFPROBE) | set(gs_net.TARGETPROBE)
     rv_net = load_reveng_network(net_file)
     rv_net_nodes = set(rv_net.source) | set(rv_net.target)
-    rv_common_nodes = sum((1 if x in rv_net_nodes else 0 for x in gs_nodes))
     rv_net_graph = nx.from_pandas_edgelist(rv_net, edge_attr='wt')
     gs_common_nodes = sum((1 if x in rv_net_graph else 0 for x in gs_nodes))
     gs_common_edges = sum((1 if (x in rv_net_graph and y in rv_net_graph) else 0 
@@ -42,12 +41,12 @@ def eval_network(annot_file, net_file, gs_file, max_dist):
             if len(x) > 1:
                 for a, b in zip(x, x[1:]):
                     spath_graph.add_edge(a, b)
-    dist_histogram_df = pd.DataFrame(data={'DIST'   : [x for x in range(max_dist+1)],
-                                           'EDGN'   : dist_histogram,
-                                           'PCTGS'  : [float(x)*100/gs_nedges for x in dist_histogram],
-                                           'PCTCM'  : [float(x)*100/gs_common_edges for x in dist_histogram],
-                                           'PCTSP'   : [float(x)*100/spath_graph.number_of_edges() for x in dist_histogram],
-                                           'GRSP' : [(spath_graph.number_of_nodes(), spath_graph.number_of_edges()) for _ in ra
+    dist_histogram_df = pd.DataFrame(data={'DIST'  : [x for x in range(max_dist+1)],
+                                           'EDGN'  : dist_histogram,
+                                           'PCTGS' : [float(x)*100/gs_nedges for x in dist_histogram],
+                                           'PCTCM' : [float(x)*100/gs_common_edges for x in dist_histogram],
+                                           'PCTSP' : [float(x)*100/spath_graph.number_of_edges() for x in dist_histogram],
+                                           'GRSP'  : [(spath_graph.number_of_nodes(), spath_graph.number_of_edges()) for _ in range(max_dist+1)],
                                            'GRGS'  : [(len(gs_nodes), gs_nedges) for _ in range(max_dist+1)],
                                            'GRCM'  : [(str(gs_common_nodes), str(gs_common_edges)) for _ in range(max_dist+1)]
                                      })
