@@ -6,7 +6,6 @@ import download_utils as DU
 
 
 def update_nasc_status(celdf, data_dir):
-    ae_prefix_url = 'https://www.ebi.ac.uk/arrayexpress/files'
     rowid_lst = []
     series_lst = []
     sample_lst = []
