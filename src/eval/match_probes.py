@@ -1,30 +1,29 @@
-import pandas as pd
 import argparse
+import pandas as pd
 from data_utils import load_full_annotation, load_gsnetwork
 
-def match_columns(annot_df, atrmid):
+def match_columns(annot_df: pd.DataFrame, atrmid: str):
     tdf = annot_df.loc[
-            annot_df.TID.str.contains(atrmid, regex=False) |
-            annot_df.ID.str.contains(atrmid, regex=False) |
-            annot_df.AGI.str.contains(atrmid, regex=False) |
-            annot_df.UNIGENE.str.contains(atrmid, regex=False) |
-            annot_df.ENSEMBL.str.contains(atrmid, regex=False) , : ]
+        annot_df.TID.str.contains(atrmid, regex=False) |
+        annot_df.ID.str.contains(atrmid, regex=False) |
+        annot_df.AGI.str.contains(atrmid, regex=False) |
+        annot_df.UNIGENE.str.contains(atrmid, regex=False) |
+        annot_df.ENSEMBL.str.contains(atrmid, regex=False), : ]
     if not tdf.empty:
-        tdf['ATRMID'] = [ atrmid for _ in range(tdf.shape[0])]
+        tdf['ATRMID'] = [atrmid for _ in range(tdf.shape[0])]
         return tdf.loc[:, ['ATRMID', 'PROBE', 'TID', 'ID', 'AGI', 'ENSEMBL', 'UNIGENE']]
-    else:
-        return pd.DataFrame({
-            'ATRMID'  : [atrmid],
-            'PROBE'   : ['NO MATCH'],
-            'TID'     : ['NO MATCH'],
-            'ID'      : ['NO MATCH'],
-            'AGI'     : ['NO MATCH'],
-            'ENSEMBL' : ['NO MATCH'],
-            'UNIGENE' : ['NO MATCH']
-        })
+    return pd.DataFrame({
+        'ATRMID'  : [atrmid],
+        'PROBE'   : ['NO MATCH'],
+        'TID'     : ['NO MATCH'],
+        'ID'      : ['NO MATCH'],
+        'AGI'     : ['NO MATCH'],
+        'ENSEMBL' : ['NO MATCH'],
+        'UNIGENE' : ['NO MATCH']
+    })
 
 
-def match_network_probes(annot_file, gs_file):
+def match_network_probes(annot_file: str, gs_file: str):
     #def match_df(name)
     annot_df = load_full_annotation(annot_file)
     gsnet_df = load_gsnetwork(gs_file)
@@ -36,22 +35,24 @@ def match_network_probes(annot_file, gs_file):
     #print(pd.DataFrame(fdf))
     #rdf = grouped.apply()
 
-
-if __name__ == "__main__":
-    prog_desc = """
-    Given a gold standard network with AGI ids, 
-    Network intersection is computed as the intersection of edges of the input networks,
-    after mapping to the annotation.
-    """
-    parser = argparse.ArgumentParser()
-    parser.add_argument("annotation_file",
-        help="annotation file (a tab seperated file) mapping probe to ids")
-    parser.add_argument("gs_network_file",
-        help="gold standard network (tab seperated file of TF-TARGET interactions)")
-    parser.add_argument("-o", "--out_file", type=argparse.FileType('w'), required=True,
-                        help="output file in tab-seperated format")
-    args = parser.parse_args()
+def main(args):
     match_df = match_network_probes(args.annotation_file,
                                     args.gs_network_file)
     #print(len(set(match_df.PROBE)))
     match_df.to_csv(args.out_file, sep='\t', index=False)
+
+if __name__ == "__main__":
+    PROG_DESC = """
+    Given a gold standard network with AGI ids, find all the probes 
+    Network intersection is computed as the intersection of edges of the input networks,
+    after mapping to the annotation.
+    """
+    PARSER = argparse.ArgumentParser(description=PROG_DESC)
+    PARSER.add_argument("annotation_file",
+                        help="annotation file (a tab seperated file) mapping probe to ids")
+    PARSER.add_argument("gs_network_file",
+                        help="gold standard network (tab seperated file of TF-TARGET interactions)")
+    PARSER.add_argument("-o", "--out_file", type=argparse.FileType('w'), required=True,
+                        help="output file in tab-seperated format")
+    ARGS = PARSER.parse_args()
+    main(ARGS)

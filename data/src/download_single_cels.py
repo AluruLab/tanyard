@@ -5,10 +5,10 @@ import pandas as pd
 import download_utils as DU
 
 def get_cel_url(url_entry):
-    clist = url_entry.split(';') 
-    for x in clist:
-        if x.lower().endswith('.cel') or x.lower().endswith('cel.gz'):
-           return x.strip()
+    clist = url_entry.split(';')
+    for xurl in clist:
+        if xurl.lower().endswith('.cel') or xurl.lower().endswith('cel.gz'):
+            return xurl.strip()
     return ""
 
 
@@ -44,13 +44,13 @@ def download_single_cels(celdf, data_dir):
         rcode_lst.append(rcode)
         print(rid, dfrow.SeriesId, dfrow.SampleId, file_url, local_cel_file, rcode)
     return pd.DataFrame(data={
-        'RowId' : rowid_lst,'SeriesId' : series_lst,
+        'RowId' : rowid_lst, 'SeriesId' : series_lst,
         'SampleId' : sample_lst, 'SampleFile': url_lst,
         'SampleCEL' : file_lst, 'ReturnCode': rcode_lst
     })
 
-def print_classification(dx):
-    hsdf = dx.loc[DU.has_file, : ]
+def print_classification(dx_df):
+    hsdf = dx_df.loc[DU.has_file, : ]
     vxdf = hsdf.loc[DU.has_no_semicolon, : ]
     txdf = vxdf.loc[DU.ends_with_text, : ]
     ntxdf = vxdf.loc[DU.not_ends_with_text, : ]
@@ -76,17 +76,17 @@ def print_classification(dx):
             |- {} (HAS 2 CEL)
             |- {} (HAS 3 CEL)
             |- {} (HAS >3 CEL)""".format(
-            len(dx), len(dx.loc[DU.empty_file, : ]),
-            len(hsdf), len(vxdf), len(txdf), len(ntxdf), 
-            len(celtxdf), len(cel1txdf), len(hsmtxdf),
-            len(hsmlztxdf), len(hsmlotxdf), len(hsmlttxdf),
-            len(hsmlhtxdf), len(hsmlmtxdf))
+                len(dx_df), len(dx_df.loc[DU.empty_file, : ]),
+                len(hsdf), len(vxdf), len(txdf), len(ntxdf),
+                len(celtxdf), len(cel1txdf), len(hsmtxdf),
+                len(hsmlztxdf), len(hsmlotxdf), len(hsmlttxdf),
+                len(hsmlhtxdf), len(hsmlmtxdf))
 
 
 def main(in_file, data_dir, out_status_file):
-    dx = pd.read_csv(in_file, encoding = "ISO-8859-1")
-    print_classification(dx)
-    hsdf = dx.loc[DU.has_file, : ]
+    dx_df = pd.read_csv(in_file, encoding="ISO-8859-1")
+    print_classification(dx_df)
+    hsdf = dx_df.loc[DU.has_file, : ]
     vxdf = hsdf.loc[DU.has_no_semicolon, : ]
     ntxdf = vxdf.loc[DU.not_ends_with_text, : ]
     celtxdf = ntxdf.loc[DU.not_ends_with_text, : ]
@@ -104,9 +104,10 @@ def main(in_file, data_dir, out_status_file):
 
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser()
-    parser.add_argument("in_file")
-    parser.add_argument("data_dir")
-    parser.add_argument("out_status_file")
-    args = parser.parse_args()
-    main(args.in_file, args.data_dir, args.out_status_file)
+    PROG_DESC = """Download CEL files based on the data shee"""
+    PARSER = argparse.ArgumentParser(description=PROG_DESC)
+    PARSER.add_argument("in_file")
+    PARSER.add_argument("data_dir")
+    PARSER.add_argument("out_status_file")
+    ARGS = PARSER.parse_args()
+    main(ARGS.in_file, ARGS.data_dir, ARGS.out_status_file)

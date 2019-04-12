@@ -1,29 +1,35 @@
+"""
+Utilites for downloading CEL files
+"""
 import urllib
 import shutil
 import errno
 import os
 import os.path
-import argparse
-import requests
 import subprocess
+import requests
 import pandas as pd
 
-def last_of(in_txt, sub):
+def last_of(in_txt: str, sub: str):
+    "Identify the last occurence of sub in in_txt"
     return in_txt.rfind(sub)
 
-def second_last_of(in_txt, sub):
+def second_last_of(in_txt: str, sub: str):
+    "Identify the penultimate occurence of sub in in_txt"
     first_pos = last_of(in_txt, sub)
     if first_pos > 0:
         return in_txt[:first_pos].rfind(sub)
     return -1
 
-def third_last_of(in_txt, sub):
+def third_last_of(in_txt: str, sub: str):
+    "Identify the third from the last occurence of sub in in_txt"
     second_pos = second_last_of(in_txt, sub)
     if second_pos > 0:
         return in_txt[:second_pos].rfind(sub)
     return -1
 
-def make_dir_path(dir_path):
+def make_dir_path(dir_path: str):
+    "Make all the directories in a given path"
     try:
         if not os.path.exists(dir_path):
             os.makedirs(dir_path)
@@ -32,19 +38,24 @@ def make_dir_path(dir_path):
             raise
 
 
-def copy_file(source_file, dest_file):
+def copy_file(source_file: str, dest_file: str):
+    "Copy source_file to dest_file"
     dest_dir = os.path.dirname(dest_file)
     make_dir_path(dest_dir)
     return shutil.copy(source_file, dest_file)
 
 
-def download_http_file(url, local_filename):
+def download_http_file(url: str, local_filename: str):
+    """Download input http url file to local_filename;
+       Return status of http request"""
     req = requests.get(url, stream=True)
     with open(local_filename, 'wb') as outf:
         shutil.copyfileobj(req.raw, outf)
     return req.status_code
 
-def download_ftp_file(ftp_url, local_filename):
+def download_ftp_file(ftp_url: str, local_filename: str):
+    """Download input ftp url file to local_filename;
+       Return status of 550 if file not found, 200 otherwise"""
     try:
         urllib.request.urlretrieve(ftp_url, filename=local_filename)
     except urllib.error.URLError as uerr:
@@ -54,63 +65,77 @@ def download_ftp_file(ftp_url, local_filename):
         raise
     return 200
 
-def download_file(url, local_filename):
+def download_file(url: str, local_filename: str):
+    """Download input http/ftp url file to local_filename ;
+    Uses the requests for http; urllib for ftp"""
     if url.startswith('ftp'):
         return download_ftp_file(url, local_filename)
     return download_http_file(url, local_filename)
 
-def download_file_wget(url, local_filename):
-    rx = subprocess.run(["wget", url, "-nv", "-O", local_filename], stdout=subprocess.PIPE)
-    if rx == 0:
+def download_file_wget(url: str, local_filename: str):
+    """Download input htp/ftp url file to local_filename using wget.
+       Returns 200 with sucessful; 550 otherwise"""
+    r_code = subprocess.run(["wget", url, "-nv", "-O", local_filename],
+                            stdout=subprocess.PIPE)
+    if r_code == 0:
         return 200
     else:
         return 550
 
 def starts_with(pdf, attr_id, pfx_txt):
-    return pd.Series([True if x.startswith(pfx_txt) else False for x in pdf[attr_id]],
+    """Download input htp/ftp url file to local_filename using wget"""
+    return pd.Series([x.startswith(pfx_txt) for x in pdf[attr_id]],
                      index=pdf.index)
 
 def cel_count(clist):
+    """Counts the number of strings that ends with cel or cel.gz"""
     return len([x for x in clist if x.lower().endswith('.cel') or x.lower().endswith('cel.gz')])
 
-def empty_file(pdf):
-    return pd.Series([True if len(str(x)) < 5 else False for x in pdf.SampleFile])
+def empty_file(pdf: pd.DataFrame):
+    """Check if the SampleFile is empty
+    Returns a booolean column for the SampleFile column in pdf"""
+    return pd.Series([len(str(x)) < 5 for x in pdf.SampleFile])
 
 def has_file(pdf):
-    return pd.Series([True if len(str(x)) >= 5 else False for x in pdf.SampleFile],
+    """Check if the SampleFile is not an empty file
+    Return a boleean column for the SampleFile column in pdf data frame"""
+    return pd.Series([len(str(x)) >= 5 for x in pdf.SampleFile],
                      index=pdf.index)
 
 def has_semicolon(pdf):
-    return pd.Series([True if (';' in str(x)) else False for x in pdf.SampleFile],
+    """Check if the SampleFile has ';' (implies multiple CEL files)
+    Return a boleean column for the SampleFile column in pdf data frame"""
+    return pd.Series([(';' in str(x)) for x in pdf.SampleFile],
                      index=pdf.index)
 
 def has_no_semicolon(pdf):
-    return has_semicolon(pdf) == False
+    """Check if the SampleFile has no ';' (implies multiple CEL files)
+    Return a boleean column for the SampleFile column in pdf data frame"""
+    return not has_semicolon(pdf)
 
 def ends_with_text(pdf):
-    return pd.Series([True if str(x).endswith('txt') else False for x in pdf.SampleFile], 
+    return pd.Series([str(x).endswith('txt') for x in pdf.SampleFile],
                      index=pdf.index)
 
 def not_ends_with_text(pdf):
-    return ends_with_text(pdf) == False
+    return not ends_with_text(pdf)
 
 def contains_cel(pdf):
-    return pd.Series([True if 'cel' in x.lower() else False for x in pdf.SampleFile],
+    return pd.Series(['cel' in x.lower() for x in pdf.SampleFile],
                      index=pdf.index)
 
-def valid_cel(pdf):
+def valid_cel(pdf: pd.DataFrame):
     return pd.Series(
-        [True if x.lower().endswith('cel') or x.lower().endswith('cel.gz') else False for x in pdf.SampleFile],
+        [x.lower().endswith('cel') or x.lower().endswith('cel.gz') for x in pdf.SampleFile],
         index=pdf.index
     )
 
-def cel_count_eq_n(pdf, n):
+def cel_count_eq_n(pdf, n_files):
     return pd.Series(
-        [True if cel_count(x.split(';')) == n else False for x in pdf.SampleFile],
+        [cel_count(x.split(';')) == n_files for x in pdf.SampleFile],
         index=pdf.index)
 
-def cel_count_gt_n(df, n):
+def cel_count_gt_n(pdf, n_files):
     return pd.Series(
-        [True if cel_count(x.split(';')) > n else False for x in df.SampleFile],
-        index=df.index)
-
+        [cel_count(x.split(';')) > n_files for x in pdf.SampleFile],
+        index=pdf.index)

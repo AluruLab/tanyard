@@ -1,60 +1,61 @@
-import pandas as pd
 import argparse
+import pandas as pd
 
-tissues = ["leaf", "flower", "rosette", "seedling1wk", "seedling2wk", "wholeplant", "shoot", "seed", "root"]
+TISSUES = ["leaf", "flower", "rosette", "seedling1wk", "seedling2wk",
+           "wholeplant", "shoot", "seed", "root"]
 
-infile_pattern = "%s/ae-geo-%s.csv.gz"
-fullfile_pattern = "%s/full-list.csv"
-fnlcsv_pattern = "%s/final-list.csv"
-fulllst_pattern = "%s/full-list.txt"
-qcrej_pattern = "%s/qc-reject.txt"
-mnrej_pattern = "%s/man-reject.txt"
-mnacc_pattern = "%s/man-accept.txt"
-gsedup_pattern = "%s/gse-super.txt"
-finallst_pattern = "%s/final-list.txt"
-rjreason_pattern = "%s/%s-reject-reason.csv"
+TISSUE_FILE_PATTERN = "%s/ae-geo-%s.csv.gz"
+TISSUE_FULLFILE_PATTERN = "%s/full-list.csv"
+TISSUE_FNLCSV_PATTERN = "%s/final-list.csv"
+TISSUE_FULLLST_PATTERN = "%s/full-list.txt"
+TISSUE_QCR_PATTERN = "%s/qc-reject.txt"
+TISSUE_MNR_PATTERN = "%s/man-reject.txt"
+TISSUE_MNAC_PATTERN = "%s/man-accept.txt"
+TISSUE_GSEDP_PATTERN = "%s/gse-super.txt"
+TISSUE_FNLLST_PATTERN = "%s/final-list.txt"
+TISSUE_RJR_PATTERN = "%s/%s-reject-reason.csv"
 
 def load_lst_csv(lst_csv_fname):
-    return pd.read_csv(lst_csv_fname ,
+    return pd.read_csv(lst_csv_fname,
                        header=None, names=['SeriesId', 'FileId'])
 
 def load_final_csv(tissue_id):
-    return load_lst_csv(fnlcsv_pattern % tissue_id)
+    return load_lst_csv(TISSUE_FNLCSV_PATTERN % tissue_id)
 
 def final_file_ids(tissue_id):
     fdf = load_final_csv(tissue_id)
     return set(fdf.FileId.astype(str))
 
 def qcr_reject_ids(tissue_id):
-    qcrdf = pd.read_csv(qcrej_pattern % tissue_id,
+    qcrdf = pd.read_csv(TISSUE_QCR_PATTERN % tissue_id,
                         header=None, names=['FileId'])
     return set(qcrdf.FileId.astype(str))
 
 def manual_reject_ids(tissue_id):
-    manrdf =pd.read_csv(mnrej_pattern % tissue_id,
-                        header=None, names=['FileId'])
+    manrdf = pd.read_csv(TISSUE_MNR_PATTERN % tissue_id,
+                         header=None, names=['FileId'])
     return set(manrdf.FileId.astype(str))
 
 def manual_accept_ids(tissue_id):
-    mnacdf = pd.read_csv(mnacc_pattern % tissue_id,
+    mnacdf = pd.read_csv(TISSUE_MNAC_PATTERN % tissue_id,
                          header=None, names=['FileId'])
     return set(mnacdf.FileId.astype(str))
 
 def gse_duplicate_ids(tissue_id):
-    gseddf = pd.read_csv(gsedup_pattern % tissue_id,
+    gseddf = pd.read_csv(TISSUE_GSEDP_PATTERN % tissue_id,
                          header=None, names=['FileId'])
     return set(gseddf.FileId.astype(str))
 
 def rejection_file_ids(tissue_id):
     return gse_duplicate_ids(tissue_id) | (
-            (qcr_reject_ids(tissue_id) | 
-             manual_reject_ids(tissue_id)) - 
-            manual_accept_ids(tissue_id)
-           ) 
-            
+        (qcr_reject_ids(tissue_id) |
+         manual_reject_ids(tissue_id)) -
+        manual_accept_ids(tissue_id)
+        )
+
 def full_list_file_ids(tissue_id):
-    fulldf = pd.read_csv(fulllst_pattern % tissue_id ,
-                        header=None, names=['FileId'])
+    fulldf = pd.read_csv(TISSUE_FULLLST_PATTERN % tissue_id,
+                         header=None, names=['FileId'])
     return set(fulldf.FileId.astype(str))
 
 def accepted_file_ids(tissue_id):
@@ -98,7 +99,7 @@ def add_reject_reason(file_id, final_list, qc_reject, manual_reject, manual_acce
         })
 
 def rejection_reason_df(tissue_id):
-    ae_geo_df = pd.read_csv(infile_pattern % (tissue_id, tissue_id),
+    ae_geo_df = pd.read_csv(TISSUE_FILE_PATTERN % (tissue_id, tissue_id),
                             encoding='ISO-8859-1')
     file_id_df = pd.DataFrame({'FileId' : ae_geo_df.FileId})
     file_id_grouped = file_id_df.groupby('FileId')
@@ -107,15 +108,19 @@ def rejection_reason_df(tissue_id):
     manual_reject = manual_reject_ids(tissue_id)
     manual_accept = manual_accept_ids(tissue_id)
     gse_duplicates = gse_duplicate_ids(tissue_id)
-    return file_id_grouped.apply(lambda x: add_reject_reason(x.name, final_list, qc_reject, manual_reject, manual_accept, gse_duplicates))
+    return file_id_grouped.apply(
+        lambda x: add_reject_reason(x.name, final_list, qc_reject,
+                                    manual_reject, manual_accept,
+                                    gse_duplicates))
 
+def main():
+    for tissue_id in TISSUES:
+        rdf = rejection_reason_df(tissue_id)
+        rdf.to_csv(TISSUE_RJR_PATTERN % (tissue_id, tissue_id), index=False)
 
 if __name__ == "__main__":
-    prog_desc = """Generate Rejection Reason for long list;
+    PROG_DESC = """Generate Rejection Reason for long list;
     The script should be run from data/tables directory
     """
-    parser = argparse.ArgumentParser(description=prog_desc)
-    parser.parse_args()
-    for tissue_id in tissues:
-        rdf = rejection_reason_df(tissue_id)
-        rdf.to_csv(rjreason_pattern % (tissue_id, tissue_id), index=False)
+    argparse.ArgumentParser(description=PROG_DESC).parse_args()
+    main()

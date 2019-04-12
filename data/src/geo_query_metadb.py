@@ -1,17 +1,17 @@
 import argparse
-import pandas as pd
 import sqlite3
+import pandas as pd
 
 def run_sql_query(cxn, sql_query):
     tresult = []
     try:
-        c = cxn.cursor()
-        c.execute(sql_query)
-        tresult = c.fetchall()
+        cxcr = cxn.cursor()
+        cxcr.execute(sql_query)
+        tresult = cxcr.fetchall()
     except sqlite3.Error as ser:
         print(str(ser))
     try:
-        c.close()
+        cxcr.close()
     except sqlite3.Error as ser:
         print(str(ser))
     return tresult
@@ -19,13 +19,13 @@ def run_sql_query(cxn, sql_query):
 def describe_table(cxn, table_name):
     tdesc = []
     try:
-        c = cxn.cursor()
-        c.execute('PRAGMA table_info({})'.format(table_name))
-        tdesc = c.fetchall()
+        cxcr = cxn.cursor()
+        cxcr.execute('PRAGMA table_info({})'.format(table_name))
+        tdesc = cxcr.fetchall()
     except sqlite3.Error as ser:
         print(str(ser))
     try:
-        c.close()
+        cxcr.close()
     except sqlite3.Error as ser:
         print(str(ser))
     return tdesc
@@ -39,24 +39,24 @@ def describe_table_df(cxn, tname):
 
 # Query GPL18's charactestics
 #
-# rqry = """select 
+# rqry = """select
 #  distinct gsm.gpl, gpl.manufacturer, gpl.organism, gpl.title
 # from
 #  gse, gse_gpl, gse_gsm, gsm , gpl
-# where 
+# where
 #  gsm.gpl != "GPL198" and
 #  gse_gpl.gpl = "GPL198" and
 #  gpl.gpl = gsm.gpl and
 #  gse.gse = gse_gpl.gse and
 #  gse_gsm.gse = gse_gpl.gse and
 #  gse.gse = gse_gsm.gse and
-#  gsm.gsm = gse_gsm.gsm 
+#  gsm.gsm = gse_gsm.gsm
 # """
 # pd.read_sql_query(rqry, conn)
 
 # Generic query over metadata
 #
-# rqry = """select 
+# rqry = """select
 #  gse.gse as GSE_ID, gse.title as GSE_TITLE,
 #  gse.status as GSE_STATUS,
 #  gse.submission_date as GSE_SUBMISSION_DATE,
@@ -65,11 +65,11 @@ def describe_table_df(cxn, tname):
 #  gse.summary as GSE_SUMMARY,
 #  gse.type as GSE_TYPE,
 #  gse.web_link as GSE_LINK,
-#  gse.overall_design as GSE_DESIGN, 
+#  gse.overall_design as GSE_DESIGN,
 #  gse.contact as GSE_CONTACT,
 #  gse.supplementary_file as GSE_SFILE,
 #  gsm.title as GSM_TITLE,
-#  gsm.gsm as GSM_ID, 
+#  gsm.gsm as GSM_ID,
 #  gsm.submission_date as GSM_SUBMISSION_DATE,
 #  gsm.last_update_date as GSM_UPDATE_DATE,
 #  gsm.type as GSM_TYPE,
@@ -87,18 +87,18 @@ def describe_table_df(cxn, tname):
 #  gsm.supplementary_file as GSM_SFILE,
 #  gsm.data_row_count as GSM_NROW
 # from
-#  gse, gse_gsm, gsm 
-# where 
+#  gse, gse_gsm, gsm
+# where
 #  gsm.gpl = "GPL198" and
 #  gse.gse = gse_gsm.gse and
-#  gsm.gsm = gse_gsm.gsm 
+#  gsm.gsm = gse_gsm.gsm
 # """
 # rdf = pd.read_sql_query(rqry, conn)
 
 # print(len(rdf))
 
 def query_meta_data_since(out_data_file, since_date):
-    rqry = """select 
+    rqry = """select
     gse.gse as SeriesId,
     gse.title as SeriesTitle,
     gse.type as SeriesExperimentType,
@@ -106,11 +106,11 @@ def query_meta_data_since(out_data_file, since_date):
     gse.submission_date as SeriesSubmissionDate,
     gse.last_update_date as SeriesUpdateDate,
     gse.status as SeriesStatus,
-    gse.overall_design as SeriesOverallDesign, 
+    gse.overall_design as SeriesOverallDesign,
     gse.pubmed_id as SeriesPubMedID,
     ('https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=' || gse.gse) as SeriesLink,
     gse.supplementary_file as SeriesFile,
-    gsm.gsm as SampleId, 
+    gsm.gsm as SampleId,
     gsm.title as SampleTitle,
     gsm.type as SampleType,
     gsm.description as SampleDescription,
@@ -131,8 +131,8 @@ def query_meta_data_since(out_data_file, since_date):
     ) as SampleAttributes,
     gsm.supplementary_file as GSM_FILE
     from
-    gse, gse_gsm, gsm 
-    where 
+    gse, gse_gsm, gsm
+    where
     gsm.gpl = "GPL198" and
     gse.gse = gse_gsm.gse and
     gsm.gsm = gse_gsm.gsm and
@@ -145,7 +145,7 @@ def query_meta_data_since(out_data_file, since_date):
 
 
 def query_meta_data(out_data_file):
-    rqry = """select 
+    rqry = """select
     gse.gse as SeriesId,
     gse.title as SeriesTitle,
     gse.type as SeriesExperimentType,
@@ -153,11 +153,11 @@ def query_meta_data(out_data_file):
     gse.submission_date as SeriesSubmissionDate,
     gse.last_update_date as SeriesUpdateDate,
     gse.status as SeriesStatus,
-    gse.overall_design as SeriesOverallDesign, 
+    gse.overall_design as SeriesOverallDesign,
     gse.pubmed_id as SeriesPubMedID,
     ('https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=' || gse.gse) as SeriesLink,
     gse.supplementary_file as SeriesFile,
-    gsm.gsm as SampleId, 
+    gsm.gsm as SampleId,
     gsm.title as SampleTitle,
     gsm.type as SampleType,
     gsm.description as SampleDescription,
@@ -178,11 +178,11 @@ def query_meta_data(out_data_file):
     ) as SampleAttributes,
     gsm.supplementary_file as GSM_FILE
     from
-    gse, gse_gsm, gsm 
-    where 
+    gse, gse_gsm, gsm
+    where
     gsm.gpl = "GPL198" and
     gse.gse = gse_gsm.gse and
-    gsm.gsm = gse_gsm.gsm 
+    gsm.gsm = gse_gsm.gsm
     """
     conn = sqlite3.connect("GEOmetadb.sqlite")
     rdf = pd.read_sql_query(rqry, conn)
@@ -191,17 +191,16 @@ def query_meta_data(out_data_file):
 
 
 if __name__ == '__main__':
-    prog_desc = """Query GEOmetadb.sqlite for the GEO datasets
+    PROG_DESC = """Query GEOmetadb.sqlite for the GEO datasets
     If datsets are required since a start date, provide the
     -s or --since_date argument in the format YYYY-MM-DD
     """
-    parser = argparse.ArgumentParser(description=prog_desc)
-    parser.add_argument("out_file")
-    parser.add_argument("-s", "--since_date")
-    args = parser.parse_args()
-    if(args.since_date):
-        query_meta_data_since(args.out_file,
-                              args.since_date)
+    PARSER = argparse.ArgumentParser(description=PROG_DESC)
+    PARSER.add_argument("out_file")
+    PARSER.add_argument("-s", "--since_date")
+    ARGS = PARSER.parse_args()
+    if ARGS.since_date:
+        query_meta_data_since(ARGS.out_file,
+                              ARGS.since_date)
     else:
-        query_meta_data(args.out_file)
-
+        query_meta_data(ARGS.out_file)
