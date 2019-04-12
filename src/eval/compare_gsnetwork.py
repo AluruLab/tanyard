@@ -9,9 +9,14 @@ def shortest_path(net_graph, src, tgt):
         try:
            spath = (nx.shortest_path(net_graph, src, tgt), src, tgt)
         except nx.NetworkXNoPath:
-           spath = None
+           spath = (None, src, tgt)
     else:
-        spath = (None, src, tgt)
+        if src in net_graph:
+          spath = (None, src, None)
+        elif tgt in net_graph:
+          spath = (None, None, tgt)
+        else:
+          spath = (None, None, None)
     return spath
 
 def eval_network(annot_file, net_file, gs_file, max_dist):
@@ -25,15 +30,15 @@ def eval_network(annot_file, net_file, gs_file, max_dist):
     gs_common_nodes = sum((1 if x in rv_net_graph else 0 for x in gs_nodes))
     gs_common_edges = sum((1 if (x in rv_net_graph and y in rv_net_graph) else 0 
                            for x,y in zip(gs_net.TFPROBE, gs_net.TARGETPROBE)))
-    gs_spath = [shortest_path(rv_net_graph, x, y) 
-                for x,y in zip(gs_net.TFPROBE, gs_net.TARGETPROBE) ]
+    gs_spath = [shortest_path(rv_net_graph, x, y)
+                for x,y in zip(gs_net.TFPROBE, gs_net.TARGETPROBE)]
     #gs_spath.sort()
     dist_histogram = [0 for x in range(max_dist+1)]
-    spath_graph_nodes = set(x for _,x,_ in gs_spath) | set(y for _,_,y in gs_spath)
-    for x, _, _ in gs_spath:
+    spath_graph_nodes = set(x for _,x,_ in gs_spath if x) | set(y for _,_,y in gs_spath if y)
+    for x, y, z in gs_spath:
         if x is not None and (len(x)-1) <= max_dist:
             dist_histogram[len(x)-1] += 1
-            spath_graph_nodes |= set(x)
+            spath_graph_nodes.update(x)
     spath_graph = nx.Graph()
     spath_graph.add_nodes_from(spath_graph_nodes)
     for x, y, z in gs_spath:

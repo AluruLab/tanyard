@@ -56,7 +56,18 @@ def load_tsv_network(tsv_file, wt_attr_name='wt'):
     Load network with a tsv file;
     """
     tmp_df =  pd.read_csv(tsv_file, sep='\t', header=0)
-    return tmp_df.loc[:, ['source', 'target', wt_attr_name]]
+    if 'source' in tmp_df.columns and 'target' in tmp_df.columns and wt_attr_name in tmp_df.columns:
+       return tmp_df.loc[:, ['source', 'target', wt_attr_name]]
+    if 'source' in tmp_df.columns and 'target' in tmp_df.columns and 'wt' in tmp_df.columns:
+       tmp_df = tmp_df.loc[:, ['source', 'target', 'wt']]
+       tmp_df = tmp_df.rename(columns={'wt': wt_attr_name})
+       return tmp_df
+    else:
+       cnames = ['source', 'target', wt_attr_name]
+       tmp_df = tmp_df.iloc[:, [0, 1, 2]]
+       rn_col = {x : y for x,y in zip(tmp_df.columns, cnames)}
+       tmp_df = tmp_df.rename(columns=rn_cols)
+       return tmp_df
 
 
 def load_adj_network(adj_file, wt_attr_name='wt', comments=["#", ">"], delimiter="\t"):
