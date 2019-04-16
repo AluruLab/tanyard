@@ -2,8 +2,9 @@ import argparse
 import pandas as pd
 from data_utils import load_full_annotation, load_gsnetwork
 
-def match_columns(annot_df: pd.DataFrame, atrmid: str):
-    tdf = annot_df.loc[
+
+def match_columns(annot_df: pd.DataFrame, atrmid: str) -> pd.DataFrame:
+    tdf: pd.DataFrame = annot_df.loc[
         annot_df.TID.str.contains(atrmid, regex=False) |
         annot_df.ID.str.contains(atrmid, regex=False) |
         annot_df.AGI.str.contains(atrmid, regex=False) |
@@ -23,7 +24,7 @@ def match_columns(annot_df: pd.DataFrame, atrmid: str):
     })
 
 
-def match_network_probes(annot_file: str, gs_file: str):
+def match_network_probes(annot_file: str, gs_file: str) -> pd.DataFrame:
     #def match_df(name)
     annot_df = load_full_annotation(annot_file)
     gsnet_df = load_gsnetwork(gs_file)
@@ -35,11 +36,13 @@ def match_network_probes(annot_file: str, gs_file: str):
     #print(pd.DataFrame(fdf))
     #rdf = grouped.apply()
 
-def main(args):
-    match_df = match_network_probes(args.annotation_file,
-                                    args.gs_network_file)
+
+def main(annotation_file: str, gs_network_file: str, out_file: str) -> None:
+    match_df = match_network_probes(annotation_file,
+                                    gs_network_file)
     #print(len(set(match_df.PROBE)))
-    match_df.to_csv(args.out_file, sep='\t', index=False)
+    match_df.to_csv(out_file, sep='\t', index=False)
+
 
 if __name__ == "__main__":
     PROG_DESC = """
@@ -55,4 +58,4 @@ if __name__ == "__main__":
     PARSER.add_argument("-o", "--out_file", type=argparse.FileType('w'), required=True,
                         help="output file in tab-seperated format")
     ARGS = PARSER.parse_args()
-    main(ARGS)
+    main(ARGS.annotation_file, ARGS.gs_network_file, ARGS.out_file)

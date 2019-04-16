@@ -1,16 +1,18 @@
+from typing import Iterable, Set, Any
 import argparse
+import pandas as pd
 from data_utils import load_annotation, load_reveng_network, load_gsnetwork, map_probes
 
 
-def common_network(annot_file, gs_file, network_files):
-    annot_df = load_annotation(annot_file)
-    gsnet_df = load_gsnetwork(gs_file)
+def common_network(annot_file: str, gs_file: str, network_files: Iterable[str]):
+    annot_df: pd.DataFrame = load_annotation(annot_file)
+    gsnet_df: pd.DataFrame = load_gsnetwork(gs_file)
     gs_net = map_probes(gsnet_df, annot_df)
-    common_df = None
+    common_df: pd.DataFrame = pd.DataFrame()
     for net_file in network_files:
-        rv_net = load_reveng_network(net_file)
-        rv_net_nodes = set(rv_net.source) | set(rv_net.target)
-        if common_df is None or common_df.shape[0] == 0:
+        rv_net: pd.DataFrame = load_reveng_network(net_file)
+        rv_net_nodes: Set[Any] = set(rv_net.source) | set(rv_net.target)
+        if common_df.empty or common_df.shape[0] == 0:
             common_df = gs_net.loc[(gs_net.TFPROBE.isin(rv_net_nodes)) &
                                    (gs_net.TARGETPROBE.isin(rv_net_nodes)), :]
         else:
@@ -19,9 +21,11 @@ def common_network(annot_file, gs_file, network_files):
     return common_df.loc[:, ['TF', 'TARGET']]
 
 
-def main(annotation_file, gs_network_file, network_files, out_file):
+def main(annotation_file: str, gs_network_file: str,
+         network_files: Iterable[str], out_file: str) -> None:
     common_df = common_network(annotation_file, gs_network_file, network_files)
     common_df.to_csv(out_file, sep='\t', index=False)
+
 
 if __name__ == "__main__":
     PROG_DESC = """

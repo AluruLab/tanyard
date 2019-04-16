@@ -1,6 +1,8 @@
+from typing import List, Tuple
 import pandas as pd
 
-def load_full_annotation(annot_file):
+
+def load_full_annotation(annot_file: str) -> pd.DataFrame:
     """
     Read annotation file (a tab seperated file), and load the annotation
     data frame.
@@ -10,7 +12,7 @@ def load_full_annotation(annot_file):
     return pd.read_csv(annot_file, sep="\t", header=0)
 
 
-def load_annotation(annot_file):
+def load_annotation(annot_file: str) -> pd.DataFrame:
     """
     Read annotation file (a tab seperated file), and load the annotation
     data frame.
@@ -26,7 +28,7 @@ def load_annotation(annot_file):
     return annot_df
 
 
-def load_gsnetwork(gs_file):
+def load_gsnetwork(gs_file: str) -> pd.DataFrame:
     """
     TAB seperated file w. header TF,TARGET
     """
@@ -34,7 +36,7 @@ def load_gsnetwork(gs_file):
     return tdf.loc[tdf.TF != tdf.TARGET, :]
 
 
-def load_eda_network(eda_file, wt_attr_name='wt'):
+def load_eda_network(eda_file: str, wt_attr_name: str = 'wt') -> pd.DataFrame:
     """
     Load network from eda file. Eda file lists the edges in the following format
 
@@ -50,7 +52,7 @@ def load_eda_network(eda_file, wt_attr_name='wt'):
     return pd.DataFrame(tmp_rcds, columns=['source', 'target', wt_attr_name])
 
 
-def load_tsv_network(tsv_file, wt_attr_name='wt'):
+def load_tsv_network(tsv_file: str, wt_attr_name: str = 'wt') -> pd.DataFrame:
     """
     Load network with a tsv file;
     """
@@ -69,7 +71,9 @@ def load_tsv_network(tsv_file, wt_attr_name='wt'):
         return tmp_df
 
 
-def load_adj_network(adj_file, wt_attr_name='wt', comments=None, delimiter="\t"):
+def load_adj_network(adj_file: str, wt_attr_name: str = 'wt',
+                     comments: List[str] = None,
+                     delimiter: str = "\t") -> pd.DataFrame:
     """
     Load network with adjacency list;
     Adjacency file lists the target lists for each source node:
@@ -83,31 +87,31 @@ def load_adj_network(adj_file, wt_attr_name='wt', comments=None, delimiter="\t")
     """
     if comments is None:
         comments = ["#", ">"]
-    edge_list = []
+    edge_list: List[Tuple[str, str, float]] = []
     with open(adj_file) as adjfp:
         for line in adjfp:
-            if any((True if line.startswith(cx) else False for cx in comments)):
+            if any((line.startswith(cx) for cx in comments)):
                 continue
             vlist = line.strip().split(delimiter)
             if len(vlist) >= 3:
-                tgt_length = (len(vlist) - 1) / 2
-                edge_list.append([(vlist[0], vlist[2*ix+1], float(vlist[2*ix+2]))
+                tgt_length = int((len(vlist) - 1) / 2)
+                edge_list.extend([(vlist[0], vlist[2*ix+1], float(vlist[2*ix+2]))
                                   for ix in range(tgt_length)])
     edge_list = [(x, y, z) if x < y else (y, x, z) for x, y, z in edge_list]
     return pd.DataFrame(edge_list, columns=['source', 'target', wt_attr_name])
 
 
-def load_reveng_network(net_file, wt_attr_name='wt'):
+def load_reveng_network(net_file: str, wt_attr_name: str = 'wt') -> pd.DataFrame:
     if net_file.endswith(".eda"):
         return load_eda_network(net_file, wt_attr_name)
     elif net_file.endswith(".adj"):
         return load_adj_network(net_file, wt_attr_name)
     elif net_file.endswith(".tsv"):
         return load_tsv_network(net_file, wt_attr_name)
-    else:
-        return None
+    return pd.DataFrame({'source': [], 'target': [], wt_attr_name: []})
 
-def map_probes(gs_net, annot_df, how_join='inner'):
+def map_probes(gs_net: pd.DataFrame, annot_df: pd.DataFrame,
+               how_join: str = 'inner') -> pd.DataFrame:
     annot_filter_df = annot_df.loc[annot_df.ID != 'no_match', :]
     gs_net_mapped = gs_net.merge(annot_filter_df, left_on='TF', right_on='ID', how=how_join)
     gs_net_mapped.columns = ['TF', 'TARGET', 'TFID', 'TFPROBE']
