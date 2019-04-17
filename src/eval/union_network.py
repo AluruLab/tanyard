@@ -10,8 +10,8 @@ def combine_network(network_files, network_names=None):
         ndf = load_reveng_network(nx_file, nx_name)
         cmb_network = cmb_network.merge(ndf, how='outer', on=['source', 'target'])
         #print(str(nx_name), nx_file, ndf.shape, cmb_network.columns, cmb_network.shape)
-    cmb_network['maxwt'] = cmb_network[network_names].max(axis=1)
-    cmb_network['wt'] = cmb_network[network_names].mean(axis=1)
+    cmb_network['wt'] = cmb_network[network_names].max(axis=1)
+    cmb_network['avgwt'] = cmb_network[network_names].mean(axis=1)
     return cmb_network
 
 
