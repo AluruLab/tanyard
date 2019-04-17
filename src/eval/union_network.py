@@ -1,6 +1,14 @@
 import argparse
+import numpy as np
 import pandas as pd
 from data_utils import load_reveng_network
+
+def abs_max(row_x):
+    row_max = np.max(row_x)
+    row_min = np.min(row_x)
+    if row_max > abs(row_min):
+        return row_max
+    return row_min
 
 def combine_network(network_files, network_names=None):
     if network_names is None:
@@ -10,23 +18,22 @@ def combine_network(network_files, network_names=None):
         ndf = load_reveng_network(nx_file, nx_name)
         cmb_network = cmb_network.merge(ndf, how='outer', on=['source', 'target'])
         #print(str(nx_name), nx_file, ndf.shape, cmb_network.columns, cmb_network.shape)
-    cmb_network['wt'] = cmb_network[network_names].max(axis=1)
+    cmb_network['wt'] = cmb_network[network_names].apply(abs_max, axis=1)
     cmb_network['avgwt'] = cmb_network[network_names].mean(axis=1)
     return cmb_network
 
 
-def main(args):
-    if args.network_names:
-        network_files = args.network_files
-        network_names = args.network_names.split(",")
+def main(network_names, network_files, out_file):
+    if network_names:
+        network_names = network_names.split(",")
         if len(network_names) == len(network_files):
             combine_df = combine_network(network_files, network_names)
         else:
             print("Length of network names should be equal to length of network files")
             return False
     else:
-        combine_df = combine_network(args.network_files)
-    combine_df.to_csv(args.out_file, sep='\t', index=False)
+        combine_df = combine_network(network_files)
+    combine_df.to_csv(out_file, sep='\t', index=False)
     return True
 
 
@@ -48,5 +55,5 @@ if __name__ == "__main__":
                         type=argparse.FileType(mode='w'), required=True,
                         help="output file in tab-seperated format")
     ARGS = PARSER.parse_args()
-    if not main(ARGS):
+    if not main(ARGS.network_names, ARGS.network_files, ARGS.out_file):
         PARSER.print_usage()
