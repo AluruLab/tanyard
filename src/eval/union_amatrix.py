@@ -20,7 +20,9 @@ def union_index_names(network_files: Iterable[str]) -> List[str]:
 def main(network_files: Iterable[str], out_file: str) -> None:
     union_row_names = union_index_names(network_files)
     union_col_names = union_row_names
-    union_df = pd.DataFrame(np.zeros((union_row_names, union_col_names)),
+    nrows = len(union_row_names)
+    ncols = len(union_col_names)
+    union_df = pd.DataFrame(np.zeros((nrows, ncols)),
                             columns=union_col_names,
                             index=union_row_names)
     for net_fx in network_files:
