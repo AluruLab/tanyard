@@ -22,6 +22,7 @@ def main(network_files: Iterable[str], out_file: str) -> None:
     union_col_names = union_row_names
     nrows = len(union_row_names)
     ncols = len(union_col_names)
+    print("NROWS %d NCOLS %d" % (nrows, ncols))
     union_df = pd.DataFrame(np.zeros((nrows, ncols)),
                             columns=union_col_names,
                             index=union_row_names)
