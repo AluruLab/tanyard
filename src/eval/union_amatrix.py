@@ -6,7 +6,7 @@ import numpy as np
 def read_index_names(net_file: str) -> List[str]:
     with open(net_file) as net_fptr:
         for header_line in net_fptr:
-            return header_line.strip().split()
+            return header_line.strip().replace('"', '').split()
 
 
 def union_index_names(network_files: Iterable[str]) -> List[str]:
