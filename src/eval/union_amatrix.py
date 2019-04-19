@@ -1,23 +1,39 @@
-from typing import Iterable
+from typing import Iterable, List
 import argparse
 import pandas as pd
+import numpy as np
+
+def read_index_names(net_file: str) -> List[str]:
+    with open(net_file) as net_fptr:
+        for header_line in net_fptr:
+            return header_line.strip().split()
+
+
+def union_index_names(network_files: Iterable[str]) -> List[str]:
+    union_net_columns = set([])
+    for net_fx in network_files:
+        net_columns = read_index_names(net_fx)
+        union_net_columns.update(net_columns)
+    return sorted(list(union_net_columns))
+
 
 def main(network_files: Iterable[str], out_file: str) -> None:
-    union_df = pd.DataFrame()
-    grow_names = union_df.index
-    gcol_names = union_df.columns
+    union_row_names = union_index_names(network_files)
+    union_col_names = union_row_names
+    union_df = pd.DataFrame(np.zeros((union_row_names, union_col_names)),
+                            columns=union_col_names,
+                            index=union_row_names)
     for net_fx in network_files:
-        if union_df.empty:
-            union_df = pd.read_csv(net_fx, sep="\t")
-            gcol_names = union_df.columns
-            grow_names = union_df.index
-        else:
-            net_df = pd.read_csv(net_fx, sep="\t")
-            net_df = net_df.loc[grow_names, gcol_names]
-            net_df_max = net_df[abs(net_df) > abs(union_df)]
-            union_df_max = union_df[abs(union_df) >= abs(net_df)]
-            union_df = union_df_max.add(net_df_max, fill_value=0)
+        net_df = pd.read_csv(net_fx, sep="\t")
+        net_col_names = net_df.columns
+        net_row_names = net_df.index
+        union_sub_df = union_df.loc[net_row_names, net_col_names]
+        net_df_max = net_df[abs(net_df) > abs(union_sub_df)]
+        union_sub_df_max = union_sub_df[abs(union_sub_df) >= abs(net_df)]
+        union_df.loc[net_row_names, net_col_names] = union_sub_df_max.add(
+            net_df_max, fill_value=0)
     union_df.to_csv(out_file, sep="\t")
+
 
 if __name__ == "__main__":
     PROG_DESC = """
