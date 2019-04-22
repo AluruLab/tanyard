@@ -10,12 +10,26 @@ def abs_max(row_x):
         return row_max
     return row_min
 
-def combine_network(network_files, network_names=None):
+
+def select_edges(net_df: pd.DataFrame, wt_attr_name: str = 'wt',
+                 max_edges: int = None):
+    if max_edges is None or max_edges <= net_df.shape[0]:
+        return net_df
+    cur_cols = net_df.columns
+    maxwt_attr_name = wt_attr_name + '_max'
+    net_df[maxwt_attr_name] = net_df[wt_attr_name].abs()
+    net_df.nlargest(n=max_edges, columns=maxwt_attr_name)
+    return net_df.loc[:, cur_cols]
+
+
+
+
+def combine_network(network_files, network_names=None, max_edges: int = None):
     if network_names is None:
         network_names = ['wt_'+str(ix) for ix in range(len(network_files))]
     cmb_network = pd.DataFrame(columns=['source', 'target'])
     for nx_name, nx_file in zip(network_names, network_files):
-        ndf = load_reveng_network(nx_file, nx_name)
+        ndf = select_edges(load_reveng_network(nx_file, nx_name), nx_name, max_edges)
         cmb_network = cmb_network.merge(ndf, how='outer', on=['source', 'target'])
         #print(str(nx_name), nx_file, ndf.shape, cmb_network.columns, cmb_network.shape)
     cmb_network['wt'] = cmb_network[network_names].apply(abs_max, axis=1)
@@ -23,16 +37,16 @@ def combine_network(network_files, network_names=None):
     return cmb_network
 
 
-def main(network_names, network_files, out_file):
+def main(network_names, network_files, out_file, max_edges):
     if network_names:
         network_names = network_names.split(",")
         if len(network_names) == len(network_files):
-            combine_df = combine_network(network_files, network_names)
+            combine_df = combine_network(network_files, network_names, max_edges)
         else:
             print("Length of network names should be equal to length of network files")
             return False
     else:
-        combine_df = combine_network(network_files)
+        combine_df = combine_network(network_files, None, max_edges)
     combine_df.to_csv(out_file, sep='\t', index=False)
     return True
 
@@ -51,9 +65,13 @@ if __name__ == "__main__":
     PARSER.add_argument("-n", "--network_names", type=str,
                         help="""comma seperated names of the network;
                                 should have as many names as the number of networks""")
+    PARSER.add_argument("-x", "--max_edges", type=int,
+                        help="""comma seperated names of the network;
+                                should have as many names as the number of networks""")
     PARSER.add_argument("-o", "--out_file",
                         type=argparse.FileType(mode='w'), required=True,
                         help="output file in tab-seperated format")
     ARGS = PARSER.parse_args()
-    if not main(ARGS.network_names, ARGS.network_files, ARGS.out_file):
+    if not main(ARGS.network_names, ARGS.network_files,
+                ARGS.out_file, ARGS.max_edges):
         PARSER.print_usage()
