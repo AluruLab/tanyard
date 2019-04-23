@@ -13,12 +13,12 @@ def abs_max(row_x):
 
 def select_edges(net_df: pd.DataFrame, wt_attr_name: str = 'wt',
                  max_edges: int = None):
-    if max_edges is None or max_edges <= net_df.shape[0]:
+    if max_edges is None or max_edges >= net_df.shape[0]:
         return net_df
     cur_cols = net_df.columns
     maxwt_attr_name = wt_attr_name + '_max'
     net_df[maxwt_attr_name] = net_df[wt_attr_name].abs()
-    net_df.nlargest(n=max_edges, columns=maxwt_attr_name)
+    net_df = net_df.nlargest(n=max_edges, columns=maxwt_attr_name)
     return net_df.loc[:, cur_cols]
 
 
@@ -72,6 +72,13 @@ if __name__ == "__main__":
                         type=argparse.FileType(mode='w'), required=True,
                         help="output file in tab-seperated format")
     ARGS = PARSER.parse_args()
+    print("""
+       ARG : network_files : %s
+       ARG : network_names : %s
+       ARG : max_edges : %s
+       ARG : out_file : %s """ %
+          (str(ARGS.network_files), str(ARGS.network_names),
+           str(ARGS.max_edges), str(ARGS.out_file)))
     if not main(ARGS.network_names, ARGS.network_files,
                 ARGS.out_file, ARGS.max_edges):
         PARSER.print_usage()
