@@ -8,34 +8,62 @@ fi
 cwd=`pwd`
 tmpfx=`mktemp`
 
+#
+# Final Reject List inclues
+#   - auto QC rejected, that are not manually accepted
+#   - manually rejected
+#   - GSE ids that are supersets of other GSE 
+#         (sub GSE are included)
+#
 ( ( sort $1/QC/man-accept.txt | uniq ; 
     sort $1/QC/qc-reject.txt  | uniq )  | sort | uniq -u ;
   cat $1/QC/man-reject.txt ;
   cat $1/QC/gse-super.txt ) | sort | uniq  > $1/QC/final-reject.txt
 #wc -l $1/QC/final-reject.txt
 
+#
+# Among the full list (full-list.txt), 
+#   Remove the ones in the final-reject.txt
+#
 join -v2 $1/QC/final-reject.txt $1/QC/full-list.txt > $1/QC/final-accept.txt
 
+#
+# Select the lines from full-list.csv,
+#    in which the second column entry matches with an entry in final-accept.txt
+#
 sed 's/$/\\\"\$/' $1/QC/final-accept.txt  > $tmpfx
-
 grep -f $tmpfx $1/QC/full-list.csv > $1/QC/final-list.csv
 
 #nt2=`cat /tmp/tadjq $1/QC/man-reject.txt | sort | uniq  | wc -l`
 #nt3=`cat /tmp/tadjq $1/QC/man-reject.txt $1/QC/gse-super.txt | sort | uniq | wc -l`
 
-ltz=`cat $1/QC/final-list.csv | wc -l`
+ltz=`cat $1/QC/final-list.csv | wc -l` # final list 
+# No. of experiments with only one CEL
 lta=`cat $1/QC/final-list.csv | cut -d, -f1 | uniq -c | sort | grep "      1 " |  cut -d'"' -f1 | paste -sd+ | bc`
+# No. of experiments with two CELs
 ltb=`cat $1/QC/final-list.csv | cut -d, -f1 | uniq -d -c | sort | grep "      2 " |  cut -d'"' -f1 | paste -sd+ | bc`
-if [ -z $lta ]; then
-lty=$(( $ltz - $ltb ))
+if [ -z $ltb ]; then
+  lty=0
 else
-lty=$(( $ltz - $lta -$ltb ))
+  if [ -z $lta ]; then
+     lty=$(( $ltz - $ltb ))
+  else
+     lty=$(( $ltz - $lta -$ltb ))
+  fi
 fi
-echo `basename $1` $ltz $lta $ltb $lty
 
-#ltx=`cat $1/QC/final-list.csv | cut -d, -f1 | uniq -d -c | sort | grep "      2 " |  cut -d' ' -f 7 | paste -sd+ | bc`
+echo "Tissue             :" `basename $1` 
+echo "Final Count        :" $ltz
+echo "Expts w. 1 CEL     :" $lta
+echo "Expts w. 2 CELS    :" $ltb
+echo "Final w. >2 CELS   :" $lty
+
+#
+# Create links for the list in final-list.txt
+#   in the $1/FINAL/ directory
+#
 tmpfy=`mktemp`
-
+# remove exprts with
 cat $1/QC/final-list.csv | cut -d, -f1 | uniq -d -c | grep -v " 2 " | sort -n |  cut -d'"' -f 2 | sort > $tmpfy
 
 for i in $1/CEL/*; do
