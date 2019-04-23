@@ -1,4 +1,5 @@
 from typing import List, Tuple
+import numpy as np
 import pandas as pd
 
 
@@ -8,6 +9,15 @@ def load_full_annotation(annot_file: str) -> pd.DataFrame:
     data frame.
     There can be multiple IDs associated with same probe, which is proveided
     in the input file delimited by ';'
+
+    Parameters
+    ----------
+    annot_file : Annotation file (tab seperated)
+
+    Returns
+    -------
+    pandas DataFrame with annotation
+
     """
     return pd.read_csv(annot_file, sep="\t", header=0)
 
@@ -19,6 +29,14 @@ def load_annotation(annot_file: str) -> pd.DataFrame:
     Includes two columns ID and PROBE
     There can be multiple IDs associated with same probe, which is proveided
     in the input file delimited by ';'
+
+    Parameters
+    ----------
+    annot_file : Annotation file (tab seperated)
+
+    Returns
+    -------
+    pandas DataFrame with expanded annotation
     """
     input_df = pd.read_csv(annot_file, sep="\t", header=0)
     annot_df = pd.DataFrame(input_df.ID.str.split(';').tolist(),
@@ -31,6 +49,14 @@ def load_annotation(annot_file: str) -> pd.DataFrame:
 def load_gsnetwork(gs_file: str) -> pd.DataFrame:
     """
     TAB seperated file w. header TF,TARGET
+
+    Parameters
+    ----------
+    annot_file : Annotation file (tab seperated w. header 'TF' and 'TARGET)
+
+    Returns
+    -------
+    pandas DataFrame with columns, TF, TARGET and weight (if provided)
     """
     tdf = pd.read_csv(gs_file, sep="\t")
     return tdf.loc[tdf.TF != tdf.TARGET, :]
@@ -38,12 +64,32 @@ def load_gsnetwork(gs_file: str) -> pd.DataFrame:
 
 def load_eda_network(eda_file: str, wt_attr_name: str = 'wt') -> pd.DataFrame:
     """
-    Load network from eda file. Eda file lists the edges in the following format
+    Load network from edge attribute file file (.eda).
+    Eda file lists the edges in the following format
+    The first line has the string "Weight". The edges are listed with the following
+    format:
+    source (itype) target = weight
 
+    where source and target are node ids, itype is the interaction type and weight is
+    the edge weight.
+
+    Example:
+    Weight
+    244901_at (pp) 244902_at = 0.192777
+    244901_at (pp) 244926_s_at = 0.0817807
 
 
     Parameters
     ----------
+    eda_file : Path to the input .eda file
+
+    wt_attr_name : weight column name in the data frame returned
+
+    delimiter : seperators between the fields
+
+    Returns
+    -------
+    pandas DataFrame with three columns: 'source', 'target', wt_attr_name
 
     """
     tmp_df = pd.read_csv(eda_file, sep=' ', usecols=[0, 2, 4], skiprows=[0],
@@ -54,7 +100,22 @@ def load_eda_network(eda_file: str, wt_attr_name: str = 'wt') -> pd.DataFrame:
 
 def load_tsv_network(tsv_file: str, wt_attr_name: str = 'wt') -> pd.DataFrame:
     """
-    Load network with a tsv file;
+    Load network with a tsv file.
+    The tsv file is expected to have three columns 'source', 'target', wt_attr_name
+    If the columns doesn't exist in the data frame, then the first three
+    columns are returned.
+
+    Parameters
+    ----------
+    tsv_file : Path to the input .tsv file
+
+    wt_attr_name : weight column name in the data frame returned
+
+    delimiter : seperators between the fields
+
+    Returns
+    -------
+    pandas DataFrame with three columns: 'source', 'target', wt_attr_name
     """
     tmp_df = pd.read_csv(tsv_file, sep='\t', header=0)
     if 'source' in tmp_df.columns and 'target' in tmp_df.columns and wt_attr_name in tmp_df.columns:
@@ -63,12 +124,13 @@ def load_tsv_network(tsv_file: str, wt_attr_name: str = 'wt') -> pd.DataFrame:
         tmp_df = tmp_df.loc[:, ['source', 'target', 'wt']]
         tmp_df = tmp_df.rename(columns={'wt': wt_attr_name})
         return tmp_df
-    else:
+    if len(tmp_df.columns) >= 3:
         cnames = ['source', 'target', wt_attr_name]
         tmp_df = tmp_df.iloc[:, [0, 1, 2]]
         rn_cols = {x : y for x, y in zip(tmp_df.columns, cnames)}
         tmp_df = tmp_df.rename(columns=rn_cols)
         return tmp_df
+    return pd.DataFrame({'source': [], 'target': [], wt_attr_name: []})
 
 
 def load_adj_network(adj_file: str, wt_attr_name: str = 'wt',
@@ -81,9 +143,17 @@ def load_adj_network(adj_file: str, wt_attr_name: str = 'wt',
 
     Parameters
     ----------
+    adj_file : Path to the input .adj file
+
+    wt_attr_name : weight column name in the data frame returned
+
     comments : list of comment indicators
 
     delimiter : seperators between the fields
+
+    Returns
+    -------
+    pandas DataFrame with three columns: 'source', 'target', wt_attr_name
     """
     if comments is None:
         comments = ["#", ">"]
@@ -101,14 +171,69 @@ def load_adj_network(adj_file: str, wt_attr_name: str = 'wt',
     return pd.DataFrame(edge_list, columns=['source', 'target', wt_attr_name])
 
 
+
+def load_mat_network(mat_file: str, wt_attr_name: str = 'wt',
+                     delimiter: str = "\t") -> pd.DataFrame:
+    """
+    Load network with adjacency matrix;
+    Adjacency matrix lists the target wts for each source node:
+    source_node1 source_node2 source_node_3 ...
+    target_node1 weight11 weight12 weight13 ...
+    target_node2 weight21 weight22 weight23 ...
+    target_node3 weight31 weight32 weight33 ...
+    ...
+    ...
+
+    Parameters
+    ----------
+    adj_file : Path to the input .adj file
+
+    wt_attr_name : weight column name in the data frame returned
+
+    delimiter : seperators between the fields
+
+    Returns
+    -------
+    pandas DataFrame with three columns: 'source', 'target', wt_attr_name
+    """
+    mat_df = pd.read_csv(mat_file, sep=delimiter)
+    mat_cnames = mat_df.columns
+    mat_size = mat_df.shape[0]
+    net_df = pd.DataFrame({
+        'source': pd.Series(mat_cnames).repeat(np.repeat(mat_size, mat_size)),
+        'target': pd.Series(mat_cnames).repeat(mat_size),
+        wt_attr_name: mat_df.values.flatten()})
+    return net_df
+
+
 def load_reveng_network(net_file: str, wt_attr_name: str = 'wt') -> pd.DataFrame:
+    """
+    Load network with one of a edge attribute file (.eda),
+    tab-seperated file (.tsv), adjacency matrix (.mat),
+    adjacency list (.adj)
+
+    Parameters
+    ----------
+    net_file : Path to the input .eda/.tsv/.mat/.adj file
+
+    wt_attr_name : weight column name in the data frame returned
+
+    delimiter : seperators between the fields
+
+    Returns
+    -------
+    pandas DataFrame with three columns: 'source', 'target', wt_attr_name
+    """
     if net_file.endswith(".eda"):
         return load_eda_network(net_file, wt_attr_name)
-    elif net_file.endswith(".adj"):
+    if net_file.endswith(".adj"):
         return load_adj_network(net_file, wt_attr_name)
-    elif net_file.endswith(".tsv"):
+    if net_file.endswith(".tsv"):
         return load_tsv_network(net_file, wt_attr_name)
+    if net_file.endswith(".mat"):
+        return load_mat_network(net_file, wt_attr_name)
     return pd.DataFrame({'source': [], 'target': [], wt_attr_name: []})
+
 
 def map_probes(gs_net: pd.DataFrame, annot_df: pd.DataFrame,
                how_join: str = 'inner') -> pd.DataFrame:
