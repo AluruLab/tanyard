@@ -196,7 +196,7 @@ def load_mat_network(mat_file: str, wt_attr_name: str = 'wt',
     -------
     pandas DataFrame with three columns: 'source', 'target', wt_attr_name
     """
-    mat_df = pd.read_csv(mat_file, sep=delimiter)
+    mat_df = pd.read_csv(mat_file, sep=delimiter, index_col=0))
     mat_cnames = mat_df.columns
     mat_size = mat_df.shape[0]
     net_df = pd.DataFrame({
