@@ -200,10 +200,10 @@ def load_mat_network(mat_file: str, wt_attr_name: str = 'wt',
     mat_cnames = mat_df.columns
     mat_size = mat_df.shape[0]
     net_df = pd.DataFrame({
-        'source': pd.Series(mat_cnames).repeat(np.repeat(mat_size, mat_size)),
-        'target': pd.Series(mat_cnames).repeat(mat_size),
+        'source': np.repeat(mat_cnames, mat_size),
+        'target': np.tile(mat_cnames, mat_size),
         wt_attr_name: mat_df.values.flatten()})
-    return net_df
+    return net_df[net_df.source < net_df.target]
 
 
 def load_reveng_network(net_file: str, wt_attr_name: str = 'wt') -> pd.DataFrame:
