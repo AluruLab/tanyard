@@ -1,0 +1,27 @@
+#!/usr/bin/perl
+
+use strict;
+use warnings;
+
+open(IN1, "< $ARGV[0]") or die "can't open input file\n";
+open(IN2, "< $ARGV[1]") or die "can't open output file\n";
+
+my %probe;
+
+while (<IN1>) {
+  chomp($_);
+  my @line = split(' ', $_);
+  $probe{$line[0]} = $line[1];
+}
+
+while (<IN2>) {
+  chomp($_);
+  my @line = split(' ', $_);
+  if (defined $probe{$line[1]}) {
+    print "$line[0]\t$probe{$line[1]}\n";
+  }
+  else { print "$line[0]\t$line[1]\n"; }
+}
+
+close(IN1);
+close(IN2);

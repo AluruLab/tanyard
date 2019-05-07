@@ -1,0 +1,16 @@
+#!/usr/bin/perl
+
+use strict;
+use warnings;
+
+open(IN, "< $ARGV[0]") or die "can't open input file\n";
+
+my $tmp = <IN>;
+
+while (<IN>) {
+  chomp($_);
+  my @line = split(' ', $_);
+  print "$line[0]\t$line[5]\n";
+}
+
+close(IN);
