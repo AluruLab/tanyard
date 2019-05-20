@@ -1,0 +1,65 @@
+#!/bin/bash
+
+mixtissues=(
+  flower
+  leaf
+  root
+  rosette
+  seed
+  seedling1wk
+  seedling2wk
+  shoot
+  wholeplant
+)
+
+mixconditions=(
+  stress-temperature
+  stress-salt-drought
+  stress-pathogen
+  stress-other
+  stress-light
+  nutrients
+  light
+  hormone-ja-sa-ethylene
+  hormone-aba-iaa-ga-br
+  development
+  chemical
+)
+
+if [ "$#" -lt 1 ]; then
+     echo "Usage: mix_filterv2 ARRAY_CLASS_DIR [tissues/conditions]"
+     echo "If second arg is tissues, ARRAY_CLASS_DIR should have as sub-dirs EXP_DIRs for ${mclustissues[@]} "
+     echo "If second arg is conditions, ARRAY_CLASS_DIR should have as sub-dirs EXP_DIRs for ${mixconditions[@]} "
+     echo "If second arg is not given, ARRAY_CLASS_DIR should have as sub-dirs EXP_DIRs for all conditions and tissues "
+     exit 0
+fi
+
+classdir=$1
+indtiss="true"
+indcond="true"
+if [ "$#" -gt 1 ]; then
+	if [[ $2 == "tissues" ]]; then
+		indcond="false"
+	fi
+	if [[ $2 == "conditions" ]]; then
+		indtiss="false"
+	fi
+fi
+
+echo "input args: $classdir $indtiss $indcond"
+
+if [[ $indtiss == "true" ]]; then
+  for tissue in "${mixtissues[@]}"; do
+     echo "Running mclust for $tissue "
+     echo Rscript mclust_filter.R ${classdir}/${tissue}/${tissue}-final-mas5-qn.csv ${classdir}/${tissue}/${tissue}-final-mas5-qn-mix-v2.csv 
+     Rscript mclust_filter.R ${classdir}/${tissue}/${tissue}-final-mas5-qn.csv ${classdir}/${tissue}/${tissue}-final-mas5-qn-mix-v2.csv 
+  done
+fi
+ 
+if [[ $indcond == "true" ]]; then
+  for condition in "${mixconditions[@]}"; do
+     echo "Running mclust for $condition "
+     echo Rscript mclust_filter.R ${classdir}/${condition}/${condition}-final-mas5-qn.csv ${classdir}/${condition}/${condition}-final-mas5-qn-mix-v2.csv
+     Rscript mclust_filter.R ${classdir}/${condition}/${condition}-final-mas5-qn.csv ${classdir}/${condition}/${condition}-final-mas5-qn-mix-v2.csv
+  done
+fi
