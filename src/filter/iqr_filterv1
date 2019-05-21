@@ -1,0 +1,71 @@
+#!/bin/bash
+
+declare -A iqrtissues=(
+  [flower]=0.45
+  [leaf]=0.5
+#  [root]=0.475
+  [root]=0.5
+  [rosette]=0.425
+  [seed]=0.525
+  [seedling1wk]=0.425
+  [seedling2wk]=0.4
+  [shoot]=0.4
+  [wholeplant]=0.425
+)
+
+declare -A iqrconditions=(
+#  [stress-temperature]=0.475
+  [stress-temperature]=0.5
+  [stress-salt-drought]=0.5
+  [stress-pathogen]=0.475
+  [stress-other]=0.5
+  [stress-light]=0.425
+#  [nutrients]=0.45
+  [nutrients]=0.475
+#  [light]=0.425
+  [light]=0.45
+#  [hormone-ja-sa-ethylene]=0.475
+  [hormone-ja-sa-ethylene]=0.5
+#  [hormone-aba-iaa-ga-br]=0.45
+  [hormone-aba-iaa-ga-br]=0.475
+  [development]=0.45
+  [chemical]=0.4
+)
+
+if [ "$#" -lt 1 ]; then
+     echo "Usage: iqr_filter_v1 ARRAY_CLASS_DIR [tissues/conditions]"
+     echo "If second arg is tissues, ARRAY_CLASS_DIR should have as sub-dirs EXP_DIRs for ${!iqrtissues[@]} "
+     echo "If second arg is conditions, ARRAY_CLASS_DIR should have as sub-dirs EXP_DIRs for ${!iqrconditions[@]} "
+     echo "If second arg is not given, ARRAY_CLASS_DIR should have as sub-dirs EXP_DIRs for all conditions and tissues "
+     exit 0
+fi
+
+classdir=$1
+indtiss="true"
+indcond="true"
+if [ "$#" -gt 1 ]; then
+	if [[ $2 == "tissues" ]]; then
+		indcond="false"
+	fi
+	if [[ $2 == "conditions" ]]; then
+		indtiss="false"
+	fi
+fi
+
+echo "input args: $classdir $indtiss $indcond"
+
+if [[ $indtiss == "true" ]]; then
+  for tissue in "${!iqrtissues[@]}"; do
+     echo "Running for $tissue with threshold ${iqrtissues[$tissue]}"
+     echo Rscript iqr_filter.R ${classdir}/${tissue}/${tissue}-final-mas5-qn.csv ${classdir}/${tissue}/${tissue}-final-mas5-qn-iqr-v1.csv ${iqrtissues[$tissue]}
+     Rscript iqr_filter.R ${classdir}/${tissue}/${tissue}-final-mas5-qn.csv ${classdir}/${tissue}/${tissue}-final-mas5-qn-iqr-v1.csv ${iqrtissues[$tissue]}
+  done
+fi
+ 
+if [[ $indcond == "true" ]]; then
+  for condition in "${!iqrconditions[@]}"; do
+     echo "Running for $condition with threshold ${iqrconditions[$condition]}"
+     echo Rscript iqr_filter.R ${classdir}/${condition}/${condition}-final-mas5-qn.csv ${classdir}/${condition}/${condition}-final-mas5-qn-iqr-v1.csv ${iqrconditions[$condition]}
+     Rscript iqr_filter.R ${classdir}/${condition}/${condition}-final-mas5-qn.csv ${classdir}/${condition}/${condition}-final-mas5-qn-iqr-v1.csv ${iqrconditions[$condition]}
+  done
+fi
