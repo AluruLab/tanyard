@@ -61,8 +61,29 @@ def load_gsnetwork(gs_file: str) -> pd.DataFrame:
     tdf = pd.read_csv(gs_file, sep="\t")
     return tdf.loc[tdf.TF != tdf.TARGET, :]
 
+def order_network_rows(in_df: pd.DataFrame, wt_attr_name: str) -> pd.DataFrame:
+    """
+    Given a data frame of three columns : "source", "target" and wt_attr_name
+    returns rows such that source < target
 
-def load_eda_network(eda_file: str, wt_attr_name: str = 'wt') -> pd.DataFrame:
+    Parameters
+    ----------
+    in_df : Input data frame with columns 'source', 'target', wt_attr_name
+
+    wt_attr_name : weight column name in the data frame returned
+
+    Returns
+    -------
+    pandas DataFrame with three columns: 'source', 'target', wt_attr_name such that
+    source entry < target entry
+    """
+    if (in_df.source < in_df.target).all():
+        return in_df
+    tmp_rcds = [(x, y, z) if x < y else (y, x, z) for x, y, z in in_df.to_dict('split')['data']]
+    return pd.DataFrame(tmp_rcds, columns=['source', 'target', wt_attr_name])
+
+def load_eda_network(eda_file: str, wt_attr_name: str = 'wt',
+                     delimiter: str = r'\s+') -> pd.DataFrame:
     """
     Load network from edge attribute file file (.eda).
     Eda file lists the edges in the following format
@@ -92,10 +113,9 @@ def load_eda_network(eda_file: str, wt_attr_name: str = 'wt') -> pd.DataFrame:
     pandas DataFrame with three columns: 'source', 'target', wt_attr_name
 
     """
-    tmp_df = pd.read_csv(eda_file, sep=' ', usecols=[0, 2, 4], skiprows=[0],
+    tmp_df = pd.read_csv(eda_file, sep=delimiter, usecols=[0, 2, 4], skiprows=[0],
                          names=['source', 'target', wt_attr_name])
-    tmp_rcds = [(x, y, z) if x < y else (y, x, z) for x, y, z in tmp_df.to_dict('split')['data']]
-    return pd.DataFrame(tmp_rcds, columns=['source', 'target', wt_attr_name])
+    return order_network_rows(tmp_df, wt_attr_name)
 
 
 def load_tsv_network(tsv_file: str, wt_attr_name: str = 'wt') -> pd.DataFrame:
@@ -119,23 +139,24 @@ def load_tsv_network(tsv_file: str, wt_attr_name: str = 'wt') -> pd.DataFrame:
     """
     tmp_df = pd.read_csv(tsv_file, sep='\t', header=0)
     if 'source' in tmp_df.columns and 'target' in tmp_df.columns and wt_attr_name in tmp_df.columns:
-        return tmp_df.loc[:, ['source', 'target', wt_attr_name]]
+        return order_network_rows(tmp_df.loc[:, ['source', 'target', wt_attr_name]],
+                                  wt_attr_name)
     if 'source' in tmp_df.columns and 'target' in tmp_df.columns and 'wt' in tmp_df.columns:
         tmp_df = tmp_df.loc[:, ['source', 'target', 'wt']]
         tmp_df = tmp_df.rename(columns={'wt': wt_attr_name})
-        return tmp_df
+        return order_network_rows(tmp_df, wt_attr_name)
     if len(tmp_df.columns) >= 3:
         cnames = ['source', 'target', wt_attr_name]
         tmp_df = tmp_df.iloc[:, [0, 1, 2]]
         rn_cols = {x : y for x, y in zip(tmp_df.columns, cnames)}
         tmp_df = tmp_df.rename(columns=rn_cols)
-        return tmp_df
+        return order_network_rows(tmp_df, wt_attr_name)
     return pd.DataFrame({'source': [], 'target': [], wt_attr_name: []})
 
 
 def load_adj_network(adj_file: str, wt_attr_name: str = 'wt',
-                     comments: List[str] = None,
-                     delimiter: str = "\t") -> pd.DataFrame:
+                     delimiter: str = None,
+                     comments: List[str] = None) -> pd.DataFrame:
     """
     Load network with adjacency list;
     Adjacency file lists the target lists for each source node:
@@ -149,7 +170,7 @@ def load_adj_network(adj_file: str, wt_attr_name: str = 'wt',
 
     comments : list of comment indicators
 
-    delimiter : seperators between the fields
+    delimiter : seperators between the fields (default: one or more white spaces)
 
     Returns
     -------
@@ -173,7 +194,7 @@ def load_adj_network(adj_file: str, wt_attr_name: str = 'wt',
 
 
 def load_mat_network(mat_file: str, wt_attr_name: str = 'wt',
-                     delimiter: str = "\t") -> pd.DataFrame:
+                     delimiter: str = r'\s+') -> pd.DataFrame:
     """
     Load network with adjacency matrix;
     Adjacency matrix lists the target wts for each source node:
@@ -190,7 +211,7 @@ def load_mat_network(mat_file: str, wt_attr_name: str = 'wt',
 
     wt_attr_name : weight column name in the data frame returned
 
-    delimiter : seperators between the fields
+    delimiter : seperators between the fields (default: one or more white spaces)
 
     Returns
     -------
@@ -244,3 +265,10 @@ def map_probes(gs_net: pd.DataFrame, annot_df: pd.DataFrame,
                                         right_on='ID', how=how_join)
     gs_net_mapped.columns = ['TF', 'TARGET', 'TFID', 'TFPROBE', 'TARGETID', 'TARGETPROBE']
     return gs_net_mapped
+
+def map_probe2atid(probe_df: pd.DataFrame, annot_df: pd.DataFrame,
+                   how_join: str = 'inner') -> pd.DataFrame:
+    annot_filter_df = annot_df.loc[annot_df.ID != 'no_match', :]
+    probe_df_mapped = probe_df.merge(annot_filter_df, left_on='ID',
+                                     right_on='ID', how=how_join)
+    return probe_df_mapped
