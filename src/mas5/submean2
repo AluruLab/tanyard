@@ -7,11 +7,21 @@ if [ "$#" -lt 1 ]; then
      exit 0
 fi
 
-for i in $1/FINAL/*; do
+if [ "$#" -eq 1 ]; then
+  for i in $1/FINAL/*; do
     f=`basename $i`
     echo "*** $f ***"
     #cd $i
     #R_IN=$i.mas5.csv R_OUT=$i.log2.csv R --no-save < ../../submean2.R
     Rscript submean2.R $i/$f.mas5.csv $i/$f.m5.log2.csv
     #cd ..
-done
+  done
+fi
+
+if [ "$#" -eq 2 ]; then
+  for i in $1/FINAL/$2*; do
+    f=`basename $i`
+    echo "*** $f ***"
+    Rscript submean2.R $i/$f.mas5.csv $i/$f.m5.log2.csv
+  done
+fi

@@ -22,15 +22,16 @@ def main(network_files: Iterable[str], out_file: str) -> None:
     union_col_names = union_row_names
     nrows = len(union_row_names)
     ncols = len(union_col_names)
-    print("NROWS %d NCOLS %d" % (nrows, ncols))
     union_df = pd.DataFrame(np.zeros((nrows, ncols)),
                             columns=union_col_names,
                             index=union_row_names)
+    print("NROWS %d NCOLS %d" % (nrows, ncols))
     for net_fx in network_files:
-        net_df = pd.read_csv(net_fx, sep="\t")
+        net_df = pd.read_csv(net_fx, sep="\s+")
         net_col_names = net_df.columns
         net_row_names = net_df.index
         union_sub_df = union_df.loc[net_row_names, net_col_names]
+        print("%s NR %d NC %d" % (net_fx, union_sub_df.shape[0], union_sub_df.shape[1]))
         net_df_max = net_df[abs(net_df) > abs(union_sub_df)]
         union_sub_df_max = union_sub_df[abs(union_sub_df) >= abs(net_df)]
         union_df.loc[net_row_names, net_col_names] = union_sub_df_max.add(

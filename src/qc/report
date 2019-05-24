@@ -7,7 +7,8 @@ if [ "$#" -lt 1 ]; then
      exit 0
 fi
 
-for i in $1/QC/*; do
+if [ "$#" -lt 2 ]; then
+ for i in $1/QC/*; do
     f=`basename $i`
     num=`cat $i/$f.sum | wc -l`
     if [ $num -gt 0 ]; then
@@ -15,5 +16,17 @@ for i in $1/QC/*; do
 	Rscript plm.R $1/CEL/$f
 	mv $1/CEL/$f/${f}_RLE_NUSE.pdf $i
     fi
-done
+ done
+else
+ echo $1 $2
+ for i in $1/QC/$2*; do
+    f=`basename $i`
+    num=`cat $i/$f.sum | wc -l`
+    if [ $num -gt 0 ]; then
+	echo "reporting for $f: $num"
+	Rscript plm.R $1/CEL/$f
+	mv $1/CEL/$f/${f}_RLE_NUSE.pdf $i
+    fi
+ done
+fi
 

@@ -1,13 +1,46 @@
 #!/bin/bash
 
 if [ "$#" -lt 1 ]; then
-     echo "Usage: links <EXP_DIR>"
+     echo "Usage: mkfinal [-d] <EXP_DIR>"
+     echo "Optional -d : for dry run"
      exit 0
 fi
 
+dryrun="F"
+
+while getopts ":dh" opt; do
+    case ${opt} in
+        d )
+            dryrun="T"
+            ;;
+        h )
+            echo "Usage: mkfinal <EXP_DIR>"
+            echo "Optional -d : for dry run"
+            exit 0
+            ;;
+    esac
+done
+shift $((OPTIND -1))
+indir=$@
+
+if [[ "$dryrun" == "T" ]]; then
+    freject=`mktemp` 
+    faccept=`mktemp` 
+    flistsv=`mktemp`
+else
+    freject=${indir}/QC/final-reject.txt
+    faccept=${indir}/QC/final-accept.txt
+    flistsv=${indir}/QC/final-list.csv
+fi
+
+echo "IN DIR       : " $indir
+echo "DRY RUN      : " $dryrun
+echo "FINAL REJECT : " $freject
+echo "FINAL ACCEPT : " $faccept
+echo "FINAL LIST   : " $flistsv
+
 cwd=`pwd`
 tmpfx=`mktemp`
-
 #
 # Final Reject List inclues
 #   - auto QC rejected, that are not manually accepted
@@ -15,77 +48,98 @@ tmpfx=`mktemp`
 #   - GSE ids that are supersets of other GSE 
 #         (sub GSE are included)
 #
-( ( sort $1/QC/man-accept.txt | uniq ; 
-    sort $1/QC/qc-reject.txt  | uniq )  | sort | uniq -u ;
-  cat $1/QC/man-reject.txt ;
-  cat $1/QC/gse-super.txt ) | sort | uniq  > $1/QC/final-reject.txt
-#wc -l $1/QC/final-reject.txt
+( ( sort ${indir}/QC/man-accept.txt | uniq ; 
+    sort ${indir}/QC/qc-reject.txt  | uniq )  | sort | uniq -u ;
+  cat ${indir}/QC/man-reject.txt ;
+  cat ${indir}/QC/gse-super.txt ) | sort | uniq  > ${freject}
+#wc -l ${freject} 
 
 #
 # Among the full list (full-list.txt), 
 #   Remove the ones in the final-reject.txt
 #
-join -v2 $1/QC/final-reject.txt $1/QC/full-list.txt > $1/QC/final-accept.txt
+join -v2 ${freject} ${indir}/QC/full-list.txt > ${faccept}
 
 #
 # Select the lines from full-list.csv,
 #    in which the second column entry matches with an entry in final-accept.txt
 #
-sed 's/$/\\\"\$/' $1/QC/final-accept.txt  > $tmpfx
-grep -f $tmpfx $1/QC/full-list.csv > $1/QC/final-list.csv
+sed 's/$/\\\"\$/' ${faccept}  > $tmpfx
+grep -f $tmpfx ${indir}/QC/full-list.csv > ${flistsv}
 
-#nt2=`cat /tmp/tadjq $1/QC/man-reject.txt | sort | uniq  | wc -l`
-#nt3=`cat /tmp/tadjq $1/QC/man-reject.txt $1/QC/gse-super.txt | sort | uniq | wc -l`
+#nt2=`cat /tmp/tadjq ${indir}/QC/man-reject.txt | sort | uniq  | wc -l`
+#nt3=`cat /tmp/tadjq ${indir}/QC/man-reject.txt ${indir}/QC/gse-super.txt | sort | uniq | wc -l`
 
-ltz=`cat $1/QC/final-list.csv | wc -l` # final list 
+ltz=`cat ${flistsv} | wc -l` # final list 
 # No. of experiments with only one CEL
-lta=`cat $1/QC/final-list.csv | cut -d, -f1 | uniq -c | sort | grep "      1 " |  cut -d'"' -f1 | paste -sd+ | bc`
+lta=`cat ${flistsv} | cut -d, -f1 | uniq -c | sort | grep "      1 " |  cut -d'"' -f1 | paste -sd+ | bc`
 # No. of experiments with two CELs
-ltb=`cat $1/QC/final-list.csv | cut -d, -f1 | uniq -d -c | sort | grep "      2 " |  cut -d'"' -f1 | paste -sd+ | bc`
+ltb=`cat ${flistsv} | cut -d, -f1 | uniq -d -c | sort | grep "      2 " |  cut -d'"' -f1 | paste -sd+ | bc`
 if [ -z $ltb ]; then
-  lty=0
-else
-  if [ -z $lta ]; then
-     lty=$(( $ltz - $ltb ))
-  else
-     lty=$(( $ltz - $lta -$ltb ))
-  fi
+  ltb=0
 fi
+if [ -z $lta ]; then
+  lta=0
+fi
+lty=$(( $ltz - $lta - $ltb ))
 
-echo "Tissue             :" `basename $1` 
-echo "Final Count        :" $ltz
-echo "Expts w. 1 CEL     :" $lta
-echo "Expts w. 2 CELS    :" $ltb
-echo "Final w. >2 CELS   :" $lty
+fullcount=`cat ${indir}/QC/full-list.csv | wc -l`
+frejcount=`cat ${freject} | wc -l`
+echo "Tissue/Condition   : " `basename ${indir}` 
+echo "Full Count         : " $fullcount
+echo "Final Reject       : " $frejcount
+echo "Final Count        : " $ltz
+echo "Expts w. 1 CEL     : " $lta
+echo "Expts w. 2 CELS    : " $ltb
+echo "Final w. >2 CELS   : " $lty
 
 #
 # Create links for the list in final-list.txt
-#   in the $1/FINAL/ directory
+#   in the ${indir}/FINAL/ directory
 #
 tmpfy=`mktemp`
 # remove exprts with
-cat $1/QC/final-list.csv | cut -d, -f1 | uniq -d -c | grep -v " 2 " | sort -n |  cut -d'"' -f 2 | sort > $tmpfy
+cat ${flistsv} | cut -d, -f1 | uniq -d -c | grep -v " 2 " | sort -n |  cut -d'"' -f 2 | sort > $tmpfy
 
-for i in $1/CEL/*; do
+for i in ${indir}/CEL/*; do
    d=`basename $i`
    list1=`grep $d $tmpfy`
    #echo $list1
    if [ -n "$list1" ]; then
       #echo $d
-      mkdir -p $1/FINAL/$d
+      mkdir -p ${indir}/FINAL/$d
       for j in $i/*.[cC][eE][lL]* ; do
+          celf=$(basename "$j")
           f=$(basename "$j" | cut -d. -f1)
           #echo $f
-          list=`grep -w "${f}" $1/QC/final-accept.txt`
+          list=`grep -w "${f}" ${faccept}`
           if [ -n "$list" ]; then
-             echo ">$j<"
-             ln -s $j $1/FINAL/$d/
+             linkexists="LNK_NO"
+             linksrc=${indir}/FINAL/$d/$celf
+             if [ -L ${linksrc} ] ; then
+                 linktgt=`readlink $linksrc`
+                 if [[ "$linktgt" == "$j" ]] ; then
+                     linkexists="LNK_EXISTS"
+                 else
+                     linkexists="LNK_WRONG"
+                 fi
+             fi
+             if [[ "$linkexists" == "LNK_NO" ]] ; then
+                echo ${linksrc} "->" $j $linkexists
+             fi
+             if [[ "$dryrun" == "F" ]]; then
+               if [[ "$linkexists" == "LNK_NO" ]] ; then
+                 ln -s $j ${indir}/FINAL/$d/
+               fi
+             fi
           fi
       done
       #cd ../../../
-      #f=`ls -1 $1/FINAL/$d/*.CEL $1/FINAL/$d/*.cel $1/FINAL/$d/*.gz  2> /dev/null | wc -l`
+      #f=`ls -1 ${indir}/FINAL/$d/*.CEL ${indir}/FINAL/$d/*.cel ${indir}/FINAL/$d/*.gz  2> /dev/null | wc -l`
       #if [ $f -lt 4 ]; then
-      #   rm -rf $1/FINAL/$d/*.CEL $1/FINAL/$d/*.cel $1/FINAL/$d/*.gz
+      #   rm -rf ${indir}/FINAL/$d/*.CEL ${indir}/FINAL/$d/*.cel ${indir}/FINAL/$d/*.gz
       #fi
    fi
 done
+
+echo "NLINKS             : " `find ${indir}/FINAL/ -type l | wc -l`

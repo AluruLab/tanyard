@@ -7,11 +7,21 @@ if [ "$#" -lt 1 ]; then
      exit 0
 fi
 
-for i in $1/FINAL/*; do
+if [ "$#" -eq 1 ]; then
+ for i in $1/FINAL/*; do
     f=`basename $i`
     echo "*** $f ***"
     #cd $i
     #R_OUT=$i.mas5.csv R --no-save < ../../mas5.R
     Rscript mas5.R $i
     #cd ..
-done
+ done
+fi
+
+if [ "$#" -eq 2 ]; then
+ for i in $1/FINAL/$2*; do
+    f=`basename $i`
+    echo "*** $f ***"
+    Rscript mas5.R $i
+ done
+fi

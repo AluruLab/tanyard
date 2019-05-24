@@ -19,12 +19,23 @@ def shortest_path(net_graph, src, tgt):
             spath = (None, None, None)
     return spath
 
-def eval_network(annot_file, net_file, gs_file, max_dist):
+def select_edges(net_df: pd.DataFrame, wt_attr_name: str = 'wt',
+                 max_edges: int = None):
+    if max_edges is None or max_edges >= net_df.shape[0]:
+        return net_df
+    cur_cols = net_df.columns
+    maxwt_attr_name = wt_attr_name + '_max'
+    net_df[maxwt_attr_name] = net_df[wt_attr_name].abs()
+    net_df = net_df.nlargest(n=max_edges, columns=maxwt_attr_name)
+    #print(net_df.iloc[0, :])
+    return net_df.loc[:, cur_cols]
+
+def eval_network(annot_file, net_file, gs_file, max_dist, max_edges):
     annot_df = load_annotation(annot_file)
     gs_net = map_probes(load_gsnetwork(gs_file), annot_df)
     gs_nedges = gs_net.shape[0]
     gs_nodes = set(gs_net.TFPROBE) | set(gs_net.TARGETPROBE)
-    rv_net = load_reveng_network(net_file)
+    rv_net = select_edges(load_reveng_network(net_file), max_edges = max_edges)
     #rv_net_nodes = set(rv_net.source) | set(rv_net.target)
     rv_net_graph = nx.from_pandas_edgelist(rv_net, edge_attr='wt')
     gs_common_nodes = sum((1 if x in rv_net_graph else 0 for x in gs_nodes))
@@ -47,7 +58,7 @@ def eval_network(annot_file, net_file, gs_file, max_dist):
             if len(spx) > 1:
                 for s_node, t_node in zip(spx, spx[1:]):
                     spath_graph.add_edge(s_node, t_node)
-    dist_histogram_df = pd.DataFrame(data={
+    hist_data = {
         'DIST'  : [x for x in range(max_dist+1)],
         'EDGN'  : dist_histogram,
         'PCTGS' : [float(x)*100/gs_nedges for x in dist_histogram],
@@ -59,10 +70,23 @@ def eval_network(annot_file, net_file, gs_file, max_dist):
         'GRGS'  : [(len(gs_nodes), gs_nedges) for _ in range(max_dist+1)],
         'GRCM'  : [(str(gs_common_nodes), str(gs_common_edges))
                    for _ in range(max_dist+1)]
-        })
-    print(dist_histogram_df)
-    return dist_histogram_df
+    }
+    dist_histogram_df = pd.DataFrame(data=hist_data)
+    #print(net_file)
+    #print(dist_histogram_df)
+    return hist_data
 
+def compare_eval_network(annot_file, net_files, gs_file, max_dist, max_edges):
+    nhdat = [eval_network(annot_file, fx, gs_file, max_dist, max_edges)
+             for fx in net_files]
+    gs_cmp_data =   {str(net_files[x]) : 
+                     [nhdat[x]['GRGS'][0][0], nhdat[x]['GRGS'][0][1]] + 
+                     [nhdat[x]['GRCM'][0][0], nhdat[x]['GRCM'][0][1]] + 
+                     [nhdat[x]['GRSP'][0][0], nhdat[x]['GRSP'][0][1]] + 
+                     [nhdat[x]['EDGN'][y] for y in range(max_dist+1)] 
+                     for x in range(len(net_files))}
+    gs_cmp_data_df = pd.DataFrame(data=gs_cmp_data)
+    print(gs_cmp_data_df.to_csv(sep='\t',index=False))
 
 if __name__ == "__main__":
     PARSER = argparse.ArgumentParser()
@@ -72,11 +96,14 @@ if __name__ == "__main__":
     PARSER.add_argument("gs_network_file",
                         help="""gold standard network
                                 (tab seperated file of TF-TARGET interactions)""")
-    PARSER.add_argument("reveng_network_file",
+    PARSER.add_argument("reveng_network_files", nargs="+",
                         help="""network build from a reverse engineering methods
-                                (currenlty supported: eda)""")
+                                (currenlty supported: eda, adj, tsv)""")
     PARSER.add_argument("-d", "--dist", type=int, default=3,
                         help="max. number of hops allowed")
+    PARSER.add_argument("-x", "--max_edges", type=int,
+                        help="""comma seperated names of the network;
+                                should have as many names as the number of networks""")
     ARGS = PARSER.parse_args()
-    eval_network(ARGS.annotation_file, ARGS.reveng_network_file,
-                 ARGS.gs_network_file, ARGS.dist)
+    compare_eval_network(ARGS.annotation_file, ARGS.reveng_network_files,
+                         ARGS.gs_network_file, ARGS.dist, ARGS.max_edges)
