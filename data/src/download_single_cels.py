@@ -85,7 +85,7 @@ def print_classification(dx_df):
 
 def main(in_file, data_dir, out_status_file):
     dx_df = pd.read_csv(in_file, encoding="ISO-8859-1")
-    print_classification(dx_df)
+    print(print_classification(dx_df))
     hsdf = dx_df.loc[DU.has_file, : ]
     vxdf = hsdf.loc[DU.has_no_semicolon, : ]
     ntxdf = vxdf.loc[DU.not_ends_with_text, : ]

@@ -9,6 +9,7 @@ import os.path
 import subprocess
 import requests
 import pandas as pd
+import numpy as np
 
 def last_of(in_txt: str, sub: str):
     "Identify the last occurence of sub in in_txt"
@@ -111,14 +112,14 @@ def has_semicolon(pdf):
 def has_no_semicolon(pdf):
     """Check if the SampleFile has no ';' (implies multiple CEL files)
     Return a boleean column for the SampleFile column in pdf data frame"""
-    return not has_semicolon(pdf)
+    return np.logical_not(has_semicolon(pdf))
 
 def ends_with_text(pdf):
     return pd.Series([str(x).endswith('txt') for x in pdf.SampleFile],
                      index=pdf.index)
 
 def not_ends_with_text(pdf):
-    return not ends_with_text(pdf)
+    return np.logical_not(ends_with_text(pdf))
 
 def contains_cel(pdf):
     return pd.Series(['cel' in x.lower() for x in pdf.SampleFile],
