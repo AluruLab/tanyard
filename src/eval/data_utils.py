@@ -61,6 +61,26 @@ def load_gsnetwork(gs_file: str) -> pd.DataFrame:
     tdf = pd.read_csv(gs_file, sep="\t")
     return tdf.loc[tdf.TF != tdf.TARGET, :]
 
+def remove_dupe_rows(in_df: pd.DataFrame, wt_attr_name: str) -> pd.DataFrame:
+    """
+    Given a data frame of three columns : "source", "target" and wt_attr_name
+    such that only the row with max weight is returned
+
+    Parameters
+    ----------
+    in_df : Input data frame with columns 'source', 'target', wt_attr_name
+
+    wt_attr_name : weight column name in the data frame returned
+
+    Returns
+    -------
+    pandas DataFrame with three columns: 'source', 'target', wt_attr_name such that
+    only the row with max weight is returned
+    """
+    in_df = in_df.sort_values(by=[wt_attr_name], ascending=False)
+    return in_df.drop_duplicates(subset=['source', 'target'], keep='first')
+
+
 def order_network_rows(in_df: pd.DataFrame, wt_attr_name: str) -> pd.DataFrame:
     """
     Given a data frame of three columns : "source", "target" and wt_attr_name
@@ -78,9 +98,10 @@ def order_network_rows(in_df: pd.DataFrame, wt_attr_name: str) -> pd.DataFrame:
     source entry < target entry
     """
     if (in_df.source < in_df.target).all():
-        return in_df
+        return remove_dupe_rows(in_df, wt_attr_name)
     tmp_rcds = [(x, y, z) if x < y else (y, x, z) for x, y, z in in_df.to_dict('split')['data']]
-    return pd.DataFrame(tmp_rcds, columns=['source', 'target', wt_attr_name])
+    tmp_df = pd.DataFrame(tmp_rcds, columns=['source', 'target', wt_attr_name])
+    return remove_dupe_rows(tmp_df, wt_attr_name)
 
 def load_eda_network(eda_file: str, wt_attr_name: str = 'wt',
                      delimiter: str = r'\s+') -> pd.DataFrame:
