@@ -49,7 +49,7 @@ if __name__ == "__main__":
     PARSER = argparse.ArgumentParser(description=PROG_DESC)
     PARSER.add_argument("network_files", nargs="+",
                         help="""network build from a reverse engineering methods
-                                (currenlty supported: eda, adj, tsv)""")
+                                (currently supported: eda, adj, tsv)""")
     PARSER.add_argument("-o", "--out_file",
                         type=argparse.FileType(mode='w'), required=True,
                         help="output file in matrix format")
