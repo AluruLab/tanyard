@@ -1,9 +1,17 @@
 
 import argparse
+import matplotlib
+matplotlib.use('Agg')
 import venn
 from data_utils import load_reveng_network
 
-def main(network_files: str, network_names: str, out_file) -> None:
+def get_pair(rcd):
+    px = (rcd['source'], rcd['target'])
+    if px[0] < px[1]:
+        return px
+    return (px[1], px[0])
+
+def main(network_files: str, network_names: str, out_file: str) -> None:
     if len(network_files) > 4:
         network_files = network_files[0:4]
     if network_names:
@@ -13,9 +21,12 @@ def main(network_files: str, network_names: str, out_file) -> None:
     if network_names is None:
         network_names = ['net_' + str(ix) for ix in range(len(network_files))]
     network_dfs = [load_reveng_network(nx) for nx in network_files]
-    st_lists = [ndf.loc[:, ['source', 'target']].values.to_list() for ndf in network_dfs]
+    network_dfs = [ndf.loc[:, ['source', 'target']] for ndf in network_dfs]
+    st_lists = [[get_pair(rcd) for rcd in df.to_dict('records')] for df in network_dfs]
     venn_labels = venn.get_labels(st_lists)
     print(venn_labels)
+    fig, ax = venn.venn4(venn_labels, names=network_names)
+    fig.savefig(out_file)
 
 
 if __name__ == "__main__":
@@ -25,8 +36,8 @@ if __name__ == "__main__":
                         help="""comma seperated names of the network;
                                 should have as many names as the number of networks""")
     ARGPARSER.add_argument("-o", "--out_file",
-                        type=argparse.FileType(mode='w'), required=True,
-                        help="output file in tab-seperated format")
+                        type=str, required=True,
+                        help="output file in png format")
     ARGPARSER.add_argument("network_files", nargs="+")
     CMDARGS = ARGPARSER.parse_args()
     print("""
