@@ -1,5 +1,8 @@
 .DS_Store
 data/src/data/
+data/src/status/
 data/tables/bkup/
+data/tables/status/
 tmp/
 *.pyc
+.conda

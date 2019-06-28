@@ -11,22 +11,31 @@ def get_pair(rcd):
         return px
     return (px[1], px[0])
 
-def main(network_files: str, network_names: str, out_file: str) -> None:
-    if len(network_files) > 4:
-        network_files = network_files[0:4]
+def get_edge_lists(ndf):
+    return [get_pair(rcd) for rcd in ndf[:, ['source', 'target']].to_dict('records')]
+
+def make_network_names(network_names):
     if network_names:
         network_names = network_names.split(",")
         if len(network_names) > 4:
             network_names = network_names[0:4]
     if network_names is None:
         network_names = ['net_' + str(ix) for ix in range(len(network_files))]
+    return network_names
+
+def main(network_files: str, network_names: str, out_file: str) -> None:
+    if len(network_files) > 4:
+        network_files = network_files[0:4]
+    else:
+        return False
+    network_names = get_network_names(network_names)
     network_dfs = [load_reveng_network(nx) for nx in network_files]
-    network_dfs = [ndf.loc[:, ['source', 'target']] for ndf in network_dfs]
-    st_lists = [[get_pair(rcd) for rcd in df.to_dict('records')] for df in network_dfs]
+    st_lists = [get_edge_lists for df in network_dfs]
     venn_labels = venn.get_labels(st_lists)
     print(venn_labels)
     fig, ax = venn.venn4(venn_labels, names=network_names)
     fig.savefig(out_file)
+    return True
 
 
 if __name__ == "__main__":
@@ -46,4 +55,5 @@ if __name__ == "__main__":
        ARG : out_file : %s """ %
           (str(CMDARGS.network_files), str(CMDARGS.network_names),
            str(CMDARGS.out_file)))
-    main(CMDARGS.network_files, CMDARGS.network_names, CMDARGS.out_file)
+    if not main(CMDARGS.network_files, CMDARGS.network_names, CMDARGS.out_file):
+        ARGPARSER.print_usage()
