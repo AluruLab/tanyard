@@ -1,7 +1,10 @@
 .DS_Store
 data/src/data/
+data/src/status/
 data/tables/bkup/
+data/tables/status/
 src/filter/plots/
 tmp/
 .mypy_*
 *.pyc
+.conda
