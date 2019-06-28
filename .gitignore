@@ -1,5 +1,7 @@
 .DS_Store
 data/src/data/
 data/tables/bkup/
+src/filter/plots/
 tmp/
+.mypy_*
 *.pyc
