@@ -64,14 +64,25 @@ def eval_network(annot_file, net_file, gs_file, max_dist, max_edges):
                 for s_node, t_node in zip(spx, spx[1:]):
                     spath_graph.add_edge(s_node, t_node)
     fp_cts = 0
+    tp_cts = 0
     for x, y in gs_fls_edges:
         if x in rv_net_graph and y in rv_net_graph:
-            if nx.shortest_path_length(rv_net_graph, x, y) == 1:
-                fp_cts += 1
+            try:
+                if nx.shortest_path_length(rv_net_graph, x, y) == 1:
+                    fp_cts += 1
+            except nx.NetworkXNoPath:
+                pass
+    for x, y in gs_tru_edges:
+        if x in rv_net_graph and y in rv_net_graph:
+            try:
+                if nx.shortest_path_length(rv_net_graph, x, y) == 1:
+                    tp_cts += 1
+            except nx.NetworkXNoPath:
+                pass
     hist_data = {
         'DIST'  : [x for x in range(max_dist+1)],
         'EDGN'  : dist_histogram,
-        'FPCTS' : [fp_cts for _ in range(max_dist+1)],
+        'FPCTS' : [float(tp_cts)/(tp_cts + fp_cts) for _ in range(max_dist+1)],
         'PCTGS' : [float(x)*100/gs_nedges for x in dist_histogram],
         'PCTCM' : [float(x)*100/gs_common_edges for x in dist_histogram],
         'PCTSP' : [float(x)*100/spath_graph.number_of_edges()

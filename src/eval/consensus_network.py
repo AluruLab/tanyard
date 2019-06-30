@@ -16,8 +16,8 @@ def consensus_network(network_files, network_names=None, max_networks: int = Non
         ndf = load_reveng_network(nx_file, nx_name)
         cmb_network = cmb_network.merge(ndf, how='outer', on=['source', 'target'])
         #print(str(nx_name), nx_file, ndf.shape, cmb_network.columns, cmb_network.shape)
-    cmb_network['count'] = cmb_network[network_names].apply(count_nonnan, axis=1)
-    return cmb_network.loc[cmb_network.count > max_networks, : ]
+    cmb_network['NETCOUNT'] = cmb_network[network_names].apply(count_nonnan, axis=1)
+    return cmb_network.loc[cmb_network.NETCOUNT >= max_networks, : ]
 
 def main(network_files: List[str], network_names: List[str],
          max_networks: int, out_file: str) -> bool:
@@ -58,10 +58,10 @@ if __name__ == "__main__":
     print("""
        ARG : network_files : %s
        ARG : network_names : %s
-       ARG : max_edges : %s
+       ARG : max_networks : %s
        ARG : out_file : %s """ %
           (str(ARGS.network_files), str(ARGS.network_names),
-           str(ARGS.max_edges), str(ARGS.out_file)))
-    if not main(ARGS.network_names, ARGS.network_files,
-                ARGS.out_file, ARGS.max_edges):
+           str(ARGS.max_networks), str(ARGS.out_file)))
+    if not main(ARGS.network_files, ARGS.network_names,
+                ARGS.max_networks, ARGS.out_file):
         PARSER.print_usage()
