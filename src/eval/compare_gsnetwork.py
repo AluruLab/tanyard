@@ -30,7 +30,7 @@ def select_edges(net_df: pd.DataFrame, wt_attr_name: str = 'wt',
     #print(net_df.iloc[0, :])
     return net_df.loc[:, cur_cols]
 
-def eval_network(annot_file, net_file, gs_file, max_dist, max_edges):
+def eval_network(annot_file, net_file, gs_file, wt_attr, max_dist, max_edges):
     annot_df = load_annotation(annot_file)
     gs_net = map_probes(load_gsnetwork(gs_file), annot_df)
     gs_nedges = gs_net.shape[0]
@@ -40,7 +40,8 @@ def eval_network(annot_file, net_file, gs_file, max_dist, max_edges):
     gs_tru_edges = set([(x, y) for x, y in zip(gs_net.TFPROBE, gs_net.TARGETPROBE)])
     gs_fls_edges = list(gs_pos_edges - gs_tru_edges)
     gs_nodes = gs_tf_nodes | gs_tgt_nodes
-    rv_net = select_edges(load_reveng_network(net_file), max_edges = max_edges)
+    rv_net = select_edges(load_reveng_network(net_file), wt_attr_name = wt_attr,
+                          max_edges = max_edges)
     #rv_net_nodes = set(rv_net.source) | set(rv_net.target)
     rv_net_graph = nx.from_pandas_edgelist(rv_net, edge_attr='wt')
     gs_common_nodes = sum((1 if x in rv_net_graph else 0 for x in gs_nodes))
@@ -79,10 +80,11 @@ def eval_network(annot_file, net_file, gs_file, max_dist, max_edges):
                     tp_cts += 1
             except nx.NetworkXNoPath:
                 pass
+    prec = float(tp_cts)/(tp_cts + fp_cts)
     hist_data = {
         'DIST'  : [x for x in range(max_dist+1)],
         'EDGN'  : dist_histogram,
-        'FPCTS' : [float(tp_cts)/(tp_cts + fp_cts) for _ in range(max_dist+1)],
+        'FPCTS' : [(fp_cts, tp_cts, prec, prec*100) for _ in range(max_dist+1)],
         'PCTGS' : [float(x)*100/gs_nedges for x in dist_histogram],
         'PCTCM' : [float(x)*100/gs_common_edges for x in dist_histogram],
         'PCTSP' : [float(x)*100/spath_graph.number_of_edges()
@@ -98,15 +100,16 @@ def eval_network(annot_file, net_file, gs_file, max_dist, max_edges):
     #print(dist_histogram_df)
     return hist_data
 
-def compare_eval_network(annot_file, net_files, gs_file, max_dist, max_edges):
-    nhdat = [eval_network(annot_file, fx, gs_file, max_dist, max_edges)
+def compare_eval_network(annot_file, net_files, gs_file, wt_attr, max_dist, max_edges):
+    nhdat = [eval_network(annot_file, fx, gs_file, wt_attr, max_dist, max_edges)
              for fx in net_files]
     gs_cmp_data =   {str(net_files[x]) : 
                      [nhdat[x]['GRGS'][0][0], nhdat[x]['GRGS'][0][1]] + 
                      [nhdat[x]['GRCM'][0][0], nhdat[x]['GRCM'][0][1]] + 
                      [nhdat[x]['GRSP'][0][0], nhdat[x]['GRSP'][0][1]] + 
                      [nhdat[x]['EDGN'][y] for y in range(max_dist+1)] +
-                     [nhdat[x]['FPCTS'][0]]
+                     [nhdat[x]['FPCTS'][0][0], nhdat[x]['FPCTS'][0][1], 
+                      nhdat[x]['FPCTS'][0][2], nhdat[x]['FPCTS'][0][3]]
                      for x in range(len(net_files))}
     gs_cmp_data_df = pd.DataFrame(data=gs_cmp_data)
     print(gs_cmp_data_df.to_csv(sep='\t',index=False))
@@ -124,9 +127,11 @@ if __name__ == "__main__":
                                 (currenlty supported: eda, adj, tsv)""")
     PARSER.add_argument("-d", "--dist", type=int, default=3,
                         help="max. number of hops allowed")
+    PARSER.add_argument("-t", "--wt_attr", type=str, default='wt',
+                        help="name of weight attribute")
     PARSER.add_argument("-x", "--max_edges", type=int,
                         help="""comma seperated names of the network;
                                 should have as many names as the number of networks""")
     ARGS = PARSER.parse_args()
     compare_eval_network(ARGS.annotation_file, ARGS.reveng_network_files,
-                         ARGS.gs_network_file, ARGS.dist, ARGS.max_edges)
+                         ARGS.gs_network_file, ARGS.wt_attr, ARGS.dist, ARGS.max_edges)
