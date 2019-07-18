@@ -287,9 +287,16 @@ def map_probes(gs_net: pd.DataFrame, annot_df: pd.DataFrame,
     gs_net_mapped.columns = ['TF', 'TARGET', 'TFID', 'TFPROBE', 'TARGETID', 'TARGETPROBE']
     return gs_net_mapped
 
-def map_probe2atid(probe_df: pd.DataFrame, annot_df: pd.DataFrame,
+def map_atid2probes(probe_df: pd.DataFrame, annot_df: pd.DataFrame,
                    how_join: str = 'inner') -> pd.DataFrame:
     annot_filter_df = annot_df.loc[annot_df.ID != 'no_match', :]
     probe_df_mapped = probe_df.merge(annot_filter_df, left_on='ID',
                                      right_on='ID', how=how_join)
+    return probe_df_mapped
+
+def map_probes2atid(probe_df: pd.DataFrame, annot_df: pd.DataFrame,
+                    how_join: str = 'inner') -> pd.DataFrame:
+    annot_filter_df = annot_df.loc[annot_df.ID != 'no_match', :]
+    probe_df_mapped = probe_df.merge(annot_filter_df, left_on='PROBE',
+                                     right_on='PROBE', how=how_join)
     return probe_df_mapped
