@@ -300,3 +300,18 @@ def map_probes2atid(probe_df: pd.DataFrame, annot_df: pd.DataFrame,
     probe_df_mapped = probe_df.merge(annot_filter_df, left_on='PROBE',
                                      right_on='PROBE', how=how_join)
     return probe_df_mapped
+
+def map_probes_cols(net_df: pd.DataFrame, annot_df: pd.DataFrame,
+                    col_names: List[str],
+                    how_join: str = 'inner') -> pd.DataFrame:
+    annot_filter_df = annot_df.loc[annot_df.ID != 'no_match', :]
+    if not col_names:
+        return pd.DataFrame()
+    gs_net_mapped = net_df
+    for cname in col_names:
+        gs_net_mapped = gs_net_mapped.merge(annot_filter_df, left_on=cname,
+                                            right_on='PROBE', how=how_join)
+        gs_net_mapped = gs_net_mapped.rename(columns={
+            'ID': cname + "_id",
+            'PROBE': cname + "_probe"})
+    return gs_net_mapped
