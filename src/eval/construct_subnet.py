@@ -17,10 +17,14 @@ def main(annot_file: str, tf_list_file: str, net_file: str, out_file:str):
     for tfn in subnet_tfs:
         subnet_tf_nbrs.update(list(rv_net_graph.neighbors(tfn)))
     #print(len(subnet_tfs))
-    #print(len(subnet_tf_nbrs))
+    print(len(subnet_tf_nbrs))
     rv_net_subgraph = rv_net_graph.subgraph(subnet_tf_nbrs|set(subnet_tfs))
-    rdf = nx.to_pandas_edgelist(rv_net_subgraph);
+    rdf: pd.DataFrame = nx.to_pandas_edgelist(rv_net_subgraph);
     rdf = map_probes_cols(rdf, annot_df, ['source', 'target'])
+    rdf = rdf.loc[:, ['source_id', 'target_id', 'wt']]
+    rdf = rdf.loc[ rdf.source_id != rdf.target_id , :]
+    rdf['souce_ind'] = rdf.source_id.isin(tflst_df.ID)
+    rdf['target_ind'] = rdf.target_id.isin(tflst_df.ID)
     rdf.to_csv(out_file, sep="\t");
 
 
