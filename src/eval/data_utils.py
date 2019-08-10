@@ -45,6 +45,33 @@ def load_annotation(annot_file: str) -> pd.DataFrame:
     annot_df.columns = ['ID', 'PROBE']
     return annot_df
 
+def load_annotation_alias(annot_file: str) -> pd.DataFrame:
+    """
+    Read annotation file (a tab seperated file), and load the annotation
+    data frame.
+    Includes two columns ID and PROBE
+    There can be multiple IDs associated with same probe, which is proveided
+    in the input file delimited by ';'
+
+    Parameters
+    ----------
+    annot_file : Annotation file (tab seperated)
+
+    Returns
+    -------
+    pandas DataFrame with expanded annotation
+    """
+    input_df = pd.read_csv(annot_file, sep="\t", header=0)
+    if 'ALIAS' not in input_df.columns:
+        return load_annotation(annot_file)
+    input_df.index = input_df.PROBE
+    annot_df = pd.DataFrame(input_df.ID.str.split(';').tolist(),
+                            index=input_df.PROBE).stack()
+    annot_df = annot_df.reset_index()[[0, 'PROBE']]
+    annot_df.columns = ['ID', 'PROBE']
+    annot_df['ALIAS'] = list(input_df.loc[ annot_df['PROBE'] , 'ALIAS'])
+    return annot_df
+
 
 def load_gsnetwork(gs_file: str) -> pd.DataFrame:
     """
@@ -287,9 +314,52 @@ def map_probes(gs_net: pd.DataFrame, annot_df: pd.DataFrame,
     gs_net_mapped.columns = ['TF', 'TARGET', 'TFID', 'TFPROBE', 'TARGETID', 'TARGETPROBE']
     return gs_net_mapped
 
-def map_probe2atid(probe_df: pd.DataFrame, annot_df: pd.DataFrame,
+def map_atid2probes(probe_df: pd.DataFrame, annot_df: pd.DataFrame,
                    how_join: str = 'inner') -> pd.DataFrame:
     annot_filter_df = annot_df.loc[annot_df.ID != 'no_match', :]
     probe_df_mapped = probe_df.merge(annot_filter_df, left_on='ID',
                                      right_on='ID', how=how_join)
     return probe_df_mapped
+
+def map_probes2atid(probe_df: pd.DataFrame, annot_df: pd.DataFrame,
+                    how_join: str = 'inner') -> pd.DataFrame:
+    annot_filter_df = annot_df.loc[annot_df.ID != 'no_match', :]
+    probe_df_mapped = probe_df.merge(annot_filter_df, left_on='PROBE',
+                                     right_on='PROBE', how=how_join)
+    return probe_df_mapped
+
+def map_probes_cols(net_df: pd.DataFrame, annot_df: pd.DataFrame,
+                    col_names: List[str],
+                    how_join: str = 'inner',
+                    probe_suffix: str = '_probe',
+                    id_suffix: str = '_id') -> pd.DataFrame:
+    annot_filter_df = annot_df.loc[annot_df.ID != 'no_match', :]
+    if not col_names:
+        return pd.DataFrame()
+    gs_net_mapped = net_df
+    for cname in col_names:
+        gs_net_mapped = gs_net_mapped.merge(annot_filter_df, left_on=cname,
+                                            right_on='PROBE', how=how_join)
+        gs_net_mapped = gs_net_mapped.rename(columns={
+            'ID': cname + id_suffix,
+            'PROBE': cname + probe_suffix})
+    return gs_net_mapped
+
+def map_probes_cols_idalias(net_df: pd.DataFrame, annot_df: pd.DataFrame,
+                col_names: List[str],
+                how_join: str = 'inner',
+                probe_suffix: str = '_probe',
+                id_suffix: str = '_id',
+                alias_suffix: str = '_alias') -> pd.DataFrame:
+    annot_filter_df = annot_df.loc[annot_df.ID != 'no_match', :]
+    if not col_names:
+        return pd.DataFrame()
+    gs_net_mapped = net_df
+    for cname in col_names:
+        gs_net_mapped = gs_net_mapped.merge(annot_filter_df, left_on=cname,
+                                            right_on='PROBE', how=how_join)
+        gs_net_mapped = gs_net_mapped.rename(columns={
+            'ID': cname + id_suffix,
+            'PROBE': cname + probe_suffix,
+            'ALIAS': cname + alias_suffix })
+    return gs_net_mapped
