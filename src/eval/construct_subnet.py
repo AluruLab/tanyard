@@ -2,13 +2,13 @@
 import pandas as pd
 import networkx as nx 
 import argparse
-from data_utils import load_annotation, map_atid2probes, load_reveng_network, map_probes_cols
+import data_utils as du
 
 def main(annot_file: str, tf_list_file: str, net_file: str, out_file:str):
-    annot_df = load_annotation(annot_file)
-    tflst_df = map_atid2probes(pd.read_csv(tf_list_file, sep= r'\s+'),
+    annot_df = du.load_annotation_alias(annot_file)
+    tflst_df = du.map_atid2probes(pd.read_csv(tf_list_file, sep= r'\s+'),
                                annot_df)
-    rv_net = load_reveng_network(net_file)
+    rv_net = du.load_reveng_network(net_file)
     #rv_net_nodes = set(rv_net.source) | set(rv_net.target)
     rv_net_graph : nx.Graph = nx.from_pandas_edgelist(rv_net, edge_attr='wt')
     #print(rv_net_graph.size())
@@ -20,12 +20,17 @@ def main(annot_file: str, tf_list_file: str, net_file: str, out_file:str):
     print(len(subnet_tf_nbrs))
     rv_net_subgraph = rv_net_graph.subgraph(subnet_tf_nbrs|set(subnet_tfs))
     rdf: pd.DataFrame = nx.to_pandas_edgelist(rv_net_subgraph);
-    rdf = map_probes_cols(rdf, annot_df, ['source', 'target'])
-    rdf = rdf.loc[:, ['source_id', 'target_id', 'wt']]
+    print(annot_df.columns)
+    if 'ALIAS' in annot_df.columns:
+        rdf = du.map_probes_cols_idalias(rdf, annot_df, ['source', 'target'])
+        rdf = rdf.loc[:, ['source_id', 'target_id', 'source_alias', 'target_alias', 'wt']]
+    else:
+        rdf = du.map_probes_cols(rdf, annot_df, ['source', 'target'])
+        rdf = rdf.loc[:, ['source_id', 'target_id', 'wt']]
     rdf = rdf.loc[ rdf.source_id != rdf.target_id , :]
-    rdf['souce_ind'] = rdf.source_id.isin(tflst_df.ID)
+    rdf['source_ind'] = rdf.source_id.isin(tflst_df.ID)
     rdf['target_ind'] = rdf.target_id.isin(tflst_df.ID)
-    rdf.to_csv(out_file, sep="\t");
+    rdf.loc[ rdf['source_ind'] | rdf['target_ind'] ,:].to_csv(out_file, sep="\t", index=False)
 
 
 if __name__ == "__main__":
