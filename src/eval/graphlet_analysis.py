@@ -2,7 +2,7 @@ from typing import List
 import argparse
 import networkx as nx
 import pandas as pd
-from data_utils import load_annotation, map_atid2probes, map_probes2atid, load_reveng_network
+import data_utils as du
 
 
 def count_common_tf_graphlets(tf_list: List[str], tf_subnet: nx.Graph):
@@ -13,14 +13,13 @@ def count_common_tf_graphlets(tf_list: List[str], tf_subnet: nx.Graph):
     """
     ctf_graphlet_ctx = {}
     tf_list_set = set(tf_list)
-    for x in tf_list:
-        nbx = sum((1 if y in tf_list_set else 0 for y in tf_subnet.neighbors(x)))
+    for tfx in tf_list:
+        nbx = sum((1 if y in tf_list_set else 0 for y in tf_subnet.neighbors(tfx)))
         if nbx > 1:
-            ctf_graphlet_ctx[x] = nbx * (nbx - 1)
+            ctf_graphlet_ctx[tfx] = nbx * (nbx - 1)
         else:
-            ctf_graphlet_ctx[x] = 0
+            ctf_graphlet_ctx[tfx] = 0
     return ctf_graphlet_ctx
-        
 
 def count_commtgt_graphlets(tf_list: List[str], tf_subnet: nx.Graph):
     """
@@ -29,19 +28,19 @@ def count_commtgt_graphlets(tf_list: List[str], tf_subnet: nx.Graph):
             A non-TF regulated by two TFs
     """
     ctg_comtgt_ctx = {}
-    for x in tf_list:
-        ctg_comtgt_ctx[x] = 0
+    for tfx in tf_list:
+        ctg_comtgt_ctx[tfx] = 0
     tf_list_set: set = set(tf_list)
     if len(tf_list) < 2:
         return ctg_comtgt_ctx
     tf_nbrs = {x : set(list(tf_subnet.neighbors(x))) for x in tf_list}
-    for x in tf_list:
-        xnbrs = tf_nbrs[x]
-        for y in tf_list[1:]:
-            ynbrs = tf_nbrs[y]
+    for tfx in tf_list:
+        xnbrs = tf_nbrs[tfx]
+        for tfy in tf_list[1:]:
+            ynbrs = tf_nbrs[tfy]
             nzlen = len(tf_list_set - (xnbrs & ynbrs))
-            ctg_comtgt_ctx[x] += nzlen
-            ctg_comtgt_ctx[y] += nzlen
+            ctg_comtgt_ctx[tfx] += nzlen
+            ctg_comtgt_ctx[tfy] += nzlen
     return ctg_comtgt_ctx
 
 
@@ -52,17 +51,17 @@ def count_passtf_graphlets(tf_list: List[str], tf_subnet: nx.Graph):
             A non-TF regulated by a TF, but not by another
     """
     ctg_passtf_ctx = {}
-    for x in tf_list:
-        ctg_passtf_ctx[x] = 0
+    for tfx in tf_list:
+        ctg_passtf_ctx[tfx] = 0
     tf_list_set: set = set(tf_list)
     if len(tf_list) < 2:
         return ctg_passtf_ctx
     tf_nbrs = {x : set(list(tf_subnet.neighbors(x))) for x in tf_list}
-    for x in tf_list:
-        xnbrs = tf_nbrs[x]
-        tfnbrs  = tf_list_set & xnbrs
+    for tfx in tf_list:
+        xnbrs = tf_nbrs[tfx]
+        tfnbrs = tf_list_set & xnbrs
         ntfnbrs = xnbrs - tfnbrs
-        ctg_passtf_ctx[x] += len(tfnbrs) * len(ntfnbrs)
+        ctg_passtf_ctx[tfx] += len(tfnbrs) * len(ntfnbrs)
     return ctg_passtf_ctx
 
 
@@ -75,29 +74,29 @@ def count_triangle_tf_graphlets(tf_list: List[str], tf_subnet: nx.Graph):
             A triangle of TFs
     """
     ctf_triangle_ctx = {}
-    for x in tf_list:
-        ctf_triangle_ctx[x] = 0
+    for tfx in tf_list:
+        ctf_triangle_ctx[tfx] = 0
     if len(tf_list) < 3:
         return ctf_triangle_ctx
-    for x in tf_list:
-        for y in tf_list[1:]:
-            if not tf_subnet.has_edge(x, y):
+    for tfx in tf_list:
+        for tfy in tf_list[1:]:
+            if not tf_subnet.has_edge(tfx, tfy):
                 continue
-            for z in tf_list[2:]:
-                if not tf_subnet.has_edge(x, z):
+            for tfz in tf_list[2:]:
+                if not tf_subnet.has_edge(tfx, tfz):
                     continue
-                if not tf_subnet.has_edge(y, z):
+                if not tf_subnet.has_edge(tfy, tfz):
                     continue
-                ctf_triangle_ctx[x] += 1
-                ctf_triangle_ctx[y] += 1
-                ctf_triangle_ctx[z] += 1
+                ctf_triangle_ctx[tfx] += 1
+                ctf_triangle_ctx[tfy] += 1
+                ctf_triangle_ctx[tfz] += 1
     return ctf_triangle_ctx
 
 def count_network_graphlets(tflst_df: pd.DataFrame,
                             net_file: str):
-    rv_net = load_reveng_network(net_file)
+    rv_net = du.load_reveng_network(net_file)
     #rv_net_nodes = set(rv_net.source) | set(rv_net.target)
-    rv_net_graph : nx.Graph = nx.from_pandas_edgelist(rv_net, edge_attr='wt')
+    rv_net_graph: nx.Graph = nx.from_pandas_edgelist(rv_net, edge_attr='wt')
     #print(rv_net_graph.size())
     subnet_tfs = [x for x in tflst_df.PROBE if x in rv_net_graph]
     subnet_tf_nbrs: set = set([])
@@ -115,16 +114,16 @@ def count_network_graphlets(tflst_df: pd.DataFrame,
                          for x in subnet_tfs]
     #sorted(average_graphlets, reverse=True)
     rdf: pd.DataFrame = pd.DataFrame.from_records(average_graphlets)
-    rdf = map_probes2atid(rdf, tflst_df)
+    rdf = du.map_probes2atid(rdf, tflst_df)
     rdf.sort_values(by='WT', ascending=False, inplace=True)
     print(rdf.columns)
     return rdf
 
 
-def main(annot_file: str, tf_list_file: str, net_files: str, out_file:str):
-    annot_df = load_annotation(annot_file)
-    tflst_df = map_atid2probes(pd.read_csv(tf_list_file, sep= r'\s+'),
-                               annot_df)
+def main(annot_file: str, tf_list_file: str, net_files: str, out_file: str):
+    annot_df = du.load_annotation(annot_file)
+    tflst_df = du.map_atid2probes(pd.read_csv(tf_list_file, sep=r'\s+'),
+                                  annot_df)
     for nx_file in net_files:
         rdf: pd.DataFrame = count_network_graphlets(tflst_df, nx_file)
         rdf.to_csv(out_file, sep="\t")
@@ -143,7 +142,7 @@ def main(annot_file: str, tf_list_file: str, net_files: str, out_file:str):
 #       |               |
 #       |---------------|
 #       A triangle of TFs
-# For each TF : 
+# For each TF :
 #   For each of the four graphlet
 #      - Count the number of graphlets found
 #      - Compute REC for the graphlet
@@ -163,7 +162,7 @@ if __name__ == "__main__":
                         help="""comma seperated names of the network;
                                 should have as many names as the number of networks""")
     PARSER.add_argument("-o", "--out_file",
-                        type=str, 
+                        type=str,
                         help="output file in png format")
     ARGS = PARSER.parse_args()
     main(ARGS.annotation_file, ARGS.tf_list_file,

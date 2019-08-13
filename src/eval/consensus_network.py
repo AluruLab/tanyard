@@ -1,8 +1,9 @@
+import argparse
+from typing import List
 import pandas as pd
 import numpy as np
-from typing import List
-from data_utils import load_reveng_network
-import argparse
+import data_utils as du
+
 
 def count_nonnan(row_x):
     return np.count_nonzero(~np.isnan(row_x))
@@ -13,11 +14,11 @@ def consensus_network(network_files, network_names=None, max_networks: int = Non
         network_names = ['net_' + str(ix) for ix in range(len(network_files))]
     cmb_network = pd.DataFrame(columns=['source', 'target'])
     for nx_name, nx_file in zip(network_names, network_files):
-        ndf = load_reveng_network(nx_file, nx_name)
+        ndf = du.load_reveng_network(nx_file, nx_name)
         cmb_network = cmb_network.merge(ndf, how='outer', on=['source', 'target'])
         #print(str(nx_name), nx_file, ndf.shape, cmb_network.columns, cmb_network.shape)
     cmb_network['NETCOUNT'] = cmb_network[network_names].apply(count_nonnan, axis=1)
-    return cmb_network.loc[cmb_network.NETCOUNT >= max_networks, : ]
+    return cmb_network.loc[cmb_network.NETCOUNT >= max_networks, :]
 
 def main(network_files: List[str], network_names: List[str],
          max_networks: int, out_file: str) -> bool:
@@ -36,10 +37,10 @@ def main(network_files: List[str], network_names: List[str],
 
 if __name__ == "__main__":
     PROG_DESC = """
-    Finds a union of input networks.
-    Network union is computed as the union of edges of the input networks.
-    Outputs a tab-seperated values with weights corresponding to each network
-    in a separate column, and maximum and average weight.
+    Finds a consensus of input networks.
+    Network consensus is computed as the consensus of edges of the input networks.
+    Outputs a tab-seperated values with a NETCOUNT column showing the number of
+    times an edge appears.
     """
     PARSER = argparse.ArgumentParser(description=PROG_DESC)
     PARSER.add_argument("network_files", nargs="+",

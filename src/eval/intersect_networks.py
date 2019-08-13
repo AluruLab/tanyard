@@ -1,7 +1,6 @@
-from typing import Iterable, Set, Any, List
+from typing import Iterable, List
 import argparse
 import pandas as pd
-from data_utils import load_annotation, load_reveng_network, load_gsnetwork, map_probes_cols
 
 
 def common_network(network_files: Iterable[str]):
@@ -49,13 +48,13 @@ if __name__ == "__main__":
                         help="""comma seperated names of the output files;
                                 should have as many names as the number of networks""")
     ARGS = PARSER.parse_args()
-    distinct_file_names = ARGS.network_distinct_files
-    if distinct_file_names:
-        distinct_file_names = distinct_file_names.split(",")
-        if len(distinct_file_names) != len(ARGS.network_files):
-            distinct_file_names = None
+    DISTINCT_FILE_NAMES = ARGS.network_distinct_files
+    if DISTINCT_FILE_NAMES:
+        DISTINCT_FILE_NAMES = DISTINCT_FILE_NAMES.split(",")
+        if len(DISTINCT_FILE_NAMES) != len(ARGS.network_files):
+            DISTINCT_FILE_NAMES = None
     else:
-        distinct_file_names = None
-    if not distinct_file_names:
-        distinct_file_names = ['net_' + str(ix) for ix in range(len(ARGS.network_files))]
-    main(ARGS.network_files, ARGS.out_file, distinct_file_names)
+        DISTINCT_FILE_NAMES = None
+    if not DISTINCT_FILE_NAMES:
+        DISTINCT_FILE_NAMES = ['net_' + str(ix) for ix in range(len(ARGS.network_files))]
+    main(ARGS.network_files, ARGS.out_file, DISTINCT_FILE_NAMES)

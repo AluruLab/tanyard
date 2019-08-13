@@ -1,16 +1,16 @@
 from typing import Iterable, Set, Any
 import argparse
 import pandas as pd
-from data_utils import load_annotation, load_reveng_network, load_gsnetwork, map_probes
+import data_utils as du
 
 
 def common_network(annot_file: str, gs_file: str, network_files: Iterable[str]):
-    annot_df: pd.DataFrame = load_annotation(annot_file)
-    gsnet_df: pd.DataFrame = load_gsnetwork(gs_file)
-    gs_net = map_probes(gsnet_df, annot_df)
+    annot_df: pd.DataFrame = du.load_annotation(annot_file)
+    gsnet_df: pd.DataFrame = du.load_gsnetwork(gs_file)
+    gs_net = du.map_probes(gsnet_df, annot_df)
     common_df: pd.DataFrame = pd.DataFrame()
     for net_file in network_files:
-        rv_net: pd.DataFrame = load_reveng_network(net_file)
+        rv_net: pd.DataFrame = du.load_reveng_network(net_file)
         rv_net_nodes: Set[Any] = set(rv_net.source) | set(rv_net.target)
         if common_df.empty or common_df.shape[0] == 0:
             common_df = gs_net.loc[(gs_net.TFPROBE.isin(rv_net_nodes)) &

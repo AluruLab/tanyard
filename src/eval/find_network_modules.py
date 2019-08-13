@@ -1,10 +1,11 @@
-# from modularity_maximization import partition
-# from modularity_maximization.utils import get_modularity
 import argparse
 import pandas as pd
-import networkx as nx
+#import networkx as nx
 import igraph as igx
-from data_utils import load_annotation, map_probes_cols, load_reveng_network, map_probes_cols
+import data_utils as du
+#from data_utils import load_annotation, map_probes_cols, load_reveng_network, map_probes_cols
+# from modularity_maximization import partition
+# from modularity_maximization.utils import get_modularity
 
 METHOD_FGREEDY = 'fast'
 METHOD_LABELPR = 'label'
@@ -18,19 +19,19 @@ METHOD_DESCRIPTION = {
         METHOD_FGREEDY : 'Fast Greedy',
         METHOD_LABELPR : 'Label Propagation',
         METHOD_LEIGENV : 'Largest Eigen Value',
-        METHOD_SPINGLS : 'Spinglass', 
-        METHOD_MULTILV : 'Multi-level', 
+        METHOD_SPINGLS : 'Spinglass',
+        METHOD_MULTILV : 'Multi-level',
         METHOD_INFOMAP : 'Infomap',
         METHOD_WALKTRP : 'Random walk'
 }
 
 METHOD_KEYS = list(METHOD_DESCRIPTION.keys())
 
-def main(annot_file: str, net_file: str, method: str, out_file:str):
-    annot_df = load_annotation(annot_file)
-    # tflst_df = map_atid2probes(pd.read_csv(tf_list_file, sep= r'\s+'),
-    #                            annot_df)
-    rv_net = load_reveng_network(net_file)
+def main(annot_file: str, net_file: str, method: str, out_file: str):
+    annot_df = du.load_annotation(annot_file)
+    # tflst_df = du.map_atid2probes(pd.read_csv(tf_list_file, sep= r'\s+'),
+    #                               annot_df)
+    rv_net = du.load_reveng_network(net_file)
     rv_net_node_lst = list(set(rv_net.source) | set(rv_net.target))
     print("No. of Nodes : ", len(rv_net_node_lst))
     rv_net_node_map = {y:x for x, y in enumerate(rv_net_node_lst)}
@@ -62,38 +63,41 @@ def main(annot_file: str, net_file: str, method: str, out_file:str):
     else:
         print("method not supported")
     rdf = pd.DataFrame({"GENE": rv_net_node_lst,
-                        "CLUST_ID" : node_clst.membership })
-    out_df = map_probes_cols(net_df=rdf, annot_df=annot_df,
-                             col_names=['GENE'], probe_suffix='_PROBE',
-                             id_suffix='_ID')
+                        "CLUST_ID": node_clst.membership})
+    out_df = du.map_probes_cols(net_df=rdf, annot_df=annot_df,
+                                col_names=['GENE'], probe_suffix='_PROBE',
+                                id_suffix='_ID')
     out_df.loc[:, ['GENE_ID', 'CLUST_ID']].to_csv(out_file, sep="\t")
 
 
 if __name__ == "__main__":
-    PARSER = argparse.ArgumentParser()
+    PROG_DESC = """Construct modules  using four methods
+    as given in the review : 
+    
+    https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-016-0979-8
+    """
+    PARSER = argparse.ArgumentParser(description=PROG_DESC)
     PARSER.add_argument("annotation_file",
                         help="""annotation file
                                 (a tab seperated file mapping probe to ids)""")
-    PARSER.add_argument("reveng_network_file", 
+    PARSER.add_argument("reveng_network_file",
                         help="""network build from a reverse engineering methods
                                 (currenlty supported: eda, adj, tsv)""")
     PARSER.add_argument("-o", "--out_file",
-                        type=str, 
+                        type=str,
                         help="output file in png format")
     PARSER.add_argument("-m", "--method",
-                        choices=METHOD_KEYS, 
+                        choices=METHOD_KEYS,
                         default=METHOD_FGREEDY,
-                        help="Algorithm to use for community detection. Options available are : " + 
-                        ';'.join([" {} - {} ".format(k, v) for k,v in METHOD_DESCRIPTION.items()]))
+                        help="Algorithm to use for community detection. Options available are : " +
+                        ';'.join([" {} - {} ".format(k, v) for k, v in METHOD_DESCRIPTION.items()]))
     ARGS = PARSER.parse_args()
     print("""Inputs:
         Annotation : {} 
         Network    : {}
         Method     : {}
         Output     : {}""".format(
-        ARGS.annotation_file, ARGS.reveng_network_file, 
-        METHOD_DESCRIPTION[ARGS.method], ARGS.out_file   
-    ))
-    main(ARGS.annotation_file, ARGS.reveng_network_file, 
+            ARGS.annotation_file, ARGS.reveng_network_file,
+            METHOD_DESCRIPTION[ARGS.method], ARGS.out_file))
+    main(ARGS.annotation_file, ARGS.reveng_network_file,
          ARGS.method, ARGS.out_file)
-

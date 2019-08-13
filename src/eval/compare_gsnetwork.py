@@ -1,7 +1,7 @@
 import argparse
 import pandas as pd
 import networkx as nx
-from data_utils import load_annotation, load_reveng_network, load_gsnetwork, map_probes
+import data_utils as du
 
 def shortest_path(net_graph, src, tgt):
     spath = None
@@ -31,17 +31,18 @@ def select_edges(net_df: pd.DataFrame, wt_attr_name: str = 'wt',
     return net_df.loc[:, cur_cols]
 
 def eval_network(annot_file, net_file, gs_file, wt_attr, max_dist, max_edges):
-    annot_df = load_annotation(annot_file)
-    gs_net = map_probes(load_gsnetwork(gs_file), annot_df)
+    annot_df = du.load_annotation(annot_file)
+    gs_net = du.map_probes(du.load_gsnetwork(gs_file), annot_df)
     gs_nedges = gs_net.shape[0]
     gs_tf_nodes = set(gs_net.TFPROBE)
     gs_tgt_nodes = set(gs_net.TARGETPROBE)
-    gs_pos_edges = set([(x, y) for x in gs_tf_nodes for y in gs_tgt_nodes if x != y])
-    gs_tru_edges = set([(x, y) for x, y in zip(gs_net.TFPROBE, gs_net.TARGETPROBE)])
+    gs_pos_edges = set((x, y) for x in gs_tf_nodes for y in gs_tgt_nodes if x != y)
+    gs_tru_edges = set((x, y) for x, y in zip(gs_net.TFPROBE, gs_net.TARGETPROBE))
     gs_fls_edges = list(gs_pos_edges - gs_tru_edges)
     gs_nodes = gs_tf_nodes | gs_tgt_nodes
-    rv_net = select_edges(load_reveng_network(net_file), wt_attr_name = wt_attr,
-                          max_edges = max_edges)
+    rv_net = select_edges(du.load_reveng_network(net_file),
+                          wt_attr_name=wt_attr,
+                          max_edges=max_edges)
     #rv_net_nodes = set(rv_net.source) | set(rv_net.target)
     rv_net_graph = nx.from_pandas_edgelist(rv_net, edge_attr='wt')
     gs_common_nodes = sum((1 if x in rv_net_graph else 0 for x in gs_nodes))
@@ -66,17 +67,17 @@ def eval_network(annot_file, net_file, gs_file, wt_attr, max_dist, max_edges):
                     spath_graph.add_edge(s_node, t_node)
     fp_cts = 0
     tp_cts = 0
-    for x, y in gs_fls_edges:
-        if x in rv_net_graph and y in rv_net_graph:
+    for udx, vdx in gs_fls_edges:
+        if udx in rv_net_graph and vdx in rv_net_graph:
             try:
-                if nx.shortest_path_length(rv_net_graph, x, y) == 1:
+                if nx.shortest_path_length(rv_net_graph, udx, vdx) == 1:
                     fp_cts += 1
             except nx.NetworkXNoPath:
                 pass
-    for x, y in gs_tru_edges:
-        if x in rv_net_graph and y in rv_net_graph:
+    for udx, vdx in gs_tru_edges:
+        if udx in rv_net_graph and vdx in rv_net_graph:
             try:
-                if nx.shortest_path_length(rv_net_graph, x, y) == 1:
+                if nx.shortest_path_length(rv_net_graph, udx, vdx) == 1:
                     tp_cts += 1
             except nx.NetworkXNoPath:
                 pass
@@ -95,7 +96,7 @@ def eval_network(annot_file, net_file, gs_file, wt_attr, max_dist, max_edges):
         'GRCM'  : [(str(gs_common_nodes), str(gs_common_edges))
                    for _ in range(max_dist+1)]
     }
-    dist_histogram_df = pd.DataFrame(data=hist_data)
+    #dist_histogram_df = pd.DataFrame(data=hist_data)
     #print(net_file)
     #print(dist_histogram_df)
     return hist_data
@@ -103,19 +104,24 @@ def eval_network(annot_file, net_file, gs_file, wt_attr, max_dist, max_edges):
 def compare_eval_network(annot_file, net_files, gs_file, wt_attr, max_dist, max_edges):
     nhdat = [eval_network(annot_file, fx, gs_file, wt_attr, max_dist, max_edges)
              for fx in net_files]
-    gs_cmp_data =   {str(net_files[x]) : 
-                     [nhdat[x]['GRGS'][0][0], nhdat[x]['GRGS'][0][1]] + 
-                     [nhdat[x]['GRCM'][0][0], nhdat[x]['GRCM'][0][1]] + 
-                     [nhdat[x]['GRSP'][0][0], nhdat[x]['GRSP'][0][1]] + 
-                     [nhdat[x]['EDGN'][y] for y in range(max_dist+1)] +
-                     [nhdat[x]['FPCTS'][0][0], nhdat[x]['FPCTS'][0][1], 
-                      nhdat[x]['FPCTS'][0][2], nhdat[x]['FPCTS'][0][3]]
-                     for x in range(len(net_files))}
+    gs_cmp_data = {str(net_files[x]) :
+                   [nhdat[x]['GRGS'][0][0], nhdat[x]['GRGS'][0][1]] +
+                   [nhdat[x]['GRCM'][0][0], nhdat[x]['GRCM'][0][1]] +
+                   [nhdat[x]['GRSP'][0][0], nhdat[x]['GRSP'][0][1]] +
+                   [nhdat[x]['EDGN'][y] for y in range(max_dist+1)] +
+                   [nhdat[x]['FPCTS'][0][0], nhdat[x]['FPCTS'][0][1],
+                    nhdat[x]['FPCTS'][0][2], nhdat[x]['FPCTS'][0][3]]
+                   for x in range(len(net_files))}
     gs_cmp_data_df = pd.DataFrame(data=gs_cmp_data)
-    print(gs_cmp_data_df.to_csv(sep='\t',index=False))
+    print(gs_cmp_data_df.to_csv(sep='\t', index=False))
 
 if __name__ == "__main__":
-    PARSER = argparse.ArgumentParser()
+    PROG_DESC = """
+    Compares the given networks against the gold standard networks and reports
+    the number of hops in the input networks between two nodes that are present as
+    edge in the gold standard network.
+    """
+    PARSER = argparse.ArgumentParser(description=PROG_DESC)
     PARSER.add_argument("annotation_file",
                         help="""annotation file
                                 (a tab seperated file mapping probe to ids)""")
