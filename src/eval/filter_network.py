@@ -42,13 +42,9 @@ if __name__ == "__main__":
     ARGPARSER = argparse.ArgumentParser(description=PROG_DESC)
     ARGPARSER.add_argument("network_file")
     ARGPARSER.add_argument("-t", "--min_weight", type=float, default=0.0,
-<<<<<<< HEAD
-                           help="""minimum weight threshold for the network""")
-=======
                         help="""minimum weight threshold for the network""")
     ARGPARSER.add_argument("-x", "--max_edges", type=int,
                         help="""maximum eges in the network""")
->>>>>>> a715e6a77448d6e17d0c0b4a01a7eb7ec429ef32
     ARGPARSER.add_argument("output_file")
     CMDARGS = ARGPARSER.parse_args()
     main(CMDARGS.network_file, CMDARGS.output_file, CMDARGS.min_weight, CMDARGS.max_edges)
