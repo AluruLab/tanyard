@@ -36,29 +36,31 @@ def main(annot_file: str, net_file: str, method: str, out_file: str):
     print("No. of Nodes : ", len(rv_net_node_lst))
     rv_net_node_map = {y:x for x, y in enumerate(rv_net_node_lst)}
     edge_rcds = rv_net.loc[:, ['source', 'target', 'wt']].to_records(index=False)
-    rv_net_edge_map = {(rv_net_node_map[x], rv_net_node_map[y]):w for x, y, w in edge_rcds}
+    rv_net_edge_map = {(rv_net_node_map[x], rv_net_node_map[y]):(1/float(w)) for x, y, w in edge_rcds}
     print("No. of Edges : ", len(rv_net_edge_map))
 #     rv_net_graph: nx.Graph = nx.from_pandas_edgelist(rv_net, edge_attr='wt')
 #     comm_dict = partition(rv_net_graph)
 #     for comm in set(comm_dict.values()):
 #         print("Community %d"%comm)
-    rv_net_igraph = igx.Graph([*rv_net_edge_map])
+    rv_net_edges = [*rv_net_edge_map]
+    rv_net_wts = [rv_net_edge_map[x] for x in rv_net_edges]
+    rv_net_igraph = igx.Graph(rv_net_edges)
     node_clst = None
     if method == METHOD_FGREEDY:
-        net_mods = rv_net_igraph.community_fastgreedy()
+        net_mods = rv_net_igraph.community_fastgreedy(weights=rv_net_wts)
         node_clst = net_mods.as_clustering()
     elif method == METHOD_LABELPR:
-        node_clst = rv_net_igraph.community_label_propagation()
+        node_clst = rv_net_igraph.community_label_propagation(weights=rv_net_wts)
     elif method == METHOD_LEIGENV:
-        node_clst = rv_net_igraph.community_leading_eigenvector()
+        node_clst = rv_net_igraph.community_leading_eigenvector(weights=rv_net_wts)
     elif method == METHOD_SPINGLS:
-        node_clst = rv_net_igraph.community_spinglass()
+        node_clst = rv_net_igraph.community_spinglass(weights=rv_net_wts, spins=100)
     elif method == METHOD_MULTILV:
-        node_clst = rv_net_igraph.community_multilevel()
+        node_clst = rv_net_igraph.community_multilevel(weights=rv_net_wts)
     elif method == METHOD_INFOMAP:
-        node_clst = rv_net_igraph.community_infomap()
+        node_clst = rv_net_igraph.community_infomap(edge_weights=rv_net_wts, trials=100)
     elif method == METHOD_WALKTRP:
-        net_mods = rv_net_igraph.community_walktrap()
+        net_mods = rv_net_igraph.community_walktrap(weights=rv_net_wts)
         node_clst = net_mods.as_clustering()
     else:
         print("method not supported")

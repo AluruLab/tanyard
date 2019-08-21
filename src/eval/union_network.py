@@ -24,7 +24,7 @@ def select_edges(net_df: pd.DataFrame, wt_attr_name: str = 'wt',
 
 
 
-def combine_network(network_files, network_names=None, max_edges: int = None):
+def combine_network(network_files, network_names=None, max_edges: int = None, avg_wt=True, max_wt=True):
     if network_names is None:
         network_names = ['wt_'+str(ix) for ix in range(len(network_files))]
     cmb_network = pd.DataFrame(columns=['source', 'target'])
@@ -32,16 +32,18 @@ def combine_network(network_files, network_names=None, max_edges: int = None):
         ndf = select_edges(load_reveng_network(nx_file, nx_name), nx_name, max_edges)
         cmb_network = cmb_network.merge(ndf, how='outer', on=['source', 'target'])
         #print(str(nx_name), nx_file, ndf.shape, cmb_network.columns, cmb_network.shape)
-    cmb_network['wt'] = cmb_network[network_names].apply(abs_max, axis=1)
-    cmb_network['avgwt'] = cmb_network[network_names].mean(axis=1)
+    if max_wt is True:
+        cmb_network['wt'] = cmb_network[network_names].apply(abs_max, axis=1)
+    if avg_wt is True:
+        cmb_network['avgwt'] = cmb_network[network_names].mean(axis=1)
     return cmb_network
 
 
-def main(network_names, network_files, out_file, max_edges):
+def main(network_names, network_files, out_file, max_edges, avg_wt, max_wt):
     if network_names:
         network_names = network_names.split(",")
         if len(network_names) == len(network_files):
-            combine_df = combine_network(network_files, network_names, max_edges)
+            combine_df = combine_network(network_files, network_names, max_edges, avg_wt, max_wt)
         else:
             print("Length of network names should be equal to length of network files")
             return False
@@ -66,8 +68,11 @@ if __name__ == "__main__":
                         help="""comma seperated names of the network;
                                 should have as many names as the number of networks""")
     PARSER.add_argument("-x", "--max_edges", type=int,
-                        help="""comma seperated names of the network;
-                                should have as many names as the number of networks""")
+                        help="""max number of edges to output""")
+    PARSER.add_argument("-g", "--no_wt_avg", action='store_false', 
+            help="""compute the average wt. (default: True)""")
+    PARSER.add_argument("-m", "--no_wt_max", action='store_false', 
+            help="""compute the average max wt. (default: True)""")
     PARSER.add_argument("-o", "--out_file",
                         type=argparse.FileType(mode='w'), required=True,
                         help="output file in tab-seperated format")
@@ -75,10 +80,13 @@ if __name__ == "__main__":
     print("""
        ARG : network_files : %s
        ARG : network_names : %s
-       ARG : max_edges : %s
-       ARG : out_file : %s """ %
+       ARG : max_edges     : %s
+       ARG : wt_avg        : %s
+       ARG : wt_max        : %s
+       ARG : out_file      : %s """ %
           (str(ARGS.network_files), str(ARGS.network_names),
-           str(ARGS.max_edges), str(ARGS.out_file)))
+           str(ARGS.max_edges), str(ARGS.no_wt_avg), str(ARGS.no_wt_max),
+           str(ARGS.out_file)))
     if not main(ARGS.network_names, ARGS.network_files,
-                ARGS.out_file, ARGS.max_edges):
+                ARGS.out_file, ARGS.max_edges, ARGS.no_wt_avg, ARGS.no_wt_max):
         PARSER.print_usage()
