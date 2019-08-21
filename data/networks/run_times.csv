@@ -1,0 +1,388 @@
+wgcna,chemical,nofilter,6,0:10:12
+wgcna,chemical,mixv1,8,0:05:24
+wgcna,chemical,iqrv1,8,0:07:28
+grnboost,chemical,mix,2,5:30:32
+grnboost,chemical,nofilter,2,18:54:51
+grnboost,chemical,iqr,2,4:43:09
+genie3,chemical,iqr,2,10:38:58
+pcc,chemical,nofilter,6,0:10:00
+pcc,chemical,mix-v1,2,0:04:38
+pcc,chemical,mixv1,2,0:04:36
+pcc,chemical,iqrv1,4,0:06:42
+clr,chemical,iqr,4,3:42:31
+aracne,chemical,iqr,2,15:17:23
+fastggm,chemical,iqr,2,3 days and 0:01:26
+mrnet,chemical,iqr,2,7:13:55
+tinge,chemical,nofilter,8,0:11:04
+tinge,chemical,mix-v1,2,0:05:10
+tinge,chemical,mixv1,6,0:05:06
+tinge,chemical,iqrv1,8,0:07:28
+wgcna,development,nofilter,6,0:26:59
+wgcna,development,mixv1,8,0:14:49
+wgcna,development,iqrv1,8,0:20:44
+grnboost,development,nofilter,2,13 days and 14:50:52
+grnboost,development,mix,2,3 days and 21:11:21
+grnboost,development,iqr,4,5 days and 20:50:43
+genie3,development,iqr,2,6 days and 15:09:52
+pcc,development,mix-v1,2,0:15:36
+pcc,development,nofilter,6,0:30:33
+pcc,development,mixv1,2,0:15:34
+pcc,development,iqrv1,4,0:22:55
+clr,development,iqr,4,1 day and 9:41:53
+aracne,development,iqr,2,5 days and 0:00:38
+aracne,development,iqr,4,5 days and 3:49:38
+fastggm,development,iqr,2,3 days and 0:00:39
+mrnet,development,iqr,2,8:11:28
+tinge,development,mix-v1,2,0:47:52
+tinge,development,nofilter,8,1:33:56
+tinge,development,mixv1,6,0:46:32
+tinge,development,iqrv1,8,1:09:00
+inferlator,flower,iqr,2,2:29:28
+wgcna,flower,mixv1,2,0:06:10
+wgcna,flower,iqrv1,2,0:08:01
+wgcna,flower,nofilter,2,0:11:33
+grnboost,flower,mix,2,9:11:30
+grnboost,flower,iqr,2,8:29:15
+grnboost,flower,nofilter,2,16:57:53
+tigress,flower,iqr,2,10 days and 0:01:14
+tigress,flower,nofilter,2,3 days and 0:00:12
+genie3,flower,iqr,2,18:12:43
+pcc,flower,mixv1,4,0:21:04
+pcc,flower,iqrv1,6,0:07:53
+pcc,flower,nofilter,8,0:11:29
+pcc,flower,mix-v1,2,0:05:56
+clr,flower,iqr,4,5:39:44
+aracne,flower,iqr,2,2 days and 2:49:58
+fastggm,flower,iqr,2,3 days and 0:01:11
+mrnet,flower,iqr,2,7:21:29
+tinge,flower,mixv1,2,0:08:58
+tinge,flower,iqrv1,4,0:11:26
+tinge,flower,nofilter,4,0:16:44
+tinge,flower,mix-v1,2,0:08:38
+wgcna,hormone-aba-iaa-ga-br,nofilter,6,0:14:49
+wgcna,hormone-aba-iaa-ga-br,mixv1,8,0:07:39
+wgcna,hormone-aba-iaa-ga-br,iqrv1,8,0:10:37
+grnboost,hormone-aba-iaa-ga-br,nofilter,2,1 day and 9:01:48
+grnboost,hormone-aba-iaa-ga-br,iqr,2,2 days and 5:07:46
+grnboost,hormone-aba-iaa-ga-br,mix,2,17:29:46
+genie3,hormone-aba-iaa-ga-br,iqr,2,1 day and 16:18:30
+pcc,hormone-aba-iaa-ga-br,nofilter,6,0:15:24
+pcc,hormone-aba-iaa-ga-br,mix-v1,2,0:07:44
+pcc,hormone-aba-iaa-ga-br,mixv1,2,0:07:47
+pcc,hormone-aba-iaa-ga-br,iqrv1,4,0:10:38
+clr,hormone-aba-iaa-ga-br,iqr,4,10:36:01
+aracne,hormone-aba-iaa-ga-br,iqr,2,2 days and 21:08:50
+fastggm,hormone-aba-iaa-ga-br,iqr,2,3 days and 0:00:14
+mrnet,hormone-aba-iaa-ga-br,iqr,2,7:15:24
+tinge,hormone-aba-iaa-ga-br,nofilter,8,0:30:56
+tinge,hormone-aba-iaa-ga-br,mix-v1,2,0:15:39
+tinge,hormone-aba-iaa-ga-br,mixv1,6,0:15:58
+tinge,hormone-aba-iaa-ga-br,iqrv1,8,0:21:15
+wgcna,hormone-ja-sa-ethylene,iqrv1,8,0:08:23
+wgcna,hormone-ja-sa-ethylene,nofilter,6,0:13:18
+wgcna,hormone-ja-sa-ethylene,mixv1,8,0:06:16
+grnboost,hormone-ja-sa-ethylene,nofilter,2,1 day and 5:08:24
+grnboost,hormone-ja-sa-ethylene,iqr,2,10:18:27
+grnboost,hormone-ja-sa-ethylene,mix,2,12:05:25
+genie3,hormone-ja-sa-ethylene,iqr,2,1 day and 2:30:32
+pcc,hormone-ja-sa-ethylene,mix-v1,2,0:06:11
+pcc,hormone-ja-sa-ethylene,iqrv1,4,0:08:15
+pcc,hormone-ja-sa-ethylene,nofilter,6,0:13:19
+pcc,hormone-ja-sa-ethylene,mixv1,2,0:06:00
+clr,hormone-ja-sa-ethylene,iqr,4,7:19:37
+aracne,hormone-ja-sa-ethylene,iqr,2,1 day and 17:28:48
+fastggm,hormone-ja-sa-ethylene,iqr,2,3 days and 0:00:36
+mrnet,hormone-ja-sa-ethylene,iqr,2,6:01:49
+tinge,hormone-ja-sa-ethylene,mix-v1,2,0:10:39
+tinge,hormone-ja-sa-ethylene,iqrv1,8,0:14:55
+tinge,hormone-ja-sa-ethylene,nofilter,8,0:23:49
+tinge,hormone-ja-sa-ethylene,mixv1,6,0:10:47
+wgcna,leaf,mixv1,8,0:11:39
+wgcna,leaf,iqrv1,8,0:13:46
+wgcna,leaf,nofilter,6,0:21:06
+grnboost,leaf,mix,2,2 days and 18:12:01
+grnboost,leaf,iqr,4,3 days and 21:16:45
+grnboost,leaf,nofilter,2,5 days and 17:21:42
+genie3,leaf,iqr,2,3 days and 16:09:10
+pcc,leaf,mixv1,4,0:20:02
+pcc,leaf,mix-v1,2,0:12:43
+pcc,leaf,iqrv1,6,0:15:01
+pcc,leaf,nofilter,8,0:23:36
+clr,leaf,iqr,4,19:58:47
+aracne,leaf,iqr,4,1 day and 11:32:32
+fastggm,leaf,iqr,2,3 days and 0:01:16
+mrnet,leaf,iqr,2,6:09:05
+tinge,leaf,mixv1,8,0:34:47
+tinge,leaf,mix-v1,2,0:33:22
+tinge,leaf,iqrv2,8,0:39:24
+tinge,leaf,mixv2,8,0:29:05
+tinge,leaf,iqrv1,10,0:40:11
+tinge,leaf,nofilter,12,1:04:47
+wgcna,light,mixv1,8,0:06:20
+wgcna,light,nofilter,6,0:13:02
+wgcna,light,iqrv1,8,0:07:41
+grnboost,light,iqr,2,9:41:40
+grnboost,light,nofilter,2,1 day and 0:55:50
+grnboost,light,mix,2,11:31:12
+genie3,light,iqr,2,1 day and 1:00:56
+pcc,light,mixv1,2,0:06:28
+pcc,light,nofilter,6,0:13:26
+pcc,light,iqrv1,4,0:07:56
+pcc,light,mix-v1,2,0:06:27
+clr,light,iqr,4,6:58:00
+aracne,light,iqr,2,1 day and 3:53:20
+fastggm,light,iqr,2,3 days and 0:00:16
+mrnet,light,iqr,2,5:35:55
+tinge,light,mixv1,6,0:11:26
+tinge,light,nofilter,8,0:23:45
+tinge,light,iqrv1,8,0:13:58
+tinge,light,mix-v1,2,0:11:22
+wgcna,nutrients,iqrv1,8,0:09:05
+wgcna,nutrients,nofilter,6,0:12:55
+wgcna,nutrients,mixv1,8,0:06:56
+grnboost,nutrients,mix,2,14:14:56
+grnboost,nutrients,iqr,2,11:43:11
+grnboost,nutrients,nofilter,2,1 day and 2:36:37
+genie3,nutrients,iqr,2,1 day and 6:37:07
+pcc,nutrients,iqrv1,4,0:09:21
+pcc,nutrients,nofilter,6,0:13:49
+pcc,nutrients,mix-v1,2,0:07:25
+pcc,nutrients,mixv1,2,0:06:54
+clr,nutrients,iqr,4,8:33:44
+aracne,nutrients,iqr,2,4 days and 17:51:36
+fastggm,nutrients,iqr,2,3 days and 0:01:17
+mrnet,nutrients,iqr,2,8:11:05
+tinge,nutrients,iqrv1,8,0:17:10
+tinge,nutrients,nofilter,8,0:24:56
+tinge,nutrients,mix-v1,2,0:13:38
+tinge,nutrients,mixv1,6,0:12:11
+wgcna,root,iqrv1,8,0:12:41
+wgcna,root,nofilter,6,0:18:58
+wgcna,root,mixv1,8,0:09:36
+grnboost,root,iqr,2,1 day and 15:48:11
+grnboost,root,mix,2,1 day and 7:20:49
+grnboost,root,nofilter,2,4 days and 7:52:08
+genie3,root,iqr,2,3 days and 1:57:41
+pcc,root,iqrv1,6,0:14:20
+pcc,root,nofilter,8,0:21:06
+pcc,root,mix-v1,2,0:10:24
+pcc,root,mixv1,4,0:17:43
+clr,root,iqr,4,17:19:04
+aracne,root,iqr,2,4 days and 23:43:00
+fastggm,root,iqr,2,3 days and 0:01:33
+mrnet,root,iqr,2,6:50:49
+tinge,root,iqrv1,4,0:34:52
+tinge,root,nofilter,4,0:53:45
+tinge,root,mix-v1,2,0:26:11
+tinge,root,mixv1,2,0:26:13
+wgcna,rosette,mixv1,8,0:06:01
+wgcna,rosette,iqrv1,8,0:08:32
+wgcna,rosette,nofilter,6,0:12:55
+grnboost,rosette,mix,2,12:26:41
+grnboost,rosette,iqr,2,9:40:27
+grnboost,rosette,nofilter,2,1 day and 1:56:39
+genie3,rosette,iqr,2,1 day and 3:15:51
+pcc,rosette,mixv1,4,0:15:16
+pcc,rosette,iqrv1,6,0:08:44
+pcc,rosette,nofilter,8,0:13:09
+pcc,rosette,mix-v1,2,0:06:07
+clr,rosette,iqr,4,7:41:35
+aracne,rosette,iqr,2,1 day and 11:06:15
+fastggm,rosette,iqr,2,3 days and 0:00:57
+mrnet,rosette,iqr,2,6:41:21
+tinge,rosette,mixv1,2,0:11:10
+tinge,rosette,iqrv1,4,0:15:26
+tinge,rosette,nofilter,4,0:23:44
+tinge,rosette,mix-v1,2,0:10:48
+wgcna,seed,iqrv1,8,0:08:48
+wgcna,seed,nofilter,6,0:11:01
+wgcna,seed,mixv1,8,0:05:23
+wgcna,seedling2wk,nofilter,2,1:38:35
+wgcna,seedling1wk,nofilter,2,1:42:22
+grnboost,seed,iqr,2,7:43:52
+grnboost,seed,nofilter,2,19:02:27
+grnboost,seed,mix,2,8:42:11
+genie3,seed,iqr,2,16:42:39
+pcc,seed,iqrv1,6,0:08:47
+pcc,seed,nofilter,8,0:10:49
+pcc,seed,mixv1,4,0:16:45
+pcc,seed,mix-v1,2,0:05:13
+clr,seed,iqr,4,5:42:14
+aracne,seed,iqr,2,1 day and 21:47:56
+fastggm,seed,iqr,2,3 days and 0:00:23
+mrnet,seed,iqr,2,9:27:55
+tinge,seed,iqrv1,4,0:11:27
+tinge,seed,nofilter,4,0:14:18
+tinge,seed,mixv1,2,0:06:58
+tinge,seed,mix-v1,2,0:06:56
+wgcna,seedling1wk,iqrv1,8,0:11:42
+wgcna,seedling1wk,mixv1,8,0:08:48
+wgcna,seedling1wk,nofilter,8,0:19:16
+grnboost,seedling1wk,iqr,2,1 day and 7:18:32
+grnboost,seedling1wk,mix,2,1 day and 0:58:48
+grnboost,seedling1wk,nofilter,2,4 days and 12:38:42
+genie3,seedling1wk,iqr,2,2 days and 17:03:50
+pcc,seedling1wk,iqrv1,6,0:12:15
+pcc,seedling1wk,mixv1,4,0:16:26
+pcc,seedling1wk,nofilter,8,0:20:22
+pcc,seedling1wk,mix-v1,2,0:09:24
+clr,seedling1wk,iqr,4,14:45:38
+aracne,seedling1wk,iqr,2,2 days and 6:21:01
+fastggm,seedling1wk,iqr,2,3 days and 0:00:37
+mrnet,seedling1wk,iqr,2,5:23:12
+tinge,seedling1wk,iqrv1,4,0:29:40
+tinge,seedling1wk,mixv1,2,0:25:21
+tinge,seedling1wk,nofilter,4,0:51:07
+tinge,seedling1wk,mix-v1,4,0:23:17
+wgcna,seedling2wk,iqrv1,8,0:09:29
+wgcna,seedling2wk,nofilter,8,0:15:04
+wgcna,seedling2wk,mixv1,8,0:06:00
+grnboost,seedling2wk,mix,2,14:52:58
+grnboost,seedling2wk,iqr,2,20:52:32
+grnboost,seedling2wk,nofilter,2,1 day and 11:07:26
+genie3,seedling2wk,iqr,2,1 day and 17:15:41
+pcc,seedling2wk,mix-v1,2,0:06:15
+pcc,seedling2wk,iqrv1,6,0:10:06
+pcc,seedling2wk,nofilter,8,0:15:58
+pcc,seedling2wk,mixv1,4,0:13:19
+clr,seedling2wk,iqr,4,10:29:24
+aracne,seedling2wk,iqr,2,1 day and 8:06:44
+fastggm,seedling2wk,iqr,2,3 days and 0:00:44
+mrnet,seedling2wk,iqr,2,6:09:26
+tinge,seedling2wk,mix-v1,2,0:13:13
+tinge,seedling2wk,iqrv1,4,0:21:19
+tinge,seedling2wk,nofilter,4,0:33:21
+tinge,seedling2wk,mixv1,2,0:14:21
+wgcna,shoot,iqrv1,8,0:08:28
+wgcna,shoot,nofilter,6,0:14:07
+wgcna,shoot,mixv1,8,0:07:03
+grnboost,shoot,iqr,2,19:25:37
+grnboost,shoot,mix,2,14:58:02
+grnboost,shoot,nofilter,2,1 day and 7:19:26
+genie3,shoot,iqr,2,1 day and 10:59:52
+pcc,shoot,mix-v1,2,0:06:47
+pcc,shoot,iqrv1,6,0:08:46
+pcc,shoot,nofilter,8,0:15:03
+pcc,shoot,mixv1,4,0:15:04
+clr,shoot,iqr,4,8:43:44
+aracne,shoot,iqr,2,1 day and 4:06:13
+fastggm,shoot,iqr,2,3 days and 0:00:21
+mrnet,shoot,iqr,2,5:22:57
+tinge,shoot,mix-v1,2,0:13:51
+tinge,shoot,iqrv1,4,0:17:33
+tinge,shoot,nofilter,4,0:30:31
+tinge,shoot,mixv1,2,0:13:58
+wgcna,stress-light,iqrv1,8,0:06:32
+wgcna,stress-light,mixv1,8,0:04:58
+wgcna,stress-light,nofilter,6,0:10:14
+grnboost,stress-light,mix,2,11:25:45
+grnboost,stress-light,nofilter,2,1 day and 0:32:55
+grnboost,stress-light,iqr,2,4:20:31
+genie3,stress-light,iqr,2,9:45:28
+pcc,stress-light,iqrv1,4,0:06:18
+pcc,stress-light,mix-v1,2,0:04:39
+pcc,stress-light,mixv1,2,0:04:38
+pcc,stress-light,nofilter,6,0:09:57
+clr,stress-light,iqr,4,3:25:43
+aracne,stress-light,iqr,2,14:52:04
+fastggm,stress-light,iqr,2,3 days and 0:00:16
+mrnet,stress-light,iqr,2,6:07:06
+tinge,stress-light,iqrv1,8,0:06:51
+tinge,stress-light,mix-v1,2,0:05:10
+tinge,stress-light,mixv1,6,0:05:07
+tinge,stress-light,nofilter,8,0:10:53
+wgcna,stress-other,iqrv1,8,0:07:59
+wgcna,stress-other,mixv1,8,0:04:59
+wgcna,stress-other,nofilter,6,0:09:54
+grnboost,stress-other,nofilter,2,1 day and 0:50:59
+grnboost,stress-other,mix,2,14:42:58
+grnboost,stress-other,iqr,2,6:05:46
+genie3,stress-other,iqr,2,9:51:07
+pcc,stress-other,iqrv1,4,0:07:30
+pcc,stress-other,mix-v1,2,0:05:40
+pcc,stress-other,mixv1,2,0:04:42
+pcc,stress-other,nofilter,6,0:09:42
+clr,stress-other,iqr,4,3:52:26
+aracne,stress-other,iqr,2,2 days and 5:33:51
+fastggm,stress-other,iqr,2,3 days and 0:01:24
+mrnet,stress-other,iqr,2,9:05:36
+tinge,stress-other,iqrv1,8,0:07:46
+tinge,stress-other,mix-v1,2,0:05:52
+tinge,stress-other,mixv1,6,0:04:52
+tinge,stress-other,nofilter,8,0:10:00
+wgcna,stress-pathogen,nofilter,6,0:13:59
+wgcna,stress-pathogen,mixv1,8,0:07:39
+wgcna,stress-pathogen,iqrv1,8,0:09:31
+grnboost,stress-pathogen,iqr,2,19:20:02
+grnboost,stress-pathogen,mix,2,17:53:56
+grnboost,stress-pathogen,nofilter,2,1 day and 7:19:06
+genie3,stress-pathogen,iqr,2,1 day and 12:04:51
+pcc,stress-pathogen,nofilter,6,0:15:01
+pcc,stress-pathogen,mixv1,2,0:07:56
+pcc,stress-pathogen,iqrv1,4,0:09:59
+pcc,stress-pathogen,mix-v1,2,0:07:56
+clr,stress-pathogen,iqr,4,9:50:29
+aracne,stress-pathogen,iqr,2,3 days and 1:49:56
+fastggm,stress-pathogen,iqr,2,3 days and 0:00:20
+mrnet,stress-pathogen,iqr,2,7:10:41
+tinge,stress-pathogen,nofilter,8,0:29:27
+tinge,stress-pathogen,mixv1,6,0:15:52
+tinge,stress-pathogen,iqrv1,8,0:19:52
+tinge,stress-pathogen,mix-v1,2,0:15:53
+wgcna,stress-salt-drought,iqrv1,8,0:07:53
+wgcna,stress-salt-drought,nofilter,6,0:11:25
+wgcna,stress-salt-drought,mixv1,8,0:06:15
+grnboost,stress-salt-drought,mix,2,15:20:34
+grnboost,stress-salt-drought,nofilter,2,17:42:48
+grnboost,stress-salt-drought,iqr,2,8:02:08
+genie3,stress-salt-drought,iqr,2,18:14:10
+pcc,stress-salt-drought,iqrv1,4,0:07:54
+pcc,stress-salt-drought,nofilter,6,0:11:32
+pcc,stress-salt-drought,mixv1,2,0:06:01
+pcc,stress-salt-drought,mix-v1,2,0:05:58
+clr,stress-salt-drought,iqr,4,5:45:02
+aracne,stress-salt-drought,iqr,2,2 days and 6:36:49
+fastggm,stress-salt-drought,iqr,2,3 days and 0:00:19
+mrnet,stress-salt-drought,iqr,2,7:05:33
+tinge,stress-salt-drought,iqrv1,8,0:11:33
+tinge,stress-salt-drought,nofilter,8,0:16:50
+tinge,stress-salt-drought,mixv1,6,0:08:57
+tinge,stress-salt-drought,mix-v1,2,0:08:48
+wgcna,stress-temperature,mixv1,8,0:06:55
+wgcna,stress-temperature,iqrv1,8,0:07:59
+wgcna,stress-temperature,nofilter,6,0:13:29
+grnboost,stress-temperature,iqr,2,10:50:33
+grnboost,stress-temperature,nofilter,2,1 day and 5:33:59
+grnboost,stress-temperature,mix,2,15:20:17
+genie3,stress-temperature,iqr,2,1 day and 3:45:07
+pcc,stress-temperature,mixv1,2,0:07:06
+pcc,stress-temperature,iqrv1,4,0:08:10
+pcc,stress-temperature,mix-v1,2,0:07:13
+pcc,stress-temperature,nofilter,6,0:14:12
+clr,stress-temperature,iqr,4,7:43:45
+aracne,stress-temperature,iqr,4,1 day and 4:27:21
+fastggm,stress-temperature,iqr,2,3 days and 0:00:46
+mrnet,stress-temperature,iqr,2,5:24:11
+tinge,stress-temperature,mixv1,6,0:13:28
+tinge,stress-temperature,iqrv1,8,0:15:46
+tinge,stress-temperature,mix-v1,2,0:13:47
+tinge,stress-temperature,nofilter,8,0:27:34
+wgcna,wholeplant,nofilter,6,0:11:41
+wgcna,wholeplant,mixv1,8,0:05:39
+wgcna,wholeplant,iqrv1,8,0:07:31
+grnboost,wholeplant,mix,2,9:02:50
+grnboost,wholeplant,iqr,2,6:44:47
+grnboost,wholeplant,nofilter,2,18:19:56
+genie3,wholeplant,iqr,2,18:52:40
+pcc,wholeplant,mix-v1,2,0:05:30
+pcc,wholeplant,nofilter,8,0:11:37
+pcc,wholeplant,mixv1,4,0:15:24
+pcc,wholeplant,iqrv1,6,0:07:40
+clr,wholeplant,iqr,4,5:37:26
+aracne,wholeplant,iqr,2,19:55:53
+fastggm,wholeplant,iqr,2,3 days and 0:01:33
+mrnet,wholeplant,iqr,2,6:29:59
+tinge,wholeplant,mix-v1,2,0:08:23
+tinge,wholeplant,nofilter,4,0:17:51
+tinge,wholeplant,mixv1,2,0:09:28
+tinge,wholeplant,iqrv1,4,0:11:21
