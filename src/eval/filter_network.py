@@ -1,7 +1,7 @@
 import argparse
 import pandas as pd
 import numpy as np
-from data_utils import load_reveng_network
+import data_utils as du
 
 
 def select_edges_ct(net_df: pd.DataFrame, wt_attr_name: str = 'wt',
@@ -22,7 +22,7 @@ def select_edges_wt(net_df: pd.DataFrame, wt_attr_name: str = 'wt',
     return net_df.loc[net_df[wt_attr_name] >= min_weight]
 
 def main(network_file, output_file, min_weight, max_edges):
-    net_df = load_reveng_network(network_file)
+    net_df = du.load_reveng_network(network_file)
     print(net_df.columns)
     print(net_df.dtypes)
     print(min_weight)
@@ -42,9 +42,9 @@ if __name__ == "__main__":
     ARGPARSER = argparse.ArgumentParser(description=PROG_DESC)
     ARGPARSER.add_argument("network_file")
     ARGPARSER.add_argument("-t", "--min_weight", type=float, default=0.0,
-                        help="""minimum weight threshold for the network""")
+                           help="""minimum weight threshold for the network""")
     ARGPARSER.add_argument("-x", "--max_edges", type=int,
-                        help="""maximum eges in the network""")
+                           help="""maximum eges in the network""")
     ARGPARSER.add_argument("output_file")
     CMDARGS = ARGPARSER.parse_args()
     main(CMDARGS.network_file, CMDARGS.output_file, CMDARGS.min_weight, CMDARGS.max_edges)

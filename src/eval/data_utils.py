@@ -346,11 +346,11 @@ def map_probes_cols(net_df: pd.DataFrame, annot_df: pd.DataFrame,
     return gs_net_mapped
 
 def map_probes_cols_idalias(net_df: pd.DataFrame, annot_df: pd.DataFrame,
-                col_names: List[str],
-                how_join: str = 'inner',
-                probe_suffix: str = '_probe',
-                id_suffix: str = '_id',
-                alias_suffix: str = '_alias') -> pd.DataFrame:
+                            col_names: List[str],
+                            how_join: str = 'inner',
+                            probe_suffix: str = '_probe',
+                            id_suffix: str = '_id',
+                            alias_suffix: str = '_alias') -> pd.DataFrame:
     annot_filter_df = annot_df.loc[annot_df.ID != 'no_match', :]
     if not col_names:
         return pd.DataFrame()
