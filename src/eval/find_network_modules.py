@@ -27,6 +27,52 @@ METHOD_DESCRIPTION = {
 
 METHOD_KEYS = list(METHOD_DESCRIPTION.keys())
 
+
+def run_community_detection(method, in_graph, nspins=50, ntrials=100):
+    node_clst = None
+    if method == METHOD_FGREEDY:
+        net_mods = in_graph.community_fastgreedy(weights='wt')
+        node_clst = net_mods.as_clustering()
+    elif method == METHOD_LABELPR:
+        node_clst = in_graph.community_label_propagation(weights='wt')
+    elif method == METHOD_LEIGENV:
+        node_clst = in_graph.community_leading_eigenvector(weights='wt')
+    elif method == METHOD_SPINGLS:
+        node_clst = in_graph.community_spinglass(weights='wt', spins=nspins)
+    elif method == METHOD_MULTILV:
+        node_clst = in_graph.community_multilevel(weights='wt')
+    elif method == METHOD_INFOMAP:
+        node_clst = in_graph.community_infomap(edge_weights='wt', trials=ntrials)
+    elif method == METHOD_WALKTRP:
+        net_mods = in_graph.community_walktrap(weights='wt')
+        node_clst = net_mods.as_clustering()
+    else:
+        print("method not supported")
+    return node_clst
+
+def find_cluster_membership(method, rv_net_node_lst, rv_net_edge_map, nlimit=1000):
+    rv_net_edges = [*rv_net_edge_map]
+    rv_net_wts = [rv_net_edge_map[x] for x in rv_net_edges]
+    rv_net_igraph = igx.Graph(edges=rv_net_edges, edge_attrs={'wt' : rv_net_wts})
+    node_clst = run_community_detection(method, rv_net_igraph)
+    final_clst_ids = {}
+    clust_id = 1
+    for vert_list in node_clst:
+        if len(vert_list) > nlimit:
+            sub_gx = rv_net_igraph.subgraph(vert_list)
+            node_clst_sgx = run_community_detection(method, sub_gx)
+            for cgx in node_clst_sgx:
+                for vid in cgx:
+                    final_clst_ids[vert_list[vid]] = clust_id
+                clust_id += 1
+        else:
+            for vid in vert_list:
+                final_clst_ids[vid] = clust_id
+        clust_id += 1
+    rdf = pd.DataFrame({"GENE": [rv_net_node_lst[x] for x in final_clst_ids],
+                        "MODULE_ID": [final_clst_ids[x] for x in final_clst_ids]})
+    return rdf
+
 def main(annot_file: str, net_file: str, method: str, out_file: str):
     annot_df = du.load_annotation(annot_file)
     # tflst_df = du.map_atid2probes(pd.read_csv(tf_list_file, sep= r'\s+'),
@@ -36,36 +82,14 @@ def main(annot_file: str, net_file: str, method: str, out_file: str):
     print("No. of Nodes : ", len(rv_net_node_lst))
     rv_net_node_map = {y:x for x, y in enumerate(rv_net_node_lst)}
     edge_rcds = rv_net.loc[:, ['source', 'target', 'wt']].to_records(index=False)
-    rv_net_edge_map = {(rv_net_node_map[x], rv_net_node_map[y]):(1/float(w)) for x, y, w in edge_rcds}
+    rv_net_edge_map = {(rv_net_node_map[x], rv_net_node_map[y]):
+                       (1/float(w)) for x, y, w in edge_rcds}
     print("No. of Edges : ", len(rv_net_edge_map))
 #     rv_net_graph: nx.Graph = nx.from_pandas_edgelist(rv_net, edge_attr='wt')
 #     comm_dict = partition(rv_net_graph)
 #     for comm in set(comm_dict.values()):
 #         print("Community %d"%comm)
-    rv_net_edges = [*rv_net_edge_map]
-    rv_net_wts = [rv_net_edge_map[x] for x in rv_net_edges]
-    rv_net_igraph = igx.Graph(rv_net_edges)
-    node_clst = None
-    if method == METHOD_FGREEDY:
-        net_mods = rv_net_igraph.community_fastgreedy(weights=rv_net_wts)
-        node_clst = net_mods.as_clustering()
-    elif method == METHOD_LABELPR:
-        node_clst = rv_net_igraph.community_label_propagation(weights=rv_net_wts)
-    elif method == METHOD_LEIGENV:
-        node_clst = rv_net_igraph.community_leading_eigenvector(weights=rv_net_wts)
-    elif method == METHOD_SPINGLS:
-        node_clst = rv_net_igraph.community_spinglass(weights=rv_net_wts, spins=100)
-    elif method == METHOD_MULTILV:
-        node_clst = rv_net_igraph.community_multilevel(weights=rv_net_wts)
-    elif method == METHOD_INFOMAP:
-        node_clst = rv_net_igraph.community_infomap(edge_weights=rv_net_wts, trials=100)
-    elif method == METHOD_WALKTRP:
-        net_mods = rv_net_igraph.community_walktrap(weights=rv_net_wts)
-        node_clst = net_mods.as_clustering()
-    else:
-        print("method not supported")
-    rdf = pd.DataFrame({"GENE": rv_net_node_lst,
-                        "CLUST_ID": node_clst.membership})
+    rdf = find_cluster_membership(method, rv_net_node_lst, rv_net_edge_map)
     out_df = du.map_probes_cols(net_df=rdf, annot_df=annot_df,
                                 col_names=['GENE'], probe_suffix='_PROBE',
                                 id_suffix='_ID')
