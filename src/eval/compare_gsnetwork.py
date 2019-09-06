@@ -30,26 +30,21 @@ def select_edges(net_df: pd.DataFrame, wt_attr_name: str = 'wt',
     #print(net_df.iloc[0, :])
     return net_df.loc[:, cur_cols]
 
-def eval_network(annot_file, net_file, gs_file, wt_attr, max_dist, max_edges):
-    annot_df = du.load_annotation(annot_file)
-    gs_net = du.map_probes(du.load_gsnetwork(gs_file), annot_df)
+def eval_network(rv_net, gs_net, max_dist, tf_col='TFPROBE', tgt_col='TARGETPROBE'):
     gs_nedges = gs_net.shape[0]
-    gs_tf_nodes = set(gs_net.TFPROBE)
-    gs_tgt_nodes = set(gs_net.TARGETPROBE)
+    gs_tf_nodes = set(gs_net.loc[:, tf_col])
+    gs_tgt_nodes = set(gs_net.loc[:, tgt_col])
     gs_pos_edges = set((x, y) for x in gs_tf_nodes for y in gs_tgt_nodes if x != y)
-    gs_tru_edges = set((x, y) for x, y in zip(gs_net.TFPROBE, gs_net.TARGETPROBE))
+    gs_tru_edges = set((x, y) for x, y in zip(gs_net.loc[:, tf_col], gs_net.loc[:, tgt_col]))
     gs_fls_edges = list(gs_pos_edges - gs_tru_edges)
     gs_nodes = gs_tf_nodes | gs_tgt_nodes
-    rv_net = select_edges(du.load_reveng_network(net_file),
-                          wt_attr_name=wt_attr,
-                          max_edges=max_edges)
     #rv_net_nodes = set(rv_net.source) | set(rv_net.target)
     rv_net_graph = nx.from_pandas_edgelist(rv_net, edge_attr='wt')
     gs_common_nodes = sum((1 if x in rv_net_graph else 0 for x in gs_nodes))
     gs_common_edges = sum((1 if (x in rv_net_graph and y in rv_net_graph) else 0
-                           for x, y in zip(gs_net.TFPROBE, gs_net.TARGETPROBE)))
+                           for x, y in zip(gs_net.loc[:, tf_col], gs_net.loc[:, tgt_col])))
     gs_spath = [shortest_path(rv_net_graph, x, y)
-                for x, y in zip(gs_net.TFPROBE, gs_net.TARGETPROBE)]
+                for x, y in zip(gs_net.loc[:, tf_col], gs_net.loc[:, tgt_col])]
     #gs_spath.sort()
     dist_histogram = [0 for x in range(max_dist+1)]
     spath_graph_nodes = set(x for _, x, _ in gs_spath if x)
@@ -101,8 +96,39 @@ def eval_network(annot_file, net_file, gs_file, wt_attr, max_dist, max_edges):
     #print(dist_histogram_df)
     return hist_data
 
-def compare_eval_network(annot_file, net_files, gs_file, wt_attr, max_dist, max_edges):
-    nhdat = [eval_network(annot_file, fx, gs_file, wt_attr, max_dist, max_edges)
+
+def eval_network_probes(annot_file, net_file, gs_file, wt_attr, max_dist, max_edges):
+    annot_df = du.load_annotation(annot_file)
+    gs_net = du.map_probes(du.load_gsnetwork(gs_file), annot_df)
+    rv_net = select_edges(du.load_reveng_network(net_file),
+                          wt_attr_name=wt_attr,
+                          max_edges=max_edges)
+    return eval_network(rv_net, gs_net, max_dist)
+
+def compare_eval_network_probes(annot_file, net_files, gs_file, wt_attr, max_dist, max_edges):
+    nhdat = [eval_network_probes(annot_file, fx, gs_file, wt_attr, max_dist, max_edges)
+             for fx in net_files]
+    gs_cmp_data = {str(net_files[x]) :
+                   [nhdat[x]['GRGS'][0][0], nhdat[x]['GRGS'][0][1]] +
+                   [nhdat[x]['GRCM'][0][0], nhdat[x]['GRCM'][0][1]] +
+                   [nhdat[x]['GRSP'][0][0], nhdat[x]['GRSP'][0][1]] +
+                   [nhdat[x]['EDGN'][y] for y in range(max_dist+1)] +
+                   [nhdat[x]['FPCTS'][0][0], nhdat[x]['FPCTS'][0][1],
+                    nhdat[x]['FPCTS'][0][2], nhdat[x]['FPCTS'][0][3]]
+                   for x in range(len(net_files))}
+    gs_cmp_data_df = pd.DataFrame(data=gs_cmp_data)
+    print(gs_cmp_data_df.to_csv(sep='\t', index=False))
+
+
+def eval_network_ids(net_file, gs_file, wt_attr, max_dist, max_edges):
+    gs_net = du.load_gsnetwork(gs_file)
+    rv_net = select_edges(pd.read_csv(net_file, sep="\t"),
+                          wt_attr_name=wt_attr,
+                          max_edges=max_edges)
+    return eval_network(rv_net, gs_net, max_dist, 'TF', 'TARGET')
+
+def compare_eval_network_ids(net_files, gs_file, wt_attr, max_dist, max_edges):
+    nhdat = [eval_network_ids(fx, gs_file, wt_attr, max_dist, max_edges)
              for fx in net_files]
     gs_cmp_data = {str(net_files[x]) :
                    [nhdat[x]['GRGS'][0][0], nhdat[x]['GRGS'][0][1]] +
@@ -139,5 +165,10 @@ if __name__ == "__main__":
                         help="""comma seperated names of the network;
                                 should have as many names as the number of networks""")
     ARGS = PARSER.parse_args()
-    compare_eval_network(ARGS.annotation_file, ARGS.reveng_network_files,
-                         ARGS.gs_network_file, ARGS.wt_attr, ARGS.dist, ARGS.max_edges)
+    if ARGS.annotation_file == "NULL":
+        compare_eval_network_ids(ARGS.reveng_network_files,
+                                 ARGS.gs_network_file, ARGS.wt_attr,
+                                 ARGS.dist, ARGS.max_edges)
+    else:
+        compare_eval_network_probes(ARGS.annotation_file, ARGS.reveng_network_files,
+                            ARGS.gs_network_file, ARGS.wt_attr, ARGS.dist, ARGS.max_edges)
