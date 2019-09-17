@@ -363,3 +363,22 @@ def map_probes_cols_idalias(net_df: pd.DataFrame, annot_df: pd.DataFrame,
             'PROBE': cname + probe_suffix,
             'ALIAS': cname + alias_suffix })
     return gs_net_mapped
+
+
+def map_id2probe_cols(net_df: pd.DataFrame, annot_df: pd.DataFrame,
+                      col_names: List[str],
+                      how_join: str = 'inner',
+                      probe_suffix: str = '_probe',
+                      id_suffix: str = '_id') -> pd.DataFrame:
+    annot_filter_df = annot_df.loc[annot_df.ID != 'no_match', :]
+    if not col_names:
+        return pd.DataFrame()
+    gs_net_mapped = net_df
+    for cname in col_names:
+        gs_net_mapped = gs_net_mapped.merge(annot_filter_df, left_on=cname,
+                                            right_on='ID', how=how_join)
+        gs_net_mapped = gs_net_mapped.rename(columns={
+            'ID': cname + id_suffix,
+            'PROBE': cname + probe_suffix})
+    return gs_net_mapped
+

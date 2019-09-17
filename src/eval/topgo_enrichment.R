@@ -1,6 +1,7 @@
 library("ath1121501.db")
 library("topGO")
 library("plyr")
+library("stringr")
 
 run.top.GO <- function(iqr.vector, go.desc,
                        go.ont = "BP",
@@ -162,4 +163,35 @@ top.common.lst2.GO.tests <- function(iqr.vec.lst, go.desc.x,
         iqr.vec.lst, iqr.limit = iqr.limit.n)$probes)
     top.GO.tests(iqr.vec.lst[[1]][cnames], go.desc.x,
                  go.ont = go.ont, iqr.limit = iqr.limit.g)
+}
+
+read.iqr.table = function(iqr.file) {
+   tx = read.table(iqr.file, header=T)
+   iqrv = tx$IQR; names(iqrv) = tx$PROBE
+   iqrv
+}
+
+get.iqr.list = function(fnames){
+   llply(fnames, function(fx) {
+       read.iqr.table(fx)
+   })
+}
+
+fisher.diff = function(infile1, infile2, outfile1, outfile2) {
+  fx.df = fisher.top.common.lst2.GO(get.iqr.list(c(infile1, infile2)),
+                                    str_c(infile1, " vs ", infile2))
+  write.table(file=outfile1, fx.df, sep="\t", quote=F, row.names = F)
+
+  fx.df = fisher.top.common.lst2.GO(get.iqr.list(c(infile2, infile1)),
+                                    str_c(infile2, " vs ", infile1))
+  write.table(file=outfile2, fx.df, sep="\t", quote=F, row.names = F)
+}
+
+
+args = commandArgs(trailingOnly=TRUE)
+if(length(args) == 4){
+    fisher.diff(infile1=args[1], infile2=args[2],
+                outfile1=args[3], outfile2=args[4])
+} else {
+   print("Usage: Rscript togo_enrichment.R <INFILE1> <INFILE2> <OUTFILE1> <OUTFILE2>")
 }

@@ -50,6 +50,34 @@ def run_community_detection(method, in_graph, nspins=50, ntrials=100):
         print("method not supported")
     return node_clst
 
+def find_graph_modules_recursive(method, in_graph, clust_id, nlevel, nlimit):
+    clst_id_map = {}
+    node_clst = run_community_detection(method, in_graph)
+    for vert_list in node_clst:
+        if len(vert_list) > nlimit and nlevel < 4:
+            in_sub_graph = in_graph.subgraph(vert_list)
+            rvclst_id_map, cid = find_graph_modules_recursive(method,  in_sub_graph, 
+                                                              clust_id, nlevel + 1, nlimit)
+            clust_id = cid
+            for vid in rvclst_id_map:
+               clst_id_map[vert_list[vid]] = rvclst_id_map[vid]
+        else:
+            for vid in vert_list:
+                clst_id_map[vid] = clust_id
+            clust_id += 1
+    return (clst_id_map, clust_id)
+
+
+def find_cluster_membership_recursive(method, rv_net_node_lst, rv_net_edge_map, nlimit=1000):
+    rv_net_edges = [*rv_net_edge_map]
+    rv_net_wts = [rv_net_edge_map[x] for x in rv_net_edges]
+    rv_net_igraph = igx.Graph(edges=rv_net_edges, edge_attrs={'wt' : rv_net_wts})
+    final_clst_ids, cid = find_graph_modules_recursive(method, rv_net_igraph, 1, 1, nlimit)
+    rdf = pd.DataFrame({"GENE": [rv_net_node_lst[x] for x in final_clst_ids],
+                        "MODULE_ID": [final_clst_ids[x] for x in final_clst_ids]})
+    return rdf
+
+
 def find_cluster_membership(method, rv_net_node_lst, rv_net_edge_map, nlimit=1000):
     rv_net_edges = [*rv_net_edge_map]
     rv_net_wts = [rv_net_edge_map[x] for x in rv_net_edges]
@@ -60,7 +88,6 @@ def find_cluster_membership(method, rv_net_node_lst, rv_net_edge_map, nlimit=100
     for vert_list in node_clst:
         if len(vert_list) > nlimit:
             sub_gx = rv_net_igraph.subgraph(vert_list)
-            node_clst_sgx = run_community_detection(method, sub_gx)
             for cgx in node_clst_sgx:
                 for vid in cgx:
                     final_clst_ids[vert_list[vid]] = clust_id
@@ -89,11 +116,12 @@ def main(annot_file: str, net_file: str, method: str, out_file: str):
 #     comm_dict = partition(rv_net_graph)
 #     for comm in set(comm_dict.values()):
 #         print("Community %d"%comm)
-    rdf = find_cluster_membership(method, rv_net_node_lst, rv_net_edge_map)
+    rdf = find_cluster_membership_recursive(method, rv_net_node_lst, rv_net_edge_map)
     out_df = du.map_probes_cols(net_df=rdf, annot_df=annot_df,
                                 col_names=['GENE'], probe_suffix='_PROBE',
                                 id_suffix='_ID')
-    out_df.loc[:, ['GENE_ID', 'CLUST_ID']].to_csv(out_file, sep="\t")
+    out_df.loc[:, ['GENE_ID', 'MODULE_ID']].to_csv(out_file, sep="\t")
+    #rdf.to_csv(out_file, sep="\t")
 
 
 if __name__ == "__main__":

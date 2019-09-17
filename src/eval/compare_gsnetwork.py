@@ -43,16 +43,19 @@ def eval_network(rv_net, gs_net, max_dist, tf_col='TFPROBE', tgt_col='TARGETPROB
     gs_common_nodes = sum((1 if x in rv_net_graph else 0 for x in gs_nodes))
     gs_common_edges = sum((1 if (x in rv_net_graph and y in rv_net_graph) else 0
                            for x, y in zip(gs_net.loc[:, tf_col], gs_net.loc[:, tgt_col])))
+    #print(rv_net.shape, len(gs_nodes), gs_nedges, len(gs_tru_edges), gs_common_nodes, gs_common_edges)
     gs_spath = [shortest_path(rv_net_graph, x, y)
                 for x, y in zip(gs_net.loc[:, tf_col], gs_net.loc[:, tgt_col])]
     #gs_spath.sort()
     dist_histogram = [0 for x in range(max_dist+1)]
     spath_graph_nodes = set(x for _, x, _ in gs_spath if x)
     spath_graph_nodes |= set(y for _, _, y in gs_spath if y)
-    for spx, _, _ in gs_spath:
+    for spx, x, y in gs_spath:
         if spx is not None and (len(spx)-1) <= max_dist:
             dist_histogram[len(spx)-1] += 1
             spath_graph_nodes.update(spx)
+        #if spx is not None and (len(spx)-1) <= 1:
+        #    print((x, y) if x < y else (y, x))
     spath_graph = nx.Graph()
     spath_graph.add_nodes_from(spath_graph_nodes)
     for spx, _, _ in gs_spath:
@@ -76,14 +79,14 @@ def eval_network(rv_net, gs_net, max_dist, tf_col='TFPROBE', tgt_col='TARGETPROB
                     tp_cts += 1
             except nx.NetworkXNoPath:
                 pass
-    prec = float(tp_cts)/(tp_cts + fp_cts)
+    prec = (float(tp_cts)/(tp_cts + fp_cts)) if (tp_cts + fp_cts) > 0 else 0
     hist_data = {
         'DIST'  : [x for x in range(max_dist+1)],
         'EDGN'  : dist_histogram,
         'FPCTS' : [(fp_cts, tp_cts, prec, prec*100) for _ in range(max_dist+1)],
-        'PCTGS' : [float(x)*100/gs_nedges for x in dist_histogram],
-        'PCTCM' : [float(x)*100/gs_common_edges for x in dist_histogram],
-        'PCTSP' : [float(x)*100/spath_graph.number_of_edges()
+        'PCTGS' : [(float(x)*100/gs_nedges) if gs_nedges > 0 else 0 for x in dist_histogram],
+        'PCTCM' : [(float(x)*100/gs_common_edges) if gs_common_edges > 0 else 0 for x in dist_histogram],
+        'PCTSP' : [(float(x)*100/spath_graph.number_of_edges()) if spath_graph.number_of_edges() > 0 else 0
                    for x in dist_histogram],
         'GRSP'  : [(spath_graph.number_of_nodes(), spath_graph.number_of_edges())
                    for _ in range(max_dist+1)],
@@ -100,6 +103,7 @@ def eval_network(rv_net, gs_net, max_dist, tf_col='TFPROBE', tgt_col='TARGETPROB
 def eval_network_probes(annot_file, net_file, gs_file, wt_attr, max_dist, max_edges):
     annot_df = du.load_annotation(annot_file)
     gs_net = du.map_probes(du.load_gsnetwork(gs_file), annot_df)
+    print(gs_net.shape)
     rv_net = select_edges(du.load_reveng_network(net_file),
                           wt_attr_name=wt_attr,
                           max_edges=max_edges)
@@ -117,7 +121,7 @@ def compare_eval_network_probes(annot_file, net_files, gs_file, wt_attr, max_dis
                     nhdat[x]['FPCTS'][0][2], nhdat[x]['FPCTS'][0][3]]
                    for x in range(len(net_files))}
     gs_cmp_data_df = pd.DataFrame(data=gs_cmp_data)
-    print(gs_cmp_data_df.to_csv(sep='\t', index=False))
+    print(gs_cmp_data_df.to_csv(sep='\t', index=True))
 
 
 def eval_network_ids(net_file, gs_file, wt_attr, max_dist, max_edges):
@@ -139,7 +143,7 @@ def compare_eval_network_ids(net_files, gs_file, wt_attr, max_dist, max_edges):
                     nhdat[x]['FPCTS'][0][2], nhdat[x]['FPCTS'][0][3]]
                    for x in range(len(net_files))}
     gs_cmp_data_df = pd.DataFrame(data=gs_cmp_data)
-    print(gs_cmp_data_df.to_csv(sep='\t', index=False))
+    print(gs_cmp_data_df.to_csv(sep='\t', index=True))
 
 if __name__ == "__main__":
     PROG_DESC = """
