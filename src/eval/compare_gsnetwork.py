@@ -87,6 +87,7 @@ def eval_network(rv_net, gs_net, max_dist, wt_attr='wt', tf_col='TFPROBE', tgt_c
     hist_data = {
         'NVRT'  : nx.number_of_nodes(rv_net_graph),
         'NEDG'  : nx.number_of_edges(rv_net_graph),
+        'NDENS' : nx.density(rv_net_graph),
         'DIST'  : [x for x in range(max_dist+1)],
         'EDGN'  : dist_histogram,
         'FPCTS' : [(fp_cts, tp_cts, prec, prec*100) for _ in range(max_dist+1)],
@@ -111,27 +112,35 @@ def eval_network_probes(annot_file, net_file, gs_file,
     annot_df = du.load_annotation(annot_file)
     gs_net = du.load_gsnetwork(gs_file)
     gs_net = gs_net.loc[:, ['TF', 'TARGET']]
-    print("Network size (Before Probe Mapping)", gs_net.shape)
+    # print("Network size (Before Probe Mapping)", gs_net.shape)
+    id_net_shape = [len(set(gs_net.TF)), len(set(x for x in gs_net.TARGET)), gs_net.shape[0]]
     gs_net = du.map_probes(gs_net, annot_df)
-    print("Network size (After Probe Mapping)", gs_net.shape)
+    # print("Network size (After Probe Mapping)", gs_net.shape)
     rv_net = select_edges(du.load_reveng_network(net_file, wt_attr_name=wt_attr),
                           wt_attr_name=wt_attr,
                           max_edges=max_edges,
                           reverse_order=reverse_order)
-    return eval_network(rv_net, gs_net, max_dist, wt_attr)
+    hist_data = eval_network(rv_net, gs_net, max_dist, wt_attr)
+    hist_data['GSNETID'] = id_net_shape 
+    return hist_data
 
 def compare_eval_network_probes(annot_file, net_files, gs_file, wt_attr,
                                 max_dist, max_edges, reverse_order):
     nhdat = [eval_network_probes(annot_file, fx, gs_file, wt_attr,
                                  max_dist, max_edges, reverse_order)
              for fx in net_files]
-    clnames = ['NVRT', 'NEDG', 'GRGSV', 'GRGSE', 'GRCMV', 'GRCME', 'GRSPV', 'GRSPE'] + ['EDGN'+str(y) for y in range(max_dist+1)] + ['FP', 'TP', 'PREC', 'PRECPCT']
+    clnames = ['NVRT', 'NEDG', 'NDENS', 'GSTFS', 'GSTARGET', 'GSEDGES'] + [
+               'GRGSV', 'GRGSE', # 'GRCMV', 'GRCME',
+               'GRSPV', 'GRSPE'] + [
+               'EDGN'+str(y) for y in range(1, max_dist+1)] + [
+               'FP', 'TP', 'PREC', 'PRECPCT']
     gs_cmp_data = {str(net_files[x]) :
-                   [nhdat[x]['NVRT'], nhdat[x]['NEDG']] +
+                   [nhdat[x]['NVRT'], nhdat[x]['NEDG'], nhdat[x]['NDENS']] +
+                   [nhdat[x]['GSNETID'][0], nhdat[x]['GSNETID'][1], nhdat[x]['GSNETID'][2]] +
                    [nhdat[x]['GRGS'][0][0], nhdat[x]['GRGS'][0][1]] +
-                   [nhdat[x]['GRCM'][0][0], nhdat[x]['GRCM'][0][1]] +
+                   #[nhdat[x]['GRCM'][0][0], nhdat[x]['GRCM'][0][1]] +
                    [nhdat[x]['GRSP'][0][0], nhdat[x]['GRSP'][0][1]] +
-                   [nhdat[x]['EDGN'][y] for y in range(max_dist+1)] +
+                   [nhdat[x]['EDGN'][y] for y in range(1, max_dist+1)] +
                    [nhdat[x]['FPCTS'][0][0], nhdat[x]['FPCTS'][0][1],
                     nhdat[x]['FPCTS'][0][2], nhdat[x]['FPCTS'][0][3]]
                    for x in range(len(net_files))}
@@ -142,26 +151,36 @@ def compare_eval_network_probes(annot_file, net_files, gs_file, wt_attr,
 def eval_network_ids(net_file, gs_file, wt_attr,
                      max_dist, max_edges, reverse_order):
     gs_net = du.load_gsnetwork(gs_file)
+    id_net_shape = [len(set(gs_net.TF)), len(set(gs_net.TARGET)), gs_net.shape[0]]
     rv_net = select_edges(pd.read_csv(net_file, sep="\t"),
                           wt_attr_name=wt_attr,
                           max_edges=max_edges,
                           reverse_order=reverse_order)
-    return eval_network(rv_net, gs_net, max_dist, wt_attr, 'TF', 'TARGET')
+    hist_data = eval_network(rv_net, gs_net, max_dist, wt_attr, 'TF', 'TARGET')
+    hist_data['GSNETID'] = id_net_shape 
+    return hist_data
 
 def compare_eval_network_ids(net_files, gs_file, wt_attr,
                              max_dist, max_edges, reverse_order):
     nhdat = [eval_network_ids(fx, gs_file, wt_attr,
                               max_dist, max_edges, reverse_order)
              for fx in net_files]
+    clnames = ['NVRT', 'NEDG', 'NDENS', 'GSTFS', 'GSTARGET', 'GSEDGES'] + [
+               'GRGSV', 'GRGSE', # 'GRCMV', 'GRCME',
+               'GRSPV', 'GRSPE'] + [
+               'EDGN'+str(y) for y in range(1, max_dist+1)] + [
+               'FP', 'TP', 'PREC', 'PRECPCT']
     gs_cmp_data = {str(net_files[x]) :
+                   [nhdat[x]['NVRT'], nhdat[x]['NEDG'], nhdat[x]['NDENS']] +
+                   [nhdat[x]['GSNETID'][0], nhdat[x]['GSNETID'][1], nhdat[x]['GSNETID'][2]] +
                    [nhdat[x]['GRGS'][0][0], nhdat[x]['GRGS'][0][1]] +
-                   [nhdat[x]['GRCM'][0][0], nhdat[x]['GRCM'][0][1]] +
+                   # [nhdat[x]['GRCM'][0][0], nhdat[x]['GRCM'][0][1]] +
                    [nhdat[x]['GRSP'][0][0], nhdat[x]['GRSP'][0][1]] +
-                   [nhdat[x]['EDGN'][y] for y in range(max_dist+1)] +
+                   [nhdat[x]['EDGN'][y] for y in range(1, max_dist+1)] +
                    [nhdat[x]['FPCTS'][0][0], nhdat[x]['FPCTS'][0][1],
                     nhdat[x]['FPCTS'][0][2], nhdat[x]['FPCTS'][0][3]]
                    for x in range(len(net_files))}
-    gs_cmp_data_df = pd.DataFrame(data=gs_cmp_data)
+    gs_cmp_data_df = pd.DataFrame(data=gs_cmp_data, index=clnames)
     print(gs_cmp_data_df.to_csv(sep='\t', index=True))
 
 
@@ -176,17 +195,21 @@ def compare_eval_network_probe_ranges(annot_file, net_files, gs_file,
                                  wt_attr, max_dist, nedges, reverse_order)
              for nedges in edge_range for fx in net_files]
     print(len(nhdat))
-    clnames = ['GRGSV', 'GRGSE', 'GRCMV', 'GRCME', 'GRSPV', 'GRSPE'] + ['EDGN'+str(y) for y in range(max_dist+1)] + ['FP', 'TP', 'PREC', 'PRECPCT']
+    # clnames = ['NVRT', 'NEDG', 'NDENS', 'GRGSV', 'GRGSE', 'GRCMV', 'GRCME', 'GRSPV', 'GRSPE'] + ['EDGN'+str(y) for y in range(max_dist+1)] + ['FP', 'TP', 'PREC', 'PRECPCT']
+    clnames = ['NVRT', 'NEDG', 'NDENS', 'GSTFS', 'GSTARGET', 'GSEDGES'] + ['EDGN'+str(y) for y in range(max_dist+1)] + ['FP', 'TP', 'PREC', 'RCALL']
     nranges = len(edge_range)
     nfiles = len(net_files)
     nentries = nranges * nfiles
     gs_cmp_data = {str(net_files[0]) + "-" + str(edge_range[x % nranges]):
-                   [nhdat[x]['GRGS'][0][0], nhdat[x]['GRGS'][0][1]] +
-                   [nhdat[x]['GRCM'][0][0], nhdat[x]['GRCM'][0][1]] +
-                   [nhdat[x]['GRSP'][0][0], nhdat[x]['GRSP'][0][1]] +
+                   [nhdat[x]['NVRT'], nhdat[x]['NEDG'], nhdat[x]['NDENS']] +
+                   [nhdat[x]['GSNETID'][0], nhdat[x]['GSNETID'][1], nhdat[x]['GSNETID'][2]] +
+                   # [nhdat[x]['GRGS'][0][0], nhdat[x]['GRGS'][0][1]] +
+                   # [nhdat[x]['GRCM'][0][0], nhdat[x]['GRCM'][0][1]] +
+                   # [nhdat[x]['GRSP'][0][0], nhdat[x]['GRSP'][0][1]] +
                    [nhdat[x]['EDGN'][y] for y in range(max_dist+1)] +
                    [nhdat[x]['FPCTS'][0][0], nhdat[x]['FPCTS'][0][1],
-                    nhdat[x]['FPCTS'][0][2], nhdat[x]['FPCTS'][0][3]]
+                    nhdat[x]['FPCTS'][0][2],
+                    float(nhdat[x]['FPCTS'][0][1])/float(nhdat[x]['GSNETID'][2])]
                    for x in range(nentries)}
     gs_cmp_data_df = pd.DataFrame(data=gs_cmp_data, index=clnames)
     print(gs_cmp_data_df.to_csv(sep='\t', index=True))
@@ -222,7 +245,7 @@ if __name__ == "__main__":
                         help="""Order the edges ascending order""")
     ARGS = PARSER.parse_args()
     if ARGS.range_edges is None:
-        if ARGS.annotation_file == "NULL":
+        if ARGS.annotation_file == "-":
             compare_eval_network_ids(ARGS.reveng_network_files,
                                      ARGS.gs_network_file, ARGS.wt_attr,
                                      ARGS.dist, ARGS.max_edges,
@@ -236,7 +259,7 @@ if __name__ == "__main__":
                                         ARGS.max_edges,
                                         ARGS.reverse_order)
     else:
-        if ARGS.annotation_file == "NULL":
+        if ARGS.annotation_file == "-":
             #compare_eval_network_ids(ARGS.reveng_network_files,
             #                         ARGS.gs_network_file, ARGS.wt_attr,
             #                         ARGS.dist, ARGS.max_edges)

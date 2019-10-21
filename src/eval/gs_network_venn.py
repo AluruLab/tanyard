@@ -62,11 +62,11 @@ def filter_spath_list(gs_spath, max_dist):
     return ft_lst
 
 def main(annot_file: str, gs_file: str, network_files: List[str],
-         network_names: str, max_dist: int, out_file: str) -> None:
+         network_names: str, percent: bool, max_dist: int, out_file: str) -> None:
     if len(network_files) < 2:
         return False
-    if len(network_files) >= 4:
-        network_files = network_files[0:4]
+    if len(network_files) > 6:
+        network_files = network_files[0:6]
     network_names = get_network_names(network_names, len(network_files))
     annot_df = du.load_annotation(annot_file)
     gs_net = du.map_probes(du.load_gsnetwork(gs_file), annot_df)
@@ -77,9 +77,19 @@ def main(annot_file: str, gs_file: str, network_files: List[str],
     st_lists = [gs_shortest_paths(df, gs_net, gs_nodes) for df in network_dfs]
     #
     ft_lists = [filter_spath_list(stx, max_dist) for stx in st_lists]
-    venn_labels = venn.get_labels(ft_lists)
+    if percent is True:
+      fillv =  ["number", "percent"]
+    else:
+      fillv =  ["number"]
+    venn_labels = venn.get_labels(ft_lists, fill=fillv)
     print(venn_labels)
     if out_file:
+        if len(network_files) == 6:
+            fig, _ = venn.venn4(venn_labels, names=network_names)
+            fig.savefig(out_file)
+        if len(network_files) == 5:
+            fig, _ = venn.venn4(venn_labels, names=network_names)
+            fig.savefig(out_file)
         if len(network_files) == 4:
             fig, _ = venn.venn4(venn_labels, names=network_names)
             fig.savefig(out_file)
@@ -103,6 +113,8 @@ if __name__ == "__main__":
                            help="output file in png format")
     ARGPARSER.add_argument("-d", "--dist", type=int, default=1,
                            help="max. number of hops allowed")
+    ARGPARSER.add_argument("-p", "--precent", action='store_true',
+                           help="""Added percentage in the venn diagram""")
     ARGPARSER.add_argument("annotation_file",
                            help="""annotation file
                                    (a tab seperated file mapping probe to ids)""")
@@ -116,12 +128,13 @@ if __name__ == "__main__":
        ARG : gs_network_file : %s
        ARG : network_files   : %s
        ARG : network_names   : %s
+       ARG : percent         : %s
        ARG : max dist        : %s
        ARG : out_file        : %s """ %
           (str(CMDARGS.annotation_file), str(CMDARGS.gs_network_file),
            str(CMDARGS.network_files), str(CMDARGS.network_names),
-           str(CMDARGS.dist), str(CMDARGS.out_file)))
+           str(CMDARGS.precent), str(CMDARGS.dist), str(CMDARGS.out_file)))
     if not main(CMDARGS.annotation_file, CMDARGS.gs_network_file,
                 CMDARGS.network_files, CMDARGS.network_names,
-                CMDARGS.dist, CMDARGS.out_file):
+                CMDARGS.percent, CMDARGS.dist, CMDARGS.out_file):
         ARGPARSER.print_usage()

@@ -7,7 +7,7 @@ fi
 
 
 csv2exp=./csv2exp
-probe2id=../../data/annotation/probe2id.20191001.tsv
+probe2id=../../data/annotation/probe2id.20191004.tsv
 if [ "$#" -gt 2 ]; then
  if [ $2 != "-" ]; then
   csv2exp=$2
@@ -19,14 +19,15 @@ fi
 
 echo "input args: $1 $csv2exp $probe2id $4"
 
-$csv2exp --match --map $probe2id $1
+$csv2exp --map $probe2id $1
 
 tmp=`mktemp`
 out=`dirname $1`/`basename $1 .csv`
 grep -v AFFX $out.exp > $tmp
 if [ -f ./exp-clean-ht ]; then
- ./exp-clean-ht $tmp $out.exp > $out.log
+ ./exp-clean-ht $tmp $out.exp
 else
-  cp $tmp $out.exp
+  grep -v no_match $tmp > $out.exp
 fi
+#echo $tmp
 rm $tmp
