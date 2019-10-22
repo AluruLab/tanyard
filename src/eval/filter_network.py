@@ -53,7 +53,8 @@ if __name__ == "__main__":
     ARGPARSER = argparse.ArgumentParser(description=PROG_DESC)
     ARGPARSER.add_argument("network_file")
     ARGPARSER.add_argument("-w", "--th_weight", type=float, default=0.0,
-                           help="""weight threshold for the network. default is lower bound, upper bound if -r is given""")
+                           help="""weight threshold for the network.
+                           default is lower bound, upper bound if -r is given""")
     ARGPARSER.add_argument("-x", "--max_edges", type=int,
                            help="""maximum eges in the network""")
     ARGPARSER.add_argument("-t", "--wt_attr", type=str, default='wt',
@@ -62,6 +63,6 @@ if __name__ == "__main__":
                            help="""Order the edges ascending order""")
     ARGPARSER.add_argument("output_file")
     CMDARGS = ARGPARSER.parse_args()
-    main(CMDARGS.network_file, CMDARGS.output_file, 
+    main(CMDARGS.network_file, CMDARGS.output_file,
          CMDARGS.wt_attr, CMDARGS.th_weight, CMDARGS.max_edges,
          CMDARGS.reverse_order)

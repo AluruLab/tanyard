@@ -45,7 +45,7 @@ def shortest_path(net_graph, src, tgt):
             spath = (None, None, None)
     return spath
 
-def gs_shortest_paths(rv_net, gs_net, gs_nodes):
+def gs_shortest_paths(rv_net, gs_net):
     rv_net_graph = nx.from_pandas_edgelist(rv_net, edge_attr='wt')
     # gs_common_nodes = sum((1 if x in rv_net_graph else 0 for x in gs_nodes))
     # gs_common_edges = sum((1 if (x in rv_net_graph and y in rv_net_graph) else 0
@@ -70,17 +70,17 @@ def main(annot_file: str, gs_file: str, network_files: List[str],
     network_names = get_network_names(network_names, len(network_files))
     annot_df = du.load_annotation(annot_file)
     gs_net = du.map_probes(du.load_gsnetwork(gs_file), annot_df)
-    gs_nedges = gs_net.shape[0]
-    gs_nodes = set(gs_net.TFPROBE) | set(gs_net.TARGETPROBE)
+    # gs_nedges = gs_net.shape[0]
+    # gs_nodes = set(gs_net.TFPROBE) | set(gs_net.TARGETPROBE)
     #
     network_dfs = [du.load_reveng_network(nx) for nx in network_files]
-    st_lists = [gs_shortest_paths(df, gs_net, gs_nodes) for df in network_dfs]
+    st_lists = [gs_shortest_paths(df, gs_net) for df in network_dfs]
     #
     ft_lists = [filter_spath_list(stx, max_dist) for stx in st_lists]
     if percent is True:
-      fillv =  ["number", "percent"]
+        fillv = ["number", "percent"]
     else:
-      fillv =  ["number"]
+        fillv = ["number"]
     venn_labels = venn.get_labels(ft_lists, fill=fillv)
     print(venn_labels)
     if out_file:

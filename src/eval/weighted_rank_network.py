@@ -1,12 +1,12 @@
+from typing import List
+import argparse
 import pandas as pd
 import numpy as np
-from typing import List
-from data_utils import load_reveng_network
-import argparse
+import data_utils as du
 
 
 def select_smallest_edges(net_df: pd.DataFrame, wt_attr_name: str = 'wt',
-        max_edges: int = None):
+                          max_edges: int = None):
     if max_edges is None or max_edges >= net_df.shape[0]:
         return net_df
     cur_cols = net_df.columns
@@ -34,7 +34,7 @@ def count_nonnan(row_x):
 
 
 def weighted_rank_network(network_files, network_names=None, network_weights=None,
-                          wt_attr:str = 'wt', max_edges: int = None,
+                          wt_attr: str = 'wt', max_edges: int = None,
                           max_out_edges: int = None, max_avg: int = None,
                           reverse_order: bool = False):
     if network_weights is None:
@@ -43,7 +43,7 @@ def weighted_rank_network(network_files, network_names=None, network_weights=Non
         network_names = ['net_' + str(ix) for ix in range(len(network_files))]
     cmb_network = pd.DataFrame(columns=['source', 'target'])
     for nx_name, nx_file in zip(network_names, network_files):
-        ndf = select_edges(load_reveng_network(nx_file, wt_attr),
+        ndf = select_edges(du.load_reveng_network(nx_file, wt_attr),
                            wt_attr, max_edges, reverse_order)
         ndf = ndf.rename(columns={wt_attr: nx_name})
         if reverse_order is True:
@@ -66,7 +66,7 @@ def weighted_rank_network(network_files, network_names=None, network_weights=Non
     return cmb_network
 
 def main(network_files: List[str], network_names: str,
-         network_weights: str, wt_attr: str, max_edges: int, 
+         network_weights: str, wt_attr: str, max_edges: int,
          max_out_edges: int, max_avg: int, out_file: str,
          reverse_order: bool) -> bool:
     if network_names:
