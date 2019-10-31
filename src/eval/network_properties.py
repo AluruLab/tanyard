@@ -21,16 +21,20 @@ def net_properties(network_file: str, wt_attr_name: str = 'wt',
     net_df: pd.DataFrame = select_edges(load_reveng_network(network_file), 
                                         wt_attr_name, max_edges)
     rev_net: nx.Graph = nx.from_pandas_edgelist(net_df, edge_attr=wt_attr_name)
-    net_props =  [nx.number_of_nodes(rev_net),
-                  nx.number_of_edges(rev_net),
-                  nx.density(rev_net)]
+    no_nodes = nx.number_of_nodes(rev_net)
+    no_edges = nx.number_of_edges(rev_net)
+    net_props =  [no_nodes,
+                  no_edges,
+                  nx.density(rev_net),
+                  nx.number_connected_components(rev_net),
+                  2.0*no_edges/no_nodes]
     return [str(x) for x in net_props]
 
 def main(network_files: str, max_edges:int ) -> None:
-    cnames = ["Nodes", "Edges", "Density"]
+    cnames = ["Nodes", "Edges", "Density", "CC", "Avg.Degree"]
     prop_data = {fx : net_properties(fx, 'wt', max_edges) for fx in network_files}
     prop_df = pd.DataFrame(data=prop_data, index=cnames)
-    print(prop_df.to_csv(sep="\t", index=False))
+    print(prop_df.transpose().to_csv(sep="\t", index=True))
 
 
 if __name__ == "__main__":

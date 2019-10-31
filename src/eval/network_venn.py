@@ -41,8 +41,8 @@ def get_edge_lists(ndf):
 def get_network_names(network_names, network_files):
     if network_names:
         network_names = network_names.split(",")
-        if len(network_names) > 4:
-            network_names = network_names[0:4]
+        if len(network_names) > 6:
+            network_names = network_names[0:6]
     if network_names is None:
         network_names = ['net_' + str(ix) for ix in range(len(network_files))]
     return network_names
@@ -50,16 +50,26 @@ def get_network_names(network_names, network_files):
 
 def main(network_files: str, network_names: str, out_file: str,
          wt_attr: str = 'wt', max_edges: int = None,
-         reverse_order: bool = False) -> None:
+         reverse_order: bool = False, percent: bool = True) -> None:
     if len(network_files) < 2:
         return False
-    if len(network_files) > 4:
-        network_files = network_files[0:4]
+    if len(network_files) > 6:
+        network_files = network_files[0:6]
     network_names = get_network_names(network_names, network_files)
     network_dfs = [load_network(nx, wt_attr, max_edges, reverse_order) for nx in network_files]
     st_lists = [get_edge_lists(df) for df in network_dfs]
-    venn_labels = venn.get_labels(st_lists)
+    if percent is True:
+        fillv = ["number", "percent"]
+    else:
+        fillv = ["number"]
+    venn_labels = venn.get_labels(st_lists, fill=fillv)
     print(venn_labels)
+    if len(network_files) == 6:
+        fig, _ = venn.venn6(venn_labels, names=network_names)
+        fig.savefig(out_file)
+    if len(network_files) == 5:
+        fig, _ = venn.venn5(venn_labels, names=network_names)
+        fig.savefig(out_file)
     if len(network_files) == 4:
         fig, _ = venn.venn4(venn_labels, names=network_names)
         fig.savefig(out_file)
@@ -84,6 +94,8 @@ if __name__ == "__main__":
                            help="""Maximum number of edges""")
     ARGPARSER.add_argument("-r", "--reverse_order", action='store_true',
                            help="""Order the edges ascending order""")
+    ARGPARSER.add_argument("-p", "--percent", action='store_true',
+                           help="""Added percentage in the venn diagram""")
     ARGPARSER.add_argument("-o", "--out_file",
                            type=str, required=True,
                            help="output file in png format")
@@ -95,10 +107,12 @@ if __name__ == "__main__":
        ARG : wt_attr : %s
        ARG : max_edges : %s
        ARG : reverse_order : %s
+       ARG : percent         : %s
        ARG : out_file : %s """ %
           (str(CMDARGS.network_files), str(CMDARGS.network_names),
            str(CMDARGS.wt_attr), str(CMDARGS.max_edges), str(CMDARGS.reverse_order),
-           str(CMDARGS.out_file)))
-    if not main(CMDARGS.network_files, CMDARGS.network_names, CMDARGS.out_file,
-                CMDARGS.wt_attr, CMDARGS.max_edges, CMDARGS.reverse_order):
+           str(CMDARGS.percent), str(CMDARGS.out_file)))
+    if not main(CMDARGS.network_files, CMDARGS.network_names,
+                CMDARGS.out_file, CMDARGS.wt_attr, CMDARGS.max_edges,
+                CMDARGS.reverse_order, CMDARGS.percent):
         ARGPARSER.print_usage()

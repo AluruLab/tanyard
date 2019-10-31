@@ -83,15 +83,15 @@ def shorest_path_graph(gs_net, rv_net_graph, max_dist, tf_col='TFPROBE', tgt_col
 
 
 def eval_network(rv_net, gs_net, max_dist, wt_attr='wt', tf_col='TFPROBE', tgt_col='TARGETPROBE'):
+    rv_net_graph = nx.from_pandas_edgelist(rv_net, edge_attr=wt_attr)
+    rv_net_nodes = set(rv_net.source) | set(rv_net.target)
     gs_nedges = gs_net.shape[0]
-    gs_tf_nodes = set(gs_net.loc[:, tf_col])
-    gs_tgt_nodes = set(gs_net.loc[:, tgt_col])
+    gs_tf_nodes = set(gs_net.loc[:, tf_col]) & rv_net_nodes
+    gs_tgt_nodes = set(gs_net.loc[:, tgt_col]) & rv_net_nodes
     gs_pos_edges = set((x, y) for x in gs_tf_nodes for y in gs_tgt_nodes if x != y)
     gs_tru_edges = set((x, y) for x, y in zip(gs_net.loc[:, tf_col], gs_net.loc[:, tgt_col]))
     gs_fls_edges = list(gs_pos_edges - gs_tru_edges)
     gs_nodes = gs_tf_nodes | gs_tgt_nodes
-    #rv_net_nodes = set(rv_net.source) | set(rv_net.target)
-    rv_net_graph = nx.from_pandas_edgelist(rv_net, edge_attr=wt_attr)
     gs_common_nodes = sum((1 if x in rv_net_graph else 0 for x in gs_nodes))
     gs_common_edges = sum((1 if (x in rv_net_graph and y in rv_net_graph) else 0
                            for x, y in zip(gs_net.loc[:, tf_col], gs_net.loc[:, tgt_col])))
@@ -114,7 +114,7 @@ def eval_network(rv_net, gs_net, max_dist, wt_attr='wt', tf_col='TFPROBE', tgt_c
                    for x in dist_histogram],
         'GRSP'  : [(spath_graph.number_of_nodes(), spath_graph.number_of_edges())
                    for _ in range(max_dist+1)],
-        'GRGS'  : [(len(gs_nodes), gs_nedges) for _ in range(max_dist+1)],
+        'GRGS'  : [(len(gs_tf_nodes), len(gs_tgt_nodes), len(gs_nodes), gs_common_edges) for _ in range(max_dist+1)],
         'GRCM'  : [(str(gs_common_nodes), str(gs_common_edges))
                    for _ in range(max_dist+1)]
     }
@@ -147,16 +147,16 @@ def compare_eval_network_probes(annot_file, net_files, gs_file, wt_attr,
                                  max_dist, max_edges, reverse_order)
              for fx in net_files]
     clnames = ['NVRT', 'NEDG', 'NDENS', 'GSTFS', 'GSTARGET', 'GSEDGES'] + [
-        'GRGSV', 'GRGSE', # 'GRCMV', 'GRCME',
-        'GRSPV', 'GRSPE'] + [
+        'GRGSTF', 'GRGSTGT', 'GTGSV', 'GRGSE', # 'GRCMV', 'GRCME', 'GRSPV', 'GRSPE'
+        ] + [
             'EDGN'+str(y) for y in range(1, max_dist+1)] + [
                 'FP', 'TP', 'PREC', 'PRECPCT']
     gs_cmp_data = {str(net_files[x]) :
                    [nhdat[x]['NVRT'], nhdat[x]['NEDG'], nhdat[x]['NDENS']] +
                    [nhdat[x]['GSNETID'][0], nhdat[x]['GSNETID'][1], nhdat[x]['GSNETID'][2]] +
-                   [nhdat[x]['GRGS'][0][0], nhdat[x]['GRGS'][0][1]] +
+                   [nhdat[x]['GRGS'][0][0], nhdat[x]['GRGS'][0][1], nhdat[x]['GRGS'][0][2],  nhdat[x]['GRGS'][0][3]] +
                    #[nhdat[x]['GRCM'][0][0], nhdat[x]['GRCM'][0][1]] +
-                   [nhdat[x]['GRSP'][0][0], nhdat[x]['GRSP'][0][1]] +
+                   #[nhdat[x]['GRSP'][0][0], nhdat[x]['GRSP'][0][1]] +
                    [nhdat[x]['EDGN'][y] for y in range(1, max_dist+1)] +
                    [nhdat[x]['FPCTS'][0][0], nhdat[x]['FPCTS'][0][1],
                     nhdat[x]['FPCTS'][0][2], nhdat[x]['FPCTS'][0][3]]
@@ -183,16 +183,16 @@ def compare_eval_network_ids(net_files, gs_file, wt_attr,
                               max_dist, max_edges, reverse_order)
              for fx in net_files]
     clnames = ['NVRT', 'NEDG', 'NDENS', 'GSTFS', 'GSTARGET', 'GSEDGES'] + [
-        'GRGSV', 'GRGSE', # 'GRCMV', 'GRCME',
-        'GRSPV', 'GRSPE'] + [
+        'GRGSTF', 'GRGSTGT', 'GTGSV', 'GRGSE', # 'GRCMV', 'GRCME', 'GRSPV', 'GRSPE'
+        ] + [
             'EDGN'+str(y) for y in range(1, max_dist+1)] + [
                 'FP', 'TP', 'PREC', 'PRECPCT']
     gs_cmp_data = {str(net_files[x]) :
                    [nhdat[x]['NVRT'], nhdat[x]['NEDG'], nhdat[x]['NDENS']] +
                    [nhdat[x]['GSNETID'][0], nhdat[x]['GSNETID'][1], nhdat[x]['GSNETID'][2]] +
-                   [nhdat[x]['GRGS'][0][0], nhdat[x]['GRGS'][0][1]] +
+                   [nhdat[x]['GRGS'][0][0], nhdat[x]['GRGS'][0][1], nhdat[x]['GRGS'][0][2],  nhdat[x]['GRGS'][0][3]] +
                    # [nhdat[x]['GRCM'][0][0], nhdat[x]['GRCM'][0][1]] +
-                   [nhdat[x]['GRSP'][0][0], nhdat[x]['GRSP'][0][1]] +
+                   # [nhdat[x]['GRSP'][0][0], nhdat[x]['GRSP'][0][1]] +
                    [nhdat[x]['EDGN'][y] for y in range(1, max_dist+1)] +
                    [nhdat[x]['FPCTS'][0][0], nhdat[x]['FPCTS'][0][1],
                     nhdat[x]['FPCTS'][0][2], nhdat[x]['FPCTS'][0][3]]

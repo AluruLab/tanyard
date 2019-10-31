@@ -1,4 +1,3 @@
-
 import argparse
 from typing import List
 import networkx as nx
@@ -85,10 +84,10 @@ def main(annot_file: str, gs_file: str, network_files: List[str],
     print(venn_labels)
     if out_file:
         if len(network_files) == 6:
-            fig, _ = venn.venn4(venn_labels, names=network_names)
+            fig, _ = venn.venn6(venn_labels, names=network_names)
             fig.savefig(out_file)
         if len(network_files) == 5:
-            fig, _ = venn.venn4(venn_labels, names=network_names)
+            fig, _ = venn.venn5(venn_labels, names=network_names)
             fig.savefig(out_file)
         if len(network_files) == 4:
             fig, _ = venn.venn4(venn_labels, names=network_names)
@@ -113,7 +112,7 @@ if __name__ == "__main__":
                            help="output file in png format")
     ARGPARSER.add_argument("-d", "--dist", type=int, default=1,
                            help="max. number of hops allowed")
-    ARGPARSER.add_argument("-p", "--precent", action='store_true',
+    ARGPARSER.add_argument("-p", "--percent", action='store_true',
                            help="""Added percentage in the venn diagram""")
     ARGPARSER.add_argument("annotation_file",
                            help="""annotation file
@@ -133,7 +132,7 @@ if __name__ == "__main__":
        ARG : out_file        : %s """ %
           (str(CMDARGS.annotation_file), str(CMDARGS.gs_network_file),
            str(CMDARGS.network_files), str(CMDARGS.network_names),
-           str(CMDARGS.precent), str(CMDARGS.dist), str(CMDARGS.out_file)))
+           str(CMDARGS.percent), str(CMDARGS.dist), str(CMDARGS.out_file)))
     if not main(CMDARGS.annotation_file, CMDARGS.gs_network_file,
                 CMDARGS.network_files, CMDARGS.network_names,
                 CMDARGS.percent, CMDARGS.dist, CMDARGS.out_file):
