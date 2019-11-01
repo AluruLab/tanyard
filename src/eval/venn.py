@@ -9,14 +9,19 @@ from collections.abc import Iterable
 import matplotlib.pyplot as plt
 import matplotlib.patches as patches
 from matplotlib import colors
+from matplotlib.font_manager import FontProperties
 import math
 
 default_colors = [
     # r, g, b, a
-    [92, 192, 98, 0.5],
-    [90, 155, 212, 0.5],
-    [246, 236, 86, 0.6],
-    [241, 90, 96, 0.4],
+    # [92, 192, 98, 0.5],
+    # [90, 155, 212, 0.5],
+    # [246, 236, 86, 0.6],
+    # [241, 90, 96, 0.4],
+    [0, 0, 255, 0.33],
+    [255, 255, 0, 0.33],
+    [0, 255, 0, 0.33],
+    [255, 0, 0, 0.33],
     [255, 117, 0, 0.3],
     [82, 82, 190, 0.2],
 ]
@@ -24,6 +29,9 @@ default_colors = [
     [i[0] / 255.0, i[1] / 255.0, i[2] / 255.0, i[3]]
     for i in default_colors
 ]
+font0 = FontProperties()
+font1 = font0.copy()
+font1.set_family('serif')
 
 def draw_ellipse(fig, ax, x, y, w, h, a, fillcolor):
     e = patches.Ellipse(
@@ -52,6 +60,46 @@ def draw_text(fig, ax, x, y, text, color=[0, 0, 0, 1], fontsize=14, ha="center",
         horizontalalignment=ha,
         verticalalignment=va,
         fontsize=fontsize,
+        color="black")
+def draw_ellipse_border(fig, ax, x, y, w, h, a, fillcolor):
+    e = patches.Ellipse(
+        xy=(x, y),
+        width=w,
+        height=h,
+        angle=a,
+        color=fillcolor,
+        ec=[0,0,0,1])
+    ax.add_patch(e)
+
+def draw_count_text(fig, ax, x, y, text, color=[0, 0, 0, 1], fontsize=14, ha="center", va="center"):
+    ax.text(
+        x, y, text,
+        horizontalalignment=ha,
+        verticalalignment=va,
+        fontsize=fontsize,
+        fontdict={'family': 'Times New Roman'},
+        fontweight='bold',
+        color="black")
+
+def draw_pct_text(fig, ax, x, y, text, color=[0, 0, 0, 1], fontsize=14, ha="center", va="center"):
+    ax.text(
+        x, y, text,
+        horizontalalignment=ha,
+        verticalalignment=va,
+        fontsize=fontsize,
+        fontdict={'family': 'Times New Roman'},
+        fontweight='bold',
+        color="black")
+
+
+def draw_names_text(fig, ax, x, y, text, color=[0, 0, 0, 1], fontsize=14, ha="center", va="center"):
+    ax.text(
+        x, y, text,
+        horizontalalignment=ha,
+        verticalalignment=va,
+        fontsize=fontsize,
+        fontdict={'family': 'Times New Roman'},
+        fontweight='bold',
         color="black")
 
 def draw_annotate(fig, ax, x, y, textx, texty, text, color=[0, 0, 0, 1], arrowcolor=[0, 0, 0, 0.3]):
@@ -122,9 +170,14 @@ def get_labels(data, fill=["number"]):
     if "percent" in fill:
         data_size = len(s_all)
         for k in set_collections:
-            labels[k] += "(%.1f%%)" % (100.0 * len(set_collections[k]) / data_size)
+            labels[k] += "\n(%.1f%%)" % (100.0 * len(set_collections[k]) / data_size)
 
     return labels
+
+def split_label(pxl):
+  ctx = pxl.split("(")[0]
+  pcx = pxl.split("\n")[1]
+  return ctx, pcx
 
 def venn2(labels, names=['A', 'B'], **options):
     """
@@ -156,17 +209,28 @@ def venn2(labels, names=['A', 'B'], **options):
     ax.set_xlim(left=0.0, right=1.0)
 
     # body
-    draw_ellipse(fig, ax, 0.375, 0.3, 0.5, 0.5, 0.0, colors[0])
-    draw_ellipse(fig, ax, 0.625, 0.3, 0.5, 0.5, 0.0, colors[1])
-    draw_text(fig, ax, 0.74, 0.30, labels.get('01', ''), fontsize=fontsize)
-    draw_text(fig, ax, 0.26, 0.30, labels.get('10', ''), fontsize=fontsize)
-    draw_text(fig, ax, 0.50, 0.30, labels.get('11', ''), fontsize=fontsize)
+    draw_ellipse_border(fig, ax, 0.375, 0.3, 0.5, 0.5, 0.0, colors[0])
+    draw_ellipse_border(fig, ax, 0.625, 0.3, 0.5, 0.5, 0.0, colors[1])
+    if "(" in labels.get('11', ''):
+      ctx, pcx = split_label(labels.get('01', ''))
+      draw_count_text(fig, ax, 0.74, 0.30, ctx, fontsize=fontsize)
+      draw_pct_text(fig, ax, 0.74, 0.29, pcx, fontsize=fontsize-2)
+      ctx, pcx = split_label(labels.get('10', ''))
+      draw_count_text(fig, ax, 0.26, 0.30, ctx, fontsize=fontsize)
+      draw_pct_text(fig, ax, 0.26, 0.29, pcx, fontsize=fontsize-2)
+      ctx, pcx = split_label(labels.get('11', ''))
+      draw_count_text(fig, ax, 0.50, 0.30, ctx, fontsize=fontsize)
+      draw_pct_text(fig, ax, 0.50, 0.29, pcx, fontsize=fontsize-2)
+    else:
+      draw_text(fig, ax, 0.74, 0.30, labels.get('01', ''), fontsize=fontsize)
+      draw_text(fig, ax, 0.26, 0.30, labels.get('10', ''), fontsize=fontsize)
+      draw_text(fig, ax, 0.50, 0.30, labels.get('11', ''), fontsize=fontsize)
 
     # legend
-    draw_text(fig, ax, 0.20, 0.56, names[0], colors[0], fontsize=fontsize, ha="right", va="bottom")
-    draw_text(fig, ax, 0.80, 0.56, names[1], colors[1], fontsize=fontsize, ha="left", va="bottom")
-    leg = ax.legend(names, loc='center left', bbox_to_anchor=(1.0, 0.5), fancybox=True)
-    leg.get_frame().set_alpha(0.5)
+    draw_names_text(fig, ax, 0.20, 0.56, names[0], colors[0], fontsize=fontsize, ha="right", va="bottom")
+    draw_names_text(fig, ax, 0.80, 0.56, names[1], colors[1], fontsize=fontsize, ha="left", va="bottom")
+    #leg = ax.legend(names, loc='center left', bbox_to_anchor=(1.0, 0.5), fancybox=True)
+    #leg.get_frame().set_alpha(0.5)
 
     return fig, ax
 
@@ -191,7 +255,7 @@ def venn3(labels, names=['A', 'B', 'C'], **options):
     colors = options.get('colors', [default_colors[i] for i in range(3)])
     figsize = options.get('figsize', (9, 9))
     dpi = options.get('dpi', 96)
-    fontsize = options.get('fontsize', 14)
+    fontsize = options.get('fontsize', 13)
 
     fig = plt.figure(0, figsize=figsize, dpi=dpi)
     ax = fig.add_subplot(111, aspect='equal')
@@ -200,23 +264,46 @@ def venn3(labels, names=['A', 'B', 'C'], **options):
     ax.set_xlim(left=0.0, right=1.0)
 
     # body
-    draw_ellipse(fig, ax, 0.333, 0.633, 0.5, 0.5, 0.0, colors[0])
-    draw_ellipse(fig, ax, 0.666, 0.633, 0.5, 0.5, 0.0, colors[1])
-    draw_ellipse(fig, ax, 0.500, 0.310, 0.5, 0.5, 0.0, colors[2])
-    draw_text(fig, ax, 0.50, 0.27, labels.get('001', ''), fontsize=fontsize)
-    draw_text(fig, ax, 0.73, 0.65, labels.get('010', ''), fontsize=fontsize)
-    draw_text(fig, ax, 0.61, 0.46, labels.get('011', ''), fontsize=fontsize)
-    draw_text(fig, ax, 0.27, 0.65, labels.get('100', ''), fontsize=fontsize)
-    draw_text(fig, ax, 0.39, 0.46, labels.get('101', ''), fontsize=fontsize)
-    draw_text(fig, ax, 0.50, 0.65, labels.get('110', ''), fontsize=fontsize)
-    draw_text(fig, ax, 0.50, 0.51, labels.get('111', ''), fontsize=fontsize)
+    draw_ellipse_border(fig, ax, 0.333, 0.633, 0.5, 0.5, 0.0, colors[0])
+    draw_ellipse_border(fig, ax, 0.666, 0.633, 0.5, 0.5, 0.0, colors[1])
+    draw_ellipse_border(fig, ax, 0.500, 0.310, 0.5, 0.5, 0.0, colors[2])
+    if "(" in labels.get('111', ''):
+      ctx, pcx = split_label(labels.get('001', ''))
+      draw_count_text(fig, ax, 0.50, 0.27, ctx, fontsize=fontsize)
+      draw_pct_text(fig, ax, 0.50, 0.26, pcx, fontsize=fontsize-3)
+      ctx, pcx = split_label(labels.get('010', ''))
+      draw_count_text(fig, ax, 0.73, 0.65, ctx, fontsize=fontsize)
+      draw_pct_text(fig, ax, 0.73, 0.64, pcx, fontsize=fontsize-3)
+      ctx, pcx = split_label(labels.get('011', ''))
+      draw_count_text(fig, ax, 0.61, 0.46, ctx, fontsize=fontsize)
+      draw_pct_text(fig, ax, 0.61, 0.45, pcx, fontsize=fontsize-3)
+      ctx, pcx = split_label(labels.get('100', ''))
+      draw_count_text(fig, ax, 0.27, 0.65, ctx, fontsize=fontsize)
+      draw_pct_text(fig, ax, 0.27, 0.64, pcx, fontsize=fontsize-3)
+      ctx, pcx = split_label(labels.get('101', ''))
+      draw_count_text(fig, ax, 0.39, 0.46, ctx, fontsize=fontsize)
+      draw_pct_text(fig, ax, 0.39, 0.45, pcx, fontsize=fontsize-3)
+      ctx, pcx = split_label(labels.get('110', ''))
+      draw_count_text(fig, ax, 0.50, 0.65, ctx, fontsize=fontsize)
+      draw_pct_text(fig, ax, 0.50, 0.64, pcx, fontsize=fontsize-3)
+      ctx, pcx = split_label(labels.get('111', ''))
+      draw_count_text(fig, ax, 0.50, 0.51, ctx, fontsize=fontsize)
+      draw_pct_text(fig, ax, 0.50, 0.50, pcx, fontsize=fontsize-3)
+    else:
+      draw_text(fig, ax, 0.50, 0.27, labels.get('001', ''), fontsize=fontsize)
+      draw_text(fig, ax, 0.73, 0.65, labels.get('010', ''), fontsize=fontsize)
+      draw_text(fig, ax, 0.61, 0.46, labels.get('011', ''), fontsize=fontsize)
+      draw_text(fig, ax, 0.27, 0.65, labels.get('100', ''), fontsize=fontsize)
+      draw_text(fig, ax, 0.39, 0.46, labels.get('101', ''), fontsize=fontsize)
+      draw_text(fig, ax, 0.50, 0.65, labels.get('110', ''), fontsize=fontsize)
+      draw_text(fig, ax, 0.50, 0.51, labels.get('111', ''), fontsize=fontsize)
 
     # legend
-    draw_text(fig, ax, 0.15, 0.87, names[0], colors[0], fontsize=fontsize, ha="right", va="bottom")
-    draw_text(fig, ax, 0.85, 0.87, names[1], colors[1], fontsize=fontsize, ha="left", va="bottom")
-    draw_text(fig, ax, 0.50, 0.02, names[2], colors[2], fontsize=fontsize, va="top")
-    leg = ax.legend(names, loc='center left', bbox_to_anchor=(1.0, 0.5), fancybox=True)
-    leg.get_frame().set_alpha(0.5)
+    draw_names_text(fig, ax, 0.15, 0.87, names[0], colors[0], fontsize=fontsize, ha="right", va="bottom")
+    draw_names_text(fig, ax, 0.85, 0.87, names[1], colors[1], fontsize=fontsize, ha="left", va="bottom")
+    draw_names_text(fig, ax, 0.50, 0.02, names[2], colors[2], fontsize=fontsize, va="top")
+    #leg = ax.legend(names, loc='center left', bbox_to_anchor=(1.0, 0.5), fancybox=True)
+    #leg.get_frame().set_alpha(0.5)
 
     return fig, ax
 
@@ -250,33 +337,80 @@ def venn4(labels, names=['A', 'B', 'C', 'D'], **options):
     ax.set_xlim(left=0.0, right=1.0)
 
     # body
-    draw_ellipse(fig, ax, 0.350, 0.400, 0.72, 0.45, 140.0, colors[0])
-    draw_ellipse(fig, ax, 0.450, 0.500, 0.72, 0.45, 140.0, colors[1])
-    draw_ellipse(fig, ax, 0.544, 0.500, 0.72, 0.45, 40.0, colors[2])
-    draw_ellipse(fig, ax, 0.644, 0.400, 0.72, 0.45, 40.0, colors[3])
-    draw_text(fig, ax, 0.85, 0.42, labels.get('0001', ''), fontsize=fontsize)
-    draw_text(fig, ax, 0.68, 0.72, labels.get('0010', ''), fontsize=fontsize)
-    draw_text(fig, ax, 0.77, 0.59, labels.get('0011', ''), fontsize=fontsize)
-    draw_text(fig, ax, 0.32, 0.72, labels.get('0100', ''), fontsize=fontsize)
-    draw_text(fig, ax, 0.71, 0.30, labels.get('0101', ''), fontsize=fontsize)
-    draw_text(fig, ax, 0.50, 0.66, labels.get('0110', ''), fontsize=fontsize)
-    draw_text(fig, ax, 0.65, 0.50, labels.get('0111', ''), fontsize=fontsize)
-    draw_text(fig, ax, 0.14, 0.42, labels.get('1000', ''), fontsize=fontsize)
-    draw_text(fig, ax, 0.50, 0.17, labels.get('1001', ''), fontsize=fontsize)
-    draw_text(fig, ax, 0.29, 0.30, labels.get('1010', ''), fontsize=fontsize)
-    draw_text(fig, ax, 0.39, 0.24, labels.get('1011', ''), fontsize=fontsize)
-    draw_text(fig, ax, 0.23, 0.59, labels.get('1100', ''), fontsize=fontsize)
-    draw_text(fig, ax, 0.61, 0.24, labels.get('1101', ''), fontsize=fontsize)
-    draw_text(fig, ax, 0.35, 0.50, labels.get('1110', ''), fontsize=fontsize)
-    draw_text(fig, ax, 0.50, 0.38, labels.get('1111', ''), fontsize=fontsize)
+    draw_ellipse_border(fig, ax, 0.350, 0.400, 0.72, 0.45, 140.0, colors[0])
+    draw_ellipse_border(fig, ax, 0.450, 0.500, 0.72, 0.45, 140.0, colors[1])
+    draw_ellipse_border(fig, ax, 0.544, 0.500, 0.72, 0.45, 40.0, colors[2])
+    draw_ellipse_border(fig, ax, 0.644, 0.400, 0.72, 0.45, 40.0, colors[3])
+    if "(" in labels.get('1111', ''):
+      ctx, pcx = split_label(labels.get('0001', ''))
+      draw_count_text(fig, ax, 0.85, 0.42, ctx, fontsize=fontsize)
+      draw_pct_text(fig, ax, 0.85, 0.41, pcx, fontsize=fontsize-3)
+      ctx, pcx = split_label(labels.get('0010', ''))
+      draw_count_text(fig, ax, 0.68, 0.72, ctx, fontsize=fontsize)
+      draw_pct_text(fig, ax, 0.68, 0.71, pcx, fontsize=fontsize-3)
+      ctx, pcx = split_label(labels.get('0011', ''))
+      draw_count_text(fig, ax, 0.77, 0.59, ctx, fontsize=fontsize)
+      draw_pct_text(fig, ax, 0.77, 0.58, pcx, fontsize=fontsize-3)
+      ctx, pcx = split_label(labels.get('0100', ''))
+      draw_count_text(fig, ax, 0.32, 0.72, ctx, fontsize=fontsize)
+      draw_pct_text(fig, ax, 0.32, 0.71, pcx, fontsize=fontsize-3)
+      ctx, pcx = split_label(labels.get('0101', ''))
+      draw_count_text(fig, ax, 0.71, 0.30, ctx, fontsize=fontsize)
+      draw_pct_text(fig, ax, 0.71, 0.29, pcx, fontsize=fontsize-3)
+      ctx, pcx = split_label(labels.get('0110', ''))
+      draw_count_text(fig, ax, 0.50, 0.66, ctx, fontsize=fontsize)
+      draw_pct_text(fig, ax, 0.50, 0.65, pcx, fontsize=fontsize-3)
+      ctx, pcx = split_label(labels.get('0111', ''))
+      draw_count_text(fig, ax, 0.65, 0.50, ctx, fontsize=fontsize)
+      draw_pct_text(fig, ax, 0.65, 0.49, pcx, fontsize=fontsize-3)
+      ctx, pcx = split_label(labels.get('1000', ''))
+      draw_count_text(fig, ax, 0.14, 0.42, ctx, fontsize=fontsize)
+      draw_pct_text(fig, ax, 0.14, 0.41, pcx, fontsize=fontsize-3)
+      ctx, pcx = split_label(labels.get('1001', ''))
+      draw_count_text(fig, ax, 0.50, 0.17, ctx, fontsize=fontsize)
+      draw_pct_text(fig, ax, 0.50, 0.16, pcx, fontsize=fontsize-3)
+      ctx, pcx = split_label(labels.get('1010', ''))
+      draw_count_text(fig, ax, 0.29, 0.30, ctx, fontsize=fontsize)
+      draw_pct_text(fig, ax, 0.29, 0.29, pcx, fontsize=fontsize-3)
+      ctx, pcx = split_label(labels.get('1011', ''))
+      draw_count_text(fig, ax, 0.39, 0.24, ctx, fontsize=fontsize)
+      draw_pct_text(fig, ax, 0.39, 0.23, pcx, fontsize=fontsize-3)
+      ctx, pcx = split_label(labels.get('1100', ''))
+      draw_count_text(fig, ax, 0.23, 0.59, ctx, fontsize=fontsize)
+      draw_pct_text(fig, ax, 0.23, 0.58, pcx, fontsize=fontsize-3)
+      ctx, pcx = split_label(labels.get('1101', ''))
+      draw_count_text(fig, ax, 0.61, 0.24, ctx, fontsize=fontsize)
+      draw_pct_text(fig, ax, 0.61, 0.23, pcx, fontsize=fontsize-3)
+      ctx, pcx = split_label(labels.get('1110', ''))
+      draw_count_text(fig, ax, 0.35, 0.50, ctx, fontsize=fontsize)
+      draw_pct_text(fig, ax, 0.35, 0.49, pcx, fontsize=fontsize-3)
+      ctx, pcx = split_label(labels.get('1111', ''))
+      draw_count_text(fig, ax, 0.50, 0.38, ctx, fontsize=fontsize)
+      draw_pct_text(fig, ax, 0.50, 0.37, pcx, fontsize=fontsize-3)
+    else:
+      draw_text(fig, ax, 0.85, 0.42, labels.get('0001', ''), fontsize=fontsize)
+      draw_text(fig, ax, 0.68, 0.72, labels.get('0010', ''), fontsize=fontsize)
+      draw_text(fig, ax, 0.77, 0.59, labels.get('0011', ''), fontsize=fontsize)
+      draw_text(fig, ax, 0.32, 0.72, labels.get('0100', ''), fontsize=fontsize)
+      draw_text(fig, ax, 0.71, 0.30, labels.get('0101', ''), fontsize=fontsize)
+      draw_text(fig, ax, 0.50, 0.66, labels.get('0110', ''), fontsize=fontsize)
+      draw_text(fig, ax, 0.65, 0.50, labels.get('0111', ''), fontsize=fontsize)
+      draw_text(fig, ax, 0.14, 0.42, labels.get('1000', ''), fontsize=fontsize)
+      draw_text(fig, ax, 0.50, 0.17, labels.get('1001', ''), fontsize=fontsize)
+      draw_text(fig, ax, 0.29, 0.30, labels.get('1010', ''), fontsize=fontsize)
+      draw_text(fig, ax, 0.39, 0.24, labels.get('1011', ''), fontsize=fontsize)
+      draw_text(fig, ax, 0.23, 0.59, labels.get('1100', ''), fontsize=fontsize)
+      draw_text(fig, ax, 0.61, 0.24, labels.get('1101', ''), fontsize=fontsize)
+      draw_text(fig, ax, 0.35, 0.50, labels.get('1110', ''), fontsize=fontsize)
+      draw_text(fig, ax, 0.50, 0.38, labels.get('1111', ''), fontsize=fontsize)
 
     # legend
-    draw_text(fig, ax, 0.13, 0.18, names[0], colors[0], fontsize=fontsize, ha="right")
-    draw_text(fig, ax, 0.18, 0.83, names[1], colors[1], fontsize=fontsize, ha="right", va="bottom")
-    draw_text(fig, ax, 0.82, 0.83, names[2], colors[2], fontsize=fontsize, ha="left", va="bottom")
-    draw_text(fig, ax, 0.87, 0.18, names[3], colors[3], fontsize=fontsize, ha="left", va="top")
-    leg = ax.legend(names, loc='center left', bbox_to_anchor=(1.0, 0.5), fancybox=True)
-    leg.get_frame().set_alpha(0.5)
+    draw_names_text(fig, ax, 0.13, 0.18, names[0], colors[0], fontsize=fontsize, ha="right")
+    draw_names_text(fig, ax, 0.18, 0.83, names[1], colors[1], fontsize=fontsize, ha="right", va="bottom")
+    draw_names_text(fig, ax, 0.82, 0.83, names[2], colors[2], fontsize=fontsize, ha="left", va="bottom")
+    draw_names_text(fig, ax, 0.87, 0.18, names[3], colors[3], fontsize=fontsize, ha="left", va="top")
+    #leg = ax.legend(names, loc='center left', bbox_to_anchor=(1.0, 0.5), fancybox=True)
+    #leg.get_frame().set_alpha(0.5)
 
     return fig, ax
 
