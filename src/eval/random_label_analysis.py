@@ -34,7 +34,7 @@ def rand_label_distribution(annot_file: str, gs_file: str, network_file: str,
     gs_net_nx = [(node_names_map[x], node_names_map[y])
                   for x, y in zip(gs_net.TFPROBE, gs_net.TARGETPROBE)
                   if x in node_names_map and y in node_names_map]
-    results = np.zeros(nshuffles)
+    results = np.zeros(nshuffles, dtype='i')
     for idx in range(nshuffles):
         narray = np.arange(n_nodes)
         np.random.shuffle(narray)
@@ -44,13 +44,24 @@ def rand_label_distribution(annot_file: str, gs_file: str, network_file: str,
     return results
 
 
-def main(annot_file: str, gs_file: str, network_file: str, max_edges:int ) -> None:
+def main(annot_file: str, gs_file: str, network_file: str, max_edges:int,
+         nshuffles: int, out_file: str) -> None:
     comm = MPI.COMM_WORLD
     rank = comm.Get_rank()
     size = comm.Get_size()
     prop_data = rand_label_distribution(annot_file, gs_file, network_file,
-                                         'wt', max_edges)
-    print(prop_data)
+                                         'wt', max_edges, nshuffles)
+    recv_arr = None
+    if rank == 0:
+        recv_arr = np.empty([size, nshuffles], dtype='i')
+    comm.Gather(prop_data, recv_arr, root=0)
+    if rank == 0:
+        #for i in range(size):
+        #    assert np.allclose(recv_arr[i,:], i)
+        if out_file:
+            np.savetxt(out_file, recv_arr)
+        else:
+            print(recv_arr)
     #prop_df = pd.DataFrame(data=prop_data, index=cnames)
     #print(prop_df.transpose().to_csv(sep="\t", index=True))
 
@@ -60,6 +71,8 @@ if __name__ == "__main__":
     ARGPARSER = argparse.ArgumentParser(description=PROG_DESC)
     ARGPARSER.add_argument("-x", "--max_edges", type=int,
                         help="""maximum number of edges""")
+    ARGPARSER.add_argument("-n", "--no_shuffles", type=int, default=5,
+                        help="""maximum number of shuffles per proc""")
     ARGPARSER.add_argument("-o", "--out_file",
                            type=str,
                            help="output file in text format")
@@ -71,4 +84,5 @@ if __name__ == "__main__":
                                    (tab seperated file of TF-TARGET interactions)""")
     ARGPARSER.add_argument("network_file")
     CMDARGS = ARGPARSER.parse_args()
-    main(CMDARGS.annotation_file, CMDARGS.gs_network_file, CMDARGS.network_file, CMDARGS.max_edges)
+    main(CMDARGS.annotation_file, CMDARGS.gs_network_file, CMDARGS.network_file,
+         CMDARGS.max_edges, CMDARGS.no_shuffles, CMDARGS.out_file)
