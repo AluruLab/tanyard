@@ -1,13 +1,15 @@
 from typing import Iterable, List
 import argparse
 import pandas as pd
+import data_utils as du
 
 
 def common_network(network_files: Iterable[str]):
     common_df: pd.DataFrame = pd.DataFrame()
     common_cols = set([])
     for net_file in network_files:
-        rv_net: pd.DataFrame = pd.read_csv(net_file, sep=r'\s+')
+        rv_net: pd.DataFrame = du.load_tsv_network(net_file)
+        print(rv_net.shape)
         if common_df.empty or common_df.shape[0] == 0:
             mcols = set(rv_net.columns) - set(['wt'])
             common_df = rv_net.loc[:, list(mcols)]
@@ -22,7 +24,7 @@ def common_network(network_files: Iterable[str]):
     distinct_dfs = []
     common_cols = common_cols - set(['wt'])
     for net_file in network_files:
-        rv_net: pd.DataFrame = pd.read_csv(net_file, sep=r'\s+')
+        rv_net: pd.DataFrame = du.load_tsv_network(net_file)
         set_diff_df = pd.concat([common_df.loc[:, common_cols], 
             rv_net.loc[:, common_cols]]).drop_duplicates(keep=False)
         distinct_dfs.append(set_diff_df)

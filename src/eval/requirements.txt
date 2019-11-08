@@ -1,0 +1,7 @@
+matplotlib
+numpy
+pandas
+networkx
+mpi4py
+python-igraph
+intermine

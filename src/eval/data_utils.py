@@ -199,6 +199,13 @@ def load_tsv_network(tsv_file: str, wt_attr_name: str = 'wt') -> pd.DataFrame:
         rn_cols = {x : y for x, y in zip(tmp_df.columns, cnames)}
         tmp_df = tmp_df.rename(columns=rn_cols)
         return order_network_rows(tmp_df, wt_attr_name)
+    if len(tmp_df.columns) == 2:
+        cnames = ['source', 'target']
+        tmp_df = tmp_df.iloc[:, [0, 1]]
+        rn_cols = {x : y for x, y in zip(tmp_df.columns, cnames)}
+        tmp_df = tmp_df.rename(columns=rn_cols)
+        tmp_df[wt_attr_name] = 1.0
+        return order_network_rows(tmp_df, wt_attr_name)
     return pd.DataFrame({'source': [], 'target': [], wt_attr_name: []})
 
 
