@@ -1,25 +1,26 @@
 import argparse
+from typing import List
 import numpy as np
 import pandas as pd
 import networkx as nx
-import data_utils as du
 from mpi4py import MPI
+import data_utils as du
 
 
-def block_low(i, p, n):
-    return (i*n) / p
+def block_low(rank, size, array_length):
+    return (rank*array_length) / size
 
 
-def block_high(i, p, n):
-    return  (((i+1)*n)/p) - 1
+def block_high(rank, size, array_length):
+    return  (((rank+1)*array_length)/size) - 1
 
 
-def block_size(i, p, n):
-    return block_low((i+1), p, n) - block_low(i, p, n)
+def block_size(rank, size, array_length):
+    return block_low((rank+1), size, array_length) - block_low(rank, size, array_length)
 
 
-def block_owner(j, p, n):
-    return (((p) * ((j)+1)-1)/(n))
+def block_owner(idx, size, array_length):
+    return ((size) * ((idx)+1)-1)/(array_length)
 
 
 def select_edges(net_df: pd.DataFrame, wt_attr_name: str = 'wt',
@@ -34,16 +35,16 @@ def select_edges(net_df: pd.DataFrame, wt_attr_name: str = 'wt',
     return net_df.loc[:, cur_cols]
 
 
-def rand_label_distribution(nsize : int,
-                            nrank : int,
-                            network_file : str,
-                            wt_attr_name : str = 'wt',
-                            max_edges : int = None) -> List[int]:
+def rand_label_distribution(nsize: int,
+                            nrank: int,
+                            network_file: str,
+                            wt_attr_name: str = 'wt',
+                            max_edges: int = None) -> List[int]:
     net_df: pd.DataFrame = select_edges(du.load_reveng_network(network_file),
                                         wt_attr_name, max_edges)
     rev_net: nx.Graph = nx.from_pandas_edgelist(net_df, edge_attr=wt_attr_name)
     n_nodes = nx.number_of_nodes(rev_net)
-    node_names_map = {y:x for x, y in zip(range(n_nodes), nx.nodes(rev_net))}
+    #node_names_map = {y:x for x, y in zip(range(n_nodes), nx.nodes(rev_net))}
     #print(node_names_list[0], node_names_map['249052_at'])
     rev_net_nx = nx.convert_node_labels_to_integers(rev_net)
     if nsize is None or nrank is None:
