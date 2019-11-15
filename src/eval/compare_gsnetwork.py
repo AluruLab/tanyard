@@ -169,7 +169,8 @@ def eval_network_ids(net_file, gs_file, wt_attr,
                      max_dist, max_edges, reverse_order):
     gs_net = du.load_gsnetwork(gs_file)
     id_net_shape = [len(set(gs_net.TF)), len(set(gs_net.TARGET)), gs_net.shape[0]]
-    rv_net = select_edges(pd.read_csv(net_file, sep="\t"),
+    rv_net_df = du.load_tsv_network(net_file)
+    rv_net = select_edges(rv_net_df,
                           wt_attr_name=wt_attr,
                           max_edges=max_edges,
                           reverse_order=reverse_order)
