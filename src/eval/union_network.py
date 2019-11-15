@@ -69,10 +69,10 @@ if __name__ == "__main__":
                                 should have as many names as the number of networks""")
     PARSER.add_argument("-x", "--max_edges", type=int,
                         help="""max number of edges to output""")
-    PARSER.add_argument("-g", "--no_wt_avg", action='store_false', 
-            help="""compute the average wt. (default: True)""")
-    PARSER.add_argument("-m", "--no_wt_max", action='store_false', 
-            help="""compute the average max wt. (default: True)""")
+    PARSER.add_argument("-g", "--no_wt_avg", action='store_false',
+                        help="""compute the average wt. (default: True)""")
+    PARSER.add_argument("-m", "--no_wt_max", action='store_false',
+                        help="""compute the average max wt. (default: True)""")
     PARSER.add_argument("-o", "--out_file",
                         type=argparse.FileType(mode='w'), required=True,
                         help="output file in tab-seperated format")

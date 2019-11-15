@@ -69,7 +69,7 @@ def load_annotation_alias(annot_file: str) -> pd.DataFrame:
                             index=input_df.PROBE).stack()
     annot_df = annot_df.reset_index()[[0, 'PROBE']]
     annot_df.columns = ['ID', 'PROBE']
-    annot_df['ALIAS'] = list(input_df.loc[ annot_df['PROBE'] , 'ALIAS'])
+    annot_df['ALIAS'] = list(input_df.loc[annot_df['PROBE'], 'ALIAS'])
     return annot_df
 
 
@@ -322,7 +322,7 @@ def map_probes(gs_net: pd.DataFrame, annot_df: pd.DataFrame,
     return gs_net_mapped
 
 def map_atid2probes(probe_df: pd.DataFrame, annot_df: pd.DataFrame,
-                   how_join: str = 'inner') -> pd.DataFrame:
+                    how_join: str = 'inner') -> pd.DataFrame:
     annot_filter_df = annot_df.loc[annot_df.ID != 'no_match', :]
     probe_df_mapped = probe_df.merge(annot_filter_df, left_on='ID',
                                      right_on='ID', how=how_join)
@@ -369,7 +369,7 @@ def map_probes_cols_idalias(net_df: pd.DataFrame, annot_df: pd.DataFrame,
         gs_net_mapped = gs_net_mapped.rename(columns={
             'ID': cname + id_suffix,
             'PROBE': cname + probe_suffix,
-            'ALIAS': cname + alias_suffix })
+            'ALIAS': cname + alias_suffix})
     return gs_net_mapped
 
 
@@ -404,4 +404,3 @@ def select_edges(net_df: pd.DataFrame, wt_attr_name: str = 'wt',
         net_df = net_df.nlargest(n=max_edges, columns=maxwt_attr_name)
     #print(net_df.iloc[0, :])
     return net_df.loc[:, cur_cols]
-
