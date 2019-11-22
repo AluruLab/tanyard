@@ -28,11 +28,11 @@ def shorest_path_graph(mod_genes, annot_map, rv_net_graph):
     gs_gene_ids = {x: y for x, y in zip(mod_genes.PID_PROBE, mod_genes.PID_ID)  if x in rv_net_graph}
     gs_probes = set(list(mod_genes.PID_PROBE))
     rev_subgraph = rv_net_graph.subgraph(gs_probes)
-    print(nx.number_connected_components(rev_subgraph))
+    print('SUBNET ', len(rev_subgraph), nx.number_connected_components(rev_subgraph))
     spath_graph = nx.Graph()
     for probe in rev_subgraph.nodes():
         spath_graph.add_node(probe, ID=gs_gene_ids[probe],
-                             COLOR = 'GREEN')
+                             COLOR='GREEN')
     for s_node, t_node in rev_subgraph.edges():
         spath_graph.add_edge(s_node, t_node, COLOR='GREEN')
     if nx.number_connected_components(rev_subgraph) == 1:
@@ -40,20 +40,26 @@ def shorest_path_graph(mod_genes, annot_map, rv_net_graph):
     gs_net = all_pair_edges(gs_gene_ids.keys())
     gs_spath = [shortest_path(rv_net_graph, x, y)
                 for x, y in zip(gs_net.loc[:, 'SRC'], gs_net.loc[:, 'TGT'])]
-    sorted(gs_spath, reverse=True, key=lambda x: len(x[0]) if x[0] else 0)
+    sorted(gs_spath, reverse=False, key=lambda x: len(x[0]) if x[0] else 0)
     spath_graph_nodes = set(x for _, x, _ in gs_spath if x)
     spath_graph_nodes |= set(y for _, _, y in gs_spath if y)
     ncsx = nx.number_connected_components(spath_graph)
-    for spx, _, _ in gs_spath:
+    for spx, src, tgt in gs_spath:
         #spx = gs_spath[(x, y)][0]
+        try:
+            nlen = nx.shortest_path_length(spath_graph, src, tgt)
+            if nlen >= 0:
+                continue
+        except nx.NetworkXNoPath:
+            pass
         if spx is not None:
             #spath_graph_nodes.update(spx)
             if len(spx) > 1:
                 for s_node, t_node in zip(spx, spx[1:]):
-                    if s_node not in gs_spath:
+                    if s_node not in spath_graph:
                         spath_graph.add_node(s_node, ID=annot_map[s_node], COLOR='RED')
-                    if t_node not in gs_spath:
-                        spath_graph.add_node(t_node, ID=annot_map[t_node], COLOR='GREEN')
+                    if t_node not in spath_graph:
+                        spath_graph.add_node(t_node, ID=annot_map[t_node], COLOR='RED')
                     spath_graph.add_edge(s_node, t_node, 
                                          COLOR='YELLOW' if s_node not in gs_probes and s_node not in gs_probes else 'RED')
                     ncsx = nx.number_connected_components(spath_graph)
@@ -79,7 +85,7 @@ def main(annot_file, pathway_nodes_file, net_file,
                              reverse_order=reverse_order)
     rv_net_graph = nx.from_pandas_edgelist(rv_net, edge_attr=wt_attr)
     spath_graph = shorest_path_graph(pway_df, annot_map, rv_net_graph)
-    print(len(spath_graph))
+    print("SPATH SIZE", len(spath_graph), nx.number_connected_components(spath_graph))
     nx.write_gml(spath_graph, out_file)
 
 if __name__ == "__main__":

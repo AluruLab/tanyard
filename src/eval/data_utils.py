@@ -356,6 +356,7 @@ def map_probes_cols(net_df: pd.DataFrame, annot_df: pd.DataFrame,
 def map_probes_cols_idalias(net_df: pd.DataFrame, annot_df: pd.DataFrame,
                             col_names: List[str],
                             how_join: str = 'inner',
+                            right_onc: str = 'PROBE',
                             probe_suffix: str = '_probe',
                             id_suffix: str = '_id',
                             alias_suffix: str = '_alias') -> pd.DataFrame:
@@ -365,7 +366,7 @@ def map_probes_cols_idalias(net_df: pd.DataFrame, annot_df: pd.DataFrame,
     gs_net_mapped = net_df
     for cname in col_names:
         gs_net_mapped = gs_net_mapped.merge(annot_filter_df, left_on=cname,
-                                            right_on='PROBE', how=how_join)
+                                            right_on=right_onc, how=how_join)
         gs_net_mapped = gs_net_mapped.rename(columns={
             'ID': cname + id_suffix,
             'PROBE': cname + probe_suffix,
