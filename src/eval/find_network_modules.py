@@ -27,8 +27,10 @@ METHOD_DESCRIPTION = {
 
 METHOD_KEYS = list(METHOD_DESCRIPTION.keys())
 
+MODULE_RUNS = 0
 
 def run_community_detection(method, in_graph, nspins=50, ntrials=100):
+    global MODULE_RUNS
     node_clst = None
     if method == METHOD_FGREEDY:
         net_mods = in_graph.community_fastgreedy(weights='wt')
@@ -48,6 +50,8 @@ def run_community_detection(method, in_graph, nspins=50, ntrials=100):
         node_clst = net_mods.as_clustering()
     else:
         print("method not supported")
+        return None
+    MODULE_RUNS += 1
     return node_clst
 
 def find_graph_modules_recursive(method, in_graph, clust_id, nlevel, nlimit):
@@ -100,17 +104,44 @@ def find_cluster_membership(method, rv_net_node_lst, rv_net_edge_map, nlimit=100
                         "MODULE_ID": [final_clst_ids[x] for x in final_clst_ids]})
     return rdf
 
-def main(annot_file: str, net_file: str, method: str, out_file: str):
+
+def select_edges(net_df: pd.DataFrame, wt_attr_name: str = 'wt',
+                 max_edges: int = None,
+                 reverse_order: bool = False):
+    if max_edges is None or max_edges >= net_df.shape[0]:
+        return net_df
+    cur_cols = net_df.columns
+    maxwt_attr_name = wt_attr_name + '_max'
+    net_df[maxwt_attr_name] = net_df[wt_attr_name].abs()
+    if reverse_order is True:
+        net_df = net_df.nsmallest(n=max_edges, columns=maxwt_attr_name)
+    else:
+        net_df = net_df.nlargest(n=max_edges, columns=maxwt_attr_name)
+    #print(net_df.iloc[0, :])
+    return net_df.loc[:, cur_cols]
+
+
+def main(annot_file: str, net_file: str,
+        wt_attr: str, max_edges: int, reverse_order: bool,
+        method: str, out_file: str):
     annot_df = du.load_annotation(annot_file)
     # tflst_df = du.map_atid2probes(pd.read_csv(tf_list_file, sep= r'\s+'),
     #                               annot_df)
-    rv_net = du.load_reveng_network(net_file)
+    rv_net = select_edges(du.load_reveng_network(net_file, wt_attr_name=wt_attr),
+                          wt_attr_name=wt_attr,
+                          max_edges=max_edges,
+                          reverse_order=reverse_order)
+    print("Columns : ", rv_net.columns)
     rv_net_node_lst = list(set(rv_net.source) | set(rv_net.target))
     print("No. of Nodes : ", len(rv_net_node_lst))
     rv_net_node_map = {y:x for x, y in enumerate(rv_net_node_lst)}
-    edge_rcds = rv_net.loc[:, ['source', 'target', 'wt']].to_records(index=False)
-    rv_net_edge_map = {(rv_net_node_map[x], rv_net_node_map[y]):
-                       (1/float(w)) for x, y, w in edge_rcds}
+    edge_rcds = rv_net.loc[:, ['source', 'target', wt_attr]].to_records(index=False)
+    if reverse_order is True:
+       rv_net_edge_map = {(rv_net_node_map[x], rv_net_node_map[y]):
+                          (1/float(w)) for x, y, w in edge_rcds}
+    else:
+       rv_net_edge_map = {(rv_net_node_map[x], rv_net_node_map[y]):
+                          float(w) for x, y, w in edge_rcds}
     print("No. of Edges : ", len(rv_net_edge_map))
 #     rv_net_graph: nx.Graph = nx.from_pandas_edgelist(rv_net, edge_attr='wt')
 #     comm_dict = partition(rv_net_graph)
@@ -121,6 +152,8 @@ def main(annot_file: str, net_file: str, method: str, out_file: str):
                                 col_names=['GENE'], probe_suffix='_PROBE',
                                 id_suffix='_ID')
     out_df.loc[:, ['GENE_ID', 'MODULE_ID']].to_csv(out_file, sep="\t")
+    global MODULE_RUNS
+    print("No. of Module Runs : ", MODULE_RUNS)
     #rdf.to_csv(out_file, sep="\t")
 
 
@@ -137,6 +170,12 @@ if __name__ == "__main__":
     PARSER.add_argument("reveng_network_file",
                         help="""network build from a reverse engineering methods
                                 (currenlty supported: eda, adj, tsv)""")
+    PARSER.add_argument("-t", "--wt_attr", type=str, default='wt',
+                        help="name of weight attribute")
+    PARSER.add_argument("-x", "--max_edges", type=int,
+                        help="""Maximum number of edges""")
+    PARSER.add_argument("-r", "--reverse_order", action='store_true',
+                        help="""Order the edges ascending order""")
     PARSER.add_argument("-o", "--out_file",
                         type=str,
                         help="output file in png format")
@@ -154,4 +193,5 @@ if __name__ == "__main__":
             ARGS.annotation_file, ARGS.reveng_network_file,
             METHOD_DESCRIPTION[ARGS.method], ARGS.out_file))
     main(ARGS.annotation_file, ARGS.reveng_network_file,
+         ARGS.wt_attr, ARGS.max_edges, ARGS.reverse_order,
          ARGS.method, ARGS.out_file)
