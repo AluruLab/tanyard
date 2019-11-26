@@ -8,11 +8,11 @@ import data_utils as du
 
 
 def block_low(rank, size, array_length):
-    return (rank*array_length) / size
+    return (rank*array_length) // size
 
 
 def block_high(rank, size, array_length):
-    return  (((rank+1)*array_length)/size) - 1
+    return  (((rank+1)*array_length)//size) - 1
 
 
 def block_size(rank, size, array_length):
@@ -20,7 +20,7 @@ def block_size(rank, size, array_length):
 
 
 def block_owner(idx, size, array_length):
-    return ((size) * ((idx)+1)-1)/(array_length)
+    return ((size) * ((idx)+1)-1)//(array_length)
 
 
 def select_edges(net_df: pd.DataFrame, wt_attr_name: str = 'wt',
@@ -44,7 +44,7 @@ def rand_label_distribution(nsize: int,
                             network_file: str,
                             wt_attr_name: str = 'wt',
                             max_edges: int = None) -> List[int]:
-    net_df: pd.DataFrame = select_edges(du.load_reveng_network(network_file),
+    net_df: pd.DataFrame = select_edges(du.load_reveng_network(network_file, wt_attr_name),
                                         wt_attr_name, max_edges)
     rev_net: nx.Graph = nx.from_pandas_edgelist(net_df, edge_attr=wt_attr_name)
     n_nodes = nx.number_of_nodes(rev_net)
@@ -65,15 +65,15 @@ def rand_label_distribution(nsize: int,
         spx_dict = nx.single_source_shortest_path_length(rev_net_nx, idx)
         for tgt, slength in spx_dict.items():
             sp_results[vdx, tgt] = slength
-    return n_nodes, sp_results
+    return list(nx.nodes(rev_net)), n_nodes, sp_results
 
 def jaccard_coeff_distribution(nsize: int,
                             nrank: int,
                             network_file: str,
                             wt_attr_name: str = 'wt',
                             max_edges: int = None,
-                            reverse_order: bool = False) -> List[int]:
-    net_df: pd.DataFrame = select_edges(du.load_reveng_network(network_file),
+                            reverse_order: bool = False):
+    net_df: pd.DataFrame = select_edges(du.load_reveng_network(network_file, wt_attr_name),
                                         wt_attr_name, max_edges, reverse_order)
     rev_net: nx.Graph = nx.from_pandas_edgelist(net_df, edge_attr=wt_attr_name)
     n_nodes = nx.number_of_nodes(rev_net)
@@ -96,25 +96,33 @@ def jaccard_coeff_distribution(nsize: int,
             [(idx, sdx) for sdx in range(proc_nodes)])
         for _, tgt, jcoeff in spx_dict:
             sp_results[vdx, tgt] = jcoeff
-    return rev_net, n_nodes, sp_results
+    return list(nx.nodes(rev_net)), n_nodes, sp_results
 
 
 def main(network_file, wt_attr, max_edges, reverse_order, out_file):
     comm = MPI.COMM_WORLD
     rank = comm.Get_rank()
     size = comm.Get_size()
-    rev_net, n_nodes, prop_data = jaccard_coeff_distribution(
+    node_names, n_nodes, prop_data = jaccard_coeff_distribution(
         size, rank, network_file, wt_attr, max_edges, reverse_order)
     recv_arr = None
     recv_df = None
     if rank == 0:
-        recv_arr = np.empty([n_nodes, n_nodes], dtype='i')
-        node_names = list(nx.nodes(rev_net))
-        recv_df = pd.DataFrame(recv_arr, index=node_names)
-    comm.Gather(prop_data, recv_arr, root=0)
+        recv_arr = np.empty(n_nodes * n_nodes)
+    rcv_counts = [block_size(i, size, n_nodes)*n_nodes for i in range(size)]
+    rcv_displ = [0 for _ in range(size)]
+    for i in range(1, size):
+        rcv_displ[i] = rcv_displ[i-1] + rcv_counts[i-1]
+    if rank == 0:
+        print(rcv_displ)
+    #comm.Gatherv(prop_data, recv_arr, root=0)
+    comm.Gatherv([prop_data.flatten(), rcv_counts[rank], MPI.DOUBLE], 
+                 [recv_arr, (rcv_counts, rcv_displ), MPI.DOUBLE], root=0)
     if rank == 0:
         #for i in range(size):
         #    assert np.allclose(recv_arr[i,:], i)
+        recv_arr = recv_arr.reshape((n_nodes, n_nodes))
+        recv_df = pd.DataFrame(recv_arr, index=node_names, columns=node_names)
         if out_file:
             recv_df.to_csv(out_file, sep="\t")
         else:
