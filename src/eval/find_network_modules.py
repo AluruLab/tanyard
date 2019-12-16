@@ -151,7 +151,7 @@ def main(annot_file: str, net_file: str,
     out_df = du.map_probes_cols(net_df=rdf, annot_df=annot_df,
                                 col_names=['GENE'], probe_suffix='_PROBE',
                                 id_suffix='_ID')
-    out_df.loc[:, ['GENE_ID', 'MODULE_ID']].to_csv(out_file, sep="\t")
+    out_df.loc[:, ['GENE_ID', 'MODULE_ID']].to_csv(out_file, sep="\t", index=False)
     global MODULE_RUNS
     print("No. of Module Runs : ", MODULE_RUNS)
     #rdf.to_csv(out_file, sep="\t")

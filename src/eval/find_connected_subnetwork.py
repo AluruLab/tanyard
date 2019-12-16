@@ -86,7 +86,7 @@ def find_connected_subnetwork_probes(annotation_file, network_file,
 
 if __name__ == "__main__":
     PROG_DESC = """
-    Add a genes to complete a subnetwork with genes
+    Add a genes to complete a subnetwork of a list of input genes
     """
     PARSER = argparse.ArgumentParser(description=PROG_DESC)
     PARSER.add_argument("annotation_file",

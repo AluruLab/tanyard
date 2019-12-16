@@ -89,7 +89,7 @@ def main(annot_file, pathway_nodes_file, net_file,
     nx.write_gml(spath_graph, out_file)
 
 if __name__ == "__main__":
-    PROG_DESC = """    """
+    PROG_DESC = """ Add edges to form a connected component """
     PARSER = argparse.ArgumentParser(description=PROG_DESC)
     PARSER.add_argument("annotation_file",
                         help="""annotation file
