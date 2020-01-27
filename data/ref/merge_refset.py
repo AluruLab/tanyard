@@ -10,7 +10,8 @@ INPUT_REFSET = {
     "ptregcs"      : "PlantRegMap-Chip-Seq.tsv",
     "ptregmerged"  : "PlantRegMap-Merged.tsv",
     "ptregcslit"   : "PlantRegMap-Chip-Seq-Lit.tsv",
-    "ptregmotfbs"  : "PlantRegMap-Motif-TFBS.tsv"
+    "ptregmotfbs"  : "PlantRegMap-Motif-TFBS.tsv",
+    "n2target"     : "n2target.tsv" 
 }
 
 INPUT_REFSET_COLS = {
@@ -23,7 +24,8 @@ INPUT_REFSET_COLS = {
     "ptregcs"      : (0, 2),
     "ptregmerged"  : (0, 1),
     "ptregcslit"   : (0, 2),
-    "ptregmotfbs"  : (0, 2)
+    "ptregmotfbs"  : (0, 2),
+    "n2target"     : (0, 1)
 }
 
 def merge_refset(edge_set, ref_file, tf_col=0, tgt_col=1):
