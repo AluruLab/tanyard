@@ -1,5 +1,6 @@
 import argparse
 import pandas as pd
+import numpy as np
 import networkx as nx
 import data_utils as du
 
@@ -40,13 +41,18 @@ def zero_div(numerator, denominator):
     return numerator/denominator
 
 
-def compute_tp_fp(gs_tru_edges, gs_fls_edges, rv_net_graph):
+def compute_tp_fp(gs_tru_edges, gs_fls_edges, rv_net_graph,
+                  wt_attr, reverse_order):
     fp_cts = 0
     tp_cts = 0
+    rv_tp_fp_edges = []
     for udx, vdx in gs_fls_edges:
         if udx in rv_net_graph and vdx in rv_net_graph:
             try:
                 if nx.shortest_path_length(rv_net_graph, udx, vdx) == 1:
+                    rv_tp_fp_edges.append([udx, vdx, False,
+                                           rv_net_graph[udx][vdx][wt_attr],
+                                           0.0, 0.0])
                     fp_cts += 1
             except nx.NetworkXNoPath:
                 pass
@@ -54,12 +60,40 @@ def compute_tp_fp(gs_tru_edges, gs_fls_edges, rv_net_graph):
         if udx in rv_net_graph and vdx in rv_net_graph:
             try:
                 if nx.shortest_path_length(rv_net_graph, udx, vdx) == 1:
+                    rv_tp_fp_edges.append([udx, vdx, True,
+                                           rv_net_graph[udx][vdx][wt_attr],
+                                           0, 0])
                     tp_cts += 1
             except nx.NetworkXNoPath:
                 pass
-    return tp_cts, fp_cts
+    prec = (float(tp_cts)/(tp_cts + fp_cts)) if (tp_cts + fp_cts) > 0 else 0
+    # recall 
+    recall = (float(tp_cts))/len(gs_tru_edges) if len(gs_tru_edges) > 0 else 0
+    # aupr
+    sorted(rv_tp_fp_edges, key=lambda x: x[3], reverse=reverse_order is False)
+    partial_tp_cts = 0
+    partial_fp_cts = 0
+    for idx, (udx, vdx, flag, _, _, _) in enumerate(rv_tp_fp_edges):
+        if flag is True:
+            partial_tp_cts += 1
+        else:
+            partial_fp_cts += 1
+        if len(gs_tru_edges) > 0:
+            rv_tp_fp_edges[idx][4] = (float(partial_tp_cts))/len(gs_tru_edges)
+        if (tp_cts + fp_cts) > 0:
+            rv_tp_fp_edges[idx][5] = (float(partial_tp_cts)/(partial_tp_cts + partial_fp_cts))
+    # TODO: For each point in rv_tp_fp_edges
+    #   compute precision, recall and add in an array
+    prc_xcoords = [x for (_, _, _, _, x, _ ) in rv_tp_fp_edges]
+    prc_ycoords = [y for (_, _, _, _, _, y ) in rv_tp_fp_edges]
+    aupr = np.trapz(prc_ycoords, prc_xcoords)
+    print("AUPR", max(prc_ycoords), min(prc_ycoords), max(prc_xcoords),
+                  min(prc_xcoords), aupr)
+    # call trapz to find area under that array
+    return tp_cts, fp_cts, prec, recall, aupr
 
-def shorest_path_graph(gs_net, rv_net_graph, max_dist, tf_col='TFPROBE', tgt_col='TARGETPROBE'):
+def shorest_path_graph(gs_net, rv_net_graph, max_dist,
+                       tf_col='TFPROBE', tgt_col='TARGETPROBE'):
     gs_spath = [shortest_path(rv_net_graph, x, y)
                 for x, y in zip(gs_net.loc[:, tf_col], gs_net.loc[:, tgt_col])]
     #gs_spath.sort()
@@ -82,7 +116,8 @@ def shorest_path_graph(gs_net, rv_net_graph, max_dist, tf_col='TFPROBE', tgt_col
     return dist_histogram, spath_graph
 
 
-def eval_network(rv_net, gs_net, max_dist, wt_attr='wt', tf_col='TFPROBE', tgt_col='TARGETPROBE'):
+def eval_network(rv_net, gs_net, max_dist, wt_attr,
+                 tf_col, tgt_col, reverse_order):
     rv_net_graph = nx.from_pandas_edgelist(rv_net, edge_attr=wt_attr)
     rv_net_nodes = set(rv_net.source) | set(rv_net.target)
     gs_nedges = gs_net.shape[0]
@@ -99,15 +134,16 @@ def eval_network(rv_net, gs_net, max_dist, wt_attr='wt', tf_col='TFPROBE', tgt_c
     #    gs_common_nodes, gs_common_edges)
     dist_histogram, spath_graph = shorest_path_graph(gs_net, rv_net_graph,
                                                      max_dist, tf_col, tgt_col)
-    tp_cts, fp_cts = compute_tp_fp(gs_tru_edges, gs_fls_edges, rv_net_graph)
-    prec = (float(tp_cts)/(tp_cts + fp_cts)) if (tp_cts + fp_cts) > 0 else 0
+    tp_cts, fp_cts, prec, recall, aupr = compute_tp_fp(gs_tru_edges, gs_fls_edges,
+                                                       rv_net_graph, wt_attr, reverse_order)
     hist_data = {
         'NVRT'  : nx.number_of_nodes(rv_net_graph),
         'NEDG'  : nx.number_of_edges(rv_net_graph),
         'NDENS' : nx.density(rv_net_graph),
         'DIST'  : [x for x in range(max_dist+1)],
         'EDGN'  : dist_histogram,
-        'FPCTS' : [(fp_cts, tp_cts, prec, prec*100) for _ in range(max_dist+1)],
+        'FPCTS' : [(fp_cts, tp_cts, prec, prec*100, 
+                    recall, recall*100, aupr) for _ in range(max_dist+1)],
         'PCTGS' : [zero_div(float(x)*100, gs_nedges) for x in dist_histogram],
         'PCTCM' : [zero_div(float(x)*100, gs_common_edges) for x in dist_histogram],
         'PCTSP' : [zero_div(float(x)*100, spath_graph.number_of_edges())
@@ -138,7 +174,8 @@ def eval_network_probes(annot_file, net_file, gs_file,
                           wt_attr_name=wt_attr,
                           max_edges=max_edges,
                           reverse_order=reverse_order)
-    hist_data = eval_network(rv_net, gs_net, max_dist, wt_attr)
+    hist_data = eval_network(rv_net, gs_net, max_dist, wt_attr,
+                             'TFPROBE', 'TARGETPROBE', reverse_order)
     hist_data['GSNETID'] = id_net_shape
     return hist_data
 
@@ -151,7 +188,7 @@ def compare_eval_network_probes(annot_file, net_files, gs_file, wt_attr,
         'GRGSTF', 'GRGSTGT', 'GTGSV', 'GRGSE', # 'GRCMV', 'GRCME', 'GRSPV', 'GRSPE'
         ] + [
             'EDGN'+str(y) for y in range(1, max_dist+1)] + [
-                'FP', 'TP', 'PREC', 'PRECPCT']
+                'FP', 'TP', 'PREC', 'PRECPCT', 'RECALL', 'RECALLPCT', 'AUPR']
     gs_cmp_data = {str(net_files[x]) :
                    [nhdat[x]['NVRT'], nhdat[x]['NEDG'], nhdat[x]['NDENS']] +
                    [nhdat[x]['GSNETID'][0], nhdat[x]['GSNETID'][1], nhdat[x]['GSNETID'][2]] +
@@ -161,7 +198,9 @@ def compare_eval_network_probes(annot_file, net_files, gs_file, wt_attr,
                    #[nhdat[x]['GRSP'][0][0], nhdat[x]['GRSP'][0][1]] +
                    [nhdat[x]['EDGN'][y] for y in range(1, max_dist+1)] +
                    [nhdat[x]['FPCTS'][0][0], nhdat[x]['FPCTS'][0][1],
-                    nhdat[x]['FPCTS'][0][2], nhdat[x]['FPCTS'][0][3]]
+                    nhdat[x]['FPCTS'][0][2], nhdat[x]['FPCTS'][0][3],
+                    nhdat[x]['FPCTS'][0][4], nhdat[x]['FPCTS'][0][5],
+                    nhdat[x]['FPCTS'][0][6]]
                    for x in range(len(net_files))}
     gs_cmp_data_df = pd.DataFrame(data=gs_cmp_data, index=clnames)
     print(gs_cmp_data_df.to_csv(sep='\t', index=True))
@@ -171,12 +210,13 @@ def eval_network_ids(net_file, gs_file, wt_attr,
                      max_dist, max_edges, reverse_order):
     gs_net = du.load_gsnetwork(gs_file)
     id_net_shape = [len(set(gs_net.TF)), len(set(gs_net.TARGET)), gs_net.shape[0]]
-    rv_net_df = du.load_tsv_network(net_file)
+    rv_net_df = du.load_tsv_network(net_file, wt_attr_name=wt_attr)
     rv_net = select_edges(rv_net_df,
                           wt_attr_name=wt_attr,
                           max_edges=max_edges,
                           reverse_order=reverse_order)
-    hist_data = eval_network(rv_net, gs_net, max_dist, wt_attr, 'TF', 'TARGET')
+    hist_data = eval_network(rv_net, gs_net, max_dist, wt_attr,
+                             'TF', 'TARGET', reverse_order)
     hist_data['GSNETID'] = id_net_shape
     return hist_data
 
