@@ -1,22 +1,32 @@
 import argparse
 from typing import List
 import data_utils as du
+import pandas as pd
 
 def main(annot_file: str, net_file: str, net_col_names: List[str],
          wt_attr: str, out_file: str):
     annot_df = du.load_annotation_alias(annot_file)
-    rv_net = du.load_reveng_network(net_file, wt_attr_name=wt_attr)
+    #rv_net = du.load_reveng_network(net_file, wt_attr_name=wt_attr)
+    rv_net = pd.read_csv(net_file, sep="\t")
+    print(rv_net.shape)
     net_col_ids = [x+'_id' for x in net_col_names]
     net_col_alias = [x+'_alias' for x in net_col_names]
     if 'ALIAS' in annot_df.columns:
         rdf = du.map_probes_cols_idalias(rv_net, annot_df, net_col_names)
-        sel_cols = net_col_ids + net_col_alias + [wt_attr]
+        print(rdf.columns)
+        sel_cols = net_col_names + net_col_ids + net_col_alias
+        sel_cols = sel_cols + [x for x in rv_net.columns if x not in sel_cols]
         rdf = rdf.loc[:, sel_cols]
     else:
         rdf = du.map_probes_cols(rv_net, annot_df, net_col_names)
-        sel_cols = net_col_ids + [wt_attr]
+        sel_cols = net_col_names + net_col_ids 
+        sel_cols = sel_cols + [x for x in rv_net.columns if x not in sel_cols]
         rdf = rdf.loc[:, sel_cols]
-    rdf.to_csv(out_file, sep="\t", index=False)
+    #rdf.sort_values(wt_attr, inplace=True)
+    if out_file.name.endswith("tsv"):
+        rdf.to_csv(out_file, sep="\t", index=False)
+    else:
+        rdf.to_csv(out_file, index=False)
 
 
 if __name__ == "__main__":
@@ -35,6 +45,6 @@ if __name__ == "__main__":
                         help="output file in tab-seperated format")
     ARGS = PARSER.parse_args()
     MAP_COL_NAMES = ARGS.network_cols.split(",")
-    print(ARGS)
+    print(ARGS, ARGS.out_file.name)
     main(ARGS.annotation_file, ARGS.reveng_network_file, MAP_COL_NAMES,
          ARGS.wt_attr, ARGS.out_file)

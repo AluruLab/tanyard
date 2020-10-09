@@ -2,7 +2,46 @@ from typing import List
 import argparse
 import pandas as pd
 import numpy as np
+import networkx as nx
 import data_utils as du
+
+def compute_tps(annot_file, gs_file, net_file,
+                wt_attr, max_edges, reverse_order):
+    annot_df = du.load_annotation(annot_file)
+    gs_net = du.load_gsnetwork(gs_file)
+    gs_net = gs_net.loc[:, ['TF', 'TARGET']]
+    # print("Network size (Before Probe Mapping)", gs_net.shape)
+    gs_net = du.map_probes(gs_net, annot_df)
+    gs_tru_edges = set((x, y) for x, y in zip(gs_net.loc[:, "TFPROBE"],
+                                              gs_net.loc[:, "TARGETPROBE"]))
+    #
+    #
+    rv_net = select_edges(du.load_reveng_network(net_file, wt_attr_name=wt_attr),
+                          wt_attr_name=wt_attr,
+                          max_edges=max_edges,
+                          reverse_order=reverse_order)
+    rv_net_graph = nx.from_pandas_edgelist(rv_net, edge_attr=wt_attr)
+    tp_edges = set([])
+    for udx, vdx in gs_tru_edges:
+        if udx in rv_net_graph and vdx in rv_net_graph:
+            try:
+                if nx.shortest_path_length(rv_net_graph, udx, vdx) == 1:
+                    tp_edges.add((udx, vdx) if udx < vdx else (vdx, udx))
+            except nx.NetworkXNoPath:
+                pass
+    return tp_edges
+
+def find_tp_weights(annot_file, gs_file, network_files,
+                    wt_attr, max_edges, reverse_order):
+    all_tps = set([])
+    all_net_tps = [compute_tps(annot_file, gs_file, net_file, wt_attr,
+                    max_edges, reverse_order) for net_file in network_files]
+    for net_tps in all_net_tps:
+        all_tps = all_tps | net_tps
+    print("""
+        Network TPS : """,  [len(net_tps) for net_tps in all_net_tps],
+                            len(all_tps))
+    return [float(len(net_tps))/float(len(all_tps)) for net_tps in all_net_tps]
 
 
 def select_smallest_edges(net_df: pd.DataFrame, wt_attr_name: str = 'wt',
@@ -68,31 +107,39 @@ def weighted_rank_network(network_files, network_names=None, network_weights=Non
 def main(network_files: List[str], network_names: str,
          network_weights: str, wt_attr: str, max_edges: int,
          max_out_edges: int, max_avg: int, out_file: str,
-         reverse_order: bool) -> bool:
+         reverse_order: bool, annotation_file: str, gs_network_file: str) -> bool:
     if network_names:
         network_names = network_names.split(",")
         if len(network_names) != len(network_files):
             print("Length of network names should be equal to length of network files")
             return False
-    if network_weights:
+    if network_weights is not None:
         network_weights = [float(x) for x in network_weights.split(",")]
         if len(network_weights) != len(network_files):
             print("Length of network weights should be equal to length of network files")
             return False
+    if (network_weights is None) and (gs_network_file is not None):
+        if annotation_file is None:
+            print("Given GS Network, need annotation.")
+            return False
+        network_weights = find_tp_weights(annotation_file, gs_network_file, network_files,
+                                            wt_attr, max_edges, reverse_order)
     print("""
        PARSED : network_names   : %s
-       PARSED : network_weights : %s """ % (str(network_names), str(network_weights)))
-    combine_df = weighted_rank_network(network_files, network_names, network_weights,
-                                       wt_attr, max_edges, max_out_edges, max_avg,
-                                       reverse_order)
+       PARSED/COMPUTED : network_weights : %s """ % (str(network_names),
+                                                     str(network_weights)))
+    combine_df = weighted_rank_network(network_files, network_names,
+                                       network_weights, wt_attr, max_edges,
+                                       max_out_edges, max_avg, reverse_order)
     combine_df.to_csv(out_file, sep='\t', index=False)
     return True
 
 
 if __name__ == "__main__":
     PROG_DESC = """
-    Finds a union of input networks.
-    Network union is computed as the union of edges of the input networks.
+    Compute a weighted rank integrated of the input networks.
+    Network integration is computed as the weighted average of the ranks
+    of edges of the input networks.
     Outputs a tab-seperated values with weights corresponding to each network
     in a separate column, and maximum and average weight.
     """
@@ -105,7 +152,8 @@ if __name__ == "__main__":
                                 should have as many names as the number of networks""")
     PARSER.add_argument("-w", "--network_weights", type=str,
                         help="""weights for  input networks;
-                                should have as many weights as the number of networks""")
+                                should have as many weights as the number of networks""",
+                        default=None)
     PARSER.add_argument("-g", "--max_avg", type=float, # default=1500000.0,
                         help="""maximum average rank allowed """)
     PARSER.add_argument("-x", "--max_edges", type=int,
@@ -116,6 +164,10 @@ if __name__ == "__main__":
                         help="name of weight attribute")
     PARSER.add_argument("-r", "--reverse_order", action='store_true',
                         help="""Order the edges ascending order""")
+    PARSER.add_argument("-a", "--annotation_file", type=str, default=None,
+                        help="Annotation File")
+    PARSER.add_argument("-s", "--gs_network_file", type=str, default=None,
+                        help="Gold standard network file")
     PARSER.add_argument("-o", "--out_file",
                         type=argparse.FileType(mode='w'), required=True,
                         help="output file in tab-seperated format")
@@ -129,11 +181,16 @@ if __name__ == "__main__":
        ARG : max_avg : %s
        ARG : wt_attr : %s
        ARG : reverse_order : %s
+       ARG : annotation_file : %s
+       ARG : gs_network_file : %s
        ARG : out_file : %s """ %
           (str(ARGS.network_files), str(ARGS.network_names), str(ARGS.network_weights),
            str(ARGS.max_edges), str(ARGS.max_out_edges), str(ARGS.max_avg),
-           str(ARGS.wt_attr), str(ARGS.reverse_order), str(ARGS.out_file)))
+           str(ARGS.wt_attr), str(ARGS.reverse_order),
+           str(ARGS.annotation_file), str(ARGS.gs_network_file), 
+           str(ARGS.out_file)))
     if not main(ARGS.network_files, ARGS.network_names, ARGS.network_weights,
                 ARGS.wt_attr, ARGS.max_edges, ARGS.max_out_edges,
-                ARGS.max_avg, ARGS.out_file, ARGS.reverse_order):
+                ARGS.max_avg, ARGS.out_file, ARGS.reverse_order,
+                ARGS.annotation_file, ARGS.gs_network_file):
         PARSER.print_usage()
