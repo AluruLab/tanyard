@@ -3,22 +3,25 @@ import argparse
 import pandas as pd
 import numpy as np
 
-def read_index_names(net_file: str) -> List[str]:
+def read_index_names(net_file: str, csv_flag: bool) -> List[str]:
     with open(net_file) as net_fptr:
         for header_line in net_fptr:
-            return header_line.strip().replace('"', '').split()
+            if csv_flag is True:
+                return header_line.strip().replace('"', '').split(",")
+            else:
+                return header_line.strip().replace('"', '').split()
 
 
-def union_index_names(network_files: Iterable[str]) -> List[str]:
+def union_index_names(network_files: Iterable[str], csv_flag: bool) -> List[str]:
     union_net_columns = set([])
     for net_fx in network_files:
-        net_columns = read_index_names(net_fx)
+        net_columns = read_index_names(net_fx, csv_flag)
         union_net_columns.update(net_columns)
     return sorted(list(union_net_columns))
 
 
-def main(network_files: Iterable[str], out_file: str) -> None:
-    union_row_names = union_index_names(network_files)
+def main(network_files: Iterable[str], out_file: str, csv_flag: bool) -> None:
+    union_row_names = union_index_names(network_files, csv_flag)
     union_col_names = union_row_names
     nrows = len(union_row_names)
     ncols = len(union_col_names)
@@ -27,7 +30,10 @@ def main(network_files: Iterable[str], out_file: str) -> None:
                             index=union_row_names)
     print("NROWS %d NCOLS %d" % (nrows, ncols))
     for net_fx in network_files:
-        net_df = pd.read_csv(net_fx, sep="\s+")
+        if csv_flag is True:
+            net_df = pd.read_csv(net_fx)
+        else:
+            net_df = pd.read_csv(net_fx, sep="\s+")
         net_col_names = net_df.columns
         net_row_names = net_df.index
         union_sub_df = union_df.loc[net_row_names, net_col_names]
@@ -50,9 +56,11 @@ if __name__ == "__main__":
     PARSER.add_argument("network_files", nargs="+",
                         help="""network build from a reverse engineering methods
                                 (currently supported: eda, adj, tsv)""")
+    PARSER.add_argument("-c", "--csv_flag", action='store_true', default=False,
+                        "Flag to check if csv or not (default: False)")
     PARSER.add_argument("-o", "--out_file",
                         type=argparse.FileType(mode='w'), required=True,
                         help="output file in matrix format")
     ARGS = PARSER.parse_args()
-    if main(ARGS.network_files, ARGS.out_file):
+    if main(ARGS.network_files, ARGS.out_file, ARGS.csv_flag):
         PARSER.print_usage()
