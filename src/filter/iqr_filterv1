@@ -3,7 +3,6 @@
 declare -A iqrtissues=(
   [flower]=0.45
   [leaf]=0.5
-#  [root]=0.475
   [root]=0.5
   [rosette]=0.425
   [seed]=0.525
@@ -14,29 +13,33 @@ declare -A iqrtissues=(
 )
 
 declare -A iqrconditions=(
-#  [stress-temperature]=0.475
   [stress-temperature]=0.5
   [stress-salt-drought]=0.5
   [stress-pathogen]=0.475
   [stress-other]=0.5
   [stress-light]=0.425
-#  [nutrients]=0.45
   [nutrients]=0.475
-#  [light]=0.425
   [light]=0.45
-#  [hormone-ja-sa-ethylene]=0.475
   [hormone-ja-sa-ethylene]=0.5
-#  [hormone-aba-iaa-ga-br]=0.45
   [hormone-aba-iaa-ga-br]=0.475
   [development]=0.45
   [chemical]=0.4
 )
 
 if [ "$#" -lt 1 ]; then
-     echo "Usage: iqr_filter_v1 ARRAY_CLASS_DIR [tissues/conditions]"
-     echo "If second arg is tissues, ARRAY_CLASS_DIR should have as sub-dirs EXP_DIRs for ${!iqrtissues[@]} "
-     echo "If second arg is conditions, ARRAY_CLASS_DIR should have as sub-dirs EXP_DIRs for ${!iqrconditions[@]} "
-     echo "If second arg is not given, ARRAY_CLASS_DIR should have as sub-dirs EXP_DIRs for all conditions and tissues "
+     echo
+     echo "  Usage: iqr_filter_v1 ARRAY_CLASS_DIR [tissues/conditions]"
+     echo "    Runs iqr_filter.R for all tissues/conditions with selected iqr threshold values"
+     echo "    See the script for the selected values"
+     echo 
+     echo "    If second arg is tissues, ARRAY_CLASS_DIR should have sub-dirs with expression data for tissues:"
+     echo "        ${!iqrtissues[@]} "
+     echo 
+     echo "    If second arg is conditions, ARRAY_CLASS_DIR should have sub-dirs with expression data for conditions: "
+     echo "        ${!iqrconditions[@]} "
+     echo 
+     echo "    If second arg is not given, ARRAY_CLASS_DIR should have sub-dirs with expression data all conditions and tissues "
+     echo 
      exit 0
 fi
 

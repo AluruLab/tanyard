@@ -1,5 +1,5 @@
-library(affy)
-library(limma)
+suppressMessages(library(affy))
+suppressMessages(library(limma))
 
 # get arguments
 quantile_norm <- function(infile, outfile) {
@@ -28,5 +28,7 @@ args = commandArgs(trailingOnly=TRUE)
 if(length(args) == 2){
     quantile_norm(infile=args[1], outfile=args[2])
 } else {
-   print("Usage: Rscript quantile.R <INFILE> <OUTFILE>")
+   print("Usage: Rscript quantile.R <IN_FILE> <OUT_FILE>")
+   print("<IN_FILE>: gene expression matrix (GENES X OBS.) R table fmt. (space seperated w. header)")
+   print("<OUT_FILE>: quantile normalized gene expression matrix (GENES X OBS.) R table fmt. (space seperated w. header)")
 }

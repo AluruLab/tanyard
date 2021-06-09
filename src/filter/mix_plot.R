@@ -1,8 +1,8 @@
-library(mclust)
-library(mixtools)
-library(plyr)
-library(ggplot2)
-library(grid)
+suppressMessages(library(mclust))
+suppressMessages(library(mixtools))
+suppressMessages(library(plyr))
+suppressMessages(library(ggplot2))
+suppressMessages(library(grid))
 
 # Multiple plot function
 # This function is from cookbook for R
@@ -106,10 +106,13 @@ if(length(args) == 2){
     multiplot(p1,p2, cols = 1)
     dev.off()
 } else {
-   print("Usage: Rscript mix_plot.R <INFILE> <OUT_PLOT>")
+   cat("\n")
+   cat("  Usage: Rscript mix_plot.R <INFILE> <OUT_PLOT>\n")
+   cat("    <INFILE> : Gene expression matrix (GENES X OBS.) in R table fmt.\n")
+   cat("    <OUT_PLOT> : Clusters the genes using 'log variace as features \n")
+   cat("                with a Gaussian Mixture Model using the mixtools and mclust R \n")
+   cat("                package and plots and Histogram of the variance with the predicted \n")
+   cat("                Gaussian Mixture Model\n")
+   cat("\n")
 }
 
-#mod3 = densityMclust(gsm$var, G=1:3)
-#for (x in 1:3) { 
-# p2 = p2 + stat_function(fun=sdnorm, args=list(mod3$parameters$mean[x], sqrt(mod3$parameters$variance$sigmasq), mod3$parameters$pro[x]), 
-# color="blue") } 

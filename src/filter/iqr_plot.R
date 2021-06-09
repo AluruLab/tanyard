@@ -1,6 +1,6 @@
-library(plyr)
-library(ggplot2)
-library(grid)
+suppressMessages(library(plyr))
+suppressMessages(library(ggplot2))
+suppressMessages(library(grid))
 
 # Multiple plot function
 # This function is from cookbook for R
@@ -179,5 +179,13 @@ if(length(args) == 2){
 } else if(length(args) == 3){
     iqr.plot(csvfn=args[1], opdf=args[2], type=args[3])
 } else {
-   print("Usage: Rscript iqr_plot.R <INFILE> <OUT_PLOT>")
+   cat("\n")
+   cat("  Usage: Rscript iqr_plot.R <INFILE> <OUT_PLOT> [bar/line/freq/genes] \n")
+   cat("    <INFILE> : gene expression matrix (GENES X OBS.) with header -- read by read.table \n")
+   cat("    <OUT_PLOT>:  output plot file in pdf -- saved with ggplot2::ggsave \n")
+   cat("    [bar/line/freq/genes] : Optional : types of plot \n")
+   cat("      By default, all plots are generated. \n")
+   cat("      bar/line/freq plot the iqr histogram in different ways \n")
+   cat("      genes plot is a step plot of the cumulative sum of no. genes \n")
+   cat("\n")
 }

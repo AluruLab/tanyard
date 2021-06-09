@@ -1,6 +1,3 @@
-# infile = Sys.getenv("R_IN")
-# outfile = Sys.getenv("R_OUT")
-# iqr = as.double(Sys.getenv("R_IQR"))
 
 
 iqr_filter = function(infile, outfile, iqr){
@@ -17,4 +14,7 @@ if(length(args) == 3){
     iqr_filter(infile=args[1], outfile=args[2], iqr=as.double(args[3]))
 } else {
    print("Usage: Rscript iqr_filter.R <INFILE> <OUTFILE> <IQR_VALUE>")
+   print("<INFILE>: gene expression matrix (GENES X OBS.) in R table fmt.")
+   print("<OUTFILE>: filtered gene expression matrix (GENES X OBS.) in R table fmt.")
+   print("<IQR_VALUE>: iqr threshold value; genes with IQR <= IQR_VALUE are filtered")
 }

@@ -13,4 +13,8 @@ csv_combine <- function(indir, outfile) {
 args = commandArgs(trailingOnly=TRUE)
 if(length(args) == 2){
     csv_combine(indir=args[1], outfile=args[2])
+} else {
+    print("Usage: Rscript csv_combine.R <IN_FILE> <OUT_FILE>")
+    print("<IN_FILE>: csv files generated from processing an experiment")
+    print("<OUT_FILE>: combined gene expression matrix (GENES X OBS.) in R table fmt.")
 }
