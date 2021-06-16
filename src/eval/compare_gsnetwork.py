@@ -87,8 +87,8 @@ def compute_tp_fp(gs_tru_edges, gs_fls_edges, rv_net_graph,
     prc_xcoords = [x for (_, _, _, _, x, _ ) in rv_tp_fp_edges]
     prc_ycoords = [y for (_, _, _, _, _, y ) in rv_tp_fp_edges]
     aupr = np.trapz(prc_ycoords, prc_xcoords)
-    print("AUPR", max(prc_ycoords), min(prc_ycoords), max(prc_xcoords),
-                  min(prc_xcoords), aupr)
+    #print("AUPR", max(prc_ycoords), min(prc_ycoords), max(prc_xcoords),
+    #              min(prc_xcoords), aupr)
     # call trapz to find area under that array
     return tp_cts, fp_cts, prec, recall, aupr
 
@@ -247,6 +247,7 @@ def compare_eval_network_ids(net_files, gs_file, wt_attr,
                    for x in range(len(net_files))}
     gs_cmp_data_df = pd.DataFrame(data=gs_cmp_data, index=clnames)
     print(gs_cmp_data_df.to_csv(sep='\t', index=True))
+    return gs_cmp_data_df
 
 
 def compare_eval_network_probe_ranges(annot_file, net_files, gs_file,
@@ -256,7 +257,7 @@ def compare_eval_network_probe_ranges(annot_file, net_files, gs_file,
     lstart = int(eranges.split(",")[0])
     rend = int(eranges.split(",")[1])
     edge_range = list(range(lstart, rend+1, step))
-    print(edge_range)
+    #print(edge_range)
     nhdat = [eval_network_probes(annot_file, fx, gs_file,
                                  wt_attr, max_dist, nedges, reverse_order)
              for nedges in edge_range for fx in net_files]
@@ -285,6 +286,7 @@ def compare_eval_network_probe_ranges(annot_file, net_files, gs_file,
                    for x in range(nentries)}
     gs_cmp_data_df = pd.DataFrame(data=gs_cmp_data, index=clnames)
     print(gs_cmp_data_df.to_csv(sep='\t', index=True))
+    return gs_cmp_data_df
 
 
 if __name__ == "__main__":
@@ -317,16 +319,35 @@ if __name__ == "__main__":
                         help="""Order the edges ascending order""")
     PARSER.add_argument("-p", "--prop_prefix", type=str, default="PROP",
                         help="""Prefix String for Properties""")
+    PARSER.add_argument("-o", "--out_file", type=str, default=None,
+                        help="output file in tab-seperated format")
     ARGS = PARSER.parse_args()
+    print("""
+       ARG : annotation_file : %s
+       ARG : gs_network_file : %s
+       ARG : reveng_network_files : %s
+       ARG : dist : %s
+       ARG : wt_attr : %s
+       ARG : max_edges : %s
+       ARG : range_edges : %s
+       ARG : reverse_order : %s
+       ARG : prop_prefix : %s
+       ARG : out_file : %s """ %
+          (str(ARGS.annotation_file), str(ARGS.gs_network_file), 
+           str(ARGS.reveng_network_files), str(ARGS.dist),
+           str(ARGS.wt_attr), str(ARGS.max_edges), str(ARGS.range_edges), 
+           str(ARGS.reverse_order), str(ARGS.prop_prefix),
+           str(ARGS.out_file)))
+    cmp_df = None
     if ARGS.range_edges is None:
         if ARGS.annotation_file == "-":
-            compare_eval_network_ids(ARGS.reveng_network_files,
+            cmp_df = compare_eval_network_ids(ARGS.reveng_network_files,
                                      ARGS.gs_network_file, ARGS.wt_attr,
                                      ARGS.dist, ARGS.max_edges,
                                      ARGS.reverse_order,
                                      ARGS.prop_prefix)
         else:
-            compare_eval_network_probes(ARGS.annotation_file,
+            cmp_df = compare_eval_network_probes(ARGS.annotation_file,
                                         ARGS.reveng_network_files,
                                         ARGS.gs_network_file,
                                         ARGS.wt_attr,
@@ -341,7 +362,7 @@ if __name__ == "__main__":
             #                         ARGS.dist, ARGS.max_edges)
             print("Option Not supported Yet!")
         else:
-            compare_eval_network_probe_ranges(ARGS.annotation_file,
+            cmp_df = compare_eval_network_probe_ranges(ARGS.annotation_file,
                                               ARGS.reveng_network_files,
                                               ARGS.gs_network_file,
                                               ARGS.wt_attr,
@@ -350,3 +371,6 @@ if __name__ == "__main__":
                                               ARGS.range_steps,
                                               ARGS.reverse_order,
                                               ARGS.prop_prefix)
+    # write to output file
+    if (cmp_df is not None) and (ARGS.out_file is not None): 
+        cmp_df.to_csv(out_file, sep='\t', index=False)
