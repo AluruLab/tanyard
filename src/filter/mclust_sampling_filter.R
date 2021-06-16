@@ -67,4 +67,7 @@ if(length(args) == 2){
                        nsample=as.numeric(args[3]))
 } else {
    print("Usage: Rscript mclust_sampling_filter.R <INFILE> <OUTFILE> [<NSAMPLES>]")
+   print("<INFILE>: gene expression matrix (GENES X OBS.) in R table fmt.")
+   print("<OUTFILE>: filtered gene expression matrix (GENES X OBS.) in R table fmt.")
+   print("[<NSAMPLES>] : optional number of samples for each subset size of obs. ")
 }

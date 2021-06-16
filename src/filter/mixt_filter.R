@@ -25,4 +25,6 @@ if(length(args) == 2){
     mixt_filter(infile=args[1], outfile=args[2])
 } else {
    print("Usage: Rscript mixt_filter.R <INFILE> <OUTFILE> ")
+   print("<INFILE>: gene expression matrix (GENES X OBS.) in R table fmt.")
+   print("<OUTFILE>: filtered gene expression matrix (GENES X OBS.) in R table fmt.")
 }

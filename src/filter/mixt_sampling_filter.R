@@ -124,5 +124,13 @@ if(length(args) == 3){
                        ntop=as.numeric(args[6]),
                        end=as.numeric(args[7]))
 } else {
+    print("")
    print("Usage: Rscript mixt_sampling_filter.R <INFILE> <OUTDIR> [<NSAMPLES> <START> <SLAB> <NTOP> <END>]")
+   print("<INFILE>: gene expression matrix (GENES X OBS.) in R table fmt.")
+   print("<OUTFILE>: filtered gene expression matrix (GENES X OBS.) in R table fmt.")
+   print("[<NSAMPLES>] : optional number of samples for each subset size of obs. ")
+   print("[<START>] : No. of observations to start with ")
+   print("[<END>] : number of observations to end with ")
+   print("[<SLAB>] : Steps in number of observations eg. start, start+step, start+2*step, ..., end ")
+   print("[<NTOP>] : Select <NTOP> best results to resport")
 }
