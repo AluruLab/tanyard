@@ -1,20 +1,25 @@
 Data Organization:
 ==================
 
+`<EXP_DIR>` is the root directory, in which all datasets are placed.
 
 Files are organized in the folders 
 
     <EXP_DIR>/CEL/<ACCESS_NAME_DIR>/<CEL_FILES>
 
-QC files are in the folder
+where `<ACCESS_NAME_DIR>` is the accession id, under which the files were
+submitted in ArrayExpress (AE) or GEO.
+
+QC files are generated for each submission in AE/GEO in the folder:
 
     <EXP_DIR>/QC/<ACCESS_NAME_DIR>/<QC_FILES>
 
-Final list of files are in the folders(s)
+Final list of QC-passed CEL files are softlinks and are placed 
+in the folders(s):
 
     <EXP_DIR>/FINAL/<ACCESS_NAME_DIR>/<SOFT_LINK_TO_CEL_FILES>
 
-TINGe QC Steps:
+Micorarray QC Steps:
 ===============
 
 Step 1 - Affymetrix QC
