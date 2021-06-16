@@ -24,24 +24,23 @@ def select_edges_wt(net_df: pd.DataFrame, wt_attr_name: str = 'wt',
     if reverse_order is True:
         if th_weight is None or th_weight > np.min(net_df[wt_attr_name]):
             return net_df
-        return net_df.loc[net_df[wt_attr_name] <= th_weight]
+        return net_df.loc[net_df[wt_attr_name] < th_weight]
     else:
+        print("Min value : ", th_weight, np.min(net_df[wt_attr_name]))
         if th_weight is None or th_weight < np.min(net_df[wt_attr_name]):
             return net_df
-        return net_df.loc[net_df[wt_attr_name] >= th_weight]
+        return net_df.loc[net_df[wt_attr_name] > th_weight]
 
 def main(network_file, output_file, wt_attr, th_weight, max_edges, reverse_order):
+    print(network_file, output_file, wt_attr, th_weight, max_edges, reverse_order)
     net_df = du.load_reveng_network(network_file, wt_attr_name=wt_attr)
-    print(net_df.columns)
-    print(net_df.dtypes)
-    print(th_weight)
-    print(max_edges)
-    if th_weight:
+    print(net_df.columns, net_df.dtypes, th_weight, max_edges)
+    if th_weight is not None:
         tmp_df = select_edges_wt(net_df, wt_attr_name=wt_attr,
                                  th_weight=th_weight, reverse_order=reverse_order)
     else:
         tmp_df = net_df
-    if max_edges:
+    if max_edges is not None:
         out_df = select_edges_ct(tmp_df, wt_attr_name=wt_attr,
                                  max_edges=max_edges, reverse_order=reverse_order)
     else:

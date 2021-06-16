@@ -1,6 +1,7 @@
 import argparse
 import numpy as np
 import pandas as pd
+import datetime
 from data_utils import load_reveng_network
 
 def abs_max(row_x):
@@ -28,10 +29,16 @@ def combine_network(network_files, network_names=None, max_edges: int = None, av
     if network_names is None:
         network_names = ['wt_'+str(ix) for ix in range(len(network_files))]
     cmb_network = pd.DataFrame(columns=['source', 'target'])
+    ix = 0
+    netx = len(network_names)
     for nx_name, nx_file in zip(network_names, network_files):
         ndf = select_edges(load_reveng_network(nx_file, nx_name), nx_name, max_edges)
         cmb_network = cmb_network.merge(ndf, how='outer', on=['source', 'target'])
-        #print(str(nx_name), nx_file, ndf.shape, cmb_network.columns, cmb_network.shape)
+        now = datetime.datetime.now()
+        ix += 1
+        print(now.strftime("%Y-%m-%d %H:%M:%S"), ": Loaded :", ix, "/",
+                netx, str(nx_name), nx_file, 
+                ndf.shape, cmb_network.columns, cmb_network.shape)
     if max_wt is True:
         cmb_network['wt'] = cmb_network[network_names].apply(abs_max, axis=1)
     if avg_wt is True:

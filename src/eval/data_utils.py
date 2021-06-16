@@ -306,6 +306,8 @@ def load_reveng_network(net_file: str, wt_attr_name: str = 'wt') -> pd.DataFrame
         return load_adj_network(net_file, wt_attr_name)
     if net_file.endswith(".tsv"):
         return load_tsv_network(net_file, wt_attr_name)
+    if net_file.endswith(".csv"):
+        return load_mat_network(net_file, wt_attr_name, ',')
     if net_file.endswith(".mat"):
         return load_mat_network(net_file, wt_attr_name)
     return pd.DataFrame({'source': [], 'target': [], wt_attr_name: []})

@@ -7,7 +7,8 @@ def read_index_names(net_file: str, csv_flag: bool) -> List[str]:
     with open(net_file) as net_fptr:
         for header_line in net_fptr:
             if csv_flag is True:
-                return header_line.strip().replace('"', '').split(",")
+                hdr = header_line.strip().replace('"', '').split(",")
+                return [x for x in hdr if len(x) > 0]
             else:
                 return header_line.strip().replace('"', '').split()
 
@@ -30,8 +31,9 @@ def main(network_files: Iterable[str], out_file: str, csv_flag: bool) -> None:
                             index=union_row_names)
     print("NROWS %d NCOLS %d" % (nrows, ncols))
     for net_fx in network_files:
+        print("Reading... ", net_fx)
         if csv_flag is True:
-            net_df = pd.read_csv(net_fx)
+            net_df = pd.read_csv(net_fx, index_col=0)
         else:
             net_df = pd.read_csv(net_fx, sep="\s+")
         net_col_names = net_df.columns
@@ -57,7 +59,7 @@ if __name__ == "__main__":
                         help="""network build from a reverse engineering methods
                                 (currently supported: eda, adj, tsv)""")
     PARSER.add_argument("-c", "--csv_flag", action='store_true', default=False,
-                        "Flag to check if csv or not (default: False)")
+                        help="Flag to check if csv or not (default: False)")
     PARSER.add_argument("-o", "--out_file",
                         type=argparse.FileType(mode='w'), required=True,
                         help="output file in matrix format")
