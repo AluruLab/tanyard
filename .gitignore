@@ -4,6 +4,13 @@ data/src/status/
 data/tables/bkup/
 data/tables/status/
 src/filter/plots/
+src/filter/run.log
+src/filter/runs/
+src/gcrma/runs/
+src/gcrma/gcrmadir/
+src/mas5/complete/
+src/qc/logs/
+src/qc/cpfiles
 tmp/
 .mypy_*
 *.pyc
