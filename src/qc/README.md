@@ -3,7 +3,7 @@ Data Organization:
 
 `<EXP_DIR>` is the root directory, in which all datasets are placed.
 
-Files are organized in the folders 
+Files are organized in the folders as below:
 
     <EXP_DIR>/CEL/<ACCESS_NAME_DIR>/<CEL_FILES>
 
@@ -14,7 +14,7 @@ QC files are generated for each submission in AE/GEO in the folder:
 
     <EXP_DIR>/QC/<ACCESS_NAME_DIR>/<QC_FILES>
 
-Final list of QC-passed CEL files are softlinks and are placed 
+Final list of QC-passed CEL files are created as softlinks and are placed 
 in the folders(s):
 
     <EXP_DIR>/FINAL/<ACCESS_NAME_DIR>/<SOFT_LINK_TO_CEL_FILES>
