@@ -6,13 +6,8 @@ src/qc, src/mas5, src/filter and src/annotation directories.
 A workflow for constructing a gene expression matrix is as follows:
 
 1. Download the datsaets from GEO/ArrayExpress(AE) and organize them as follows:
-
   `<EXP_DIR>` is the root directory, in which all datasets are placed.
-
-  Files are organized in the folders as below:
-
-    <EXP_DIR>/CEL/<ACCESS_NAME_DIR>/<CEL_FILES>
-
+  Files are organized in the folders: `<EXP_DIR>/CEL/<ACCESS_NAME_DIR>/<CEL_FILES>`,
   where `<ACCESS_NAME_DIR>` is the accession id, under which the files were
   submitted in ArrayExpress (AE) or GEO.
 2. Run Quality control using the scripts in src/qc directory.
